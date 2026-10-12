@@ -1,0 +1,21 @@
+{
+ "ExternalNotificationSubType1Code/CRED": "Gutschrift",
+ "ExternalNotificationSubType1Code/LIQI": "Liquidität",
+ "ExternalNotificationSubType1Code/LOAN": "Kredite",
+ "ExternalNotificationSubType1Code/PAOP": "Zahlungsverkehr",
+ "ExternalNotificationSubType1Code/SALE": "Vertrieb",
+ "ExternalNotificationSubType1Code/SERV": "Kundenbetreuung",
+ "ExternalNotificationType1Code/ADDR": "Adressänderung",
+ "ExternalNotificationType1Code/ATAC": "Kontobedingungen",
+ "ExternalNotificationType1Code/COUP": "Aktualisierung der Kontaktdaten",
+ "ExternalNotificationType1Code/CUHO": "Währungsfeiertag",
+ "ExternalNotificationType1Code/INCH": "Branchenänderungen",
+ "ExternalNotificationType1Code/INFO": "Informationsaustausch",
+ "ExternalNotificationType1Code/MERG": "Mitteilung über eine Fusion",
+ "ExternalNotificationType1Code/OPEN": "Änderung der Öffnungszeiten der Bankfiliale",
+ "ExternalNotificationType1Code/OTHR": "Sonstige",
+ "ExternalNotificationType1Code/SSIS": "Aktualisierung der Standard-Abwicklungsanweisungen",
+ "ExternalNotificationType1Code/SUSP": "Aussetzung",
+ "ExternalNotificationType1Code/SYST": "Antrag auf Systemzugang",
+ "ExternalNotificationType1Code/TERM": "Beendigung des Dienstes"
+}

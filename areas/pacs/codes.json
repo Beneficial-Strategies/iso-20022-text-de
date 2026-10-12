@@ -1,0 +1,5 @@
+{
+ "SettlementMethod2Code/CLRG": "Die Abwicklung erfolgt über ein Zahlungsclearingsystem.",
+ "SettlementMethod2Code/INDA": "Die Abwicklung erfolgt durch die Bank, die mit der Ausführung einer Zahlungsanweisung beauftragt wurde.",
+ "SettlementMethod2Code/INGA": "Die Abwicklung erfolgt durch die Bank, die die Zahlung anweist und an die nächste Partei in der Zahlungskette weiterleitet."
+}

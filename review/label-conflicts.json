@@ -1,0 +1,1072 @@
+{
+ "AccountOwnerTransactionIdentification": {
+  "chosen": "Transaktionsidentifikation des Kontoinhabers",
+  "candidates": {
+   "Transaktionsidentifikation des Kontoinhabers": 56,
+   "Transaktions-Identifikation des Kontoinhabers": 7
+  }
+ },
+ "AccountServicerReference": {
+  "chosen": "Referenz des Kontoführers",
+  "candidates": {
+   "Referenz des Kontoführers": 5,
+   "Referenz des kontoführenden Instituts": 3
+  }
+ },
+ "AccountServicerTransactionIdentification": {
+  "chosen": "Transaktionsidentifikation des Kontoführers",
+  "candidates": {
+   "Transaktionsidentifikation des Kontoführers": 63,
+   "Transaktions-Identifikation des Kontoführers": 8,
+   "Transaktionsidentifikation des kontoführenden Instituts": 1
+  }
+ },
+ "AdditionalEntryInformation": {
+  "chosen": "Zusätzliche Buchungsinformationen",
+  "candidates": {
+   "Zusätzliche Buchungsinformationen": 2,
+   "Zusätzliche Posteninformationen": 1
+  }
+ },
+ "AddressType": {
+  "chosen": "Adresstyp",
+  "candidates": {
+   "Adresstyp": 7,
+   "Adressart": 1
+  }
+ },
+ "AdjustmentAmountAndReason": {
+  "chosen": "Anpassungsbetrag und Grund",
+  "candidates": {
+   "Anpassungsbetrag und Grund": 2,
+   "Korrekturbetrag und -grund": 1
+  }
+ },
+ "AmendmentInformationDetails": {
+  "chosen": "Details der Änderungsinformationen",
+  "candidates": {
+   "Details der Änderungsinformationen": 1,
+   "Details zu den Änderungsinformationen": 1
+  }
+ },
+ "BankTransactionCode": {
+  "chosen": "Bank-Transaktionscode",
+  "candidates": {
+   "Bank-Transaktionscode": 3,
+   "Bankentransaktionscode": 1
+  }
+ },
+ "BilateralLimitCounterpartyIdentification": {
+  "chosen": "Gegenpartei-Identifikation des bilateralen Limits",
+  "candidates": {
+   "Gegenpartei-Identifikation des bilateralen Limits": 2,
+   "Identifikation der Gegenpartei des bilateralen Limits": 2
+  }
+ },
+ "Capabilities": {
+  "chosen": "Fähigkeiten",
+  "candidates": {
+   "Fähigkeiten": 1,
+   "Funktionen": 1
+  }
+ },
+ "CardCountryCode": {
+  "chosen": "Länderkennzeichen der Karte",
+  "candidates": {
+   "Länderkennzeichen der Karte": 1,
+   "Ländercode der Karte": 1
+  }
+ },
+ "CashDeposit": {
+  "chosen": "Bareinzahlung",
+  "candidates": {
+   "Bareinzahlung": 1,
+   "Bargeldeinzahlung": 1
+  }
+ },
+ "CashSubBalanceIdentification": {
+  "chosen": "Identifikation des Geld-Teilsaldos",
+  "candidates": {
+   "Identifikation des Geld-Teilsaldos": 5,
+   "Geld-Teilsaldoidentifikation": 1
+  }
+ },
+ "ChargeIncludedIndicator": {
+  "chosen": "Kennzeichen Entgelt enthalten",
+  "candidates": {
+   "Kennzeichen Entgelt enthalten": 1,
+   "Kennzeichen Entgelte enthalten": 1
+  }
+ },
+ "ClearingChannel": {
+  "chosen": "Clearingkanal",
+  "candidates": {
+   "Clearingkanal": 3,
+   "Clearing-Kanal": 1
+  }
+ },
+ "ClearingSystemIdentification": {
+  "chosen": "Clearingsystem-Identifikation",
+  "candidates": {
+   "Clearingsystem-Identifikation": 2,
+   "Identifikation des Clearingsystems": 1
+  }
+ },
+ "ClearingSystemMemberIdentification": {
+  "chosen": "Identifikation des Clearingsystem-Mitglieds",
+  "candidates": {
+   "Identifikation des Clearingsystem-Mitglieds": 6,
+   "Clearingsystem-Teilnehmer-Identifikation": 2,
+   "Mitgliedsidentifikation im Clearingsystem": 1
+  }
+ },
+ "ClearingSystemReference": {
+  "chosen": "Clearingsystem-Referenz",
+  "candidates": {
+   "Clearingsystem-Referenz": 8,
+   "Referenz des Clearingsystems": 1,
+   "Clearingsystemreferenz": 1
+  }
+ },
+ "Compensation": {
+  "chosen": "Ausgleich",
+  "candidates": {
+   "Ausgleich": 2,
+   "Vergütung": 1
+  }
+ },
+ "CorporateActionEventIdentification": {
+  "chosen": "Kapitalmaßnahmen-Ereignis-Identifikation",
+  "candidates": {
+   "Kapitalmaßnahmen-Ereignis-Identifikation": 70,
+   "Identifikation des Kapitalmaßnahmen-Ereignisses": 1
+  }
+ },
+ "CounterpartyIdentification": {
+  "chosen": "Gegenpartei-Identifikation",
+  "candidates": {
+   "Gegenpartei-Identifikation": 1,
+   "Identifikation der Gegenpartei": 1
+  }
+ },
+ "CountrySubDivision": {
+  "chosen": "Land-Untereinheit",
+  "candidates": {
+   "Land-Untereinheit": 4,
+   "Bundesland/Region": 2,
+   "Land-Untergliederung": 1
+  }
+ },
+ "CreditDebitIndicator": {
+  "chosen": "Soll-/Haben-Kennzeichen",
+  "candidates": {
+   "Soll-/Haben-Kennzeichen": 63,
+   "Haben-Soll-Kennzeichen": 17,
+   "Soll-Haben-Kennzeichen": 9,
+   "Gutschrift-/Belastungskennzeichen": 2
+  }
+ },
+ "CreditorSchemeIdentification": {
+  "chosen": "Schemaidentifikation des Zahlungsempfängers",
+  "candidates": {
+   "Schemaidentifikation des Zahlungsempfängers": 10,
+   "Gläubiger-Schema-Identifikation": 1
+  }
+ },
+ "CurrencyExchange": {
+  "chosen": "Währungsumtausch",
+  "candidates": {
+   "Währungsumtausch": 3,
+   "Währungsumrechnung": 1
+  }
+ },
+ "DateAndPlaceOfBirth": {
+  "chosen": "Geburtsdatum und -ort",
+  "candidates": {
+   "Geburtsdatum und -ort": 5,
+   "Geburtsdatum und Geburtsort": 1
+  }
+ },
+ "DateTime": {
+  "chosen": "Datum und Zeit",
+  "candidates": {
+   "Datum und Zeit": 10,
+   "Datum und Uhrzeit": 5
+  }
+ },
+ "DebitAuthorisation": {
+  "chosen": "Belastungsautorisierung",
+  "candidates": {
+   "Belastungsautorisierung": 2,
+   "Lastschrift-Autorisierung": 1
+  }
+ },
+ "DeliveryMethod": {
+  "chosen": "Lieferart",
+  "candidates": {
+   "Lieferart": 3,
+   "Zustellmethode": 1
+  }
+ },
+ "Denied": {
+  "chosen": "Abgelehnt",
+  "candidates": {
+   "Abgelehnt": 12,
+   "Verweigert": 1
+  }
+ },
+ "EffectiveDate": {
+  "chosen": "Wirksamkeitsdatum",
+  "candidates": {
+   "Wirksamkeitsdatum": 7,
+   "Gültigkeitsbeginn": 2
+  }
+ },
+ "ElectronicSignature": {
+  "chosen": "Elektronische Signatur",
+  "candidates": {
+   "Elektronische Signatur": 2,
+   "Elektronische Unterschrift": 1
+  }
+ },
+ "Entry": {
+  "chosen": "Posten",
+  "candidates": {
+   "Posten": 3,
+   "Buchung": 1
+  }
+ },
+ "EventType": {
+  "chosen": "Ereignistyp",
+  "candidates": {
+   "Ereignistyp": 30,
+   "Ereignisart": 1
+  }
+ },
+ "ExpectedValueDate": {
+  "chosen": "Erwartetes Valutadatum",
+  "candidates": {
+   "Erwartetes Valutadatum": 8,
+   "Erwartetes Wertstellungsdatum": 7
+  }
+ },
+ "ExpiryDate": {
+  "chosen": "Verfallsdatum",
+  "candidates": {
+   "Verfallsdatum": 28,
+   "Ablaufdatum": 1
+  }
+ },
+ "FinancialInstitutionIdentification": {
+  "chosen": "Finanzinstitut-Identifikation",
+  "candidates": {
+   "Finanzinstitut-Identifikation": 5,
+   "Identifikation des Finanzinstituts": 1,
+   "Finanzinstitutsidentifikation": 1
+  }
+ },
+ "FromDate": {
+  "chosen": "Von Datum",
+  "candidates": {
+   "Von Datum": 6,
+   "Von-Datum": 2
+  }
+ },
+ "FromTime": {
+  "chosen": "Von-Zeit",
+  "candidates": {
+   "Von-Zeit": 2,
+   "Von Uhrzeit": 1
+  }
+ },
+ "FromToDate": {
+  "chosen": "Datum von bis",
+  "candidates": {
+   "Datum von bis": 5,
+   "Von-bis Datum": 4,
+   "Von-Bis-Datum": 1,
+   "Datum von-bis": 1
+  }
+ },
+ "GarnishmentRemittance": {
+  "chosen": "Pfändungszahlung",
+  "candidates": {
+   "Pfändungszahlung": 3,
+   "Pfändungsüberweisung": 1
+  }
+ },
+ "Header": {
+  "chosen": "Kopfteil",
+  "candidates": {
+   "Kopfteil": 17,
+   "Kopf": 1
+  }
+ },
+ "Included": {
+  "chosen": "Enthalten",
+  "candidates": {
+   "Enthalten": 3,
+   "Eingeschlossen": 1
+  }
+ },
+ "InitialAmount": {
+  "chosen": "Ursprungsbetrag",
+  "candidates": {
+   "Ursprungsbetrag": 4,
+   "Anfangsbetrag": 1
+  }
+ },
+ "InstructedAgent": {
+  "chosen": "Angewiesene Bank",
+  "candidates": {
+   "Angewiesene Bank": 20,
+   "Beauftragte Bank": 2
+  }
+ },
+ "InstructedReimbursementAgent": {
+  "chosen": "Angewiesene Erstattungsbank",
+  "candidates": {
+   "Angewiesene Erstattungsbank": 3,
+   "Beauftragte Erstattungsbank": 2
+  }
+ },
+ "InstructedReimbursementAgentAccount": {
+  "chosen": "Konto der angewiesenen Erstattungsbank",
+  "candidates": {
+   "Konto der angewiesenen Erstattungsbank": 3,
+   "Konto der beauftragten Erstattungsbank": 1
+  }
+ },
+ "InstructingAgent": {
+  "chosen": "Anweisende Bank",
+  "candidates": {
+   "Anweisende Bank": 20,
+   "Beauftragende Bank": 3
+  }
+ },
+ "InstructingReimbursementAgent": {
+  "chosen": "Anweisende Erstattungsbank",
+  "candidates": {
+   "Anweisende Erstattungsbank": 3,
+   "Beauftragende Erstattungsbank": 2
+  }
+ },
+ "InstructingReimbursementAgentAccount": {
+  "chosen": "Konto der anweisenden Erstattungsbank",
+  "candidates": {
+   "Konto der anweisenden Erstattungsbank": 3,
+   "Konto der beauftragenden Erstattungsbank": 1
+  }
+ },
+ "InstructionForAssignee": {
+  "chosen": "Anweisung für Zuweisungsempfänger",
+  "candidates": {
+   "Anweisung für Zuweisungsempfänger": 1,
+   "Anweisung für den Zessionar": 1
+  }
+ },
+ "InstructionForCreditorAgent": {
+  "chosen": "Anweisung für die Bank des Zahlungsempfängers",
+  "candidates": {
+   "Anweisung für die Bank des Zahlungsempfängers": 13,
+   "Anweisung für Bank des Zahlungsempfängers": 1
+  }
+ },
+ "InstructionForDebtorAgent": {
+  "chosen": "Anweisung für die Bank des Zahlungspflichtigen",
+  "candidates": {
+   "Anweisung für die Bank des Zahlungspflichtigen": 5,
+   "Anweisung für Bank des Zahlungspflichtigen": 1
+  }
+ },
+ "InstructionForNextAgent": {
+  "chosen": "Anweisung für die nächste Bank",
+  "candidates": {
+   "Anweisung für die nächste Bank": 8,
+   "Anweisung für nächste Bank": 1
+  }
+ },
+ "InstructionIdentification": {
+  "chosen": "Anweisungsidentifikation",
+  "candidates": {
+   "Anweisungsidentifikation": 20,
+   "Anweisungs-Identifikation": 7
+  }
+ },
+ "InterbankSettlementAmount": {
+  "chosen": "Interbankenabwicklungsbetrag",
+  "candidates": {
+   "Interbankenabwicklungsbetrag": 13,
+   "Interbank-Abwicklungsbetrag": 4,
+   "Interbanken-Abwicklungsbetrag": 1
+  }
+ },
+ "InterbankSettlementDate": {
+  "chosen": "Interbankenabwicklungsdatum",
+  "candidates": {
+   "Interbankenabwicklungsdatum": 19,
+   "Interbank-Abwicklungsdatum": 5,
+   "Interbanken-Abwicklungsdatum": 2
+  }
+ },
+ "Intermediary": {
+  "chosen": "Intermediär",
+  "candidates": {
+   "Intermediär": 7,
+   "Zwischenbank": 2
+  }
+ },
+ "IntraBalanceMovementIdentification": {
+  "chosen": "Identifikation der Saldenbewegung innerhalb des Saldos",
+  "candidates": {
+   "Identifikation der Saldenbewegung innerhalb des Saldos": 6,
+   "Identifikation der Bewegung innerhalb des Saldos": 1
+  }
+ },
+ "IntraPositionMovementIdentification": {
+  "chosen": "Identifikation der Positionsbewegung innerhalb der Position",
+  "candidates": {
+   "Identifikation der Positionsbewegung innerhalb der Position": 12,
+   "Identifikation der Bewegung innerhalb der Position": 1
+  }
+ },
+ "Issuer": {
+  "chosen": "Emittent",
+  "candidates": {
+   "Emittent": 46,
+   "Herausgeber": 13,
+   "Aussteller": 2
+  }
+ },
+ "LastPageIndicator": {
+  "chosen": "Kennzeichen letzte Seite",
+  "candidates": {
+   "Kennzeichen letzte Seite": 1,
+   "Letzte-Seite-Kennzeichen": 1
+  }
+ },
+ "LimitIdentification": {
+  "chosen": "Limit-Identifikation",
+  "candidates": {
+   "Limit-Identifikation": 3,
+   "Limitidentifikation": 1
+  }
+ },
+ "LineDetails": {
+  "chosen": "Zeilendetails",
+  "candidates": {
+   "Zeilendetails": 1,
+   "Positionsdetails": 1
+  }
+ },
+ "LinkSetIdentification": {
+  "chosen": "Verknüpfungssatz-Identifikation",
+  "candidates": {
+   "Verknüpfungssatz-Identifikation": 1,
+   "Identifikation der Verknüpfungsgruppe": 1
+  }
+ },
+ "LinkSetOrderIdentification": {
+  "chosen": "Verknüpfungssatz-Auftrags-Identifikation",
+  "candidates": {
+   "Verknüpfungssatz-Auftrags-Identifikation": 1,
+   "Identifikation des Auftrags der Verknüpfungsgruppe": 1
+  }
+ },
+ "LinkSetOrderSequence": {
+  "chosen": "Verknüpfungssatz-Auftragsfolge",
+  "candidates": {
+   "Verknüpfungssatz-Auftragsfolge": 1,
+   "Auftragsreihenfolge der Verknüpfungsgruppe": 1
+  }
+ },
+ "Location": {
+  "chosen": "Standort",
+  "candidates": {
+   "Standort": 6,
+   "Ort": 5
+  }
+ },
+ "Long": {
+  "chosen": "Lang",
+  "candidates": {
+   "Lang": 2,
+   "Long": 1
+  }
+ },
+ "MarketInfrastructureTransactionIdentification": {
+  "chosen": "Transaktionsidentifikation der Marktinfrastruktur",
+  "candidates": {
+   "Transaktionsidentifikation der Marktinfrastruktur": 63,
+   "Transaktions-Identifikation der Marktinfrastruktur": 9
+  }
+ },
+ "MemberIdentification": {
+  "chosen": "Teilnehmer-Identifikation",
+  "candidates": {
+   "Teilnehmer-Identifikation": 6,
+   "Mitgliedsidentifikation": 1
+  }
+ },
+ "MessageIdentification": {
+  "chosen": "Nachrichtenidentifikation",
+  "candidates": {
+   "Nachrichtenidentifikation": 72,
+   "Nachrichten-Identifikation": 34
+  }
+ },
+ "MessageNameIdentification": {
+  "chosen": "Nachrichtennamen-Identifikation",
+  "candidates": {
+   "Nachrichtennamen-Identifikation": 7,
+   "Identifikation des Nachrichtennamens": 1,
+   "Nachrichtennamenidentifikation": 1
+  }
+ },
+ "MessagePagination": {
+  "chosen": "Nachrichten-Seitennummerierung",
+  "candidates": {
+   "Nachrichten-Seitennummerierung": 7,
+   "Nachrichten-Seitenaufteilung": 6,
+   "Seitennummerierung der Nachricht": 1
+  }
+ },
+ "NoteDenomination": {
+  "chosen": "Notenstückelung",
+  "candidates": {
+   "Notenstückelung": 1,
+   "Banknotenstückelung": 1
+  }
+ },
+ "Notification": {
+  "chosen": "Benachrichtigung",
+  "candidates": {
+   "Benachrichtigung": 4,
+   "Avis": 1
+  }
+ },
+ "Number": {
+  "chosen": "Zahl",
+  "candidates": {
+   "Zahl": 14,
+   "Nummer": 4
+  }
+ },
+ "NumberOfEntries": {
+  "chosen": "Anzahl der Posten",
+  "candidates": {
+   "Anzahl der Posten": 4,
+   "Anzahl der Buchungen": 1
+  }
+ },
+ "NumberOfNotes": {
+  "chosen": "Anzahl der Noten",
+  "candidates": {
+   "Anzahl der Noten": 1,
+   "Anzahl der Banknoten": 1
+  }
+ },
+ "OperationalError": {
+  "chosen": "Betrieblicher Fehler",
+  "candidates": {
+   "Betrieblicher Fehler": 12,
+   "Betriebsfehler": 2
+  }
+ },
+ "OriginalClearingSystemReference": {
+  "chosen": "Ursprüngliche Referenz des Clearingsystems",
+  "candidates": {
+   "Ursprüngliche Referenz des Clearingsystems": 2,
+   "Ursprüngliche Clearingsystem-Referenz": 2
+  }
+ },
+ "OriginalInstructedAmount": {
+  "chosen": "Ursprünglich angewiesener Betrag",
+  "candidates": {
+   "Ursprünglich angewiesener Betrag": 3,
+   "Ursprünglicher angewiesener Betrag": 2
+  }
+ },
+ "OriginalInstructionIdentification": {
+  "chosen": "Ursprüngliche Anweisungsidentifikation",
+  "candidates": {
+   "Ursprüngliche Anweisungsidentifikation": 14,
+   "Ursprüngliche Anweisungs-Identifikation": 4
+  }
+ },
+ "OriginalInterbankSettlementAmount": {
+  "chosen": "Ursprünglicher Interbank-Abwicklungsbetrag",
+  "candidates": {
+   "Ursprünglicher Interbank-Abwicklungsbetrag": 2,
+   "Ursprünglicher Interbanken-Abwicklungsbetrag": 2,
+   "Ursprünglicher Interbankenabwicklungsbetrag": 2
+  }
+ },
+ "OriginalInterbankSettlementDate": {
+  "chosen": "Ursprüngliches Interbank-Abwicklungsdatum",
+  "candidates": {
+   "Ursprüngliches Interbank-Abwicklungsdatum": 2,
+   "Ursprüngliches Interbanken-Abwicklungsdatum": 2,
+   "Ursprüngliches Interbankenabwicklungsdatum": 1
+  }
+ },
+ "OriginalMessageIdentification": {
+  "chosen": "Ursprüngliche Nachrichtenidentifikation",
+  "candidates": {
+   "Ursprüngliche Nachrichtenidentifikation": 8,
+   "Ursprüngliche Nachrichten-Identifikation": 6
+  }
+ },
+ "OriginalMessageNameIdentification": {
+  "chosen": "Ursprüngliche Nachrichtennamen-Identifikation",
+  "candidates": {
+   "Ursprüngliche Nachrichtennamen-Identifikation": 9,
+   "Ursprüngliche Identifikation des Nachrichtennamens": 2
+  }
+ },
+ "OriginalPaymentInformationIdentification": {
+  "chosen": "Ursprüngliche Identifikation der Zahlungsinformationen",
+  "candidates": {
+   "Ursprüngliche Identifikation der Zahlungsinformationen": 3,
+   "Identifikation der ursprünglichen Zahlungsinformationen": 3,
+   "Ursprüngliche Zahlungsinformationen-Identifikation": 1
+  }
+ },
+ "OriginalStatementIdentification": {
+  "chosen": "Ursprüngliche Kontoauszugs-Identifikation",
+  "candidates": {
+   "Ursprüngliche Kontoauszugs-Identifikation": 1,
+   "Ursprüngliche Kontoauszugsidentifikation": 1
+  }
+ },
+ "OriginalTransactionIdentification": {
+  "chosen": "Ursprüngliche Transaktionsidentifikation",
+  "candidates": {
+   "Ursprüngliche Transaktionsidentifikation": 7,
+   "Ursprüngliche Transaktions-Identifikation": 1
+  }
+ },
+ "Originator": {
+  "chosen": "Auftraggeber",
+  "candidates": {
+   "Auftraggeber": 11,
+   "Urheber": 3
+  }
+ },
+ "OtherTransactionIdentification": {
+  "chosen": "Sonstige Transaktions-Identifikation",
+  "candidates": {
+   "Sonstige Transaktions-Identifikation": 14,
+   "Sonstige Transaktionsidentifikation": 1
+  }
+ },
+ "Pagination": {
+  "chosen": "Seitenaufteilung",
+  "candidates": {
+   "Seitenaufteilung": 45,
+   "Seitennummerierung": 1
+  }
+ },
+ "PartyIdentification": {
+  "chosen": "Parteiidentifikation",
+  "candidates": {
+   "Parteiidentifikation": 8,
+   "Parteien-Identifikation": 4
+  }
+ },
+ "PaymentIdentification": {
+  "chosen": "Zahlungsidentifikation",
+  "candidates": {
+   "Zahlungsidentifikation": 12,
+   "Zahlungs-Identifikation": 4
+  }
+ },
+ "PaymentMethod": {
+  "chosen": "Zahlungsart",
+  "candidates": {
+   "Zahlungsart": 10,
+   "Zahlungsmethode": 5
+  }
+ },
+ "PlainCardData": {
+  "chosen": "Karten-Klartextdaten",
+  "candidates": {
+   "Karten-Klartextdaten": 1,
+   "Klartext-Kartendaten": 1
+  }
+ },
+ "PoolIdentification": {
+  "chosen": "Pool-Identifikation",
+  "candidates": {
+   "Pool-Identifikation": 51,
+   "Poolidentifikation": 1
+  }
+ },
+ "PreviousInstructingAgent1": {
+  "chosen": "Vorherige anweisende Bank 1",
+  "candidates": {
+   "Vorherige anweisende Bank 1": 9,
+   "Vorherige beauftragende Bank 1": 1
+  }
+ },
+ "PreviousInstructingAgent1Account": {
+  "chosen": "Konto der vorherigen anweisenden Bank 1",
+  "candidates": {
+   "Konto der vorherigen anweisenden Bank 1": 9,
+   "Konto der vorherigen beauftragenden Bank 1": 1
+  }
+ },
+ "PreviousInstructingAgent2": {
+  "chosen": "Vorherige anweisende Bank 2",
+  "candidates": {
+   "Vorherige anweisende Bank 2": 9,
+   "Vorherige beauftragende Bank 2": 1
+  }
+ },
+ "PreviousInstructingAgent2Account": {
+  "chosen": "Konto der vorherigen anweisenden Bank 2",
+  "candidates": {
+   "Konto der vorherigen anweisenden Bank 2": 9,
+   "Konto der vorherigen beauftragenden Bank 2": 1
+  }
+ },
+ "PreviousInstructingAgent3": {
+  "chosen": "Vorherige anweisende Bank 3",
+  "candidates": {
+   "Vorherige anweisende Bank 3": 9,
+   "Vorherige beauftragende Bank 3": 1
+  }
+ },
+ "PreviousInstructingAgent3Account": {
+  "chosen": "Konto der vorherigen anweisenden Bank 3",
+  "candidates": {
+   "Konto der vorherigen anweisenden Bank 3": 9,
+   "Konto der vorherigen beauftragenden Bank 3": 1
+  }
+ },
+ "PrivateIdentification": {
+  "chosen": "Privatidentifikation",
+  "candidates": {
+   "Privatidentifikation": 2,
+   "Identifikation einer Privatperson": 1
+  }
+ },
+ "ProcessingIdentification": {
+  "chosen": "Verarbeitungsidentifikation",
+  "candidates": {
+   "Verarbeitungsidentifikation": 36,
+   "Verarbeitungs-Identifikation": 1
+  }
+ },
+ "ProcessorTransactionIdentification": {
+  "chosen": "Transaktions-Identifikation des Verarbeiters",
+  "candidates": {
+   "Transaktions-Identifikation des Verarbeiters": 60,
+   "Transaktionsidentifikation des Verarbeiters": 1
+  }
+ },
+ "Proxy": {
+  "chosen": "Stimmrechtsvertreter",
+  "candidates": {
+   "Stimmrechtsvertreter": 4,
+   "Proxy": 4
+  }
+ },
+ "QueryType": {
+  "chosen": "Abfrageart",
+  "candidates": {
+   "Abfrageart": 19,
+   "Abfragetyp": 3
+  }
+ },
+ "QuotationDate": {
+  "chosen": "Kursdatum",
+  "candidates": {
+   "Kursdatum": 13,
+   "Notierungsdatum": 2
+  }
+ },
+ "QuotedCurrency": {
+  "chosen": "Kursnotierte Währung",
+  "candidates": {
+   "Kursnotierte Währung": 16,
+   "Notierte Währung": 2,
+   "Notierungswährung": 2
+  }
+ },
+ "ReceivingAgent": {
+  "chosen": "Empfangende Bank",
+  "candidates": {
+   "Empfangende Bank": 1,
+   "Empfangsagent": 1
+  }
+ },
+ "Record": {
+  "chosen": "Datensatz",
+  "candidates": {
+   "Datensatz": 7,
+   "Satz": 4
+  }
+ },
+ "RemittanceIdentification": {
+  "chosen": "Zahlungsavis-Identifikation",
+  "candidates": {
+   "Zahlungsavis-Identifikation": 4,
+   "Verwendungszweck-Identifikation": 1
+  }
+ },
+ "RemittanceLocationDetails": {
+  "chosen": "Details zum Zahlungsavis-Speicherort",
+  "candidates": {
+   "Details zum Zahlungsavis-Speicherort": 2,
+   "Details zum Ort der Zahlungsmitteilung": 1
+  }
+ },
+ "Repair": {
+  "chosen": "Reparatur",
+  "candidates": {
+   "Reparatur": 22,
+   "Korrektur": 1
+  }
+ },
+ "ReportingSequence": {
+  "chosen": "Berichtssequenz",
+  "candidates": {
+   "Berichtssequenz": 3,
+   "Berichtsfolge": 1
+  }
+ },
+ "RequestedValueDate": {
+  "chosen": "Gewünschtes Valutadatum",
+  "candidates": {
+   "Gewünschtes Valutadatum": 1,
+   "Gewünschtes Wertstellungsdatum": 1
+  }
+ },
+ "RequestHandling": {
+  "chosen": "Anforderungsbearbeitung",
+  "candidates": {
+   "Anforderungsbearbeitung": 2,
+   "Anfragebehandlung": 1
+  }
+ },
+ "RequestReference": {
+  "chosen": "Anforderungsreferenz",
+  "candidates": {
+   "Anforderungsreferenz": 6,
+   "Anfragereferenz": 3
+  }
+ },
+ "RequestType": {
+  "chosen": "Anfrageart",
+  "candidates": {
+   "Anfrageart": 4,
+   "Anfragetyp": 3
+  }
+ },
+ "ReservationIdentification": {
+  "chosen": "Reservierungsidentifikation",
+  "candidates": {
+   "Reservierungsidentifikation": 2,
+   "Reservierungs-Identifikation": 2
+  }
+ },
+ "Room": {
+  "chosen": "Raum",
+  "candidates": {
+   "Raum": 1,
+   "Zimmer": 1
+  }
+ },
+ "SecuritiesSettlementTransactionIdentification": {
+  "chosen": "Wertpapierabwicklungstransaktions-Identifikation",
+  "candidates": {
+   "Wertpapierabwicklungstransaktions-Identifikation": 15,
+   "Transaktionsidentifikation der Wertpapierabwicklung": 1
+  }
+ },
+ "SequenceNumber": {
+  "chosen": "Sequenznummer",
+  "candidates": {
+   "Sequenznummer": 14,
+   "Folgenummer": 1
+  }
+ },
+ "Service": {
+  "chosen": "Dienstleistung",
+  "candidates": {
+   "Dienstleistung": 4,
+   "Service": 1
+  }
+ },
+ "ServiceLevel": {
+  "chosen": "Servicelevel",
+  "candidates": {
+   "Servicelevel": 7,
+   "Servicestufe": 2
+  }
+ },
+ "ServiceType": {
+  "chosen": "Servicetyp",
+  "candidates": {
+   "Servicetyp": 1,
+   "Dienstleistungstyp": 1
+  }
+ },
+ "SettlementMethod": {
+  "chosen": "Abwicklungsmethode",
+  "candidates": {
+   "Abwicklungsmethode": 3,
+   "Abwicklungsverfahren": 2
+  }
+ },
+ "SettlementTimeIndication": {
+  "chosen": "Abwicklungszeitangabe",
+  "candidates": {
+   "Abwicklungszeitangabe": 10,
+   "Angabe zum Abwicklungszeitpunkt": 1
+  }
+ },
+ "Short": {
+  "chosen": "Kurz",
+  "candidates": {
+   "Kurz": 2,
+   "Short": 1
+  }
+ },
+ "Signature": {
+  "chosen": "Signatur",
+  "candidates": {
+   "Signatur": 6,
+   "Unterschrift": 1
+  }
+ },
+ "SourceCurrency": {
+  "chosen": "Ausgangswährung",
+  "candidates": {
+   "Ausgangswährung": 5,
+   "Quellwährung": 1
+  }
+ },
+ "StandingOrderIdentification": {
+  "chosen": "Dauerauftrags-Identifikation",
+  "candidates": {
+   "Dauerauftrags-Identifikation": 2,
+   "Dauerauftragsidentifikation": 2
+  }
+ },
+ "StatementIdentification": {
+  "chosen": "Kontoauszugsidentifikation",
+  "candidates": {
+   "Kontoauszugsidentifikation": 20,
+   "Auszugs-Identifikation": 1
+  }
+ },
+ "StatusReasonInformation": {
+  "chosen": "Statusgrund-Informationen",
+  "candidates": {
+   "Statusgrund-Informationen": 7,
+   "Informationen zum Statusgrund": 1
+  }
+ },
+ "SystemIdentification": {
+  "chosen": "System-Identifikation",
+  "candidates": {
+   "System-Identifikation": 9,
+   "Systemidentifikation": 2
+  }
+ },
+ "TaxIdentification": {
+  "chosen": "Steueridentifikation",
+  "candidates": {
+   "Steueridentifikation": 4,
+   "Steuer-Identifikation": 2
+  }
+ },
+ "TaxRemittance": {
+  "chosen": "Steuerzahlung",
+  "candidates": {
+   "Steuerzahlung": 3,
+   "Steuerüberweisung": 1
+  }
+ },
+ "ToDate": {
+  "chosen": "Bis Datum",
+  "candidates": {
+   "Bis Datum": 6,
+   "Bis-Datum": 2
+  }
+ },
+ "TotalTaxAmount": {
+  "chosen": "Gesamtsteuerbetrag",
+  "candidates": {
+   "Gesamtsteuerbetrag": 3,
+   "Steuergesamtbetrag": 1
+  }
+ },
+ "ToTime": {
+  "chosen": "Bis-Zeit",
+  "candidates": {
+   "Bis-Zeit": 1,
+   "Bis Uhrzeit": 1
+  }
+ },
+ "TransactionIdentification": {
+  "chosen": "Transaktionsidentifikation",
+  "candidates": {
+   "Transaktionsidentifikation": 51,
+   "Transaktions-Identifikation": 15
+  }
+ },
+ "TransferredAmount": {
+  "chosen": "Transferierter Betrag",
+  "candidates": {
+   "Transferierter Betrag": 2,
+   "Übertragener Betrag": 1
+  }
+ },
+ "Type": {
+  "chosen": "Typ",
+  "candidates": {
+   "Typ": 176,
+   "Art": 24
+  }
+ },
+ "Underlying": {
+  "chosen": "Zugrunde liegend",
+  "candidates": {
+   "Zugrunde liegend": 8,
+   "Zugrunde liegende Transaktion": 3
+  }
+ },
+ "UnderlyingIntraBalance": {
+  "chosen": "Zugrunde liegender Intra-Saldo",
+  "candidates": {
+   "Zugrunde liegender Intra-Saldo": 6,
+   "Zugrunde liegender untertägiger Saldo": 1
+  }
+ },
+ "UnitCurrency": {
+  "chosen": "Mengennotierte Währung",
+  "candidates": {
+   "Mengennotierte Währung": 19,
+   "Einheitenwährung": 3,
+   "Einheitswährung": 1,
+   "Währungseinheit": 1
+  }
+ },
+ "ValueDate": {
+  "chosen": "Valutadatum",
+  "candidates": {
+   "Valutadatum": 31,
+   "Wertstellungsdatum": 1
+  }
+ },
+ "ZeroSweepIndicator": {
+  "chosen": "Kennzeichen Nullsaldierung",
+  "candidates": {
+   "Kennzeichen Nullsaldierung": 3,
+   "Zero-Sweep-Kennzeichen": 1
+  }
+ }
+}

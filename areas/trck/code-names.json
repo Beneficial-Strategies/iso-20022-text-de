@@ -1,0 +1,7 @@
+{
+ "AmountConsistencyType1Code/CONS": "Konsistenter Betrag",
+ "AmountConsistencyType1Code/ICFA": "Inkonsistenter bestätigter Betrag",
+ "AmountConsistencyType1Code/ICGA": "Inkonsistenter Gebührenbetrag",
+ "AmountConsistencyType1Code/ICNS": "Inkonsistenter Betrag",
+ "AmountConsistencyType1Code/IISA": "Inkonsistenter Interbanken-Abwicklungsbetrag"
+}

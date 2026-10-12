@@ -1,0 +1,10 @@
+{
+ "AmountType3Choice": "Gibt den Geldbetrag an, der vor Abzug von Entgelten zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, ausgedrückt in der von der initiierenden Partei beauftragten Währung.",
+ "GroupHeader122": "Satz von Merkmalen, die für alle in der Nachricht enthaltenen Einzeltransaktionen gelten.",
+ "OriginalPaymentInformation10": "Liefert Angaben zur ursprünglichen Zahlungstransaktion, auf die sich die Avisnachricht bezieht.",
+ "RemittanceAdviceV07": "Die Nachricht RemittanceAdvice ermöglicht es dem Auftraggeber, Avisdetails bereitzustellen, die einer Zahlung zugeordnet werden können.",
+ "RemittanceInformation27": "Informationen, die den Abgleich einer Buchung mit den Posten ermöglichen, die durch die Zahlung beglichen werden sollen, z. B. Handelsrechnungen in einem Debitorenbuchhaltungssystem.",
+ "RemittanceLocation10": "Enthält Angaben zur Zahlungsavisierung.",
+ "RemittanceLocationAdviceV03": "Die Nachricht RemittanceLocationAdvice ermöglicht es dem Auftraggeber der Nachricht, anzugeben, wo sich das Zahlungsavis zu einer zugehörigen Zahlung befindet.",
+ "TransactionReferences8": "Identifiziert die zugrunde liegende Transaktion."
+}

@@ -1,0 +1,4 @@
+{
+ "AmountConsistencyType1Code": "Gibt eine Art von Betragsinkonsistenzen an, also ob der angegebene Betragstyp mit dem Referenzbetrag übereinstimmt oder nicht.",
+ "ExternalPaymentScenario1Code": "Gibt das Zahlungsszenario an, wie in einer externen Codeliste für Zahlungsszenarien veröffentlicht.|Externe Codelisten können unter www.iso20022.org heruntergeladen werden."
+}

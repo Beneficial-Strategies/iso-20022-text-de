@@ -1,0 +1,10 @@
+{
+ "AdviceType1Code": "Gibt die Art der im Bericht zurückzumeldenden Avisierung an.",
+ "ExternalAuthenticationChannel1Code": "Gibt den Kanal der Transaktionsauthentifizierung an, wie in einem externen Code-Set für Authentifizierungskanäle veröffentlicht.|Externe Code-Sets können unter www.iso20022.org heruntergeladen werden.",
+ "ExternalMandateReason1Code": "Gibt den externen Code für den Grund der Mandatsbearbeitung als Zeichenfolge mit maximal 4 Zeichen an.|Die Liste der gültigen Codes ist eine separat veröffentlichte externe Codeliste.|Externe Code-Sets können unter www.iso20022.org heruntergeladen werden.",
+ "ExternalMandateStatus1Code": "Gibt den externen Code für den Mandatsstatus als Zeichenfolge mit maximal 4 Zeichen an.|Die Liste der gültigen Codes ist eine separat veröffentlichte externe Codeliste.|Externe Code-Sets können unter www.iso20022.org heruntergeladen werden.",
+ "ExternalMandateSuspensionReason1Code": "Gibt den externen Code für den Grund der Mandatsaussetzung als Zeichenfolge mit maximal 4 Zeichen an.|Die Liste der gültigen Codes ist eine separat veröffentlichte externe Codeliste.|Externe Code-Sets können unter www.iso20022.org heruntergeladen werden.",
+ "PaymentMethod2Code": "Gibt die Übertragungsmethode an, die zur Übertragung des Bargelds verwendet wird.",
+ "PaymentMethod7Code": "Gibt die Übertragungsmethode an, die zur Übertragung des Bargelds verwendet wird.",
+ "SequenceType2Code": "Gibt an, ob eine einmalige Transaktion oder wiederkehrende Transaktionen abgedeckt sind."
+}
