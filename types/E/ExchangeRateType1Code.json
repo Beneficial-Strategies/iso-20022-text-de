@@ -1,0 +1,18 @@
+{
+  "isoType": "ExchangeRateType1Code",
+  "definition": "Gibt eine Art von Finanz- oder Handelsdokument an.",
+  "isoCodes": {
+    "SPOT": {
+      "name": "Kassa",
+      "definition": "Der angewandte Wechselkurs ist der Kassakurs."
+    },
+    "SALE": {
+      "name": "Verkauf",
+      "definition": "Der angewandte Wechselkurs ist der Marktkurs zum Zeitpunkt des Verkaufs."
+    },
+    "AGRD": {
+      "name": "Vereinbart",
+      "definition": "Der angewandte Wechselkurs ist der zwischen den Parteien vereinbarte Kurs."
+    }
+  }
+}

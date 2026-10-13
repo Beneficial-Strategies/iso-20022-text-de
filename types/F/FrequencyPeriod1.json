@@ -1,0 +1,12 @@
+{
+  "isoType": "FrequencyPeriod1",
+  "definition": "Definiert eine Häufigkeit als Anzahl pro Zeitraum für einen bestimmten Zeitraumtyp.",
+  "isoElements": {
+    "Type": {
+      "definition": "Zeitraum, für den die Anzahl der Anweisungen zu erstellen und zu verarbeiten ist."
+    },
+    "CountPerPeriod": {
+      "definition": "Anzahl der Anweisungen, die im angegebenen Zeitraum zu erstellen und zu verarbeiten sind."
+    }
+  }
+}

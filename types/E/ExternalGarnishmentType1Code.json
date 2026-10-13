@@ -1,0 +1,17 @@
+{
+  "isoType": "ExternalGarnishmentType1Code",
+  "isoCodes": {
+    "GNCS": {
+      "name": "Pfändung wegen Kindesunterhalt",
+      "definition": "Pfändung von einem Drittzahler für Kindesunterhalt"
+    },
+    "GNDP": {
+      "name": "Pfändung wegen Kindesunterhalt beim unmittelbaren Zahler",
+      "definition": "Pfändung von einem direkten Zahler für Kindesunterhalt"
+    },
+    "GTPP": {
+      "name": "Pfändung zugunsten der Steuerbehörde",
+      "definition": "Pfändung von einem Drittzahler an die Steuerbehörde"
+    }
+  }
+}

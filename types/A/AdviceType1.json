@@ -1,0 +1,12 @@
+{
+  "isoType": "AdviceType1",
+  "definition": "Gibt die Art der Avisierung an, die für die Transaktion zurückzumelden ist.",
+  "isoElements": {
+    "CreditAdvice": {
+      "definition": "Art der angeforderten Gutschriftsanzeige."
+    },
+    "DebitAdvice": {
+      "definition": "Art der angeforderten Belastungsanzeige."
+    }
+  }
+}

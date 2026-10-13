@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentLineType1Choice",
+  "definition": "Gibt die Art der Identifikation der Dokumentzeile an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der Zeilenidentifikation in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Art des Zahlungsavis-Dokuments."
+    }
+  }
+}

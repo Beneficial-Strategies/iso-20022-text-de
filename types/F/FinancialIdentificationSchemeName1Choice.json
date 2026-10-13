@@ -1,0 +1,12 @@
+{
+  "isoType": "FinancialIdentificationSchemeName1Choice",
+  "definition": "Mengen von Elementen zur Identifizierung eines Namens des Organisationsidentifikationsschemas.",
+  "isoElements": {
+    "Code": {
+      "definition": "Name des Identifikationsschemas in codierter Form, wie in einer externen Liste veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Name des Identifikationsschemas in Freitextform."
+    }
+  }
+}

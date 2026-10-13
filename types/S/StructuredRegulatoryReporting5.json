@@ -1,0 +1,29 @@
+{
+  "isoType": "StructuredRegulatoryReporting5",
+  "definition": "Aufgrund aufsichtsrechtlicher und gesetzlicher Anforderungen erforderliche Informationen.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art der in den Angaben zur aufsichtsrechtlichen Meldung bereitgestellten Informationen an."
+    },
+    "Date": {
+      "definition": "Datum im Zusammenhang mit der angegebenen Art der Angaben zur aufsichtsrechtlichen Meldung."
+    },
+    "Country": {
+      "definition": "Land im Zusammenhang mit der angegebenen Art der Angaben zur aufsichtsrechtlichen Meldung."
+    },
+    "ReportingCode": {
+      "definition": "Gibt in codierter Form Wesen, Zweck und Grund der Transaktion an, die für aufsichtsrechtliche und gesetzliche Anforderungen zu melden ist."
+    },
+    "Amount": {
+      "definition": "Geldbetrag, der für aufsichtsrechtliche und gesetzliche Anforderungen zu melden ist."
+    },
+    "Information": {
+      "definition": "Zusätzliche Angaben für spezifische nationale aufsichtsrechtliche Anforderungen."
+    }
+  },
+  "isoRules": {
+    "ReportingCodeAndInformationRule": {
+      "definition": "Meldecode oder Meldeinformation muss vorhanden sein. Beide dürfen vorhanden sein."
+    }
+  }
+}

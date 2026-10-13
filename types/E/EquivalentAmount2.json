@@ -1,0 +1,12 @@
+{
+  "isoType": "EquivalentAmount2",
+  "definition": "Geldbetrag, der zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, ausgedrückt in der Währung des Kontos des Zahlungspflichtigen und der Währung, in der der Betrag bewegt werden soll.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag, der vor Abzug von Entgelten zwischen Zahlungspflichtigem und Zahlungsempfänger zu bewegen ist, ausgedrückt in der Währung des Kontos des Zahlungspflichtigen und in einer anderen Währung zu bewegen.|Verwendung: Die erste Bank rechnet den Gegenwert in den zu bewegenden Betrag um."
+    },
+    "CurrencyOfTransfer": {
+      "definition": "Gibt die Währung des zu überweisenden Betrags an, die sich von der Währung des Kontos des Zahlungspflichtigen unterscheidet."
+    }
+  }
+}

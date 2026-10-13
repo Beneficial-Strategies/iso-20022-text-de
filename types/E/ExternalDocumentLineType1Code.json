@@ -1,0 +1,81 @@
+{
+  "isoType": "ExternalDocumentLineType1Code",
+  "isoCodes": {
+    "ADPI": {
+      "name": "Zusätzliche vom Hersteller vergebene Produktidentifikation",
+      "definition": "Die Positionsreferenz ist eine vom Hersteller vergebene zusätzliche Produktidentifikation."
+    },
+    "AISB": {
+      "name": "Alternative ISBN",
+      "definition": "Die Positionsreferenz ist eine alternative International Standard Book Number (ISBN)."
+    },
+    "ASNB": {
+      "name": "Anlagennummer",
+      "definition": "Die Positionsreferenz ist eine Anlagennummer."
+    },
+    "CTNB": {
+      "name": "Katalognummer",
+      "definition": "Die Positionsreferenz ist eine Katalognummer."
+    },
+    "DBSP": {
+      "name": "Dun & Bradstreet Standard-Produkt- und Dienstleistungscode",
+      "definition": "Die Positionsreferenz ist ein Dun & Bradstreet Standard Product and Service Code."
+    },
+    "EANN": {
+      "name": "Europäische Artikelnummer EAN 2551",
+      "definition": "Die Positionsreferenz ist eine Europäische Artikelnummer (EAN)."
+    },
+    "EINB": {
+      "name": "Geräteidentifikationsnummer",
+      "definition": "Die Positionsreferenz ist eine Gerätekennnummer."
+    },
+    "GSNB": {
+      "name": "Allgemeine Spezifikationsnummer",
+      "definition": "Die Positionsreferenz ist eine allgemeine Spezifikationsnummer."
+    },
+    "HIBC": {
+      "name": "HIBC-Strichcode der Gesundheitsbranche",
+      "definition": "Die Positionsreferenz ist ein Health Care Industry Bar Code (HIBC)"
+    },
+    "ISBN": {
+      "name": "Internationale Standardbuchnummer (ISBN)",
+      "definition": "Die Positionsreferenz ist eine International Standard Book Number (ISBN)."
+    },
+    "LTNB": {
+      "name": "Chargennummer",
+      "definition": "Die Positionsreferenz ist eine Chargennummer."
+    },
+    "MDNB": {
+      "name": "Modellnummer",
+      "definition": "Die Positionsreferenz ist eine Modellnummer"
+    },
+    "PRNB": {
+      "name": "Teilenummer",
+      "definition": "Die Positionsreferenz ist eine Teilereferenznummer."
+    },
+    "PTCD": {
+      "name": "Produktartcode",
+      "definition": "Die Positionsreferenz ist ein Produkttypcode."
+    },
+    "SKNB": {
+      "name": "Lagernummer",
+      "definition": "Die Positionsreferenz ist eine Lagernummer."
+    },
+    "STNB": {
+      "name": "Stilnummer",
+      "definition": "Die Positionsreferenz ist eine Modellnummer (Style)."
+    },
+    "TONB": {
+      "name": "Technische Auftragsnummer",
+      "definition": "Die Positionsreferenz ist eine technische Auftragsnummer."
+    },
+    "UPCC": {
+      "name": "UPC-Verbraucherverpackungscode",
+      "definition": "Die Positionsreferenz ist ein UPC-Verbraucherverpackungscode."
+    },
+    "UPNB": {
+      "name": "Universelle Produktnummer",
+      "definition": "Die Positionsreferenz ist eine Universal Product Number."
+    }
+  }
+}

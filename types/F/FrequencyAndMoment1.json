@@ -1,0 +1,12 @@
+{
+  "isoType": "FrequencyAndMoment1",
+  "definition": "Definiert eine Häufigkeit als bestimmten Zeitpunkt innerhalb eines angegebenen Zeitraumtyps.",
+  "isoElements": {
+    "Type": {
+      "definition": "Zeitraum, für den die Anzahl der Anweisungen zu erstellen und zu verarbeiten ist."
+    },
+    "PointInTime": {
+      "definition": "Weitere Angaben zum genauen Zeitpunkt, zu dem das Ereignis stattfinden soll."
+    }
+  }
+}

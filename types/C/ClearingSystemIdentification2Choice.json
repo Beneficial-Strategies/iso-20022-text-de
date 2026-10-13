@@ -1,0 +1,12 @@
+{
+  "isoType": "ClearingSystemIdentification2Choice",
+  "definition": "Auswahl einer Clearingsystem-Kennung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Identifikation eines Clearingsystems in codierter Form, wie in einer externen Liste veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Identifikationscode für ein Clearingsystem, das in der Liste der Clearingsysteme noch nicht erfasst ist."
+    }
+  }
+}

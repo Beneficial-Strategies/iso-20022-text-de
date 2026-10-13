@@ -1,0 +1,61 @@
+{
+  "isoType": "ExternalCreditorAgentInstruction1Code",
+  "isoCodes": {
+    "CHQB": {
+      "name": "Zahlungsempfänger per Scheck bezahlen",
+      "definition": "(Letztlicher) Zahlungsempfänger muss per Scheck bezahlt werden."
+    },
+    "HOLD": {
+      "name": "Bargeld für Zahlungsempfänger bereithalten",
+      "definition": "Der Geldbetrag ist für den (letztlichen) Zahlungsempfänger bereitzuhalten, der ihn abholen wird. Auszahlung gegen Identifikation."
+    },
+    "PHOB": {
+      "name": "Begünstigten anrufen",
+      "definition": "Bitte den (letztlichen) Zahlungsempfänger/Anspruchsberechtigten telefonisch benachrichtigen bzw. kontaktieren."
+    },
+    "PRTK": {
+      "name": "Zahler-Token angefordert",
+      "definition": "Zeigt an, dass ein Zahler-Token angefordert wird/verwendet wurde."
+    },
+    "RECI": {
+      "name": "Informationen zum Empfängerkunden",
+      "definition": "Weitere Informationen zum vorgesehenen Empfänger."
+    },
+    "TELB": {
+      "name": "Telekommunikation",
+      "definition": "Bitte den (letztlichen) Zahlungsempfänger/Anspruchsberechtigten auf dem effizientesten Telekommunikationsweg benachrichtigen bzw. kontaktieren."
+    },
+    "TKCM": {
+      "name": "Token-Gegenpartei stimmt nicht überein",
+      "definition": "Token mit abweichender Gegenpartei gefunden."
+    },
+    "TKSG": {
+      "name": "Token zur einmaligen Verwendung",
+      "definition": "Einmal-Token wurde bereits verwendet."
+    },
+    "TKSP": {
+      "name": "Token gesperrt",
+      "definition": "Token mit gesperrtem Status gefunden."
+    },
+    "TKVE": {
+      "name": "Wertgrenze des Tokens überschritten",
+      "definition": "Token mit Verstoß gegen eine Wertgrenzenregel gefunden."
+    },
+    "TKXP": {
+      "name": "Token abgelaufen",
+      "definition": "Token ist abgelaufen."
+    },
+    "TOKN": {
+      "name": "Token",
+      "definition": "Token-Informationen."
+    },
+    "VLTK": {
+      "name": "Token-Validierung",
+      "definition": "Zusätzliche Validierungsinformationen zur Verwendung in Verbindung mit dem Token."
+    },
+    "SEID": {
+      "name": "Sekundäre Identifikation",
+      "definition": "Verwendung der sekundären Identifikation des Kontos des Zahlungsempfängers (die sich auf ein Sammelkonto der Zentrale, eine Building-Society-Rollennummer oder die primäre Kontonummer einer Kreditkarte beziehen kann)."
+    }
+  }
+}

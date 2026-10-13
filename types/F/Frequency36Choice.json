@@ -1,0 +1,15 @@
+{
+  "isoType": "Frequency36Choice",
+  "definition": "Auswahl des Formats für eine Häufigkeit, zum Beispiel die Häufigkeit einer Zahlung.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt eine Häufigkeit in Form eines angegebenen Zeitraumtyps an."
+    },
+    "Period": {
+      "definition": "Gibt eine Häufigkeit in Form einer Anzahl pro Zeitraum innerhalb eines angegebenen Zeitraumtyps an."
+    },
+    "PointInTime": {
+      "definition": "Gibt eine Häufigkeit in Form eines genauen Zeitpunkts bzw. Moments innerhalb eines angegebenen Zeitraumtyps an."
+    }
+  }
+}

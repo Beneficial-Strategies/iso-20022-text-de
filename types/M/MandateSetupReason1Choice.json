@@ -1,0 +1,12 @@
+{
+  "isoType": "MandateSetupReason1Choice",
+  "definition": "Gibt den Grund für die Einrichtung des Mandats an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für die Einrichtung des Mandats, wie in einer externen Code-Liste für Gründe veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Grund für die Einrichtung des Mandats in proprietärer Form."
+    }
+  }
+}

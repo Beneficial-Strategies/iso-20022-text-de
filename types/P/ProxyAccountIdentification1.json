@@ -1,0 +1,12 @@
+{
+  "isoType": "ProxyAccountIdentification1",
+  "definition": "Informationen zu einer Proxy-Identifikation des Kontos.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art der Proxy-Identifikation."
+    },
+    "Identification": {
+      "definition": "Identifikation, die verwendet wird, um die Kontoidentifikation unter einem anderen angegebenen Namen anzugeben."
+    }
+  }
+}

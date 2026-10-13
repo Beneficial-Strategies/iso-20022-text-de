@@ -1,0 +1,461 @@
+{
+  "isoType": "ExternalLocalInstrument1Code",
+  "isoCodes": {
+    "19": {
+      "name": "Business-to-Customer-Lastschrift",
+      "definition": "Die Transaktion bezieht sich auf eine Business-to-Customer-Lastschrift (CSB19)."
+    },
+    "58": {
+      "name": "Business-to-Business-Lastschrift",
+      "definition": "Die Transaktion bezieht sich auf eine Business-to-Business-Lastschrift (CSB58)."
+    },
+    "60": {
+      "name": "Eingelöster Wechsel oder Schuldschein",
+      "definition": "LCR - Lettre de Change Relevé (eingezogener Wechsel) und BOR - Billet à Orde Relevé (Eigenwechsel)"
+    },
+    "82": {
+      "name": "Nicht vorautorisierte Lastschrift AT",
+      "definition": "Die Transaktion bezieht sich auf eine Lastschrift ohne vorherige Autorisierung (Einzugsermächtigung)."
+    },
+    "83": {
+      "name": "Vorautorisierte Lastschrift AT",
+      "definition": "Die Transaktion bezieht sich auf eine Lastschrift mit vorheriger Autorisierung (Abbuchungsauftrag)."
+    },
+    "85": {
+      "name": "Vorautorisierte Lastschrift Accéléré (beschleunigtes Clearing, 2 Tage) / Ordinaire (normales Clearing, 4 Tage)",
+      "definition": "Die Transaktion bezieht sich auf eine beschleunigte Lastschrift mit vorheriger Autorisierung (Avis de Prélèvement accéléré)."
+    },
+    "89": {
+      "name": "Vorautorisierte Lastschrift Vérifié (verifiziertes Clearing)",
+      "definition": "Die Transaktion bezieht sich auf eine beschleunigte Lastschrift mit vorheriger Autorisierung (Avis de Prélèvement vérifié)."
+    },
+    "0090": {
+      "name": "Massenzahlung (Entgelte zulasten des Begünstigten)",
+      "definition": "Die Transaktion bezieht sich auf eine Massenzahlung zulasten des Zahlungsempfängers."
+    },
+    "0091": {
+      "name": "Massenzahlung (Entgelte zulasten des Auftraggebers)",
+      "definition": "Die Transaktion bezieht sich auf eine Massenzahlung zulasten des Auftraggebers."
+    },
+    "0092": {
+      "name": "Massenzahlung (geteilte Entgelte)",
+      "definition": "Die Transaktion bezieht sich auf eine Massenzahlung mit geteilten Entgelten."
+    },
+    "0002": {
+      "name": "Dauerauftrag",
+      "definition": "Die Transaktion bezieht sich auf einen Dauerauftrag."
+    },
+    "0221": {
+      "name": "Einmalige Autorisierung",
+      "definition": "Die Transaktion bezieht sich auf eine einmalige Autorisierung."
+    },
+    "0224": {
+      "name": "Einmalige Autorisierung (Wohltätigkeitsorganisationen)",
+      "definition": "Die Transaktion bezieht sich auf eine einmalige Autorisierung für wohltätige Zwecke."
+    },
+    "0226": {
+      "name": "Einmalige Autorisierung (Bauwirtschaft)",
+      "definition": "Die Transaktion bezieht sich auf eine einmalige Autorisierung für die Bauwirtschaft."
+    },
+    "0225": {
+      "name": "Einmalige Autorisierung (Studiengebühren)",
+      "definition": "Die Transaktion bezieht sich auf eine einmalige Autorisierung für Studiengebühren."
+    },
+    "0222": {
+      "name": "Dauerhafte Autorisierung (Unternehmen)",
+      "definition": "Die Transaktion bezieht sich auf eine Dauerautorisierung für Unternehmen."
+    },
+    "0227": {
+      "name": "Dauerhafte Autorisierung (Unternehmen, ohne Widerrufsrecht des Zahlungspflichtigen)",
+      "definition": "Die Transaktion bezieht sich auf eine Dauerautorisierung für Unternehmen ohne Widerspruchsrecht des Zahlungspflichtigen."
+    },
+    "0220": {
+      "name": "Dauerhafte Autorisierung (allgemein)",
+      "definition": "Die Transaktion bezieht sich auf eine allgemeine Dauerautorisierung."
+    },
+    "0223": {
+      "name": "Dauerhafte Autorisierung (Lotterien)",
+      "definition": "Die Transaktion bezieht sich auf eine Dauerautorisierung für Lotterien."
+    },
+    "0001": {
+      "name": "Umgewandelte Bankzahlung",
+      "definition": "Die Transaktion bezieht sich auf eine konvertierte (Bank-)Zahlung.|Umwandlung eines physischen Instruments in elektronische Form zur Übermittlung an die zahlende Bank, wobei das ursprüngliche Papierdokument nicht weiter im Clearing-Prozess verbleibt. Die Instrumentenregeln ändern sich mit der Umwandlung."
+    },
+    "0000": {
+      "name": "Geschäftszahlung",
+      "definition": "Die Transaktion bezieht sich auf eine Geschäftszahlung"
+    },
+    "BTR": {
+      "name": "Banküberweisung",
+      "definition": "Die Transaktion bezieht sich auf eine Banküberweisung."
+    },
+    "CKS": {
+      "name": "Scheck mit taggleicher Abwicklung per Überweisung",
+      "definition": "Die Transaktion bezieht sich auf eine Scheck-Wire-Abwicklung am selben Tag."
+    },
+    "CTR": {
+      "name": "Kundenüberweisung",
+      "definition": "Die Transaktion bezieht sich auf eine Kundenüberweisung."
+    },
+    "CTP": {
+      "name": "Kundenüberweisung Plus",
+      "definition": "Die Transaktion bezieht sich auf eine Kundenüberweisung, die Informationen zu einer Deckungszahlung oder erweiterte Verwendungszweck-Informationen enthalten kann."
+    },
+    "DEP": {
+      "name": "Einzahlung auf das Konto des Absenders",
+      "definition": "Die Transaktion bezieht sich auf eine Einzahlung auf das Konto des Absenders."
+    },
+    "FFR": {
+      "name": "Fed Funds zurückgegeben",
+      "definition": "Die Transaktion bezieht sich auf zurückgegebene Fed Funds."
+    },
+    "FFS": {
+      "name": "Fed Funds verkauft",
+      "definition": "Die Transaktion bezieht sich auf verkaufte Fed Funds."
+    },
+    "SVC": {
+      "name": "Servicenachricht ohne Wert",
+      "definition": "Die Transaktion bezieht sich auf eine wertlose Servicenachricht."
+    },
+    "DRW": {
+      "name": "Drawdown-Antwort (Wert zur Erfüllung einer Drawdown-Anforderung)",
+      "definition": "Die Transaktion bezieht sich auf eine Drawdown-Antwort (mit Wert) zur Erfüllung einer Drawdown-Anforderung."
+    },
+    "DRB": {
+      "name": "Drawdown-Anforderung oder -Antwort zwischen Banken (ohne Wert)",
+      "definition": "Die Transaktion bezieht sich auf eine Drawdown-Anforderung oder -Antwort zwischen Banken (ohne Wert)"
+    },
+    "DRC": {
+      "name": "Drawdown-Anforderung oder -Antwort von Kunde bzw. Unternehmen (ohne Wert)",
+      "definition": "Die Transaktion bezieht sich auf eine Drawdown-Anforderung oder -Antwort eines Kunden oder Unternehmens (ohne Wert)."
+    },
+    "DDMC": {
+      "name": "Lastschrift (bestätigtes elektronisches Mandat)",
+      "definition": "Die Transaktion bezieht sich auf eine Lastschriftanweisung, die auf Grundlage eines bestätigten elektronischen Mandats autorisiert wurde."
+    },
+    "DDMP": {
+      "name": "Lastschrift (Papiermandat mit Papierautorisierung)",
+      "definition": "Die Transaktion bezieht sich auf eine Lastschriftanweisung, die auf Grundlage eines papierbasierten Mandats autorisiert wurde, gestützt auf eine vom Zahlungspflichtigen unterzeichnete schriftliche Autorisierung."
+    },
+    "DDMU": {
+      "name": "Lastschrift (unbestätigtes elektronisches Mandat)",
+      "definition": "Die Transaktion bezieht sich auf eine Lastschriftanweisung, die auf Grundlage eines unbestätigten elektronischen Mandats autorisiert wurde, das der Bestätigung durch den Zahlungspflichtigen bedarf."
+    },
+    "BPA": {
+      "name": "Sammelzahlungen Aruba",
+      "definition": "Die Transaktion bezieht sich auf eine Sofortüberweisung nach den Regeln der Centrale Bank van Aruba auf Grundlage des EPC SCT Inst-Verfahrens mit einer bestimmten Batch-Timeout-Verzögerung."
+    },
+    "IPA": {
+      "name": "Sofortzahlungen Aruba",
+      "definition": "Die Transaktion bezieht sich auf eine Sofortüberweisung nach den Regeln der Centrale Bank van Aruba auf Grundlage des EPC SCT Inst-Verfahrens."
+    },
+    "TRF": {
+      "name": "Überweisungen",
+      "definition": "Die Transaktion bezieht sich auf Überweisungen"
+    },
+    "CPP": {
+      "name": "Bargeld per Post",
+      "definition": "Die Transaktion bezieht sich auf Barauszahlung per Post.|Transaktion an den letztlichen Empfänger ohne Bankkonto. Der Hauptbegünstigte ist ein Postdienstleister. Die Gelder werden bar ausgezahlt. Zusätzlich erforderliche Informationen zu Adresse und Zustelloptionen sind beizufügen."
+    },
+    "RTR": {
+      "name": "Zurückgegebene Überweisungen",
+      "definition": "Die Transaktion bezieht sich auf zurückgegebene Überweisungen."
+    },
+    "GST": {
+      "name": "Truncated Überweisungen",
+      "definition": "Die Transaktion bezieht sich auf abgekürzte (truncated) Überweisungen.|Umwandlung eines physischen Instruments in elektronische Form zur Übermittlung an die zahlende Bank, wobei das ursprüngliche Papierdokument nicht weiter im Clearing-Prozess verbleibt..Die Regeln des ursprünglichen Instruments gelten über die gesamte Lebensdauer des Instruments fort.|Transaktion, die durch einen bestimmten gekennzeichneten und ausgefüllten Papierbeleg ausgelöst wird.|Die Abstimmungsreferenz ist durch Prüfziffern gesichert, die eine sichere optische Erkennung unterstützen. Alle übrigen Verwendungszweck-Informationen werden vor der Übermittlung abgeschnitten."
+    },
+    "DDT": {
+      "name": "Lastschriften",
+      "definition": "Die Transaktion bezieht sich auf Lastschriften."
+    },
+    "RDD": {
+      "name": "Zurückgegebene Lastschriften",
+      "definition": "Die Transaktion bezieht sich auf zurückgegebene Lastschriften."
+    },
+    "CHN": {
+      "name": "Truncated Schecks",
+      "definition": "Die Transaktion bezieht sich auf abgekürzte (truncated) Schecks.|Umwandlung eines physischen Instruments in elektronische Form zur Übermittlung an die zahlende Bank, wobei das ursprüngliche Papierdokument nicht weiter im Clearing-Prozess verbleibt..Die Regeln des ursprünglichen Instruments gelten über die gesamte Lebensdauer des Instruments fort."
+    },
+    "STR": {
+      "name": "Widerrufene Überweisungen",
+      "definition": "Die Transaktion bezieht sich auf widerrufene Überweisungen"
+    },
+    "SDD": {
+      "name": "Widerrufene Lastschriften",
+      "definition": "Die Transaktion bezieht sich auf widerrufene Lastschriften."
+    },
+    "SRT": {
+      "name": "Widerrufene zurückgegebene Überweisungen",
+      "definition": "Die Transaktion bezieht sich auf widerrufene zurückgegebene Überweisungen"
+    },
+    "SRD": {
+      "name": "Widerrufene zurückgegebene Lastschriften",
+      "definition": "Die Transaktion bezieht sich auf widerrufene zurückgegebene Lastschriften."
+    },
+    "SCN": {
+      "name": "Widerrufene Truncated Schecks",
+      "definition": "Die Transaktion bezieht sich auf widerrufene abgekürzte (truncated) Schecks."
+    },
+    "SGT": {
+      "name": "Widerrufene Truncated Überweisungen",
+      "definition": "Die Transaktion bezieht sich auf widerrufene abgekürzte (truncated) Überweisungen."
+    },
+    "CARD": {
+      "name": "Kartenclearing",
+      "definition": "Die Transaktion bezieht sich auf das Kartenclearing."
+    },
+    "05": {
+      "name": "Nicht vorautorisierte Lastschrift DE",
+      "definition": "Die Transaktion bezieht sich auf eine Lastschrift ohne vorherige Autorisierung (Einzugsermächtigung)."
+    },
+    "04": {
+      "name": "Vorautorisierte Lastschrift DE",
+      "definition": "Die Transaktion bezieht sich auf eine Lastschrift mit vorheriger Autorisierung (Abbuchungsauftrag)."
+    },
+    "ISE": {
+      "name": "Bildbasierter Scheckeinzug",
+      "definition": "Die Transaktion bezieht sich auf das deutsche Verfahren zum bildgestützten Scheckeinzug „Imagegestützter Scheckeinzug - ISE“"
+    },
+    "BSE": {
+      "name": "Papierloser Scheckeinzug",
+      "definition": "Die Transaktion bezieht sich auf das deutsche Verfahren zum beleglosen Scheckeinzug „Belegloser Scheckeinzug - BSE“"
+    },
+    "ASTI": {
+      "name": "Überweisungsinitiierung durch Nebensystem",
+      "definition": "Zeigt an, dass die Zahlung von einem autorisierten Dritten im Auftrag des Teilnehmers gesendet wird."
+    },
+    "BACP": {
+      "name": "Backup-Zahlung",
+      "definition": "Zeigt an, dass die Zahlung manuell über eine GUI (Graphical User Interface) initiiert wurde."
+    },
+    "MANP": {
+      "name": "Mandatierte Zahlung",
+      "definition": "Zeigt an, dass die Zahlung im Notfall von der zuständigen Zentralbank im Auftrag des Teilnehmers gesendet wird."
+    },
+    "SBTI": {
+      "name": "Überweisungsinitiierung durch Abwicklungsbank",
+      "definition": "Zeigt an, dass die Zahlung eingereicht wird, um Liquidität auf das technische Konto zu übertragen, das der Echtzeit-Abwicklung in einem externen System (z. B. einem Nebensystem) dient. Die Zahlung wird neben der normalen Verarbeitung in einer separaten Zahlungswarteschlange verarbeitet."
+    },
+    "08": {
+      "name": "Vorautorisierte Lastschrift Ordinaire (normales Clearing, 4 Tage)",
+      "definition": "Die Transaktion bezieht sich auf eine Lastschrift mit vorheriger Autorisierung (Avis de Prélèvement)."
+    },
+    "RIBA": {
+      "name": "Nicht vorautorisierte Lastschrift RIBA",
+      "definition": "Die Transaktion bezieht sich auf einen Einzug ohne vorherige Autorisierung (RIBA)."
+    },
+    "RIDO": {
+      "name": "Vorautorisierte widerrufliche Lastschrift",
+      "definition": "Die Transaktion bezieht sich auf eine Lastschrift mit vorheriger Autorisierung, die widerrufbar ist (RID Ordinario)."
+    },
+    "RIDV": {
+      "name": "Vorautorisierte widerrufliche Eil-Lastschrift",
+      "definition": "Die Transaktion bezieht sich auf eine beschleunigte Lastschrift mit vorheriger Autorisierung, die widerrufbar ist (RID Veloce)."
+    },
+    "IDEAL": {
+      "name": "Zahlungen über das Internet (Eigentum von Currence)",
+      "definition": "Die Transaktion bezieht sich auf Zahlungen über das Internet, die Currence gehören."
+    },
+    "INSTNT01": {
+      "name": "Sofortüberweisung (nicht zeitkritisch)",
+      "definition": "Die Transaktion bezieht sich auf eine reguläre Überweisung, die unter dem niederländischen AOS auf Basis des EPC-SCT-Schemas sofort verarbeitet wird."
+    },
+    "INSTTC01": {
+      "name": "Sofortüberweisung (zeitkritisch)",
+      "definition": "Die Transaktion bezieht sich auf eine Sofortüberweisung nach den Regeln des niederländischen AOS auf Basis des EPC-SCT-Inst-Schemas."
+    },
+    "INSTIDEAL": {
+      "name": "Zahlungen über das Internet (Eigentum von Currence) mittels Sofortüberweisung",
+      "definition": "Die Transaktion bezieht sich auf Zahlungen über das Internet, die Currence gehören und eine Sofortüberweisung verwenden."
+    },
+    "INSTNT01IDEAL": {
+      "name": "Zahlungen über das Internet (Eigentum von Currence) mittels Sofortüberweisung (nicht zeitkritisch)",
+      "definition": "Die Transaktion bezieht sich auf Zahlungen über das Internet, die Currence gehören und eine reguläre Überweisung verwenden, die unter dem niederländischen AOS auf Basis des EPC-SCT-Schemas sofort verarbeitet wird."
+    },
+    "INSTTC01IDEAL": {
+      "name": "Zahlungen über das Internet (Eigentum von Currence) mittels Sofortüberweisung (zeitkritisch)",
+      "definition": "Die Transaktion bezieht sich auf Zahlungen über das Internet, die Currence gehören und eine Sofortüberweisung nach den Regeln des niederländischen AOS auf Basis des EPC-SCT-Inst-Schemas verwenden."
+    },
+    "NLDO": {
+      "name": "Niederländische inländische Sammelzahlung",
+      "definition": "Die Transaktion bezieht sich auf eine inländische Zahlung, die durch PAIN.001 initiiert wurde."
+    },
+    "NLUP": {
+      "name": "Niederländische Eilzahlung",
+      "definition": "Die Transaktion bezieht sich auf eine inländische Zahlung, die durch PAIN.001 initiiert wurde."
+    },
+    "SDN": {
+      "name": "Zahlungen über Standaard Digitale Nota",
+      "definition": "Die Transaktion bezieht sich auf Zahlungen über eine „Standaard Digitale Nota“-InvoiceAcceptgiro-Zahlung."
+    },
+    "ACCEPT": {
+      "name": "Zahlung über Acceptgiro (Eigentum von Currence)",
+      "definition": "Die Transaktion bezieht sich auf Zahlungen über Acceptgiro, das Currence gehört."
+    },
+    "ICMC": {
+      "name": "Korrektur der Störungsbearbeitung",
+      "definition": "Die Transaktion bezieht sich auf ein Korrekturverfahren des Störungsmanagements (Incident Management) auf Basis der DD-Infrastruktur."
+    },
+    "NLGOV": {
+      "name": "Von der Regierung initiierte Lastschrift mit besonderen Bedingungen",
+      "definition": "Die Transaktion bezieht sich auf ein Lastschriftschema, das der NVB gehört."
+    },
+    "IN": {
+      "name": "Grenzüberschreitende Kundenüberweisung",
+      "definition": "Die Transaktion bezieht sich auf eine grenzüberschreitende Kundenüberweisung."
+    },
+    "ONCL": {
+      "name": "Über Nacht",
+      "definition": "Die Transaktion bezieht sich auf das Overnight-Clearing."
+    },
+    "PERI": {
+      "name": "Zahlung mit ERI",
+      "definition": "Die Überweisung enthält erweiterte Verwendungszweck-Informationen (Extended Remittance Information, ERI) im Sinne des anwendbaren Schemas."
+    },
+    "SDCL": {
+      "name": "Taggleich verrechnete Zahlungen",
+      "definition": "Die Transaktion bezieht sich auf Same-Day-Clearing-Zahlungen im neuseeländischen High Value Clearing System (HVCS)."
+    },
+    "DDNR": {
+      "name": "Core ohne Erstattung",
+      "definition": "SEPA-Basislastschrift mit Option „keine Erstattung“"
+    },
+    "DDFA": {
+      "name": "Lastschrift mit festem Betrag",
+      "definition": "SEPA-Lastschrift mit festem Betrag"
+    },
+    "CORE": {
+      "name": "SEPA-Basislastschrift",
+      "definition": "Die Transaktion bezieht sich auf die SEPA-Basislastschrift."
+    },
+    "B2BAMIPM": {
+      "name": "SEPA-B2B-Lastschrift AMI",
+      "definition": "SEPA-Firmenlastschrift AMI auf Basis eines Papiermandats (B2B)"
+    },
+    "B2B": {
+      "name": "SEPA-Business-to-Business-Lastschrift",
+      "definition": "Die Transaktion bezieht sich auf die SEPA-Firmenlastschrift."
+    },
+    "CR1AMIPM": {
+      "name": "SEPA-Basislastschrift D-1 AMI",
+      "definition": "Optionaler kürzerer Zeitzyklus (D-1) für die SEPA-Basislastschrift AMI auf Basis eines Papiermandats"
+    },
+    "CORAMIPM": {
+      "name": "SEPA-Basislastschrift AMI",
+      "definition": "SEPA-Basislastschrift AMI auf Basis eines Papiermandats"
+    },
+    "COR1": {
+      "name": "SEPA-Lastschrift mit Abwicklung nach 1 Tag",
+      "definition": "Optionaler kürzerer Zeitzyklus (D-1) für die SEPA-Basislastschrift"
+    },
+    "FADAMIPM": {
+      "name": "SEPA-FA-Lastschrift AMI",
+      "definition": "SEPA-Lastschrift mit festem Betrag AMI auf Basis eines Papiermandats"
+    },
+    "CLSCCPERX": {
+      "name": "CLS-verrechnetes FX für Eurex",
+      "definition": "Die Transaktion bezieht sich auf den CLSClearedFX-Service für Eurex.  |Verwendung: Der Code ist für alle pacs.009-Zahlungen an diesen Service verpflichtend."
+    },
+    "CLSCCPLCH": {
+      "name": "CLS-verrechnetes FX für LCH",
+      "definition": "Die Transaktion bezieht sich auf den CLSClearedFX-Service für das London Exchange Clearing House. |Verwendung: Der Code ist für alle pacs.009-Zahlungen an diesen Service verpflichtend."
+    },
+    "INST": {
+      "name": "Sofortüberweisung",
+      "definition": "Die Transaktion bezieht sich auf eine Sofortüberweisung.|Anwendungsbeispiel: SEPA-Echtzeitüberweisung (SCT Inst)"
+    },
+    "ADD": {
+      "name": "Authentifizierte Lastschrift",
+      "definition": "Die Transaktion ist eine authentifizierte Lastschrift für den inländischen Gebrauch."
+    },
+    "UDD": {
+      "name": "Nicht authentifizierte Lastschrift",
+      "definition": "Die Transaktion ist eine nicht authentifizierte Lastschrift für den inländischen Gebrauch."
+    },
+    "CCI": {
+      "name": "Cash Concentration (konzernintern)",
+      "definition": "Die Transaktion bezieht sich auf eine konzerninterne, von der Bank initiierte Cash-Management-Zahlung"
+    },
+    "IAT": {
+      "name": "Internationales ACH",
+      "definition": "Die Transaktion bezieht sich auf das internationale ACH."
+    },
+    "CCD": {
+      "name": "Cash Concentration oder Auszahlung (Unternehmensgegenpartei)",
+      "definition": "Die Transaktion bezieht sich auf Cash Concentration oder Disbursement mit Unternehmen als Gegenpartei."
+    },
+    "CTX": {
+      "name": "Corporate Trade Exchange",
+      "definition": "Die Transaktion bezieht sich auf Corporate Trade Exchange."
+    },
+    "PPD": {
+      "name": "Vorab vereinbarte Zahlung oder Einlage (Verbrauchergegenpartei)",
+      "definition": "Die Transaktion bezieht sich auf eine vorab vereinbarte Zahlung oder Einzahlung mit Verbraucher als Gegenpartei."
+    },
+    "CIE": {
+      "name": "Vom Kunden initiierter Eintrag",
+      "definition": "Eine Gutschrift, die vom Inhaber eines Verbraucherkontos oder in dessen Auftrag initiiert wird"
+    },
+    "RCK": {
+      "name": "Erneut vorgelegter Scheckeintrag",
+      "definition": "Die Transaktion bezieht sich auf einen erneut vorgelegten Scheckeintrag."
+    },
+    "ARC": {
+      "name": "Forderungsscheck",
+      "definition": "Die Transaktion bezieht sich auf einen Scheck über Forderungen aus Lieferungen und Leistungen."
+    },
+    "WEB": {
+      "name": "Über das Internet initiierter Eintrag",
+      "definition": "Die Transaktion bezieht sich auf einen über das Internet initiierten Eintrag."
+    },
+    "POP": {
+      "name": "Point of Purchase",
+      "definition": "Die Transaktion bezieht sich auf Point-of-Purchase."
+    },
+    "POS": {
+      "name": "Point of Sale",
+      "definition": "Die Transaktion bezieht sich auf Point-of-Sale."
+    },
+    "TEL": {
+      "name": "Telefonisch initiierter Eintrag",
+      "definition": "Die Transaktion bezieht sich auf einen telefonisch initiierten Eintrag."
+    },
+    "ITP": {
+      "name": "Sofortüberweisung bevorzugt",
+      "definition": "Zahlung per Sofortüberweisung, wobei jedoch auch eine Überweisung möglich ist."
+    },
+    "MDP": {
+      "name": "Mehrtägige Zahlung",
+      "definition": "Art einer Zahlung der New Payments Architecture (NPA). Zahlungen werden in einem Dreitageszyklus verarbeitet und stehen den Kunden am frühen Morgen des dritten Tages zur Verfügung (3)."
+    },
+    "IMD": {
+      "name": "Sofortzahlung",
+      "definition": "Zahlungsart innerhalb der New Payments Architecture (UK). Sofortzahlungen werden für Zahlungen verwendet, die von Kunden über Kanäle wie Internet-, Mobil- oder Telefonbanking initiiert werden und bei denen der Kunde möchte, dass die Zahlung unverzüglich ausgeführt wird."
+    },
+    "SOP": {
+      "name": "Dauerauftragszahlung",
+      "definition": "Daueraufträge sind regelmäßige Zahlungen eines festen Betrags an denselben Empfänger zu einem bestimmten Datum, zum Beispiel zur Zahlung der Miete."
+    },
+    "FDP": {
+      "name": "Zahlung mit Terminvorgabe",
+      "definition": "Zahlungsart innerhalb der New Payments Architecture (UK). Terminierte Zahlungen sind einmalige Zahlungen, die an einem im Voraus vereinbarten Datum gesendet und empfangen werden und vom Kunden im Voraus eingerichtet wurden, zum Beispiel zur Zahlung einer Rechnung."
+    },
+    "NACH": {
+      "name": "NACH-Clearing",
+      "definition": "Zahlung über das indische NACH-Clearing (Nettoabwicklung)."
+    },
+    "NEFT": {
+      "name": "NEFT-Clearing",
+      "definition": "Zahlung über das indische NEFT-Clearing (Nettoabwicklung)."
+    },
+    "IMPS": {
+      "name": "IMPS-Clearing",
+      "definition": "Sofortzahlung über das indische IMPS-Clearingsystem."
+    },
+    "IUPI": {
+      "name": "UPI-Clearing",
+      "definition": "Sofortzahlung über das indische UPI-Clearingsystem."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ClearingSystemMemberIdentification2",
+  "definition": "Eindeutige, von einem Clearingsystem vergebene Identifikation zur zweifelsfreien Identifizierung eines Mitglieds des Clearingsystems.",
+  "isoElements": {
+    "ClearingSystemIdentification": {
+      "definition": "Angabe eines zuvor vereinbarten Angebots zwischen Clearingstellen oder des Kanals, über den die Zahlungsanweisung verarbeitet wird."
+    },
+    "MemberIdentification": {
+      "definition": "Identifikation eines Mitglieds eines Clearingsystems."
+    }
+  }
+}

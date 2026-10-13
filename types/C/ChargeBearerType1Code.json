@@ -1,0 +1,22 @@
+{
+  "isoType": "ChargeBearerType1Code",
+  "definition": "Gibt an, welche Partei(en) die für die Verarbeitung der Anweisung anfallenden Entgelte trägt/tragen.",
+  "isoCodes": {
+    "DEBT": {
+      "name": "Zu Lasten des Zahlungspflichtigen",
+      "definition": "Alle Transaktionsentgelte sind vom Zahlungspflichtigen zu tragen."
+    },
+    "CRED": {
+      "name": "Zu Lasten des Zahlungsempfängers",
+      "definition": "Alle Transaktionsentgelte sind vom Zahlungsempfänger zu tragen."
+    },
+    "SHAR": {
+      "name": "Geteilt",
+      "definition": "Bei einer Überweisung bedeutet dies, dass die Transaktionsentgelte auf der Senderseite vom Zahlungspflichtigen und die Transaktionsentgelte auf der Empfängerseite vom Zahlungsempfänger zu tragen sind. Bei einer Lastschrift bedeutet dies, dass die Transaktionsentgelte auf der Senderseite vom Zahlungsempfänger und die Transaktionsentgelte auf der Empfängerseite vom Zahlungspflichtigen zu tragen sind."
+    },
+    "SLEV": {
+      "name": "Folgendes Servicelevel",
+      "definition": "Die Entgelte sind nach den im Service-Level und/oder Schema vereinbarten Regeln zu erheben."
+    }
+  }
+}

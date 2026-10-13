@@ -1,0 +1,29 @@
+{
+  "isoType": "CashAccount40",
+  "definition": "Liefert die Angaben zur Identifizierung eines Kontos.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "Type": {
+      "definition": "Gibt die Art oder Verwendung des Kontos an."
+    },
+    "Currency": {
+      "definition": "Identifikation der Währung, in der das Konto geführt wird. ||Verwendung: Die Währung sollte nur verwendet werden, wenn ein und dieselbe Kontonummer mehrere Währungen abdeckt|und die initiierende Partei angeben muss, welche Währung für die Abwicklung auf dem Konto zu verwenden ist."
+    },
+    "Name": {
+      "definition": "Name des Kontos, wie vom kontoführenden Institut in Abstimmung mit dem Kontoinhaber vergeben, um ein zusätzliches Mittel zur Identifizierung des Kontos bereitzustellen.||Verwendung: Der Kontoname unterscheidet sich vom Namen des Kontoinhabers. Der Kontoname wird in bestimmten Nutzergemeinschaften verwendet, um das Konto zusätzlich zur Identität des Kontoinhabers und zur Kontonummer zu identifizieren."
+    },
+    "Proxy": {
+      "definition": "Gibt einen alternativen angenommenen Namen zur Identifikation des Kontos an."
+    }
+  },
+  "isoRules": {
+    "IdentificationOrProxyPresenceRule": {
+      "definition": "Identifikation muss vorhanden sein oder Proxy muss vorhanden sein. Beide können vorhanden sein."
+    },
+    "IdentificationAndProxyGuideline": {
+      "definition": "Wenn die Kontoidentifikation nicht über eine herkömmliche Identifikation wie eine E-Mail-Adresse oder eine Mobilfunknummer definiert ist, sollte das Proxy-Element zur Identifikation des Kontos verwendet werden."
+    }
+  }
+}

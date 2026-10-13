@@ -1,0 +1,18 @@
+{
+  "isoType": "ExchangeRate1",
+  "definition": "Weitere detaillierte Informationen zum Wechselkurs, der bei der Zahlungstransaktion verwendet wurde.",
+  "isoElements": {
+    "UnitCurrency": {
+      "definition": "Währung, in der der Wechselkurs bei einem Währungsumtausch ausgedrückt wird. Im Beispiel 1 GBP = xxx CUR ist die Einheitswährung GBP."
+    },
+    "ExchangeRate": {
+      "definition": "Der Faktor, der für die Umrechnung eines Betrags von einer Währung in eine andere verwendet wird. Er spiegelt den Preis wider, zu dem eine Währung gegen eine andere Währung gekauft wurde."
+    },
+    "RateType": {
+      "definition": "Gibt die Art an, die zur Durchführung des Währungsumtauschs verwendet wurde."
+    },
+    "ContractIdentification": {
+      "definition": "Eindeutige und unmissverständliche Referenz auf das Devisengeschäft, das zwischen der initiierenden Partei/dem Zahlungsempfänger und der Bank des Zahlungspflichtigen vereinbart wurde."
+    }
+  }
+}

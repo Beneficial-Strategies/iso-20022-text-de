@@ -1,0 +1,49 @@
+{
+  "isoType": "ExternalPersonIdentification1Code",
+  "isoCodes": {
+    "ARNU": {
+      "name": "Ausländerregistrierungsnummer",
+      "definition": "Von einer Sozialversicherungsstelle vergebene Nummer zur Identifikation einer gebietsfremden Person."
+    },
+    "CCPT": {
+      "name": "Reisepassnummer",
+      "definition": "Von einer Behörde vergebene Nummer zur Identifikation der Reisepassnummer einer Person."
+    },
+    "CUST": {
+      "name": "Kundenidentifikationsnummer",
+      "definition": "Von einem Emittenten vergebene Nummer zur Identifikation eines Kunden."
+    },
+    "DRLC": {
+      "name": "Führerscheinnummer",
+      "definition": "Von einer Behörde vergebene Nummer zur Identifikation eines Führerscheins."
+    },
+    "EMPL": {
+      "name": "Mitarbeiteridentifikationsnummer",
+      "definition": "Von einer Registrierungsstelle an einen Arbeitnehmer vergebene Nummer."
+    },
+    "NIDN": {
+      "name": "Nationale Identitätsnummer",
+      "definition": "Von einer Behörde vergebene Nummer zur Identifikation der nationalen Identitätsnummer einer Person."
+    },
+    "SOSE": {
+      "name": "Sozialversicherungsnummer",
+      "definition": "Von einer Behörde vergebene Nummer zur Identifikation der Sozialversicherungsnummer einer Person."
+    },
+    "TELE": {
+      "name": "Telefonnummer",
+      "definition": "Von einem Telefon- oder Mobilfunkanbieter vergebene Nummer zur Identifikation einer Person. Eine Person kann mehrere Telefonnummern haben."
+    },
+    "TXID": {
+      "name": "Steuer-Identifikationsnummer",
+      "definition": "Von einer Steuerbehörde vergebene Nummer zur Identifikation einer Person."
+    },
+    "POID": {
+      "name": "Geschäftliche Personenidentifikation",
+      "definition": "Geschäftliche Identifikation der Person."
+    },
+    "BANK": {
+      "name": "Bankparteiidentifikation",
+      "definition": "Eindeutige und unmissverständliche Zuordnung durch eine bestimmte Bank oder ein ähnliches Finanzinstitut zur Identifikation einer definierten Beziehung zwischen der Bank und ihrem Kunden."
+    }
+  }
+}

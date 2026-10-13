@@ -1,0 +1,12 @@
+{
+  "isoType": "CashAccountType2Choice",
+  "definition": "Art oder Verwendung des Kontos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Kontoart in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Art oder Verwendung des Kontos in proprietärer Form."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentInitiationSource1",
+  "definition": "Gibt die Quelle an, die zur Initiierung der Zahlung verwendet wurde (z. B. eine Anwendung oder eine Software).",
+  "isoElements": {
+    "Name": {
+      "definition": "Name der Anwendung oder Software, die zur Initiierung der Zahlung verwendet wurde."
+    },
+    "Provider": {
+      "definition": "Anbieter der Anwendung oder Software, die zur Initiierung der Zahlung verwendet wurde."
+    },
+    "Version": {
+      "definition": "Version der Anwendung oder Software, die zur Initiierung der Zahlung verwendet wurde."
+    }
+  }
+}

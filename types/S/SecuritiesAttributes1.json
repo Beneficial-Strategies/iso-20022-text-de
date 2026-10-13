@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesAttributes1",
+  "definition": "Enthält Informationen zu den Wertpapiergeschäften, aus denen sich die Zahlung zusammensetzt.",
+  "isoElements": {
+    "UniqueTransactionIdentifier": {
+      "definition": "Die eindeutige Transaktionskennung wird bei der erstmaligen Ausführung einer Transaktion erstellt, allen registrierten Stellen und Gegenparteien der Transaktion mitgeteilt und dient der Nachverfolgung dieser Transaktion über ihre gesamte Laufzeit. Diese Kennung ist auch als Unique Swap Identifier (USI) bekannt."
+    },
+    "Amount": {
+      "definition": "Geldbetrag für das Geschäft."
+    }
+  }
+}

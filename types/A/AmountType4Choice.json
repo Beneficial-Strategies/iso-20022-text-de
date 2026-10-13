@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountType4Choice",
+  "definition": "Gibt den Geldbetrag an, der vor Abzug von Entgelten zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, ausgedrückt in der von der initiierenden Partei beauftragten Währung.",
+  "isoElements": {
+    "InstructedAmount": {
+      "definition": "Geldbetrag, der vor Abzug von Entgelten zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, ausgedrückt in der von der initiierenden Partei beauftragten Währung. Verwendung: Dieser Betrag muss unverändert durch die Transaktionskette transportiert werden."
+    },
+    "EquivalentAmount": {
+      "definition": "Geldbetrag, der zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, ausgedrückt in der Währung des Kontos des Zahlungspflichtigen und der Währung, in der der Betrag bewegt werden soll."
+    }
+  }
+}

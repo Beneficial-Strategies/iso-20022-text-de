@@ -1,0 +1,113 @@
+{
+  "isoType": "ExternalDocumentAmountType1Code",
+  "isoCodes": {
+    "APDS": {
+      "name": "Zusätzlicher Werbenachlass",
+      "definition": "Zusätzlicher Rabatt auf Grundlage einer mit Dritten vereinbarten geschäftlichen Werbeaktion, d. h. zusätzliche 10 Prozent Rabatt für 15 Tage)"
+    },
+    "STDS": {
+      "name": "Dauerrabatt",
+      "definition": "Rabatt auf Grundlage der gekauften Menge."
+    },
+    "TMDS": {
+      "name": "Skonto",
+      "definition": "Rabatt auf Grundlage ausgehandelter Bedingungen für die Zahlung innerhalb eines bestimmten Zeitraums, d. h. 2/10 netto 30 (2 Prozent Skonto bei Zahlung innerhalb von 10 Tagen; andernfalls ist der Nettobetrag innerhalb von 30 Tagen fällig)."
+    },
+    "CITY": {
+      "name": "Stadtsteuer",
+      "definition": "Von städtischen Gebietskörperschaften innerhalb eines Landes erhobene Steuer."
+    },
+    "CNTY": {
+      "name": "Kreissteuer",
+      "definition": "Von Landkreisen innerhalb eines Landes erhobene Steuer."
+    },
+    "LOCL": {
+      "name": "Lokale Steuer",
+      "definition": "Von lokalen Gebietskörperschaften innerhalb eines Landes erhobene Steuer."
+    },
+    "PROV": {
+      "name": "Provinzsteuer",
+      "definition": "Von Provinzen innerhalb eines Landes erhobene Steuer."
+    },
+    "STAT": {
+      "name": "Staatssteuer",
+      "definition": "Von Bundesstaaten innerhalb eines Landes erhobene Steuer."
+    },
+    "CREN": {
+      "name": "Gutschriftsanzeige",
+      "definition": "Der Betrag ist eine Gutschrift."
+    },
+    "DUPA": {
+      "name": "Fällig und zahlbar",
+      "definition": "Der Betrag ist fällig und zahlbar."
+    },
+    "PRIN": {
+      "name": "Offener Kapitalbetrag",
+      "definition": "Der Betrag ist der ausstehende Kapitalbetrag."
+    },
+    "TOTA": {
+      "name": "Gesamtzahlung",
+      "definition": "Der Betrag ist die Gesamtsumme."
+    },
+    "INTE": {
+      "name": "Zinszahlung",
+      "definition": "Der Betrag sind die Zinsen."
+    },
+    "ESCO": {
+      "name": "Treuhandkonto",
+      "definition": "Der Betrag befindet sich in Treuhand (Escrow)."
+    },
+    "TAXS": {
+      "name": "Steuer",
+      "definition": "Der Betrag ist Steuer."
+    },
+    "INSU": {
+      "name": "Versicherung",
+      "definition": "Der Betrag ist Versicherung."
+    },
+    "OBAL": {
+      "name": "Offener Saldo",
+      "definition": "Der Betrag ist der ausstehende Saldo."
+    },
+    "SBAL": {
+      "name": "Kontoauszugssaldo",
+      "definition": "Der Betrag ist der Kontoauszugssaldo."
+    },
+    "MIDU": {
+      "name": "Mindestbetrag fällig",
+      "definition": "Der Betrag ist der fällige Mindestbetrag."
+    },
+    "PADU": {
+      "name": "Überfällig",
+      "definition": "Der Betrag ist überfällig."
+    },
+    "CRTL": {
+      "name": "Verfügbarer Kredit",
+      "definition": "Der Betrag ist verfügbarer Kredit."
+    },
+    "PBAL": {
+      "name": "Vorheriger Saldo",
+      "definition": "Der Betrag ist der vorherige Saldo."
+    },
+    "CHAR": {
+      "name": "Neue Belastungen",
+      "definition": "Der Betrag sind neue Belastungen, zum Beispiel neue Belastungen auf einer Kreditkarte."
+    },
+    "FEES": {
+      "name": "Gebühren",
+      "definition": "Der Betrag sind Gebühren."
+    },
+    "INTC": {
+      "name": "Zinsbelastungen",
+      "definition": "Der Betrag sind Zinsbelastungen, zum Beispiel Zinsbelastungen auf einer Kreditkarte."
+    },
+    "REMI": {
+      "name": "Überwiesen",
+      "definition": "Überwiesener Betrag."
+    },
+    "DISC": {
+      "name": "Angewandter Rabatt",
+      "definition": "Angewandter Rabatt. Allgemeine Verwendung, wenn er durch keinen anderen Rabattcode angegeben werden kann."
+    }
+  }
+}

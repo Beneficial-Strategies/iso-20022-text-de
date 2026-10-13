@@ -1,0 +1,12 @@
+{
+  "isoType": "RemittanceLocation8",
+  "definition": "Enthält Informationen zum Zahlungsavis.",
+  "isoElements": {
+    "RemittanceIdentification": {
+      "definition": "Eindeutige, von der initiierenden Partei vergebene Identifikation zur zweifelsfreien Identifizierung der getrennt von der Zahlungsanweisung gesendeten Verwendungszweck-Informationen, etwa eines Zahlungsavis."
+    },
+    "RemittanceLocationDetails": {
+      "definition": "Satz von Elementen mit Informationen zum Ort und/oder zur Zustellung der Verwendungszweck-Informationen."
+    }
+  }
+}

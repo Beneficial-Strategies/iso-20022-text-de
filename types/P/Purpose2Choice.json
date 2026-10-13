@@ -1,0 +1,12 @@
+{
+  "isoType": "Purpose2Choice",
+  "definition": "Gibt den zugrunde liegenden Grund für die Zahlungstransaktion an.|Verwendung: Der Zweck wird von den Endkunden, das heißt der initiierenden Partei, dem (letztlich) Zahlungspflichtigen und dem (letztlichen) Zahlungsempfänger, verwendet, um Informationen zur Art der Zahlung bereitzustellen. Der Zweck ist ein Inhaltselement, das von keiner der an der Zahlungskette beteiligten Banken zur Verarbeitung verwendet wird.",
+  "isoElements": {
+    "Code": {
+      "definition": "Zugrunde liegender Grund für die Zahlungstransaktion, wie in einer externen Code-Liste für Zwecke veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Zweck in proprietärer Form."
+    }
+  }
+}

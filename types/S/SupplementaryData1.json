@@ -1,0 +1,17 @@
+{
+  "isoType": "SupplementaryData1",
+  "definition": "Zusätzliche Informationen, die nicht in den strukturierten Feldern und/oder einem anderen spezifischen Block erfasst werden können.",
+  "isoElements": {
+    "PlaceAndName": {
+      "definition": "Eindeutiger Verweis auf die Stelle, an der die ergänzenden Daten in die Nachrichteninstanz einzufügen sind.|Bei XML wird dies durch einen gültigen XPath ausgedrückt."
+    },
+    "Envelope": {
+      "definition": "Technisches Element, das die ergänzenden Daten umschließt."
+    }
+  },
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "Diese Komponente darf ohne ausdrückliche Genehmigung einer SEG und ohne Einreichung ISO-20022-konformer Struktur(en) zur Verwendung im Envelope-Element bei der RA nicht verwendet werden."
+    }
+  }
+}

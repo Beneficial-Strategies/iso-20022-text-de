@@ -1,0 +1,12 @@
+{
+  "isoType": "ChequeDeliveryMethod1Choice",
+  "definition": "Gesamtheit der Merkmale einer Scheckanweisung, wie Scheckart oder Schecknummer.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt die Zustellungsart des Schecks durch die Bank des Zahlungspflichtigen an."
+    },
+    "Proprietary": {
+      "definition": "Gibt eine proprietäre Zustellungsart des Schecks durch die Bank des Zahlungspflichtigen an."
+    }
+  }
+}

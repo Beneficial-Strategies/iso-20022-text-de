@@ -1,0 +1,12 @@
+{
+  "isoType": "AdviceType1Choice",
+  "definition": "Gibt die Art der für die Transaktion angeforderten Avisierung an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der Avisierung in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Art der Avisierung in proprietärer Form."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentAmount1",
+  "definition": "Enthält Angaben zu Betrag und Art des referenzierten Dokuments.",
+  "isoElements": {
+    "Type": {
+      "definition": "Definiert die Betragsart."
+    },
+    "Amount": {
+      "definition": "Geldbetrag für das referenzierte Dokument."
+    }
+  }
+}

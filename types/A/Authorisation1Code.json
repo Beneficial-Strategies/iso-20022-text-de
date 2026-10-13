@@ -1,0 +1,22 @@
+{
+  "isoType": "Authorisation1Code",
+  "definition": "Gibt die Genehmigungsstufe in Abhängigkeit von mehreren Faktoren an, darunter Zahlungsart, Schwellenbetrag oder lokale Landes- bzw. Betriebspraxis.",
+  "isoCodes": {
+    "AUTH": {
+      "name": "Vorautorisierte Datei",
+      "definition": "Zeigt an, dass eine Datei im Umfeld des originierenden Kunden bereits vorab autorisiert oder genehmigt wurde und keine weitere Genehmigung erforderlich ist."
+    },
+    "FDET": {
+      "name": "Autorisierungsdetails auf Dateiebene",
+      "definition": "Zeigt an, dass eine Datei eine zusätzliche Genehmigung auf Dateiebene erfordert, mit der Möglichkeit, sowohl den Zahlungsinformationsblock als auch die unterstützenden Überweisungsdetails des Kunden einzusehen."
+    },
+    "FSUM": {
+      "name": "Autorisierungszusammenfassung auf Dateiebene",
+      "definition": "Zeigt an, dass eine Datei eine zusätzliche Genehmigung auf Dateiebene erfordert, mit der Möglichkeit, nur die Informationen auf Ebene des Zahlungsinformationsblocks einzusehen."
+    },
+    "ILEV": {
+      "name": "Autorisierung auf Anweisungsebene",
+      "definition": "Zeigt an, dass für eine Datei alle Kundentransaktionen autorisiert oder genehmigt werden müssen."
+    }
+  }
+}

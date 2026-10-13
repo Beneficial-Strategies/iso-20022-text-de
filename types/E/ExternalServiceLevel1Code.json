@@ -1,0 +1,121 @@
+{
+  "isoType": "ExternalServiceLevel1Code",
+  "isoCodes": {
+    "BKTR": {
+      "name": "Buchungstransaktion",
+      "definition": "Zahlung per interner Buchungsüberweisung."
+    },
+    "G001": {
+      "name": "Nachverfolgte Kundenüberweisung",
+      "definition": "Verfolgte Kundenüberweisung."
+    },
+    "G002": {
+      "name": "Nachverfolgter Stopp und Rückruf",
+      "definition": "Verfolgter Stopp und Rückruf."
+    },
+    "G003": {
+      "name": "Nachverfolgte ausgehende Firmenüberweisung",
+      "definition": "Verfolgte ausgehende Unternehmensüberweisung."
+    },
+    "G004": {
+      "name": "Nachverfolgte Überweisung zwischen Finanzinstituten",
+      "definition": "Verfolgte Überweisung zwischen Finanzinstituten."
+    },
+    "NPCA": {
+      "name": "Überweisung im Nordic-Payments-Council-Raum",
+      "definition": "Zahlungen müssen nach dem NPC Area Payment-Verfahren ausgeführt werden."
+    },
+    "NUGP": {
+      "name": "Nicht dringende Prioritätszahlung",
+      "definition": "Die Zahlung muss als nicht dringende Transaktion mit vorrangiger Abwicklung ausgeführt werden."
+    },
+    "NURG": {
+      "name": "Nicht dringende Zahlung",
+      "definition": "Die Zahlung muss als nicht dringende Transaktion ausgeführt werden, die typischerweise als ACH- oder Kleinbetragstransaktion gekennzeichnet ist."
+    },
+    "PRPT": {
+      "name": "EBA-Prioritätsdienst",
+      "definition": "Die Transaktion muss gemäß dem EBA Priority Service verarbeitet werden."
+    },
+    "SDVA": {
+      "name": "Wertstellung am selben Tag",
+      "definition": "Die Zahlung muss mit Wertstellung am selben Tag zugunsten des Zahlungsempfängers ausgeführt werden."
+    },
+    "SEPA": {
+      "name": "Einheitlicher Euro-Zahlungsverkehrsraum",
+      "definition": "Die Zahlung muss nach dem Single Euro Payments Area-Verfahren ausgeführt werden."
+    },
+    "SVDE": {
+      "name": "Inländisches Scheck-Clearing und -Settlement",
+      "definition": "Zahlungsausführung nach dem Scheckabkommen und Reisescheckabkommen der Deutschen Kreditwirtschaft (DK) und der Deutschen Bundesbank – Scheck Verrechnung Deutschland"
+    },
+    "URGP": {
+      "name": "Eilzahlung",
+      "definition": "Die Zahlung muss als dringende Transaktion ausgeführt werden, die über ein Echtzeit-Bruttoabwicklungssystem verrechnet wird und typischerweise als Wire- oder Großbetragstransaktion gekennzeichnet ist."
+    },
+    "URNS": {
+      "name": "Eilzahlung mit Nettoabwicklung",
+      "definition": "Die Zahlung muss als dringende Transaktion ausgeführt werden, die über ein Echtzeit-Nettoabwicklungssystem verrechnet wird und typischerweise als Wire- oder Großbetragstransaktion gekennzeichnet ist."
+    },
+    "INST": {
+      "name": "Sofortüberweisung oder Sofortlastschrift",
+      "definition": "Wird bei der Zahlungsinitiierung verwendet, um anzugeben, dass eine Zahlung oder Lastschrifteinreichung als Sofort- oder Echtzeitzahlungsinstrument ausgeführt werden muss."
+    },
+    "SRTP": {
+      "name": "Dienstleistungs-Zahlungsaufforderung",
+      "definition": "Eine Request-to-Pay-Transaktion (RTP) bezieht sich auf ein RTP-Verfahren (wie zum Beispiel das SEPA Request to Pay (SRTP)-Verfahren)."
+    },
+    "SVAT": {
+      "name": "Scheckverarbeitung Austria",
+      "definition": "Scheck Verarbeitung Austria (Scheckverarbeitung)."
+    },
+    "G006": {
+      "name": "Nachverfolgte Fallbearbeitung",
+      "definition": "Legt die Servicebedingungen fest, die für einen verfolgten Fall von Ausnahmen und Untersuchungen gelten."
+    },
+    "G007": {
+      "name": "Nachverfolgte eingehende Kundenüberweisung",
+      "definition": "Legt das Service-Level für eine verfolgte eingehende Kundenüberweisung fest."
+    },
+    "G005": {
+      "name": "Nachverfolgte Kunden-Sofortüberweisung",
+      "definition": "Verfolgte Kunden-Sofortüberweisung."
+    },
+    "G009": {
+      "name": "Nachverfolgte grenzüberschreitende Kundenüberweisung mit geringem Betrag",
+      "definition": "Legt das Service-Level für eine verfolgte grenzüberschreitende Kundenüberweisung mit geringem Betrag fest."
+    },
+    "WFSM": {
+      "name": "Auf Abwicklung warten",
+      "definition": "Die Transaktion ist als Avis zu behandeln und erst nach bestätigter Abwicklung der Deckung auf das Konto des Zahlungsempfängers oder der nächsten Bank anzuwenden."
+    },
+    "EOLO": {
+      "name": "EURO1 One-Leg-Out",
+      "definition": "Die Zahlung wird nach einem Euro One-Leg Out-Verfahren ausgeführt."
+    },
+    "SPLI": {
+      "name": "Split Payment",
+      "definition": "Eine Split-Zahlung ist eine Zahlung, die in mehrere Zahlungen mit geringerem Betrag aufgeteilt wird, insbesondere um die für einige inländische Zahlungsmarktinfrastrukturen geltenden Höchstbetragsgrenzen einzuhalten oder das Liquiditätsrisiko der Gegenpartei zu verringern."
+    },
+    "IRCA": {
+      "name": "Raum des isländischen Regelwerksrats",
+      "definition": "Die Zahlung muss nach dem Verfahren des Icelandic Rulebook Council Area (IRCA) ausgeführt werden."
+    },
+    "EAPS": {
+      "name": "Ostafrikanisches Zahlungssystem",
+      "definition": "Kennzeichnet Zahlungen, die im Rahmen des East African Payment System (EAPS) ausgeführt werden, dem regionalen grenzüberschreitenden Abwicklungsverfahren der Zentralbanken der EAC."
+    },
+    "SPSC": {
+      "name": "SWIFT-Verfahren",
+      "definition": "Die Transaktion muss gemäß dem Regelwerk des Swift Scheme verarbeitet werden."
+    },
+    "SD01": {
+      "name": "SWIFT-Digitaldienst SWIFT Ledger",
+      "definition": "Transaktionen mit digitalen Vermögenswerten müssen gemäß den Swift Ledger-Regeln verarbeitet werden."
+    },
+    "NOLO": {
+      "name": "NPC One-Leg-Out",
+      "definition": "Die Zahlung wird nach dem NPC One-Leg Out-Verfahren ausgeführt."
+    }
+  }
+}

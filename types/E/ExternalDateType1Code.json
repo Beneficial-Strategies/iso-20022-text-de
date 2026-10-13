@@ -1,0 +1,25 @@
+{
+  "isoType": "ExternalDateType1Code",
+  "isoCodes": {
+    "INDA": {
+      "name": "Rechnungsdatum",
+      "definition": "Bezieht sich auf das Rechnungsdatum."
+    },
+    "PADD": {
+      "name": "Zahlungsfälligkeitsdatum",
+      "definition": "Bezieht sich auf das Zahlungsfälligkeitsdatum."
+    },
+    "NXBD": {
+      "name": "Nächstes Abrechnungsdatum",
+      "definition": "Bezieht sich auf das nächste Abrechnungsdatum."
+    },
+    "NTAV": {
+      "name": "Nicht verfügbar",
+      "definition": "Der Datumstyp ist nicht verfügbar."
+    },
+    "PYDT": {
+      "name": "Gehaltsabrechnungsdatum",
+      "definition": "Bezieht sich auf das Lohn- und Gehaltsdatum."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "ChequeType2Code",
+  "definition": "Gibt die Art des Schecks an.",
+  "isoCodes": {
+    "CCHQ": {
+      "name": "Kundenscheck",
+      "definition": "Scheck, der auf das Konto des Zahlungspflichtigen gezogen wird und bei Einlösung dem Konto des Zahlungspflichtigen belastet wird. Synonym ist „Firmenscheck“."
+    },
+    "CCCH": {
+      "name": "Bestätigter Kundenscheck",
+      "definition": "Scheck, der auf das Konto des Zahlungspflichtigen gezogen wird und bei Einlösung dem Konto des Zahlungspflichtigen belastet wird. Das Finanzinstitut druckt und bestätigt den Scheck und garantiert die Zahlung."
+    },
+    "BCHQ": {
+      "name": "Bankscheck",
+      "definition": "Scheck, der auf das Konto des Finanzinstituts des Zahlungspflichtigen gezogen wird und bei Ausstellung dem Konto des Zahlungspflichtigen belastet wird.Diese Schecks werden vom Finanzinstitut des Zahlungspflichtigen gedruckt, und die Zahlung wird vom Finanzinstitut garantiert. Synonym ist „Bankscheck“."
+    },
+    "DRFT": {
+      "name": "Wechsel",
+      "definition": "Garantierter Bankscheck mit zukünftigem Wertstellungsdatum (nicht vorher einlösen), der im kaufmännischen Sinne ein „begebbares Wertpapier“ ist: Der Begünstigte kann bei jeder Bank unter Abzug eines Abschlags vorzeitig Zahlung erhalten. Das Konto des Auftraggebers wird am Wertstellungsdatum belastet."
+    },
+    "ELDR": {
+      "name": "Elektronischer Wechsel",
+      "definition": "Instrument mit zukünftigem Wertstellungsdatum (nicht vorher einlösen), das im kaufmännischen Sinne ein „begebbares Wertpapier“ ist: Der Begünstigte kann bei jeder Bank unter Abzug eines Abschlags vorzeitig Zahlung erhalten. Das Konto des Auftraggebers wird am Wertstellungsdatum belastet."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BranchAndFinancialInstitutionIdentification8",
+  "definition": "Eindeutige und zweifelsfreie Identifikation eines Finanzinstituts oder einer Filiale eines Finanzinstituts.",
+  "isoElements": {
+    "FinancialInstitutionIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation eines Finanzinstituts, wie nach einem international anerkannten oder proprietären Identifikationsschema vergeben."
+    },
+    "BranchIdentification": {
+      "definition": "Bezeichnet eine bestimmte Filiale eines Finanzinstituts.||Verwendung: Diese Komponente sollte verwendet werden, wenn die Identifikationsinformationen in der Komponente Finanzinstitut keine Identifikation bis auf Filialebene bieten."
+    }
+  }
+}

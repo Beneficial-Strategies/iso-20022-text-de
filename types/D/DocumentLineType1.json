@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentLineType1",
+  "definition": "Gibt die Art der Identifikation der Dokumentzeile an.",
+  "isoElements": {
+    "CodeOrProprietary": {
+      "definition": "Enthält die Angaben zur Art der Identifikation der referenzierten Dokumentzeile."
+    },
+    "Issuer": {
+      "definition": "Identifikation des Ausstellers der Art der Referenz auf die Dokumentzeile."
+    }
+  }
+}

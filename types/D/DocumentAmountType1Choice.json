@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentAmountType1Choice",
+  "definition": "Gibt die Betragsart an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt die Betragsart an, wie in einer externen Code-Liste für referenzierte Beträge veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Gibt die Betragsart in Freitextform an."
+    }
+  }
+}

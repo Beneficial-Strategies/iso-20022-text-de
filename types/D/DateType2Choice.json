@@ -1,0 +1,12 @@
+{
+  "isoType": "DateType2Choice",
+  "definition": "Gibt die Art des Datums für das referenzierte Dokument an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt die Datumsart an, wie in einer externen Code-Liste für Datumsarten veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Gibt die Datumsart in Freitextform an."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "DateAndPlaceOfBirth1",
+  "definition": "Geburtsdatum und Geburtsort einer Person.",
+  "isoElements": {
+    "BirthDate": {
+      "definition": "Datum, an dem eine Person geboren wurde."
+    },
+    "ProvinceOfBirth": {
+      "definition": "Provinz, in der eine Person geboren wurde."
+    },
+    "CityOfBirth": {
+      "definition": "Stadt, in der eine Person geboren wurde."
+    },
+    "CountryOfBirth": {
+      "definition": "Land, in dem eine Person geboren wurde."
+    }
+  }
+}

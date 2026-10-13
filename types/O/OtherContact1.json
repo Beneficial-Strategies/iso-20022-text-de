@@ -1,0 +1,12 @@
+{
+  "isoType": "OtherContact1",
+  "definition": "Nummer des Kommunikationsgeräts oder elektronische Adresse, die für die Kommunikation verwendet wird.",
+  "isoElements": {
+    "ChannelType": {
+      "definition": "Verfahren zur Kontaktaufnahme mit dem Ansprechpartner des Finanzinstituts für die jeweilige Steuerregion."
+    },
+    "Identification": {
+      "definition": "Kommunikationswert wie Telefonnummer oder E-Mail-Adresse."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "DocumentLineIdentification1",
+  "definition": "Identifiziert die in den Verwendungszweck-Informationen referenzierten Dokumente.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art der Identifikation der referenzierten Dokumentzeile an."
+    },
+    "Number": {
+      "definition": "Identifikation der für die referenzierte Dokumentzeile angegebenen Art."
+    },
+    "RelatedDate": {
+      "definition": "Der referenzierten Dokumentzeile zugeordnetes Datum."
+    }
+  }
+}

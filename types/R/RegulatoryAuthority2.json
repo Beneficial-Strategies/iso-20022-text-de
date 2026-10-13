@@ -1,0 +1,12 @@
+{
+  "isoType": "RegulatoryAuthority2",
+  "definition": "Stelle, die die Meldeinformationen für die Aufsicht verlangt.",
+  "isoElements": {
+    "Name": {
+      "definition": "Name der Stelle, die die Meldeinformationen für die Aufsicht verlangt."
+    },
+    "Country": {
+      "definition": "Land der Stelle, die die Meldeinformationen für die Aufsicht verlangt."
+    }
+  }
+}
