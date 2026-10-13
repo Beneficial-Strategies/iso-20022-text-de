@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericIdentification30",
+  "definition": "Informationen zu einer Identifikation, zum Beispiel Parteiidentifikation oder Kontoidentifikation.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Proprietäre Information, häufig ein Code, die vom Herausgeber des Datenquellenschemas vergeben wird."
+    },
+    "Issuer": {
+      "definition": "Stelle, die die Identifikation vergibt."
+    },
+    "SchemeName": {
+      "definition": "Kurze textliche Beschreibung des Schemas."
+    }
+  }
+}

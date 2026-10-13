@@ -1,0 +1,15 @@
+{
+  "isoType": "RegulatoryReporting10",
+  "definition": "Aufgrund aufsichtsrechtlicher und/oder gesetzlicher Anforderungen erforderliche Informationen.",
+  "isoElements": {
+    "DebitCreditReportingIndicator": {
+      "definition": "Gibt an, ob die Meldeinformationen für die Aufsicht für die Lastschriftseite, die Gutschriftseite oder für beide Seiten der Transaktion gelten."
+    },
+    "Authority": {
+      "definition": "Stelle, die die Meldeinformationen für die Aufsicht verlangt."
+    },
+    "Details": {
+      "definition": "Satz von Elementen mit Angaben zu den Meldeinformationen für die Aufsicht."
+    }
+  }
+}

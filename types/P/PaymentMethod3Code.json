@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentMethod3Code",
+  "definition": "Gibt die Übertragungsmethode an, mit der ein Geldbetrag übertragen wird.",
+  "isoCodes": {
+    "CHK": {
+      "name": "Scheck",
+      "definition": "Schriftliche Anweisung an eine Bank, einen bestimmten Geldbetrag von einer Person an eine andere Person zu zahlen."
+    },
+    "TRF": {
+      "name": "Überweisung",
+      "definition": "Übertragung eines Geldbetrags in den Büchern des kontoführenden Instituts."
+    },
+    "TRA": {
+      "name": "Überweisungsavis",
+      "definition": "Übertragung eines Geldbetrags in den Büchern des kontoführenden Instituts. Ein Avis ist an den Kontoinhaber zurückzusenden."
+    }
+  }
+}

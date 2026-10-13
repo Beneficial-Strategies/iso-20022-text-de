@@ -1,0 +1,18 @@
+{
+  "isoType": "DocumentAdjustment1",
+  "definition": "Satz von Elementen mit Angaben zu Betrag und Grund der Dokumentanpassung.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag der Dokumentanpassung."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob die Anpassung vom Gesamtbetrag abzuziehen oder hinzuzurechnen ist."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Anpassung an."
+    },
+    "AdditionalInformation": {
+      "definition": "Enthält weitere Angaben zur Dokumentanpassung."
+    }
+  }
+}

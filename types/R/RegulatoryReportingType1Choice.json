@@ -1,0 +1,12 @@
+{
+  "isoType": "RegulatoryReportingType1Choice",
+  "definition": "Art der aufsichtsrechtlichen Meldung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der aufsichtsrechtlichen Meldung in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Art der aufsichtsrechtlichen Meldung in proprietärer Form."
+    }
+  }
+}

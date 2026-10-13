@@ -1,0 +1,18 @@
+{
+  "isoType": "RegulatoryReportingType1Code",
+  "definition": "Gibt an, ob die Meldeinformationen für die Aufsicht für die Lastschriftseite, die Gutschriftseite oder für beide Seiten der Transaktion gelten.",
+  "isoCodes": {
+    "CRED": {
+      "name": "Gutschrift",
+      "definition": "Die aufsichtsrechtlichen Informationen gelten für die Gutschriftseite."
+    },
+    "DEBT": {
+      "name": "Lastschrift",
+      "definition": "Die aufsichtsrechtlichen Informationen gelten für die Lastschriftseite."
+    },
+    "BOTH": {
+      "name": "Beide",
+      "definition": "Die aufsichtsrechtlichen Informationen gelten sowohl für die Gutschrift- als auch für die Lastschriftseite."
+    }
+  }
+}

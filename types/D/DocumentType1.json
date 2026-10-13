@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentType1",
+  "definition": "Gibt die Art des in den Verwendungszweck-Informationen referenzierten Dokuments an.",
+  "isoElements": {
+    "CodeOrProprietary": {
+      "definition": "Dokumentart im codierten oder proprietären Format."
+    },
+    "Issuer": {
+      "definition": "Identifikation des Ausstellers der Referenz zur Dokumentart."
+    }
+  }
+}

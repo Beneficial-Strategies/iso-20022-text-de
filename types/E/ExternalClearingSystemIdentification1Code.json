@@ -1,0 +1,693 @@
+{
+  "isoType": "ExternalClearingSystemIdentification1Code",
+  "isoCodes": {
+    "MA": {
+      "name": "Clearing-System-ID Marokko",
+      "definition": "Clearing-System-ID, verwendet in Marokko"
+    },
+    "DZ": {
+      "name": "Clearing-System-ID Algerien",
+      "definition": "Clearing-System-ID, verwendet in Algerien"
+    },
+    "MU": {
+      "name": "Clearing-System-ID Mauritius",
+      "definition": "Clearing-System-ID, verwendet in Mauritius"
+    },
+    "RS": {
+      "name": "Clearing-System-ID Serbien",
+      "definition": "Clearing-System-ID, verwendet in Serbien"
+    },
+    "ATBLZ": {
+      "name": "Österreichische Bankleitzahl",
+      "definition": "Bankfilialcode, verwendet in Österreich."
+    },
+    "AUBSB": {
+      "name": "Australischer Bank-State-Branch-Code (BSB)",
+      "definition": "Bankfilialcode, verwendet in Australien."
+    },
+    "CACPA": {
+      "name": "Zahlungsleitnummer der Canadian Payments Association",
+      "definition": "Bankfilialcode, verwendet in Kanada."
+    },
+    "CHBCC": {
+      "name": "Schweizer Finanzinstitut-Identifikation (kurz)",
+      "definition": "Finanzinstitutskennung (IID), verwendet in der Schweiz, ohne Prüfziffer."
+    },
+    "CHSIC": {
+      "name": "Schweizer Finanzinstitut-Identifikation (lang)",
+      "definition": "Finanzinstitutskennung (IID), verwendet in der Schweiz, einschließlich Prüfziffer."
+    },
+    "CNAPS": {
+      "name": "CNAPS-Kennung",
+      "definition": "Bankfilialcode, verwendet in China."
+    },
+    "DEBLZ": {
+      "name": "Deutsche Bankleitzahl",
+      "definition": "Bankfilialcode, verwendet in Deutschland."
+    },
+    "ESNCC": {
+      "name": "Spanischer inländischer Interbankencode",
+      "definition": "Bankfilialcode, verwendet in Spanien."
+    },
+    "GBDSC": {
+      "name": "UK Domestic Sort Code",
+      "definition": "Bankfilialcode, verwendet in dem UK."
+    },
+    "GRBIC": {
+      "name": "Griechischer Bankidentifikationscode",
+      "definition": "Bankfilialcode, verwendet in Griechenland."
+    },
+    "HKNCC": {
+      "name": "Hongkonger Bankcode",
+      "definition": "Bankfilialcode, verwendet in Hongkong."
+    },
+    "IENCC": {
+      "name": "Irischer nationaler Clearing-Code",
+      "definition": "Bankfilialcode, verwendet in Irland."
+    },
+    "INFSC": {
+      "name": "Indischer Finanzsystemcode",
+      "definition": "Bankfilialcode, verwendet in Indien."
+    },
+    "ITNCC": {
+      "name": "Italienischer inländischer Identifikationscode",
+      "definition": "Bankfilialcode, verwendet in Italien."
+    },
+    "JPZGN": {
+      "name": "Japanischer Zengin-Clearing-Code",
+      "definition": "Bankfilialcode, verwendet in Japan."
+    },
+    "NZNCC": {
+      "name": "Neuseeländischer nationaler Clearing-Code",
+      "definition": "Bankfilialcode, verwendet in Neuseeland."
+    },
+    "PLKNR": {
+      "name": "Polnischer nationaler Clearing-Code",
+      "definition": "Bankfilialcode, verwendet in Polen."
+    },
+    "PTNCC": {
+      "name": "Portugiesischer nationaler Clearing-Code",
+      "definition": "Bankfilialcode, verwendet in Portugal."
+    },
+    "RUCBC": {
+      "name": "Russischer Zentralbank-Identifikationscode",
+      "definition": "Bankfilialcode, verwendet in Russland."
+    },
+    "SESBA": {
+      "name": "Schwedischer Bankgiro-Clearing-Code",
+      "definition": "Bankfilialcode, verwendet in Schweden."
+    },
+    "SGIBG": {
+      "name": "IBG-Sort-Code",
+      "definition": "Bankfilialcode, verwendet in Singapur."
+    },
+    "THCBC": {
+      "name": "Thailändischer Zentralbank-Identifikationscode",
+      "definition": "Bankkennung, verwendet in Thailand."
+    },
+    "TWNCC": {
+      "name": "Finanzinstitutscode",
+      "definition": "Bankfilialcode, verwendet in Taiwan."
+    },
+    "USABA": {
+      "name": "US-Routingnummer (Fedwire/NACHA)",
+      "definition": "Von der ABA für US-Finanzinstitute vergebene Routing-Transit-Nummer."
+    },
+    "USPID": {
+      "name": "CHIPS-Teilnehmerkennung",
+      "definition": "Von CHIPS in den USA verwendete Bankkennung."
+    },
+    "ZANCC": {
+      "name": "Südafrikanischer nationaler Clearing-Code",
+      "definition": "Bankfilialcode, verwendet in Südafrika."
+    },
+    "NZRSA": {
+      "name": "Neuseeländischer RTGS-Clearing-Code",
+      "definition": "In Neuseeland verwendetes RTGS-Abwicklungskonto."
+    },
+    "MZBMO": {
+      "name": "Banco de Moçambique RTGS",
+      "definition": "RTGS-System der Banco de Mocambique."
+    },
+    "CNCIP": {
+      "name": "Grenzüberschreitendes Interbanken-Zahlungssystem",
+      "definition": "Kennung des Chinese Cross-border Interbank Payment System (CIPS)."
+    },
+    "KRBOK": {
+      "name": "Südkoreanischer Zentralbank-Identifikationscode",
+      "definition": "Von BOK-Wire+ in Südkorea verwendeter Teilnehmerinstitutscode."
+    },
+    "BRISP": {
+      "name": "Brasilianischer Bankidentifikationscode",
+      "definition": "In Brasilien verwendete Bankkennung (ISPB)."
+    },
+    "NACSC": {
+      "name": "Clearing-System-Code Namibia",
+      "definition": "In Namibia verwendeter Clearing-System-Identifikationscode."
+    },
+    "ZWTSS": {
+      "name": "Clearing-System-Code Simbabwe",
+      "definition": "Im Abwicklungssystem Simbabwes verwendeter Systemidentifikationscode."
+    },
+    "AD": {
+      "name": "Clearing-System-ID Andorra",
+      "definition": "Clearing-System-ID, verwendet in Andorra"
+    },
+    "EGNCC": {
+      "name": "Ägyptischer nationaler Clearing-Code",
+      "definition": "In Ägypten verwendeter RTGS-Clearing-System-Identifikationscode."
+    },
+    "AE": {
+      "name": "Clearing-System-ID Vereinigte Arabische Emirate",
+      "definition": "Clearing-System-ID, verwendet in den Vereinigten Arabischen Emiraten"
+    },
+    "AF": {
+      "name": "Clearing-System-ID Afghanistan",
+      "definition": "Clearing-System-ID, verwendet in Afghanistan"
+    },
+    "AI": {
+      "name": "Clearing-System-ID Antigua und Bermuda",
+      "definition": "Clearing-System-ID, verwendet in Antigua und Bermuda"
+    },
+    "AL": {
+      "name": "Clearing-System-ID Albanien",
+      "definition": "Clearing-System-ID, verwendet in Albanien"
+    },
+    "AM": {
+      "name": "Clearing-System-ID Armenien",
+      "definition": "Clearing-System-ID, verwendet in Armenien"
+    },
+    "AO": {
+      "name": "Clearing-System-ID Angola",
+      "definition": "Clearing-System-ID, verwendet in Angola"
+    },
+    "AR": {
+      "name": "Clearing-System-ID Argentinien",
+      "definition": "Clearing-System-ID, verwendet in Argentinien"
+    },
+    "AS": {
+      "name": "Clearing-System-ID Amerikanisch-Samoa",
+      "definition": "Clearing-System-ID, verwendet in Amerikanisch-Samoa"
+    },
+    "AW": {
+      "name": "Clearing-System-ID Aruba",
+      "definition": "Clearing-System-ID, verwendet in Aruba"
+    },
+    "AZ": {
+      "name": "Clearing-System-ID Aserbaidschan",
+      "definition": "Clearing-System-ID, verwendet in Aserbaidschan"
+    },
+    "BA": {
+      "name": "Clearing-System-ID Bosnien und Herzegowina",
+      "definition": "Clearing-System-ID, verwendet in Bosnien und Herzegowina"
+    },
+    "BD": {
+      "name": "Clearing-System-ID Bangladesch",
+      "definition": "Clearing-System-ID, verwendet in Bangladesch"
+    },
+    "BG": {
+      "name": "Clearing-System-ID Bulgarien",
+      "definition": "Clearing-System-ID, verwendet in Bulgarien"
+    },
+    "BH": {
+      "name": "Clearing-System-ID Bahrain",
+      "definition": "Clearing-System-ID, verwendet in Bahrain"
+    },
+    "BI": {
+      "name": "Clearing-System-ID Burundi",
+      "definition": "Clearing-System-ID, verwendet in Burundi"
+    },
+    "BL": {
+      "name": "Clearing-System-ID Saint-Barthélemy",
+      "definition": "Clearing-System-ID, verwendet in Saint-Barthélemy"
+    },
+    "BM": {
+      "name": "Clearing-System-ID Bermuda",
+      "definition": "Clearing-System-ID, verwendet in Bermuda"
+    },
+    "BN": {
+      "name": "Clearing-System-ID Brunei Darussalam",
+      "definition": "Clearing-System-ID, verwendet in Brunei Darussalam"
+    },
+    "BO": {
+      "name": "Clearing-System-ID Bolivien",
+      "definition": "Clearing-System-ID, verwendet in Bolivien"
+    },
+    "BS": {
+      "name": "Clearing-System-ID Bahamas",
+      "definition": "Clearing-System-ID, verwendet in den Bahamas"
+    },
+    "BT": {
+      "name": "Clearing-System-ID Bhutan",
+      "definition": "Clearing-System-ID, verwendet in Bhutan"
+    },
+    "BW": {
+      "name": "Clearing-System-ID Botsuana",
+      "definition": "Clearing-System-ID, verwendet in Botsuana"
+    },
+    "BY": {
+      "name": "Clearing-System-ID Belarus",
+      "definition": "Clearing-System-ID, verwendet in Belarus"
+    },
+    "BZ": {
+      "name": "Clearing-System-ID Belize",
+      "definition": "Clearing-System-ID, verwendet in Belize"
+    },
+    "CD": {
+      "name": "Clearing-System-ID Demokratische Republik Kongo",
+      "definition": "Clearing-System-ID, verwendet in der Demokratischen Republik Kongo"
+    },
+    "CL": {
+      "name": "Clearing-System-ID Chile",
+      "definition": "Clearing-System-ID, verwendet in Chile"
+    },
+    "CO": {
+      "name": "Clearing-System-ID Kolumbien",
+      "definition": "Clearing-System-ID, verwendet in Kolumbien"
+    },
+    "CR": {
+      "name": "Clearing-System-ID Costa Rica",
+      "definition": "Clearing-System-ID, verwendet in Costa Rica"
+    },
+    "CV": {
+      "name": "Clearing-System-ID Kap Verde",
+      "definition": "Clearing-System-ID, verwendet in Cabo Verde"
+    },
+    "CW": {
+      "name": "Clearing-System-ID Curaçao",
+      "definition": "Clearing-System-ID, verwendet in Curaçao"
+    },
+    "CY": {
+      "name": "Clearing-System-ID Zypern",
+      "definition": "Clearing-System-ID, verwendet in Zypern"
+    },
+    "CZ": {
+      "name": "Clearing-System-ID Tschechische Republik",
+      "definition": "Clearing-System-ID, verwendet in der Tschechischen Republik"
+    },
+    "DO": {
+      "name": "Clearing-System-ID Dominikanische Republik",
+      "definition": "Clearing-System-ID, verwendet in der Dominikanischen Republik"
+    },
+    "EC": {
+      "name": "Clearing-System-ID Ecuador",
+      "definition": "Clearing-System-ID, verwendet in Ecuador"
+    },
+    "EE": {
+      "name": "Clearing-System-ID Estland",
+      "definition": "Clearing-System-ID, verwendet in Estland"
+    },
+    "GE": {
+      "name": "Clearing-System-ID Georgien",
+      "definition": "Clearing-System-ID, verwendet in Georgien"
+    },
+    "GH": {
+      "name": "Clearing-System-ID Ghana",
+      "definition": "Clearing-System-ID, verwendet in Ghana"
+    },
+    "GN": {
+      "name": "Clearing-System-ID Guinea",
+      "definition": "Clearing-System-ID, verwendet in Guinea"
+    },
+    "GT": {
+      "name": "Clearing-System-ID Guatemala",
+      "definition": "Clearing-System-ID, verwendet in Guatemala"
+    },
+    "GY": {
+      "name": "Clearing-System-ID Guyana",
+      "definition": "Clearing-System-ID, verwendet in Guyana"
+    },
+    "HN": {
+      "name": "Clearing-System-ID Honduras",
+      "definition": "Clearing-System-ID, verwendet in Honduras"
+    },
+    "HR": {
+      "name": "Clearing-System-ID Kroatien",
+      "definition": "Clearing-System-ID, verwendet in Kroatien"
+    },
+    "HT": {
+      "name": "Clearing-System-ID Haiti",
+      "definition": "Clearing-System-ID, verwendet in Haiti"
+    },
+    "HU": {
+      "name": "Clearing-System-ID Ungarn",
+      "definition": "Clearing-System-ID, verwendet in Ungarn"
+    },
+    "ID": {
+      "name": "Clearing-System-ID Indonesien",
+      "definition": "Clearing-System-ID, verwendet in Indonesien"
+    },
+    "IL": {
+      "name": "Clearing-System-ID Israel",
+      "definition": "Clearing-System-ID, verwendet in Israel"
+    },
+    "IQ": {
+      "name": "Clearing-System-ID Irak",
+      "definition": "Clearing-System-ID, verwendet in dem Irak"
+    },
+    "IS": {
+      "name": "Clearing-System-ID Island",
+      "definition": "Clearing-System-ID, verwendet in Island"
+    },
+    "JM": {
+      "name": "Clearing-System-ID Jamaika",
+      "definition": "Clearing-System-ID, verwendet in Jamaika"
+    },
+    "JO": {
+      "name": "Clearing-System-ID Jordanien",
+      "definition": "Clearing-System-ID, verwendet in Jordanien"
+    },
+    "KE": {
+      "name": "Clearing-System-ID Kenia",
+      "definition": "Clearing-System-ID, verwendet in Kenia"
+    },
+    "KG": {
+      "name": "Clearing-System-ID Kirgisische Republik",
+      "definition": "Clearing-System-ID, verwendet in der Kirgisischen Republik"
+    },
+    "KH": {
+      "name": "Clearing-System-ID Kambodscha",
+      "definition": "Clearing-System-ID, verwendet in Kambodscha"
+    },
+    "KM": {
+      "name": "Clearing-System-ID Komoren",
+      "definition": "Clearing-System-ID, verwendet in den Komoren"
+    },
+    "KW": {
+      "name": "Clearing-System-ID Kuwait",
+      "definition": "Clearing-System-ID, verwendet in Kuwait"
+    },
+    "KZ": {
+      "name": "Clearing-System-ID Kasachstan",
+      "definition": "Clearing-System-ID, verwendet in Kasachstan"
+    },
+    "LB": {
+      "name": "Clearing-System-ID Libanon",
+      "definition": "Clearing-System-ID, verwendet in dem Libanon"
+    },
+    "LK": {
+      "name": "Clearing-System-ID Sri Lanka",
+      "definition": "Clearing-System-ID, verwendet in Sri Lanka"
+    },
+    "LR": {
+      "name": "Clearing-System-ID Liberia",
+      "definition": "Clearing-System-ID, verwendet in Liberia"
+    },
+    "LS": {
+      "name": "Clearing-System-ID Lesotho",
+      "definition": "Clearing-System-ID, verwendet in Lesotho"
+    },
+    "LT": {
+      "name": "Clearing-System-ID Litauen",
+      "definition": "Clearing-System-ID, verwendet in Litauen"
+    },
+    "LV": {
+      "name": "Clearing-System-ID Lettland",
+      "definition": "Clearing-System-ID, verwendet in Lettland"
+    },
+    "LY": {
+      "name": "Clearing-System-ID Libyen",
+      "definition": "Clearing-System-ID, verwendet in Libyen"
+    },
+    "MD": {
+      "name": "Clearing-System-ID Moldau",
+      "definition": "Clearing-System-ID, verwendet in Moldau"
+    },
+    "ME": {
+      "name": "Clearing-System-ID Montenegro",
+      "definition": "Clearing-System-ID, verwendet in Montenegro"
+    },
+    "MG": {
+      "name": "Clearing-System-ID Madagaskar",
+      "definition": "Clearing-System-ID, verwendet in Madagaskar"
+    },
+    "MK": {
+      "name": "Clearing-System-ID Nordmazedonien",
+      "definition": "Clearing-System-ID, verwendet in Nordmazedonien"
+    },
+    "MN": {
+      "name": "Clearing-System-ID Mongolei",
+      "definition": "Clearing-System-ID, verwendet in der Mongolei"
+    },
+    "MO": {
+      "name": "Clearing-System-ID Macao",
+      "definition": "Clearing-System-ID, verwendet in Macao"
+    },
+    "MR": {
+      "name": "Clearing-System-ID Mauretanien",
+      "definition": "Clearing-System-ID, verwendet in Mauretanien"
+    },
+    "MT": {
+      "name": "Clearing-System-ID Malta",
+      "definition": "Clearing-System-ID, verwendet in Malta"
+    },
+    "MW": {
+      "name": "Clearing-System-ID Malawi",
+      "definition": "Clearing-System-ID, verwendet in Malawi"
+    },
+    "MX": {
+      "name": "Clearing-System-ID Mexiko",
+      "definition": "Clearing-System-ID, verwendet in Mexiko"
+    },
+    "MY": {
+      "name": "Clearing-System-ID Malaysia",
+      "definition": "Clearing-System-ID, verwendet in Malaysia"
+    },
+    "NG": {
+      "name": "Clearing-System-ID Nigeria",
+      "definition": "Clearing-System-ID, verwendet in Nigeria"
+    },
+    "NI": {
+      "name": "Clearing-System-ID Nicaragua",
+      "definition": "Clearing-System-ID, verwendet in Nicaragua"
+    },
+    "NP": {
+      "name": "Clearing-System-ID Nepal",
+      "definition": "Clearing-System-ID, verwendet in Nepal"
+    },
+    "OM": {
+      "name": "Clearing-System-ID Oman",
+      "definition": "Clearing-System-ID, verwendet in Oman"
+    },
+    "PA": {
+      "name": "Clearing-System-ID Panama",
+      "definition": "Clearing-System-ID, verwendet in Panama"
+    },
+    "PE": {
+      "name": "Clearing-System-ID Peru",
+      "definition": "Clearing-System-ID, verwendet in Peru"
+    },
+    "PG": {
+      "name": "Clearing-System-ID Papua-Neuguinea",
+      "definition": "Clearing-System-ID, verwendet in Papua-Neuguinea"
+    },
+    "PH": {
+      "name": "Clearing-System-ID Philippinen",
+      "definition": "Clearing-System-ID, verwendet in den Philippinen"
+    },
+    "PK": {
+      "name": "Clearing-System-ID Pakistan",
+      "definition": "Clearing-System-ID, verwendet in Pakistan"
+    },
+    "PS": {
+      "name": "Clearing-System-ID Palästina",
+      "definition": "Clearing-System-ID, verwendet in Palästina"
+    },
+    "PY": {
+      "name": "Clearing-System-ID Paraguay",
+      "definition": "Clearing-System-ID, verwendet in Paraguay"
+    },
+    "QA": {
+      "name": "Clearing-System-ID Katar",
+      "definition": "Clearing-System-ID, verwendet in Katar"
+    },
+    "RO": {
+      "name": "Clearing-System-ID Rumänien",
+      "definition": "Clearing-System-ID, verwendet in Rumänien"
+    },
+    "RW": {
+      "name": "Clearing-System-ID Ruanda",
+      "definition": "Clearing-System-ID, verwendet in Ruanda"
+    },
+    "SA": {
+      "name": "Clearing-System-ID Saudi-Arabien",
+      "definition": "Clearing-System-ID, verwendet in Saudi-Arabien"
+    },
+    "SC": {
+      "name": "Clearing-System-ID Seychellen",
+      "definition": "Clearing-System-ID, verwendet in den Seychellen"
+    },
+    "SD": {
+      "name": "Clearing-System-ID Sudan",
+      "definition": "Clearing-System-ID, verwendet in dem Sudan"
+    },
+    "SI": {
+      "name": "Clearing-System-ID Slowenien",
+      "definition": "Clearing-System-ID, verwendet in Slowenien"
+    },
+    "SK": {
+      "name": "Clearing-System-ID Slowakei",
+      "definition": "Clearing-System-ID, verwendet in der Slowakei"
+    },
+    "SL": {
+      "name": "Clearing-System-ID Sierra Leone",
+      "definition": "Clearing-System-ID, verwendet in Sierra Leone"
+    },
+    "ST": {
+      "name": "Clearing-System-ID São Tomé und Príncipe",
+      "definition": "Clearing-System-ID, verwendet in São Tomé und Príncipe"
+    },
+    "SV": {
+      "name": "Clearing-System-ID El Salvador",
+      "definition": "Clearing-System-ID, verwendet in El Salvador"
+    },
+    "SZ": {
+      "name": "Clearing-System-ID Eswatini",
+      "definition": "Clearing-System-ID, verwendet in Eswatini"
+    },
+    "TJ": {
+      "name": "Clearing-System-ID Tadschikistan",
+      "definition": "Clearing-System-ID, verwendet in Tadschikistan"
+    },
+    "TL": {
+      "name": "Clearing-System-ID Timor-Leste",
+      "definition": "Clearing-System-ID, verwendet in Timor-Leste"
+    },
+    "TM": {
+      "name": "Clearing-System-ID Turkmenistan",
+      "definition": "Clearing-System-ID, verwendet in Turkmenistan"
+    },
+    "TN": {
+      "name": "Clearing-System-ID Tunesien",
+      "definition": "Clearing-System-ID, verwendet in Tunesien"
+    },
+    "TR": {
+      "name": "Clearing-System-ID Türkei",
+      "definition": "Clearing-System-ID, verwendet in der Türkei"
+    },
+    "TT": {
+      "name": "Clearing-System-ID Trinidad und Tobago",
+      "definition": "Clearing-System-ID, verwendet in Trinidad und Tobago"
+    },
+    "TZ": {
+      "name": "Clearing-System-ID Tansania",
+      "definition": "Clearing-System-ID, verwendet in Tansania"
+    },
+    "UA": {
+      "name": "Clearing-System-ID Ukraine",
+      "definition": "Clearing-System-ID, verwendet in der Ukraine"
+    },
+    "UG": {
+      "name": "Clearing-System-ID Uganda",
+      "definition": "Clearing-System-ID, verwendet in Uganda"
+    },
+    "UY": {
+      "name": "Clearing-System-ID Uruguay",
+      "definition": "Clearing-System-ID, verwendet in Uruguay"
+    },
+    "UZ": {
+      "name": "Clearing-System-ID Usbekistan",
+      "definition": "Clearing-System-ID, verwendet in Usbekistan"
+    },
+    "VA": {
+      "name": "Clearing-System-ID Vatikanstadt",
+      "definition": "Clearing-System-ID, verwendet in der Vatikanstadt"
+    },
+    "VE": {
+      "name": "Clearing-System-ID Venezuela",
+      "definition": "Clearing-System-ID, verwendet in Venezuela"
+    },
+    "VN": {
+      "name": "Clearing-System-ID Vietnam",
+      "definition": "Clearing-System-ID, verwendet in Vietnam"
+    },
+    "XK": {
+      "name": "Clearing-System-ID Kosovo",
+      "definition": "Clearing-System-ID, verwendet in dem Kosovo"
+    },
+    "ZM": {
+      "name": "Clearing-System-ID Sambia",
+      "definition": "Clearing-System-ID, verwendet in Sambia"
+    },
+    "MARPA": {
+      "name": "RTGS-Teilnehmer-Identifikationscode Marokko",
+      "definition": "In Marokko verwendeter RTGS-Teilnehmeridentifikationscode."
+    },
+    "MARAC": {
+      "name": "Nationaler RTGS-Clearing-Code Marokko",
+      "definition": "In Marokko verwendete RTGS-Clearing-System-Identifikation."
+    },
+    "CEAPA": {
+      "name": "Teilnehmer-Identifikationscode der Bank der Zentralafrikanischen Staaten",
+      "definition": "Bank Of Central African States (BEAC) Participant Identification Code – Finanzinstitutskennung, die im SYGMA-System der BEAC für die Abwicklung zwischen Teilnehmern in Kamerun, der Zentralafrikanischen Republik, Tschad, Äquatorialguinea, Gabun und der Republik Kongo verwendet wird. In diesem Fall bezieht sie sich speziell auf die Form der elektronischen Zahlung per Real Time Gross Settlement."
+    },
+    "CEAAC": {
+      "name": "Teilnehmerkonto-Identifikationscode der Bank der Zentralafrikanischen Staaten",
+      "definition": "Bank Of Central African States (BEAC) Participant Account Identification Code – Finanzinstitutskennung, die im SYGMA-System der BEAC für die Abwicklung zwischen Teilnehmerkonten in Kamerun, der Zentralafrikanischen Republik, Tschad, Äquatorialguinea, Gabun und der Republik Kongo verwendet wird. In diesem Fall bezieht sie sich speziell auf die Form der elektronischen Zahlung per Real Time Gross Settlement."
+    },
+    "RSDPA": {
+      "name": "RTGS-Teilnehmer-Identifikationscode Serbien",
+      "definition": "In der Republik Serbien verwendeter RTGS-Teilnehmeridentifikationscode."
+    },
+    "RSDAC": {
+      "name": "RTGS-Konto-Identifikationscode Serbien",
+      "definition": "In der Republik Serbien verwendeter RTGS-Kontoidentifikationscode."
+    },
+    "RSEPA": {
+      "name": "Teilnehmer-Identifikationscode des nationalen Clearings Serbien",
+      "definition": "In der Republik Serbien verwendeter Teilnehmeridentifikationscode des Interbank and International Clearing of FX Payments Systems."
+    },
+    "RSEAC": {
+      "name": "Konto-Identifikationscode des nationalen Clearings Serbien",
+      "definition": "In der Republik Serbien verwendeter Kontoidentifikationscode des Interbank and International Clearing of FX Payments."
+    },
+    "MUPPA": {
+      "name": "RTGS-Teilnehmer-Identifikationscode Mauritius",
+      "definition": "In Mauritus verwendeter MACSS-Teilnehmeridentifikationscode."
+    },
+    "MUPAC": {
+      "name": "RTGS-Konto-Identifikationscode Mauritius",
+      "definition": "In Mauritius verwendetes MACSS-Abwicklungskonto."
+    },
+    "CBHPA": {
+      "name": "COMESA-REPSS-Teilnehmer-Identifikationscode",
+      "definition": "REPSS-Teilnehmeridentifikationscode (REPSS: regionale grenzüberschreitende Zahlungs- und Abwicklungsplattform zur Erleichterung effizienter und sicherer innerregionaler Handelszahlungen in den COMESA-Mitgliedstaaten)."
+    },
+    "CBHAC": {
+      "name": "COMESA-REPSS-Konto-Identifikationscode",
+      "definition": "REPSS-Abwicklungskonto (REPSS: regionale grenzüberschreitende Zahlungs- und Abwicklungsplattform zur Erleichterung effizienter und sicherer innerregionaler Handelszahlungen in den COMESA-Mitgliedstaaten)."
+    },
+    "CBPPA": {
+      "name": "COMESA-SS-Teilnehmer-Identifikationscode",
+      "definition": "COMESA-SS-Teilnehmeridentifikationscode."
+    },
+    "CBPAC": {
+      "name": "COMESA-SS-Konto-Identifikationscode",
+      "definition": "COMESA-SS-Abwicklungskonto."
+    },
+    "DZRPA": {
+      "name": "Bank-Identifikationscode Algerien",
+      "definition": "Im RTGS-System Algeriens verwendeter Bankidentifikationscode."
+    },
+    "DZRAC": {
+      "name": "Konto-Identifikationscode Algerien",
+      "definition": "Im RTGS-System Algeriens verwendeter Kontoidentifikationscode."
+    },
+    "UGDPA": {
+      "name": "RTGS-Teilnehmer-Identifikationscode Uganda",
+      "definition": "In der Republik Uganda verwendeter RTGS-Teilnehmeridentifikationscode."
+    },
+    "UGDAC": {
+      "name": "RTGS-Konto-Identifikationscode Uganda",
+      "definition": "In der Republik Uganda verwendeter RTGS-Kontoidentifikationscode."
+    },
+    "MGRPA": {
+      "name": "RTGS-Teilnehmer-Identifikationscode Madagaskar",
+      "definition": "In Madagaskar verwendeter RTGS-Teilnehmeridentifikationscode"
+    },
+    "MGRAC": {
+      "name": "RTGS-Konto-Identifikationscode Madagaskar",
+      "definition": "In Madagaskar verwendeter RTGS-Kontoidentifikationscode"
+    }
+  }
+}

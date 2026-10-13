@@ -1,0 +1,12 @@
+{
+  "isoType": "CategoryPurpose1Choice",
+  "definition": "Gibt den übergeordneten Zweck der Anweisung auf Grundlage einer Reihe vordefinierter Kategorien an.|Verwendung: Wird von der initiierenden Partei verwendet, um Informationen zur Verarbeitung der Zahlung bereitzustellen. Es löst voraussichtlich eine Sonderbearbeitung durch eine der an der Zahlungskette beteiligten Banken aus.",
+  "isoElements": {
+    "Code": {
+      "definition": "Kategorie-Zweck, wie in einer externen Code-Liste für Kategorie-Zwecke veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Kategorie-Zweck in proprietärer Form."
+    }
+  }
+}

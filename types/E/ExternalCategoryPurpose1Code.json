@@ -1,0 +1,201 @@
+{
+  "isoType": "ExternalCategoryPurpose1Code",
+  "isoCodes": {
+    "BONU": {
+      "name": "Bonuszahlung",
+      "definition": "Die Transaktion ist die Zahlung eines Bonus."
+    },
+    "CASH": {
+      "name": "Cash-Management-Überweisung",
+      "definition": "Die Transaktion ist eine allgemeine Cash-Management-Anweisung."
+    },
+    "CBLK": {
+      "name": "Karten-Sammelclearing",
+      "definition": "Ein Service, der Gelder für eine Vielzahl von Kartentransaktionen abwickelt und dabei auf eine bestimmte Transaktionsdatei oder andere Informationen wie Terminal-ID, Karten-Akzeptanten-ID oder andere Transaktionsdetails Bezug nimmt."
+    },
+    "CCRD": {
+      "name": "Kreditkartenzahlung",
+      "definition": "Die Transaktion bezieht sich auf eine Kreditkartenzahlung."
+    },
+    "CORT": {
+      "name": "Handelsabwicklungszahlung",
+      "definition": "Die Transaktion bezieht sich auf die Abwicklung eines Handelsgeschäfts, z. B. eines Devisengeschäfts oder einer Wertpapiertransaktion."
+    },
+    "DCRD": {
+      "name": "Debitkartenzahlung",
+      "definition": "Die Transaktion bezieht sich auf eine Debitkartenzahlung."
+    },
+    "DIVI": {
+      "name": "Dividende",
+      "definition": "Die Transaktion ist die Zahlung von Dividenden."
+    },
+    "DVPM": {
+      "name": "Lieferung gegen Zahlung",
+      "definition": "Code zur Voravisierung einer bevorstehenden Lieferung-gegen-Zahlung-Anweisung an den Kontoführer."
+    },
+    "EPAY": {
+      "name": "E-Payment",
+      "definition": "Die Transaktion bezieht sich auf ePayment."
+    },
+    "FCIN": {
+      "name": "Gebühren- und Zinseinzug",
+      "definition": "Die Transaktion bezieht sich auf die Zahlung einer Gebühr und von Zinsen."
+    },
+    "FCOL": {
+      "name": "Gebühreneinzug",
+      "definition": "Ein Service, der kartentransaktionsbezogene Gebühren zwischen zwei Parteien abwickelt."
+    },
+    "GP2P": {
+      "name": "Person-zu-Person-Zahlung",
+      "definition": "Allgemeine Person-zu-Person-Zahlung. Zahlungspflichtiger und Zahlungsempfänger sind natürliche Personen."
+    },
+    "GOVT": {
+      "name": "Staatliche Zahlung",
+      "definition": "Die Transaktion ist eine Zahlung an oder von einer Regierungsbehörde."
+    },
+    "HEDG": {
+      "name": "Absicherung",
+      "definition": "Die Transaktion bezieht sich auf die Zahlung für ein Hedging-Geschäft."
+    },
+    "ICCP": {
+      "name": "Unwiderrufliche Kreditkartenzahlung",
+      "definition": "Die Transaktion ist die Erstattung einer Kreditkartenzahlung."
+    },
+    "IDCP": {
+      "name": "Unwiderrufliche Debitkartenzahlung",
+      "definition": "Die Transaktion ist die Erstattung einer Debitkartenzahlung."
+    },
+    "INTC": {
+      "name": "Konzerninterne Zahlung",
+      "definition": "Die Transaktion ist eine konzerninterne Zahlung, d. h. eine Zahlung zwischen zwei Unternehmen derselben Gruppe."
+    },
+    "INTE": {
+      "name": "Zinsen",
+      "definition": "Die Transaktion ist die Zahlung von Zinsen."
+    },
+    "LBOX": {
+      "name": "Lockbox-Transaktionen",
+      "definition": "Die Transaktion bezieht sich auf die Erfassung der Bargeldabwicklung über Nachttresor oder Lockbox durch eine Bank oder einen Anbieter im Auftrag eines stationären Geschäfts."
+    },
+    "LOAN": {
+      "name": "Darlehen",
+      "definition": "Die Transaktion bezieht sich auf die Übertragung eines Darlehens an einen Kreditnehmer."
+    },
+    "MP2B": {
+      "name": "Gewerblich",
+      "definition": "Mobile P2B-Zahlung"
+    },
+    "MP2P": {
+      "name": "Verbraucher",
+      "definition": "Mobile P2P-Zahlung"
+    },
+    "OTHR": {
+      "name": "Sonstige Zahlung",
+      "definition": "Sonstiger Zahlungszweck."
+    },
+    "PENS": {
+      "name": "Rentenzahlung",
+      "definition": "Die Transaktion ist die Zahlung einer Rente."
+    },
+    "RPRE": {
+      "name": "Erneut vorgelegt",
+      "definition": "Einziehung zur erneuten Vorlage zuvor rückgebuchter oder zurückgegebener Lastschrifttransaktionen."
+    },
+    "RRCT": {
+      "name": "Erhaltene Erstattungsüberweisung",
+      "definition": "Die Transaktion bezieht sich auf die Erstattung einer korrekt empfangenen Überweisung aus kaufmännischen Gründen."
+    },
+    "RVPM": {
+      "name": "Empfang gegen Zahlung",
+      "definition": "Code zur Voravisierung einer bevorstehenden Empfang-gegen-Zahlung-Anweisung an den Kontoführer."
+    },
+    "SALA": {
+      "name": "Gehaltszahlung",
+      "definition": "Die Transaktion ist die Zahlung von Gehältern."
+    },
+    "SECU": {
+      "name": "Wertpapiere",
+      "definition": "Die Transaktion ist die Zahlung von Wertpapieren."
+    },
+    "SSBE": {
+      "name": "Sozialversicherungsleistung",
+      "definition": "Die Transaktion ist eine Sozialleistung, d. h. eine Zahlung einer Regierung zur Unterstützung von Einzelpersonen."
+    },
+    "SUPP": {
+      "name": "Lieferantenzahlung",
+      "definition": "Die Transaktion bezieht sich auf eine Zahlung an einen Lieferanten."
+    },
+    "TAXS": {
+      "name": "Steuerzahlung",
+      "definition": "Die Transaktion ist die Zahlung von Steuern."
+    },
+    "TRAD": {
+      "name": "Handelsgeschäft",
+      "definition": "Die Transaktion bezieht sich auf die Zahlung für ein Handelsfinanzierungsgeschäft."
+    },
+    "TREA": {
+      "name": "Treasury-Zahlung",
+      "definition": "Die Transaktion bezieht sich auf Treasury-Geschäfte, z. B. die Abwicklung von Finanzkontrakten."
+    },
+    "VATX": {
+      "name": "Umsatzsteuerzahlung",
+      "definition": "Die Transaktion ist die Zahlung der Mehrwertsteuer."
+    },
+    "WHLD": {
+      "name": "Quellensteuereinbehalt",
+      "definition": "Die Transaktion ist die Zahlung der Quellensteuer."
+    },
+    "SWEP": {
+      "name": "Cash-Management-Sweep-Konto",
+      "definition": "Klassifizierung: Cash Management. Die Transaktion bezieht sich auf eine Cash-Management-Anweisung, die einen Sweep des Kontos des Zahlungspflichtigen oberhalb eines vereinbarten Mindestbetrags bis zu einem Zielsaldo oder Nullsaldo verlangt.|Zweck ist es, die Gelder von mehreren Konten auf ein einziges Bankkonto zu übertragen. Die Gelder können im Inland oder grenzüberschreitend bewegt werden, und es kann mehr als eine Bank beteiligt sein."
+    },
+    "TOPG": {
+      "name": "Cash-Management-Hauptkonto",
+      "definition": "Klassifizierung: Cash Management. Die Transaktion bezieht sich auf eine Cash-Management-Anweisung, die verlangt, das Konto des Zahlungsempfängers oberhalb eines bestimmten Mindestbetrags bis zu einem Zielsaldo oder Nullsaldo aufzufüllen. |Der Mindestbetrag kann angegeben werden, sofern er nicht zuvor zwischen den beteiligten Parteien vereinbart wurde."
+    },
+    "ZABA": {
+      "name": "Cash-Management-Zero-Balance-Konto",
+      "definition": "Die Transaktion bezieht sich auf eine Cash-Management-Anweisung, die verlangt, das Konto des Zahlungspflichtigen auf einen Nullsaldo zu bringen.|Zero-Balance-Konten leeren oder füllen täglich die Salden von Konten bei derselben Bank im selben Land in ein Hauptkonto hinein oder aus diesem heraus."
+    },
+    "VOST": {
+      "name": "Grenzüberschreitende MI-Zahlungen",
+      "definition": "Die Transaktion ist als inländische Zahlungsanweisung zu verarbeiten, die von einer ausländischen Bank stammt."
+    },
+    "FCDT": {
+      "name": "Inlandsüberweisung in Fremdwährung",
+      "definition": "Fremdwährungstransaktion, die zwischen zwei inländischen Finanzinstituten verarbeitet wird."
+    },
+    "CIPC": {
+      "name": "Bareinzahlung mit Vorabgutschrift",
+      "definition": "Die Transaktion ist eine Lastschrift für eine Bargeldbestellung von Banknoten und/oder Münzen."
+    },
+    "CONC": {
+      "name": "Barauszahlung (Banknoten und Münzen)",
+      "definition": "Die Transaktion ist eine Lastschrift für eine Bargeldbestellung von Banknoten und/oder Münzen."
+    },
+    "CGWV": {
+      "name": "Von Transporteur bewachte Großhandelswertsachen",
+      "definition": "Die Transaktion ist eine Zahlung an eine Partei für die Abholung von Bargeld durch das Geldtransportunternehmen."
+    },
+    "SAVG": {
+      "name": "Sparen",
+      "definition": "Übertragung auf oder von einem Sparkonto oder auf ein Altersvorsorgekonto."
+    },
+    "CTDF": {
+      "name": "Dodd-Frank-1073-Zahlung",
+      "definition": "Grenzüberschreitende Transaktion, die von einer natürlichen Person mit US-Bezug initiiert wird und der Einhaltung von Dodd Frank 1073 unterliegt."
+    },
+    "CPAY": {
+      "name": "Schadenzahlung",
+      "definition": "Die Transaktion bezieht sich auf die Zahlung einer Forderung über ein Schadenzahlungssystem."
+    },
+    "CDIS": {
+      "name": "Zusätzliche Schadenregulierung",
+      "definition": "Zusätzliche Verfügung im Anschluss an eine Schadenzahlung, die über ein Schadenzahlungssystem erfolgt ist."
+    },
+    "CRYP": {
+      "name": "Kryptowerte",
+      "definition": "Die Transaktion bezieht sich auf den Kauf oder Verkauf von Krypto-Assets."
+    }
+  }
+}

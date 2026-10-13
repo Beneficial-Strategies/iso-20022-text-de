@@ -1,0 +1,12 @@
+{
+  "isoType": "RemittanceInformation26",
+  "definition": "Informationen zur Ermöglichung des Abgleichs eines Umsatzes mit den Posten, die durch die Zahlung beglichen werden sollen, etwa Handelsrechnungen in einem Debitorenbuchhaltungssystem.",
+  "isoElements": {
+    "Unstructured": {
+      "definition": "Informationen zur Ermöglichung des Abgleichs eines Umsatzes mit den Posten, die durch die Zahlung beglichen werden sollen, etwa Handelsrechnungen in einem Debitorenbuchhaltungssystem, in unstrukturierter Form."
+    },
+    "Structured": {
+      "definition": "Informationen zur Ermöglichung des Abgleichs eines Umsatzes mit den Posten, die durch die Zahlung beglichen werden sollen, etwa Handelsrechnungen in einem Debitorenbuchhaltungssystem, in strukturierter Form."
+    }
+  }
+}

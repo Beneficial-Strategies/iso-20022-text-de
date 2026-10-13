@@ -1,0 +1,30 @@
+{
+  "isoType": "GroupHeader114",
+  "definition": "Satz von Merkmalen, die für alle in der Nachricht enthaltenen Einzeltransaktionen gelten.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, vergeben von der anweisenden Partei und an die nächste Partei in der Kette gesendet, zur zweifelsfreien Identifizierung der Nachricht.|Verwendung: Die anweisende Partei muss sicherstellen, dass MessageIdentification für die angewiesene Partei über einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "Authorisation": {
+      "definition": "Benutzeridentifikation oder Benutzerschlüssel, anhand derer geprüft wird, ob die initiierende Partei Transaktionen von dem in der Nachricht angegebenen Konto auslösen darf.||Verwendung: Der Inhalt ist nicht technischer Natur, sondern spiegelt die Organisationsstruktur auf der initiierenden Seite wider.|Das Autorisierungselement kann typischerweise in Relay-Szenarien, Zahlungsinitiierungen, Zahlungsrückgaben oder Zahlungsrückbuchungen verwendet werden, die im Auftrag einer von der initiierenden Partei verschiedenen Partei ausgelöst werden."
+    },
+    "NumberOfTransactions": {
+      "definition": "Anzahl der in der Nachricht enthaltenen Einzeltransaktionen."
+    },
+    "ControlSum": {
+      "definition": "Summe aller in der Nachricht enthaltenen Einzelbeträge, unabhängig von den Währungen."
+    },
+    "InitiatingParty": {
+      "definition": "Partei, die die Zahlung initiiert.||Verwendung: Dies kann entweder der Zahlungspflichtige sein oder die Partei, die die Überweisung im Auftrag des Zahlungspflichtigen initiiert."
+    },
+    "ForwardingAgent": {
+      "definition": "Finanzinstitut, das die Anweisung von der initiierenden Partei erhält und zur Ausführung an die nächste Bank in der Zahlungskette weiterleitet."
+    },
+    "InitiationSource": {
+      "definition": "Quellanwendung oder -software, die zur Initiierung der Zahlung verwendet wurde."
+    }
+  }
+}

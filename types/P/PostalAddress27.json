@@ -1,0 +1,60 @@
+{
+  "isoType": "PostalAddress27",
+  "definition": "Informationen, die eine bestimmte Adresse, wie von den Postdiensten definiert, lokalisieren und identifizieren.",
+  "isoElements": {
+    "AddressType": {
+      "definition": "Gibt die Art der Postanschrift an."
+    },
+    "CareOf": {
+      "definition": "Bezeichnet einen Adressaten, der die Korrespondenz für den vorgesehenen Empfänger entgegennimmt. Die Angabe „c/o“ stellt sicher, dass die Korrespondenz den richtigen Empfänger erreicht und nicht an den Absender zurückgesendet wird."
+    },
+    "Department": {
+      "definition": "Identifikation einer Abteilung einer großen Organisation oder eines Gebäudes."
+    },
+    "SubDepartment": {
+      "definition": "Identifikation einer Unterabteilung einer großen Organisation oder eines Gebäudes."
+    },
+    "StreetName": {
+      "definition": "Name einer Straße oder eines Verkehrswegs."
+    },
+    "BuildingNumber": {
+      "definition": "Nummer zur Identifikation der Position eines Gebäudes in einer Straße."
+    },
+    "BuildingName": {
+      "definition": "Name des Gebäudes oder Hauses."
+    },
+    "Floor": {
+      "definition": "Etage oder Stockwerk innerhalb eines Gebäudes."
+    },
+    "UnitNumber": {
+      "definition": "Bezeichnet eine Wohnung oder Wohneinheit innerhalb des Gebäudes."
+    },
+    "PostBox": {
+      "definition": "Nummeriertes Fach in einem Postamt, das einer Person oder Organisation zugewiesen ist und in dem Briefe bis zur Abholung aufbewahrt werden."
+    },
+    "Room": {
+      "definition": "Raumnummer im Gebäude."
+    },
+    "PostCode": {
+      "definition": "Kennung aus einer Gruppe von Buchstaben und/oder Ziffern, die einer Postadresse hinzugefügt wird, um die Sortierung der Post zu unterstützen."
+    },
+    "TownName": {
+      "definition": "Name eines bebauten Gebiets mit festgelegten Grenzen und einer örtlichen Verwaltung."
+    },
+    "TownLocationName": {
+      "definition": "Bestimmter Ortsname innerhalb der Stadt."
+    },
+    "DistrictName": {
+      "definition": "Bezeichnet eine Untergliederung innerhalb einer Untergliederung eines Landes."
+    },
+    "CountrySubDivision": {
+      "definition": "Bezeichnet eine Untergliederung eines Landes wie Bundesstaat, Region, Landkreis."
+    },
+    "Country": {
+      "definition": "Staat mit eigener Regierung."
+    },
+    "AddressLine": {
+      "definition": "Informationen, die eine bestimmte Adresse, wie von den Postdiensten definiert, lokalisieren und identifizieren, in Freitextform."
+    }
+  }
+}

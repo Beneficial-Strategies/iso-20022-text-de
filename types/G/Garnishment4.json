@@ -1,0 +1,30 @@
+{
+  "isoType": "Garnishment4",
+  "definition": "Enthält Verwendungszweck-Informationen zu einer Zahlung für pfändungsbezogene Zwecke.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art der Pfändung an."
+    },
+    "Garnishee": {
+      "definition": "Letztlich Zahlungspflichtiger, der dem (letztlichen) Zahlungsempfänger, in diesem Fall dem Pfändungsgläubiger, einen Geldbetrag schuldet."
+    },
+    "GarnishmentAdministrator": {
+      "definition": "Partei auf der Gutschriftseite der Transaktion, die die Pfändung im Auftrag des letztlich Begünstigten verwaltet."
+    },
+    "ReferenceNumber": {
+      "definition": "Referenzinformationen, die für die die Pfändung empfangende Stelle spezifisch sind."
+    },
+    "Date": {
+      "definition": "Datum der Zahlung, von der die Pfändung vorgenommen wurde."
+    },
+    "RemittedAmount": {
+      "definition": "Für das referenzierte Dokument überwiesener Geldbetrag."
+    },
+    "FamilyMedicalInsuranceIndicator": {
+      "definition": "Gibt an, ob für die Person, für die die Pfändung gilt (das heißt den letztlich Zahlungspflichtigen), eine Familienkrankenversicherung zur Verfügung steht."
+    },
+    "EmployeeTerminationIndicator": {
+      "definition": "Gibt an, ob das Beschäftigungsverhältnis der Person, für die die Pfändung gilt (das heißt des letztlich Zahlungspflichtigen), beendet wurde."
+    }
+  }
+}

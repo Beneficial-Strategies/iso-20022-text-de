@@ -1,0 +1,33 @@
+{
+  "isoType": "ExternalDebtorAgentInstruction1Code",
+  "isoCodes": {
+    "HOLD": {
+      "name": "Bargeld für Zahlungsempfänger bereithalten",
+      "definition": "Der Geldbetrag ist für den (letztlichen) Zahlungsempfänger bereitzuhalten, der ihn abholen wird. Auszahlung gegen Identifikation."
+    },
+    "CHQB": {
+      "name": "Zahlungsempfänger per Scheck bezahlen",
+      "definition": "(Letztlicher) Zahlungsempfänger muss per Scheck bezahlt werden."
+    },
+    "PRTK": {
+      "name": "Zahler-Token angefordert",
+      "definition": "Zeigt an, dass ein Zahler-Token angefordert wird/verwendet wurde."
+    },
+    "PHOB": {
+      "name": "Begünstigten anrufen",
+      "definition": "Bitte den (letztlichen) Zahlungsempfänger/Anspruchsberechtigten telefonisch benachrichtigen bzw. kontaktieren."
+    },
+    "TELB": {
+      "name": "Telekommunikation",
+      "definition": "Bitte den (letztlichen) Zahlungsempfänger/Anspruchsberechtigten auf dem effizientesten Telekommunikationsweg benachrichtigen bzw. kontaktieren."
+    },
+    "TOKN": {
+      "name": "Token",
+      "definition": "Token-Informationen."
+    },
+    "VLTK": {
+      "name": "Token-Validierung",
+      "definition": "Zusätzliche Validierungsinformationen zur Verwendung in Verbindung mit dem Token."
+    }
+  }
+}

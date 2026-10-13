@@ -1,0 +1,21 @@
+{
+  "isoType": "PartyIdentification272",
+  "definition": "Gibt die Identifikation einer Person oder einer Organisation an.",
+  "isoElements": {
+    "Name": {
+      "definition": "Name, unter dem eine Partei bekannt ist und der üblicherweise zu ihrer Identifizierung verwendet wird."
+    },
+    "PostalAddress": {
+      "definition": "Informationen, die eine bestimmte Adresse, wie von den Postdiensten definiert, lokalisieren und identifizieren."
+    },
+    "Identification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation einer Partei."
+    },
+    "CountryOfResidence": {
+      "definition": "Land, in dem eine Person ansässig ist (der Ort des Wohnsitzes einer Person). Bei einem Unternehmen ist es das Land, von dem aus die Geschäfte des Unternehmens geleitet werden."
+    },
+    "ContactDetails": {
+      "definition": "Menge von Elementen, die angeben, wie die Partei kontaktiert werden kann."
+    }
+  }
+}

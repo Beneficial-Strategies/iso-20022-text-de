@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxAmount3",
+  "definition": "Satz von Elementen mit Informationen zu den Steuerbeträgen des Steuerdatensatzes.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Satz, der zur Berechnung der Steuer verwendet wird."
+    },
+    "TaxableBaseAmount": {
+      "definition": "Geldbetrag, auf dem die Steuer basiert."
+    },
+    "TotalAmount": {
+      "definition": "Gesamtbetrag, der sich aus der Berechnung der Steuer für den Datensatz ergibt."
+    },
+    "Details": {
+      "definition": "Satz von Elementen mit Angaben zu Steuerzeitraum und Steuerbetrag."
+    }
+  }
+}

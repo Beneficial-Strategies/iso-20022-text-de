@@ -1,0 +1,93 @@
+{
+  "isoType": "ExternalProxyAccountType1Code",
+  "isoCodes": {
+    "TELE": {
+      "name": "Telefonnummer",
+      "definition": "Telefonnummer im Format gemäß „The international public telecommunication numbering plan ITU-T E.164“."
+    },
+    "EMAL": {
+      "name": "E-Mail-Adresse",
+      "definition": "Internationalisierte Adresse eines elektronischen Postfachs für Internetnachrichten."
+    },
+    "DNAM": {
+      "name": "Domainname",
+      "definition": "Internationalisierter Internet-Domänenname."
+    },
+    "CINC": {
+      "name": "Handelsregister- bzw. Gründungsnummer",
+      "definition": "Von einer nationalen Institution oder Aufsichtsbehörde ausgestellte Unternehmensidentifikation, die als Kontoproxy verwendet wird. |(angewendet für Unternehmenskontoproxy)."
+    },
+    "COTX": {
+      "name": "Steuernummer des Unternehmens",
+      "definition": "Eindeutige, staatlich vergebene Steueridentifikation, die als Kontoproxy zur Identifikation des Unternehmens (z. B. für staatliche Steuern) verwendet und typischerweise mit dem Unternehmensbankkonto verknüpft wird (angewendet für Unternehmenskontoproxy)."
+    },
+    "COID": {
+      "name": "Identifikation der Landesbehörde",
+      "definition": "Von einer nationalen Institution oder Aufsichtsbehörde ausgestellte Identifikation (abweichend von einem nationalen Verfahren wie einem Clearing-Anbieter), die als Kontoproxy verwendet wird (angewendet für Unternehmens- oder Privatkontoproxy)."
+    },
+    "CUST": {
+      "name": "Kundenidentifikationsnummer",
+      "definition": "Jede sonstige Kundenidentifikationsnummer, die von einem Unternehmen, einer Bank oder einer anderen Organisation vergeben und als Kontoproxy verwendet wird.|(angewendet für Unternehmens- oder Privatkontoproxy)."
+    },
+    "DRLC": {
+      "name": "Führerscheinnummer",
+      "definition": "Eindeutige, staatlich vergebene Identifikation, die als Kontoproxy zur Identifikation der Einzelperson (z. B. für staatliche Gebühren, Kfz-Steuern und Mautgebühren, Impfgebühren) verwendet und typischerweise mit dem Bankkonto der Einzelperson verknüpft wird (angewendet für Privatkontoproxy)."
+    },
+    "EIDN": {
+      "name": "Elektronische Identifikation",
+      "definition": "Staatlich vergebene Identifikation (abweichend von einer Reisepass- oder nationalen Identifikation). Wird als Kontoproxy zur Identifikation der Einzelperson (z. B. für öffentliche Leistungen) verwendet und typischerweise mit dem Bankkonto der Einzelperson verknüpft (angewendet für Privatkontoproxy)."
+    },
+    "EWAL": {
+      "name": "E-Wallet-Identifikation",
+      "definition": "Marktübliche Prepaid-Instrumente wie E-Wallets, Zahlungen von/an E-Wallets von/an Bankkonten (angewendet für Unternehmens- oder Privatkontoproxy)."
+    },
+    "PVTX": {
+      "name": "Steuer-Identifikationsnummer der Einzelperson",
+      "definition": "Eindeutige, staatlich vergebene Steueridentifikation, die als Kontoproxy zur Identifikation der Einzelperson (z. B. für staatliche Steuern) verwendet und typischerweise mit dem Bankkonto der Einzelperson verknüpft wird (angewendet für Privatkontoproxy)."
+    },
+    "LEIC": {
+      "name": "Legal-Entity-Identifier-Code",
+      "definition": "Legal Entity Identifier, der als Kontoproxy verwendet wird (angewendet für Unternehmenskontoproxy).|Anwendungsfälle: Kann von Unternehmen als „staatlich vergebene“ Identifikation für die Registrierung bei Zahlungsverfahren als Proxy verwendet werden. Der Proxy kann darüber hinaus für Zahlungen und Einzüge über die zugrunde liegenden Sofortzahlungsinfrastrukturen für eine Vielzahl von Unternehmensanwendungsfällen genutzt werden."
+    },
+    "MBNO": {
+      "name": "Mobiltelefonnummer",
+      "definition": "Mobiltelefonnummer im Format gemäß „The international public telecommunication numbering plan ITU- T E 164“ (angewendet für Unternehmens- oder Privatkontoproxy)."
+    },
+    "NIDN": {
+      "name": "Nationale Identifikationsnummer",
+      "definition": "Eindeutige, staatlich vergebene Identifikation, die als Kontoproxy zur Identifikation der Einzelperson oder des Unternehmens (z. B. für öffentliche Leistungen, staatliche Subventionen) verwendet und typischerweise mit dem Bankkonto der Einzelperson/des Unternehmens verknüpft wird.|(angewendet für Unternehmens- oder Privatkontoproxy)."
+    },
+    "CCPT": {
+      "name": "Reisepassnummer",
+      "definition": "Eindeutige, staatlich vergebene Identifikation, die als Kontoproxy zur Identifikation der Einzelperson (z. B. für staatliche Gebühren, Kfz-Steuern, Impfgebühren) verwendet und typischerweise mit dem Bankkonto der Einzelperson verknüpft wird|(angewendet für Privatkontoproxy)."
+    },
+    "SHID": {
+      "name": "Verfahrensidentifikationsnummer",
+      "definition": "Von einem Zahlungsverfahren ausgegebener Kontoproxy (angewendet für Unternehmens- oder Privatkontoproxy).|Anwendungsfälle: Alle von Clearing-Systemen ausgegebenen Proxys, zum Beispiel VPA (Indien), FPS Identifier (Hongkong), Jompay (Malaysia), CCIN (Kanada)."
+    },
+    "SOSE": {
+      "name": "Sozialversicherungsnummer",
+      "definition": "Eindeutige, staatlich vergebene Identifikation, die als Kontoproxy zur Identifikation der Einzelperson (z. B. für öffentliche Leistungen) verwendet und typischerweise mit dem Bankkonto der Einzelperson verknüpft wird (angewendet für Privatkontoproxy)."
+    },
+    "TOKN": {
+      "name": "Token-Identifikation",
+      "definition": "Elektronische Identifikation, die beispielsweise zur Maskierung einer Kontonummer als Mittel der Datengeheimhaltung verwendet wird.|(angewendet für Unternehmens- oder Privatkontoproxy)."
+    },
+    "UBIL": {
+      "name": "Identifikation des Versorgungsabonnements",
+      "definition": "Teilnehmerkennung für Versorgungs- und sonstige Dienstleistungen. Im Gegensatz zu einer Rechnungstellerkennung dient diese Kennung dem Teilnehmer der Dienstleistung (angewendet für Unternehmens- oder Privatkontoproxy)."
+    },
+    "VIPN": {
+      "name": "Kfz-Kennzeichen",
+      "definition": "Kontoproxy für den Empfang von Versicherungsleistungen, die Zahlung von Versicherungsprämien, Kfz-Steuerzahlungen, Strafzettel usw. (angewendet für Unternehmens- oder Privatkontoproxy)."
+    },
+    "BIID": {
+      "name": "Identifikation des Rechnungsstellers bzw. Teilnehmers",
+      "definition": "Rechnungsteller bestimmter Versorgungsleistungen können sich für eine Rechnungstellerkennung registrieren, wie sie im Clearing-Verfahren unterstützt wird, und diese Kennung für Einzüge verwenden (angewendet für Unternehmenskontoproxy)."
+    },
+    "OSID": {
+      "name": "Sonstige Verfahrensidentifikationsnummer",
+      "definition": "Zusätzliche Verfahrenskennung, die die primäre Verfahrensidentifikation ergänzt, damit Banken je nach angegebenem Typcode die entsprechenden Prüfungen des Proxy-Werts anwenden können."
+    }
+  }
+}

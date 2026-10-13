@@ -1,0 +1,12 @@
+{
+  "isoType": "GarnishmentType1",
+  "definition": "Gibt die Art der Pfändung an.",
+  "isoElements": {
+    "CodeOrProprietary": {
+      "definition": "Enthält die Angaben zur Pfändungsart."
+    },
+    "Issuer": {
+      "definition": "Identifikation des Ausstellers der Pfändungsart."
+    }
+  }
+}

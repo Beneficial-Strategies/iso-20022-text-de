@@ -1,0 +1,45 @@
+{
+  "isoType": "Contact13",
+  "definition": "Gibt die Angaben zur Kontaktperson an.",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Gibt die Begriffe an, die zur förmlichen Anrede einer Person verwendet werden."
+    },
+    "Name": {
+      "definition": "Name, unter dem eine Partei bekannt ist und der üblicherweise zu ihrer Identifizierung verwendet wird."
+    },
+    "PhoneNumber": {
+      "definition": "Gesamtheit der Informationen, die eine Telefonnummer, wie von den Telekommunikationsdiensten definiert, identifizieren."
+    },
+    "MobileNumber": {
+      "definition": "Gesamtheit der Informationen, die eine Mobiltelefonnummer, wie von den Telekommunikationsdiensten definiert, identifizieren."
+    },
+    "FaxNumber": {
+      "definition": "Gesamtheit der Informationen, die eine FAX-Nummer, wie von den Telekommunikationsdiensten definiert, identifizieren."
+    },
+    "URLAddress": {
+      "definition": "Adresse für den Uniform Resource Locator (URL), zum Beispiel eine über den WWW-Dienst (HTTP) verwendete Adresse."
+    },
+    "EmailAddress": {
+      "definition": "Adresse für elektronische Post (E-Mail)."
+    },
+    "EmailPurpose": {
+      "definition": "Zweck, für den eine E-Mail-Adresse verwendet werden kann."
+    },
+    "JobTitle": {
+      "definition": "Titel der Funktion."
+    },
+    "Responsibility": {
+      "definition": "Rolle einer Person in einer Organisation."
+    },
+    "Department": {
+      "definition": "Identifikation einer Abteilung einer großen Organisation oder eines Gebäudes."
+    },
+    "Other": {
+      "definition": "Kontaktangaben in anderer Form."
+    },
+    "PreferredMethod": {
+      "definition": "Bevorzugtes Verfahren zur Kontaktaufnahme."
+    }
+  }
+}

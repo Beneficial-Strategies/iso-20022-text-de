@@ -1,0 +1,33 @@
+{
+  "isoType": "StructuredRemittanceInformation22",
+  "definition": "Informationen zur Ermöglichung des Abgleichs eines Umsatzes mit den Posten, die durch die Zahlung beglichen werden sollen, etwa Handelsrechnungen in einem Debitorenbuchhaltungssystem, in strukturierter Form.",
+  "isoElements": {
+    "ReferredDocumentInformation": {
+      "definition": "Enthält die Identifikation und den Inhalt des referenzierten Dokuments."
+    },
+    "ReferredDocumentAmount": {
+      "definition": "Enthält Angaben zu den Beträgen des referenzierten Dokuments."
+    },
+    "CreditorReferenceInformation": {
+      "definition": "Vom Zahlungsempfänger bereitgestellte Referenzinformationen zur Identifizierung der zugrunde liegenden Dokumente."
+    },
+    "Invoicer": {
+      "definition": "Identifikation der Organisation, die die Rechnung ausstellt, sofern sie vom Zahlungsempfänger oder letztlichen Zahlungsempfänger abweicht."
+    },
+    "Invoicee": {
+      "definition": "Identifikation der Partei, an die eine Rechnung ausgestellt wird, sofern sie vom Zahlungspflichtigen oder letztlich Zahlungspflichtigen abweicht."
+    },
+    "TaxRemittance": {
+      "definition": "Enthält Verwendungszweck-Informationen zu einer Zahlung für steuerbezogene Zwecke."
+    },
+    "GarnishmentRemittance": {
+      "definition": "Enthält Verwendungszweck-Informationen zu einer Zahlung für pfändungsbezogene Zwecke."
+    },
+    "SecuritiesData": {
+      "definition": "Enthält Informationen zu den Wertpapiergeschäften, aus denen sich die Zahlung zusammensetzt."
+    },
+    "AdditionalRemittanceInformation": {
+      "definition": "Zusätzliche Informationen in Freitextform zur Ergänzung der strukturierten Verwendungszweck-Informationen."
+    }
+  }
+}

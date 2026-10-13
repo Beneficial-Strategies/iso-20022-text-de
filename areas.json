@@ -1,0 +1,49 @@
+{
+  "isoAreas": {
+    "acmt": {
+      "name": "Kontoverwaltung",
+      "definition": "Nachrichten, die die Verwaltung kontobezogener Tätigkeiten unterstützen, etwa die Eröffnung und Pflege eines Kontos."
+    },
+    "admi": {
+      "definition": "Allgemeine Nachrichten, d. h. Systemereignisbenachrichtigungen, allgemeine Ablehnungen usw."
+    },
+    "caam": {
+      "name": "Geldautomatenverwaltung",
+      "definition": "Nachrichten, die kartenbezogene Terminalverwaltungsdienste zwischen einem Geldautomaten (ATM) und einem Acquirer unterstützen."
+    },
+    "camt": {
+      "name": "Cash-Management",
+      "definition": "Nachrichten, die die Meldung und Avisierung der Zahlungsmittelseite beliebiger Finanztransaktionen unterstützen, einschließlich Zahlungsmittelbewegungen, Transaktionen und Salden, sowie Ausnahmen und Untersuchungen im Zusammenhang mit Zahlungsmitteltransaktionen."
+    },
+    "head": {
+      "definition": "Header, der geschäftliche Informationen enthält, die vor der Verarbeitung einer Nachricht relevant sind."
+    },
+    "pacs": {
+      "name": "Zahlungsclearing und -abwicklung",
+      "definition": "Nachrichten, die die Clearing- und Abwicklungsprozesse für Zahlungsvorgänge zwischen Finanzinstituten unterstützen."
+    },
+    "pain": {
+      "name": "Zahlungsinitiierung",
+      "definition": "Nachrichten, die die Initiierung einer Zahlung durch den Auftraggeber bei einem Finanzinstitut, das ein Geldkonto führt, sowie die Meldung ihres Status unterstützen."
+    },
+    "remt": {
+      "name": "Zahlungsavis",
+      "definition": "Nachrichten, die die Kommunikation zwischen Gläubigern und Schuldnern über Avisierungsdetails zu Zahlungen unterstützen."
+    },
+    "seev": {
+      "name": "Wertpapierereignisse",
+      "definition": "Nachrichten, die die Verwaltung von Vermögenswerten unterstützen, einschließlich Stimmrechtsvertretung, Erträgen und Kapitalmaßnahmen."
+    },
+    "semt": {
+      "name": "Wertpapierverwaltung",
+      "definition": "Nachrichten, die die Prozesse nach der Abwicklung von Wertpapieren unterstützen (einschließlich der Berichterstattung über Wertpapierbewegungen, Geschäfte und Bestände), die Prozesse zum Schutz der Rechte des wirtschaftlich Berechtigten während der Abwicklung sowie Ausnahmen und Untersuchungen im Zusammenhang mit Wertpapiergeschäften."
+    },
+    "sese": {
+      "name": "Wertpapierabwicklung",
+      "definition": "Nachrichten, die den Abwicklungsprozess für Wertpapiere unterstützen und dessen Status und Bestätigung melden."
+    },
+    "trck": {
+      "name": "Transaktionsverfolgung"
+    }
+  }
+}

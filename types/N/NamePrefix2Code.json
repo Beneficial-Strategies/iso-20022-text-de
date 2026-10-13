@@ -1,0 +1,26 @@
+{
+  "isoType": "NamePrefix2Code",
+  "definition": "Gibt die Begriffe an, die zur förmlichen Anrede einer Person verwendet werden.",
+  "isoCodes": {
+    "DOCT": {
+      "name": "Doktor",
+      "definition": "Der Titel der Person lautet Doktor oder Dr."
+    },
+    "MADM": {
+      "name": "Frau",
+      "definition": "Der Titel der Person lautet Frau."
+    },
+    "MISS": {
+      "name": "Fräulein",
+      "definition": "Der Titel der Person lautet Fräulein."
+    },
+    "MIST": {
+      "name": "Herr",
+      "definition": "Der Titel der Person lautet Herr."
+    },
+    "MIKS": {
+      "name": "Geschlechtsneutral",
+      "definition": "Der Titel der Person ist geschlechtsneutral (Mx)."
+    }
+  }
+}

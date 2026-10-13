@@ -1,0 +1,12 @@
+{
+  "isoType": "Authorisation1Choice",
+  "definition": "Enthält die Angaben zur Benutzeridentifikation oder zu einem Benutzerschlüssel, anhand derer geprüft werden kann, ob die initiierende Partei zur Auslösung der Transaktion berechtigt ist.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt die Autorisierung in codierter Form an."
+    },
+    "Proprietary": {
+      "definition": "Gibt die Autorisierung in Freitextform an."
+    }
+  }
+}

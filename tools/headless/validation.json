@@ -1,0 +1,21 @@
+{
+  "required": "Pflichtfeld",
+  "invalid_type": "Ungültiger Wert",
+  "invalid_format": "Ungültiges Format",
+  "decimal_format": "Geben Sie eine Zahl aus Ziffern und optional einem Dezimalpunkt ein, zum Beispiel 1500.25",
+  "too_short": "Muss mindestens {min} Zeichen lang sein",
+  "too_long": "Darf höchstens {max} Zeichen lang sein",
+  "too_few_items": "Mindestens {min} erforderlich",
+  "too_many_items": "Höchstens {max} zulässig",
+  "not_allowed_value": "Kein zulässiger Wert",
+  "select_one": "Wählen Sie eine Option",
+  "not_allowed_here": "Hier nicht zulässig",
+  "fraction_digits": "Höchstens {max} Nachkommastellen",
+  "total_digits": "Höchstens {max} Ziffern insgesamt",
+  "min_inclusive": "Muss mindestens {min} sein",
+  "invalid": "Ungültiger Wert",
+  "rule_literal_not_code_value": "das Literal „{value}“ ist kein Wert einer Codeliste bei {path}",
+  "rule_path_unknown": "{path} ist kein Feld dieses Typs, daher kann die Regel nicht geprüft werden",
+  "rule_code_list_unavailable": "die Codeliste {list} ist nicht verfügbar",
+  "rule_operator_unsupported": "der Operator {op} wird nicht unterstützt"
+}

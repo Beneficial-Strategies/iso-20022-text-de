@@ -1,4 +1,0 @@
-{
- "ExternalNotificationSubType1Code": "Gibt die Benachrichtigungsunterart an, wie in einer externen Codeliste für Benachrichtigungsunterarten veröffentlicht.|Externe Codelisten können unter www.iso20022.org heruntergeladen werden.",
- "ExternalNotificationType1Code": "Gibt die Benachrichtigungsart an, wie in einer externen Codeliste für Benachrichtigungsarten veröffentlicht.|Externe Codelisten können unter www.iso20022.org heruntergeladen werden."
-}

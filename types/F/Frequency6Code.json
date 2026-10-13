@@ -1,0 +1,42 @@
+{
+  "isoType": "Frequency6Code",
+  "definition": "Gibt die Regelmäßigkeit einer Maßnahme an.",
+  "isoCodes": {
+    "YEAR": {
+      "name": "Jährlich",
+      "definition": "Das Ereignis findet jährlich bzw. einmal im Jahr statt."
+    },
+    "MNTH": {
+      "name": "Monatlich",
+      "definition": "Das Ereignis findet monatlich bzw. einmal im Monat statt."
+    },
+    "QURT": {
+      "name": "Vierteljährlich",
+      "definition": "Das Ereignis findet alle drei Monate bzw. viermal jährlich statt."
+    },
+    "MIAN": {
+      "name": "Halbjährlich",
+      "definition": "Das Ereignis findet alle sechs Monate bzw. zweimal jährlich statt."
+    },
+    "WEEK": {
+      "name": "Wöchentlich",
+      "definition": "Das Ereignis findet einmal wöchentlich statt."
+    },
+    "DAIL": {
+      "name": "Täglich",
+      "definition": "Das Ereignis findet täglich statt."
+    },
+    "ADHO": {
+      "name": "Ad hoc",
+      "definition": "Das Ereignis findet auf Anforderung oder bei Bedarf statt."
+    },
+    "INDA": {
+      "name": "Untertägig",
+      "definition": "Das Ereignis findet mehrmals täglich statt."
+    },
+    "FRTN": {
+      "name": "Vierzehntägig",
+      "definition": "Das Ereignis findet alle zwei Wochen statt."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentType2Choice",
+  "definition": "Gibt die Art des Dokuments an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des Zahlungsavis-Dokuments, wie in einer externen Code-Liste für Dokumentarten veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Art des Zahlungsavis-Dokuments in proprietärer Form."
+    }
+  }
+}

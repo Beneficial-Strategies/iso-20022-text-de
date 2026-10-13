@@ -1,0 +1,25 @@
+{
+  "isoType": "ExternalRegulatoryReportingType1Code",
+  "isoCodes": {
+    "DECL": {
+      "name": "Erklärung",
+      "definition": "Die Transaktion enthält eine Erklärung, die die Einhaltung der geltenden aufsichtsrechtlichen Anforderungen und Sanktionsanforderungen bestätigt (z. B. FEFTA, OFAC oder andere relevante Regelwerke). Dieser Typcode bezieht sich auf Informationen in jedem Element unter demselben Vorkommen von „RgltryRptg/Dtls“."
+    },
+    "CIST": {
+      "name": "Staatsbürgerschaftsstatus",
+      "definition": "Die Aufsichtsbehörde verlangt den Ansässigkeitsstatus einer beteiligten Partei, z. B. ob sie ansässig oder nicht ansässig ist. Dieser Typcode kann sich auf Informationen in jedem Element unter demselben Vorkommen von „RgltryRptg/Dtls“ beziehen."
+    },
+    "CRST": {
+      "name": "Status des Zahlungsempfängers",
+      "definition": "Die Aufsichtsbehörde verlangt den Status oder die Art des Zahlungsempfängers, z. B. ob es sich um eine Gesellschaft, eine Einzelperson oder den Staat handelt. Dieser Typcode kann sich auf Informationen in jedem Element unter demselben Vorkommen von „RgltryRptg/Dtls“ beziehen."
+    },
+    "TAXS": {
+      "name": "Steuerstatus",
+      "definition": "Die Aufsichtsbehörde verlangt eine Steuerinformation, z. B. eine Steueridentifikationsreferenz. Dieser Typcode kann sich auf Informationen in jedem Element unter demselben Vorkommen von „RgltryRptg/Dtls“ beziehen."
+    },
+    "PURP": {
+      "name": "Neuer Code",
+      "definition": "Die Aufsichtsbehörde verlangt oder empfiehlt einen Code oder Freitext zur Identifikation des Zahlungszwecks gemäß den spezifischen Anforderungen dieser Behörde. Dieser Typcode kann sich auf Informationen in jedem Element unter demselben Vorkommen von „RgltryRptg/Dtls“ beziehen."
+    }
+  }
+}

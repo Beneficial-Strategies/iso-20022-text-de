@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxParty2",
+  "definition": "Angaben zu der Stelle, die an der gezahlten oder zu zahlenden Steuer beteiligt ist.",
+  "isoElements": {
+    "TaxIdentification": {
+      "definition": "Steuer-Identifikationsnummer des Zahlungspflichtigen."
+    },
+    "RegistrationIdentification": {
+      "definition": "Eindeutige, von einer Organisation vergebene Identifikation zur zweifelsfreien Identifizierung einer Partei."
+    },
+    "TaxType": {
+      "definition": "Art des Steuerzahlers."
+    },
+    "Authorisation": {
+      "definition": "Angaben zur autorisierten steuerzahlenden Partei."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "CreditDebitCode",
+  "definition": "Gibt an, ob ein Vorgang eine Erhöhung oder eine Verminderung ist.",
+  "isoCodes": {
+    "CRDT": {
+      "name": "Gutschrift",
+      "definition": "Der Vorgang ist eine Erhöhung."
+    },
+    "DBIT": {
+      "name": "Lastschrift",
+      "definition": "Der Vorgang ist eine Verminderung."
+    }
+  }
+}

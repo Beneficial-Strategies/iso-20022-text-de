@@ -1,0 +1,54 @@
+{
+  "isoType": "ChequeDelivery1Code",
+  "definition": "Gibt die Methode an, mit der ein Scheck einer Partei zugestellt wird.",
+  "isoCodes": {
+    "MLDB": {
+      "name": "Post an Zahlungspflichtigen",
+      "definition": "Der Scheck ist per Post an den Zahlungspflichtigen zu senden."
+    },
+    "MLCD": {
+      "name": "Post an Zahlungsempfänger",
+      "definition": "Der Scheck ist per Post an den Zahlungsempfänger zu senden."
+    },
+    "MLFA": {
+      "name": "Post an letzte Bank",
+      "definition": "Der Scheck ist per Post an die Bank des Zahlungsempfängers zu senden."
+    },
+    "CRDB": {
+      "name": "Kurier an Zahlungspflichtigen",
+      "definition": "Der Scheck ist per Kurier an den Zahlungspflichtigen zu senden."
+    },
+    "CRCD": {
+      "name": "Kurier an Zahlungsempfänger",
+      "definition": "Der Scheck ist per Kurierdienst an den Zahlungsempfänger zu senden."
+    },
+    "CRFA": {
+      "name": "Kurier an letzte Bank",
+      "definition": "Der Scheck ist per Kurier an die Bank des Zahlungsempfängers zu senden."
+    },
+    "PUDB": {
+      "name": "Abholung durch Zahlungspflichtigen",
+      "definition": "Der Scheck wird vom Zahlungspflichtigen abgeholt."
+    },
+    "PUCD": {
+      "name": "Abholung durch Zahlungsempfänger",
+      "definition": "Der Scheck wird vom Zahlungsempfänger abgeholt."
+    },
+    "PUFA": {
+      "name": "Abholung durch letzte Bank",
+      "definition": "Der Scheck wird von der Bank des Zahlungsempfängers abgeholt."
+    },
+    "RGDB": {
+      "name": "Einschreiben an Zahlungspflichtigen",
+      "definition": "Der Scheck ist per Einschreiben an den Zahlungspflichtigen zu senden."
+    },
+    "RGCD": {
+      "name": "Einschreiben an Zahlungsempfänger",
+      "definition": "Der Scheck ist per Einschreiben an den Zahlungsempfänger zu senden."
+    },
+    "RGFA": {
+      "name": "Einschreiben an letzte Bank",
+      "definition": "Der Scheck ist per Einschreiben an die Bank des Zahlungsempfängers zu senden."
+    }
+  }
+}

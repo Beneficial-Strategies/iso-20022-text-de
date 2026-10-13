@@ -1,0 +1,30 @@
+{
+  "isoType": "RemittanceLocationMethod2Code",
+  "definition": "Gibt die Methode an, mit der die Zahlungsavis-Informationen zugestellt werden.",
+  "isoCodes": {
+    "FAXI": {
+      "name": "Fax",
+      "definition": "Die Zahlungsavis-Informationen müssen per Fax gesendet werden."
+    },
+    "EDIC": {
+      "name": "Elektronischer Datenaustausch",
+      "definition": "Die Zahlungsavis-Informationen müssen per elektronischem Datenaustausch (Electronic Data Interchange, EDI) gesendet werden."
+    },
+    "URID": {
+      "name": "Uniform Resource Identifier",
+      "definition": "Die Zahlungsavis-Informationen sind an einen Uniform Resource Identifier (URI) zu senden. Ein URI ist eine kompakte Zeichenfolge, die eine abstrakte oder physische Ressource eindeutig identifiziert. URIs sind die Obermenge der Kennungen, wie URLs, E-Mail-Adressen, FTP-Sites usw., und stellen somit die Syntax für alle Identifikationsschemata bereit."
+    },
+    "EMAL": {
+      "name": "E-Mail",
+      "definition": "Die Zahlungsavis-Informationen müssen per E-Mail gesendet werden."
+    },
+    "POST": {
+      "name": "Post",
+      "definition": "Die Zahlungsavis-Informationen müssen auf dem Postweg gesendet werden."
+    },
+    "SMSM": {
+      "name": "SMS",
+      "definition": "Die Zahlungsavis-Informationen müssen per Kurznachricht (Short Message Service, SMS) auf das Telefon gesendet werden."
+    }
+  }
+}

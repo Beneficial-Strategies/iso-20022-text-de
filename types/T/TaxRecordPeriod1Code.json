@@ -1,0 +1,78 @@
+{
+  "isoType": "TaxRecordPeriod1Code",
+  "definition": "Gibt den Zeitraum an, auf den sich die Steuerzahlung bezieht.",
+  "isoCodes": {
+    "MM01": {
+      "name": "Erster Monat",
+      "definition": "Die Steuer bezieht sich auf den zweiten Monat des Zeitraums."
+    },
+    "MM02": {
+      "name": "Zweiter Monat",
+      "definition": "Die Steuer bezieht sich auf den ersten Monat des Zeitraums."
+    },
+    "MM03": {
+      "name": "Dritter Monat",
+      "definition": "Die Steuer bezieht sich auf den dritten Monat des Zeitraums."
+    },
+    "MM04": {
+      "name": "Vierter Monat",
+      "definition": "Die Steuer bezieht sich auf den vierten Monat des Zeitraums."
+    },
+    "MM05": {
+      "name": "Fünfter Monat",
+      "definition": "Die Steuer bezieht sich auf den fünften Monat des Zeitraums."
+    },
+    "MM06": {
+      "name": "Sechster Monat",
+      "definition": "Die Steuer bezieht sich auf den sechsten Monat des Zeitraums."
+    },
+    "MM07": {
+      "name": "Siebter Monat",
+      "definition": "Die Steuer bezieht sich auf den siebten Monat des Zeitraums."
+    },
+    "MM08": {
+      "name": "Achter Monat",
+      "definition": "Die Steuer bezieht sich auf den achten Monat des Zeitraums."
+    },
+    "MM09": {
+      "name": "Neunter Monat",
+      "definition": "Die Steuer bezieht sich auf den neunten Monat des Zeitraums."
+    },
+    "MM10": {
+      "name": "Zehnter Monat",
+      "definition": "Die Steuer bezieht sich auf den zehnten Monat des Zeitraums."
+    },
+    "MM11": {
+      "name": "Elfter Monat",
+      "definition": "Die Steuer bezieht sich auf den elften Monat des Zeitraums."
+    },
+    "MM12": {
+      "name": "Zwölfter Monat",
+      "definition": "Die Steuer bezieht sich auf den zwölften Monat des Zeitraums."
+    },
+    "QTR1": {
+      "name": "Erstes Quartal",
+      "definition": "Die Steuer bezieht sich auf das erste Quartal des Zeitraums."
+    },
+    "QTR2": {
+      "name": "Zweites Quartal",
+      "definition": "Die Steuer bezieht sich auf das zweite Quartal des Zeitraums."
+    },
+    "QTR3": {
+      "name": "Drittes Quartal",
+      "definition": "Die Steuer bezieht sich auf das dritte Quartal des Zeitraums."
+    },
+    "QTR4": {
+      "name": "Viertes Quartal",
+      "definition": "Die Steuer bezieht sich auf das vierte Quartal des Zeitraums."
+    },
+    "HLF1": {
+      "name": "Erstes Halbjahr",
+      "definition": "Die Steuer bezieht sich auf die erste Hälfte des Zeitraums."
+    },
+    "HLF2": {
+      "name": "Zweites Halbjahr",
+      "definition": "Die Steuer bezieht sich auf die zweite Hälfte des Zeitraums."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "RemittanceLocationData2",
+  "definition": "Enthält zusätzliche Angaben zum Zahlungsavis.",
+  "isoElements": {
+    "Method": {
+      "definition": "Methode, mit der die Zahlungsavis-Informationen zugestellt werden."
+    },
+    "ElectronicAddress": {
+      "definition": "Elektronische Adresse, an die eine Bank die Verwendungszweck-Informationen senden soll."
+    },
+    "PostalAddress": {
+      "definition": "Postanschrift, an die eine Bank die Verwendungszweck-Informationen senden soll."
+    }
+  }
+}

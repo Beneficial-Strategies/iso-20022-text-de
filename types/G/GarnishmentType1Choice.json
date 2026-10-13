@@ -1,0 +1,12 @@
+{
+  "isoType": "GarnishmentType1Choice",
+  "definition": "Gibt die Art der Pfändung an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Pfändungsart in codierter Form. Es wird empfohlen, hierfür eine externe Code-Liste mit folgenden Werten zu verwenden: GNCS    Pfändung durch einen Drittzahler für Kindesunterhalt GNDP    Pfändung durch einen Direktzahler für Kindesunterhalt GTPP     Pfändung durch einen Drittzahler an die Steuerbehörde."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Pfändungsart."
+    }
+  }
+}

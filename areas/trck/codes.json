@@ -1,7 +1,0 @@
-{
- "AmountConsistencyType1Code/CONS": "Die Betragsangabe stimmt mit dem Referenzdatensatz überein.",
- "AmountConsistencyType1Code/ICFA": "Die dem Zahlungsempfänger bestätigte Betragsangabe stimmt nicht mit dem Referenzdatensatz überein.",
- "AmountConsistencyType1Code/ICGA": "Die Angabe zum Gebührenbetrag stimmt nicht mit dem Referenzdatensatz überein.",
- "AmountConsistencyType1Code/ICNS": "Die Betragsangabe stimmt nicht mit dem Referenzdatensatz überein.",
- "AmountConsistencyType1Code/IISA": "Die Angabe zum Interbanken-Abwicklungsbetrag stimmt nicht mit dem Referenzdatensatz überein."
-}

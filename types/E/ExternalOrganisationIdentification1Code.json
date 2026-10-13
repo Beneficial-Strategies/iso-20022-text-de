@@ -1,0 +1,65 @@
+{
+  "isoType": "ExternalOrganisationIdentification1Code",
+  "isoCodes": {
+    "BANK": {
+      "name": "Bankparteiidentifikation",
+      "definition": "Eindeutige und unmissverständliche Zuordnung durch eine bestimmte Bank oder ein ähnliches Finanzinstitut zur Identifikation einer definierten Beziehung zwischen der Bank und ihrem Kunden."
+    },
+    "CBID": {
+      "name": "Zentralbank-Identifikationsnummer",
+      "definition": "Eindeutige Identifikationsnummer, die von einer Zentralbank zur Identifikation einer Organisation vergeben wird."
+    },
+    "CHID": {
+      "name": "Clearing-Identifikationsnummer",
+      "definition": "Eindeutige Identifikationsnummer, die von einer Clearingstelle zur Identifikation einer Organisation vergeben wird"
+    },
+    "CINC": {
+      "name": "Handelsregister- bzw. Gründungsnummer",
+      "definition": "Eindeutige Identifikationsnummer, die von einer benannten Behörde für eine Gründungsurkunde vergeben und zur Identifikation einer Organisation verwendet wird."
+    },
+    "COID": {
+      "name": "Länderkennzeichen",
+      "definition": "Von der Landesbehörde vergebene Identifikation einer Organisation (z. B. Handelsregisternummer)"
+    },
+    "CUST": {
+      "name": "Kundennummer",
+      "definition": "Von einem Emittenten vergebene Nummer zur Identifikation eines Kunden.|Von einer Partei vergebene Nummer zur Identifikation einer Zahlungsempfänger- oder Zahlungspflichtigen-Beziehung."
+    },
+    "DUNS": {
+      "name": "Data Universal Numbering System",
+      "definition": "Eindeutige Identifikationsnummer von Dun & Bradstreet zur Identifikation einer Organisation."
+    },
+    "EMPL": {
+      "name": "Arbeitgeber-Identifikationsnummer",
+      "definition": "Von einer Registrierungsstelle an einen Arbeitgeber vergebene Nummer."
+    },
+    "GS1G": {
+      "name": "GS1-GLN-Kennung",
+      "definition": "Global Location Number. Eine nicht aussagekräftige Referenznummer zur Identifikation von juristischen, funktionalen oder physischen Einheiten nach den Nummerierungsregeln von GS1. Die Nummer dient dem Abruf der damit verknüpften detaillierten Informationen."
+    },
+    "SREN": {
+      "name": "SIREN",
+      "definition": "Die SIREN-Nummer ist ein 9-stelliger Code, der von INSEE, dem französischen Nationalen Institut für Statistik und Wirtschaftsstudien, zur Identifikation einer Organisation in Frankreich vergeben wird."
+    },
+    "SRET": {
+      "name": "SIRET",
+      "definition": "Die SIRET-Nummer ist ein 14-stelliger Code, der von INSEE, dem französischen Nationalen Institut für Statistik und Wirtschaftsstudien, zur Identifikation einer Organisationseinheit in Frankreich vergeben wird. Sie besteht aus der SIREN-Nummer, gefolgt von einer fünfstelligen Klassifikationsnummer zur Identifikation der lokalen geografischen Einheit dieser Organisation"
+    },
+    "TXID": {
+      "name": "Steuer-Identifikationsnummer",
+      "definition": "Von einer Steuerbehörde vergebene Nummer zur Identifikation einer Organisation."
+    },
+    "BDID": {
+      "name": "Geschäftsbereichskennung",
+      "definition": "Kennung des Geschäftsbereichs, in dem die Organisation tätig ist."
+    },
+    "BOID": {
+      "name": "Sonstige Geschäftsidentifikation",
+      "definition": "Sonstige Identifikation der Organisation."
+    },
+    "USID": {
+      "name": "Eindeutige Superannuation-Kennung",
+      "definition": "Eindeutige Kennung, die einem Pensions-/Altersvorsorgefonds, -produkt oder -plan zugewiesen wird, an den eine Altersvorsorgebeitragszahlung gerichtet ist."
+    }
+  }
+}

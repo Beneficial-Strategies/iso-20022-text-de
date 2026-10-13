@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentIdentification6",
+  "definition": "Enthält weitere Möglichkeiten zur Referenzierung einer Zahlungstransaktion.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Eindeutige Identifikation, die von einer beauftragenden Partei für eine beauftragte Partei vergeben wird, um die Anweisung zu identifizieren.||Verwendung: Die Anweisungsidentifikation ist eine Punkt-zu-Punkt-Referenz, die zwischen der beauftragenden Partei und der beauftragten Partei verwendet werden kann, um auf die einzelne Anweisung zu verweisen. Sie kann in mehreren Nachrichten zur Anweisung enthalten sein."
+    },
+    "EndToEndIdentification": {
+      "definition": "Eindeutige Identifikation, die von der initiierenden Partei vergeben wird, um die Transaktion zu identifizieren. Diese Identifikation wird unverändert durch die gesamte Ende-zu-Ende-Kette weitergegeben.||Verwendung: Die Ende-zu-Ende-Identifikation kann zum Abgleich oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion verwendet werden. Sie kann in mehreren Nachrichten zur Transaktion enthalten sein."
+    },
+    "UETR": {
+      "definition": "Universell eindeutige Kennung zur Angabe einer Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    }
+  }
+}

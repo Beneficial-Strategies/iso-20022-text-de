@@ -1,0 +1,18 @@
+{
+  "isoType": "MandateClassification1Code",
+  "definition": "Gibt die Art des Lastschriftbetrags an, etwa fest oder variabel.",
+  "isoCodes": {
+    "FIXE": {
+      "name": "Fest",
+      "definition": "Der Lastschriftbetrag ist fest."
+    },
+    "USGB": {
+      "name": "Nutzungsabhängig",
+      "definition": "Der Lastschriftbetrag richtet sich nach der Nutzung."
+    },
+    "VARI": {
+      "name": "Variabel",
+      "definition": "Der Lastschriftbetrag ist variabel."
+    }
+  }
+}

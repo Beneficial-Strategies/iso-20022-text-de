@@ -1,0 +1,1469 @@
+{
+  "isoType": "ExternalPurpose1Code",
+  "isoCodes": {
+    "BKDF": {
+      "name": "Bankdarlehen: Delayed-Draw-Finanzierung",
+      "definition": "Verzögerte Mittelbereitstellung (Delayed Draw). Bestimmte Emittenten können Delayed-Draw-Darlehen nutzen, bei denen sich der Kreditgeber verpflichtet, innerhalb einer bestimmten Frist Barmittel bereitzustellen, sobald der Emittent einen Abruf vornimmt. Der Kreditgeber erhält für die Eingehung einer solchen Verpflichtung eine Gebühr."
+    },
+    "BKFE": {
+      "name": "Bankdarlehen: Gebühren",
+      "definition": "Bankdarlehensgebühren. Zahlungsvorgänge im Zusammenhang mit bestimmten Bankdarlehensgebühren, einschließlich (a) Agent-/Abtretungsgebühren; (b) Änderungsgebühren; (c) Bereitstellungsgebühren; (d) Zustimmungsgebühren; (e) Cost-of-Carry-Gebühren; (f) Gebühren für verzögerte Entschädigung; (g) Fazilitätsgebühren; (h) Fronting-Gebühren; (i) Finanzierungsgebühren; (j) Abtretungsgebühren für Akkreditive."
+    },
+    "BKFM": {
+      "name": "Bankdarlehen: Finanzierungsmemo",
+      "definition": "Bankdarlehen-Finanzierungsmemo. Netto-Zahlungsbewegung für die abschließende Mitteilung zum Darlehensvertrag, wenn sie getrennt von der Anweisung zur abschließenden Mitteilung zum Darlehensvertrag gesendet wird."
+    },
+    "BKIP": {
+      "name": "Bankdarlehen: Zahlung aufgelaufener Zinsen",
+      "definition": "Zahlungen aufgelaufener Zinsen. Spezifisch für Bankdarlehen."
+    },
+    "BKPP": {
+      "name": "Bankdarlehen: Kapitaltilgung",
+      "definition": "Tilgungszahlungen auf das Kapital. Spezifisch für Bankdarlehen"
+    },
+    "CBLK": {
+      "name": "Karten-Sammelclearing",
+      "definition": "Ein Service, der Gelder für eine Vielzahl von Kartentransaktionen abwickelt und dabei auf eine bestimmte Transaktionsdatei oder andere Informationen wie Terminal-ID, Karten-Akzeptanten-ID oder andere Transaktionsdetails Bezug nimmt."
+    },
+    "CDCB": {
+      "name": "Kartenzahlung mit Cashback",
+      "definition": "Kauf von Waren und Dienstleistungen mit zusätzlicher Barauszahlung am POI (Cashback)."
+    },
+    "CDCD": {
+      "name": "Bargeldauszahlung (Barabwicklung)",
+      "definition": "Bargeldabhebung am Geldautomaten in einer unbeaufsichtigten Umgebung oder Bargeldvorschuss in einer beaufsichtigten Umgebung (POI oder Bankschalter) (ATM)."
+    },
+    "CDCS": {
+      "name": "Bargeldauszahlung mit Aufschlag",
+      "definition": "Bargeldabhebung am Geldautomaten in einer unbeaufsichtigten Umgebung oder Bargeldvorschuss in einer beaufsichtigten Umgebung (POI oder Bankschalter) mit Aufschlag (ATM)."
+    },
+    "CDDP": {
+      "name": "Kartenzahlung mit Zahlungsaufschub",
+      "definition": "Ein kombinierter Service, der es dem Karten-Akzeptanten ermöglicht, innerhalb eines begrenzten Zeitraums eine Autorisierung für einen vorläufigen Betrag und eine Abschlussbuchung für den endgültigen Betrag durchzuführen. Die aufgeschobene Zahlung (Deferred Payment) ist nur in der unbeaufsichtigten Umgebung verfügbar. Beispiele für die verbreitete Nutzung dieses Services sind unbeaufsichtigte Zapfsäulen und Telefonzellen."
+    },
+    "CDOC": {
+      "name": "Original Credit",
+      "definition": "Ein Service, der es dem Karten-Akzeptanten ermöglicht, dem Konto eines Karteninhabers eine Gutschrift zuzuführen. Anders als bei einer Händlererstattung geht einer Original Credit keine Kartenzahlung voraus. Dieser Service wird zum Beispiel für die Gutschrift von Spielgewinnen verwendet."
+    },
+    "CDQC": {
+      "name": "Quasi-Cash",
+      "definition": "Kauf von Waren, die Bargeld gleichgestellt sind, wie etwa Wertmarken in Spielbanken."
+    },
+    "ETUP": {
+      "name": "E-Purse-Aufladung",
+      "definition": "Die Transaktion bezieht sich auf einen Service, der zunächst Geld auf einem Kartenkonto reserviert und anschließend eine E-Geldbörsen-Anwendung um diesen Betrag auflädt."
+    },
+    "FCOL": {
+      "name": "Gebühreneinzug",
+      "definition": "Ein Service, der kartentransaktionsbezogene Gebühren zwischen zwei Parteien abwickelt."
+    },
+    "MTUP": {
+      "name": "Mobile-Aufladung",
+      "definition": "Ein Service, der zunächst Geld auf einem Kartenkonto reserviert und anschließend ein Prepaid-Mobiltelefonguthaben um diesen Betrag auflädt."
+    },
+    "ACCT": {
+      "name": "Kontoverwaltung",
+      "definition": "Die Transaktion überträgt Gelder zwischen zwei Konten desselben Kontoinhabers bei derselben Bank (2)."
+    },
+    "CASH": {
+      "name": "Cash-Management-Überweisung",
+      "definition": "Die Transaktion ist eine allgemeine Cash-Management-Anweisung."
+    },
+    "COLL": {
+      "name": "Inkassozahlung",
+      "definition": "Die Transaktion ist ein Einzug von Geldern, der über eine Überweisung oder Lastschrift initiiert wird."
+    },
+    "CSDB": {
+      "name": "Bargeldauszahlung (Cash Management)",
+      "definition": "Die Transaktion bezieht sich auf eine Bargeldauszahlung."
+    },
+    "DEPT": {
+      "name": "Einzahlung",
+      "definition": "Die Transaktion bezieht sich auf eine Einlagenzahlung."
+    },
+    "INTC": {
+      "name": "Konzerninterne Zahlung",
+      "definition": "Die Transaktion ist eine konzerninterne Zahlung, d. h. eine Zahlung zwischen zwei Unternehmen derselben Gruppe."
+    },
+    "INTP": {
+      "name": "Zahlung innerhalb einer Partei",
+      "definition": "Die Transaktion ist eine Zahlung zwischen zwei Konten derselben Partei (Intra-Party-Zahlung), wobei die Partei eine natürliche Person ist (identifiziert durch eine private ID, nicht durch eine Organisations-ID)."
+    },
+    "LIMA": {
+      "name": "Liquiditätsmanagement",
+      "definition": "Von der Bank initiierte Kontoübertragung zur Unterstützung der Zielsaldo-Null-Steuerung, des Poolings oder des Sweepings."
+    },
+    "NETT": {
+      "name": "Netting",
+      "definition": "Die Transaktion bezieht sich auf ein Netting-Geschäft."
+    },
+    "BFWD": {
+      "name": "Anleihe-Termingeschäft",
+      "definition": "Bar-Sicherheit im Zusammenhang mit Wertpapieren, die über 3 Tage hinaus gehandelt werden, einschließlich Treasury Notes, JGBs und Gilts."
+    },
+    "CCIR": {
+      "name": "Zinswährungsswap",
+      "definition": "Bar-Sicherheit im Zusammenhang mit einem Cross Currency Interest Rate Swap, der den Austausch fester Zinszahlungen in einer Währung gegen solche in einer anderen Währung bezeichnet."
+    },
+    "CCPC": {
+      "name": "CCP-verrechnete Initial Margin",
+      "definition": "Bar-Sicherheit im Zusammenhang mit einer ISDA- oder Central-Clearing-Vereinbarung, die die Anforderungen an die Ersteinschussmarge (Initial Margin) für OTC-Geschäfte abdeckt, die über eine CCP abgewickelt werden."
+    },
+    "CCPM": {
+      "name": "CCP-verrechnete Variation Margin",
+      "definition": "Bar-Sicherheit im Zusammenhang mit einer ISDA- oder Central-Clearing-Vereinbarung, die die Anforderungen an die Nachschussmarge (Variation Margin) für OTC-Geschäfte abdeckt, die über eine CCP abgewickelt werden."
+    },
+    "CCSM": {
+      "name": "CCP-verrechnete Initial Margin (getrennte Barmittel)",
+      "definition": "CCP-getrennt verwahrte Ersteinschussmarge: Ersteinschussmarge auf über eine CCP abgewickelte OTC-Derivate, die eine getrennte Verwahrung erfordert."
+    },
+    "CRDS": {
+      "name": "Credit Default Swap",
+      "definition": "Bar-Sicherheit im Zusammenhang mit dem Handel mit Credit Default Swaps."
+    },
+    "CRPR": {
+      "name": "Produktübergreifend",
+      "definition": "Bar-Sicherheit im Zusammenhang mit einer Kombination verschiedener Geschäftsarten."
+    },
+    "CRSP": {
+      "name": "Kreditunterstützung",
+      "definition": "Bar-Sicherheit im Zusammenhang mit Bargeldverleih/-aufnahme, Akkreditiv, Unterzeichnung eines Rahmenvertrags."
+    },
+    "CRTL": {
+      "name": "Kreditlinie",
+      "definition": "Bar-Sicherheit im Zusammenhang mit der Eröffnung einer Kreditlinie vor dem Handel."
+    },
+    "EQPT": {
+      "name": "Aktienoption",
+      "definition": "Bar-Sicherheit im Zusammenhang mit dem Handel mit Aktienoptionen (auch als Stock Options bekannt)."
+    },
+    "EQUS": {
+      "name": "Aktienswap",
+      "definition": "Bar-Sicherheit im Zusammenhang mit Equity-Swap-Geschäften, bei denen die Rendite einer Aktie gegen einen festen oder variablen Zinssatz getauscht wird."
+    },
+    "EXPT": {
+      "name": "Exotische Option",
+      "definition": "Bar-Sicherheit im Zusammenhang mit dem Handel mit einer exotischen Option, zum Beispiel einer nicht standardisierten Option."
+    },
+    "EXTD": {
+      "name": "Börsengehandelte Derivate",
+      "definition": "Bar-Sicherheit im Zusammenhang mit dem Handel mit börsengehandelten Derivaten im Allgemeinen (im Gegensatz zu Over the Counter (OTC))."
+    },
+    "FIXI": {
+      "name": "Festverzinsliche Wertpapiere",
+      "definition": "Bar-Sicherheit im Zusammenhang mit einem festverzinslichen Instrument"
+    },
+    "FWBC": {
+      "name": "Termingeschäft: Barsicherheit im Eigentum des Brokers",
+      "definition": "Bar-Sicherheitszahlung im Rahmen einer Master Forward Agreement (MFA), bei der die Barmittel auf einem getrennten Konto gehalten werden und dem Kunden nicht zur Verfügung stehen. Umfasst alle Instrumente mit Terminabwicklungsdatum wie TBAs, Pensionsgeschäfte und Bond Forwards"
+    },
+    "FWCC": {
+      "name": "Termingeschäft: Barsicherheit im Eigentum des Kunden",
+      "definition": "Bar-Sicherheitszahlung im Rahmen einer Master Forward Agreement (MFA), bei der die Barmittel im Eigentum des Kunden stehen und von diesem nach Rückgabe verwendet werden können. Umfasst alle Instrumente mit Terminabwicklungsdatum wie TBAs, Pensionsgeschäfte und Bond Forwards"
+    },
+    "FWSB": {
+      "name": "Termingeschäft: getrennte Barsicherheit im Eigentum des Brokers",
+      "definition": "Jede Barzahlung im Zusammenhang mit der Sicherheit für einen Master-Agreement-Forward, die getrennt verwahrt wird und dem Kunden nicht zur Verfügung steht. Beispiele für Master-Agreement-Forwards sind TBA, Repo und Bond Forwards."
+    },
+    "FWSC": {
+      "name": "Termingeschäft: getrennte Barsicherheit im Eigentum des Kunden",
+      "definition": "Jede Barzahlung im Zusammenhang mit der Sicherheit für einen Master-Agreement-Forward, die im Eigentum des Kunden steht und von diesem verwendet werden kann, sobald sie ihm vom getrennten Konto zurückgegeben wird. Beispiele für Master-Agreement-Forwards sind TBA, Repo und Bond Forwards."
+    },
+    "MARG": {
+      "name": "Tägliche Margin auf börsennotierte Derivate",
+      "definition": "Tägliche Marge auf börsengehandelte Derivate – nicht als Sicherheit getrennt verwahrt, im Zusammenhang mit einer FCM-Vereinbarung. Beispiele sind Marginzahlungen auf börsengehandelte Futures und Optionen sowie Prämien für börsengehandelte Optionen, die nicht von der MT54X-Nachricht abgedeckt sind."
+    },
+    "MBSB": {
+      "name": "MBS: Barsicherheit im Eigentum des Brokers",
+      "definition": "MBS-Bar-Sicherheit, getrennt verwahrt, im Eigentum des Brokers (40Act/Dodd Frank) - Jede Barzahlung im Zusammenhang mit der Sicherheit für ein Mortgage Back Security, die getrennt verwahrt wird und dem Kunden nicht zur Verfügung steht."
+    },
+    "MBSC": {
+      "name": "MBS: Barsicherheit im Eigentum des Kunden",
+      "definition": "MBS-Bar-Sicherheit, getrennt verwahrt, im Eigentum des Kunden (40Act/Dodd Frank) - Jede Barzahlung im Zusammenhang mit der Sicherheit für ein Mortgage Back Security, die im Eigentum des Kunden steht und von diesem verwendet werden kann, sobald sie ihm vom getrennten Konto zurückgegeben wird"
+    },
+    "MGCC": {
+      "name": "Futures Initial Margin",
+      "definition": "Anfängliche Futures-Marge. Sofern diese Zahlung im Eigentum des Kunden steht und von diesem nach Rückgabe verwendet werden kann"
+    },
+    "MGSC": {
+      "name": "Futures Initial Margin: getrennte Barsicherheit im Eigentum des Kunden",
+      "definition": "Marge, getrennt verwahrte Bar-Sicherheit im Eigentum des Kunden - Jede Barzahlung im Zusammenhang mit der Sicherheit für die anfängliche Futures-Marge, die im Eigentum des Kunden steht und von diesem verwendet werden kann, sobald sie ihm vom getrennten Konto zurückgegeben wird."
+    },
+    "OCCC": {
+      "name": "Im Eigentum des Kunden befindliche, an die OCC verpfändete Sicherheit",
+      "definition": "Sicherheit im Eigentum des Kunden, die als für die OCC-Verpfändung geeignet identifiziert wurde."
+    },
+    "OPBC": {
+      "name": "OTC-Option: Barsicherheit im Eigentum des Brokers",
+      "definition": "Bar-Sicherheitszahlung für OTC-Optionen im Zusammenhang mit einer FCM-Vereinbarung. Sofern diese Zahlung getrennt verwahrt wird und dem Kunden nicht zur Verfügung steht"
+    },
+    "OPCC": {
+      "name": "OTC-Option: Barsicherheit im Eigentum des Kunden",
+      "definition": "Bar-Sicherheitszahlung für OTC-Optionen im Zusammenhang mit einer FCM-Vereinbarung. Sofern diese Zahlung nicht getrennt verwahrt wird und dem Kunden nach Rückgabe zur Verfügung steht"
+    },
+    "OPSB": {
+      "name": "OTC-Option: getrennte Barsicherheit im Eigentum des Brokers",
+      "definition": "Option, Bar-Sicherheit getrennt verwahrt, im Eigentum des Brokers - Jede Barzahlung im Zusammenhang mit der Sicherheit für eine OTC-Option, die getrennt verwahrt wird und dem Kunden nicht zur Verfügung steht."
+    },
+    "OPSC": {
+      "name": "OTC-Option: getrennte Barsicherheit im Eigentum des Kunden",
+      "definition": "Option, Bar-Sicherheit getrennt verwahrt, im Eigentum des Kunden - Jede Barzahlung im Zusammenhang mit der Sicherheit für eine OTC-Option, die im Eigentum des Kunden steht und von diesem verwendet werden kann, sobald sie ihm vom getrennten Konto zurückgegeben wird"
+    },
+    "OPTN": {
+      "name": "Devisenoption",
+      "definition": "Bar-Sicherheit im Zusammenhang mit dem Handel mit Devisenoptionen."
+    },
+    "OTCD": {
+      "name": "OTC-Derivate",
+      "definition": "Bar-Sicherheit im Zusammenhang mit Over-the-Counter-(OTC-)Derivaten im Allgemeinen, zum Beispiel Kontrakten, die gehandelt und privat ausgehandelt werden."
+    },
+    "REPO": {
+      "name": "Pensionsgeschäft",
+      "definition": "Bar-Sicherheit im Zusammenhang mit einem Pensionsgeschäft (Repo)."
+    },
+    "RPBC": {
+      "name": "Bilaterales Repo: Sicherheit im Eigentum des Brokers",
+      "definition": "Bilaterale Repo-Sicherheit im Eigentum des Brokers im Zusammenhang mit einem Repo-Rahmenvertrag – GMRA oder MRA Master Repo Agreements."
+    },
+    "RPCC": {
+      "name": "Repo: Sicherheit im Eigentum des Kunden",
+      "definition": "Repo-Sicherheit im Eigentum des Kunden im Zusammenhang mit einem Repo-Rahmenvertrag – GMRA oder MRA Master Repo Agreements"
+    },
+    "RPSB": {
+      "name": "Bilaterales Repo: getrennte Barsicherheit im Eigentum des Brokers",
+      "definition": "Bilaterale, getrennt verwahrte Bar-Sicherheit im Eigentum des Brokers im Zusammenhang mit einem Repo-Rahmenvertrag."
+    },
+    "RPSC": {
+      "name": "Bilaterales Repo: getrennte Barsicherheit im Eigentum des Kunden",
+      "definition": "Getrennt verwahrte Repo-Sicherheit im Eigentum des Kunden im Zusammenhang mit einem Repo-Rahmenvertrag."
+    },
+    "RVPO": {
+      "name": "Umgekehrtes Pensionsgeschäft",
+      "definition": "Bar-Sicherheit im Zusammenhang mit einem umgekehrten Pensionsgeschäft (Reverse Repo)."
+    },
+    "SBSC": {
+      "name": "Wertpapier-Buy/Sell-Back und Sell/Buy-Back",
+      "definition": "Bar-Sicherheit im Zusammenhang mit einem Securities Buy Sell Sell Buy Back"
+    },
+    "SCIE": {
+      "name": "Exotischer Zinsswap in einer Währung",
+      "definition": "Bar-Sicherheit im Zusammenhang mit einem exotischen Zinsswap in einer Währung."
+    },
+    "SCIR": {
+      "name": "Zinsswap in einer Währung",
+      "definition": "Bar-Sicherheit im Zusammenhang mit einem Zinsswap in einer Währung."
+    },
+    "SCRP": {
+      "name": "Wertpapierübergreifende Produkte",
+      "definition": "Bar-Sicherheit im Zusammenhang mit einer Kombination wertpapierbezogener Risikopositionsarten."
+    },
+    "SHBC": {
+      "name": "Leerverkauf: Sicherheit im Eigentum des Brokers",
+      "definition": "Leerverkaufs-Sicherheit im Eigentum des Brokers im Zusammenhang mit einer Prime-Broker-Vereinbarung."
+    },
+    "SHCC": {
+      "name": "Leerverkauf: Sicherheit im Eigentum des Kunden",
+      "definition": "Leerverkaufs-Sicherheit im Eigentum des Kunden im Zusammenhang mit einer Prime-Brokerage-Vereinbarung."
+    },
+    "SHSL": {
+      "name": "Leerverkauf",
+      "definition": "Bar-Sicherheit im Zusammenhang mit einem Leerverkauf"
+    },
+    "SLEB": {
+      "name": "Wertpapierleihe und -entleihe",
+      "definition": "Bar-Sicherheit im Zusammenhang mit Wertpapierleihe und -aufnahme."
+    },
+    "SLOA": {
+      "name": "Besichertes Darlehen",
+      "definition": "Bar-Sicherheit im Zusammenhang mit einem besicherten Darlehen."
+    },
+    "SWBC": {
+      "name": "Swap: Barsicherheit im Eigentum des Brokers",
+      "definition": "Bar-Sicherheitszahlung für Swaps im Zusammenhang mit einer ISDA-Vereinbarung. . Sofern diese Zahlung getrennt verwahrt wird und|dem Kunden nicht zur Verfügung steht. Umfasst alle Bar-Sicherheitszahlungen, die nach den Bedingungen einer CSA-Vereinbarung|für Instrumente wie Swaps und FX-Forwards geleistet werden."
+    },
+    "SWCC": {
+      "name": "Swap: Barsicherheit im Eigentum des Kunden",
+      "definition": "Bar-Sicherheitszahlung für Swaps im Zusammenhang mit einer ISDA-Vereinbarung. Sofern diese Zahlung nicht getrennt verwahrt wird und|dem Kunden nach Rückgabe zur Verfügung steht. Umfasst alle Bar-Sicherheitszahlungen, die nach den Bedingungen einer CSA-|Vereinbarung für Instrumente wie Swaps und FX-Forwards geleistet werden."
+    },
+    "SWPT": {
+      "name": "Swaption",
+      "definition": "Bar-Sicherheit im Zusammenhang mit einer Option auf einen Zinsswap."
+    },
+    "SWSB": {
+      "name": "Swaps: getrennt verwahrte Barsicherheit im Eigentum des Brokers",
+      "definition": "Swaps, Bar-Sicherheit getrennt verwahrt, im Eigentum des Brokers - Jede Barzahlung im Zusammenhang mit der Sicherheit für die Swap-Marge,|die getrennt verwahrt wird und dem Kunden nicht zur Verfügung steht. Dies umfasst jede in einer CSA-|Vereinbarung genannte Sicherheit wie Swap- oder FX-Forward-Sicherheiten."
+    },
+    "SWSC": {
+      "name": "Swaps: getrennt verwahrte Barsicherheit im Eigentum des Kunden",
+      "definition": "Swaps, Bar-Sicherheit getrennt verwahrt, im Eigentum des Kunden - Jede Barzahlung im Zusammenhang mit der Sicherheit für die Swap-Marge,|die im Eigentum des Kunden steht und von diesem verwendet werden kann, sobald sie vom getrennten Konto zurückgegeben wird. Dies|umfasst jede in einer CSA-Vereinbarung genannte Sicherheit wie Swap- oder FX-Forward-Sicherheiten."
+    },
+    "TBAS": {
+      "name": "Noch bekanntzugeben",
+      "definition": "Bar-Sicherheit im Zusammenhang mit einem To Be Announced (TBA)"
+    },
+    "TBBC": {
+      "name": "TBA: Barsicherheit im Eigentum des Brokers",
+      "definition": "Bar-Sicherheitszahlung (getrennt verwahrt) für TBA-Wertpapiere im Zusammenhang mit einem TBA-Rahmenvertrag. Sofern diese Zahlung getrennt verwahrt wird und dem Kunden nicht zur Verfügung steht."
+    },
+    "TBCC": {
+      "name": "TBA: Barsicherheit im Eigentum des Kunden",
+      "definition": "Bar-Sicherheitszahlung (zur Verwendung durch den Kunden) für TBA-Wertpapiere im Zusammenhang mit einem TBA-Rahmenvertrag. Sofern diese Zahlung nicht getrennt verwahrt wird und dem Kunden nach Rückgabe zur Verfügung steht."
+    },
+    "TRCP": {
+      "name": "Treasury-Produktübergreifend",
+      "definition": "Bar-Sicherheit im Zusammenhang mit einer Kombination treasurybezogener Risikopositionsarten."
+    },
+    "AGRT": {
+      "name": "Landwirtschaftliche Überweisung",
+      "definition": "Die Transaktion bezieht sich auf den Agrarbereich."
+    },
+    "AREN": {
+      "name": "Buchung von Forderungen",
+      "definition": "Die Transaktion bezieht sich auf eine Zahlung im Zusammenhang mit einem Account Receivable Entry"
+    },
+    "BEXP": {
+      "name": "Geschäftsausgaben",
+      "definition": "Die Transaktion bezieht sich auf eine Zahlung von Geschäftsausgaben."
+    },
+    "BOCE": {
+      "name": "Back-Office-Umwandlungsbuchung",
+      "definition": "Die Transaktion bezieht sich auf eine Zahlung im Zusammenhang mit einem Back Office Conversion Entry"
+    },
+    "COMC": {
+      "name": "Gewerbliche Zahlung",
+      "definition": "Die Transaktion bezieht sich auf eine Zahlung per Commercial Credit oder Debit. (früher CommercialCredit)."
+    },
+    "CPYR": {
+      "name": "Urheberrecht",
+      "definition": "Die Transaktion ist die Zahlung von Urheberrechten."
+    },
+    "GDDS": {
+      "name": "Kauf/Verkauf von Waren",
+      "definition": "Die Transaktion bezieht sich auf den Kauf und Verkauf von Waren."
+    },
+    "GDSV": {
+      "name": "Kauf/Verkauf von Waren und Dienstleistungen",
+      "definition": "Die Transaktion bezieht sich auf den Kauf und Verkauf von Waren und Dienstleistungen."
+    },
+    "GSCB": {
+      "name": "Kauf/Verkauf von Waren und Dienstleistungen mit Cashback",
+      "definition": "Die Transaktion bezieht sich auf den Kauf und Verkauf von Waren und Dienstleistungen mit Cashback."
+    },
+    "LICF": {
+      "name": "Lizenzgebühr",
+      "definition": "Die Transaktion ist die Zahlung einer Lizenzgebühr."
+    },
+    "MP2B": {
+      "name": "Mobile P2B-Zahlung",
+      "definition": "Ein Service, der es einem Nutzer ermöglicht, über eine App auf seinem Mobiltelefon einen Händler oder andere gewerbliche Zahlungsempfänger zu bezahlen, indem er eine Zahlungsnachricht initiiert. In diesem Zusammenhang können die Kontoinformationen oder ein Alias des Zahlungsempfängers über verschiedene Kanäle an die App übermittelt werden, zum Beispiel QR-Code, NFC, Bluetooth oder andere Netzwerke."
+    },
+    "POPE": {
+      "name": "Buchung am Verkaufsort",
+      "definition": "Die Transaktion bezieht sich auf eine Zahlung im Zusammenhang mit einem Point of Purchase Entry."
+    },
+    "ROYA": {
+      "name": "Lizenzgebühren",
+      "definition": "Die Transaktion ist die Zahlung von Lizenzgebühren (Royalties)."
+    },
+    "SCVE": {
+      "name": "Kauf/Verkauf von Dienstleistungen",
+      "definition": "Die Transaktion bezieht sich auf den Kauf und Verkauf von Dienstleistungen."
+    },
+    "SERV": {
+      "name": "Servicegebühren",
+      "definition": "Die Transaktion bezieht sich auf Entgelte, die ein Dienstleister berechnet."
+    },
+    "SUBS": {
+      "name": "Zeichnung",
+      "definition": "Die Transaktion bezieht sich auf eine Zahlung für Informations- oder Unterhaltungsdienste in gedruckter oder elektronischer Form."
+    },
+    "SUPP": {
+      "name": "Lieferantenzahlung",
+      "definition": "Die Transaktion bezieht sich auf eine Zahlung an einen Lieferanten."
+    },
+    "TRAD": {
+      "name": "Gewerblich",
+      "definition": "Die Transaktion bezieht sich auf ein Handelsdienstleistungsgeschäft."
+    },
+    "CHAR": {
+      "name": "Spendenzahlung",
+      "definition": "Die Transaktion ist eine Zahlung zu wohltätigen Zwecken."
+    },
+    "COMT": {
+      "name": "Gebündelte Verbraucherzahlung an Dritte",
+      "definition": "Die Transaktion ist eine Zahlung, die von einem Dritten verwendet wird, der Gelder einziehen kann, um im Auftrag von Verbrauchern zu zahlen, d. h. von Schuldnerberatungs- oder Rechnungszahlungsunternehmen."
+    },
+    "MP2P": {
+      "name": "Mobile P2P-Zahlung",
+      "definition": "Ein Service, der es einem Nutzer ermöglicht, über eine App auf seinem Mobiltelefon Gelder von seinem Bankkonto auf das Bankkonto einer anderen Person zu übertragen, wobei in seiner App nicht die Kontonummer, sondern eine Alias-Information wie eine MSISDN als Kontoadressierungsinformation verwendet wird."
+    },
+    "ECPG": {
+      "name": "Garantierte E-Zahlung",
+      "definition": "E-Commerce-Zahlung mit Zahlungsgarantie der ausstellenden Bank."
+    },
+    "ECPR": {
+      "name": "Rückgabe einer E-Zahlung",
+      "definition": "Rückgabe einer E-Commerce-Zahlung."
+    },
+    "ECPU": {
+      "name": "Nicht garantierte E-Zahlung",
+      "definition": "E-Commerce-Zahlung ohne Zahlungsgarantie der ausstellenden Bank."
+    },
+    "EPAY": {
+      "name": "E-Payment",
+      "definition": "Die Transaktion bezieht sich auf ePayment."
+    },
+    "CLPR": {
+      "name": "Tilgung eines Autokredits",
+      "definition": "Die Transaktion ist eine Tilgungszahlung auf ein Autodarlehen."
+    },
+    "COMP": {
+      "name": "Entschädigungszahlung",
+      "definition": "Die Transaktion bezieht sich auf die Zahlung einer Entschädigung für Zinsverlust bzw. Valutakorrektur und kann Gebühren enthalten."
+    },
+    "DBTC": {
+      "name": "Inkassozahlung",
+      "definition": "Einzug von Geldern, der über eine Lastschriftüberweisung initiiert wird."
+    },
+    "GOVI": {
+      "name": "Staatliche Versicherung",
+      "definition": "Die Transaktion bezieht sich auf eine Zahlung für eine staatliche Versicherung."
+    },
+    "HLRP": {
+      "name": "Rückzahlung eines Immobiliendarlehens",
+      "definition": "Die Transaktion bezieht sich auf eine Zahlung für ein Immobiliendarlehen."
+    },
+    "HLST": {
+      "name": "Ablösung eines Immobiliendarlehens",
+      "definition": "Die Transaktion bezieht sich auf die Abwicklung eines Immobiliendarlehens."
+    },
+    "INPC": {
+      "name": "Kfz-Versicherungsprämie",
+      "definition": "Die Transaktion ist die Zahlung einer Kfz-Versicherungsprämie."
+    },
+    "INPR": {
+      "name": "Erstattung der Versicherungsprämie",
+      "definition": "Die Transaktion bezieht sich auf eine Erstattung einer Versicherungsprämie."
+    },
+    "INSC": {
+      "name": "Zahlung eines Versicherungsanspruchs",
+      "definition": "Die Transaktion bezieht sich auf die Zahlung eines Versicherungsanspruchs."
+    },
+    "INSU": {
+      "name": "Versicherungsprämie",
+      "definition": "Die Transaktion ist die Zahlung einer Versicherungsprämie."
+    },
+    "INTE": {
+      "name": "Zinsen",
+      "definition": "Die Transaktion ist die Zahlung von Zinsen."
+    },
+    "LBRI": {
+      "name": "Arbeitsversicherung",
+      "definition": "Die Transaktion ist eine Zahlung einer Arbeitsversicherung."
+    },
+    "LIFI": {
+      "name": "Lebensversicherung",
+      "definition": "Die Transaktion ist eine Zahlung einer Lebensversicherung."
+    },
+    "LOAN": {
+      "name": "Darlehen",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Auszahlung eines Darlehens an den Kreditnehmer."
+    },
+    "LOAR": {
+      "name": "Darlehensrückzahlung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Rückzahlung eines Darlehens an den Kreditgeber."
+    },
+    "PENO": {
+      "name": "Zahlung aufgrund eines Vollstreckungsbescheids",
+      "definition": "Zahlung auf Grundlage von Vollstreckungsanordnungen, mit Ausnahme von Zahlungen aus gerichtlichen Unterhaltsbeschlüssen."
+    },
+    "PPTI": {
+      "name": "Sachversicherung",
+      "definition": "Die Transaktion ist eine Zahlung einer Sachversicherung."
+    },
+    "RELG": {
+      "name": "Miete und Pacht allgemein",
+      "definition": "Die Transaktion betrifft allgemeine Miete/Leasing."
+    },
+    "RINP": {
+      "name": "Wiederkehrende Ratenzahlung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung einer in regelmäßigen Abständen geleisteten wiederkehrenden Rate."
+    },
+    "TRFD": {
+      "name": "Treuhandfonds",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung eines Treuhandfonds."
+    },
+    "FORW": {
+      "name": "Devisentermingeschäft",
+      "definition": "FX-Geschäfte mit einem Valutadatum in der Zukunft."
+    },
+    "FXNT": {
+      "name": "Devisenbezogenes Netting",
+      "definition": "FX-Netting, wenn Barmittel durch eine separate Überweisung statt innerhalb der abschließenden FX-Anweisung bewegt werden"
+    },
+    "ADMG": {
+      "name": "Verwaltungsmanagement",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer Zahlung für die Verwaltung."
+    },
+    "ADVA": {
+      "name": "Vorauszahlung",
+      "definition": "Die Transaktion ist eine Vorauszahlung."
+    },
+    "BCDM": {
+      "name": "Inhaberscheck Inland",
+      "definition": "Die Transaktion ist die Zahlung eines inländischen Inhaberschecks."
+    },
+    "BCFG": {
+      "name": "Inhaberscheck Ausland",
+      "definition": "Die Transaktion ist die Zahlung eines ausländischen Inhaberschecks."
+    },
+    "BLDM": {
+      "name": "Gebäudeunterhalt",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer Zahlung für die Gebäudeinstandhaltung."
+    },
+    "BNET": {
+      "name": "Netting von Anleihe-Termingeschäften",
+      "definition": "Nettobarbewegung aus dem Pair-off eines Bond-Forwards."
+    },
+    "CBFF": {
+      "name": "Vermögensbildung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Vermögensbildung (vermögenswirksame Leistungen), d. h. der Vermögensbildung im Allgemeinen."
+    },
+    "CBFR": {
+      "name": "Vermögensbildung für die Altersvorsorge",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Vermögensbildung (vermögenswirksame Leistungen) für den Ruhestand."
+    },
+    "CCRD": {
+      "name": "Kreditkartenzahlung",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer Zahlung auf ein Kreditkartenkonto."
+    },
+    "CDBL": {
+      "name": "Kreditkartenabrechnung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung einer Kreditkartenabrechnung."
+    },
+    "CFEE": {
+      "name": "Stornogebühr",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung einer Stornogebühr."
+    },
+    "CGDD": {
+      "name": "Kartengenerierte Lastschrift",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer Lastschrift, bei der das Mandat mithilfe von Daten einer Zahlungskarte am Verkaufsort erzeugt wurde."
+    },
+    "CORT": {
+      "name": "Handelsabwicklungszahlung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Abwicklung eines Handelsgeschäfts, z. B. eines Devisengeschäfts oder einer Wertpapiertransaktion."
+    },
+    "COST": {
+      "name": "Kosten",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung von Kosten."
+    },
+    "CPKC": {
+      "name": "Parkplatzgebühren",
+      "definition": "Die Transaktion steht im Zusammenhang mit Parkgebühren."
+    },
+    "DCRD": {
+      "name": "Debitkartenzahlung",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer Debitkartenzahlung."
+    },
+    "DSMT": {
+      "name": "Auszahlung per gedrucktem Auftrag",
+      "definition": "Die Transaktion ist die Auszahlung aufgrund einer bestimmten Art von gedruckter Anweisung zur Zahlung eines festgelegten Betrags, ausgestellt von einer Bank oder einem Postamt (Zahlungsanweisung zur Verrechnung)"
+    },
+    "DVPM": {
+      "name": "Lieferung gegen Zahlung",
+      "definition": "Code zur Voravisierung einer bevorstehenden Lieferung-gegen-Zahlung-Anweisung an den Kontoführer."
+    },
+    "EDUC": {
+      "name": "Bildung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung von Studien-/Studiengebühren."
+    },
+    "FACT": {
+      "name": "Zahlung im Zusammenhang mit Faktoraktualisierung",
+      "definition": "Zahlung im Zusammenhang mit einer Factor-Aktualisierung"
+    },
+    "FAND": {
+      "name": "Finanzhilfe bei Naturkatastrophen",
+      "definition": "Finanzhilfe staatlicher Stellen zur Beseitigung der Folgen von Naturkatastrophen."
+    },
+    "FCPM": {
+      "name": "Verspätete Zahlung von Gebühren und Entgelten",
+      "definition": "Die Transaktion ist die Zahlung von Verzugsgebühren und -entgelten, z. B. Kreditkartenentgelte"
+    },
+    "FEES": {
+      "name": "Zahlung von Gebühren",
+      "definition": "Zahlung von Gebühren/Entgelten."
+    },
+    "GIFT": {
+      "name": "Schenkung",
+      "definition": "Zahlung ohne kommerziellen oder gesetzlichen Zweck."
+    },
+    "GOVT": {
+      "name": "Staatliche Zahlung",
+      "definition": "Die Transaktion ist eine Zahlung an oder von einer Regierungsbehörde."
+    },
+    "ICCP": {
+      "name": "Unwiderrufliche Kreditkartenzahlung",
+      "definition": "Die Transaktion ist die Erstattung einer Kreditkartenzahlung."
+    },
+    "IDCP": {
+      "name": "Unwiderrufliche Debitkartenzahlung",
+      "definition": "Die Transaktion ist die Erstattung einer Debitkartenzahlung."
+    },
+    "IHRP": {
+      "name": "Raten bei Mietkaufvertrag",
+      "definition": "Die Transaktion ist die Zahlung für eine Raten-/Mietkaufvereinbarung."
+    },
+    "INSM": {
+      "name": "Rate",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung einer Rate."
+    },
+    "IVPT": {
+      "name": "Rechnungszahlung",
+      "definition": "Die Transaktion ist die Zahlung von Rechnungen."
+    },
+    "MCDM": {
+      "name": "Mehrwährungsscheck Inland",
+      "definition": "Die Transaktion ist die Zahlung eines inländischen Mehrwährungsschecks"
+    },
+    "MCFG": {
+      "name": "Mehrwährungsscheck Ausland",
+      "definition": "Die Transaktion ist die Zahlung eines ausländischen Mehrwährungsschecks"
+    },
+    "MSVC": {
+      "name": "Mehrere Dienstleistungsarten",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer Zahlung für mehrere Dienstleistungsarten."
+    },
+    "NOWS": {
+      "name": "Nicht anderweitig angegeben",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer Zahlung für anderweitig nicht angegebene Dienstleistungsarten."
+    },
+    "OCDM": {
+      "name": "Orderscheck Inland",
+      "definition": "Die Transaktion ist die Zahlung eines inländischen Orderschecks"
+    },
+    "OCFG": {
+      "name": "Orderscheck Ausland",
+      "definition": "Die Transaktion ist die Zahlung eines ausländischen Orderschecks"
+    },
+    "OFEE": {
+      "name": "Eröffnungsgebühr",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung einer Eröffnungsgebühr."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiger Zahlungszweck."
+    },
+    "PADD": {
+      "name": "Vorautorisierte Belastung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Auslösung einer vorab autorisierten Lastschrift"
+    },
+    "PTSP": {
+      "name": "Zahlungsbedingungen",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Spezifikation von Zahlungsbedingungen"
+    },
+    "RCKE": {
+      "name": "Erneut vorgelegter Scheckeintrag",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer Zahlung im Zusammenhang mit einer erneut präsentierten Scheckbuchung"
+    },
+    "RCPT": {
+      "name": "Zahlung gegen Quittung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung einer Quittung."
+    },
+    "REBT": {
+      "name": "Rabatt",
+      "definition": "Die Transaktion ist die Zahlung eines Rabatts."
+    },
+    "REFU": {
+      "name": "Erstattung",
+      "definition": "Die Transaktion ist die Zahlung einer Erstattung."
+    },
+    "RENT": {
+      "name": "Miete",
+      "definition": "Die Transaktion ist die Zahlung von Miete."
+    },
+    "REOD": {
+      "name": "Rückzahlung einer Kontoüberziehung",
+      "definition": "Die Transaktion dient der Rückzahlung eines Kontoüberziehungsbetrags"
+    },
+    "RIMB": {
+      "name": "Erstattung einer zuvor fehlerhaften Transaktion",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Rückerstattung einer früheren fehlerhaften Transaktion."
+    },
+    "RPNT": {
+      "name": "Netting bilateraler Repo-Geschäfte im Internet",
+      "definition": "Bilaterale Netto-/Sammelzahlung von Repo-Zinsen bei Rollover/Pair-off oder anderen Abschlussszenarien, soweit zutreffend."
+    },
+    "RRBN": {
+      "name": "Round Robin",
+      "definition": "Barzahlung aus einem Round Robin"
+    },
+    "RRCT": {
+      "name": "Erhaltene Erstattungsüberweisung",
+      "definition": "Die Transaktion bezieht sich auf die Erstattung einer korrekt empfangenen Überweisung aus kaufmännischen Gründen."
+    },
+    "RRTP": {
+      "name": "Zugehörige Zahlungsaufforderung",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer Request to Pay."
+    },
+    "RVPM": {
+      "name": "Empfang gegen Zahlung",
+      "definition": "Code zur Voravisierung einer bevorstehenden Empfang-gegen-Zahlung-Anweisung an den Kontoführer."
+    },
+    "SLPI": {
+      "name": "Anweisung per Zahlschein",
+      "definition": "Die Transaktion ist die Zahlung eines korrekt formatierten Zahlscheins."
+    },
+    "SPLT": {
+      "name": "Geteilte Zahlungen",
+      "definition": "Geteilte Zahlungen. Zu verwenden, wenn Bar- und Wertpapierbewegungen für die Abwicklung eines Wertpapiergeschäfts|getrennt angewiesen werden."
+    },
+    "STDY": {
+      "name": "Studium",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung von Studien-/Ausbildungskosten."
+    },
+    "TBAN": {
+      "name": "TBA-Pair-off-Netting",
+      "definition": "Netto-Überweisungsbewegung aus dem TBA-Pair-off"
+    },
+    "TBIL": {
+      "name": "Telekommunikationsrechnung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung einer Telekommunikationsrechnung."
+    },
+    "TCSC": {
+      "name": "Gemeindegebühren",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer Zahlung für Gebühren, die von einem Stadtrat erhoben werden."
+    },
+    "TELI": {
+      "name": "Telefonisch initiierte Transaktion",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer per Telefon veranlassten Zahlung."
+    },
+    "TMPG": {
+      "name": "TMPG-Forderungszahlung",
+      "definition": "Barzahlung aus einem TMPG-Anspruch"
+    },
+    "TPRI": {
+      "name": "Zinsen auf Tri-Party-Repo",
+      "definition": "Zinsen im Zusammenhang mit einem Tri-Party-Repo"
+    },
+    "TPRP": {
+      "name": "Netting von Tri-Party-Repo",
+      "definition": "Netto-Barbewegung aus Gewinn/Verlust im Zusammenhang mit einem Tri-Party-Repo"
+    },
+    "TRNC": {
+      "name": "Gekürzter Zahlschein",
+      "definition": "Die Transaktion ist die Zahlung eines vom Begünstigten vorausgefüllten Zahlscheins, bei dem die Informationen vom Begünstigten an den Zahlenden gekürzt sind."
+    },
+    "TRVC": {
+      "name": "Reisescheck",
+      "definition": "Die Transaktion ist die Zahlung eines Reiseschecks"
+    },
+    "WEBI": {
+      "name": "Im Internet initiierte Transaktion",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer über das Internet veranlassten Zahlung."
+    },
+    "IPAY": {
+      "name": "Sofortzahlungen",
+      "definition": "Transaktion, bei der der Betrag dem Zahlungsempfänger sofort zur Verfügung steht."
+    },
+    "IPCA": {
+      "name": "Stornierung von Sofortzahlungen",
+      "definition": "Transaktion, bei der der Rückgabebetrag vollständig zurückgegeben wird."
+    },
+    "IPDO": {
+      "name": "Sofortzahlungen für Spenden",
+      "definition": "Transaktion, bei der der Betrag dem Zahlungsempfänger sofort zur Verfügung steht, für Spenden, unter Übermittlung der Adressdaten des Zahlenden."
+    },
+    "IPEA": {
+      "name": "Sofortzahlungen im E-Commerce ohne Adressdaten",
+      "definition": "Transaktion, bei der der Betrag dem Zahlungsempfänger sofort zur Verfügung steht, im E-Commerce, ohne Übermittlung der Adressdaten des Zahlenden."
+    },
+    "IPEC": {
+      "name": "Sofortzahlungen im E-Commerce mit Adressdaten",
+      "definition": "Transaktion, bei der der Betrag dem Zahlungsempfänger sofort zur Verfügung steht, im E-Commerce, unter Übermittlung der Adressdaten des Zahlenden."
+    },
+    "IPEW": {
+      "name": "Sofortzahlungen im E-Commerce",
+      "definition": "Transaktion, bei der der Betrag dem Zahlungsempfänger sofort zur Verfügung steht, im E-Commerce."
+    },
+    "IPPS": {
+      "name": "Sofortzahlungen am POS",
+      "definition": "Transaktion, bei der der Betrag dem Zahlungsempfänger sofort zur Verfügung steht, am POS."
+    },
+    "IPRT": {
+      "name": "Rückgabe von Sofortzahlungen",
+      "definition": "Transaktion, bei der der Rückgabebetrag ganz oder teilweise zurückgegeben wird."
+    },
+    "IPU2": {
+      "name": "Sofortzahlungen an unbeaufsichtigten Automaten mit 2FA",
+      "definition": "Die Transaktion erfolgt über einen unbeaufsichtigten Verkaufsautomaten unter Verwendung einer Zwei-Faktor-Authentifizierung (2)."
+    },
+    "IPUW": {
+      "name": "Sofortzahlungen an unbeaufsichtigten Automaten ohne 2FA",
+      "definition": "Die Transaktion erfolgt über einen unbeaufsichtigten Verkaufsautomaten ohne Verwendung einer Zwei-Faktor-Authentifizierung (2)."
+    },
+    "ANNI": {
+      "name": "Annuität",
+      "definition": "Die Transaktion begleicht eine Annuität im Zusammenhang mit Krediten, Versicherungen, Anlagen und Sonstigem."
+    },
+    "CAFI": {
+      "name": "Verwahrstellen-Verwaltungsgebühr (hausintern)",
+      "definition": "Die Transaktion ist die Zahlung der Depotführungsgebühr, wenn Depotbank und kontoführende Bank des laufenden Kontos identisch sind."
+    },
+    "CFDI": {
+      "name": "Fälliges Kapital (hausintern)",
+      "definition": "Die Transaktion ist die Zahlung fällig werdenden Kapitals, wenn Depotbank und kontoführende Bank des laufenden Kontos identisch sind."
+    },
+    "CMDT": {
+      "name": "Rohstoffübertragung",
+      "definition": "Die Transaktion ist die Zahlung für Rohstoffe."
+    },
+    "DERI": {
+      "name": "Derivate",
+      "definition": "Die Transaktion steht im Zusammenhang mit einem Derivategeschäft."
+    },
+    "DIVD": {
+      "name": "Dividende",
+      "definition": "Die Transaktion ist die Zahlung von Dividenden."
+    },
+    "FREX": {
+      "name": "Devisen",
+      "definition": "Die Transaktion steht im Zusammenhang mit einem Devisengeschäft."
+    },
+    "HEDG": {
+      "name": "Absicherung",
+      "definition": "Die Transaktion steht im Zusammenhang mit einem Absicherungsgeschäft."
+    },
+    "INVS": {
+      "name": "Anlagen und Wertpapiere",
+      "definition": "Die Transaktion dient der Zahlung für Investmentfonds, Anlageprodukte und Aktien"
+    },
+    "PRME": {
+      "name": "Edelmetall",
+      "definition": "Die Transaktion steht im Zusammenhang mit einem Edelmetallgeschäft."
+    },
+    "SAVG": {
+      "name": "Sparen",
+      "definition": "Übertragung auf oder von einem Sparkonto oder auf ein Altersvorsorgekonto."
+    },
+    "SECU": {
+      "name": "Wertpapiere",
+      "definition": "Die Transaktion ist die Zahlung von Wertpapieren."
+    },
+    "SEPI": {
+      "name": "Wertpapierkauf (hausintern)",
+      "definition": "Die Transaktion ist die Zahlung für den Kauf von Wertpapieren, wenn Depotbank und kontoführende Bank des laufenden Kontos identisch sind"
+    },
+    "TREA": {
+      "name": "Treasury-Zahlung",
+      "definition": "Die Transaktion steht im Zusammenhang mit Treasury-Geschäften."
+    },
+    "UNIT": {
+      "name": "Kauf von Investmentfondsanteilen",
+      "definition": "Die Transaktion ist der Kauf von Investmentfondsanteilen (Unit Trust)"
+    },
+    "FNET": {
+      "name": "Netting-Zahlung für Futures",
+      "definition": "Barmittel im Zusammenhang mit dem Netting von Futures-Zahlungen. Siehe CCPM-Codewort für das Netting von Ersteinschuss und Nachschuss über einen CCP"
+    },
+    "FUTR": {
+      "name": "Futures",
+      "definition": "Barmittel im Zusammenhang mit dem Futures-Handel."
+    },
+    "ANTS": {
+      "name": "Anästhesieleistungen",
+      "definition": "Die Transaktion ist eine Zahlung für Anästhesieleistungen."
+    },
+    "CVCF": {
+      "name": "Rekonvaleszenz-Pflegeeinrichtung",
+      "definition": "Die Transaktion ist eine Zahlung für Leistungen einer Genesungspflegeeinrichtung."
+    },
+    "DMEQ": {
+      "name": "Langlebige medizinische Geräte",
+      "definition": "Die Transaktion ist eine Zahlung für die Nutzung langlebiger medizinischer Geräte."
+    },
+    "DNTS": {
+      "name": "Zahnärztliche Leistungen",
+      "definition": "Die Transaktion ist eine Zahlung für zahnärztliche Leistungen."
+    },
+    "HLTC": {
+      "name": "Häusliche Krankenpflege",
+      "definition": "Die Transaktion ist eine Zahlung für häusliche Gesundheitspflegeleistungen."
+    },
+    "HLTI": {
+      "name": "Krankenversicherung",
+      "definition": "Die Transaktion ist eine Zahlung einer Krankenversicherung."
+    },
+    "HSPC": {
+      "name": "Krankenhausbehandlung",
+      "definition": "Die Transaktion ist eine Zahlung für Krankenhauspflegeleistungen."
+    },
+    "ICRF": {
+      "name": "Einrichtung für mittlere Pflegestufe",
+      "definition": "Die Transaktion ist eine Zahlung für Leistungen einer Einrichtung der Zwischenpflege."
+    },
+    "LTCF": {
+      "name": "Langzeitpflegeeinrichtung",
+      "definition": "Die Transaktion ist eine Zahlung für Leistungen einer Langzeitpflegeeinrichtung."
+    },
+    "MAFC": {
+      "name": "Beitrag zum medizinischen Hilfsfonds",
+      "definition": "Die Transaktion ist ein Beitrag zu einer Krankenhilfekasse."
+    },
+    "MARF": {
+      "name": "Erstattung medizinischer Hilfe",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer Rückerstattung der Krankenhilfe."
+    },
+    "MDCS": {
+      "name": "Medizinische Leistungen",
+      "definition": "Die Transaktion ist eine Zahlung für medizinische Versorgungsleistungen."
+    },
+    "VIEW": {
+      "name": "Augenpflege",
+      "definition": "Die Transaktion ist eine Zahlung für Sehhilfeleistungen."
+    },
+    "CDEP": {
+      "name": "Zahlung bei Kreditausfallereignis",
+      "definition": "Zahlung im Zusammenhang mit einem Kreditausfallereignis."
+    },
+    "SWFP": {
+      "name": "Abschlusszahlung eines Swap-Vertrags",
+      "definition": "Schlusszahlungen für einen Swap-Vertrag"
+    },
+    "SWPP": {
+      "name": "Teilzahlung eines Swap-Vertrags",
+      "definition": "Teilzahlung für einen Swap-Vertrag"
+    },
+    "SWRS": {
+      "name": "Reset-Zahlung eines Swap-Vertrags",
+      "definition": "Reset-Zahlung für einen Swap-Vertrag"
+    },
+    "SWUF": {
+      "name": "Vorabzahlung eines Swap-Vertrags",
+      "definition": "Upfront-Zahlung für einen Swap-Vertrag"
+    },
+    "ADCS": {
+      "name": "Beratungs-, Spenden- und Urheberrechtsleistungen",
+      "definition": "Zahlungen für Spenden, Sponsoring, Beratung, geistige Leistungen und sonstige Urheberrechtsleistungen."
+    },
+    "AEMP": {
+      "name": "Aktive Beschäftigungspolitik",
+      "definition": "Zahlung betreffend die aktive Beschäftigungspolitik."
+    },
+    "ALLW": {
+      "name": "Zulage",
+      "definition": "Die Transaktion ist die Zahlung von Zulagen."
+    },
+    "ALMY": {
+      "name": "Unterhaltszahlung",
+      "definition": "Die Transaktion ist die Zahlung von Unterhalt."
+    },
+    "BBSC": {
+      "name": "Babybonus-Programm",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer Zahlung als Anreiz, damit Eltern mehr Kinder bekommen"
+    },
+    "BECH": {
+      "name": "Kindergeld",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer Zahlung zur Unterstützung von Eltern/Erziehungsberechtigten beim Unterhalt eines Kindes."
+    },
+    "BENE": {
+      "name": "Leistung bei Arbeitslosigkeit oder Erwerbsunfähigkeit",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer Zahlung an eine arbeitslose/arbeitsunfähige Person."
+    },
+    "BONU": {
+      "name": "Bonuszahlung.",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung eines Bonus."
+    },
+    "CCHD": {
+      "name": "Geldleistung bei Hilflosigkeit oder Behinderung",
+      "definition": "Zahlungen staatlicher Einrichtungen im Zusammenhang mit Barentschädigung, Hilflosigkeit, Behinderung. Diese Zahlungen werden von der staatlichen Einrichtung als Sozialleistung zusätzlich zu regelmäßig gezahltem Gehalt oder Rente geleistet."
+    },
+    "COMM": {
+      "name": "Provision",
+      "definition": "Die Transaktion ist die Zahlung einer Provision."
+    },
+    "CSLP": {
+      "name": "Zahlung eines betrieblichen Sozialdarlehens an die Bank",
+      "definition": "Die Transaktion ist eine Zahlung eines Unternehmens an eine Bank zur Finanzierung von Sozialdarlehen an Mitarbeiter."
+    },
+    "GFRP": {
+      "name": "Zahlung von Ansprüchen aus dem Garantiefonds",
+      "definition": "Entschädigung für arbeitslose Personen während Insolvenzverfahren."
+    },
+    "GVEA": {
+      "name": "Österreichische Staatsbedienstete Kategorie A",
+      "definition": "Die Transaktion ist eine Zahlung an österreichische Staatsbedienstete der Kategorie A."
+    },
+    "GVEB": {
+      "name": "Österreichische Staatsbedienstete Kategorie B",
+      "definition": "Die Transaktion ist eine Zahlung an österreichische Staatsbedienstete der Kategorie B."
+    },
+    "GVEC": {
+      "name": "Österreichische Staatsbedienstete Kategorie C",
+      "definition": "Die Transaktion ist eine Zahlung an österreichische Staatsbedienstete der Kategorie C."
+    },
+    "GVED": {
+      "name": "Österreichische Staatsbedienstete Kategorie D",
+      "definition": "Die Transaktion ist eine Zahlung an österreichische Staatsbedienstete der Kategorie D."
+    },
+    "GWLT": {
+      "name": "Staatliche Überweisung nach Kriegsgesetzgebung",
+      "definition": "Zahlung an Opfer von Kriegsgewalt und an Kriegsversehrte."
+    },
+    "HREC": {
+      "name": "Wohnungsbezogener Beitrag",
+      "definition": "Die Transaktion ist ein Beitrag eines Arbeitgebers zu den Wohnkosten (Kauf, Bau, Renovierung) der Arbeitnehmer im Rahmen eines steuerfreien Nebenleistungssystems."
+    },
+    "PAYR": {
+      "name": "Gehaltsabrechnung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung von Löhnen und Gehältern."
+    },
+    "PEFC": {
+      "name": "Beitrag zum Pensionsfonds",
+      "definition": "Die Transaktion ist ein Beitrag zu einem Pensionsfonds."
+    },
+    "PENS": {
+      "name": "Rentenzahlung",
+      "definition": "Die Transaktion ist die Zahlung einer Rente."
+    },
+    "PRCP": {
+      "name": "Preiszahlung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung eines Preises."
+    },
+    "RHBS": {
+      "name": "Rehabilitationsunterstützung",
+      "definition": "Leistung für die Dauer der beruflichen Rehabilitation."
+    },
+    "SALA": {
+      "name": "Gehaltszahlung",
+      "definition": "Die Transaktion ist die Zahlung von Gehältern."
+    },
+    "SPSP": {
+      "name": "Pauschalzahlung von Gehalt oder Rente",
+      "definition": "Gehalts- oder Rentenzahlung für mehrere Monate in einem Betrag oder verspätete Zahlung von Gehältern oder Renten."
+    },
+    "SSBE": {
+      "name": "Sozialversicherungsleistung",
+      "definition": "Die Transaktion ist eine Sozialleistung, d. h. eine Zahlung einer Regierung zur Unterstützung von Einzelpersonen."
+    },
+    "LBIN": {
+      "name": "Netting von Buy-ins bei Wertpapierleihe",
+      "definition": "Nettozahlung im Zusammenhang mit einem Buy-in. Wird ein Anlageverwalter bei einem Verkaufsgeschäft, das aufgrund eines gescheiterten Rückrufs einer Wertpapierleihe fehlschlägt, per Buy-in eingedeckt, kann der Anlageverwalter die zugrunde liegende Sicherheit einziehen, um den Buy-in zu bezahlen. Jede Differenz zwischen dem Wert der Sicherheit und dem Verkaufserlös würde unter diesem Code gezahlt oder empfangen (IM)"
+    },
+    "LCOL": {
+      "name": "Freie Bewegung von Barsicherheiten bei Wertpapierleihe",
+      "definition": "Freie Bewegung von Barsicherheiten. Vom Entleiher gezahlte Barsicherheiten werden bei Eröffnung des Darlehens getrennt von der Lieferung der Aktien bzw. bei Rückgabe getrennt von der Rückgabe des geliehenen Wertpapiers bewegt. Hinweis: üblich, wenn die Währung des Wertpapiers von der Währung der Barsicherheit abweicht."
+    },
+    "LFEE": {
+      "name": "Gebühren bei Wertpapierleihe",
+      "definition": "Gebührenzahlungen, mit Ausnahme von Rebates, für die Wertpapierleihe. Umfasst (a) exklusive Gebühren; (b) Transaktionsgebühren; (c)|Verwahrgebühren; (d) Mindestbestandsgebühren"
+    },
+    "LMEQ": {
+      "name": "Zum Marktwert bewertete Barsicherheit für Aktienleihe",
+      "definition": "Barsicherheitenzahlungen aus der Marktbewertung (Marked-to-Market) eines Portfolios verliehener Aktien"
+    },
+    "LMFI": {
+      "name": "Zum Marktwert bewertete Barsicherheit für Leihe festverzinslicher Wertpapiere",
+      "definition": "Barsicherheitenzahlungen aus der Marktbewertung (Marked-to-Market) eines Portfolios verliehener festverzinslicher Wertpapiere"
+    },
+    "LMRK": {
+      "name": "Zum Marktwert bewertete Barsicherheit für Leihe nicht spezifizierter Art",
+      "definition": "Barsicherheitenzahlungen aus der Marktbewertung (Marked-to-Market) eines Portfolios verliehener Wertpapiere, bei dem die Instrumenten|arten nicht angegeben sind"
+    },
+    "LREB": {
+      "name": "Rebate-Zahlungen bei Wertpapierleihe",
+      "definition": "Rebate-Zahlungen der Wertpapierleihe"
+    },
+    "LREV": {
+      "name": "Ertragszahlungen bei Wertpapierleihe",
+      "definition": "Ertragszahlungen des Leihvermittlers an den Kunden"
+    },
+    "LSFL": {
+      "name": "Forderungszahlung bei Wertpapierleihe",
+      "definition": "Zahlungen eines Entleihers an einen Leihvermittler zur Erfüllung von Forderungen des Anlageverwalters im Zusammenhang mit fehlgeschlagenen Verkäufen aufgrund verspäteter Lieferungen nach Darlehensrückruf"
+    },
+    "ESTX": {
+      "name": "Erbschaftsteuer",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung von Erbschaftsteuer."
+    },
+    "FWLV": {
+      "name": "Abgabe für ausländische Arbeitnehmer",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung der Abgabe für ausländische Arbeitnehmer (Foreign Worker Levy)"
+    },
+    "GSTX": {
+      "name": "Waren- und Dienstleistungssteuer",
+      "definition": "Die Transaktion ist die Zahlung der Waren- und Dienstleistungssteuer (Goods & Services Tax)"
+    },
+    "HSTX": {
+      "name": "Wohnsteuer",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung von Wohnsteuer."
+    },
+    "INTX": {
+      "name": "Einkommensteuer",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung von Einkommensteuer."
+    },
+    "NITX": {
+      "name": "Nettoeinkommensteuer",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung von Nettoeinkommensteuer."
+    },
+    "PTXP": {
+      "name": "Grundsteuer",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung von Grundsteuer."
+    },
+    "RDTX": {
+      "name": "Kfz-Steuer",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung von Kraftfahrzeugsteuer."
+    },
+    "TAXS": {
+      "name": "Steuerzahlung",
+      "definition": "Die Transaktion ist die Zahlung von Steuern."
+    },
+    "VATX": {
+      "name": "Umsatzsteuerzahlung",
+      "definition": "Die Transaktion ist die Zahlung der Mehrwertsteuer."
+    },
+    "WHLD": {
+      "name": "Quellensteuereinbehalt",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung von Quellensteuer."
+    },
+    "TAXR": {
+      "name": "Steuerrückerstattung",
+      "definition": "Die Transaktion ist die Erstattung einer Steuerzahlung oder Steuerverbindlichkeit."
+    },
+    "B112": {
+      "name": "Bestandsprovisionszahlung",
+      "definition": "Zahlung der Trailer Fee (12b-1) eines US-Investmentfonds"
+    },
+    "BR12": {
+      "name": "Rückvergütung der Bestandsprovision",
+      "definition": "Rebate-Zahlung der Trailer Fee (12b-1) eines US-Investmentfonds"
+    },
+    "TLRF": {
+      "name": "Bestandsprovisionszahlung für Nicht-US-Investmentfonds",
+      "definition": "Jede Zahlung der Trailer Fee (Retrozession) eines Nicht-US-Investmentfonds (anhand der ISIN ist die Zuordnung Onshore oder Offshore zu bestimmen)"
+    },
+    "TLRR": {
+      "name": "Rückvergütung der Bestandsprovision für Nicht-US-Investmentfonds",
+      "definition": "Jede Rebate-Zahlung der Trailer Fee (Retrozession) eines Nicht-US-Investmentfonds (anhand der ISIN ist die Zuordnung Onshore oder Offshore zu bestimmen)"
+    },
+    "AIRB": {
+      "name": "Luftverkehr",
+      "definition": "Die Transaktion ist eine Zahlung für das Luftverkehrsgeschäft."
+    },
+    "BUSB": {
+      "name": "Bus",
+      "definition": "Die Transaktion ist eine Zahlung für das Busverkehrsgeschäft."
+    },
+    "FERB": {
+      "name": "Fähre",
+      "definition": "Die Transaktion ist eine Zahlung für das Fährgeschäft."
+    },
+    "RLWY": {
+      "name": "Eisenbahn",
+      "definition": "Die Transaktion ist eine Zahlung für das Eisenbahnverkehrsgeschäft."
+    },
+    "TRPT": {
+      "name": "Straßenmaut",
+      "definition": "Die Transaktion dient der Zahlung zum Aufladen einer Prepaid-Karte und des elektronischen Straßenbenutzungsentgelts zu Transportzwecken"
+    },
+    "CBTV": {
+      "name": "Kabelfernsehrechnung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung einer Kabelfernsehrechnung (TV)."
+    },
+    "ELEC": {
+      "name": "Stromrechnung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung einer Stromrechnung."
+    },
+    "ENRG": {
+      "name": "Energie",
+      "definition": "Die Transaktion steht im Zusammenhang mit einem Versorgungsvorgang."
+    },
+    "GASB": {
+      "name": "Gasrechnung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung einer Gasrechnung."
+    },
+    "NWCH": {
+      "name": "Netzentgelt",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung von Netzentgelten."
+    },
+    "NWCM": {
+      "name": "Netzwerkkommunikation",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung für Netzkommunikation."
+    },
+    "OTLC": {
+      "name": "Sonstige telekommunikationsbezogene Rechnung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung einer sonstigen Telekommunikationsrechnung."
+    },
+    "PHON": {
+      "name": "Telefonrechnung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung einer Telefonrechnung."
+    },
+    "UBIL": {
+      "name": "Versorgungsleistungen",
+      "definition": "Die Transaktion dient der Zahlung an einen allgemeinen Versorgungsanbieter, der Gas, Wasser und/oder Strom liefert."
+    },
+    "WTER": {
+      "name": "Wasserrechnung",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung einer Wasserrechnung."
+    },
+    "BOND": {
+      "name": "Anleihen",
+      "definition": "Wertpapierleihe – Abwicklung von Anleihetransaktionen."
+    },
+    "CABD": {
+      "name": "Kapitalmaßnahmen: Anleihen",
+      "definition": "Wertpapierleihe – Abwicklung von Kapitalmaßnahmen: Anleihetransaktionen."
+    },
+    "CAEQ": {
+      "name": "Kapitalmaßnahmen: Aktien",
+      "definition": "Wertpapierleihe – Abwicklung von Kapitalmaßnahmen: Aktientransaktionen."
+    },
+    "CBCR": {
+      "name": "Kreditkarte",
+      "definition": "Kartenabwicklung – Abwicklung von Kreditkartentransaktionen."
+    },
+    "DBCR": {
+      "name": "Debitkarte",
+      "definition": "Kartenabwicklung – Abwicklung von Debitkartentransaktionen."
+    },
+    "DICL": {
+      "name": "Diners",
+      "definition": "Kartenabwicklung – Abwicklung von Diners-Transaktionen."
+    },
+    "EQTS": {
+      "name": "Aktien",
+      "definition": "Wertpapierleihe – Abwicklung von Aktientransaktionen."
+    },
+    "FLCR": {
+      "name": "Flottenkarte",
+      "definition": "Kartenabwicklung – Abwicklung von Flottenkartentransaktionen."
+    },
+    "EFTC": {
+      "name": "Gutschrift geringen Werts",
+      "definition": "Versorgungsleistungen – Abwicklung von Gutschriftstransaktionen mit niedrigem Wert."
+    },
+    "EFTD": {
+      "name": "Belastung geringen Werts",
+      "definition": "Versorgungsleistungen – Abwicklung von Lastschrifttransaktionen mit niedrigem Wert."
+    },
+    "MOMA": {
+      "name": "Geldmarkt",
+      "definition": "Wertpapierleihe – Abwicklung von Geldmarkt-PCH."
+    },
+    "RAPI": {
+      "name": "Schnellzahlungsanweisung",
+      "definition": "Sofortzahlungen – Abwicklung von Transaktionen mit Rapid Payment Instruction (RPI)."
+    },
+    "GAMB": {
+      "name": "Glücksspiel- oder Wettzahlung",
+      "definition": "Allgemein – Zahlungen für einen Kauf oder erhaltene Gewinne aus Glücksspiel, Wetten oder anderen Wettaktivitäten."
+    },
+    "LOTT": {
+      "name": "Lotteriezahlung",
+      "definition": "Allgemein – Zahlung für einen Kauf oder erhaltene Gewinne aus Lotterieaktivitäten."
+    },
+    "AMEX": {
+      "name": "Amex",
+      "definition": "Kartenabwicklung – Abwicklung von AMEX-Transaktionen."
+    },
+    "SASW": {
+      "name": "ATM",
+      "definition": "Kartenabwicklung – Abwicklung von ATM-Transaktionen."
+    },
+    "AUCO": {
+      "name": "Authentifizierte Einzüge",
+      "definition": "Versorgungsleistungen – Abwicklung von Transaktionen mit authentifizierten Einzügen."
+    },
+    "PCOM": {
+      "name": "Zahlung bei Immobilienfertigstellung",
+      "definition": "Schlusszahlung zum Abschluss des Kaufs einer Immobilie."
+    },
+    "PDEP": {
+      "name": "Immobilienanzahlung",
+      "definition": "Zahlung der für den Kauf einer Immobilie erforderlichen Anzahlung."
+    },
+    "PLDS": {
+      "name": "Auszahlung eines Immobiliendarlehens",
+      "definition": "Zahlung von Geldern eines Kreditgebers im Rahmen der Ausreichung eines Immobiliendarlehens."
+    },
+    "PLRF": {
+      "name": "Refinanzierung eines Immobiliendarlehens",
+      "definition": "Übertragung oder Ausweitung einer Immobilienfinanzierungsvereinbarung auf ein neues Geschäft oder einen neuen Darlehensgeber, ohne Eigentümerwechsel an der Immobilie."
+    },
+    "GAFA": {
+      "name": "Staatliches Familiengeld",
+      "definition": "Gehalt und Leistungen – Zuwendung des Staates zur Unterstützung von Familien."
+    },
+    "GAHO": {
+      "name": "Staatliches Wohngeld",
+      "definition": "Gehalt und Leistungen – Zuwendung des Staates an Einzelpersonen zur Unterstützung von Wohnkosten."
+    },
+    "CPEN": {
+      "name": "Geldstrafen",
+      "definition": "Bare Strafzahlungen im Zusammenhang mit Wertpapiertransaktionen, einschließlich CSDR-Abwicklungsdisziplinregime (Settlement Discipline Regime)."
+    },
+    "DEPD": {
+      "name": "Unterhaltszahlung für Angehörige",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer Zahlung betreffend Unterhaltsleistungen, zum Beispiel Kindesunterhalt oder Unterstützung einer Person, die vom Unterstützungsleistenden finanziell wesentlich abhängig ist."
+    },
+    "RETL": {
+      "name": "Einzelhandelszahlung",
+      "definition": "Einzelhandelszahlung, einschließlich E-Commerce und Online-Shopping."
+    },
+    "DEBT": {
+      "name": "Entgelte zulasten des Zahlungspflichtigen",
+      "definition": "Zweck der Zahlung ist die Begleichung von Entgelten, die vom Zahlungspflichtigen im Zusammenhang mit einer zugrunde liegenden Kundenüberweisung zu zahlen sind."
+    },
+    "RMCO": {
+      "name": "Registriertes Mandat",
+      "definition": "Versorgungsleistungen – Abwicklung von Transaktionen mit nicht authentifizierten Einzügen."
+    },
+    "INBC": {
+      "name": "Interbankenentgelte",
+      "definition": "Begleichung von Entgelten als Antwort auf eine vorherige Entgeltanforderung zwischen Banken."
+    },
+    "LBXX": {
+      "name": "Long-Box-Übertragung",
+      "definition": "Die Transaktion steht im Zusammenhang mit einer Barüberweisung von einem zugrunde liegenden Fonds auf ein Sicherheitenhaltekonto (d. h. Longbox) zur möglichen weiteren Verwendung als Sicherheit oder zurück an den Fonds, falls es nicht mehr benötigt wird."
+    },
+    "MFSR": {
+      "name": "Zeichnung und Rücknahme von Investmentfonds",
+      "definition": "Zahlung im Zusammenhang mit der Anteilsabwicklung eines Zeichnungs- oder Rücknahmeauftrags."
+    },
+    "CRYP": {
+      "name": "Kryptowerte",
+      "definition": "Die Transaktion bezieht sich auf den Kauf oder Verkauf von Krypto-Assets."
+    },
+    "MDEP": {
+      "name": "Mikroeinzahlung",
+      "definition": "Die Transaktion ist eine kleine Einzahlung, z. B. zu Kontoverifizierungszwecken."
+    },
+    "BROK": {
+      "name": "Brokerage-Finanzierung",
+      "definition": "Kontoübertrag zur Finanzierung eines Brokerage-Kontos."
+    },
+    "ACTF": {
+      "name": "Kontofinanzierung",
+      "definition": "Kontoübertrag zur Finanzierung eines Bankkontos (Sichteinlagenkonten (DDA) und Sparkonten)."
+    },
+    "WALM": {
+      "name": "Wallet-Aufladung (mehrfach verwendbar)",
+      "definition": "Kontoübertrag zur Finanzierung einer Mehrzweck-Wallet."
+    },
+    "WALS": {
+      "name": "Wallet-Aufladung (einmalig)",
+      "definition": "Kontoübertrag zur Finanzierung einer Einzweck-Wallet."
+    },
+    "CHDF": {
+      "name": "Wohltätige Spende (DAF)",
+      "definition": "Wohltätige Spende, die im Namen eines Donor Advised Fund (DAF) verarbeitet wird."
+    },
+    "CHFN": {
+      "name": "Wohltätige Spende (Stiftung)",
+      "definition": "Wohltätige Spende, die im Namen einer Stiftung (zweckgebundene Einheit) verarbeitet wird."
+    },
+    "CHCP": {
+      "name": "Wohltätige Spende (Unternehmen)",
+      "definition": "Wohltätige Spende, die im Namen eines Unternehmens verarbeitet wird."
+    },
+    "TNTP": {
+      "name": "Steuerneutrale Rentenübertragung",
+      "definition": "Die Transaktion ist eine steuerneutrale Übertragung eines bestehenden Pensionsguthabens."
+    },
+    "ALDS": {
+      "name": "Auszahlung eines Autokredits",
+      "definition": "Auszahlung von Geldern für Fahrzeugkäufe, einschließlich Autos, Lastwagen, Motorräder, Boote, Wohnmobile, ATVs/UTVs, Jetskis, Schneemobile, Nutzfahrzeuge und Anhänger."
+    },
+    "PSDS": {
+      "name": "Auszahlung eines Privatkredits",
+      "definition": "Auszahlung eines Privatdarlehens, z. B. Auszahlung von Geldern zur Umschuldung, für Wohnungsrenovierung oder größere Anschaffungen."
+    },
+    "BLDS": {
+      "name": "Auszahlung eines Geschäftskredits",
+      "definition": "Auszahlung eines Geschäftsdarlehens, z. B. Auszahlung von Kapital für Geschäftserweiterung, Geräteanschaffung oder Betriebsausgaben."
+    },
+    "SLDS": {
+      "name": "Auszahlung eines Studienkredits",
+      "definition": "Auszahlung eines Studentendarlehens, z. B. Auszahlung von Studiengebühren an Bildungseinrichtungen oder direkt an Studierende."
+    },
+    "CLDS": {
+      "name": "Auszahlung eines Baukredits",
+      "definition": "Auszahlung eines Baudarlehens, z. B. phasenweise Auszahlungen für Bauprojekte nach Erreichen von Fertigstellungsmeilensteinen."
+    },
+    "PDLN": {
+      "name": "Zahltagdarlehen",
+      "definition": "Zahltagdarlehen (Pay Day Loan), z. B. kurzfristige, hochverzinsliche Darlehen, die in der Regel am nächsten Zahltag des Kreditnehmers fällig sind."
+    },
+    "BNPL": {
+      "name": "Jetzt kaufen, später zahlen",
+      "definition": "Buy-Now-Pay-Later-Zahlungen, z. B. Finanzierungsoptionen am Verkaufsort, die Ratenzahlungen für Einzelhandelskäufe ermöglichen."
+    },
+    "ESCR": {
+      "name": "Treuhandzahlung",
+      "definition": "Finanzielle Vermittlungsleistungen über ein Treuhandkonto (Escrow), z. B. Immobilientransaktionen, Käufe auf Online-Marktplätzen, Unternehmenskäufe, Bauprojekte, Vergleiche."
+    },
+    "ODPY": {
+      "name": "Zahlung auf Abruf",
+      "definition": "Zahlungen auf Abruf/in Echtzeit, z. B. Lohnzugriff am selben Tag, Auszahlungen in der Gig Economy."
+    },
+    "FUEL": {
+      "name": "Kraftstoff",
+      "definition": "Kraftstoff/Benzin, z. B. Käufe an Tankstellen für Fahrzeugkraftstoff oder an Ladestationen für Elektrofahrzeuge."
+    },
+    "TOLL": {
+      "name": "Mautgebühren",
+      "definition": "Mautgebühren, z. B. Zahlungen für Straßenmaut, Brücken, Tunnel oder elektronische Mauterhebungssysteme."
+    },
+    "CARL": {
+      "name": "Autoleasing und -miete",
+      "definition": "Autovermietung, z. B. kurzfristige Fahrzeugvermietungen."
+    },
+    "TRVL": {
+      "name": "Reisen und Gastgewerbe",
+      "definition": "Allgemeiner Code für Reise- und Gastgewerbetransaktionen, z. B. Hotelbuchungen, Ferienvermietungen, Pauschalreisen oder direkte Hotelreservierungen."
+    },
+    "GYMM": {
+      "name": "Fitnessstudio-Mitgliedschaft",
+      "definition": "Fitnessstudio-Mitgliedschaft, z. B. monatliche oder jährliche Gebühren für Fitnesscenter oder Gesundheitsclubs."
+    },
+    "HMMS": {
+      "name": "Haushaltsinstandhaltungsdienste",
+      "definition": "Hausinstandhaltung, z. B. regelmäßige Leistungen für Hausreinigung, Rasenpflege, Schädlingsbekämpfung oder Poolwartung."
+    },
+    "STRM": {
+      "name": "Streaming-Dienste",
+      "definition": "Streaming-Dienste, z. B. monatliche Abonnements bei Plattformen für digitale Inhalte."
+    },
+    "HRPS": {
+      "name": "Haushaltsreparaturdienste",
+      "definition": "Hausreparatur, z. B. einmalige oder Notreparaturen an Waschmaschine/Trockner, beschädigten Böden, Sanitärproblemen oder elektrischen Problemen."
+    },
+    "RHSV": {
+      "name": "Fahrdienstvermittlung",
+      "definition": "Fahrdienst/Lieferdienst, z. B. Zahlungen für App-basierte Fahrten."
+    },
+    "FGDL": {
+      "name": "Lebensmittel- und Einkaufslieferung",
+      "definition": "Essens-/Lebensmittellieferung, z. B. Liefergebühren und Zahlungen über App-basierte Essenslieferdienste."
+    },
+    "ERPM": {
+      "name": "Nothilfezahlung",
+      "definition": "Notfallhilfszahlungen, z. B. Erhalt von Hilfen nach Naturkatastrophen, COVID-Hilfszahlungen oder Auszahlungen von Nothilfe."
+    },
+    "GOVG": {
+      "name": "Staatliche Zuschüsse",
+      "definition": "Staatliche Zuschüsse, z. B. Erhalt von Mitteln für akademische Forschung, Kleinunternehmensentwicklung, Bildungsprogramme oder Gemeinschaftsinitiativen."
+    },
+    "TIPS": {
+      "name": "Trinkgeld",
+      "definition": "Trinkgeld, z. B. zusätzliche Zahlungen an Servicepersonal in Restaurants, Hotels, Salons oder über digitale Trinkgeldplattformen."
+    },
+    "SCAC": {
+      "name": "Schulaktivitäten",
+      "definition": "Die Transaktion steht im Zusammenhang mit der Zahlung für Schulaktivitäten und außerschulische Programme."
+    },
+    "WALT": {
+      "name": "Wallet-Transaktionen",
+      "definition": "Die Transaktion steht im Zusammenhang mit dem Aufladen oder Entladen einer digitalen Wallet."
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "isoType": "ExternalCashAccountType1Code",
+  "isoCodes": {
+    "CACC": {
+      "name": "Aktuell",
+      "definition": "Konto, das zur Buchung von Soll- und Habenbuchungen verwendet wird, wenn kein bestimmtes Konto benannt wurde."
+    },
+    "CARD": {
+      "name": "Kartenkonto",
+      "definition": "Konto, das für Kreditkartenzahlungen verwendet wird."
+    },
+    "CASH": {
+      "name": "Barzahlung",
+      "definition": "Konto, das für die Zahlung von Bargeld verwendet wird."
+    },
+    "CHAR": {
+      "name": "Entgelte",
+      "definition": "Konto, das für Entgelte verwendet wird, falls abweichend vom Konto für|die Zahlung."
+    },
+    "CISH": {
+      "name": "Bareinnahmen",
+      "definition": "Konto, das für die Zahlung von Erträgen verwendet wird, falls abweichend vom laufenden Bargeldkonto"
+    },
+    "COMM": {
+      "name": "Provision",
+      "definition": "Konto, das für Provisionen verwendet wird, falls abweichend vom Konto|für die Zahlung."
+    },
+    "CPAC": {
+      "name": "Abwicklungskonto des Clearing-Teilnehmers",
+      "definition": "Konto, das zur Buchung von Abwicklungs-Soll- und -Habenbuchungen im Auftrag eines benannten Clearing-Teilnehmers verwendet wird."
+    },
+    "LLSV": {
+      "name": "Sparkonto mit beschränkter Liquidität",
+      "definition": "Konto, das für Sparguthaben mit besonderen Zins- und Abhebungsbedingungen verwendet wird."
+    },
+    "LOAN": {
+      "name": "Darlehen",
+      "definition": "Konto, das für Darlehen verwendet wird."
+    },
+    "MGLD": {
+      "name": "Spitzenrefinanzierung",
+      "definition": "Konto, das für eine Spitzenrefinanzierungsfazilität verwendet wird."
+    },
+    "MOMA": {
+      "name": "Geldmarkt",
+      "definition": "Konto, das für Geldmarktgeschäfte verwendet wird, falls abweichend vom|Bargeldkonto."
+    },
+    "NREX": {
+      "name": "Gebietsfremdes Auslandskonto",
+      "definition": "Konto, das für externe Konten Gebietsfremder verwendet wird."
+    },
+    "ODFT": {
+      "name": "Überziehung",
+      "definition": "Konto, das für Kontoüberziehungen verwendet wird."
+    },
+    "ONDP": {
+      "name": "Übernachteinlage",
+      "definition": "Konto, das für Übernachteinlagen verwendet wird."
+    },
+    "OTHR": {
+      "name": "Sonstiges Konto",
+      "definition": "Konto ohne nähere Angabe."
+    },
+    "SACC": {
+      "name": "Abwicklung",
+      "definition": "Konto, das zur Buchung von Soll- und Habenbuchungen aus Transaktionen verwendet wird, die über ein bestimmtes Clearing- und Abwicklungssystem verrechnet und abgewickelt wurden."
+    },
+    "SLRY": {
+      "name": "Gehalt",
+      "definition": "Konten, die für Gehaltszahlungen verwendet werden."
+    },
+    "SVGS": {
+      "name": "Sparen",
+      "definition": "Konto, das für Sparguthaben verwendet wird."
+    },
+    "TAXE": {
+      "name": "Steuer",
+      "definition": "Konto, das für Steuern verwendet wird, falls abweichend vom Konto für|die Zahlung."
+    },
+    "TRAN": {
+      "name": "Transaktionskonto",
+      "definition": "Ein Transaktionskonto ist die einfachste Art von Bankkonto, die Sie erhalten können. Der Hauptunterschied zwischen Transaktions- und Scheckkonten besteht darin, dass Sie zu einem Transaktionskonto in der Regel kein Scheckbuch erhalten und Ihnen auch keine Überziehungsmöglichkeit angeboten wird."
+    },
+    "TRAS": {
+      "name": "Bargeldhandel",
+      "definition": "Konto, das für den Handel verwendet wird, falls abweichend vom laufenden Bargeldkonto."
+    },
+    "VACC": {
+      "name": "Virtuelles Konto",
+      "definition": "Virtuell angelegtes Konto zur Erleichterung von Einzug und Abstimmung."
+    },
+    "NFCA": {
+      "name": "Fremdwährungskonto eines Gebietsfremden",
+      "definition": "Im Inland geführtes Fremdwährungskonto einer gebietsfremden Person/Einheit."
+    },
+    "RFCA": {
+      "name": "Fremdwährungskonto einer gebietsansässigen Einzelperson",
+      "definition": "Im Inland geführtes Fremdwährungskonto einer gebietsansässigen Person."
+    },
+    "REFC": {
+      "name": "Fremdwährung einer gebietsansässigen Einheit",
+      "definition": "Im Inland geführtes Fremdwährungskonto einer gebietsansässigen Einheit."
+    },
+    "NLCY": {
+      "name": "Inlandswährungskonto eines Gebietsfremden",
+      "definition": "Inlandswährungskonto eines Gebietsfremden."
+    },
+    "RLCY": {
+      "name": "Inlandswährung eines Gebietsansässigen",
+      "definition": "Inlandswährungskonto eines Gebietsansässigen."
+    },
+    "ODEP": {
+      "name": "Ordentliche Einlage",
+      "definition": "Konto, das als gewöhnliche Einlage für alltägliche Ein- und Auszahlungen verwendet wird."
+    }
+  }
+}

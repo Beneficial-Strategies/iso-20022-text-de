@@ -1,0 +1,18 @@
+{
+  "isoType": "MandateTypeInformation2",
+  "definition": "Satz von Elementen zur näheren Beschreibung der Informationen zur Zahlungsart.",
+  "isoElements": {
+    "ServiceLevel": {
+      "definition": "Vereinbarung oder Regelwerk, dem das Mandat unterliegt."
+    },
+    "LocalInstrument": {
+      "definition": "Nutzergruppenspezifisches Instrument.|Verwendung: Dieses Element dient zur Angabe eines lokalen Instruments, einer lokalen Clearingoption und/oder zur näheren Qualifizierung des Service oder Service-Levels."
+    },
+    "CategoryPurpose": {
+      "definition": "Gibt den übergeordneten Zweck des Mandats auf Grundlage einer Reihe vordefinierter Kategorien an."
+    },
+    "Classification": {
+      "definition": "Art der Lastschriftanweisung."
+    }
+  }
+}

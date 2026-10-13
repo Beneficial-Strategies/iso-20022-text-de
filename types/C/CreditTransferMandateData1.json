@@ -1,0 +1,33 @@
+{
+  "isoType": "CreditTransferMandateData1",
+  "definition": "Enthält weitere Angaben zu einem Überweisungsmandat, das zwischen dem Zahlungsempfänger und dem Zahlungspflichtigen unterzeichnet wurde.",
+  "isoElements": {
+    "MandateIdentification": {
+      "definition": "Eindeutige, vom Zahlungsempfänger vergebene Identifikation zur zweifelsfreien Identifizierung des Mandats."
+    },
+    "Type": {
+      "definition": "Gibt die Art des Mandats an, etwa Papier, elektronisch oder Schema."
+    },
+    "DateOfSignature": {
+      "definition": "Datum, an dem das Überweisungsmandat vom Zahlungspflichtigen unterzeichnet wurde."
+    },
+    "DateOfVerification": {
+      "definition": "Datum, an dem das Überweisungsmandat verifiziert wurde."
+    },
+    "ElectronicSignature": {
+      "definition": "Zusätzliche Sicherheitsvorkehrungen, etwa eine digitale Signatur, die vom Zahlungspflichtigen bereitgestellt werden."
+    },
+    "FirstPaymentDate": {
+      "definition": "Datum der ersten Zahlung einer wiederkehrenden Überweisung gemäß dem Mandat."
+    },
+    "FinalPaymentDate": {
+      "definition": "Datum der letzten Zahlung einer wiederkehrenden Überweisung gemäß dem Mandat."
+    },
+    "Frequency": {
+      "definition": "Regelmäßigkeit, mit der Überweisungsanweisungen zu erstellen und zu verarbeiten sind."
+    },
+    "Reason": {
+      "definition": "Grund für die Einrichtung des Überweisungsmandats.||Verwendung: |Anhand des Grundes kann der Nutzer zwischen verschiedenen Mandaten desselben Zahlungsempfängers unterscheiden."
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "isoType": "ExternalDocumentType1Code",
+  "isoCodes": {
+    "CINV": {
+      "name": "Handelsrechnung",
+      "definition": "Das Dokument ist eine Rechnung."
+    },
+    "CNFA": {
+      "name": "Gutschriftsanzeige zu finanzieller Anpassung",
+      "definition": "Das Dokument ist eine Gutschriftsanzeige über den endgültig abgerechneten Betrag eines Handelsgeschäfts."
+    },
+    "CONT": {
+      "name": "Vertrag",
+      "definition": "Das Dokument ist ein Vertrag, der eine Vereinbarung zwischen Verkäufer und Käufer über die Lieferung von Waren und/oder Dienstleistungen belegt."
+    },
+    "CREN": {
+      "name": "Gutschriftsanzeige",
+      "definition": "Das Dokument ist eine Gutschriftsanzeige."
+    },
+    "DEBN": {
+      "name": "Belastungsanzeige",
+      "definition": "Das Dokument ist eine Belastungsanzeige."
+    },
+    "DISP": {
+      "name": "Versandavis",
+      "definition": "Das Dokument ist eine Versandanzeige für die Waren."
+    },
+    "DNFA": {
+      "name": "Belastungsanzeige zu finanzieller Anpassung",
+      "definition": "Das Dokument ist eine Belastungsanzeige über den endgültig abgerechneten Betrag eines Handelsgeschäfts."
+    },
+    "HIRI": {
+      "name": "Mietrechnung",
+      "definition": "Das Dokument ist eine Rechnung für die Überlassung von Personal oder die Vermietung von Waren oder Ausrüstung."
+    },
+    "INVS": {
+      "name": "Unterzeichnete Rechnung",
+      "definition": "Das Dokument ist eine unterzeichnete Rechnung."
+    },
+    "MSIN": {
+      "name": "Rechnung für gemessene Leistungen",
+      "definition": "Das Dokument ist eine Rechnung, mit der die Zahlung für die Lieferung gemessener Leistungen, z. B. Gas oder Strom, an einen festen Zähler gefordert wird."
+    },
+    "PROF": {
+      "name": "Proforma-Rechnung",
+      "definition": "Im Handelsgeschäft ist eine Proforma-Rechnung ein Dokument, das eine Verpflichtung des Verkäufers erklärt, dem Käufer Waren zu festgelegten Preisen und Bedingungen zu verkaufen. Sie dient dazu, den Wert des Handelsgeschäfts zu deklarieren. Sie ist keine echte Rechnung, da sie nicht zur Erfassung von Forderungen des Verkäufers und Verbindlichkeiten des Käufers verwendet wird."
+    },
+    "PUOR": {
+      "name": "Bestellung",
+      "definition": "Das Dokument ist eine Bestellung."
+    },
+    "QUOT": {
+      "name": "Angebot",
+      "definition": "Das Dokument ist ein Angebot, das die Bedingungen darlegt, zu denen die Waren und/oder Dienstleistungen angeboten werden."
+    },
+    "SBIN": {
+      "name": "Gutschriftsverfahren-Rechnung",
+      "definition": "Das Dokument ist eine Aufstellung der auf dem Konto des Zahlungspflichtigen beim Lieferanten gebuchten Transaktionen."
+    },
+    "SPRR": {
+      "name": "Vorlage durch den Verkäufer",
+      "definition": "Das Dokument ist ein vom Verkäufer vorgelegtes Dokument zur Untermauerung der Beschaffung von Waren und/oder Dienstleistungen."
+    },
+    "TISH": {
+      "name": "Zeitnachweis",
+      "definition": "Das Dokument ist ein Stundenzettel, der Zeiten für die Erbringung von Dienstleistungen und/oder die Lieferung von Waren erfasst."
+    },
+    "USAR": {
+      "name": "Nutzungsbericht",
+      "definition": "Das Dokument ist ein Nutzungsbericht, der das Verbrauchsmuster für bestimmte Waren und/oder Dienstleistungen angibt."
+    },
+    "AROI": {
+      "name": "Offener Posten Forderungen",
+      "definition": "Das Dokument ist eine Zahlung, die sich auf ein bestimmtes Ursprungsdokument bezieht."
+    },
+    "BOLD": {
+      "name": "Konnossement",
+      "definition": "Das Dokument ist eine Versandmitteilung."
+    },
+    "CMCN": {
+      "name": "Handelsvertrag",
+      "definition": "Das Dokument ist eine Vereinbarung zwischen den Parteien, die die Bedingungen für die Lieferung von Waren oder Dienstleistungen festlegt."
+    },
+    "SOAC": {
+      "name": "Kontoauszug",
+      "definition": "Das Dokument ist eine Aufstellung der auf dem Konto des Zahlungspflichtigen beim Lieferanten gebuchten Transaktionen."
+    },
+    "TSUT": {
+      "name": "Transaktion für Handelsdienstleistungen",
+      "definition": "Das Dokument ist eine Transaktionskennung, die vom Trade Services Utility vergeben wurde."
+    },
+    "VCHR": {
+      "name": "Beleg",
+      "definition": "Das Dokument ist ein elektronisches Zahlungsdokument."
+    }
+  }
+}

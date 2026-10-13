@@ -1,0 +1,18 @@
+{
+  "isoType": "BranchData5",
+  "definition": "Informationen, die eine bestimmte Filiale eines Finanzinstituts lokalisieren und identifizieren.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation einer Filiale eines Finanzinstituts."
+    },
+    "LEI": {
+      "definition": "Rechtsträgeridentifikation für die Filiale des Finanzinstituts."
+    },
+    "Name": {
+      "definition": "Name, unter dem eine Bank bekannt ist und der üblicherweise zu ihrer Identifizierung verwendet wird."
+    },
+    "PostalAddress": {
+      "definition": "Informationen, die eine bestimmte Adresse, wie von den Postdiensten definiert, lokalisieren und identifizieren."
+    }
+  }
+}

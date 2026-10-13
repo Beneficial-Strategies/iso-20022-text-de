@@ -1,4 +1,0 @@
-{
- "BusinessMessagePriorityCode": "Legt die Prioritätsstufen für die BusinessMessage fest.|Die verschiedenen Prioritäten hängen typischerweise vom Benutzer, vom Dienst oder von der Implementierung ab. Die Semantik der verschiedenen Werte für eine Nachricht (bzw. einen Nachrichtensatz) muss von der jeweiligen Nutzergemeinschaft (SEG) festgelegt werden.",
- "UnicodeChartsCode": "Codeliste mit den Namen der UNICODE-Codeblöcke, wie unter http://unicode.org/Public/UNIDATA/Blocks.txt festgelegt."
-}

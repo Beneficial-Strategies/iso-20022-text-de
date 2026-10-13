@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForDebtorAgent1",
+  "definition": "Weitere Informationen zur Bearbeitung der Zahlungsanweisung, auf die die Bank des Zahlungspflichtigen möglicherweise reagieren muss. Die Anweisung kann sich auf ein Serviceniveau beziehen, eine von der Bank des Zahlungspflichtigen auszuführende Anweisung sein oder Informationen enthalten, die die Bank des Zahlungspflichtigen benötigt.",
+  "isoElements": {
+    "Code": {
+      "definition": "Codierte Informationen zur Bearbeitung der Zahlungsanweisung, die von der initiierenden Partei bereitgestellt werden und für die Bank des Zahlungsempfängers bestimmt sind."
+    },
+    "InstructionInformation": {
+      "definition": "Weitere Informationen zur codierten Anweisung oder zur Anweisung an die Bank des Zahlungsempfängers, die bilateral vereinbart oder für eine Nutzergemeinschaft spezifisch sind."
+    }
+  }
+}

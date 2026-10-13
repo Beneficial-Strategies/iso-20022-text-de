@@ -1,0 +1,30 @@
+{
+  "isoType": "AddressType2Code",
+  "definition": "Gibt die Adressart an.",
+  "isoCodes": {
+    "ADDR": {
+      "name": "Postanschrift",
+      "definition": "Die Adresse ist die vollständige Postanschrift."
+    },
+    "PBOX": {
+      "name": "Postfach",
+      "definition": "Die Adresse ist ein Postfach (PO Box)."
+    },
+    "HOME": {
+      "name": "Wohnanschrift",
+      "definition": "Die Adresse ist die Privatadresse."
+    },
+    "BIZZ": {
+      "name": "Geschäftlich",
+      "definition": "Die Adresse ist die Geschäftsadresse."
+    },
+    "MLTO": {
+      "name": "Postzustellung an",
+      "definition": "Die Adresse ist die Adresse, an die Post gesendet wird."
+    },
+    "DLVY": {
+      "name": "Lieferung an",
+      "definition": "Die Adresse ist die Adresse, an die geliefert werden soll."
+    }
+  }
+}

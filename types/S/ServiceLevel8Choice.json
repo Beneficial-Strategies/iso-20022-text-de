@@ -1,0 +1,12 @@
+{
+  "isoType": "ServiceLevel8Choice",
+  "definition": "Gibt die Servicestufe der Transaktion an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt einen zuvor vereinbarten Service oder eine Servicestufe zwischen den Parteien an, wie in einer externen Liste von Servicestufen-Codes veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Gibt einen zuvor vereinbarten Service oder eine Servicestufe zwischen den Parteien als proprietären Code an."
+    }
+  }
+}

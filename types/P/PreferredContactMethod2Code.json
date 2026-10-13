@@ -1,0 +1,30 @@
+{
+  "isoType": "PreferredContactMethod2Code",
+  "definition": "Bevorzugtes Verfahren zur Kontaktaufnahme mit dem einzelnen Ansprechpartner innerhalb einer Organisation.",
+  "isoCodes": {
+    "MAIL": {
+      "name": "E-Mail",
+      "definition": "Bevorzugtes Verfahren zur Kontaktaufnahme ist per E-Mail."
+    },
+    "FAXX": {
+      "name": "Fax",
+      "definition": "Bevorzugtes Verfahren zur Kontaktaufnahme ist per Fax."
+    },
+    "LETT": {
+      "name": "Brief",
+      "definition": "Bevorzugtes Verfahren zur Kontaktaufnahme ist per Brief."
+    },
+    "CELL": {
+      "name": "Mobiltelefon",
+      "definition": "Bevorzugtes Verfahren zur Kontaktaufnahme ist per Mobiltelefon."
+    },
+    "ONLI": {
+      "name": "Online",
+      "definition": "Bevorzugtes Verfahren zur Kontaktaufnahme ist online."
+    },
+    "PHON": {
+      "name": "Telefon",
+      "definition": "Bevorzugtes Verfahren zur Kontaktaufnahme ist per Telefon."
+    }
+  }
+}

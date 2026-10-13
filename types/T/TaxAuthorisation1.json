@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxAuthorisation1",
+  "definition": "Angaben zur autorisierten steuerzahlenden Partei.",
+  "isoElements": {
+    "Title": {
+      "definition": "Titel oder Position des Zahlungspflichtigen oder seines bevollmächtigten Vertreters."
+    },
+    "Name": {
+      "definition": "Name des Zahlungspflichtigen oder seines bevollmächtigten Vertreters."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "ExternalCreditorReferenceType1Code",
+  "isoCodes": {
+    "DISP": {
+      "name": "Versandavis",
+      "definition": "Das Dokument ist eine Versandanzeige."
+    },
+    "FXDR": {
+      "name": "Devisengeschäftsreferenz",
+      "definition": "Das Dokument ist ein vorab vereinbartes Devisengeschäft, auf das sich die Zahlungstransaktion bezieht."
+    },
+    "PUOR": {
+      "name": "Bestellung",
+      "definition": "Das Dokument ist eine Bestellung."
+    },
+    "RPIN": {
+      "name": "Zugehörige Zahlungsanweisung",
+      "definition": "Das Dokument ist eine verknüpfte Zahlungsanweisung, auf die sich die aktuelle Zahlungsanweisung bezieht, z. B. in einem Cover-Szenario."
+    },
+    "RADM": {
+      "name": "Zahlungsavis-Nachricht",
+      "definition": "Das Dokument ist ein separat von der aktuellen Transaktion gesendetes Zahlungsavis."
+    },
+    "SCOR": {
+      "name": "Strukturierte Verwendungszweckreferenz",
+      "definition": "Das Dokument ist eine vom Zahlungsempfänger bereitgestellte strukturierte Kommunikationsreferenz zur Identifikation der referenzierten Transaktion."
+    },
+    "PRNB": {
+      "name": "Zahlungsreferenznummer",
+      "definition": "Das Dokument ist eine Zahlungsreferenznummer, die zur Identifikation, zum Abgleich oder zur Abstimmung der referenzierten Beitragszahlung oder zugehöriger Verwendungszweck-Informationen dient."
+    }
+  }
+}

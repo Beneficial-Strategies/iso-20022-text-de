@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxRecordDetails3",
+  "definition": "Enthält Informationen zu den einzelnen Steuerbeträgen je Zeitraum des Steuerdatensatzes.",
+  "isoElements": {
+    "Period": {
+      "definition": "Satz von Elementen mit Angaben zum Zeitraum der Steuerzahlung."
+    },
+    "Amount": {
+      "definition": "Zugrunde liegender Steuerbetrag für den angegebenen Zeitraum."
+    }
+  }
+}

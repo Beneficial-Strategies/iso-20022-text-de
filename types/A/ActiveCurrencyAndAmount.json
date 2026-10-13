@@ -1,0 +1,4 @@
+{
+  "isoType": "ActiveCurrencyAndAmount",
+  "definition": "Eine Anzahl von Geldeinheiten in einer aktiven Währung, wobei die Währungseinheit eindeutig angegeben ist und ISO 4217 entspricht."
+}

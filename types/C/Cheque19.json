@@ -1,0 +1,47 @@
+{
+  "isoType": "Cheque19",
+  "definition": "Merkmale einer Scheckanweisung, wie Scheckart oder Schecknummer.",
+  "isoElements": {
+    "ChequeType": {
+      "definition": "Gibt die Art des auszustellenden Schecks an."
+    },
+    "ChequeNumber": {
+      "definition": "Eindeutige und unmissverständliche Identifikation eines Schecks, wie von der Bank vergeben."
+    },
+    "ChequeFrom": {
+      "definition": "Identifiziert die Partei, die die Ausstellung des Schecks veranlasst hat."
+    },
+    "DeliveryMethod": {
+      "definition": "Gibt die Zustellungsart des Schecks durch die Bank des Zahlungspflichtigen an."
+    },
+    "DeliverTo": {
+      "definition": "Partei, an die die Bank des Zahlungspflichtigen den Scheck senden muss."
+    },
+    "InstructionPriority": {
+      "definition": "Dringlichkeit oder Rangfolge, die der Auftraggeber vom Empfänger der Zahlungsanweisung bei deren Bearbeitung angewendet haben möchte."
+    },
+    "ChequeMaturityDate": {
+      "definition": "Datum, an dem der Wechsel zahlbar wird und das Konto des Zahlungspflichtigen belastet wird."
+    },
+    "FormsCode": {
+      "definition": "Identifiziert in codierter Form das Scheckformat, das Firmenlogo und die digitalisierte Unterschrift, die zum Drucken des Schecks zu verwenden sind, wie zwischen der initiierenden Partei und der Bank des Zahlungspflichtigen vereinbart."
+    },
+    "MemoField": {
+      "definition": "Informationen, die auf einen Scheck gedruckt werden müssen und vom Zahlenden für sonstige Angaben verwendet werden."
+    },
+    "RegionalClearingZone": {
+      "definition": "Regionales Gebiet, in dem der Scheck eingelöst werden kann, wenn ein Land keine landesweite Scheckclearing-Organisation hat."
+    },
+    "PrintLocation": {
+      "definition": "Gibt den Druckort des Schecks an."
+    },
+    "Signature": {
+      "definition": "Unterschrift, die vom Scheckdienstleister auf einem bestimmten zu druckenden Scheck zu verwenden ist."
+    }
+  },
+  "isoRules": {
+    "ChequeMaturityDateRule": {
+      "definition": "Wenn ChequeMaturityDate vorhanden ist, muss ChequeType vorhanden und gleich DRFT oder ELDR sein."
+    }
+  }
+}

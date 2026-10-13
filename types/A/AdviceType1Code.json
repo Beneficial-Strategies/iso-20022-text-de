@@ -1,0 +1,14 @@
+{
+  "isoType": "AdviceType1Code",
+  "definition": "Gibt die Art der im Bericht zurückzumeldenden Avisierung an.",
+  "isoCodes": {
+    "ADWD": {
+      "name": "Avis mit Details",
+      "definition": "Avisierung mit Transaktionsdetails wird angefordert."
+    },
+    "ADND": {
+      "name": "Avis ohne Details",
+      "definition": "Avisierung ohne Transaktionsdetails wird angefordert."
+    }
+  }
+}
