@@ -1,0 +1,21 @@
+{
+  "isoType": "SecurityParameters18",
+  "definition": "Sicherheitsparameter des ATM für den initiierten Schlüssel-Download.",
+  "isoElements": {
+    "Key": {
+      "definition": "Zum Schutz des Schlüssel-Downloads verwendeter kryptografischer Schlüssel."
+    },
+    "SignatureChoice": {
+      "definition": "Element mit der Signatur."
+    },
+    "Certificate": {
+      "definition": "Geordnete Zertifikatskette des asymmetrischen Schlüsselverschlüsselungsschlüssels, beginnend mit dem Zertifikat des ATM."
+    },
+    "ATMChallenge": {
+      "definition": "Zufallswert des ATM zur Vermeidung von Nachrichtenwiederholungen."
+    },
+    "RequestedKey": {
+      "definition": "Je nach vom Host verwendeter Schlüsselhierarchie zum Herunterladen angeforderter Schlüssel."
+    }
+  }
+}

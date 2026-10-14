@@ -1,0 +1,21 @@
+{
+  "isoType": "CashCoin1",
+  "definition": "Abhebung oder Einzahlung eines in Münzen festgelegten Geldbetrags.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art des Bargelds."
+    },
+    "BoxReference": {
+      "definition": "Referenz für den Behälter, der diese Münzen enthält."
+    },
+    "CoinDenomination": {
+      "definition": "Gibt die Stückelung der Münzen einschließlich der Währung an, zum Beispiel eine 50-Cent-Euro-Münze."
+    },
+    "NumberOfCoins": {
+      "definition": "Gibt die Anzahl der Münzen gleicher Stückelung an."
+    },
+    "Amount": {
+      "definition": "Gibt den Gesamtbetrag für diese Münzstückelung an, das heißt die Stückelung multipliziert mit der Anzahl der Münzen."
+    }
+  }
+}

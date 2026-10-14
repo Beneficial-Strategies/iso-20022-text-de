@@ -1,0 +1,12 @@
+{
+  "isoType": "OptionFeaturesFormat31Choice",
+  "definition": "Auswahl zwischen einem Standardcode und einem proprietären Code zur Angabe der Merkmale, die für eine Kapitalmaßnahmen-Option gelten können.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Merkmale, die für eine Kapitalmaßnahmen-Option gelten können."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Merkmale, die für eine Kapitalmaßnahmen-Option gelten können."
+    }
+  }
+}

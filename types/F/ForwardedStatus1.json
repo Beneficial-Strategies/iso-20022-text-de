@@ -1,0 +1,12 @@
+{
+  "isoType": "ForwardedStatus1",
+  "definition": "Status- und Mengeninformationen zu einer weitergeleiteten Anweisungsanfrage.",
+  "isoElements": {
+    "ForwardedQuantity": {
+      "definition": "Menge der angewiesenen Wertpapiere, die zuvor akzeptiert wurde und nun entlang der Kette weitergeleitet wurde."
+    },
+    "ForwardedReason": {
+      "definition": "Grund für den Status „weitergeleitet“."
+    }
+  }
+}

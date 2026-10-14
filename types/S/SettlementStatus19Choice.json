@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementStatus19Choice",
+  "definition": "Auswahl des Formats für den Abwicklungsstatus.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Abwicklungsstatus einer Anweisung/Finanzinstrumentbewegung an."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Abwicklungsstatus einer Anweisung/Finanzinstrumentbewegung an."
+    }
+  }
+}

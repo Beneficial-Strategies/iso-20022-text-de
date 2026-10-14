@@ -1,0 +1,18 @@
+{
+  "isoType": "AuthenticationEntity1Code",
+  "definition": "Stelle oder Objekt, die bzw. das für die Prüfung der Echtheit des Karteninhabers zuständig ist.",
+  "isoCodes": {
+    "ICCD": {
+      "name": "ICC",
+      "definition": "Anwendung auf der Chipkarte (Integrated Circuit Card), zum Beispiel eine Offline-PIN-Prüfung."
+    },
+    "AGNT": {
+      "name": "Autorisierter Vertreter",
+      "definition": "Autorisierungsstelle des Kartenherausgebers."
+    },
+    "MERC": {
+      "name": "Händler",
+      "definition": "Händler (zum Beispiel Unterschriftsprüfung durch das Bedienpersonal)."
+    }
+  }
+}

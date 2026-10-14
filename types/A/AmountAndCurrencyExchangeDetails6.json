@@ -1,0 +1,15 @@
+{
+  "isoType": "AmountAndCurrencyExchangeDetails6",
+  "definition": "Satz von Elementen mit Angaben zum ursprünglichen Betrag und zum Währungsumtausch.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art des Betrags an."
+    },
+    "Amount": {
+      "definition": "Geldbetrag, der gegen einen anderen Geldbetrag in der Gegenwährung umgetauscht werden soll."
+    },
+    "CurrencyExchange": {
+      "definition": "Satz von Elementen mit Einzelheiten zum Währungsumtausch."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Party56Choice",
+  "definition": "Art oder Verwendung des Kontos.",
+  "isoElements": {
+    "OrganisationIdentification": {
+      "definition": "Eindeutige und unmissverständliche Art, eine Organisation zu identifizieren."
+    },
+    "FinancialInstitutionIdentification": {
+      "definition": "Eindeutige und unmissverständliche Identifikation eines Finanzinstituts."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "IdentificationVerificationReportV04",
+  "definition": "Anwendungsbereich|Die Nachricht IdentificationVerificationReport wird von einem Zuweisenden an einen Zuweisungsempfänger gesendet. Sie wird verwendet, um zu bestätigen, ob die vorgelegten Partei- und/oder Kontoidentifikationsinformationen korrekt sind oder nicht.|Verwendung|Die Nachricht IdentificationVerificationReport wird als Antwort auf eine Nachricht IdentificationVerificationRequest gesendet.|Die Nachricht IdentificationVerificationReport kann einen oder mehrere Berichte enthalten.|Die Nachricht IdentificationVerificationReport kann einen Grund enthalten, wenn bestätigt wird, dass die vorgelegten Partei- und/oder Kontoidentifikationsinformationen nicht korrekt sind.|Die Nachricht IdentificationVerificationReport kann die korrekten Partei- und/oder Kontoidentifikationsinformationen enthalten."
+}

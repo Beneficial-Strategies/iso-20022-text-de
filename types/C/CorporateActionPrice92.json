@@ -1,0 +1,17 @@
+{
+  "isoType": "CorporateActionPrice92",
+  "definition": "Gibt Preise an.",
+  "isoElements": {
+    "CashInLieuOfSharePrice": {
+      "definition": "Barauszahlung anstelle von Aktien; üblicherweise anstelle einer Bruchteilsmenge."
+    },
+    "OverSubscriptionDepositPrice": {
+      "definition": "Vom Emittenten festgelegter Geldbetrag, der je überzeichneter Aktie erforderlich ist."
+    }
+  },
+  "isoRules": {
+    "GenericCashPriceReceivedPerProductGuideline": {
+      "definition": "GenericCashPriceReceivedPerProduct ist der im Verlauf eines Ereignisses erhaltene Preis. Die spezifische Bedeutung (Rückzahlungspreis, Bezugspreis, Wiederanlagepreis, ETC.) ergibt sich aus der Ereignisart."
+    }
+  }
+}

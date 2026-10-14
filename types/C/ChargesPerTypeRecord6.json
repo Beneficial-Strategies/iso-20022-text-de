@@ -1,0 +1,51 @@
+{
+  "isoType": "ChargesPerTypeRecord6",
+  "definition": "Stellt weitere Einzeldatensatz-Details zu den Entgelten im Zusammenhang mit der Zahlungstransaktion bereit.",
+  "isoElements": {
+    "RecordIdentification": {
+      "definition": "Eindeutige und unzweideutige Identifikation des Entgeltdatensatzes zu Abstimmungszwecken."
+    },
+    "ChargesRequestor": {
+      "definition": "Bank, die die Entgelte anfordert, sofern sie nicht mit dem Absender identisch ist."
+    },
+    "SettlementInstruction": {
+      "definition": "Gibt die Einzelheiten zur Abwicklung der nachfolgenden Transaktion(en) an.||Verwendung: Die Daten dieser Bank und Partei sollten unverändert in die resultierende Nachricht für die Zahlung der Entgelte übernommen werden."
+    },
+    "UnderlyingTransaction": {
+      "definition": "Identifiziert die zugrunde liegende(n) Transaktion(en), auf die sich die Entgelte beziehen."
+    },
+    "Amount": {
+      "definition": "Betrag der Transaktionsentgelte, die vom Entgeltträger zu zahlen sind."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Entgeltbetrag ein Haben- oder ein Sollbetrag ist. |Verwendung: Ein Nullbetrag gilt als Haben-Betrag."
+    },
+    "ValueDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Entgelte verfügbar sind oder sein werden."
+    },
+    "Debtor": {
+      "definition": "Gibt den Zahlungspflichtigen der ursprünglichen Zahlungstransaktion an."
+    },
+    "DebtorAccount": {
+      "definition": "Gibt das Konto des Zahlungspflichtigen der ursprünglichen Zahlungstransaktion an."
+    },
+    "DebtorAgent": {
+      "definition": "Gibt die Bank des Zahlungspflichtigen der ursprünglichen Zahlungstransaktion an, sofern sie von der das Entgeltkonto führenden Bank abweicht."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Gibt das Konto der Bank des Zahlungspflichtigen der ursprünglichen Zahlungstransaktion an, wenn die anweisende Bank vom Inhaber des Entgeltkontos abweicht."
+    },
+    "ChargesAccountAgent": {
+      "definition": "Bank, die das Entgeltkonto führt.||Verwendung: Dieses Element sollte verwendet werden, wenn das geltend gemachte Entgelt nicht mit der Verarbeitung einer Zahlungstransaktion zusammenhängt, zum Beispiel mit einer Untersuchung oder einem anderen Vorgang. Es identifiziert die Bank, die das Konto führt, von dem die Entgelte zu begleichen sind."
+    },
+    "ChargesAccountAgentAccount": {
+      "definition": "Konto der Bank, die das Entgeltkonto führt.||Verwendung: Dieses Element sollte verwendet werden, wenn das geltend gemachte Entgelt nicht mit der Verarbeitung einer Zahlungstransaktion zusammenhängt, zum Beispiel mit einer Untersuchung oder einem anderen Vorgang. Es identifiziert das Konto, von dem die Entgelte zu begleichen sind."
+    },
+    "InstructionForInstructedAgent": {
+      "definition": "Weitere Informationen zur Verarbeitung der Zahlungsanpassungsanweisung, die von der nächsten Bank gegebenenfalls zu beachten sind."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Einzelheiten zum Grund der Entgelte."
+    }
+  }
+}

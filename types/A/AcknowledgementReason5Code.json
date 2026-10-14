@@ -1,0 +1,42 @@
+{
+  "isoType": "AcknowledgementReason5Code",
+  "definition": "Gibt zusätzliche Informationen zur verarbeiteten Anweisung an.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Nach der Frist des kontoführenden Instituts eingegangen. Verarbeitung nach bestem Bemühen."
+    },
+    "SMPG": {
+      "name": "Abweichung von der Marktpraxisregel",
+      "definition": "Die Anweisung wird akzeptiert, entspricht jedoch nicht der für den betreffenden Markt oder Prozess veröffentlichten Marktpraxisregel."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "CDCY": {
+      "name": "Bedingte Währung",
+      "definition": "Die Ausführung hängt von der Durchführung eines Prozesses im Zusammenhang mit der Währung der Transaktion ab."
+    },
+    "CDRG": {
+      "name": "Bedingter Registrar",
+      "definition": "Die Ausführung hängt von der Durchführung eines Prozesses bei der Registerstelle ab."
+    },
+    "CDRE": {
+      "name": "Bedingte Neuausrichtung",
+      "definition": "Die Ausführung hängt von der Durchführung eines Angleichungsprozesses beim Emittenten-Zentralverwahrer (CSD) ab."
+    },
+    "NSTP": {
+      "name": "Keine vollautomatische Verarbeitung",
+      "definition": "Die Anweisung wurde nicht vollautomatisch verarbeitet und musste manuell bearbeitet werden."
+    },
+    "RQWV": {
+      "name": "Ohne Stimmrechte akzeptiert",
+      "definition": "Die Registrierung der Anweisung wird akzeptiert, erfolgt jedoch nicht vollständig, d. h. nicht mit Stimmrechten."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Die Anweisung ist nach der Marktfrist eingegangen."
+    }
+  }
+}

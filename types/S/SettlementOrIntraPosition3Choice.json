@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementOrIntraPosition3Choice",
+  "definition": "Auswahl zwischen der Positionsumbuchung (Intra-Position) und der Abwicklungstransaktion.",
+  "isoElements": {
+    "IntraPositionMovement": {
+      "definition": "Gibt die angeforderten Details der Positionsumbuchung (Intra-Position) an."
+    },
+    "SettlementTransaction": {
+      "definition": "Gibt die angeforderten Details der Abwicklungstransaktion an."
+    }
+  }
+}

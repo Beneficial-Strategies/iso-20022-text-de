@@ -1,0 +1,12 @@
+{
+  "isoType": "PlaceOfTradeIdentification2",
+  "definition": "Identifikation des Marktes, an dem ein Handelsgeschäft ausgeführt wurde.",
+  "isoElements": {
+    "MarketTypeAndIdentification": {
+      "definition": "Identifikation und Art des Handelsplatzes."
+    },
+    "LEI": {
+      "definition": "Identifikation der juristischen Person als alternative Identifikation für einen Handelsplatz."
+    }
+  }
+}

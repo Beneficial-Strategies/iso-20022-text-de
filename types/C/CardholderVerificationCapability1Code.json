@@ -1,0 +1,54 @@
+{
+  "isoType": "CardholderVerificationCapability1Code",
+  "definition": "Fähigkeiten des POI (Personal Identification Number) zur Karteninhaberverifizierung bei der Transaktion.",
+  "isoCodes": {
+    "MNSG": {
+      "name": "Manuelle Unterschrift",
+      "definition": "Manuelle Unterschriftsprüfung."
+    },
+    "NPIN": {
+      "name": "Online-PIN",
+      "definition": "Online-PIN (Personal Identification Number)."
+    },
+    "FCPN": {
+      "name": "Offline-PIN im Klartext",
+      "definition": "Offline-PIN im Klartext (Personal Identification Number)."
+    },
+    "FEPN": {
+      "name": "Offline-PIN verschlüsselt",
+      "definition": "Offline-PIN verschlüsselt (Personal Identification Number)."
+    },
+    "FDSG": {
+      "name": "Offline-Digitalsignatur",
+      "definition": "Offline-Analyse der digitalen Signatur."
+    },
+    "FBIO": {
+      "name": "Offline-Biometrie",
+      "definition": "Offline-Biometrie."
+    },
+    "MNVR": {
+      "name": "Manuelle Überprüfung",
+      "definition": "Sonstige manuelle Verifizierung, zum Beispiel Reisepass oder Führerschein."
+    },
+    "FBIG": {
+      "name": "Offline-Biografiedaten",
+      "definition": "Offline-Biografiedaten."
+    },
+    "APKI": {
+      "name": "Digitale Kontosignatur",
+      "definition": "Kontobasierte digitale Signatur."
+    },
+    "PKIS": {
+      "name": "PKI-Signatur",
+      "definition": "Digitale Signatur auf PKI-Basis (Public Key Infrastructure)."
+    },
+    "CHDT": {
+      "name": "Karteninhaberdaten",
+      "definition": "Daten zur Karteninhaberauthentifizierung."
+    },
+    "SCEC": {
+      "name": "Sicherer elektronischer Handel",
+      "definition": "Three Domain Secure (Three-Domain-Secure-Authentifizierung des Karteninhabers)."
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "isoType": "PaymentSearch10",
+  "definition": "Legt die Kriterien fest, die für die Suche nach einer Zahlung verwendet werden.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, von der ursprünglich initiierenden Partei vergeben, zur eindeutigen Identifikation der ursprünglichen Zahlungstransaktionsnachricht. |Verwendung: Dies ist die frühere Transaktionsreferenz."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Datum und Uhrzeit, zu dem das Geld dem Inhaber des Gutschriftskontos zur Verfügung steht oder dem Inhaber des Belastungskontos nicht mehr zur Verfügung steht."
+    },
+    "PaymentIdentification": {
+      "definition": "Eindeutiger und zweifelsfreier Bezeichner für eine Zahlungsanweisung, von der Clearingstelle oder der initiierenden Partei vergeben."
+    },
+    "Status": {
+      "definition": "Detaillierte Informationen zum Status eines Transfers."
+    },
+    "InstructedAmount": {
+      "definition": "Gibt den bzw. die angewiesenen Beträge an, auf die sich die Abfrage bezieht."
+    },
+    "InstructedAmountCurrency": {
+      "definition": "Währung, in der der angewiesene Betrag ausgedrückt ist."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob es sich bei der Zahlungsanweisung um eine Belastung oder eine Gutschrift handelt."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Gibt den bzw. die Interbanken-Abwicklungsbeträge an, auf die sich die Abfrage bezieht."
+    },
+    "InterbankSettlementAmountCurrency": {
+      "definition": "Währung, in der der Interbanken-Abwicklungsbetrag ausgedrückt ist."
+    },
+    "PaymentMethod": {
+      "definition": "Gibt die Nachricht oder das Ereignis an, aus der bzw. dem eine Anweisung veranlasst wurde."
+    },
+    "PaymentType": {
+      "definition": "Anweisung, im Auftrag eines Auftraggebers einen Geldbetrag an einen letztlich Begünstigten zu zahlen. Diese Anweisung muss möglicherweise mehrfach weitergeleitet werden, um die Abwicklungskette zu vervollständigen."
+    },
+    "Priority": {
+      "definition": "Dringlichkeit oder Rangfolge der Wichtigkeit, die der Auftraggeber vom Empfänger der Zahlungsanweisung bei der Verarbeitung der Zahlungsanweisung angewendet haben möchte."
+    },
+    "ProcessingValidityTime": {
+      "definition": "Zeitraum aus Datum und Uhrzeit, innerhalb dessen die Zahlungsanweisung verarbeitet werden muss."
+    },
+    "Instruction": {
+      "definition": "Weitere Informationen zur Verarbeitung der Zahlungsanweisung. Die Anweisung kann sich auf ein Servicelevel zwischen der Bank und dem Kunden beziehen oder Anweisungen an und für bestimmte Parteien in der Zahlungskette enthalten."
+    },
+    "TransactionIdentification": {
+      "definition": "Eindeutige Identifikation, vom ersten anweisenden Institut vergeben, zur zweifelsfreien Identifikation der Transaktion, die unverändert durch die gesamte Interbankenkette weitergegeben wird.|Verwendung: Die Transaktionsidentifikation kann für den Abgleich, die Nachverfolgung oder die Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion auf Interbankenebene verwendet werden. Die anweisende Bank muss sicherstellen, dass die Transaktionsidentifikation für einen vorab vereinbarten Zeitraum eindeutig ist.|Verwendung: Dies ist die frühere PaymentInstructionReference."
+    },
+    "UETR": {
+      "definition": "Universell eindeutiger Bezeichner für eine Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag für die schuldende Bank nicht mehr verfügbar ist und für die Bank, der er geschuldet wird, verfügbar wird.|Verwendung: Dies ist das frühere InterbankValueDate."
+    },
+    "EndToEndIdentification": {
+      "definition": "Eindeutige Identifikation, von der initiierenden Partei vergeben, zur zweifelsfreien Identifikation der Transaktion. Diese Identifikation wird unverändert durch die gesamte Ende-zu-Ende-Kette weitergegeben.|Verwendung: Die Ende-zu-Ende-Identifikation kann für den Abgleich oder die Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion verwendet werden.|Sie kann in mehreren Nachrichten zur Transaktion enthalten sein.|Verwendung: Dies ist die frühere RelatedReference."
+    },
+    "Parties": {
+      "definition": "Legt die Partei-Felder fest, die für die Suche nach einer Zahlung verwendet werden."
+    }
+  },
+  "isoRules": {
+    "SettlementAmountCurrencyRule": {
+      "definition": "Wenn mindestens ein Vorkommen von InterbankSettlementAmount/CurrencyAndAmountRange vorhanden ist, ist kein Vorkommen von InterbankSettlementAmountCurrency zulässig.|Wenn InterbankSettlementAmount/CurrencyAndAmountRange nicht vorhanden ist, ist jedes Vorkommen von InterbankSettlementAmountCurrency optional."
+    },
+    "InstructedAmountCurrencyRule": {
+      "definition": "Wenn mindestens ein Vorkommen von InstructedAmount/CurrencyAndAmountRange vorhanden ist, ist kein Vorkommen von InstructedAmountCurrency zulässig.|Wenn InstructedAmount/CurrencyAndAmountRange nicht vorhanden ist, ist jedes Vorkommen von InstructedAmountCurrency optional."
+    },
+    "InstructedAmountCreditDebitIndicator1Rule": {
+      "definition": "Wenn mindestens ein Vorkommen von InstructedAmount/CurrencyAndAmountRange/CreditDebitIndicator vorhanden ist, ist CreditDebitIndicator nicht zulässig.|Wenn InstructedAmount/CurrencyAndAmountRange/CreditDebitIndicator nicht vorhanden ist, ist CreditDebitIndicator optional."
+    },
+    "InstructedAmountCreditDebitIndicator2Rule": {
+      "definition": "Wenn mindestens ein Vorkommen von InstructedAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator vorhanden ist, ist CreditDebitIndicator nicht zulässig.|Wenn InstructedAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator nicht vorhanden ist, ist CreditDebitIndicator optional."
+    },
+    "SettlementAmountCreditDebitIndicator1Rule": {
+      "definition": "Wenn mindestens ein Vorkommen von InterbankSettlementAmount/CurrencyAndAmountRange/CreditDebitIndicator vorhanden ist, ist CreditDebitIndicator nicht zulässig.|Wenn InterbankSettlementAmount/CurrencyAndAmountRange/CreditDebitIndicator nicht vorhanden ist, ist CreditDebitIndicator optional."
+    },
+    "SettlementAmountCreditDebitIndicator2Rule": {
+      "definition": "Wenn mindestens ein Vorkommen von InterbankSettlementAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator vorhanden ist, ist CreditDebitIndicator nicht zulässig.|Wenn InterbankSettlementAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator nicht vorhanden ist, ist CreditDebitIndicator optional."
+    }
+  }
+}

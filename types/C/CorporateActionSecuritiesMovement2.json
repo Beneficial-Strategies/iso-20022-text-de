@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionSecuritiesMovement2",
+  "definition": "Liefert Informationen zur Wertpapierbewegung, die sich aus der Wahlanweisung ergibt.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identifikation des Finanzinstruments."
+    },
+    "PostingDateTime": {
+      "definition": "Datum und Uhrzeit der Buchung der Bewegung."
+    },
+    "PostingIdentification": {
+      "definition": "Buchungsidentifikation der Wertpapierbewegung."
+    },
+    "PostingQuantity": {
+      "definition": "Wertpapiermenge, die infolge der Wertpapierbewegung gebucht wurde."
+    },
+    "AccountDetails": {
+      "definition": "Liefert Informationen zum Konto, das infolge der Bewegung belastet/gutgeschrieben wird."
+    }
+  }
+}

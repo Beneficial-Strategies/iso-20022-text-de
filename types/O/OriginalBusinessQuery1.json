@@ -1,0 +1,15 @@
+{
+  "isoType": "OriginalBusinessQuery1",
+  "definition": "Eindeutige, vom ursprünglichen Auftraggeber vergebene Identifikation zur zweifelsfreien Identifizierung der geschäftlichen Abfragenachricht.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, vergeben von der ursprünglichen initiierenden Partei, zur zweifelsfreien Identifizierung der ursprünglichen Abfragenachricht."
+    },
+    "MessageNameIdentification": {
+      "definition": "Gibt die Kennung des Namens der Abfragenachricht an, auf die sich die Nachricht bezieht."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    }
+  }
+}

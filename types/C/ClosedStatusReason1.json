@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosedStatusReason1",
+  "definition": "Grund für einen geschlossenen Status.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für den geschlossenen Kontostatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Grund für den geschlossenen Kontostatus."
+    }
+  }
+}

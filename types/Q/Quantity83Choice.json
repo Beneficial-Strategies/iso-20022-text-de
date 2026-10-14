@@ -1,0 +1,12 @@
+{
+  "isoType": "Quantity83Choice",
+  "definition": "Auswahl zwischen der Abwicklungsmenge des E-Geld-Tokens und der Menge für die Netzwerkgebühr.",
+  "isoElements": {
+    "ElectronicMoneyTokenSettlementQuantity": {
+      "definition": "Menge an E-Geld-Token für die Abwicklungszahlung."
+    },
+    "NetworkFeeQuantity": {
+      "definition": "Menge digitaler Vermögenswerte für die Netzwerkgebühr, die einer Transaktion in einem DLT-Netzwerk zugeordnet ist."
+    }
+  }
+}

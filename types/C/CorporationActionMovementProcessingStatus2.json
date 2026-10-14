@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporationActionMovementProcessingStatus2",
+  "definition": "Liefert den Verarbeitungsstatus des Antrags auf Stornierung der Bewegung.",
+  "isoElements": {
+    "Status": {
+      "definition": "Der Bearbeitungsstatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

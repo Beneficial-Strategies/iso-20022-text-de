@@ -1,0 +1,24 @@
+{
+  "isoType": "ThirdPartyRights2",
+  "definition": "Informationen zu Rechten Dritter.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art des Rechts Dritter."
+    },
+    "DateTime": {
+      "definition": "Zeitstempel für das Recht Dritter."
+    },
+    "Holder": {
+      "definition": "Partei, die das Recht Dritter innehat."
+    },
+    "LegalEntityIdentifier": {
+      "definition": "Identifikation des Inhabers mit einer Legal Entity Identifier. Dies ist ein Code, der einer Partei zugewiesen wird, wie in ISO 17442 „Financial Services - Legal Entity Identifier (LEI)“ beschrieben."
+    },
+    "Amount": {
+      "definition": "Betrag des Rechts Dritter."
+    },
+    "Description": {
+      "definition": "Beschreibung des Rechts Dritter."
+    }
+  }
+}

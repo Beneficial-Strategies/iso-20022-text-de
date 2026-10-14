@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingOrderOrAll4Choice",
+  "definition": "Merkmale eines oder aller Daueraufträge, die vom Mitglied festgelegt und vom Transaktionsadministrator verwaltet werden.",
+  "isoElements": {
+    "StandingOrder": {
+      "definition": "Identifikation einzelner Daueraufträge, die mit bestimmten Merkmalen definiert sind."
+    },
+    "AllStandingOrders": {
+      "definition": "Identifikation aller Daueraufträge, die mit bestimmten Merkmalen definiert sind."
+    }
+  }
+}

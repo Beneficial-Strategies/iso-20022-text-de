@@ -1,0 +1,14 @@
+{
+  "isoType": "PriceMethod1Code",
+  "definition": "Gibt die Art der Preisberechnungsmethode an.",
+  "isoCodes": {
+    "FORW": {
+      "name": "Terminpreis",
+      "definition": "Der Preis wird nach Ende des Handelszeitraums berechnet. Ein Anleger kennt daher den genauen Kauf- oder Verkaufspreis nicht."
+    },
+    "HIST": {
+      "name": "Historischer Preis",
+      "definition": "Der Preis wird zu einem früheren Bewertungszeitpunkt vor dem Handelszeitraum berechnet. Ein Anleger kennt daher den genauen Kauf- oder Verkaufspreis."
+    }
+  }
+}

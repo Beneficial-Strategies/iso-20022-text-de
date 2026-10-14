@@ -1,0 +1,30 @@
+{
+  "isoType": "ServiceCategoryTotals8",
+  "definition": "Gibt Summen im Zusammenhang mit der Rechnung an.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Eindeutige Identifikation eines Wertpapierkontos oder Geldkontos des abgerechneten Kunden."
+    },
+    "ParentAccountIdentification": {
+      "definition": "Eindeutige Identifikation eines übergeordneten Wertpapierkontos oder Geldkontos des abgerechneten Kunden, wenn über Unterkonten berichtet wird."
+    },
+    "BilledCustomerIdentification": {
+      "definition": "Identifikation des Kunden, dem die Rechnung gestellt wird."
+    },
+    "Tax": {
+      "definition": "Detaillierte Angaben zur angewandten Steuer."
+    },
+    "TotalInvoiceAmount": {
+      "definition": "Gesamtbetrag der Rechnung, bestehend aus der Summe der Gesamtbeträge der Rechnungspositionen, dem Gesamtbetrag der Rechnungsanpassungen (Rabatte, Nachlässe und Entgelte) und den gesamten Steuerbeträgen."
+    },
+    "ServiceCategory": {
+      "definition": "Vereinbarung bzw. Regeln, nach denen die Transaktion verarbeitet werden soll."
+    },
+    "ServiceItemTotals": {
+      "definition": "Summen im Zusammenhang mit der Rechnung."
+    },
+    "ServiceItemCorrection": {
+      "definition": "Auf die Rechnung angewandte Korrektur."
+    }
+  }
+}

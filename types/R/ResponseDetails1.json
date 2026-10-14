@@ -1,0 +1,12 @@
+{
+  "isoType": "ResponseDetails1",
+  "definition": "Zusätzliche Details zur Erläuterung von Antwortcodes.",
+  "isoElements": {
+    "ResponseCode": {
+      "definition": "Code für Warnungen, Ablehnungen, Zahlen/Nicht-Zahlen-Antworten und technische Ablehnungen des Kontoführers."
+    },
+    "AdditionalDetails": {
+      "definition": "Zusätzliche Informationen zur näheren Erläuterung von Antwortcodes."
+    }
+  }
+}

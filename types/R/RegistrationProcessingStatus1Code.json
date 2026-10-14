@@ -1,0 +1,14 @@
+{
+  "isoType": "RegistrationProcessingStatus1Code",
+  "definition": "Gibt den Status der Registrierungsverarbeitung an.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Empfangen und akzeptiert",
+      "definition": "Die Registrierung wurde vom Emittenten/Registerführer bestätigt/akzeptiert."
+    },
+    "REJT": {
+      "name": "Abgelehnt",
+      "definition": "Die Registrierung wurde vom Emittenten/Registerführer abgelehnt."
+    }
+  }
+}

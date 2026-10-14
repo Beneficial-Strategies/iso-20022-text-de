@@ -1,0 +1,9 @@
+{
+  "isoType": "ReversalOfTransferOutConfirmationV09",
+  "definition": "Anwendungsbereich|Die Nachricht ReversalOfTransferOutConfirmation wird von einer ausführenden Partei, zum Beispiel einer Transferstelle, an die anweisende Partei, zum Beispiel einen Vermögensverwalter oder dessen bevollmächtigten Vertreter, gesendet, um eine zuvor gesendete Übertragungsausgangsbestätigung zu stornieren.|Verwendung|Die Nachricht ReversalOfTransferOutConfirmation wird verwendet, um eine zuvor gesendete Übertragungsausgangsbestätigung rückzubuchen.|Um die Rückbuchung einer Übertragungsausgangsbestätigung zu beantragen, wird die Übertragungsreferenz der Übertragungsausgangsanweisung, wie in der ursprünglichen Nachricht TransferOutInstruction angegeben, im Element für die Übertragungsreferenz angegeben. Die Referenz der ausführenden Partei für die Ausführung der Übertragung kann auch im Element TransferConfirmationReference angegeben werden.|Die Nachrichtenidentifikation der ursprünglichen Nachricht TransferOutConfirmation kann auch in PreviousReference angegeben werden, dies wird jedoch nicht empfohlen.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Eindeutiger Identifikator für eine Gruppe einzelner Übertragungen, wie von der anweisenden Partei vergeben. Dieser Identifikator verknüpft die einzelnen Übertragungen miteinander."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "Compensation5",
+  "definition": "Gibt die Einzelheiten einer Zahlungsausgleichszahlung an.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag, der als Ausgleich zu zahlen ist."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungspflichtigen führt.||Verwendung: Die Bank des Zahlungspflichtigen ist der Zahler des Ausgleichsbetrags."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungspflichtigen bei ihrer kontoführenden Bank in der Zahlungskette."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungsempfänger führt.||Verwendung: Die Bank des Zahlungsempfängers ist der Empfänger des Ausgleichsbetrags."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungsempfängers bei ihrer kontoführenden Bank, dem aufgrund der Zahlungstransaktion eine Gutschrift erteilt wird."
+    },
+    "Reason": {
+      "definition": "Grund für die Zahlungsausgleichszahlung."
+    }
+  }
+}

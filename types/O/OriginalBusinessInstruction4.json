@@ -1,0 +1,15 @@
+{
+  "isoType": "OriginalBusinessInstruction4",
+  "definition": "Eindeutige Identifikation, vom ursprünglichen Auftraggeber vergeben, zur zweifelsfreien Identifikation der Geschäftsanweisungsnachricht.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, von der ursprünglich initiierenden Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Anweisungsnachricht."
+    },
+    "MessageNameIdentification": {
+      "definition": "Gibt den Namensbezeichner der Anweisungsnachricht an, auf die sich die Nachricht bezieht."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    }
+  }
+}

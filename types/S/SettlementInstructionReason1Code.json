@@ -1,0 +1,62 @@
+{
+  "isoType": "SettlementInstructionReason1Code",
+  "definition": "Gibt die Transaktionsart an.",
+  "isoCodes": {
+    "CSHI": {
+      "name": "Alle Gutschriften",
+      "definition": "Abwicklung aller Gutschriftsbeträge."
+    },
+    "ALLL": {
+      "name": "Alle Gutschriften und Belastungen",
+      "definition": "Abwicklung aller Gutschrifts- und Lastschriftsbeträge."
+    },
+    "CSHO": {
+      "name": "Alle Belastungen",
+      "definition": "Abwicklung aller Lastschriftsbeträge."
+    },
+    "CHAR": {
+      "name": "Entgelte",
+      "definition": "Abwicklung von Entgelten."
+    },
+    "DIVI": {
+      "name": "Dividende",
+      "definition": "Abwicklung von Dividenden."
+    },
+    "INTE": {
+      "name": "Zinsen",
+      "definition": "Abwicklung von Zinsen."
+    },
+    "SAVP": {
+      "name": "Anlage-Sparplan",
+      "definition": "Abwicklung von Anlagen in einen Sparplan."
+    },
+    "REDM": {
+      "name": "Rücknahme",
+      "definition": "Abwicklung von Rücknahmen oder Rücknahmeseiten einer Switch-Transaktion."
+    },
+    "SAVE": {
+      "name": "Sparplan",
+      "definition": "Abwicklung von Anlagen in einen Sparplan und von Entnahmen aus einem Sparplan."
+    },
+    "BUYI": {
+      "name": "Wertpapierkauf",
+      "definition": "Abwicklung von Wertpapierkäufen."
+    },
+    "SELL": {
+      "name": "Wertpapierverkauf",
+      "definition": "Abwicklung von Wertpapierverkäufen."
+    },
+    "SUBS": {
+      "name": "Zeichnung",
+      "definition": "Abwicklung von Zeichnungen oder Zeichnungsseiten einer Switch-Transaktion."
+    },
+    "WTHP": {
+      "name": "Entnahme aus Sparplan",
+      "definition": "Abwicklung von Entnahmen aus einem Sparplan."
+    },
+    "CORP": {
+      "name": "Kapitalmaßnahme",
+      "definition": "Abwicklung von Kapitalmaßnahmen."
+    }
+  }
+}

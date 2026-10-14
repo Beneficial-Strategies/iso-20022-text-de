@@ -1,0 +1,65 @@
+{
+  "isoType": "CorporateActionRate133",
+  "definition": "Gibt Sätze im Zusammenhang mit einer Kapitalmaßnahmen-Option an.",
+  "isoElements": {
+    "AdditionalTax": {
+      "definition": "Satz für zusätzliche Steuern, die nicht kategorisiert werden können."
+    },
+    "GrossDistributionRate": {
+      "definition": "Ausschüttungssatz vor Steuerabzug."
+    },
+    "NetDistributionRate": {
+      "definition": "Ausschüttungssatz nach Steuerabzug."
+    },
+    "GrossInterestRateUsedForPayment": {
+      "definition": "Der tatsächliche Zinssatz vor Steuern, der für die Zinszahlung für den angegebenen Zinszeitraum verwendet wird. |Verwendungshinweis: Er dient dazu, den für die aktuelle Zahlung geltenden Satz nach Durchführung aller Berechnungen anzugeben, das heißt nach Anwendung von Zeitraum und Zinsberechnungsmethode."
+    },
+    "MaximumAllowedOversubscriptionRate": {
+      "definition": "Maximaler Prozentsatz der Aktien, die über das Überzeichnungsrecht verfügbar sind, in der Regel ein Prozentsatz der Basiszeichnungsaktien; beispielsweise kann ein Kontoinhaber, der 100 Aktien zeichnet, höchstens 50 zusätzliche Aktien überzeichnen, wenn das Überzeichnungsmaximum 50 Prozent beträgt."
+    },
+    "ProrationRate": {
+      "definition": "Prozentsatz der vom Anbieter/Emittenten angenommenen Wertpapiere."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Prozentsatz einer Barausschüttung, der von den Steuerbehörden des Rechtsraums des Emittenten einbehalten wird und für den eine Entlastung an der Quelle und/oder eine Rückforderung möglich sein kann."
+    },
+    "SecondLevelTax": {
+      "definition": "Satz, zu dem die Erträge von einem anderen Rechtsraum als dem des steuerlichen Gründungslands des Emittenten einbehalten werden und für den eine Entlastung an der Quelle und/oder eine Rückforderung möglich sein kann. Er wird ergänzend zum oder verrechnend mit dem Quellensteuersatz (TAXR) erhoben, den der Rechtsraum des steuerlichen Sitzes des Emittenten erhebt."
+    },
+    "TaxableIncomePerDividendShare": {
+      "definition": "In der Dividende/im NAV enthaltener Betrag, der als direkt oder indirekt aus Zinszahlungen stammender Gewinn ausgewiesen wird, beispielsweise im Rahmen der EU-Zinsrichtlinie."
+    },
+    "TaxOnIncome": {
+      "definition": "Gesamtsteuer, die von den Fondsmanagern an der Quelle einbehalten wird, bevor die Steuerpflicht der einzelnen Anteilsinhaber berücksichtigt wird."
+    }
+  },
+  "isoRules": {
+    "GrossDistributionRate2Rule": {
+      "definition": "Wenn GrossDistributionRate wiederholt wird, dann:|- müssen die Werte von RateTypeAndAmountAndRateStatus/RateType/Code in jedem Vorkommen von GrossDistributionRate alle verschieden sein.|(MT 564 NVR C8)."
+    },
+    "GrossDistributionRate3Rule": {
+      "definition": "Es darf nur ein einziges Vorkommen von entweder GrossDistributionRate/Amount oder GrossDistributionRate/AmountAndRateStatus oder GrossDistributionRate/NotSpecifiedRate vorhanden sein; nur eines dieser Elemente darf vorhanden sein. (MT 564 NVR C7)."
+    },
+    "NetDistributionRate1Rule": {
+      "definition": "Wenn NetDistributionRate wiederholt wird, müssen die Werte von RateTypeAndAmountAndRateStatus/RateType/Code in jedem Vorkommen von NetDistributionRate alle voneinander verschieden sein. (MT 564 NVR C8)."
+    },
+    "NetDistributionRate2Rule": {
+      "definition": "Es darf nur ein einziges Vorkommen von entweder NetDistributionRate/Amount oder NetDistributionRate/AmountAndRateStatus oder NetDistributionRate/NotSpecifiedRate vorhanden sein, und nur eines dieser Elemente darf vorhanden sein. (MT 564 NVR C7)."
+    },
+    "SecondLevelTax3Rule": {
+      "definition": "Wenn mindestens ein Vorkommen von SecondLevelTax vorhanden ist, dann muss mindestens ein Vorkommen von WithholdingTaxRate vorhanden sein."
+    },
+    "SecondLevelTax1Rule": {
+      "definition": "Wenn SecondLevelTax wiederholt wird, müssen die Werte von SecondLevelTax/RateTypeAndRate/RateType/Code in jedem Vorkommen von SecondLevelTax alle voneinander verschieden sein. |(MT 564 NVR C8)."
+    },
+    "SecondLevelTax2Rule": {
+      "definition": "Es darf nur ein einziges Vorkommen von entweder SecondLevelTax/Amount oder SecondLevelTax/Rate oder SecondLevelTax/NotSpecifiedRate vorhanden sein; nur eines dieser Elemente darf vorhanden sein. |(MT 564 NVR C7)."
+    },
+    "WithholdingTaxRate1Rule": {
+      "definition": "Wenn WithholdingTaxRate wiederholt wird, müssen die Werte von WithholdingTaxRate/RateTypeAndRate/RateType/Code in jedem Vorkommen von WithholdingTaxRate alle voneinander verschieden sein. |(MT 564 NVR C8)."
+    },
+    "WithholdingTaxRate2Rule": {
+      "definition": "Es darf nur ein einziges Vorkommen von entweder WithholdingTaxRate/Amount oder WithholdingTaxRate/Rate oder WithholdingTaxRate/NotSpecifiedRate vorhanden sein; nur eines dieser Elemente darf vorhanden sein. |(MT 564 NVR C7)."
+    }
+  }
+}

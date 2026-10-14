@@ -1,0 +1,14 @@
+{
+  "isoType": "RejectedStatusReason6Code",
+  "definition": "Gibt den Grund für einen abgelehnten Status an.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Anlagekonto",
+      "definition": "Die Identifikation des Anlagekontos wird nicht erkannt oder ist ungültig."
+    },
+    "NSLA": {
+      "name": "Nicht SLA-konform",
+      "definition": "Die Anweisung entspricht nicht der Dienstgütevereinbarung."
+    }
+  }
+}

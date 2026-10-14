@@ -1,0 +1,4 @@
+{
+  "isoType": "SecuritiesSettlementTransactionQueryV01",
+  "definition": "Die Nachricht SecuritiesSettlementInstructionQuery wird von einem Kontoinhaber/Anfragenden an eine Abwicklungsinfrastruktur gesendet.|Die Nachricht dient der Abfrage von Informationen zu Wertpapierabwicklungsanweisungen, die die festgelegten Auswahlkriterien erfüllen."
+}

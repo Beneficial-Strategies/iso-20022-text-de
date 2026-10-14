@@ -1,0 +1,69 @@
+{
+  "isoType": "IndividualPerson37",
+  "definition": "Natürliche Person, in Abgrenzung zu einer juristischen Person (die mitunter als „künstliche Person“ bezeichnet wird).",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Zur Anrede der Person verwendeter Begriff."
+    },
+    "GivenName": {
+      "definition": "Vorname der Person."
+    },
+    "MiddleName": {
+      "definition": "Zweiter Vorname der Person."
+    },
+    "Name": {
+      "definition": "Name, unter dem die Partei bekannt ist und der üblicherweise zur Identifizierung dieser Person verwendet wird."
+    },
+    "NameSuffix": {
+      "definition": "Zusätzliche Informationen zur Person, die dem Namen der Person folgen, z. B. eine Qualifikation wie Doctor of Philosophy (PhD)."
+    },
+    "Gender": {
+      "definition": "Geschlecht der Person."
+    },
+    "BirthDate": {
+      "definition": "Datum, an dem die Person geboren wurde."
+    },
+    "CountryOfBirth": {
+      "definition": "Land, in dem die Person geboren wurde."
+    },
+    "ProvinceOfBirth": {
+      "definition": "Provinz, in der die Person geboren wurde."
+    },
+    "CityOfBirth": {
+      "definition": "Stadt, in der die Person geboren wurde."
+    },
+    "Profession": {
+      "definition": "Bezeichnung des Berufs oder der Tätigkeit der Person."
+    },
+    "PostalAddress": {
+      "definition": "Adresse der Person."
+    },
+    "Citizenship": {
+      "definition": "Staatsangehörigkeit und Rechtsstatus (minderjährig oder volljährig)."
+    },
+    "EmployingCompany": {
+      "definition": "Organisation, die von einer Person vertreten wird oder für die eine Person arbeitet."
+    },
+    "BusinessFunction": {
+      "definition": "Bezeichnung der Funktion."
+    },
+    "PoliticallyExposedPerson": {
+      "definition": "Prüfungen zur politisch exponierten Person."
+    },
+    "DeathDate": {
+      "definition": "Todesdatum."
+    },
+    "CivilStatus": {
+      "definition": "Familienstand der natürlichen Person."
+    },
+    "EducationLevel": {
+      "definition": "Höchster erreichter Bildungsabschluss der natürlichen Person."
+    },
+    "FamilyInformation": {
+      "definition": "Informationen zur Person."
+    },
+    "GDPRData": {
+      "definition": "Informationen zur Einwilligung der Person in die Verwendung personenbezogener Daten im Rahmen der Datenschutz-Grundverordnung (GDPR) 2016/679."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "isoType": "CorporateActionBalanceDetails43",
+  "definition": "Anspruchsberechtigter und nicht anspruchsberechtigter Wertpapierbestand für ein Kapitalmaßnahmen-Ereignis.",
+  "isoElements": {
+    "TotalEligibleBalance": {
+      "definition": "Gesamter für dieses Kapitalmaßnahmen-Ereignis anspruchsberechtigter Wertpapierbestand. Die Berechnung des Anspruchs beruht auf diesem Bestand."
+    },
+    "BlockedBalance": {
+      "definition": "Bestand an Finanzinstrumenten, die gesperrt sind."
+    },
+    "BorrowedBalance": {
+      "definition": "Bestand an Finanzinstrumenten, die von einer anderen Partei geliehen wurden."
+    },
+    "CollateralInBalance": {
+      "definition": "Bestand an Wertpapieren, die einem Dritten gehören und zum Zweck der Besicherung gehalten werden."
+    },
+    "CollateralOutBalance": {
+      "definition": "Bestand an Wertpapieren, die dem in dieser Nachricht angegebenen Depotkonto gehören und zum Zweck der Besicherung bei einem Dritten hinterlegt sind."
+    },
+    "OnLoanBalance": {
+      "definition": "Bestand an Finanzinstrumenten, die an einen Dritten verliehen wurden."
+    },
+    "PendingDeliveryBalance": {
+      "definition": "Bestand an Finanzinstrumenten, deren Lieferung aussteht."
+    },
+    "PendingReceiptBalance": {
+      "definition": "Bestand an Finanzinstrumenten, deren Erhalt aussteht."
+    },
+    "OutForRegistrationBalance": {
+      "definition": "Bestand an Finanzinstrumenten, die derzeit von dem Institut bearbeitet werden, das für die Registrierung des neuen wirtschaftlichen Eigentümers (oder Nominees) zuständig ist."
+    },
+    "SettlementPositionBalance": {
+      "definition": "Bestand an Wertpapieren, der nur abgewickelte Transaktionen darstellt; ausstehende Transaktionen sind nicht enthalten."
+    },
+    "StreetPositionBalance": {
+      "definition": "Bestand an Finanzinstrumenten, die weiterhin auf den Namen des früheren wirtschaftlichen Eigentümers registriert sind."
+    },
+    "TradeDatePositionBalance": {
+      "definition": "Bestand an Wertpapieren auf Basis des Handelstags, der zum Beispiel alle ausstehenden Transaktionen zusätzlich zum Bestand der abgewickelten Transaktionen umfasst."
+    },
+    "InTransshipmentBalance": {
+      "definition": "Bestand an physischen Wertpapieren, die gerade von einer Verwahrstelle/einem Beauftragten zu einer/einem anderen übertragen werden."
+    },
+    "RegisteredBalance": {
+      "definition": "Bestand an Finanzinstrumenten, die registriert sind (auf den Namen eines Nominees oder des wirtschaftlichen Eigentümers)."
+    },
+    "ObligatedBalance": {
+      "definition": "Position, die Kontoinhaber an den Kontoführer zurückgeben sollten, um an dem Ereignis teilzunehmen oder ihrer Verpflichtung zum Abschluss des Ereignisses nachzukommen, zum Beispiel die Rückgabe von Wertpapieren bei einer verspätet angekündigten Auslosung."
+    },
+    "UninstructedBalance": {
+      "definition": "Saldo der nicht angewiesenen Position."
+    },
+    "InstructedBalance": {
+      "definition": "Saldo der angewiesenen Position."
+    },
+    "AffectedBalance": {
+      "definition": "Bestand, der von dem im Ereignis durchlaufenen Prozess betroffen war."
+    },
+    "UnaffectedBalance": {
+      "definition": "Bestand, der von dem im Ereignis durchlaufenen Prozess nicht betroffen war."
+    }
+  },
+  "isoRules": {
+    "AffectedAndUnaffectedBalanceRule": {
+      "definition": "UnaffectedBalance und AffectedBalance sollten nur als Ergebnis des im Ereignis durchgeführten Prozesses angegeben werden. Zum Beispiel Ergebnisse einer Auslosung, einer holländischen Auktion oder eines Übernahmeangebots."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AgentCAGlobalDistributionStatusAdviceV01",
+  "definition": "Umfang|Diese Nachricht wird von einem Emittenten (oder dessen Agenten) an den CSD gesendet, um den CSD zur Verarbeitung der Anspruchsbewegungen zu autorisieren bzw. ihm diese zu untersagen.|Verwendung|Diese Nachricht wird verwendet, um den CSD zur Verarbeitung der in der Nachricht Global Distribution Authorisation Request angeforderten Bewegungen zu autorisieren bzw. ihm diese zu untersagen.|Sobald der Änderungsantrag vom Emittenten (oder dessen Agenten) akzeptiert wurde, verarbeitet der CSD jede Ressourcenbewegung und sendet eine Nachricht Agent Corporate Action Election Advice mit der Funktion 'Optionsänderung', um zu bestätigen, dass die Änderung beim CSD gebucht wurde.|Der Emittent (oder dessen Agent) kann den Status auf zwei verschiedene Arten liefern:|- Lieferung eines globalen Status; in diesem Fall muss der Baustein Global Movement Status vorhanden sein; oder|- Lieferung eines Status je einzelner Bewegung; in diesem Fall muss der Baustein Individual Movement Status vorhanden sein. Eine einzelne Bewegung kann nicht abgelehnt werden (2).",
+  "isoRules": {
+    "GlobalMovementStatusOrIndividualMovementStatusRule": {
+      "definition": "Entweder GlobalMovementStatus oder IndividualMovementStatus muss vorhanden sein."
+    },
+    "GlobalMovementStatusOrIndividualMovementStatusRuleNotBoth": {
+      "definition": "Entweder GlobalMovementStatus oder IndividualMovementStatus muss vorhanden sein."
+    }
+  }
+}

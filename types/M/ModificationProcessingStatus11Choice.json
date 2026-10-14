@@ -1,0 +1,27 @@
+{
+  "isoType": "ModificationProcessingStatus11Choice",
+  "definition": "Auswahl des Formats für den Verarbeitungsstatus.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "Die Anweisung wurde vom kontoführenden Institut bestätigt."
+    },
+    "PendingProcessing": {
+      "definition": "Die Änderung wird noch bearbeitet."
+    },
+    "Denied": {
+      "definition": "Der Änderungsauftrag wird nicht ausgeführt."
+    },
+    "Rejected": {
+      "definition": "Der Änderungsauftrag wurde für die weitere Verarbeitung abgelehnt."
+    },
+    "Repaired": {
+      "definition": "Der Änderungsantrag wurde akzeptiert, befindet sich aber in Korrektur."
+    },
+    "Modified": {
+      "definition": "Die Anweisung wurde geändert."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Status."
+    }
+  }
+}

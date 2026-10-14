@@ -1,0 +1,34 @@
+{
+  "isoType": "CorporateActionEventStage2Code",
+  "definition": "Gibt die Phase des Kapitalmaßnahmen-Ereignisses an.",
+  "isoCodes": {
+    "PWAL": {
+      "name": "Maßnahmenzeitraum",
+      "definition": "Offen für Annahme bis zur nächsten in der Ankündigung angegebenen Frist (falls vorhanden)."
+    },
+    "SUAP": {
+      "name": "Vorbehaltlich Genehmigung",
+      "definition": "Vorbehaltlich der Genehmigung in der betreffenden Versammlung, z. B. Dividende."
+    },
+    "APPD": {
+      "name": "Genehmigt",
+      "definition": "In der betreffenden Versammlung genehmigt, z. B. Dividende."
+    },
+    "UNAC": {
+      "name": "Annahme unbedingt",
+      "definition": "Der in den Angebotsbedingungen festgelegte erforderliche Annahmegrad wurde erreicht, es sind jedoch noch Bedingungen zu erfüllen."
+    },
+    "WHOU": {
+      "name": "Vollständig unbedingt",
+      "definition": "Vollständig unbedingt; alle im Angebotsdokument genannten Bedingungen sind erfüllt."
+    },
+    "CLDE": {
+      "name": "Deaktiviert",
+      "definition": "Das Angebot ist für die Annahme geschlossen."
+    },
+    "LAPS": {
+      "name": "Verfallen",
+      "definition": "Die Bedingungen des Ereignisses/Angebots wurden nicht erfüllt, und das Ereignis/Angebot ist beendet oder verfallen."
+    }
+  }
+}

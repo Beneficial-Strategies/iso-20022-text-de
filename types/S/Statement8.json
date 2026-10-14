@@ -1,0 +1,27 @@
+{
+  "isoType": "Statement8",
+  "definition": "Allgemeine Merkmale eines Auszugs, der Informationen für einen bestimmten Zeitraum meldet.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referenz des Auszugs."
+    },
+    "StatementPeriod": {
+      "definition": "Zeitraum, auf den sich der Auszug bezieht."
+    },
+    "CreationDateTime": {
+      "definition": "Erstellungsdatum des Auszugs."
+    },
+    "Frequency": {
+      "definition": "Häufigkeit des Auszugs."
+    },
+    "UpdateType": {
+      "definition": "Gibt an, ob der Auszug vollständig ist oder nur Änderungen enthält."
+    },
+    "ActivityIndicator": {
+      "definition": "Gibt an, ob im Auszug Aktivität gemeldet wird."
+    },
+    "ReportNumber": {
+      "definition": "Laufende Nummer des Auszugs."
+    }
+  }
+}

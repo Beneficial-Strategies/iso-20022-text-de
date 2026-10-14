@@ -1,0 +1,12 @@
+{
+  "isoType": "ChequeCancellationStatus1Choice",
+  "definition": "Gibt den Status des Stornierungsauftrags einer Scheckvorlage an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Status in codierter Form, wie in einem externen Codesatz veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Status in proprietärer Form."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "CorporateActionReversalReason3Code",
+  "definition": "Gibt den Grund an, aus dem bei der Bearbeitung einer Kapitalmaßnahme eine Stornierung der Zahlung erfolgt.",
+  "isoCodes": {
+    "DCBD": {
+      "name": "Unterschied bei der Zinstagebasis",
+      "definition": "Abweichung in der Zinstagequote."
+    },
+    "FNRC": {
+      "name": "Gelder nicht erhalten",
+      "definition": "Die Gelder sind nicht eingegangen."
+    },
+    "IRED": {
+      "name": "Falsches Anspruchsdatum",
+      "definition": "Das Anspruchsdatum ist falsch."
+    },
+    "IETR": {
+      "name": "Falscher Steuersatz auf Ereignisebene",
+      "definition": "Der Steuersatz auf Ereignisebene ist falsch."
+    },
+    "IPCU": {
+      "name": "Falsche Zahlungswährung",
+      "definition": "Die Zahlungswährung ist falsch."
+    },
+    "IPRI": {
+      "name": "Falscher Preis",
+      "definition": "Der Preis ist falsch."
+    },
+    "IVAD": {
+      "name": "Falsches Valutadatum",
+      "definition": "Das Valutadatum ist falsch."
+    },
+    "UPAY": {
+      "name": "Ungerechtfertigte Zahlung",
+      "definition": "Die Zahlung ist nicht fällig."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstige"
+    }
+  }
+}

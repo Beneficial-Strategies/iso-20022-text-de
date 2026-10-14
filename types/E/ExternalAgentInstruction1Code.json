@@ -1,0 +1,46 @@
+{
+  "isoType": "ExternalAgentInstruction1Code",
+  "definition": "Gibt weitere Anweisungen an die Bank zur Verarbeitung einer Anweisung an.|Externe Codelisten können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "CHQB": {
+      "name": "Zahlungsempfänger per Scheck bezahlen",
+      "definition": "(Letztlicher) Zahlungsempfänger muss per Scheck bezahlt werden."
+    },
+    "HOLD": {
+      "name": "Bargeld für Zahlungsempfänger bereithalten",
+      "definition": "Der Geldbetrag ist für den (letztlichen) Zahlungsempfänger bereitzuhalten, der ihn abholen wird. Auszahlung gegen Identifikation."
+    },
+    "INQR": {
+      "name": "Anfragegrund",
+      "definition": "Zusätzliche Informationen zum Grund der Anfrage müssen bereitgestellt werden."
+    },
+    "PBEN": {
+      "name": "Begünstigten bezahlen",
+      "definition": "(Letztlich) Zahlungsempfänger darf erst nach Überprüfung der Identität bezahlt werden."
+    },
+    "PHOA": {
+      "name": "Nächste Bank anrufen",
+      "definition": "Bitte die nächste Bank telefonisch benachrichtigen bzw. kontaktieren."
+    },
+    "PHOB": {
+      "name": "Begünstigten anrufen",
+      "definition": "Bitte den (letztlichen) Zahlungsempfänger/Anspruchsberechtigten telefonisch benachrichtigen bzw. kontaktieren."
+    },
+    "TELA": {
+      "name": "Nächste Bank per Telekommunikation kontaktieren",
+      "definition": "Bitte die nächste Bank auf dem effizientesten Telekommunikationsweg benachrichtigen bzw. kontaktieren."
+    },
+    "TELB": {
+      "name": "Telekommunikation",
+      "definition": "Bitte den (letztlichen) Zahlungsempfänger/Anspruchsberechtigten auf dem effizientesten Telekommunikationsweg benachrichtigen bzw. kontaktieren."
+    },
+    "TFRO": {
+      "name": "Zeit ab",
+      "definition": "Die Zahlungsanweisung ist ab dem angegebenen Datum und der angegebenen Uhrzeit gültig und ausführbar."
+    },
+    "TTIL": {
+      "name": "Zeit bis",
+      "definition": "Die Zahlungsanweisung ist bis zum angegebenen Datum und zur angegebenen Uhrzeit gültig und ausführbar. Andernfalls wird die Zahlungsanweisung abgelehnt."
+    }
+  }
+}

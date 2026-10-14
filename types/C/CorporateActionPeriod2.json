@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionPeriod2",
+  "definition": "Gibt Zeiträume an.",
+  "isoElements": {
+    "AssentedLinePeriod": {
+      "definition": "Zeitraum, in dem die Assented Line (zugestimmte Linie) verfügbar ist."
+    },
+    "ActionPeriod": {
+      "definition": "Zeitraum, in dem die angegebene Option oder alle Optionen des Ereignisses gültig bleiben, z. B. Angebotszeitraum."
+    },
+    "PrivilegeSuspensionPeriod": {
+      "definition": "Zeitraum, in dem das Recht nicht verfügbar ist, z. B. wenn eine Versammlung stattfindet oder eine Kuponzahlung fällig ist."
+    },
+    "ParallelTradingPeriod": {
+      "definition": "Zeitraum, in dem sowohl alte als auch neue Aktien gleichzeitig gehandelt werden können, z. B. bei Aktienzusammenlegung oder Aktiensplit."
+    },
+    "SellThruIssuerPeriod": {
+      "definition": "Zeitraum (letzter Tag eingeschlossen), in dem ein Kontoinhaber Wertpapiere an den Emittenten zurückgeben oder verkaufen und den Verkaufserlös erhalten kann."
+    },
+    "RevocabilityPeriod": {
+      "definition": "Zeitraum, in dem der Aktionär seine Anweisung widerrufen, ändern oder zurückziehen kann."
+    },
+    "PriceCalculationPeriod": {
+      "definition": "Zeitraum, in dem der Kurs eines Wertpapiers festgelegt wird (bei Outturn-Wertpapieren)."
+    }
+  }
+}

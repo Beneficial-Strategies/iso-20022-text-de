@@ -1,0 +1,131 @@
+{
+  "isoType": "CorporateAction94",
+  "definition": "Liefert Informationen zum Kapitalmaßnahmen-Ereignis.",
+  "isoElements": {
+    "DateDetails": {
+      "definition": "Liefert Informationen zu den Daten eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "PeriodDetails": {
+      "definition": "Liefert Informationen zu den Zeiträumen eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Liefert Informationen zu Sätzen und Beträgen eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "PriceDetails": {
+      "definition": "Liefert Informationen zu den Preisen eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Liefert Informationen zur Wertpapiermenge im Zusammenhang mit einer Kapitalmaßnahme."
+    },
+    "InterestAccruedNumberOfDays": {
+      "definition": "Anzahl der Tage, die zur Berechnung des aufgelaufenen Zinsbetrags verwendet werden."
+    },
+    "CouponNumber": {
+      "definition": "Nummer des einem Wertpapier beigefügten bzw. zugeordneten Kupons."
+    },
+    "AcceptancePriorityLevel": {
+      "definition": "Prioritätsstufe des jeweiligen Angebots, das vom Emittenten/Agenten innerhalb der gestaffelten Struktur des Ereignisses angenommen wird.|Angebotsereignisse unterliegen in vielen Fällen einer Zuteilungskürzung."
+    },
+    "CertificationBreakdownIndicator": {
+      "definition": "Gibt an, ob eine Zertifizierung/Aufgliederung erforderlich ist. |Ja = Zertifizierung erforderlich.|Nein = Keine Zertifizierung erforderlich."
+    },
+    "ChargesAppliedIndicator": {
+      "definition": "Gibt an, ob für den Inhaber Gebühren anfallen, beispielsweise Rücknahmegebühren."
+    },
+    "RestrictionIndicator": {
+      "definition": "Gibt an, ob für das Kapitalmaßnahmen-Ereignis Beschränkungen gelten oder nicht."
+    },
+    "AccruedInterestIndicator": {
+      "definition": "Gibt an, ob der Inhaber Anspruch auf aufgelaufene Zinsen hat."
+    },
+    "ForfeitureOfInterestIndicator": {
+      "definition": "Gibt an, dass Anleihegläubiger, die zwischen dem Stichtag und dem Zahlungstag wandeln, ihre Zinsen verlieren."
+    },
+    "LetterOfGuaranteedDeliveryIndicator": {
+      "definition": "Gibt an, ob eine Garantielieferungserklärung eingereicht werden kann, um mit der vollen anspruchsberechtigten Position am Angebot teilzunehmen. Sie ist nicht für Situationen vorgesehen, die sich aus gescheiterten oder verspäteten Geschäften ergeben."
+    },
+    "ShareholderRightsDirectiveIndicator": {
+      "definition": "Gibt an, ob die Ankündigung gemäß SRD II vom ersten Intermediär der Verwahrkette veranlasst wurde."
+    },
+    "DividendType": {
+      "definition": "Gibt die Bedingungen an, unter denen eine Dividende gezahlt wird."
+    },
+    "EventSequenceType": {
+      "definition": "Gibt an, ob das Ereignis ein Zwischenereignis oder ein abschließendes Ereignis in einer Reihe vordefinierter oder geplanter Ereignisse derselben Art und für dasselbe zugrunde liegende Instrument ist."
+    },
+    "OccurrenceType": {
+      "definition": "Gibt die Bedingungen an, unter denen die Anweisungen und/oder die Zahlung der Erlöse erfolgen."
+    },
+    "OfferType": {
+      "definition": "Gibt die Bedingungen an, die für das Angebot gelten."
+    },
+    "RenounceableEntitlementStatusType": {
+      "definition": "Gibt an, ob die Bedingungen des Ereignisses den Weiterverkauf der Rechte erlauben."
+    },
+    "EventStage": {
+      "definition": "Phase im Lebenszyklus der Kapitalmaßnahme."
+    },
+    "AdditionalBusinessProcessIndicator": {
+      "definition": "Gibt die Art des zusätzlichen Geschäftsprozesses an, der mit dem Kapitalmaßnahmen-Ereignis verknüpft ist, etwa eine Anspruchsentschädigung oder eine Steuererstattung."
+    },
+    "ChangeType": {
+      "definition": "Gibt die Art der angekündigten Änderung an."
+    },
+    "FollowingEventTypeIndicator": {
+      "definition": "Gibt die Ereignisart des Folgeereignisses an."
+    },
+    "CapitalGainInOutIndicator": {
+      "definition": "Gibt an, ob der Kapitalgewinn für die bei Verkauf, Erstattung oder Rücknahme von Aktien und Anteilen (.) realisierten Erträge in den Anwendungsbereich der EU-Zinsrichtlinie fällt (Artikel 6 Absatz 1 Buchstabe d)."
+    },
+    "TaxableIncomePerShareCalculated": {
+      "definition": "Gibt an, ob das Finanzinstrument das steuerpflichtige Einkommen je Dividende bzw. je Aktie berechnet."
+    },
+    "ElectionType": {
+      "definition": "Gibt die Auswirkung der Wahl einer Kapitalmaßnahmen-Option auf die Bestände an."
+    },
+    "LotteryType": {
+      "definition": "Gibt die Art des angekündigten Losverfahrens an."
+    },
+    "CertificationType": {
+      "definition": "Gibt das erforderliche Bescheinigungsformat an, das heißt physisches oder elektronisches Format."
+    },
+    "ConsentType": {
+      "definition": "Gibt die Art der angekündigten Zustimmung an."
+    },
+    "InformationType": {
+      "definition": "Gibt die Art des Informationsereignisses an."
+    },
+    "TaxOnNonDistributedProceedsIndicator": {
+      "definition": "Gibt die Steuervorschrift an, die dem Ereignis nicht ausgeschütteter Erlöse oder einem anderen Ereignis zugeordnet wird."
+    },
+    "DutchAuctionType": {
+      "definition": "Gibt an, ob eine holländische Auktion modifiziert oder unmodifiziert ist."
+    },
+    "ReverseDutchAuctionIndicator": {
+      "definition": "Gibt an, dass das Ereignis der holländischen Auktion eine umgekehrte holländische Auktion ist."
+    },
+    "NewPlaceOfIncorporation": {
+      "definition": "Sitz der Gründung der neuen Gesellschaft."
+    },
+    "AdditionalInformation": {
+      "definition": "Liefert zusätzliche Informationen. Dieses Feld darf nur verwendet werden, wenn die zu übermittelnden Informationen nicht codiert werden können."
+    }
+  },
+  "isoRules": {
+    "DissenterRights1UGRule": {
+      "definition": "Wenn der Wert von OfferType/Code gleich DISS (DissenterRights) ist, ist der Wert von OfferType/Code gleich NDIS (DissenterRightsNotApplicable) in keinem Vorkommen von OfferType zulässig.|(MT 564 NVR C27)"
+    },
+    "DissenterRights2UGRule": {
+      "definition": "Wenn der Wert von OfferType/Code gleich NDIS (DissenterRightsNotApplicable) ist, ist der Wert von OfferType/Code gleich DISS (DissenterRights) in keinem Vorkommen von OfferType zulässig.|(MT 564 NVR C27)"
+    },
+    "DissenterRights1Rule": {
+      "definition": "Wenn der Wert von OfferType/Code gleich DISS (DissenterRights) ist, ist der Wert von OfferType/Code gleich NDIS (DissenterRightsNotApplicable) in keinem Vorkommen von OfferType zulässig.|(MT 564 NVR C27)"
+    },
+    "DissenterRights2Rule": {
+      "definition": "Wenn der Wert von OfferType/Code gleich NDISS (DissenterRightsNotApplicable) ist, ist der Wert von OfferType/Code gleich DISS (DissenterRights) in keinem Vorkommen von OfferType zulässig.|(MT 564 NVR C27)"
+    },
+    "AcceptancePriorityLevelUGRule": {
+      "definition": "Wenn OfferType/Code gleich AcceptancePriority (ACPR) ist, muss AcceptancePriorityLevel vorhanden sein."
+    }
+  }
+}

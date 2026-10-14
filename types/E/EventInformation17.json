@@ -1,0 +1,21 @@
+{
+  "isoType": "EventInformation17",
+  "definition": "Liefert Informationen zu einem Ereignis einer Kapitalmaßnahme.",
+  "isoElements": {
+    "CorporateActionEventIdentification": {
+      "definition": "Referenz, vergeben vom Kontoführer, zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "definition": "Liefert die Referenz des verknüpften offiziellen Kapitalmaßnahmen-Ereignisses."
+    },
+    "EventType": {
+      "definition": "Art des Kapitalmaßnahmen-Ereignisses."
+    },
+    "MandatoryVoluntaryEventType": {
+      "definition": "Gibt an, ob das Ereignis obligatorisch, obligatorisch mit Wahlmöglichkeiten oder freiwillig ist."
+    },
+    "LastNotificationIdentification": {
+      "definition": "Liefert Informationen zur Identifikation der letzten Mitteilung."
+    }
+  }
+}

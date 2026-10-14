@@ -1,0 +1,54 @@
+{
+  "isoType": "TransactionReferences7",
+  "definition": "Identifiziert die zugrunde liegende Transaktion.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, wie von der anweisenden Partei der zugrunde liegenden Nachricht vergeben."
+    },
+    "MessageNameIdentification": {
+      "definition": "Gibt den Namensbezeichner der ursprünglichen Nachricht an, auf die sich die Nachricht bezieht."
+    },
+    "AccountServicerReference": {
+      "definition": "Eindeutige Referenz, die vom kontoführenden Institut vergeben wird, um die Anweisung eindeutig zu identifizieren."
+    },
+    "PaymentInformationIdentification": {
+      "definition": "Eindeutige Identifikation, die von einer sendenden Partei vergeben wird, um die Gruppe der Zahlungsinformationen innerhalb der Nachricht eindeutig zu identifizieren."
+    },
+    "InstructionIdentification": {
+      "definition": "Eindeutige Identifikation, wie von einer anweisenden Partei für eine angewiesene Partei vergeben, zur zweifelsfreien Identifikation der Anweisung.||Verwendung: Die Anweisungsidentifikation ist eine Punkt-zu-Punkt-Referenz, die zwischen der anweisenden und der angewiesenen Partei verwendet werden kann, um auf die einzelne Anweisung Bezug zu nehmen. Sie kann in mehreren Nachrichten zur Anweisung enthalten sein."
+    },
+    "EndToEndIdentification": {
+      "definition": "Eindeutige Identifikation, wie von der initiierenden Partei vergeben, zur zweifelsfreien Identifikation der Transaktion. Diese Identifikation wird unverändert durch die gesamte Ende-zu-Ende-Kette weitergegeben.||Verwendung: Die Ende-zu-Ende-Identifikation kann zum Abgleich oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion verwendet werden. Sie kann in mehreren Nachrichten zur Transaktion enthalten sein.||Verwendung: Bestehen technische Einschränkungen bei der Weitergabe mehrerer Referenzen, muss die Ende-zu-Ende-Identifikation durch die gesamte Ende-zu-Ende-Kette weitergegeben werden."
+    },
+    "UETR": {
+      "definition": "Universell eindeutiger Bezeichner für eine Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "TransactionIdentification": {
+      "definition": "Eindeutige Identifikation, wie von der ersten anweisenden Bank vergeben, zur zweifelsfreien Identifikation der Transaktion, die unverändert durch die gesamte Interbankenkette weitergegeben wird.|Verwendung: Die Transaktionsidentifikation kann zum Abgleich, zur Nachverfolgung oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion auf Interbankenebene verwendet werden.|Verwendung: Die anweisende Bank muss sicherstellen, dass die Transaktionsidentifikation für einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "MandateIdentification": {
+      "definition": "Eindeutige Identifikation, die vom Zahlungsempfänger vergeben wird, um das Mandat eindeutig zu identifizieren."
+    },
+    "ChequeNumber": {
+      "definition": "Eindeutige und unzweideutige Kennung eines Schecks, wie von der Bank vergeben."
+    },
+    "ClearingSystemReference": {
+      "definition": "Eindeutige Referenz, die von einem Clearingsystem vergeben wird, um die Anweisung eindeutig zu identifizieren.|Verwendung: Bestehen technische Einschränkungen bei der Weitergabe mehrerer Referenzen, muss die End-to-End-Identifikation durchgängig über die gesamte End-to-End-Kette weitergegeben werden."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Wertpapiertransaktion, wie sie dem Wertpapierkontoinhaber (oder der anweisenden Partei, die das Konto verwaltet) bekannt ist."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Wertpapiertransaktion, wie sie dem Wertpapierkontoführer bekannt ist."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Wertpapiertransaktion, die von einer anderen Marktinfrastruktur als einer Zentralverwahrstelle vergeben wird, zum Beispiel Target2-Securities."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identifikation der Wertpapiertransaktion, die vom Bearbeiter der Anweisung vergeben wird, bei dem es sich weder um den Wertpapierkontoinhaber noch um den Wertpapierkontoführer noch um die Marktinfrastruktur handelt."
+    },
+    "Proprietary": {
+      "definition": "Eigene Referenz zur zugrunde liegenden Transaktion."
+    }
+  }
+}

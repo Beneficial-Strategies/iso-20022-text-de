@@ -1,0 +1,21 @@
+{
+  "isoType": "PaymentStatusCode6Choice",
+  "definition": "Auswahl zwischen einer Liste ausstehender Status oder Endstatus.",
+  "isoElements": {
+    "Pending": {
+      "definition": "Qualifiziert den ausstehenden Status näher."
+    },
+    "Final": {
+      "definition": "Qualifiziert den Endstatus näher."
+    },
+    "RTGS": {
+      "definition": "Qualifiziert den RTGS-Status näher."
+    },
+    "Settlement": {
+      "definition": "Qualifiziert den Abwicklungsstatus näher."
+    },
+    "Proprietary": {
+      "definition": "Qualifiziert den proprietären Status näher."
+    }
+  }
+}

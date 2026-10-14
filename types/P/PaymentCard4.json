@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentCard4",
+  "definition": "Elektronisches Geldprodukt, das dem Karteninhaber ein tragbares, spezialisiertes Computergerät bereitstellt, das typischerweise einen Mikroprozessor enthält.",
+  "isoElements": {
+    "PlainCardData": {
+      "definition": "Sensible Daten zur Karte, mit der die Transaktion ausgeführt wird."
+    },
+    "CardCountryCode": {
+      "definition": "Vom Kartenherausgeber der Karte zugewiesener Ländercode."
+    },
+    "CardBrand": {
+      "definition": "Markenname der Karte."
+    },
+    "AdditionalCardData": {
+      "definition": "Zusätzliche kartenherausgeberspezifische Daten."
+    }
+  }
+}

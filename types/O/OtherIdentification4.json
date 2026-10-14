@@ -1,0 +1,12 @@
+{
+  "isoType": "OtherIdentification4",
+  "definition": "Identifikation eines Finanzinstruments in einem anerkannten Format außer ISIN.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation des Fonds/Teilfonds."
+    },
+    "Type": {
+      "definition": "Identifikationsquelle."
+    }
+  }
+}

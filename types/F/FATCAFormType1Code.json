@@ -1,0 +1,34 @@
+{
+  "isoType": "FATCAFormType1Code",
+  "definition": "Gibt die Art des Formulars für den Foreign Account Tax Compliance Act (FATCA) an.",
+  "isoCodes": {
+    "CER5": {
+      "name": "Bescheinigung ausländischer Intermediär",
+      "definition": "Bescheinigung eines ausländischen Intermediärs (auch bekannt als IRS-Formular W-8IMY)."
+    },
+    "CER7": {
+      "name": "Bescheinigung Anspruch ausländischer Personen",
+      "definition": "Bescheinigung über die Erklärung einer ausländischen Person, dass Einkünfte tatsächlich mit der Ausübung eines Gewerbes oder Geschäfts in den Vereinigten Staaten verbunden sind (auch bekannt als IRS-Formular W-8BEN-E)."
+    },
+    "CER1": {
+      "name": "Bescheinigung ausländischer Status des wirtschaftlich Berechtigten",
+      "definition": "Bescheinigung über den ausländischen Status des wirtschaftlich Berechtigten (auch bekannt als IRS-Formular W-8BEN)."
+    },
+    "CER2": {
+      "name": "Bescheinigung Verlust der Staatsangehörigkeit",
+      "definition": "Bescheinigung über den Verlust der Staatsangehörigkeit."
+    },
+    "CER3": {
+      "name": "Selbstauskunft",
+      "definition": "Selbstzertifizierung."
+    },
+    "CER4": {
+      "name": "Selbstauskunft Verlust der Staatsangehörigkeit",
+      "definition": "Selbstbescheinigung über den Verlust der Staatsangehörigkeit (auch bekannt als IRS-Formular I-407)."
+    },
+    "CER6": {
+      "name": "Anforderung der Steuerzahler-Identifikationsnummer",
+      "definition": "Das Formular ist eine Anforderung der Steueridentifikationsnummer und Bescheinigung (auch bekannt als IRS-Formular W9)."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "StampDutyType2Code",
+  "definition": "Gibt an, ob die Stempelsteuer anwendbar ist.",
+  "isoCodes": {
+    "ASTD": {
+      "name": "Anwendbar",
+      "definition": "Stempelsteuer ist anwendbar."
+    },
+    "SDRN": {
+      "name": "Nicht anwendbar",
+      "definition": "Stempelsteuer nicht anwendbar."
+    }
+  }
+}

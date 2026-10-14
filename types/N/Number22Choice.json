@@ -1,0 +1,12 @@
+{
+  "isoType": "Number22Choice",
+  "definition": "Auswahl des Nummernformats.",
+  "isoElements": {
+    "Short": {
+      "definition": "Numerischer Text mit höchstens 3 Stellen."
+    },
+    "Long": {
+      "definition": "Nummer mit höchstens 35 Textzeichen, mit der Möglichkeit, einen Emittenten für die Nummernidentifikation anzugeben."
+    }
+  }
+}

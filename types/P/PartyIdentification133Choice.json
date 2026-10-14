@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification133Choice",
+  "definition": "Auswahl von Formaten für eine Identifikation einer Partei.",
+  "isoElements": {
+    "BICFI": {
+      "definition": "Code, der einem Finanzinstitut von der ISO 9362 Registration Authority zugewiesen wurde, wie in ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\" beschrieben."
+    },
+    "NameAndAddress": {
+      "definition": "Name, unter dem eine Partei bekannt ist und der üblicherweise zur Identifikation dieser Partei verwendet wird."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Eindeutiger und zweifelsfreier Bezeichner, der einem Finanzinstitut mithilfe eines proprietären Identifikationsschemas zugewiesen wurde."
+    }
+  }
+}

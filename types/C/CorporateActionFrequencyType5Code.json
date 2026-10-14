@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionFrequencyType5Code",
+  "definition": "Automatische Wiederanlage von ausgeschüttetem Geld durch thesaurierende Fonds.",
+  "isoCodes": {
+    "FINL": {
+      "name": "Letzte",
+      "definition": "Zahlung einer Dividende abzüglich der bereits über Zwischendividenden gezahlten Beträge."
+    },
+    "INTE": {
+      "name": "Zwischenwert",
+      "definition": "Dividende, die erklärt und gezahlt wird, bevor das Jahresergebnis feststeht."
+    },
+    "REIN": {
+      "name": "Wiederanlage",
+      "definition": "Wiederanlage von ausgeschüttetem Geld."
+    },
+    "REGR": {
+      "name": "Regulär",
+      "definition": "In regelmäßigen Abständen gezahlte Dividende, zum Beispiel vierteljährlich."
+    },
+    "SPEC": {
+      "name": "Besonders",
+      "definition": "Dividende zusätzlich zur regulären Dividende, die vom Unternehmen gezahlt wird."
+    },
+    "SPRE": {
+      "name": "Sonderdividende mit Wiederanlage",
+      "definition": "Sonderdividende mit Wiederanlagekomponente."
+    }
+  }
+}

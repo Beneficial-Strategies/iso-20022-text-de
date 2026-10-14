@@ -1,0 +1,18 @@
+{
+  "isoType": "PortfolioTransferStatus2Choice",
+  "definition": "Auswahl des Formats für einen Behauptungsstatus (Allegement).",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "Die Anweisung wurde vom kontoführenden Institut bestätigt."
+    },
+    "PendingProcessing": {
+      "definition": "Die Verarbeitung der Anweisung/Anforderung steht aus."
+    },
+    "Rejected": {
+      "definition": "Anweisung/Auftrag wurde für die weitere Verarbeitung abgelehnt."
+    },
+    "Proprietary": {
+      "definition": "Status, der mit keinem der verfügbaren Standardstatus gemeldet werden kann."
+    }
+  }
+}

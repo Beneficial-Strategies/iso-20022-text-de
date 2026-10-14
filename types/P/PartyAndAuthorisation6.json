@@ -1,0 +1,18 @@
+{
+  "isoType": "PartyAndAuthorisation6",
+  "definition": "Partei und zugehörige Autorisierung.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Legt die Art der Änderung fest."
+    },
+    "PartyOrGroup": {
+      "definition": "Legt eine Partei oder eine Gruppe von Parteien fest."
+    },
+    "SignatureOrder": {
+      "definition": "Reihenfolge, in der der Mandatsinhaber unterzeichnen muss."
+    },
+    "Authorisation": {
+      "definition": "Dem Mandatsinhaber erteilte Autorisierung."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TypeOfAmount1Choice",
+  "definition": "Auswahl von Formaten für eine Betragsart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Betragsart, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Betragsart, ausgedrückt als proprietärer Code."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessedStatus2Format1Choice",
+  "definition": "Auswahl der Formate zur Angabe des Bearbeitungsstatus eines Stornierungsantrags.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Bearbeitungsstatus eines Stornierungsantrags."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe des Bearbeitungsstatus eines Stornierungsantrags."
+    }
+  }
+}

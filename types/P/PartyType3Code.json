@@ -1,0 +1,34 @@
+{
+  "isoType": "PartyType3Code",
+  "definition": "Identifikation der Art der an einer Transaktion beteiligten Stelle.",
+  "isoCodes": {
+    "OPOI": {
+      "name": "Ursprungs-POI",
+      "definition": "Point Of Interaction, der die Kartenzahlungstransaktion initiiert."
+    },
+    "MERC": {
+      "name": "Händler",
+      "definition": "Händler, der bei der Kartenzahlungstransaktion Waren und Dienstleistungen erbringt."
+    },
+    "ACCP": {
+      "name": "Akzeptant",
+      "definition": "Kartenakzeptant, Partei, die die Karte akzeptiert und dem Acquirer Transaktionsdaten übermittelt."
+    },
+    "ITAG": {
+      "name": "Zwischengeschaltete Bank",
+      "definition": "Partei, die im Auftrag anderer Parteien Daten verarbeitet oder an andere Parteien weiterleitet."
+    },
+    "ACQR": {
+      "name": "Acquirer",
+      "definition": "Stelle, die Kartentransaktionen akquiriert."
+    },
+    "CISS": {
+      "name": "Kartenaussteller",
+      "definition": "Partei, die Karten herausgibt."
+    },
+    "DLIS": {
+      "name": "Beauftragter Aussteller",
+      "definition": "Partei, an die der Kartenherausgeber die Autorisierung von Kartenzahlungstransaktionen delegiert."
+    }
+  }
+}

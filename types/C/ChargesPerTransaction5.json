@@ -1,0 +1,32 @@
+{
+  "isoType": "ChargesPerTransaction5",
+  "definition": "Stellt Informationen zu den Entgelten im Zusammenhang mit der Zahlungstransaktion bereit.",
+  "isoElements": {
+    "ChargesIdentification": {
+      "definition": "Eindeutige und unzweideutige Identifikation der Entgeltinformationen zu Abstimmungszwecken."
+    },
+    "TotalChargesPerTransaction": {
+      "definition": "Gesamtentgelte, die für die Transaktion geltend gemacht werden."
+    },
+    "ChargesAccount": {
+      "definition": "Identifiziert das Konto, das für die Entgelte, Zinsen oder sonstige|Anpassungen belastet oder gutgeschrieben wurde."
+    },
+    "ChargesAccountOwner": {
+      "definition": "Bank, die das Entgeltkonto führt."
+    },
+    "Record": {
+      "definition": "Einzeln aufgeführter Entgeltdatensatz je Transaktion."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Einzelheiten zum Grund der Entgelte."
+    }
+  },
+  "isoRules": {
+    "ChargesAccountTransactionOrRecord2Rule": {
+      "definition": "Ist Record/ChargesAccount vorhanden oder ist Record/ChargesAccountOwner vorhanden, dürfen ChargesAccount und ChargesAccountOwner nicht vorhanden sein."
+    },
+    "ChargesAccountTransactionOrRecord1Rule": {
+      "definition": "Ist ChargesAccount vorhanden oder ist ChargesAccountOwner vorhanden, dürfen Record/ChargesAccount und Record/ChargesAccountOwner nicht vorhanden sein."
+    }
+  }
+}

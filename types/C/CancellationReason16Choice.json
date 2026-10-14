@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationReason16Choice",
+  "definition": "Gibt den Grund für die Stornierungsanfrage an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für die Stornierungsanforderung in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Grund für die Stornierungsanforderung in proprietärer Form."
+    }
+  }
+}

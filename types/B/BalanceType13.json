@@ -1,0 +1,12 @@
+{
+  "isoType": "BalanceType13",
+  "definition": "Satz von Elementen zur Festlegung von Saldotyp und Saldountertyp.",
+  "isoElements": {
+    "CodeOrProprietary": {
+      "definition": "Saldotyp in codierter oder proprietärer Form."
+    },
+    "SubType": {
+      "definition": "Gibt den Saldountertyp an."
+    }
+  }
+}

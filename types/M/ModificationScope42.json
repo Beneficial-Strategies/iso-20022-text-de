@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope42",
+  "definition": "Umfang der Änderung, die auf einen bestimmten Informationssatz anzuwenden ist.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Art der anzuwendenden Änderung."
+    },
+    "FinancialInstrumentDetails": {
+      "definition": "Detaillierte Informationen zum dem Konto zugeordneten Investmentfonds oder Wertpapier."
+    }
+  }
+}

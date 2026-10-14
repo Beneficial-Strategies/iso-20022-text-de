@@ -1,0 +1,26 @@
+{
+  "isoType": "BillingSubServiceQualifier1Code",
+  "definition": "Qualifiziert den Inhalt des Subservice-Codes.",
+  "isoCodes": {
+    "LBOX": {
+      "name": "Lockbox",
+      "definition": "Der Subservice-Code enthält eine Lockbox-Nummer, die die Lockbox identifiziert, die den Service nutzt."
+    },
+    "STOR": {
+      "name": "Speichern",
+      "definition": "Der Subservice-Code enthält eine Filialnummer, die die Filiale identifiziert, die den Service nutzt."
+    },
+    "BILA": {
+      "name": "Bilateral vereinbart",
+      "definition": "Die Bedeutung des Subservice-Codes wird von den Handelspartnern festgelegt."
+    },
+    "SEQN": {
+      "name": "Folgenummer",
+      "definition": "Der Subservice-Code ist eine beliebige laufende Nummer, die diesen Service eindeutig identifiziert und doppelte Services innerhalb dieser Abrechnung verhindert."
+    },
+    "MACT": {
+      "name": "Teilnehmerkonto",
+      "definition": "Der Subservice-Code ist die Kontonummer eines Mitglieds einer Beziehungsstruktur. Dadurch kann eine übergeordnete Abrechnung denselben Service, aufsummiert aus den Konten ihrer Mitglieder, enthalten und dennoch doppelte Service-Identifikationen innerhalb der Abrechnung vermeiden."
+    }
+  }
+}

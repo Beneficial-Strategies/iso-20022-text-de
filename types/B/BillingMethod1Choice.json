@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingMethod1Choice",
+  "definition": "Auswahl zwischen den Steuerberechnungsmethoden A, B oder D.",
+  "isoElements": {
+    "MethodA": {
+      "definition": "Die Steuerwerte beruhen auf der Steuerberechnungsmethode A."
+    },
+    "MethodB": {
+      "definition": "Die Steuerwerte beruhen auf der Steuerberechnungsmethode B."
+    },
+    "MethodD": {
+      "definition": "Die Steuerwerte beruhen auf der Steuerberechnungsmethode D."
+    }
+  }
+}

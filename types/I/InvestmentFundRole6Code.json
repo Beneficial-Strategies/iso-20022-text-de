@@ -1,0 +1,78 @@
+{
+  "isoType": "InvestmentFundRole6Code",
+  "definition": "Legt die Rolle der Partei fest.",
+  "isoCodes": {
+    "CACO": {
+      "name": "Korrespondenzbank für Geld",
+      "definition": "Finanzinstitut, das Geldtransfers im Namen seiner Kunden ausführt."
+    },
+    "CONC": {
+      "name": "Konzentrator",
+      "definition": "Partei, die als Sammelstelle für Gelder fungiert, auch Fonds-Hub genannt."
+    },
+    "CUST": {
+      "name": "Verwahrer",
+      "definition": "Partei, die Vermögenswerte im Auftrag des Eigentümers verwahrt und verwaltet."
+    },
+    "DATP": {
+      "name": "Datenanbieter",
+      "definition": "Quelle für Finanzinformationen. Stellt Finanznachrichten und -daten (beispielsweise Fakten, Statistiken und Analysen) für professionelle und private Anleger über verschiedene Medien bereit, beispielsweise das Internet und Zeitschriften."
+    },
+    "DIST": {
+      "name": "Vertriebsstelle",
+      "definition": "Partei, die als Großhändler von Fonds fungiert."
+    },
+    "FACT": {
+      "name": "Fondsbuchhalter",
+      "definition": "Partei, die die Buchhaltungsunterlagen über die verfügbaren Vermögenswerte und Verbindlichkeiten des Fonds führt. Diese Partei berechnet die Handelskurse und den Nettoinventarwert (Net Asset Value, NAV) des Fonds und kann Daten zur Fondsentwicklung und Steuerdaten bereitstellen."
+    },
+    "FIAD": {
+      "name": "Finanzberater",
+      "definition": "Partei, die Informationen und Beratung zu Anlageprodukten bereitstellt."
+    },
+    "FIAG": {
+      "name": "Letzte Bank",
+      "definition": "Finanzinstitut, das die Zahlungstransaktion im Namen eines Kontoinhabers oder einer anderen benannten Partei entgegennimmt und das Konto gutschreibt."
+    },
+    "FMCO": {
+      "name": "Fondsverwaltungsgesellschaft",
+      "definition": "Partei, die einen Fonds auflegt, die Anlagestrategie festlegt, Beauftragte bestellt und für die Bewerbung und Vermarktung des Fonds verantwortlich ist. Diese Partei trifft alle strategischen Entscheidungen im Zusammenhang mit einem Fonds."
+    },
+    "FNBR": {
+      "name": "Fondsmakler",
+      "definition": "Partei, die als zwischengeschaltete Bank zwischen einem Anleger und einer Transferstelle für die Zeichnung oder Rücknahme eines Fonds fungiert."
+    },
+    "FTAG": {
+      "name": "Erste Bank",
+      "definition": "Finanzinstitut, das die Zahlungstransaktion vom Kontoinhaber oder einer anderen autorisierten Partei entgegennimmt und die Anweisung verarbeitet."
+    },
+    "INTR": {
+      "name": "Intermediär",
+      "definition": "Partei, die Anlegern Dienstleistungen im Zusammenhang mit Finanzprodukten erbringt. Diese Dienstleistungen können einen Teil oder alle der folgenden Leistungen umfassen: Bereitstellung von Informationen und Beratung zu Produkten, Platzierung von Anlageaufträgen, Übermittlung von Zahlungen, Verwahrung von Vermögenswerten und Verwaltung von Rechten und Leistungen. Im besonderen Rahmen der Investmentfondsbranche kann ein Intermediär potenziellen Anlegern Informationen über Fonds präsentieren und Aufträge für den Fonds einwerben. Dieser Intermediär kann die Übermittlung der Aufträge und Informationen von/an die Anleger und/oder andere Intermediäre erleichtern. Der Intermediär erhält Provisionen vom Fonds und/oder Gebühren vom Anleger."
+    },
+    "INVE": {
+      "name": "Anlageverwalter",
+      "definition": "Partei, die die Anlagestrategie umsetzt, das heißt, Portfolioanlagen entsprechend den Zielen und der Strategie im Fondsprospekt auswählt und Aufträge platziert, um ausgewählte Anlagen entsprechend dem Nettokapitalzufluss in den Fonds oder -abfluss aus dem Fonds zu tätigen oder aufzulösen."
+    },
+    "INVS": {
+      "name": "Anleger",
+      "definition": "Partei, entweder eine Einzelperson oder eine Organisation, deren Vermögenswerte angelegt werden."
+    },
+    "PAYI": {
+      "name": "Zahlstelle",
+      "definition": "Beauftragte, die die Zahlung ausführt. Im Kontext der Investmentfondsbranche ist die Zahlstelle der lokale gesetzliche Vertreter des Fonds. Sie kann Dividenden auszahlen und Gelder für den Kauf von Fonds einziehen, wenn ein Kunde direkt mit dem Fonds handelt und/oder wenn ein Kunde mit Inhaberaktien handelt. Sie zahlt die Rücknahme des Fonds aus, kann Informationen über den Fonds verbreiten und stellt rechtliche Informationen über den Fonds bereit."
+    },
+    "REGI": {
+      "name": "Registerführer",
+      "definition": "Partei, die für die Nachverfolgung der Inhaber von Wertpapieren verantwortlich ist. Im Investmentfondsgeschäft führt diese Partei das Anlegerregister des Fonds und verwaltet die Anlegerkonten und die zugehörigen Aufzeichnungen. Sie wird von der Fondsverwaltungsgesellschaft bestellt."
+    },
+    "TRAG": {
+      "name": "Transferstelle",
+      "definition": "Von der Fondsverwaltungsgesellschaft bestellte Partei. Diese Partei aktualisiert die Aufzeichnungen der Anlegerkonten, um die täglichen Käufe, Rücknahmen, Umschichtungen, Übertragungen und Neuregistrierungen der Anleger abzubilden. Sie stellt die rechtzeitige Abwicklung von Transaktionen sicher und kann dem Anleger und/oder dessen Intermediären Steuerinformationen bereitstellen. Sie kann Provisionen berechnen, einziehen und rückvergüten. Sie erstellt und versendet Bestätigungen über Transaktionen, die zu Anteils- oder Geldkontenbewegungen für den Anleger oder den Intermediär des Anlegers führen. Sie beantwortet Anfragen zum Kontostatus und verarbeitet die Ertragsausschüttung."
+    },
+    "TRAN": {
+      "name": "Übermittelnde Bank",
+      "definition": "Partei, die die Anweisung, Avis, Benachrichtigung oder den Bericht übermittelt."
+    }
+  }
+}

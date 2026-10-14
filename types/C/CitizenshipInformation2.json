@@ -1,0 +1,12 @@
+{
+  "isoType": "CitizenshipInformation2",
+  "definition": "Informationen zu einer natürlichen Person.",
+  "isoElements": {
+    "Nationality": {
+      "definition": "Land, in dem eine Person geboren wurde oder rechtlich als diesem Land zugehörig anerkannt ist."
+    },
+    "MinorIndicator": {
+      "definition": "Gibt an, ob die Person rechtlich minderjährig ist. Dies kann von der Staatsangehörigkeit, dem Wohnsitzland oder der Transaktion abhängen, an der die Person beteiligt ist."
+    }
+  }
+}

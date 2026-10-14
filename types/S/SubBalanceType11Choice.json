@@ -1,0 +1,12 @@
+{
+  "isoType": "SubBalanceType11Choice",
+  "definition": "Auswahl des Formats für den Teilsaldo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund, warum ein Wertpapier nicht verfügbar ist, oder zusätzliche Informationen zum Finanzinstrument, für das der Saldo angegeben ist, zum Beispiel nicht registriert, auf den Namen eines Nominees registriert."
+    },
+    "Proprietary": {
+      "definition": "Grund, warum ein Wertpapier nicht verfügbar ist, oder zusätzliche Informationen zum Finanzinstrument, für das der Saldo angegeben ist, zum Beispiel nicht registriert, auf den Namen eines Nominees registriert."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "isoType": "RejectionReason15Code",
+  "definition": "Gibt den Grund für die Ablehnung einer Informationsmitteilung an.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Validierung fehlgeschlagen",
+      "definition": "Die Validierung der Mitteilung/Anweisung/des Antrags ist fehlgeschlagen."
+    }
+  }
+}

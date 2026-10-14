@@ -1,0 +1,12 @@
+{
+  "isoType": "NameAndAddress2",
+  "definition": "An einer Aktivität beteiligte Einheit.",
+  "isoElements": {
+    "Name": {
+      "definition": "Name, unter dem eine Partei bekannt ist und der üblicherweise zur Identifikation dieser Partei verwendet wird."
+    },
+    "Address": {
+      "definition": "Informationen, die eine bestimmte Adresse lokalisieren und identifizieren, wie von den Postdiensten definiert."
+    }
+  }
+}

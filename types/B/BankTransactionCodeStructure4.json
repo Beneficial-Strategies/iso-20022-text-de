@@ -1,0 +1,20 @@
+{
+  "isoType": "BankTransactionCodeStructure4",
+  "definition": "Satz von Elementen zur Identifikation der Art bzw. des Operationscodes eines Umsatzes.",
+  "isoElements": {
+    "Domain": {
+      "definition": "Satz von Elementen mit Domäne, Familie und Unterfamilie des Banktransaktionscodes in strukturierter und hierarchischer Form.||Verwendung: Kann kein spezifischer Familien- oder Unterfamiliencode angegeben werden, sollte der für die Domäne definierte generische Familiencode bzw. der für die Familie definierte generische Unterfamiliencode angegeben werden."
+    },
+    "Proprietary": {
+      "definition": "Banktransaktionscode in proprietärer Form, wie vom Herausgeber definiert."
+    }
+  },
+  "isoRules": {
+    "DomainOrProprietaryRule": {
+      "definition": "Entweder Proprietary oder Domain oder beides muss vorhanden sein."
+    },
+    "FamilyAndSubFamilyRule": {
+      "definition": "Ist kein spezifischer (nicht generischer) Family-Code vorhanden, so ist ein spezifischer (nicht generischer) SubFamily-Code nicht zulässig."
+    }
+  }
+}

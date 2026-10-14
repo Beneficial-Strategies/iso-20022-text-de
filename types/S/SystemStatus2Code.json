@@ -1,0 +1,22 @@
+{
+  "isoType": "SystemStatus2Code",
+  "definition": "Legt den Status eines Systems fest.",
+  "isoCodes": {
+    "SUSP": {
+      "name": "Ausgesetzt",
+      "definition": "Das System ist ausgesetzt, das heißt nicht betriebsbereit."
+    },
+    "ACTV": {
+      "name": "Aktiv",
+      "definition": "Das System arbeitet normal, das heißt, es ist betriebsbereit."
+    },
+    "CLSD": {
+      "name": "Geschlossen",
+      "definition": "Das System ist geschlossen (z. B. regulärer Abschluss eines RTGS)."
+    },
+    "CLSG": {
+      "name": "Schließung",
+      "definition": "Das System muss den Abschluss interner Zwischenaktivitäten abwarten, bevor es in den Status Closed wechselt."
+    }
+  }
+}

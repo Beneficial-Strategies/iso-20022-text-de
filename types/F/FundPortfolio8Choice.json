@@ -1,0 +1,15 @@
+{
+  "isoType": "FundPortfolio8Choice",
+  "definition": "Auswahl verschiedener Portfolioarten.",
+  "isoElements": {
+    "TaxEfficientProduct": {
+      "definition": "Das Portfolio ist ein staatliches Programm zur Förderung von Anlagen in wertpapierbasierten Anteils- und Investmentfonds, das bestimmte steuerliche Vorteile bietet. Dabei handelt es sich nicht um eigenständige Kapitalanlagen, sondern um steuerbefreite \"Wrapper\", in denen Aktien, Anleihen und Fonds gehalten werden können, um sie vor verschiedenen Steuerarten zu schützen.|Im UK ist ein typisches Steuer-Wrapper-Produkt als \"ISA\" (Individual Savings Account) bekannt."
+    },
+    "GeneralInvestment": {
+      "definition": "Das Portfolio ist eine allgemeine Kapitalanlage."
+    },
+    "Pension": {
+      "definition": "Das Portfolio ist eine Pensionspolice, ein Pensionsplan oder eine Pensionsregelung."
+    }
+  }
+}

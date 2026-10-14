@@ -1,0 +1,27 @@
+{
+  "isoType": "ATMSecurityConfiguration1",
+  "definition": "Vom Sicherheitsgerät verwendete Konfigurationsparameter.",
+  "isoElements": {
+    "Keys": {
+      "definition": "Konfiguration der kryptografischen Schlüssel."
+    },
+    "Encryption": {
+      "definition": "Konfiguration der Verschlüsselung oder des digitalen Umschlags, wenn das Sicherheitsmodul Verschlüsselungen durchführen kann."
+    },
+    "MACAlgorithm": {
+      "definition": "MAC-Algorithmus (Nachrichtenauthentifizierungscode), den das Sicherheitsmodul verwalten kann."
+    },
+    "DigestAlgorithm": {
+      "definition": "Digest-Algorithmus, den das Sicherheitsmodul verwalten kann."
+    },
+    "DigitalSignature": {
+      "definition": "Konfiguration der digitalen Signaturen, wenn das Sicherheitsmodul digitale Signaturen mit einem asymmetrischen Schlüssel erzeugen kann."
+    },
+    "PIN": {
+      "definition": "Konfiguration der Online-Prüfung der PIN."
+    },
+    "MessageProtection": {
+      "definition": "Mechanismus zum Schutz der Nachricht des ATM-Protokolls."
+    }
+  }
+}

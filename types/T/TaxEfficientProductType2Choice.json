@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxEfficientProductType2Choice",
+  "definition": "Auswahl von Formaten für eine Art von steuereffizientem Produkt.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des steuereffizienten Produkts, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Art des steuereffizienten Produkts, ausgedrückt als proprietärer Code."
+    }
+  }
+}

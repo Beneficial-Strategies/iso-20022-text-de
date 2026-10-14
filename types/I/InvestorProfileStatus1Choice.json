@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestorProfileStatus1Choice",
+  "definition": "Auswahl von Formaten für den Status des Anlegerprofils.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückter Status des Anlegerprofils."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückter Status des Anlegerprofils."
+    }
+  }
+}

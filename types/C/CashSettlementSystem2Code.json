@@ -1,0 +1,14 @@
+{
+  "isoType": "CashSettlementSystem2Code",
+  "definition": "Gibt das verwendete Geldabwicklungssystem an.",
+  "isoCodes": {
+    "GROS": {
+      "name": "Bruttoabwicklungssystem",
+      "definition": "Geld über ein Bruttoabwicklungssystem abwickeln."
+    },
+    "NETS": {
+      "name": "Nettoabwicklungssystem",
+      "definition": "Geld über ein Nettoabwicklungssystem abwickeln."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "GroupHeader130",
+  "definition": "Gesamtheit der Merkmale, die allen in der Nachricht enthaltenen einzelnen Entgeltdatensätzen gemeinsam sind.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, wie von der anweisenden Partei vergeben und an die nächste Partei in der Kette gesendet, um die Nachricht eindeutig zu identifizieren.|Verwendung: Die anweisende Partei muss sicherstellen, dass MessageIdentification für einen vorab vereinbarten Zeitraum je angewiesener Partei eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "ChargesRequestor": {
+      "definition": "Bank, die die Entgelte anfordert, sofern sie nicht mit dem Absender identisch ist."
+    },
+    "SettlementInstruction": {
+      "definition": "Gibt die Einzelheiten zur Abwicklung der nachfolgenden Transaktion(en) an.||Verwendung: Die Daten dieser Bank und Partei sollten unverändert in die resultierende Nachricht für die Zahlung der Entgelte übernommen werden."
+    },
+    "TotalCharges": {
+      "definition": "Gesamtentgelte, die mit dieser Nachricht geltend gemacht werden."
+    },
+    "ChargesAccountAgent": {
+      "definition": "Bank, die das Entgeltkonto führt.||Verwendung: Dieses Element sollte verwendet werden, wenn das geltend gemachte Entgelt nicht mit der Verarbeitung einer Zahlungstransaktion zusammenhängt, zum Beispiel mit einer Untersuchung oder einem anderen Vorgang. Es identifiziert die Bank, die das Konto führt, von dem die Entgelte zu begleichen sind."
+    },
+    "ChargesAccountAgentAccount": {
+      "definition": "Konto der Bank, die das Entgeltkonto führt.||Verwendung: Dieses Element sollte verwendet werden, wenn das geltend gemachte Entgelt nicht mit der Verarbeitung einer Zahlungstransaktion zusammenhängt, zum Beispiel mit einer Untersuchung oder einem anderen Vorgang. Es identifiziert das Konto, von dem die Entgelte zu begleichen sind."
+    }
+  }
+}

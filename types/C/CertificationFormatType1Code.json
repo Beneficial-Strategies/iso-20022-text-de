@@ -1,0 +1,14 @@
+{
+  "isoType": "CertificationFormatType1Code",
+  "definition": "Gibt das erforderliche Format der Bescheinigung an, das heißt physisches oder elektronisches Format.",
+  "isoCodes": {
+    "ELEC": {
+      "name": "Elektronisch",
+      "definition": "Die Bescheinigung muss in elektronischem Format vorgelegt werden."
+    },
+    "PHYS": {
+      "name": "Physisch",
+      "definition": "Die Bescheinigung muss in physischem Format vorgelegt werden."
+    }
+  }
+}

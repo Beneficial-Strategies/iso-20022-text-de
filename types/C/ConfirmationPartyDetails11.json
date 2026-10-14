@@ -1,0 +1,18 @@
+{
+  "isoType": "ConfirmationPartyDetails11",
+  "definition": "Parteien, die als handelnde Parteien verwendet werden und entweder für die gesamte Nachricht oder für einzelne Seiten gelten.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige und zweifelsfreie Kennung einer Organisation, die von einem Institut vergeben wird, z. B. die Dun-&-Bradstreet-Identifikation."
+    },
+    "AlternateIdentification": {
+      "definition": "Alternative Identifikation einer Partei."
+    },
+    "ProcessingIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion für die identifizierte Partei."
+    },
+    "AdditionalInformation": {
+      "definition": "Liefert zusätzliche Informationen zu einer Identifikation einer Partei."
+    }
+  }
+}

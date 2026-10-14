@@ -1,0 +1,50 @@
+{
+  "isoType": "ExternalReversalReason1Code",
+  "definition": "Gibt den Grund der Rückbuchung an, wie er in einer externen Liste von Rückbuchungsgrund-Codes veröffentlicht ist.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "AC03": {
+      "name": "Ungültige Kontonummer des Zahlungsempfängers",
+      "definition": "Falsche IBAN in SCT"
+    },
+    "AC04": {
+      "name": "Geschlossene Kontonummer",
+      "definition": "Die angegebene Kontonummer wurde in den Büchern des Empfängers geschlossen"
+    },
+    "AG02": {
+      "name": "Ungültiger Bankoperationscode",
+      "definition": "Der in der Nachricht angegebene Bank-Operation-Code ist für den Empfänger nicht gültig."
+    },
+    "AM05": {
+      "name": "Duplizierung",
+      "definition": "Duplizierung"
+    },
+    "AM09": {
+      "name": "Falscher Betrag",
+      "definition": "Falscher Betrag in SCT"
+    },
+    "MD01": {
+      "name": "Kein Mandat",
+      "definition": "Kein Mandat"
+    },
+    "MD05": {
+      "name": "Einzug nicht fällig",
+      "definition": "Der Zahlungsempfänger oder die Bank des Zahlungsempfängers hätte die Lastschrift nicht einziehen dürfen"
+    },
+    "MS02": {
+      "name": "Nicht spezifizierter, vom Kunden veranlasster Grund",
+      "definition": "Der Grund wurde vom Endkunden nicht angegeben"
+    },
+    "MS03": {
+      "name": "Nicht angegebener Grund (vom Agenten erzeugt)",
+      "definition": "Der Grund wurde von der Bank nicht angegeben."
+    },
+    "RC07": {
+      "name": "Ungültige BIC-Kennung des Zahlungsempfängers",
+      "definition": "Falsche BIC in SCT"
+    },
+    "TM01": {
+      "name": "Annahmeschlusszeit",
+      "definition": "Die zugehörige Nachricht wurde nach der vereinbarten Annahmeschlusszeit der Verarbeitung empfangen."
+    }
+  }
+}

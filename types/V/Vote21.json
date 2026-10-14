@@ -1,0 +1,51 @@
+{
+  "isoType": "Vote21",
+  "definition": "Für einen Beschluss abgegebene Stimme.",
+  "isoElements": {
+    "IssuerLabel": {
+      "definition": "Nummer des Beschlusses, wie vom Emittenten oder seinem Vertreter angegeben."
+    },
+    "ListingGroupResolutionLabel": {
+      "definition": "Identifiziert unter derselben Bezeichnung eine Gruppe von Tagesordnungsbeschlüssen, für die eine Ja-Stimme nur einem einzigen Beschluss dieser Gruppe zugeordnet werden kann."
+    },
+    "For": {
+      "definition": "Anzahl der Wertpapiere, für die die Stimmabgabe dafür angewiesen wird."
+    },
+    "Against": {
+      "definition": "Anzahl der Wertpapiere, für die die Stimmabgabe dagegen angewiesen wird."
+    },
+    "Abstain": {
+      "definition": "Anzahl der Wertpapiere, für die die Stimmenthaltung angewiesen wird."
+    },
+    "Withhold": {
+      "definition": "Anzahl der Wertpapiere, für die die Stimmverweigerung angewiesen wird."
+    },
+    "WithManagement": {
+      "definition": "Anzahl der Wertpapiere, für die die Stimmabgabe im Einklang mit den Stimmen der Geschäftsleitung angewiesen wird."
+    },
+    "AgainstManagement": {
+      "definition": "Anzahl der Wertpapiere, für die die Stimmabgabe entgegen der Abstimmungsempfehlung der Geschäftsleitung angewiesen wird."
+    },
+    "Discretionary": {
+      "definition": "Anzahl der Wertpapiere, für die die Entscheidung der Partei überlassen wird, die das Stimmrecht ausüben wird."
+    },
+    "OneYear": {
+      "definition": "Anzahl der Wertpapiere, für die bei Beschlüssen der Art \"Say on Pay\" die Stimmabgabe dafür für ein Jahr angewiesen wird."
+    },
+    "TwoYears": {
+      "definition": "Anzahl der Wertpapiere, für die bei Beschlüssen der Art \"Say on Pay\" die Stimmabgabe dafür für zwei Jahre angewiesen wird."
+    },
+    "ThreeYears": {
+      "definition": "Anzahl der Wertpapiere, für die bei Beschlüssen der Art \"Say on Pay\" die Stimmabgabe dafür für drei Jahre angewiesen wird."
+    },
+    "NoAction": {
+      "definition": "Nicht abstimmen."
+    },
+    "Blank": {
+      "definition": "Die Stimme wird leer abgegeben, zählt aber als abgegebene Stimme."
+    },
+    "Proprietary": {
+      "definition": "Andere Stimmart, ausgedrückt als proprietärer Code."
+    }
+  }
+}

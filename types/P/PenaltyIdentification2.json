@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyIdentification2",
+  "definition": "Eindeutige und zweifelsfreie Identifikation einer Strafzahlung.",
+  "isoElements": {
+    "MarketInfrastructureIdentification": {
+      "definition": "Identifikation, die von der Marktinfrastruktur der Strafzahlung zugewiesen wurde und sowohl dem nicht lieferfähigen als auch dem lieferfähigen Teilnehmer gemeinsam ist."
+    },
+    "Identification": {
+      "definition": "Identifikation, die von der Marktinfrastruktur der Strafzahlung zugewiesen wurde und die individuelle Identifikation der Strafzahlung für den jeweiligen Kontoinhaber darstellt (das heißt entweder für den nicht lieferfähigen Teilnehmer oder für den lieferfähigen Teilnehmer)."
+    }
+  }
+}

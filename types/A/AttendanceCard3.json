@@ -1,0 +1,20 @@
+{
+  "isoType": "AttendanceCard3",
+  "definition": "Gibt Details zur Teilnahmekarte an.",
+  "isoElements": {
+    "AttendanceCardLabelling": {
+      "definition": "Auf der Teilnahmekarte anzugebende Informationen."
+    },
+    "DeliveryMethod": {
+      "definition": "Gibt an, wohin die Teilnahmekarte zugestellt werden muss."
+    },
+    "OtherAddress": {
+      "definition": "Name und Adresse der Partei."
+    }
+  },
+  "isoRules": {
+    "OtherAddressCode1Rule": {
+      "definition": "Wenn DeliveryMethod OtherAddress \"OADR\" ist, muss OtherAddress vorhanden sein."
+    }
+  }
+}

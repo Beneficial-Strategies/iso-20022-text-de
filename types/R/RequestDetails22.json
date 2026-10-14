@@ -1,0 +1,35 @@
+{
+  "isoType": "RequestDetails22",
+  "definition": "Einzelheiten des Auftrags mit den Änderungen und Referenzen der Anweisung.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referenzen der Transaktion, für die die Änderung der Umbuchung zwischen Beständen beantragt wird."
+    },
+    "Linkage": {
+      "definition": "Gibt die Art der angeforderten Verknüpfung an."
+    },
+    "Priority": {
+      "definition": "Gibt an, ob die Transaktion mit hoher Priorität auszuführen ist."
+    },
+    "OtherProcessing": {
+      "definition": "Gibt eine andere Art von Verarbeitungsänderungsauftrag an."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Gibt an, ob eine Teilabwicklung zulässig ist."
+    },
+    "ClearingChannel": {
+      "definition": "Gibt den Clearingkanal an, der zur Verarbeitung der Zahlungsanweisung zu verwenden ist."
+    },
+    "Linkages": {
+      "definition": "Informationen zur angeforderten Verknüpfung."
+    }
+  },
+  "isoRules": {
+    "ModificationRequestPresenceRule": {
+      "definition": "Mindestens ein Element für die Art des Änderungsauftrags muss vorhanden sein."
+    },
+    "OtherProcessingRule": {
+      "definition": "Wird OtherProcessing verwendet, so muss seine Verwendung zwischen Absender und Empfänger vorab vereinbart sein."
+    }
+  }
+}

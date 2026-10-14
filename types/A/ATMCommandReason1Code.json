@@ -1,0 +1,26 @@
+{
+  "isoType": "ATMCommandReason1Code",
+  "definition": "Grund für das Senden des Befehls.",
+  "isoCodes": {
+    "DIAG": {
+      "name": "Diagnose",
+      "definition": "Den Status des ATM oder eine Aktion des ATM zur Durchführung einer Diagnose anfordern."
+    },
+    "MONI": {
+      "name": "Überwachung",
+      "definition": "Den ATM überwachen."
+    },
+    "SECU": {
+      "name": "Sicherheitsfehler",
+      "definition": "Sicherheitsfehler."
+    },
+    "SYNC": {
+      "name": "Synchronisierung",
+      "definition": "Desynchronisation des Dialogs zwischen Stellen."
+    },
+    "UPDT": {
+      "name": "Aktualisierung",
+      "definition": "Den ATM aktualisieren."
+    }
+  }
+}

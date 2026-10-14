@@ -1,0 +1,70 @@
+{
+  "isoType": "IntermediateSecurityDistributionType6Code",
+  "definition": "Gibt die Art der Ausschüttung von Zwischenwertpapieren an.",
+  "isoCodes": {
+    "BIDS": {
+      "name": "Umgekehrte Rechte",
+      "definition": "Angebot der emittierenden Gesellschaft an bestehende Inhaber, ihre eigenen Wertpapiere zurückzukaufen. Ziel des Angebots ist es, die Anzahl der ausstehenden Wertpapiere zu verringern."
+    },
+    "DRIP": {
+      "name": "Dividendenwiederanlage",
+      "definition": "Dividendenzahlung, bei der die Inhaber das Bargeld behalten oder vom Emittenten am Markt in zusätzliche Aktien des emittierenden Unternehmens reinvestieren lassen können. Abzugrenzen von DVOP, da das Unternehmen die Dividende am Markt investiert, anstatt im Austausch gegen die Dividende neues Aktienkapital zu schaffen."
+    },
+    "DVCA": {
+      "name": "Bardividende",
+      "definition": "Ausschüttung von Bargeld an Aktionäre im Verhältnis zu ihrem Anteilsbesitz. Ordentliche Dividenden sind wiederkehrend und regelmäßig. Der Aktionär muss das Bargeld annehmen und kann eine Wahl der Währung angeboten bekommen."
+    },
+    "DVOP": {
+      "name": "Dividendenwahlrecht",
+      "definition": "Ausschüttung einer Dividendenoption."
+    },
+    "EXRI": {
+      "name": "Bezugsrechte",
+      "definition": "Abruf oder Ausübung nicht voll eingezahlter Wertpapiere oder Zwischenwertpapiere, die sich aus einer Zwischenwertpapierausschüttung (RHDI) ergeben. Dieser Code wird für das zweite Ereignis verwendet, wenn die Emission von Zwischenwertpapieren (Rechte/Coupons) aus zwei Ereignissen besteht, wobei das erste Ereignis die Ausschüttung von Zwischenwertpapieren ist."
+    },
+    "PRIO": {
+      "name": "Rechte aus offenem Angebot",
+      "definition": "Form eines offenen oder öffentlichen Angebots, bei dem aufgrund einer begrenzten Menge verfügbarer Wertpapiere bestehende Aktionäre vorrangig bedient werden."
+    },
+    "DVSC": {
+      "name": "Aktiendividende oder Zahlung",
+      "definition": "Dividende oder Zinsen, die in Form von Scrip gezahlt werden."
+    },
+    "DVSE": {
+      "name": "Aktiendividende",
+      "definition": "Dividende, die an die Aktionäre in Form von Aktien des emittierenden Unternehmens gezahlt wird."
+    },
+    "INTR": {
+      "name": "Zinszahlung",
+      "definition": "Zinszahlung, die an die Inhaber eines verzinslichen Vermögenswerts ausgeschüttet wird."
+    },
+    "LIQU": {
+      "name": "Liquidationsdividende oder -zahlung",
+      "definition": "Ausschüttung von Bargeld, Vermögenswerten oder beidem. Schulden können in der Rangfolge der bevorzugten Ansprüche auf Vermögenswerte beglichen werden, die durch das Wertpapier festgelegt sind."
+    },
+    "SOFF": {
+      "name": "Abspaltung",
+      "definition": "Ausschüttung von Aktien einer Tochtergesellschaft an die Aktionäre."
+    },
+    "SPLF": {
+      "name": "Aktiensplit",
+      "definition": "Auch bekannt als Änderung des Nennwerts oder Unterteilung.|Erhöhung der Anzahl der ausstehenden Aktien einer Gesellschaft ohne Änderung des Eigenkapitals des Aktionärs oder des gesamten Marktwerts zum Zeitpunkt des Splits. Aktienkurs und Nennwert werden entsprechend herabgesetzt."
+    },
+    "BONU": {
+      "name": "Bonusrechte",
+      "definition": "Gratis- oder Kapitalisierungsausgabe. Wertpapierinhaber erhalten vom Emittenten im Verhältnis zu ihrem Bestand unentgeltlich zusätzliche Vermögenswerte."
+    },
+    "EXOF": {
+      "name": "Umtausch",
+      "definition": "Umtausch von Beständen gegen andere Wertpapiere und/oder Bargeld. Der Umtausch kann obligatorisch oder freiwillig sein und beinhaltet den Umtausch ausstehender Wertpapiere gegen andere Wertpapiere und/oder Bargeld. Zum Beispiel \"Umtauschangebot\", \"Kapitalumstrukturierung\" oder \"Fondstrennung\"."
+    },
+    "MRGR": {
+      "name": "Fusion",
+      "definition": "Vom Emittenten veranlasster Umtausch ausstehender Wertpapiere, der Optionen umfassen kann, infolge der Zusammenlegung von Vermögenswerten zweier oder mehrerer Unternehmen, d. h. eines externen Drittunternehmens. Barzahlungen können den Aktientausch begleiten."
+    },
+    "UKWN": {
+      "name": "Unbekannt",
+      "definition": "Zwischenwertpapiere werden ausgeschüttet, bevor ihre Verwendung festgelegt wurde."
+    }
+  }
+}

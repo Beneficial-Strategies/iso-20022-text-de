@@ -1,0 +1,21 @@
+{
+  "isoType": "QuantityRange1Choice",
+  "definition": "Auswahl zwischen Wertebereichen, in denen eine Menge als gültig gilt, oder einem bestimmten Mengenwert, dem entsprochen werden muss bzw. dem nicht entsprochen werden darf, damit die Menge gültig ist.",
+  "isoElements": {
+    "FromQuantity": {
+      "definition": "Untergrenze eines Bereichs von Mengenwerten."
+    },
+    "ToQuantity": {
+      "definition": "Obergrenze eines Bereichs von Mengenwerten."
+    },
+    "FromToQuantity": {
+      "definition": "Bereich gültiger Mengenwerte."
+    },
+    "EqualQuantity": {
+      "definition": "Genauer Wert, dem eine Menge entsprechen muss, damit sie als gültig gilt."
+    },
+    "NotEqualQuantity": {
+      "definition": "Wert, dem eine Menge nicht entsprechen darf, damit sie als gültig gilt."
+    }
+  }
+}

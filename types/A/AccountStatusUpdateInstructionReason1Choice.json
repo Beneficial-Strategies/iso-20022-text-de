@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountStatusUpdateInstructionReason1Choice",
+  "definition": "Auswahl der Formate für einen Grund für eine Anweisung zur Änderung des Status eines Kontos.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Für die Anweisung zur Änderung des Kontostatus liegt kein Grund vor oder ist kein Grund zu melden."
+    },
+    "Reason": {
+      "definition": "Grund für die Anweisung zur Änderung des Kontostatus."
+    }
+  }
+}

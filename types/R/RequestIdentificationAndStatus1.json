@@ -1,0 +1,21 @@
+{
+  "isoType": "RequestIdentificationAndStatus1",
+  "definition": "Einzelheiten und Status des ursprünglichen Auftrags.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "definition": "Liefert Informationen zur ursprünglichen Nachricht."
+    },
+    "OriginalRequestIdentification": {
+      "definition": "Identifikation des ursprünglichen CashDepositRequest, CashWithdrawalRequest oder CashDepositOrWithdrawalCancellationRequest."
+    },
+    "RequestHandling": {
+      "definition": "Liefert den Status des Auftrags."
+    },
+    "CashDepositValidation": {
+      "definition": "Bestätigung, wie der Bargeldempfänger die Bargeldeinzahlung geprüft hat."
+    },
+    "CashWithdrawalConfirmation": {
+      "definition": "Bestätigung der vom Bargeldsender für die Bargeldabhebung verwendeten Banknoten- und Münzstückelungen."
+    }
+  }
+}

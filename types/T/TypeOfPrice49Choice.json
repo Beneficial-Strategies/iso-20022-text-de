@@ -1,0 +1,12 @@
+{
+  "isoType": "TypeOfPrice49Choice",
+  "definition": "Auswahl der Formate für eine Preisart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Preisart, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Preisart."
+    }
+  }
+}

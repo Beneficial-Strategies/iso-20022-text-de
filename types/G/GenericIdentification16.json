@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericIdentification16",
+  "definition": "Gibt eine generische Identifikation an.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Die Kennung."
+    },
+    "IdentificationType": {
+      "definition": "Gibt die Art der Kennung an."
+    },
+    "Issuer": {
+      "definition": "Partei, die die Identifikation vergibt."
+    }
+  }
+}

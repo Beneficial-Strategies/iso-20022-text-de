@@ -1,0 +1,54 @@
+{
+  "isoType": "SecurityIdentification46Choice",
+  "definition": "Auswahl von Formaten für die Identifikation eines Finanzinstruments.",
+  "isoElements": {
+    "ISIN": {
+      "definition": "International Securities Identification Number (ISIN). Ein Nummerierungssystem der Internationalen Organisation für Normung (ISO) der Vereinten Nationen. Die ISIN besteht aus einem 2-stelligen Präfix für das Ausgabeland, gefolgt von der nationalen Wertpapiernummer (sofern vorhanden) und einer Prüfziffer. Jedes Land hat eine nationale Nummerierungsstelle, die ISIN-Nummern für Wertpapiere dieses Landes vergibt."
+    },
+    "SEDOL": {
+      "definition": "Stock Exchange Daily Official List (SEDOL)-Nummer. Ein von der London Stock Exchange verwendeter Code zur Identifikation ausländischer Aktien, insbesondere solcher, die in den USA nicht aktiv gehandelt werden und keine CUSIP-Nummer haben."
+    },
+    "CUSIP": {
+      "definition": "Committee on Uniform Securities and Identification Procedures (CUSIP). Die Normungsstelle, die das Wertpapierklassifikationssystem in den USA geschaffen hat und pflegt. Die CUSIP besteht aus einer 9-stelligen Nummer, die ein bestimmtes Wertpapier eindeutig identifiziert. Nicht-US-Wertpapiere haben eine ähnliche Nummer, die CINS-Nummer genannt wird."
+    },
+    "RIC": {
+      "definition": "Reuters Identification Code (RIC). Ein im Reuters-System verwendetes Nummerierungssystem zur weltweiten Identifikation von Instrumenten. Der RIC enthält einen marktspezifischen Code aus X Zeichen (kann der CUSIP- oder EPIC-Code sein), gefolgt von einem Punkt und dem zweistelligen ISO-Ländercode, zum Beispiel IBM im Vereinigten Königreich: IBM.UK."
+    },
+    "TickerSymbol": {
+      "definition": "Buchstaben, die eine an einer Börse gehandelte Aktie identifizieren. Das Tickersymbol ist eine kurze und praktische Möglichkeit zur Identifikation einer Aktie, zum Beispiel RTR.L für Reuters, notiert in London."
+    },
+    "Bloomberg": {
+      "definition": "Von der Organisation Bloomberg vergebene Kennung eines Wertpapiers."
+    },
+    "CTA": {
+      "definition": "Von der Consolidated Tape Association vergebene Kennung eines Wertpapiers."
+    },
+    "QUICK": {
+      "definition": "Vom japanischen QUICK-Identifikationsschema für Finanzinstrumente vergebene Kennung eines Wertpapiers."
+    },
+    "Wertpapier": {
+      "definition": "Wertpapier-Kenn-Nummer. Eine in Deutschland von den Wertpapier-Mitteilungen vergebene Nummer. Die Wertpapier-Kenn-Nummer, manchmal WPK genannt, besteht aus 6 Ziffern, aber ohne Prüfziffer. Es gibt verschiedene Nummernbereiche für unterschiedliche Wertpapierklassen."
+    },
+    "Dutch": {
+      "definition": "Kennung für niederländische Wertpapiere."
+    },
+    "Valoren": {
+      "definition": "Kennung für Schweizer Wertpapiere, vergeben von Telekurs Financial, der Schweizer Nummerierungsstelle."
+    },
+    "Sicovam": {
+      "definition": "Kennung für französische Wertpapiere, vergeben von der Societe Interprofessionnelle Pour La Compensation des Valeurs Mobilieres in Frankreich. Die Sicovam besteht aus 5 Ziffern."
+    },
+    "Belgian": {
+      "definition": "Kennung für belgische Wertpapiere."
+    },
+    "Common": {
+      "definition": "Kennung für in Luxemburg begebene Wertpapiere. Der Common Code ist ein 9-stelliger Code, der die Codes von CEDEL (Clearstream) und Euroclear ersetzt."
+    },
+    "DTI": {
+      "definition": "Digital Token Identifier, wie in ISO 24165 definiert."
+    },
+    "OtherProprietaryIdentification": {
+      "definition": "Proprietäre Identifikation des Wertpapiers, vergeben von einem Institut oder einer Organisation."
+    }
+  }
+}

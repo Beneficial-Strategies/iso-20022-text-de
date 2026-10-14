@@ -1,0 +1,14 @@
+{
+  "isoType": "DateType4Code",
+  "definition": "Gibt eine Datumsart an.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Offen",
+      "definition": "Mit offenem Datum, das heißt, das Datum wurde noch nicht festgelegt."
+    },
+    "UKWN": {
+      "name": "Unbekannt",
+      "definition": "Das Datum ist dem Sender nicht bekannt oder wurde noch nicht festgelegt."
+    }
+  }
+}

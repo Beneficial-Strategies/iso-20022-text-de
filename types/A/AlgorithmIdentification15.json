@@ -1,0 +1,12 @@
+{
+  "isoType": "AlgorithmIdentification15",
+  "definition": "Identifikation eines kryptografischen Algorithmus und der Parameter für die MAC-Berechnung.",
+  "isoElements": {
+    "Algorithm": {
+      "definition": "Identifikation des MAC-Algorithmus."
+    },
+    "Parameter": {
+      "definition": "Mit dem MAC-Algorithmus verbundene Parameter."
+    }
+  }
+}

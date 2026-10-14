@@ -1,0 +1,4 @@
+{
+  "isoType": "NotificationToReceiveCancellationAdviceV10",
+  "definition": "Anwendungsbereich|Die Nachricht NotificationToReceiveCancellationAdvice wird von einem Kontoinhaber oder von einer im Auftrag des Kontoinhabers handelnden Partei an eines der kontoführenden Institute des Kontoinhabers gesendet. Sie dient dazu, das kontoführende Institut über die Stornierung einer oder mehrerer Benachrichtigungen in einer früheren Nachricht NotificationToReceive zu informieren.|Verwendung|Die Nachricht NotificationToReceiveCancellationAdvice dient dazu, das kontoführende Institut darüber zu informieren, dass die Gelder nicht mehr erwartet werden. Die Nachricht kann sowohl in einem direkten als auch in einem Relay-Szenario verwendet werden."
+}

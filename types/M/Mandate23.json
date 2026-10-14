@@ -1,0 +1,83 @@
+{
+  "isoType": "Mandate23",
+  "definition": "Information, die als Grundlage für die Belastung eines Kontos dient.",
+  "isoElements": {
+    "MandateIdentification": {
+      "definition": "Eindeutige Identifikation, wie von der verantwortlichen Partei (z. B. dem Zahlungsempfänger) oder der Bank (z. B. der Bank des Zahlungspflichtigen) vergeben, zur unmissverständlichen Identifizierung des Mandats."
+    },
+    "MandateRequestIdentification": {
+      "definition": "Identifikation der Mandatsanforderung, wie von der initiierenden Partei vergeben."
+    },
+    "Authentication": {
+      "definition": "Gibt die Einzelheiten zur Transportauthentifizierung im Zusammenhang mit dem Mandat an."
+    },
+    "Type": {
+      "definition": "Gibt die Art des Mandats an, etwa Papier, elektronisch oder Schema."
+    },
+    "Occurrences": {
+      "definition": "Enthält Einzelheiten zur Laufzeit des Mandats und zum Auftreten der zugrunde liegenden Transaktionen."
+    },
+    "TrackingIndicator": {
+      "definition": "Gibt an, ob die Lastschriftanweisungen bei bilateraler Vereinbarung periodisch automatisch erneut eingereicht werden sollen."
+    },
+    "FirstCollectionAmount": {
+      "definition": "Betrag, der vom Einzugsbetrag abweicht, da er die mit dem ersten belasteten Betrag verbundenen Kosten enthält."
+    },
+    "CollectionAmount": {
+      "definition": "Fester Betrag, der vom Konto des Zahlungspflichtigen eingezogen werden soll."
+    },
+    "MaximumAmount": {
+      "definition": "Höchstbetrag, der je Anweisung vom Konto des Zahlungspflichtigen eingezogen werden darf."
+    },
+    "Adjustment": {
+      "definition": "Gibt die Merkmale der Anpassung an, die auf den Einzugsbetrag einer Lastschriftanweisung angewendet wird."
+    },
+    "Reason": {
+      "definition": "Enthält den Grund für die Einrichtung des Mandats."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Kreditseitige Partei, die das Mandat unterzeichnet."
+    },
+    "Creditor": {
+      "definition": "Partei, die das Mandat unterzeichnet und der ein Geldbetrag geschuldet wird."
+    },
+    "CreditorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungsempfängers, dem aufgrund der Zahlungstransaktion eine Gutschrift gebucht wird."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungsempfänger führt."
+    },
+    "UltimateCreditor": {
+      "definition": "Letztliche Partei, der ein Geldbetrag zusteht."
+    },
+    "Debtor": {
+      "definition": "Partei, die das Mandat unterzeichnet und dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "DebtorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungspflichtigen, das aufgrund der Transaktion belastet wird."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungspflichtigen führt."
+    },
+    "UltimateDebtor": {
+      "definition": "Letztlich Zahlungspflichtiger, der dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "MandateReference": {
+      "definition": "Referenz, die von einem Zahlungsempfänger oder letztlichen Zahlungsempfänger für die interne Verwendung für das Mandat vergeben wird."
+    },
+    "ReferredDocument": {
+      "definition": "Enthält Informationen zur Identifizierung der dem Mandat zugeordneten zugrunde liegenden Dokumente."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen der Nachrichtenkomponente nicht erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor darf nur vorhanden sein, wenn er sich vom Debtor unterscheidet."
+    },
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor darf nur vorhanden sein, wenn er sich vom Creditor unterscheidet."
+    }
+  }
+}

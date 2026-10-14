@@ -1,0 +1,15 @@
+{
+  "isoType": "MemberIdentification3Choice",
+  "definition": "Gruppe von Elementen zur Identifikation eines Finanzinstituts.",
+  "isoElements": {
+    "BICFI": {
+      "definition": "Business Identifier Code des Teilnehmers (Finanzinstitut)."
+    },
+    "ClearingSystemMemberIdentification": {
+      "definition": "Angaben zur Identifikation eines Teilnehmers innerhalb eines Clearing-Systems."
+    },
+    "Other": {
+      "definition": "Eindeutige Identifikation einer Bank, die von einem Institut anhand eines Identifikationsschemas vergeben wurde."
+    }
+  }
+}

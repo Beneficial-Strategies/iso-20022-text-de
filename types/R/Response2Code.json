@@ -1,0 +1,14 @@
+{
+  "isoType": "Response2Code",
+  "definition": "Antwort auf eine Dienstanfrage.",
+  "isoCodes": {
+    "APPR": {
+      "name": "Genehmigt",
+      "definition": "Der Dienst wurde erfolgreich erbracht."
+    },
+    "DECL": {
+      "name": "Abgelehnt",
+      "definition": "Der Dienst wird abgelehnt."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "PriceFormat84Choice",
+  "definition": "Auswahl zwischen einem Prozentpreis, einem Betragspreis, einem nicht angegebenen Preis, einem Betragspreis je Betrag oder einem Betragspreis je Menge des Finanzinstruments.",
+  "isoElements": {
+    "PercentagePrice": {
+      "definition": "Preis, ausgedrückt als Prozentsatz."
+    },
+    "AmountPrice": {
+      "definition": "Preis, ausgedrückt als Währung und Betrag."
+    },
+    "NotSpecifiedPrice": {
+      "definition": "Wert des Preises nicht angegeben."
+    },
+    "AmountPricePerFinancialInstrumentQuantity": {
+      "definition": "Als Verhältnis ausgedrückter Preis: Betragspreis je Menge des Finanzinstruments."
+    },
+    "AmountPricePerAmount": {
+      "definition": "Als Verhältnis ausgedrückter Preis: Betragspreis je Betrag."
+    },
+    "IndexPoints": {
+      "definition": "In Indexpunkten ausgedrückter Preis."
+    }
+  }
+}

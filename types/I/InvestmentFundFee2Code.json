@@ -1,0 +1,34 @@
+{
+  "isoType": "InvestmentFundFee2Code",
+  "definition": "Art der Dienstleistung, für die ein Entgelt erhoben oder gezahlt wird.",
+  "isoCodes": {
+    "BEND": {
+      "name": "Rücknahmeabschlag",
+      "definition": "Gebühr, die der Anleger bei der Rücknahme an den Fonds oder die Fondsverwaltungsgesellschaft zahlt."
+    },
+    "FEND": {
+      "name": "Ausgabeaufschlag",
+      "definition": "Gebühr, die der Anleger bei der Zeichnung an den Fonds oder die Fondsverwaltungsgesellschaft zahlt."
+    },
+    "TRAN": {
+      "name": "Übertragungsgebühr",
+      "definition": "Bei Investmentfonds eine Gebühr für die Übertragung des Eigentums an einem Investmentfonds."
+    },
+    "POST": {
+      "name": "Portogebühr",
+      "definition": "Für das Porto gezahlte Gebühr."
+    },
+    "REGF": {
+      "name": "Aufsichtsgebühr",
+      "definition": "Von einer Aufsichtsbehörde erhobene Gebühr, zum Beispiel Wertpapier- und Börsengebühren."
+    },
+    "SHIP": {
+      "name": "Versandgebühr",
+      "definition": "Gebühr für den Versand, einschließlich der Versicherung von Wertpapieren."
+    },
+    "SPCN": {
+      "name": "Sonderkonditionen",
+      "definition": "Gebühren, Abzüge oder sonstige Minderungen oder Aufschläge auf den Geschäftspreis."
+    }
+  }
+}

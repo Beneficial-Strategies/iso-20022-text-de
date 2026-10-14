@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationIdentification6",
+  "definition": "Liefert Informationen zur Identifikation und zum Erstellungsdatum einer Mitteilung.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Kennung des letzten Mitteilungsdokuments (der letzten Nachricht), die vom Absender des Dokuments vergeben wurde."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung des letzten Mitteilungsdokuments (der letzten Nachricht) durch den Absender."
+    }
+  }
+}

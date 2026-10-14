@@ -1,0 +1,9 @@
+{
+  "isoType": "IntraBalanceMovementCancellationRequestStatusAdviceV02",
+  "definition": "Die Nachricht IntraBalanceMovementCancellationRequestStatusAdvice wird von einer Abwicklungsinfrastruktur an einen Kontoinhaber/Auftraggeber gesendet, um ihn über den Status eines zuvor vom Kontoinhaber/Auftraggeber gesendeten Stornierungsauftrags für eine Bewegung innerhalb des Saldos zu informieren.||Verwendung:|Die Nachricht kann verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist \"Duplicate\")|- einem Dritten eine Kopie einer Nachricht zur Information zu übermitteln (die Unterfunktion der Nachricht ist \"Copy\")|- einem Dritten erneut eine Kopie einer Nachricht zur Information zu übermitteln (die Unterfunktion der Nachricht ist \"CopyDuplicate\").",
+  "isoElements": {
+    "RequestReference": {
+      "definition": "Referenz des ursprünglichen Stornierungsauftrags für die Bewegung innerhalb des Saldos."
+    }
+  }
+}

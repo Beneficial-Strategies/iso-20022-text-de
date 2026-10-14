@@ -1,0 +1,30 @@
+{
+  "isoType": "PartyType4Code",
+  "definition": "Stelle, die eine Identifikation vergibt (zum Beispiel Händler, Akzeptant, Acquirer, Steuerbehörde usw.).",
+  "isoCodes": {
+    "MERC": {
+      "name": "Händler",
+      "definition": "Händler, der bei der Kartenzahlungstransaktion Waren und Dienstleistungen erbringt."
+    },
+    "ACCP": {
+      "name": "Akzeptant",
+      "definition": "Kartenakzeptant, Partei, die die Karte akzeptiert und dem Acquirer Transaktionsdaten übermittelt."
+    },
+    "ITAG": {
+      "name": "Zwischengeschaltete Bank",
+      "definition": "Partei, die im Auftrag anderer Parteien Daten verarbeitet oder an andere Parteien weiterleitet."
+    },
+    "ACQR": {
+      "name": "Acquirer",
+      "definition": "Stelle, die Kartentransaktionen akquiriert."
+    },
+    "CISS": {
+      "name": "Kartenaussteller",
+      "definition": "Partei, die Karten herausgibt."
+    },
+    "TAXH": {
+      "name": "Steuerbehörde",
+      "definition": "Steuerbehörde."
+    }
+  }
+}

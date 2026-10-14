@@ -1,0 +1,46 @@
+{
+  "isoType": "InvestorProfileStatus1Code",
+  "definition": "Gibt den Status des Anlegerprofils an.",
+  "isoCodes": {
+    "DISA": {
+      "name": "Deaktiviert",
+      "definition": "Der Status des Anlegerprofils ist deaktiviert."
+    },
+    "DISG": {
+      "name": "Deaktivierung",
+      "definition": "Der Status des Anlegerprofils wird gerade deaktiviert."
+    },
+    "ENAB": {
+      "name": "Aktiviert",
+      "definition": "Der Status des Anlegerprofils ist aktiviert."
+    },
+    "ENBG": {
+      "name": "Aktivierung",
+      "definition": "Der Status des Anlegerprofils wird gerade aktiviert."
+    },
+    "ADMI": {
+      "name": "In Zulassung",
+      "definition": "Der Status des Anlegerprofils ist in Aufnahme."
+    },
+    "ANLY": {
+      "name": "In Analyse",
+      "definition": "Der Status des Anlegerprofils ist in Prüfung."
+    },
+    "NAPP": {
+      "name": "Nicht genehmigt",
+      "definition": "Der Status des Anlegerprofils ist nicht genehmigt."
+    },
+    "PSUS": {
+      "name": "Teilweise ausgesetzt",
+      "definition": "Der Status des Anlegerprofils ist teilweise gesperrt."
+    },
+    "PEND": {
+      "name": "Genehmigung ausstehend",
+      "definition": "Der Status des Anlegerprofils ist Genehmigung ausstehend."
+    },
+    "SUPS": {
+      "name": "Ausgesetzt",
+      "definition": "Der Status des Anlegerprofils ist gesperrt."
+    }
+  }
+}

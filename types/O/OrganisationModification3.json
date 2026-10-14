@@ -1,0 +1,48 @@
+{
+  "isoType": "OrganisationModification3",
+  "definition": "Informationen zur Beschreibung der Organisation.",
+  "isoElements": {
+    "FullLegalName": {
+      "definition": "Name, unter dem eine Partei bekannt ist und der üblicherweise zur Identifikation dieser Partei verwendet wird."
+    },
+    "TradingName": {
+      "definition": "Name, den ein Unternehmen für geschäftliche Zwecke verwendet, auch wenn sein eingetragener Rechtsname, der für Verträge und andere formelle Situationen verwendet wird, ein anderer sein kann."
+    },
+    "CountryOfOperation": {
+      "definition": "Land, in dem die Organisation ihre Geschäftstätigkeit ausübt."
+    },
+    "RegistrationDate": {
+      "definition": "Datum, an dem eine bestimmte Organisation offiziell registriert wurde."
+    },
+    "OperationalAddress": {
+      "definition": "Legt eine operative Adresse fest, zum Beispiel die eines Shared-Services-Centers."
+    },
+    "BusinessAddress": {
+      "definition": "Legt die Adresse fest, an der die Geschäftstätigkeit ausgeübt wird."
+    },
+    "LegalAddress": {
+      "definition": "Legt die Adresse fest, an der die Einheit ansässig und eingetragen ist. Allgemeiner gesagt handelt es sich um die Heimatadresse (Wohnanschrift)."
+    },
+    "BillingAddress": {
+      "definition": "Adresse, an die Rechnungen gesendet werden müssen."
+    },
+    "OrganisationIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Art der Identifikation einer Organisation."
+    },
+    "RepresentativeOfficer": {
+      "definition": "Person in der Organisation des Kunden, die vom Kontoführer in Bezug auf das bzw. die in dieser Anweisung identifizierte(n) Konto/Konten kontaktiert werden kann."
+    },
+    "TreasuryManager": {
+      "definition": "Für die Treasury-Abteilung in der Organisation des Kunden verantwortliche Person."
+    },
+    "MainMandateHolder": {
+      "definition": "Person, die das Mandat besitzt, Befugnisse zu delegieren und anderen Personen (Mandatsinhabern) Mandate zur Durchführung bestimmter Bankgeschäfte auf dem Konto zu erteilen."
+    },
+    "Sender": {
+      "definition": "Person, die möglicherweise der Absender einer Nachricht im Zusammenhang mit dem Lebenszyklus des Kontos ist."
+    },
+    "LegalRepresentative": {
+      "definition": "Person, die offiziell und rechtlich mandatiert ist, die Organisation zu vertreten. Je nach Gesetzgebung können der oder die gesetzlichen Vertreter beispielsweise vom Vorstand ernannt, in der Satzung der Organisation benannt oder im Amtsblatt eines Landes öffentlich bekannt gemacht werden usw."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationServiceLevel1Choice",
+  "definition": "Gibt den Servicelevel einer Untersuchung an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Untersuchungsservicelevel, wie in einem externen Codesatz für Untersuchungsservicelevel veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Untersuchungsservicelevel in proprietärer Form."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CapitalGainFormat3Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe der Art des Kapitalertrags.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt an, ob der Kapitalertrag in den Anwendungsbereich der europäischen Richtlinie über die Besteuerung von Zinserträgen (Richtlinie 2003/48/EG des Rates vom 3. Juni) fällt, für Erträge, die bei Verkauf, Rückerstattung oder Rückgabe von Aktien und Anteilen usw. erzielt werden (EC)."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Art des Kapitalertrags."
+    }
+  }
+}

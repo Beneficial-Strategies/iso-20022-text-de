@@ -1,0 +1,12 @@
+{
+  "isoType": "RateType83Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe einer Satzart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Art des Nettodividendensatzes."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Art des Nettodividendensatzes."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyModification3",
+  "definition": "Legt die Art der Änderung der Partei fest.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Legt die Art der Änderung fest."
+    },
+    "PartyIdentification": {
+      "definition": "Identifikation der Partei."
+    }
+  }
+}

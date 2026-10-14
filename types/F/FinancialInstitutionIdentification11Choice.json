@@ -1,0 +1,18 @@
+{
+  "isoType": "FinancialInstitutionIdentification11Choice",
+  "definition": "Auswahl zwischen Formaten für die Identifikation des Finanzinstituts.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Identifiziert den Namen und die (lange) Postanschrift eines Finanzinstituts."
+    },
+    "BICFI": {
+      "definition": "Identifikation des Finanzinstituts, ausgedrückt als BIC."
+    },
+    "ClearingSystemMemberIdentification": {
+      "definition": "Auswahl einer Kennung für ein Clearingsystem-Mitglied, wie vom Clearingsystem vergeben. In einigen Clearingsystemen wird auch den Konten der Clearingsystem-Mitglieder eine Kennung zugewiesen."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Eindeutiger und zweifelsfreier Bezeichner, der einem Finanzinstitut mithilfe eines proprietären Identifikationsschemas zugewiesen wurde."
+    }
+  }
+}

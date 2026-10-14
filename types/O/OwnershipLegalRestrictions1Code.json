@@ -1,0 +1,18 @@
+{
+  "isoType": "OwnershipLegalRestrictions1Code",
+  "definition": "Gibt die für ein Finanzinstrument geltenden regulatorischen Beschränkungen an.",
+  "isoCodes": {
+    "A144": {
+      "name": "US-Recht 144A",
+      "definition": "Eigentum an oder Übertragung eines nicht registrierten Wertpapiers, das gemäß den US-Rechtsbeschränkungen 144A ausgegeben wurde."
+    },
+    "NRST": {
+      "name": "Keine Beschränkungen",
+      "definition": "Eigentum an oder Übertragung eines Wertpapiers, das keinen Beschränkungen unterliegt."
+    },
+    "RSTR": {
+      "name": "Beschränkungen",
+      "definition": "Eigentum an oder Übertragung eines Wertpapiers, das Beschränkungen unterliegt, und nicht gemäß 144A."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "AccountCriteria8",
+  "definition": "Legt die Kriterien fest, die für die Suche nach einem Konto und für die Berichterstattung über das Konto verwendet werden. Der neuen Abfrage kann ein Name gegeben werden.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Name der Abfrage, die durch die Such- und Rückgabekriterien definiert wird."
+    },
+    "SearchCriteria": {
+      "definition": "Legt die Kriterien fest, die für die Extraktion der Kontoinformationen zu verwenden sind."
+    },
+    "ReturnCriteria": {
+      "definition": "Legt den erwarteten Kontobericht fest."
+    }
+  },
+  "isoRules": {
+    "ReturnCriteriaAndOrSearchCriteriaRule": {
+      "definition": "Wenn ReturnCriteria nicht vorhanden ist, muss mindestens ein Vorkommen von SearchCriteria vorhanden sein. Wenn ReturnCriteria vorhanden ist, ist jedes Vorkommen von SearchCriteria optional."
+    }
+  }
+}

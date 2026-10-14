@@ -1,0 +1,48 @@
+{
+  "isoType": "CashWithdrawalRequest1",
+  "definition": "Gibt die Einzelheiten eines Auftrags zur Bargeldabhebung an.",
+  "isoElements": {
+    "OrderReference": {
+      "definition": "Eindeutige Identifikation des Auftrags."
+    },
+    "CashReceiverReference": {
+      "definition": "Eindeutige Identifikation, die vom Bargeldempfänger für die Bargeldabhebung vergeben wird."
+    },
+    "AmendmentIndicator": {
+      "definition": "Gibt an, ob diese Nachricht einen früheren Auftrag ändert.||Bei dem Wert Yes müssen OrderReference und CashReceiverReference mit denen der ursprünglichen Nachricht übereinstimmen.||Wird dieses Element nicht verwendet, gilt die Nachricht nicht als Änderung."
+    },
+    "RequestedValueDate": {
+      "definition": "Datum, an dem der Bargeldempfänger die Abhebung des Bargelds vom Konto verlangt."
+    },
+    "Account": {
+      "definition": "Eindeutige Identifikation des Kontos, von dem das Bargeld abgehoben wird."
+    },
+    "CashWithdrawal": {
+      "definition": "Liefert die Einzelheiten einer Bargeldabhebung über einen Geldbetrag in Banknoten und/oder Münzen."
+    },
+    "DeliveryMethod": {
+      "definition": "Gibt die Lieferart für die Bargeldabhebung an."
+    },
+    "DeliveryAddress": {
+      "definition": "Gibt die Adresse an, an die die Bargeldabhebung geliefert wird."
+    },
+    "WithdrawalContact": {
+      "definition": "Partei, die das abgehobene Bargeld abholt."
+    },
+    "SecureCarrierName": {
+      "definition": "Identifikation des Geldtransportunternehmens."
+    },
+    "SecureCarrierReference": {
+      "definition": "Eindeutige Identifikation, die vom Geldtransportunternehmen für die Abhebung vergeben wird."
+    },
+    "InsuranceIndicator": {
+      "definition": "Gibt an, ob die Abhebung auf dem Transportweg versichert ist.||Wird dieses Element nicht verwendet, ist die Abhebung nicht versichert."
+    },
+    "WithdrawalAddress": {
+      "definition": "Gibt die Adresse an, von der die Bargeldabhebung versendet wird."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Einzelheiten zur Bargeldabhebung."
+    }
+  }
+}

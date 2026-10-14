@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMStatus3Code",
+  "definition": "Aktueller Status des Schlüssels.",
+  "isoCodes": {
+    "OPER": {
+      "name": "In Betrieb",
+      "definition": "Komponente ist aktiviert und in Betrieb."
+    },
+    "STOP": {
+      "name": "Angehalten",
+      "definition": "Komponente wurde angehalten."
+    },
+    "WACT": {
+      "name": "Wartet auf Aktivierung",
+      "definition": "Komponente wurde geladen, aber noch nicht aktiviert."
+    }
+  }
+}

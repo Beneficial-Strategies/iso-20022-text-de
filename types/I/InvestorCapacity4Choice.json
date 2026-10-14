@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestorCapacity4Choice",
+  "definition": "Auswahl des Formats für die Anlegereigenschaft.",
+  "isoElements": {
+    "Code": {
+      "definition": "Anlegereigenschaft, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Anlegereigenschaft, ausgedrückt als proprietärer Code."
+    }
+  }
+}

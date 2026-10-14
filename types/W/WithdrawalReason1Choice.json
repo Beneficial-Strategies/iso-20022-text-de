@@ -1,0 +1,12 @@
+{
+  "isoType": "WithdrawalReason1Choice",
+  "definition": "Auswahl von Formaten für einen Entnahmegrund.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückter Entnahmegrund."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückter Entnahmegrund."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "PendingProcessingReason8Code",
+  "definition": "Gibt den Grund an, weshalb die Abwicklung der Transaktion/Anweisung fehlschlägt. Eine Abwicklung am angewiesenen Abwicklungstag ist nicht mehr möglich.",
+  "isoCodes": {
+    "BLOC": {
+      "name": "Konto gesperrt",
+      "definition": "Ihr Konto ist gesperrt, über das Konto kann keine Anweisung abgewickelt werden."
+    },
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Anweisung wurde nach Ablauf der Frist des Kontoführers empfangen. Sie wird gemäß der bilateralen Dienstleistungsvereinbarung zwischen Kontoführer und Kontoinhaber behandelt."
+    },
+    "MINO": {
+      "name": "Mindestabwicklungsbetrag",
+      "definition": "Die angewiesene Menge liegt unter der für das Finanzinstrument bestehenden Mindestabwicklungsmenge."
+    },
+    "MUNO": {
+      "name": "Mehrfacher Abwicklungsbetrag",
+      "definition": "Die angewiesene Menge ist kein Vielfaches einer für das Finanzinstrument bestehenden Abwicklungslosgröße."
+    },
+    "NEXT": {
+      "name": "Nächster Prozess",
+      "definition": "Der nächste Prozess wird gestartet. Es sind keine anstehenden Verarbeitungsprobleme zu melden."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "DENO": {
+      "name": "Nicht verfügbare lieferbare Stückzahl",
+      "definition": "Die angewiesene Menge entspricht nicht der verfügbaren/lieferbaren Stückelung. Physische Wertpapiere müssen in lieferbaren Stückelungsmengen beschafft werden."
+    },
+    "CERT": {
+      "name": "Falsche Zertifikatsnummern",
+      "definition": "Fehler bei der Zertifikatsnummer."
+    }
+  }
+}

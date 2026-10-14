@@ -1,0 +1,18 @@
+{
+  "isoType": "LetterIntent1",
+  "definition": "Gibt Informationen zur Absichtserklärung (Letter of Intent) an.",
+  "isoElements": {
+    "LetterIntentReference": {
+      "definition": "Referenz eines Letter-of-Intent-Programms, bei dem Verkaufsprovisionen auf Grundlage der Summe aus den tatsächlichen und den erwarteten Käufen eines Kunden über einen bestimmten Zeitraum und gemäß Vereinbarung mit dem Kunden gesenkt werden."
+    },
+    "Amount": {
+      "definition": "In der Absichtserklärung angegebener Betrag."
+    },
+    "StartDate": {
+      "definition": "In der Absichtserklärung angegebenes Startdatum."
+    },
+    "EndDate": {
+      "definition": "In der Absichtserklärung angegebenes Enddatum."
+    }
+  }
+}

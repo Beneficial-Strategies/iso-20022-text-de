@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessedStatus5FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe des Verarbeitungsstatus eines Antrags.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Verarbeitungsstatus eines Antrags."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe des Verarbeitungsstatus eines Antrags."
+    }
+  }
+}

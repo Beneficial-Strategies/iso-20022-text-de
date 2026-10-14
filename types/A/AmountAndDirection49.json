@@ -1,0 +1,18 @@
+{
+  "isoType": "AmountAndDirection49",
+  "definition": "Auf den Büchern einer kontoführenden Stelle belasteter oder gutgeschriebener Geldbetrag.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag der Geldbuchung."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob es sich bei einem Umsatz um eine Gutschrift oder eine Belastung handelt."
+    },
+    "OriginalCurrencyAndOrderedAmount": {
+      "definition": "Buchungs-/Abwicklungsbetrag in seiner ursprünglichen Währung, wenn eine Umrechnung von/in eine andere Währung stattgefunden hat."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Informationen, die für die Verarbeitung eines Währungsumtauschs oder einer Währungsumrechnung erforderlich sind."
+    }
+  }
+}

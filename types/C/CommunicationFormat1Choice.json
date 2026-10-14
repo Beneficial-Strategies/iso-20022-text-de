@@ -1,0 +1,12 @@
+{
+  "isoType": "CommunicationFormat1Choice",
+  "definition": "Legt eine Auswahl von Formaten für Kontoauszüge fest.",
+  "isoElements": {
+    "Code": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Kommunikationsformats anhand einer Codeliste."
+    },
+    "Proprietary": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Kommunikationsformats anhand eines proprietären Identifikationsschemas."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "CashEntitlement1",
+  "definition": "Enthält Informationen zu Geldansprüchen.",
+  "isoElements": {
+    "CashAmount": {
+      "definition": "Anspruchsberechtigter Geldbetrag."
+    }
+  }
+}

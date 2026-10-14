@@ -1,0 +1,15 @@
+{
+  "isoType": "Intermediary44",
+  "definition": "Partei, die Anlegern Dienstleistungen im Zusammenhang mit Finanzprodukten (Investmentfonds) erbringt.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige und unmissverständliche Kennung des Intermediärs."
+    },
+    "Role": {
+      "definition": "Vom Intermediär ausgeübte Funktion (Investmentfonds)."
+    },
+    "Account": {
+      "definition": "Geschäftsbeziehung zwischen zwei Einheiten; eine Einheit ist der Kontoinhaber, die andere Einheit ist der Kontoführer."
+    }
+  }
+}

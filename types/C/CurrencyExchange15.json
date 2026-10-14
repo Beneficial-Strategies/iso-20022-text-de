@@ -1,0 +1,18 @@
+{
+  "isoType": "CurrencyExchange15",
+  "definition": "Beschreibt die Einzelheiten des Währungsumtauschs.",
+  "isoElements": {
+    "SourceCurrency": {
+      "definition": "Währung, aus der ein Betrag bei einer Währungsumrechnung umgerechnet werden soll."
+    },
+    "TargetCurrency": {
+      "definition": "Währung, in die ein Betrag bei einer Währungsumrechnung umgerechnet werden soll."
+    },
+    "ExchangeRate": {
+      "definition": "Faktor zur Umrechnung eines Betrags von einer Währung in eine andere. Er gibt den Preis wieder, zu dem eine Währung mit einer anderen Währung gekauft wurde."
+    },
+    "UnitCurrency": {
+      "definition": "Währung, in der der Wechselkurs bei einem Währungsumtausch ausgedrückt wird. Im Beispiel 1 GBP = xxx CUR ist die Einheitswährung GBP."
+    }
+  }
+}

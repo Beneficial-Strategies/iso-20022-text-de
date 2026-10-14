@@ -1,0 +1,14 @@
+{
+  "isoType": "ProformaStatusReason1Code",
+  "definition": "Gibt den Grund für den Proforma-Status an.",
+  "isoCodes": {
+    "MODI": {
+      "name": "Änderung in Bearbeitung",
+      "definition": "Die Änderung der Kontodaten ist in Bearbeitung."
+    },
+    "RIGH": {
+      "name": "Rechte",
+      "definition": "Die Kontoeröffnung wartet auf Informationen zum Rechteinhaber."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAInformationStatusAdviceV01",
+  "definition": "Anwendungsbereich|Diese Nachricht wird von einem Emittenten (oder dessen Beauftragten) an einen CSD gesendet, um den Status oder eine Statusänderung einer Informationsmitteilung zu melden.|Verwendung|Diese Nachricht muss im Falle einer Ablehnung als Antwort auf einen Agent Corporate Action Information Advice verwendet werden. Sie kann jedoch auch zur Meldung anderer Status verwendet werden.|Die Identifikation der Informationsmitteilung muss vorhanden sein, um diese Nachricht mit der Informationsmitteilung zu verknüpfen, für die der Status bereitgestellt wird."
+}

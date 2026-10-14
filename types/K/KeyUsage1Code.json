@@ -1,0 +1,74 @@
+{
+  "isoType": "KeyUsage1Code",
+  "definition": "Zulässige Verwendungen des Schlüssels.",
+  "isoCodes": {
+    "ENCR": {
+      "name": "Verschlüsselung",
+      "definition": "Schlüssel darf verschlüsseln."
+    },
+    "DCPT": {
+      "name": "Entschlüsselung",
+      "definition": "Schlüssel darf entschlüsseln."
+    },
+    "DENC": {
+      "name": "Datenverschlüsselung",
+      "definition": "Schlüssel darf Daten verschlüsseln."
+    },
+    "DDEC": {
+      "name": "Datenentschlüsselung",
+      "definition": "Schlüssel darf Daten entschlüsseln."
+    },
+    "TRNI": {
+      "name": "Eingabe umsetzen",
+      "definition": "Schlüssel darf Informationen vor der Übersetzung verschlüsseln."
+    },
+    "TRNX": {
+      "name": "Ausgabe umsetzen",
+      "definition": "Schlüssel darf Informationen nach der Übersetzung verschlüsseln."
+    },
+    "MACG": {
+      "name": "Erzeugung des Nachrichtenauthentisierungscodes",
+      "definition": "Schlüssel darf Nachrichtenauthentifizierungscodes (MAC) erzeugen."
+    },
+    "MACV": {
+      "name": "Prüfung des Nachrichtenauthentisierungscodes",
+      "definition": "Schlüssel darf Nachrichtenauthentifizierungscodes (MAC) prüfen."
+    },
+    "SIGG": {
+      "name": "Signaturerzeugung",
+      "definition": "Schlüssel darf digitale Signaturen erzeugen."
+    },
+    "SUGV": {
+      "name": "Signaturprüfung",
+      "definition": "Schlüssel darf digitale Signaturen prüfen."
+    },
+    "PINE": {
+      "name": "PIN-Verschlüsselung",
+      "definition": "Schlüssel darf persönliche Identifikationsnummern (PIN) verschlüsseln."
+    },
+    "PIND": {
+      "name": "PIN-Entschlüsselung",
+      "definition": "Schlüssel darf persönliche Identifikationsnummern (PIN) entschlüsseln."
+    },
+    "PINV": {
+      "name": "PIN-Prüfung",
+      "definition": "Schlüssel darf persönliche Identifikationsnummern (PIN) prüfen."
+    },
+    "KEYG": {
+      "name": "Schlüsselerzeugung",
+      "definition": "Schlüssel darf Schlüssel erzeugen."
+    },
+    "KEYI": {
+      "name": "Schlüsselimport",
+      "definition": "Schlüssel darf Schlüssel importieren."
+    },
+    "KEYX": {
+      "name": "Schlüsselexport",
+      "definition": "Schlüssel darf Schlüssel exportieren."
+    },
+    "KEYD": {
+      "name": "Schlüsselableitung",
+      "definition": "Schlüssel darf Schlüssel ableiten."
+    }
+  }
+}

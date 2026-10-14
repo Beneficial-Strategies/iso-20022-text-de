@@ -1,0 +1,54 @@
+{
+  "isoType": "AdditionalBusinessProcess7Code",
+  "definition": "Gibt den zusätzlichen Geschäftsprozess an, der mit einem Kapitalmaßnahmen-Ereignis verknüpft ist.",
+  "isoCodes": {
+    "CLAI": {
+      "name": "Anspruch oder Entschädigung",
+      "definition": "Bezieht sich auf einen Anspruch im Zusammenhang mit dem zugehörigen Ereignis der Kapitalmaßnahme."
+    },
+    "TAXR": {
+      "name": "Steuerrückerstattung",
+      "definition": "Bezieht sich auf eine Steuerrückerstattung durch die Behörden im Zusammenhang mit dem zugehörigen Ereignis der Kapitalmaßnahme."
+    },
+    "ACLA": {
+      "name": "Automatischer Marktanspruch",
+      "definition": "Führt automatisch zu Marktansprüchen durch den Kontoführer, zum Beispiel einen Zentralverwahrer (CSD)."
+    },
+    "ATXF": {
+      "name": "Der Transformation unterliegend",
+      "definition": "Als Ergebnis der Kapitalmaßnahme werden alle Transaktionen im zugrunde liegenden Wertpapier vom System storniert und durch Transaktionen in der/den Ergebnisressource(n) (Outturn) ersetzt."
+    },
+    "CNTR": {
+      "name": "Zugrunde liegende Geschäfte stornieren",
+      "definition": "Als Ergebnis der Kapitalmaßnahme werden alle Transaktionen im zugrunde liegenden Wertpapier vom System storniert."
+    },
+    "CONS": {
+      "name": "Zustimmung",
+      "definition": "Bezieht sich auf eine Zustimmung innerhalb eines Kapitalmaßnahmen-Ereignisses, das kein Zustimmungsereignis (Consent) ist (: 22F:: CAEV//CONS)."
+    },
+    "NAMC": {
+      "name": "Keine automatischen Marktansprüche und Transformationen",
+      "definition": "Das Ereignis führt nicht automatisch zu Marktansprüchen und Umwandlungen durch den Kontoführer, zum Beispiel einen Zentralverwahrer (CSD)."
+    },
+    "NPLE": {
+      "name": "Keine geteilte Wahl",
+      "definition": "Der Emittent erlaubt nur die Auswahl einer einzigen Option je designiertem Bestand."
+    },
+    "SCHM": {
+      "name": "Vergleichsplan oder Reorganisationsplan",
+      "definition": "Teilereignis eines Scheme/Plan of Arrangement: eine Reorganisation eines Unternehmens oder einer Unternehmensgruppe und ihres Kapitals."
+    },
+    "PPUT": {
+      "name": "Teilweise verpflichtende Rückgaberückzahlung",
+      "definition": "Teilweiser obligatorischer Umtausch eines Teils von Anleihen, bei dem die umgetauschten Wertpapiere in der Regel erneut vermarktet werden. Der Emittent kann den Inhabern das Recht anbieten, ihre Wertpapiere zu behalten, anstatt sie umzutauschen. Die Berechtigung für das Ereignis wird per Los bestimmt."
+    },
+    "PPRE": {
+      "name": "Teilweise Vorfinanzierung",
+      "definition": "Teilweises Prefunding einer Schuldverschreibung vor Fälligkeit, ausgelost im Losverfahren. Ein neues Wertpapier wird mit einem früheren Fälligkeitsdatum für den refinanzierten (gekündigten) Teil begeben, und das andere neue Wertpapier wird mit dem ursprünglichen Fälligkeitsdatum für den nicht refinanzierten (verbleibenden) Teil begeben. Nur im Rahmen eines Kapitalmaßnahmen-Ereignisses der teilweisen Defeasance anwendbar."
+    },
+    "FPRE": {
+      "name": "Vollständige Vorfinanzierung",
+      "definition": "Vollständige Vorfinanzierung eines Schuldinstruments durch den Emittenten vor der ursprünglichen Fälligkeit, wobei der Emittent Vermögenswerte treuhänderisch hinterlegt. Nur im Rahmen eines Kapitalmaßnahmen-Ereignisses mit teilweiser Defeasance anwendbar."
+    }
+  }
+}

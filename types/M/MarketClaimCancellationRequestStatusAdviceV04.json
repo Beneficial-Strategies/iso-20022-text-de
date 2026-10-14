@@ -1,0 +1,4 @@
+{
+  "isoType": "MarketClaimCancellationRequestStatusAdviceV04",
+  "definition": "Anwendungsbereich und Verwendung|Die Nachricht MarketClaimCancellationRequestStatusAdvice wird von einem Kontoführer an einen Kontoinhaber gesendet, um den Status eines Stornierungsauftrags für eine Market-Claim-Transaktion mitzuteilen.|Diese Nachrichtendefinition ist zur Verwendung mit dem Business Application Header (BAH) vorgesehen."
+}

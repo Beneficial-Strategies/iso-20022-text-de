@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementQueryType1Code",
+  "definition": "Gibt die Art der auszuführenden Abfrage von Abwicklungsanweisungen an.",
+  "isoCodes": {
+    "INST": {
+      "name": "Anweisung",
+      "definition": "Fragt Abwicklungsanweisungen anhand von Kriterien ab, die Status ausschließen."
+    },
+    "STTS": {
+      "name": "Status",
+      "definition": "Fragt Abwicklungsanweisungen anhand von Kriterien ab, die Status einschließen."
+    },
+    "STPD": {
+      "name": "Statuszeitraum",
+      "definition": "Fragt Abwicklungsanweisungen anhand von Kriterien ab, die Status während eines Zeitraums einschließen."
+    }
+  }
+}

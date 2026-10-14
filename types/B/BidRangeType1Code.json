@@ -1,0 +1,18 @@
+{
+  "isoType": "BidRangeType1Code",
+  "definition": "Arten zulässiger Werte für die Gebotsspanne.",
+  "isoCodes": {
+    "DIVI": {
+      "name": "Teilbar",
+      "definition": "Alle Werte (einschließlich der Mindest- und Höchstpreise) sind durch das Gebotsintervall teilbar."
+    },
+    "INCR": {
+      "name": "Schrittweise",
+      "definition": "Kein Wert innerhalb der Gebotsspanne ist durch das Gebotsintervall teilbar, einschließlich der Mindest- und Höchstpreise.  Jeder Wert zwischen dem Mindest- und dem Höchstpreis wird um das Gebotsintervall erhöht."
+    },
+    "MULT": {
+      "name": "In Vielfachen",
+      "definition": "Mindest- und Höchstpreise sind nicht durch das Gebotsintervall teilbar.  Alle aufeinanderfolgenden Werte zwischen dem Mindest- und dem Höchstpreis sind Vielfache des Gebotsintervalls."
+    }
+  }
+}

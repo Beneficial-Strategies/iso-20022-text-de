@@ -1,0 +1,9 @@
+{
+  "isoType": "AccountIdentification4",
+  "definition": "Eindeutige Kennung eines Kontos, wie vom kontoführenden Institut vergeben.",
+  "isoElements": {
+    "Proprietary": {
+      "definition": "Eindeutige Kennung eines Kontos. Sie wird vom kontoführenden Institut anhand eines proprietären Identifikationsschemas vergeben."
+    }
+  }
+}

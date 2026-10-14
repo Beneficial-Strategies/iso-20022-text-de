@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedStatus38Choice",
+  "definition": "Auswahl zwischen einem Grund oder keinem Grund für den Status abgelehnt bei der Verarbeitung der Kapitalmaßnahmen-Anweisung.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Grund nicht angegeben."
+    },
+    "Reason": {
+      "definition": "Grund für den abgelehnten Status."
+    }
+  }
+}

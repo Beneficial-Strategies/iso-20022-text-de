@@ -1,0 +1,4 @@
+{
+  "isoType": "CreateStandingOrderV03",
+  "definition": "Anwendungsbereich|Die Nachricht CreateStandingOrder wird von einem Teilnehmer an den Transaktionsadministrator gesendet.|Sie dient dazu, einen Dauerauftrag für die Übertragung von Geldern zwischen zwei Konten anzulegen, die demselben Teilnehmer gehören und beim Transaktionsadministrator geführt werden.|Verwendung|Auf Grundlage der in der Nachricht CreateStandingOrder definierten Kriterien führt der Transaktionsadministrator die beantragte Anlage aus oder lehnt sie ab und antwortet auf die Anfrage mit einer Nachricht Receipt."
+}

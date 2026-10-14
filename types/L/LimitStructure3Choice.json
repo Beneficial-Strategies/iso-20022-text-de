@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitStructure3Choice",
+  "definition": "Einzelheiten eines oder mehrerer Limits, die vom Teilnehmer festgelegt wurden und vom Transaktionsadministrator verwaltet werden.",
+  "isoElements": {
+    "CurrentLimitIdentification": {
+      "definition": "Identifikation des aktuellen Limits."
+    },
+    "AllCurrentLimits": {
+      "definition": "Identifikation des aktuellen Limits."
+    }
+  }
+}

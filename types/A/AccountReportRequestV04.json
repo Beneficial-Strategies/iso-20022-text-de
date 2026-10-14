@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountReportRequestV04",
+  "definition": "Die Nachricht AccountReportRequest wird zu Berichtszwecken von einer Organisation an ein Finanzinstitut gesendet. Sie ist eine Anfrage nach einem Kontobericht. Diese Nachricht kann jederzeit außerhalb der Prozesse der Kontoeröffnung, -pflege oder -schließung gesendet werden."
+}

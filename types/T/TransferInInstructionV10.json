@@ -1,0 +1,17 @@
+{
+  "isoType": "TransferInInstructionV10",
+  "definition": "Die Nachricht TransferInInstruction wird von einer anweisenden Partei, zum Beispiel einem Vermögensverwalter oder dessen bevollmächtigtem Vertreter, an die ausführende Partei, zum Beispiel eine Transferstelle, gesendet, um den Empfang eines Finanzinstruments, frei von Zahlung, an einem bestimmten Datum von einer angegebenen Partei anzuweisen.|Diese Nachricht kann auch verwendet werden, um den Empfang eines Finanzinstruments, frei von Zahlung, von einem anderen eigenen Konto der anweisenden Partei oder von einem Dritten anzuweisen.|Verwendung|Die Nachricht TransferInInstruction wird verwendet, um den Empfang eines Finanzinstruments von einem anderen Konto anzuweisen, das entweder der anweisenden Partei oder einem Dritten gehört.",
+  "isoElements": {
+    "Function": {
+      "definition": "Funktion des Übertragungseingangs, das heißt, ob die Übertragungseingangsnachricht als Anweisung oder als Avisierung und Informationsanfrage verwendet wird. Fehlt Function, handelt es sich bei der Nachricht um eine Anweisung."
+    },
+    "MasterReference": {
+      "definition": "Eindeutiger Identifikator für eine Gruppe einzelner Übertragungen, wie von der anweisenden Partei vergeben. Dieser Identifikator verknüpft die einzelnen Übertragungen miteinander."
+    }
+  },
+  "isoRules": {
+    "RequestedSettlementDateRule": {
+      "definition": "Entweder darf TransferDetails/RequestedSettlementDate in einem oder mehreren Vorkommen von TransferDetails vorhanden sein oder SettlementDetails/RequestedSettlementDate darf vorhanden sein, aber nicht beides."
+    }
+  }
+}

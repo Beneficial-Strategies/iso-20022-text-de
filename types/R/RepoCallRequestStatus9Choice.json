@@ -1,0 +1,15 @@
+{
+  "isoType": "RepoCallRequestStatus9Choice",
+  "definition": "Auswahl des Formats für die Bestätigung des Abrufs des Rückkaufgeschäfts.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "Die Anweisung wurde vom kontoführenden Institut bestätigt."
+    },
+    "Denied": {
+      "definition": "Die Anweisung bzw. Anforderung wird nicht ausgeführt."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Status."
+    }
+  }
+}

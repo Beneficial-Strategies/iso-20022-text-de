@@ -1,0 +1,23 @@
+{
+  "isoType": "InvestmentAccount42",
+  "definition": "Konto zwischen einem oder mehreren Anlegern und einer Fondsverwaltungsgesellschaft oder einem Fonds. Das Konto kann Bestände an jedem von der Fondsverwaltungsgesellschaft verwalteten (oder vertriebenen) Investmentfonds oder jeder Anteilklasse eines Investmentfonds innerhalb derselben Fondsfamilie enthalten.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Kontos zwischen dem Kontoinhaber und der kontoführenden Stelle."
+    },
+    "OwnerIdentification": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    },
+    "AccountServicer": {
+      "definition": "Partei, die das Konto im Auftrag des Kontoinhabers führt, das heißt die Erfassung und Buchung von Umsätzen auf dem Konto verwaltet, die Salden des Kontos berechnet und Informationen über das Konto bereitstellt."
+    }
+  },
+  "isoRules": {
+    "AccountOrOwner1Rule": {
+      "definition": "Wenn AccountIdentification nicht vorhanden ist, muss OwnerIdentification vorhanden sein. AccountIdentification und OwnerIdentification können beide vorhanden sein."
+    },
+    "AccountOrOwner2Rule": {
+      "definition": "Wenn OwnerIdentification nicht vorhanden ist, muss AccountIdentification vorhanden sein. OwnerIdentification und AccountIdentification können beide vorhanden sein."
+    }
+  }
+}

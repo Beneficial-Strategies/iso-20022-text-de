@@ -1,0 +1,26 @@
+{
+  "isoType": "TypeOfIdentification2Code",
+  "definition": "Legt die Art der alternativen Identifikation fest, die zur alternativen Identifikation der identifizierten Partei verwendet werden kann.",
+  "isoCodes": {
+    "ARNU": {
+      "name": "Ausländerregistrierungsnummer",
+      "definition": "Von einer Regierungsbehörde zur Identifikation von Ausländern vergebene Nummer."
+    },
+    "CHTY": {
+      "name": "Steuerbefreiungsnummer",
+      "definition": "Einer steuerbefreiten Einheit zugewiesene Nummer."
+    },
+    "CORP": {
+      "name": "Unternehmensidentifikation",
+      "definition": "Einer Unternehmenseinheit zugewiesene Nummer."
+    },
+    "FIIN": {
+      "name": "Identifikationsnummer für Auslandsinvestitionen",
+      "definition": "Einem ausländischen Anleger zugewiesene Nummer (ausgenommen die Alien-Nummer)."
+    },
+    "TXID": {
+      "name": "Steuer-Identifikationsnummer",
+      "definition": "Von einer Steuerbehörde einer Einheit zugewiesene Nummer."
+    }
+  }
+}

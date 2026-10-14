@@ -1,0 +1,29 @@
+{
+  "isoType": "CorporateActionQuantity14",
+  "definition": "Gibt Mengen einer Kapitalmaßnahme an.",
+  "isoElements": {
+    "MaximumQuantity": {
+      "definition": "Die Höchstzahl an Wertpapieren, die der Anbieter/Emittent zu kaufen oder zurückzuzahlen bereit ist. Dies kann eine Zahl oder der Begriff „any and all“ sein."
+    },
+    "MinimumQuantitySought": {
+      "definition": "Mindestmenge an Wertpapieren, die der Anbieter/Emittent gemäß den Bedingungen des Ereignisses zu kaufen oder zurückzuzahlen bereit ist. Dies kann eine Zahl oder der Begriff „any and all“ sein."
+    },
+    "NewBoardLotQuantity": {
+      "definition": "Menge an Beteiligungspapieren, die den neuen Handelslot bildet."
+    },
+    "NewDenominationQuantity": {
+      "definition": "Neue Stückelung der Beteiligungspapiere nach zum Beispiel einer Erhöhung oder Herabsetzung des Nennwerts."
+    },
+    "BaseDenomination": {
+      "definition": "Minimaler ganzzahliger Betrag an Wertpapieren, den jeder Kontoinhaber nach Anwendung der gekündigten Beträge noch halten muss."
+    },
+    "IncrementalDenomination": {
+      "definition": "Betrag, der verwendet wird, wenn der gekündigte Betrag durch die Auslosung mit der Basisstückelung nicht erreicht wird."
+    }
+  },
+  "isoRules": {
+    "MaximumAndMinimumQuantitySoughtUsageRule": {
+      "definition": "Wenn MaximumQuantity vorhanden ist, muss auch MinimumQuantitySought vorhanden sein. Wenn MinimumQuantitySought vorhanden ist, muss auch MaximumQuantity vorhanden sein.|Wenn MinimumQuantitySought/Code gleich AnyAndAll ist, darf MaximumQuantity/Code nicht AnyAndAll sein.|Wenn MaximumQuantity/Code gleich AnyAndAll ist, darf MinimumQuantitySought/code nicht mit dem Wert AnyAndAll verwendet werden."
+    }
+  }
+}

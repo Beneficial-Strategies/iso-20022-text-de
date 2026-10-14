@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingOrderType1Choice",
+  "definition": "Legt die Art des Dauerauftrags für Liquiditätsübertragungen fest.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des Dauerauftrags für Liquiditätsübertragungen in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Art des Dauerauftrags für Liquiditätsübertragungen in Freitextform."
+    }
+  }
+}

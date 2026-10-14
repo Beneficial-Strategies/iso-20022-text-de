@@ -1,0 +1,12 @@
+{
+  "isoType": "Acquirer8",
+  "definition": "Institution, die für die Verwaltung des ATM zuständig ist.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation des ATM-Betreibers."
+    },
+    "ApplicationVersion": {
+      "definition": "Softwareversion der Anwendung."
+    }
+  }
+}

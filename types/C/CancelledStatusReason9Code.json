@@ -1,0 +1,42 @@
+{
+  "isoType": "CancelledStatusReason9Code",
+  "definition": "Gibt den zugrunde liegenden Grund für die Stornierung der zugehörigen Transaktion an.",
+  "isoCodes": {
+    "CANI": {
+      "name": "Von Ihnen storniert",
+      "definition": "Die Transaktion wurde von Ihnen selbst storniert."
+    },
+    "CANS": {
+      "name": "Vom System storniert",
+      "definition": "Die Transaktion wird vom System storniert."
+    },
+    "CSUB": {
+      "name": "Von der Bank storniert",
+      "definition": "Die Anweisung wurde vom Beauftragten aufgrund einer Verlängerung der Ereignisfrist storniert."
+    },
+    "CXLR": {
+      "name": "Laufzeitende",
+      "definition": "Die Transaktion wurde von der ausführenden Partei abgelehnt; die Ablehnung ist endgültig, daher wird der Auftrag im System storniert."
+    },
+    "CANT": {
+      "name": "Wegen Umwandlung storniert",
+      "definition": "Die ursprüngliche Transaktion wurde aufgrund einer Kapitalmaßnahme storniert und ersetzt."
+    },
+    "CANZ": {
+      "name": "Storniert, aufgeteilt, Teilabwicklung",
+      "definition": "Die ursprüngliche Transaktion wurde storniert und ersetzt, um eine Teil- oder Aufteilungsabwicklung zu ermöglichen."
+    },
+    "CORP": {
+      "name": "Wegen Kapitalmaßnahme storniert",
+      "definition": "Die Transaktion wurde aufgrund einer Kapitalmaßnahme storniert."
+    },
+    "SCEX": {
+      "name": "Wertpapiere nicht mehr zulässig",
+      "definition": "Die Transaktion wurde storniert; das Wertpapier existiert nicht mehr oder ist am angewiesenen Markt nicht mehr zugelassen. Bei Stornierungen im Zusammenhang mit Kapitalmaßnahmen ist CORP zu verwenden."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    }
+  }
+}

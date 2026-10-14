@@ -1,0 +1,12 @@
+{
+  "isoType": "ImpliedCurrencyAndAmountRange1",
+  "definition": "Drückt einen Betrag oder einen Betragsbereich mit einem ausdrücklichen Soll-/Haben-Kennzeichen aus, wobei die Währung impliziert ist.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Ein festgelegter Betrag oder Betragsbereich."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob es sich bei dem Betrag um einen Haben- oder einen Sollbetrag handelt."
+    }
+  }
+}

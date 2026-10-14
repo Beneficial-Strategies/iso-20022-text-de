@@ -1,0 +1,12 @@
+{
+  "isoType": "CashSettlement3",
+  "definition": "Parteien und Konten der Barabwicklung.",
+  "isoElements": {
+    "CashAccountDetails": {
+      "definition": "Zu belastendes oder gutzuschreibendes Konto. Handelt es sich um ein zu belastendes Konto, dient dies der Zahlung einer Zeichnung eines Investmentfonds, einer Sparplanzahlung, des Kaufs von Wertpapieren oder der Zahlung von Entgelten. Handelt es sich um ein gutzuschreibendes Konto, dient dies der Zahlung eines Betrags infolge einer Rücknahme von Investmentfondsanteilen, des Verkaufs von Wertpapieren sowie von Zins- und Dividendenzahlungen. Es kann ein einzelnes Konto für alle Geldbewegungen auf dem Konto angegeben werden, oder es können Geldkonten für bestimmte Arten von Transaktionen auf dem Konto angegeben werden."
+    },
+    "OtherCashSettlementDetails": {
+      "definition": "Zahlungsmethode, die kein Geldkonto ist."
+    }
+  }
+}

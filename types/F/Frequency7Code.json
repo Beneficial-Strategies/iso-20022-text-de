@@ -1,0 +1,42 @@
+{
+  "isoType": "Frequency7Code",
+  "definition": "Gibt die Regelmäßigkeit einer Maßnahme an.",
+  "isoCodes": {
+    "YEAR": {
+      "name": "Jährlich",
+      "definition": "Das Ereignis findet jedes Jahr bzw. einmal im Jahr statt."
+    },
+    "DAIL": {
+      "name": "Täglich",
+      "definition": "Das Ereignis findet jeden Tag statt."
+    },
+    "MNTH": {
+      "name": "Monatlich",
+      "definition": "Das Ereignis findet jeden Monat bzw. einmal im Monat statt."
+    },
+    "QURT": {
+      "name": "Vierteljährlich",
+      "definition": "Das Ereignis findet alle drei Monate bzw. viermal im Jahr statt."
+    },
+    "MIAN": {
+      "name": "Halbjährlich",
+      "definition": "Das Ereignis findet alle sechs Monate bzw. zweimal im Jahr statt."
+    },
+    "TEND": {
+      "name": "Zehn Tage",
+      "definition": "Das Ereignis findet alle zehn Geschäftstage statt."
+    },
+    "MOVE": {
+      "name": "Durch Bewegung ausgelöst",
+      "definition": "Das Ereignis findet am Tagesende statt, wenn auf dem Konto eine Bewegung stattgefunden hat; andernfalls wird an diesem Tag nichts gesendet."
+    },
+    "WEEK": {
+      "name": "Wöchentlich",
+      "definition": "Das Ereignis findet einmal pro Woche statt."
+    },
+    "INDA": {
+      "name": "Untertägig",
+      "definition": "Das Ereignis findet mehrmals täglich statt."
+    }
+  }
+}

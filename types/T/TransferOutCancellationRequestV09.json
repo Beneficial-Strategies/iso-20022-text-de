@@ -1,0 +1,9 @@
+{
+  "isoType": "TransferOutCancellationRequestV09",
+  "definition": "Anwendungsbereich|Die Nachricht TransferOutCancellationRequest wird von einer anweisenden Partei, zum Beispiel einem Vermögensverwalter oder dessen bevollmächtigtem Vertreter, an die ausführende Partei, zum Beispiel eine Transferstelle, gesendet, um die Stornierung einer zuvor gesendeten Übertragungsausgangsanweisung zu beantragen.|Verwendung|Die Nachricht TransferOutCancellationRequest wird verwendet, um die Stornierung einer oder mehrerer Übertragungsausgangsanweisungen zu beantragen.|Es gibt keine Änderung, sondern ein Verfahren aus Stornierung und erneuter Anweisung.|Um die Stornierung einer oder mehrerer Übertragungsausgangsanweisungen zu beantragen, wird die Übertragungsreferenz der Übertragung, wie in der ursprünglichen Nachricht TransferOutInstruction angegeben, im Element für die Übertragungsreferenz angegeben.|Die Nachrichtenidentifikation der ursprünglichen Nachricht TransferOutInstruction kann auch in PreviousReference angegeben werden, dies wird jedoch nicht empfohlen.|Die Frist und die Annahme eines Stornierungsauftrags unterliegen einer Dienstgütevereinbarung (SLA). Diese Stornierungsnachricht ist ein Stornierungsauftrag. Es gibt keine automatische Annahme der Stornierung.|Die Ablehnung oder Annahme einer TransferOutCancellationRequest erfolgt mittels einer Nachricht TransferCancellationStatusReport.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Eindeutiger Identifikator für eine Gruppe einzelner Übertragungen, wie von der anweisenden Partei vergeben. Dieser Identifikator verknüpft die einzelnen Übertragungen miteinander."
+    }
+  }
+}

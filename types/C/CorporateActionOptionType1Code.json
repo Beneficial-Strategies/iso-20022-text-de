@@ -1,0 +1,86 @@
+{
+  "isoType": "CorporateActionOptionType1Code",
+  "definition": "Gibt die Art der CA-Optionen an.",
+  "isoCodes": {
+    "BSPL": {
+      "name": "Bonusaktienplan",
+      "definition": "Erhalt von Aktien, die aus der Agio-Rücklage der Gesellschaft ausgegeben werden und als Kapitalausschüttung und nicht als Ertragsausschüttung gelten, mit anderen steuerlichen Folgen (typischerweise in Australien anzutreffen)."
+    },
+    "BUYA": {
+      "name": "Aufstockung",
+      "definition": "Kauf zusätzlicher Wertpapiere, um den Bestand aufzurunden."
+    },
+    "CASE": {
+      "name": "Bargeld und Wertpapiere",
+      "definition": "Die Wahlmöglichkeit umfasst eine Kombination aus Barmitteln und Wertpapieren."
+    },
+    "CASH": {
+      "name": "Bargeld",
+      "definition": "Ausschüttung von Barmitteln."
+    },
+    "CEXC": {
+      "name": "Zustimmung und Umtausch",
+      "definition": "Stimme für die Zustimmung zur Änderung der Bedingungen der Wertpapiervereinbarung und zum Umtausch von Wertpapieren."
+    },
+    "CTEN": {
+      "name": "Zustimmung und Andienung",
+      "definition": "Stimme für die Zustimmung zur Änderung der Bedingungen der Wertpapiervereinbarung und zum Angebot von Wertpapieren gegen Barzahlung."
+    },
+    "CONN": {
+      "name": "Zustimmung verweigert",
+      "definition": "Stimme gegen die Genehmigung des Ereignisses oder Vorschlags."
+    },
+    "CONY": {
+      "name": "Zustimmung erteilt",
+      "definition": "Stimme für die Genehmigung des Ereignisses oder Vorschlags."
+    },
+    "EXER": {
+      "name": "Ausüben",
+      "definition": "Ausübung von Zwischenwertpapieren oder Optionsscheinen."
+    },
+    "LAPS": {
+      "name": "Verfallen lassen",
+      "definition": "Verfall des Ereignisses oder des bezugsberechtigten Wertpapiers zulassen."
+    },
+    "MPUT": {
+      "name": "Behalten",
+      "definition": "Eine Option, die es einem Inhaber erlaubt, sich für das Behalten seines Bestands zu entscheiden, z. B. eine Anleihe mit Verkaufsoption."
+    },
+    "NOAC": {
+      "name": "Keine Maßnahme",
+      "definition": "Option für den Kontoinhaber, nicht an dem Ereignis teilzunehmen."
+    },
+    "OFFR": {
+      "name": "Vorgeschlagener Satz",
+      "definition": "Bei einer Neuvermarktung variabel verzinslicher Schuldverschreibungen die Marge, die Aktionäre für die nächste Zinsperiode vorschlagen können."
+    },
+    "OVER": {
+      "name": "Überzeichnen",
+      "definition": "Zeichnung von mehr Aktien, als der zugrunde liegende Wertpapierbestand zulässt."
+    },
+    "SECU": {
+      "name": "Wertpapieroption",
+      "definition": "Ausschüttung von Wertpapieren an die Inhaber."
+    },
+    "SLLE": {
+      "name": "Anspruch verkaufen",
+      "definition": "Verkauf der Zwischenwertpapiere."
+    },
+    "SPLI": {
+      "name": "Geteilte Anweisung",
+      "definition": "Option zur Erteilung einer geteilten Anweisung, z. B. einer geteilten Stimmrechtsanweisung bei einer Versammlung."
+    },
+    "NOQU": {
+      "name": "Nicht qualifizierter Anleger",
+      "definition": "Der Kontoinhaber ist ein nicht qualifizierter Anleger."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Allgemeine Kapitalmaßnahmen-Option, die zu verwenden ist, wenn kein anderer spezifischer Code geeignet ist."
+    },
+    "QINV": {
+      "name": "Qualifizierter Anleger",
+      "definition": "Der Kontoinhaber ist ein qualifizierter Anleger."
+    }
+  }
+}

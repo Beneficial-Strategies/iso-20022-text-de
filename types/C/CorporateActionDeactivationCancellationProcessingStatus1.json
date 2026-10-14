@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDeactivationCancellationProcessingStatus1",
+  "definition": "Stellt die Informationen zum Verarbeitungsstatus für einen Antrag auf Stornierung einer Deaktivierung bereit.",
+  "isoElements": {
+    "Status": {
+      "definition": "Der Bearbeitungsstatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

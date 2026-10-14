@@ -1,0 +1,15 @@
+{
+  "isoType": "DisplayCapabilities1",
+  "definition": "Fähigkeiten der Anzeigekomponenten, die die Transaktion ausführen.",
+  "isoElements": {
+    "DisplayType": {
+      "definition": "Art der Anzeige (zum Beispiel Händler oder Karteninhaber)."
+    },
+    "NumberOfLines": {
+      "definition": "Anzahl der Zeilen der Anzeigekomponente."
+    },
+    "LineWidth": {
+      "definition": "Anzahl der Spalten der Anzeigekomponente."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalanceQueryDefinition10",
+  "definition": "Legt die Informationen fest, die anhand bestimmter Kriterien gesucht werden.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Legt den Abfragetyp fest."
+    },
+    "SearchCriteria": {
+      "definition": "Legt die Kriterien zum Extrahieren der Anweisungsinformationen für die Bewegung innerhalb des Saldos fest."
+    }
+  }
+}

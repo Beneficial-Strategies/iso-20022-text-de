@@ -1,0 +1,18 @@
+{
+  "isoType": "RatioFormat19Choice",
+  "definition": "Auswahl des Formats zur Angabe eines Verhältnisses.",
+  "isoElements": {
+    "QuantityToQuantity": {
+      "definition": "Verhältnis, ausgedrückt als Quotient von Mengen."
+    },
+    "AmountToAmount": {
+      "definition": "Als Quotient von Beträgen ausgedrücktes Verhältnis."
+    },
+    "AmountToQuantity": {
+      "definition": "Als Verhältnis von Betrag zu Menge ausgedrücktes Verhältnis."
+    },
+    "QuantityToAmount": {
+      "definition": "Als Verhältnis von Menge zu Betrag ausgedrücktes Verhältnis."
+    }
+  }
+}

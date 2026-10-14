@@ -1,0 +1,14 @@
+{
+  "isoType": "ApplicableRules1Code",
+  "definition": "Gibt anwendbare Regeln an.",
+  "isoCodes": {
+    "NPRE": {
+      "name": "Nicht vor A-Day",
+      "definition": "Die Pre-A-Day-Regeln gelten nicht."
+    },
+    "YPRE": {
+      "name": "Vor A-Day",
+      "definition": "Die Pre-A-Day-Regeln gelten."
+    }
+  }
+}

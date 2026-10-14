@@ -1,0 +1,42 @@
+{
+  "isoType": "InstructedCorporateActionOption22",
+  "definition": "Liefert Details zur Kapitalmaßnahmen-Option über den gesamten angewiesenen Bestand.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "InstructedBalance": {
+      "definition": "Saldo der angewiesenen Position."
+    },
+    "DefaultAction": {
+      "definition": "Gibt die Standardaktion in Bezug auf ein Kapitalmaßnahmen-Ereignis an."
+    },
+    "OptionAcceptedInstructedBalance": {
+      "definition": "Tagessumme der für eine bestimmte Option eingegangenen akzeptierten Anweisungen."
+    },
+    "OptionCancelledInstructionBalance": {
+      "definition": "Tagessumme der stornierten Anweisungen für eine bestimmte Option."
+    },
+    "OptionPendingInstructionBalance": {
+      "definition": "Tagessumme der ausstehenden Anweisungen im Status „ausstehend“ für eine bestimmte Option.  Sie umfasst ausstehende Stornierungsanweisungen."
+    },
+    "OptionRejectedInstructionBalance": {
+      "definition": "Tagessumme der abgelehnten Anweisungen für eine bestimmte Option."
+    },
+    "OptionReturnedInstructedBalance": {
+      "definition": "Tagessumme der für eine bestimmte Option eingegangenen zurückgegebenen Anweisungen."
+    },
+    "OptionProtectInstructionBalance": {
+      "definition": "Tagessumme aller Protect-Anweisungen für eine bestimmte Option."
+    },
+    "EventDeadlines": {
+      "definition": "Liefert Informationen zu den Fristen einer Kapitalmaßnahmen-Option."
+    },
+    "OptionInstructionDetails": {
+      "definition": "Für die jeweilige Option eingegangene Anweisungsdetails."
+    }
+  }
+}

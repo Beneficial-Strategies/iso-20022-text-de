@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchInformationRequestV06",
+  "definition": "Die Nachricht AccountSwitchInformationRequest wird vom neuen kontoführenden Institut an das Institut gesendet, das das Konto zuvor geführt hat, um den Kontowechselprozess einzuleiten. Sie enthält ausreichende Informationen, damit das alte kontoführende Institut das alte Konto identifizieren und die Kontoparteien validieren kann. Das neue kontoführende Institut kann die alte Bank über die maximale Finanzierung informieren, die das neue Konto zum Ausgleich eines negativen Schlusssaldos bereitstellt, sowie über das vorgeschlagene Fenster für die Saldoübertragung."
+}

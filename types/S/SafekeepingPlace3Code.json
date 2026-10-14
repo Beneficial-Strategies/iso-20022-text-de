@@ -1,0 +1,10 @@
+{
+  "isoType": "SafekeepingPlace3Code",
+  "definition": "Gibt die Art des Verwahrorts an.",
+  "isoCodes": {
+    "SHHE": {
+      "name": "Anderweitig verwahrte Anteile",
+      "definition": "Wird für bestimmte Finanzinstrumente verwendet, zum Beispiel US-Investmentfonds, bei denen die Abwicklung nur intern erfolgt, das heißt, es findet keine externe Wertpapierbewegung statt."
+    }
+  }
+}

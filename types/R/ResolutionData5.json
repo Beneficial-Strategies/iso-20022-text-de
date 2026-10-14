@@ -1,0 +1,30 @@
+{
+  "isoType": "ResolutionData5",
+  "definition": "Gibt zusätzliche Informationen an, wie sie von der Partei erwartet werden, damit die Untersuchung die erwarteten Maßnahmen zur Lösung durchführt.",
+  "isoElements": {
+    "EndToEndIdentification": {
+      "definition": "Eindeutige Identifikation, von der ursprünglichen initiierenden Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Transaktion."
+    },
+    "TransactionIdentification": {
+      "definition": "Eindeutige Identifikation, von der ursprünglichen ersten anweisenden Bank vergeben, zur zweifelsfreien Identifikation der Transaktion."
+    },
+    "UETR": {
+      "definition": "Universell eindeutiger Identifikator als Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Geldbetrag, der zwischen der anweisenden und der angewiesenen Bank bewegt wird."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag der schuldenden Bank nicht mehr zur Verfügung steht und der Bank, der er zusteht, zur Verfügung steht."
+    },
+    "ClearingChannel": {
+      "definition": "Gibt den Clearing-Kanal an, über den der Zahlungsauftrag verarbeitet werden soll."
+    },
+    "Compensation": {
+      "definition": "Enthält die Einzelheiten der Ausgleichszahlung, die aufgrund der Änderung oder Stornierung einer früheren Zahlung erfolgt."
+    },
+    "ChargesInformation": {
+      "definition": "Enthält Angaben zu den Entgelten, die der oder die Entgeltträger im Zusammenhang mit der Zahlungstransaktion zu zahlen haben."
+    }
+  }
+}

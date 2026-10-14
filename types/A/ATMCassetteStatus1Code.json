@@ -1,0 +1,46 @@
+{
+  "isoType": "ATMCassetteStatus1Code",
+  "definition": "Status einer Kassette in einem ATM.",
+  "isoCodes": {
+    "CUOK": {
+      "name": "In Ordnung",
+      "definition": "Die Geldeinheit befindet sich in einem guten Zustand."
+    },
+    "CUFL": {
+      "name": "Voll",
+      "definition": "Die Geldeinheit ist voll."
+    },
+    "CUHG": {
+      "name": "Hoch",
+      "definition": "Die Geldeinheit ist hoch gefüllt, das heißt, sie hat den für diese Kassette festgelegten Schwellenwert erreicht oder überschritten."
+    },
+    "CULW": {
+      "name": "Niedrig",
+      "definition": "Die Geldeinheit ist niedrig gefüllt, das heißt, sie hat den für diese Kassette festgelegten Schwellenwert erreicht oder unterschritten."
+    },
+    "CUMT": {
+      "name": "Leer",
+      "definition": "Die Geldeinheit ist leer."
+    },
+    "CUNP": {
+      "name": "Nicht betriebsbereit",
+      "definition": "Die Geldeinheit ist nicht betriebsbereit."
+    },
+    "CUMS": {
+      "name": "Fehlend",
+      "definition": "Die Geldeinheit fehlt."
+    },
+    "CUNA": {
+      "name": "Nicht verfügbar",
+      "definition": "Die Werte dieser Geldeinheit sind nicht verfügbar."
+    },
+    "CUNR": {
+      "name": "Keine Referenz",
+      "definition": "Für diese Geldeinheit sind keine Referenzwerte verfügbar."
+    },
+    "CUMP": {
+      "name": "Manipuliert",
+      "definition": "Das Gerät wurde eingesetzt, als sich das Gerät nicht in einem Austauschzustand befand."
+    }
+  }
+}

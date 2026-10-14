@@ -1,0 +1,12 @@
+{
+  "isoType": "Disclosure3Choice",
+  "definition": "Auswahl zwischen der Angabe, dass keine Offenlegung erfolgt, und der Bereitstellung von Informationen zur Offenlegung des Aktienbesitzes.",
+  "isoElements": {
+    "NoDisclosure": {
+      "definition": "Informationen zum Aktienbesitz werden nicht offengelegt."
+    },
+    "SafekeepingAccountAndHoldings": {
+      "definition": "Details des Kontos, der Unterebenen des Kontos und der Bestände."
+    }
+  }
+}

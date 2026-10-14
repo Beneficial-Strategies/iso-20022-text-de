@@ -1,0 +1,30 @@
+{
+  "isoType": "IntraBalanceModification8",
+  "definition": "Enthält die Einzelheiten der Änderungsaufträge.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Konto, auf das oder von dem eine Geldbuchung erfolgt."
+    },
+    "CashAccountOwner": {
+      "definition": "Partei, der das Konto gehört."
+    },
+    "CashAccountServicer": {
+      "definition": "Partei, die das Geldkonto im Auftrag des Kontoinhabers führt, das heißt die Registrierung und Buchung von Einträgen auf dem Konto verwaltet, Salden des Kontos berechnet und Informationen zum Konto bereitstellt."
+    },
+    "ProcessingStatus": {
+      "definition": "Status und Statusgrund der Transaktion."
+    },
+    "RequestReference": {
+      "definition": "Eindeutige Identifikation des Änderungsauftrags."
+    },
+    "StatusDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Status zugewiesen wurde."
+    },
+    "RequestDetails": {
+      "definition": "Einzelheiten des Auftrags mit den Änderungen und den Referenzen der Anweisung, für die die Änderung beantragt wird."
+    },
+    "UnderlyingIntraBalance": {
+      "definition": "Identifiziert zusätzliche Details der Transaktion."
+    }
+  }
+}

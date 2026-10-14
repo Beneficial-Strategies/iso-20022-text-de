@@ -1,0 +1,138 @@
+{
+  "isoType": "ExternalCancellationReason1Code",
+  "definition": "Gibt den Stornierungsgrund an, wie in einer externen Codeliste für Stornierungsgründe veröffentlicht.|Externe Codelisten können unter www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "AC02": {
+      "name": "Ungültige Kontonummer des Zahlungspflichtigen",
+      "definition": "Kontonummer des Zahlungspflichtigen ungültig oder fehlend."
+    },
+    "AC03": {
+      "name": "Ungültige Kontonummer des Zahlungsempfängers",
+      "definition": "Falsche Kontonummer in der Überweisung."
+    },
+    "AGNT": {
+      "name": "Falsche Bank",
+      "definition": "Die Bank im Zahlungsablauf ist nicht korrekt."
+    },
+    "AM09": {
+      "name": "Falscher Betrag",
+      "definition": "Der Betrag entspricht nicht dem vereinbarten oder erwarteten Betrag."
+    },
+    "BE16": {
+      "name": "Ungültiger Identifikationscode des Zahlungspflichtigen",
+      "definition": "Identifikationscode des Zahlungspflichtigen oder Letztlich Zahlungspflichtigen fehlt oder ist ungültig."
+    },
+    "COVR": {
+      "name": "Deckung storniert oder zurückgegeben",
+      "definition": "Die Deckungszahlung wurde entweder zurückgegeben oder storniert."
+    },
+    "CURR": {
+      "name": "Falsche Währung",
+      "definition": "Die Währung der Zahlung ist nicht korrekt."
+    },
+    "CUST": {
+      "name": "Vom Kunden angefordert",
+      "definition": "Stornierung vom Zahlungspflichtigen beantragt."
+    },
+    "CUTA": {
+      "name": "Stornierung bei Nichtanwendbarkeit",
+      "definition": "Stornierung beantragt, weil eine Untersuchungsanfrage eingegangen ist und keine Abhilfe möglich ist."
+    },
+    "DS24": {
+      "name": "Zeitüberschreitung",
+      "definition": "Stornierung beantragt, weil der ursprüngliche Zahlungsauftrag wegen Zeitüberschreitung abgelaufen ist."
+    },
+    "DT01": {
+      "name": "Ungültiges Datum",
+      "definition": "Ungültiges Datum (zum Beispiel falsches oder fehlendes Abwicklungsdatum)."
+    },
+    "DUPL": {
+      "name": "Doppelte Zahlung",
+      "definition": "Die Zahlung ist ein Duplikat einer anderen Zahlung."
+    },
+    "FRAD": {
+      "name": "Betrügerischer Ursprung",
+      "definition": "Stornierung beantragt nach einer Transaktion, die betrügerisch veranlasst wurde. Die Verwendung des Codes FraudulentOrigin sollte durch die jeweilige Rechtsordnung geregelt werden."
+    },
+    "FRNA": {
+      "name": "An die nächste Bank weiterleiten",
+      "definition": "Zur Ergänzung einer Ablehnungsantwort; weist darauf hin, dass der Stornierungsantrag an die nächste Bank in der Zahlungstransaktionskette weitergeleitet werden sollte."
+    },
+    "FRTR": {
+      "name": "Endgültige Antwort",
+      "definition": "Nachverfolgung der Lastschrift als Mandat widerrufen zurückgerufen."
+    },
+    "INDM": {
+      "name": "Schadloshaltung erforderlich",
+      "definition": "Zum Ausdruck des Wunsches, eine bilaterale Haftungsfreistellungsvereinbarung zu schließen."
+    },
+    "MODT": {
+      "name": "Geänderte Transaktion",
+      "definition": "Die dem RTP zugrunde liegende Transaktion wurde geändert."
+    },
+    "PAID": {
+      "name": "Transaktion bereits bezahlt",
+      "definition": "Die dem RTP zugrunde liegende Transaktion wurde bereits (auf anderem Wege) bezahlt."
+    },
+    "SVNR": {
+      "name": "Leistung nicht erbracht",
+      "definition": "Die Zahlung wird storniert, da ein ausgezahlter Barbetrag nicht korrekt war oder dem Kunden Waren oder eine Dienstleistung nicht geliefert wurden, z. B. im E-Commerce."
+    },
+    "SYAD": {
+      "name": "Anfrage an den Administrator des Abwicklungssystems",
+      "definition": "Stornierung, die ein Systemteilnehmer beim Abwicklungssystem-Administrator beantragt, um anzuzeigen, dass der Stornierungsantrag nicht weiter in der Kette weitergeleitet werden darf."
+    },
+    "TECH": {
+      "name": "Technisches Problem",
+      "definition": "Stornierung beantragt nach technischen Problemen, die zu einer fehlerhaften Transaktion geführt haben."
+    },
+    "UPAY": {
+      "name": "Ungerechtfertigte Zahlung",
+      "definition": "Die Zahlung ist nicht gerechtfertigt."
+    },
+    "ENUE": {
+      "name": "Fehler des Endnutzers",
+      "definition": "Stornierung oder Rückgabeersuchen, vom Zahlungspflichtigen speziell aufgrund eines oder mehrerer Fehler des Zahlungspflichtigen in der ursprünglichen Überweisung beantragt. Verwendung: Dieser Code kann für jeden vom Zahlungspflichtigen gemachten Fehler in der ursprünglichen Überweisung verwendet werden. Er kann auch verwendet werden, wenn mehrere Fehler in der ursprünglichen Überweisung gemacht wurden."
+    },
+    "UAPA": {
+      "name": "Nicht autorisierte Zahlung",
+      "definition": "Der Zahlungspflichtige beantragt die Rückgabe der Zahlung, weil die Zahlung nicht ordnungsgemäß autorisiert war.|Verwendung: Dieser Code kann verwendet werden, wenn eine Überweisung ohne ordnungsgemäße Autorisierung des Zahlungspflichtigen erfolgte. Dies kann auf kompromittierte Zugangsdaten des Endnutzers zurückzuführen sein."
+    },
+    "NARR": {
+      "name": "Freitext",
+      "definition": "Der Grund wird als Freitext in den zusätzlichen Grundinformationen angegeben."
+    },
+    "INCR": {
+      "name": "Ungültige Stornierungsanfrage",
+      "definition": "Einen Stornierungsantrag mit fehlerhafter Referenz auf den ursprünglichen Sammelauftrag bearbeiten."
+    },
+    "BIAS": {
+      "name": "Sammelanweisung bereits abgewickelt",
+      "definition": "Einen Stornierungsantrag bearbeiten, obwohl der Sammelauftrag bereits abgewickelt ist."
+    },
+    "DRTP": {
+      "name": "Doppelte Zahlungsaufforderung",
+      "definition": "Duplizierung einer Nachricht zur Zahlungsaufforderung (Request-to-Pay)."
+    },
+    "WNTB": {
+      "name": "Gewährleistungsverletzung",
+      "definition": "Verletzung der im Zusammenhang mit einer Zahlungsaufforderung gegebenen Gewährleistung."
+    },
+    "MD06": {
+      "name": "Erstattungsanfrage des Endkunden",
+      "definition": "Rückgabe der Mittel vom Endkunden beantragt."
+    },
+    "PPRC": {
+      "name": "Stornierung der RTP durch den Teilnehmer des Zahlungsempfängers",
+      "definition": "Stornierung der Zahlungsaufforderung (Request to Pay) veranlasst, weil der Zahlungsempfänger nicht in gutem Ansehen steht."
+    },
+    "ECAG": {
+      "name": "Fehler bei der Bank des Zahlungsempfängers",
+      "definition": "Der Zahlungsempfänger (Creditor) storniert die Zahlungsaufforderung (Request To Pay, RTP) aufgrund eines Fehlers oder einer Anpassungsvereinbarung mit dem Zahler/Zahlungspflichtigen."
+    },
+    "NFNA": {
+      "name": "Nie an die nächste Bank weiterleiten",
+      "definition": "Zur Ergänzung eines Stornierungsantrags; weist die Marktinfrastruktur an, dass der Stornierungsantrag nicht an die nächste Bank in der Zahlungstransaktionskette weitergeleitet werden soll."
+    }
+  }
+}

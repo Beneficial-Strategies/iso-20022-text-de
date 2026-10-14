@@ -1,0 +1,12 @@
+{
+  "isoType": "CreditorReferenceType1Choice",
+  "definition": "Gibt die Art des vom Zahlungsempfänger referenzierten Dokuments an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der Zahlungsempfänger-Referenz in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Art der Zahlungsempfänger-Referenz in proprietärer Form."
+    }
+  }
+}

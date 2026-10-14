@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope40",
+  "definition": "Umfang der Änderung, die auf einen bestimmten Informationssatz anzuwenden ist.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Art der anzuwendenden Änderung."
+    },
+    "Intermediary": {
+      "definition": "Intermediär oder andere Partei im Zusammenhang mit der Verwaltung des Kontos."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "Eligible1Code",
+  "definition": "Gibt an, ob der Posten zulässig oder nicht zulässig ist.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Berechtigt",
+      "definition": "Der Posten ist zulässig."
+    },
+    "NELI": {
+      "name": "Nicht berechtigt",
+      "definition": "Der Posten ist nicht zulässig."
+    }
+  }
+}

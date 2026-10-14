@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingBalanceType1Choice",
+  "definition": "Legt die Art des Abrechnungssaldos fest.",
+  "isoElements": {
+    "Code": {
+      "definition": "Legt die Art des Abrechnungssaldos fest, wie in einer externen Codeliste für Abrechnungssaldoarten veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Legt die Art des Abrechnungssaldos in einem proprietären Format fest."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "InvestigationActionReason1",
+  "definition": "Liefert Informationen zum Maßnahmengrund.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Partei, die die Maßnahme anfordert."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Maßnahme an."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Einzelheiten zum Maßnahmengrund."
+    }
+  },
+  "isoRules": {
+    "StatusReasonRule": {
+      "definition": "Wenn Reason/Code gleich NARR ist, muss AddititionalInformation vorhanden sein."
+    }
+  }
+}

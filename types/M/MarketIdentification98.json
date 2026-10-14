@@ -1,0 +1,17 @@
+{
+  "isoType": "MarketIdentification98",
+  "definition": "Kontext oder geografisches Umfeld, in dem Handelsparteien zusammentreffen können, um untereinander Handelsgeschäfte auszuhandeln und auszuführen.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Code, der Handelsplätzen (Börsen), regulierten Märkten (zum Beispiel Electronic Trading Platforms - ECN) und nicht regulierten Märkten (zum Beispiel Automated Trading Systems - ATS) als Quellen für Preise und zugehörige Informationen zugewiesen wird, um die automatisierte Verarbeitung zu erleichtern."
+    },
+    "Type": {
+      "definition": "Art eines Marktes, an dem Transaktionen stattfinden."
+    }
+  },
+  "isoRules": {
+    "SmartContractAutomatedPricingRule": {
+      "definition": "Wenn Type/Code nicht SmartContractAutomatedPricingSystem (SCAS) entspricht, darf die Länge von Identification/Description höchstens 35 Zeichen betragen."
+    }
+  }
+}

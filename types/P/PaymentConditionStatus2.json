@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentConditionStatus2",
+  "definition": "Gibt die Einzelheiten zum Status der Zahlungsbedingungen an.",
+  "isoElements": {
+    "AcceptedAmount": {
+      "definition": "Betrag, dessen Zahlung akzeptiert wurde.||Verwendung:|Darf nur vorhanden sein, wenn AmountModificationAllowed in der Anforderung vorhanden ist."
+    },
+    "GuaranteedPayment": {
+      "definition": "Gibt an, ob die DebtorAgent die Zahlung garantiert, vorausgesetzt, zwischen den beteiligten Akteuren besteht ein Zahlungsgarantievertrag.||Verwendung: Wenn das Element nicht vorhanden ist, lautet der Standardwert „Nicht zutreffend“."
+    },
+    "EarlyPayment": {
+      "definition": "Gibt an, ob der Zahlungspflichtige vor dem gewünschten Ausführungsdatum zahlen wird.||Verwendung: Wenn das Element nicht vorhanden ist, lautet der Standardwert „Nicht zutreffend“."
+    }
+  }
+}

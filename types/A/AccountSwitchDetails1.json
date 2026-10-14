@@ -1,0 +1,30 @@
+{
+  "isoType": "AccountSwitchDetails1",
+  "definition": "Details des Kontowechsels, einschließlich seines Status und etwaiger Antwortcodes.",
+  "isoElements": {
+    "UniqueReferenceNumber": {
+      "definition": "Eindeutige Nummer, die den Kontowechsel eindeutig und zweifelsfrei identifiziert."
+    },
+    "RoutingUniqueReferenceNumber": {
+      "definition": "Eindeutige Nummer, die den Kontowechsel eindeutig und zweifelsfrei identifiziert. ||Verwendung: Wenn seit dem ursprünglichen Kontowechsel ein oder mehrere Kontowechsel stattgefunden haben, enthält dieses Feld die eindeutige Nummer, die sich auf den Wechsel bezieht, durch den das Konto zum letzten neuen Kontoführer übertragen wurde."
+    },
+    "SwitchReceivedDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen die Anfrage vom zentralen Wechselservice empfangen wurde; wird nur vom zentralen Wechselservice befüllt."
+    },
+    "SwitchDate": {
+      "definition": "Datum, an dem der Kontowechsel voraussichtlich abgeschlossen ist. Der Wert entspricht dem angestrebten Wechseldatum, wenn der Wechsel im erwarteten Zeitrahmen abgeschlossen wird."
+    },
+    "SwitchType": {
+      "definition": "Gibt an, ob der Kontowechsel ein vollständiger oder ein teilweiser Wechsel ist.||Verwendung: Ein vollständiger Wechsel bedeutet die Übertragung des gesamten Saldos des Kontos und der zugehörigen Zahlungsmandate. Ein teilweiser Wechsel bedeutet die Übertragung bestimmter Zahlungsmandate auf ein neues Konto."
+    },
+    "SwitchStatus": {
+      "definition": "Status des Kontowechsels zum Zeitpunkt des Sendens der Nachricht."
+    },
+    "BalanceTransferWindow": {
+      "definition": "Identifiziert das Verarbeitungsfenster, in dem die Saldoübertragung am Tag des Kontowechsels verarbeitet wird."
+    },
+    "Response": {
+      "definition": "Antwortcode und zusätzliche Informationen."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "Charges5Choice",
+  "definition": "Gibt die Auswahl zwischen Entgelten einer einzelnen Transaktion, konsolidierten Entgelten je Transaktion oder je Entgeltart an.",
+  "isoElements": {
+    "Single": {
+      "definition": "Entgelte im Zusammenhang mit einer einzelnen Zahlungstransaktion."
+    },
+    "PerTransaction": {
+      "definition": "Entgelte, aufgeschlüsselt nach Zahlungstransaktion."
+    },
+    "PerType": {
+      "definition": "Entgelte, aufgeschlüsselt nach Entgeltart."
+    }
+  }
+}

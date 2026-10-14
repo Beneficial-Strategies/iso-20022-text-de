@@ -1,0 +1,24 @@
+{
+  "isoType": "MarketClaimProcessingStatus2Choice",
+  "definition": "Auswahl zwischen verschiedenen Verarbeitungsstatus der Anweisung.",
+  "isoElements": {
+    "Cancelled": {
+      "definition": "Liefert Statusinformationen zu einem stornierten Anweisungsauftrag."
+    },
+    "AcceptedForFurtherProcessing": {
+      "definition": "Liefert Statusinformationen zu einem akzeptierten Anweisungsauftrag. Das bedeutet, dass die Anweisung eingegangen ist, bearbeitbar ist und für die weitere Bearbeitung validiert wurde."
+    },
+    "Rejected": {
+      "definition": "Liefert Statusinformationen zu einem Anweisungsauftrag, der aus systembedingten Gründen für die weitere Bearbeitung abgelehnt wurde."
+    },
+    "Pending": {
+      "definition": "Liefert Statusinformationen zu einer ausstehenden Anweisung."
+    },
+    "MatchingStatus": {
+      "definition": "Liefert den Abgleichsstatus der Anweisung."
+    },
+    "ProprietaryStatus": {
+      "definition": "Proprietärer Status im Zusammenhang mit einer Anweisung."
+    }
+  }
+}

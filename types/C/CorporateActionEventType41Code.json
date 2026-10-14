@@ -1,0 +1,150 @@
+{
+  "isoType": "CorporateActionEventType41Code",
+  "definition": "Gibt die Art des Kapitalmaßnahmenereignisses an.",
+  "isoCodes": {
+    "DRIP": {
+      "name": "Dividendenwiederanlage",
+      "definition": "Dividendenzahlung, bei der die Inhaber das Bargeld behalten oder vom Emittenten am Markt in zusätzliche Aktien des emittierenden Unternehmens reinvestieren lassen können. Abzugrenzen von DVOP, da das Unternehmen die Dividende am Markt investiert, anstatt im Austausch gegen die Dividende neues Aktienkapital zu schaffen."
+    },
+    "CAPG": {
+      "name": "Ausschüttung von Kapitalgewinnen",
+      "definition": "Das Ereignis ist die Ausschüttung von Gewinnen aus dem Verkauf von Wertpapieren. Anteilseigner von Investmentfonds, Unit Trusts oder SICAVs sind Empfänger von Kapitalgewinnausschüttungen, die häufig in zusätzliche Fondsanteile reinvestiert werden."
+    },
+    "DVCA": {
+      "name": "Bardividende",
+      "definition": "Barausschüttung an die Inhaber im Verhältnis zu ihrem Eigenkapitalanteil. Ordentliche Dividenden sind wiederkehrend und regelmäßig. Der Inhaber muss die Barzahlung annehmen und kann eine Wahl zwischen Währungen angeboten bekommen."
+    },
+    "DVOP": {
+      "name": "Dividendenwahlrecht",
+      "definition": "Ausschüttung einer Dividende an die Inhaber mit Wahlmöglichkeit zwischen zusätzlichen Wertpapieren oder Bargeld. Abzugrenzen von DRIP, da das Unternehmen im Austausch gegen die Dividende neues Aktienkapital schafft, anstatt die Dividende am Markt zu investieren."
+    },
+    "MRGR": {
+      "name": "Fusion",
+      "definition": "Vom Emittenten veranlasster Umtausch ausstehender Wertpapiere, der Optionen umfassen kann, infolge der Zusammenlegung von Vermögenswerten zweier oder mehrerer Unternehmen, d. h. eines externen Drittunternehmens. Barzahlungen können den Aktientausch begleiten."
+    },
+    "SOFF": {
+      "name": "Abspaltung",
+      "definition": "Ausschüttung von Wertpapieren, die von einem anderen Unternehmen ausgegeben wurden. Die ausgeschütteten Wertpapiere können von einem neu gegründeten oder einem bestehenden Unternehmen stammen. Zum Beispiel Spin-off, Abspaltung, Entflechtung, Veräußerung."
+    },
+    "TEND": {
+      "name": "Angebot",
+      "definition": "Von einem Dritten an die Inhaber unterbreitetes Angebot, ihre Wertpapiere zu verkaufen (anzudienen) oder umzutauschen."
+    },
+    "BONU": {
+      "name": "Gratisaktien",
+      "definition": "Gratis- oder Kapitalisierungsausgabe. Wertpapierinhaber erhalten vom Emittenten im Verhältnis zu ihrem Bestand unentgeltlich zusätzliche Vermögenswerte."
+    },
+    "REDO": {
+      "name": "Umdenominierung",
+      "definition": "Ereignis, durch das die Einheit (Währung und/oder Nennwert) eines Wertpapiers neu festgelegt wird, zum Beispiel wird der Nennwert eines Wertpapiers in einer nationalen Währung auf eine andere Währung umgestellt."
+    },
+    "EXOF": {
+      "name": "Umtausch",
+      "definition": "Umtausch von Beständen gegen andere Wertpapiere und/oder Bargeld. Der Umtausch kann obligatorisch oder freiwillig sein und beinhaltet den Umtausch ausstehender Wertpapiere gegen andere Wertpapiere und/oder Bargeld. Zum Beispiel \"Umtauschangebot\", \"Kapitalumstrukturierung\" oder \"Fondstrennung\"."
+    },
+    "REDM": {
+      "name": "Endfälligkeit",
+      "definition": "Tilgung einer gesamten ausstehenden Emission von Wertpapieren, zum Beispiel Anleihen, Vorzugsaktien, Fonds, durch den Emittenten oder seinen Beauftragten, zum Beispiel einen Vermögensverwalter, bei Endfälligkeit."
+    },
+    "INTR": {
+      "name": "Zinszahlung",
+      "definition": "Zinszahlung, die an die Inhaber eines verzinslichen Vermögenswerts ausgeschüttet wird."
+    },
+    "CONV": {
+      "name": "Umwandlung",
+      "definition": "Umwandlung von Wertpapieren (im Allgemeinen Wandelanleihen oder Vorzugsaktien) in eine andere Wertpapierform (üblicherweise Stammaktien) zu einem im Voraus festgelegten Preis/Verhältnis."
+    },
+    "EXRI": {
+      "name": "Aufruf von Zwischenwertpapieren",
+      "definition": "Abruf oder Ausübung nicht voll eingezahlter Wertpapiere oder Zwischenwertpapiere, die sich aus einer Zwischenwertpapierausschüttung (RHDI) ergeben. Dieser Code wird für das zweite Ereignis verwendet, wenn die Emission von Zwischenwertpapieren (Rechte/Coupons) aus zwei Ereignissen besteht, wobei das erste Ereignis die Ausschüttung von Zwischenwertpapieren ist."
+    },
+    "CAPI": {
+      "name": "Kapitalisierung",
+      "definition": "Erhöhung des aktuellen Kapitalbetrags eines Schuldinstruments ohne Erhöhung des Nennwerts. Sie ergibt sich normalerweise aus der Zuschlagung fälliger, aber nicht gezahlter Zinsen zum Kapitalbetrag. Dies geschieht üblicherweise durch Erhöhung des Poolfaktorwerts, zum Beispiel Kapitalisierung und negative Amortisation."
+    },
+    "CONS": {
+      "name": "Zustimmung",
+      "definition": "Verfahren, das darauf abzielt, die Zustimmung des Inhabers zu einem Vorschlag des Emittenten oder eines Dritten ohne Einberufung einer Versammlung einzuholen. Zum Beispiel die Zustimmung zur Änderung der Bedingungen einer Anleihe."
+    },
+    "COOP": {
+      "name": "Unternehmenswahlrecht",
+      "definition": "Eine Unternehmensoption kann vom Unternehmen gewährt werden und erlaubt dem Inhaber, zu einem oder mehreren künftigen Zeitpunkten Aktien des Unternehmens zu einem vorab vereinbarten Preis zu beziehen. Ein Unternehmen darf keine Optionen gewähren, die den Inhaber berechtigen, nicht ausgegebene Aktien zu einem Zeitpunkt zu beziehen, der fünf oder mehr Jahre nach dem Gewährungsdatum liegt. Optionsinhaber sind keine Mitglieder eines Unternehmens. Sie sind bedingte Gläubiger eines Unternehmens und können daher in manchen Fällen berechtigt sein, über einen Vergleich zwischen den Gläubigern und dem Unternehmen abzustimmen und an diesen gebunden zu sein. Da viele Optionen mehrere Ausübungszeiträume haben, verfällt eine Unternehmensoption entweder oder läuft bis zum nächsten Verfallsdatum weiter."
+    },
+    "DRAW": {
+      "name": "Auslosung",
+      "definition": "Wertpapiere werden vor dem planmäßigen Endfälligkeitstermin teilweise getilgt. Dies geschieht ohne Verringerung des Poolfaktors. Die Tilgung wird durch eine Belastung des Nennbetrags (FAMT) abgebildet. Die Auslosung unterscheidet sich von der Teilkündigung, da ausgeloste Anleihen per Los bestimmt werden. Daher ist nicht jeder Inhaber in gleicher Weise betroffen."
+    },
+    "DTCH": {
+      "name": "Holländische Auktion",
+      "definition": "Maßnahme einer Partei, die ein Wertpapier erwerben möchte. Die Inhaber des Wertpapiers werden aufgefordert, innerhalb einer bestimmten Preisspanne ein Verkaufsangebot abzugeben. Die erwerbende Partei kauft vom Inhaber mit dem niedrigsten Angebot."
+    },
+    "MCAL": {
+      "name": "Vollständige Kündigung",
+      "definition": "Tilgung einer gesamten ausstehenden Emission von Wertpapieren, zum Beispiel Anleihen, Vorzugsaktien, Fonds, durch den Emittenten oder seinen Beauftragten, zum Beispiel einen Vermögensverwalter, vor Endfälligkeit."
+    },
+    "EXTM": {
+      "name": "Laufzeitverlängerung",
+      "definition": "Gemäß den Emissionsbedingungen des Wertpapiers können der Emittent oder der Inhaber den Fälligkeitstermin eines Wertpapiers verlängern. Nach der Verlängerung können die Einzelheiten des Wertpapiers von der ursprünglichen Emission abweichen. Eine vom Emittenten veranlasste Verlängerung kann der Zustimmung des Inhabers unterliegen."
+    },
+    "ODLT": {
+      "name": "Verkauf/Kauf von Spitzen",
+      "definition": "Verkauf oder Kauf von Odd-Lots (Kleinstmengen) an das bzw. vom emittierenden Unternehmen, entweder auf Veranlassung des Wertpapierinhabers oder aufgrund eines vom Emittenten unterbreiteten Angebots."
+    },
+    "OTHR": {
+      "name": "Sonstiges Ereignis",
+      "definition": "Sonstiges Ereignis, nur zu verwenden, wenn keine andere Ereignisart zutrifft, zum Beispiel eine neue Ereignisart."
+    },
+    "PCAL": {
+      "name": "Teilrückzahlung ohne Poolfaktor-Reduzierung",
+      "definition": "Wertpapiere werden vor ihrem planmäßigen Endfälligkeitstermin teilweise getilgt. Dies geschieht ohne Verringerung des Poolfaktors. Die Tilgung wird durch eine Belastung des Nennbetrags (FAMT) abgebildet."
+    },
+    "PRED": {
+      "name": "Teilrückzahlung mit Poolfaktor-Reduzierung",
+      "definition": "Wertpapiere werden vor ihrem planmäßigen Endfälligkeitstermin teilweise getilgt. Die Tilgung wird durch eine Verringerung des Poolfaktors abgebildet. Es erfolgt keine Wertpapierbewegung."
+    },
+    "PINK": {
+      "name": "Zahlung in Naturalien",
+      "definition": "Zinszahlung, in jeder Form außer Bargeld, die an die Inhaber eines verzinslichen Vermögenswerts ausgeschüttet wird."
+    },
+    "PRIO": {
+      "name": "Vorrangige Emission",
+      "definition": "Form eines offenen oder öffentlichen Angebots, bei dem aufgrund einer begrenzten Menge verfügbarer Wertpapiere bestehende Aktionäre vorrangig bedient werden."
+    },
+    "BPUT": {
+      "name": "Rückzahlung bei Ausübung des Put",
+      "definition": "Vorzeitige Tilgung eines Wertpapiers nach Wahl des Inhabers gemäß den Emissionsbedingungen ohne Verringerung des Nennwerts."
+    },
+    "REMK": {
+      "name": "Remarketing-Vereinbarung",
+      "definition": "Kauf und Verkauf von neu vermarkteten Vorzugsaktien/-anleihen durch Aushandlung des Zinssatzes zwischen den Emittenten und den Inhabern."
+    },
+    "BIDS": {
+      "name": "Rückkaufangebot",
+      "definition": "Rückkaufangebot / Emittentenangebot / umgekehrte Bezugsrechte. Angebot des emittierenden Unternehmens an bestehende Inhaber, seine eigenen Wertpapiere zurückzukaufen. Ziel des Angebots ist es, die Zahl der ausstehenden Wertpapiere zu verringern."
+    },
+    "SPLR": {
+      "name": "Umgekehrter Aktiensplit",
+      "definition": "Verringerung der Zahl der ausstehenden Aktien eines Unternehmens ohne Änderung des Eigenkapitals des Aktionärs oder des gesamten Marktwerts zum Zeitpunkt der Aufteilung. Aktienkurs und Nennwert werden entsprechend erhöht."
+    },
+    "SHPR": {
+      "name": "Dividende aus Agio",
+      "definition": "Das Unternehmensereignis zahlt den Aktionären einen Barbetrag aus der Aktienagio-Rücklage. Es ähnelt einer Dividende, hat aber andere steuerliche Folgen."
+    },
+    "SPLF": {
+      "name": "Aktiensplit",
+      "definition": "Erhöhung der Zahl der ausstehenden Aktien eines Unternehmens ohne Änderung des Eigenkapitals des Aktionärs oder des gesamten Marktwerts zum Zeitpunkt der Aufteilung. Aktienkurs und Nennwert werden entsprechend verringert."
+    },
+    "EXWA": {
+      "name": "Optionsscheinausübung",
+      "definition": "Option, die den Inhabern angeboten wird, eine bestimmte Menge an Aktien, Bargeld oder Rohstoffen zu einem vorab festgelegten Preis während eines vorab festgelegten Zeitraums (der üblicherweise der Laufzeit der Emission entspricht) zu kaufen (Call-Optionsschein) oder zu verkaufen (Put-Optionsschein)."
+    },
+    "CAPD": {
+      "name": "Kapitalausschüttung",
+      "definition": "Das Unternehmensereignis zahlt den Aktionären einen Barbetrag aus dem Kapitalkonto. Es erfolgt keine Verringerung des Nennwerts einer einzelnen Aktie (oder die Aktie hat keinen Nennwert). Die Zahl der im Umlauf befindlichen Aktien bleibt unverändert."
+    },
+    "ACCU": {
+      "name": "Thesaurierung",
+      "definition": "Fondsbezogenes Ereignis, bei dem die in einem Abrechnungszeitraum anfallenden Erträge (zum Beispiel thesaurierende Anteile) im Fonds einbehalten werden, anstatt an die Anleger ausgezahlt zu werden. Die einbehaltenen Erträge gelten für Steuerzwecke dennoch als an die Anleger ausgeschüttet."
+    }
+  }
+}

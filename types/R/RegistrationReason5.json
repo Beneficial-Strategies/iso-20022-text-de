@@ -1,0 +1,12 @@
+{
+  "isoType": "RegistrationReason5",
+  "definition": "Grund der Registrierung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Legt den Grund für den Haltestatus fest."
+    },
+    "AdditionalInformation": {
+      "definition": "Enthält zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

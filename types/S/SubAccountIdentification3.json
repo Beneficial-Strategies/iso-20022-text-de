@@ -1,0 +1,18 @@
+{
+  "isoType": "SubAccountIdentification3",
+  "definition": "Konto, auf das oder von dem eine Wertpapierbuchung erfolgt.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "FungibleIndicator": {
+      "definition": "Gibt an, ob die Wertpapiere auf dem Konto fungibel, das heißt austauschbar, sind."
+    },
+    "ActivityIndicator": {
+      "definition": "Gibt an, ob im Auszug Aktivität gemeldet wird."
+    },
+    "BalanceForSubAccount": {
+      "definition": "Nettoposition eines getrennt geführten Bestands in einem einzelnen Wertpapier innerhalb der im Wertpapierdepot gehaltenen Gesamtposition."
+    }
+  }
+}

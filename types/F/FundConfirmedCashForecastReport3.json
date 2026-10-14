@@ -1,0 +1,35 @@
+{
+  "isoType": "FundConfirmedCashForecastReport3",
+  "definition": "Angaben zu einem Cashflow-Prognosebericht.",
+  "isoElements": {
+    "FundOrSubFundDetails": {
+      "definition": "Angaben zum Fonds/Teilfonds, wenn der Bericht den Cashflow entweder für den Fonds/Teilfonds oder für eine Anteilklasse des Fonds/Teilfonds angibt."
+    },
+    "FundCashForecastDetails": {
+      "definition": "Angaben zu den Mittelzu- und -abflüssen für einen bestimmten Handelstag aufgrund von Investmentfonds-Transaktionen, zum Beispiel Zeichnungen, Rücknahmen oder Umtausch von und in einen bestimmten Investmentfonds."
+    },
+    "ConsolidatedNetCashForecast": {
+      "definition": "Geschätzter Nettobetrag aus den Mittelzu- und -abflüssen."
+    },
+    "Extension": {
+      "definition": "Zusätzliche Informationen, die nicht in den strukturierten Elementen und/oder einem anderen spezifischen Block erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "TradeDate1Rule": {
+      "definition": "Wenn ein Vorkommen von FundCashForecastDetails vorhanden ist, ist kein Vorkommen von FundOrSubFundDetails/TradeDateTime zulässig."
+    },
+    "PreviousTradeDate1Rule": {
+      "definition": "Wenn ein Vorkommen von FundCashForecastDetails vorhanden ist, ist kein Vorkommen von FundOrSubFundDetails/PreviousTradeDateTime zulässig."
+    },
+    "TradeDate2Rule": {
+      "definition": "Wenn FundCashForecastDetails nicht vorhanden ist, muss mindestens ein Vorkommen von FundOrSubFundDetails/TradeDateTime vorhanden sein."
+    },
+    "ConsolidatedNetCashRule": {
+      "definition": "Wenn ConsolidatedNetCashForecast vorhanden ist, muss mindestens ein Vorkommen von FundOrSubFundDetails oder FundCashForecastDetails vorhanden sein. FundOrSubFundDetails und FundCashForecastDetails können beide vorhanden sein."
+    },
+    "FundOrSubFundAndShareClassGuideline": {
+      "definition": "Wird die Nachricht verwendet, um Mittelzu- und -abflüsse für mehr als einen Fonds/Teilfonds und mehr als eine Anteilklasse anzugeben (zwei oder mehr Sequenzen FundOrSubFundDetails und zwei oder mehr Sequenzen FundCashForecastDetails werden verwendet), lässt sich bei dieser Verwendung aus dem Nachrichteninhalt selbst nicht feststellen, welche Anteilklasse zu welchem Fonds/Teilfonds gehört, was unerwünscht sein kann; eine solche Verwendung sollte bilateral vereinbart werden."
+    }
+  }
+}

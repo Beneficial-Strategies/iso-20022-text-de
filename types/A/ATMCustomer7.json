@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMCustomer7",
+  "definition": "An einer Auszahlungstransaktion beteiligter Kunde.",
+  "isoElements": {
+    "Profile": {
+      "definition": "Für die Erbringung des Dienstes gewähltes Profil des Kunden."
+    },
+    "SelectedLanguage": {
+      "definition": "Vom Kunden am ATM für die Kundensitzung gewählte Sprache. Referenz ISO 639-1 (alpha-2) und ISO 639-2 (alpha-3)."
+    },
+    "AuthenticationResult": {
+      "definition": "Ergebnis der Kundenauthentifizierung für diese Transaktion."
+    }
+  }
+}

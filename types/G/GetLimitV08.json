@@ -1,0 +1,4 @@
+{
+  "isoType": "GetLimitV08",
+  "definition": "Die Nachricht GetLimit dient dazu, Informationen zu den Einzelheiten eines oder mehrerer Limits anzufordern, die vom Teilnehmer (oder in dessen Auftrag) festgelegt wurden und vom Transaktionsadministrator verwaltet werden."
+}

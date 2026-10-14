@@ -1,0 +1,32 @@
+{
+  "isoType": "CurrencyExchange24",
+  "definition": "Satz von Elementen mit Einzelheiten zum Währungsumtausch.",
+  "isoElements": {
+    "SourceCurrency": {
+      "definition": "Währung, aus der ein Betrag bei einer Währungsumrechnung umgerechnet werden soll."
+    },
+    "TargetCurrency": {
+      "definition": "Währung, in die ein Betrag bei einer Währungsumrechnung umgerechnet werden soll."
+    },
+    "UnitCurrency": {
+      "definition": "Währung, in der der Wechselkurs bei einem Währungsumtausch ausgedrückt wird. Im Beispiel 1GBP = xxxCUR ist die Einheitswährung GBP."
+    },
+    "ExchangeRate": {
+      "definition": "Faktor zur Umrechnung eines Betrags von einer Währung in eine andere. Er gibt den Preis wieder, zu dem eine Währung mit einer anderen Währung gekauft wurde.||Verwendung: ExchangeRate drückt das Verhältnis zwischen UnitCurrency und QuotedCurrency aus (ExchangeRate = UnitCurrency/QuotedCurrency)."
+    },
+    "ContractIdentification": {
+      "definition": "Eindeutige Identifikation zur zweifelsfreien Identifikation des Devisengeschäfts."
+    },
+    "QuotationDate": {
+      "definition": "Datum und Uhrzeit, zu denen ein Wechselkurs notiert wird."
+    },
+    "ExchangeRateBase": {
+      "definition": "Drückt das Verhältnis zwischen der Stückelungsbasis der Einheitswährung und der Stückelungsbasis der Kurswährung aus."
+    }
+  },
+  "isoRules": {
+    "ExchangeRateBaseGuideline": {
+      "definition": "Die Wechselkursbasis darf nur vorhanden sein, wenn sie bilateral vereinbart wurde."
+    }
+  }
+}

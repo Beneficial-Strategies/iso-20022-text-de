@@ -1,0 +1,38 @@
+{
+  "isoType": "RejectionReason55Code",
+  "definition": "Gibt den Grund an, aus dem die Anweisung bzw. der Stornierungsauftrag den Status „abgelehnt“ hat.",
+  "isoCodes": {
+    "BENO": {
+      "name": "Abweichung beim wirtschaftlichen Eigentum",
+      "definition": "Uneinigkeit über das wirtschaftliche Eigentum."
+    },
+    "CAEV": {
+      "name": "Ablehnung wegen Kapitalmaßnahme",
+      "definition": "Für das angewiesene Finanzinstrument steht eine Kapitalmaßnahme aus."
+    },
+    "DQUA": {
+      "name": "Ablehnung wegen Menge",
+      "definition": "Ungültige oder nicht erkannte angewiesene Menge."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "PODU": {
+      "name": "Mögliches Duplikat",
+      "definition": "Die Anweisung wurde nicht abgeglichen. Es handelt sich möglicherweise um eine doppelte Anweisung."
+    },
+    "SAFE": {
+      "name": "Ablehnung des Verwahrkontos",
+      "definition": "Nicht erkanntes oder ungültiges Verwahrkonto des Nachrichtensenders."
+    },
+    "SSID": {
+      "name": "Ablehnung der Dauer-Abwicklungsanweisung",
+      "definition": "Die Dauerabwicklungsanweisung (Standing Settlement Instruction) ist unbekannt oder ungültig."
+    },
+    "DSEC": {
+      "name": "Ungültiges Wertpapier",
+      "definition": "Ungültige oder nicht erkannte Identifikation des Finanzinstruments."
+    }
+  }
+}

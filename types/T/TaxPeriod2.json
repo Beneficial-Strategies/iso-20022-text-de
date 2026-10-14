@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxPeriod2",
+  "definition": "Angaben zum Zeitraum der Steuerzahlung.",
+  "isoElements": {
+    "Year": {
+      "definition": "Jahr der Steuerzahlung."
+    },
+    "Type": {
+      "definition": "Identifikation des Zeitraums der Steuerzahlung."
+    },
+    "FromToDate": {
+      "definition": "Zeitspanne zwischen einem Startdatum und einem Enddatum, für die die Steuermeldung erstellt wird."
+    }
+  }
+}

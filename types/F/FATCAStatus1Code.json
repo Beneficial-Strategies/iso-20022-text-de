@@ -1,0 +1,50 @@
+{
+  "isoType": "FATCAStatus1Code",
+  "definition": "Gibt den Status nach dem Foreign Account Tax Compliance Act (FATCA) an.",
+  "isoCodes": {
+    "F101": {
+      "name": "FATCA101",
+      "definition": "Die Kontoinhaberart ist ein Finanzinstitut mit Eigentümerdokumentation und bestimmten US-Eigentümern."
+    },
+    "F102": {
+      "name": "FATCA102",
+      "definition": "Die Kontoinhaberart ist eine passive Nichtfinanzeinheit mit wesentlichen US-Eigentümern."
+    },
+    "F103": {
+      "name": "FATCA103",
+      "definition": "Die Kontoinhaberart ist ein nicht teilnehmendes Finanzinstitut."
+    },
+    "F104": {
+      "name": "FATCA104",
+      "definition": "Die Kontoinhaberart ist eine bestimmte US-Person."
+    },
+    "F105": {
+      "name": "FATCA105",
+      "definition": "Die Kontoinhaberart ist eine direkt meldende ausländische Nichtfinanzeinheit (NFFE)."
+    },
+    "F201": {
+      "name": "FATCA201",
+      "definition": "Die Art der Kontopoolmeldung ist ein unkooperativer Kontoinhaber mit US-Indizien."
+    },
+    "F202": {
+      "name": "FATCA202",
+      "definition": "Die Art der Kontopoolmeldung ist ein unkooperativer Kontoinhaber ohne US-Indizien."
+    },
+    "F203": {
+      "name": "FATCA203",
+      "definition": "Die Art der Kontopoolmeldung ist ein ruhendes Konto."
+    },
+    "F204": {
+      "name": "FATCA204",
+      "definition": "Die Art der Kontopoolmeldung ist ein nicht teilnehmendes ausländisches Finanzinstitut."
+    },
+    "F205": {
+      "name": "FATCA205",
+      "definition": "Die Art der Kontopoolmeldung ist ein unkooperativer Kontoinhaber, der eine US-Person ist."
+    },
+    "F206": {
+      "name": "FATCA206",
+      "definition": "Die Art der Kontopoolmeldung ist ein unkooperativer Kontoinhaber, der eine passive ausländische Nichtfinanzeinheit (NFFE) ist."
+    }
+  }
+}

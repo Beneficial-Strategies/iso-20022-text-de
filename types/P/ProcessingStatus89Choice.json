@@ -1,0 +1,15 @@
+{
+  "isoType": "ProcessingStatus89Choice",
+  "definition": "Auswahl des Formats für den Verarbeitungsstatus.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "Die Anweisung wurde vom kontoführenden Institut bestätigt."
+    },
+    "Rejected": {
+      "definition": "Die Anweisung/Anfrage wurde für die weitere Verarbeitung abgelehnt."
+    },
+    "Proprietary": {
+      "definition": "Status, der mit keinem der verfügbaren Standardstatus gemeldet werden kann."
+    }
+  }
+}

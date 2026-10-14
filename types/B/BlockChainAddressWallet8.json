@@ -1,0 +1,18 @@
+{
+  "isoType": "BlockChainAddressWallet8",
+  "definition": "Digitales Konto, auf dem digitale Vermögenswerte oder digitale Token gespeichert werden können und in dem ein Eintrag vorgenommen wird.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem Kontoführer."
+    },
+    "Type": {
+      "definition": "Gibt die Art des Wertpapierkontos an."
+    },
+    "Name": {
+      "definition": "Beschreibung des Kontos."
+    },
+    "Designation": {
+      "definition": "Ergänzende Registrierungsinformationen, die für einen bestimmten Block von Anteilen zu Handels- und Meldezwecken gelten. Die ergänzenden Registrierungsinformationen können verwendet werden, wenn alle Anteile beispielsweise auf einen Fondssupermarkt registriert sind, die Bestände der einzelnen Anleger jedoch individuell abgestimmt werden müssen."
+    }
+  }
+}

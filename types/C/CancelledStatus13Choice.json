@@ -1,0 +1,18 @@
+{
+  "isoType": "CancelledStatus13Choice",
+  "definition": "Grund für den Status \"storniert\".",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Gibt an, dass kein Grund verfügbar oder zu melden ist."
+    },
+    "Reason": {
+      "definition": "Grund für den Status „storniert“."
+    },
+    "ExtendedReason": {
+      "definition": "Grund für den Status „storniert“."
+    },
+    "DataSourceScheme": {
+      "definition": "Proprietäre Identifikation des Grundes für den Status \"storniert\"."
+    }
+  }
+}

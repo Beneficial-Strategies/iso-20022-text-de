@@ -1,0 +1,38 @@
+{
+  "isoType": "TransactionIndividualStatus1Code",
+  "definition": "Gibt den Status einer einzelnen Zahlungstransaktion an.",
+  "isoCodes": {
+    "ACTC": {
+      "name": "Technische Validierung akzeptiert",
+      "definition": "Authentifizierung sowie syntaktische und semantische Validierung waren erfolgreich."
+    },
+    "RJCT": {
+      "name": "Abgelehnt",
+      "definition": "Der Zahlungsauftrag oder eine darin enthaltene einzelne Transaktion wurde abgelehnt."
+    },
+    "PDNG": {
+      "name": "Ausstehend",
+      "definition": "Der Zahlungsauftrag oder eine darin enthaltene einzelne Transaktion ist in Bearbeitung.  Weitere Prüfungen und Statusaktualisierungen folgen."
+    },
+    "ACCP": {
+      "name": "Kundenprofil akzeptiert",
+      "definition": "Die vorangegangene technische Validierung war erfolgreich. Die Prüfung des Kundenprofils war ebenfalls erfolgreich."
+    },
+    "ACSP": {
+      "name": "Akzeptiert, Abwicklung in Bearbeitung",
+      "definition": "Alle vorangegangenen Prüfungen, wie technische Validierung und Kundenprofil, waren erfolgreich; der Zahlungsauftrag wurde daher zur Ausführung angenommen."
+    },
+    "ACSC": {
+      "name": "Akzeptiert, Abwicklung abgeschlossen",
+      "definition": "Die Abwicklung auf dem Konto des Zahlungspflichtigen ist abgeschlossen. ||Verwendung: Dies kann von der ersten Bank verwendet werden, um dem Zahlungspflichtigen zu melden, dass die Transaktion abgeschlossen ist. Warnung: Dieser Status dient der Statusbegründung von Transaktionen, nicht der Finanzinformation. Er darf nur nach bilateraler Vereinbarung verwendet werden"
+    },
+    "ACCR": {
+      "name": "Stornierungsauftrag akzeptiert",
+      "definition": "Die Stornierung ist akzeptiert."
+    },
+    "ACWC": {
+      "name": "Mit Änderung akzeptiert",
+      "definition": "Die Anweisung ist akzeptiert, es erfolgt jedoch eine Änderung, zum Beispiel beim Datum oder indem der Verwendungszweck nicht übermittelt wird."
+    }
+  }
+}

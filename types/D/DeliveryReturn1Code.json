@@ -1,0 +1,34 @@
+{
+  "isoType": "DeliveryReturn1Code",
+  "definition": "Gibt die Art der Lieferrückgabe an.",
+  "isoCodes": {
+    "UNRE": {
+      "name": "Nicht erkannte Lieferung",
+      "definition": "Die ursprüngliche Lieferung wird nicht anerkannt."
+    },
+    "DQUA": {
+      "name": "Falsche Menge",
+      "definition": "In der ursprünglichen Anweisung wurde die falsche Menge geliefert."
+    },
+    "DMON": {
+      "name": "Falscher Abwicklungsbetrag",
+      "definition": "Bei der ursprünglichen Lieferung wurde ein falscher Abwicklungsbetrag abgewickelt."
+    },
+    "PART": {
+      "name": "Teillieferung",
+      "definition": "Vom Zentralverwahrer (Central Securities Depository, CSD) wurde nur ein Teil der ursprünglichen Transaktionsmenge geliefert."
+    },
+    "SAFE": {
+      "name": "Konto fehlt",
+      "definition": "In der ursprünglichen Lieferung fehlen Kontoinformationen."
+    },
+    "DUEB": {
+      "name": "Due Bill fehlt",
+      "definition": "In der ursprünglichen Lieferung fehlen Due-Bill-Informationen."
+    },
+    "PARD": {
+      "name": "Teilrückgabe",
+      "definition": "Ein Teil der ursprünglichen Transaktionsmenge wurde vom Empfänger zurückgegeben."
+    }
+  }
+}

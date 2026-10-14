@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesAccount10",
+  "definition": "Liefert Informationen zum Wertpapierkonto.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Wert eine Belastung oder eine Gutschrift ist."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identifikation der Partei, die Inhaber des Kontos ist."
+    },
+    "AccountOwnerNationality": {
+      "definition": "Staatsangehörigkeit des Kontoinhabers."
+    },
+    "AccountIdentification": {
+      "definition": "Identifikation des Kontos."
+    },
+    "BalanceType": {
+      "definition": "Art des Bestands."
+    },
+    "SecurityHoldingForm": {
+      "definition": "Gibt die Form des Finanzinstruments an."
+    }
+  }
+}

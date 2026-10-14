@@ -1,0 +1,42 @@
+{
+  "isoType": "Cheque20",
+  "definition": "Merkmale einer Scheckanweisung, wie Scheckart oder Schecknummer.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Eindeutige Identifikation, die von einer anweisenden Partei für eine angewiesene Partei vergeben wird, um die Anweisung eindeutig zu identifizieren. ||Verwendung: Die Anweisungsidentifikation ist eine Punkt-zu-Punkt-Referenz, die zwischen der anweisenden und der angewiesenen Partei verwendet werden kann, um auf die einzelne Anweisung Bezug zu nehmen. Sie kann in mehreren Nachrichten zur Anweisung enthalten sein."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Eindeutige Identifikation, wie von der ursprünglichen anweisenden Partei für die ursprüngliche angewiesene Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Anweisung."
+    },
+    "ChequeNumber": {
+      "definition": "Eindeutige und unzweideutige Kennung eines Schecks, wie von der Bank vergeben."
+    },
+    "IssueDate": {
+      "definition": "Datum, an dem der Scheck vom Zahler ausgestellt wurde."
+    },
+    "StaleDate": {
+      "definition": "Datum, nach dem ein Scheck nicht mehr gültig ist.|Verwendung:|Die Gültigkeitsdauer eines Schecks wird ab dem auf der Vorderseite des Schecks angegebenen Ausstellungsdatum berechnet.|Die Dauer kann auf dem Scheck selbst angegeben sein, etwa „Gültig für 90 Tage“, oder sich nach der inländischen Bankpraxis richten. |Nicht in allen Ländern gibt es eine Gültigkeitsdauer."
+    },
+    "Amount": {
+      "definition": "Gibt den an den Zahlungsempfänger zu zahlenden Betrag des Schecks an."
+    },
+    "EffectiveDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Scheckbetrag auf dem Konto des Zahlungsempfängers verfügbar wird."
+    },
+    "DrawerAgent": {
+      "definition": "Gibt die Bank an, die das Konto des Scheckzahlers führt."
+    },
+    "DrawerAgentAccount": {
+      "definition": "Gibt das Konto der Bank des Scheckausstellers an."
+    },
+    "Payee": {
+      "definition": "Partei, die einen im Scheck angegebenen Geldbetrag erhält."
+    },
+    "PayeeAccount": {
+      "definition": "Gibt das Konto des Zahlungsempfängers an."
+    },
+    "ChequeCancellationOrStopReason": {
+      "definition": "Gibt den Grund für die Sperrung der Zahlung des Schecks oder für einen Antrag auf Genehmigung der Erstattung an."
+    }
+  }
+}

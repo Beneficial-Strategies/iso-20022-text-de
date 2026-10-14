@@ -1,0 +1,12 @@
+{
+  "isoType": "CRSSource1Choice",
+  "definition": "Auswahl der Formate für die Quelle des Common Reporting Standard (CRS).",
+  "isoElements": {
+    "Code": {
+      "definition": "Quelle des Status nach dem Common Reporting Standard (CRS), ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Quelle des Status nach dem Common Reporting Standard (CRS), ausgedrückt als proprietärer Code."
+    }
+  }
+}

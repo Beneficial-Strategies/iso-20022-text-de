@@ -1,0 +1,26 @@
+{
+  "isoType": "TR34Command1Code",
+  "definition": "Spezifischer TR34-Befehl, den der ATM ausführen kann.",
+  "isoCodes": {
+    "BIND": {
+      "name": "Binden",
+      "definition": "TR34-Bind-Operation."
+    },
+    "HILR": {
+      "name": "Neubindung auf höherer Ebene",
+      "definition": "TR34-Rebind-Operation der übergeordneten Instanz."
+    },
+    "HILU": {
+      "name": "Entbindung auf höherer Ebene",
+      "definition": "TR34-Unbind-Operation der übergeordneten Instanz."
+    },
+    "RBND": {
+      "name": "Neu binden",
+      "definition": "TR34-Rebind-Operation."
+    },
+    "UBND": {
+      "name": "Entbinden",
+      "definition": "TR34-Unbind-Operation."
+    }
+  }
+}

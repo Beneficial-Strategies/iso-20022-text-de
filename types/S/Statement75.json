@@ -1,0 +1,36 @@
+{
+  "isoType": "Statement75",
+  "definition": "Allgemeine Merkmale eines Kontoauszugs, der Informationen meldet.",
+  "isoElements": {
+    "StatementType": {
+      "definition": "Gibt an, ob der Kontoauszug eine reine Bestandsmitteilung ist oder ob er nur fehlende Anweisungen oder alle Anweisungen enthält."
+    },
+    "ReportingType": {
+      "definition": "Gibt an, ob der Kontoauszug über Kontobestände für Kapitalmaßnahmen ein einzelnes Konto/mehrere Ereignisse oder mehrere Konten/ein einzelnes Ereignis betrifft."
+    },
+    "StatementIdentification": {
+      "definition": "Referenz des Auszugs."
+    },
+    "InstructionAggregationPeriod": {
+      "definition": "Gibt den Zeitraum der Anweisungsdetails im Kontoauszug an."
+    },
+    "ReportNumber": {
+      "definition": "Laufende Nummer des Auszugs."
+    },
+    "StatementDateTime": {
+      "definition": "Datum des Auszugs."
+    },
+    "Frequency": {
+      "definition": "Häufigkeit des Auszugs."
+    },
+    "UpdateType": {
+      "definition": "Gibt an, ob der Bericht vollständig ist oder nur Änderungen enthält."
+    },
+    "ActivityIndicator": {
+      "definition": "Gibt an, ob im Auszug Aktivität oder eine Aktualisierung von Informationen gemeldet wird."
+    },
+    "NotificationDeadlinePeriod": {
+      "definition": "Zeitraum, für den die Frist zur Identifikation festgelegt wurde."
+    }
+  }
+}

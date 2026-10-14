@@ -1,0 +1,22 @@
+{
+  "isoType": "PriceValueType12Code",
+  "definition": "Der Preis wird nicht gezahlt.",
+  "isoCodes": {
+    "DISC": {
+      "name": "Abschlag",
+      "definition": "Als Anzahl von Prozentpunkten unter pari ausgedrückter Preis, beispielsweise entspricht ein Abschlagspreis von 2.0 % bei einem Nennwert von 100 einem Preis von 98."
+    },
+    "PARV": {
+      "name": "Pari",
+      "definition": "Der Preis ist der Nennbetrag."
+    },
+    "PREM": {
+      "name": "Aufschlag",
+      "definition": "Als Anzahl von Prozentpunkten über pari ausgedrückter Preis, beispielsweise entspricht ein Aufschlagspreis von 2.0 % bei einem Nennwert von 100 einem Preis von 102."
+    },
+    "NEGA": {
+      "name": "Negativer Istbetrag",
+      "definition": "Der Preis ist als negativer Währungsbetrag pro Einheit oder pro Aktie zu interpretieren."
+    }
+  }
+}

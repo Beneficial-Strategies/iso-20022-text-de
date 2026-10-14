@@ -1,0 +1,14 @@
+{
+  "isoType": "AcknowledgementReason7Code",
+  "definition": "Gibt zusätzliche Informationen zur verarbeiteten Anweisung an.",
+  "isoCodes": {
+    "NSTP": {
+      "name": "Keine vollautomatische Verarbeitung",
+      "definition": "Die Anweisung wurde nicht vollautomatisch verarbeitet und musste manuell bearbeitet werden."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    }
+  }
+}

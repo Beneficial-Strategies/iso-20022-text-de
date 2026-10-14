@@ -1,0 +1,38 @@
+{
+  "isoType": "ChargeType12Code",
+  "definition": "Art der Dienstleistung, für die ein Entgelt erhoben oder gezahlt wird.",
+  "isoCodes": {
+    "BEND": {
+      "name": "Rücknahmeabschlag",
+      "definition": "Vom Anleger bei der Rücknahme einer Anlage, zum Beispiel eines Investmentfonds, gezahlte Verkaufsgebühr."
+    },
+    "DISC": {
+      "name": "Abschlag",
+      "definition": "Gebühr, die gegenüber der vom Fonds erhobenen Standard-Ausgabegebühr ermäßigt wurde, zum Beispiel während einer Einführungsphase oder wie mit einem Fondssupermarkt/Discount-Broker ausgehandelt."
+    },
+    "FEND": {
+      "name": "Ausgabeaufschlag",
+      "definition": "Vom Anleger bei der Zeichnung einer Anlage, zum Beispiel eines Investmentfonds, sofort gezahlte Verkaufsgebühr."
+    },
+    "POST": {
+      "name": "Portogebühr",
+      "definition": "Für das Porto gezahlte Gebühr."
+    },
+    "REGF": {
+      "name": "Aufsichtsgebühr",
+      "definition": "Von einer Aufsichtsbehörde erhobene Gebühr, zum Beispiel Gebühren der Wertpapier- und Börsenaufsicht."
+    },
+    "SHIP": {
+      "name": "Versandgebühr",
+      "definition": "Gebühr für den Versand, einschließlich der Versicherung von Wertpapieren."
+    },
+    "SPCN": {
+      "name": "Sonderkonditionen",
+      "definition": "Gebühren, Abzüge oder sonstige Minderungen oder Aufschläge auf den Abschlusspreis."
+    },
+    "TRAN": {
+      "name": "Übertragungsgebühr",
+      "definition": "Bei Investmentfonds eine Gebühr für die Übertragung des Eigentums an einem Investmentfonds."
+    }
+  }
+}

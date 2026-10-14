@@ -1,0 +1,119 @@
+{
+  "isoType": "Pension5",
+  "definition": "Attribute einer Pension.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Pensionspolice, des Pensionsplans oder der Pensionsregelung."
+    },
+    "Type": {
+      "definition": "Art der Pensionspolice, des Pensionsplans oder der Pensionsregelung."
+    },
+    "TransferScope": {
+      "definition": "Umfang der Übertragung der Pensionspolice, des Pensionsplans oder der Pensionsregelung."
+    },
+    "TaxReference": {
+      "definition": "Steuerreferenz, die der Pensionspolice, dem Pensionsplan oder der Pensionsregelung von einer zentralen Organisation zugewiesen wurde."
+    },
+    "DrawdownTrancheIdentification": {
+      "definition": "Referenz der Entnahme (Drawdown)."
+    },
+    "DrawdownStatus": {
+      "definition": "Drawdown-Status der Rente."
+    },
+    "DrawdownType": {
+      "definition": "Art der Entnahmetranche (Drawdown-Tranche)."
+    },
+    "NumberOfDrawdownTranches": {
+      "definition": "Anzahl der Drawdown-Tranchen."
+    },
+    "EstimatedValue": {
+      "definition": "Geschätzter Wert der Rentenpolice, des Rentenplans oder des Rentensystems."
+    },
+    "BlockTransfer": {
+      "definition": "Gibt an, ob die Übertragung Teil einer Blockübertragung ist."
+    },
+    "BlockTransferReference": {
+      "definition": "Wenn die Übertragung Teil einer Blockübertragung ist, Referenz zur Verknüpfung mehrerer Positionen."
+    },
+    "TaxFreeCashProtection": {
+      "definition": "Gibt an, ob die steuerfreie Barauszahlung beim Übertragen der Rentenpolice, des Rentenplans oder des Rentensystems geschützt ist."
+    },
+    "TaxFreeCashAmount": {
+      "definition": "Betrag der steuerfreien Barauszahlung."
+    },
+    "ValueOfPensionPolicyOrPlanOrScheme": {
+      "definition": "Wert der Rentenpolice, des Rentenplans oder des Rentensystems."
+    },
+    "RetirementAgeProtection": {
+      "definition": "Gibt an, ob die Rentenpolice, der Rentenplan oder das Rentensystem einen Schutz des Renteneintrittsalters hat."
+    },
+    "RetirementAge": {
+      "definition": "Alter, in dem der Inhaber der Rentenpolice, des Rentenplans oder des Rentensystems in den Ruhestand tritt."
+    },
+    "Sharing": {
+      "definition": "Gibt an, ob die Rentenleistungen geteilt werden."
+    },
+    "LumpSumType": {
+      "definition": "Art der Einmalzahlung, die an ein Mitglied der Rentenpolice, des Rentenplans oder des Rentensystems gezahlt wird."
+    },
+    "PensionOrder": {
+      "definition": "Mit der Rentenpolice, dem Rentenplan oder dem Rentensystem verbundene Anordnung."
+    },
+    "RingFencedDrawdownAssets": {
+      "definition": "Gibt an, ob die in der Rente gehaltenen Vermögenswerte in bestimmten Tranchen abgesondert sind."
+    },
+    "MoneyPurchaseAnnualAllowance": {
+      "definition": "Einzelheiten zum Money Purchase Annual Allowance (MPAA)."
+    },
+    "SafeguardBenefit": {
+      "definition": "Gibt an, ob die Rentenpolice, der Rentenplan oder das Rentensystem durch eine Schutzleistung abgedeckt ist."
+    },
+    "NonSafeguardedGuaranteedBenefits": {
+      "definition": "Gibt an, ob die Rentenpolice, der Rentenplan oder das Rentensystem nicht geschützte garantierte Leistungen hat."
+    },
+    "LifetimeAllowanceProtection": {
+      "definition": "Gibt an, ob die Rentenpolice, der Rentenplan oder das Rentensystem einen Lebenszeit-Freibetragsschutz hat."
+    },
+    "ClientLifetimeAllowanceProtection": {
+      "definition": "Gibt an, ob der Kunde einen Lebenszeit-Freibetragsschutz hat."
+    },
+    "BenefitCrystallisationEventOccurred": {
+      "definition": "Gibt an, ob ein Leistungskristallisierungsereignis (BCE) eingetreten ist. Dies umfasst die ‚Prüfungen mit 75 Jahren‘."
+    },
+    "NonWrapperTransfer": {
+      "definition": "Gibt an, dass sich die Übertragung nur auf zugrunde liegende Vermögenswerte bezieht und die Übertragung des Wrappers separat erfolgt."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zur Pensionspolice, zum Pensionsplan oder zur Pensionsregelung."
+    }
+  },
+  "isoRules": {
+    "BlockTransferRetirementAgeProtectionRule": {
+      "definition": "Wenn BlockTransfer \"false\" oder \"0\" (Nein) ist, dann ist RetirementAgeProtection nicht zulässig.|Wenn BlockTransfer \"true\" oder \"1\" (Ja) ist, dann kann RetirementAgeProtection vorhanden sein."
+    },
+    "RetirementAgeRule": {
+      "definition": "Wenn RetirementAgeProtection \"false\" oder \"0\" (Nein) ist, dann ist RetirementAge nicht zulässig.|Wenn RetirementAgeProtection \"true\" oder \"1\" (Ja) ist, dann kann RetirementAge vorhanden sein."
+    },
+    "BlockTransferTaxFreeCashProtectionRule": {
+      "definition": "Wenn BlockTransfer \"false\" oder \"0\" (Nein) ist, dann ist TaxFreeCashProtection nicht zulässig.|Wenn BlockTransfer \"true\" oder \"1\" (Ja) ist, dann kann TaxFreeCashProtection vorhanden sein."
+    },
+    "TaxFreeCashAmountRule": {
+      "definition": "Wenn TaxFreeCashProtection \"false\" oder \"0\" (Nein) ist, dann ist TaxFreeCashAmount nicht zulässig.|Wenn TaxFreeCashProtection \"true\" oder \"1\" (Ja) ist, dann kann TaxFreeCashAmount vorhanden sein."
+    },
+    "RingFencedDrawdownAssets1Rule": {
+      "definition": "Wenn DrawdownStatus/Code/NONE (None) vorhanden ist, dann ist RingFencedDrawdownAssets nicht zulässig."
+    },
+    "PensionOrderTypeGuideline": {
+      "definition": "Eine Rentenpolice, ein Rentenplan oder ein Rentensystem kann nicht gleichzeitig eine Zweckbindung und eine Teilungsanordnung haben.|Wenn PensionOrder/Type/Code/SHAR vorhanden ist, dann ist PensionOrder/Type/Code/EARM nicht zulässig.|Wenn PensionOrder/Type/Code/EARM vorhanden ist, dann ist PensionOrder/Type/Code/SHAR nicht zulässig."
+    },
+    "TaxFreeCashAndValueRule": {
+      "definition": "Wenn TaxFreeCashProtection \"true\" oder \"1\" (Ja) ist, dann müssen TaxFreeCashAmount und ValueOfPensionPolicyOrPlanOrScheme vorhanden sein.|Wenn TaxFreeCashProtection \"false\" oder \"0\" (Ja) ist, dann können TaxFreeCashAmount und ValueOfPensionPolicyOrPlanOrScheme vorhanden sein."
+    },
+    "TransferScopeTrancheIdentification1Rule": {
+      "definition": "Wenn TransferScope/Code/SDDT (DrawdownTranche) nicht vorhanden ist, dann ist DrawdownTrancheIdentification nicht zulässig.|Wenn TransferScope/Code/SDDT (DrawdownTranche) vorhanden ist, dann kann DrawdownTrancheIdentification vorhanden sein."
+    },
+    "RingFencedDrawdownAssets2Rule": {
+      "definition": "Wenn DrawdownStatus/Code/PART (Partial) oder FULL (Full) vorhanden ist, dann muss RingFencedDrawdownAssets vorhanden sein."
+    }
+  }
+}

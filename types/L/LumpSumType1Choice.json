@@ -1,0 +1,12 @@
+{
+  "isoType": "LumpSumType1Choice",
+  "definition": "Auswahl von Formaten für eine Art von Einmalzahlung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Art der Einmalzahlung."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Art der Einmalzahlung."
+    }
+  }
+}

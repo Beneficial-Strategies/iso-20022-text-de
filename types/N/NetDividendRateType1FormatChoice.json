@@ -1,0 +1,12 @@
+{
+  "isoType": "NetDividendRateType1FormatChoice",
+  "definition": "Auswahl der Formate zur Angabe der Art des Nettodividendensatzes.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Art des Nettodividendensatzes."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe der Art des Nettodividendensatzes."
+    }
+  }
+}

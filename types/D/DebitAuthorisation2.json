@@ -1,0 +1,18 @@
+{
+  "isoType": "DebitAuthorisation2",
+  "definition": "Gibt den Grund für die Anfrage einer Belastungsautorisierung sowie den Betrag der angefragten Belastung an.",
+  "isoElements": {
+    "CancellationReason": {
+      "definition": "Gibt den Grund für die Stornierungsanfrage an."
+    },
+    "AmountToDebit": {
+      "definition": "Für die Belastungsautorisierung angefragter Geldbetrag."
+    },
+    "ValueDateToDebit": {
+      "definition": "Wertstellungsdatum für die Belastung des Betrags."
+    },
+    "AdditionalCancellationReasonInformation": {
+      "definition": "Weitere Angaben zum Grund der Stornierungsanfrage."
+    }
+  }
+}

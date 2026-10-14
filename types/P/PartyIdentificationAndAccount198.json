@@ -1,0 +1,35 @@
+{
+  "isoType": "PartyIdentificationAndAccount198",
+  "definition": "Angaben zu Partei und Konto.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Partei."
+    },
+    "LEI": {
+      "definition": "Legal Entity Identifier als alternative Identifikation einer Partei."
+    },
+    "AlternateIdentification": {
+      "definition": "Alternative Identifikation einer Partei."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Blockchain-Adresse oder Wallet, in der digitale Vermögenswerte gehalten werden. Dies entspricht dem Verwahrkonto für digitale Vermögenswerte."
+    },
+    "ProcessingIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion für die identifizierte Partei."
+    },
+    "AdditionalInformation": {
+      "definition": "Gibt zusätzliche Informationen zur Partei an."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    }
+  }
+}

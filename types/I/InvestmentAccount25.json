@@ -1,0 +1,21 @@
+{
+  "isoType": "InvestmentAccount25",
+  "definition": "Konto zwischen einem oder mehreren Anlegern und einer Fondsverwaltungsgesellschaft oder einem Fonds. Das Konto kann Bestände an jedem von der Fondsverwaltungsgesellschaft verwalteten (oder vertriebenen) Investmentfonds oder jeder Anteilklasse eines Investmentfonds innerhalb derselben Fondsfamilie enthalten.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "Name": {
+      "definition": "Name des Kontos. Er dient als zusätzliches Identifikationsmittel und wird vom kontoführenden Institut in Absprache mit dem Kontoinhaber festgelegt."
+    },
+    "Designation": {
+      "definition": "Ergänzende Registrierungsinformationen für einen bestimmten Block von Anteilen zu Handels- und Meldezwecken. Die ergänzenden Registrierungsinformationen können verwendet werden, wenn alle Anteile registriert sind, zum Beispiel auf einen Fondssupermarkt, die Bestände je Anleger jedoch einzeln abgestimmt werden müssen."
+    },
+    "IntermediaryInformation": {
+      "definition": "Partei, die Anlegern Dienstleistungen im Zusammenhang mit Finanzprodukten erbringt, zum Beispiel Produktberatung und Platzierung von Aufträgen für den Investmentfonds."
+    },
+    "AccountServicer": {
+      "definition": "Partei, die das Konto im Auftrag des Kontoinhabers führt, das heißt die Erfassung und Buchung von Umsätzen auf dem Konto verwaltet, die Salden des Kontos berechnet und Informationen über das Konto bereitstellt."
+    }
+  }
+}

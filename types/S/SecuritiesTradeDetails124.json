@@ -1,0 +1,62 @@
+{
+  "isoType": "SecuritiesTradeDetails124",
+  "definition": "Einzelheiten zum Wertpapiergeschäft.",
+  "isoElements": {
+    "PlaceOfTrade": {
+      "definition": "Markt, an dem ein Handelsgeschäft ausgeführt wurde."
+    },
+    "PlaceOfClearing": {
+      "definition": "Infrastruktur, die Bestandteil eines Clearinghauses sein kann und das Clearing und die Abwicklung für ihre Mitglieder erleichtert, indem sie zwischen Käufer und Verkäufer tritt. Sie kann Transaktionen verrechnen und tritt für jede Position als Abwicklungsgegenpartei an ihre Stelle."
+    },
+    "TradeDate": {
+      "definition": "Gibt Datum und Uhrzeit der Ausführung des Geschäfts an."
+    },
+    "SettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere geliefert oder empfangen werden sollen."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen eine Transaktion abgeschlossen und verrechnet wird, das heißt, die Zahlung erfolgt und die Wertpapiere geliefert werden."
+    },
+    "DealPrice": {
+      "definition": "Gibt den Preis des gehandelten Finanzinstruments an.|Dies ist der Abschlusspreis der einzelnen Handelstransaktion. |Gibt es für die Ausführung des Handels nur eine Handelstransaktion, kann der Abschlusspreis dem ausgeführten Handelspreis entsprechen (es sei denn, der Preis enthält beispielsweise Provisionen oder Rundungen oder es wurde ein anderer Faktor auf den Abschlusspreis oder den ausgeführten Handelspreis oder auf beide angewendet)."
+    },
+    "Reporting": {
+      "definition": "Legt fest, dass ein Handelsgeschäft an einen Dritten zu melden ist."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Anzahl der Tage, an denen der Zinssatz aufläuft (täglich aufgelaufene Zinsen)."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Gibt die Bedingungen an, unter denen der Auftrag/das Geschäft auszuführen ist bzw. ausgeführt wurde."
+    },
+    "InvestorCapacity": {
+      "definition": "Legt die Rolle des Anlegers in der Transaktion fest."
+    },
+    "TradeOriginatorRole": {
+      "definition": "Gibt die Rolle der Handelspartei in der Transaktion an."
+    },
+    "SettlementInstructionProcessingAdditionalDetails": {
+      "definition": "Liefert zusätzliche Informationen zur Abwicklungsverarbeitung, die nicht in den strukturierten Feldern der Nachricht enthalten sein können."
+    },
+    "FXAdditionalDetails": {
+      "definition": "Liefert zusätzliche Details zu Devisenanweisungen."
+    }
+  },
+  "isoRules": {
+    "InvestorCapacityRule": {
+      "definition": "Wird InvestorCapacity verwendet, muss die Verwendung der Codes bilateral vereinbart werden."
+    },
+    "PlaceOfTradeRule": {
+      "definition": "Wird PlaceOfTrade verwendet und existiert für den zu identifizierenden Markt ein ISO-10383-MIC, muss der Market Identifier Code (MIC) nach ISO 10383 verwendet werden."
+    },
+    "TradeDateTimeUTCRule": {
+      "definition": "Wird Trade Date/Time mit einer Uhrzeit oder einer Uhrzeit plus UTC-Indikator verwendet, so muss es die Ortszeit des Handelsplatzes sein, zum Beispiel der Börse oder, bei OTC, des verkaufenden Brokers."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Sofern zwischen Sender und Empfänger nicht bilateral vereinbart, dürfen FXAdditionalDetails und/oder SettlementInstructionProcessingAdditionalDetails, falls vorhanden, keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können."
+    },
+    "CurrencyToBuyOrSellRule": {
+      "definition": "CurrencyToBuy und CurrencyToSell in der Nachrichtenkomponente TradeDetails weisen den Kontoführer an, im Auftrag des Kontoinhabers ein Devisengeschäft auszuführen. Der Zweck des Devisengeschäfts ist die Finanzierung des Wertpapierkaufs. Dieses Feld ist nicht zu verwenden, wenn Standardanweisungen eingerichtet wurden. ||Wird CurrencyToSell verwendet, gilt Folgendes:|- die Anweisung ist ein Empfang.|- die zur Finanzierung eines Wertpapierkaufs erforderliche Währung, zum Beispiel die zu kaufende Währung, ist die Währung des Abwicklungsbetrags. Die zu verkaufende Währung, mit der die Abwicklungswährung beschafft wird, wird durch das Nachrichtenelement für die zu verkaufende Währung angegeben. Normalerweise ist dies die Basiswährung des Portfolios. |- der Betrag der zu kaufenden Währung entspricht dem Abwicklungsbetrag der Transaktion. Dies bedeutet, dass das Devisengeschäft nicht für andere Transaktionen verwendet wird und ein Sammeldevisengeschäft auf anderem Wege angewiesen werden muss. |- ein Devisengeschäft zur Finanzierung des Wertpapierkaufs sollte so rechtzeitig ausgeführt werden, dass die Währung am Abwicklungstag der Wertpapiertransaktion verfügbar ist. |- eine bilaterale Vereinbarung über die Verwendung dieses Feldes wurde getroffen.||Wird CurrencyToBuy verwendet, gilt Folgendes:|- die Anweisung ist eine Lieferung|- die als Erlös aus dem Verkauf von Wertpapieren erhaltene Währung, zum Beispiel die zu verkaufende Währung, ist die Währung des Abwicklungsbetrags. Die zu kaufende Währung wird durch das Nachrichtenelement für die zu kaufende Währung angegeben. Wenn der Erlös repatriiert wird, erfolgt dies in der Basiswährung des Portfolios. |- der Betrag der zu verkaufenden Währung entspricht dem Abwicklungsbetrag der Transaktion. Dies bedeutet, dass ein Sammeldevisengeschäft auf anderem Wege angewiesen werden muss. |- ein Devisengeschäft zur Repatriierung des Erlöses nach dem Verkauf der Wertpapiere sollte, soweit nach Marktkonvention zulässig, zum frühestmöglichen Wertstellungstag nach der Abwicklung der Wertpapiere ausgeführt werden. |- eine bilaterale Vereinbarung über die Verwendung dieses Feldes wurde getroffen."
+    }
+  }
+}

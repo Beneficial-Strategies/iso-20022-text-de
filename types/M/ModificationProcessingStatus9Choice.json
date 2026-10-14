@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationProcessingStatus9Choice",
+  "definition": "Auswahl des Bearbeitungsstatus der Änderung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Status eines Änderungsauftrags an."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Status eines Änderungsauftrags an."
+    }
+  }
+}

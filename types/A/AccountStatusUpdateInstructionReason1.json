@@ -1,0 +1,17 @@
+{
+  "isoType": "AccountStatusUpdateInstructionReason1",
+  "definition": "Grund für eine Aktualisierung eines Kontostatus.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für die Anweisung zur Änderung des Kontostatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Grund für die Anweisung zur Änderung des Kontostatus."
+    }
+  },
+  "isoRules": {
+    "ReasonElementRule": {
+      "definition": "Entweder Code oder AdditionalInformation muss vorhanden sein. Beide dürfen vorhanden sein."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMTransaction41",
+  "definition": "Bestätigung der Ausnahmemeldung.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identifikation der vom ATM vergebenen Transaktion."
+    },
+    "Response": {
+      "definition": "Antwort auf die Meldung."
+    },
+    "Command": {
+      "definition": "Auf dem ATM auszuführender Wartungsbefehl."
+    }
+  }
+}

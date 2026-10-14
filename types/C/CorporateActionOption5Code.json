@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionOption5Code",
+  "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Bargeld",
+      "definition": "Option zur Wahl von Bargeld."
+    },
+    "SECU": {
+      "name": "Wertpapier",
+      "definition": "Ausschüttung von Wertpapieren an die Inhaber."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DataFormat2Choice",
+  "definition": "Auswahl zwischen der Angabe der Daten in strukturierter oder unstrukturierter Form.",
+  "isoElements": {
+    "Structured": {
+      "definition": "Angabe der Daten in strukturierter Form."
+    },
+    "Unstructured": {
+      "definition": "Angabe von Daten, für die es keine strukturierte Form gibt."
+    }
+  }
+}

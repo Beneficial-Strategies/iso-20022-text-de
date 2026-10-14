@@ -1,0 +1,4 @@
+{
+  "isoType": "CustodyStatementOfHoldingsCancellationV02",
+  "definition": "Geltungsbereich|Ein kontoführendes Institut, zum Beispiel eine Transferstelle, sendet die Nachricht CustodyStatementOfHoldingsCancellation an den Kontoinhaber, zum Beispiel einen Vermögensverwalter oder dessen bevollmächtigten Vertreter, um eine zuvor gesendete Nachricht CustodyStatementOfHoldings zu stornieren.|Verwendung|Die Nachricht CustodyStatementOfHoldingsCancellation wird verwendet, um eine zuvor gesendete Nachricht CustodyStatementOfHoldings zu stornieren. Diese Nachricht muss die Referenz der zu stornierenden Nachricht enthalten.|Diese Nachricht kann auch Einzelheiten zur zu stornierenden Nachricht enthalten, dies wird jedoch nicht empfohlen."
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "RequestDetails30",
+  "definition": "Details der Verarbeitungsanfrage.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art der angeforderten Daten, zum Beispiel ein BIC eines Untermitglieds."
+    },
+    "RequestorIdentification": {
+      "definition": "Identifiziert den Anfragenden."
+    },
+    "AdditionalRequestInformation": {
+      "definition": "Zusätzliche Informationen zur Unterstützung der Verarbeitungsanfrage."
+    }
+  }
+}

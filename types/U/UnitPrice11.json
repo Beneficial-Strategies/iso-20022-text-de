@@ -1,0 +1,26 @@
+{
+  "isoType": "UnitPrice11",
+  "definition": "Geldbetrag, zu dem Waren oder Dienstleistungen angeboten, verkauft oder gekauft werden.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art und Informationen zu einem Preis."
+    },
+    "ExtendedType": {
+      "definition": "Art und Informationen zu einem Preis."
+    },
+    "Value": {
+      "definition": "Wert des Preises, zum Beispiel als Währung und Wert."
+    },
+    "PriceMethod": {
+      "definition": "Art der Preisberechnungsmethode."
+    }
+  },
+  "isoRules": {
+    "TypeOrExtendedTypeRule": {
+      "definition": "Entweder Type oder ExtendedType muss vorhanden sein, aber nicht beide."
+    },
+    "TypeOrExtendedTypeRuleNotBoth": {
+      "definition": "Entweder Type oder ExtendedType muss vorhanden sein, aber nicht beide."
+    }
+  }
+}

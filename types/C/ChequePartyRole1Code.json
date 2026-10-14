@@ -1,0 +1,22 @@
+{
+  "isoType": "ChequePartyRole1Code",
+  "definition": "Gibt die Rollen der mit einem Scheck verbundenen Parteien an.",
+  "isoCodes": {
+    "DWEA": {
+      "name": "Bank des Bezogenen",
+      "definition": "Gibt die Bank an, auf die ein Scheck gezogen ist, das heißt das Finanzinstitut, das das Konto des Zahlungsempfängers führt, der den Scheck ausgestellt hat."
+    },
+    "DWRA": {
+      "name": "Bank des Ausstellers",
+      "definition": "Gibt die Bank an, die das Konto des Scheckzahlers führt."
+    },
+    "PAYE": {
+      "name": "Zahlungsempfänger",
+      "definition": "Partei, die einen im Scheck angegebenen Geldbetrag erhält."
+    },
+    "PAYR": {
+      "name": "Zahler",
+      "definition": "Partei, die einen Scheck ausstellt und damit die bezogene Bank anweist, auf Verlangen einen bestimmten Betrag an den Zahlungsempfänger zu zahlen."
+    }
+  }
+}

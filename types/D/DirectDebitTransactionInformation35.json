@@ -1,0 +1,152 @@
+{
+  "isoType": "DirectDebitTransactionInformation35",
+  "definition": "Enthält weitere Angaben, die für die einzelnen in der Nachricht enthaltenen Lastschrifttransaktion(en) spezifisch sind.",
+  "isoElements": {
+    "PaymentIdentification": {
+      "definition": "Satz von Elementen zur Referenzierung einer Zahlungsanweisung."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Satz von Elementen zur näheren Bestimmung der Transaktionsart."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Geldbetrag, der zwischen der anweisenden Bank und der angewiesenen Bank bewegt wird."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag der Bank, die ihn schuldet, nicht mehr zur Verfügung steht und der Bank, der er zusteht, zur Verfügung steht."
+    },
+    "SettlementPriority": {
+      "definition": "Kennzeichen für die Dringlichkeit oder Wichtigkeit, mit der die anweisende Partei die Abwicklungsanweisung von der angewiesenen Partei verarbeitet haben möchte."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Enthält Informationen zur eingetretenen Abwicklungszeit der Zahlungstransaktion."
+    },
+    "InstructedAmount": {
+      "definition": "Geldbetrag, der vor Abzug von Entgelten zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, ausgedrückt in der von der initiierenden Partei beauftragten Währung.|Verwendung: Dieser Betrag muss unverändert durch die Transaktionskette transportiert werden."
+    },
+    "ExchangeRate": {
+      "definition": "Faktor zur Umrechnung eines Betrags von einer Währung in eine andere. Er gibt den Preis wieder, zu dem eine Währung mit einer anderen Währung gekauft wurde."
+    },
+    "ChargeBearer": {
+      "definition": "Gibt an, welche Partei(en) die mit der Verarbeitung der Zahlungstransaktion verbundenen Entgelte trägt/tragen."
+    },
+    "ChargesInformation": {
+      "definition": "Enthält Informationen zu den vom/von den Entgeltträger(n) zu zahlenden Entgelten im Zusammenhang mit der Zahlungstransaktion."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Zahlungsempfänger verlangt, dass der Geldbetrag vom Zahlungspflichtigen eingezogen wird."
+    },
+    "DirectDebitTransaction": {
+      "definition": "Enthält Informationen, die für das Lastschriftmandat spezifisch sind."
+    },
+    "Creditor": {
+      "definition": "Partei, der ein Geldbetrag zusteht."
+    },
+    "CreditorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungsempfängers, dem aufgrund der Zahlungstransaktion eine Gutschrift gebucht wird."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungsempfänger führt."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungsempfängers bei der sie kontoführenden Bank, dem aufgrund der Zahlungstransaktion eine Gutschrift erteilt wird."
+    },
+    "UltimateCreditor": {
+      "definition": "Letztliche Partei, der ein Geldbetrag zusteht."
+    },
+    "InitiatingParty": {
+      "definition": "Partei, die die Zahlung initiiert.|Verwendung: Dies kann entweder der Zahlungsempfänger oder eine Partei sein, die die Lastschrift im Auftrag des Zahlungsempfängers initiiert."
+    },
+    "InstructingAgent": {
+      "definition": "Bank, die die nächste Partei in der Kette anweist, die Anweisung(en) auszuführen."
+    },
+    "InstructedAgent": {
+      "definition": "Bank, die von der vorherigen Partei in der Kette angewiesen wird, die Anweisung(en) auszuführen."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers.||Verwendung: Sind mehrere zwischengeschaltete Banken vorhanden, kennzeichnet IntermediaryAgent1 die Bank zwischen der DebtorAgent und der IntermediaryAgent2."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Eindeutige Identifikation des Kontos der zwischengeschalteten Bank 1 bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers.||Verwendung: Sind mehr als zwei zwischengeschaltete Banken vorhanden, kennzeichnet IntermediaryAgent2 die Bank zwischen der IntermediaryAgent1 und der IntermediaryAgent3."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Eindeutige Identifikation des Kontos der zwischengeschalteten Bank 2 bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers.||Verwendung: Ist IntermediaryAgent3 vorhanden, kennzeichnet sie die Bank zwischen der zwischengeschalteten Bank 2 und der Bank des Zahlungspflichtigen."
+    },
+    "IntermediaryAgent3Account": {
+      "definition": "Eindeutige Identifikation des Kontos der zwischengeschalteten Bank 3 bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "Debtor": {
+      "definition": "Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "DebtorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungspflichtigen, das aufgrund der Transaktion belastet wird."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungspflichtigen führt."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungspflichtigen bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "UltimateDebtor": {
+      "definition": "Letztlich Zahlungspflichtiger, der dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "Purpose": {
+      "definition": "Zugrunde liegender Grund für die Zahlungstransaktion.|Verwendung: Der Zweck wird von den Endkunden, das heißt der initiierenden Partei, dem (letztlich) Zahlungspflichtigen und dem (letztlichen) Zahlungsempfänger, verwendet, um Informationen zur Art der Zahlung bereitzustellen. Der Zweck ist ein Inhaltselement, das von keiner der an der Zahlungskette beteiligten Banken zur Verarbeitung verwendet wird."
+    },
+    "RegulatoryReporting": {
+      "definition": "Aufgrund aufsichtsrechtlicher und gesetzlicher Anforderungen erforderliche Informationen."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Enthält Informationen zur Behandlung der Verwendungszweck-Informationen durch eine der Banken in der Transaktionsverarbeitungskette."
+    },
+    "RemittanceInformation": {
+      "definition": "Informationen zur Ermöglichung des Abgleichs eines Umsatzes mit den Posten, die durch die Übertragung beglichen werden sollen, etwa Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor darf nur vorhanden sein, wenn er sich vom Debtor unterscheidet."
+    },
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor darf nur vorhanden sein, wenn er sich vom Creditor unterscheidet."
+    },
+    "ChargesInformationAndInstructedAmountRule": {
+      "definition": "Wenn ChargesInformation vorhanden ist, muss InstructedAmount vorhanden sein."
+    },
+    "ChargesAmountGuideline": {
+      "definition": "Wenn ChargesInformation vorhanden ist, wird empfohlen, dass die Währung von ChargesInformation/ChargesAmount mit der Währung von InterbankSettlementAmount übereinstimmt."
+    },
+    "InstructedAmountAndExchangeRate1Rule": {
+      "definition": "Wenn InstructedAmount vorhanden ist und die Währung von der Währung in InterbankSettlementAmount abweicht, muss ExchangeRate vorhanden sein."
+    },
+    "InstructedAmountAndExchangeRate2Rule": {
+      "definition": "Wenn InstructedAmount vorhanden ist und die Währung mit der Währung in InterbankSettlementAmount übereinstimmt, ist ExchangeRate nicht zulässig."
+    },
+    "IntermediaryAgent1AccountRule": {
+      "definition": "Wenn IntermediaryAgent1Account vorhanden ist, muss IntermediaryAgent1 vorhanden sein."
+    },
+    "IntermediaryAgent2AccountRule": {
+      "definition": "Wenn IntermediaryAgent2Account vorhanden ist, muss IntermediaryAgent2 vorhanden sein."
+    },
+    "IntermediaryAgent3AccountRule": {
+      "definition": "Wenn IntermediaryAgent3Account vorhanden ist, muss IntermediaryAgent3 vorhanden sein."
+    },
+    "IntermediaryAgent2Rule": {
+      "definition": "Wenn IntermediaryAgent2 vorhanden ist, muss IntermediaryAgent1 vorhanden sein."
+    },
+    "IntermediaryAgent3Rule": {
+      "definition": "Wenn IntermediaryAgent3 vorhanden ist, muss IntermediaryAgent2 vorhanden sein."
+    },
+    "InstructedAmountAndExchangeRate3Rule": {
+      "definition": "Wenn InstructedAmount nicht vorhanden ist, ist ExchangeRate nicht zulässig."
+    }
+  }
+}

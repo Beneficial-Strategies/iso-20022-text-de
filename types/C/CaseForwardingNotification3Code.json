@@ -1,0 +1,30 @@
+{
+  "isoType": "CaseForwardingNotification3Code",
+  "definition": "Legt die Maßnahme fest, die bei der Weiterleitung eines Falls angefordert wird.",
+  "isoCodes": {
+    "FTHI": {
+      "name": "Weitere Untersuchung",
+      "definition": "Der Fall wurde zur weiteren Untersuchung an die nächste Partei weitergeleitet."
+    },
+    "CANC": {
+      "name": "Stornierungsanfrage",
+      "definition": "Der Fall wurde zur Stornierung an die nächste Partei weitergeleitet."
+    },
+    "MODI": {
+      "name": "Änderungsanfrage",
+      "definition": "Der Fall wurde zur Änderung an die nächste Partei weitergeleitet."
+    },
+    "DTAU": {
+      "name": "Anfrage zur Belastungsautorisierung",
+      "definition": "Der Fall wurde weitergeleitet, um die Autorisierung zur Belastung einzuholen."
+    },
+    "SAIN": {
+      "name": "Zusätzliche Informationen gesendet",
+      "definition": "Zusätzliche Informationen wurden an den Zahlungsempfänger weitergeleitet."
+    },
+    "MINE": {
+      "name": "Eigener Untersuchungsfall",
+      "definition": "Der Fall wird von der zugewiesenen Partei bearbeitet."
+    }
+  }
+}

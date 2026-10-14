@@ -1,0 +1,12 @@
+{
+  "isoType": "QuantityType1Choice",
+  "definition": "Auswahl von Formaten für die Menge.",
+  "isoElements": {
+    "Code": {
+      "definition": "Mengenart als Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Mengenart als proprietärer Code ausgedrückt."
+    }
+  }
+}

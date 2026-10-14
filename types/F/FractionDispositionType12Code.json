@@ -1,0 +1,14 @@
+{
+  "isoType": "FractionDispositionType12Code",
+  "definition": "Gibt die Verarbeitung an, die auf Wertpapierbruchteile anzuwenden ist.",
+  "isoCodes": {
+    "RDDN": {
+      "name": "Abrunden",
+      "definition": "Auf die nächste ganze Zahl abrunden."
+    },
+    "RDUP": {
+      "name": "Aufrunden",
+      "definition": "Auf die nächste ganze Zahl aufrunden."
+    }
+  }
+}

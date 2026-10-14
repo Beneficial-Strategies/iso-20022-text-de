@@ -1,0 +1,27 @@
+{
+  "isoType": "AdditiononalInformation13",
+  "definition": "Beschränkungen, Anmerkungen oder Hinweise, die auf ein Konto oder einen Anlageplan angewendet werden können.",
+  "isoElements": {
+    "Limitation": {
+      "definition": "Beschränkungen und/oder Einschränkungen für das Konto oder die Partei."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen, beispielsweise Anmerkungen oder Hinweise, die zur Kontoverwaltung oder zur Partei übermittelt werden müssen."
+    },
+    "AccountValidation": {
+      "definition": "Informationen oder Anweisungen zur Umgehung von Validierungen im Kontoregistrierungsprozess."
+    },
+    "Type": {
+      "definition": "Art oder Identifikation der Anmerkung, des Hinweises, der Einschränkung oder der Beschränkung."
+    },
+    "Regulator": {
+      "definition": "Aufsichtsbehörde, die gegebenenfalls über die Anmerkung, den Hinweis, die Einschränkung oder die Beschränkung zu informieren ist."
+    },
+    "Status": {
+      "definition": "Status der Anmerkung, des Hinweises, der Einschränkung oder der Beschränkung."
+    },
+    "Period": {
+      "definition": "Zeitraum der Beschränkung."
+    }
+  }
+}

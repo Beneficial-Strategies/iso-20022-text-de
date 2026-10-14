@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessingType1Choice",
+  "definition": "Art der Verarbeitungsbeschränkungen.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der Verarbeitungsbeschränkungen in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Art der Verarbeitungsbeschränkungen in proprietärer Form."
+    }
+  }
+}

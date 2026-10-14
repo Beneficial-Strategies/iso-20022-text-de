@@ -1,0 +1,50 @@
+{
+  "isoType": "TransferReason1Code",
+  "definition": "Gibt den Grund für die Übertragung der Vermögenswerte an.",
+  "isoCodes": {
+    "TRAU": {
+      "name": "Ungeteilter Besitz",
+      "definition": "Die Übertragung betrifft einen ungeteilten Besitz."
+    },
+    "TRAC": {
+      "name": "Übertragung zwischen Ehegatten",
+      "definition": "Die Übertragung erfolgt zwischen Ehepartnern."
+    },
+    "TRAT": {
+      "name": "Handelsgeschäft",
+      "definition": "Die Übertragung ist ein Handelsgeschäft."
+    },
+    "TRAO": {
+      "name": "Ordentliche Übertragung",
+      "definition": "Die Übertragung ist gewöhnlich."
+    },
+    "TRAI": {
+      "name": "Erbschaft",
+      "definition": "Die Übertragung ist ein Erbe."
+    },
+    "TRAG": {
+      "name": "Schenkung",
+      "definition": "Die Übertragung ist eine Schenkung."
+    },
+    "TPLD": {
+      "name": "Übertragung eines verpfändeten Kontos",
+      "definition": "Übertragung auf ein verpfändetes Konto (unter bestimmten Umständen müssen Vertriebsstellen den Bestand ganz oder teilweise sperren und auf ein separates Sammelkonto übertragen, z. B. bei einer von der Steuerbehörde oder der Polizei verlangten Untersuchung)."
+    },
+    "TTDT": {
+      "name": "Übertragung im TDT-Rahmen",
+      "definition": "Übertragungsanweisung, die im TDT-Rahmen ausgeführt wird (der TDT-Rahmen ist das vom italienischen Bankenverband geförderte Betriebsmodell für Übertragungen; die meisten, aber nicht alle Übertragungen werden nach diesem Verfahren ausgeführt)."
+    },
+    "TRPE": {
+      "name": "Übertragung zwischen verschiedenen Begünstigten",
+      "definition": "Übertragung zwischen verschiedenen Begünstigten, auf die eine Besteuerung anzuwenden ist (Konten mit unterschiedlichen Inhabern)."
+    },
+    "TRAF": {
+      "name": "Abspaltung",
+      "definition": "Die Übertragung ist das Ergebnis einer Abspaltung oder Teilung."
+    },
+    "TRAN": {
+      "name": "Zwischen eigenen Konten",
+      "definition": "Die Übertragung erfolgt zwischen eigenen Konten."
+    }
+  }
+}

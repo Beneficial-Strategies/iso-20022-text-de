@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMReconciliationRequestV01",
+  "definition": "Der ATMReconciliationRequest wird von einem ATM an einen Wartungshost gesendet, um Aktualisierungen der Abgleichszähler mitzuteilen."
+}

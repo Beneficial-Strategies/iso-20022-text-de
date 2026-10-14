@@ -1,0 +1,12 @@
+{
+  "isoType": "CommissionType5Choice",
+  "definition": "Auswahl von Formaten für die Provisionsart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Provisionsart als Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Provisionsart als proprietärer Code ausgedrückt."
+    }
+  }
+}

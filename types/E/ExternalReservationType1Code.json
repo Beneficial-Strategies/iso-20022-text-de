@@ -1,0 +1,30 @@
+{
+  "isoType": "ExternalReservationType1Code",
+  "definition": "Gibt die Art der Reservierung an, wie in einem externen Code-Set für Reservierungsarten veröffentlicht.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "BLKD": {
+      "name": "Gesperrt",
+      "definition": "Betrag gesperrt oder eingefroren aufgrund externer Umstände wie einer gerichtlichen Anordnung, dem Tod des Begünstigten oder Kontoinhabers oder einer Insolvenz."
+    },
+    "CARE": {
+      "name": "Liquiditätsreservierung",
+      "definition": "Betrag, der von einem Teilnehmer zur Reservierung von Liquidität von seinem eigenen Konto zurückgestellt wird, ausschließlich oder zur Ausführung von Bargeldabhebungen."
+    },
+    "HPAR": {
+      "name": "Reservierung für hochdringliche Zahlungen",
+      "definition": "Betrag, der von einem Teilnehmer zur Reservierung von Liquidität von seinem eigenen Konto zurückgestellt wird, ausschließlich zur Ausführung hochdringlicher Zahlungen."
+    },
+    "NSSR": {
+      "name": "Netto-SSS-Reservierung",
+      "definition": "Betrag, der von einem Teilnehmer zur Reservierung von Liquidität von seinem eigenen Konto zurückgestellt wird, ausschließlich für die Abwicklung des multilateralen Barsaldos aus dem Net Security Settlement System."
+    },
+    "THRE": {
+      "name": "Schwellenwert für Anlagen",
+      "definition": "Betrag, ab dem Mittel für Anlagezwecke vorgesehen werden."
+    },
+    "UPAR": {
+      "name": "Reservierung für dringende Zahlungen",
+      "definition": "Betrag, der von einem Teilnehmer zur Reservierung von Liquidität von seinem eigenen Konto zurückgestellt wird, ausschließlich zur Ausführung kritischer Zahlungen, sogenannter dringender Zahlungen."
+    }
+  }
+}

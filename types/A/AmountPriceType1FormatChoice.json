@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountPriceType1FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe der Betragspreisart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Betragspreisart."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe der Betragspreisart."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification215",
+  "definition": "Identifikation einer Partei.",
+  "isoElements": {
+    "Name": {
+      "definition": "Name, unter dem eine Partei bekannt ist und der üblicherweise zur Identifikation dieser Partei verwendet wird."
+    },
+    "Identification": {
+      "definition": "Identifikation der Partei."
+    }
+  }
+}

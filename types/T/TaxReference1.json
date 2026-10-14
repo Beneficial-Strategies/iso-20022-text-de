@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxReference1",
+  "definition": "Steuerreferenz des Pensionsplans.",
+  "isoElements": {
+    "TaxType": {
+      "definition": "Art der Steuerreferenz."
+    },
+    "Reference": {
+      "definition": "Steuerreferenz."
+    },
+    "HolderType": {
+      "definition": "Art des Referenzinhabers. Zum Beispiel die Steuerreferenz des Übernehmenden. Der Übernehmende kann auch als erwerbende Partei bezeichnet werden."
+    }
+  }
+}

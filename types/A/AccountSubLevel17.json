@@ -1,0 +1,30 @@
+{
+  "isoType": "AccountSubLevel17",
+  "definition": "Konto und Bestand der nächsten Unterebene (Ebene 7).",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Unterkontos zwischen Kontoinhaber und Kontoführer."
+    },
+    "AccountOwner": {
+      "definition": "Partei, die rechtlicher Eigentümer des Unterkontos ist."
+    },
+    "AccountServicer": {
+      "definition": "Partei, die das Unterkonto im Auftrag des Kontoinhabers verwaltet, das heißt die Registrierung und Buchung von Einträgen auf dem Konto verwaltet, Salden auf dem Konto berechnet und Informationen zum Konto bereitstellt."
+    },
+    "BeneficialOwner": {
+      "definition": "Person oder Stelle, die letztlich Anspruch auf den Nutzen aus Erträgen und Rechten an einem Finanzinstrument hat, im Gegensatz zu einem nominellen oder rechtlichen Eigentümer."
+    },
+    "BalanceDetails": {
+      "definition": "Bericht über die Nettoposition eines Finanzinstruments auf dem Unterkonto (Unterkontoebene 7) für ein bestimmtes Datum. Der Beauftragte, zum Beispiel ein Handelsvermittler, kann ebenfalls angegeben werden."
+    },
+    "AccountSubLevel8": {
+      "definition": "Bestände der Ebene 8."
+    },
+    "AccountSubLevel8Difference": {
+      "definition": "Differenz der Bestände zwischen dem Unterkonto der Ebene 7 und den Unterkonten der Ebene 8."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ReplacementProcessingStatus9Choice",
+  "definition": "Auswahl des Formats für den Verarbeitungsstatus der Ersetzung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Liefert den Verarbeitungsstatus der Ersetzungsanforderung."
+    },
+    "Proprietary": {
+      "definition": "Liefert den Verarbeitungsstatus der Ersetzungsanforderung."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "InvestmentAccountCategory1Code",
+  "definition": "Gibt die Kategorie des Anlagekontos an.",
+  "isoCodes": {
+    "MAND": {
+      "name": "Mandatskonto",
+      "definition": "Das Konto wird vollständig vom Finanzinstitut verwaltet, d. h. ein Anleger erteilt dem Finanzinstitut ein „Mandat“, in seinem Namen eine einvernehmlich vereinbarte Anlagestrategie umzusetzen."
+    },
+    "RETA": {
+      "name": "Privatkundenkonto",
+      "definition": "Das Konto ist ein vom Anleger verwaltetes Standardkonto. Der Anleger erteilt dem Finanzinstitut Anweisungen für das Konto."
+    }
+  }
+}

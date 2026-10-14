@@ -1,0 +1,14 @@
+{
+  "isoType": "SequenceType2Code",
+  "definition": "Gibt an, ob eine einmalige Transaktion oder wiederkehrende Transaktionen abgedeckt sind.",
+  "isoCodes": {
+    "RCUR": {
+      "name": "Wiederkehrend",
+      "definition": "Lastschriftanweisung, bei der die Autorisierung des Zahlungspflichtigen für regelmäßige, vom Zahlungsempfänger ausgelöste Lastschrifttransaktionen verwendet wird."
+    },
+    "OOFF": {
+      "name": "Einmalig",
+      "definition": "Lastschriftanweisung, bei der die Autorisierung des Zahlungspflichtigen zur Auslösung einer einzelnen Lastschrifttransaktion verwendet wird."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TradeTransactionCondition5Choice",
+  "definition": "Auswahl des Formats für die Bedingung des Handelsgeschäfts.",
+  "isoElements": {
+    "Code": {
+      "definition": "Handelsbedingungen, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Handelsbedingungen, ausgedrückt als proprietärer Code."
+    }
+  }
+}

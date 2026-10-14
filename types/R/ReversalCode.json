@@ -1,0 +1,14 @@
+{
+  "isoType": "ReversalCode",
+  "definition": "Gibt an, ob ein Vorgang das Ergebnis eines Rückbuchungsvorgangs ist.",
+  "isoCodes": {
+    "RVCD": {
+      "name": "Rückbuchung Gutschrift",
+      "definition": "Belastungsbuchung zur Rückbuchung einer zuvor gebuchten Gutschriftsbuchung."
+    },
+    "RVDB": {
+      "name": "Rückbuchung Belastung",
+      "definition": "Gutschriftsbuchung zur Rückbuchung einer zuvor gebuchten Belastungsbuchung."
+    }
+  }
+}

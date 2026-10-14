@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndQuantityRatio1",
+  "definition": "Als Betrag je Menge ausgedrücktes Verhältnis.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Bargeldbetrag."
+    },
+    "Quantity": {
+      "definition": "Als Zahl ausgedrückte Menge."
+    }
+  }
+}

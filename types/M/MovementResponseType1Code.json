@@ -1,0 +1,14 @@
+{
+  "isoType": "MovementResponseType1Code",
+  "definition": "Gibt die Art der zurückzugebenden Bewegungsantwort an.",
+  "isoCodes": {
+    "FULL": {
+      "name": "Vollständig",
+      "definition": "Die Antwort enthält vollständige Angaben zu den gemeldeten Bewegungen."
+    },
+    "STTS": {
+      "name": "Status",
+      "definition": "Die Antwort enthält eingeschränkte Angaben, einschließlich des Status der gemeldeten Bewegungen."
+    }
+  }
+}

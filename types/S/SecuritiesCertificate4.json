@@ -1,0 +1,20 @@
+{
+  "isoType": "SecuritiesCertificate4",
+  "definition": "Physische Darstellung eines Wertpapiers.",
+  "isoElements": {
+    "Number": {
+      "definition": "Eindeutiger und unmissverständlicher Identifikator eines vom Emittenten vergebenen Zertifikats."
+    },
+    "Issuer": {
+      "definition": "Finanzinstrumente, die eine Summe von Rechten des Anlegers gegenüber dem Emittenten darstellen."
+    },
+    "SchemeName": {
+      "definition": "Kurze textliche Beschreibung des Schemas."
+    }
+  },
+  "isoRules": {
+    "ISO8532AndIssuerSchemeNameRule": {
+      "definition": "Entspricht Number ISO 8532 (Format für die Übermittlung von Zertifikatsnummern), dürfen Issuer und SchemeName nicht verwendet werden."
+    }
+  }
+}

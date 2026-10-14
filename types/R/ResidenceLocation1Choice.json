@@ -1,0 +1,12 @@
+{
+  "isoType": "ResidenceLocation1Choice",
+  "definition": "Auswahl des Ortes des Wohnsitzes einer Partei.",
+  "isoElements": {
+    "Country": {
+      "definition": "Gibt das Ansässigkeitsland des Kontoinhabers an."
+    },
+    "Area": {
+      "definition": "Gibt die geografische Ansässigkeitsregion oder das Ansässigkeitsgebiet des Kontoinhabers an."
+    }
+  }
+}

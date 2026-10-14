@@ -1,0 +1,58 @@
+{
+  "isoType": "TaxEfficientProductType2Code",
+  "definition": "Gibt eine Art von steuereffizientem Produkt an.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Bargeld",
+      "definition": "Individuelles Spar-Bargeldkonto. Im UK ist dies als Cash ISA bekannt."
+    },
+    "CLIS": {
+      "name": "Cash-LISA",
+      "definition": "Lebenslanges individuelles Spar-Bargeldkonto. Im UK ist dies als Cash LISA bekannt."
+    },
+    "FISA": {
+      "name": "Flexibel",
+      "definition": "Flexibles individuelles Sparkonto. Im UK ist dies als FISA bekannt."
+    },
+    "GISK": {
+      "name": "Allgemeines Anlagesparkonto",
+      "definition": "Allgemeines Anlagesparkonto. (In manchen Märkten als Investeringssparkonto (ISK) bekannt.)"
+    },
+    "GASK": {
+      "name": "Allgemeines Aktiensparkonto",
+      "definition": "Allgemeines Aktien- oder Beteiligungssparkonto. (In manchen Märkten als ASK bekannt.)"
+    },
+    "HISA": {
+      "name": "Help to Buy",
+      "definition": "Individuelles Sparkonto zur Wohneigentumsförderung (Help to Buy). Im UK ist dies als HISA bekannt."
+    },
+    "INNF": {
+      "name": "Innovative Finanzierung",
+      "definition": "Individuelles Sparkonto für innovative Finanzierung (Innovative Finance). Im UK ist dies als Innovative ISA bekannt."
+    },
+    "JCSH": {
+      "name": "Junior-Bargeld",
+      "definition": "Individuelles Junior-Spar-Bargeldkonto. Im UK ist dies als Cash JISA bekannt."
+    },
+    "JISA": {
+      "name": "Junior-Aktien-ISA",
+      "definition": "Individuelles Junior-Spardepot für Aktien und Anteile. Im UK ist dies als Stocks and Shares JISA bekannt."
+    },
+    "LISA": {
+      "name": "Lebenszeit",
+      "definition": "Lebenslanges individuelles Spardepot für Aktien und Anteile. Im UK ist dies als Stocks and Shares LISA bekannt."
+    },
+    "CCTF": {
+      "name": "Kindertreuhandfonds ohne Stakeholder",
+      "definition": "Individuelles Sparkonto für einen Child Trust Fund ohne Stakeholder-Merkmal. Im UK ist dies als Non-Stakeholder CTF ISA bekannt."
+    },
+    "SCTF": {
+      "name": "Kindertreuhandfonds mit Stakeholder",
+      "definition": "Individuelles Sparkonto für einen Child Trust Fund mit Stakeholder-Merkmal. Im UK ist dies als Stakeholder CTF ISA bekannt."
+    },
+    "EQUI": {
+      "name": "Aktien und Anteile",
+      "definition": "Individuelles Spardepot für Aktien und Anteile. Im UK ist dies als Stocks and Shares ISA bekannt."
+    }
+  }
+}

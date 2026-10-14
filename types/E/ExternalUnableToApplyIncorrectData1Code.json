@@ -1,0 +1,170 @@
+{
+  "isoType": "ExternalUnableToApplyIncorrectData1Code",
+  "definition": "Legt den Grund für eine Nichtanwendbarkeit aufgrund fehlerhafter Daten fest, wie in einem externen Code-Set für Nichtanwendbarkeit aufgrund fehlerhafter Daten veröffentlicht.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "IN01": {
+      "name": "Fehlerhafte zugehörige Referenz",
+      "definition": "Die Referenz der zugehörigen Transaktion ist fehlerhaft."
+    },
+    "IN02": {
+      "name": "Fehlerhafter Servicelevel der Zahlung",
+      "definition": "Service Level der Zahlungsart ist fehlerhaft (früher IncorrectBankOperationCode)."
+    },
+    "IN03": {
+      "name": "Fehlerhafter Kategoriezweck",
+      "definition": "Category Purpose der Zahlungsart ist fehlerhaft (früher IncorrectInstructionCode)."
+    },
+    "IN04": {
+      "name": "Fehlerhaftes gewünschtes Ausführungsdatum",
+      "definition": "RequestedExecutionDate ist fehlerhaft."
+    },
+    "IN05": {
+      "name": "Fehlerhaftes Interbanken-Abwicklungsdatum",
+      "definition": "Interbanken-Abwicklungsdatum ist fehlerhaft (früher IncorrectValueDate)."
+    },
+    "IN06": {
+      "name": "Fehlerhafter Interbanken-Abwicklungsbetrag",
+      "definition": "Interbanken-Abwicklungsbetrag ist fehlerhaft (früher IncorrectSettledAmount)."
+    },
+    "IN07": {
+      "name": "Falscher Zahlungspflichtiger",
+      "definition": "Zahlungspflichtiger ist fehlerhaft."
+    },
+    "IN08": {
+      "name": "Falsches Konto des Zahlungspflichtigen",
+      "definition": "DebtorAccount ist fehlerhaft."
+    },
+    "IN09": {
+      "name": "Falsche angewiesene Erstattungsbank",
+      "definition": "InstructedReimbursementAgent ist fehlerhaft (früher IncorrectReceiverCorrespondent)."
+    },
+    "IN10": {
+      "name": "Falsche dritte Erstattungsbank",
+      "definition": "ThirdReimbursementAgent ist fehlerhaft (früher IncorrectThirdReimbursementInstitution)."
+    },
+    "IN11": {
+      "name": "Falscher Clearing-Kanal der Zahlung",
+      "definition": "Clearing-Kanal der Zahlungsart ist fehlerhaft (früher PaymentScheme)."
+    },
+    "IN12": {
+      "name": "Falsches Konto der Bank des Zahlungsempfängers",
+      "definition": "CreditorAgentAccount ist fehlerhaft (früher IncorrectAccountOfBeneficiaryInstitution)."
+    },
+    "IN13": {
+      "name": "Falscher Zahlungsempfänger",
+      "definition": "Zahlungsempfänger ist fehlerhaft."
+    },
+    "IN14": {
+      "name": "Falsches Konto des Zahlungsempfängers",
+      "definition": "Konto des Zahlungsempfängers ist fehlerhaft."
+    },
+    "IN15": {
+      "name": "Fehlerhafte Verwendungszweck-Informationen",
+      "definition": "RemittanceInformation ist fehlerhaft."
+    },
+    "IN16": {
+      "name": "Fehlerhafter Zahlungszweck",
+      "definition": "Zahlungszweck der Transaktion ist fehlerhaft."
+    },
+    "IN17": {
+      "name": "Fehlerhafte Entgeltverteilung",
+      "definition": "ChargeBearer ist fehlerhaft (früher IncorrectDetailsOfCharges)."
+    },
+    "IN18": {
+      "name": "Fehlerhafte Anweisung für die nächste Bank",
+      "definition": "Anweisung an die nächste Bank ist fehlerhaft (früher IncorrectSenderToReceiverInformation)."
+    },
+    "IN19": {
+      "name": "Fehlerhafte Anweisung für die Bank des Zahlungsempfängers",
+      "definition": "Anweisung an die Bank des Zahlungsempfängers ist fehlerhaft (früher IncorrectInstructionForFinalAgent)."
+    },
+    "IN33": {
+      "name": "Fehlerhafter Betrag des Berichtseintrags",
+      "definition": "Betrag im Kontoauszugsposten ist fehlerhaft."
+    },
+    "IN36": {
+      "name": "Falsches Abwicklungskonto",
+      "definition": "SettlementAccount ist fehlerhaft."
+    },
+    "IN37": {
+      "name": "Falsche anweisende Erstattungsbank",
+      "definition": "Anweisende Erstattungsbank ist fehlerhaft."
+    },
+    "IN38": {
+      "name": "Falsche Anschrift des Zahlungspflichtigen",
+      "definition": "Adresse des Zahlungspflichtigen ist fehlerhaft."
+    },
+    "IN39": {
+      "name": "Falsche Anschrift des Zahlungsempfängers",
+      "definition": "Adresse des Zahlungsempfängers ist fehlerhaft."
+    },
+    "IN40": {
+      "name": "Fehlerhafte zugehörige Verwendungszweck-Informationen",
+      "definition": "RelatedRemittanceInformation ist fehlerhaft."
+    },
+    "MM20": {
+      "name": "Name und Konto des Zahlungsempfängers stimmen nicht überein",
+      "definition": "Name und Konto des Zahlungsempfängers stimmen nicht überein."
+    },
+    "MM21": {
+      "name": "Name und Konto des Zahlungspflichtigen stimmen nicht überein",
+      "definition": "Name und Konto des Zahlungspflichtigen stimmen nicht überein."
+    },
+    "MM22": {
+      "name": "Name und Konto der Bank des Zahlungsempfängers stimmen nicht überein",
+      "definition": "Name und Konto der Bank des Zahlungsempfängers (früher FinalAgent) stimmen nicht überein."
+    },
+    "MM23": {
+      "name": "Unzureichende Angaben zum Zahlungspflichtigen",
+      "definition": "Unzureichende oder widersprüchliche Angaben zum Zahlungspflichtigen im Hinblick auf aufsichtsrechtliche Anforderungen."
+    },
+    "MM24": {
+      "name": "Unzureichende Angaben zum Zahlungsempfänger",
+      "definition": "Unzureichende oder widersprüchliche Angaben zum Zahlungsempfänger im Hinblick auf aufsichtsrechtliche Anforderungen."
+    },
+    "MM25": {
+      "name": "Ausführung ausstehend: Konto oder Identifikation des Zahlungspflichtigen",
+      "definition": "Die Zahlung steht zur Ausführung an. Aus aufsichtsrechtlichen Gründen bitten wir um weitere Informationen zur Kontonummer oder eindeutigen Identifikation des Zahlungspflichtigen."
+    },
+    "MM26": {
+      "name": "Ausführung ausstehend: Name oder Anschrift des Zahlungspflichtigen",
+      "definition": "Die Zahlung steht zur Ausführung an. Aus aufsichtsrechtlichen Gründen bitten wir um weitere Informationen zu Name und/oder Adresse des Zahlungspflichtigen."
+    },
+    "MM27": {
+      "name": "Zahlung ausgeführt: Konto oder Identifikation des Zahlungspflichtigen",
+      "definition": "Die Zahlung wurde ausgeführt. Aus aufsichtsrechtlichen Gründen bitten wir um weitere Informationen zur Kontonummer oder eindeutigen Identifikation des Zahlungspflichtigen."
+    },
+    "MM28": {
+      "name": "Zahlung ausgeführt: Name oder Anschrift des Zahlungspflichtigen",
+      "definition": "Die Zahlung wurde ausgeführt. Aus aufsichtsrechtlichen Gründen bitten wir um weitere Informationen zu Name und/oder Adresse des Zahlungspflichtigen."
+    },
+    "MM29": {
+      "name": "Ausführung ausstehend: Konto oder Identifikation des Zahlungsempfängers",
+      "definition": "Die Zahlung steht zur Ausführung an. Aus aufsichtsrechtlichen Gründen bitten wir um weitere Informationen zur Kontonummer oder eindeutigen Identifikation des Zahlungsempfängers."
+    },
+    "MM30": {
+      "name": "Ausführung ausstehend: Name oder Anschrift des Zahlungsempfängers",
+      "definition": "Die Zahlung steht zur Ausführung an. Aus aufsichtsrechtlichen Gründen bitten wir um weitere Informationen zu Name und/oder Adresse des Zahlungsempfängers."
+    },
+    "MM31": {
+      "name": "Zahlung ausgeführt: Konto oder Identifikation des Zahlungsempfängers",
+      "definition": "Die Zahlung wurde ausgeführt. Aus aufsichtsrechtlichen Gründen bitten wir um weitere Informationen zur Kontonummer oder eindeutigen Identifikation des Zahlungsempfängers."
+    },
+    "MM32": {
+      "name": "Zahlung ausgeführt: Name oder Anschrift des Zahlungsempfängers",
+      "definition": "Die Zahlung wurde ausgeführt. Aus aufsichtsrechtlichen Gründen bitten wir um weitere Informationen zu Name und/oder Adresse des Zahlungsempfängers."
+    },
+    "MM34": {
+      "name": "Unzureichende Angaben zu den Entgelten",
+      "definition": "Unzureichende Angaben zu den Entgelten."
+    },
+    "MM35": {
+      "name": "Unzureichender Zahlungszweck",
+      "definition": "Der Zahlungszweck muss weiter präzisiert werden."
+    },
+    "NARR": {
+      "name": "Freitext",
+      "definition": "Zusätzliche Informationen siehe Freitextfeld."
+    }
+  }
+}

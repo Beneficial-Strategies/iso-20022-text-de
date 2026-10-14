@@ -1,0 +1,18 @@
+{
+  "isoType": "Conversion4",
+  "definition": "Identifikation eines Finanzinstruments.",
+  "isoElements": {
+    "SourceSecurity": {
+      "definition": "Identifikation des Ausgangswertpapiers."
+    },
+    "TotalUnitsNumber": {
+      "definition": "Anzahl der Anteile des Ausgangswertpapiers."
+    },
+    "UnitsDetails": {
+      "definition": "Aufschlüsselung der Anteile des Ausgangswertpapiers."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zur Umwandlung."
+    }
+  }
+}

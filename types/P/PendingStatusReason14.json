@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatusReason14",
+  "definition": "Grund für einen ausstehenden Status.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für den ausstehenden Kontostatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Grund für den ausstehenden Kontostatus."
+    }
+  }
+}

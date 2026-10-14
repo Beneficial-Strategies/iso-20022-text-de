@@ -1,0 +1,50 @@
+{
+  "isoType": "TransferStatusType2Code",
+  "definition": "Gibt eine Art von Übertragungsstatus oder Übertragungsereignis an.",
+  "isoCodes": {
+    "S019": {
+      "name": "Anfrage zu Kontobestandsinformationen",
+      "definition": "Der Statusbericht wird als Antwort auf eine Anfrage nach Informationen zum Kontobestand gesendet."
+    },
+    "BCEV": {
+      "name": "Leistungskristallisierungsereignis",
+      "definition": "Der Statusbericht meldet, dass ein oder mehrere Benefit Crystallisation Events (BCE) eingetreten sind."
+    },
+    "SETT": {
+      "name": "Abwicklungsinformationen von CSD oder ICSD",
+      "definition": "Der Statusbericht wird gesendet, um Informationen bereitzustellen, die für einen CSD- oder ICSD-Abwicklungsteil erforderlich sind."
+    },
+    "DRAW": {
+      "name": "Entnahme",
+      "definition": "Der Statusbericht meldet eine oder mehrere Entnahmen (Drawdowns)."
+    },
+    "PAYA": {
+      "name": "Zahlungsavis",
+      "definition": "Der Statusbericht meldet, dass Barmittel angewiesen werden oder angewiesen wurden."
+    },
+    "S012": {
+      "name": "Portfolioübertragungsanweisung",
+      "definition": "Der Statusbericht wird als Antwort auf eine Anweisung zur Portfolioübertragung gesendet."
+    },
+    "INFO": {
+      "name": "Information",
+      "definition": "Der Statusbericht wird gesendet, um für die Übertragung relevante Informationen bereitzustellen. Er kann als Antwort auf eine Anfrage zum Übertragungsstatus gesendet werden."
+    },
+    "STAT": {
+      "name": "Status",
+      "definition": "Der Statusbericht wird gesendet, um den Status einer Übertragung mitzuteilen. Er kann als Antwort auf eine Anfrage zum Übertragungsstatus gesendet werden."
+    },
+    "S005": {
+      "name": "Übertragungsanweisung (Eingang)",
+      "definition": "Der Statusbericht wird als Antwort auf eine Anweisung zur Einlieferungsübertragung (Transfer-in) gesendet."
+    },
+    "S001": {
+      "name": "Übertragungsanweisung (Ausgang)",
+      "definition": "Der Statusbericht wird als Antwort auf eine Anweisung zur Auslieferungsübertragung (Transfer-out) gesendet."
+    },
+    "CONV": {
+      "name": "Umwandlungsstatus",
+      "definition": "Der Statusbericht wird gesendet, um die Anzahl der Anteile nach einer Umwandlung mitzuteilen."
+    }
+  }
+}

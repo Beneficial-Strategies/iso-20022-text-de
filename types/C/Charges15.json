@@ -1,0 +1,12 @@
+{
+  "isoType": "Charges15",
+  "definition": "Enthält weitere Angaben zu den Entgelten im Zusammenhang mit der Zahlungstransaktion.",
+  "isoElements": {
+    "TotalChargesAndTaxAmount": {
+      "definition": "Summe aller auf den Umsatz angewandten Entgelte und Steuern."
+    },
+    "Record": {
+      "definition": "Enthält die Einzelheiten des einzelnen Entgeltdatensatzes."
+    }
+  }
+}

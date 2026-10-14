@@ -1,0 +1,21 @@
+{
+  "isoType": "SecuritiesFinancingConfirmation002V11",
+  "definition": "Anwendungsbereich|Ein Kontoführer für Wertpapierfinanzierungstransaktionen sendet eine SecuritiesFinancingConfirmation an einen Kontoinhaber, um die teilweise oder vollständige Abwicklung des Eröffnungs- oder Schließungsteils einer Wertpapierfinanzierungstransaktion zu bestätigen oder mitzuteilen. ||Die Beziehung zwischen Kontoführer und Kontoinhaber kann sein:|- ein Zentralverwahrer oder eine andere Abwicklungs-Marktinfrastruktur, die Wertpapierfinanzierungstransaktionen im Namen ihrer Teilnehmer verwaltet|- ein Agent (Unterverwahrer), der Wertpapierfinanzierungstransaktionen im Namen seines Global-Custodian-Kunden verwaltet, oder |- eine Depotbank, die Wertpapierfinanzierungstransaktionen im Namen eines Vermögensverwalters oder eines Brokers/Händlers verwaltet.|||Verwendung|Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden,|- einem Dritten eine Kopie einer Nachricht zur Information zur Verfügung zu stellen,|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu senden, unter Verwendung der entsprechenden Elemente im Business Application Header.",
+  "isoRules": {
+    "BuyerSSIRule": {
+      "definition": "Wenn eine Dauerabwicklungsanweisung gilt und die Bestätigung eine Lieferung betrifft, muss Buyer vorhanden sein."
+    },
+    "SellerSSIRule": {
+      "definition": "Wenn eine Dauerabwicklungsanweisung (Standing Settlement Instruction) gilt und die Bestätigung einen Empfang betrifft, muss Seller vorhanden sein."
+    },
+    "DeliveringDepositoryAndParty1Rule": {
+      "definition": "Wenn die Bestätigung einen Empfang betrifft und keine Dauerabwicklungsanweisung gilt, müssen DeliveringDepository und Party1 vorhanden sein."
+    },
+    "ReceivingDepositoryAndParty1Rule": {
+      "definition": "Wenn die Bestätigung eine Lieferung betrifft und keine Dauerabwicklungsanweisung gilt, müssen ReceivingDepository und Party1 vorhanden sein."
+    },
+    "SettledAmountRule": {
+      "definition": "Ist die Anweisung gegen Zahlung, muss SettledAmount vorhanden sein."
+    }
+  }
+}

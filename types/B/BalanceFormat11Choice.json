@@ -1,0 +1,15 @@
+{
+  "isoType": "BalanceFormat11Choice",
+  "definition": "Auswahl zwischen den Formaten Bestand, anspruchsberechtigter Bestand und nicht anspruchsberechtigter Bestand.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Stellt Informationen zu einem Bestand im Zusammenhang mit einer Kapitalmaßnahme bereit."
+    },
+    "EligibleBalance": {
+      "definition": "Stellt Informationen zum anspruchsberechtigten Bestand in verschiedenen Formaten bereit."
+    },
+    "NotEligibleBalance": {
+      "definition": "Stellt Informationen zum nicht anspruchsberechtigten Bestand in verschiedenen Formaten bereit."
+    }
+  }
+}

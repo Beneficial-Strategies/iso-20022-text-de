@@ -1,0 +1,12 @@
+{
+  "isoType": "GeneralBusinessOrError7Choice",
+  "definition": "Dient dazu, einigen oder allen Mitgliedern Informationen zur Verarbeitung im System bereitzustellen.",
+  "isoElements": {
+    "OperationalError": {
+      "definition": "Gibt an, dass bei der Verarbeitung der zugehörigen Anfrage ein Betriebsfehler aufgetreten ist."
+    },
+    "BusinessReport": {
+      "definition": "Meldet entweder die fachlichen Informationen oder einen fachlichen Fehler."
+    }
+  }
+}

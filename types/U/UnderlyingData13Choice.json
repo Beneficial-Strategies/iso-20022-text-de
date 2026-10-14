@@ -1,0 +1,21 @@
+{
+  "isoType": "UnderlyingData13Choice",
+  "definition": "Gibt die Einzelheiten einer zugrunde liegenden Transaktion an, zu der die Untersuchung durchgeführt wird.",
+  "isoElements": {
+    "Initiation": {
+      "definition": "Referenzangaben zur ursprünglichen Zahlungsinitiierung."
+    },
+    "Interbank": {
+      "definition": "Referenzangaben zur ursprünglichen Interbanken-Zahlungstransaktion."
+    },
+    "StatementEntry": {
+      "definition": "Referenzangaben zur zugrunde liegenden Kontoauszugsbuchung."
+    },
+    "Account": {
+      "definition": "Referenzangaben zum zugrunde liegenden Konto."
+    },
+    "Other": {
+      "definition": "Referenzangaben zu einer sonstigen ursprünglichen proprietären Referenz.||Verwendung: Dieses Element kann für eine Untersuchung zu beliebigen anderen Daten verwendet werden, z. B. zu einem Scheck."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "ReportItemStatus1",
+  "definition": "Statusinformationen der Berichtsposition.",
+  "isoElements": {
+    "Exception": {
+      "definition": "Grund für den Ausnahmestatus."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Zusätzliche Informationen zum Statusgrund, die nicht in einem strukturierten Feld angegeben werden können."
+    },
+    "ReportItem": {
+      "definition": "Details der Berichtsposition."
+    }
+  }
+}

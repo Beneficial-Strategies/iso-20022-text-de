@@ -1,0 +1,34 @@
+{
+  "isoType": "RejectionReason77Code",
+  "definition": "Gibt den Grund an, weshalb die Anfrage den Status abgelehnt oder zu korrigieren hat.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Ablehnung des Verwahrkontos",
+      "definition": "Nicht erkanntes oder ungültiges Verwahrkonto des Nachrichtensenders."
+    },
+    "DSEC": {
+      "name": "Ungültiges Wertpapier",
+      "definition": "Ungültige oder nicht erkannte Identifikation des Finanzinstruments."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "REFE": {
+      "name": "Ablehnung wegen Referenz",
+      "definition": "Die Anweisung hat eine Referenz, die mit einer anderen zuvor eingegangenen Anweisung identisch ist."
+    },
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Transaktion bzw. Anweisung ging nach Ablauf der vom kontoführenden Institut festgelegten Frist ein."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "MISM": {
+      "name": "Ungültige Anfrage",
+      "definition": "Die Anfrage nach Auszug/Statusmeldung kann nicht ausgeführt werden. Der angeforderte Nachrichtentyp ist für die betreffende Nachrichtenreferenz oder den betreffenden Auszugszeitraum nicht gültig."
+    }
+  }
+}

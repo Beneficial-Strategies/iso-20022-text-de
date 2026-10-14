@@ -1,0 +1,21 @@
+{
+  "isoType": "SignedData4",
+  "definition": "Digitale Signaturen von Daten eines oder mehrerer Unterzeichner.",
+  "isoElements": {
+    "Version": {
+      "definition": "Version der Datenstruktur."
+    },
+    "DigestAlgorithm": {
+      "definition": "Identifikation des vor der Signatur angewendeten Digest-Algorithmus."
+    },
+    "EncapsulatedContent": {
+      "definition": "Zu signierende Daten."
+    },
+    "Certificate": {
+      "definition": "Kette von X.509-Zertifikaten."
+    },
+    "Signer": {
+      "definition": "Digitale Signatur und Identifikation eines Unterzeichners."
+    }
+  }
+}

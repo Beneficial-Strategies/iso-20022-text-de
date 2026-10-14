@@ -1,0 +1,38 @@
+{
+  "isoType": "OriginalGroupHeader21",
+  "definition": "Enthält Details zur ursprünglichen Gruppe, auf die sich die Nachricht bezieht.",
+  "isoElements": {
+    "GroupCancellationIdentification": {
+      "definition": "Eindeutige Identifikation, vergeben vom Beauftragenden (Assigner), zur zweifelsfreien Identifikation der Gruppenstornierungsanforderung.||Verwendung: Die Identifikation der Gruppenstornierungsanforderung kann für den Abgleich oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Stornierungsanforderung verwendet werden."
+    },
+    "Case": {
+      "definition": "Eindeutige Identifikation einer Ausnahme oder eines Untersuchungsablaufs."
+    },
+    "OriginalMessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, von der ursprünglichen anweisenden Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Nachricht."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Gibt den Namenskennzeichner der ursprünglichen Nachricht an, auf die sich die Nachricht bezieht."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der ursprünglichen Nachricht."
+    },
+    "NumberOfTransactions": {
+      "definition": "Anzahl der in der ursprünglichen Nachricht enthaltenen Einzeltransaktionen."
+    },
+    "ControlSum": {
+      "definition": "Summe aller in der Nachricht enthaltenen Einzelbeträge, unabhängig von den Währungen."
+    },
+    "GroupCancellation": {
+      "definition": "Gibt an, ob sich die Stornierungsanforderung auf eine ganze Gruppe von Transaktionen oder auf einzelne Transaktionen innerhalb einer ursprünglichen Gruppe bezieht."
+    },
+    "CancellationReasonInformation": {
+      "definition": "Enthält detaillierte Informationen zum Stornierungsgrund."
+    }
+  },
+  "isoRules": {
+    "GroupCancellationAndReasonRule": {
+      "definition": "Ist GroupCancellation wahr, muss CancellationReasonInformation/Reason vorhanden sein."
+    }
+  }
+}

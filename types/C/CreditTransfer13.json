@@ -1,0 +1,42 @@
+{
+  "isoType": "CreditTransfer13",
+  "definition": "Zahlungsinstrument zwischen einem Zahlungspflichtigen und einem Zahlungsempfänger, das über ein oder mehrere Finanzinstitute oder Systeme läuft.",
+  "isoElements": {
+    "Debtor": {
+      "definition": "Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldete. Im Kontext des Zahlungsmodells ist der Zahlungspflichtige zugleich der Inhaber des Belastungskontos."
+    },
+    "DebtorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungspflichtigen, auf dem infolge der Transaktion eine Belastung gebucht wurde."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das das Konto für den Zahlungspflichtigen führt."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identifiziert das Konto der Bank des Zahlungspflichtigen."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Eindeutige Identifikation des Kontos der zwischengeschalteten Bank 1 bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Eindeutige Identifikation des Kontos der zwischengeschalteten Bank 2 bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das das Konto für den Zahlungsempfänger führt."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungsempfängers bei ihrer kontoführenden Bank, auf dem infolge der Zahlungstransaktion eine Gutschrift gebucht wurde."
+    },
+    "Creditor": {
+      "definition": "Partei, die vom Zahlungspflichtigen einen Geldbetrag erhalten hat. Im Kontext des Zahlungsmodells ist der Zahlungsempfänger zugleich der Inhaber des Gutschriftskontos."
+    },
+    "CreditorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungsempfängers, auf dem infolge der Zahlungstransaktion eine Gutschrift gebucht wurde."
+    }
+  }
+}

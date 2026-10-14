@@ -1,0 +1,14 @@
+{
+  "isoType": "PreConfirmation1Code",
+  "definition": "Gibt an, ob eine Vorabbestätigung für Geld oder Wertpapiere vorliegt.",
+  "isoCodes": {
+    "PRCA": {
+      "name": "Vorbestätigung Barmittel",
+      "definition": "Vorabbestätigung der Geldbewegung, solange die Wertpapierbewegung aussteht."
+    },
+    "PRSE": {
+      "name": "Vorbestätigung Wertpapiere",
+      "definition": "Vorabbestätigung der Wertpapierbewegung, solange die Geldbewegung aussteht."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionInstructionStatusAdvice002V15",
+  "definition": "Scope|Die Nachricht CorporateActionInstructionStatusAdvice wird von einer kontoführenden Stelle an einen Kontoinhaber oder dessen benannten Beauftragten gesendet, um den Status einer empfangenen Kapitalmaßnahmen-Wahlanweisung zu melden.||Diese Nachricht dient dazu, den Status oder eine Statusänderung einer Kapitalmaßnahmen-bezogenen Transaktion mitzuteilen, die zuvor vom Kontoinhaber angewiesen oder in dessen Namen ausgeführt wurde. Dies umfasst die Bestätigung/Ablehnung einer Kapitalmaßnahmen-Anweisung.|Usage|Die Nachricht kann zusätzlich verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist Duplicate),|- einem Dritten eine Kopie einer Nachricht zur Information zur Verfügung zu stellen (die Unterfunktion der Nachricht ist Copy),|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu senden (die Unterfunktion der Nachricht ist Copy Duplicate), unter Verwendung der entsprechenden Elemente im Business Application Header (BAH).",
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "Alle Elemente im Element AdditionalInformation dürfen keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können, sofern nicht bilateral vereinbart."
+    },
+    "BeneficialOwnerBreakdownRequestRule": {
+      "definition": "Wenn der Wert von CorporateActionInstruction/OptionType/Code BOBD (BeneficialOwnerBreakdownRequest) ist, muss der Wert von CorporateActionGeneralInformation/EventType/Code WTRC (Withholding Tax Relief Certification) sein.|(MT567 NVR C6)"
+    },
+    "StatusQuantity1Rule": {
+      "definition": "Wenn CorporateActionInstruction/StatusCashAmount vorhanden ist, dann dürfen InstructionProcessingStatus/Cancelled/CancelledQuantity, InstructionProcessingStatus/AcceptedForFurtherProcessing/AcceptedQuantity, InstructionProcessingStatus/Rejected und InstructionProcessingStatus/Pending nicht vorhanden sein, und CorporateActionInstruction/StatusQuantity darf nicht vorhanden sein. (MT 567 C5 und C7)"
+    },
+    "StatusQuantity2Rule": {
+      "definition": "Wenn CorporateActionInstruction/StatusQuantity vorhanden ist, müssen InstructionProcessingStatus/Cancelled/CancelledQuantity und InstructionProcessingStatus/AcceptedForFurtherProcessing/AcceptedQuantity und InstructionProcessingStatus/Rejected und InstructionProcessingStatus/Pending fehlen und CorporateActionInstruction/StatusCashAmount muss fehlen. (MT 567 C5 und C7)"
+    },
+    "StatusQuantity3Rule": {
+      "definition": "Wenn InstructionProcessingStatus/Cancelled/CancelledQuantity oder InstructionProcessingStatus/AcceptedForFurtherProcessing/AcceptedQuantity oder InstructionProcessingStatus/Rejected oder InstructionProcessingStatus/Pending vorhanden sind, dann dürfen CorporateActionInstruction/StatusCashAmount und CorporateActionInstruction/StatusQuantity nicht vorhanden sein. (MT 567 C5 und C7)"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TerminationDate7Choice",
+  "definition": "Auswahl des Formats für das Beendigungsdatum.",
+  "isoElements": {
+    "Date": {
+      "definition": "Datum im ISO-Format."
+    },
+    "Code": {
+      "definition": "Schlusstermin (Datum/Uhrzeit) oder Fälligkeitstermin (Datum/Uhrzeit) der Transaktion, ausgedrückt als ISO-20022-Code."
+    }
+  }
+}

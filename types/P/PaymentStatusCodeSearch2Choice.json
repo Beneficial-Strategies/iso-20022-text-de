@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentStatusCodeSearch2Choice",
+  "definition": "Auswahl zwischen einer Liste ausstehender Status, Endstatus oder allen Status.",
+  "isoElements": {
+    "PendingStatus": {
+      "definition": "Qualifiziert den Status „ausstehend“ näher."
+    },
+    "FinalStatus": {
+      "definition": "Qualifiziert den Endstatus näher."
+    },
+    "PendingAndFinalStatus": {
+      "definition": "Status einer Zahlungsanweisung zu einem bestimmten Zeitpunkt."
+    }
+  }
+}

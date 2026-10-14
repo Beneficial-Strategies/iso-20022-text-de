@@ -1,0 +1,21 @@
+{
+  "isoType": "ReservationIdentification4",
+  "definition": "Vom Kontoinhaber für bestimmte Zwecke beiseitegelegte Liquidität.",
+  "isoElements": {
+    "ReservationIdentification": {
+      "definition": "Eindeutige Identifikation der Reservierung."
+    },
+    "SystemIdentification": {
+      "definition": "Identifikation eines bestimmten Geldclearingsystems."
+    },
+    "Type": {
+      "definition": "Wesen der Reservierung."
+    },
+    "AccountOwner": {
+      "definition": "Inhaber des abgefragten Kontos."
+    },
+    "AccountIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Kontos zwischen dem Kontoinhaber und der kontoführenden Stelle."
+    }
+  }
+}

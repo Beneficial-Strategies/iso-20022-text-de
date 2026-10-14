@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionType5Choice",
+  "definition": "Auswahl von Formaten für die Angabe der Auftragsart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Transaktionsart als Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Transaktionsart als proprietärer Code ausgedrückt."
+    }
+  }
+}

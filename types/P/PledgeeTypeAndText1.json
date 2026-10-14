@@ -1,0 +1,12 @@
+{
+  "isoType": "PledgeeTypeAndText1",
+  "definition": "Identifikation der Einheit, an die die Finanzinstrumente verpfändet sind, ausgedrückt als Code und Freitextbeschreibung.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Zusätzliche Informationen zur Einheit, an die die Finanzinstrumente verpfändet sind."
+    },
+    "PledgeeType": {
+      "definition": "Einheit, an die die Finanzinstrumente verpfändet sind, ausgedrückt als Code."
+    }
+  }
+}

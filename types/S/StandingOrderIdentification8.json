@@ -1,0 +1,15 @@
+{
+  "isoType": "StandingOrderIdentification8",
+  "definition": "Legt die Elemente fest, mit denen ein Dauerauftrag eindeutig identifiziert wird.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation eines Dauerauftrags, wie vom kontoführenden Institut oder vom Kontoinhaber vergeben."
+    },
+    "Account": {
+      "definition": "Geschäftsbeziehung zwischen zwei Einheiten; eine Einheit ist der Kontoinhaber, die andere Einheit ist der Kontoführer."
+    },
+    "AccountOwner": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    }
+  }
+}

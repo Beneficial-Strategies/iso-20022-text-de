@@ -1,0 +1,9 @@
+{
+  "isoType": "AdjustmentRequest1",
+  "definition": "Gibt den Zeitraum für eine Valutierungsanfrage an.",
+  "isoElements": {
+    "Period": {
+      "definition": "Gibt das aktuelle und das gewünschte Wertstellungsdatum der zugrunde liegenden Transaktion oder des zugrunde liegenden Postens an."
+    }
+  }
+}

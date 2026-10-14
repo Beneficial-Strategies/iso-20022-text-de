@@ -1,0 +1,70 @@
+{
+  "isoType": "RejectionReason79Code",
+  "definition": "Gibt den Grund an, warum die Anweisung bzw. Stornierungsanforderung den Status abgelehnt hat.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Transaktion bzw. Anweisung ging nach Ablauf der vom kontoführenden Institut festgelegten Frist ein."
+    },
+    "INIR": {
+      "name": "Anweisung unwiderruflich",
+      "definition": "Die Anweisung ist unwiderruflich."
+    },
+    "ULNK": {
+      "name": "Ungültige Referenz",
+      "definition": "Die verknüpfte Referenz ist unbekannt."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "DCAN": {
+      "name": "Abgelehnt, da bereits storniert",
+      "definition": "Die Stornierungsanforderung wurde abgelehnt, da die Anweisung bereits storniert wurde."
+    },
+    "DPRG": {
+      "name": "Abgelehnt, da in Bearbeitung",
+      "definition": "Die Stornierungsanforderung wurde abgelehnt, da die Anweisung in Bearbeitung ist oder bereits verarbeitet wurde."
+    },
+    "REJA": {
+      "name": "Vom Emittenten-Agenten abgelehnt",
+      "definition": "Anweisung vom Emissionsagenten abgelehnt."
+    },
+    "CTCT": {
+      "name": "Fehlender Kontakt",
+      "definition": "Kontaktinformationen fehlen."
+    },
+    "DSEC": {
+      "name": "Ungültiges Wertpapier",
+      "definition": "Ungültige oder nicht erkannte Identifikation des Finanzinstruments."
+    },
+    "DQUA": {
+      "name": "Ablehnung wegen Menge",
+      "definition": "Ungültige oder nicht erkannte angewiesene Menge."
+    },
+    "PROT": {
+      "name": "Fehlendes Protect-Datum",
+      "definition": "Für Cover-Protect-Anweisungen ist ein Protect-Datum erforderlich."
+    },
+    "SAFE": {
+      "name": "Ablehnung des Verwahrkontos",
+      "definition": "Nicht erkanntes oder ungültiges Verwahrkonto des Nachrichtensenders."
+    },
+    "PROI": {
+      "name": "Fehlende Protect-Identifikation",
+      "definition": "Für Cover-Protect-Anweisungen ist eine Protect-Identifikation erforderlich."
+    },
+    "TRTI": {
+      "name": "Fehlende Transaktionsart",
+      "definition": "Die Transaktionsart fehlt oder ist für Protect- oder Cover-Protect-Anweisungen ungültig."
+    },
+    "DUPL": {
+      "name": "Doppelte Anweisung",
+      "definition": "Die Anweisung wird aufgrund eines doppelten Geschäftsnachrichten-Bezeichners abgelehnt."
+    }
+  }
+}

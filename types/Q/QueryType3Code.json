@@ -1,0 +1,18 @@
+{
+  "isoType": "QueryType3Code",
+  "definition": "Gibt die Art der Anforderung an, das heißt, ob alle Informationen oder nur Informationen zurückgegeben werden sollen, die sich seit der Rückgabe der letzten ähnlichen Anforderung geändert haben.",
+  "isoCodes": {
+    "ALLL": {
+      "name": "Alle",
+      "definition": "Gibt an, dass die Abfrage die Rückgabe aller passenden Einträge verlangt."
+    },
+    "CHNG": {
+      "name": "Geändert",
+      "definition": "Gibt an, dass die Abfrage nur die Rückgabe der passenden Einträge verlangt, die seit der letzten ähnlichen Abfrage neu hinzugekommen sind."
+    },
+    "MODF": {
+      "name": "Geändert",
+      "definition": "Gibt an, dass die Abfrage nur die Rückgabe der Einträge verlangt, die sich seit der letzten Abfrage geändert haben."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "CashDepositRequestV01",
+  "definition": "Die Nachricht CashDepositRequest wird von einem Bargeldsender an einen Bargeldempfänger gesendet, um zu beantragen, dass Bargeld zur Einzahlung auf ein Konto geliefert werden kann."
+}

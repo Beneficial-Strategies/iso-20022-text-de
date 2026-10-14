@@ -1,0 +1,204 @@
+{
+  "isoType": "TrackerPaymentTransaction15",
+  "definition": "Schlüsselelemente zur Identifikation der ursprünglichen Transaktion(en), auf die verwiesen wird.",
+  "isoElements": {
+    "TrackedMessageIdentification": {
+      "definition": "Liefert Angaben zur ursprünglich verfolgten Nachricht, die die Transaktion enthielt."
+    },
+    "TrackerInformingParty": {
+      "definition": "Partei, die Informationen über den Status und die zugehörigen Details einer Transaktion liefert."
+    },
+    "TrackerInformedParty": {
+      "definition": "Partei, die über den Status und die zugehörigen Details einer Transaktion auf dem Laufenden gehalten wird."
+    },
+    "TechnicalSender": {
+      "definition": "Die im technischen Header einer ISO-Zahlungsnachricht als Absender angegebene Partei."
+    },
+    "TechnicalReceiver": {
+      "definition": "Die im technischen Header einer ISO-Zahlungsnachricht als Empfänger angegebene Partei."
+    },
+    "PaymentIdentification": {
+      "definition": "Satz von Elementen zur Referenzierung einer Zahlungsanweisung."
+    },
+    "RelatedPaymentIdentification": {
+      "definition": "Menge von Elementen zur Identifikation der der Zahlungsanweisung zugeordneten Transaktionen."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Eindeutige, von der ursprünglichen anweisenden Partei für die ursprüngliche angewiesene Partei vergebene Identifikation zur zweifelsfreien Identifizierung der ursprünglichen Anweisung."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Eindeutige, von der ursprünglichen initiierenden Partei vergebene Identifikation zur zweifelsfreien Identifizierung der ursprünglichen Transaktion."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Satz von Elementen zur näheren Bestimmung der Transaktionsart."
+    },
+    "PaymentScenario": {
+      "definition": "Gibt die Geschäftsszenarien an, in denen die Zahlung ausgeführt wird, wie etwa Kundenüberweisung oder Deckungszahlung."
+    },
+    "SettlementInformation": {
+      "definition": "Gibt Einzelheiten dazu an, wie die Abwicklung der Transaktion(en) zwischen der anweisenden Bank und der angewiesenen Bank erfolgt."
+    },
+    "InstructingAgent": {
+      "definition": "Bank, die die nächste Partei in der Kette anweist, die Anweisung(en) auszuführen."
+    },
+    "InstructedAgent": {
+      "definition": "Bank, die von der vorherigen Partei in der Kette angewiesen wird, die Anweisung(en) auszuführen."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Geldbetrag, der zwischen der anweisenden Bank und der angewiesenen Bank bewegt wird."
+    },
+    "ReturnedInterbankSettlementAmount": {
+      "definition": "Zwischen der beauftragenden Bank und der beauftragten Bank in der zurückgegebenen Anweisung zu bewegender Geldbetrag."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag der Bank, die ihn schuldet, nicht mehr zur Verfügung steht und der Bank, der er zusteht, zur Verfügung steht."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Datum, zu dem die initiierende Partei die Clearingstelle um Verarbeitung der Zahlung ersucht. |Verwendung: Dies ist das Datum, an dem das Konto des Zahlungspflichtigen zu belasten ist. Bei Zahlung per Scheck das Datum, an dem der Scheck von der Bank ausgestellt sein muss."
+    },
+    "SettlementPriority": {
+      "definition": "Kennzeichen für die Dringlichkeit oder Wichtigkeit, mit der die anweisende Partei die Abwicklungsanweisung von der angewiesenen Partei verarbeitet haben möchte."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Enthält Angaben zu den erfolgten Abwicklungszeiten der Zahlungstransaktion."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Enthält Angaben zu den gewünschten Abwicklungszeiten der Zahlungsanweisung."
+    },
+    "AcceptanceDateTime": {
+      "definition": "Zeitpunkt, zu dem der Zahlungsauftrag der initiierenden Partei die Verarbeitungsbedingungen der kontoführenden Bank erfüllt. Das heißt, die kontoführende Bank hat den Zahlungsauftrag erhalten und Prüfungen wie Autorisierung und Deckungsprüfung angewendet."
+    },
+    "PoolingAdjustmentDate": {
+      "definition": "Datum zur Korrektur des Wertstellungsdatums einer Cash-Pool-Bewegung, die mit einem abweichenden Wertstellungsdatum gebucht wurde."
+    },
+    "InstructedAmount": {
+      "definition": "Geldbetrag, der vor Abzug von Entgelten zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, ausgedrückt in der von der initiierenden Partei beauftragten Währung.|Verwendung: Dieser Betrag muss unverändert durch die Transaktionskette transportiert werden."
+    },
+    "EquivalentAmount": {
+      "definition": "Geldbetrag, der zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, ausgedrückt in der Währung des Kontos des Zahlungspflichtigen und der Währung, in der der Betrag bewegt werden soll."
+    },
+    "ReturnedInstructedAmount": {
+      "definition": "Zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegender Geldbetrag vor Abzug der Entgelte in der zurückgegebenen Transaktion.|Verwendung: Dieser Betrag muss unverändert durch die Transaktionskette übermittelt werden."
+    },
+    "ExchangeRateData": {
+      "definition": "Liefert Angaben zu Kurs und Währungen des Devisengeschäfts."
+    },
+    "ForeignExchangeAgent": {
+      "definition": "Institut, das das Devisengeschäft durchgeführt hat."
+    },
+    "ChargeBearer": {
+      "definition": "Gibt an, welche Partei(en) die mit der Verarbeitung der Zahlungstransaktion verbundenen Entgelte trägt/tragen."
+    },
+    "ChargesInformation": {
+      "definition": "Enthält Informationen zu den vom/von den Entgeltträger(n) zu zahlenden Entgelten im Zusammenhang mit der Zahlungstransaktion."
+    },
+    "TrackerRecord": {
+      "definition": "Enthält Tracker-Transaktionsinformationen zu einer bestimmten Bank, die an der Transaktionskette beteiligt ist."
+    },
+    "TrackerData": {
+      "definition": "Enthält Informationen zur Nachverfolgung der Interbankentransaktion im Zusammenhang mit der Zahlung."
+    },
+    "DebitConfirmationURLAddress": {
+      "definition": "Adresse des Uniform Resource Locator (URL), zum Beispiel eine im WWW-Dienst (HTTP) verwendete Adresse, die bestätigt, dass eine Zahlung ein Konto belastet hat."
+    },
+    "PreviousInstructingAgent1": {
+      "definition": "Institut unmittelbar vor dem anweisenden Institut."
+    },
+    "PreviousInstructingAgent1Account": {
+      "definition": "Eindeutige Identifikation des Kontos der vorherigen beauftragenden Bank bei ihrer kontoführenden Bank in der Zahlungskette."
+    },
+    "PreviousInstructingAgent2": {
+      "definition": "Institut unmittelbar vor dem anweisenden Institut."
+    },
+    "PreviousInstructingAgent2Account": {
+      "definition": "Eindeutige Identifikation des Kontos der vorherigen beauftragenden Bank bei ihrer kontoführenden Bank in der Zahlungskette."
+    },
+    "PreviousInstructingAgent3": {
+      "definition": "Institut unmittelbar vor dem anweisenden Institut."
+    },
+    "PreviousInstructingAgent3Account": {
+      "definition": "Eindeutige Identifikation des Kontos der vorherigen beauftragenden Bank bei ihrer kontoführenden Bank in der Zahlungskette."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers.||Verwendung: Sind mehrere zwischengeschaltete Banken vorhanden, kennzeichnet IntermediaryAgent1 die Bank zwischen der DebtorAgent und der IntermediaryAgent2."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Eindeutige Identifikation des Kontos der zwischengeschalteten Bank 1 bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers.||Verwendung: Sind mehr als zwei zwischengeschaltete Banken vorhanden, kennzeichnet IntermediaryAgent2 die Bank zwischen der IntermediaryAgent1 und der IntermediaryAgent3."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Eindeutige Identifikation des Kontos der zwischengeschalteten Bank 2 bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Bank zwischen DebtorAgent und CreditorAgent.||Verwendung: Wenn IntermediaryAgent3 vorhanden ist, bezeichnet sie die Bank zwischen IntermediaryAgent 2 und CreditorAgent."
+    },
+    "IntermediaryAgent3Account": {
+      "definition": "Eindeutige Identifikation des Kontos der zwischengeschalteten Bank 3 bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "UltimateDebtor": {
+      "definition": "Letztlich Zahlungspflichtiger, der dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "InitiatingParty": {
+      "definition": "Partei, die die Zahlung initiiert.|Verwendung: Dies kann entweder der Zahlungspflichtige oder eine Partei sein, die die Überweisung im Auftrag des Zahlungspflichtigen initiiert."
+    },
+    "Debtor": {
+      "definition": "Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "DebtorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungspflichtigen, das aufgrund der Transaktion belastet wird."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungspflichtigen führt."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungspflichtigen bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungsempfänger führt."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungsempfängers bei der sie kontoführenden Bank, dem aufgrund der Zahlungstransaktion eine Gutschrift erteilt wird."
+    },
+    "Creditor": {
+      "definition": "Partei, der ein Geldbetrag zusteht."
+    },
+    "CreditorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungsempfängers, dem aufgrund der Zahlungstransaktion eine Gutschrift gebucht wird."
+    },
+    "UltimateCreditor": {
+      "definition": "Letztliche Partei, der ein Geldbetrag zusteht."
+    },
+    "InstructionForCreditorAgent": {
+      "definition": "Weitere Informationen zur Bearbeitung der Zahlungsanweisung, die von der initiierenden Partei bereitgestellt werden und für die Bank des Zahlungsempfängers bestimmt sind."
+    },
+    "InstructionForNextAgent": {
+      "definition": "Weitere Informationen zur Bearbeitung der Zahlungsanweisung, auf die die nächste Bank gegebenenfalls reagieren muss. ||Verwendung: Die nächste Bank ist nicht zwingend die Bank des Zahlungsempfängers.|Die Anweisung kann sich auf ein Servicelevel beziehen, eine von der Bank auszuführende Anweisung sein oder Informationen enthalten, die die nächste Bank benötigt."
+    },
+    "Purpose": {
+      "definition": "Zugrunde liegender Grund für die Zahlungstransaktion.|Verwendung: Der Zweck wird von den Endkunden, das heißt der initiierenden Partei, dem (letztlich) Zahlungspflichtigen und dem (letztlichen) Zahlungsempfänger, verwendet, um Informationen zur Art der Zahlung bereitzustellen. Der Zweck ist ein Inhaltselement, das von keiner der an der Zahlungskette beteiligten Banken zur Verarbeitung verwendet wird."
+    },
+    "RegulatoryReporting": {
+      "definition": "Aufgrund aufsichtsrechtlicher und gesetzlicher Anforderungen erforderliche Informationen."
+    },
+    "Tax": {
+      "definition": "Enthält Angaben zur Steuer."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Enthält Informationen zur Behandlung der Verwendungszweck-Informationen durch eine der Banken in der Transaktionsverarbeitungskette."
+    },
+    "RemittanceInformation": {
+      "definition": "Informationen zur Ermöglichung des Abgleichs eines Umsatzes mit den Posten, die durch die Übertragung beglichen werden sollen, etwa Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    },
+    "RejectReturnReason": {
+      "definition": "Enthält detaillierte Angaben zum Rückgabegrund."
+    },
+    "ReturnChain": {
+      "definition": "Enthält alle an einer Rückgabetransaktion beteiligten Parteien (Banken und Nicht-Banken)."
+    },
+    "UnderlyingCustomerCreditTransfer": {
+      "definition": "Enthält Angaben zur zugrunde liegenden Kundenüberweisung, für die eine Deckung bereitgestellt wird."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "RemittanceInformation2",
+  "definition": "Angaben, die den Abgleich eines Umsatzes mit den Posten ermöglichen, die durch die Übertragung ausgeglichen werden sollen.",
+  "isoElements": {
+    "Unstructured": {
+      "definition": "Angaben, die den Abgleich eines Umsatzes mit den Posten ermöglichen, die durch die Übertragung ausgeglichen werden sollen, zum Beispiel Handelsrechnungen in einem Debitorenbuchhaltungssystem in unstrukturierter Form."
+    }
+  }
+}

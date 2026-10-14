@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalDocumentFormat1Code",
+  "definition": "Gibt den externen Code für das Dokumentenformat als Zeichenfolge mit maximal 4 Zeichen an. Die Liste der gültigen Codes ist eine separat veröffentlichte externe Codeliste.|Externe Code-Sets können unter www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "DPDF": {
+      "name": "PDF",
+      "definition": "Das Dokumentformat ist PDF."
+    },
+    "DXML": {
+      "name": "XML",
+      "definition": "Das Dokumentformat ist XML."
+    },
+    "SDSH": {
+      "name": "Tabellenkalkulation",
+      "definition": "Das Dokumentformat ist eine Tabellenkalkulation."
+    },
+    "WORD": {
+      "name": "Word",
+      "definition": "Das Dokumentformat ist Word."
+    },
+    "XSLT": {
+      "name": "XSLT",
+      "definition": "Das Dokumentformat ist XSLT."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "FailureReason6Code",
+  "definition": "Grund, aus dem der Schlüssel angehalten wurde.",
+  "isoCodes": {
+    "CMPR": {
+      "name": "Kompromittiert",
+      "definition": "Schlüssel ist kompromittiert."
+    },
+    "EXPR": {
+      "name": "Abgelaufen",
+      "definition": "Schlüssel ist abgelaufen."
+    },
+    "KCVE": {
+      "name": "Ungültiger KCV",
+      "definition": "Schlüsselprüfwert ist falsch."
+    },
+    "KLOD": {
+      "name": "Schlüsselladefehler",
+      "definition": "Fehler beim Schlüssel-Download im Sicherheitsgerät."
+    }
+  }
+}

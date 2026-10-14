@@ -1,0 +1,29 @@
+{
+  "isoType": "SubAccountIdentification70",
+  "definition": "Liefert alle Details des Unterkontos.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Blockchain-Adresse oder Wallet, in der digitale Vermögenswerte gehalten werden. Dies entspricht dem Verwahrkonto für digitale Vermögenswerte."
+    },
+    "ActivityIndicator": {
+      "definition": "Gibt an, ob im Auszug Aktivität oder eine Aktualisierung von Informationen gemeldet wird."
+    },
+    "FinancialInstrumentDetails": {
+      "definition": "Berichterstattung je Finanzinstrument."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    }
+  }
+}

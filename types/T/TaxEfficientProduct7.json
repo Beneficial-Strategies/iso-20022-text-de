@@ -1,0 +1,75 @@
+{
+  "isoType": "TaxEfficientProduct7",
+  "definition": "Merkmale eines steuereffizienten Produkts.",
+  "isoElements": {
+    "TaxEfficientProductType": {
+      "definition": "Art des steuereffizienten Produkts, zum Beispiel ein Individual Savings Account (ISA) im UK."
+    },
+    "CurrentYear": {
+      "definition": "Gibt an, dass alle Produkte des laufenden Steuerjahres enthalten sind."
+    },
+    "CashComponentIndicator": {
+      "definition": "Gibt an, ob das Produkt für das laufende Jahr einen Barvermögenswert zur Übertragung enthält."
+    },
+    "PreviousYears": {
+      "definition": "In früheren Jahren aufgelegte Anlagepläne."
+    },
+    "PreviousYearSubscriptionAmount": {
+      "definition": "Einzahlungen aus dem vorherigen Zeichnungsjahr."
+    },
+    "PreviousYearsSubscriptionAmount": {
+      "definition": "In allen vorherigen Jahren gezeichneter Betrag."
+    },
+    "DateOfFirstSubscription": {
+      "definition": "Datum, an dem der Anlageplan begonnen hat."
+    },
+    "CurrentYearSubscriptionDetails": {
+      "definition": "Für das laufende Jahr bereits gezeichnete Beträge."
+    },
+    "BonusOrWithdrawal": {
+      "definition": "Ausgezahlter oder entnommener Bonus."
+    },
+    "WithdrawalForResidentialPurchaseProgress": {
+      "definition": "Gibt an, ob zum Zeitpunkt der Übertragung ein damit verbundener Immobilienkauf im Gange ist. Kann auf Produkte wie Lifetime Individual Savings Account (LISA) anwendbar sein."
+    },
+    "TransferorAlternateIdentification": {
+      "definition": "Alternative Identifikation des Übertragenden (abgebende Partei), zum Beispiel die 'ISA manager Z reference' im UK."
+    },
+    "TotalSubscriptionAmount": {
+      "definition": "Während der Laufzeit des Produkts insgesamt gezeichneter Betrag."
+    },
+    "OtherAmount": {
+      "definition": "Ein anderer Betrag, wie zum Beispiel die gesamten qualifizierenden Zugänge im Jahr der Übertragung, im laufenden Jahr kapitalisierte Zinsen, gesamte ausstehende Dividende und so weiter."
+    },
+    "DateFirstQualifyingAddition": {
+      "definition": "Datum, an dem der erste qualifizierende zusätzliche Betrag in das Produkt eingezahlt wurde.  Qualifizierende zusätzliche Beträge können in ein Lifetime Individual Savings Account (LISA) Produkt eingezahlt werden."
+    },
+    "InvestorTaxReference": {
+      "definition": "Identifikation des Anlegers, wie von einer Steuerbehörde vergeben."
+    },
+    "InvestmentsToFollowValue": {
+      "definition": "Wert der nachfolgenden Anlagen."
+    },
+    "InnovativeFinance": {
+      "definition": "Informationen zu einem innovativen Finanzprodukt."
+    },
+    "LowestInvestedAmountCurrentYear": {
+      "definition": "Niedrigster Anlagebetrag im laufenden Jahr, der zur Berechnung eines Steuerabzugsbetrags verwendet wird."
+    },
+    "TaxCalculationBase": {
+      "definition": "Geldbetrag, von dem der Steuerabzug berechnet wird."
+    },
+    "UnusedTaxDeduction": {
+      "definition": "Nicht genutzter Steuerabzugsbetrag."
+    },
+    "CurrentInvestmentAmount": {
+      "definition": "Angelegter Geldbetrag."
+    },
+    "EstimatedValue": {
+      "definition": "Geschätzter Wert der Vermögenswerte des zu übertragenden steuerbegünstigten Produkts."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum steuereffizienten Produkt."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMDiagnosticRequestV03",
+  "definition": "Die Nachricht ATMDiagnosticRequest wird von einem ATM an einen Acquirer gesendet, um die Verfügbarkeit des Acquirers zu prüfen. Der Acquirer prüft außerdem, ob dieser ATM ein gültiger ATM für sein jeweiliges Netz ist."
+}

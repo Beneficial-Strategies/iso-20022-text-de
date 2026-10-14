@@ -1,0 +1,62 @@
+{
+  "isoType": "CRSStatus1Code",
+  "definition": "Legt den Status nach dem Common Reporting Standard (CRS) fest.",
+  "isoCodes": {
+    "C101": {
+      "name": "CRS101",
+      "definition": "Der Kontoinhaber ist eine passive nichtfinanzielle Einheit mit einer oder mehreren beherrschenden Personen, die ausländische Personen sind."
+    },
+    "C102": {
+      "name": "CRS102",
+      "definition": "Der Kontoinhaber ist eine ausländische Person."
+    },
+    "C103": {
+      "name": "CRS103",
+      "definition": "Der Kontoinhaber ist eine passive ausländische nichtfinanzielle Einheit ohne beherrschende Personen, die ausländische Personen sind."
+    },
+    "C104": {
+      "name": "CRS104",
+      "definition": "Der Kontoinhaber ist ein Finanzinstitut, beispielsweise ein Verwahrinstitut, ein Depotinstitut oder eine bestimmte Versicherungsgesellschaft."
+    },
+    "C105": {
+      "name": "CRS105",
+      "definition": "Der Kontoinhaber ist ein Finanzinstitut, beispielsweise eine Investmenteinheit einer nicht teilnehmenden Jurisdiktion, die von einem anderen Finanzinstitut verwaltet wird, ohne eine oder mehrere beherrschende Personen, die ausländische Personen sind."
+    },
+    "C106": {
+      "name": "CRS106",
+      "definition": "Der Kontoinhaber ist ein Finanzinstitut, beispielsweise eine Investmenteinheit einer nicht teilnehmenden Jurisdiktion, die von einem anderen Finanzinstitut verwaltet wird, mit einer oder mehreren beherrschenden Personen, die ausländische Personen sind."
+    },
+    "C107": {
+      "name": "CRS107",
+      "definition": "Der Kontoinhaber ist ein Finanzinstitut, beispielsweise eine andere Investmenteinheit."
+    },
+    "C108": {
+      "name": "CRS108",
+      "definition": "Der Kontoinhaber ist eine aktive nichtfinanzielle Einheit, beispielsweise eine Kapitalgesellschaft, deren Aktien regelmäßig an einem anerkannten Wertpapiermarkt gehandelt werden."
+    },
+    "C109": {
+      "name": "CRS109",
+      "definition": "Der Kontoinhaber ist eine aktive nichtfinanzielle Einheit, beispielsweise eine Kapitalgesellschaft, die eine verbundene Einheit einer Kapitalgesellschaft ist, deren Aktien regelmäßig an einem anerkannten Wertpapiermarkt gehandelt werden."
+    },
+    "C110": {
+      "name": "CRS110",
+      "definition": "Der Kontoinhaber ist eine aktive nichtfinanzielle Einheit, beispielsweise eine staatliche Einrichtung."
+    },
+    "C111": {
+      "name": "CRS111",
+      "definition": "Der Kontoinhaber ist eine aktive nichtfinanzielle Einheit, beispielsweise eine Zentralbank."
+    },
+    "C112": {
+      "name": "CRS112",
+      "definition": "Der Kontoinhaber ist eine aktive nichtfinanzielle Einheit, beispielsweise eine internationale Organisation."
+    },
+    "C113": {
+      "name": "CRS113",
+      "definition": "Der Kontoinhaber ist keine ausländische Person."
+    },
+    "C114": {
+      "name": "CRS114",
+      "definition": "Der Kontoinhaber ist ein Finanzinstitut, beispielsweise eine Investmenteinheit einer teilnehmenden Jurisdiktion, die von einem anderen Finanzinstitut verwaltet wird."
+    }
+  }
+}

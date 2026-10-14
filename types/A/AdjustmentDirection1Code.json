@@ -1,0 +1,14 @@
+{
+  "isoType": "AdjustmentDirection1Code",
+  "definition": "Gibt an, ob die Anpassung zum Gesamtbetrag addiert oder von ihm subtrahiert wird.",
+  "isoCodes": {
+    "ADDD": {
+      "name": "Hinzugefügt",
+      "definition": "Der Anpassungsbetrag muss zum Gesamtbetrag addiert werden."
+    },
+    "SUBS": {
+      "name": "Abgezogen",
+      "definition": "Der Anpassungsbetrag muss vom Gesamtbetrag subtrahiert werden."
+    }
+  }
+}

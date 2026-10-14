@@ -1,0 +1,90 @@
+{
+  "isoType": "SecuritiesBalanceType1Code",
+  "definition": "Gibt die Art des Wertpapier- oder Investmentfondssaldos an.",
+  "isoCodes": {
+    "BLOK": {
+      "name": "Gesperrt",
+      "definition": "Bestand an Wertpapieren, die gesperrt oder eingefroren sind. Ein Finanzinstrument kann aufgrund äußerer Umstände nicht verfügbar sein, wie etwa einer gerichtlichen Anordnung, dem Tod des Begünstigten oder Kontoinhabers oder einer Insolvenz."
+    },
+    "BORR": {
+      "name": "Entliehen",
+      "definition": "Bestand an Wertpapieren, die von einer anderen Partei entliehen wurden."
+    },
+    "COLI": {
+      "name": "Sicherheit eingehend",
+      "definition": "Bestand an Wertpapieren, die einem Dritten gehören und zum Zweck der Besicherung gehalten werden."
+    },
+    "COLO": {
+      "name": "Sicherheit ausgehend",
+      "definition": "Bestand an Wertpapieren, die dem in dieser Nachricht angegebenen Depotkonto gehören und zum Zweck der Besicherung bei einem Dritten hinterlegt sind."
+    },
+    "LOAN": {
+      "name": "Verliehen",
+      "definition": "Bestand an Wertpapieren, die an einen Dritten verliehen wurden."
+    },
+    "MARG": {
+      "name": "Derivate-Margin",
+      "definition": "Bestand an Wertpapieren, die als Sicherheit für Derivate verwendet werden."
+    },
+    "PDMT": {
+      "name": "Ausstehende Lieferung, abgeglichener Saldo",
+      "definition": "Bestand an Wertpapieren mit ausstehender Lieferung, die abgeglichen (gematcht) wurden. Dies gilt nur in der Kommunikation zwischen CSD und Teilnehmer."
+    },
+    "PRMT": {
+      "name": "Ausstehender Empfang, abgeglichener Saldo",
+      "definition": "Bestand an Wertpapieren mit ausstehendem Empfang, die abgeglichen (gematcht) wurden. Dies gilt nur in der Kommunikation zwischen CSD und Teilnehmer."
+    },
+    "PRUM": {
+      "name": "Ausstehender Empfang, nicht abgeglichener Saldo",
+      "definition": "Bestand an Wertpapieren mit ausstehendem Empfang, die nicht abgeglichen (ungematcht) sind. Dies gilt nur in der Kommunikation zwischen CSD und Teilnehmer."
+    },
+    "PECA": {
+      "name": "Ausstehende Kapitalmaßnahme",
+      "definition": "Bestand an Wertpapieren, die vor dem Ex-Tag an einer Kapitalmaßnahme (CA) beteiligt sind. Aufgrund einer Kapitalmaßnahme gesperrte Wertpapiere, zum Beispiel Proxy, Treuhandverwahrung (Escrow), sind im Unterbestand BLOK zu identifizieren."
+    },
+    "PEND": {
+      "name": "Ausstehende Lieferung",
+      "definition": "Bestand an Wertpapieren mit ausstehender Lieferung."
+    },
+    "PENR": {
+      "name": "Ausstehender Empfang",
+      "definition": "Bestand an Wertpapieren mit ausstehendem Empfang."
+    },
+    "PLED": {
+      "name": "Verpfändet",
+      "definition": "Bestand an Wertpapieren, die verpfändet sind, zum Beispiel ein Finanzinstrument, das nicht verfügbar ist, weil es als Sicherheit verwendet oder gestellt wurde."
+    },
+    "PDUM": {
+      "name": "Ausstehende Lieferung, nicht abgeglichener Saldo",
+      "definition": "Bestand an Wertpapieren mit ausstehender Lieferung, die nicht abgeglichen (ungematcht) sind. Dies gilt nur in der Kommunikation zwischen CSD und Teilnehmer."
+    },
+    "REGO": {
+      "name": "Zur Registrierung eingereicht",
+      "definition": "Bestand an Wertpapieren, die derzeit von dem Institut bearbeitet werden, das nach der Abwicklung eines Geschäfts für die Registrierung des neuen wirtschaftlich Berechtigten (oder Nominees) der Wertpapiere zuständig ist."
+    },
+    "RSTR": {
+      "name": "Beschränkt",
+      "definition": "Bestand an Wertpapieren, die nur unter bestimmten Bedingungen verkauft werden dürfen oder rechtliche Unterlagen erfordern."
+    },
+    "OTHR": {
+      "name": "Nicht klassifiziert",
+      "definition": "Bestand an Wertpapieren, der nicht klassifiziert ist, das heißt keinem der bestehenden Unterbestandstypen zugeordnet werden kann."
+    },
+    "TRAN": {
+      "name": "Im Umschlag",
+      "definition": "Bestand an physischen Wertpapieren im Transit, zum Beispiel im Prozess der Übertragung von einer Verwahrstelle oder einem Agenten zu einem anderen."
+    },
+    "DRAW": {
+      "name": "Ausgelost",
+      "definition": "Bestand an Wertpapieren, die zur Rückzahlung ausgelost wurden."
+    },
+    "WDOC": {
+      "name": "Wartet auf Dokumentation",
+      "definition": "Das Finanzinstrument ist aufgrund fehlender oder unvollständiger Dokumentation zum Konto oder aufgrund eines fehlenden oder unvollständigen Auftrags nicht verfügbar."
+    },
+    "BTRA": {
+      "name": "In Übertragung",
+      "definition": "Das Finanzinstrument ist aufgrund eines Übertragungsauftrags, ausstehender Bewegung im Aktionärsregister, nicht verfügbar."
+    }
+  }
+}

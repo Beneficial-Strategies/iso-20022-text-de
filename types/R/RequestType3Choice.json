@@ -1,0 +1,12 @@
+{
+  "isoType": "RequestType3Choice",
+  "definition": "Legt die Art der Aktion fest, die in der Anfrage ausgeführt werden soll.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der Liquiditätsübertragungsanforderung in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Art der Liquiditätsübertragungsanforderung in proprietärer Form."
+    }
+  }
+}

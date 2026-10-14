@@ -1,0 +1,27 @@
+{
+  "isoType": "GenericIdentification82",
+  "definition": "Informationen zur Identifikation einer Partei.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Name oder Nummer, die von einer Einheit vergeben wird, um die Wiedererkennung dieser Einheit zu ermöglichen."
+    },
+    "Type": {
+      "definition": "Art der Identifikation."
+    },
+    "Issuer": {
+      "definition": "Stelle, die die Identifikation vergibt."
+    },
+    "IssueDate": {
+      "definition": "Datum, an dem die Identifikation ausgestellt wurde."
+    },
+    "ExpiryDate": {
+      "definition": "Datum, an dem die Identifikation abläuft."
+    },
+    "State": {
+      "definition": "Name des Staates, Landkreises oder der Gebietskörperschaft unterhalb der Landesebene, der bzw. die das Identifikationsdokument ausgestellt hat."
+    },
+    "IssuerCountry": {
+      "definition": "Land, das das Identifikationsdokument ausgestellt hat."
+    }
+  }
+}

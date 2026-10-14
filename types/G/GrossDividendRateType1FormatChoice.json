@@ -1,0 +1,12 @@
+{
+  "isoType": "GrossDividendRateType1FormatChoice",
+  "definition": "Auswahl der Formate zur Angabe der Art des Bruttodividendensatzes.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Art des Bruttodividendensatzes."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe der Art des Bruttodividendensatzes."
+    }
+  }
+}

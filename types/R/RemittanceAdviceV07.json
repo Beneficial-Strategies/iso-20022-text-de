@@ -1,0 +1,4 @@
+{
+  "isoType": "RemittanceAdviceV07",
+  "definition": "Die Nachricht RemittanceAdvice ermöglicht es dem Auftraggeber, Avisdetails bereitzustellen, die einer Zahlung zugeordnet werden können."
+}

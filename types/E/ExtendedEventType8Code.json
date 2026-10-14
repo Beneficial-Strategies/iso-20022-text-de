@@ -1,0 +1,26 @@
+{
+  "isoType": "ExtendedEventType8Code",
+  "definition": "Gibt den von der DTCC (The Depository Trust and Clearing Corporation) definierten Kapitalmaßnahmen-Ereignistyp an.",
+  "isoCodes": {
+    "CDRD": {
+      "name": "Vorzeitige Rückzahlung eines Einlagenzertifikats",
+      "definition": "Merkmal eines Wertpapiers, das es einem Emittenten erlaubt, eine Zahlung an den Wertpapierinhaber zu leisten. Dieses Ereignis wird für Wertpapiere verwendet, die anderen Rückzahlungen unterliegen als jenen, die als vollständige und teilweise Kündigung kategorisiert sind (zum Beispiel vorzeitige Rückzahlungen von Einlagenzertifikaten)."
+    },
+    "FPAY": {
+      "name": "Endgültige Tilgung",
+      "definition": "Endgültige Ausschüttung des fälligen Kapitalbetrags eines Wertpapiers, typischerweise bei Collateralised Mortgage Obligations."
+    },
+    "REDW": {
+      "name": "Einlösung eines Optionsscheins",
+      "definition": "Das Ereignis ist eine Rückzahlung eines Optionsscheins."
+    },
+    "TMTN": {
+      "name": "Beendigung",
+      "definition": "Wertpapier, in der Regel eine Form eines Derivats, für das der Agent oder Emittent beschlossen hat, das Derivat aufgrund einer Änderung des/der zugrunde liegenden Wertpapiers/Wertpapiere oder einer Strategieänderung zu beenden. Abgrenzung von den Ereignistypen Mandatory Exchange und Exchange Offer, die demselben ISO-Ereignistypcode zugeordnet sind."
+    },
+    "FPRE": {
+      "name": "Vollständige Vorfinanzierung",
+      "definition": "Ausübung eines Rechts des Emittenten, jegliche Schuldverschreibung vor Fälligkeit vollständig zurückzuzahlen, wenn der Emittent Vermögenswerte treuhänderisch hinterlegt. Dadurch wird deren Verwendung unwiderruflich auf die Erfüllung der Schuld beschränkt."
+    }
+  }
+}

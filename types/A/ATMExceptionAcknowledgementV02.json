@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMExceptionAcknowledgementV02",
+  "definition": "Die Nachricht ATMExceptionAcknowledgement wird von einem Acquirer oder dessen Agenten an einen ATM gesendet, um den Empfang einer ATMExceptionAdvice-Nachricht zu bestätigen."
+}

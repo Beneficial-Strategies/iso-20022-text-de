@@ -1,0 +1,9 @@
+{
+  "isoType": "ModifyMemberV04",
+  "definition": "Anwendungsbereich|Die Nachricht ModifyMember wird von einem Mitglied an den Transaktionsverwalter gesendet.|Sie dient dazu, Änderungen an den Stammdaten zum Profil eines Mitglieds anzufordern, die der Transaktionsverwalter führt.|Verwendung|Der Transaktionsverwalter ist dafür zuständig, den Mitgliedern fachliche Informationen bereitzustellen. Der Begriff fachliche Informationen umfasst alle Informationen zur Verwaltung des Systems, also solche, die nicht die im System erfassten Transaktionen betreffen. Die Art der verfügbaren fachlichen Informationen kann je nach System variieren. Sie können sich unter anderem auf Informationen zur Mitgliedschaft im System beziehen.|Während der Betriebszeiten des Systems kann das Mitglied den Transaktionsverwalter jederzeit auffordern, die über das Mitglied geführten Informationen zu ändern.|Das Mitglied übermittelt eine Nachricht, in der Änderungen an einem oder mehreren der folgenden Kriterien angefordert werden:|- Identifikation des Mitglieds|- Kontaktinformationen der Mitgliedsorganisation: Postanschrift, E-Mail-Adresse, Telefon- oder Faxnummer|- Identifikation der Ansprechpartner des Mitglieds, ihrer Rolle und/oder Details (Postanschrift, E-Mail-Adresse, Telefon- oder Faxnummer)|Anhand der in der Nachricht Modify Member erhaltenen Kriterien führt der Transaktionsverwalter die angeforderten Änderungen aus oder lehnt sie ab.|Grundsätzlich kann der Transaktionsverwalter als Antwort auf die Anfrage ModifyMember eine Nachricht Receipt senden. Um das Ergebnis der Anfrage zu überprüfen, kann das Mitglied eine Nachricht GetMember mit den entsprechenden Suchkriterien übermitteln.",
+  "isoRules": {
+    "MandatoryValueRule": {
+      "definition": "Der NewMemberValueSet besteht aus einer MemberReturnAddress, einer CommunicationAddress oder einer ContactReference. Mindestens eines dieser Elemente muss vorhanden sein."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "CancellationStatus35Choice",
+  "definition": "Status, der für die empfangene Stornierungsanfrage zur Anweisung gilt.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Status zur Bearbeitung des Stornierungsauftrags für die Anweisung."
+    },
+    "Rejected": {
+      "definition": "Status zur Ablehnung des Stornierungsauftrags für die Anweisung und zum Grund der Ablehnung."
+    },
+    "PendingCancellation": {
+      "definition": "Status, der angibt, dass der Stornierungsauftrag für die Anweisung ausstehend ist, und der den Grund für den Status „ausstehend“ nennt."
+    }
+  }
+}

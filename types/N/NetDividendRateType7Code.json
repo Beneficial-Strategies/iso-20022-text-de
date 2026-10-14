@@ -1,0 +1,58 @@
+{
+  "isoType": "NetDividendRateType7Code",
+  "definition": "Gibt die Art des Dividendensatzes an.",
+  "isoCodes": {
+    "CAPO": {
+      "name": "Kapitalanteil",
+      "definition": "Satz in Bezug auf das zugrunde liegende Wertpapier, für das Kapital ausgeschüttet wird."
+    },
+    "CDFI": {
+      "name": "Ausländische Erträge",
+      "definition": "Satz in Bezug auf eine Art von Auslandserträgen, zum Beispiel durchgeleitete Auslandserträge (conduit foreign income)."
+    },
+    "FUPU": {
+      "name": "Ertragsanteil der Anteile für den vollen Zeitraum",
+      "definition": "Ausschüttungssatz in Bezug auf Anteile für den vollen Zeitraum, zum Beispiel Anteile der Gruppe I im UK."
+    },
+    "FLFR": {
+      "name": "Voll angerechnet",
+      "definition": "Satz aus einer von einer Gesellschaft gezahlten vollständig mit Steuergutschrift versehenen Dividende (fully franked); der Satz enthält die Steuergutschrift für Gesellschaften, die im Geschäftsjahr ausreichende Steuerzahlungen geleistet haben."
+    },
+    "INCO": {
+      "name": "Ertragsanteil",
+      "definition": "Satz in Bezug auf das zugrunde liegende Wertpapier, für das Erträge ausgeschüttet werden."
+    },
+    "INTR": {
+      "name": "Zinsen",
+      "definition": "Satz in Bezug auf das zugrunde liegende Wertpapier, für das Zinsen gezahlt werden."
+    },
+    "SOIC": {
+      "name": "Sonstige Erträge",
+      "definition": "Satz in Bezug auf das zugrunde liegende Wertpapier, für das sonstige Erträge gezahlt werden."
+    },
+    "TXBL": {
+      "name": "Steuerpflichtiger Anteil",
+      "definition": "Satz in Bezug auf das zugrunde liegende Wertpapier, für das Steuer erhoben wird."
+    },
+    "TXDF": {
+      "name": "Steuerlich aufgeschoben",
+      "definition": "Satz in Bezug auf das zugrunde liegende Wertpapier, für das die Steuer aufgeschoben wird."
+    },
+    "TXFR": {
+      "name": "Steuerfrei",
+      "definition": "Satz in Bezug auf das zugrunde liegende Wertpapier, das nicht steuerpflichtig ist."
+    },
+    "UNFR": {
+      "name": "Nicht angerechnet",
+      "definition": "Satz aus einer von einer Gesellschaft gezahlten Dividende ohne Steuergutschrift (unfranked); der Satz enthält keine Steuergutschrift und unterliegt der Quellensteuer."
+    },
+    "PAPU": {
+      "name": "Ertragsanteil der Anteile für den Teilzeitraum",
+      "definition": "Ausschüttungssatz in Bezug auf Anteile für einen Teilzeitraum, zum Beispiel Anteile der Gruppe II im UK."
+    },
+    "REES": {
+      "name": "Ertragsanteil aus Immobilien",
+      "definition": "Satz der Ertragsausschüttung aus Immobilieninvestitionen."
+    }
+  }
+}

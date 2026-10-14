@@ -1,0 +1,15 @@
+{
+  "isoType": "LinkedMessage6Choice",
+  "definition": "Referenz auf eine Nachricht.",
+  "isoElements": {
+    "PreviousReference": {
+      "definition": "Verknüpfte vorherige Referenz."
+    },
+    "OtherReference": {
+      "definition": "Verknüpfte andere Referenz."
+    },
+    "RelatedReference": {
+      "definition": "Verknüpfte zugehörige Referenz."
+    }
+  }
+}

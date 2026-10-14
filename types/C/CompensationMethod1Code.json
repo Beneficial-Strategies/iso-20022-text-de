@@ -1,0 +1,22 @@
+{
+  "isoType": "CompensationMethod1Code",
+  "definition": "Legt fest, ob und wie fällige Entgelte und Steuern an das Finanzinstitut gezahlt werden.",
+  "isoCodes": {
+    "NOCP": {
+      "name": "Nein",
+      "definition": "Das Konto zahlt keine fälligen Entgelte oder Steuern."
+    },
+    "DBTD": {
+      "name": "Belastet",
+      "definition": "Das Konto wird für fällige Entgelte oder Steuern belastet."
+    },
+    "INVD": {
+      "name": "In Rechnung gestellt",
+      "definition": "Für das Konto oder das Sammelkonto werden fällige Entgelte oder Steuern in Rechnung gestellt."
+    },
+    "DDBT": {
+      "name": "Verzögerte Belastung",
+      "definition": "Das Konto wird automatisch zu einem zukünftigen Datum belastet."
+    }
+  }
+}

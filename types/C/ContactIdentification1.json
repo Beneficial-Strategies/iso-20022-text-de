@@ -1,0 +1,27 @@
+{
+  "isoType": "ContactIdentification1",
+  "definition": "Angaben, die zur Kontaktaufnahme mit einer natürlichen Person erforderlich sind.",
+  "isoElements": {
+    "Name": {
+      "definition": "Name, unter dem eine Partei bekannt ist und der üblicherweise zur Identifikation dieser Partei verwendet wird."
+    },
+    "NamePrefix": {
+      "definition": "Gibt die Begriffe an, mit denen eine Person förmlich angesprochen wird."
+    },
+    "GivenName": {
+      "definition": "Vorname einer Person."
+    },
+    "Role": {
+      "definition": "Rolle der Partei in der Aktivität."
+    },
+    "PhoneNumber": {
+      "definition": "Gesamtheit der Informationen, die eine Telefonnummer identifizieren, wie von den Telekommunikationsdiensten definiert."
+    },
+    "FaxNumber": {
+      "definition": "Gesamtheit der Informationen, die eine FAX-Nummer identifizieren, wie von den Telekommunikationsdiensten definiert."
+    },
+    "EmailAddress": {
+      "definition": "Adresse für elektronische Post (E-Mail)."
+    }
+  }
+}

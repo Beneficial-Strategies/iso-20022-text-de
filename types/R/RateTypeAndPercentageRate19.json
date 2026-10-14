@@ -1,0 +1,12 @@
+{
+  "isoType": "RateTypeAndPercentageRate19",
+  "definition": "Gibt den Wert an, der als Art eines fiktiven Satzes und als Prozentsatz angegeben wird.",
+  "isoElements": {
+    "RateType": {
+      "definition": "Als Satzart ausgedrückter Wert."
+    },
+    "Rate": {
+      "definition": "Als Satz ausgedrückter Wert."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "ChequeCancellationOrStopReportV02",
+  "definition": "Die Nachricht ChequeCancellationOrStopReport wird von der bezogenen Bank (auf die ein Scheck gezogen ist) an die Bank des Scheckausstellers oder die in deren Auftrag handelnde Bank gesendet, um mitzuteilen, welche Maßnahmen zur Stornierung der Vorlage und/oder zur Sperrung der Zahlung des in der Nachricht genannten Schecks ergriffen wurden."
+}

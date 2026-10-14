@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingServiceIdentification2",
+  "definition": "Identifikation des abzurechnenden Services.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eigener, interner Service-Identifikationscode des Finanzinstituts, der sich vom gemeinsamen Code unterscheidet.|Verwendung: Der eigene Code des Finanzinstituts dient der eindeutigen Identifikation des Services innerhalb des Finanzinstituts."
+    },
+    "SubService": {
+      "definition": "Legt die Subservice-Identifikation des Finanzinstituts fest, wenn der Service-Identifikationscode des Finanzinstituts für mehr als einen Service verwendet wird."
+    },
+    "Description": {
+      "definition": "Gibt weitere Details zur Beschreibung des Services des Finanzinstituts an, die nicht der mit dem gemeinsamen Code verbundenen Standardbeschreibung entsprechen."
+    }
+  }
+}

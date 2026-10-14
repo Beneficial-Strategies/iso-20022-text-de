@@ -1,0 +1,14 @@
+{
+  "isoType": "TradeTransactionCondition5Code",
+  "definition": "Legt die Bedingungen fest, unter denen die Order/das Geschäft ausgeführt werden soll bzw. ausgeführt wurde.",
+  "isoCodes": {
+    "XCPN": {
+      "name": "Ex Kupon",
+      "definition": "Gibt an, ob das Geschäft ex Coupon ausgeführt wird."
+    },
+    "CCPN": {
+      "name": "Cum Kupon",
+      "definition": "Gibt an, ob das Geschäft cum Coupon ausgeführt wird."
+    }
+  }
+}

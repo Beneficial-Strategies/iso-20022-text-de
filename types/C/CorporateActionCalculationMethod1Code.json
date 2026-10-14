@@ -1,0 +1,22 @@
+{
+  "isoType": "CorporateActionCalculationMethod1Code",
+  "definition": "Gibt die Berechnungsmethode für Auslosungen an.",
+  "isoCodes": {
+    "PROR": {
+      "name": "Anteilig",
+      "definition": "Anteilig für Auslosungen."
+    },
+    "LOTT": {
+      "name": "Auslosung",
+      "definition": "Losverfahren für Auslosungen."
+    },
+    "NOMI": {
+      "name": "Nennwertreduzierung",
+      "definition": "Verringerung des Nennwerts bei teilweiser Rückzahlung."
+    },
+    "NNOM": {
+      "name": "Keine Nennwertreduzierung",
+      "definition": "Ohne Verringerung des Nennwerts (über Poolfaktor) bei teilweiser Rückzahlung."
+    }
+  }
+}

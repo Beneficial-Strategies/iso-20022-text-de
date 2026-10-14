@@ -1,0 +1,32 @@
+{
+  "isoType": "LiquidityDebitTransfer4",
+  "definition": "Enthält Details zur Liquiditätslastschrift, die dazu dient, einen Geldbetrag vom Zahlungspflichtigen an den Zahlungsempfänger zu übertragen, wobei beide Finanzinstitute sind.",
+  "isoElements": {
+    "LiquidityTransferIdentification": {
+      "definition": "Dient zur eindeutigen Identifikation der Liquiditätsübertragung."
+    },
+    "Creditor": {
+      "definition": "Inhaber des Kontos, dem gutgeschrieben wird."
+    },
+    "CreditorAccount": {
+      "definition": "Konto, dem aufgrund einer Liquiditätsübertragung gutgeschrieben wird."
+    },
+    "TransferredAmount": {
+      "definition": "Geldbetrag, den der Transaktionsadministrator von einem Konto auf ein anderes überträgt."
+    },
+    "Debtor": {
+      "definition": "Inhaber des zu belastenden Kontos."
+    },
+    "DebtorAccount": {
+      "definition": "Konto, das aufgrund einer Liquiditätsübertragung belastet wird."
+    },
+    "SettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag der Bank, die ihn schuldet, nicht mehr zur Verfügung steht und der Bank, der er zusteht, zur Verfügung steht."
+    }
+  },
+  "isoRules": {
+    "DebtorAccountRule": {
+      "definition": "Mindestens DebitAccount oder Debtor muss vorhanden sein, oder beide."
+    }
+  }
+}

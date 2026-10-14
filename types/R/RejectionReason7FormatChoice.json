@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason7FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe des Grundes für die Ablehnung eines Stornierungsantrags.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Grundes für die Ablehnung eines Stornierungsantrags."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe des Grundes für die Ablehnung eines Stornierungsantrags."
+    }
+  }
+}

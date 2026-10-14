@@ -1,0 +1,59 @@
+{
+  "isoType": "SettlementInstruction15",
+  "definition": "Liefert weitere Einzelheiten zur Abwicklung der Anweisung.",
+  "isoElements": {
+    "SettlementMethod": {
+      "definition": "Verfahren zur Abwicklung der (Sammlung von) Zahlungsanweisungen."
+    },
+    "SettlementAccount": {
+      "definition": "Ein Konto für einen bestimmten Zweck, auf dem Soll- und Habenbuchungen infolge der Transaktion gebucht werden."
+    },
+    "ClearingSystem": {
+      "definition": "Angabe eines zuvor vereinbarten Angebots zwischen Clearingstellen oder des Kanals, über den die Zahlungsanweisung verarbeitet wird."
+    },
+    "InstructingReimbursementAgent": {
+      "definition": "Bank, über die die anweisende Bank die angewiesene Bank erstatten wird.||Verwendung: Haben InstructingAgent und InstructedAgent dieselbe Erstattungsbank, darf nur InstructingReimbursementAgent verwendet werden."
+    },
+    "InstructingReimbursementAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der anweisenden Erstattungsbank bei ihrer kontoführenden Bank in der Zahlungskette."
+    },
+    "InstructedReimbursementAgent": {
+      "definition": "Bank, bei der die angewiesene Bank erstattet wird.|Verwendung: Enthält InstructedReimbursementAgent eine Filiale des InstructedAgent, fordert die Partei in InstructedAgent die Erstattung von dieser Filiale an beziehungsweise wird von dieser Filiale bezahlt.|Verwendung: Haben InstructingAgent und InstructedAgent dieselbe Erstattungsbank, darf nur InstructingReimbursementAgent verwendet werden."
+    },
+    "InstructedReimbursementAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der angewiesenen Erstattungsbank bei ihrer kontoführenden Bank in der Zahlungskette."
+    },
+    "ThirdReimbursementAgent": {
+      "definition": "Bank, bei der die angewiesene Bank erstattet wird.|Verwendung: Enthält ThirdReimbursementAgent eine Filiale des InstructedAgent, fordert die Partei in InstructedAgent die Erstattung von dieser Filiale an beziehungsweise wird von dieser Filiale bezahlt."
+    },
+    "ThirdReimbursementAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der dritten Erstattungsbank bei ihrer kontoführenden Bank in der Zahlungskette."
+    }
+  },
+  "isoRules": {
+    "ThirdReimbursementAgentRule": {
+      "definition": "Wenn ThirdReimbursementAgent vorhanden ist, müssen sowohl InstructingReimbursementAgent als auch InstructedReimbursementAgent vorhanden sein."
+    },
+    "SettlementMethodAgentRule": {
+      "definition": "Wenn SettlementMethod gleich INDA oder INGA ist, sind ReimbursementAgent(s) und ClearingSystem nicht zulässig."
+    },
+    "SettlementMethodCoverRule": {
+      "definition": "Wenn SettlementMethod gleich COVE ist, sind SettlementAccount und ClearingSystem nicht zulässig."
+    },
+    "SettlementMethodCoverAgentRule": {
+      "definition": "Wenn SettlementMethod gleich COVE ist, muss InstructedReimbursementAgent oder InstructingReimbursementAgent vorhanden sein."
+    },
+    "SettlementMethodClearingRule": {
+      "definition": "Wenn SettlementMethod gleich CLRG ist, sind SettlementAccount und ReimbursementAgent(s) nicht zulässig."
+    },
+    "InstructingReimbursementAgentAccountRule": {
+      "definition": "Wenn InstructingReimbursementAgentAccount vorhanden ist, muss InstructingReimbursementAgent vorhanden sein."
+    },
+    "InstructedReimbursementAgentAccountRule": {
+      "definition": "Wenn InstructedReimbursementAgentAccount vorhanden ist, muss InstructedReimbursementAgent vorhanden sein."
+    },
+    "ThirdReimbursementAgentAccountRule": {
+      "definition": "Wenn ThirdReimbursementAgentAccount vorhanden ist, muss ThirdReimbursementAgent vorhanden sein."
+    }
+  }
+}

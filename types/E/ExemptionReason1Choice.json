@@ -1,0 +1,12 @@
+{
+  "isoType": "ExemptionReason1Choice",
+  "definition": "Auswahl von Formaten für den Befreiungsgrund.",
+  "isoElements": {
+    "Code": {
+      "definition": "Befreiungsgrund, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Befreiungsgrund, ausgedrückt als proprietärer Code."
+    }
+  }
+}

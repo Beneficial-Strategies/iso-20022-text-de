@@ -1,0 +1,22 @@
+{
+  "isoType": "PendingReason34Code",
+  "definition": "Gibt den Grund an, warum eine für die zugehörige Anweisung gesendete Stornierungsanforderung ausstehend ist.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Anweisung wurde nach Ablauf der Frist des Kontoführers empfangen. Sie wird gemäß der bilateralen Dienstleistungsvereinbarung zwischen Kontoführer und Kontoinhaber behandelt."
+    },
+    "CONF": {
+      "name": "Wartet auf Bestätigung",
+      "definition": "Warten auf Bestätigung der Gegenpartei."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "DQUA": {
+      "name": "Mengenabweichung",
+      "definition": "Die Menge der Finanzinstrumente stimmt nicht überein."
+    }
+  }
+}

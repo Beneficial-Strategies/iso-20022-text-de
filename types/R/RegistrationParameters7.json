@@ -1,0 +1,18 @@
+{
+  "isoType": "RegistrationParameters7",
+  "definition": "Informationen zur Registrierung von Wertpapieren.",
+  "isoElements": {
+    "CertificationIdentification": {
+      "definition": "Einem Depot zugewiesene Identifikation."
+    },
+    "CertificationDateTime": {
+      "definition": "Datum/Uhrzeit, zu dem die Zertifikate im Depot vom Agenten validiert wurden."
+    },
+    "RegistrarAccount": {
+      "definition": "Konto beim Registerführer, auf dem Finanzinstrumente registriert sind."
+    },
+    "CertificateNumber": {
+      "definition": "Eindeutiger und unmissverständlicher Identifikator eines vom Emittenten vergebenen Zertifikats."
+    }
+  }
+}

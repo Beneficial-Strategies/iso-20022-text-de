@@ -1,0 +1,18 @@
+{
+  "isoType": "ProprietaryQuantity9",
+  "definition": "Proprietäres Mengenformat.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Stellt die proprietäre Menge als Dezimalzahl bereit."
+    },
+    "QuantityType": {
+      "definition": "Gibt die Art der gemeldeten proprietären Menge an."
+    },
+    "Issuer": {
+      "definition": "Stellt Informationen zum Emittenten in freiem Format bereit."
+    },
+    "SchemeName": {
+      "definition": "Name des Identifikationsschemas."
+    }
+  }
+}

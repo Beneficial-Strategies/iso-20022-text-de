@@ -1,0 +1,24 @@
+{
+  "isoType": "Fee7",
+  "definition": "Geldbetrag im Zusammenhang mit einer Dienstleistung.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art der Gebühr."
+    },
+    "Basis": {
+      "definition": "Methode zur Berechnung der Gebühr."
+    },
+    "Amount": {
+      "definition": "Gebührenbetrag."
+    },
+    "DiscountDetails": {
+      "definition": "Auf die Gebühr angewendeter Rabatt oder Erlass."
+    },
+    "ChargeBearer": {
+      "definition": "Partei, die die Gebühr trägt."
+    },
+    "RecipientIdentification": {
+      "definition": "Partei, die Anspruch auf den aus der Gebühr resultierenden Geldbetrag hat."
+    }
+  }
+}

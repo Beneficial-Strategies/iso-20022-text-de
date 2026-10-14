@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyRole6Choice",
+  "definition": "Auswahl zwischen einem Code und einem Datenquellenschema zur Bestimmung der Rolle der Partei.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Rolle."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Rolle."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalInvestigationActionReason1Code",
+  "definition": "Gibt die beantragte Maßnahme an, wie in einer externen Codeliste für Untersuchungsmaßnahmen veröffentlicht.|Externe Codelisten können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "IRSI": {
+      "name": "Untersuchungsanforderung irrtümlich gesendet",
+      "definition": "Der Abschluss wird beantragt, da die Untersuchungsanfrage irrtümlich gesendet wurde."
+    },
+    "IRRR": {
+      "name": "Untersuchungsanforderung gelöst",
+      "definition": "Der Abschluss wird beantragt, da die Untersuchungsanfrage vom Anfragenden geklärt wurde."
+    },
+    "IRCD": {
+      "name": "Entschädigung in der Untersuchungsantwort bestritten",
+      "definition": "Es wird Einspruch erhoben, da der in der Untersuchungsantwort genannte Ausgleichsbetrag unzutreffend erscheint."
+    },
+    "IRIC": {
+      "name": "Untersuchungsantwort unvollständig",
+      "definition": "Es wird Einspruch erhoben, da die in der Untersuchungsantwort bereitgestellten Daten nicht ausreichen, um die ursprüngliche Anfrage zu bearbeiten."
+    },
+    "NARR": {
+      "name": "Freitext",
+      "definition": "Siehe Element AdditionalInformation für den Grund der Maßnahme."
+    }
+  }
+}

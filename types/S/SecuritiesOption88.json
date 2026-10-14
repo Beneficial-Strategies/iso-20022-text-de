@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesOption88",
+  "definition": "Gibt Wertpapiermengen für die Kapitalmaßnahmen-Anweisung an.",
+  "isoElements": {
+    "ConditionalQuantity": {
+      "definition": "Mindestmenge an Wertpapieren, die akzeptiert wird (verwendet im Rahmen eines bedingten Vorrechts bei der Wahl). Im Falle einer anteiligen Zuteilung ist die Anweisung ungültig, wenn diese Mindestmenge nicht erreicht wird."
+    },
+    "InstructedQuantity": {
+      "definition": "Menge der Wertpapiere, auf die sich diese Anweisung bezieht."
+    },
+    "AdditionalRoundUpQuantity": {
+      "definition": "Menge zusätzlicher Aktien, die aufgrund des Unterschieds in der Praxis der „Aufrundung gegen Zahlung“ zwischen der kontoführenden Stelle und dem Kontoinhaber angefordert wird (zum Beispiel bei der französischen Dividendenoption)."
+    }
+  }
+}

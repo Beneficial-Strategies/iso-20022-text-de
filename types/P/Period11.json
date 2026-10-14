@@ -1,0 +1,12 @@
+{
+  "isoType": "Period11",
+  "definition": "Zeitspanne, die durch Startdatum und -zeit sowie Enddatum und -zeit festgelegt ist.",
+  "isoElements": {
+    "StartDate": {
+      "definition": "Datum und Uhrzeit des Beginns des Bereichs."
+    },
+    "EndDate": {
+      "definition": "Datum und Uhrzeit des Endes des Bereichs."
+    }
+  }
+}

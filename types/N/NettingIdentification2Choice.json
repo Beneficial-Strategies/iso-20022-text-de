@@ -1,0 +1,12 @@
+{
+  "isoType": "NettingIdentification2Choice",
+  "definition": "Auswahl zwischen der Identifikation einer Netting-Gruppe oder einer einzelnen Handelspartei.",
+  "isoElements": {
+    "TradeParty": {
+      "definition": "Beschreibt die einzelne Handelspartei."
+    },
+    "NettingGroupIdentification": {
+      "definition": "Beschreibt die Netting-Gruppe."
+    }
+  }
+}

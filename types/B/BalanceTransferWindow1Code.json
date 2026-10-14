@@ -1,0 +1,14 @@
+{
+  "isoType": "BalanceTransferWindow1Code",
+  "definition": "Legt das Verarbeitungsfenster fest, in dem die Saldoübertragung am Wechseldatum verarbeitet wird.",
+  "isoCodes": {
+    "DAYH": {
+      "name": "Innerhalb der Geschäftszeiten",
+      "definition": "Gibt eine Verarbeitung innerhalb der Geschäftszeiten an."
+    },
+    "EARL": {
+      "name": "Außerhalb der Geschäftszeiten",
+      "definition": "Gibt eine Verarbeitung außerhalb der Geschäftszeiten an."
+    }
+  }
+}

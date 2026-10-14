@@ -1,0 +1,32 @@
+{
+  "isoType": "SettlementDetails103",
+  "definition": "Einzelheiten zur Abwicklung einer Transaktion.",
+  "isoElements": {
+    "SettlementTransactionCondition": {
+      "definition": "Bedingungen, unter denen der Auftrag/das Handelsgeschäft abgewickelt werden soll."
+    },
+    "Registration": {
+      "definition": "Gibt an, ob die Registrierung bei Eingang erfolgen soll."
+    },
+    "LegalRestrictions": {
+      "definition": "Für ein Wertpapier geltende regulatorische Beschränkungen."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Gibt an, ob die Abwicklungstransaktion über ein RTGS-System oder ein Nicht-RTGS-System abgewickelt werden soll."
+    },
+    "SettlementSystemMethod": {
+      "definition": "Gibt an, ob die Abwicklungsanweisung über das Standard- oder das alternative Abwicklungssystem abgewickelt werden soll."
+    },
+    "TaxCapacity": {
+      "definition": "Steuerliche Rolle der anweisenden Partei."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Gibt die Art der Stempelsteuer oder den Befreiungsgrund an, der für die Abwicklungstransaktion gilt."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Wenn SettlementDetails-Elemente verwendet werden, müssen ihre Nutzungsbedingungen zwischen Kontoinhaber und Kontoführer vorab vereinbart sein."
+    }
+  }
+}

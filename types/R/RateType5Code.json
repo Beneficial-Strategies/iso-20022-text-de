@@ -1,0 +1,10 @@
+{
+  "isoType": "RateType5Code",
+  "definition": "Gibt die Art des Satzes an.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Unbekannt",
+      "definition": "Der Satz ist dem Sender unbekannt oder wurde nicht festgelegt."
+    }
+  }
+}

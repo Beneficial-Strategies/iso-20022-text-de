@@ -1,0 +1,21 @@
+{
+  "isoType": "InvoiceTotals7",
+  "definition": "Gibt Summen im Zusammenhang mit der Rechnung an.",
+  "isoElements": {
+    "Tax": {
+      "definition": "Detaillierte Angaben zur angewandten Steuer."
+    },
+    "Adjustment": {
+      "definition": "Abweichung vom Rechnungsbetrag unter Berücksichtigung von Rabatten, Nachlässen und Entgelten."
+    },
+    "TotalInvoiceAmount": {
+      "definition": "Gesamtbetrag der Rechnung, bestehend aus der Summe der Gesamtbeträge der Rechnungspositionen, dem Gesamtbetrag der Rechnungsanpassungen (Rabatte, Nachlässe und Entgelte) und den gesamten Steuerbeträgen."
+    },
+    "PaymentDueDate": {
+      "definition": "Fälligkeitsdatum für die Zahlung der Rechnung."
+    },
+    "CashAccount": {
+      "definition": "Geldkonto, von dem die Gebühren gezahlt werden."
+    }
+  }
+}

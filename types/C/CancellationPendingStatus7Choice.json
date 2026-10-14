@@ -1,0 +1,15 @@
+{
+  "isoType": "CancellationPendingStatus7Choice",
+  "definition": "Grund für den Status „Stornierung ausstehend“.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Grund für den Status „Stornierung ausstehend“."
+    },
+    "DataSourceScheme": {
+      "definition": "Proprietäre Identifikation des Grundes für den Status \"Stornierung ausstehend\"."
+    },
+    "NoSpecifiedReason": {
+      "definition": "Gibt an, dass kein Grund verfügbar oder zu melden ist."
+    }
+  }
+}

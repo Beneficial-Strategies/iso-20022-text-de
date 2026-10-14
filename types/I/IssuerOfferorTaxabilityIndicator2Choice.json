@@ -1,0 +1,12 @@
+{
+  "isoType": "IssuerOfferorTaxabilityIndicator2Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe des Steuerstatus des Emittenten/Anbieters.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe von Informationen zum Steuerstatus des Emittenten/Anbieters."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation zur Angabe von Informationen zum Steuerstatus des Emittenten/Anbieters."
+    }
+  }
+}

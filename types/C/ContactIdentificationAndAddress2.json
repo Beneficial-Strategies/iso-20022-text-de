@@ -1,0 +1,15 @@
+{
+  "isoType": "ContactIdentificationAndAddress2",
+  "definition": "Menschliches Wesen, im Unterschied zu einer Körperschaft (die manchmal als „künstliche Person“ bezeichnet wird).",
+  "isoElements": {
+    "Name": {
+      "definition": "Name, unter dem eine Partei bekannt ist und der üblicherweise zur Identifikation dieser Partei verwendet wird."
+    },
+    "Role": {
+      "definition": "Rolle der Partei bei der Zahlung."
+    },
+    "CommunicationAddress": {
+      "definition": "Nummer oder virtuelle Adresse für die Kommunikation."
+    }
+  }
+}

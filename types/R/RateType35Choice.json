@@ -1,0 +1,12 @@
+{
+  "isoType": "RateType35Choice",
+  "definition": "Auswahl zwischen einem Code und einem Datenquellen-Schema zur Bestimmung des Satzes.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als ISO-20022-Code ausgedrückter Satz."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückter Satz."
+    }
+  }
+}

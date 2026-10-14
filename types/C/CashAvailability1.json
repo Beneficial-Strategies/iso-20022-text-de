@@ -1,0 +1,15 @@
+{
+  "isoType": "CashAvailability1",
+  "definition": "Gibt an, wann der Geldbetrag verfügbar wird, das heißt abgerufen werden kann und Zinsen zu erzeugen beginnt.",
+  "isoElements": {
+    "Date": {
+      "definition": "Gibt an, wann der Geldbetrag verfügbar wird."
+    },
+    "Amount": {
+      "definition": "Gibt den verfügbaren Betrag an."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Verfügbarkeitssaldo ein Haben- oder ein Sollsaldo ist. |Verwendung: Ein Nullsaldo gilt als Habensaldo."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "isoType": "UnderlyingPaymentInstruction11",
+  "definition": "Liefert weitere Einzelheiten zur ursprünglichen Zahlungsinitiierung, auf die sich die Untersuchungsnachricht bezieht.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "definition": "Gruppe von Elementen mit Informationen zur ursprünglichen Nachricht."
+    },
+    "OriginalPaymentInformationIdentification": {
+      "definition": "Vom ursprünglichen Absender vergebene eindeutige Identifikation zur zweifelsfreien Identifikation der ursprünglichen Zahlungsinformationsgruppe."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Von der ursprünglich anweisenden Partei für die ursprünglich angewiesene Partei vergebene eindeutige Identifikation zur zweifelsfreien Identifikation der ursprünglichen Anweisung."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Von der ursprünglich initiierenden Partei vergebene eindeutige Identifikation zur zweifelsfreien Identifikation der ursprünglichen Transaktion."
+    },
+    "OriginalUETR": {
+      "definition": "Universell eindeutiger Bezeichner (UUID) als ursprüngliche Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "OriginalInstructedAmount": {
+      "definition": "Geldbetrag, wie in der ursprünglichen Transaktion angegeben, der vor Abzug von Entgelten zwischen Zahlungspflichtigem und Zahlungsempfänger zu bewegen ist, ausgedrückt in der von der ursprünglich initiierenden Partei beauftragten Währung."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Datum, zu dem die initiierende Partei die Clearingstelle auffordert, die Zahlung zu verarbeiten. |Verwendung: Dies ist das Datum, an dem das Konto des Zahlungspflichtigen belastet werden soll. Bei Zahlung per Scheck das Datum, zu dem der Scheck von der Bank erstellt werden muss."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Datum, an dem der Zahlungsempfänger die Einziehung des Geldbetrags vom Zahlungspflichtigen verlangt."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Schlüsselelemente zur Identifikation der ursprünglichen Transaktion, auf die Bezug genommen wird."
+    },
+    "OriginalServiceLevel": {
+      "definition": "Vereinbarung bzw. Regelwerk, nach der bzw. dem die Transaktion zu verarbeiten ist."
+    }
+  },
+  "isoRules": {
+    "OriginalIdentificationRule": {
+      "definition": "Entweder OriginalInstructionIdentification, OriginalEndToEndIdentification oder OriginalUETR muss vorhanden sein."
+    },
+    "OriginalRequestedDateRule": {
+      "definition": "Entweder RequestedExecutionDate oder RequestedCollectionDate muss vorhanden sein."
+    }
+  }
+}

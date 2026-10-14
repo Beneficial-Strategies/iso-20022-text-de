@@ -1,0 +1,12 @@
+{
+  "isoType": "WaivingInstruction2Choice",
+  "definition": "Auswahl von Formaten für die Verzichtsanweisung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des Rabatts oder Verzichts, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Art des Rabatts oder Verzichts, ausgedrückt als proprietärer Code."
+    }
+  }
+}

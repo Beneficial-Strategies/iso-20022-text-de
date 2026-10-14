@@ -1,0 +1,9 @@
+{
+  "isoType": "NoSpecifiedReason1",
+  "definition": "Für den Status ist kein bestimmter Grund angegeben.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Gibt an, dass kein Grund verfügbar oder zu melden ist."
+    }
+  }
+}

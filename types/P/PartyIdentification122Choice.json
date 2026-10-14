@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification122Choice",
+  "definition": "Auswahl von Formaten für die Identifikation einer Partei.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Eindeutige und zweifelsfreie Möglichkeit zur Identifikation einer Organisation."
+    },
+    "NameAndAddress": {
+      "definition": "Eindeutige und zweifelsfreie Möglichkeit zur Identifikation einer Organisation."
+    },
+    "Country": {
+      "definition": "Eindeutige und zweifelsfreie Möglichkeit zur Identifikation einer Organisation."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "OriginalMandate11Choice",
+  "definition": "Gibt das Mandat an, das angenommen wird.",
+  "isoElements": {
+    "OriginalMandateIdentification": {
+      "definition": "Eindeutige Identifikation, wie von der verantwortlichen Partei (z. B. dem Zahlungsempfänger) oder der Bank (z. B. der Bank des Zahlungspflichtigen) vergeben, zur unmissverständlichen Identifizierung des ursprünglichen Mandats."
+    },
+    "OriginalMandate": {
+      "definition": "Enthält die ursprünglichen Mandatsdaten."
+    }
+  }
+}

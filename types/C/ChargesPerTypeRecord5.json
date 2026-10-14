@@ -1,0 +1,48 @@
+{
+  "isoType": "ChargesPerTypeRecord5",
+  "definition": "Stellt weitere Einzeldatensatz-Details zu den Entgelten im Zusammenhang mit der Zahlungstransaktion bereit.",
+  "isoElements": {
+    "RecordIdentification": {
+      "definition": "Eindeutige und unzweideutige Identifikation des Entgeltdatensatzes zu Abstimmungszwecken."
+    },
+    "ChargesRequestor": {
+      "definition": "Bank, die die Entgelte anfordert, sofern sie nicht mit dem Absender identisch ist."
+    },
+    "UnderlyingTransaction": {
+      "definition": "Identifiziert die zugrunde liegende(n) Transaktion(en), auf die sich die Entgelte beziehen."
+    },
+    "Amount": {
+      "definition": "Betrag der Transaktionsentgelte, die vom Entgeltträger zu zahlen sind."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Entgeltbetrag ein Haben- oder ein Sollbetrag ist. |Verwendung: Ein Nullbetrag gilt als Haben-Betrag."
+    },
+    "ValueDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Entgelte verfügbar sind oder sein werden."
+    },
+    "Debtor": {
+      "definition": "Gibt den Zahlungspflichtigen der ursprünglichen Zahlungstransaktion an."
+    },
+    "DebtorAccount": {
+      "definition": "Gibt das Konto des Zahlungspflichtigen der ursprünglichen Zahlungstransaktion an."
+    },
+    "DebtorAgent": {
+      "definition": "Gibt die Bank des Zahlungspflichtigen der ursprünglichen Zahlungstransaktion an, sofern sie vom Inhaber des Entgeltkontos abweicht."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Gibt das Konto der Bank des Zahlungspflichtigen der ursprünglichen Zahlungstransaktion an, wenn die anweisende Bank vom Inhaber des Entgeltkontos abweicht."
+    },
+    "ChargesAccount": {
+      "definition": "Identifiziert das Konto, das für die Entgelte, Zinsen oder sonstige|Anpassungen belastet oder gutgeschrieben wurde."
+    },
+    "ChargesAccountOwner": {
+      "definition": "Bank, die das Entgeltkonto führt."
+    },
+    "InstructionForInstructedAgent": {
+      "definition": "Weitere Informationen zur Verarbeitung der Zahlungsanpassungsanweisung, die von der nächsten Bank gegebenenfalls zu beachten sind."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Einzelheiten zum Grund der Entgelte."
+    }
+  }
+}

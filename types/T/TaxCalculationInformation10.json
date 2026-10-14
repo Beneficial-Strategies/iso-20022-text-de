@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxCalculationInformation10",
+  "definition": "Informationen zur Berechnung der Steuer.",
+  "isoElements": {
+    "Basis": {
+      "definition": "Form der Rückvergütung, zum Beispiel Bargeld."
+    },
+    "TaxableAmount": {
+      "definition": "Geldbetrag, auf den die Steuer erhoben wird."
+    }
+  }
+}

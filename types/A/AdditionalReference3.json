@@ -1,0 +1,15 @@
+{
+  "isoType": "AdditionalReference3",
+  "definition": "Verweist auf eine zugehörige Nachricht oder liefert eine andere Referenz, etwa eine Pool-Referenz, die eine Gruppe von Nachrichten verknüpft. Die Partei, die die zugehörige Referenz vergeben hat, kann der Sender der referenzierten Nachricht oder eine andere Partei als der Sender sein.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Fachliche Referenz einer Nachricht, die von der Partei vergeben wird, die die Nachricht ausstellt. Diese Referenz muss unter allen Nachrichten gleichen Namens, die von derselben Partei gesendet werden, eindeutig sein."
+    },
+    "ReferenceIssuer": {
+      "definition": "Aussteller der Referenz."
+    },
+    "MessageName": {
+      "definition": "Name einer Nachricht."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "SettlementInstruction14",
+  "definition": "Liefert weitere Einzelheiten zur Abwicklung der Anweisung.",
+  "isoElements": {
+    "SettlementMethod": {
+      "definition": "Verfahren zur Abwicklung der (Sammlung von) Zahlungsanweisungen."
+    },
+    "SettlementAccount": {
+      "definition": "Ein Konto für einen bestimmten Zweck, auf dem Soll- und Habenbuchungen infolge der Transaktion gebucht werden."
+    },
+    "ClearingSystem": {
+      "definition": "Angabe eines zuvor vereinbarten Angebots zwischen Clearingstellen oder des Kanals, über den die Zahlungsanweisung verarbeitet wird."
+    }
+  },
+  "isoRules": {
+    "SettlementMethodAgentRule": {
+      "definition": "Wenn SettlementMethod gleich INDA oder INGA ist, ist ClearingSystem nicht zulässig."
+    },
+    "SettlementMethodClearingRule": {
+      "definition": "Wenn SettlementMethod gleich CLRG ist, muss ClearingSystem vorhanden sein und SettlementAccount ist nicht zulässig."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RateType12FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe der Art des Satzes.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Art des Satzes."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe der Art des Satzes."
+    }
+  }
+}

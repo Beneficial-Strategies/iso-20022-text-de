@@ -1,0 +1,14 @@
+{
+  "isoType": "PartyRole1Code",
+  "definition": "Gibt die Rolle der Partei in der Transaktion an.",
+  "isoCodes": {
+    "CUST": {
+      "name": "Verwahrer",
+      "definition": "Partei, die Vermögenswerte im Auftrag des Eigentümers verwahrt und verwaltet."
+    },
+    "INVS": {
+      "name": "Anleger",
+      "definition": "Partei, entweder eine Einzelperson oder eine Organisation, deren Vermögenswerte angelegt werden."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CitizenshipInformation1",
+  "definition": "Einzelheiten zum Status eines rechtlich anerkannten Subjekts oder Staatsangehörigen eines bestimmten Landes.",
+  "isoElements": {
+    "Nationality": {
+      "definition": "Gibt das Land an, in dem eine Person geboren wurde oder dem sie rechtlich zugehörig ist."
+    },
+    "MinorIndicator": {
+      "definition": "Gibt an, ob die Person rechtlich minderjährig ist. Dies kann von der Staatsangehörigkeit, dem Wohnsitzland oder der Transaktion abhängen, an der die Person beteiligt ist."
+    },
+    "StartDate": {
+      "definition": "Datum des Beginns der Staatsbürgerschaft."
+    },
+    "EndDate": {
+      "definition": "Datum des Endes der Staatsbürgerschaft."
+    }
+  }
+}

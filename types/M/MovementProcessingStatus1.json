@@ -1,0 +1,12 @@
+{
+  "isoType": "MovementProcessingStatus1",
+  "definition": "Enthält Informationen zum Verarbeitungsstatus einer einzelnen Bewegung.",
+  "isoElements": {
+    "Status": {
+      "definition": "Der Bearbeitungsstatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

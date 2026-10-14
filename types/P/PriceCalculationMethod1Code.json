@@ -1,0 +1,26 @@
+{
+  "isoType": "PriceCalculationMethod1Code",
+  "definition": "Standardcode zur Angabe der für die Preisberechnung angewandten Methode.",
+  "isoCodes": {
+    "VWAP": {
+      "name": "Volumengewichteter Durchschnittspreis",
+      "definition": "Der Preis beruht auf einem volumengewichteten Durchschnittspreis, d. h. dem Verhältnis des kumulierten Aktienkurses zum kumulierten gehandelten Volumen über einen bestimmten Zeitraum."
+    },
+    "NAVF": {
+      "name": "Endgültiger Vermögenswert",
+      "definition": "Endgültiger Vermögenswert bei der Liquidation des Fonds."
+    },
+    "MIMP": {
+      "name": "Mittlerer Marktpreis",
+      "definition": "Preis zu einem bestimmten Zeitpunkt vor dem Tag der Bekanntgabe."
+    },
+    "NAVA": {
+      "name": "Nettoinventarwert",
+      "definition": "Nettovermögenswert eines Investmentfonds abzüglich seiner Verbindlichkeiten, geteilt durch die Anzahl der ausstehenden Anteile."
+    },
+    "AVCL": {
+      "name": "Durchschnittlicher Schlusskurs",
+      "definition": "Preis des Vermögenswerts bei Handelsschluss eines bestimmten Tages."
+    }
+  }
+}

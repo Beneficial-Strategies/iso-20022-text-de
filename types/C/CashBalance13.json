@@ -1,0 +1,30 @@
+{
+  "isoType": "CashBalance13",
+  "definition": "Saldoeinzelheiten für ein Geldkonto.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Währung und Geldbetrag des Geldsaldos."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Saldo ein Haben- oder ein Soll-Saldo ist. Ein Nullsaldo gilt als Haben-Saldo."
+    },
+    "Type": {
+      "definition": "Gibt die Art eines Saldos an."
+    },
+    "Status": {
+      "definition": "Aktueller Status eines Geldsaldos."
+    },
+    "ValueDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Saldo verfügbar ist oder sein wird."
+    },
+    "ProcessingDate": {
+      "definition": "Datum oder Datum und Uhrzeit, zu dem der Saldo zuletzt aufgrund einer auf dem Konto gebuchten Buchung in den Büchern des kontoführenden Instituts aktualisiert wurde."
+    },
+    "NumberOfPayments": {
+      "definition": "Anzahl der Zahlungen, die bei der Berechnung des Geldsaldos berücksichtigt wurden."
+    },
+    "RestrictionType": {
+      "definition": "Typ mit weiteren Informationen zu Saldobeschränkungen."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ReservationOrError11Choice",
+  "definition": "Dient dazu, Bestätigungsdetails zu einer oder mehreren Reservierungen bereitzustellen, die vom Teilnehmer (oder in dessen Auftrag) festgelegt und vom Transaktionsadministrator verwaltet werden.",
+  "isoElements": {
+    "BusinessReport": {
+      "definition": "Meldet Reservierungen."
+    },
+    "OperationalError": {
+      "definition": "Gibt an, dass bei der Verarbeitung der zugehörigen Anfrage ein Betriebsfehler aufgetreten ist."
+    }
+  }
+}

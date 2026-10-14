@@ -1,0 +1,50 @@
+{
+  "isoType": "IntraPositionMovementDetails21",
+  "definition": "Einzelheiten der Bewegung innerhalb der Position.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikationen (Kontoinhaber und/oder Kontoführer) der Bestandsumbuchung."
+    },
+    "SettledQuantity": {
+      "definition": "Menge des tatsächlich abgewickelten Finanzinstruments."
+    },
+    "PreviouslySettledQuantity": {
+      "definition": "Menge des zuvor abgewickelten Finanzinstruments."
+    },
+    "RemainingToBeSettledQuantity": {
+      "definition": "Menge des noch abzuwickelnden Finanzinstruments."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "definition": "Nummer zur Identifikation eines Wertpapier-Unterbestandstyps, zum Beispiel Identifikation einer Beschränkung."
+    },
+    "BalanceTo": {
+      "definition": "Bestand, in den die Wertpapiere bewegt wurden."
+    },
+    "SettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere bewegt wurden."
+    },
+    "AvailableDate": {
+      "definition": "Datum/Uhrzeit, zu der Wertpapiere zum Verkauf verfügbar werden (wenn Wertpapiere nicht mehr verfügbar sind, gibt dies Datum/Uhrzeit an, zu der sie wieder verfügbar werden)."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Zeitstempel, wann die Transaktion bestätigt wird."
+    },
+    "CorporateActionEventType": {
+      "definition": "Gibt die Art des Unternehmensereignisses an."
+    },
+    "CollateralMonitorAmount": {
+      "definition": "Wert der Sicherheit, die für den Lieferabwicklungsprozess auf Kontoebene verfügbar ist."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Liefert zusätzliche Informationen zur Abwicklungsverarbeitung, die nicht in den strukturierten Feldern der Nachricht angegeben werden können."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Sofern zwischen Sender und Empfänger nicht bilateral vereinbart, darf InstructionProcessingAdditionalDetails, falls vorhanden, keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

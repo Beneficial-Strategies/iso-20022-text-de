@@ -1,0 +1,12 @@
+{
+  "isoType": "FullLegalNameModification1",
+  "definition": "Legt die Art der Änderung des vollständigen Rechtsnamens fest.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Legt die Art der Änderung fest."
+    },
+    "FullLegalName": {
+      "definition": "Name, unter dem eine Partei bekannt ist und der üblicherweise zur Identifikation dieser Partei verwendet wird."
+    }
+  }
+}

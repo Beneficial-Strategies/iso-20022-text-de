@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCANotificationStatusAdviceV04",
+  "definition": "Anwendungsbereich|Diese Nachricht wird von einem CSD an einen Emittenten (oder dessen Beauftragten) gesendet, um den Status oder die Statusänderung eines Benachrichtigungsavis oder eines Benachrichtigungsstornierungsantrags zu melden.|Verwendung|Wird diese Nachricht verwendet, um den Status eines Benachrichtigungsavis zu melden, muss der Baustein Identifikation des Kapitalmaßnahmen-Benachrichtigungsavis des Beauftragten vorhanden sein.|Wird diese Nachricht verwendet, um den Status eines Benachrichtigungsstornierungsantrags anzugeben, muss der Baustein Identifikation des Benachrichtigungsstornierungsantrags vorhanden sein."
+}

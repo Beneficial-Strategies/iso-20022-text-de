@@ -1,0 +1,12 @@
+{
+  "isoType": "Account23",
+  "definition": "Geschäftsbeziehung zwischen zwei Einheiten; eine Einheit ist der Kontoinhaber, die andere Einheit ist der Kontoführer.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identifikation des Kontos."
+    },
+    "RelatedAccountDetails": {
+      "definition": "Informationen zu dem Konto, mit dem das bestehende Konto verknüpft werden soll."
+    }
+  }
+}

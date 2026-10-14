@@ -1,0 +1,14 @@
+{
+  "isoType": "IncomePreference2Code",
+  "definition": "Gibt die Optionen für die Ausschüttung von Dividendenerträgen an.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Bargeld",
+      "definition": "Ausschüttung in bar."
+    },
+    "SECU": {
+      "name": "Wertpapiere",
+      "definition": "Ausschüttung in Wertpapieren."
+    }
+  }
+}

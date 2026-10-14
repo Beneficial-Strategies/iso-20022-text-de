@@ -1,0 +1,14 @@
+{
+  "isoType": "OptionStyle2Code",
+  "definition": "Legt fest, wie eine Option ausgeübt werden kann.",
+  "isoCodes": {
+    "AMER": {
+      "name": "Amerikanisch",
+      "definition": "Die Option kann bis zum Verfallsdatum oder an diesem ausgeübt werden."
+    },
+    "EURO": {
+      "name": "Europäisch",
+      "definition": "Option, die nur am Verfallsdatum ausgeübt werden kann."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesOption76",
+  "definition": "Liefert Informationen zur Wertpapieroption der Kapitalmaßnahme.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifikation des Finanzinstruments."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Wert eine Belastung oder eine Gutschrift ist."
+    },
+    "EntitledQuantity": {
+      "definition": "Wertpapiermenge auf Grundlage der Bedingungen des Kapitalmaßnahmen-Ereignisses und des dem Kontoinhaber zustehenden Bestands an zugrunde liegenden Wertpapieren. (Diese Menge kann positiv oder negativ sein)."
+    },
+    "PaymentDate": {
+      "definition": "Datum/Uhrzeit, zu dem die Bewegung stattfinden soll (Geld und/oder Wertpapiere)."
+    }
+  }
+}

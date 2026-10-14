@@ -1,0 +1,22 @@
+{
+  "isoType": "AmountPriceType1Code",
+  "definition": "Gibt die Art des Betragspreises an.",
+  "isoCodes": {
+    "ACTU": {
+      "name": "Tatsächlicher Betrag",
+      "definition": "Preis, ausgedrückt als Währung und Betrag je Einheit oder je Aktie."
+    },
+    "DISC": {
+      "name": "Abschlag",
+      "definition": "Preis, ausgedrückt als Abschlagsbetrag."
+    },
+    "PLOT": {
+      "name": "Lot",
+      "definition": "Preis, ausgedrückt als Geldbetrag je Lot."
+    },
+    "PREM": {
+      "name": "Aufschlag",
+      "definition": "Preis, ausgedrückt als Aufschlag."
+    }
+  }
+}

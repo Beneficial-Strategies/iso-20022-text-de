@@ -1,0 +1,14 @@
+{
+  "isoType": "SecuritiesTransactionCancellationRequestStatusAdviceV09",
+  "definition": "Anwendungsbereich|Ein Kontoführer sendet eine SecuritiesTransactionCancellationRequestStatusAdvice an einen Kontoinhaber, um den Status einer zuvor vom Kontoinhaber gesendeten Stornierungsanfrage für eine Wertpapiertransaktion mitzuteilen.|Die Beziehung zwischen Kontoführer und Kontoinhaber kann sein:|- ein Zentralverwahrer oder eine andere Abwicklungs-Marktinfrastruktur, die im Namen ihrer Teilnehmer handelt|- ein Agent (Unterverwahrer), der im Namen seines Global-Custodian-Kunden handelt, oder|- eine Depotbank, die im Namen eines Vermögensverwalters oder eines Brokers/Händlers handelt.||Verwendung|Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden,|- einem Dritten eine Kopie einer Nachricht zur Information zur Verfügung zu stellen,|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu senden|unter Verwendung der entsprechenden Elemente im Business Application Header.",
+  "isoElements": {
+    "CancellationRequestReference": {
+      "definition": "Verweis auf die eindeutige Identifikation der Stornierungsanfrage gemäß dem Kontoinhaber."
+    }
+  },
+  "isoRules": {
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Die Securities Market Practice Group (SMPG) hat Marktpraxisempfehlungen zur Verwendung dieser Nachricht veröffentlicht.|Diese Marktpraxisregeln sind unter www.smpg.info verfügbar."
+    }
+  }
+}

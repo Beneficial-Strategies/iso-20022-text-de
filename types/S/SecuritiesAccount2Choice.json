@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesAccount2Choice",
+  "definition": "Gibt ein einzelnes Wertpapierkonto oder einen Bereich von Wertpapierkonten an.",
+  "isoElements": {
+    "Range": {
+      "definition": "Bereich der Identifikationen der Wertpapierkonten."
+    },
+    "Account": {
+      "definition": "Eindeutige Identifikation des Wertpapierkontos."
+    }
+  }
+}

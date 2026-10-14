@@ -1,0 +1,27 @@
+{
+  "isoType": "References41Choice",
+  "definition": "Auswahl der Referenz.",
+  "isoElements": {
+    "SecuritiesSettlementTransactionIdentification": {
+      "definition": "Eindeutige Identifikation einer Wertpapierabwicklungstransaktion, wie dem Kontoinhaber (oder der in dessen Auftrag handelnden anweisenden Partei) bekannt."
+    },
+    "IntraPositionMovementIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion zur Umbuchung innerhalb einer Position, wie dem Kontoinhaber (oder der in dessen Auftrag handelnden anweisenden Partei) bekannt."
+    },
+    "IntraBalanceMovementIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion zur Umbuchung zwischen Beständen, wie sie dem Kontoinhaber bekannt ist."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem kontoführenden Institut bekannt."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer vergeben wurde, zum Beispiel Target2-Securities."
+    },
+    "PoolIdentification": {
+      "definition": "Sammelreferenz zur Identifikation einer Gruppe von Nachrichten."
+    },
+    "OtherTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die nicht mit einem in der Nachricht vorhandenen Standardreferenzelement identifiziert werden kann."
+    }
+  }
+}

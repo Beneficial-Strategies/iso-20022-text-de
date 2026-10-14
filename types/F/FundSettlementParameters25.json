@@ -1,0 +1,18 @@
+{
+  "isoType": "FundSettlementParameters25",
+  "definition": "Parameter, die auf die Abwicklung eines Wertpapiers angewendet werden.",
+  "isoElements": {
+    "TradeTransactionCondition": {
+      "definition": "Bedingung, unter der der Auftrag/das Handelsgeschäft ausgeführt werden soll bzw. wurde. Dies kann für die Abwicklung über T2S erforderlich sein."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Bedingung, unter der der Auftrag/das Handelsgeschäft abgewickelt werden soll. Dies kann für die Abwicklung über T2S erforderlich sein."
+    },
+    "SecuritiesSettlementSystemIdentification": {
+      "definition": "Identifikation eines bestimmten Systems oder Regelwerks und/oder Prozesses, das bzw. der am Abwicklungsort anzuwenden ist."
+    },
+    "ReceivingSideDetails": {
+      "definition": "Kette der empfangenden Abwicklungsparteien."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "isoType": "IntraBalanceModification7",
+  "definition": "Enthält die Daten der Änderungsaufträge im Bericht.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Konto, auf das oder von dem eine Geldbuchung erfolgt."
+    },
+    "CashAccountOwner": {
+      "definition": "Partei, der das Konto gehört."
+    },
+    "CashAccountServicer": {
+      "definition": "Partei, die das Geldkonto im Auftrag des Kontoinhabers führt, das heißt die Registrierung und Buchung von Einträgen auf dem Konto verwaltet, Salden des Kontos berechnet und Informationen zum Konto bereitstellt."
+    },
+    "ProcessingStatus": {
+      "definition": "Status und Statusgrund der Transaktion."
+    },
+    "Modification": {
+      "definition": "Weitere Einzelheiten zur einzelnen Änderungstransaktion der Bewegung innerhalb des Saldos."
+    }
+  },
+  "isoRules": {
+    "CashAccountRule": {
+      "definition": "CashAccount muss vorhanden sein oder Cancellation(*)/CashAccount muss vorhanden sein, jedoch nicht beides."
+    },
+    "CashAccountOwnerRule": {
+      "definition": "CashAccountOwner muss vorhanden sein oder Cancellation(*)/AccountOwner muss vorhanden sein, jedoch nicht beides."
+    },
+    "ProcessingStatusRule": {
+      "definition": "ProcessingStatus muss vorhanden sein oder Cancellation(*)/ProcessingStatus muss vorhanden sein, jedoch nicht beides."
+    },
+    "CashAccountServicerRule": {
+      "definition": "CashAccountServicer muss vorhanden sein oder Cancellation(*)/AccountOwner muss vorhanden sein, jedoch nicht beides."
+    }
+  }
+}

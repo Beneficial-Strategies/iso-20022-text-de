@@ -1,0 +1,44 @@
+{
+  "isoType": "OriginalGroupHeader23",
+  "definition": "Enthält Angaben zur ursprünglichen Gruppe, auf die sich die Nachricht bezieht.",
+  "isoElements": {
+    "OriginalGroupCancellationIdentification": {
+      "definition": "Eindeutige Identifikation, vom ursprünglichen Zuweisenden vergeben, zur zweifelsfreien Identifikation des ursprünglichen Gruppenstornierungsauftrags."
+    },
+    "ResolvedCase": {
+      "definition": "Identifiziert den Fall."
+    },
+    "OriginalMessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, von der ursprünglichen anweisenden Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Nachricht."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Gibt den Namenskennzeichner der ursprünglichen Nachricht an, auf die sich die Nachricht bezieht."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der ursprünglichen Nachricht."
+    },
+    "OriginalNumberOfTransactions": {
+      "definition": "Anzahl der in der ursprünglichen Nachricht enthaltenen Einzeltransaktionen."
+    },
+    "OriginalControlSum": {
+      "definition": "Summe aller in der ursprünglichen Nachricht enthaltenen Einzelbeträge, unabhängig von der Währung."
+    },
+    "GroupCancellationStatus": {
+      "definition": "Gibt den Status eines Gruppenstornierungsauftrags an."
+    },
+    "CancellationStatusReasonInformation": {
+      "definition": "Enthält detaillierte Angaben zum Grund des Stornierungsstatus."
+    },
+    "NumberOfTransactionsPerCancellationStatus": {
+      "definition": "Detaillierte Angaben zur Anzahl der Transaktionen je identischem Stornierungsstatus."
+    }
+  },
+  "isoRules": {
+    "CancellationStatusReasonInformationRule": {
+      "definition": "Ist GroupCancellationStatus vorhanden und von RejectedCancellationRequest (RJCR) oder PendingCancellationRequest (PDCR) verschieden, so ist CancellationStatusReasonInformation/AdditionalInformation nicht zulässig."
+    },
+    "NumberOfTransactionsPerCancellationStatusGuideline": {
+      "definition": "OriginalGroupInformationAndStatus/NumberOfTransactionsPerStatus darf nur vorhanden sein, wenn GroupCancellationStatus gleich PACR ist."
+    }
+  }
+}

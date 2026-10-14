@@ -1,0 +1,35 @@
+{
+  "isoType": "CashAccount43",
+  "definition": "Enthält die Angaben zur Identifikation eines Kontos.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Kontos zwischen Kontoinhaber und kontoführender Stelle."
+    },
+    "Type": {
+      "definition": "Gibt die Art oder Verwendung des Kontos an."
+    },
+    "Currency": {
+      "definition": "Identifikation der Währung, in der das Konto geführt wird."
+    },
+    "Name": {
+      "definition": "Name des Kontos, von der kontoführenden Institution in Absprache mit dem Kontoinhaber vergeben, als zusätzliches Mittel zur Identifikation des Kontos.||Verwendung: Der Kontoname unterscheidet sich vom Namen des Kontoinhabers. Der Kontoname wird in bestimmten Nutzergruppen verwendet, um das Konto zusätzlich zur Identität des Kontoinhabers und zur Kontonummer zu bezeichnen."
+    },
+    "Proxy": {
+      "definition": "Gibt einen alternativen angenommenen Namen zur Identifikation des Kontos an."
+    },
+    "Owner": {
+      "definition": "Partei, die rechtlich Eigentümer des Kontos ist."
+    },
+    "Servicer": {
+      "definition": "Partei, die das Konto im Auftrag des Kontoinhabers führt, das heißt Registrierung und Buchung der Umsätze auf dem Konto verwaltet, Salden berechnet und Informationen zum Konto bereitstellt."
+    }
+  },
+  "isoRules": {
+    "IdentificationOrProxyPresenceRule": {
+      "definition": "Identification oder Proxy muss vorhanden sein."
+    },
+    "IdentificationAndProxyGuideline": {
+      "definition": "Wird das Konto nicht über eine herkömmliche Identifikation wie eine E-Mail-Adresse oder eine Mobilfunknummer definiert, sollte das Proxy-Element zur Identifikation des Kontos verwendet werden."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchRequestBalanceTransferV06",
+  "definition": "Die Nachricht AccountSwitchRequestBalanceTransfer wird vom neuen kontoführenden Institut an das Institut gesendet, das das Konto zuvor geführt hat, um die Übertragung des Schlusssaldos anzufordern. Sie kann an das neue Konto oder an ein vom neuen kontoführenden Institut benanntes alternatives Konto adressiert werden."
+}

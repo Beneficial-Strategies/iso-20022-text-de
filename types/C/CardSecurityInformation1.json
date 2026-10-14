@@ -1,0 +1,12 @@
+{
+  "isoType": "CardSecurityInformation1",
+  "definition": "Kartenprüfnummer (CSC), die der die Transaktion ausführenden Karte zugeordnet ist.",
+  "isoElements": {
+    "CSCManagement": {
+      "definition": "Verwaltung der Kartenprüfnummer (CSC) im Zusammenhang mit der Transaktion."
+    },
+    "CSCValue": {
+      "definition": "Kartenprüfnummer (CSC)."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "AgentCADeactivationStatusAdviceV01",
+  "definition": "Anwendungsbereich|Diese Nachricht wird von einem CSD an einen Emittenten (oder dessen Beauftragten) gesendet, um den Status oder eine Statusänderung einer Deaktivierungsanweisung für eine Kapitalmaßnahme oder den Status eines Antrags auf Stornierung einer Deaktivierung zu melden.|Verwendung|Diese Nachricht wird verwendet, um einen Status zur Deaktivierungsanweisung bereitzustellen, insbesondere um die Deaktivierung eines Kapitalmaßnahmen-Ereignisses oder einer Option zu bestätigen.",
+  "isoRules": {
+    "DeactivationInstructionIDOrDeactivationCancellationRequestIDRule": {
+      "definition": "Entweder AgentCADeactivationInstructionIdentification oder AgentCADeactivationCancellationRequestIdentification muss vorhanden sein."
+    },
+    "DeactivationInstructionIDOrDeactivationCancellationRequestIDRuleNotBoth": {
+      "definition": "Entweder AgentCADeactivationInstructionIdentification oder AgentCADeactivationCancellationRequestIdentification muss vorhanden sein."
+    },
+    "DeactivationInstructionStatusOrDeactivationCancellationRequestStatusRule": {
+      "definition": "Entweder DeactivationInstructionStatus oder DeactivationCancellationRequestStatus muss vorhanden sein."
+    },
+    "DeactivationInstructionStatusOrDeactivationCancellationRequestStatusRuleNotBoth": {
+      "definition": "Entweder DeactivationInstructionStatus oder DeactivationCancellationRequestStatus muss vorhanden sein."
+    },
+    "DeactivationInstructionStatusRule": {
+      "definition": "Wenn AgentCADeactivationInstructionIdentification vorhanden ist, dann muss mindestens ein Vorkommen von DeactivationInstructionStatus vorhanden sein."
+    },
+    "DeactivationCancellationRequestStatusRule": {
+      "definition": "Wenn AgentCADeactivationCancellationRequestIdentification vorhanden ist, dann muss DeactivationCancellationRequestStatus vorhanden sein."
+    }
+  }
+}

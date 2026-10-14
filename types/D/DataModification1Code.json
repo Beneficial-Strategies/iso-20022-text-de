@@ -1,0 +1,18 @@
+{
+  "isoType": "DataModification1Code",
+  "definition": "Gibt die Art der Änderung an, die auf einen Datensatz anzuwenden ist.",
+  "isoCodes": {
+    "INSE": {
+      "name": "Neuen Datensatz einfügen",
+      "definition": "Einen neuen Datensatz einfügen."
+    },
+    "UPDT": {
+      "name": "Details des Datensatzes aktualisieren",
+      "definition": "Die Details eines bestehenden Datensatzes aktualisieren."
+    },
+    "DELT": {
+      "name": "Datensatz löschen",
+      "definition": "Einen bestehenden Datensatz löschen."
+    }
+  }
+}

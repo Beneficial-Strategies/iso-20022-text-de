@@ -1,0 +1,42 @@
+{
+  "isoType": "TerminalManagementActionResult2Code",
+  "definition": "Endergebnis des am ATM verarbeiteten Befehls.",
+  "isoCodes": {
+    "CNTE": {
+      "name": "Verbindungsfehler",
+      "definition": "Problem beim Verbindungsaufbau während der Ausführung der Aktion."
+    },
+    "FMTE": {
+      "name": "Formatfehler",
+      "definition": "Die übertragenen Daten haben ein falsches Format."
+    },
+    "HRDW": {
+      "name": "Hardware",
+      "definition": "Hardwarefehler."
+    },
+    "NSUP": {
+      "name": "Nicht unterstützt",
+      "definition": "Aktion wird nicht unterstützt."
+    },
+    "SECR": {
+      "name": "Wertpapier",
+      "definition": "Sicherheitsfehler."
+    },
+    "SUCC": {
+      "name": "Erfolg",
+      "definition": "Aktion wurde erfolgreich ausgeführt."
+    },
+    "SYNE": {
+      "name": "Syntaxfehler",
+      "definition": "Die übertragenen Daten haben eine falsche Syntax."
+    },
+    "TIMO": {
+      "name": "Zeitüberschreitung",
+      "definition": "Zeitüberschreitung bei der Datenübertragung."
+    },
+    "UKRF": {
+      "name": "Unbekannte Schlüsselreferenz",
+      "definition": "Die für die Datensignatur verwendete Referenz auf den kryptografischen Schlüssel ist ungültig."
+    }
+  }
+}

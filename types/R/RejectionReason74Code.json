@@ -1,0 +1,34 @@
+{
+  "isoType": "RejectionReason74Code",
+  "definition": "Unbekannte oder ungültige Verwahrstelle.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Ablehnung des Verwahrkontos",
+      "definition": "Nicht erkanntes oder ungültiges Verwahrkonto des Nachrichtensenders."
+    },
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Transaktion bzw. Anweisung ging nach Ablauf der vom kontoführenden Institut festgelegten Frist ein."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "NRGN": {
+      "name": "Ablehnung wegen Nichtauffindbarkeit",
+      "definition": "Die Anweisung konnte nicht gefunden werden."
+    },
+    "REFE": {
+      "name": "Ablehnung wegen Referenz",
+      "definition": "Die Anweisung hat eine Referenz, die mit einer anderen zuvor eingegangenen Anweisung identisch ist."
+    },
+    "NRGM": {
+      "name": "Keine Übereinstimmung",
+      "definition": "Mehr als eine Anweisung entspricht den Kriterien."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    }
+  }
+}

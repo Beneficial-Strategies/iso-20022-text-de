@@ -1,0 +1,30 @@
+{
+  "isoType": "Intermediary46",
+  "definition": "Identifikation einer Partei und ihrer Rolle.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige und unmissverständliche Kennung einer Organisation, die von einer Institution vergeben wird."
+    },
+    "LegalEntityIdentifier": {
+      "definition": "Identifikation der Organisation mit einer Rechtsträgerkennung (Legal Entity Identifier). Dies ist ein Code, der einer Partei zugewiesen wird, wie in ISO 17442 „Financial Services - Legal Entity Identifier (LEI)“ beschrieben."
+    },
+    "Account": {
+      "definition": "Geschäftsbeziehung zwischen zwei Einheiten; eine Einheit ist der Kontoinhaber, die andere Einheit ist das kontoführende Institut."
+    },
+    "WaivedTrailerCommissionIndicator": {
+      "definition": "Nichtgeltendmachung des Anspruchs auf eine Provision ganz oder teilweise durch die provisionsberechtigte Partei."
+    },
+    "Role": {
+      "definition": "Vom Intermediär ausgeübte Rolle oder Funktion."
+    },
+    "PrimaryCommunicationAddress": {
+      "definition": "Nummer des Kommunikationsgeräts oder elektronische Adresse, die für die Kommunikation verwendet wird."
+    },
+    "SecondaryCommunicationAddress": {
+      "definition": "Nummer des Kommunikationsgeräts oder elektronische Adresse, die für die Kommunikation verwendet wird."
+    },
+    "NameAndAddress": {
+      "definition": "Informationen, die eine bestimmte Adresse lokalisieren und identifizieren, wie von den Postdiensten definiert."
+    }
+  }
+}

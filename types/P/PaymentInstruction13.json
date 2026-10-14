@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentInstruction13",
+  "definition": "Anweisung, im Auftrag eines Auftraggebers einen Geldbetrag an einen letztlich Begünstigten zu zahlen. Diese Anweisung muss unter Umständen mehrfach weitergeleitet werden, um die Abwicklungskette zu vervollständigen.|.",
+  "isoElements": {
+    "RequestedExecutionDateTime": {
+      "definition": "Datum, an dem die initiierende Partei beantragt, dass die Zahlungsanweisung verarbeitet wird.|."
+    },
+    "PaymentType": {
+      "definition": "Art bzw. Natur der Zahlung, zum Beispiel eine Expresszahlung."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CertificationType1Choice",
+  "definition": "Auswahl von Formaten für die Angabe der Zertifikatsart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Zertifikatsart."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Zertifikatsart."
+    }
+  }
+}

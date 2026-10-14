@@ -1,0 +1,9 @@
+{
+  "isoType": "SimpleIdentificationInformation",
+  "definition": "Informationen zu einer Identifikation, z. B. Identifikation einer Partei oder eines Kontos.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Name oder Nummer, die von einer Stelle vergeben wird, um diese Stelle erkennbar zu machen, zum Beispiel Kontokennung."
+    }
+  }
+}

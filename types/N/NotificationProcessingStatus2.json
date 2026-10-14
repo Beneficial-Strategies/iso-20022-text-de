@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationProcessingStatus2",
+  "definition": "Liefert Informationen zum Bearbeitungsstatus eines Benachrichtigungsavis.",
+  "isoElements": {
+    "Status": {
+      "definition": "Der Bearbeitungsstatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

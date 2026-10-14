@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateMovementStatus2",
+  "definition": "Liefert den Status der Bewegung.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Liefert Informationen zum Bearbeitungsstatus des Stornierungsantrags."
+    },
+    "RejectedStatus": {
+      "definition": "Liefert Informationen zum Ablehnungsstatus."
+    }
+  }
+}

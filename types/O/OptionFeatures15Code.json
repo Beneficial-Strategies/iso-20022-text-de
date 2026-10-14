@@ -1,0 +1,70 @@
+{
+  "isoType": "OptionFeatures15Code",
+  "definition": "Gibt die Merkmale an, die für eine Kapitalmaßnahmen-Option gelten können.",
+  "isoCodes": {
+    "NOSE": {
+      "name": "Kein Service angeboten",
+      "definition": "Merkmal, wonach der Inhaber seine Wahl direkt gegenüber dem Beauftragten des Emittenten treffen muss (nur vom Emittenten unterstützte Option)."
+    },
+    "CAOS": {
+      "name": "Anwendbarkeit der Option",
+      "definition": "Die Anwendbarkeit der Option unterliegt nicht der Entscheidung des Kontoinhabers, sondern hängt von den vom Emittenten festgelegten Bedingungen ab, zum Beispiel bei aktiengebundenen Schuldverschreibungen oder Optionsscheinen."
+    },
+    "COND": {
+      "name": "Bedingt",
+      "definition": "Merkmal, wonach der Inhaber die Annahme der Option an eine Bedingung knüpfen kann."
+    },
+    "MAXC": {
+      "name": "Maximaler Barbetrag",
+      "definition": "Maximale Bar-Option, die einer Kürzung unterliegen kann; dadurch kann eine Kombination aus Barmitteln und Wertpapieren als Ergebnis zugeteilt werden."
+    },
+    "MAXS": {
+      "name": "Maximale Wertpapiere",
+      "definition": "Maximale Aktien-Option, die einer Kürzung unterliegen kann; dadurch kann eine Kombination aus Wertpapieren und Barmitteln als Ergebnis zugeteilt werden."
+    },
+    "OPLF": {
+      "name": "Vorzug für Spitzenmengen",
+      "definition": "Angebot oder Umtausch mit Vorzugsbehandlung von Splitterbeständen."
+    },
+    "PROR": {
+      "name": "Zuteilung",
+      "definition": "Merkmal, wonach die Option einer anteiligen Zuteilung unterliegen kann, zum Beispiel bei Überzeichnung."
+    },
+    "VVPR": {
+      "name": "Reduzierte Quellensteuer",
+      "definition": "Für die Option gilt ein ermäßigter Quellensteuersatz."
+    },
+    "PINS": {
+      "name": "Ungültigkeit der vorherigen Anweisung",
+      "definition": "Gibt an, dass die zuvor gesendeten Anweisungen ungültig werden. Dies gilt nur nach einer Verlängerung der Marktfrist."
+    },
+    "ASVO": {
+      "name": "Option des Kontoführers",
+      "definition": "Die Option wird nur vom kontoführenden Institut angeboten."
+    },
+    "BOIS": {
+      "name": "Anweisung des wirtschaftlich Berechtigten",
+      "definition": "Gibt an, dass der Inhaber nur auf Ebene des wirtschaftlich Berechtigten Anweisungen erteilen muss."
+    },
+    "QCAS": {
+      "name": "Barbetrag anweisen",
+      "definition": "Merkmal, wonach der Inhaber nur einen Barbetrag anweisen soll."
+    },
+    "SHAR": {
+      "name": "Aktionärsnummer",
+      "definition": "Gibt die Verwendung einer Referenznummer an, mit der ein Anleger oder Aktionär beim Emittenten oder Registerführer identifiziert wird (zum Beispiel Zuteilungscode)."
+    },
+    "RGRS": {
+      "name": "Wiederanlage der Bruttodividende",
+      "definition": "Die Bruttodividende wird wieder angelegt."
+    },
+    "RNET": {
+      "name": "Wiederanlage der Nettodividende",
+      "definition": "Die Dividendenwiederanlage erfolgt nach Abzug der Quellensteuer."
+    },
+    "FCFS": {
+      "name": "Wer zuerst kommt, mahlt zuerst",
+      "definition": "Wertpapiere werden in der Reihenfolge ihrer Einreichung angenommen, bis die angestrebte Zielmenge erreicht ist."
+    }
+  }
+}

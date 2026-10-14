@@ -1,0 +1,35 @@
+{
+  "isoType": "SecuritiesTransactionCancellationRequestV09",
+  "definition": "Anwendungsbereich|Ein Kontoinhaber sendet eine SecuritiesTransactionCancellationRequest an einen Kontoführer, um die Stornierung einer Wertpapiertransaktion zu beantragen.|Die Beziehung zwischen Kontoinhaber und Kontoführer kann sein:|- ein globaler Verwahrer, der ein Konto bei einem lokalen Verwahrer hat, oder|- ein Vermögensverwaltungsinstitut, das ein bei einem Verwahrer eröffnetes Fondskonto verwaltet, oder - ein Broker, der ein Konto bei einem Verwahrer hat, oder|- ein Teilnehmer eines Zentralverwahrers, der ein Konto bei einem Zentralverwahrer hat, oder|- ein Zentralverwahrer, der ein Konto bei einem Verwahrer, einem anderen Zentralverwahrer oder einer anderen Abwicklungs-Marktinfrastruktur hat, oder|- eine zentrale Gegenpartei oder eine Börse oder eine Handelsabgleichsstelle, die einen Zentralverwahrer oder eine andere Abwicklungs-Marktinfrastruktur anweisen muss.||Verwendung|Die Transaktion kann sein:|- eine Wertpapierabwicklungstransaktion|- eine Umbuchung innerhalb der Position|- eine Wertpapierfinanzierungstransaktion|Die Anweisung kann nicht sein:|- eine Änderung der Wertpapierabwicklungsbedingungen (ein anderer Transaktionsverarbeitungsbefehl sollte gesendet werden, um eine zuvor beantragte Verarbeitungsänderung rückgängig zu machen).|- eine Änderung einer Wertpapierfinanzierung|Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden,|- einem Dritten eine Kopie einer Nachricht zur Information bereitzustellen,|- einem Dritten eine Kopie einer Nachricht zur Information unter Verwendung der entsprechenden Elemente im Business Application Header erneut zu senden.",
+  "isoElements": {
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem kontoführenden Institut bekannt."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer vergeben wurde, zum Beispiel Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Nachrichtenreferenz zur Identifikation des Verarbeiters der Transaktion."
+    },
+    "NonceIdentification": {
+      "definition": "Zweifelsfreie Identifikation einer Zufallszahl oder Quasi-Zufallszahl zur einmaligen Verwendung (NONCE), die im Rahmen einer kryptografischen Kommunikation erzeugt wird."
+    }
+  },
+  "isoRules": {
+    "TransactionIdentificationPresence2Rule": {
+      "definition": "Wenn AccountOwnerTransactionIdentification NONREF ist, dann muss mindestens eine der anderen Referenzen vorhanden sein."
+    },
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Wenn für AccountOwnerTransactionIdentification keine Referenz verfügbar ist, dann muss AccountOwnerTransactionIdentification NONREF sein."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Entweder SafekeepingAccount oder BlockChainAddressOrWallet muss vorhanden sein, aber nicht beide."
+    }
+  }
+}

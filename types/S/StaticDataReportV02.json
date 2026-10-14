@@ -1,0 +1,12 @@
+{
+  "isoType": "StaticDataReportV02",
+  "definition": "Die Nachricht StaticDataReport wird von einem zentralen System an den Teilnehmer gesendet, um die im System gehaltenen Stammdaten bereitzustellen.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Eindeutiger und zweifelsfreier Bezeichner der Nachricht, der vom Absender vergeben wird."
+    },
+    "SettlementSessionIdentifier": {
+      "definition": "Zur Angabe der angeforderten CLS-Abwicklungssitzung, zu der das zugehörige Geschäft gehört."
+    }
+  }
+}

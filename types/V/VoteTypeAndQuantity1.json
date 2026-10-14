@@ -1,0 +1,12 @@
+{
+  "isoType": "VoteTypeAndQuantity1",
+  "definition": "Art der Stimme, die für einen Beschluss in einer Hauptversammlung abgegeben werden kann.",
+  "isoElements": {
+    "VoteInstructionType": {
+      "definition": "Arten von Stimmanweisungen, die für Beschlüsse zulässig sind, über die in der Hauptversammlung abgestimmt wird."
+    },
+    "VoteQuantity": {
+      "definition": "Für die angegebene Art der Stimmanweisung abgegebene Stimmenmenge."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "isoType": "CashOption115",
+  "definition": "Liefert Informationen zur Baroption.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Wert eine Belastung oder eine Gutschrift ist."
+    },
+    "NonEligibleProceedsIndicator": {
+      "definition": "Gibt Informationen zu Ergebnisbeständen an, die vom Zentralverwahrer (CSD) nicht verarbeitet werden können. Für die Gutschrift des Ergebnisses der Kapitalmaßnahme ist eine besondere Lieferanweisung des Kontoinhabers erforderlich."
+    },
+    "IncomeType": {
+      "definition": "Gibt die Art des Ertrags an."
+    },
+    "OtherIncomeType": {
+      "definition": "Ertragsart, die unter einem anderen Steuerregime zu verwenden ist."
+    },
+    "ExemptionType": {
+      "definition": "Gibt die Grundlage für den ermäßigten Quellensteuersatz an."
+    },
+    "PriceCalculationMethod": {
+      "definition": "Gibt die für die Berechnung des Preises angewandte Methode an."
+    },
+    "CountryOfIncomeSource": {
+      "definition": "Gibt das Land an, aus dem der Ertrag stammt."
+    },
+    "AmountDetails": {
+      "definition": "Liefert Informationen zu den Beträgen einer Geldbewegung."
+    },
+    "DateDetails": {
+      "definition": "Liefert Informationen zu den Daten einer Geldbewegung."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Wechselkurs zwischen dem Betrag und dem resultierenden Betrag."
+    },
+    "EstimatedRateIndicator": {
+      "definition": "Gibt an, ob der Satz ein Näherungswert ist.|Ja: zutreffend.|Nein: nicht zutreffend.|Wenn nicht vorhanden, bedeutet dies Nein."
+    },
+    "NRATaxReportableIndicator": {
+      "definition": "Gibt an, ob das Ertragsereignis der Quellensteuer unterliegt, wenn es an einen nicht in den USA ansässigen Ausländer (NRA) gezahlt wird.|Ja: zutreffend.|Nein: nicht zutreffend.|Wenn nicht vorhanden, bedeutet dies Nein."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Liefert Informationen zur Kapitalmaßnahmen-Option."
+    },
+    "PriceDetails": {
+      "definition": "Liefert Informationen zu den Preisen einer Kapitalmaßnahmen-Option."
+    }
+  },
+  "isoRules": {
+    "GenericCashPricePerProductGuideline": {
+      "definition": "GenericCashPriceReceivedPerProduct und GenericCashPricePaidPerProduct sind Preise, die im Verlauf eines Ereignisses erhalten oder gezahlt werden. Die konkrete Bedeutung (Rückzahlungspreis, Bezugspreis, Reinvestitionspreis.) ergibt sich aus der Ereignisart."
+    },
+    "ExemptionTypeUsageRule": {
+      "definition": "Die Listen der in ExemptionType zu verwendenden Befreiungsart-Codes sind im Dokument „ETYP-ITYP Exemption & Income Type Codes“ enthalten, das auf der SMPG-Website unter www.smpg.info verfügbar ist."
+    },
+    "IncomeTypeUsageRule": {
+      "definition": "Die Listen der in IncomeType zu verwendenden Ertragsart-Codes sind im Dokument „ETYP-ITYP Exemption & Income Type Codes“ enthalten, das auf der SMPG-Website unter www.smpg.info verfügbar ist."
+    },
+    "IncomeType2Rule": {
+      "definition": "Wenn mindestens ein Vorkommen von OtherIncomeType vorhanden ist, muss IncomeType vorhanden sein."
+    }
+  }
+}

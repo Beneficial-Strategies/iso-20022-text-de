@@ -1,0 +1,12 @@
+{
+  "isoType": "NetDividendRate2",
+  "definition": "Bardividendenbetrag pro Aktie nach Abzügen oder Freibeträgen.",
+  "isoElements": {
+    "RateType": {
+      "definition": "Art der zugrunde liegenden Wertpapiere, auf die sich der Satz bezieht, z. B. zugrunde liegendes Wertpapier, für das Zinsen gezahlt werden."
+    },
+    "Amount": {
+      "definition": "Als Betrag ausgedrückter Wert."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "PoliticallyExposedPersonStatus1Code",
+  "definition": "Status einer politisch exponierten Person.",
+  "isoCodes": {
+    "PE03": {
+      "name": "Enger Mitarbeiter",
+      "definition": "Person, die bekanntermaßen eine enge Vertraute der politisch exponierten Person ist. Als bekanntermaßen enge Vertraute gilt: |(a) eine natürliche Person, die bekanntermaßen gemeinsam mit der politisch exponierten Person wirtschaftlich Berechtigte von juristischen Personen oder Rechtsgestaltungen ist oder sonstige enge Geschäftsbeziehungen zu ihr unterhält,|(b) eine natürliche Person, die alleiniger wirtschaftlich Berechtigter einer juristischen Person oder Rechtsgestaltung ist, die bekanntermaßen faktisch zugunsten einer politisch exponierten Person errichtet wurde."
+    },
+    "PE01": {
+      "name": "Betraute natürliche Person",
+      "definition": "Natürliche Person, die mit bedeutenden öffentlichen Ämtern betraut ist oder betraut war."
+    },
+    "PE02": {
+      "name": "Familienmitglied",
+      "definition": "Familienmitglied der politisch exponierten Person. Zu den Familienmitgliedern zählen: |(a) der Ehepartner oder eine einem Ehepartner gleichgestellte Person der politisch exponierten Person,|(b) die Kinder und deren Ehepartner oder einem Ehepartner gleichgestellte Personen der politisch exponierten Person,|(c) die Eltern der politisch exponierten Person."
+    }
+  }
+}

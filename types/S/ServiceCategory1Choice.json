@@ -1,0 +1,12 @@
+{
+  "isoType": "ServiceCategory1Choice",
+  "definition": "Vereinbarung bzw. Regeln, nach denen die Transaktion verarbeitet werden soll.",
+  "isoElements": {
+    "Code": {
+      "definition": "Dienstleistungskategorie, wie in einer externen Codeliste für Gründe veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Dienstleistungskategorie in proprietärer Form."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "KeyValue3Choice",
+  "definition": "Element mit den Schlüsselinformationen.",
+  "isoElements": {
+    "EncryptedKeyValue": {
+      "definition": "Verschlüsselter Wert des kryptografischen Schlüssels."
+    },
+    "TRRelatedData": {
+      "definition": "Datenblock für einen TR31- oder TR34-Block, wenn der Block keinen Schlüssel enthält (zum Beispiel das TR34-Unbind, das die signierten Autorisierungsdaten enthält)."
+    }
+  }
+}

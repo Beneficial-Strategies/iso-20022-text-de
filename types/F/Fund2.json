@@ -1,0 +1,59 @@
+{
+  "isoType": "Fund2",
+  "definition": "Informationen zu einem Investmentfonds.",
+  "isoElements": {
+    "Name": {
+      "definition": "Name des Fonds/Teilfonds."
+    },
+    "LegalEntityIdentifier": {
+      "definition": "Identifikation des Fonds/Teilfonds mit einem Legal Entity Identifier. Dies ist ein Code, der einer Partei gemäß ISO 17442 „Financial Services - Legal Entity Identifier (LEI)“ zugeteilt wird."
+    },
+    "Identification": {
+      "definition": "Eindeutige und unmissverständliche Kennung für den Fonds/Teilfonds, vergeben im Rahmen eines formalen oder proprietären Identifikationsschemas."
+    },
+    "Currency": {
+      "definition": "Währung des Fonds/Teilfonds."
+    },
+    "TradeDateTime": {
+      "definition": "Datum und gegebenenfalls Uhrzeit, zu dem der Preis angewendet wird."
+    },
+    "PreviousTradeDateTime": {
+      "definition": "Vorheriges Datum und vorherige Uhrzeit, zu denen der Preis angewendet wurde."
+    },
+    "TotalNAV": {
+      "definition": "Gesamtwert aller Bestände abzüglich der Verbindlichkeiten des Fonds/Teilfonds."
+    },
+    "PreviousTotalNAV": {
+      "definition": "Vorheriger Gesamtwert aller Bestände abzüglich der Verbindlichkeiten des Fonds/Teilfonds."
+    },
+    "TotalUnitsNumber": {
+      "definition": "Gesamtzahl der Anteile des Fonds/Teilfonds."
+    },
+    "PreviousTotalUnitsNumber": {
+      "definition": "Vorherige Gesamtzahl der Anteile des Fonds/Teilfonds."
+    },
+    "PercentageOfFundTotalNAV": {
+      "definition": "Konsolidierter Netto-Cashflow, ausgedrückt als Prozentsatz des Gesamt-NAV des Fonds/Teilfonds."
+    },
+    "CashInForecastDetails": {
+      "definition": "Mittelzufluss in den Fonds/Teilfonds."
+    },
+    "CashOutForecastDetails": {
+      "definition": "Mittelabfluss aus dem Fonds/Teilfonds."
+    },
+    "NetCashForecastDetails": {
+      "definition": "Nettogeld als Ergebnis der Zahlungsströme in den Fonds und aus dem Fonds."
+    }
+  },
+  "isoRules": {
+    "FundIdentification1Rule": {
+      "definition": "Wenn Identification nicht vorhanden ist, muss Name oder LegalEntityIdentifier vorhanden sein. Identification, Name und Legal Entity Identifier können alle vorhanden sein."
+    },
+    "FundIdentification2Rule": {
+      "definition": "Wenn Name nicht vorhanden ist, muss Identification oder Legal Entity Identifier vorhanden sein. Identification, Name und Legal Entity Identifier können alle vorhanden sein."
+    },
+    "FundIdentification3Rule": {
+      "definition": "Wenn Legal Entity Identifier nicht vorhanden ist, muss Identification oder Name vorhanden sein. Identification, Name und Legal Entity Identifier können alle vorhanden sein."
+    }
+  }
+}

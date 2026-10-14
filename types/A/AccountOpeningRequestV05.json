@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountOpeningRequestV05",
+  "definition": "Die Nachricht AccountOpeningRequest wird von einer Organisation im Rahmen des Kontoeröffnungsprozesses an ein Finanzinstitut gesendet. Sie ist die ursprüngliche Anfragenachricht zur Eröffnung eines Kontos."
+}

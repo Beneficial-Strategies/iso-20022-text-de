@@ -1,0 +1,21 @@
+{
+  "isoType": "BatchInformation2",
+  "definition": "Satz von Elementen zur Identifikation der zugrunde liegenden Sammelaufträge.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, von der sendenden Partei vergeben, zur zweifelsfreien Identifikation des Transaktionssammelauftrags."
+    },
+    "PaymentInformationIdentification": {
+      "definition": "Eindeutige Identifikation, von einer sendenden Partei vergeben, zur zweifelsfreien Identifikation der Zahlungsinformationsgruppe innerhalb der Nachricht."
+    },
+    "NumberOfTransactions": {
+      "definition": "Anzahl der im Sammelauftrag enthaltenen Einzeltransaktionen."
+    },
+    "TotalAmount": {
+      "definition": "Gesamtbetrag, der im Sammelauftragsumsatz gemeldet wird."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Sammelauftragsumsatz ein Haben- oder ein Sollumsatz ist."
+    }
+  }
+}

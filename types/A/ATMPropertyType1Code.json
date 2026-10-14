@@ -1,0 +1,26 @@
+{
+  "isoType": "ATMPropertyType1Code",
+  "definition": "Codierungsart der Eigenschaft.",
+  "isoCodes": {
+    "STRG": {
+      "name": "Zeichenfolge",
+      "definition": "Die Eigenschaft ist als String codiert."
+    },
+    "NMBR": {
+      "name": "Zahl",
+      "definition": "Die Eigenschaft ist als Number codiert."
+    },
+    "BOOL": {
+      "name": "Boolesch",
+      "definition": "Die Eigenschaft ist als Boolean codiert."
+    },
+    "JSON": {
+      "name": "JSON",
+      "definition": "Die Eigenschaft ist in JSON codiert."
+    },
+    "CSVF": {
+      "name": "CSV",
+      "definition": "Die Eigenschaft ist eine CSV-Zeichenfolge, die eine Datentabelle darstellt."
+    }
+  }
+}

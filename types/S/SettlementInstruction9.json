@@ -1,0 +1,33 @@
+{
+  "isoType": "SettlementInstruction9",
+  "definition": "Liefert weitere Einzelheiten zur Abwicklung der Anweisung.",
+  "isoElements": {
+    "SettlementMethod": {
+      "definition": "Verfahren zur Abwicklung der (Sammlung von) Zahlungsanweisungen."
+    },
+    "SettlementAccount": {
+      "definition": "Konto mit besonderem Verwendungszweck, auf dem die Belastungs- und Gutschriftbuchungen aus der Transaktion verbucht werden."
+    },
+    "ClearingSystem": {
+      "definition": "Angabe eines zuvor vereinbarten Angebots zwischen Clearingstellen oder des Kanals, über den die Zahlungsanweisung verarbeitet wird."
+    },
+    "InstructingReimbursementAgent": {
+      "definition": "Bank, über die die anweisende Bank der angewiesenen Bank die Erstattung leistet.||Verwendung: Haben InstructingAgent und InstructedAgent dieselbe Erstattungsbank, darf nur InstructingReimbursementAgent verwendet werden."
+    },
+    "InstructingReimbursementAgentAccount": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Kontos der anweisenden Erstattungsbank bei ihrer kontoführenden Bank in der Zahlungskette."
+    },
+    "InstructedReimbursementAgent": {
+      "definition": "Bank, bei der der angewiesenen Bank die Erstattung geleistet wird.|Verwendung: Enthält InstructedReimbursementAgent eine Filiale des InstructedAgent, so fordert die Partei in InstructedAgent die Erstattung bei dieser Filiale ein bzw. wird von dieser Filiale bezahlt.|Verwendung: Haben InstructingAgent und InstructedAgent dieselbe Erstattungsbank, darf nur InstructingReimbursementAgent verwendet werden."
+    },
+    "InstructedReimbursementAgentAccount": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Kontos der angewiesenen Erstattungsbank bei ihrer kontoführenden Bank in der Zahlungskette."
+    },
+    "ThirdReimbursementAgent": {
+      "definition": "Bank, bei der der angewiesenen Bank die Erstattung geleistet wird.|Verwendung: Enthält ThirdReimbursementAgent eine Filiale des InstructedAgent, so fordert die Partei in InstructedAgent die Erstattung bei dieser Filiale ein bzw. wird von dieser Filiale bezahlt."
+    },
+    "ThirdReimbursementAgentAccount": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Kontos der dritten Erstattungsbank bei ihrer kontoführenden Bank in der Zahlungskette."
+    }
+  }
+}

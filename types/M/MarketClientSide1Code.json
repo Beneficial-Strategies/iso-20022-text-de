@@ -1,0 +1,14 @@
+{
+  "isoType": "MarketClientSide1Code",
+  "definition": "Gibt an, ob eine Anweisung für eine Transaktion auf der Marktseite oder der Kundenseite gilt.",
+  "isoCodes": {
+    "CLNT": {
+      "name": "Kundenseite",
+      "definition": "Die Anweisung gilt für eine Transaktion auf der Kundenseite."
+    },
+    "MAKT": {
+      "name": "Marktseite",
+      "definition": "Die Anweisung gilt für eine Transaktion auf der Marktseite."
+    }
+  }
+}

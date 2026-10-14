@@ -1,0 +1,18 @@
+{
+  "isoType": "MarketMakerProfile2",
+  "definition": "Market-Maker-Profil.",
+  "isoElements": {
+    "ContractPeriod": {
+      "definition": "Laufzeit des Vertrags."
+    },
+    "Compliance": {
+      "definition": "Gibt an, ob der Market Maker verpflichtet ist, die Anforderungen des Vertrags einzuhalten, den er mit der Börse hat, oder von diesen Verpflichtungen befreit ist."
+    },
+    "MaximumSpread": {
+      "definition": "Prozentsatz der Schwankung zwischen dem maximal akzeptierten Mindest- und Höchstwert einer Aktie."
+    },
+    "Discount": {
+      "definition": "Diskontsatz."
+    }
+  }
+}

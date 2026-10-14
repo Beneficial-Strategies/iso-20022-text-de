@@ -1,0 +1,20 @@
+{
+  "isoType": "SettlementStatus20Choice",
+  "definition": "Auswahl des Formats für den Abwicklungsstatus.",
+  "isoElements": {
+    "Pending": {
+      "definition": "Die Anweisung ist anhängig. Eine Abwicklung am angewiesenen Abwicklungstag ist weiterhin möglich."
+    },
+    "Failing": {
+      "definition": "Die Abwicklung der Anweisung schlägt fehl. Eine Abwicklung am angewiesenen Abwicklungstag ist nicht mehr möglich."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Status."
+    }
+  },
+  "isoRules": {
+    "PendingToFailingRule": {
+      "definition": "Eine anhängige Transaktion (PEND) wird am in der Nachricht angewiesenen Abwicklungstag während der Tagesendberichterstattung zu einer fehlgeschlagenen Transaktion (PENF)."
+    }
+  }
+}

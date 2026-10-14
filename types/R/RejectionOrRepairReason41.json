@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionOrRepairReason41",
+  "definition": "Grund für den Status Ablehnung oder Klärung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, warum die Anweisung bzw. Anforderung den Status abgelehnt oder Klärung hat."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Enthält zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateAction82",
+  "definition": "Vom Vorstand einer Gesellschaft beschlossenes Ereignis, das die bestehende Kapitalstruktur oder finanzielle Lage verändert.",
+  "isoElements": {
+    "EventType": {
+      "definition": "Art des Kapitalmaßnahmen-Ereignisses."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Referenz, vergeben vom Kontoführer, zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "definition": "Offizielle und eindeutige Referenz, die zu Beginn eines Kapitalmaßnahmen-Ereignisses von der offiziellen zentralen Stelle bzw. Einrichtung innerhalb des jeweiligen Marktes vergeben wird."
+    }
+  }
+}

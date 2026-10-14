@@ -1,0 +1,54 @@
+{
+  "isoType": "IntraBalanceMovement6",
+  "definition": "Enthält zusätzliche Einzelheiten zu den Daten der Bewegungen innerhalb des Saldos.",
+  "isoElements": {
+    "BalanceFrom": {
+      "definition": "Bestand, von dem der Geldbetrag umgebucht wird."
+    },
+    "BalanceTo": {
+      "definition": "Bestand, auf den der Geldbetrag umgebucht wird."
+    },
+    "SettlementAmount": {
+      "definition": "Tatsächlich abgewickelter Geldbetrag, der dem Geldkonto des Kontoinhabers gutgeschrieben bzw. belastet wird. Er kann je nach Markttoleranz vom angewiesenen Abwicklungsbetrag abweichen."
+    },
+    "SettledAmount": {
+      "definition": "Tatsächlich abgewickelter Geldbetrag, der dem Geldkonto des Kontoinhabers gutgeschrieben bzw. belastet wird. Er kann je nach Markttoleranz vom angewiesenen Abwicklungsbetrag abweichen."
+    },
+    "PreviouslySettledAmount": {
+      "definition": "Zuvor abgewickelter Geldbetrag."
+    },
+    "RemainingSettlementAmount": {
+      "definition": "Noch abzuwickelnder Geldbetrag."
+    },
+    "IntendedSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Geldbetrag bewegt werden soll."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Geldbetrag umgebucht wird."
+    },
+    "StatusDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Status zugewiesen wurde."
+    },
+    "CashSubBalanceIdentification": {
+      "definition": "Nummer zur Identifikation eines Loses, das den Teilbestand bildet."
+    },
+    "Linkages": {
+      "definition": "Verknüpfung mit einer anderen Transaktion, die danach, davor oder gleichzeitig verarbeitet werden muss."
+    },
+    "Priority": {
+      "definition": "Gibt an, ob die Transaktion mit hoher Priorität auszuführen ist."
+    },
+    "MessageOriginator": {
+      "definition": "Partei, von der die Nachricht ausgeht, sofern nicht mit dem Absender identisch."
+    },
+    "CreationDateTime": {
+      "definition": "Gibt Datum und Uhrzeit der Ausführung des Geschäfts an."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Liefert zusätzliche Informationen zur Abwicklungsverarbeitung, die nicht in den strukturierten Feldern der Nachricht angegeben werden können."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die nicht in den strukturierten Elementen und/oder einem anderen spezifischen Block erfasst werden können."
+    }
+  }
+}

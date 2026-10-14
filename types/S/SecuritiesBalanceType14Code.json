@@ -1,0 +1,126 @@
+{
+  "isoType": "SecuritiesBalanceType14Code",
+  "definition": "Gibt die Art des Wertpapier- oder Investmentfondssaldos an.",
+  "isoCodes": {
+    "AWAS": {
+      "name": "Verfügbar ohne zusätzlichen Status",
+      "definition": "Saldo der frei verfügbaren Finanzinstrumente ohne besonderen zusätzlichen Status."
+    },
+    "BTRA": {
+      "name": "In Übertragung",
+      "definition": "Das Finanzinstrument ist aufgrund eines Übertragungsauftrags, ausstehender Bewegung im Aktionärsregister, nicht verfügbar."
+    },
+    "BLOK": {
+      "name": "Gesperrt",
+      "definition": "Bestand an Finanzinstrumenten, die gesperrt sind."
+    },
+    "BLOV": {
+      "name": "Gesperrt wegen Echtheitsprüfung",
+      "definition": "Saldo der zur Echtheitsprüfung gesperrten Finanzinstrumente."
+    },
+    "BLCA": {
+      "name": "Gesperrt wegen Kapitalmaßnahme",
+      "definition": "Saldo der im Anschluss an eine Kapitalmaßnahme, einschließlich Stimmrechtsvertretungsaktivitäten, gesperrten Finanzinstrumente."
+    },
+    "BLOT": {
+      "name": "Gesperrt für den Handel",
+      "definition": "Saldo der für den Handel gesperrten Finanzinstrumente."
+    },
+    "BORR": {
+      "name": "Entliehen",
+      "definition": "Bestand an Finanzinstrumenten, die von einer anderen Partei geliehen wurden."
+    },
+    "OPNT": {
+      "name": "Überfällig, netto ausstehend",
+      "definition": "Nettosaldo des Finanzinstruments, das gehandelt wird und dessen Abwicklung aussteht, wobei die Abwicklung überfällig ist."
+    },
+    "PNET": {
+      "name": "Netto ausstehend",
+      "definition": "Nettosaldo des Finanzinstruments, das gehandelt wird und dessen Abwicklung aussteht."
+    },
+    "COLI": {
+      "name": "Sicherheit eingehend",
+      "definition": "Bestand an Wertpapieren, die einem Dritten gehören und zum Zweck der Besicherung gehalten werden."
+    },
+    "COLO": {
+      "name": "Sicherheit ausgehend",
+      "definition": "Bestand an Wertpapieren, die dem in dieser Nachricht angegebenen Depotkonto gehören und zum Zweck der Besicherung bei einem Dritten hinterlegt sind."
+    },
+    "MARG": {
+      "name": "Derivate-Margin",
+      "definition": "Das Konto wird verwendet, wenn die Finanzierung durch den Broker/Dealer erfolgt."
+    },
+    "DRAW": {
+      "name": "Ausgelost",
+      "definition": "Die Abwicklungstransaktion bezieht sich auf ausgeloste Wertpapiere."
+    },
+    "TRAN": {
+      "name": "Im Umschlag",
+      "definition": "Die Transaktion wurde aufgrund einer Umwandlung im Anschluss an eine Kapitalmaßnahme erzeugt."
+    },
+    "LOAN": {
+      "name": "Verliehen",
+      "definition": "Darlehen zum Verbrauch."
+    },
+    "REGO": {
+      "name": "Zur Registrierung eingereicht",
+      "definition": "Bestand an Finanzinstrumenten, die derzeit von dem Institut bearbeitet werden, das für die Registrierung des neuen wirtschaftlichen Eigentümers (oder Nominees) zuständig ist."
+    },
+    "BODE": {
+      "name": "Ausstehende Lieferung entliehener Wertpapiere",
+      "definition": "Saldo der Finanzinstrumente, deren Lieferung im Zusammenhang mit einer Leihetransaktion aussteht."
+    },
+    "BORE": {
+      "name": "Ausstehender Empfang entliehener Wertpapiere",
+      "definition": "Saldo der Finanzinstrumente, deren Eingang im Zusammenhang mit einer Leihetransaktion aussteht."
+    },
+    "PEDA": {
+      "name": "Ausstehende Lieferung aus Kapitalmaßnahme",
+      "definition": "Saldo der Finanzinstrumente, deren Lieferung im Anschluss an eine Kapitalmaßnahme aussteht."
+    },
+    "PECA": {
+      "name": "Ausstehender Empfang aus Kapitalmaßnahme",
+      "definition": "Saldo der Finanzinstrumente, deren Eingang im Anschluss an eine Kapitalmaßnahme aussteht."
+    },
+    "PEND": {
+      "name": "Ausstehende Lieferung",
+      "definition": "Die Verarbeitung ist nicht abgeschlossen."
+    },
+    "LODE": {
+      "name": "Ausstehende Lieferung verliehener Wertpapiere",
+      "definition": "Saldo der Finanzinstrumente, deren Lieferung im Zusammenhang mit einer Verleihtransaktion aussteht."
+    },
+    "LORE": {
+      "name": "Ausstehender Empfang verliehener Wertpapiere",
+      "definition": "Saldo der Finanzinstrumente, deren Eingang im Zusammenhang mit einer Verleihtransaktion aussteht."
+    },
+    "PENR": {
+      "name": "Ausstehender Empfang",
+      "definition": "Die Anweisung wartet auf den Eingang von Wertpapieren, zum Beispiel aus einem Kauf, einem Darlehen usw."
+    },
+    "PLED": {
+      "name": "Verpfändet",
+      "definition": "Saldo der Wertpapiere, die zu dem in dieser Nachricht angegebenen Verwahrkonto gehören, auf diesem verwahrt werden und verpfändet sind."
+    },
+    "RSTR": {
+      "name": "Beschränkt",
+      "definition": "Saldo der Finanzinstrumente, die nur unter bestimmten Bedingungen verkauft werden dürfen oder rechtliche Dokumente erfordern."
+    },
+    "OTHR": {
+      "name": "Nicht klassifiziert",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "WDOC": {
+      "name": "Wartet auf Dokumentation",
+      "definition": "Das Finanzinstrument ist aufgrund fehlender oder unvollständiger Dokumentation zum Konto oder aufgrund eines fehlenden oder unvollständigen Auftrags nicht verfügbar."
+    },
+    "GRP1": {
+      "name": "Erworbener Investmentfonds-Steuergruppenanteil 1",
+      "definition": "Erworbene Investmentfondsanteile, die vor dem letzten Ex-Dividenden-Datum erworben wurden."
+    },
+    "GRP2": {
+      "name": "Erworbener Investmentfonds-Steuergruppenanteil 2",
+      "definition": "Erworbene Investmentfondsanteile, die seit dem Ex-Dividenden-Datum erworben wurden und von der Steuerbefreiung profitieren."
+    }
+  }
+}

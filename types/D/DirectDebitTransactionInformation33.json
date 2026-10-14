@@ -1,0 +1,56 @@
+{
+  "isoType": "DirectDebitTransactionInformation33",
+  "definition": "Enthält weitere Angaben, die für die einzelnen in der Nachricht enthaltenen Lastschrifttransaktion(en) spezifisch sind.",
+  "isoElements": {
+    "PaymentIdentification": {
+      "definition": "Für eine Zahlungsanweisung verwendete Referenzen."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Gibt die Transaktionsart an."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Geldbetrag, der zwischen der anweisenden Bank und der angewiesenen Bank bewegt wird."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag der Bank, die ihn schuldet, nicht mehr zur Verfügung steht und der Bank, der er zusteht, zur Verfügung steht."
+    },
+    "SettlementPriority": {
+      "definition": "Kennzeichen für die Dringlichkeit oder Wichtigkeit, mit der die anweisende Partei die Abwicklungsanweisung von der angewiesenen Partei verarbeitet haben möchte."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Enthält Angaben zu den erfolgten Abwicklungszeiten der Zahlungstransaktion."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Enthält Angaben zu den gewünschten Abwicklungszeiten der Zahlungsanweisung."
+    },
+    "UltimateDebtor": {
+      "definition": "Letztes Finanzinstitut, das dem (letztlich) institutionellen Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "Debtor": {
+      "definition": "Finanzinstitut, das dem (letztlich) zahlungsempfangenden Finanzinstitut einen Geldbetrag schuldet."
+    },
+    "DebtorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungspflichtigen, das aufgrund der Transaktion belastet wird."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungspflichtigen führt."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungspflichtigen bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "InstructionForDebtorAgent": {
+      "definition": "Weitere Informationen zur Bearbeitung der Zahlungsanweisung, auf die die Bank des Zahlungspflichtigen je nach Vereinbarung zwischen dem Zahlungspflichtigen und seiner Bank gegebenenfalls reagieren muss."
+    },
+    "Purpose": {
+      "definition": "Zugrunde liegender Grund für die Zahlungstransaktion.|Verwendung: Der Zweck wird von den Endkunden, das heißt der initiierenden Partei, dem (letztlich) Zahlungspflichtigen und dem (letztlichen) Zahlungsempfänger, verwendet, um Informationen zur Art der Zahlung bereitzustellen. Der Zweck ist ein Inhaltselement, das von keiner der an der Zahlungskette beteiligten Banken zur Verarbeitung verwendet wird."
+    },
+    "RemittanceInformation": {
+      "definition": "Informationen zur Ermöglichung des Abgleichs eines Umsatzes mit den Posten, die durch die Übertragung beglichen werden sollen, etwa Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    }
+  },
+  "isoRules": {
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor darf nur vorhanden sein, wenn er sich vom Debtor unterscheidet."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RelatedNotificationData1",
+  "definition": "Liefert Angaben zu Daten, die zur Benachrichtigung gehören und getrennt von der Nachricht gesendet werden.",
+  "isoElements": {
+    "NotificationIdentification": {
+      "definition": "Eindeutige Kennung zur zweifelsfreien Identifikation von Daten oder Unterlagen, die getrennt von der Benachrichtigung gesendet werden, wie etwa die Geschäftsbedingungen des Kontos."
+    },
+    "Location": {
+      "definition": "Liefert Angaben zum Ablageort und/oder zur Zustellung der zugehörigen Daten oder Unterlagen der Benachrichtigung."
+    }
+  }
+}

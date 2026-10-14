@@ -1,0 +1,50 @@
+{
+  "isoType": "Reason21Choice",
+  "definition": "Auswahl des Grundes.",
+  "isoElements": {
+    "RepoCallAcknowledgementReason": {
+      "definition": "Gibt zusätzliche Informationen zur Bestätigung des Rückrufantrags für das Rückkaufgeschäft an."
+    },
+    "CancellationReason": {
+      "definition": "Gibt den Grund an, warum die zugehörige Anweisung storniert wird oder die zugehörige Stornierungsanforderung ausgeführt wird."
+    },
+    "PendingCancellationReason": {
+      "definition": "Gibt den Grund an, warum die Stornierungsanforderung ausstehend ist."
+    },
+    "GeneratedReason": {
+      "definition": "Legt den Grund fest, aus dem die Transaktion erzeugt wurde."
+    },
+    "DeniedReason": {
+      "definition": "Gibt den Grund an, warum die Anforderung zurückgewiesen wurde."
+    },
+    "AcknowledgedAcceptedReason": {
+      "definition": "Gibt zusätzliche Informationen zur verarbeiteten Anweisung an."
+    },
+    "PendingReason": {
+      "definition": "Gibt den Grund an, warum die Anweisung den Status „ausstehend“ hat."
+    },
+    "FailingReason": {
+      "definition": "Gibt den Grund an, weshalb die Anweisung den Abwicklungsstatus „fehlgeschlagen“ hat."
+    },
+    "PendingProcessingReason": {
+      "definition": "Legt den Grund fest, aus dem die Anweisung den Status „Verarbeitung ausstehend“ hat."
+    },
+    "RejectionReason": {
+      "definition": "Gibt den Grund an, weshalb die Anweisung/der Antrag den Status abgelehnt hat."
+    },
+    "RepairReason": {
+      "definition": "Legt den Grund fest, aus dem sich die Anweisung in Korrektur befindet."
+    },
+    "PendingModificationReason": {
+      "definition": "Gibt den Grund an, weshalb der Änderungsantrag ausstehend ist."
+    },
+    "UnmatchedReason": {
+      "definition": "Legt den Grund fest, aus dem die Anweisung den Status „nicht abgeglichen“ hat."
+    }
+  },
+  "isoRules": {
+    "ReasonRule": {
+      "definition": "Wird der Grund angefordert, muss dieser mit den für den angeforderten Nachrichtentyp verfügbaren Gründen übereinstimmen."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PayInFactors1",
+  "definition": "Faktoren, die bei der Berechnung des Einzahlungsplans verwendet werden.",
+  "isoElements": {
+    "AggregateShortPositionLimit": {
+      "definition": "Maximal zulässige Summe der Short-Positionen in allen Währungen, umgerechnet in die Basiswährung, während der Abwicklung."
+    },
+    "CurrencyFactors": {
+      "definition": "Währungsspezifische Einzahlungsfaktoren."
+    }
+  }
+}

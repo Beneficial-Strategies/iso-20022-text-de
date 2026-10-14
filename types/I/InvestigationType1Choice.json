@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationType1Choice",
+  "definition": "Gibt die Art einer Untersuchung an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Untersuchungsart, wie in einem externen Codesatz für Untersuchungsarten veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Untersuchungsart in proprietärer Form."
+    }
+  }
+}

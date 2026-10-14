@@ -1,0 +1,12 @@
+{
+  "isoType": "PairedOrTurnedQuantity7Choice",
+  "definition": "Auswahl zwischen einer Turnaround-Menge und einer Pair-off-Menge für die Anweisung eines (teilweisen) Pair-off oder Turnaround von eins zu viele und viele zu viele.",
+  "isoElements": {
+    "PairedOffQuantity": {
+      "definition": "Menge der Finanzinstrumente der verknüpften Transaktion, die per Pair-off verrechnet werden soll."
+    },
+    "TurnedQuantity": {
+      "definition": "Menge der Finanzinstrumente der verknüpften Transaktion, die per Turnaround gedreht werden soll."
+    }
+  }
+}

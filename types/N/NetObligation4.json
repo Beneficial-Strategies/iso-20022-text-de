@@ -1,0 +1,59 @@
+{
+  "isoType": "NetObligation4",
+  "definition": "Beschreibt Betrag, Richtung und beteiligte Parteien einer Zahlungsverpflichtung zwischen zwei Teilnehmern (und ihrer Netting-Gruppe oder Handelspartei) eines Netting-Dienstes.",
+  "isoElements": {
+    "ObligationIdentification": {
+      "definition": "Eindeutige Identifikation für die Verpflichtung."
+    },
+    "PreviousSplitIndicator": {
+      "definition": "Gibt an, ob die Nettoverpflichtung das Ergebnis einer zuvor aufgeteilten Verpflichtung ist.||Verwendung: Wenn nicht vorhanden, ist der Standardwert false."
+    },
+    "Amount": {
+      "definition": "Betrag der Verpflichtung."
+    },
+    "ParticipantNettingIdentification": {
+      "definition": "Beschreibt die Partei oder Netting-Gruppe (des Teilnehmers, der den Bericht erhält), die an der Berechnung der Verpflichtung beteiligt ist."
+    },
+    "ObligationDirection": {
+      "definition": "Gibt die Richtung der Verpflichtung an."
+    },
+    "CounterpartyNettingIdentification": {
+      "definition": "Beschreibt die Partei oder Netting-Gruppe (der Gegenpartei der Verpflichtung), die an der Berechnung der Verpflichtung beteiligt ist."
+    },
+    "NetServiceCounterpartyIdentification": {
+      "definition": "Beschreibt den Gegenparteiteilnehmer, der an der Verpflichtung beteiligt ist."
+    },
+    "CounterpartySettlementInstructions": {
+      "definition": "Gibt die Standardabwicklungsanweisungen an, die verwendet werden, um eine Zahlung an die Gegenpartei zur Abwicklung der Verpflichtung zu veranlassen."
+    },
+    "PaymentClearingCentre": {
+      "definition": "Gibt den Clearingort für Offshore-Währungsgeschäfte an.||Verwendung: Wird verwendet, um das Clearingzentrum für Offshore-Währungsgeschäfte zu bestimmen. Darf nicht für Geschäfte verwendet werden, die onshore abgewickelt werden."
+    },
+    "SettlementMethod": {
+      "definition": "Gibt die Abwicklungsmethode für die Nettoverpflichtung an."
+    },
+    "TransactionsNumber": {
+      "definition": "Anzahl der Transaktionen, die zur Berechnung der Verpflichtung verwendet wurden. Sie wird beim Abgleich zwischen der Verpflichtung im Nettobericht und den zuvor bereitgestellten Aktualisierungen des Transaktionsstatus verwendet."
+    },
+    "SplitIndicator": {
+      "definition": "Gibt an, ob die Nettoverpflichtung in mehrere untergeordnete Verpflichtungen aufgeteilt wird.||Verwendung: Wenn nicht vorhanden, ist der Standardwert false."
+    },
+    "TotalNumberOfSplits": {
+      "definition": "Anzahl der Aufteilungen der Nettoverpflichtung."
+    },
+    "SplitObligationData": {
+      "definition": "Einzelheiten der Aufteilung."
+    }
+  },
+  "isoRules": {
+    "CounterpartySettlementInstructionRule": {
+      "definition": "CounterpartySettlementInstructions darf nicht vorhanden sein, wenn der Richtungswert der Verpflichtung DBIT ist."
+    },
+    "CounterpartyIdentificationRule": {
+      "definition": "NetServiceCounterpartyIdentification muss in allen Verpflichtungen auf dieser Ebene vorhanden sein, wenn eine oder mehrere Gegenparteien an der Berechnung des Nettoberichts beteiligt sind, das heißt, wenn NetServiceCounterpartyIdentification nicht auf Ebene des NetReport verwendet wird."
+    },
+    "SplitIndicatorRule": {
+      "definition": "Wenn SplitIndicator true ist, müssen TotalNumberOfSplits und SplitObligationData vorhanden sein."
+    }
+  }
+}

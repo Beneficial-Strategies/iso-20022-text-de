@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionPeriod13",
+  "definition": "Gibt Zeiträume an.",
+  "isoElements": {
+    "PriceCalculationPeriod": {
+      "definition": "Zeitraum, in dem der Kurs eines Wertpapiers ermittelt wird."
+    },
+    "ActionPeriod": {
+      "definition": "Zeitraum, in dem die angegebene Option oder alle Optionen des Ereignisses gültig bleiben, zum Beispiel die Angebotsfrist."
+    },
+    "ParallelTradingPeriod": {
+      "definition": "Zeitraum, in dem alte und neue Aktien gleichzeitig gehandelt werden können, zum Beispiel bei Zusammenlegung oder Teilung von Aktien."
+    }
+  }
+}

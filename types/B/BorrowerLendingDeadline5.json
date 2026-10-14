@@ -1,0 +1,12 @@
+{
+  "isoType": "BorrowerLendingDeadline5",
+  "definition": "Frist der Wertpapierleihe, die einem Entleiher der Wertpapiere zugewiesen wurde.",
+  "isoElements": {
+    "StockLendingDeadline": {
+      "definition": "Datum/Uhrzeit, die als Frist festgelegt ist, um mit Anweisungen auf ein ausstehendes Ereignis zu antworten, für das das zugrunde liegende Wertpapier verliehen ist."
+    },
+    "Borrower": {
+      "definition": "Partei, die Wertpapiere geliehen hat."
+    }
+  }
+}

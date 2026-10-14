@@ -1,0 +1,12 @@
+{
+  "isoType": "ProformaStatusReason1Choice",
+  "definition": "Auswahl der Formate für den Grund eines Proforma-Status.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Für den Proforma-Kontostatus liegt kein Grund vor oder ist kein Grund zu melden."
+    },
+    "Reason": {
+      "definition": "Grund für den Proforma-Kontostatus."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "StatementOfInvestmentFundTransactionsV02",
+  "definition": "Anwendungsbereich|Ein Kontoführer, zum Beispiel ein Transferagent, sendet die Nachricht StatementOfInvestmentFundTransactions an den Kontoinhaber, zum Beispiel einen Anlageverwalter oder dessen bevollmächtigten Vertreter, um detaillierte Transaktionen (Zugänge und Abgänge) von Beständen bereitzustellen, die während eines bestimmten Zeitraums stattgefunden haben.|Verwendung|Die Nachricht StatementOfInvestmentFundTransactions wird verwendet, um die Bestandstransaktionen eines einzelnen (Haupt-)Kontos oder mehrerer Unterkonten aufzulisten.|Diese Nachricht sollte in einer zwischen dem Kontoführer und dem Kontoinhaber bilateral vereinbarten Häufigkeit verwendet werden.|Diese Nachricht darf nicht anstelle von Bestätigungsnachrichten verwendet werden.",
+  "isoRules": {
+    "TransactionOnAccountOrSubAccountDetailsRule": {
+      "definition": "Wenn StatementGeneralDetails/ActivityIndicator \"true\" oder \"1\" (Ja) ist, dann ist entweder TransactionOnAccount oder SubAccountDetails obligatorisch. Wenn StatementGeneralDetails/ActivityIndicator \"false\" oder \"0\" (Nein) ist, dann sind TransactionOnAccount und SubAccountDetails nicht zulässig."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "DisclosureRequestCancellationReason1Code",
+  "definition": "Gibt den Grund für die Stornierung der Offenlegungsanfrage an.",
+  "isoCodes": {
+    "PROC": {
+      "name": "Verarbeitung",
+      "definition": "Die Stornierung der Offenlegungsanfrage beruht auf einem Verarbeitungsfehler."
+    },
+    "WITH": {
+      "name": "Entnahme",
+      "definition": "Die Stornierung der Offenlegungsanfrage beruht auf der Rücknahme der Anfrage durch den Emittenten."
+    }
+  }
+}

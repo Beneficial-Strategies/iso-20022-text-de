@@ -1,0 +1,12 @@
+{
+  "isoType": "FailedSettlementReason1FormatChoice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe des Grundes für ein Scheitern der Abwicklung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Grundes für ein Scheitern der Abwicklung."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe des Grundes für ein Scheitern der Abwicklung."
+    }
+  }
+}

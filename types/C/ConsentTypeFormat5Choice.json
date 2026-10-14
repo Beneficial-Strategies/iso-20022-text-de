@@ -1,0 +1,12 @@
+{
+  "isoType": "ConsentTypeFormat5Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe des erforderlichen Formats der Zustimmungsart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der erforderlichen Zustimmungsart."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Zustimmungsart."
+    }
+  }
+}

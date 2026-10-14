@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyStatus2Choice",
+  "definition": "Gibt den Status der Strafzahlungen an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Status der Strafzahlung, in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Status der Strafzahlung, in proprietärer Form."
+    }
+  }
+}

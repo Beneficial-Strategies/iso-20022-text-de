@@ -1,0 +1,12 @@
+{
+  "isoType": "MandateStatus1Choice",
+  "definition": "Gesamtheit der Elemente zur Identifizierung des Status eines Mandats.",
+  "isoElements": {
+    "Code": {
+      "definition": "Status des Mandats in codierter Form, wie in einer externen Liste veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Name des Identifikationsschemas in Freitextform."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "InvestigationReason2",
+  "definition": "Nennt den detaillierten Grund für die Untersuchungsanfrage.",
+  "isoElements": {
+    "Sequence": {
+      "definition": "Wird der Block InvestigationData wiederholt, kennzeichnet dies eine numerische Referenz für den Grund, die dem Datenabgleich dienen kann."
+    },
+    "Reason": {
+      "definition": "Grund für die Eröffnung der Untersuchung."
+    },
+    "ReasonSubType": {
+      "definition": "Untergeordnete Art, die den Grund für die Eröffnung einer Untersuchung näher bestimmt."
+    },
+    "AdditionalRequestData": {
+      "definition": "Zusätzliche Informationen zur Anfrage."
+    },
+    "RelatedInvestigationData": {
+      "definition": "Zusätzliche Informationen zur Anfrage, die gesondert gesendet oder bereitgestellt werden, zum Beispiel die Kopie eines Reisepasses."
+    },
+    "EnclosedFile": {
+      "definition": "In der Nachricht beigefügtes Dokument.||Verwendung: Die Verwendung des Elements EnclosedFile muss bilateral vereinbart werden."
+    },
+    "RelatedFileData": {
+      "definition": "Angaben zu einem Dokument, das der Nachricht nicht beigefügt ist und gesondert gesendet oder bereitgestellt wird."
+    }
+  },
+  "isoRules": {
+    "InvestigationReasonAndAdditionalRequestDataRule": {
+      "definition": "Lautet Reason/Code Narrative (NARR), muss AdditionalRequestData vorhanden sein."
+    }
+  }
+}

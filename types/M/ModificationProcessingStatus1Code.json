@@ -1,0 +1,30 @@
+{
+  "isoType": "ModificationProcessingStatus1Code",
+  "definition": "Gibt den Status eines Stornierungsauftrags an.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Akzeptiert",
+      "definition": "Der Änderungsauftrag wurde von der kontoführenden Stelle zur Weiterverarbeitung bestätigt."
+    },
+    "REJT": {
+      "name": "Abgelehnt",
+      "definition": "Die Änderung wurde zur Weiterverarbeitung abgelehnt."
+    },
+    "MODC": {
+      "name": "Abgeschlossen",
+      "definition": "Die Änderung wurde abgeschlossen."
+    },
+    "DEND": {
+      "name": "Verweigert",
+      "definition": "Die Änderung wird nicht ausgeführt."
+    },
+    "MODP": {
+      "name": "Ausstehend",
+      "definition": "Die Änderung ist ausstehend. Es ist derzeit nicht bekannt, ob die Änderung ausgeführt werden kann."
+    },
+    "REPR": {
+      "name": "In Klärung",
+      "definition": "Der Änderungsauftrag befindet sich in der Klärung."
+    }
+  }
+}

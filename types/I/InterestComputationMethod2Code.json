@@ -1,0 +1,66 @@
+{
+  "isoType": "InterestComputationMethod2Code",
+  "definition": "Gibt die Methode zur Berechnung der aufgelaufenen Zinsen eines Finanzinstruments an.",
+  "isoCodes": {
+    "A001": {
+      "name": "30/360 ISDA oder 30/360 amerikanische Basisregel",
+      "definition": "Methode, bei der die Zinsen auf der Grundlage eines 30-Tage-Monats und eines 360-Tage-Jahres berechnet werden. Die aufgelaufenen Zinsen bis zu einem Valutadatum am letzten Tag eines Monats entsprechen denen bis zum 30. Kalendertag desselben Monats, mit Ausnahme des Februars und sofern die Zinsperiode an einem 30. oder 31. begann. Das bedeutet, dass ein 31. als 30. angenommen wird, wenn die Periode an einem 30. oder 31. begann, und der 28. Feb. (bzw. der 29. Feb. in einem Schaltjahr) als 28. (bzw. 29.) angenommen wird. Dies ist die am häufigsten verwendete 30/360-Methode für US-amerikanische Standard- und Wandelanleihen."
+    },
+    "A002": {
+      "name": "30/365",
+      "definition": "Methode, bei der die Zinsen auf der Grundlage eines 30-Tage-Monats in ähnlicher Weise wie bei 30/360 (Grundregel) und eines 365-Tage-Jahres berechnet werden. Die aufgelaufenen Zinsen bis zu einem Valutadatum am letzten Tag eines Monats entsprechen denen bis zum 30. Kalendertag desselben Monats, mit Ausnahme des Februars. Das bedeutet, dass ein 31. als 30. angenommen wird und der 28. Feb. (bzw. der 29. Feb. in einem Schaltjahr) als 28. (bzw. 29.) angenommen wird."
+    },
+    "A003": {
+      "name": "30/Actual",
+      "definition": "Methode, bei der die Zinsen auf der Grundlage eines 30-Tage-Monats in ähnlicher Weise wie bei 30/360 (Grundregel) und der angenommenen Anzahl von Tagen eines Jahres in ähnlicher Weise wie bei Actual/Actual (ICMA) berechnet werden. Die aufgelaufenen Zinsen bis zu einem Valutadatum am letzten Tag eines Monats entsprechen denen bis zum 30. Kalendertag desselben Monats, mit Ausnahme des Februars. Das bedeutet, dass der 31. als 30. angenommen wird und der 28. Feb. (bzw. der 29. Feb. in einem Schaltjahr) als 28. (bzw. 29.) angenommen wird. Die angenommene Anzahl von Tagen eines Jahres wird als die tatsächliche Anzahl von Tagen der Kuponperiode multipliziert mit der Anzahl der Zinszahlungen im Jahr berechnet."
+    },
+    "A004": {
+      "name": "Actual/360",
+      "definition": "Methode, bei der die Zinsen auf der Grundlage der tatsächlichen Anzahl aufgelaufener Tage der Zinsperiode und eines 360-Tage-Jahres berechnet werden."
+    },
+    "A005": {
+      "name": "Actual/365 fest",
+      "definition": "Methode, bei der die Zinsen auf der Grundlage der tatsächlichen Anzahl aufgelaufener Tage der Zinsperiode und eines 365-Tage-Jahres berechnet werden."
+    },
+    "A006": {
+      "name": "Actual/Actual ICMA",
+      "definition": "Methode, bei der die Zinsen auf der Grundlage der tatsächlichen Anzahl aufgelaufener Tage und der angenommenen Anzahl von Tagen eines Jahres berechnet werden, das heißt der tatsächlichen Anzahl von Tagen der Kuponperiode multipliziert mit der Anzahl der Zinszahlungen im Jahr. Ist die Kuponperiode unregelmäßig (erster oder letzter Kupon), wird sie in Quasi-Zinsperioden mit der Länge einer regulären Kuponperiode verlängert oder aufgeteilt; die Berechnung erfolgt getrennt für jede Quasi-Zinsperiode, und die Zwischenergebnisse werden aufsummiert."
+    },
+    "A007": {
+      "name": "30E/360 oder Eurobond-Basis, Modell 1",
+      "definition": "Methode, bei der die Zinsen auf der Grundlage eines 30-Tage-Monats und eines 360-Tage-Jahres berechnet werden. Die aufgelaufenen Zinsen bis zu einem Valutadatum am letzten Tag eines Monats entsprechen denen bis zum 30. Kalendertag desselben Monats. Das bedeutet, dass der 31. als 30. angenommen wird und der 28. Feb. (bzw. der 29. Feb. in einem Schaltjahr) als dem 30. Feb. gleichwertig angenommen wird. Ist der letzte Tag der Kuponperiode bei Fälligkeit jedoch der letzte Tag des Februars, wird er nicht als 30. angenommen. Es handelt sich um eine Variante der 30/360-(ICMA-)Methode, die üblicherweise für Eurobonds verwendet wird. Die Verwendung dieser Variante ist nur relevant, wenn die Kuponperioden planmäßig am letzten Tag des Monats enden."
+    },
+    "A008": {
+      "name": "Actual/Actual ISDA",
+      "definition": "Methode, bei der die Zinsen auf der Grundlage der tatsächlichen Anzahl aufgelaufener Tage der Zinsperiode, die in ein normales Jahr (Jahr) fallen, geteilt durch 365, zuzüglich der tatsächlichen Anzahl von Tagen der Zinsperiode, die in ein Schaltjahr (Jahr) fallen, geteilt durch 366, berechnet werden."
+    },
+    "A009": {
+      "name": "Actual/365L oder Actual/Actual-Basisregel",
+      "definition": "Methode, bei der die Zinsen auf der Grundlage der tatsächlichen Anzahl aufgelaufener Tage und eines 365-Tage-Jahres (wenn der Kuponzahlungstermin NICHT in einem Schaltjahr liegt) oder eines 366-Tage-Jahres (wenn der Kuponzahlungstermin in einem Schaltjahr liegt) berechnet werden."
+    },
+    "A010": {
+      "name": "Actual/Actual AFB",
+      "definition": "Methode, bei der die Zinsen auf der Grundlage der tatsächlichen Anzahl aufgelaufener Tage und eines 366-Tage-Jahres (wenn der 29. Feb. in die Kuponperiode fällt) oder eines 365-Tage-Jahres (wenn der 29. Feb. nicht in die Kuponperiode fällt) berechnet werden. Ist eine Kuponperiode länger als ein Jahr, wird sie aufgeteilt, indem vom Ende der Kuponperiode rückwärts zählend wiederholt volle Jahres-Teilperioden abgetrennt werden (ein Jahr rückwärts vom 28. Feb. ist der 29. Feb., sofern vorhanden). Die erste der Teilperioden beginnt am Startdatum der Periode der aufgelaufenen Zinsen und ist somit möglicherweise kürzer als ein Jahr. Anschließend wird die Zinsberechnung getrennt für jede Teilperiode durchgeführt, und die Zwischenergebnisse werden aufsummiert."
+    },
+    "A011": {
+      "name": "30/360 ICMA oder 30/360 Basisregel",
+      "definition": "Methode, bei der die Zinsen auf der Grundlage eines 30-Tage-Monats und eines 360-Tage-Jahres berechnet werden. Die aufgelaufenen Zinsen bis zu einem Valutadatum am letzten Tag eines Monats entsprechen denen bis zum 30. Kalendertag desselben Monats, mit Ausnahme des Februars. Das bedeutet, dass der 31. als 30. angenommen wird und der 28. Feb. (bzw. der 29. Feb. in einem Schaltjahr) als 28. (bzw. 29.) angenommen wird. Dies ist die am häufigsten verwendete 30/360-Methode für nicht-US-amerikanische Standard- und Wandelanleihen, die vor dem 1. Januar 1999 begeben wurden."
+    },
+    "A012": {
+      "name": "30E2/360 oder Eurobond-Basis, Modell 2",
+      "definition": "Methode, bei der die Zinsen auf der Grundlage eines 30-Tage-Monats und eines 360-Tage-Jahres berechnet werden. Die aufgelaufenen Zinsen bis zu einem Valutadatum am letzten Tag eines Monats entsprechen denen bis zum 30. Kalendertag desselben Monats, mit Ausnahme des letzten Februartages, dessen Tageswert an den Wert des ersten Tages der Zinsperiode angepasst wird, sofern dieser höher ist und die Periode Teil eines regulären Zahlungsplans ist. Das bedeutet, dass der 31. als 30. angenommen wird und der 28. Feb. eines Nicht-Schaltjahres als dem 29. Feb. gleichwertig angenommen wird, wenn der erste Tag der Zinsperiode der 29. ist, oder als dem 30. Feb. gleichwertig, wenn der erste Tag der Zinsperiode der 30. oder 31. ist. Der 29. Februar in einem Schaltjahr wird als dem 30. Feb. gleichwertig angenommen, wenn der erste Tag der Zinsperiode der 30. oder 31. ist. Entsprechend wird, wenn die Kuponperiode am letzten Tag des Februars beginnt, angenommen, dass sie im Februar nur einen Tag Zinsen erzeugt, als begänne sie am 30. Feb., wenn das Ende der Periode der 30. oder 31. ist, oder zwei Tage Zinsen im Februar, wenn das Ende der Periode der 29. ist, oder drei Tage Zinsen im Februar, wenn es der 28. Feb. eines Nicht-Schaltjahres ist und das Ende der Periode vor dem 29. liegt."
+    },
+    "A013": {
+      "name": "30E3/360 oder Eurobond-Basis, Modell 3",
+      "definition": "Methode, bei der die Zinsen auf der Grundlage eines 30-Tage-Monats und eines 360-Tage-Jahres berechnet werden. Die aufgelaufenen Zinsen bis zu einem Valutadatum am letzten Tag eines Monats entsprechen denen bis zum 30. Kalendertag desselben Monats. Das bedeutet, dass der 31. als 30. angenommen wird und der 28. Feb. (bzw. der 29. Feb. in einem Schaltjahr) als dem 30. Feb. gleichwertig angenommen wird. Es handelt sich um eine Variante der 30E/360-Methode (oder Eurobond-Basis), bei der der letzte Tag des Februars stets als 30. angenommen wird, auch wenn er der letzte Tag der Kuponperiode bei Fälligkeit ist."
+    },
+    "A014": {
+      "name": "Actual/365NL",
+      "definition": "Methode, bei der die Zinsen auf der Grundlage der tatsächlichen Anzahl aufgelaufener Tage der Zinsperiode unter Ausschluss eines etwaigen Schalttags und eines 365-Tage-Jahres berechnet werden."
+    },
+    "NARR": {
+      "name": "Freitext",
+      "definition": "Andere Methode als A001-A020. Siehe Narrative."
+    }
+  }
+}

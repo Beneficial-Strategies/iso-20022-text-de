@@ -1,0 +1,29 @@
+{
+  "isoType": "CorporateActionGeneralInformation179",
+  "definition": "Allgemeine Informationen zum Kapitalmaßnahmen-Ereignis.",
+  "isoElements": {
+    "CorporateActionEventIdentification": {
+      "definition": "Referenz, vergeben vom Kontoführer, zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "definition": "Offizielle und eindeutige Referenz, die zu Beginn eines Kapitalmaßnahmen-Ereignisses von der offiziellen zentralen Stelle bzw. Einrichtung innerhalb des jeweiligen Marktes vergeben wird."
+    },
+    "ClassActionNumber": {
+      "definition": "Von einem Gericht vergebene Referenz für eine Sammelklage."
+    },
+    "EventType": {
+      "definition": "Art des Kapitalmaßnahmen-Ereignisses."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifikation des von der Kapitalmaßnahme betroffenen Wertpapiers."
+    },
+    "FractionalQuantity": {
+      "definition": "Bruchteilsmenge aus einem Ereignis, die in bar abgegolten wird."
+    }
+  },
+  "isoRules": {
+    "OfficialCorporateActionEventReference": {
+      "definition": "Die Securities Market Practice Group (SMPG) hat Marktpraxis-Empfehlungen zu Struktur und Verwendung der offiziellen Referenz des Kapitalmaßnahmen-Ereignisses (COAF) veröffentlicht. Diese Empfehlungen sind|im Dokument SMPG Global Market Practices Part 1 unter www.smpg.info verfügbar."
+    }
+  }
+}

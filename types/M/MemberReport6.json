@@ -1,0 +1,12 @@
+{
+  "isoType": "MemberReport6",
+  "definition": "Meldet entweder zu einem Mitglied oder einen fachlichen Fehler.",
+  "isoElements": {
+    "MemberIdentification": {
+      "definition": "Eindeutige Identifikation eines Mitglieds innerhalb eines Systems, vergeben nach dem Mitglieds-Identifikationsschema des Systems."
+    },
+    "MemberOrError": {
+      "definition": "Meldet entweder zu einem Mitglied oder einen fachlichen Fehler."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "ActiveOrHistoricCurrencyAndAmountRange2",
+  "definition": "Bereich von Betragswerten.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Angegebener Betrag oder Betragsbereich."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob es sich bei dem Betrag um einen Gutschrifts- oder einen Lastschriftbetrag handelt."
+    },
+    "Currency": {
+      "definition": "Tauschmittel, das zur Qualifizierung eines Betrags verwendet wird."
+    }
+  }
+}

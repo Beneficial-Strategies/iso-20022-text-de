@@ -1,0 +1,50 @@
+{
+  "isoType": "CorporateActionChangeType1Code",
+  "definition": "Gibt die Art der Änderungen an.",
+  "isoCodes": {
+    "BERE": {
+      "name": "Inhaber- zu Namenspapier",
+      "definition": "Umwandlung von der Inhaberform in die Namensform."
+    },
+    "CERT": {
+      "name": "Zertifikate",
+      "definition": "Umwandlung aller Instrumente in Zertifikate."
+    },
+    "DEPH": {
+      "name": "Dematerialisiert zu physisch",
+      "definition": "Umwandlung von der entmaterialisierten in die physische Form."
+    },
+    "GPPH": {
+      "name": "Dauerglobalurkunde zu physisch",
+      "definition": "Umwandlung von der Globaldauerurkunde in die physische Form."
+    },
+    "GTGP": {
+      "name": "Vorläufige Globalurkunde zu Dauerglobalurkunde",
+      "definition": "Umwandlung von der vorläufigen Globalurkunde in die Globaldauerurkunde."
+    },
+    "GTPH": {
+      "name": "Vorläufige Globalurkunde zu physisch",
+      "definition": "Umwandlung von der vorläufigen Globalurkunde in die physische Form."
+    },
+    "NAME": {
+      "name": "Name",
+      "definition": "Die emittierende Gesellschaft ändert ihren Namen. Das CA-Ereignis zeigt die Änderung vom alten zum neuen Namen und kann die Rückgabe physischer Aktien mit dem alten Namen an die Registerstelle beinhalten."
+    },
+    "PHDE": {
+      "name": "Physisch zu dematerialisiert",
+      "definition": "Umwandlung von der physischen in die entmaterialisierte Form."
+    },
+    "REBE": {
+      "name": "Namens- zu Inhaberpapier",
+      "definition": "Umwandlung von der Namensform in die Inhaberform."
+    },
+    "TERM": {
+      "name": "Bedingungen",
+      "definition": "Änderung der Bedingungen des Wertpapiers."
+    },
+    "DECI": {
+      "name": "Dezimalisierung",
+      "definition": "Vorgang der Änderung der Buchungsmethode eines Wertpapiers, zum Beispiel eines Investmentfonds, von Anteilen auf eine Menge mit Dezimalstellen."
+    }
+  }
+}

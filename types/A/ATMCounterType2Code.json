@@ -1,0 +1,22 @@
+{
+  "isoType": "ATMCounterType2Code",
+  "definition": "Art der Zähler der Kassetten des ATM.",
+  "isoCodes": {
+    "BDAY": {
+      "name": "Geschäftstag",
+      "definition": "Zähler seit Beginn des Geschäftstags."
+    },
+    "INQU": {
+      "name": "Zählerabfrage",
+      "definition": "Zähler seit der letzten Zählerabfrage."
+    },
+    "CTOF": {
+      "name": "Annahmeschluss",
+      "definition": "Zähler seit dem letzten Tagesabschluss."
+    },
+    "OPER": {
+      "name": "Bedienerkorrektur",
+      "definition": "Zähler seit der letzten Aktualisierung durch einen Bediener am ATM."
+    }
+  }
+}

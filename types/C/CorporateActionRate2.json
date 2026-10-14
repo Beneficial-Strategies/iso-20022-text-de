@@ -1,0 +1,105 @@
+{
+  "isoType": "CorporateActionRate2",
+  "definition": "Gibt Sätze an.",
+  "isoElements": {
+    "WithholdingTax": {
+      "definition": "Prozentsatz einer Barausschüttung, der von einer Steuerbehörde einbehalten wird."
+    },
+    "WithholdingOfForeignTax": {
+      "definition": "Satz, zu dem die Erträge von dem Rechtsraum einbehalten werden, in dem die Erträge ursprünglich gezahlt wurden, und für den eine Entlastung an der Quelle und/oder eine Rückerstattung möglich sein kann."
+    },
+    "WithholdingOfLocalTax": {
+      "definition": "Satz, zu dem die Erträge von dem Rechtsraum einbehalten werden, in dem der Kontoinhaber ansässig ist, und für den eine Entlastung an der Quelle und/oder eine Rückerstattung möglich sein kann."
+    },
+    "GermanLocalTax1": {
+      "definition": "Lokale Steuer (ZAS Anrechnungsbetrag), die der Zinsabschlagsteuer unterliegt (Anteil der zinsabschlagsteuerpflichtigen Zinsen/Zwischengewinne, der nicht durch den steuerfreien Betrag gedeckt ist)."
+    },
+    "GermanLocalTax2": {
+      "definition": "Lokale Steuer (ZAS Pflichtige Zinsen) - zinsabschlagsteuerpflichtige Zinsen (Anteil der Bruttozinsen pro Anteil/Zwischengewinne, der nicht durch die Gutschrift im Zinstopf gedeckt ist)."
+    },
+    "GermanLocalTax3": {
+      "definition": "Lokale Steuer (Zinstopf) - Verrechnung der Zinsen pro Anteil mit dem steuerfreien Betrag (Abweichung bei der Verrechnung der Zinsen pro Anteil in Bezug auf den steuerfreien Betrag)."
+    },
+    "GermanLocalTax4": {
+      "definition": "Lokale Steuer (Ertrag Besitzanteilig) - zinsabschlagsteuerpflichtiger Ertrag."
+    },
+    "TaxOnIncome": {
+      "definition": "Besteuerung eines Betrags, der eindeutig als Ertrag gekennzeichnet ist."
+    },
+    "TaxOnProfit": {
+      "definition": "Besteuerung eines Betrags, der eindeutig als Kapitalerträge, Kapitalgewinne ausgewiesen ist."
+    },
+    "TaxReclaim": {
+      "definition": "Prozentsatz des Barbetrags, der über die tatsächliche Steuerschuld hinaus gezahlt und zurückgefordert wurde."
+    },
+    "FiscalStamp": {
+      "definition": "Anzuwendender Prozentsatz der Fiskalsteuer."
+    },
+    "Proration": {
+      "definition": "Für das Angebot verwendete anteilige Zuteilung."
+    },
+    "NewToOld": {
+      "definition": "Menge neuer Wertpapiere für eine bestimmte Menge zugrunde liegender Wertpapiere, wobei die zugrunde liegenden Wertpapiere umgetauscht oder belastet werden, z. B. 2 für 1: 2 neue Aktien gutgeschrieben für jede 1 belastete zugrunde liegende Aktie = 2 resultierende Aktien."
+    },
+    "NewSecuritiesToUnderlyingSecurities": {
+      "definition": "Menge neuer Aktien, die sich aus der Ausübung einer bestimmten Menge von Zwischenwertpapieren ergibt."
+    },
+    "AdditionalQuantityForExistingSecurities": {
+      "definition": "Menge zusätzlicher Wertpapiere für eine bestimmte Menge zugrunde liegender Wertpapiere, wobei die zugrunde liegenden Wertpapiere nicht umgetauscht oder belastet werden, z. B. 1 für 1: 1 neue|Aktie gutgeschrieben für jede 1 zugrunde liegende Aktie = 2 resultierende Aktien."
+    },
+    "AdditionalQuantityForSubscribedResultantSecurities": {
+      "definition": "Menge zusätzlicher Zwischenwertpapiere/neuer Aktien, die für eine bestimmte, aus der Zeichnung abgeleitete Wertpapiermenge zugeteilt werden."
+    },
+    "RelatedTax": {
+      "definition": "Prozentsatz des Bruttodividendensatzes, auf den Steuer zu entrichten ist."
+    },
+    "NonResidentRate": {
+      "definition": "Satz pro Aktie, auf den ein Gebietsfremder Anspruch hat."
+    },
+    "Charges": {
+      "definition": "Satz zur Berechnung des Betrags der Entgelte/Gebühren, die nicht kategorisiert werden können."
+    },
+    "InterestForUsedPayment": {
+      "definition": "Der tatsächliche Zinssatz, der für die Zahlung der Zinsen für den angegebenen Zinszeitraum verwendet wird."
+    },
+    "IndexFactor": {
+      "definition": "Öffentlicher Indexsatz, der auf den gezahlten Betrag angewendet wird, um ihn an die Inflation anzupassen."
+    },
+    "FullyFranked": {
+      "definition": "Satz, der sich aus einer von einem Unternehmen gezahlten voll angerechneten Dividende (Fully Franked) ergibt; der Satz beinhaltet eine Steuergutschrift für Unternehmen, die im Geschäftsjahr ausreichende Steuerzahlungen geleistet haben."
+    },
+    "GrossDividend": {
+      "definition": "Bardividendenbetrag pro Aktie vor Abzügen oder Freibeträgen."
+    },
+    "NetDividend": {
+      "definition": "Bardividendenbetrag pro Aktie nach Abzügen oder Freibeträgen."
+    },
+    "FinalDividend": {
+      "definition": "Die Dividende ist endgültig."
+    },
+    "ProvisionalDividend": {
+      "definition": "Die Dividende ist vorläufig."
+    },
+    "CashIncentive": {
+      "definition": "Satz der Barprämie, die bereitgestellt wird, wenn der Wertpapierinhaber einem Ereignis zustimmt oder daran teilnimmt, z. B. Zustimmungsgebühren."
+    },
+    "SolicitationFee": {
+      "definition": "Barsatz, der in einem Angebot bereitgestellt wird, um die Teilnahme am Angebot zu fördern."
+    },
+    "MaximumAllowedOversubscription": {
+      "definition": "Ein maximaler Prozentsatz von Aktien, die über das Überzeichnungsrecht verfügbar sind, in der Regel ein Prozentsatz der Basiszeichnungsaktien, z. B. kann ein Kontoinhaber, der 100 Aktien zeichnet, maximal 50 zusätzliche Aktien überzeichnen, wenn das Überzeichnungsmaximum 50 % beträgt."
+    },
+    "AdditionalTax": {
+      "definition": "Satz für zusätzliche Steuern, die nicht kategorisiert werden können."
+    },
+    "OriginalAmount": {
+      "definition": "Betrag in seiner ursprünglichen Währung, wenn eine Umrechnung von/in eine andere Währung stattgefunden hat."
+    },
+    "ExchangeRate": {
+      "definition": "Liefert Informationen zu einem Devisengeschäft."
+    },
+    "ApplicableRate": {
+      "definition": "Für das angekündigte Ereignis geltender Satz, z. B. Rückzahlungssatz bei einem Rückzahlungsereignis."
+    }
+  }
+}

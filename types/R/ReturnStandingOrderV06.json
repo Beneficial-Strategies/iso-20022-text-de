@@ -1,0 +1,4 @@
+{
+  "isoType": "ReturnStandingOrderV06",
+  "definition": "Geltungsbereich|Die Nachricht ReturnStandingOrder wird von einem Transaktionsadministrator an einen Teilnehmer gesendet.|Sie dient dazu, Informationen zu den Einzelheiten eines oder mehrerer Daueraufträge auf Grundlage spezifischer Anfrage- und Rückgabekriterien bereitzustellen.|als Antwort auf eine Anfrage nach Informationen zu Daueraufträgen und vordefinierten Aufträgen.|Verwendung|Die Nachricht ReturnStandingOrder listet den Dauerauftrag anhand der folgenden möglichen Rückgabekriterien auf: |- Allgemeine Einzelheiten zum Dauerauftrag,|- Einzelheiten zu einem bestimmten vordefinierten oder Dauer-Liquiditätsübertragungsauftrag,|- Einzelheiten zu der Gruppe, zu der der Dauerauftrag gehört,|- Liste aller vordefinierten und Dauer-Liquiditätsübertragungsaufträge und/oder je Gruppe,|- Gesamtbetrag der im System definierten vordefinierten und Dauer-Liquiditätsübertragungsaufträge."
+}

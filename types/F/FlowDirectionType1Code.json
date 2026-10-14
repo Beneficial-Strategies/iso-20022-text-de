@@ -1,0 +1,14 @@
+{
+  "isoType": "FlowDirectionType1Code",
+  "definition": "Gibt die Richtung eines Zahlungsstroms an.",
+  "isoCodes": {
+    "INCG": {
+      "name": "Eingehend",
+      "definition": "Erhaltener Geldbetrag."
+    },
+    "OUTG": {
+      "name": "Ausgehend",
+      "definition": "Ausgezahlter Geldbetrag."
+    }
+  }
+}

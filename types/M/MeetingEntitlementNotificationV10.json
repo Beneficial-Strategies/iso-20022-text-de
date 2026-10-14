@@ -1,0 +1,17 @@
+{
+  "isoType": "MeetingEntitlementNotificationV10",
+  "definition": "Anwendungsbereich|Die Nachricht MeetingEntitlementNotification wird von einem kontoführenden Institut an den Kontoinhaber gesendet, um den Anspruch in Bezug auf eine Versammlung mitzuteilen.|Verwendung|Diese Nachricht wird gesendet, um die Menge der von einem Kontoinhaber gehaltenen Wertpapiere mitzuteilen. Der Bestand wird für die Wertpapiere angegeben, für die die Versammlung stattfindet. Die Nachricht wird auch verwendet, um eine zuvor gesendete MeetingEntitlementNotification zu ändern. |Die Nachricht MeetingEntitlementNotification kann entweder vor Erhalt einer Abstimmungsanweisung gesendet werden, um den Anspruch zu bestätigen, oder nach Erhalt einer Abstimmungsanweisung, um Details zur an der Versammlung teilnehmenden Person zu bestätigen. |Die Nachricht kann auch anstelle einer Teilnahmekarte oder zur Bestätigung von Ansprüchen bei Inhaberaktien verwendet werden.|Diese Nachrichtendefinition ist für die Verwendung mit dem Business Application Header (BAH) vorgesehen.",
+  "isoElements": {
+    "NotificationType": {
+      "definition": "Art der Benachrichtigung."
+    },
+    "PreviousEntitlementNotificationIdentification": {
+      "definition": "Identifikation der ursprünglichen Nachricht zur Benachrichtigung über den Versammlungsanspruch, die geändert wird."
+    }
+  },
+  "isoRules": {
+    "PreviousEntitlementNotificationIdentificationRule": {
+      "definition": "Wenn NotificationType REPL (Replacement) ist, muss PreviousEntitlementNotificationIdentification vorhanden sein."
+    }
+  }
+}

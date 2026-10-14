@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentRole1Choice",
+  "definition": "Gibt die Rolle an, die einer bestimmten Partei in Bezug auf eine Zahlungsanweisung zugeordnet ist.",
+  "isoElements": {
+    "Code": {
+      "definition": "Rolle der Zahlungspartei in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Rolle der Zahlungspartei in proprietärer Form."
+    }
+  }
+}

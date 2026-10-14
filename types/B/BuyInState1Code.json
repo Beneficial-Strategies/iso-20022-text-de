@@ -1,0 +1,18 @@
+{
+  "isoType": "BuyInState1Code",
+  "definition": "Gibt den Status der Zwangsdeckung (Buy-in) an.",
+  "isoCodes": {
+    "BSSP": {
+      "name": "Teilweise erfolgreich",
+      "definition": "Die Zwangsdeckung (Buy-in) war teilweise erfolgreich."
+    },
+    "BSSY": {
+      "name": "Erfolgreich",
+      "definition": "Die Zwangsdeckung (Buy-in) war erfolgreich."
+    },
+    "BSSN": {
+      "name": "Nicht erfolgreich",
+      "definition": "Die Zwangsdeckung (Buy-in) war nicht erfolgreich."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "BeneficiaryType1Code",
+  "definition": "Gibt eine Art von Begünstigtem an.",
+  "isoCodes": {
+    "DEPE": {
+      "name": "Unterhaltsberechtigter",
+      "definition": "Der Begünstigte ist ein Angehöriger (Unterhaltsberechtigter)."
+    },
+    "NOMI": {
+      "name": "Nominee",
+      "definition": "Der Begünstigte ist ein Nominee (benannte Person)."
+    },
+    "SUCC": {
+      "name": "Nachfolger",
+      "definition": "Der Begünstigte ist ein Nachfolger."
+    }
+  }
+}

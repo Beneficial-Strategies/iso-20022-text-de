@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCADistributionBreakdownAdviceV01",
+  "definition": "Umfang|Diese Nachricht wird von einem CSD an einen Emittenten (oder dessen Agenten) gesendet, um Informationen zur Aufschlüsselung der Ausschüttung für die Erlöse zu liefern, die außerhalb des CSD geliefert werden sollen (z. B. wenn die Erlöse im CSD nicht zulässig sind).|Verwendung|Diese Nachricht wird verwendet, um Informationen zur Aufschlüsselung der Ausschüttung (Wertpapiere und/oder Geld) pro Konto für eine bestimmte Option einer Kapitalmaßnahme zu liefern.|Hinweis: Die Lieferdetails werden über die Agent Corporate Action Information Advice gesendet."
+}

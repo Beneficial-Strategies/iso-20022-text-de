@@ -1,0 +1,12 @@
+{
+  "isoType": "PriceValueType5FormatChoice",
+  "definition": "Auswahl der Formate zur Angabe des Werts eines Kurses.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Werts eines Kurses."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe des Werts eines Kurses."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionNarrative1",
+  "definition": "Liefert zusätzliche Informationen, wie die Besteuerungsbedingungen.",
+  "isoElements": {
+    "InformationConditions": {
+      "definition": "Liefert bedingte Informationen zum Ereignis, z. B. dass ein Angebot einer Annahmequote von 50 % unterliegt oder dass der Anbieter dem Wertpapierinhaber erlaubt, bestimmte Bedingungen festzulegen."
+    },
+    "InformationToComplyWith": {
+      "definition": "Liefert dem Kontoinhaber Informationen zu einzuhaltenden Bedingungen, z. B. nicht offen für in den US/Kanada ansässige Personen, oder dass QIB bzw. SIL vorzulegen sind."
+    },
+    "TaxationConditions": {
+      "definition": "Liefert Besteuerungsbedingungen, die nicht in den strukturierten Feldern dieser Nachricht enthalten sein können."
+    },
+    "NewCompanyName": {
+      "definition": "Angabe des neuen Namens einer Gesellschaft nach einer Namensänderung."
+    },
+    "Offeror": {
+      "definition": "Gibt die Stelle an, die das Angebot unterbreitet und von der emittierenden Gesellschaft verschieden ist."
+    },
+    "URLAddress": {
+      "definition": "Liefert die für das Ereignis veröffentlichte Webadresse, d. h. die Adresse des Uniform Resource Locator (URL), z. B. für den Dienst im www (HTTP)."
+    },
+    "AdditionalText": {
+      "definition": "Liefert zusätzliche Informationen oder gibt den Inhalt einer|Nachricht genauer an."
+    }
+  }
+}

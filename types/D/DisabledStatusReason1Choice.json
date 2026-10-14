@@ -1,0 +1,12 @@
+{
+  "isoType": "DisabledStatusReason1Choice",
+  "definition": "Auswahl der Formate für den Grund eines deaktivierten Status.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Für den deaktivierten Kontostatus liegt kein Grund vor oder ist kein Grund zu melden."
+    },
+    "Reason": {
+      "definition": "Grund für den deaktivierten Kontostatus."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "FractionDispositionType28Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe der Art der Behandlung von Bruchteilen.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt an, wie Bruchteile aus abgeleiteten Wertpapieren verarbeitet werden oder wie anteilig gekürzte Entscheidungen gerundet werden, sofern ein Zuteilungssatz angegeben ist."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Art der Behandlung von Bruchteilen."
+    }
+  }
+}

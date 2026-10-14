@@ -1,0 +1,30 @@
+{
+  "isoType": "OriginatorRole2Code",
+  "definition": "Gibt die Rolle der Handelspartei in der Transaktion an.",
+  "isoCodes": {
+    "SINT": {
+      "name": "Systematischer Internalisierer",
+      "definition": "Unternehmen, die auf organisierter, häufiger und systematischer Basis auf eigene Rechnung handeln, indem sie Kundenaufträge außerhalb eines geregelten Marktes oder eines Multilateral Trading Facility ausführen. SI's sind verpflichtet, für liquide Wertpapiere verbindliche Geld- und Briefkurse zu stellen und zu veröffentlichen. Sie fungieren als \"Mini\"-Börsen."
+    },
+    "MLTF": {
+      "name": "Multilaterales Handelssystem",
+      "definition": "Multilaterales System, das mehrere Kauf- und Verkaufsinteressen Dritter an Finanzinstrumenten so zusammenführt, dass ein Vertrag zustande kommt."
+    },
+    "RMKT": {
+      "name": "Geregelter Markt",
+      "definition": "Markt, an dem Finanzinstrumente nach den von der Börse festgelegten Regeln gehandelt werden können."
+    },
+    "MKTM": {
+      "name": "Market Maker",
+      "definition": "Händler oder Spezialist, der im OTC-Markt für eigene Rechnung handelt. Von Marktmachern wird erwartet, dass sie einen geordneten Markt aufrechterhalten, indem sie für Käufe oder Verkäufe zur Verfügung stehen."
+    },
+    "INVE": {
+      "name": "Anleger",
+      "definition": "Partei, entweder eine Einzelperson oder eine Organisation, deren Vermögenswerte angelegt werden."
+    },
+    "TAGT": {
+      "name": "Transferstelle",
+      "definition": "Von der Fondsverwaltungsgesellschaft beauftragte Partei. Sie aktualisiert die Anlegerkontenbestände, um die täglichen Käufe, Rücknahmen, Umschichtungen, Übertragungen und Umregistrierungen der Anleger abzubilden. Sie stellt die rechtzeitige Abwicklung von Transaktionen sicher und kann dem Anleger und/oder dessen Intermediären Steuerinformationen bereitstellen. Sie kann Provisionen berechnen, einziehen und rückvergüten. Sie erstellt und versendet Bestätigungen über Transaktionen, die zu Anteils- oder Geldkontobewegungen beim Anleger oder beim Intermediär des Anlegers führen. Sie beantwortet Anfragen zum Kontostatus und verarbeitet die Ertragsausschüttung."
+    }
+  }
+}

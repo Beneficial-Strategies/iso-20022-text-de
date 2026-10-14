@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationReasonSubType1Choice",
+  "definition": "Gibt die Grundcode-Unterart einer Untersuchung an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund-Unterart, wie im externen Codesatz für Untersuchungsgrund-Unterarten veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Grund-Unterart in proprietärer Form."
+    }
+  }
+}

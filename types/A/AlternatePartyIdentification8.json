@@ -1,0 +1,15 @@
+{
+  "isoType": "AlternatePartyIdentification8",
+  "definition": "Alternative Identifikation einer Partei mit einer Identifikationsart, einem Ländercode und einem Textfeld.",
+  "isoElements": {
+    "IdentificationType": {
+      "definition": "Legt die Art der alternativen Identifikation der identifizierten Partei fest."
+    },
+    "Country": {
+      "definition": "Staat mit eigener Regierung, der ein bestimmtes Gebiet einnimmt."
+    },
+    "AlternateIdentification": {
+      "definition": "Alternative Identifikation einer Partei."
+    }
+  }
+}

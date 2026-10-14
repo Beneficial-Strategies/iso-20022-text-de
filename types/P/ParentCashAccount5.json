@@ -1,0 +1,15 @@
+{
+  "isoType": "ParentCashAccount5",
+  "definition": "Gibt die Kontoelemente eines übergeordneten Kontos an.",
+  "isoElements": {
+    "Level": {
+      "definition": "Legt die Ebene des übergeordneten Kontos innerhalb einer Hierarchie fest."
+    },
+    "Identification": {
+      "definition": "Eindeutige und unmissverständliche Identifikation des übergeordneten Kontos zwischen dem Inhaber und dem kontoführenden Institut des übergeordneten Kontos."
+    },
+    "Servicer": {
+      "definition": "Finanzinstitut, bei dem das übergeordnete Konto geführt wird."
+    }
+  }
+}

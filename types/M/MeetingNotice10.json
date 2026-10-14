@@ -1,0 +1,75 @@
+{
+  "isoType": "MeetingNotice10",
+  "definition": "Angaben zu einer Versammlung, den Teilnahmevoraussetzungen und den Abstimmungsverfahren.",
+  "isoElements": {
+    "MeetingIdentification": {
+      "definition": "Identifikation, die der Hauptversammlung von der Partei vergeben wird, die die Versammlungsbenachrichtigung bereitstellt. Sie muss für die Partei, die die Benachrichtigung bereitstellt, eindeutig sein"
+    },
+    "IssuerMeetingIdentification": {
+      "definition": "Identifikation, die der Versammlung vom Emittenten vergeben wird. Sie muss für den Emittenten eindeutig sein."
+    },
+    "Type": {
+      "definition": "Art der Versammlung der Wertpapierinhaber."
+    },
+    "Classification": {
+      "definition": "Klassifizierung der Versammlung."
+    },
+    "AnnouncementDate": {
+      "definition": "Offizielles Ankündigungsdatum der Versammlung."
+    },
+    "OneManOneVoteIndicator": {
+      "definition": "Gibt an, ob die Abstimmung in der Versammlung nach dem Prinzip „ein Mann, eine Stimme“ erfolgt, auch als „Kopfstimmrecht“ bezeichnet, wonach der an der Versammlung teilnehmende Aktionär unabhängig von seinen Beständen nur eine Stimme hat."
+    },
+    "Participation": {
+      "definition": "Methode der Abstimmungsteilnahme an der Hauptversammlung und zugehörige Abstimmungsfrist je Teilnahmemethode."
+    },
+    "Attendance": {
+      "definition": "Angaben und Bedingungen für die physische Teilnahme an der Hauptversammlung."
+    },
+    "AdditionalDocumentationURLAddress": {
+      "definition": "Adresse für den Dienst im World Wide Web (HTTP), unter der zusätzliche Informationen zur Versammlung zu finden sind."
+    },
+    "EventProcessingWebSiteAddress": {
+      "definition": "Stellt die Webadresse eines Kontoführers (oder eines Dienstleisters) bereit, die Informationen enthält, die ausschließlich für den unmittelbaren Kontoinhaber bestimmt sind, um die Ereignisverarbeitung zwischen den Parteien zu ermöglichen oder zu erleichtern."
+    },
+    "AdditionalProcedureDetails": {
+      "definition": "Zusätzliche verfahrensbezogene Informationen zur Hauptversammlung, die die Teilnahmevoraussetzungen und die Abstimmungsverfahren angeben. Alternativ kann hierdurch angegeben werden, wo solche Informationen erhältlich sind."
+    },
+    "TotalNumberOfSecuritiesOutstanding": {
+      "definition": "Anzahl der zur Abstimmung zugelassenen Wertpapiere, ausgedrückt als Betrag und Währung."
+    },
+    "TotalNumberOfVotingRights": {
+      "definition": "Anzahl der zur Abstimmung zugelassenen Rechte."
+    },
+    "ProxyAppointmentNotificationAddress": {
+      "definition": "Adresse, an die die Angaben zum Bevollmächtigten zu senden sind."
+    },
+    "ProxyChoice": {
+      "definition": "Gibt den Bevollmächtigten an oder ob eine Vollmacht nicht zulässig ist."
+    },
+    "ContactPersonDetails": {
+      "definition": "Kontaktperson bei der Partei, die die Versammlung organisiert, beim Emittenten oder bei einem Intermediär."
+    },
+    "ResultPublicationDate": {
+      "definition": "Datum, an dem das Unternehmen die Ergebnisse seiner Versammlung veröffentlicht."
+    },
+    "SecuritiesBlockingPeriodEndDate": {
+      "definition": "Datum, bis zu dem der Sperrzeitraum für die Wertpapiere enden soll."
+    },
+    "EntitlementFixingDate": {
+      "definition": "Datum, an dem die Positionen festgestellt werden, um zu erfassen, welche Parteien den Anspruch erhalten, zum Beispiel Stichtag, Buchschlusstag."
+    },
+    "RegistrationSecuritiesDeadline": {
+      "definition": "Datum, bis zu dem die Wertpapiere registriert sein müssen. Diese Frist wird von einem Intermediär festgelegt."
+    },
+    "RegistrationSecuritiesMarketDeadline": {
+      "definition": "Datum, bis zu dem die Wertpapiere registriert sein müssen. Diese Frist wird vom Emittenten festgelegt."
+    },
+    "EnrolmentMarketDeadline": {
+      "definition": "Datum, bis zu dem die Anmeldung zur Teilnahme an der Hauptversammlung oder zur Ausübung von Stimmrechten angewiesen werden muss. Diese Frist wird vom Emittenten festgelegt."
+    },
+    "EnrolmentDeadline": {
+      "definition": "Datum, bis zu dem die Anmeldung zur Teilnahme an der Hauptversammlung oder zur Ausübung von Stimmrechten angewiesen werden muss. Diese Frist wird vom Intermediär festgelegt."
+    }
+  }
+}

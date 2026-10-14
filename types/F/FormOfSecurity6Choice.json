@@ -1,0 +1,12 @@
+{
+  "isoType": "FormOfSecurity6Choice",
+  "definition": "Auswahl des Formats für die Form der Wertpapiere.",
+  "isoElements": {
+    "Code": {
+      "definition": "Form des Wertpapiers, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Form des Wertpapiers, ausgedrückt als proprietärer Code."
+    }
+  }
+}

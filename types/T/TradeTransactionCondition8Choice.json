@@ -1,0 +1,12 @@
+{
+  "isoType": "TradeTransactionCondition8Choice",
+  "definition": "Auswahl des Formats für die Bedingungen der Handelstransaktion.",
+  "isoElements": {
+    "Code": {
+      "definition": "Handelsbedingung, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Handelsbedingung, ausgedrückt als proprietärer Code."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargeType10Choice",
+  "definition": "Auswahl von Formaten für die Gebührenart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gebühr (Entgelt/Provision), ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Gebühr (Entgelt/Provision), ausgedrückt als proprietärer Code."
+    }
+  }
+}

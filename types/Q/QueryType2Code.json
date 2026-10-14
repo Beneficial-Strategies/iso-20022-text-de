@@ -1,0 +1,22 @@
+{
+  "isoType": "QueryType2Code",
+  "definition": "Gibt die Art der Abfrage an, d. h. ob die Abfrage alle passenden Einträge oder nur die seit der letzten ähnlichen Abfrage neu hinzugekommenen passenden Einträge zurückliefern soll.",
+  "isoCodes": {
+    "ALLL": {
+      "name": "Alle",
+      "definition": "Gibt an, dass die Abfrage die Rückgabe aller passenden Einträge verlangt."
+    },
+    "CHNG": {
+      "name": "Geändert",
+      "definition": "Gibt an, dass die Abfrage nur die Rückgabe der passenden Einträge verlangt, die seit der letzten ähnlichen Abfrage neu hinzugekommen sind."
+    },
+    "MODF": {
+      "name": "Geändert",
+      "definition": "Gibt an, dass die Abfrage nur die Rückgabe der Einträge verlangt, die sich seit der letzten Abfrage geändert haben."
+    },
+    "DELD": {
+      "name": "Gelöscht",
+      "definition": "Gibt an, dass die Abfrage die Rückgabe der Einträge verlangt, die seit der letzten Abfrage gelöscht wurden."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DeniedReason17",
+  "definition": "Der Status einer Anweisung, Benachrichtigung oder eines Antrags.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, warum die Anforderung den Status zurückgewiesen hat."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Enthält zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

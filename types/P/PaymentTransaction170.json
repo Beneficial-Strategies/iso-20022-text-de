@@ -1,0 +1,54 @@
+{
+  "isoType": "PaymentTransaction170",
+  "definition": "Enthält weitere Angaben zu Referenz und Status der ursprünglichen Transaktionen der ursprünglichen Anweisung, auf die sich die Stornierungsnachricht bezieht.",
+  "isoElements": {
+    "CancellationStatusIdentification": {
+      "definition": "Eindeutiger und zweifelsfreier Identifikator eines Stornierungsstatus, vom Zuweisenden vergeben.||Verwendung: Die Identifikation des Stornierungsstatus kann für den Abgleich oder zur Verknüpfung von Aufgaben im Zusammenhang mit dem Stornierungsauftrag verwendet werden."
+    },
+    "ResolvedCase": {
+      "definition": "Identifiziert den gelösten Fall."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Enthält Angaben zur ursprünglichen Nachricht."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Eindeutige Identifikation, von der ursprünglichen anweisenden Partei für die ursprünglich angewiesene Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Anweisung."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Eindeutige Identifikation, von der ursprünglichen initiierenden Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Transaktion."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Eindeutige Identifikation, von der ursprünglichen ersten anweisenden Bank vergeben, zur zweifelsfreien Identifikation der Transaktion."
+    },
+    "OriginalClearingSystemReference": {
+      "definition": "Eindeutige Referenz, vom ursprünglichen Clearing-System vergeben, zur zweifelsfreien Identifikation der ursprünglichen Anweisung."
+    },
+    "OriginalUETR": {
+      "definition": "Universell eindeutiger Identifikator als ursprüngliche Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "TransactionCancellationStatus": {
+      "definition": "Gibt den Status des Transaktionsstornierungsauftrags an."
+    },
+    "CancellationStatusReasonInformation": {
+      "definition": "Enthält detaillierte Angaben zum Grund des Stornierungsstatus."
+    },
+    "ResolutionRelatedInformation": {
+      "definition": "Referenz einer Rücküberweisung oder Rückbuchung, die zur Behebung des untersuchten Falls im Rahmen der Lösung veranlasst wird."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "definition": "Geldbetrag, der gemäß der ursprünglichen Anweisung zwischen der anweisenden und der angewiesenen Bank bewegt wird."
+    },
+    "OriginalInterbankSettlementDate": {
+      "definition": "Datum gemäß der ursprünglichen Transaktion, an dem der Geldbetrag der schuldenden Bank nicht mehr zur Verfügung steht und der Bank, der er zusteht, zur Verfügung steht."
+    },
+    "Assigner": {
+      "definition": "Partei, die den Fall zuweist.|Verwendung: Dies ist zugleich die Bank, die die nächste Partei in der Kette anweist, den oder die Stornierungsaufträge auszuführen."
+    },
+    "Assignee": {
+      "definition": "Partei, der der Fall zugewiesen wird.|Verwendung: Dies ist zugleich die Bank, die von der vorherigen Partei in der Kette angewiesen wird, den oder die Stornierungsaufträge auszuführen."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Schlüsselelemente zur Identifikation der ursprünglichen Transaktion, auf die verwiesen wird."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "SecurityPosition22",
+  "definition": "Identifikation eines Wertpapiers und seines Bestands.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifikation des Wertpapiers, wie sie im Rahmen eines formalen oder proprietären Identifikationsschemas vergeben wurde."
+    },
+    "Position": {
+      "definition": "Betrag der für die Abstimmung berechtigten Wertpapiere."
+    }
+  }
+}

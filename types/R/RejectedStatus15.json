@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedStatus15",
+  "definition": "Status- und Mengeninformationen zu einer abgelehnten Anweisungsanfrage.",
+  "isoElements": {
+    "RejectedQuantity": {
+      "definition": "Menge der angewiesenen Wertpapiere, deren Verarbeitung abgelehnt wird."
+    },
+    "RejectedReason": {
+      "definition": "Grund für den abgelehnten Status."
+    }
+  }
+}

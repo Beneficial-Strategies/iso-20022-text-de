@@ -1,0 +1,12 @@
+{
+  "isoType": "AutomaticBorrowing8Choice",
+  "definition": "Auswahl des Formats für die Informationen zur automatischen Wertpapierleihe.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als ISO-20022-Code ausgedrückte Bedingung für die automatische Wertpapierleihe."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Bedingung für die automatische Wertpapierleihe."
+    }
+  }
+}

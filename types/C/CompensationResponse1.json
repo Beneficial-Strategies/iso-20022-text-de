@@ -1,0 +1,30 @@
+{
+  "isoType": "CompensationResponse1",
+  "definition": "Gibt an, ob die Entschädigungsanfrage gewährt wird oder nicht.",
+  "isoElements": {
+    "Granted": {
+      "definition": "Code für die getroffene Entscheidung zur Entschädigungsanfrage."
+    },
+    "InitialAmount": {
+      "definition": "Für die Anfrage berechnete Entschädigung vor Abzug der Entgelte."
+    },
+    "PaidCharges": {
+      "definition": "Vom ursprünglichen Betrag abgezogene Entgelte."
+    },
+    "AmountDue": {
+      "definition": "Für die Anfrage geschuldete Entschädigung nach Abzug der Entgelte."
+    },
+    "ExpectedValueDate": {
+      "definition": "Wertstellungsdatum, zu dem die Zahlung der Entschädigung erwartet wird."
+    },
+    "Period": {
+      "definition": "Zeitraum, für den die Entschädigung gilt."
+    },
+    "InterestRate": {
+      "definition": "Zinssatz eines Finanzinstruments, der zur Berechnung der Entschädigung verwendet wird."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Antwort auf die Entschädigungsanfrage an."
+    }
+  }
+}

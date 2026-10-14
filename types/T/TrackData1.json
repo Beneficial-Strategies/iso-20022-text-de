@@ -1,0 +1,12 @@
+{
+  "isoType": "TrackData1",
+  "definition": "Magnetspur oder gleichwertige Zahlungskartendaten.",
+  "isoElements": {
+    "TrackNumber": {
+      "definition": "Spurnummer der Karte."
+    },
+    "TrackValue": {
+      "definition": "Inhalt der Kartenspur oder Gleichwertiges."
+    }
+  }
+}

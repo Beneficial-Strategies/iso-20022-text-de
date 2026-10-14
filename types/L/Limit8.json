@@ -1,0 +1,15 @@
+{
+  "isoType": "Limit8",
+  "definition": "Einzelheiten zu den Limits.",
+  "isoElements": {
+    "StartDateTime": {
+      "definition": "Datum und Uhrzeit, ab denen das Limit wirksam wird."
+    },
+    "Amount": {
+      "definition": "Geldbetrag des Limits, ausgedrückt in einer zulässigen Währung."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob ein Limit ein Lastschrift- oder ein Gutschriftlimit ist."
+    }
+  }
+}

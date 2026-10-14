@@ -1,0 +1,24 @@
+{
+  "isoType": "TransferReference14",
+  "definition": "Referenz einer Übertragung und einer Übertragungsstornierung.",
+  "isoElements": {
+    "TransferReference": {
+      "definition": "Eindeutiger und zweifelsfreier Identifikator der Portfolioübertragungsanweisung, wie von der anweisenden Partei zugewiesen."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Portfolioübertragung durch den Anleger. Diese Referenz kann typischerweise in einem Hub-Szenario verwendet werden, um die Referenz der Übertragung anzugeben, wie sie vom zugrunde liegenden Kunden zugewiesen wurde."
+    },
+    "CounterpartyReference": {
+      "definition": "Zweifelsfreie Identifikation der Portfolioübertragung, die von der Gegenpartei zugewiesen wurde."
+    },
+    "TransferConfirmationReference": {
+      "definition": "Eindeutiger und zweifelsfreier Identifikator der Ausführung der Portfolioübertragung, wie von der bestätigenden Partei zugewiesen."
+    },
+    "CancellationReference": {
+      "definition": "Eindeutiger und zweifelsfreier Identifikator der Stornierung der Portfolioübertragung, wie von der anweisenden Partei zugewiesen."
+    },
+    "CancellationReason": {
+      "definition": "Grund für die Stornierung."
+    }
+  }
+}

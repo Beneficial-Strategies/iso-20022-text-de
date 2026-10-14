@@ -1,0 +1,50 @@
+{
+  "isoType": "ExternalReportingSource1Code",
+  "definition": "Gibt die Berichtsquelle an, wie in einer externen Codeliste für Berichtsquellen veröffentlicht.|Externe Codelisten können unter www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "ACCT": {
+      "name": "Buchhaltung",
+      "definition": "Kontoauszug oder Bericht basiert auf Buchhaltungsdaten."
+    },
+    "ARPF": {
+      "name": "Kontoabstimmungssystem, vollständig",
+      "definition": "Ein Kontenabstimmungssystem, das eine vollständige Abstimmung bietet und üblicherweise Schecks betrifft"
+    },
+    "ARPP": {
+      "name": "Kontoabstimmungssystem, teilweise",
+      "definition": "Ein Kontenabstimmungssystem, das eine teilweise Abstimmung bietet und üblicherweise Schecks betrifft"
+    },
+    "CTDB": {
+      "name": "Kontrolliertes Auszahlungssystem",
+      "definition": "Eine Teilanwendung, die Vorlagesummen meldet"
+    },
+    "CUST": {
+      "name": "Verwahrung",
+      "definition": "Kontoauszug oder Bericht basiert auf Verwahrungsdaten."
+    },
+    "DEPT": {
+      "name": "Einzahlungssystem",
+      "definition": "Kassen- oder Einlagenbuchhaltungssystem"
+    },
+    "DPCS": {
+      "name": "Einzahlungskonzentrationssystem",
+      "definition": "Einlagensystem, das meldet, was von verschiedenen Finanzinstituten eingezogen wurde"
+    },
+    "LKBX": {
+      "name": "Lockbox",
+      "definition": "Verarbeitungssystem, das Scheckdaten in einer Lockbox-Umgebung erfasst und meldet."
+    },
+    "RCPT": {
+      "name": "Zahlungseingänge",
+      "definition": "Ein System, das konsolidierte Verwendungszweck-Informationen meldet, die aus verschiedenen Quellen gewonnen wurden, d. h. ACH, Überweisungen, Lockbox usw."
+    },
+    "MIBO": {
+      "name": "MI-Backoffice",
+      "definition": "Transaktion, die direkt vom PMI (Backoffice-System der Zahlungsmarktinfrastruktur) eingereicht wurde."
+    },
+    "PFRE": {
+      "name": "Front-End des Teilnehmers",
+      "definition": "Transaktionen, die direkt von Anwendungen der Teilnehmer / des PSO (Zahlungssystembetreibers) eingereicht wurden."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentInstrument21",
+  "definition": "Zahlungsparteien für die Übertragung von Barmitteln vom Zahlungspflichtigen an den Zahlungsempfänger.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Informationen, die den Abgleich eines Postens mit den Positionen ermöglichen, die durch die Übertragung beglichen werden sollten, wie Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    },
+    "CreditTransferDetails": {
+      "definition": "Zahlungsinstrument zwischen einem Zahlungspflichtigen und einem Zahlungsempfänger, das über ein oder mehrere Finanzinstitute oder Systeme läuft."
+    }
+  }
+}

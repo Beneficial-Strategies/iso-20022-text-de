@@ -1,0 +1,21 @@
+{
+  "isoType": "SettlementInstruction19",
+  "definition": "Enthält weitere Details zur Abwicklung der Anweisung.",
+  "isoElements": {
+    "RequestedSettlementDate": {
+      "definition": "Datum, zu dem der Absender der Nachricht oder der ChargesRequestor, bei dem dieses Element vorhanden ist, die Gutschrift für die Zahlung der Entgelte erwartet."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungsempfänger führt."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Zweifelsfreie Identifikation des Kontos der Bank des Zahlungsempfängers bei ihrer kontoführenden Bank, auf dem aufgrund der Zahlungstransaktion eine Gutschrift erfolgt."
+    },
+    "Creditor": {
+      "definition": "Finanzinstitut, das von dem Finanzinstitut als Zahlungspflichtigem einen Geldbetrag erhält.||Verwendung: Soweit verwendet, muss diese Partei mit dem Absender der Nachricht oder dem ChargesRequestor, bei dem dieses Element vorhanden ist, identisch sein."
+    },
+    "CreditorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungsempfängers, dem infolge der Zahlungstransaktion ein Gutschriftsposten gebucht wird.||Verwendung: Soweit verwendet, sollte dieses Konto dem Absender der Nachricht oder dem ChargesRequestor, bei dem dieses Element vorhanden ist, gehören."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "IndividualPersonIdentification2Choice",
+  "definition": "Auswahl der Formate für die Identifikation einer natürlichen Person.",
+  "isoElements": {
+    "IdentificationNumber": {
+      "definition": "Identifikation einer Partei, wie eine Steuer- oder Sozialversicherungskennung."
+    },
+    "PersonName": {
+      "definition": "Menschliches Wesen, im Unterschied zu einer Körperschaft (die manchmal als „künstliche Person“ bezeichnet wird)."
+    }
+  }
+}

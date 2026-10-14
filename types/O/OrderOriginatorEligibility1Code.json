@@ -1,0 +1,18 @@
+{
+  "isoType": "OrderOriginatorEligibility1Code",
+  "definition": "Gibt die Art der Eignung von Gegenparteien gemäß Artikel 24 der EU-MiFID-Richtlinie an, die für von Wertpapierfirmen für geeignete Gegenparteien ausgeführte Transaktionen gilt.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Berechtigt",
+      "definition": "Geeignete Gegenpartei - MiFID-Klassifizierung der Gegenpartei. Geeignete Kunden sind die erfahrenste Anlegerstufe und können auf einige der Schutzmechanismen verzichten, die durch die MiFID-Wohlverhaltensregeln gewährt werden."
+    },
+    "RETL": {
+      "name": "Privatkunde",
+      "definition": "Privatkunde - MiFID-Klassifizierung der Gegenpartei. Privatkunden sind die am wenigsten erfahrene Anlegerstufe."
+    },
+    "PROF": {
+      "name": "Professionell",
+      "definition": "Professioneller Kunde - MiFID-Klassifizierung der Gegenpartei. Professionelle Kunden sind beispielsweise Wertpapierfirmen, Kreditinstitute und Versicherungsunternehmen."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "MandateCancellation8",
+  "definition": "Identifiziert das zu stornierende Mandat.",
+  "isoElements": {
+    "OriginalMessageInformation": {
+      "definition": "Enthält Angaben zur ursprünglichen Nachricht."
+    },
+    "CancellationReason": {
+      "definition": "Enthält detaillierte Informationen zum Stornierungsgrund."
+    },
+    "OriginalMandate": {
+      "definition": "Enthält die ursprünglichen Mandatsdaten."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  }
+}

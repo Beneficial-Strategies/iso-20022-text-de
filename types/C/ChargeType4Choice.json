@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargeType4Choice",
+  "definition": "Auswahl von Formaten für die Gebührenart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gebührenart als Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Gebührenart als proprietärer Code ausgedrückt."
+    }
+  }
+}

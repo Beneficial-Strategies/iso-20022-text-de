@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountStatusUpdateInstruction1",
+  "definition": "Anweisung zur Änderung eines Kontostatus und Grund für die Änderung.",
+  "isoElements": {
+    "UpdateInstruction": {
+      "definition": "Art der angewiesenen Statusänderung für den Kontostatus."
+    },
+    "UpdateInstructionReason": {
+      "definition": "Grund für die Anweisung zur Änderung des Kontostatus."
+    }
+  }
+}

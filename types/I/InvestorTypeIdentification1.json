@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestorTypeIdentification1",
+  "definition": "Angaben zur Art der Anleger in Bezug auf eine Kapitalmaßnahme.",
+  "isoElements": {
+    "InvestorTypeIdentification": {
+      "definition": "Arten von Anlegern in Bezug auf ein Kapitalmaßnahmen-Ereignis."
+    },
+    "InvestorTypeIdentificationNarrative": {
+      "definition": "Angaben zur Identifikation der Anlegerart."
+    }
+  }
+}

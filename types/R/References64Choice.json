@@ -1,0 +1,12 @@
+{
+  "isoType": "References64Choice",
+  "definition": "Auswahl von Referenzen, die auf eine vorherige Transaktion verweisen.",
+  "isoElements": {
+    "RelatedReference": {
+      "definition": "Referenz auf eine verknüpfte Nachricht, die zuvor empfangen wurde."
+    },
+    "OtherReference": {
+      "definition": "Referenz auf eine verknüpfte proprietäre Nachricht oder die Referenz eines Systems, die zuvor empfangen wurde."
+    }
+  }
+}

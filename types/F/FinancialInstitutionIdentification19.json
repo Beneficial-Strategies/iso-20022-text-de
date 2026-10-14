@@ -1,0 +1,18 @@
+{
+  "isoType": "FinancialInstitutionIdentification19",
+  "definition": "Identifikation eines Finanzinstituts.",
+  "isoElements": {
+    "BICFI": {
+      "definition": "Business Identifier Code des Finanzinstituts."
+    },
+    "ClearingSystemMemberIdentification": {
+      "definition": "Angaben zur Identifikation eines Teilnehmers innerhalb eines Clearing-Systems."
+    },
+    "LEI": {
+      "definition": "Legal Entity Identifier als alternative Identifikation einer Partei."
+    },
+    "Other": {
+      "definition": "Eindeutige Identifikation einer Bank, die von einem Institut anhand eines Identifikationsschemas vergeben wurde."
+    }
+  }
+}

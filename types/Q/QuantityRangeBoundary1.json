@@ -1,0 +1,12 @@
+{
+  "isoType": "QuantityRangeBoundary1",
+  "definition": "Grenze für einen Mengenbereich.",
+  "isoElements": {
+    "Boundary": {
+      "definition": "Mengenwert der Bereichsgrenze."
+    },
+    "Included": {
+      "definition": "Gibt an, ob die Grenzmenge in den Bereich der Mengenwerte eingeschlossen ist."
+    }
+  }
+}

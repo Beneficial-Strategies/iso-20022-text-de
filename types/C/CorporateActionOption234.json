@@ -1,0 +1,23 @@
+{
+  "isoType": "CorporateActionOption234",
+  "definition": "Liefert Informationen zur Kapitalmaßnahmen-Option.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Liefert Informationen zur Wertpapierbewegung im Zusammenhang mit einer Option der Kapitalmaßnahme."
+    },
+    "CashMovementDetails": {
+      "definition": "Liefert Informationen zur Geldbewegung im Zusammenhang mit der Kapitalmaßnahmen-Option."
+    }
+  },
+  "isoRules": {
+    "MovementDetailsRule": {
+      "definition": "Mindestens ein Vorkommen von SecuritiesMovementDetails oder CashMovementDetails muss vorhanden sein."
+    }
+  }
+}

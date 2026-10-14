@@ -1,0 +1,22 @@
+{
+  "isoType": "PensionTransferScope1Code",
+  "definition": "Gibt den Umfang einer Pensionsübertragung an.",
+  "isoCodes": {
+    "CRYS": {
+      "name": "Kristallisierter Teil",
+      "definition": "Die Übertragung betrifft den kristallisierten Teil."
+    },
+    "SDDT": {
+      "name": "Entnahmetranche",
+      "definition": "Die Übertragung betrifft eine bestimmte Entnahmetranche (Drawdown-Tranche)."
+    },
+    "FULP": {
+      "name": "Volle Rente",
+      "definition": "Die Übertragung betrifft die gesamte Pension."
+    },
+    "UCRY": {
+      "name": "Nicht kristallisierter Teil",
+      "definition": "Die Übertragung betrifft den nicht kristallisierten Teil."
+    }
+  }
+}

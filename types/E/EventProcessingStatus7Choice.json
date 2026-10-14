@@ -1,0 +1,18 @@
+{
+  "isoType": "EventProcessingStatus7Choice",
+  "definition": "Liefert Informationen zum Status einer Kapitalmaßnahme oder zum Status einer Zahlung.",
+  "isoElements": {
+    "Complete": {
+      "definition": "Gibt an, dass die Verarbeitung eines Kapitalmaßnahmen-Ereignisses abgeschlossen wurde."
+    },
+    "Reconciled": {
+      "definition": "Verarbeitung des Kapitalmaßnahmen-Ereignisses, die angibt, dass die gezahlten Mittel mit den vom Beauftragten erhaltenen Mitteln abgestimmt wurden (das heißt, es besteht kein Risiko einer Rückabwicklung der Zahlung mehr)."
+    },
+    "Pending": {
+      "definition": "Gibt an, dass die Verarbeitung eines Kapitalmaßnahmen-Ereignisses nicht vollständig abgeschlossen wurde und daher aussteht."
+    },
+    "ProprietaryStatus": {
+      "definition": "Proprietärer Status im Zusammenhang mit der Ereignisverarbeitung."
+    }
+  }
+}

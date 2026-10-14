@@ -1,0 +1,12 @@
+{
+  "isoType": "Balance22",
+  "definition": "Nettoposition eines getrennt geführten Bestands in einem einzelnen Wertpapier innerhalb der Gesamtposition auf einem Wertpapierkonto. Ein Wertpapiersaldo wird aus der Summe der Wertpapiereingänge abzüglich der Summe der Wertpapierlieferungen berechnet.",
+  "isoElements": {
+    "ShortLongIndicator": {
+      "definition": "Angabe, dass die Position Short oder Long ist."
+    },
+    "Quantity": {
+      "definition": "Gesamtmenge der Finanzinstrumente des Saldos."
+    }
+  }
+}

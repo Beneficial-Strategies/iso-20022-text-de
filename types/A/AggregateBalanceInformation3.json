@@ -1,0 +1,56 @@
+{
+  "isoType": "AggregateBalanceInformation3",
+  "definition": "Nettoposition eines getrennt geführten Bestands in einem einzelnen Wertpapier innerhalb der Gesamtposition auf einem Wertpapierkonto. Ein Wertpapiersaldo wird aus der Summe der Wertpapiereingänge abzüglich der Summe der Wertpapierlieferungen berechnet.",
+  "isoElements": {
+    "AggregateQuantity": {
+      "definition": "Gesamtmenge des Finanzinstruments für den referenzierten Bestand."
+    },
+    "DaysAccrued": {
+      "definition": "Gibt die Anzahl der Tage an, die für die Berechnung des aufgelaufenen Zinsbetrags verwendet werden."
+    },
+    "HoldingValue": {
+      "definition": "Gesamtwert eines Bestands des Wertpapierkontos für ein bestimmtes Finanzinstrument, ausgedrückt in einer oder mehreren Währungen."
+    },
+    "PreviousHoldingValue": {
+      "definition": "Vorheriger Gesamtwert eines Bestands des Wertpapierkontos für ein bestimmtes Finanzinstrument, ausgedrückt in einer oder mehreren Währungen."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Zinsbetrag, der zwischen den Kuponzahlungsperioden aufgelaufen ist."
+    },
+    "AccruedInterestAmountSign": {
+      "definition": "Gibt an, ob die aufgelaufenen Zinsen ein positiver oder negativer Betrag sind."
+    },
+    "BookValue": {
+      "definition": "Wert eines Wertpapiers, wie er auf einem Konto gebucht ist. Der Buchwert weicht häufig vom aktuellen Marktwert des Wertpapiers ab."
+    },
+    "SafekeepingPlace": {
+      "definition": "Ort, an dem die Wertpapiere physisch oder buchmäßig verwahrt werden. Dieser Ort kann zum Beispiel eine lokale Depotbank, ein Central Securities Depository (CSD) oder ein International Central Securities Depository (ICSD) sein."
+    },
+    "FinancialInstrumentDetails": {
+      "definition": "Wertpapier, das auf dem Konto gehalten wird, für das der Bestand berechnet wird."
+    },
+    "PriceDetails": {
+      "definition": "Preis des Finanzinstruments in einer oder mehreren Währungen."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Währungsumtausch im Zusammenhang mit einem Wertpapierauftrag."
+    },
+    "BalanceBreakdownDetails": {
+      "definition": "Nettoposition eines getrennt geführten Bestands eines einzelnen Wertpapiers innerhalb der im Wertpapierdepot gehaltenen Gesamtposition, zum Beispiel Unterbestand je Status."
+    },
+    "AdditionalBalanceBreakdownDetails": {
+      "definition": "Nettoposition eines getrennt geführten Bestands eines einzelnen Wertpapiers innerhalb der im Wertpapierdepot gehaltenen Gesamtposition, zum Beispiel Unterbestand je Status."
+    },
+    "BalanceAtSafekeepingPlace": {
+      "definition": "Nettoposition eines getrennt geführten Bestands in einem einzelnen Wertpapier innerhalb der Gesamtposition, die in einem Wertpapierdepot an einem bestimmten Verwahrort gehalten wird."
+    }
+  },
+  "isoRules": {
+    "BalanceAtSafekeepingPlaceRule": {
+      "definition": "Wenn SafekeepingPlace vorhanden ist, ist BalanceAtSafekeepingPlace nicht zulässig."
+    },
+    "AccruedInterestAmountSignRule": {
+      "definition": "Wenn AccruedInterestAmount vorhanden ist, muss AccruedInterestAmountSign vorhanden sein. Wenn AccruedInterestAmount nicht vorhanden ist, darf AccruedInterestAmountSign nicht vorhanden sein."
+    }
+  }
+}

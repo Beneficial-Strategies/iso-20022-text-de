@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionAmounts60",
+  "definition": "Gibt Beträge im Rahmen eines Kapitalmaßnahmen-Ereignisses an.",
+  "isoElements": {
+    "WithholdingTaxAmount": {
+      "definition": "Betrag einer Barausschüttung, der von den Steuerbehörden des Rechtsraums des Emittenten einbehalten wird und für den eine Entlastung an der Quelle und/oder eine Rückforderung möglich sein kann."
+    },
+    "SecondLevelTaxAmount": {
+      "definition": "Betrag, der von einem anderen Rechtsraum als dem Rechtsraum des steuerlichen Gründungslandes des Emittenten einbehalten wird und für den eine Entlastung an der Quelle und/oder eine Rückforderung möglich sein kann. Er wird ergänzend zu oder in Verrechnung mit dem Quellensteuersatz erhoben, der vom Rechtsraum des steuerlichen Sitzes des Emittenten erhoben wird."
+    }
+  }
+}

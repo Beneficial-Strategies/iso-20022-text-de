@@ -1,0 +1,4 @@
+{
+  "isoType": "SecuritiesAccountPositionQueryV01",
+  "definition": "Die Nachricht SecuritiesAccountPositionQuery wird von einem Kontoinhaber an einen Kontoführer oder eine dienstleistende Partei gesendet, um eine Kontoansicht der Position zu einem bestimmten Zeitpunkt oder während eines bestimmten Zeitraums anzufordern, wobei alle Positionen in der mit der Abfrage kompatiblen Kontostruktur zusammengefasst werden.||Verwendung: |Die Nachricht kann auch verwendet werden, um:| -eine zuvor gesendete Nachricht erneut zu senden (die Teilfunktion der Nachricht ist Duplicate),|- einem Dritten eine Kopie einer Nachricht zur Information zur Verfügung zu stellen (die Teilfunktion der Nachricht ist Copy),|-einem Dritten eine Kopie einer Nachricht zur Information erneut zu senden (die Teilfunktion der Nachricht ist CopyDuplicate)."
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "BuyerProtectionInstructionV01",
+  "definition": "Anwendungsbereich|Die Nachricht BuyeProtectionInstruction wird von einem Kontoinhaber an einen Kontoführer gesendet, um einen Käuferschutz für eine ausstehende Abwicklungsanweisung anzuweisen.|||Verwendung|Die Nachricht kann zudem verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist Duplicate),|- einem Dritten eine Kopie einer Nachricht zur Information zu übermitteln (die Unterfunktion der Nachricht ist Copy),|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu übermitteln (die Unterfunktion der Nachricht ist Copy Duplicate), unter Verwendung der entsprechenden Elemente im Business Application Header (BAH)."
+}

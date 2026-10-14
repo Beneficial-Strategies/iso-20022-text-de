@@ -1,0 +1,51 @@
+{
+  "isoType": "Identification32",
+  "definition": "Eindeutiger Bezeichner eines Dokuments, einer Nachricht oder einer Transaktion.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem Kontoinhaber (oder der das Konto verwaltenden anweisenden Partei) bekannt."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem kontoführenden Institut bekannt."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer vergeben wurde, zum Beispiel Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion der Gegenpartei, die von einer anderen Marktinfrastruktur als einer Zentralverwahrer zugewiesen wurde, zum Beispiel Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, die vom Bearbeiter der Anweisung vergeben wird, der nicht der Kontoinhaber, der Kontoführer oder die Marktinfrastruktur ist."
+    },
+    "CommonIdentification": {
+      "definition": "Eindeutige Referenz, auf die sich die beiden Handelspartner zur Identifizierung des Handelsgeschäfts geeinigt haben."
+    },
+    "TradeIdentification": {
+      "definition": "Vom Anleger oder der handelnden Partei dem Handelsgeschäft zugewiesene Referenz. Diese Referenz wird während des gesamten Lebenszyklus des Handelsgeschäfts verwendet, um auf die Handelsdetails zuzugreifen bzw. diese zu aktualisieren."
+    },
+    "UniqueTransactionIdentifier": {
+      "definition": "Mit der anderen Gegenpartei vereinbarter Unique Transaction Identifier (UTI)."
+    },
+    "MasterIdentification": {
+      "definition": "Eindeutiger Identifikator für eine Gruppe einzelner Übertragungen, wie von der anweisenden Partei vergeben. Dieser Identifikator verknüpft die einzelnen Übertragungen miteinander."
+    },
+    "BasketIdentification": {
+      "definition": "Identifikation eines Korbgeschäfts."
+    },
+    "IndexIdentification": {
+      "definition": "Referenz zur Identifikation eines Indexgeschäfts."
+    },
+    "ListIdentification": {
+      "definition": "Eindeutiger Identifikator einer Liste, wie von der Handelspartei zugewiesen. Der Identifikator muss innerhalb eines einzelnen Handelstages eindeutig sein."
+    },
+    "ProgramIdentification": {
+      "definition": "Programmreferenz, die ein Programmgeschäft identifiziert."
+    },
+    "PoolIdentification": {
+      "definition": "Sammelreferenz zur Identifikation einer Gruppe von Nachrichten."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Vom kontoführenden Institut vergebene Identifikation zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    }
+  }
+}

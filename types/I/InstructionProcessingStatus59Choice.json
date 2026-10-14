@@ -1,0 +1,18 @@
+{
+  "isoType": "InstructionProcessingStatus59Choice",
+  "definition": "Auswahl zwischen verschiedenen Verarbeitungsstatus der Anweisung.",
+  "isoElements": {
+    "AcceptedAndConfirmed": {
+      "definition": "Liefert Statusinformationen zu einer Käuferschutz-Anweisung, die von der Gegenpartei akzeptiert und bestätigt (abgeglichen) wurde."
+    },
+    "Rejected": {
+      "definition": "Liefert Statusinformationen zu einem Anweisungsauftrag, der aus systembedingten Gründen für die weitere Bearbeitung abgelehnt wurde."
+    },
+    "Pending": {
+      "definition": "Liefert Statusinformationen zu einer ausstehenden Anweisung."
+    },
+    "ProprietaryStatus": {
+      "definition": "Proprietärer Status im Zusammenhang mit einer Anweisung."
+    }
+  }
+}

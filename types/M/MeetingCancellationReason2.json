@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingCancellationReason2",
+  "definition": "Gibt den Grund für die Absage einer Versammlung an.",
+  "isoElements": {
+    "CancellationReasonCode": {
+      "definition": "Grund für die Absage einer Versammlung."
+    },
+    "CancellationReason": {
+      "definition": "Liefert weitere Informationen zum Grund für die Absage einer Versammlung in freier Form."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingOpeningStatusReason1",
+  "definition": "Grund für einen ausstehenden Kontoeröffnungsstatus.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für den ausstehenden Kontoeröffnungsstatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Grund für den ausstehenden Kontoeröffnungsstatus."
+    }
+  }
+}

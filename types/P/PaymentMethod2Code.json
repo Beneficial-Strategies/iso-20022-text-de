@@ -1,0 +1,10 @@
+{
+  "isoType": "PaymentMethod2Code",
+  "definition": "Gibt die Übertragungsmethode an, die zur Übertragung des Bargelds verwendet wird.",
+  "isoCodes": {
+    "DD": {
+      "name": "Lastschrift",
+      "definition": "Einziehung eines Geldbetrags vom Bankkonto des Zahlungspflichtigen durch den Zahlungsempfänger. Betrag und Einziehungstermine können variieren."
+    }
+  }
+}

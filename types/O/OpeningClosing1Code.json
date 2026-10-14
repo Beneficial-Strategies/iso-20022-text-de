@@ -1,0 +1,14 @@
+{
+  "isoType": "OpeningClosing1Code",
+  "definition": "Gibt zusätzliche Informationen zur Verarbeitung des Geschäfts an.",
+  "isoCodes": {
+    "CLOP": {
+      "name": "Position schließen",
+      "definition": "Gibt an, dass mit dem Geschäft eine Position glattgestellt werden soll."
+    },
+    "OPEP": {
+      "name": "Position eröffnen",
+      "definition": "Gibt an, dass mit dem Geschäft eine Position eröffnet werden soll."
+    }
+  }
+}

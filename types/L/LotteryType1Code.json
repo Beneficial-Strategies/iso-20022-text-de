@@ -1,0 +1,14 @@
+{
+  "isoType": "LotteryType1Code",
+  "definition": "Gibt die Art der Auslosung an.",
+  "isoCodes": {
+    "ORIG": {
+      "name": "Ursprüngliche Auslosungsbenachrichtigung",
+      "definition": "Ursprüngliche Auslosung, die für einen bestimmten Betrag und ein bestimmtes Datum angekündigt wurde."
+    },
+    "SUPP": {
+      "name": "Ergänzende Auslosungsbenachrichtigung",
+      "definition": "Zusätzliche Menge, die im Rahmen einer zuvor angekündigten ursprünglichen Auslosung aufgerufen wird."
+    }
+  }
+}

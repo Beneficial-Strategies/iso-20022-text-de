@@ -1,0 +1,12 @@
+{
+  "isoType": "FromToAmountRange1",
+  "definition": "Bereich von Betragswerten.",
+  "isoElements": {
+    "FromAmount": {
+      "definition": "Untere Grenze eines Bereichs von Betragswerten."
+    },
+    "ToAmount": {
+      "definition": "Obere Grenze eines Bereichs von Betragswerten."
+    }
+  }
+}

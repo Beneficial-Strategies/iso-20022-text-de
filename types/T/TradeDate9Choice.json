@@ -1,0 +1,12 @@
+{
+  "isoType": "TradeDate9Choice",
+  "definition": "Auswahl des Formats für den Handelstag.",
+  "isoElements": {
+    "Date": {
+      "definition": "Datum, ausgedrückt als ISO-Datum."
+    },
+    "DateCode": {
+      "definition": "Datum, ausgedrückt als Code."
+    }
+  }
+}

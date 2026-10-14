@@ -1,0 +1,18 @@
+{
+  "isoType": "UserInterface5Code",
+  "definition": "Ziel der Nachricht.",
+  "isoCodes": {
+    "CDSP": {
+      "name": "Anzeige für Karteninhaber",
+      "definition": "Anzeige oder Schnittstelle des Karteninhabers."
+    },
+    "CRCP": {
+      "name": "Beleg für Karteninhaber",
+      "definition": "Beleg für den Karteninhaber."
+    },
+    "CRDO": {
+      "name": "Andere Karteninhaber-Schnittstelle",
+      "definition": "Sonstige Schnittstelle des Karteninhabers, zum Beispiel E-Mail oder Smartphone-Nachricht."
+    }
+  }
+}

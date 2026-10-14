@@ -1,0 +1,12 @@
+{
+  "isoType": "NonEligibleProceedsIndicator5Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe der Zulässigkeit der Ergebnisressourcen.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe von Informationen zur fehlenden Zulässigkeit der Ergebnisressourcen."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation zur Angabe von Informationen zur fehlenden Zulässigkeit der Ergebnisressourcen."
+    }
+  }
+}

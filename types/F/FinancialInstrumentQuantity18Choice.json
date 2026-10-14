@@ -1,0 +1,12 @@
+{
+  "isoType": "FinancialInstrumentQuantity18Choice",
+  "definition": "Auswahl zwischen Formaten für die Wertpapiermenge.",
+  "isoElements": {
+    "Unit": {
+      "definition": "Als Zahl ausgedrückte Menge, zum Beispiel eine Anzahl von Aktien."
+    },
+    "FaceAmount": {
+      "definition": "Als Betrag ausgedrückte Menge, der den Nennbetrag, d. h. den Kapitalbetrag, eines Schuldinstruments darstellt."
+    }
+  }
+}

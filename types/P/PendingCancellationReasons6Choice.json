@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingCancellationReasons6Choice",
+  "definition": "Auswahl des Formats für den Grund der ausstehenden Stornierung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, warum die Stornierungsanforderung ausstehend ist."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Grund an, warum die Stornierungsanforderung ausstehend ist."
+    }
+  }
+}

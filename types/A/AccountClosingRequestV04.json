@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountClosingRequestV04",
+  "definition": "Die Nachricht AccountClosingRequest wird im Rahmen des Kontoschließungsprozesses von einer Organisation an ein Finanzinstitut gesendet. Sie ist die ursprüngliche Anfragenachricht zur Schließung eines Kontos."
+}

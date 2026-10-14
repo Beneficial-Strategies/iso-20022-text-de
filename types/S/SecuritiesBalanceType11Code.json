@@ -1,0 +1,118 @@
+{
+  "isoType": "SecuritiesBalanceType11Code",
+  "definition": "Gibt die Art des Wertpapier- oder Investmentfondssaldos an.",
+  "isoCodes": {
+    "BLOK": {
+      "name": "Gesperrt",
+      "definition": "Bestand an Finanzinstrumenten, die gesperrt sind."
+    },
+    "AWAS": {
+      "name": "Verfügbar ohne zusätzlichen Status",
+      "definition": "Saldo der frei verfügbaren Finanzinstrumente ohne besonderen zusätzlichen Status."
+    },
+    "AVAI": {
+      "name": "Verfügbar",
+      "definition": "Saldo der verfügbaren Finanzinstrumente."
+    },
+    "BLCA": {
+      "name": "Gesperrt wegen Kapitalmaßnahme",
+      "definition": "Saldo der im Anschluss an eine Kapitalmaßnahme, einschließlich Stimmrechtsvertretungsaktivitäten, gesperrten Finanzinstrumente."
+    },
+    "BLOT": {
+      "name": "Gesperrt für den Handel",
+      "definition": "Saldo der für den Handel gesperrten Finanzinstrumente."
+    },
+    "BLOV": {
+      "name": "Gesperrt wegen Echtheitsprüfung",
+      "definition": "Saldo der zur Echtheitsprüfung gesperrten Finanzinstrumente."
+    },
+    "BORR": {
+      "name": "Entliehen",
+      "definition": "Bestand an Finanzinstrumenten, die von einer anderen Partei geliehen wurden."
+    },
+    "COLI": {
+      "name": "Sicherheit eingehend",
+      "definition": "Bestand an Wertpapieren, die einem Dritten gehören und zum Zweck der Besicherung gehalten werden."
+    },
+    "COLO": {
+      "name": "Sicherheit ausgehend",
+      "definition": "Bestand an Wertpapieren, die dem in dieser Nachricht angegebenen Depotkonto gehören und zum Zweck der Besicherung bei einem Dritten hinterlegt sind."
+    },
+    "COLA": {
+      "name": "Als Sicherheit zugelassen",
+      "definition": "Bestand an Wertpapieren, die für Sicherungszwecke zulässig sind."
+    },
+    "LOAN": {
+      "name": "Verliehen",
+      "definition": "Darlehen zum Verbrauch."
+    },
+    "MARG": {
+      "name": "Derivate-Margin",
+      "definition": "Das Konto wird verwendet, wenn die Finanzierung durch den Broker/Dealer erfolgt."
+    },
+    "PECA": {
+      "name": "Ausstehender Empfang aus Kapitalmaßnahme",
+      "definition": "Saldo der Finanzinstrumente, deren Eingang im Anschluss an eine Kapitalmaßnahme aussteht."
+    },
+    "PEDA": {
+      "name": "Ausstehende Lieferung aus Kapitalmaßnahme",
+      "definition": "Saldo der Finanzinstrumente, deren Lieferung im Anschluss an eine Kapitalmaßnahme aussteht."
+    },
+    "PLED": {
+      "name": "Verpfändet",
+      "definition": "Saldo der Wertpapiere, die zu dem in dieser Nachricht angegebenen Verwahrkonto gehören, auf diesem verwahrt werden und verpfändet sind."
+    },
+    "REGO": {
+      "name": "Zur Registrierung eingereicht",
+      "definition": "Bestand an Finanzinstrumenten, die derzeit von dem Institut bearbeitet werden, das für die Registrierung des neuen wirtschaftlichen Eigentümers (oder Nominees) zuständig ist."
+    },
+    "RSTR": {
+      "name": "Beschränkt",
+      "definition": "Saldo der Finanzinstrumente, die nur unter bestimmten Bedingungen verkauft werden dürfen oder rechtliche Dokumente erfordern."
+    },
+    "OTHR": {
+      "name": "Nicht klassifiziert",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "TRAN": {
+      "name": "Im Umschlag",
+      "definition": "Die Transaktion wurde aufgrund einer Umwandlung im Anschluss an eine Kapitalmaßnahme erzeugt."
+    },
+    "DRAW": {
+      "name": "Ausgelost",
+      "definition": "Die Abwicklungstransaktion bezieht sich auf ausgeloste Wertpapiere."
+    },
+    "CLEN": {
+      "name": "Steuerbefreit",
+      "definition": "Steuerbefreite Finanzinstrumente sind abzuwickeln."
+    },
+    "DIRT": {
+      "name": "Nicht steuerbefreit",
+      "definition": "Steuerpflichtige Finanzinstrumente sind abzuwickeln."
+    },
+    "NOMI": {
+      "name": "Namens",
+      "definition": "Bestand an Finanzinstrumenten, die registriert sind (auf den Namen eines Nominees oder des wirtschaftlich Berechtigten)."
+    },
+    "SPOS": {
+      "name": "Street-Position",
+      "definition": "Bestand an Finanzinstrumenten, die weiterhin auf den Namen des früheren wirtschaftlichen Eigentümers registriert sind."
+    },
+    "UNRG": {
+      "name": "Nicht registriert",
+      "definition": "Bestand an Wertpapieren, die aufgrund einer Beschränkung des Auslandsbesitzes nicht registriert werden konnten."
+    },
+    "ISSU": {
+      "name": "Begeben",
+      "definition": "In der Kommunikation zwischen Emissionsstelle und Verwahrstelle: Bestand an emittierten Finanzinstrumenten, für die die rechtlichen Unterlagen eingegangen sind."
+    },
+    "QUAS": {
+      "name": "Quasi begeben",
+      "definition": "In der Kommunikation zwischen Emissionsstelle und Verwahrstelle: Bestand an emittierten Finanzinstrumenten, für die die rechtlichen Unterlagen noch nicht eingegangen sind."
+    },
+    "LODE": {
+      "name": "Ausstehende Lieferung verliehener Wertpapiere",
+      "definition": "Saldo der Finanzinstrumente, deren Lieferung im Zusammenhang mit einer Verleihtransaktion aussteht."
+    }
+  }
+}

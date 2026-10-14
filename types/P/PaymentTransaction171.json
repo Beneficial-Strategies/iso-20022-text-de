@@ -1,0 +1,42 @@
+{
+  "isoType": "PaymentTransaction171",
+  "definition": "Enthält weitere Angaben zu den ursprünglichen Transaktionen, auf die sich die Statusbericht-Nachricht bezieht.",
+  "isoElements": {
+    "StatusRequestIdentification": {
+      "definition": "Eindeutige Identifikation, die von einer beauftragenden Partei für eine beauftragte Partei vergeben wird, um die Statusanfrage zu identifizieren.|Verwendung: Die beauftragende Partei ist die Partei, die die Anfragenachricht sendet, und nicht die Partei, die die ursprüngliche, gemeldete Anweisung gesendet hat."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Von der ursprünglich anweisenden Partei vergebene Punkt-zu-Punkt-Referenz zur zweifelsfreien Identifizierung der ursprünglichen Nachricht."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Eindeutige, von der ursprünglichen anweisenden Partei für die ursprüngliche angewiesene Partei vergebene Identifikation zur zweifelsfreien Identifizierung der ursprünglichen Anweisung."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Eindeutige, von der ursprünglichen initiierenden Partei vergebene Identifikation zur zweifelsfreien Identifizierung der ursprünglichen Transaktion."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Eindeutige, von der ursprünglichen ersten anweisenden Bank vergebene Identifikation zur zweifelsfreien Identifizierung der Transaktion."
+    },
+    "OriginalUETR": {
+      "definition": "Universell eindeutige Kennung zur Angabe der ursprünglichen Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "AcceptanceDateTime": {
+      "definition": "Zeitpunkt, zu dem der Zahlungsauftrag der initiierenden Partei die Verarbeitungsbedingungen der kontoführenden Bank erfüllt. Das heißt, die kontoführende Bank hat den Zahlungsauftrag erhalten und Prüfungen wie Autorisierung und Deckungsprüfung angewendet."
+    },
+    "ClearingSystemReference": {
+      "definition": "Eindeutige, von einem Clearingsystem vergebene Referenz zur zweifelsfreien Identifizierung der Anweisung."
+    },
+    "InstructingAgent": {
+      "definition": "Bank, die die nächste Partei in der Kette anweist, die Anweisung(en) auszuführen."
+    },
+    "InstructedAgent": {
+      "definition": "Bank, die von der vorherigen Partei in der Kette angewiesen wird, die Anweisung(en) auszuführen."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Schlüsselelemente zur Identifizierung der ursprünglichen Transaktion, auf die Bezug genommen wird."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  }
+}

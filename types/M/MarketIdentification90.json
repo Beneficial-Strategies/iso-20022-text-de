@@ -1,0 +1,17 @@
+{
+  "isoType": "MarketIdentification90",
+  "definition": "Kontext oder geografisches Umfeld, in dem Handelsparteien zusammentreffen können, um untereinander Handelsgeschäfte auszuhandeln und auszuführen.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Code, der Handelsplätzen zugewiesen wird, das heißt Börsen, regulierten Märkten, zum Beispiel elektronischen Handelsplattformen (ECN), und nicht regulierten Märkten, zum Beispiel automatisierten Handelssystemen (ATS), als Quellen für Preise und zugehörige Informationen, um die automatisierte Verarbeitung zu erleichtern."
+    },
+    "Type": {
+      "definition": "Art eines Marktes, an dem Transaktionen stattfinden."
+    }
+  },
+  "isoRules": {
+    "MarketTypeAndIdentificationRule": {
+      "definition": "Wenn Type/Code OverTheCounter (OTCO) ist und Identification vorhanden ist, muss Identification/Description ein System angeben.|Wenn Type/Code Exchange (EXCH) ist und Identification vorhanden ist, muss Identification/MarketIdentifierCode vorhanden sein."
+    }
+  }
+}

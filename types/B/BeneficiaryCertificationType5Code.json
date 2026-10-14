@@ -1,0 +1,18 @@
+{
+  "isoType": "BeneficiaryCertificationType5Code",
+  "definition": "Gibt die Art der erforderlichen Bescheinigung an.",
+  "isoCodes": {
+    "ACCI": {
+      "name": "Akkreditierter Anleger",
+      "definition": "Der Inhaber des Wertpapiers muss unwiderruflich bescheinigen, dass er ein Accredited Investor im Sinne der Regulation D der US Securities and Exchange Commission ist."
+    },
+    "NCOM": {
+      "name": "Kein Unternehmen",
+      "definition": "Der Inhaber des Wertpapiers muss bescheinigen, dass er eine nicht dem Unternehmen nahestehende Person ist."
+    },
+    "QIBB": {
+      "name": "QIB-Bescheinigung",
+      "definition": "Der Inhaber des Wertpapiers muss unwiderruflich bescheinigen, dass er ein Qualified Institutional Buyer im Sinne der Rule 144A der US Securities and Exchange Commission ist."
+    }
+  }
+}

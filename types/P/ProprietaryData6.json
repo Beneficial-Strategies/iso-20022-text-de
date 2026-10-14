@@ -1,0 +1,9 @@
+{
+  "isoType": "ProprietaryData6",
+  "definition": "Container für proprietäre Informationen. Der fachliche Inhalt dieses Elements ist nicht festgelegt.",
+  "isoElements": {
+    "Any": {
+      "definition": "Proprietärer Inhalt."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrencyExchangeSearchCriteria1",
+  "definition": "Legt die Kriterien fest, nach denen nach Währungsumrechnungsinformationen gesucht wird.",
+  "isoElements": {
+    "SourceCurrency": {
+      "definition": "Währung des Betrags, der bei einer Währungsumrechnung umzurechnen ist."
+    },
+    "TargetCurrency": {
+      "definition": "Währung, in die ein Betrag bei einer Währungsumrechnung umzurechnen ist."
+    }
+  }
+}

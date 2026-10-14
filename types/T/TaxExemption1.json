@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxExemption1",
+  "definition": "Enthält Angaben zur Steuerbefreiung.",
+  "isoElements": {
+    "ExemptedAmount": {
+      "definition": "Von der Steuer befreiter Betrag."
+    },
+    "Reason": {
+      "definition": "Grund für die Steuerbefreiung."
+    }
+  }
+}

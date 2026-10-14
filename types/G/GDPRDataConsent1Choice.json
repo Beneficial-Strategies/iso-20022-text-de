@@ -1,0 +1,12 @@
+{
+  "isoType": "GDPRDataConsent1Choice",
+  "definition": "Auswahl von Formaten für die Einwilligungsart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Einwilligungsart."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Einwilligungsart."
+    }
+  }
+}

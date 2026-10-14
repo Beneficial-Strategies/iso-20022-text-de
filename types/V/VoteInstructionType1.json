@@ -1,0 +1,17 @@
+{
+  "isoType": "VoteInstructionType1",
+  "definition": "Stimmoptionen für einen Beschluss.",
+  "isoElements": {
+    "VoteInstructionTypeCode": {
+      "definition": "Auf Beschlussebene zulässige Stimmoption."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Angaben zum Code der Art der Stimmanweisung, wenn dieser als proprietärer Code ausgedrückt ist."
+    }
+  },
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "Wenn AdditionalInformation vorhanden ist, dann muss VoteInstructionTypeCode/Proprietary/Identification vorhanden sein."
+    }
+  }
+}

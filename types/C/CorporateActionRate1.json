@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionRate1",
+  "definition": "Gibt Sätze an.",
+  "isoElements": {
+    "Interest": {
+      "definition": "Jahressatz eines Finanzinstruments."
+    },
+    "RelatedIndex": {
+      "definition": "Indexsatz in Bezug auf den Zinssatz der bevorstehenden Zinszahlung."
+    },
+    "PercentageSought": {
+      "definition": "Prozentsatz der Wertpapiere, die der Anbieter bzw. Emittent gemäß den Bedingungen des Ereignisses kaufen oder zurückzahlen wird. Dies kann eine Zahl oder der Begriff „any and all“ sein."
+    },
+    "ReinvestmentDiscountToMarket": {
+      "definition": "Diskontsatz für Wertpapiere, die über einen Wiederanlageplan erworben werden, im Vergleich zum aktuellen Marktpreis des Wertpapiers."
+    },
+    "Spread": {
+      "definition": "Zulässige Marge über oder unter einem gegebenen Satz."
+    },
+    "BidInterval": {
+      "definition": "Zulässiger Preisschritt für die Abgabe eines Gebots."
+    },
+    "Charges": {
+      "definition": "Satz zur Berechnung des Betrags der Entgelte/Gebühren, die nicht kategorisiert werden können."
+    }
+  }
+}

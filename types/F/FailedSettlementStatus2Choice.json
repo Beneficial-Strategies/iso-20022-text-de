@@ -1,0 +1,15 @@
+{
+  "isoType": "FailedSettlementStatus2Choice",
+  "definition": "Grund für den Status \"Abwicklung fehlgeschlagen\".",
+  "isoElements": {
+    "Reason": {
+      "definition": "Grund für den Status \"Abwicklung fehlgeschlagen\"."
+    },
+    "DataSourceScheme": {
+      "definition": "Proprietäre Identifikation des Grundes für den Status \"Abwicklung fehlgeschlagen\"."
+    },
+    "NoSpecifiedReason": {
+      "definition": "Gibt an, dass kein Grund verfügbar oder zu melden ist."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "PriceValueType8Code",
+  "definition": "Gibt eine Art von Preiswert an.",
+  "isoCodes": {
+    "TBSP": {
+      "name": "Noch festzulegen",
+      "definition": "Preis, der vom Kontoinhaber anzugeben ist."
+    },
+    "UNSP": {
+      "name": "Nicht angegeben",
+      "definition": "Der Preis muss vom Kontoinhaber nicht angegeben werden."
+    },
+    "UKWN": {
+      "name": "Unbekannt",
+      "definition": "Der Preis ist dem Sender unbekannt oder wurde nicht festgelegt."
+    },
+    "NILP": {
+      "name": "Nullzahlung",
+      "definition": "Der Preis wird nicht gezahlt."
+    }
+  }
+}

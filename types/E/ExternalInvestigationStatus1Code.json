@@ -1,0 +1,18 @@
+{
+  "isoType": "ExternalInvestigationStatus1Code",
+  "definition": "Gibt den Status der Untersuchung an, wie in einem externen Codesatz für Untersuchungsstatus veröffentlicht.|Externe Codesätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "CLSD": {
+      "name": "Untersuchung abgeschlossen",
+      "definition": "Die Untersuchung ist abgeschlossen."
+    },
+    "PDNG": {
+      "name": "Untersuchung ausstehend",
+      "definition": "Die Untersuchung ist eröffnet/ausstehend."
+    },
+    "RJCT": {
+      "name": "Untersuchung abgelehnt",
+      "definition": "Die Untersuchung wird abgelehnt."
+    }
+  }
+}

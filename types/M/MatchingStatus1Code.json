@@ -1,0 +1,14 @@
+{
+  "isoType": "MatchingStatus1Code",
+  "definition": "Gibt den Abgleichstatus der Anweisung zum Zeitpunkt des Sendens der Abwicklungsanweisung an.",
+  "isoCodes": {
+    "MACH": {
+      "name": "Abgeglichen",
+      "definition": "Die Anweisung wurde abgeglichen."
+    },
+    "NMAT": {
+      "name": "Nicht abgeglichen",
+      "definition": "Die Anweisung wurde nicht abgeglichen."
+    }
+  }
+}

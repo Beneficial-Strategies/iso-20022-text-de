@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMTotals3",
+  "definition": "Summen des ATM.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Transaktionsart. Folgende Werte sind vordefiniert: Withdrawal, QuickWithdrawal, WithdrawalForDisabledPerson, CashDeposit, Transfer, InternationalTransfer, PeriodicTransfer, CheckCommand, MobileTopUp, Moneo."
+    },
+    "AdditionalIdentification": {
+      "definition": "Zusätzliche Identifikation der Transaktionsart. Folgende Werte sind vordefiniert: Vodaphone, TMobile, Verizon."
+    },
+    "Period": {
+      "definition": "Berechnungszeitraum für die Zähler."
+    },
+    "Currency": {
+      "definition": "Währung der Summen."
+    },
+    "Count": {
+      "definition": "Anzahl der Transaktionen mit der angegebenen Währung."
+    },
+    "Amount": {
+      "definition": "Transaktionsbetrag mit der angegebenen Währung."
+    }
+  }
+}

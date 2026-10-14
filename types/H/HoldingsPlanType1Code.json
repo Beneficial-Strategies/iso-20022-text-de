@@ -1,0 +1,18 @@
+{
+  "isoType": "HoldingsPlanType1Code",
+  "definition": "Gibt den Bestandsplan der zu übertragenden Vermögenswerte an.",
+  "isoCodes": {
+    "INVP": {
+      "name": "Anlageplan",
+      "definition": "Der zu übertragende Bestand gehört zu einem Anlageplan."
+    },
+    "SWIP": {
+      "name": "Umschichtungsplan",
+      "definition": "Der zu übertragende Bestand gehört zu einem Umschichtungsplan."
+    },
+    "PLAR": {
+      "name": "Entnahmeplan",
+      "definition": "Der zu übertragende Bestand gehört zu einem Entnahmeplan."
+    }
+  }
+}

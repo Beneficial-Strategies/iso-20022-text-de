@@ -1,0 +1,38 @@
+{
+  "isoType": "OriginalGroupHeader22",
+  "definition": "Liefert Einzelheiten zur ursprünglichen Gruppe, auf die sich die Nachricht bezieht.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Von der ursprünglich anweisenden Partei vergebene Punkt-zu-Punkt-Referenz zur zweifelsfreien Identifizierung der ursprünglichen Nachricht."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Gibt die Kennung des Namens der ursprünglichen Nachricht an, auf die sich die Nachricht bezieht."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der ursprünglichen Nachricht."
+    },
+    "OriginalNumberOfTransactions": {
+      "definition": "Anzahl der in der ursprünglichen Nachricht enthaltenen einzelnen Transaktionen."
+    },
+    "OriginalControlSum": {
+      "definition": "Summe aller in der ursprünglichen Nachricht enthaltenen Einzelbeträge, unabhängig von den Währungen."
+    },
+    "GroupStatus": {
+      "definition": "Gibt den Status einer Gruppe von Transaktionen an."
+    },
+    "StatusReasonInformation": {
+      "definition": "Liefert detaillierte Informationen zum Statusgrund."
+    },
+    "NumberOfTransactionsPerStatus": {
+      "definition": "Detaillierte Informationen zur Anzahl der Transaktionen für jeden identischen Transaktionsstatus."
+    }
+  },
+  "isoRules": {
+    "StatusReasonInformationRule": {
+      "definition": "Wenn GroupStatus vorhanden ist und sich von RJCT oder PDNG unterscheidet, darf StatusReasonInformation/AdditionalInformation nicht vorhanden sein."
+    },
+    "NumberOfTransactionPerStatusGuideline": {
+      "definition": "OriginalGroupInformationAndStatus/NumberOfTransactionsPerStatus sollte nur vorhanden sein, wenn GroupStatus gleich 'PART' ist."
+    }
+  }
+}

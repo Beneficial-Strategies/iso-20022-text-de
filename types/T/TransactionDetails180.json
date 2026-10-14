@@ -1,0 +1,33 @@
+{
+  "isoType": "TransactionDetails180",
+  "definition": "Identifiziert die Einzelheiten der Transaktion.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Finanzinstrument, das eine Summe von Rechten des Anlegers gegenüber dem Emittenten darstellt."
+    },
+    "TradeDate": {
+      "definition": "Gibt Datum und Uhrzeit der Ausführung des Geschäfts an."
+    },
+    "SettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere geliefert oder empfangen werden sollen."
+    },
+    "SettlementQuantity": {
+      "definition": "Gesamtmenge der abzuwickelnden Wertpapiere."
+    },
+    "SettlementAmount": {
+      "definition": "Gesamtbetrag, der im Austausch gegen die Wertpapiere zu zahlen oder zu erhalten ist."
+    },
+    "DigitalPaymentSettlement": {
+      "definition": "Betrag des digitalen Vermögenswerts, der als Zahlungsmittel auf dem Konto gebucht werden soll bzw. gebucht wurde."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifiziert die Kette der liefernden Abwicklungsparteien."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifiziert die Kette der empfangenden Abwicklungsparteien."
+    },
+    "Investor": {
+      "definition": "Partei, entweder eine Einzelperson oder eine Organisation, deren Vermögenswerte angelegt werden."
+    }
+  }
+}

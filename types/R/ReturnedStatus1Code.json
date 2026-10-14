@@ -1,0 +1,14 @@
+{
+  "isoType": "ReturnedStatus1Code",
+  "definition": "Gibt den Grund an, warum die Anweisung/Stornierungsanfrage den Status „zurückgegeben“ hat.",
+  "isoCodes": {
+    "NARR": {
+      "name": "Textlicher Grund",
+      "definition": "Siehe Freitextfeld für den Grund."
+    },
+    "PROR": {
+      "name": "Anteilig",
+      "definition": "Aufgrund anteiliger Annahme zurückgegebene Aktien."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "ReceiveDelivery1Code",
+  "definition": "Gibt an, ob die Abwicklungstransaktion eine Lieferung oder ein Empfang ist.",
+  "isoCodes": {
+    "DELI": {
+      "name": "Lieferung",
+      "definition": "Finanzinstrumente werden dem Verwahrkonto belastet."
+    },
+    "RECE": {
+      "name": "Empfang",
+      "definition": "Finanzinstrumente werden dem Verwahrkonto gutgeschrieben."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionChannelType1Choice",
+  "definition": "Auswahl von Formaten für die Angabe der Art des Transaktionskanals.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Art des Transaktionskanals."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Art des Transaktionskanals."
+    }
+  }
+}

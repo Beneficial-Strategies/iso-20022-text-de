@@ -1,0 +1,15 @@
+{
+  "isoType": "Organisation23",
+  "definition": "Organisierte Struktur, die für einen bestimmten Zweck eingerichtet wurde, z. B. ein Unternehmen, eine Regierungsstelle, eine Abteilung, eine Wohltätigkeitsorganisation oder ein Finanzinstitut.",
+  "isoElements": {
+    "Name": {
+      "definition": "Name, unter dem eine Partei bekannt ist und der üblicherweise zur Identifikation dieser Partei verwendet wird."
+    },
+    "ShortName": {
+      "definition": "Name der Organisation in Kurzform."
+    },
+    "PostalAddress": {
+      "definition": "Informationen, die eine bestimmte Adresse lokalisieren und identifizieren, wie von den Postdiensten definiert."
+    }
+  }
+}

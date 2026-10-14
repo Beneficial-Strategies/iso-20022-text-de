@@ -1,0 +1,21 @@
+{
+  "isoType": "MandateOccurrences5",
+  "definition": "Enthält weitere Einzelheiten zur Laufzeit des Mandats und zum Auftreten der zugrunde liegenden Transaktionen.",
+  "isoElements": {
+    "SequenceType": {
+      "definition": "Identifiziert die zugrunde liegende Transaktionsfolge als wiederkehrend oder einmalig."
+    },
+    "Frequency": {
+      "definition": "Regelmäßigkeit, mit der Anweisungen zu erstellen und zu verarbeiten sind."
+    },
+    "Duration": {
+      "definition": "Zeitraum, für den das Mandat gültig bleibt."
+    },
+    "FirstCollectionDate": {
+      "definition": "Datum der ersten Lastschrifteinziehung gemäß dem Mandat."
+    },
+    "FinalCollectionDate": {
+      "definition": "Datum der letzten Lastschrifteinziehung gemäß dem Mandat."
+    }
+  }
+}

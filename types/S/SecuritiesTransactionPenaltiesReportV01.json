@@ -1,0 +1,4 @@
+{
+  "isoType": "SecuritiesTransactionPenaltiesReportV01",
+  "definition": "Die Nachricht SecuritiesTransactionPenaltiesReport V01 wird von der ausführenden/kontoführenden Partei an die anweisende Partei gesendet, um über die Geldstrafzahlungen zu informieren: |- Neu berechnete Geldstrafzahlungen. Im Fall eines CSD umfasst die Information beispielsweise die Geldstrafzahlungen, die allen seinen Teilnehmern und dem CSD selbst auferlegt oder gutgeschrieben werden; im Fall eines CSD-Teilnehmers umfasst die Information die Geldstrafzahlungen, die dem CSD-Teilnehmer selbst auferlegt oder gutgeschrieben werden.|- Geänderte Strafzahlungen: zur Information über die Änderungen, die seit der vorherigen Meldung an bestehenden Geldstrafzahlungen eingetreten sind.|- Aggregierte Beträge von Geldstrafzahlungen: zur Information über die aggregierten Beträge der Geldstrafzahlungen, die für die Geschäftstage eines bestimmten Zeitraums, zum Beispiel des Vormonats, berechnet wurden."
+}

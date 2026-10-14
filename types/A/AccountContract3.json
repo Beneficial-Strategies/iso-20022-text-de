@@ -1,0 +1,24 @@
+{
+  "isoType": "AccountContract3",
+  "definition": "Legt Ziel- und Ist-Daten im Zusammenhang mit der Kontoeröffnung und -schließung fest.",
+  "isoElements": {
+    "TargetGoLiveDate": {
+      "definition": "Datum, an dem das Konto und die zugehörigen Basisdienstleistungen für den Kontoinhaber voraussichtlich betriebsbereit sind."
+    },
+    "TargetClosingDate": {
+      "definition": "Datum, an dem das Konto und die zugehörigen Dienstleistungen für den Kontoinhaber voraussichtlich nicht mehr betriebsbereit sind."
+    },
+    "GoLiveDate": {
+      "definition": "Datum, an dem das Konto und die zugehörigen Basisdienstleistungen für den Kontoinhaber tatsächlich betriebsbereit sind."
+    },
+    "ClosingDate": {
+      "definition": "Datum, an dem das Konto und die zugehörigen Dienstleistungen für den Kontoinhaber tatsächlich nicht mehr betriebsbereit sind."
+    },
+    "UrgencyFlag": {
+      "definition": "Kennzeichen, dass der Prozess der Kontoeröffnung/-pflege/-schließung dringend zu behandeln ist, das heißt schneller als nach den Fristen, die in der zwischen dem Kontoinhaber und dem kontoführenden Institut vereinbarten Dienstgütevereinbarung festgelegt sind."
+    },
+    "RemovalIndicator": {
+      "definition": "Gibt die Entfernung des Kontos an. Nach der Entfernung erscheint ein Konto nicht mehr in Berichten."
+    }
+  }
+}

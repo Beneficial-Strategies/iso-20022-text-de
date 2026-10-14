@@ -1,0 +1,10 @@
+{
+  "isoType": "DividendRateType1Code",
+  "definition": "Gibt die Art des Dividendensatzes an.",
+  "isoCodes": {
+    "TXBL": {
+      "name": "Steuerpflichtiger Anteil",
+      "definition": "Satz in Bezug auf das zugrunde liegende Wertpapier, für das Steuer erhoben wird."
+    }
+  }
+}

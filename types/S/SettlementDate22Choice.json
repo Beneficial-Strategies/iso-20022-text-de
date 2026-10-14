@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementDate22Choice",
+  "definition": "Auswahl des Formats für das Abwicklungsdatum.",
+  "isoElements": {
+    "Date": {
+      "definition": "Datum im ISO-Format."
+    },
+    "DateCode": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere geliefert oder empfangen werden sollen."
+    }
+  }
+}

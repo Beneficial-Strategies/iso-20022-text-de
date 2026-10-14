@@ -1,0 +1,26 @@
+{
+  "isoType": "AcknowledgementReason6Code",
+  "definition": "Gibt zusätzliche Informationen zur verarbeiteten Anweisung an.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Nach Ablauf der Frist des kontoführenden Instituts eingegangen. Wird nach bestem Bemühen verarbeitet."
+    },
+    "SMPG": {
+      "name": "Abweichung von der Marktpraxisregel",
+      "definition": "Die Anweisung wird angenommen, entspricht jedoch nicht der für den betreffenden Markt oder Prozess veröffentlichten Marktpraxisregel."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "NSTP": {
+      "name": "Keine vollautomatische Verarbeitung",
+      "definition": "Die Anweisung wurde nicht vollautomatisch verarbeitet und musste manuell bearbeitet werden."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Die Anweisung ist nach der Marktfrist eingegangen."
+    }
+  }
+}

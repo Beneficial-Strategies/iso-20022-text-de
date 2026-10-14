@@ -1,0 +1,14 @@
+{
+  "isoType": "PenaltyAmountType1Code",
+  "definition": "Gibt die Art des Strafbetrags an.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Bargeld",
+      "definition": "Die Strafzahlung basiert auf dem Betrag des nicht gelieferten Geldes, und der Strafsatz ist der Diskontsatz der betreffenden Währung."
+    },
+    "SECU": {
+      "name": "Wertpapiere",
+      "definition": "Die Strafzahlung basiert auf der Menge der nicht gelieferten Wertpapiere und dem Strafsatz der Wertpapiere."
+    }
+  }
+}

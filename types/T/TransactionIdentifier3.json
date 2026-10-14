@@ -1,0 +1,15 @@
+{
+  "isoType": "TransactionIdentifier3",
+  "definition": "Eindeutige Identifikation der Transaktion.",
+  "isoElements": {
+    "TransactionDateTime": {
+      "definition": "Vom POI (Point Of Interaction) vergebenes lokales Datum und lokale Uhrzeit der Transaktion."
+    },
+    "HostTransactionDateTime": {
+      "definition": "Vom Host vergebenes lokales Datum und lokale Uhrzeit der Transaktion."
+    },
+    "TransactionReference": {
+      "definition": "Identifikation der Transaktion, die innerhalb eines Zeitraums eindeutig sein muss."
+    }
+  }
+}

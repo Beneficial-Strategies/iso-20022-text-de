@@ -1,0 +1,14 @@
+{
+  "isoType": "DutchAuctionType1Code",
+  "definition": "Gibt die Art der holländischen Auktion an.",
+  "isoCodes": {
+    "MDFD": {
+      "name": "Geändert",
+      "definition": "Alle Anweisungen werden zum selben Preis angenommen (Gebot des Emittenten)."
+    },
+    "UNMD": {
+      "name": "Unverändert",
+      "definition": "Alle Anweisungen werden zum angewiesenen Preis angenommen (Angebotsgebot)."
+    }
+  }
+}

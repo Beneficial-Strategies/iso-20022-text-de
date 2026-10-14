@@ -1,0 +1,4 @@
+{
+  "isoType": "PayInScheduleV03",
+  "definition": "Die Nachricht PayInSchedule wird von einem zentralen Abwicklungssystem an den Teilnehmer gesendet, um ihn über eine Reihe zeitlich festgelegter Zahlungen zu informieren, die zum Zeitpunkt der Planerstellung für jede Währung geplant sind. Das zentrale Abwicklungssystem kann Informationen darüber senden, wie die zeitlich festgelegten Zahlungen berechnet wurden."
+}

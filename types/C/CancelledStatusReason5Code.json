@@ -1,0 +1,14 @@
+{
+  "isoType": "CancelledStatusReason5Code",
+  "definition": "Gibt den zugrunde liegenden Grund für die Stornierung der zugehörigen Transaktion an.",
+  "isoCodes": {
+    "CANI": {
+      "name": "Von Ihnen storniert",
+      "definition": "Die Transaktion wurde von Ihnen selbst storniert."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    }
+  }
+}

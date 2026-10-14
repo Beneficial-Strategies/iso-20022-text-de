@@ -1,0 +1,110 @@
+{
+  "isoType": "SettlementDetails212",
+  "definition": "Einzelheiten zur Abwicklung einer Transaktion.",
+  "isoElements": {
+    "HoldIndicator": {
+      "definition": "Legt fest, ob die Transaktion angehalten/gesperrt/eingefroren ist."
+    },
+    "Priority": {
+      "definition": "Gibt an, ob die Transaktion mit hoher Priorität auszuführen ist."
+    },
+    "SecuritiesTransactionType": {
+      "definition": "Identifiziert die Art der Wertpapiertransaktion."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Bedingungen, unter denen der Auftrag/das Handelsgeschäft abgewickelt werden soll."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Gibt an, ob eine Teilabwicklung zulässig ist."
+    },
+    "BeneficialOwnership": {
+      "definition": "Gibt an, ob ein Wechsel des wirtschaftlichen Eigentums stattfindet."
+    },
+    "BlockTrade": {
+      "definition": "Gibt an, ob die Abwicklungsanweisung die übergeordnete oder eine untergeordnete Anweisung eines Blockgeschäfts ist."
+    },
+    "CCPEligibility": {
+      "definition": "Gibt an, ob die Abwicklungstransaktion CCP-fähig (Central Counterparty) ist."
+    },
+    "DeliveryReturnReason": {
+      "definition": "Grund für eine Lieferrückgabe."
+    },
+    "CashClearingSystem": {
+      "definition": "Gibt die Kategorie des Geld-Clearingsystems an, zum Beispiel Scheck-Clearing."
+    },
+    "ExposureType": {
+      "definition": "Gibt den zugrunde liegenden Geschäftsbereich bzw. die Handelsart an, die die Sicherheitenbewegung auslöst."
+    },
+    "FXStandingInstruction": {
+      "definition": "Gibt an, ob die bestehende Devisen-Dauerauftragsanweisung angewendet werden soll."
+    },
+    "MarketClientSide": {
+      "definition": "Gibt an, ob eine Anweisung für eine Transaktion auf der Marktseite oder der Kundenseite gilt."
+    },
+    "NettingEligibility": {
+      "definition": "Gibt an, ob die Abwicklungstransaktion für das Netting zulässig ist."
+    },
+    "Registration": {
+      "definition": "Gibt an, ob die Registrierung bei Eingang erfolgen soll."
+    },
+    "RepurchaseType": {
+      "definition": "Gibt an, ob der Satz fest, variabel oder pauschal ist."
+    },
+    "LegalRestrictions": {
+      "definition": "Für ein Wertpapier geltende regulatorische Beschränkungen."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Gibt an, ob die Abwicklungstransaktion über ein RTGS-System oder ein Nicht-RTGS-System abgewickelt werden soll."
+    },
+    "SettlingCapacity": {
+      "definition": "Rolle einer Partei bei der Abwicklung der Transaktion."
+    },
+    "SettlementSystemMethod": {
+      "definition": "Gibt an, ob die Abwicklungsanweisung über das Standard- oder das alternative Abwicklungssystem abgewickelt werden soll."
+    },
+    "TaxCapacity": {
+      "definition": "Steuerliche Rolle der anweisenden Partei."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Gibt die Art der Stempelsteuer oder den Befreiungsgrund an, der für die Abwicklungstransaktion gilt."
+    },
+    "Tracking": {
+      "definition": "Gibt an, ob das Darlehen und/oder die Sicherheit nachverfolgt wird."
+    },
+    "AutomaticBorrowing": {
+      "definition": "Bedingung für die automatische Wertpapierleihe."
+    },
+    "LetterOfGuarantee": {
+      "definition": "Gibt an, ob die physische Abwicklung mittels eines Garantieschreibens erfolgen darf oder ob die physischen Urkunden zu verwenden sind."
+    },
+    "ReturnLeg": {
+      "definition": "Gibt an, ob der Verleiher bei einer Wertpapierleihe-/Wertpapierverleih-Abwicklungstransaktion den Rückgabeschritt wie mit dem Entleiher vereinbart anweisen wird."
+    },
+    "ModificationCancellationAllowed": {
+      "definition": "Gibt an, ob ein Dritter die Transaktion ändern oder stornieren darf."
+    },
+    "EligibleForCollateral": {
+      "definition": "Gibt an, ob Wertpapiere in den Pool der als Sicherheit zulässigen Wertpapiere aufgenommen werden sollen."
+    },
+    "SecuritiesSubBalanceType": {
+      "definition": "Gibt die Art des Wertpapier-Unterbestands an (zum Beispiel Sperrart für eine Marktinfrastruktur)."
+    },
+    "CashSubBalanceType": {
+      "definition": "Gibt den Indikator für die Geld-Unterbestandsart an, zum Beispiel die Beschränkungsart für eine Marktinfrastruktur."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Wenn SettlementDetails-Elemente verwendet werden, müssen ihre Nutzungsbedingungen zwischen Kontoinhaber und Kontoführer vorab vereinbart sein."
+    },
+    "CashClearingSystemRule": {
+      "definition": "Die CashSettlementSystem-Codes sind nur von Agenten zu verwenden, die unmittelbar am Abwicklungsprozess beteiligt sind, wie lokale Abwicklungsagenten, CSDs und Zentralbanken."
+    },
+    "FXStandingInstructionPresenceRule": {
+      "definition": "Wenn HoldIndicator vorhanden ist und den Wert TRUE (Ja) hat, darf FXStandingInstruction nicht vorhanden sein. |In ISO 15022 und damit auch in ISO 20022 kann das Kennzeichen FXStandingInstruction nur verwendet werden, wenn die Transaktion in einem freigegebenen Modus angewiesen wird."
+    },
+    "SettlementParametersGuideline": {
+      "definition": "• Physische Abwicklung:|Bei physischem Empfang auf Ebene des lokalen Beauftragten muss der empfangende Beauftragte zu Abstimmungszwecken eine |Anweisung \"Empfang frei von Zahlung\" erhalten. Nutzt der endgültige Begünstigte der Wertpapiere einen Global Custodian, wird die |Anweisung \"Empfang frei von Zahlung\" an den Global Custodian gesendet, der sie an seinen empfangenden Beauftragten am Markt weiterleitet.|Für die physische Abwicklung muss SettlementTransactionCondition/Physical verwendet werden.|• Teilabwicklung:|Diese Marktpraxis gilt nur in Märkten, in denen eine Teilabwicklung zulässig ist.|Möchte ein Kontoinhaber in seiner ursprünglichen Anweisung festlegen, ob eine Teilabwicklung zulässig ist oder nicht, muss er |den PartialSettlementIndicator verwenden.|• Bestandsumbuchung:|Die Verwendung der SecuritiesTransactionTypes OWNI, OWNE, INSP und PORT sowie anderer auf Bestandsumbuchungen bezogener |Felder unterliegt einem Marktpraxisdokument.|• Blockgeschäfte:|Das übergeordnete Geschäft muss im Feld BloclTrade mit dem Code BLPA identifiziert werden. Die untergeordneten |Transaktionen müssen mit dem Code BLCH identifiziert werden.||Weitere Einzelheiten siehe das einschlägige Marktpraxisdokument auf www.smpg.info."
+    }
+  }
+}

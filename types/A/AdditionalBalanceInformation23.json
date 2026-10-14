@@ -1,0 +1,23 @@
+{
+  "isoType": "AdditionalBalanceInformation23",
+  "definition": "Unterbestände, die zusätzliche Informationen zu einer bestimmten Position liefern, aber bei der Bildung des Gesamtbestands nicht berücksichtigt werden, zum Beispiel registriert.",
+  "isoElements": {
+    "SubBalanceType": {
+      "definition": "Grund für den Unterbestand."
+    },
+    "Quantity": {
+      "definition": "Menge der Wertpapiere im Teilsaldo."
+    },
+    "SubBalanceAdditionalDetails": {
+      "definition": "Liefert zusätzliche Unterbestandsinformationen."
+    }
+  },
+  "isoRules": {
+    "SubBalanceAdditionalDetailsRule": {
+      "definition": "Sofern zwischen Sender und Empfänger nicht bilateral vereinbart, darf SubBalanceAdditionnalDetails, falls verwendet, keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können."
+    },
+    "EligibleForCollateralPurposesRule": {
+      "definition": "Wenn der Unterbestandstyp EligibleForCollateralPurposes ist, darf QuantityAndAvailability nicht verwendet werden."
+    }
+  }
+}

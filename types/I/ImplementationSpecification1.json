@@ -1,0 +1,12 @@
+{
+  "isoType": "ImplementationSpecification1",
+  "definition": "Identifiziert die Implementierungsspezifikation, der die ISO-20022-Nachricht entspricht.",
+  "isoElements": {
+    "Registry": {
+      "definition": "Name des Registers für Implementierungsspezifikationen, in dem die Implementierungsspezifikation der ISO-20022-Nachricht geführt wird.|Zum Beispiel „MyStandards“."
+    },
+    "Identification": {
+      "definition": "Kennung, die innerhalb des Registers für Implementierungsspezifikationen die Implementierungsspezifikation eindeutig identifiziert, der die ISO-20022-Nachricht entspricht. Dies kann über eine URN erfolgen. Sie kann auch eine Versionsnummer oder ein Datum enthalten.|Zum Beispiel „2018-01-01 – Version 2“ oder „urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66“."
+    }
+  }
+}

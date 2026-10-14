@@ -1,0 +1,15 @@
+{
+  "isoType": "UpdateType38Choice",
+  "definition": "Gibt die Art der angeforderten Aktualisierung an, nämlich Hinzufügung, Löschung oder Änderung.",
+  "isoElements": {
+    "Addition": {
+      "definition": "Hinzufügung von Informationen zur Wertpapiertransaktion."
+    },
+    "Deletion": {
+      "definition": "Löschung von Informationen in der Wertpapiertransaktion."
+    },
+    "Modification": {
+      "definition": "Änderung von Informationen in der Wertpapiertransaktion."
+    }
+  }
+}

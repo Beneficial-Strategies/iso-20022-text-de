@@ -1,0 +1,26 @@
+{
+  "isoType": "FractionDispositionType9Code",
+  "definition": "Gibt an, dass der Bruchteilswert beibehalten werden soll; keine Rundung.",
+  "isoCodes": {
+    "DIST": {
+      "name": "Bruchteil ausgeben",
+      "definition": "Ausschüttung von Bruchteilen in Form von Wertpapieren."
+    },
+    "RDDN": {
+      "name": "Abrunden",
+      "definition": "Abrundung des Anspruchs auf die letzte volle Einheit bzw. Mindestnennmenge; Bruchteile verfallen."
+    },
+    "STAN": {
+      "name": "Auf nächsten Wert runden",
+      "definition": "Ist der Bruchteil größer oder gleich 0,5 des resultierenden Wertpapiers, wird aufgerundet, andernfalls abgerundet, wie in den jeweiligen Codes RDUP und RDDN angegeben (0.5)."
+    },
+    "RDUP": {
+      "name": "Aufrunden",
+      "definition": "Aufrundung auf die nächste volle Einheit bzw. Mindestnennmenge ohne Kosten."
+    },
+    "UKWN": {
+      "name": "Unbekannt",
+      "definition": "Die Merkmale der Behandlung von Bruchteilen sind unbekannt."
+    }
+  }
+}

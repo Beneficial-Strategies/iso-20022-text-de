@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitType1Choice",
+  "definition": "Auswahl des Risikomanagement-Limits, entweder aus einer Code-Liste oder als proprietäres Limit.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des Limits in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Art des Limits in proprietärer Form."
+    }
+  }
+}

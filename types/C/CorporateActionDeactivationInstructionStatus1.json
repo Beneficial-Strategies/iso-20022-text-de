@@ -1,0 +1,26 @@
+{
+  "isoType": "CorporateActionDeactivationInstructionStatus1",
+  "definition": "Stellt den Status der Deaktivierungsanweisung bereit.",
+  "isoElements": {
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "ProcessedStatus": {
+      "definition": "Stellt Informationen zum Verarbeitungsstatus der Anweisung bereit."
+    },
+    "RejectedStatus": {
+      "definition": "Liefert Informationen zum Ablehnungsstatus."
+    }
+  },
+  "isoRules": {
+    "ProcessedStatusOrRejectedStatusRule": {
+      "definition": "Entweder ProcessedStatus oder RejectedStatus muss vorhanden sein."
+    },
+    "ProcessedStatusOrRejectedStatusRuleNotBoth": {
+      "definition": "Entweder ProcessedStatus oder RejectedStatus muss vorhanden sein."
+    }
+  }
+}

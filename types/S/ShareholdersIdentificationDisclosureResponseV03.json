@@ -1,0 +1,9 @@
+{
+  "isoType": "ShareholdersIdentificationDisclosureResponseV03",
+  "definition": "Die Nachricht ShareholdersIdentificationDisclosureResponse wird als Antwort auf eine Nachricht zur Offenlegungsanfrage der Aktionärsidentifikation von beliebigen Intermediären an den vom Emittenten (etwa einem Beauftragten des Emittenten) in der Offenlegungsanfrage benannten Empfänger gesendet, um die angeforderten Informationen zur Identität der Aktionäre und zu ihren vom Intermediär für das angeforderte Finanzinstrument geführten Kontobeständen bereitzustellen.",
+  "isoElements": {
+    "DisclosureResponseIdentification": {
+      "definition": "Eindeutige Identifikation der Offenlegungsantwort. Dieselbe Identifikationsnummer der Offenlegungsantwort ist zu verwenden, wenn die Antwort auf mehrere (seitenweise aufgeteilte) Nachrichten verteilt wird."
+    }
+  }
+}

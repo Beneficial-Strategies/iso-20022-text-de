@@ -1,0 +1,12 @@
+{
+  "isoType": "MissingData1Choice",
+  "definition": "Legt das fehlende Datenelement fest.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fehlender Datentyp in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Fehlender Datentyp in proprietärer Form."
+    }
+  }
+}

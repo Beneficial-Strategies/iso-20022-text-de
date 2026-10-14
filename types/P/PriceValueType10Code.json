@@ -1,0 +1,10 @@
+{
+  "isoType": "PriceValueType10Code",
+  "definition": "Gibt den Wert eines Preises an.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Unbekannt",
+      "definition": "Der Preis ist dem Sender unbekannt oder wurde nicht festgelegt."
+    }
+  }
+}

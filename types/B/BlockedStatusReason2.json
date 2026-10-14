@@ -1,0 +1,18 @@
+{
+  "isoType": "BlockedStatusReason2",
+  "definition": "Grund für einen Sperrstatus.",
+  "isoElements": {
+    "TransactionType": {
+      "definition": "Art der Transaktion, für die das Konto einen Sperrstatus hat."
+    },
+    "Blocked": {
+      "definition": "Gibt an, ob das Konto gesperrt ist."
+    },
+    "Reason": {
+      "definition": "Grund für den Sperrstatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Sperrstatus des Kontos."
+    }
+  }
+}

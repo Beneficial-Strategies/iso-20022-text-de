@@ -1,0 +1,62 @@
+{
+  "isoType": "Drawdown04",
+  "definition": "Details einer Entnahmetranche (Drawdown-Tranche).",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Entnahme (Drawdown)."
+    },
+    "TrancheType": {
+      "definition": "Art der Entnahmetranche (Drawdown-Tranche)."
+    },
+    "ApplicableRules": {
+      "definition": "Gibt die für die Entnahme (Drawdown) geltenden Regeln an. Zum Beispiel im UK-Markt die Pre-A-Day-Regel, die am 6. April 2006 eingeführt wurde.)"
+    },
+    "InvestorTaxReference": {
+      "definition": "Identifikation des Anlegers, wie von einer Steuerbehörde vergeben."
+    },
+    "PercentageOfTotalTransferValue": {
+      "definition": "Prozentsatz des gesamten Übertragungswerts, der von der Entnahme (Drawdown) abgedeckt wird."
+    },
+    "TotalAmountNetDrawdown": {
+      "definition": "Betrag, der ursprünglich für die Entnahme (Drawdown) vorgesehen war."
+    },
+    "AdditionalFundsDesignated": {
+      "definition": "Gibt an, ob seit der ursprünglichen Vereinbarung zusätzliche Mittel bestimmt wurden."
+    },
+    "PensionCommencementLumpSumRemaining": {
+      "definition": "Verbleibender Betrag der Pension Commencement Lump Sum (PCLS, Einmalzahlung bei Rentenbeginn)."
+    },
+    "PensionCommencementLumpSumDate": {
+      "definition": "Datum, bis zu dem die Pension Commencement Lump Sum (PCLS, Einmalzahlung bei Rentenbeginn) verwendet werden muss."
+    },
+    "MultiplePensionCommencementLumpSums": {
+      "definition": "Gibt an, dass mehrere Zahlungen der Pension Commencement Lump Sum (PCLS, Einmalzahlung bei Rentenbeginn) erfolgt sind."
+    },
+    "LifetimeAllowance": {
+      "definition": "Prozentsatz des verwendeten Lifetime Allowance (LTA)."
+    },
+    "RecipientOfDrawdownIndicator": {
+      "definition": "Gibt an, dass eine andere Person als der ursprüngliche Pensionsinhaber die Entnahmezahlung (Drawdown-Zahlung) erhält."
+    },
+    "BeneficiaryDetails": {
+      "definition": "Informationen zum Empfänger der Entnahme (Drawdown), sofern dieser nicht der ursprüngliche Pensionsinhaber ist."
+    },
+    "CappedLimits": {
+      "definition": "Grenzen der gedeckelten Entnahme (Capped Drawdown)."
+    },
+    "FlexibleDrawdownTriggeredDate": {
+      "definition": "Datum, an dem die Entnahme (Drawdown) ausgelöst wurde, wenn die Entnahmeart flexibel ist."
+    },
+    "TrancheDate": {
+      "definition": "Datum, an dem die Tranche ausgeführt wird"
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zur Entnahme (Drawdown)."
+    }
+  },
+  "isoRules": {
+    "BeneficiaryDetailsRule": {
+      "definition": "Wenn RecipientOfDrawdownIndicator \"false\" oder \"0\" (Nein) ist, ist BeneficiaryDetails nicht zulässig.|Wenn RecipientOfDrawdownIndicator \"true\" oder \"1\" (Ja) ist, darf BeneficiaryDetails vorhanden sein."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "IndividualPerson29",
+  "definition": "Natürliche Person, in Abgrenzung zu einer juristischen Person (die mitunter als „künstliche Person“ bezeichnet wird).",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Zur Anrede der Person verwendeter Begriff."
+    },
+    "GivenName": {
+      "definition": "Vorname der Person."
+    },
+    "MiddleName": {
+      "definition": "Zweiter Vorname der Person."
+    },
+    "Name": {
+      "definition": "Name, unter dem die Partei bekannt ist und der üblicherweise zur Identifizierung dieser Person verwendet wird."
+    },
+    "PostalAddress": {
+      "definition": "Adresse der Person."
+    }
+  }
+}

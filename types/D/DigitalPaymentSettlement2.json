@@ -1,0 +1,15 @@
+{
+  "isoType": "DigitalPaymentSettlement2",
+  "definition": "Gibt die Informationen zur digitalen Zahlungsabwicklung an.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Finanzinstrument, das eine Summe von Rechten des Anlegers gegenüber dem Emittenten darstellt."
+    },
+    "ElectronicMoneyTokenSettlementQuantity": {
+      "definition": "Menge an E-Geld-Token für die Abwicklungszahlung."
+    },
+    "CashSettlementSystemPlace": {
+      "definition": "Ort, an dem die Zahlung stattfindet/stattfinden wird."
+    }
+  }
+}

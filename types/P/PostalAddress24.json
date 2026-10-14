@@ -1,0 +1,54 @@
+{
+  "isoType": "PostalAddress24",
+  "definition": "Informationen, die eine bestimmte Adresse lokalisieren und identifizieren, wie von den Postdiensten definiert.",
+  "isoElements": {
+    "AddressType": {
+      "definition": "Bezeichnet die Art der Postanschrift."
+    },
+    "Department": {
+      "definition": "Bezeichnung einer Abteilung einer großen Organisation oder eines Gebäudes."
+    },
+    "SubDepartment": {
+      "definition": "Bezeichnung einer Unterabteilung einer großen Organisation oder eines Gebäudes."
+    },
+    "StreetName": {
+      "definition": "Name einer Straße oder eines Verkehrswegs."
+    },
+    "BuildingNumber": {
+      "definition": "Nummer, die die Lage eines Gebäudes an einer Straße angibt."
+    },
+    "BuildingName": {
+      "definition": "Name des Gebäudes oder Hauses."
+    },
+    "Floor": {
+      "definition": "Stockwerk oder Etage innerhalb eines Gebäudes."
+    },
+    "PostBox": {
+      "definition": "Nummeriertes Fach in einem Postamt, das einer Person oder Organisation zugewiesen ist und in dem Briefe bis zur Abholung aufbewahrt werden."
+    },
+    "Room": {
+      "definition": "Raumnummer im Gebäude."
+    },
+    "PostCode": {
+      "definition": "Kennung, bestehend aus einer Gruppe von Buchstaben und/oder Zahlen, die einer Postanschrift hinzugefügt wird, um die Sortierung der Post zu unterstützen."
+    },
+    "TownName": {
+      "definition": "Name eines bebauten Gebiets mit festgelegten Grenzen und einer örtlichen Verwaltung."
+    },
+    "TownLocationName": {
+      "definition": "Bestimmte Ortsbezeichnung innerhalb der Stadt."
+    },
+    "DistrictName": {
+      "definition": "Bezeichnet eine Untergliederung innerhalb einer Landesuntergliederung."
+    },
+    "CountrySubDivision": {
+      "definition": "Bezeichnet eine Untergliederung eines Landes, z. B. Bundesstaat, Region oder Landkreis."
+    },
+    "Country": {
+      "definition": "Nation mit eigener Regierung."
+    },
+    "AddressLine": {
+      "definition": "Information, die eine bestimmte Adresse im Sinne der Postdienste lokalisiert und identifiziert, in Freitextform dargestellt."
+    }
+  }
+}

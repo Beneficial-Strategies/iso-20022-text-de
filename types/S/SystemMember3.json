@@ -1,0 +1,12 @@
+{
+  "isoType": "SystemMember3",
+  "definition": "Enthält Details zu einem System und zu einem Teilnehmer eines Systems.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identifikation eines bestimmten Geldclearingsystems."
+    },
+    "MemberIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation eines Mitglieds innerhalb eines Systems, vergeben anhand des Mitgliedsidentifikationsschemas des Systems."
+    }
+  }
+}

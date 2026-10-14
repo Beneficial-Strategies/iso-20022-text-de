@@ -1,0 +1,23 @@
+{
+  "isoType": "TransactionCriteria11",
+  "definition": "Legt die Kriterien fest, nach denen eine Transaktion gesucht und über die Transaktion berichtet wird. Der neuen Abfrage kann ein Name gegeben werden.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Name der Abfrage, die durch die Such- und Rückgabekriterien definiert wird."
+    },
+    "SearchCriteria": {
+      "definition": "Legt die Kriterien fest, nach denen die Informationen extrahiert werden."
+    },
+    "StatementReport": {
+      "definition": "Gibt das Format des angeforderten Reports an."
+    },
+    "ReturnCriteria": {
+      "definition": "Legt den erwarteten Report zur Zahlungstransaktion fest."
+    }
+  },
+  "isoRules": {
+    "SearchAndReturnCriteriaAndStatementReportRule": {
+      "definition": "Folgende Kombinationen sind zulässig: nur Suchkriterien, nur Rückgabekriterien, nur ein Kontoauszugs-Report oder eine Kombination aus Such- und Rückgabekriterien oder eine Kombination aus Suchkriterien und einem Kontoauszugs-Report.|Begründung der Regel: |- Sind ReturnCriteria vorhanden, legen sie den erwarteten Report fest.|- Ist StatementReport vorhanden, zeigt dies an, dass ein Report in Form eines Kontoauszugs zurückzugeben ist. In diesem Fall enthält die Antwortnachricht Informationen, die denen in Feld 61 (Statement Line) der FIN-Standards entsprechen, zum Beispiel Wertstellungsdatum, Buchungsdatum, Soll-/Haben-Kennzeichen, Betrag, Identifikationscode des Transaktionstyps, Referenz für den Kontoinhaber, Referenz des kontoführenden Instituts und ergänzende Angaben.|- Ist der StatementReportIndicator „false“ oder „0“ (Nein), bedeutet dies, dass der Report-Typ zwischen dem Transaktionsadministrator und dem Teilnehmer vorab festgelegt ist."
+    }
+  }
+}

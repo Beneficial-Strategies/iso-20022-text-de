@@ -1,0 +1,23 @@
+{
+  "isoType": "FinancialInstrumentIdentification11",
+  "definition": "Identifikation eines Wertpapiers.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutiger Identifikator eines Wertpapiers, vergeben nach einem formalen oder proprietären Identifikationsschema."
+    },
+    "Name": {
+      "definition": "Name des Finanzinstruments als Freitext."
+    },
+    "ShortName": {
+      "definition": "Financial Instrument Short Name (FISN), ausgedrückt in Übereinstimmung mit dem Standard ISO 18774."
+    },
+    "ClassificationType": {
+      "definition": "Art des Wertpapiers."
+    }
+  },
+  "isoRules": {
+    "IdentificationGuideline": {
+      "definition": "Wenn ein ISIN-Code existiert, wird dringend empfohlen, die ISIN zu verwenden."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "isoType": "CorporateActionMovementConfirmationV17",
+  "definition": "Anwendungsbereich|Die Nachricht CorporateActionMovementConfirmation wird von einer kontoführenden Stelle an einen Kontoinhaber oder dessen benannten Beauftragten gesendet, um die Buchung von Wertpapieren oder Geld als Ergebnis eines Ereignisses der Kapitalmaßnahme zu bestätigen.|Verwendung|Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist Duplicate),|- einem Dritten eine Kopie einer Nachricht zur Information bereitzustellen (die Unterfunktion der Nachricht ist Copy),|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu senden (die Unterfunktion der Nachricht ist Copy Duplicate), unter Verwendung der entsprechenden Elemente im Business Application Header (BAH).",
+  "isoElements": {
+    "MovementConfirmationIdentification": {
+      "definition": "Eindeutige Identifikation der Gruppe von Nachrichten zur Bewegungsbestätigung bei Kapitalmaßnahmen, wenn die Bewegungsbestätigung auf mehrere (paginierte) Nachrichten aufgeteilt wird."
+    }
+  },
+  "isoRules": {
+    "OptionNumberRule": {
+      "definition": "Der angegebene Wert von CorporateActionConfirmationDetails/OptionNumber muss mit dem Wert im zugehörigen Element CorporateActionOptionDetails/OptionNumber der zuvor gesendeten Nachrichten CorporateActionNotification oder CorporateActionMovementPreliminaryAdvice übereinstimmen."
+    },
+    "ScripOrDividendReinvestment1Rule": {
+      "definition": "Wenn CorporateActionConfirmationDetails/CashMovementDetails/AmountDetails/CashAmountCarriedForward oder CorporateActionConfirmationDetails/CashMovementDetails/AmountDetails/CashAmountBroughtForward vorhanden ist, dann muss der Wert von CorporateActionGeneralInformation/EventType/Code entweder DVSC (ScripDividend) oder DRIP (DividendReinvestment) sein."
+    },
+    "ScripOrDividendReinvestment2Rule": {
+      "definition": "Wenn CorporateActionConfirmationDetails/CashMovementDetails/AmountDetails/NotionalDividendPayableAmount oder CorporateActionConfirmationDetails/CashMovementDetails/AmountDetails/NotionalTaxAmount vorhanden ist, dann muss der Wert von CorporateActionGeneralInformation/EventType/Code DVSC (ScripDividend) sein."
+    },
+    "ScripOrDividendReinvestment3Rule": {
+      "definition": "Wenn CorporateActionConfirmationDetails/CashMovementDetails/TaxVoucherDetails/BargainDate oder CorporateActionConfirmationDetails/CashMovementDetails/TaxVoucherDetails/BargainSettlementDate vorhanden ist, dann muss der Wert von CorporateActionGeneralInformation/EventType/Code DRIP (DividendReinvestment) sein."
+    },
+    "AdditionalInformationRule": {
+      "definition": "Alle Elemente in der Sequenz AdditionalInformation dürfen keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können, es sei denn, dies wurde bilateral vereinbart oder in der Elementdefinition anders angegeben, wie bei AdditionalInformation/NarrativeVersion."
+    },
+    "IssuerAgentGuideline": {
+      "definition": "IssuerAgent darf nur in der Kommunikation zwischen einem CSD und lokalen Verwahrstellen verwendet werden."
+    },
+    "IncentivePremiumEventType1Rule": {
+      "definition": "Wenn der Code-Wert in CorporateActionDetails/AdditionalBusinessProcessIndicator gleich INCP (IncentivePremiumPayment) ist, dann muss der Wert von CorporateActionGeneralInformation/EventType/Code gleich CONS (Consent) sein.|(MT 566 NVR C9)"
+    },
+    "IntermediateSecuritiesDistribution1Rule": {
+      "definition": "Wenn CorporateActionGeneralInformation/EventType/Code RHDI (IntermediateSecuritiesDistribution) ist, dann muss CorporateActionDetails/|IntermediateSecuritiesDistributionType vorhanden sein.|(MT 566 NVR C5)."
+    },
+    "IncentivePremiumEventTypeUG1Rule": {
+      "definition": "Wenn der Code-Wert in einem Vorkommen von CorporateActionDetails/AdditionalBusinessProcessIndicator gleich INCP (IncentivePremiumPayment) ist, muss der Wert von CorporateActionGeneralInformation/EventType/Code gleich CONS (Consent) sein.|(MT 564 NVR C26)"
+    },
+    "PaginationRule": {
+      "definition": "Wenn Pagination vorhanden ist, dann muss MovementConfirmationIdentification vorhanden sein."
+    }
+  }
+}

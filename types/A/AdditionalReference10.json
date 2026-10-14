@@ -1,0 +1,15 @@
+{
+  "isoType": "AdditionalReference10",
+  "definition": "Referenz und Referenzaussteller.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Von einer Partei vergebene Referenz zur Identifikation einer Anweisung, Transaktion oder Nachricht."
+    },
+    "ReferenceIssuer": {
+      "definition": "Aussteller der Referenz."
+    },
+    "MessageName": {
+      "definition": "Name der Nachricht."
+    }
+  }
+}

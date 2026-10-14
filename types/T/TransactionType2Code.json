@@ -1,0 +1,46 @@
+{
+  "isoType": "TransactionType2Code",
+  "definition": "Gibt die Transaktionsart an.",
+  "isoCodes": {
+    "REDM": {
+      "name": "Rücknahme",
+      "definition": "Die Transaktion ist eine Rücknahme eines Investmentfonds."
+    },
+    "SUBS": {
+      "name": "Zeichnung",
+      "definition": "Die Transaktion ist eine Zeichnung eines Investmentfonds."
+    },
+    "SSPL": {
+      "name": "Zeichnungs-Sparplan",
+      "definition": "Transaktion ist eine Zeichnung für einen Sparplan, d. h. Geld, das von Privatpersonen im Rahmen eines strukturierten Plans für einen besonderen Zweck, beispielsweise die Altersvorsorge, beiseitegelegt wird."
+    },
+    "RWPL": {
+      "name": "Rücknahme-Entnahmeplan",
+      "definition": "Transaktion ist eine Entnahme durch Privatpersonen im Rahmen eines strukturierten Plans für in der Vergangenheit getätigte Anlagen."
+    },
+    "TRIN": {
+      "name": "Übertragung ein",
+      "definition": "Die Transaktion ist eine eingehende Gutschrift auf einem Konto im Aktionärsregister und nicht mit einer Anlageumschichtung (Zeichnung oder Switch), sondern mit der Kontoverwaltung verbunden."
+    },
+    "TOUT": {
+      "name": "Übertragung aus",
+      "definition": "Die Transaktion ist eine Belastung eines Kontos im Aktionärsregister und nicht mit einer Anlageumschichtung (Rücknahme oder Switch), sondern mit der Kontoverwaltung verbunden."
+    },
+    "SWII": {
+      "name": "Umschichtung Zugang",
+      "definition": "Die Transaktion ist ein Zeichnungsteil einer Umtauschauftragsausführung."
+    },
+    "SWIO": {
+      "name": "Umschichtung Abgang",
+      "definition": "Die Transaktion ist ein Zeichnungsteil einer Umtauschauftragsausführung."
+    },
+    "SUAA": {
+      "name": "Zeichnungs-Vermögensallokation",
+      "definition": "Transaktion ist eine Zeichnung in einem Vermögensallokationsplan, der es Anlegern ermöglicht, prozentual einen bestimmten Barbetrag auf mehrere Teilfonds derselben Umbrella-Struktur zu verteilen."
+    },
+    "REAA": {
+      "name": "Rücknahme-Vermögensallokation",
+      "definition": "Transaktion ist ein Rückkauf in einem Vermögensallokationsplan, der es Anlegern ermöglicht, prozentual einen bestimmten Barbetrag aus mehreren Teilfonds derselben Umbrella-Struktur abzuziehen."
+    }
+  }
+}

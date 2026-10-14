@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope41",
+  "definition": "Umfang der Änderung, die auf einen bestimmten Informationssatz anzuwenden ist.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Art der anzuwendenden Änderung."
+    },
+    "InvestmentPlan": {
+      "definition": "Plan, der es Anlegern ermöglicht, periodische Anlagen oder Desinvestitionen nach vordefinierten Kriterien zu planen."
+    }
+  }
+}

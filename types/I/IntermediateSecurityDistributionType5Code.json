@@ -1,0 +1,66 @@
+{
+  "isoType": "IntermediateSecurityDistributionType5Code",
+  "definition": "Gibt die Art der Ausschüttung von Zwischenwertpapieren an.",
+  "isoCodes": {
+    "BIDS": {
+      "name": "Umgekehrte Rechte",
+      "definition": "Ausschüttung umgekehrter Bezugsrechte."
+    },
+    "DRIP": {
+      "name": "Dividendenwiederanlage",
+      "definition": "Ausschüttung von Wertpapieren zur Dividendenwiederanlage."
+    },
+    "DVCA": {
+      "name": "Bardividende",
+      "definition": "Ausschüttung von Bargeld an Aktionäre im Verhältnis zu ihrem Anteilsbesitz. Ordentliche Dividenden sind wiederkehrend und regelmäßig. Der Aktionär muss das Bargeld annehmen und kann eine Wahl der Währung angeboten bekommen."
+    },
+    "DVOP": {
+      "name": "Dividendenwahlrecht",
+      "definition": "Ausschüttung einer Dividendenoption."
+    },
+    "EXRI": {
+      "name": "Bezugsrechte",
+      "definition": "Ausschüttung von Bezugsrechten."
+    },
+    "PRIO": {
+      "name": "Rechte aus offenem Angebot",
+      "definition": "Ausschüttung von Rechten aus einem offenen Angebot."
+    },
+    "DVSC": {
+      "name": "Aktiendividende oder Zahlung",
+      "definition": "Dividende oder Zinsen, die in Form von Scrip gezahlt werden."
+    },
+    "DVSE": {
+      "name": "Aktiendividende",
+      "definition": "An die Aktionäre in Form von Aktien gezahlte Dividende."
+    },
+    "INTR": {
+      "name": "Zinszahlung",
+      "definition": "Zinszahlung, die an die Inhaber eines verzinslichen Vermögenswerts ausgeschüttet wird."
+    },
+    "LIQU": {
+      "name": "Liquidationsdividende oder -zahlung",
+      "definition": "Eine Ausschüttung von Barmitteln, Vermögenswerten oder beidem."
+    },
+    "SOFF": {
+      "name": "Abspaltung",
+      "definition": "Eine Ausschüttung von Aktien einer Tochtergesellschaft an die Aktionäre."
+    },
+    "SPLF": {
+      "name": "Aktiensplit",
+      "definition": "Auch bekannt als Änderung des Nennwerts oder Unterteilung.|Erhöhung der Anzahl der ausstehenden Aktien einer Gesellschaft ohne Änderung des Eigenkapitals des Aktionärs oder des gesamten Marktwerts zum Zeitpunkt des Splits. Aktienkurs und Nennwert werden entsprechend herabgesetzt."
+    },
+    "BONU": {
+      "name": "Bonusrechte",
+      "definition": "Ausschüttung von Gratisbezugsrechten."
+    },
+    "EXOF": {
+      "name": "Umtausch",
+      "definition": "Umtausch von Beständen gegen andere Wertpapiere und/oder Bargeld. Der Umtausch kann obligatorisch oder freiwillig sein und beinhaltet den Umtausch ausstehender Wertpapiere gegen andere Wertpapiere und/oder Bargeld. Zum Beispiel \"Umtauschangebot\", \"Kapitalumstrukturierung\" oder \"Fondstrennung\"."
+    },
+    "MRGR": {
+      "name": "Fusion",
+      "definition": "Vom Emittenten veranlasster Umtausch ausstehender Wertpapiere, der Optionen umfassen kann, infolge der Zusammenlegung von Vermögenswerten zweier oder mehrerer Unternehmen, d. h. eines externen Drittunternehmens. Barzahlungen können den Aktientausch begleiten."
+    }
+  }
+}

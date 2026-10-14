@@ -1,0 +1,74 @@
+{
+  "isoType": "CorporateActionOption18Code",
+  "definition": "Gibt die Art der Kapitalmaßnahmen-Optionen an.",
+  "isoCodes": {
+    "ABST": {
+      "name": "Enthaltung",
+      "definition": "Als Enthaltung abgegebene Stimme. In diesem Fall rechnet die emittierende Gesellschaft die Anzahl der Aktien dem Quorum der Versammlung zu.|Wird das Stimmrecht nicht ausgeübt, wird es dem Quorum nicht zugerechnet. In diesem Fall ist der Code NOAC zu verwenden."
+    },
+    "BSPL": {
+      "name": "Bonusaktienplan",
+      "definition": "Erhalt von Aktien aus der Kapitalrücklage (Agio) der Gesellschaft, die als Kapitalausschüttung und nicht als Ertragsausschüttung mit abweichenden steuerlichen Folgen gelten (typischerweise in Australien)."
+    },
+    "CASE": {
+      "name": "Bar und Wertpapier",
+      "definition": "Option zur Auswahl zwischen verschiedenen Wertpapier- und Bar-Optionen."
+    },
+    "CASH": {
+      "name": "Bargeld",
+      "definition": "Option zur Wahl von Bargeld."
+    },
+    "CEXC": {
+      "name": "Zustimmung und Umtausch",
+      "definition": "Stimme für die Zustimmung zur Änderung der Bedingungen der Wertpapiervereinbarung und zum Umtausch von Wertpapieren."
+    },
+    "CONN": {
+      "name": "Zustimmung verweigert",
+      "definition": "Stimme gegen die Genehmigung des Ereignisses oder Vorschlags."
+    },
+    "CONY": {
+      "name": "Zustimmung erteilt",
+      "definition": "Stimme für die Genehmigung des Ereignisses oder Vorschlags."
+    },
+    "CTEN": {
+      "name": "Zustimmung und Andienung",
+      "definition": "Stimme für die Zustimmung zur Änderung der Bedingungen der Wertpapiervereinbarung und zum Angebot von Wertpapieren gegen Barzahlung."
+    },
+    "EXER": {
+      "name": "Ausüben",
+      "definition": "Ausübung von Zwischenwertpapieren oder Optionsscheinen."
+    },
+    "LAPS": {
+      "name": "Verfallen lassen",
+      "definition": "Verfall des Ereignisses oder des bezugsberechtigten Wertpapiers zulassen."
+    },
+    "MPUT": {
+      "name": "Behalten",
+      "definition": "Option, die es einem Inhaber ermöglicht, sich für das Behalten seines Bestands zu entscheiden, zum Beispiel bei einer kündbaren Anleihe."
+    },
+    "NOAC": {
+      "name": "Keine Maßnahme",
+      "definition": "Option für den Kontoinhaber, nicht an dem Ereignis teilzunehmen. Dies umfasst den Ausstieg aus Sammelklagen und die Geltendmachung von Rechten abweichender Aktionäre."
+    },
+    "OFFR": {
+      "name": "Vorgeschlagener Satz",
+      "definition": "Bei einer Neuvermarktung variabel verzinslicher Schuldverschreibungen die Marge, die Aktionäre für die nächste Zinsperiode vorschlagen können."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Allgemeine Kapitalmaßnahmen-Option, die zu verwenden ist, wenn kein anderer spezifischer Code geeignet ist."
+    },
+    "OVER": {
+      "name": "Überzeichnen",
+      "definition": "Zeichnung von mehr Aktien, als der zugrunde liegende Wertpapierbestand zulässt."
+    },
+    "SECU": {
+      "name": "Sicherheit",
+      "definition": "Ausschüttung von Wertpapieren an die Inhaber."
+    },
+    "PRUN": {
+      "name": "Unbekannte Erlöse",
+      "definition": "Erlös während der Wahlfrist nicht bekannt. Die Option kann zu Barmitteln und/oder Wertpapieren führen."
+    }
+  }
+}

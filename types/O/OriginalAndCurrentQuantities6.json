@@ -1,0 +1,15 @@
+{
+  "isoType": "OriginalAndCurrentQuantities6",
+  "definition": "Vorzeichenbehafteter Nennbetrag und amortisierter Wert.",
+  "isoElements": {
+    "ShortLongPosition": {
+      "definition": "Vorzeichen der Wertpapiermenge."
+    },
+    "FaceAmount": {
+      "definition": "Als Betrag ausgedrückte Menge, der den Nennbetrag, d. h. den Kapitalbetrag, eines Schuldinstruments darstellt."
+    },
+    "AmortisedValue": {
+      "definition": "Menge, ausgedrückt als Betrag, der den aktuellen amortisierten Nennbetrag einer Anleihe darstellt, zum Beispiel eine periodische Verringerung/Erhöhung des Kapitalbetrags einer Anleihe."
+    }
+  }
+}

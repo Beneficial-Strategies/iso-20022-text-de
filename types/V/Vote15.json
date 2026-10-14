@@ -1,0 +1,12 @@
+{
+  "isoType": "Vote15",
+  "definition": "Für einen Beschluss abgegebene Stimme.",
+  "isoElements": {
+    "IssuerLabel": {
+      "definition": "Nummer des Beschlusses, wie vom Emittenten oder seinem Vertreter angegeben."
+    },
+    "VoteOption": {
+      "definition": "Angewiesene Stimmabgabe."
+    }
+  }
+}

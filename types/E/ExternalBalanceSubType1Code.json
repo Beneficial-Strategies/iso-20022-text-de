@@ -1,0 +1,94 @@
+{
+  "isoType": "ExternalBalanceSubType1Code",
+  "definition": "Gibt den Saldountertyp an, wie in einer externen Code-Liste für Saldountertypen veröffentlicht.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "ADJT": {
+      "name": "Anpassung",
+      "definition": "Saldo, der auf dem Abwicklungskonto zu halten ist, um die durchschnittlich fällige Reserve zu erfüllen, falls der Saldo der Bank an den verbleibenden Tagen der Mindestreserveperiode der fälligen Reserve entspricht."
+    },
+    "BCUR": {
+      "name": "Basiswährung",
+      "definition": "Saldo, der den Betrag in der inländischen Währung oder der Basisbuchhaltungswährung darstellt."
+    },
+    "BLCK": {
+      "name": "Gesperrt",
+      "definition": "Saldo, der die aufsichtsrechtliche Reserve darstellt, die ein Finanzinstitut beim kontoführenden Institut halten muss, z. B. das Mindestguthaben, das ein Finanzinstitut zu Mindestreservezwecken bei seiner Zentralbank unterhalten muss. In einigen Ländern wird ein gesperrter Saldo als „Reserve“-Saldo bezeichnet."
+    },
+    "BLKD": {
+      "name": "Gesperrte Mittel",
+      "definition": "Saldo, der Mittel darstellt, auf die der Kontoinhaber nicht zugreifen kann."
+    },
+    "DLOD": {
+      "name": "Tagesüberziehung",
+      "definition": "Saldo, der den Tagesüberziehungskredit darstellt, den die Zentralbank Finanzinstituten gewährt, die an einem RTGS-System teilnehmen. Dieser Saldo kann sich im Zeitverlauf ändern und ist am Ende des Tages auszugleichen."
+    },
+    "EAST": {
+      "name": "Anrechenbare Vermögenswerte",
+      "definition": "Saldo, der das mögliche Darlehen darstellt, das eine Zentralbank in bar gewähren würde, wenn die Sicherheiten verpfändet sind, z. B. Wertpapiere, die bei der Zentralbank als Sicherheit verfügbar und zulässig sind."
+    },
+    "FCOL": {
+      "name": "Feste Besicherung",
+      "definition": "Saldo, der die Prognose des Barmitteläquivalents darstellt, das sich aus der Bewertung bestehender Bestände bei der CSD ergibt, die als Sicherheit dienen können."
+    },
+    "FCOU": {
+      "name": "Beträge, die als feste Sicherheit verwendet wurden",
+      "definition": "Saldo, der das Geldäquivalent darstellt, das sich aus der Bewertung vorhandener Bestände beim CSD ergibt, die als Sicherheiten geeignet sind und als Sicherheiten verwendet wurden."
+    },
+    "FORC": {
+      "name": "Wertpapierprognose",
+      "definition": "Saldo, der die Summe aller Saldenarten darstellt, die die Prognose der abzuwickelnden Transaktionen, gesperrten Posten, Verwahrungstransaktionen und Barauszahlungen aus Kapitalmaßnahmen darstellen."
+    },
+    "FUND": {
+      "name": "Nettofinanzierung",
+      "definition": "Saldo, der den zu finanzierenden Nettobetrag darstellt, der sich aus der Differenz zwischen der Summe aller Transaktionen mit Auswirkung auf die Barmittel und der bestehenden Barmitteldeckung ergibt."
+    },
+    "INTM": {
+      "name": "Zwischenbericht",
+      "definition": "Saldo, der einen Zwischenbetrag darstellt, wie den Eröffnungs- oder Schlusssaldo, der in einem mehrseitigen Kontoauszug oder Bericht schrittweise von einer Seite auf die nächste vorgetragen wird."
+    },
+    "LCUR": {
+      "name": "Lokale Währung",
+      "definition": "Saldo, der den Betrag in der lokalen Marktwährung darstellt, in der der Vermögenswert gehalten wird."
+    },
+    "LRLD": {
+      "name": "Limitbezogen",
+      "definition": "Saldo eines bestimmten Limitwerts, z. B. wird ein bilateraler Saldo im Verhältnis zu einem gegebenen bilateralen Limit berechnet."
+    },
+    "NOTE": {
+      "name": "Reservierte Liquidität",
+      "definition": "Saldo, der den Betrag darstellt, den ein Finanzinstitut aus einem bestimmten Grund zurückgestellt hat und der daher nicht verfügbar ist. Im Kontext von CSDs die Reservierung von Liquidität zur Erfüllung von Abwicklungsverpflichtungen."
+    },
+    "PDNG": {
+      "name": "Wertpapiere ausstehend",
+      "definition": "Saldo der Wertpapiere mit ausstehender Lieferung, z. B. wenn Verkaufsaufträge für Wertpapiere ausgeführt wurden, die Abwicklung der offenen Transaktionen jedoch nicht bestätigt wurde."
+    },
+    "PIPO": {
+      "name": "Ein- und Auszahlung",
+      "definition": "Saldo, der den fiktiven Betrag automatisierter Lastschriften oder Zahlungen auf Grundlage von Dauervereinbarungen zwischen der CSD und dem Nutzer darstellt. Verwendung: Pay-Ins und Pay-Outs können je nach einzelnen Zahlungsanweisungen oder verfügbaren Mitteln abweichen."
+    },
+    "PRAV": {
+      "name": "Fortlaufender Durchschnitt",
+      "definition": "Durchschnitt der Tagessalden auf dem Konto, der zur Erfüllung der Mindestreservepflicht verwendet wird, berechnet ab Beginn der Erfüllungsperiode."
+    },
+    "RESV": {
+      "name": "Reserve",
+      "definition": "Saldo, der die aufsichtsrechtliche Reserve darstellt, die ein Finanzinstitut beim kontoführenden Institut halten muss, z. B. das Mindestguthaben, das ein Finanzinstitut zu Mindestreservezwecken bei seiner Zentralbank unterhalten muss."
+    },
+    "SCOL": {
+      "name": "Selbstbesicherung",
+      "definition": "Saldo, der die Prognose des Geldäquivalents darstellt, das sich aus der Bewertung des eingehenden Nettosaldos an als Sicherheiten geeigneten Wertpapieren ergibt, für die Abwicklungsanweisungen gehalten werden."
+    },
+    "SCOU": {
+      "name": "Beträge, die als Selbstbesicherung verwendet wurden",
+      "definition": "Saldo, der das Geldäquivalent darstellt, das sich aus der Bewertung eingehender Wertpapiere ergibt, die als Sicherheiten geeignet sind und tatsächlich als Sicherheiten verwendet werden und die im Abwicklungsprozess abgewickelt wurden."
+    },
+    "THRE": {
+      "name": "Schwellenwert",
+      "definition": "Saldo, der den Betrag darstellt, der für Anlagen vorgesehen ist. Differenz zwischen dem verfügbaren Saldo und der Schwelle für das Anlagelimit."
+    },
+    "UNBL": {
+      "name": "Freie Mittel",
+      "definition": "Saldo, der Mittel darstellt, auf die der Kontoinhaber zugreifen kann."
+    }
+  }
+}

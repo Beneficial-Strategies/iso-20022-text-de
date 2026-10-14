@@ -1,0 +1,26 @@
+{
+  "isoType": "StatementOfInvestmentFundTransactions2",
+  "definition": "Informationen zu einem Auszug über Investmentfondstransaktionen.",
+  "isoElements": {
+    "StatementGeneralDetails": {
+      "definition": "Allgemeine Informationen zum Auszug über Investmentfondstransaktionen, der storniert wird."
+    },
+    "InvestmentAccountDetails": {
+      "definition": "Informationen zu einem Anlagekonto des Auszugs, der storniert wird."
+    },
+    "TransactionOnAccount": {
+      "definition": "Schaffung/Stornierung von Anlageanteilen in den Büchern des Fonds oder seines benannten Beauftragten als Ergebnis der Ausführung eines Investmentfondsauftrags."
+    },
+    "SubAccountDetails": {
+      "definition": "Unterkonto des Verwahr- oder Anlagekontos."
+    },
+    "Extension": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "TransactionOnAccountOrSubAccountDetailsRule": {
+      "definition": "Wenn StatementGeneralDetails/ActivityIndicator \"true\" oder \"1\" (Ja) ist, dann muss entweder TransactionOnAccount oder SubAccountDetails vorhanden sein. Wenn StatementGeneralDetails/ActivityIndicator \"false\" oder \"0\" (Nein) ist, dann sind TransactionOnAccount und SubAccountDetails nicht zulässig."
+    }
+  }
+}

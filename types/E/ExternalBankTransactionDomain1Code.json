@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalBankTransactionDomain1Code",
+  "definition": "Gibt die Domäne des Banktransaktionscodes an, wie in einer externen Code-Liste für Domänen von Banktransaktionscodes veröffentlicht.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden."
+}

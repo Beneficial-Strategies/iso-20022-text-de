@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalChequeCancellationReason1Code",
+  "definition": "Gibt den externen Code für den Grund der Scheckstornierung als Zeichenfolge mit einer maximalen Länge von 4 Zeichen an.|Die Liste der gültigen Codes ist ein separat veröffentlichter externer Codesatz.|Externe Codesätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "CUST": {
+      "name": "Vom Kunden angefordert",
+      "definition": "Kunde hat die Sperrung/Stornierung des Schecks beantragt."
+    },
+    "LOST": {
+      "name": "Verloren",
+      "definition": "Scheck wurde gestohlen/ist verloren gegangen."
+    },
+    "FRAD": {
+      "name": "Betrug",
+      "definition": "Scheck wurde betrügerisch ausgestellt."
+    },
+    "DUPL": {
+      "name": "Duplikat",
+      "definition": "Scheck wurde als Duplikat eines anderen Schecks ausgestellt."
+    },
+    "NARR": {
+      "name": "Freitext",
+      "definition": "Der Grund wird als Freitext in den zusätzlichen Grundinformationen angegeben."
+    }
+  }
+}

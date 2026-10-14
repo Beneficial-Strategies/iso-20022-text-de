@@ -1,0 +1,12 @@
+{
+  "isoType": "BusinessInformationQueryDefinition3",
+  "definition": "Legt die Abfragekriterien fest.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Gibt die Art der passenden Einträge an, die in der Antwort auf die Abfrage zurückzugeben sind."
+    },
+    "GeneralBusinessInformationCriteria": {
+      "definition": "Definiert die Abfragekriterien für allgemeine Geschäftsinformationen."
+    }
+  }
+}

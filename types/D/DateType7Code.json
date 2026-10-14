@@ -1,0 +1,10 @@
+{
+  "isoType": "DateType7Code",
+  "definition": "Art des Datums.",
+  "isoCodes": {
+    "ONGO": {
+      "name": "Laufend",
+      "definition": "Laufende Basis, die angibt, dass das Datum nach dem Verfahren „laufende Basis“ bestimmt wird, zum Beispiel „au fil de l'eau“."
+    }
+  }
+}

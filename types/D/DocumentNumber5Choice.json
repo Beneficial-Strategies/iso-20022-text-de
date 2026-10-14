@@ -1,0 +1,20 @@
+{
+  "isoType": "DocumentNumber5Choice",
+  "definition": "Auswahl zwischen einer kurzen Dokumentnummer, einer langen Dokumentnummer oder einer proprietären Dokumentnummer.",
+  "isoElements": {
+    "ShortNumber": {
+      "definition": "Nachrichtentypnummer des referenzierten Dokuments."
+    },
+    "LongNumber": {
+      "definition": "MX-Nachrichtenbezeichner des referenzierten Dokuments."
+    },
+    "ProprietaryNumber": {
+      "definition": "Proprietäre Dokumentidentifikation."
+    }
+  },
+  "isoRules": {
+    "ShortLongNumberRule": {
+      "definition": "ShortNumber muss die FIN-Nachrichtentypnummer der verknüpften Nachricht enthalten. LongNumber muss den XML-Nachrichtenbezeichner der verknüpften Nachricht enthalten."
+    }
+  }
+}

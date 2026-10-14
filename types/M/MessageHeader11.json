@@ -1,0 +1,18 @@
+{
+  "isoType": "MessageHeader11",
+  "definition": "Enthält Kopfdaten wie die Identifikation sowie Erstellungsdatum und -zeit, die für die Nachricht spezifisch sind.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, vom Sender vergeben, zur eindeutigen Identifikation der Nachricht.|Verwendung: Der Sender muss sicherstellen, dass die MessageIdentification für einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "RequestType": {
+      "definition": "Bestimmte Aktionen, die durch die Anfrage ausgeführt werden sollen."
+    },
+    "OriginalBusinessQuery": {
+      "definition": "Eindeutige Identifikation der ursprünglichen Abfragenachricht."
+    }
+  }
+}

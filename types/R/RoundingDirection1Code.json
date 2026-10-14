@@ -1,0 +1,22 @@
+{
+  "isoType": "RoundingDirection1Code",
+  "definition": "Gibt die Rundungsrichtung an.",
+  "isoCodes": {
+    "RDUP": {
+      "name": "Aufrunden",
+      "definition": "Auf die nächste ganze Zahl aufrunden."
+    },
+    "RDWN": {
+      "name": "Abrunden",
+      "definition": "Auf die nächste ganze Zahl abrunden."
+    },
+    "STAN": {
+      "name": "Auf nächsten Wert runden",
+      "definition": "Auf die nächste ganze Zahl auf- oder abrunden."
+    },
+    "DIST": {
+      "name": "Bruchteil ausgeben",
+      "definition": "Nicht runden."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope45",
+  "definition": "Umfang der Änderung, die auf einen bestimmten Informationssatz anzuwenden ist.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Art der anzuwendenden Änderung."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen, beispielsweise Anmerkungen oder Hinweise, die zur Partei und/oder zu Einschränkungen und Beschränkungen zu übermitteln sind."
+    }
+  }
+}

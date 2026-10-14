@@ -1,0 +1,12 @@
+{
+  "isoType": "ElectionAdviceStatus1Choice",
+  "definition": "Auswahl zwischen den verschiedenen Status einer Wahlmitteilung.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Liefert Informationen zum Bearbeitungsstatus des Avis."
+    },
+    "RejectedStatus": {
+      "definition": "Liefert Informationen zum Ablehnungsstatus."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "IntraPositionStatusType2",
+  "definition": "Auswahl des Statustyps der Positionsumbuchung (Intra-Position).",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Gibt Einzelheiten zum Bearbeitungsstatus der Transaktion an."
+    },
+    "SettlementStatus": {
+      "definition": "Gibt den Abwicklungsstatus einer Transaktion an."
+    },
+    "Settled": {
+      "definition": "Gibt den Zustand oder die Bedingung an."
+    }
+  }
+}

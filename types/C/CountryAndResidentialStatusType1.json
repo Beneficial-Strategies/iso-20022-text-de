@@ -1,0 +1,12 @@
+{
+  "isoType": "CountryAndResidentialStatusType1",
+  "definition": "Land und Ansässigkeitsstatus.",
+  "isoElements": {
+    "Country": {
+      "definition": "Land, auf das der Ansässigkeitsstatus anwendbar ist."
+    },
+    "ResidentialStatus": {
+      "definition": "Aufenthaltsstatus einer natürlichen Person, zum Beispiel nicht dauerhaft ansässig."
+    }
+  }
+}

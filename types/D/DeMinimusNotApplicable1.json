@@ -1,0 +1,9 @@
+{
+  "isoType": "DeMinimusNotApplicable1",
+  "definition": "Bedingungen, die gelten, wenn der Anleger nicht unter die „De-minimis“-Ausnahme fällt.",
+  "isoElements": {
+    "RestrictedPersonReason": {
+      "definition": "Grund für die beschränkte Person."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventStage4Choice",
+  "definition": "Auswahl der Phase der Kapitalmaßnahme.",
+  "isoElements": {
+    "Code": {
+      "definition": "Phase des Kapitalmaßnahmen-Ereignisses, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Phase des Kapitalmaßnahmen-Ereignisses, ausgedrückt als proprietärer Code."
+    }
+  }
+}

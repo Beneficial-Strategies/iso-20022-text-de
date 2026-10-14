@@ -1,0 +1,4 @@
+{
+  "isoType": "FundConfirmedCashForecastReportCancellationV03",
+  "definition": "Anwendungsbereich|Ein Berichtsersteller, zum Beispiel eine Transferstelle, sendet die Nachricht FundConfirmedCashForecastReportCancellation an den Berichtsempfänger, zum Beispiel einen Anlageverwalter oder Preisermittlungsagenten, um eine zuvor gesendete Nachricht FundConfirmedCashForecastReport zu stornieren.|Verwendung|Die Nachricht FundConfirmedCashForecastReportCancellation dient der Stornierung einer gesamten, zuvor vom Berichtsersteller gesendeten Nachricht FundConfirmedCashForecastReport. Diese Nachricht muss die Referenz der zu stornierenden Nachricht enthalten.|Diese Nachricht kann auch Einzelheiten der zu stornierenden Nachricht enthalten, dies wird jedoch nicht empfohlen."
+}

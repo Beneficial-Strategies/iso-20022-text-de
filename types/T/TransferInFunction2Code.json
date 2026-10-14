@@ -1,0 +1,14 @@
+{
+  "isoType": "TransferInFunction2Code",
+  "definition": "Gibt die Funktion der Übertragungseingangsbestätigung an.",
+  "isoCodes": {
+    "CONF": {
+      "name": "Bestätigung",
+      "definition": "Der Übertragungseingang ist eine Bestätigung (und keine Avisierung)."
+    },
+    "ADVI": {
+      "name": "Avis",
+      "definition": "Der Übertragungseingang avisiert Kontoinformationen für eine Übertragung."
+    }
+  }
+}

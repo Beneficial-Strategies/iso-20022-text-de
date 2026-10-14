@@ -1,0 +1,12 @@
+{
+  "isoType": "OptionAvailabilityStatus4Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe des Status der Optionsverfügbarkeit.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Status der Optionsverfügbarkeit."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation des Status der Optionsverfügbarkeit."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDetails1",
+  "definition": "Wesentliche Informationen zum zugehörigen Kapitalmaßnahmen-Ereignis.",
+  "isoElements": {
+    "CorporateActionGeneralInformation": {
+      "definition": "Allgemeine Informationen zum Kapitalmaßnahmen-Ereignis."
+    },
+    "CorporateActionOption": {
+      "definition": "Gewählte Optionen der Käuferschutz-Anweisung."
+    }
+  }
+}

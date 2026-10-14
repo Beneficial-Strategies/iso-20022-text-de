@@ -1,0 +1,12 @@
+{
+  "isoType": "ThresholdBasis1Choice",
+  "definition": "Auswahl zwischen einer als vordefinierter Code oder als proprietärer Wert definierten Schwellenwertgrundlage.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der Menge, die als Grundlage zur Festlegung eines Schwellenwerts für Abstimmungen über Beschlüsse in Hauptversammlungen dient, angegeben als Codewert."
+    },
+    "Proprietary": {
+      "definition": "Art der Menge, die als Grundlage zur Festlegung eines Schwellenwerts für Abstimmungen über Beschlüsse in Hauptversammlungen dient, definiert als proprietärer Wert."
+    }
+  }
+}

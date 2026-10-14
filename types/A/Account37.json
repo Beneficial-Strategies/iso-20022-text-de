@@ -1,0 +1,27 @@
+{
+  "isoType": "Account37",
+  "definition": "Konto zwischen einem oder mehreren Anlegern und einer Fondsverwaltungsgesellschaft oder einem Fonds. Das Konto kann Bestände an jedem von der Fondsverwaltungsgesellschaft verwalteten (oder vertriebenen) Investmentfonds oder jeder Anteilklasse eines Investmentfonds innerhalb derselben Fondsfamilie enthalten.",
+  "isoElements": {
+    "OwnerIdentification": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    },
+    "AccountIdentification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "Designation": {
+      "definition": "Ergänzende Registrierungsinformationen, die für einen bestimmten Block von Anteilen zu Handels- und Meldezwecken gelten. Die ergänzenden Registrierungsinformationen können verwendet werden, wenn alle Anteile beispielsweise auf einen Fondssupermarkt registriert sind, die Bestände der einzelnen Anleger jedoch individuell abgestimmt werden müssen."
+    },
+    "AccountName": {
+      "definition": "Name des Kontos. Er dient als zusätzliches Identifikationsmittel und wird vom kontoführenden Institut in Absprache mit dem Kontoinhaber festgelegt."
+    },
+    "Servicer": {
+      "definition": "Institution, die die Aufzeichnungen führt, in denen das Konto geführt wird."
+    },
+    "SubAccountDetails": {
+      "definition": "Unterkonto des Haupt- oder Sammelkontos."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Digitales Konto, auf dem digitale Vermögenswerte oder digitale Token gespeichert werden können und in dem ein Eintrag vorgenommen wird."
+    }
+  }
+}

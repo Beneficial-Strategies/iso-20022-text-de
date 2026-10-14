@@ -1,0 +1,14 @@
+{
+  "isoType": "TransferOutInstructionV10",
+  "definition": "Anwendungsbereich|Die Nachricht TransferOutInstruction wird von einer anweisenden Partei, zum Beispiel einem Vermögensverwalter oder dessen bevollmächtigtem Vertreter, an die ausführende Partei, zum Beispiel eine Transferstelle, gesendet, um die Lieferung eines Finanzinstruments, frei von Zahlung, an einem bestimmten Datum von einer angegebenen Partei anzuweisen.|Diese Nachricht kann auch verwendet werden, um die Lieferung eines Finanzinstruments, frei von Zahlung, an ein anderes eigenes Konto der anweisenden Partei oder an einen Dritten anzuweisen.|Verwendung|Die Nachricht TransferOutInstruction wird verwendet, um den Abgang eines Finanzinstruments von einem Konto anzuweisen und es entweder an ein anderes Konto oder an einen Dritten zu liefern.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Eindeutiger Identifikator für eine Gruppe einzelner Übertragungen, wie von der anweisenden Partei vergeben. Dieser Identifikator verknüpft die einzelnen Übertragungen miteinander."
+    }
+  },
+  "isoRules": {
+    "RequestedSettlementDateRule": {
+      "definition": "Entweder darf TransferDetails/RequestedSettlementDate in einem oder mehreren Vorkommen von TransferDetails vorhanden sein oder SettlementDetails/RequestedSettlementDate darf vorhanden sein, aber nicht beides."
+    }
+  }
+}

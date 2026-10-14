@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader116",
+  "definition": "Enthält weitere Angaben zur Nachricht.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, von der kontoführenden Institution vergeben und an den Kontoinhaber oder die zum Empfang der Nachricht berechtigte Partei gesendet, zur zweifelsfreien Identifikation der Nachricht.|Verwendung: Die kontoführende Institution muss sicherstellen, dass MessageIdentification je Kontoinhaber für einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "MessageRecipient": {
+      "definition": "Vom Kontoinhaber zum Empfang von Informationen über Kontobewegungen berechtigte Partei.|Verwendung: MessageRecipient sollte nur angegeben werden, wenn er vom Kontoinhaber abweicht."
+    },
+    "MessagePagination": {
+      "definition": "Enthält Angaben zur Seitennummer der Nachricht.||Verwendung: Die Seitenaufteilung der Nachricht ist nur zulässig, wenn sie zwischen den Parteien vereinbart wurde."
+    },
+    "OriginalBusinessQuery": {
+      "definition": "Eindeutige Identifikation, vom ursprünglichen Anfragenden vergeben, zur zweifelsfreien Identifikation der Geschäftsanfrage."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Angaben zur Nachricht."
+    }
+  }
+}

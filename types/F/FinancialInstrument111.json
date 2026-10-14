@@ -1,0 +1,36 @@
+{
+  "isoType": "FinancialInstrument111",
+  "definition": "Identifikation eines Wertpapiers oder sonstigen Vermögenswerts.",
+  "isoElements": {
+    "LineIdentification": {
+      "definition": "Identifikation der Bestandsposition im Portfolio."
+    },
+    "Instrument": {
+      "definition": "Identifikation des Vermögenswerts."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Übertragung durch den Anleger. Diese Referenz kann typischerweise in einem Hub-Szenario verwendet werden, um die vom zugrunde liegenden Kunden vergebene Referenz der Übertragung anzugeben."
+    },
+    "CounterpartyReference": {
+      "definition": "Von der Gegenpartei vergebene zweifelsfreie Identifikation der Übertragung."
+    },
+    "TransfereeAccount": {
+      "definition": "Konto, das auf den Namen der Partei lautet, die nicht der Name des wirtschaftlichen Eigentümers der Anteile ist.|(Partei und Konto, auf das der Übertragungsempfänger das Finanzinstrument vom Übertragenden erhält.)"
+    },
+    "Transferor": {
+      "definition": "Partei und Konto, von dem der Übertragende das Finanzinstrument an den Übertragungsempfänger liefert."
+    },
+    "SettlementPartiesDetails": {
+      "definition": "Kette der an der Abwicklung einer Transaktion beteiligten Parteien."
+    },
+    "AssetsHeldInOwnName": {
+      "definition": "Gibt an, ob die Vermögenswerte auf den eigenen Namen einer Einzelperson gehalten werden."
+    },
+    "TransferResultsInChangeOfBeneficialOwner": {
+      "definition": "Gibt an, ob die Übertragung zu einem Wechsel des wirtschaftlich Berechtigten führt."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Finanzinstrument."
+    }
+  }
+}

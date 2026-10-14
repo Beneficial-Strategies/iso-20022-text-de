@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxCharges2",
+  "definition": "Geldbetrag, der dem Staat oder der Steuerbehörde nach verschiedenen vordefinierten Parametern wie Schwellenwerten oder Einkommen geschuldet wird.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Referenz zur zweifelsfreien Bezeichnung der Art der erhobenen Steuer, zum Beispiel Mehrwertsteuer (VAT)."
+    },
+    "Rate": {
+      "definition": "Satz zur Berechnung der Steuer."
+    },
+    "Amount": {
+      "definition": "Geldbetrag, der sich aus der Steuerberechnung ergibt."
+    }
+  }
+}

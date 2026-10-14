@@ -1,0 +1,18 @@
+{
+  "isoType": "ConductClassification1Code",
+  "definition": "Gibt die Klassifizierung des Verhaltens an.",
+  "isoCodes": {
+    "NSTA": {
+      "name": "Nicht standardmäßig",
+      "definition": "Nicht standardmäßig oder ungewöhnlich."
+    },
+    "RCLT": {
+      "name": "Zurückhaltend",
+      "definition": "Zögerlich."
+    },
+    "STAN": {
+      "name": "Standard",
+      "definition": "Standard."
+    }
+  }
+}

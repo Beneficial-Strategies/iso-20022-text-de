@@ -1,0 +1,21 @@
+{
+  "isoType": "InvestigationResponse23",
+  "definition": "Enthält Einzelheiten zur Untersuchungsantwort.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, vom Antwortenden vergeben und an den Auftraggeber gesendet, um die Nachricht eindeutig zu identifizieren.|Verwendung: Der Antwortende muss sicherstellen, dass MessageIdentification je Auftraggeber für einen im Voraus vereinbarten Zeitraum eindeutig ist."
+    },
+    "ResponderInvestigationIdentification": {
+      "definition": "Eindeutige Identifikation, vom Antwortenden vergeben, um die Referenz des Antwortenden für die Untersuchung eindeutig zu identifizieren."
+    },
+    "InvestigationStatus": {
+      "definition": "Status der Untersuchungsanfrage."
+    },
+    "NextResponder": {
+      "definition": "Identifikation der Partei oder Bank, von der der Antwortende eine Antwort erwartet.||Verwendung: Hat der Antwortende die Untersuchung an eine andere Partei weitergeleitet, wird empfohlen, das Element NextResponder anzugeben."
+    },
+    "InvestigationData": {
+      "definition": "Enthält die Antwort auf die Anfrage."
+    }
+  }
+}

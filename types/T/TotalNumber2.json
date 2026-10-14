@@ -1,0 +1,20 @@
+{
+  "isoType": "TotalNumber2",
+  "definition": "Angaben zur Nummerierung der Abwicklungstransaktion.",
+  "isoElements": {
+    "CurrentInstructionNumber": {
+      "definition": "Laufende Nummer der Anweisung innerhalb einer Reihe verknüpfter Abwicklungsanweisungen."
+    },
+    "TotalOfLinkedInstructions": {
+      "definition": "Gesamtanzahl der miteinander verknüpften Abwicklungsanweisungen."
+    }
+  },
+  "isoRules": {
+    "CurrentInstructionNumberRule": {
+      "definition": "Möchte der Absender angeben, dass diese Anweisung mit einer oder mehreren Abwicklungsanweisungen verknüpft ist, so muss CurrentInstructionNumber angegeben werden."
+    },
+    "BlockTradeGuideline": {
+      "definition": "Bei einer Blockgeschäftsanweisung muss die Gesamtzahl der untergeordneten Anweisungen mithilfe von TotalOfLinkedInstructions angegeben werden.|Die CurrentInstructionNumber der übergeordneten Anweisung muss 000000 sein. Die untergeordneten Anweisungen müssen eine aufsteigende CurrentInstructionNumber von 1 bis 999999 haben.|Weitere Einzelheiten finden sich im einschlägigen Dokument zur Marktpraxis auf www.smpg.info."
+    }
+  }
+}

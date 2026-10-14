@@ -1,0 +1,51 @@
+{
+  "isoType": "PaymentTransaction172",
+  "definition": "Enthält Referenz- und Statusangaben zu den ursprünglichen Transaktionen der ursprünglichen Anweisung, auf die sich die Stornierungsnachricht bezieht.",
+  "isoElements": {
+    "CancellationIdentification": {
+      "definition": "Eindeutige Kennung einer Stornierungsanforderung, vergeben vom Beauftragenden (Assigner).||Verwendung: Die Identifikation der Stornierungsanforderung kann für den Abgleich oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Stornierungsanforderung verwendet werden."
+    },
+    "Case": {
+      "definition": "Satz von Elementen zur eindeutigen Identifikation einer Ausnahme oder eines Untersuchungsablaufs."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Enthält Angaben zur ursprünglichen Nachricht."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Eindeutige Identifikation, von der ursprünglichen anweisenden Partei für die ursprünglich angewiesene Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Anweisung."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Eindeutige Identifikation, von der ursprünglichen initiierenden Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Transaktion."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Eindeutige Identifikation, von der ursprünglichen ersten anweisenden Bank vergeben, zur zweifelsfreien Identifikation der Transaktion."
+    },
+    "OriginalUETR": {
+      "definition": "Universell eindeutiger Identifikator als ursprüngliche Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "OriginalClearingSystemReference": {
+      "definition": "Eindeutige Referenz, vom ursprünglichen Clearing-System vergeben, zur zweifelsfreien Identifikation der ursprünglichen Anweisung."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "definition": "Geldbetrag, der gemäß der ursprünglichen Anweisung zwischen der anweisenden und der angewiesenen Bank bewegt wird."
+    },
+    "OriginalInterbankSettlementDate": {
+      "definition": "Datum gemäß der ursprünglichen Transaktion, an dem der Geldbetrag der schuldenden Bank nicht mehr zur Verfügung steht und der Bank, der er zusteht, zur Verfügung steht."
+    },
+    "Assigner": {
+      "definition": "Partei, die den Fall zuweist.|Verwendung: Dies ist zugleich die Bank, die die nächste Partei in der Kette anweist, den oder die Stornierungsaufträge auszuführen."
+    },
+    "Assignee": {
+      "definition": "Partei, der der Fall zugewiesen wird.|Verwendung: Dies ist zugleich die Bank, die von der vorherigen Partei in der Kette angewiesen wird, den oder die Stornierungsaufträge auszuführen."
+    },
+    "CancellationReasonInformation": {
+      "definition": "Enthält detaillierte Informationen zum Stornierungsgrund."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Schlüsselelemente zur Identifikation der ursprünglichen Transaktion, auf die verwiesen wird."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  }
+}

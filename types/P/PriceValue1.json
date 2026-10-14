@@ -1,0 +1,9 @@
+{
+  "isoType": "PriceValue1",
+  "definition": "Einem Preis zugewiesener Wert.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Als Währung und Wert ausgedrückter Preis."
+    }
+  }
+}

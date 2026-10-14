@@ -1,0 +1,12 @@
+{
+  "isoType": "ClearingSystemIdentification3Choice",
+  "definition": "Gibt die Identifikation des Clearingsystems an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Infrastruktur, über die die Zahlungsanweisung verarbeitet wird, wie in einer externen Liste von Clearingsystem-Identifikationscodes veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Clearingsystem-Identifikation in proprietärer Form."
+    }
+  }
+}

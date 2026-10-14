@@ -1,0 +1,12 @@
+{
+  "isoType": "MissingCover6",
+  "definition": "Enthält zusätzliche Deckungsdetails zur Reklamation wegen Nichterhalt.",
+  "isoElements": {
+    "MissingCoverIndicator": {
+      "definition": "Gibt an, ob sich die Reklamation auf eine fehlende Deckung bezieht."
+    },
+    "CoverCorrection": {
+      "definition": "Menge von Elementen zur Berichtigung falscher Abwicklungsinformationen zur Deckung der empfangenen Zahlungsanweisung."
+    }
+  }
+}

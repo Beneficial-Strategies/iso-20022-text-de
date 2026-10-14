@@ -1,0 +1,30 @@
+{
+  "isoType": "CompanyLink1Code",
+  "definition": "Legt die Art der Verbindungen zu einem Unternehmen fest.",
+  "isoCodes": {
+    "AGEN": {
+      "name": "Bank",
+      "definition": "Vom Broker akkreditierter eigenständiger Vertreter."
+    },
+    "BROK": {
+      "name": "Broker",
+      "definition": "Mitarbeiter, Bediener oder Vertreter des Brokers."
+    },
+    "PART": {
+      "name": "Brokerage-Partner",
+      "definition": "Broker-Partner oder Anteilseigner, natürliche oder juristische Person, die eine unmittelbare oder mittelbare Kontrollfunktion ausübt, sowie Inhaber einer Leitungs- oder Verwaltungsposition."
+    },
+    "MEMB": {
+      "name": "Mitgliedsmakler",
+      "definition": "Mitgliedsbroker eines Finanzkonglomerats (die Person ist Verwaltungsratsmitglied, Direktor, leitender Angestellter und Mitarbeiter eines Mitgliedsunternehmens des Konglomerats)."
+    },
+    "PCOM": {
+      "name": "Muttergesellschaft",
+      "definition": "Muttergesellschaft des Brokers."
+    },
+    "RELA": {
+      "name": "Verwandter",
+      "definition": "Ehegatte oder Partner und Kind eines Mitarbeiters, Bedieners oder Vertreters des Brokers; Vertreter des Brokers; Broker-Partner oder Anteilseigner; natürliche oder juristische Person, die eine unmittelbare oder mittelbare Kontrollfunktion ausübt, sowie Inhaber einer Leitungs- oder Verwaltungsposition."
+    }
+  }
+}

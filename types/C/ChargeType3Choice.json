@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargeType3Choice",
+  "definition": "Gibt die Entgeltart an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Entgeltart in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Entgeltart in proprietärer Form, wie vom Herausgeber definiert."
+    }
+  }
+}

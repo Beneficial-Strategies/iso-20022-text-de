@@ -1,0 +1,12 @@
+{
+  "isoType": "BeneficiaryCertificationType10Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe der Art der erforderlichen Bescheinigung des Begünstigten.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Art der erforderlichen Bescheinigung."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Art der erforderlichen Bescheinigung."
+    }
+  }
+}

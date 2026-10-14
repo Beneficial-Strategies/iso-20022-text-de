@@ -1,0 +1,44 @@
+{
+  "isoType": "Penalty4",
+  "definition": "Gibt die Strafzahlungen für eine bestimmte Partei an.",
+  "isoElements": {
+    "Currency": {
+      "definition": "Währung der gemeldeten Strafzahlungen."
+    },
+    "Date": {
+      "definition": "Datum, an dem die in diesem Block gemeldeten Strafzahlungen ursprünglich berechnet wurden.|."
+    },
+    "PartyIdentification": {
+      "definition": "Eindeutige Identifikation der Partei innerhalb des Systems."
+    },
+    "CounterpartyCSD": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Partei, auf die sich die aggregierten Beträge beziehen."
+    },
+    "CSDDepository": {
+      "definition": "Verwahrstelle/Intermediär, die bzw. der von einem ICSD für den Zugang zum CSD einer bestimmten Gegenpartei genutzt wird, das heißt die Partei, die das Konto führt."
+    },
+    "AggregatedAmount": {
+      "definition": "Aggregierter Strafbetrag."
+    },
+    "CashAccount": {
+      "definition": "Konto, das für die Abwicklung der Strafzahlung zu belasten bzw. gutzuschreiben ist."
+    },
+    "CashSettlementDate": {
+      "definition": "Datum, an dem die Zahlung der Strafzahlung fällig ist."
+    },
+    "CashPenaltyIdentification": {
+      "definition": "Referenz der Zahlung der Strafzahlung."
+    },
+    "NumberOfCounterparties": {
+      "definition": "Anzahl der an der Strafzahlung beteiligten Gegenparteien."
+    },
+    "PenaltyPerCounterparty": {
+      "definition": "Forderungen (Strafzahlungen) in einer Währung und mit einem Datum, die für eine bestimmte Partei gemeldet werden.|Wenn für eine Partei in einer bestimmten Währung keine Strafzahlungen vorliegen, wird dieser Block nicht befüllt."
+    }
+  },
+  "isoRules": {
+    "CounterpartyCSDPresenceRule": {
+      "definition": "Entweder CounterpartyCSD oder PenaltyPerCounterparty/AccountServicer wird angegeben, aber nicht beides."
+    }
+  }
+}

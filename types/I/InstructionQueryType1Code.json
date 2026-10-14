@@ -1,0 +1,18 @@
+{
+  "isoType": "InstructionQueryType1Code",
+  "definition": "Gibt den Typ der abgefragten Anweisung an.",
+  "isoCodes": {
+    "SETT": {
+      "name": "Abwicklungsanweisung",
+      "definition": "Die Abfrage erfolgt zu Abwicklungstransaktionen."
+    },
+    "IPOS": {
+      "name": "Positionsumbuchung",
+      "definition": "Die Abfrage erfolgt zu Positionsumbuchungen (Intra-Position)."
+    },
+    "BOTH": {
+      "name": "Abwicklung und Positionsumbuchung",
+      "definition": "Die Abfrage erfolgt sowohl zu Abwicklungstransaktionen als auch zu Positionsumbuchungen (Intra-Position)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "EventType1Choice",
+  "definition": "Art des Ereignisses.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des Ereignisses in codierter Form, wie in einer externen Liste veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Art des Ereignisses in Freitextform."
+    }
+  }
+}

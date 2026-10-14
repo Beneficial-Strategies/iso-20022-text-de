@@ -1,0 +1,12 @@
+{
+  "isoType": "FiscalYear1Choice",
+  "definition": "Auswahl von Startdatum und Enddatum für das Geschäftsjahr.",
+  "isoElements": {
+    "StartDate": {
+      "definition": "Startdatum des Geschäftsjahres."
+    },
+    "EndDate": {
+      "definition": "Enddatum des Geschäftsjahres."
+    }
+  }
+}

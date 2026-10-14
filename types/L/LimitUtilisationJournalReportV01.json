@@ -1,0 +1,4 @@
+{
+  "isoType": "LimitUtilisationJournalReportV01",
+  "definition": "Die Nachricht LimitUtilisationJournalReport wird zwischen dem Zentralsystem und einem Zentralverwahrer oder einem direkt angebundenen Systemteilnehmer (dem Zentralverwahrer-Teilnehmer mit direktem Zugang, etwa einer Bank oder einer zentralen Gegenpartei) ausgetauscht und dient dazu, Informationen zum Limit zurückzugeben. Sie dient dazu, Informationen über das Journal der Transaktionen zu melden, die sich auf die Auslastung der vom Systemteilnehmer festgelegten Limits auswirken."
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAStandingInstructionRequestV01",
+  "definition": "Anwendungsbereich|Diese Nachricht wird von einem CSD an den Emittenten (oder dessen Beauftragten) gesendet, um dem Emittenten (oder dessen Beauftragten) die Kundendetails des CSD für die Verteilung der Erlöse eines Kapitalmaßnahmen-Ereignisses zu übermitteln:|- Brutto- oder Nettozahlungen.|- Lieferdetails für Wertpapiere, die außerhalb des CSD geliefert werden müssen.|- Lieferdetails für Geldbeträge, die außerhalb des CSD geliefert werden müssen.|Verwendung|Diese Nachricht wird verwendet, um den Emittenten (oder dessen Beauftragten) zu ersuchen, eine Dauerauftragsanweisung für Erlöse einzurichten.|Die Änderung einer Dauerauftragsanweisung erfolgt durch einen Storno-und-Ersatz-Mechanismus. Zunächst wird ein Antrag auf Stornierung der Dauerauftragsanweisung gesendet, gefolgt von einem neuen Antrag auf Dauerauftragsanweisung."
+}

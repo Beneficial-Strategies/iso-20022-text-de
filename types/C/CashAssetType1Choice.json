@@ -1,0 +1,12 @@
+{
+  "isoType": "CashAssetType1Choice",
+  "definition": "Auswahl der Formate für eine Art von Barvermögenswert.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des Bargelds, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Art des Bargelds, ausgedrückt als proprietärer Code."
+    }
+  }
+}

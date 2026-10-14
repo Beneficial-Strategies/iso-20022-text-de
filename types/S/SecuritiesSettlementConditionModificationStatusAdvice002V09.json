@@ -1,0 +1,17 @@
+{
+  "isoType": "SecuritiesSettlementConditionModificationStatusAdvice002V09",
+  "definition": "Anwendungsbereich|Ein Kontoführer sendet eine SecuritiesSettlementConditionsModificationStatusAdvice an einen Kontoinhaber, um den Status einer zuvor vom Kontoinhaber angewiesenen Änderungsanfrage mitzuteilen.|Die Beziehung zwischen Kontoführer und Kontoinhaber kann sein:|- ein Zentralverwahrer oder eine andere Abwicklungs-Marktinfrastruktur, die im Namen ihrer Teilnehmer handelt|- ein Agent (Unterverwahrer), der im Namen seines Global-Custodian-Kunden handelt, oder|- eine Depotbank, die im Namen eines Vermögensverwalters oder eines Brokers/Händlers handelt.||Verwendung|Eine SecuritiesSettlementConditionsModificationRequest kann Anfragen zu mehreren Transaktionen enthalten. Es muss jedoch pro geänderter Transaktion eine SecuritiesSettlementConditionsModificationStatusAdvice gesendet werden, es sei denn, die SecuritiesSettlementConditionsModificationRequest wird als Ganzes abgelehnt.|Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden,|- einem Dritten eine Kopie einer Nachricht zur Information zur Verfügung zu stellen,|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu senden, unter Verwendung der entsprechenden Elemente im Business Application Header.",
+  "isoElements": {
+    "RequestReference": {
+      "definition": "Identifikation der SecuritiesSettlementConditionsModificationRequest."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    }
+  }
+}

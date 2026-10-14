@@ -1,0 +1,63 @@
+{
+  "isoType": "OriginalTransactionReference46",
+  "definition": "Schlüsselelemente, die auf die ursprüngliche Transaktion verweisen.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag, der vor Abzug von Entgelten zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, ausgedrückt in der von der initiierenden Partei beauftragten Währung."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Datum, zu dem die initiierende Partei die Clearingstelle um Verarbeitung der Zahlung ersucht. |Verwendung: Dies ist das Datum, an dem das Konto des Zahlungspflichtigen zu belasten ist. Bei Zahlung per Scheck das Datum, an dem der Scheck von der Bank ausgestellt sein muss."
+    },
+    "ExpiryDate": {
+      "definition": "Datum, bis zu dem der Zahlungspflichtige die Anforderung angenommen oder abgelehnt haben muss.||Verwendung: |Nach diesem Datum wird die Anforderung ungültig und kann nicht mehr bearbeitet werden."
+    },
+    "PaymentCondition": {
+      "definition": "Bedingungen für die Ausführung der Zahlung."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Satz von Elementen zur näheren Bestimmung der Transaktionsart."
+    },
+    "PaymentMethod": {
+      "definition": "Gibt das Zahlungsmittel an, mit dem der Geldbetrag bewegt wird."
+    },
+    "MandateRelatedInformation": {
+      "definition": "Enthält weitere Angaben zum zwischen dem Zahlungsempfänger und dem Zahlungspflichtigen unterzeichneten Mandat."
+    },
+    "RemittanceInformation": {
+      "definition": "Informationen zur Ermöglichung des Abgleichs eines Umsatzes mit den Posten, die durch die Übertragung beglichen werden sollen, etwa Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    },
+    "EnclosedFile": {
+      "definition": "In der Benachrichtigung beigefügtes Dokument oder beigefügte Vorlage.||Verwendung: Die Verwendung des Elements EnclosedFile muss bilateral vereinbart werden."
+    },
+    "UltimateDebtor": {
+      "definition": "Letztlich Zahlungspflichtiger, der dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "Debtor": {
+      "definition": "Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "DebtorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungspflichtigen, das aufgrund der Transaktion belastet wird."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungspflichtigen führt."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungspflichtigen bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungsempfänger führt."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungsempfängers bei der sie kontoführenden Bank, dem aufgrund der Zahlungstransaktion eine Gutschrift erteilt wird."
+    },
+    "Creditor": {
+      "definition": "Partei, der ein Geldbetrag zusteht."
+    },
+    "CreditorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungsempfängers, dem aufgrund der Zahlungstransaktion eine Gutschrift gebucht wird."
+    },
+    "UltimateCreditor": {
+      "definition": "Letztliche Partei, der ein Geldbetrag zusteht."
+    }
+  }
+}

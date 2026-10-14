@@ -1,0 +1,15 @@
+{
+  "isoType": "Receipt7",
+  "definition": "Enthält Details zur Anfrage.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Identifikation der ursprünglichen Anfragenachricht."
+    },
+    "OriginalPaymentIdentification": {
+      "definition": "Identifikation der ursprünglichen Transaktionsidentifikation, wenn die Anfrage, für die die Quittung erzeugt wird, eine Zahlungstransaktion ist."
+    },
+    "RequestHandling": {
+      "definition": "Gibt den Status der Anfrage an."
+    }
+  }
+}

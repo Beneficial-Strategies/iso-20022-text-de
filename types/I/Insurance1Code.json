@@ -1,0 +1,14 @@
+{
+  "isoType": "Insurance1Code",
+  "definition": "Legt die Art der Versicherung fest.",
+  "isoCodes": {
+    "LIFE": {
+      "name": "Lebensversicherung",
+      "definition": "Lebensversicherung."
+    },
+    "PDIS": {
+      "name": "Berufsunfähigkeitsversicherung",
+      "definition": "Versicherung gegen dauerhafte Invalidität."
+    }
+  }
+}

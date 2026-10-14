@@ -1,0 +1,86 @@
+{
+  "isoType": "PensionSchemeType3Code",
+  "definition": "Gibt eine Art von Pensionsregelung an.",
+  "isoCodes": {
+    "AAVC": {
+      "name": "Zusätzlicher freiwilliger Beitrag",
+      "definition": "Der Pensionsplan ist ein Plan mit zusätzlichen freiwilligen Beiträgen."
+    },
+    "DBEN": {
+      "name": "Leistungsorientiert",
+      "definition": "Der Pensionsplan ist ein leistungsorientierter Plan."
+    },
+    "EXPP": {
+      "name": "Pensionsplan für Führungskräfte",
+      "definition": "Der Pensionsplan ist ein Pensionsplan für Führungskräfte."
+    },
+    "FAVC": {
+      "name": "Eigenständiger zusätzlicher freiwilliger Beitrag",
+      "definition": "Der Pensionsplan ist ein eigenständiger Plan mit zusätzlichen freiwilligen Beiträgen."
+    },
+    "GPPS": {
+      "name": "Gruppen-Privatrente",
+      "definition": "Die Pension ist eine persönliche Gruppenpension."
+    },
+    "SIPG": {
+      "name": "Gruppen-Rente mit Selbstanlage",
+      "definition": "Der Pensionsplan ist ein selbstinvestierter Gruppenpensionsplan."
+    },
+    "STKG": {
+      "name": "Gruppen-Stakeholder",
+      "definition": "Der Pensionsplan ist ein Stakeholder-Gruppenpensionsplan."
+    },
+    "IPST": {
+      "name": "Individuelle Rente mit Steuervorteil",
+      "definition": "Die Pension ist ein individueller Pensionssparplan mit steuerlichem Vorteil. In manchen Märkten ist dies als Individual Pension Schema (IPS) bekannt."
+    },
+    "STKI": {
+      "name": "Individueller Stakeholder",
+      "definition": "Der Pensionsplan ist eine individuelle Stakeholder-Pension."
+    },
+    "OTPM": {
+      "name": "Verpflichtende betriebliche Altersversorgung",
+      "definition": "Die Pension ist eine verpflichtende betriebliche Altersversorgung. In manchen Märkten ist dies als Obligatory Occupation Pension (OTP) bekannt."
+    },
+    "OCDC": {
+      "name": "Betrieblich beitragsorientiert",
+      "definition": "Der Pensionsplan ist ein beitragsorientierter betrieblicher Plan."
+    },
+    "PPNS": {
+      "name": "Privatrente",
+      "definition": "Die Pension ist ein persönlicher Pensionsplan."
+    },
+    "EPKA": {
+      "name": "Privatrentenkonto",
+      "definition": "Die Pension ist ein persönliches Pensionskonto. In manchen Märkten ist dies als Employee Pension Kapital (EPK) bekannt."
+    },
+    "ITPO": {
+      "name": "Private betriebliche Altersversorgung",
+      "definition": "Die Pension ist eine private betriebliche Altersversorgung. In manchen Märkten ist dies als industrial and trade supplementary pension (ITP) bekannt."
+    },
+    "REAN": {
+      "name": "Altersrente",
+      "definition": "Der Pensionsplan ist eine Altersrente (Retirement Annuity)."
+    },
+    "SC32": {
+      "name": "Section 32",
+      "definition": "Pensionsart, die unter Section 32 fällt."
+    },
+    "S32A": {
+      "name": "Section 32A",
+      "definition": "Pensionsart, die unter Section 32A fällt."
+    },
+    "SIPP": {
+      "name": "Privatrente mit Selbstanlage",
+      "definition": "Die Pension ist ein selbstinvestierter persönlicher Pensionsplan."
+    },
+    "SSAS": {
+      "name": "Kleines selbstverwaltetes Programm",
+      "definition": "Die Pension ist eine kleine selbstverwaltete Pensionsregelung."
+    },
+    "NWRP": {
+      "name": "Rente ohne Wrapper",
+      "definition": "Gibt an, dass die Partei den Pension-Wrapper nicht betreibt."
+    }
+  }
+}

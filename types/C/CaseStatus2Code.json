@@ -1,0 +1,26 @@
+{
+  "isoType": "CaseStatus2Code",
+  "definition": "Gibt den Status eines Untersuchungsfalls an.||Hinweis: |Abgelehnte (nicht angenommene) Fälle sind der Partei, die den Status der Fälle meldet, nicht bekannt. Sie werden mit dem CaseStatusCode = Unknown gemeldet.",
+  "isoCodes": {
+    "CLSD": {
+      "name": "Geschlossen",
+      "definition": "Der Fall wurde geschlossen."
+    },
+    "ASGN": {
+      "name": "Zugewiesen",
+      "definition": "Der Fall wurde einer anderen Partei zugewiesen."
+    },
+    "INVE": {
+      "name": "In Untersuchung",
+      "definition": "Der Fall wird derzeit untersucht."
+    },
+    "UKNW": {
+      "name": "Unbekannt",
+      "definition": "Der Fall wurde zuvor noch nie zugewiesen."
+    },
+    "ODUE": {
+      "name": "Überfällig",
+      "definition": "Die Untersuchung dauert zu lange."
+    }
+  }
+}

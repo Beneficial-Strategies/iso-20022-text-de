@@ -1,0 +1,30 @@
+{
+  "isoType": "BillingService2",
+  "definition": "Gibt die Werte an, die für jede Servicezeile in der Abrechnung verwendet werden.",
+  "isoElements": {
+    "ServiceDetail": {
+      "definition": "Gibt weitere detaillierte Werte für diesen Service an."
+    },
+    "Price": {
+      "definition": "Auf den Service angewandter Preis, ausgedrückt in der Preiswährung."
+    },
+    "PaymentMethod": {
+      "definition": "Code zur Kennzeichnung der Verfügung über das berechnete Entgelt."
+    },
+    "OriginalChargePrice": {
+      "definition": "Betrag des berechneten Entgelts, ausgedrückt in der Preiswährung. Dieser Wert enthält keine Steuern auf den Service."
+    },
+    "OriginalChargeSettlementAmount": {
+      "definition": "Betrag des berechneten Entgelts, ausgedrückt in der Abrechnungswährung."
+    },
+    "BalanceRequiredAccountAmount": {
+      "definition": "Durchschnittlicher täglicher eingezogener Saldo, der zum Ausgleich eines saldenkompensierbaren Servicentgelts erforderlich ist, ohne Steuern, ausgedrückt in der Kontowährung."
+    },
+    "TaxDesignation": {
+      "definition": "Enthält die Details zum Steuerstatus eines Services."
+    },
+    "TaxCalculation": {
+      "definition": "Enthält steuerbezogene Werte für die Steuerberechnungsmethoden A, B oder D."
+    }
+  }
+}

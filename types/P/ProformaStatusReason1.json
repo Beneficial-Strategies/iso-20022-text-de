@@ -1,0 +1,12 @@
+{
+  "isoType": "ProformaStatusReason1",
+  "definition": "Grund für einen Proforma-Status.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für den Proforma-Kontostatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Grund für den Proforma-Kontostatus."
+    }
+  }
+}

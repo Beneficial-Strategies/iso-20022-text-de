@@ -1,0 +1,146 @@
+{
+  "isoType": "UnitOfMeasure1Code",
+  "definition": "Maßeinheit des erworbenen Postens.",
+  "isoCodes": {
+    "PIEC": {
+      "name": "Stück",
+      "definition": "Standardlänge von Stoff oder Tapete, als Verkaufsartikel oder Menge eines Stoffes."
+    },
+    "TONS": {
+      "name": "Tonne",
+      "definition": "Gewichtsmaß; in Großbritannien 2240lb (Long Ton) und in den USA 2000lb (Short Ton)."
+    },
+    "FOOT": {
+      "name": "Fuß",
+      "definition": "Längeneinheit, die 1/3 Yard entspricht."
+    },
+    "GBGA": {
+      "name": "Britische Gallone",
+      "definition": "Volumeneinheit, die 8 Pints entspricht."
+    },
+    "USGA": {
+      "name": "US-Gallone",
+      "definition": "Volumeneinheit, die 8 Pints entspricht."
+    },
+    "GRAM": {
+      "name": "Gramm",
+      "definition": "Maßeinheit, die dem 1000. Teil eines Kilos entspricht."
+    },
+    "INCH": {
+      "name": "Zoll",
+      "definition": "Längenmaß von 2.54 cm."
+    },
+    "KILO": {
+      "name": "Kilogramm",
+      "definition": "Basiseinheit der Masse im SI-System, 1000 Gramm."
+    },
+    "PUND": {
+      "name": "Pfund",
+      "definition": "Gewichtseinheit, die 0.454 Kilogramm entspricht."
+    },
+    "METR": {
+      "name": "Meter",
+      "definition": "Längeneinheit im metrischen System, die 39.37 Zoll entspricht."
+    },
+    "CMET": {
+      "name": "Zentimeter",
+      "definition": "Maßeinheit, die einem Hundertstel Meter entspricht."
+    },
+    "MMET": {
+      "name": "Millimeter",
+      "definition": "Maßeinheit, die einem Tausendstel Meter entspricht."
+    },
+    "LITR": {
+      "name": "Liter",
+      "definition": "Volumeneinheit, die tausend Kubikzentimetern entspricht."
+    },
+    "CELI": {
+      "name": "Zentiliter",
+      "definition": "Volumeneinheit entsprechend einem Hundertstel Liter."
+    },
+    "MILI": {
+      "name": "Milliliter",
+      "definition": "Volumeneinheit, die einem Tausendstel Liter entspricht."
+    },
+    "GBOU": {
+      "name": "Britische Unze",
+      "definition": "Gewichtseinheit, die einem Sechzehntel Pfund entspricht."
+    },
+    "USOU": {
+      "name": "US-Unze",
+      "definition": "Gewichtseinheit, die einem Sechzehntel Pfund entspricht."
+    },
+    "GBQA": {
+      "name": "Britisches Quart",
+      "definition": "Volumeneinheit, die 2 Pints entspricht."
+    },
+    "USQA": {
+      "name": "US-Quart",
+      "definition": "Volumeneinheit, die 2 Pints entspricht."
+    },
+    "GBPI": {
+      "name": "Britische Pinte",
+      "definition": "Volumeneinheit, die 568 Kubikzentimetern entspricht."
+    },
+    "USPI": {
+      "name": "US-Pinte",
+      "definition": "Volumeneinheit, die 473 Kubikzentimetern entspricht."
+    },
+    "MILE": {
+      "name": "Meile",
+      "definition": "Längeneinheit, die 1760 Yards entspricht."
+    },
+    "KMET": {
+      "name": "Kilometer",
+      "definition": "Maßeinheit, die 1000 Metern entspricht."
+    },
+    "YARD": {
+      "name": "Yard",
+      "definition": "Längeneinheit, die 3 Fuß oder 0.9144 Meter entspricht."
+    },
+    "SQKI": {
+      "name": "Quadratkilometer",
+      "definition": "Flächenmaß, ein Kilometer mal ein Kilometer."
+    },
+    "HECT": {
+      "name": "Hektar",
+      "definition": "Maßeinheit, die 10000 Quadratmetern entspricht."
+    },
+    "ARES": {
+      "name": "Ar",
+      "definition": "Maßeinheit entsprechend 100 Quadratmetern."
+    },
+    "SMET": {
+      "name": "Quadratmeter",
+      "definition": "Flächenmaß, ein Meter mal ein Meter."
+    },
+    "SCMT": {
+      "name": "Quadratzentimeter",
+      "definition": "Flächenmaß, ein Zentimeter mal ein Zentimeter."
+    },
+    "SMIL": {
+      "name": "Quadratmillimeter",
+      "definition": "Flächenmaß, ein Millimeter mal ein Millimeter."
+    },
+    "SQMI": {
+      "name": "Quadratmeile",
+      "definition": "Flächenmaß, eine Meile mal eine Meile."
+    },
+    "SQYA": {
+      "name": "Quadratyard",
+      "definition": "Flächenmaß, ein Yard mal ein Yard."
+    },
+    "SQFO": {
+      "name": "Quadratfuß",
+      "definition": "Flächenmaß, ein Fuß mal ein Fuß."
+    },
+    "SQIN": {
+      "name": "Quadratzoll",
+      "definition": "Flächenmaß, ein Zoll mal ein Zoll."
+    },
+    "ACRE": {
+      "name": "Acre",
+      "definition": "Maßeinheit entsprechend 4 840 Quadratyards."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "UnitPrice23",
+  "definition": "Geldbetrag, zu dem Waren oder Dienstleistungen angeboten, verkauft oder gekauft werden.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art und Informationen zu einem Preis."
+    },
+    "Value": {
+      "definition": "Wert des Preises."
+    },
+    "PriceMethod": {
+      "definition": "Art der Preisberechnungsmethode."
+    },
+    "AccruedInterestNAV": {
+      "definition": "Zinsen, die zwischen der letzten Zinszahlung und dem Verkauf des Finanzinstruments aufgelaufen sind."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Anzahl der Tage, die zur Berechnung des aufgelaufenen Zinsbetrags verwendet werden."
+    },
+    "TaxableIncomePerShare": {
+      "definition": "Im NAV enthaltener Betrag, der Erträgen entspricht, die direkt oder indirekt aus Zinszahlungen im Anwendungsbereich der Europäischen Richtlinie über die Besteuerung von Zinserträgen in Form von Zinszahlungen stammen."
+    },
+    "TaxableIncomePerShareCalculated": {
+      "definition": "Gibt an, ob der Fonds einen steuerpflichtigen Zins je Anteil (TIS) berechnet."
+    }
+  }
+}

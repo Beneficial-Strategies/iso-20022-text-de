@@ -1,0 +1,27 @@
+{
+  "isoType": "Member7",
+  "definition": "Informationen zu den Teilnehmern eines Systems.",
+  "isoElements": {
+    "Name": {
+      "definition": "Wort, mit dem etwas bezeichnet wird oder bekannt ist, oder der Familienname einer Person."
+    },
+    "ReturnAddress": {
+      "definition": "Physische/logische Adresse eines Teilnehmers, getrennt von seiner Hauptadresse, die für den normalen Betrieb verwendet wird. Die Fund-Return-Adresse dient zur Weiterleitung von Nachrichten, die besondere Aufmerksamkeit/Ausnahmebehandlung erfordern, zum Beispiel Rückläufer oder Ablehnungen."
+    },
+    "Account": {
+      "definition": "Konto, auf das oder von dem eine Geldbuchung erfolgt."
+    },
+    "Type": {
+      "definition": "Art der Beziehung, die ein Mitglied zu einem System unterhält."
+    },
+    "Status": {
+      "definition": "Status eines Mitglieds in einem System, zum Beispiel aktiviert oder gelöscht."
+    },
+    "ContactReference": {
+      "definition": "Person, die in einer bestimmten Organisation kontaktiert werden soll."
+    },
+    "CommunicationAddress": {
+      "definition": "Nummer oder virtuelle Adresse für die Kommunikation."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "EligiblePosition17",
+  "definition": "Angaben zu einer Wertpapierposition und zu Rechteinhabern.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identifikation des Wertpapierkontos."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Blockchain-Adresse oder Wallet, in der digitale Vermögenswerte gehalten werden. Dies entspricht dem Verwahrkonto für digitale Vermögenswerte."
+    },
+    "AccountOwner": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    },
+    "HoldingBalance": {
+      "definition": "Nettoposition eines getrennt geführten Bestands eines einzelnen Wertpapiers innerhalb der auf einem Wertpapierkonto gehaltenen Gesamtposition, zum Beispiel Teilsaldo je Status."
+    }
+  },
+  "isoRules": {
+    "HoldingBalanceTypeRule": {
+      "definition": "In allen Vorkommen von HoldingBalance darf höchstens und mindestens ein BalanceType den Wert ELIG (Berechtigt) haben."
+    },
+    "AccountIdentificationOrBlockChainAddress1Rule": {
+      "definition": "Entweder AccountIdentification oder BlockChainAddressOrWallet muss vorhanden sein, aber nicht beide."
+    },
+    "AccountIdentificationOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, dann darf AccountIdentification nicht vorhanden sein."
+    },
+    "AccountIdentificationOrBlockChainAddress3Rule": {
+      "definition": "Wenn AccountIdentification vorhanden ist, dann darf BlockChainAddressOrWallet nicht vorhanden sein."
+    }
+  }
+}

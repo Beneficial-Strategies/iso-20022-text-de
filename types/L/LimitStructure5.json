@@ -1,0 +1,23 @@
+{
+  "isoType": "LimitStructure5",
+  "definition": "Limitdetails eines bestimmten Limits, das vom Teilnehmer festgelegt und vom Transaktionsverwalter verwaltet wird.",
+  "isoElements": {
+    "LimitIdentification": {
+      "definition": "Identifikation des Standardlimits."
+    },
+    "NewLimitValueSet": {
+      "definition": "Neue Limitwerte."
+    },
+    "OldLimitValueSet": {
+      "definition": "Alte Limitwerte."
+    },
+    "LimitValueAmendment": {
+      "definition": "Differenz zwischen dem neuen und dem alten Limitwert."
+    }
+  },
+  "isoRules": {
+    "OldLimitOrLimitAmendmentPresenceRule": {
+      "definition": "OldLimitValueSet oder LimitValueAmendment darf nicht vorhanden sein, beide können fehlen."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "isoType": "RejectionReason14Code",
+  "definition": "Gibt den Grund für die Ablehnung eines Antrags auf Stornierung einer Bewegung an.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Validierung fehlgeschlagen",
+      "definition": "Die Validierung der Mitteilung/Anweisung/des Antrags ist fehlgeschlagen."
+    },
+    "LATT": {
+      "name": "Verspätet",
+      "definition": "Die Anweisung bzw. Anforderung geht zu spät ein."
+    },
+    "INET": {
+      "name": "Ungültiger Ereignistyp",
+      "definition": "Der CA Event Type entspricht nicht der zugehörigen Kapitalmaßnahme."
+    },
+    "INUS": {
+      "name": "Ungültiges Basiswertpapier",
+      "definition": "Die Underlying Security Identification entspricht nicht der angegebenen Corporate Action Reference."
+    },
+    "INPT": {
+      "name": "Ungültige Art der Ereignisverarbeitung",
+      "definition": "Der Event Processing Type entspricht nicht der zugehörigen Kapitalmaßnahme."
+    },
+    "INMV": {
+      "name": "Ungültige Ereignisart (verpflichtend/freiwillig)",
+      "definition": "Der Mandatory/Voluntary Event Type entspricht nicht der zugehörigen Kapitalmaßnahme."
+    },
+    "INDE": {
+      "name": "Ungültige Informationen zur Kapitalmaßnahme",
+      "definition": "Die im Block Corporate Action General Information angegebenen Details stimmen nicht mit den in der zugehörigen ursprünglichen Nachricht angegebenen überein."
+    },
+    "AGIN": {
+      "name": "Ungültiger Agent",
+      "definition": "Ungültige Identifikation des Beauftragten angegeben."
+    },
+    "INMO": {
+      "name": "Ungültige Bewegungsinformationen",
+      "definition": "Die im Block MOVEMENT GENERAL INFORMATION angegebenen Details stimmen nicht mit den in der zugehörigen ursprünglichen Nachricht angegebenen überein."
+    },
+    "SAID": {
+      "name": "Gleiche Identifikation",
+      "definition": "Mehrere Nachrichten mit derselben Identifikation."
+    },
+    "INID": {
+      "name": "Ungültige Identifikation",
+      "definition": "Die Anweisung enthält eine ungültige Nachrichtenidentifikation, die Identifikation ist unbekannt."
+    },
+    "MOSE": {
+      "name": "Bewegung bereits abgewickelt",
+      "definition": "Eine oder mehrere der zugrunde liegenden Bewegungen wurden bereits abgewickelt."
+    }
+  }
+}

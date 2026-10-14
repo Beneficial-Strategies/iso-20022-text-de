@@ -1,0 +1,12 @@
+{
+  "isoType": "EnabledStatusReason1Choice",
+  "definition": "Auswahl der Formate für den Grund eines aktivierten Status.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Für den aktivierten Kontostatus liegt kein Grund vor oder ist kein Grund zu melden."
+    },
+    "Reason": {
+      "definition": "Grund für den aktivierten Kontostatus."
+    }
+  }
+}

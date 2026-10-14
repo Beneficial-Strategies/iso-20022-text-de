@@ -1,0 +1,30 @@
+{
+  "isoType": "Limit7",
+  "definition": "Einzelheiten zu den Limits.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag des Limits, ausgedrückt in einer zulässigen Währung."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob ein Limit ein Lastschrift- oder ein Gutschriftlimit ist."
+    },
+    "Status": {
+      "definition": "Status des Limits, zum Beispiel aktiviert oder deaktiviert."
+    },
+    "StartDateTime": {
+      "definition": "Datum und Uhrzeit, ab denen das Limit wirksam wird."
+    },
+    "UsedAmount": {
+      "definition": "Tatsächliche Inanspruchnahme des Limits, ausgedrückt als Betrag."
+    },
+    "UsedAmountCreditDebitIndicator": {
+      "definition": "Gibt an, ob der in Anspruch genommene Betrag des Limits ein Belastungs- oder ein Gutschriftbetrag ist."
+    },
+    "UsedPercentage": {
+      "definition": "Tatsächliche Inanspruchnahme des Limits, ausgedrückt als Prozentsatz."
+    },
+    "RemainingAmount": {
+      "definition": "Tatsächliche Inanspruchnahme des Limits, ausgedrückt als Betrag."
+    }
+  }
+}

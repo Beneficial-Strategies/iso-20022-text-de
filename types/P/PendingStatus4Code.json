@@ -1,0 +1,74 @@
+{
+  "isoType": "PendingStatus4Code",
+  "definition": "Gibt an, dass sich eine Zahlung auf Seiten der Clearingstelle im Status „ausstehend“ befindet.",
+  "isoCodes": {
+    "ACPD": {
+      "name": "Akzeptiert",
+      "definition": "Transaktion wurde von der Clearingstelle angenommen."
+    },
+    "VALD": {
+      "name": "Validiert",
+      "definition": "Transaktion wurde von der Clearingstelle validiert."
+    },
+    "MATD": {
+      "name": "Abgeglichen",
+      "definition": "Transaktion wurde von der Clearingstelle mit einer entsprechenden Transaktion abgeglichen."
+    },
+    "AUTD": {
+      "name": "Autorisiert",
+      "definition": "Transaktion wurde vom Transaktionsverwalter oder von einer autorisierten Partei autorisiert."
+    },
+    "INVD": {
+      "name": "Ungültig",
+      "definition": "Transaktion ist ungültig."
+    },
+    "UMAC": {
+      "name": "Nicht abgeglichen",
+      "definition": "Die Clearingstelle hat versucht, die Transaktion mit einer entsprechenden Transaktion abzugleichen, was fehlgeschlagen ist."
+    },
+    "STLE": {
+      "name": "Abwicklungsfähig",
+      "definition": "Transaktion ist für eine künftige Abwicklung zulässig."
+    },
+    "STLM": {
+      "name": "Abwicklungsreif",
+      "definition": "Transaktion ist für eine sofortige Abwicklung zulässig."
+    },
+    "SSPD": {
+      "name": "Ausgesetzt",
+      "definition": "Transaktion wurde von der Clearingstelle ausgesetzt."
+    },
+    "PCAN": {
+      "name": "Stornierung ausstehend",
+      "definition": "Die Clearingstelle hat einen Stornierungsauftrag für die Transaktion erhalten und benötigt entweder einen übereinstimmenden Stornierungsauftrag der Gegenpartei oder eine Bestätigung einer autorisierten Partei."
+    },
+    "PSTL": {
+      "name": "Abwicklung ausstehend",
+      "definition": "Transaktion ist zur Abwicklung zulässig, steht aber noch aus."
+    },
+    "PFST": {
+      "name": "Fehlschlagende Abwicklung ausstehend",
+      "definition": "Transaktion, die für die sofortige Abwicklung zulässig ist, konnte nicht abgewickelt werden."
+    },
+    "SMLR": {
+      "name": "Absender-bezogenes multilaterales Limit",
+      "definition": "Die Transaktion führt zur Überschreitung des „multilateralen Senderlimits“ und kann derzeit nicht verarbeitet werden."
+    },
+    "RMLR": {
+      "name": "Empfänger-bezogenes multilaterales Limit",
+      "definition": "Die Transaktion führt zur Überschreitung des „multilateralen Empfängerlimits“ und kann derzeit nicht verarbeitet werden."
+    },
+    "SRBL": {
+      "name": "Absender-Empfänger-bezogenes bilaterales Limit",
+      "definition": "Die Transaktion führt zur Überschreitung des zwischen Sender und Empfänger festgelegten bilateralen Limits und kann derzeit nicht verarbeitet werden."
+    },
+    "AVLB": {
+      "name": "Zurückgehalten bis zur Dienstverfügbarkeit",
+      "definition": "Gibt an, dass die Nachricht für das empfangende Zahlungssystem in die Warteschlange gestellt wurde und auf die Verarbeitung wartet, weil das empfangende Zahlungssystem zu diesem Zeitpunkt nicht in Betrieb (geöffnet) ist."
+    },
+    "SRML": {
+      "name": "Absender-Empfänger-bezogenes multilaterales Limit",
+      "definition": "Die Transaktion führt dazu, dass die zwischen Sender und Empfänger festgelegten multilateralen Limits durch den Gesamtbetrag der am Tagesende eingereichten Zahlungen überschritten werden, und kann derzeit nicht verarbeitet werden."
+    }
+  }
+}

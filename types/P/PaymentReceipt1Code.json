@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentReceipt1Code",
+  "definition": "Gibt an, ob ein Vorgang eine Zahlung, ein Zahlungseingang oder keines von beidem ist.",
+  "isoCodes": {
+    "PAYM": {
+      "name": "Zahlung",
+      "definition": "Der Vorgang ist eine Zahlung."
+    },
+    "RECE": {
+      "name": "Empfang",
+      "definition": "Der Vorgang ist ein Zahlungseingang."
+    },
+    "NONE": {
+      "name": "Keine",
+      "definition": "Der Vorgang ist null."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "CurrencyExchange26",
+  "definition": "Gruppe von Elementen zur Angabe der Einzelheiten des Währungsumtauschs.",
+  "isoElements": {
+    "UnitCurrency": {
+      "definition": "Währung, in der der Wechselkurs bei einem Währungsumtausch ausgedrückt wird. Im Beispiel GBP 1.00 = USD 1.30 ist die Einheitswährung GBP."
+    },
+    "QuotedCurrency": {
+      "definition": "Währung, in die die Basiswährung (Einheitswährung) umgerechnet wird. Im Beispiel GBP 1.00 = USD 1.30 ist die Einheitswährung USD."
+    },
+    "PreAgreedExchangeRate": {
+      "definition": "Der Wert einer Währung in Bezug auf eine andere Währung. ExchangeRate|drückt das Verhältnis zwischen UnitCurrency und QuotedCurrency aus. (Betrag in UnitCurrency * ExchangeRate = Betrag in QuotedCurrency)"
+    },
+    "QuotationDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen ein Wechselkurs notiert wird."
+    },
+    "QuoteIdentification": {
+      "definition": "Eindeutige Identifikation zur zweifelsfreien Identifizierung der von der ForeignExchangeAgent ausgegebenen Kursnotierung.||Verwendung: Diese Identifikation muss durch die gesamte Ende-zu-Ende-Kette weitergegeben werden."
+    },
+    "ForeignExchangeAgent": {
+      "definition": "Bank, die die Umrechnung der Beträge von der Einheitswährung in die notierte Währung vornimmt.||Verwendung: Die ForeignExchangeAgent muss den AgreedRate-Block unverändert erhalten."
+    }
+  }
+}

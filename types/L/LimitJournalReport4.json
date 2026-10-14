@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitJournalReport4",
+  "definition": "Berichtet entweder über das Risikomanagement-Limit oder über einen Geschäftsfehler.",
+  "isoElements": {
+    "LimitIdentification": {
+      "definition": "Identifikation des Limits, zu dem Informationen angefordert werden."
+    },
+    "LimitReport": {
+      "definition": "Gibt den Geschäftsbericht entweder als Journal der Limitauslastung oder als Geschäftsfehler an."
+    }
+  }
+}

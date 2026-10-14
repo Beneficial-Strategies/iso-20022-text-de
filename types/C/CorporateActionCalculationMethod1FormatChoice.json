@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionCalculationMethod1FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe der Berechnungsmethode für Auslosungen.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Berechnungsmethode für Auslosungen."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe der Berechnungsmethode für Auslosungen."
+    }
+  }
+}

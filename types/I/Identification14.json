@@ -1,0 +1,9 @@
+{
+  "isoType": "Identification14",
+  "definition": "Eindeutiger Bezeichner eines Dokuments, einer Nachricht oder einer Transaktion.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Kennung eines Dokuments, einer Nachricht oder einer Transaktion."
+    }
+  }
+}

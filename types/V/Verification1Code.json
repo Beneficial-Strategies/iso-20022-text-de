@@ -1,0 +1,30 @@
+{
+  "isoType": "Verification1Code",
+  "definition": "Ergebnis der Überprüfung.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Fehlgeschlagen",
+      "definition": "Überprüfung fehlgeschlagen."
+    },
+    "MISS": {
+      "name": "Fehlend",
+      "definition": "Für die Überprüfung erforderliche Informationen fehlten."
+    },
+    "NOVF": {
+      "name": "Nicht durchgeführt",
+      "definition": "Die Überprüfung wurde nicht durchgeführt."
+    },
+    "PART": {
+      "name": "Teilweise Übereinstimmung",
+      "definition": "Die Überprüfung war teilweise erfolgreich."
+    },
+    "SUCC": {
+      "name": "Erfolgreich",
+      "definition": "Die Überprüfung war erfolgreich."
+    },
+    "ERRR": {
+      "name": "Technischer Fehler",
+      "definition": "Das Gerät oder die Stelle zur Durchführung der Überprüfung war nicht verfügbar."
+    }
+  }
+}

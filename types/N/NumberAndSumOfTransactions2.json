@@ -1,0 +1,23 @@
+{
+  "isoType": "NumberAndSumOfTransactions2",
+  "definition": "Gruppe von Elementen, die die Gesamtsumme der Buchungen angibt.",
+  "isoElements": {
+    "NumberOfEntries": {
+      "definition": "Anzahl der einzelnen Buchungen, die im Bericht enthalten sind."
+    },
+    "Sum": {
+      "definition": "Summe aller einzelnen Buchungen, die im Bericht enthalten sind."
+    },
+    "TotalNetEntryAmount": {
+      "definition": "Saldierter Betrag aller Belastungs- und Gutschriftbuchungen."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der gesamte saldierte Buchungsbetrag ein Gutschrift- oder ein Belastungsbetrag ist."
+    }
+  },
+  "isoRules": {
+    "DebitCreditIndicatorGuideline": {
+      "definition": "DebitCreditIndicator muss vorhanden sein, wenn TotalNetEntryAmount vorhanden ist."
+    }
+  }
+}

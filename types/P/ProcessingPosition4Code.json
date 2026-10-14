@@ -1,0 +1,18 @@
+{
+  "isoType": "ProcessingPosition4Code",
+  "definition": "Legt fest, wann eine Transaktion/Anweisung relativ zu einer verknüpften Transaktion/Anweisung auszuführen ist.",
+  "isoCodes": {
+    "AFTE": {
+      "name": "Nach",
+      "definition": "Gibt an, dass die Transaktion bzw. Anweisung nach der verknüpften Transaktion bzw. Anweisung auszuführen ist."
+    },
+    "BEFO": {
+      "name": "Vor",
+      "definition": "Gibt an, dass die Transaktion bzw. Anweisung vor der verknüpften Transaktion bzw. Anweisung auszuführen ist."
+    },
+    "WITH": {
+      "name": "Mit",
+      "definition": "Gibt an, dass die Transaktion bzw. Anweisung zusammen mit der verknüpften Transaktion bzw. Anweisung auszuführen ist."
+    }
+  }
+}

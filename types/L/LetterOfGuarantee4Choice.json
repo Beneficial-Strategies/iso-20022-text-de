@@ -1,0 +1,12 @@
+{
+  "isoType": "LetterOfGuarantee4Choice",
+  "definition": "Auswahl des Formats für die Angaben zum Garantieschreiben.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Gibt an, ob die physische Abwicklung mittels eines Garantieschreibens erfolgen darf oder ob die physischen Urkunden zu verwenden sind."
+    },
+    "Proprietary": {
+      "definition": "Angaben zum Garantieschreiben, ausgedrückt als proprietärer Code."
+    }
+  }
+}

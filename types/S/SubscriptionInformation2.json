@@ -1,0 +1,23 @@
+{
+  "isoType": "SubscriptionInformation2",
+  "definition": "Informationen zu kumulierten Zeichnungen.",
+  "isoElements": {
+    "DateOfFirstSubscription": {
+      "definition": "Datum der ersten Zeichnung im laufenden Jahr."
+    },
+    "EquityComponent": {
+      "definition": "Im laufenden Steuerjahr in Aktien gezeichneter Betrag (ohne Dividenden)."
+    },
+    "CashComponent": {
+      "definition": "Im laufenden Steuerjahr in Barmittel gezeichneter Betrag."
+    },
+    "TotalAmountYearToDate": {
+      "definition": "Im laufenden Steuerjahr gezeichneter Gesamtbetrag."
+    }
+  },
+  "isoRules": {
+    "TotalAmountYearToDateRule": {
+      "definition": "TotalAmountYearToDate muss, sofern vorhanden, gleich der Summe von EquityComponent und CashComponent sein."
+    }
+  }
+}

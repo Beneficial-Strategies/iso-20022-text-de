@@ -1,0 +1,17 @@
+{
+  "isoType": "Pledgee4",
+  "definition": "Identifiziert die Einheit, an die die Finanzinstrumente verpfändet sind.",
+  "isoElements": {
+    "PledgeeTypeAndIdentification": {
+      "definition": "Eindeutige Identifikation der Partei."
+    },
+    "LEI": {
+      "definition": "Legal Entity Identifier als alternative Identifikation einer Partei."
+    }
+  },
+  "isoRules": {
+    "PledgeeTypeAndIdentificationOrLEIRule": {
+      "definition": "PledgeeTypeAndIdentification muss vorhanden sein oder LEI muss vorhanden sein."
+    }
+  }
+}

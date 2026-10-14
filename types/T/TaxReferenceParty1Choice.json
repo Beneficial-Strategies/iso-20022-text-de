@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxReferenceParty1Choice",
+  "definition": "Auswahl von Formaten für eine Art von Partei.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der Partei, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Art der Partei, ausgedrückt als proprietärer Code."
+    }
+  }
+}

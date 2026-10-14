@@ -1,0 +1,26 @@
+{
+  "isoType": "MarketType9Code",
+  "definition": "Gibt die Art des Ortes an, an dem ein Handel ausgeführt wurde, ein Preis bezogen wurde oder ein Instrument notiert ist.",
+  "isoCodes": {
+    "FUND": {
+      "name": "Fonds",
+      "definition": "Der Ort ist ein Fonds (Transfer Agent, Fonds selbst usw.)."
+    },
+    "LMAR": {
+      "name": "Lokaler Markt",
+      "definition": "Der Ort ist ein lokaler Markt."
+    },
+    "THEO": {
+      "name": "Theoretisch",
+      "definition": "Der Ort ist theoretisch."
+    },
+    "VEND": {
+      "name": "Anbieter",
+      "definition": "Der Ort ist ein Anbieter."
+    },
+    "SCAS": {
+      "name": "Automatisiertes Preisfeststellungssystem per Smart Contract",
+      "definition": "Die Quelle der Preisnotierung ist ein automatisiertes Preisfindungssystem auf Basis von Smart Contracts."
+    }
+  }
+}

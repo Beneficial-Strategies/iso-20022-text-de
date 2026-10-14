@@ -1,0 +1,22 @@
+{
+  "isoType": "ModalityOfCounting1Code",
+  "definition": "Gibt die Modalität an, über die die erfassten und gezählten Stimmen abgegeben wurden.",
+  "isoCodes": {
+    "EVAM": {
+      "name": "Elektronisch in der Versammlung",
+      "definition": "Elektronische Stimme, die auf der Versammlung erfasst und gezählt wurde."
+    },
+    "EVBM": {
+      "name": "Elektronisch vorab",
+      "definition": "Elektronische Stimme, die vor der Versammlung erfasst und gezählt wurde."
+    },
+    "PVBM": {
+      "name": "Auf Papier vorab",
+      "definition": "Schriftliche Stimme, die vor der Versammlung erfasst und gezählt wurde."
+    },
+    "PVAM": {
+      "name": "Persönlich in der Versammlung",
+      "definition": "Physische Teilnahme mit Stimmabgabe auf der Versammlung."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "TaxCalculation1",
+  "definition": "Gibt die Details zur Steuerberechnung an.",
+  "isoElements": {
+    "HostCurrency": {
+      "definition": "Währung, in die alle Summen steuerpflichtiger Services umgerechnet werden müssen, um die für diese Steuerregion geschuldeten Steuern zu berechnen. Dies ist auch die Währung, in der die Zahlung der Steuerschulden üblicherweise an die Steuerbehörde erfolgt."
+    },
+    "TaxableServiceChargeConversion": {
+      "definition": "Umrechnungen des steuerpflichtigen Servicentgeltbetrags in die Sitzwährung. ||Verwendung: Für jede unterschiedliche Preiswährung eines Services in der Abrechnung muss ein Vorkommen vorhanden sein."
+    },
+    "TotalTaxableServiceChargeHostAmount": {
+      "definition": "Summe aller steuerpflichtigen Services für eine bestimmte Steuerregion. ||Verwendung: |Dieses Feld entspricht der Summe aller einzelnen Steuerentgeltsummen in Sitzwährung der Services für jede einzelne Währung. Es wird in der Sitzwährung der Steuerregion ausgedrückt. Diese Summe dient zur Ermittlung der fälligen Steuer, indem mit dem Satz jeder Steueridentifikation gerechnet wird."
+    },
+    "TaxIdentification": {
+      "definition": "Sieht die spezifische Steueridentifikation innerhalb derselben Steuerregion vor. ||Verwendung: Es können höchstens drei spezifische Steueridentifikationen angegeben werden. Diese Elemente verwenden den gesamten steuerpflichtigen Betrag in der Sitzwährung als Berechnungsgrundlage. |Dieses Element ist nur für Methode C gültig."
+    },
+    "TotalTax": {
+      "definition": "Gesamtbetrag aller Steuern für einen bestimmten Kunden innerhalb der Steuerregion. Dies ist die Summe aller einzelnen Steuergesamtbeträge je Steueridentifikation, ausgedrückt in der Sitzwährung der Steuerregion."
+    }
+  }
+}

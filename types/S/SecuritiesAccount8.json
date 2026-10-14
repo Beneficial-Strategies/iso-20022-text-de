@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesAccount8",
+  "definition": "Liefert Informationen zum Wertpapierkonto.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Wert eine Belastung oder eine Gutschrift ist."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identifikation der Partei, die Inhaber des Kontos ist."
+    },
+    "AccountIdentification": {
+      "definition": "Identifikation des Kontos, auf dem Finanzinstrumente geführt werden."
+    },
+    "BalanceType": {
+      "definition": "Art des Bestands."
+    },
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "SecurityHoldingForm": {
+      "definition": "Gibt die Form des Finanzinstruments an."
+    },
+    "StampDuty": {
+      "definition": "Gibt an, ob die Stempelsteuer anwendbar ist."
+    }
+  }
+}

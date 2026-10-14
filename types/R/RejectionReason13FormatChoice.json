@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason13FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe des Grundes für die Ablehnung einer Bewegung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Grundes für die Ablehnung einer Bewegung."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe des Grundes für die Ablehnung einer Bewegung."
+    }
+  }
+}

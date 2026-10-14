@@ -1,0 +1,12 @@
+{
+  "isoType": "ConfirmationType1Choice",
+  "definition": "Auswahl der Formate für eine Bestätigungsart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Bestätigungsart als Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Bestätigungsart als proprietärer Code ausgedrückt."
+    }
+  }
+}

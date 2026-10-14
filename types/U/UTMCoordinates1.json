@@ -1,0 +1,15 @@
+{
+  "isoType": "UTMCoordinates1",
+  "definition": "Standort auf der Erde, angegeben durch das UTM-Koordinatensystem (Universal Transverse Mercator) unter Verwendung des geodätischen Systems WGS84.",
+  "isoElements": {
+    "UTMZone": {
+      "definition": "UTM-Gitterzone als Kombination aus Längenzone (1 bis 60) und Breitenband C bis X ohne I und O (zum Beispiel ist die UTM-Zone des Eiffelturms 31U)."
+    },
+    "UTMEastward": {
+      "definition": "X-Koordinate des UTM-Koordinatensystems (Universal Transverse Mercator) in Metern (zum Beispiel 448 265m für die X-Koordinate des Eiffelturms)."
+    },
+    "UTMNorthward": {
+      "definition": "Y-Koordinate des UTM-Koordinatensystems (Universal Transverse Mercator) (zum Beispiel 5 411 920m für die Y-Koordinate des Eiffelturms)."
+    }
+  }
+}

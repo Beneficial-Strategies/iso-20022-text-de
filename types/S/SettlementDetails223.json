@@ -1,0 +1,86 @@
+{
+  "isoType": "SettlementDetails223",
+  "definition": "Einzelheiten zur Abwicklung einer Transaktion.",
+  "isoElements": {
+    "Priority": {
+      "definition": "Legt fest, ob die Transaktion mit hoher Priorität ausgeführt wurde."
+    },
+    "SecuritiesTransactionType": {
+      "definition": "Identifiziert die Art der Wertpapiertransaktion."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Bedingungen, unter denen der Auftrag/das Handelsgeschäft abgewickelt werden sollte."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Legt fest, ob Teilabwicklung zulässig war."
+    },
+    "BeneficialOwnership": {
+      "definition": "Legt fest, ob ein Wechsel des wirtschaftlichen Eigentums stattgefunden hat."
+    },
+    "BlockTrade": {
+      "definition": "Legt fest, ob die Abwicklungsanweisung eine übergeordnete oder untergeordnete Blockanweisung war."
+    },
+    "CCPEligibility": {
+      "definition": "Legt fest, ob die Abwicklungstransaktion CCP-fähig (Central Counterparty) war."
+    },
+    "CashClearingSystem": {
+      "definition": "Gibt die Kategorie des Geld-Clearingsystems an, zum Beispiel Scheck-Clearing."
+    },
+    "ExposureType": {
+      "definition": "Legt den zugrunde liegenden Geschäftsbereich/die zugrunde liegende Handelsart fest, die die Sicherheitenbewegung ausgelöst hat."
+    },
+    "MarketClientSide": {
+      "definition": "Legt fest, ob eine Anweisung eine Transaktion der Marktseite oder der Kundenseite betraf."
+    },
+    "NettingEligibility": {
+      "definition": "Legt fest, ob die Abwicklungstransaktion für das Netting zugelassen war."
+    },
+    "Registration": {
+      "definition": "Legt fest, ob die Registrierung bei Empfang erfolgen sollte."
+    },
+    "RepurchaseType": {
+      "definition": "Gibt die Art der Pensionsgeschäft-Transaktion an."
+    },
+    "LegalRestrictions": {
+      "definition": "Für ein Wertpapier geltende regulatorische Beschränkungen."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Legt fest, ob die Abwicklungstransaktion über ein RTGS- oder ein Nicht-RTGS-System abgewickelt werden sollte."
+    },
+    "SettlingCapacity": {
+      "definition": "Rolle einer Partei bei der Abwicklung der Transaktion."
+    },
+    "SettlementSystemMethod": {
+      "definition": "Legt fest, ob die Abwicklungsanweisung über das Standard- oder das alternative Abwicklungssystem abgewickelt werden sollte."
+    },
+    "TaxCapacity": {
+      "definition": "Steuerliche Rolle der anweisenden Partei."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Gibt die Art der Stempelsteuer oder den Befreiungsgrund an, der für die Abwicklungstransaktion gilt."
+    },
+    "AutomaticBorrowing": {
+      "definition": "Bedingung für die automatische Wertpapierleihe."
+    },
+    "LetterOfGuarantee": {
+      "definition": "Legt fest, ob die physische Abwicklung mithilfe eines Garantiebriefs erfolgte oder ob die physischen Zertifikate verwendet wurden."
+    },
+    "EligibleForCollateral": {
+      "definition": "Legt fest, ob beantragt wurde, die Wertpapiere in den Pool der für Sicherungszwecke zugelassenen Wertpapiere aufzunehmen."
+    },
+    "SecuritiesSubBalanceType": {
+      "definition": "Gibt die Art des Wertpapier-Unterbestands an (zum Beispiel Sperrart für eine Marktinfrastruktur)."
+    },
+    "CashSubBalanceType": {
+      "definition": "Gibt den Indikator für die Geld-Unterbestandsart an, zum Beispiel die Beschränkungsart für eine Marktinfrastruktur."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Wenn SettlementDetails-Elemente verwendet werden, müssen ihre Nutzungsbedingungen zwischen Kontoinhaber und Kontoführer vorab vereinbart sein."
+    },
+    "CashClearingSystemRule": {
+      "definition": "Die CashSettlementSystem-Codes sind nur von Agenten zu verwenden, die unmittelbar am Abwicklungsprozess beteiligt sind, wie lokale Abwicklungsagenten, CSDs und Zentralbanken."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Group6",
+  "definition": "Gruppe von Parteien mit ihrem zugehörigen Sicherheitszertifikat.",
+  "isoElements": {
+    "GroupIdentification": {
+      "definition": "Legt die Identifikation der Gruppe fest."
+    },
+    "Party": {
+      "definition": "Legt eine Partei und das zugehörige Zertifikat fest."
+    }
+  }
+}

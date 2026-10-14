@@ -1,0 +1,9 @@
+{
+  "isoType": "AlgorithmIdentification16",
+  "definition": "Kryptografischer Algorithmus und Parameter von Digests.",
+  "isoElements": {
+    "Algorithm": {
+      "definition": "Identifikation des Digest-Algorithmus."
+    }
+  }
+}

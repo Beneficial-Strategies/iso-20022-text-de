@@ -1,0 +1,12 @@
+{
+  "isoType": "Number3Choice",
+  "definition": "Auswahl zwischen genau 3 und genau 5 numerischen Stellen.",
+  "isoElements": {
+    "Short": {
+      "definition": "Numerischer Text mit höchstens 3 Stellen."
+    },
+    "Long": {
+      "definition": "Numerischer Text mit höchstens 5 Stellen. Ist nur in einem Delta-Auszug zu verwenden."
+    }
+  }
+}

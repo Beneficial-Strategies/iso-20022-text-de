@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMCommand17",
+  "definition": "Auf einem ATM auszuführender Wartungsbefehl.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art des vom ATM auszuführenden Befehls."
+    },
+    "Urgency": {
+      "definition": "Dringlichkeit des Befehls."
+    },
+    "DateTime": {
+      "definition": "Datum und Uhrzeit, zu denen der Befehl ausgeführt werden muss."
+    },
+    "CommandIdentification": {
+      "definition": "Identifikation der Stelle, die den Befehl erteilt."
+    },
+    "CommandParameters": {
+      "definition": "Dem Befehl zugeordnete spezifische Parameter."
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "isoType": "PaymentTransactionParty4",
+  "definition": "Legt die Partei-Felder fest, die für die Suche nach einer Zahlung verwendet werden.",
+  "isoElements": {
+    "InstructingAgent": {
+      "definition": "Bank, die die nächste Partei in der Kette anweist, die Anweisung(en) auszuführen."
+    },
+    "InstructedAgent": {
+      "definition": "Bank, die von der vorhergehenden Partei in der Kette angewiesen wird, die Anweisung(en) auszuführen."
+    },
+    "UltimateDebtor": {
+      "definition": "Letzte Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "Debtor": {
+      "definition": "Partei, die dem Zahlungsempfänger Vermögenswerte schuldet, beispielsweise aufgrund des Erhalts von Waren oder Dienstleistungen, von Geschenken oder von Spenden. Der Zahlungspflichtige kann auch der Inhaber des Belastungskontos sein."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das die Zahlungstransaktion vom Kontoinhaber oder einer anderen autorisierten Partei entgegennimmt und die Anweisung verarbeitet."
+    },
+    "InstructingReimbursementAgent": {
+      "definition": "Gibt die Bank an, über die die anweisende Bank die angewiesene Bank erstattet."
+    },
+    "InstructedReimbursementAgent": {
+      "definition": "Bank, bei der die angewiesene Bank erstattet wird."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers.||Verwendung: Sind mehrere zwischengeschaltete Banken vorhanden, bezeichnet IntermediaryAgent1 die Bank zwischen DebtorAgent und IntermediaryAgent2."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers.||Verwendung: Sind mehr als zwei zwischengeschaltete Banken vorhanden, bezeichnet IntermediaryAgent2 die Bank zwischen IntermediaryAgent1 und IntermediaryAgent3."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers.||Verwendung: Ist IntermediaryAgent3 vorhanden, bezeichnet er die Bank zwischen IntermediaryAgent 2 und CreditorAgent."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das die Zahlungstransaktion im Namen eines Kontoinhabers oder einer anderen benannten Partei entgegennimmt und das Konto gutschreibt."
+    },
+    "Creditor": {
+      "definition": "Partei, die vom Zahlungspflichtigen einen Geldbetrag erhält. Im Kontext des Zahlungsmodells ist der Zahlungsempfänger auch der Inhaber des Gutschriftskontos."
+    },
+    "UltimateCreditor": {
+      "definition": "Letzte Partei, der ein Geldbetrag geschuldet wird."
+    }
+  }
+}

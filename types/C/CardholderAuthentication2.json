@@ -1,0 +1,12 @@
+{
+  "isoType": "CardholderAuthentication2",
+  "definition": "Daten zur Authentifizierung des Karteninhabers.",
+  "isoElements": {
+    "AuthenticationMethod": {
+      "definition": "Verfahren zur Authentifizierung des Karteninhabers."
+    },
+    "AuthenticationEntity": {
+      "definition": "Stelle oder Objekt, die bzw. das für die Prüfung der Echtheit des Karteninhabers zuständig ist."
+    }
+  }
+}

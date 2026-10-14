@@ -1,0 +1,18 @@
+{
+  "isoType": "TotalCharges8",
+  "definition": "Gibt die Gesamtzahl der im Block enthaltenen Datensätze und Entgelte an.",
+  "isoElements": {
+    "NumberOfChargesBreakdownItems": {
+      "definition": "Anzahl der im Datensatz enthaltenen einzelnen Positionen der Entgeltaufschlüsselung."
+    },
+    "ControlSum": {
+      "definition": "Summe aller Einzelbeträge der Entgeltaufschlüsselung, unabhängig von den Währungen."
+    },
+    "TotalChargesAmount": {
+      "definition": "Gesamtbetrag der über die Positionen der Entgeltaufschlüsselung geltend gemachten Entgelte."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Gesamtbetrag der Entgelte ein Haben- oder ein Sollbetrag ist. |Verwendung: Ein Nullbetrag gilt als Haben-Betrag."
+    }
+  }
+}

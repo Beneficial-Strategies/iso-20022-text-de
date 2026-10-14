@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionChangeTypeFormat8Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe der Änderungsart eines Kapitalmaßnahmen-Ereignisses.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Art der Änderungen."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Art der Änderungen."
+    }
+  }
+}

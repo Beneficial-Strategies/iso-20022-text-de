@@ -1,0 +1,18 @@
+{
+  "isoType": "ProrationReturnQuantityTreatment1Code",
+  "definition": "Gibt an, wie anteilig gekürzte Anweisungen behandelt werden, wenn der anteilige Anspruch unter der Mindeststückelung liegt.",
+  "isoCodes": {
+    "ACPT": {
+      "name": "Annehmen",
+      "definition": "Anteilig gekürzte Anweisungen, die zu weniger als der Mindeststückelung führen, werden vollständig angenommen."
+    },
+    "ADJT": {
+      "name": "Korrigieren",
+      "definition": "Anteilig gekürzte Anweisungen, die zu weniger als der Mindeststückelung führen, werden aufgerundet."
+    },
+    "REJT": {
+      "name": "Ablehnung",
+      "definition": "Anteilig gekürzte Anweisungen, die zu weniger als der Mindeststückelung führen, werden vollständig abgelehnt."
+    }
+  }
+}

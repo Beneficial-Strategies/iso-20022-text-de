@@ -1,0 +1,12 @@
+{
+  "isoType": "MarketClaimCreationV04",
+  "definition": "Anwendungsbereich und Verwendung|Die Nachricht MarketClaimCreation wird von einem Kontoführer an einen Kontoinhaber gesendet, um die Erstellung einer Market-Claim-Transaktion auf einem Wertpapierkonto mitzuteilen, die automatisch (zum Beispiel durch einen CSD) bei einem Kapitalmaßnahmen-Ereignis mit obligatorischer Ausschüttung erzeugt wurde. |Diese Nachrichtendefinition ist zur Verwendung mit dem Business Application Header (BAH) vorgesehen.",
+  "isoElements": {
+    "MarketClaimType": {
+      "definition": "Art der angeforderten Erstellung des Market Claim."
+    },
+    "MarketClaimSettlementIndicator": {
+      "definition": "Gibt an, ob ein Market Claim nicht abgewickelt wird und ausschließlich zu Erkennungszwecken erstellt wird."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "IntraBalance6",
+  "definition": "Einzelheiten der Umbuchung zwischen Beständen.",
+  "isoElements": {
+    "SettledAmount": {
+      "definition": "Tatsächlich abgewickelter Geldbetrag, der dem Geldkonto des Kontoinhabers gutgeschrieben bzw. belastet wird. Er kann je nach Markttoleranz vom angewiesenen Abwicklungsbetrag abweichen."
+    },
+    "PreviouslySettledAmount": {
+      "definition": "Zuvor abgewickelter Geldbetrag."
+    },
+    "RemainingSettlementAmount": {
+      "definition": "Noch abzuwickelnder Geldbetrag."
+    },
+    "SettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Geldbetrag umgebucht wird."
+    },
+    "BalanceFrom": {
+      "definition": "Bestand, von dem der Geldbetrag umgebucht wird."
+    },
+    "BalanceTo": {
+      "definition": "Bestand, auf den der Geldbetrag umgebucht wird."
+    },
+    "CashSubBalanceIdentification": {
+      "definition": "Nummer zur Identifikation eines Loses, das den Teilbestand bildet."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Liefert zusätzliche Informationen zur Abwicklungsverarbeitung, die nicht in den strukturierten Feldern der Nachricht angegeben werden können."
+    }
+  }
+}

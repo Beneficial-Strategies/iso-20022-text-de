@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingPrice1",
+  "definition": "Gibt den Abrechnungspreis eines Services an.",
+  "isoElements": {
+    "Currency": {
+      "definition": "Währungscode, in dem der Stückpreis und der ursprüngliche Entgeltpreis ausgedrückt sind."
+    },
+    "UnitPrice": {
+      "definition": "Preis je Posten oder Einheit, der zur Berechnung des Entgelts verwendet wird, ausgedrückt in der Preiswährung."
+    },
+    "Method": {
+      "definition": "Gibt an, wie das Entgelt berechnet wurde. ||Verwendung: Fehlt dieser Code, wird angenommen, dass das Entgelt als Produkt aus (Volumen x Stückpreis) berechnet wird."
+    },
+    "Rule": {
+      "definition": "Gibt an, dass die Entgeltberechnung auf einer bestimmten Regel beruht. Der Regelname wird hier angegeben und von den Handelspartnern festgelegt."
+    }
+  }
+}

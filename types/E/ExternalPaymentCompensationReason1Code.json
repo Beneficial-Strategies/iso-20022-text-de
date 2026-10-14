@@ -1,0 +1,10 @@
+{
+  "isoType": "ExternalPaymentCompensationReason1Code",
+  "definition": "Gibt den Grund für eine Ausgleichszahlung für die Verarbeitung einer Zahlung an, wie in einem externen Code-Set veröffentlicht.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "VADA": {
+      "name": "Valutaanpassung",
+      "definition": "Ausgleich für Valutadatum-Korrektur angefordert."
+    }
+  }
+}

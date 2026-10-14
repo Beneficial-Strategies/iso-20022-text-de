@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryQuantity1",
+  "definition": "Satz von Elementen zur Identifikation einer proprietären Menge.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art der gemeldeten proprietären Menge an."
+    },
+    "Quantity": {
+      "definition": "Gibt die proprietäre Menge in freiem Format an."
+    }
+  }
+}

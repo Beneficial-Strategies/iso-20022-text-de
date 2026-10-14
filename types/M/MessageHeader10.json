@@ -1,0 +1,15 @@
+{
+  "isoType": "MessageHeader10",
+  "definition": "Gruppe von Merkmalen, wie die Identifikation oder Erstellungsdatum und -zeit, die für die Nachricht spezifisch sind.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, vom Sender vergeben, zur eindeutigen Identifikation der Nachricht.|Verwendung: Der Sender muss sicherstellen, dass die MessageIdentification für einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "QueryName": {
+      "definition": "Ruft die Kriterien (Such- und Rückgabekriterien) in Erinnerung, die in einer vorangegangenen Abfrage festgelegt wurden."
+    }
+  }
+}

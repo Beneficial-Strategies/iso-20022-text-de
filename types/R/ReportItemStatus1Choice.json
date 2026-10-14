@@ -1,0 +1,15 @@
+{
+  "isoType": "ReportItemStatus1Choice",
+  "definition": "Enthält den Annahmestatus der Bestandsposition.",
+  "isoElements": {
+    "Accepted": {
+      "definition": "Der Kontoauszug wird angenommen."
+    },
+    "AcceptedWithException": {
+      "definition": "Der Kontoauszug wird mit einer oder mehreren Ausnahmen angenommen."
+    },
+    "Rejected": {
+      "definition": "Der Kontoauszug wird abgelehnt."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountReportV05",
+  "definition": "Die Nachricht AccountReport wird zu Berichtszwecken von einem Finanzinstitut an eine Organisation gesendet. Sie kann unaufgefordert im Rahmen des Eröffnungs-, Pflege- oder Schließungsprozesses gesendet werden oder als Antwort auf eine Nachricht AccountReportRequest."
+}

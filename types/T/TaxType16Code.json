@@ -1,0 +1,70 @@
+{
+  "isoType": "TaxType16Code",
+  "definition": "Gibt die Steuerart an.",
+  "isoCodes": {
+    "COAX": {
+      "name": "Verbrauchsteuer",
+      "definition": "Steuer auf von Kunden erworbene Waren und Dienstleistungen, die dem Verkaufspreis hinzugerechnet wird."
+    },
+    "CTAX": {
+      "name": "Steuergutschrift",
+      "definition": "Direkte Minderung der Steuerschuld einer Einzelperson."
+    },
+    "EUTR": {
+      "name": "EU-Steuerrückbehalt",
+      "definition": "An der Quelle einbehaltene Steuer im Rahmen der Europäischen Richtlinie über die Besteuerung von Zinserträgen in Form von Zinszahlungen."
+    },
+    "LEVY": {
+      "name": "Zahlungsabgabensteuer",
+      "definition": "Auf eine Zahlung erhobene Steuer."
+    },
+    "LOCL": {
+      "name": "Lokale Steuer",
+      "definition": "Steuer, die von einem lokalen Abwicklungssystem oder einer lokalen Rechtsordnung erhoben wird."
+    },
+    "NATI": {
+      "name": "Nationale Steuer",
+      "definition": "Die Steuer ist eine nationale Steuer."
+    },
+    "PROV": {
+      "name": "Provinzial",
+      "definition": "Die Steuer ist eine Provinzsteuer."
+    },
+    "STAM": {
+      "name": "Stempelsteuer",
+      "definition": "Steuer auf bestimmte Dokumente und Transaktionen."
+    },
+    "STAT": {
+      "name": "Staatssteuer",
+      "definition": "Die Steuer ist eine Landessteuer."
+    },
+    "STEX": {
+      "name": "Börsenumsatzsteuer",
+      "definition": "Von einer Börse erhobene Steuer."
+    },
+    "TRAN": {
+      "name": "Übertragungssteuer",
+      "definition": "Auf eine Übertragung erhobene Steuer."
+    },
+    "TRAX": {
+      "name": "Transaktionssteuer",
+      "definition": "Auf eine Transaktion erhobene Steuer."
+    },
+    "VATA": {
+      "name": "Mehrwertsteuer",
+      "definition": "Die Steuer ist eine Mehrwertsteuer."
+    },
+    "WITH": {
+      "name": "Quellensteuer",
+      "definition": "Steuer auf Erträge, die an der Quelle einbehalten wird und die die Zahlstelle gesetzlich verpflichtet ist, von ihren Zahlungen von Einlagenzinsen und sonstigen Erträgen aus einem Finanzinstrument einzubehalten."
+    },
+    "NKAP": {
+      "name": "Kapitalverlustgutschrift",
+      "definition": "Die Steuererstattung beruht auf einem Kapitalverlust."
+    },
+    "KAPA": {
+      "name": "Kapitalertragsteuer",
+      "definition": "Steuer auf einen Kapitalgewinn (realisiert und nicht realisiert), d. h. den Gewinn aus dem Verkauf eines Finanzinstruments."
+    }
+  }
+}

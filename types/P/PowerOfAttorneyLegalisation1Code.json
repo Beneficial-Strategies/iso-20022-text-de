@@ -1,0 +1,22 @@
+{
+  "isoType": "PowerOfAttorneyLegalisation1Code",
+  "definition": "Gibt die rechtliche Einschränkung der Vollmacht an.",
+  "isoCodes": {
+    "NOTA": {
+      "name": "Notar",
+      "definition": "Gibt an, dass die Vollmacht durch einen Notar beglaubigt werden muss."
+    },
+    "LOCA": {
+      "name": "Örtliche Behörde",
+      "definition": "Gibt an, dass die Vollmacht durch eine örtliche Behörde beglaubigt werden muss."
+    },
+    "APOS": {
+      "name": "Mit Apostille",
+      "definition": "Gibt an, dass die Vollmacht durch einen Rechtsbeamten beglaubigt werden muss."
+    },
+    "COUN": {
+      "name": "Konsularisch beglaubigt",
+      "definition": "Gibt an, dass die Vollmacht durch einen Konsularbeamten beglaubigt werden muss."
+    }
+  }
+}

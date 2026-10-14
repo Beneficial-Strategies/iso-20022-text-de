@@ -1,0 +1,41 @@
+{
+  "isoType": "SecuritiesFinancingInstruction002V11",
+  "definition": "Anwendungsbereich|Ein Kontoinhaber sendet eine SecuritiesFinancingInstruction an einen Kontoführer für Wertpapierfinanzierungstransaktionen, um diesen über die Einzelheiten einer Repurchase-Agreement-, Reverse-Repurchase-Agreement-, Wertpapierleihe- oder Wertpapierentleihe-Transaktion zu informieren, damit der Kontoführer die Abwicklung und Nachverfolgung des Eröffnungs- und Schließungsteils der Transaktion verwalten kann.|Die Beziehung zwischen Kontoinhaber und Kontoführer kann sein:|- ein Global Custodian, der ein Konto bei einer lokalen Depotbank hat, oder|- ein Vermögensverwalter, der ein bei einer Depotbank eröffnetes Fondskonto verwaltet, oder|- ein Broker, der ein Konto bei einer Depotbank hat, oder|- ein Zentralverwahrer-Teilnehmer, der ein Konto bei einem Zentralverwahrer hat, oder|- ein Zentralverwahrer, der ein Konto bei einer Depotbank, einem anderen Zentralverwahrer oder einer anderen Abwicklungs-Marktinfrastruktur hat, oder|- eine zentrale Gegenpartei, eine Börse oder eine Handelsabgleichsstelle, die die Abwicklung von Wertpapierfinanzierungstransaktionen bei einem Zentralverwahrer oder einer anderen Abwicklungs-Marktinfrastruktur anweisen muss.||Verwendung|Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden,|- einem Dritten eine Kopie einer Nachricht zur Information zur Verfügung zu stellen,|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu senden, unter Verwendung der entsprechenden Elemente im Business Application Header.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie der anweisenden Partei bekannt."
+    }
+  },
+  "isoRules": {
+    "SettlementAmountRule": {
+      "definition": "Wenn die Transaktion gegen Zahlung erfolgt, muss OpeningSettlementAmount vorhanden sein."
+    },
+    "SellerSSI2Rule": {
+      "definition": "Wenn eine Dauerabwicklungsanweisung gilt und die Transaktion eine Wertpapierentleihe ist, muss Seller vorhanden sein."
+    },
+    "BuyerSSI2Rule": {
+      "definition": "Wenn eine Dauerabwicklungsanweisung gilt und die Transaktion eine Wertpapierleihe ist, muss Buyer vorhanden sein."
+    },
+    "DeliveringDepositoryAndParty1Part1Rule": {
+      "definition": "Wenn die Transaktion ein Reverse Repo ist und keine Dauerabwicklungsanweisung gilt, müssen DeliveringDepository und Party1 vorhanden sein."
+    },
+    "ReceivingDepositoryAndParty1Part1Rule": {
+      "definition": "Wenn die Transaktion ein Repo ist und keine Dauerabwicklungsanweisung gilt, müssen ReceivingDepository und Party1 vorhanden sein."
+    },
+    "DeliveringDepositoryAndParty1Part2Rule": {
+      "definition": "Wenn die Transaktion eine Wertpapierentleihe ist und keine Dauerabwicklungsanweisung gilt, müssen DeliveringDepository und Party1 vorhanden sein."
+    },
+    "ReceivingDepositoryAndParty1Part2Rule": {
+      "definition": "Wenn die Transaktion eine Wertpapierleihe ist und keine Dauerabwicklungsanweisung gilt, müssen ReceivingDepository und Party1 vorhanden sein."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Die Securities Market Practice Group (SMPG) hat Marktpraxisempfehlungen zur Verwendung dieser Nachricht veröffentlicht.|Diese Marktpraxisregeln sind unter www.smpg.info verfügbar."
+    },
+    "SellerSSI1Rule": {
+      "definition": "Wenn eine Dauerabwicklungsanweisung gilt und die Transaktion ein Reverse Repo ist, muss Seller vorhanden sein."
+    },
+    "BuyerSSI1Rule": {
+      "definition": "Wenn eine Dauerabwicklungsanweisung gilt und die Transaktion ein Repo ist, muss Buyer vorhanden sein."
+    }
+  }
+}

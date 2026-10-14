@@ -1,0 +1,15 @@
+{
+  "isoType": "OriginalGroupInformation29",
+  "definition": "Eindeutiger und zweifelsfreier Bezeichner der Transaktionsgruppe, wie von der ursprünglichen anweisenden Partei vergeben.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, die von der ursprünglichen anweisenden Partei zur zweifelsfreien Identifikation der ursprünglichen Nachricht vergeben wurde."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Gibt den Namensbezeichner der ursprünglichen Nachricht an, auf die sich die Nachricht bezieht, zum Beispiel pacs.003.001.01 oder MT103."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Ursprüngliches Datum und ursprüngliche Uhrzeit der Erstellung der Nachricht."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "MessageProtection1Code",
+  "definition": "Mechanismus zum Schutz der Nachricht des ATM-Protokolls.",
+  "isoCodes": {
+    "EVLP": {
+      "name": "Umhüllte Nachricht",
+      "definition": "Nachrichten enthalten einen verschlüsselten Rumpf sowie einen MAC oder eine digitale Signatur, die über die vollständige Nachricht (Kopfteil plus Rumpf nach der Verschlüsselung) berechnet wurde."
+    },
+    "MACB": {
+      "name": "MAC-Rumpf",
+      "definition": "Nachrichten enthalten einen MAC oder eine digitale Signatur, die nur über den Rumpf berechnet wurde."
+    },
+    "MACM": {
+      "name": "MAC-Nachricht",
+      "definition": "Nachrichten enthalten einen MAC oder eine digitale Signatur, die über die vollständige Nachricht (Kopfteil plus Rumpf) berechnet wurde."
+    },
+    "UNPR": {
+      "name": "Kein Schutz",
+      "definition": "Nachrichten sind nicht geschützt, es gibt weder Verschlüsselung noch MAC oder digitale Signatur."
+    }
+  }
+}

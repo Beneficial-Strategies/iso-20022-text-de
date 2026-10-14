@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountPrice7",
+  "definition": "Als tatsächlicher Betrag ausgedrückter Preis.",
+  "isoElements": {
+    "AmountPriceType": {
+      "definition": "Art des Betragspreises."
+    },
+    "PriceValue": {
+      "definition": "Wert des Preises."
+    }
+  }
+}

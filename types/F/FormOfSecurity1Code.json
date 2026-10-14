@@ -1,0 +1,14 @@
+{
+  "isoType": "FormOfSecurity1Code",
+  "definition": "Form eines Finanzinstruments.",
+  "isoCodes": {
+    "BEAR": {
+      "name": "Inhaber",
+      "definition": "Das Finanzinstrument sieht keine Eintragung des Eigentums vor und ist an jeden zahlbar, der die Urkunde besitzt."
+    },
+    "REGD": {
+      "name": "Namens",
+      "definition": "Der Name des Anteilseigners des Finanzinstruments erscheint in den Büchern der Gesellschaft bzw. des Fonds."
+    }
+  }
+}

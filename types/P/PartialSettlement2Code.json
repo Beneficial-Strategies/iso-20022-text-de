@@ -1,0 +1,14 @@
+{
+  "isoType": "PartialSettlement2Code",
+  "definition": "Angaben zur Teilabwicklung.",
+  "isoCodes": {
+    "PAIN": {
+      "name": "Teilabwicklung",
+      "definition": "Die Bestätigung betrifft eine Teilabwicklung. Ein Teil der Transaktion bleibt unabgewickelt."
+    },
+    "PARC": {
+      "name": "Teilweise bestätigt",
+      "definition": "Die Bestätigung betrifft eine Teilabwicklung. Es erfolgt keine weitere Abwicklung."
+    }
+  }
+}

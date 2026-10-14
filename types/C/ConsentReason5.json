@@ -1,0 +1,12 @@
+{
+  "isoType": "ConsentReason5",
+  "definition": "Gibt den zugrunde liegenden Grund für den Status eines Objekts an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Für den Status angegebener Grund."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Enthält zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

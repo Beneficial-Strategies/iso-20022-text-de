@@ -1,0 +1,118 @@
+{
+  "isoType": "ExternalPaymentModificationRejection1Code",
+  "definition": "Gibt den Grund für die Ablehnung einer Änderung an, wie in einem externen Code-Set für Ablehnungsgründe von Zahlungsänderungen veröffentlicht.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "UM01": {
+      "name": "Zugehörige Referenz nicht änderbar",
+      "definition": "Die Referenz der zugehörigen Transaktion kann nicht geändert werden."
+    },
+    "UM02": {
+      "name": "Servicelevel der Zahlung nicht änderbar",
+      "definition": "Das Service-Level-Element der Zahlungsart kann nicht geändert werden (früher UnableToModifyBankOperationCode)."
+    },
+    "UM03": {
+      "name": "Kategoriezweck nicht änderbar",
+      "definition": "Das Category-Purpose-Element der Zahlungsart kann nicht geändert werden (früher UnableToModifyInstructionCode)."
+    },
+    "UM04": {
+      "name": "Gewünschtes Ausführungsdatum nicht änderbar",
+      "definition": "RequestedExecutionDate kann nicht geändert werden."
+    },
+    "UM05": {
+      "name": "Interbanken-Abwicklungsdatum nicht änderbar",
+      "definition": "InterbankSettlementDate kann nicht geändert werden (früher UnableToModifyValueDate)."
+    },
+    "UM06": {
+      "name": "Interbanken-Abwicklungskonto nicht änderbar",
+      "definition": "SettlementAccount kann nicht geändert werden (früher UnableToModifyInterbankSettlementAccount)."
+    },
+    "UM07": {
+      "name": "Zahlungspflichtiger nicht änderbar",
+      "definition": "Zahlungspflichtiger kann nicht geändert werden."
+    },
+    "UM08": {
+      "name": "Konto des Zahlungspflichtigen nicht änderbar",
+      "definition": "DebtorAccount kann nicht geändert werden."
+    },
+    "UM09": {
+      "name": "Angewiesene Erstattungsbank nicht änderbar",
+      "definition": "InstructedReimbursementAgent kann nicht geändert werden (früher UnableToModifyReceiverCorrespondent)."
+    },
+    "UM10": {
+      "name": "Dritte Erstattungsbank nicht änderbar",
+      "definition": "ThirdReimbursementAgent kann nicht geändert werden (früher UnableToModifyThirdReimbursementInstitution)."
+    },
+    "UM11": {
+      "name": "Clearing-Kanal der Zahlung nicht änderbar",
+      "definition": "Das Clearing-Channel-Element der Zahlungsart kann nicht geändert werden (früher UnableToModifyPaymentScheme)"
+    },
+    "UM12": {
+      "name": "Konto der Bank des Zahlungsempfängers nicht änderbar",
+      "definition": "Das Konto der Bank des Zahlungsempfängers kann nicht geändert werden (früher UnableToModifyAccountOfBeneficiaryInstitution)"
+    },
+    "UM13": {
+      "name": "Zahlungsempfänger nicht änderbar",
+      "definition": "Zahlungsempfänger kann nicht geändert werden."
+    },
+    "UM14": {
+      "name": "Konto des Zahlungsempfängers nicht änderbar",
+      "definition": "Konto des Zahlungsempfängers kann nicht geändert werden."
+    },
+    "UM15": {
+      "name": "Verwendungszweck-Informationen nicht änderbar",
+      "definition": "Verwendungszweck-Informationen können nicht geändert werden."
+    },
+    "UM16": {
+      "name": "Zahlungszweck nicht änderbar",
+      "definition": "PaymentPurpose kann nicht geändert werden."
+    },
+    "UM17": {
+      "name": "Entgeltverteilung nicht änderbar",
+      "definition": "Entgelte können nicht geändert werden (früher UnableToModifyDetailsOfCharges)."
+    },
+    "UM18": {
+      "name": "Anweisung für die nächste Bank nicht änderbar",
+      "definition": "Anweisung an die nächste Bank kann nicht geändert werden (früher UnableToModifySenderToReceiver)."
+    },
+    "UM19": {
+      "name": "Anweisung für die Bank des Zahlungsempfängers nicht änderbar",
+      "definition": "Anweisung an die Bank des Zahlungsempfängers kann nicht geändert werden. (früher UnableToModifyInstructionForFinalAgent)."
+    },
+    "UM20": {
+      "name": "Anweisung storniert, neue Anweisung einreichen",
+      "definition": "Wird verwendet, um über eine Stornierung zu informieren und eine neue Zahlungsanweisung anzufordern. Dies sollte nur verwendet werden, wenn eine Bank eine ausstehende Zahlung nicht ändern möchte."
+    },
+    "UM21": {
+      "name": "Nicht änderbar, Stornierung einreichen",
+      "definition": "Eine Änderung ist nicht möglich und die Stornierung wird beantragt."
+    },
+    "UM22": {
+      "name": "Konto der Bank des Zahlungspflichtigen nicht änderbar",
+      "definition": "Das Konto der Bank des Zahlungspflichtigen kann nicht geändert werden (anwendbar bei Lastschriften)."
+    },
+    "UM23": {
+      "name": "Interbanken-Abwicklungsbetrag nicht änderbar",
+      "definition": "Interbanken-Abwicklungsbetrag kann nicht geändert werden."
+    },
+    "UM24": {
+      "name": "Anweisung für die Bank des Zahlungspflichtigen nicht änderbar",
+      "definition": "Anweisung an die Bank des Zahlungspflichtigen kann nicht geändert werden (anwendbar bei Lastschriften)"
+    },
+    "UM25": {
+      "name": "Gewünschtes Einzugsdatum nicht änderbar",
+      "definition": "Gewünschtes Einzugsdatum kann nicht geändert werden (anwendbar bei Lastschriften)"
+    },
+    "UM26": {
+      "name": "Zahlungsart nicht änderbar",
+      "definition": "Zahlungsart kann nicht geändert werden."
+    },
+    "UM27": {
+      "name": "Angewiesener Betrag nicht änderbar",
+      "definition": "Angewiesener oder gleichwertiger Betrag kann nicht geändert werden."
+    },
+    "UM28": {
+      "name": "Priorität nicht änderbar",
+      "definition": "Priorität der Zahlungsnachricht kann nicht geändert werden."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "DistributionPolicy1Code",
+  "definition": "Gibt an, ob Erträge ausgeschüttet (distributed) oder thesauriert (accumulated) werden.",
+  "isoCodes": {
+    "DIST": {
+      "name": "Ausschüttung",
+      "definition": "Die Erträge werden an die Anleger des Fonds ausgeschüttet."
+    },
+    "ACCU": {
+      "name": "Thesaurierung",
+      "definition": "Die Erträge werden dem Fondsvermögen zugeschlagen."
+    }
+  }
+}

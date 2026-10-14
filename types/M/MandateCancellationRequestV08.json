@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateCancellationRequestV08",
+  "definition": "Umfang|Die Nachricht MandateCancellationRequest wird vom Initiator der Anforderung an seine Bank gesendet. Der Initiator kann entweder der Zahlungspflichtige oder der Zahlungsempfänger sein.|Die Nachricht MandateCancellationRequest wird von der Bank des Initiators an die Bank der Gegenpartei weitergeleitet.|Eine Nachricht MandateCancellationRequest dient dazu, die Stornierung eines bestehenden Mandats anzufordern. Bei Annahme gilt diese Nachricht MandateCancellationRequest zusammen mit der die Annahme bestätigenden Nachricht MandateAcceptanceReport als gültige, von allen Parteien vereinbarte Stornierung eines bestehenden Mandats.|Verwendung|Die Nachricht MandateCancellationRequest kann eine oder mehrere Anforderungen zur Stornierung eines bestimmten Mandats enthalten.|Die Nachrichten können zwischen Zahlungsempfänger und Bank des Zahlungsempfängers, zwischen Zahlungspflichtigem und Bank des Zahlungspflichtigen sowie zwischen der Bank des Zahlungsempfängers und der Bank des Zahlungspflichtigen ausgetauscht werden.|Die Nachricht kann auch von einer initiierenden Partei verwendet werden, die befugt ist, die Nachricht im Auftrag des Zahlungsempfängers oder des Zahlungspflichtigen zu senden.|Die Nachricht MandateCancellationRequest kann in nationalen und grenzüberschreitenden Szenarien verwendet werden.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "Der Baustein SupplementaryData auf Nachrichtenebene darf nicht verwendet werden, um zusätzliche Informationen zu einer Transaktion bereitzustellen. Hierfür ist das Element SupplementaryData auf Transaktionsebene zu verwenden."
+    }
+  }
+}

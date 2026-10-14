@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionInstructionCancellationRequestStatusAdvice002V14",
+  "definition": "Anwendungsbereich|Die Nachricht CorporateActionInstructionCancellationRequestStatusAdvice wird von einem Kontoführer an einen Kontoinhaber oder dessen benannten Beauftragten gesendet, um den Status einer zuvor erhaltenen, vom Kontoinhaber gesendeten Nachricht CorporateActionInstructionCancellationRequest zu melden. Dies umfasst die Bestätigung bzw. Ablehnung eines Auftrags zur Stornierung einer offenen Anweisung. |Verwendung|Die Nachricht kann zudem verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist Duplicate),|- einem Dritten eine Kopie einer Nachricht zur Information zu übermitteln (die Unterfunktion der Nachricht ist Copy),|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu übermitteln (die Unterfunktion der Nachricht ist Copy Duplicate), unter Verwendung der entsprechenden Elemente im Business Application Header (BAH).",
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "Alle Elemente der Sequenz AdditionalInformation dürfen keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können, sofern nicht bilateral vereinbart."
+    },
+    "BeneficialOwnerBreakdownRequestRule": {
+      "definition": "Wenn der Wert von CorporateActionInstruction/OptionType/Code BOBD (BeneficialOwnerBreakdownRequest) ist, muss der Wert von CorporateActionGeneralInformation/EventType/Code WTRC (Withholding Tax Relief Certification) sein.|(MT567 NVR C6)"
+    }
+  }
+}

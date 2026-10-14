@@ -1,0 +1,12 @@
+{
+  "isoType": "MarketType15Choice",
+  "definition": "Auswahl des Formats für die Marktart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Marktart, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Marktart, ausgedrückt als proprietärer Code."
+    }
+  }
+}

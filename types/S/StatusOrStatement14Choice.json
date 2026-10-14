@@ -1,0 +1,12 @@
+{
+  "isoType": "StatusOrStatement14Choice",
+  "definition": "Gibt den angeforderten Status oder Auszug an.",
+  "isoElements": {
+    "StatusAdvice": {
+      "definition": "Identifiziert die Statusmeldung und die Transaktion, für die die Statusmeldung angefordert wurde."
+    },
+    "Statement": {
+      "definition": "Identifiziert den angeforderten Auszug/Bericht."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "NumberOrPercentage2Choice",
+  "definition": "Auswahl zwischen einem Prozentsatz und einer Zahl für einen Schwellenwert.",
+  "isoElements": {
+    "ThresholdPercentage": {
+      "definition": "Als Prozentsatz angegebener Schwellenwert."
+    },
+    "ThresholdNumber": {
+      "definition": "Als Dezimalzahl angegebener Schwellenwert."
+    }
+  }
+}

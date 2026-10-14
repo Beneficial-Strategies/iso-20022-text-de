@@ -1,0 +1,38 @@
+{
+  "isoType": "TransactionProcessingStatus4Code",
+  "definition": "Gibt den Status einer Anweisung an.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Empfangen und akzeptiert",
+      "definition": "Die Anweisung wurde von der kontoführenden Stelle bestätigt und zur Weiterverarbeitung angenommen."
+    },
+    "PPRC": {
+      "name": "Verarbeitung ausstehend",
+      "definition": "Die Verarbeitung der Anweisung steht aus."
+    },
+    "REJT": {
+      "name": "Abgelehnt",
+      "definition": "Die Anweisung wurde zur Weiterverarbeitung abgelehnt."
+    },
+    "REPR": {
+      "name": "In Korrektur",
+      "definition": "Die Anweisung wurde angenommen, befindet sich jedoch in der Klärung."
+    },
+    "CAND": {
+      "name": "Storniert",
+      "definition": "Die Anweisung wurde storniert."
+    },
+    "CANP": {
+      "name": "Stornierung ausstehend",
+      "definition": "Ihre eigene Stornierungsanforderung für diese Anweisung steht aus und wartet auf die weitere Verarbeitung."
+    },
+    "CPRC": {
+      "name": "Stornierung angefordert",
+      "definition": "Die Stornierungsanforderung der Gegenpartei wartet auf Ihre Stornierungsanforderung oder Ihre Zustimmung."
+    },
+    "MPRC": {
+      "name": "Änderung angefordert",
+      "definition": "Die Änderungsanforderung der Gegenpartei wartet auf Ihre Änderungsanforderung oder Ihre Zustimmung."
+    }
+  }
+}

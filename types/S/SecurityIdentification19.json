@@ -1,0 +1,32 @@
+{
+  "isoType": "SecurityIdentification19",
+  "definition": "Identifikation eines Wertpapiers.",
+  "isoElements": {
+    "ISIN": {
+      "definition": "International Securities Identification Number (ISIN). Ein Nummerierungssystem der Internationalen Organisation für Normung (ISO) der Vereinten Nationen. Die ISIN besteht aus einem 2-stelligen Präfix für das Ausgabeland, gefolgt von der nationalen Wertpapiernummer (sofern vorhanden) und einer Prüfziffer. Jedes Land hat eine nationale Nummerierungsstelle, die ISIN-Nummern für Wertpapiere dieses Landes vergibt."
+    },
+    "OtherIdentification": {
+      "definition": "Identifikation eines Wertpapiers über ein proprietäres oder nationales Identifikationsschema."
+    },
+    "Description": {
+      "definition": "Textuelle Beschreibung eines Wertpapierinstruments."
+    }
+  },
+  "isoRules": {
+    "DescriptionPresenceRule": {
+      "definition": "Wenn Description nicht vorhanden ist, muss entweder ISIN oder mindestens ein Vorkommen von OtherIdentification vorhanden sein."
+    },
+    "OtherIdentificationPresenceRule": {
+      "definition": "Wenn OtherIdentification nicht vorhanden ist, muss entweder ISIN oder Description vorhanden sein."
+    },
+    "ISINPresenceRule": {
+      "definition": "Wenn ISIN nicht vorhanden ist, muss entweder Description oder mindestens ein Vorkommen von OtherIdentification vorhanden sein."
+    },
+    "DescriptionUsageRule": {
+      "definition": "Description darf nur als letzter Ausweg allein verwendet werden."
+    },
+    "ISINGuideline": {
+      "definition": "Wenn ein ISIN-Code existiert, wird dringend empfohlen, die ISIN zu verwenden."
+    }
+  }
+}

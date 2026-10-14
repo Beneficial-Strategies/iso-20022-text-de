@@ -1,0 +1,48 @@
+{
+  "isoType": "AccountParties17",
+  "definition": "Informationen zum Konto einer Partei.",
+  "isoElements": {
+    "PrincipalAccountParty": {
+      "definition": "Hauptpartei, die dem Konto zugeordnet ist."
+    },
+    "SecondaryOwner": {
+      "definition": "Einheit, die nicht Hauptinhaber ist, wenn die Inhaberschaft des Anlagekontos auf mehrere Inhaber aufgeteilt ist."
+    },
+    "Beneficiary": {
+      "definition": "Letztlich berechtigte Partei, die Anspruch auf die Vorteile der Inhaberschaft eines Finanzinstruments hat oder aufgrund einer Übertragung zu bezahlen bzw. gutzuschreiben ist."
+    },
+    "PowerOfAttorney": {
+      "definition": "Einheit, der von einer anderen Einheit die Befugnis erteilt wurde, in deren Namen zu handeln."
+    },
+    "LegalGuardian": {
+      "definition": "Einheit, die von einer Rechtsbehörde bestellt wurde, um im Namen einer für geschäftsunfähig erklärten Person zu handeln."
+    },
+    "CustodianForMinor": {
+      "definition": "Einheit, die Anteile/Einheiten im Namen eines rechtlich Minderjährigen hält. Obwohl das Konto auf den Namen des Minderjährigen geführt wird, behält der Verwahrer die Kontrolle über das Konto."
+    },
+    "SuccessorOnDeath": {
+      "definition": "Nachlass des Verstorbenen oder Nachfolger, auf den der jeweilige Prozentsatz der Inhaberschaft beim Tod eines der Inhaber übertragen wird."
+    },
+    "Administrator": {
+      "definition": "Einheit, die von einer Rechtsbehörde bestellt wurde, um im Namen einer Person oder Organisation zu handeln, die in Konkurs gegangen ist."
+    },
+    "OtherParty": {
+      "definition": "Sonstige Art der Partei."
+    },
+    "Granter": {
+      "definition": "Rolle des Gewährenden in der Hedgefonds-Branche."
+    },
+    "Settlor": {
+      "definition": "Einheit, die einen Trust errichtet oder Vermögenswerte in den Trust einbringt."
+    },
+    "SeniorManagingOfficial": {
+      "definition": "Partei, die Entscheidungen trifft oder an Entscheidungen mitwirkt, die das gesamte Geschäft oder einen wesentlichen Teil des Geschäfts eines Kunden einer meldepflichtigen Einheit betreffen oder die in der Lage ist, die finanzielle Stellung eines Kunden einer meldepflichtigen Einheit erheblich zu beeinflussen. In der Regel ist dies eine beherrschende Person einer Kapitalgesellschaft (Inhaberschaftsart CORP)."
+    },
+    "Protector": {
+      "definition": "Nach der Trust-Urkunde bestellte Person, die die Treuhänder in Bezug auf die Verwaltung des Trusts anweist oder beschränkt. In der Regel ist dies eine beherrschende Person eines Trusts (Inhaberschaftsart TRUS) oder einer anderen Organisation, die keine natürliche Person ist (Inhaberschaftsart ONIS)."
+    },
+    "RegisteredShareholderName": {
+      "definition": "Partei, die ihren Namen beim Emittenten registrieren lässt, sowie der für die Registrierung verwendete Name."
+    }
+  }
+}

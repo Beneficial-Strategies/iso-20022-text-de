@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentIdentification8",
+  "definition": "Elementgruppe, die weitere Möglichkeiten zur Referenzierung einer Zahlungstransaktion bereitstellt.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Eindeutige Identifikation, die von einer anweisenden Partei vergeben wird, damit die angewiesene Partei die Anweisung zweifelsfrei identifizieren kann.||Verwendung: Die Anweisungsidentifikation ist eine Punkt-zu-Punkt-Referenz, die zwischen der anweisenden und der angewiesenen Partei verwendet werden kann, um auf die einzelne Anweisung Bezug zu nehmen. Sie kann in mehreren Nachrichten zur Anweisung enthalten sein."
+    },
+    "EndToEndIdentification": {
+      "definition": "Eindeutige Identifikation, die von der initiierenden Partei vergeben wird, um die Transaktion zweifelsfrei zu identifizieren. Diese Identifikation wird unverändert durch die gesamte Ende-zu-Ende-Kette weitergegeben.||Verwendung: Die Ende-zu-Ende-Identifikation kann für den Abgleich oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion verwendet werden. Sie kann in mehreren Nachrichten zur Transaktion enthalten sein."
+    },
+    "TransactionIdentification": {
+      "definition": "Eindeutige Identifikation, die von der ersten anweisenden Bank vergeben wird, um die Transaktion zweifelsfrei zu identifizieren, und die unverändert durch die gesamte Interbankenkette weitergegeben wird. |Verwendung: Die Transaktionsidentifikation kann für den Abgleich, die Nachverfolgung oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion auf Interbankenebene verwendet werden. |Verwendung: Die anweisende Bank muss sicherstellen, dass die Transaktionsidentifikation für einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "UETR": {
+      "definition": "Universell eindeutiger Bezeichner (UUID) als Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    }
+  }
+}

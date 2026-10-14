@@ -1,0 +1,12 @@
+{
+  "isoType": "OfferTypeFormat16Choice",
+  "definition": "Auswahl zwischen einem Standardcode und einem proprietären Code zur Angabe der Art des Angebots.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Bedingungen, die für das Angebot gelten."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Bedingungen, die für das Angebot gelten."
+    }
+  }
+}

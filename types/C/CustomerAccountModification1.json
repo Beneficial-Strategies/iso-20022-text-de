@@ -1,0 +1,51 @@
+{
+  "isoType": "CustomerAccountModification1",
+  "definition": "Konto im Besitz eines Kunden.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation des Kontos."
+    },
+    "Name": {
+      "definition": "Name des Kontos. Er dient als zusätzliches Identifikationsmittel und wird vom kontoführenden Institut in Absprache mit dem Kontoinhaber festgelegt."
+    },
+    "Status": {
+      "definition": "Legt den aktuellen Zustand eines Kontos fest, z. B. aktiviert oder gelöscht."
+    },
+    "Type": {
+      "definition": "Art des Kontos."
+    },
+    "Currency": {
+      "definition": "Tauschmittel für Werte."
+    },
+    "MonthlyPaymentValue": {
+      "definition": "Monatlicher Durchschnitt der Zahlungsbeträge (das heißt der ausgehenden Zahlungen) über ein Jahr."
+    },
+    "MonthlyReceivedValue": {
+      "definition": "Monatlicher Durchschnitt der eingegangenen Beträge über ein Jahr (das heißt der eingehenden Zahlungen)."
+    },
+    "MonthlyTransactionNumber": {
+      "definition": "Monatlicher Durchschnitt der Anzahl der Zahlungen (eingehend und ausgehend) über ein Jahr."
+    },
+    "AverageBalance": {
+      "definition": "Summe der Tagesendsalden eines Monats, geteilt durch die Anzahl der Geschäftstage des Monats."
+    },
+    "AccountPurpose": {
+      "definition": "Legt den Zweck des Kontos fest."
+    },
+    "FloorNotificationAmount": {
+      "definition": "Legt den Wert des Saldos fest, bei dessen Unterschreitung eine Benachrichtigung an den Kontoinhaber gesendet wird."
+    },
+    "CeilingNotificationAmount": {
+      "definition": "Legt den Wert des Saldos fest, bei dessen Überschreitung eine Benachrichtigung an den Kontoinhaber gesendet wird."
+    },
+    "StatementFrequencyAndFormat": {
+      "definition": "Legt fest, wie oft Kontoauszüge (zu Prüfungszwecken), in welchem Format und an welche Adresse gesendet werden."
+    },
+    "ClosingDate": {
+      "definition": "Datum, an dem das Konto geschlossen wird oder wurde."
+    },
+    "Restriction": {
+      "definition": "Einschränkung der zulässigen Funktionen oder Vorgänge."
+    }
+  }
+}

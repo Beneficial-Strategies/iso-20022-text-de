@@ -1,0 +1,23 @@
+{
+  "isoType": "DetailedInstructionStatus23",
+  "definition": "Status einer einzelnen Anweisung einer Versammlungsanweisung.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "definition": "Identifikation der bestimmten einzelnen Anweisung aus dem Element InstructionIdentification der ursprünglichen Nachricht zur Versammlungsanweisung, für die der Status bereitgestellt wird."
+    },
+    "AccountIdentification": {
+      "definition": "Identifikation des Wertpapierkontos."
+    },
+    "SubAccountIdentification": {
+      "definition": "Identifikation des Unterkontos innerhalb des Verwahrkontos."
+    },
+    "InstructionStatus": {
+      "definition": "Status der einzelnen Versammlungsanweisung."
+    }
+  },
+  "isoRules": {
+    "SubAccount1Rule": {
+      "definition": "Wenn SubAccountIdentification vorhanden ist, muss AccountIdentification vorhanden sein."
+    }
+  }
+}

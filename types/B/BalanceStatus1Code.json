@@ -1,0 +1,14 @@
+{
+  "isoType": "BalanceStatus1Code",
+  "definition": "Gibt den Saldo der Transaktionen mit einem bestimmten Status an.",
+  "isoCodes": {
+    "PDNG": {
+      "name": "Ausstehend",
+      "definition": "Saldo der ausstehenden Transaktionen."
+    },
+    "STLD": {
+      "name": "Abgewickelt",
+      "definition": "Endstatus einer Transaktion, wenn die zugehörige Geldübertragung erfolgreich verarbeitet wurde."
+    }
+  }
+}

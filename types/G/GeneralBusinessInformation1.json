@@ -1,0 +1,15 @@
+{
+  "isoType": "GeneralBusinessInformation1",
+  "definition": "Details zu fachlichen Informationen im Zusammenhang mit einem System.",
+  "isoElements": {
+    "Qualifier": {
+      "definition": "Weitere Informationen zur Dringlichkeit oder Wichtigkeit eines allgemeinen fachlichen Informationssystems."
+    },
+    "Subject": {
+      "definition": "Betreffzeile einer allgemeinen fachlichen Information, die das Thema und den vorgesehenen Empfänger der Information zusammenfasst."
+    },
+    "SubjectDetails": {
+      "definition": "Allgemeine fachliche Informationen in unstrukturierter Form."
+    }
+  }
+}

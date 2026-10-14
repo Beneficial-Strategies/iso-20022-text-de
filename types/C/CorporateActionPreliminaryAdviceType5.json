@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionPreliminaryAdviceType5",
+  "definition": "Art des Dokuments der vorläufigen Bewegungsavisierung.",
+  "isoElements": {
+    "MovementPreliminaryAdviceIdentification": {
+      "definition": "Eindeutige Identifikation der Gruppe von Nachrichten zur vorläufigen Bewegungsavisierung bei Kapitalmaßnahmen, wenn die vorläufige Avisierung auf mehrere (paginierte) Nachrichten aufgeteilt wird."
+    },
+    "Type": {
+      "definition": "Art der vorläufigen Bewegungsavisierung, zum Beispiel neu oder ersetzend."
+    },
+    "Function": {
+      "definition": "Gibt an, ob die Nachricht über den endgültigen anspruchsberechtigten Bestand und die Ansprüche oder über eine bevorstehende Buchung bzw. Stornierung von Wertpapier- und/oder Geldbuchungen avisiert."
+    }
+  }
+}

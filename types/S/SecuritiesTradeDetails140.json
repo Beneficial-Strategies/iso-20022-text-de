@@ -1,0 +1,122 @@
+{
+  "isoType": "SecuritiesTradeDetails140",
+  "definition": "Einzelheiten zum Wertpapiergeschäft.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion des Kontoinhabers, die potenziell mit der gemeldeten Gegenmeldung (Allegement) übereinstimmen könnte."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, wie dem Kontoführer bekannt."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer vergeben wurde, zum Beispiel Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion der Gegenpartei, die von einer anderen Marktinfrastruktur als einer Zentralverwahrer zugewiesen wurde, zum Beispiel Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, die vom Bearbeiter der Anweisung vergeben wird, der nicht der Kontoinhaber, der Kontoführer oder die Marktinfrastruktur ist."
+    },
+    "TradeIdentification": {
+      "definition": "Vom Anleger oder der handelnden Partei dem Handelsgeschäft zugewiesene Referenz. Diese Referenz wird während des gesamten Lebenszyklus des Handelsgeschäfts verwendet, um auf die Handelsdetails zuzugreifen bzw. diese zu aktualisieren."
+    },
+    "CommonIdentification": {
+      "definition": "Eindeutige Referenz, auf die sich die beiden Handelspartner zur Identifizierung des Handelsgeschäfts geeinigt haben."
+    },
+    "PoolIdentification": {
+      "definition": "Sammelreferenz zur Identifikation einer Gruppe von Nachrichten."
+    },
+    "CollateralTransactionIdentification": {
+      "definition": "Eindeutige Identifikation eines Sicherheitengeschäfts, wie von der anweisenden Partei vergeben."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Legt fest, ob die Bewegung auf einem Wertpapierkonto aus einer Liefer- oder einer Empfangsanweisung resultiert."
+    },
+    "Payment": {
+      "definition": "Legt fest, wie die Transaktion abgewickelt werden soll, beispielsweise gegen Zahlung."
+    },
+    "Status": {
+      "definition": "Status der Gegenmeldung (Allegement)."
+    },
+    "PlaceOfTrade": {
+      "definition": "Markt, an dem ein Handelsgeschäft ausgeführt wurde."
+    },
+    "PlaceOfClearing": {
+      "definition": "Infrastruktur, die Bestandteil eines Clearinghauses sein kann und das Clearing und die Abwicklung für ihre Mitglieder erleichtert, indem sie zwischen Käufer und Verkäufer tritt. Sie kann Transaktionen verrechnen und tritt für jede Position als Abwicklungsgegenpartei an ihre Stelle."
+    },
+    "TradeDate": {
+      "definition": "Gibt Datum und Uhrzeit der Ausführung des Geschäfts an."
+    },
+    "SettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere geliefert oder empfangen werden sollen."
+    },
+    "DealPrice": {
+      "definition": "Gibt den Preis des gehandelten Finanzinstruments an.|Dies ist der Abschlusspreis der einzelnen Handelstransaktion. |Gibt es für die Ausführung des Handels nur eine Handelstransaktion, kann der Abschlusspreis dem ausgeführten Handelspreis entsprechen (es sei denn, der Preis enthält beispielsweise Provisionen oder Rundungen oder es wurde ein anderer Faktor auf den Abschlusspreis oder den ausgeführten Handelspreis oder auf beide angewendet)."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Anzahl der Tage, an denen der Zinssatz aufläuft (täglich aufgelaufene Zinsen)."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Finanzinstrument, das eine Summe von Rechten des Anlegers gegenüber dem Emittenten darstellt."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Elemente, die ein Finanzinstrument kennzeichnen."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Gibt die Bedingungen an, unter denen der Auftrag/das Geschäft auszuführen ist bzw. ausgeführt wurde."
+    },
+    "TypeOfPrice": {
+      "definition": "Gibt die Art des Preises und Informationen zum Preis an."
+    },
+    "QuantityAndAccountDetails": {
+      "definition": "Einzelheiten zur Menge des Finanzinstruments und zum an der Transaktion beteiligten Konto."
+    },
+    "SecuritiesFinancingDetails": {
+      "definition": "Einzelheiten zur Beendigung des Wertpapierfinanzierungsgeschäfts."
+    },
+    "SettlementParameters": {
+      "definition": "Parameter, die auf die Abwicklung einer Wertpapierübertragung angewendet werden."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifiziert die Kette der liefernden Abwicklungsparteien."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifiziert die Kette der empfangenden Abwicklungsparteien."
+    },
+    "SettlementAmount": {
+      "definition": "Gesamtbetrag, der im Austausch gegen die Wertpapiere zu zahlen oder zu erhalten ist."
+    },
+    "OtherAmounts": {
+      "definition": "Andere Beträge als der Abwicklungsbetrag."
+    },
+    "OtherBusinessParties": {
+      "definition": "Weitere für die Transaktion relevante Geschäftsparteien."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "LateDeliveryDateRule": {
+      "definition": "Wenn LateDeliveryDate verwendet wird, muss die Transaktion ein Pool-Geschäft sein, das aus dem ursprünglichen TBA (To Be Announced) hervorgeht. Das ursprüngliche TBA würde durch eine Gegentransaktion ausgeglichen und durch Käufe oder Verkäufe einzelner Pools ersetzt. Es ist ein Datum, das später als das im Geschäft angegebene Abwicklungsdatum liegt, für Pools, die für eine verspätete Abwicklung vorgesehen sind."
+    },
+    "TradeDateRule": {
+      "definition": "Wird Trade Date/Time mit einer Uhrzeit oder einer Uhrzeit plus UTC-Indikator verwendet, so muss es die Ortszeit des Handelsplatzes sein, zum Beispiel der Börse oder, bei OTC, des verkaufenden Brokers."
+    },
+    "SettlementAmountRule": {
+      "definition": "Ist die Anweisung gegen Zahlung, so muss SettlementAmount vorhanden sein."
+    },
+    "ReceivingParty1Rule": {
+      "definition": "Wenn die Anweisung eine Lieferung ist, muss ReceivingParty 1 vorhanden sein."
+    },
+    "DeliveringParty1Rule": {
+      "definition": "Wenn die Anweisung ein Empfang ist, muss DeliveringParty1 vorhanden sein."
+    },
+    "TwoLegTransactionOpeningClosing1Rule": {
+      "definition": "Für die Abwicklung zweiteiliger Transaktionen (Wertpapierfinanzierung) wird die Eröffnung/Initiierung und die Beendigung/Rückgabe der Transaktion durch das Senden der folgenden Kombination von TransactionIdentificationDetails/SecuritiesMovementType-Codes und SettlementParameters/SecuritiesTransactionType-Codes bestätigt:||Repo-Eröffnung|SecuritiesMovementType: Lieferung (DELI)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)|Repo-Beendigung|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)||Reverse-Repo-Eröffnung|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)|Reverse-Repo-Beendigung|SecuritiesMovementType: Lieferung (DELI) |SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)||Triparty-Repo-Eröffnung|SecuritiesMovementType: Lieferung (DELI)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)|Triparty-Repo-Beendigung|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)||Triparty-Reverse-Repo-Eröffnung|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)|Triparty-Reverse-Repo-Beendigung|SecuritiesMovementType: Lieferung (DELI) |SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)||Wertpapierleihe-Initiierung|SecuritiesMovementType: Lieferung (DELI)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)|Wertpapierleihe-Rückgabe|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)||Wertpapierentleihe-Initiierung|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)|Wertpapierentleihe-Rückgabe|SecuritiesMovementType: Lieferung (DELI) |SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)."
+    },
+    "TwoLegTransactionOpeningClosing2Rule": {
+      "definition": "Für die Abwicklung zweiteiliger Transaktionen (Buy-Sell-Back, Sell-Buy-Back, Sicherheiten hinein und hinaus) werden Eröffnung/Initiierung und Beendigung/Rückgabe der Transaktion durch Senden der folgenden Kombination von SecuritiesMovementType-Codes und SettlementParameters/SecuritiesTransactionType-Codes gemeldet:||Sell-Buy Back: Verkauf|SecuritiesMovementType: Lieferung (DELI)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)|Sell-Buy Back: Rückkauf|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)||Buy-Sell Back: Kauf|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)|Buy-Sell Back: Rückverkauf|SecuritiesMovementType: Lieferung (DELI) |SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)||Sicherheit (Geber) hinaus, Initiierung|SecuritiesMovementType: Lieferung (DELI)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)|Sicherheit (Geber) hinaus, Rückgabe|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)||Sicherheit (Nehmer) herein, Initiierung|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)|Sicherheit (Nehmer) herein, Rückgabe|SecuritiesMovementType: Lieferung (DELI) |SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)."
+    }
+  }
+}

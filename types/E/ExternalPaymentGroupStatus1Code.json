@@ -1,0 +1,58 @@
+{
+  "isoType": "ExternalPaymentGroupStatus1Code",
+  "definition": "Gibt den Status einer Gruppe von Zahlungsanweisungen an, wie in einem externen Code-Satz für den Zahlungsgruppenstatus veröffentlicht.|Externe Code-Sätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "ACCP": {
+      "name": "Kundenprofil akzeptiert",
+      "definition": "Die vorangegangene technische Validierung war erfolgreich. Die Prüfung des Kundenprofils war ebenfalls erfolgreich."
+    },
+    "ACCC": {
+      "name": "Akzeptiert, Abwicklung auf Konto des Zahlungsempfängers abgeschlossen",
+      "definition": "Die Abwicklung auf dem Konto des Zahlungsempfängers wurde abgeschlossen."
+    },
+    "ACSC": {
+      "name": "Akzeptiert, Abwicklung auf Konto des Zahlungspflichtigen abgeschlossen",
+      "definition": "Die Abwicklung auf dem Konto des Zahlungspflichtigen wurde abgeschlossen.|Verwendung : Dies kann von der ersten Bank verwendet werden, um dem Zahlungspflichtigen zu melden, dass die Transaktion abgeschlossen wurde. |Warnung : Dieser Status wird aus Gründen des Transaktionsstatus bereitgestellt, nicht für Finanzinformationen. Er kann nur nach bilateraler Vereinbarung verwendet werden"
+    },
+    "ACSP": {
+      "name": "Akzeptiert, Abwicklung in Bearbeitung",
+      "definition": "Alle vorangegangenen Prüfungen, wie technische Validierung und Kundenprofil, waren erfolgreich; der Zahlungsauftrag wurde daher zur Ausführung angenommen."
+    },
+    "ACTC": {
+      "name": "Technische Validierung akzeptiert",
+      "definition": "Authentifizierung sowie syntaktische und semantische Validierung sind erfolgreich"
+    },
+    "ACWC": {
+      "name": "Mit Änderung akzeptiert",
+      "definition": "Die Anweisung ist akzeptiert, es erfolgt jedoch eine Änderung, zum Beispiel beim Datum oder indem der Verwendungszweck nicht übermittelt wird."
+    },
+    "PART": {
+      "name": "Teilweise akzeptiert",
+      "definition": "Eine Anzahl von Transaktionen wurde angenommen, während eine andere Anzahl von Transaktionen den|Status 'accepted' noch nicht erreicht hat."
+    },
+    "PDNG": {
+      "name": "Ausstehend",
+      "definition": "Die Zahlungsinitiierung oder eine in der Zahlungsinitiierung enthaltene Einzeltransaktion ist ausstehend. Weitere Prüfungen und eine Statusaktualisierung werden durchgeführt."
+    },
+    "RCVD": {
+      "name": "Empfangen",
+      "definition": "Die Zahlungsinitiierung wurde von der empfangenden Bank empfangen"
+    },
+    "RJCT": {
+      "name": "Abgelehnt",
+      "definition": "Der Zahlungsauftrag oder eine darin enthaltene einzelne Transaktion wurde abgelehnt."
+    },
+    "RCVC": {
+      "name": "Empfangen, Prüfung abgeschlossen",
+      "definition": "Die Verification-of-Payee-Prüfung wurde auf die empfangenen Transaktionen angewendet und meldet sich als abgeschlossen ohne abweichende Daten."
+    },
+    "RVCM": {
+      "name": "Empfangen, Prüfung mit Abweichungen abgeschlossen",
+      "definition": "Die Verification-of-Payee-Prüfungen wurden auf die empfangenen Transaktionen angewendet und melden sich als abgeschlossen mit abweichenden Daten."
+    },
+    "RVNC": {
+      "name": "Empfangen, Prüfung nicht abgeschlossen",
+      "definition": "Die Verification-of-Party-Prüfung der empfangenen Transaktionen ist noch nicht abgeschlossen."
+    }
+  }
+}

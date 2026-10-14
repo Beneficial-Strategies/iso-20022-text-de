@@ -1,0 +1,35 @@
+{
+  "isoType": "Statement64",
+  "definition": "Merkmale des Auszugs.",
+  "isoElements": {
+    "ReportNumber": {
+      "definition": "Fortlaufende Nummer des Berichts."
+    },
+    "QueryReference": {
+      "definition": "Identifikation der Kontoauszugsabfrage-Nachricht, die gesendet wurde, um diesen Kontoauszug anzufordern."
+    },
+    "StatementIdentification": {
+      "definition": "Referenz, die allen Seiten eines Auszugs gemeinsam ist."
+    },
+    "StatementDateTime": {
+      "definition": "Datum und Uhrzeit des Auszugs."
+    },
+    "Frequency": {
+      "definition": "Häufigkeit des Auszugs."
+    },
+    "UpdateType": {
+      "definition": "Gibt an, ob der Auszug vollständig ist oder nur Änderungen enthält."
+    },
+    "StatementStructure": {
+      "definition": "Legt fest, ob der Kontoauszug nach Status oder nach Transaktion sortiert ist."
+    },
+    "ActivityIndicator": {
+      "definition": "Gibt an, ob im Auszug Aktivität oder eine Aktualisierung von Informationen gemeldet wird."
+    }
+  },
+  "isoRules": {
+    "ReportNumberRule": {
+      "definition": "Wenn die lange Nummer (Exact5NumericTest) verwendet wird, muss der Bericht ein Delta-Bericht sein (UpdateType: DELT).|Wenn der Bericht mehrere Seiten umfasst, muss die ReportNumber auf allen Seiten gleich bleiben. Sie ist eine eindeutige Nummer des Berichts.|Zwei Berichte desselben Typs, die nacheinander an denselben Empfänger in Bezug auf dasselbe Verwahrkonto gesendet werden, müssen unterschiedliche ReportNumbers haben. Beispielsweise hätte ein Tagesbericht an Tag 1 die ReportNumber 001, an Tag 2 die 002."
+    }
+  }
+}

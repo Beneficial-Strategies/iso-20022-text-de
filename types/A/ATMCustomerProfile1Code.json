@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMCustomerProfile1Code",
+  "definition": "Beschreibt, wie die Kundeninformationen hauptsächlich erhoben wurden, um das Kundenmenü und die Auszahlungsanfrage aufzubauen.",
+  "isoCodes": {
+    "CRDF": {
+      "name": "Karteninformationen",
+      "definition": "Das Kundenprofil wird aus den Kartendaten und der lokalen Konfiguration abgeleitet."
+    },
+    "OREQ": {
+      "name": "Sonstige Anforderung",
+      "definition": "Das Kundenprofil wird über eine Kontoabfrage mit Kontoauswahl gesendet."
+    },
+    "PREQ": {
+      "name": "Profilanforderung",
+      "definition": "Das Kundenprofil wird über einen spezifischen Profilnachrichtenaustausch aufgebaut."
+    }
+  }
+}

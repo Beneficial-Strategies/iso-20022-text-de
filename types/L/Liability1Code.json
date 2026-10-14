@@ -1,0 +1,14 @@
+{
+  "isoType": "Liability1Code",
+  "definition": "Gibt die für die Haftung verantwortliche Partei an.",
+  "isoCodes": {
+    "INVE": {
+      "name": "Anleger",
+      "definition": "Der Anleger ist verantwortlich."
+    },
+    "BROK": {
+      "name": "Broker",
+      "definition": "Der Broker ist verantwortlich."
+    }
+  }
+}

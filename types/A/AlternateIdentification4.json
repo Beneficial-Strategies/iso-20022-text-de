@@ -1,0 +1,24 @@
+{
+  "isoType": "AlternateIdentification4",
+  "definition": "Informationen zur Identifikation einer natürlichen Person.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Von einer Stelle vergebener Name oder vergebene Nummer, die die Erkennung dieser Stelle ermöglicht, zum Beispiel Kontokennung."
+    },
+    "Type": {
+      "definition": "Gibt die Art der Identifikation an."
+    },
+    "Issuer": {
+      "definition": "Stelle, die die Kennung vergibt."
+    },
+    "IssueDate": {
+      "definition": "Datum, an dem die Identifikation ausgestellt wurde."
+    },
+    "ExpiryDate": {
+      "definition": "Datum, an dem die Identifikation abläuft."
+    },
+    "IssuerCountry": {
+      "definition": "Land, das das Identifikationsdokument ausgestellt hat."
+    }
+  }
+}

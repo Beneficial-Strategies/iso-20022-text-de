@@ -1,0 +1,21 @@
+{
+  "isoType": "PaymentTypeInformation28",
+  "definition": "Enthält weitere Angaben zur Zahlungsart.",
+  "isoElements": {
+    "InstructionPriority": {
+      "definition": "Kennzeichen für die Dringlichkeit oder Wichtigkeit, mit der die anweisende Partei die Anweisung von der angewiesenen Partei verarbeitet haben möchte."
+    },
+    "ClearingChannel": {
+      "definition": "Gibt den Clearingkanal an, der zur Verarbeitung der Zahlungsanweisung verwendet werden soll."
+    },
+    "ServiceLevel": {
+      "definition": "Vereinbarung oder Regelwerk, nach der die Transaktion verarbeitet werden soll."
+    },
+    "LocalInstrument": {
+      "definition": "Nutzergruppenspezifisches Instrument.||Verwendung: Dieses Element dient zur Angabe eines lokalen Instruments, einer lokalen Clearingoption und/oder zur näheren Qualifizierung des Service oder Service-Levels."
+    },
+    "CategoryPurpose": {
+      "definition": "Gibt den übergeordneten Zweck der Anweisung auf Grundlage einer Reihe vordefinierter Kategorien an.|Verwendung: Wird von der initiierenden Partei verwendet, um Informationen zur Verarbeitung der Zahlung bereitzustellen. Es löst voraussichtlich eine Sonderbearbeitung durch eine der an der Zahlungskette beteiligten Banken aus."
+    }
+  }
+}

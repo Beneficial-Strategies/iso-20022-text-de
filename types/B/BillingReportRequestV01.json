@@ -1,0 +1,4 @@
+{
+  "isoType": "BillingReportRequestV01",
+  "definition": "Die Nachricht BillingReportRequest wird vom Systemmitglied an den Transaktionsadministrator des Systems gesendet, um kumulierte oder detaillierte Abrechnungsdaten anzufordern. Bei den Abrechnungsdaten kann es sich um kumulierte Informationen oder um aggregierte Informationen auf der Ebene eines einzelnen Wertpapierkontos oder eines dedizierten Geldkontos innerhalb eines bestimmten Zeitraums für jede Dienstleistungsposition handeln."
+}

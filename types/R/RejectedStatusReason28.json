@@ -1,0 +1,17 @@
+{
+  "isoType": "RejectedStatusReason28",
+  "definition": "Grund für den Status abgelehnt einer Stornierung.",
+  "isoElements": {
+    "ReasonCode": {
+      "definition": "Grund für den abgelehnten Status."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Zusätzliche Informationen zum Ablehnungsstatus."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "Das Element AdditionalReasonInformation darf keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können, sofern nicht bilateral vereinbart."
+    }
+  }
+}

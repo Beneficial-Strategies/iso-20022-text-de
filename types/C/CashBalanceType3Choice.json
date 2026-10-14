@@ -1,0 +1,12 @@
+{
+  "isoType": "CashBalanceType3Choice",
+  "definition": "Auswahl des Formats für den Saldotyp.",
+  "isoElements": {
+    "Code": {
+      "definition": "In codierter Form ausgedrückter Barsaldo."
+    },
+    "Proprietary": {
+      "definition": "In proprietärer Form ausgedrückter Barsaldo."
+    }
+  }
+}

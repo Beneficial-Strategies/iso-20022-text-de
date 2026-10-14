@@ -1,0 +1,21 @@
+{
+  "isoType": "Frequency2",
+  "definition": "Angaben zur Festlegung von Frequenz, Muster und weiteren Merkmalen, die die Mitteilung einer Reihe von Zahlungen an denselben Empfänger über einen bestimmten Zeitraum ermöglichen.",
+  "isoElements": {
+    "Sequence": {
+      "definition": "Technische Kennung einer Überweisung als Teil einer Reihe von Überweisungen innerhalb einer einzelnen Zahlungsanweisung. Unterstützt die Übertragung komplexer, variabler zukünftiger Zahlungspläne, die mit einer einzigen Einwilligung des Kunden verbunden sind, innerhalb einer einzelnen Zahlungsanweisung."
+    },
+    "StartDate": {
+      "definition": "Datum der ersten Zahlung, die für diesen Zahlungsplan zu leisten ist."
+    },
+    "EndPointChoice": {
+      "definition": "Informationen darüber, wann die Zahlungsvereinbarung endet."
+    },
+    "RequestedFrequencyPattern": {
+      "definition": "Frequenzmuster des Zahlungsplans, das angibt, wie häufig eine Zahlung geleistet wird."
+    },
+    "NonWorkingDayAdjustment": {
+      "definition": "Anpassungskennzeichen für einen arbeitsfreien Tag, damit die Zahlung am nächsten Arbeitstag geleistet werden kann."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMReconciliationResponseV01",
+  "definition": "Die ATMReconciliationResponse wird von einem Wartungshost an einen ATM gesendet, um zu aktualisierende Zähler zu identifizieren."
+}

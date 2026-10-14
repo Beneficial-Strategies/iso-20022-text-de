@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentType4Choice",
+  "definition": "Auswahl zwischen einem Zahlungstyp aus einer vordefinierten Liste und einem proprietären Zahlungstyp.",
+  "isoElements": {
+    "Code": {
+      "definition": "Typ oder Art der Zahlung, wie Expresszahlung.|."
+    },
+    "Proprietary": {
+      "definition": "Zahlungstyp, der nicht in einer vordefinierten Liste enthalten ist."
+    }
+  }
+}

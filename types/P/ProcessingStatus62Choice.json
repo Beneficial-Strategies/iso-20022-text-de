@@ -1,0 +1,24 @@
+{
+  "isoType": "ProcessingStatus62Choice",
+  "definition": "Auswahl des Formats für den Verarbeitungsstatus.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "Die Anweisung wurde vom kontoführenden Institut bestätigt."
+    },
+    "PendingProcessing": {
+      "definition": "Die Verarbeitung der Anweisung/Anforderung steht aus."
+    },
+    "Repair": {
+      "definition": "Die Anweisung/Anfrage wird akzeptiert, befindet sich aber in Klärung."
+    },
+    "PendingCancellation": {
+      "definition": "Eine Stornierungsanfrage von Ihnen für diese Anweisung steht zur weiteren Verarbeitung aus (nur als Antwort auf eine SecuritiesTransactionStatusQuery). Der Status „ausstehend“ bei der Verarbeitung einer Stornierungsanfrage muss über eine SecuritiesTransactionCancellationRequestStatusAdvice mitgeteilt werden."
+    },
+    "Proprietary": {
+      "definition": "Status, der mit keinem der verfügbaren Standardstatus gemeldet werden kann."
+    },
+    "CancellationRequested": {
+      "definition": "Die Stornierungsanforderung Ihrer Gegenpartei für diese Transaktion steht aus und wartet auf Ihre Stornierungsanforderung."
+    }
+  }
+}

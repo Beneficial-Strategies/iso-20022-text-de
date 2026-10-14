@@ -1,0 +1,15 @@
+{
+  "isoType": "FinancialInstrumentAggregateBalance1",
+  "definition": "Aggregierte Bestandsposition, die in einem Wertpapierkonto für ein bestimmtes Finanzinstrument gehalten wird.",
+  "isoElements": {
+    "ItemDate": {
+      "definition": "Datum der Bestandszeile im Kontoauszug."
+    },
+    "Holdings": {
+      "definition": "Dem Bestand zugeordnete Salden und Teilsalden."
+    },
+    "Price": {
+      "definition": "Angaben zu Preiswert, -art und -quelle."
+    }
+  }
+}

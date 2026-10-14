@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessingStatus70Choice",
+  "definition": "Auswahl des Formats für den Verarbeitungsstatus.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Bearbeitungsstatus der Anweisung in codierter Form an."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Bearbeitungsstatus der Anweisung in proprietärem Format an."
+    }
+  }
+}

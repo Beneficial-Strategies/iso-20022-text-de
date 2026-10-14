@@ -1,0 +1,18 @@
+{
+  "isoType": "AdditionalParameters30",
+  "definition": "Gibt zusätzliche Parameter zur Nachricht oder Transaktion an.",
+  "isoElements": {
+    "PreConfirmation": {
+      "definition": "Legt fest, ob eine Vorabbestätigung vorliegt."
+    },
+    "PartialSettlement": {
+      "definition": "Gibt Informationen zur Teilabwicklung an."
+    },
+    "TripartyAgentServiceProviderCollateralTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Triparty-Collateral-Management-Transaktion aus Sicht des Triparty-Agenten/Dienstleisters."
+    },
+    "ClientTripartyCollateralTransactionIdentification": {
+      "definition": "Eindeutige Referenz der Triparty-Collateral-Management-Transaktion aus Sicht des Kunden."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "PriceValueType6Code",
+  "definition": "Gibt den Wert eines Preises an.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Unbekannt",
+      "definition": "Der Preis ist dem Sender unbekannt oder wurde nicht festgelegt."
+    },
+    "OPEN": {
+      "name": "Ohne Fälligkeitsdatum",
+      "definition": "Der Kurs wurde nicht festgelegt."
+    },
+    "UNSP": {
+      "name": "Nicht angegeben",
+      "definition": "Der Preis muss vom Kontoinhaber nicht angegeben werden."
+    },
+    "TBSP": {
+      "name": "Noch festzulegen",
+      "definition": "Preis, der vom Kontoinhaber anzugeben ist."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionCancellationReason1Code",
+  "definition": "Gibt die Gründe für die Stornierung eines Ereignisses der Kapitalmaßnahme an.",
+  "isoCodes": {
+    "WITH": {
+      "name": "Widerruf",
+      "definition": "Stornierung, weil das Ereignis der Kapitalmaßnahme vom Emittenten storniert wurde."
+    },
+    "PROC": {
+      "name": "Verarbeitung",
+      "definition": "Absage aufgrund eines Verarbeitungsfehlers."
+    }
+  }
+}

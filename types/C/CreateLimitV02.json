@@ -1,0 +1,4 @@
+{
+  "isoType": "CreateLimitV02",
+  "definition": "Anwendungsbereich|Die Nachricht CreateLimit wird von einem Teilnehmer an den Transaktionsadministrator gesendet.|Sie dient dazu, ein oder mehrere Limits anzulegen, die vom Teilnehmer festgelegt und vom Transaktionsadministrator verwaltet werden.|Verwendung|Auf Grundlage der in der Nachricht CreateLimit definierten Kriterien führt der Transaktionsadministrator die beantragte Anlage aus oder lehnt sie ab und antwortet auf die Anfrage mit einer Nachricht Receipt."
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "DateFormat54Choice",
+  "definition": "Auswahl zwischen einem ISODate- oder ISODateTime-Format oder einem Datumscode oder einem Datumscode und einer Uhrzeit.",
+  "isoElements": {
+    "Date": {
+      "definition": "Datum, ausgedrückt als Kalenderdatum."
+    },
+    "DateCodeAndTime": {
+      "definition": "Gibt einen Datumscode und eine Uhrzeit an."
+    },
+    "DateCode": {
+      "definition": "Gibt die Art des Datums an."
+    }
+  }
+}

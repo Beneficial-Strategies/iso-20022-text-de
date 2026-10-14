@@ -1,0 +1,26 @@
+{
+  "isoType": "ReservationStatus1Code",
+  "definition": "Gibt den aktuellen Status eines Limits an.",
+  "isoCodes": {
+    "ENAB": {
+      "name": "Aktiviert",
+      "definition": "Die Reservierung ist derzeit wirksam."
+    },
+    "DISA": {
+      "name": "Deaktiviert",
+      "definition": "Die Reservierung ist derzeit nicht wirksam.|."
+    },
+    "DELD": {
+      "name": "Gelöscht",
+      "definition": "Die Reservierung wurde gelöscht oder ausgesetzt."
+    },
+    "REQD": {
+      "name": "Angefordert",
+      "definition": "Die Reservierung wurde angefordert und ist noch nicht aktiviert.|."
+    },
+    "BLKD": {
+      "name": "Gesperrt",
+      "definition": "Die Reservierung ist aufgrund äußerer Umstände wie einer gerichtlichen Anordnung, dem Tod des Begünstigten oder Kontoinhabers oder einer Insolvenz gesperrt oder eingefroren."
+    }
+  }
+}

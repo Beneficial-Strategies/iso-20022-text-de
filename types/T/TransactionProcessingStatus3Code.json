@@ -1,0 +1,22 @@
+{
+  "isoType": "TransactionProcessingStatus3Code",
+  "definition": "Gibt den Bearbeitungsstatus einer Transaktion an (auf Ebene der kontoführenden Stelle).",
+  "isoCodes": {
+    "CAND": {
+      "name": "Storniert",
+      "definition": "Die Anweisung wurde storniert."
+    },
+    "PACK": {
+      "name": "Empfangen und akzeptiert",
+      "definition": "Die Anweisung wurde von der kontoführenden Stelle bestätigt und zur Weiterverarbeitung angenommen."
+    },
+    "REJT": {
+      "name": "Abgelehnt",
+      "definition": "Die Anweisung wurde zur Weiterverarbeitung abgelehnt."
+    },
+    "REPR": {
+      "name": "In Klärung",
+      "definition": "Die Anweisung wurde angenommen, befindet sich jedoch in der Klärung."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "DeliveryParameters4",
+  "definition": "Parameter einer physischen Lieferung.",
+  "isoElements": {
+    "RegisteredAddressIndicator": {
+      "definition": "Gibt an, ob die Adresse für die physische Lieferung die eingetragene Adresse ist."
+    },
+    "NameAndAddress": {
+      "definition": "Name und Adresse, an die bzw. von der die physische Lieferung/der physische Empfang des Finanzinstruments erfolgen muss."
+    },
+    "ContactPerson": {
+      "definition": "Kontaktperson und Kontaktinformationen."
+    }
+  },
+  "isoRules": {
+    "NameAndAddress1Rule": {
+      "definition": "Wenn RegisteredAddressIndicator \"true\" oder \"1\" (Ja) ist, ist NameAndAddress nicht zulässig.|Wenn RegisteredAddressIndicator \"false\" oder \"0\" (Nein) ist, muss NameAndAddress vorhanden sein."
+    }
+  }
+}

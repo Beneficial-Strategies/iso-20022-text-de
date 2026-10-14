@@ -1,0 +1,86 @@
+{
+  "isoType": "TransactionDetails165",
+  "definition": "Legt die Details der Transaktion fest.",
+  "isoElements": {
+    "TransactionActivity": {
+      "definition": "Legt die Art der Aktivität fest, auf die sich diese Anweisung bezieht."
+    },
+    "SettlementTransactionOrCorporateActionEventType": {
+      "definition": "Auswahl der Art der gemeldeten Transaktion."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Legt fest, ob die Bewegung auf einem Wertpapierkonto aus einer Liefer- oder einer Empfangsanweisung resultiert."
+    },
+    "Payment": {
+      "definition": "Legt fest, wie die Transaktion abgewickelt werden soll, beispielsweise gegen Zahlung."
+    },
+    "SettlementParameters": {
+      "definition": "Parameter, die auf die Abwicklung einer Wertpapierübertragung angewendet werden."
+    },
+    "PlaceOfTrade": {
+      "definition": "Markt, an dem ein Handelsgeschäft ausgeführt wurde."
+    },
+    "SafekeepingPlace": {
+      "definition": "Ort, an dem die Wertpapiere physisch oder buchmäßig verwahrt werden. Dieser Ort kann zum Beispiel eine lokale Depotbank, ein Central Securities Depository (CSD) oder ein International Central Securities Depository (ICSD) sein."
+    },
+    "PlaceOfClearing": {
+      "definition": "Infrastruktur, die Bestandteil eines Clearinghauses sein kann und das Clearing und die Abwicklung für ihre Mitglieder erleichtert, indem sie zwischen Käufer und Verkäufer tritt. Sie kann Transaktionen verrechnen und tritt für jede Position als Abwicklungsgegenpartei an ihre Stelle."
+    },
+    "PostingQuantity": {
+      "definition": "Menge des Finanzinstruments, die auf dem Verwahrkonto gebucht werden soll bzw. gebucht wurde."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Anzahl der Tage, an denen der Zinssatz aufläuft (täglich aufgelaufene Zinsen)."
+    },
+    "PostingAmount": {
+      "definition": "Geldbetrag, der auf dem Konto gebucht werden soll bzw. gebucht wurde."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Zinsbetrag, der zwischen den Kuponzahlungsperioden aufgelaufen ist."
+    },
+    "TradeDate": {
+      "definition": "Gibt Datum und Uhrzeit der Ausführung des Geschäfts an."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen eine Transaktion abgeschlossen und verrechnet wird, das heißt, die Zahlung erfolgt und die Wertpapiere geliefert werden."
+    },
+    "SettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere geliefert oder empfangen werden sollen."
+    },
+    "ValueDate": {
+      "definition": "Datum und Uhrzeit, zu denen Vermögenswerte dem Kontoinhaber zur Verfügung stehen (bei einer Gutschrift) oder dem Kontoinhaber nicht mehr zur Verfügung stehen (bei einer Belastung)."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Zeitstempel, wann die Transaktion bestätigt wird."
+    },
+    "MatchedStatusTimeStamp": {
+      "definition": "Zeitstempel, wann die Transaktion abgeglichen wurde."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifiziert die Kette der liefernden Abwicklungsparteien."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifiziert die Kette der empfangenden Abwicklungsparteien."
+    },
+    "ReversalIndicator": {
+      "definition": "Gibt an, ob es sich um die Rückbuchung einer zuvor gemeldeten Bewegung handelt."
+    },
+    "TransactionAdditionalDetails": {
+      "definition": "Liefert zusätzliche Details zur Transaktion, die nicht in den strukturierten Feldern der Nachricht angegeben werden können."
+    }
+  },
+  "isoRules": {
+    "PostingAmountRule": {
+      "definition": "Wenn die Anweisung gegen Zahlung erfolgt, muss PostingAmount vorhanden sein."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Sofern zwischen Sender und Empfänger nicht bilateral anders vereinbart, darf TransactionAdditionalDetails, wenn vorhanden, keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können."
+    },
+    "TwoLegTransactionOpeningClosing1Rule": {
+      "definition": "Für die Abwicklung zweiteiliger Transaktionen (Wertpapierfinanzierung) wird die Eröffnung/Initiierung und die Beendigung/Rückgabe der Transaktion durch das Senden der folgenden Kombination von TransactionIdentificationDetails/SecuritiesMovementType-Codes und SettlementParameters/SecuritiesTransactionType-Codes bestätigt:||Repo-Eröffnung|SecuritiesMovementType: Lieferung (DELI)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)|Repo-Beendigung|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)||Reverse-Repo-Eröffnung|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)|Reverse-Repo-Beendigung|SecuritiesMovementType: Lieferung (DELI) |SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)||Triparty-Repo-Eröffnung|SecuritiesMovementType: Lieferung (DELI)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)|Triparty-Repo-Beendigung|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)||Triparty-Reverse-Repo-Eröffnung|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)|Triparty-Reverse-Repo-Beendigung|SecuritiesMovementType: Lieferung (DELI) |SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)||Wertpapierleihe-Initiierung|SecuritiesMovementType: Lieferung (DELI)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)|Wertpapierleihe-Rückgabe|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)||Wertpapierentleihe-Initiierung|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)|Wertpapierentleihe-Rückgabe|SecuritiesMovementType: Lieferung (DELI) |SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)."
+    },
+    "TwoLegTransactionOpeningClosing2Rule": {
+      "definition": "Für die Abwicklung zweiteiliger Transaktionen (Buy-Sell-Back, Sell-Buy-Back, Collateral In und Out) wird die Eröffnung/Initiierung und die Beendigung/Rückgabe der Transaktion durch das Senden der folgenden Kombination von SecuritiesMovementType-Codes und SettlementParameters/SecuritiesTransactionType-Codes bestätigt:||Sell-Buy Back: Verkauf|SecuritiesMovementType: Lieferung (DELI)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)|Sell-Buy Back: Rückkauf|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)||Buy-Sell Back: Kauf|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)|Buy-Sell Back: Rückverkauf|SecuritiesMovementType: Lieferung (DELI) |SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)||Collateral (Geber) Out, Initiierung|SecuritiesMovementType: Lieferung (DELI)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)|Collateral (Geber) Out, Rückgabe|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)||Collateral (Nehmer) In, Initiierung|SecuritiesMovementType: Empfang (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)|Collateral (Nehmer) In, Rückgabe|SecuritiesMovementType: Lieferung (DELI) |SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)."
+    }
+  }
+}

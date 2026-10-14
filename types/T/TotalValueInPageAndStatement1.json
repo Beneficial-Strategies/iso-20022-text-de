@@ -1,0 +1,23 @@
+{
+  "isoType": "TotalValueInPageAndStatement1",
+  "definition": "Summen des Wertes der im Auszug oder auf der Seite gemeldeten Bestände.",
+  "isoElements": {
+    "TotalHoldingsValueOfPage": {
+      "definition": "Gesamtwert der in dieser Nachricht gemeldeten Positionen."
+    },
+    "TotalHoldingsValueOfStatement": {
+      "definition": "Gesamtwert der in diesem Auszug gemeldeten Positionen (ein Auszug kann aus einer oder mehreren Nachrichten bestehen)."
+    },
+    "TotalBookValueOfStatement": {
+      "definition": "Gesamtbuchwert der in diesem Auszug gemeldeten Positionen (ein Auszug kann aus einer oder mehreren Nachrichten bestehen)."
+    },
+    "TotalEligibleCollateralValue": {
+      "definition": "Gesamtwert der in diesem Auszug gemeldeten, für Sicherungszwecke zulässigen Bestände (ein Auszug kann aus einer oder mehreren Nachrichten bestehen)."
+    }
+  },
+  "isoRules": {
+    "TotalEligibleCollateralValueRule": {
+      "definition": "Der Gesamtwert der zulässigen Sicherheiten ist nur in der Kommunikation zwischen (I)CSD und Teilnehmer oder bei bilateraler Vereinbarung zwischen Sender und Empfänger zu verwenden."
+    }
+  }
+}

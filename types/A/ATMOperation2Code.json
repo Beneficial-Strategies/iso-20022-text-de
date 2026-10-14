@@ -1,0 +1,34 @@
+{
+  "isoType": "ATMOperation2Code",
+  "definition": "Art des logischen oder physischen Vorgangs an einem ATM.",
+  "isoCodes": {
+    "ADJU": {
+      "name": "Korrigieren",
+      "definition": "Logische Zähler der Kassette anpassen."
+    },
+    "INSR": {
+      "name": "Medium einlegen",
+      "definition": "Medien physisch in die Kassette einlegen."
+    },
+    "LOAD": {
+      "name": "Beladen",
+      "definition": "Kassette laden."
+    },
+    "REMV": {
+      "name": "Medium entfernen",
+      "definition": "Medien physisch aus der Kassette entnehmen."
+    },
+    "UNLD": {
+      "name": "Entladen",
+      "definition": "Kassette entnehmen."
+    },
+    "RCUP": {
+      "name": "Fernaktualisierung des Zählers",
+      "definition": "Fernaktualisierung eines ATM-Zählers."
+    },
+    "SWAP": {
+      "name": "Tauschen",
+      "definition": "Alle Kassetten entnehmen und einen neuen Kassettensatz als Ersatz einlegen. Die Kassettenstrukturen legen fest, was entnommen und was eingelegt wurde."
+    }
+  }
+}

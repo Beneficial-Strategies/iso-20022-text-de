@@ -1,0 +1,15 @@
+{
+  "isoType": "ResponseStatus8Choice",
+  "definition": "Auswahl des Antwortstatus.",
+  "isoElements": {
+    "Consented": {
+      "definition": "Für den Status angegebener Grund."
+    },
+    "Rejected": {
+      "definition": "Status „abgelehnt“ einer Anweisung, Avise oder eines Auftrags."
+    },
+    "Pending": {
+      "definition": "Status „ausstehend“ einer Anweisung, Avise oder eines Auftrags."
+    }
+  }
+}

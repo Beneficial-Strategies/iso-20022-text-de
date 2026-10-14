@@ -1,0 +1,33 @@
+{
+  "isoType": "BookingConfirmation8",
+  "definition": "Gibt die Buchungsdetails der zugrunde liegenden Transaktion oder des zugrunde liegenden Postens an.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag der Transaktion oder des Postens, mit dem ein Konto belastet oder gutgeschrieben wurde."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob die Buchung eine Gutschrift oder eine Belastung ist."
+    },
+    "ExchangeRate": {
+      "definition": "Enthält Angaben zum Wechselkurs, der bei der Transaktion oder dem Posten verwendet wurde."
+    },
+    "Account": {
+      "definition": "Konto, das durch die Transaktion oder den Posten belastet oder gutgeschrieben wurde."
+    },
+    "BookingDate": {
+      "definition": "Datum und Uhrzeit, zu denen ein Posten in den Büchern des kontoführenden Instituts auf einem Konto gebucht wird."
+    },
+    "ValueDate": {
+      "definition": "Datum und Uhrzeit, zu denen Vermögenswerte dem Kontoinhaber bei einer Gutschrift zur Verfügung stehen oder bei einer Belastung nicht mehr zur Verfügung stehen."
+    },
+    "References": {
+      "definition": "Enthält die Identifikation der Transaktion oder des Postens. Der Urheber der Untersuchung kann damit die Transaktion oder den Posten nun auffinden."
+    },
+    "Charges": {
+      "definition": "Enthält Angaben zu den Entgelten im Zusammenhang mit der Transaktion oder dem Posten."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Bestätigungsantwort an."
+    }
+  }
+}

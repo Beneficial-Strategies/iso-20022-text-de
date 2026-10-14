@@ -1,0 +1,12 @@
+{
+  "isoType": "DateTimePeriod1",
+  "definition": "Zeitraum, der durch Anfangsdatum und -zeit sowie Enddatum und -zeit definiert ist.",
+  "isoElements": {
+    "FromDateTime": {
+      "definition": "Datum und Uhrzeit des Beginns des Zeitraums."
+    },
+    "ToDateTime": {
+      "definition": "Datum und Uhrzeit des Endes des Zeitraums."
+    }
+  }
+}

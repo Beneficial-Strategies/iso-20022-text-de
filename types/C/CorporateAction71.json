@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateAction71",
+  "definition": "Liefert Informationen zum Kapitalmaßnahmen-Ereignis.",
+  "isoElements": {
+    "DateDetails": {
+      "definition": "Liefert Informationen zu den Daten eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "EventStage": {
+      "definition": "Phase im Lebenszyklus der Kapitalmaßnahme."
+    },
+    "LotteryType": {
+      "definition": "Gibt die Art des angekündigten Losverfahrens an."
+    }
+  }
+}

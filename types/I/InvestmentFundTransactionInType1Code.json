@@ -1,0 +1,26 @@
+{
+  "isoType": "InvestmentFundTransactionInType1Code",
+  "definition": "Gibt die Art der Investmentfonds-Transaktion an, die zu einer Mittelbewegung in einen Fonds führt.",
+  "isoCodes": {
+    "SUBS": {
+      "name": "Zeichnung",
+      "definition": "Die Transaktion ist eine Zeichnung eines Investmentfonds."
+    },
+    "SWII": {
+      "name": "Umschichtung Zugang",
+      "definition": "Die Transaktion ist ein Zeichnungsteil einer Umtauschauftragsausführung."
+    },
+    "INSP": {
+      "name": "Sachleistung",
+      "definition": "Die Transaktion ist eine Sachübertragung (InSpecie)."
+    },
+    "CROI": {
+      "name": "Cross-Zugang",
+      "definition": "Die Transaktion ist ein Cross-in."
+    },
+    "RDIV": {
+      "name": "Wiederanlage der Dividende",
+      "definition": "Die Transaktion ist eine Wiederanlage von Dividenden."
+    }
+  }
+}

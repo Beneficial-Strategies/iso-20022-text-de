@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalInvestigationServiceLevel1Code",
+  "definition": "Gibt den Untersuchungsservicelevel an, wie in einem externen Codesatz für Untersuchungsservicelevel veröffentlicht.|Externe Codesätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "R01D": {
+      "name": "Antwort innerhalb eines Geschäftstags",
+      "definition": "Antwort innerhalb eines Geschäftstages erwartet."
+    },
+    "R03D": {
+      "name": "Antwort innerhalb von drei Geschäftstagen",
+      "definition": "Antwort innerhalb von drei Geschäftstagen erwartet."
+    },
+    "R05D": {
+      "name": "Antwort innerhalb von fünf Geschäftstagen",
+      "definition": "Antwort innerhalb von fünf Geschäftstagen erwartet."
+    },
+    "R10D": {
+      "name": "Antwort innerhalb von zehn Geschäftstagen",
+      "definition": "Antwort innerhalb von zehn Geschäftstagen erwartet."
+    },
+    "R15D": {
+      "name": "Antwort innerhalb von fünfzehn Geschäftstagen",
+      "definition": "Antwort innerhalb von fünfzehn Geschäftstagen erwartet."
+    }
+  }
+}

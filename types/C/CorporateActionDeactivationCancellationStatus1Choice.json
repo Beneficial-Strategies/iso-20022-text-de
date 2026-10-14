@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDeactivationCancellationStatus1Choice",
+  "definition": "Auswahl zwischen den verschiedenen Status eines Antrags auf Stornierung einer Deaktivierung.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Liefert Informationen zum Bearbeitungsstatus des Stornierungsantrags."
+    },
+    "RejectedStatus": {
+      "definition": "Liefert Informationen zum Ablehnungsstatus."
+    }
+  }
+}

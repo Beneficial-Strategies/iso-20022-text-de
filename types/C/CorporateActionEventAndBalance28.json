@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionEventAndBalance28",
+  "definition": "Detaillierter Bericht über Kontobestände für ein Kapitalmaßnahmen-Ereignis.",
+  "isoElements": {
+    "GeneralInformation": {
+      "definition": "Liefert allgemeine Informationen zu einem Kapitalmaßnahmen-Ereignis."
+    },
+    "UnderlyingSecurity": {
+      "definition": "Von der Kapitalmaßnahme betroffenes Wertpapier."
+    },
+    "Balance": {
+      "definition": "Liefert Informationen zum Bestand im Zusammenhang mit einer Kapitalmaßnahme."
+    },
+    "SupplementaryData": {
+      "definition": "Liefert zusätzliche Informationen zum Ereignis und zum Bestand der Kapitalmaßnahme."
+    }
+  }
+}

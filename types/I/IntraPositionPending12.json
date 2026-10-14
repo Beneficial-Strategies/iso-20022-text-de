@@ -1,0 +1,80 @@
+{
+  "isoType": "IntraPositionPending12",
+  "definition": "Identifiziert die Einzelheiten der Transaktion.",
+  "isoElements": {
+    "StatusAndReason": {
+      "definition": "Status und Statusgrund der Transaktion."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem Kontoinhaber (oder der das Konto verwaltenden anweisenden Partei) bekannt."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem kontoführenden Institut bekannt."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer vergeben wurde, zum Beispiel Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, vom Verarbeiter vergeben."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Vom kontoführenden Institut vergebene Identifikation zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "PoolIdentification": {
+      "definition": "Sammelreferenz zur Identifikation einer Gruppe von Nachrichten."
+    },
+    "BalanceFrom": {
+      "definition": "Saldo, von dem die Wertpapiere bewegt werden."
+    },
+    "BalanceTo": {
+      "definition": "Saldo, auf den die Wertpapiere bewegt werden."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Finanzinstrumente, die eine Summe von Rechten des Anlegers gegenüber dem Emittenten darstellen."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Elemente, die ein Finanzinstrument kennzeichnen."
+    },
+    "SettlementQuantity": {
+      "definition": "Gesamtmenge der abzuwickelnden Wertpapiere."
+    },
+    "IntendedSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere voraussichtlich umgebucht werden."
+    },
+    "StatusDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Status zugewiesen wurde."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Zeitstempel, wann die Transaktion bestätigt wird."
+    },
+    "Linkages": {
+      "definition": "Verknüpfung mit einer anderen Transaktion, die danach, davor oder gleichzeitig verarbeitet werden muss."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "definition": "Nummer zur Identifikation eines Loses, das den Teilbestand bildet."
+    },
+    "Priority": {
+      "definition": "Gibt an, ob die Transaktion mit hoher Priorität auszuführen ist."
+    },
+    "CorporateActionEventType": {
+      "definition": "Gibt die Art des Unternehmensereignisses an."
+    },
+    "MessageOriginator": {
+      "definition": "Partei, von der die Nachricht ausgeht, sofern nicht mit dem Absender identisch."
+    },
+    "CreationDateTime": {
+      "definition": "Gibt das Erstellungsdatum und die Erstellungszeit der Positionsumbuchung (Intra-Position) an."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Liefert zusätzliche Informationen zur Abwicklungsverarbeitung, die nicht in den strukturierten Feldern der Nachricht angegeben werden können."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Liegt für AccountOwnerTransactionIdentification keine Referenz vor, zum Beispiel weil die Transaktion per Fax gesendet wurde, so muss AccountOwnerTransactionIdentification den Wert NONREF haben."
+    }
+  }
+}

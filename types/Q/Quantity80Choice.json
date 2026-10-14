@@ -1,0 +1,12 @@
+{
+  "isoType": "Quantity80Choice",
+  "definition": "Auswahl zwischen verschiedenen Formaten der Wertpapiermenge.",
+  "isoElements": {
+    "QuantityChoice": {
+      "definition": "Auswahl zwischen verschiedenen Formaten der Wertpapiermenge."
+    },
+    "ProprietaryQuantity": {
+      "definition": "Proprietäres Format der Wertpapiermenge."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "VotingRightsThreshold2",
+  "definition": "Gibt einen Schwellenwert und eine Schwellenwertgrundlage für die Annahme von Beschlüssen in Hauptversammlungen an.",
+  "isoElements": {
+    "Threshold": {
+      "definition": "Für die Annahme eines Beschlusses erforderlicher Schwellenwert der Stimmrechte in Prozent oder als Menge."
+    },
+    "ThresholdBasis": {
+      "definition": "Art der Menge, die als Grundlage zur Festlegung eines Schwellenwerts für Abstimmungen über Beschlüsse in Hauptversammlungen dient."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "Charges6Choice",
+  "definition": "Stellt Informationen zu den Entgelten bereit, die vom Entgeltträger bzw. den Entgeltträgern im Zusammenhang mit der Verarbeitung der zugrunde liegenden Transaktion zu zahlen sind.",
+  "isoElements": {
+    "Single": {
+      "definition": "Entgelte im Zusammenhang mit einer einzelnen Zahlungstransaktion."
+    },
+    "PerTransaction": {
+      "definition": "Entgelte, aufgeschlüsselt nach Zahlungstransaktion."
+    },
+    "PerType": {
+      "definition": "Entgelte, aufgeschlüsselt nach Entgeltart."
+    }
+  }
+}

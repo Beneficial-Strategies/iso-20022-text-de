@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesAccount26",
+  "definition": "Konto, auf das oder von dem eine Wertpapierbuchung erfolgt.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "Type": {
+      "definition": "Gibt die Art des Wertpapierkontos an."
+    },
+    "Name": {
+      "definition": "Name des Kontos. Er dient als zusätzliches Identifikationsmittel und wird vom kontoführenden Institut in Absprache mit dem Kontoinhaber festgelegt."
+    },
+    "Designation": {
+      "definition": "Ergänzende Registrierungsinformationen, die für einen bestimmten Block von Anteilen zu Handels- und Meldezwecken gelten. Die ergänzenden Registrierungsinformationen können verwendet werden, wenn alle Anteile beispielsweise auf einen Fondssupermarkt registriert sind, die Bestände der einzelnen Anleger jedoch individuell abgestimmt werden müssen."
+    }
+  }
+}

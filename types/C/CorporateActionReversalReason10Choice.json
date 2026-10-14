@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionReversalReason10Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe des Grundes für die Stornierung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Grundes für die Stornierung."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation für den Grund der Stornierung."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "FinancialInstrumentDetails49",
+  "definition": "Berichterstattung je Finanzinstrument.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Finanzinstrument, das eine Summe von Rechten des Anlegers gegenüber dem Emittenten darstellt."
+    },
+    "InvestmentFundsFinancialInstrumentAttributes": {
+      "definition": "Elemente, die ein Finanzinstrument in Form eines Investmentfonds charakterisieren."
+    },
+    "PriceDetails": {
+      "definition": "Informationen zum Preis des Instruments."
+    },
+    "SafekeepingPlace": {
+      "definition": "Ort, an dem die Wertpapiere physisch oder buchmäßig verwahrt werden. Dieser Ort kann zum Beispiel eine lokale Depotbank, ein Central Securities Depository (CSD) oder ein International Central Securities Depository (ICSD) sein."
+    },
+    "OpeningBalance": {
+      "definition": "Eröffnungssaldo für den Auszugszeitraum (erster Eröffnungssaldo) oder dieser Seite (Zwischeneröffnungssaldo)."
+    },
+    "ClosingBalance": {
+      "definition": "Schlusssaldo für den Auszugszeitraum (endgültiger Schlusssaldo) oder dieser Seite (Zwischenschlusssaldo)."
+    },
+    "Transaction": {
+      "definition": "Transaktionsdetails."
+    }
+  }
+}

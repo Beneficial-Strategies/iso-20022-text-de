@@ -1,0 +1,12 @@
+{
+  "isoType": "ReportingSource1Choice",
+  "definition": "Gibt die Quelle an, die zur Erstellung der Berichterstattung verwendet wurde.",
+  "isoElements": {
+    "Code": {
+      "definition": "Berichtsquelle, wie in einer externen Codeliste für Berichtsquellen veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Berichtsquelle in proprietärer Form."
+    }
+  }
+}

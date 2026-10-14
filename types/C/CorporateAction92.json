@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateAction92",
+  "definition": "Liefert Informationen zum Kapitalmaßnahmen-Ereignis.",
+  "isoElements": {
+    "DateDetails": {
+      "definition": "Liefert Informationen zu den Daten eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "EventStage": {
+      "definition": "Phase im Lebenszyklus der Kapitalmaßnahme."
+    },
+    "AdditionalBusinessProcessIndicator": {
+      "definition": "Gibt an, dass sich der zusätzliche Geschäftsprozess auf einen Anspruch im Zusammenhang mit dem zugehörigen Ereignis der Kapitalmaßnahme bezieht."
+    },
+    "FollowingEventTypeIndicator": {
+      "definition": "Gibt die Ereignisart des Folgeereignisses an."
+    },
+    "LotteryType": {
+      "definition": "Gibt die Art des angekündigten Losverfahrens an."
+    }
+  }
+}

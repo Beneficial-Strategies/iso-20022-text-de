@@ -1,0 +1,15 @@
+{
+  "isoType": "NewIssueAllocation2",
+  "definition": "Informationen zur Inhaberschaft des Anlagekontos in Bezug auf die Zuteilung von Neuemissionen für einen Hedgefonds.",
+  "isoElements": {
+    "Restricted": {
+      "definition": "Gibt an, ob der Anleger zur Teilnahme an den Gewinnen und Verlusten aus einer Neuemission berechtigt ist."
+    },
+    "ExemptPersonReason": {
+      "definition": "Grund für die Ausnahme."
+    },
+    "DeMinimus": {
+      "definition": "Bedingungen, die gelten, wenn der Anleger unter die „De-minimis“-Ausnahme fällt."
+    }
+  }
+}

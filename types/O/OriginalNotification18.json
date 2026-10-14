@@ -1,0 +1,21 @@
+{
+  "isoType": "OriginalNotification18",
+  "definition": "Identifiziert die ursprüngliche Benachrichtigung, auf die sich die Stornierungsmitteilung bezieht.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, die vom ursprünglichen Absender vergeben wird, um die ursprüngliche Nachricht NotificationToReceive zweifelsfrei zu identifizieren."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen die ursprüngliche Nachricht erstellt wurde."
+    },
+    "OriginalNotificationIdentification": {
+      "definition": "Identifikation der ursprünglichen Benachrichtigung."
+    },
+    "NotificationCancellation": {
+      "definition": "Gibt an, ob sich die Stornierung auf die gesamte ursprüngliche Benachrichtigung oder auf einzelne Posten innerhalb der ursprünglichen Benachrichtigung bezieht."
+    },
+    "OriginalNotificationReference": {
+      "definition": "Identifiziert den ursprünglichen Benachrichtigungsposten, auf den sich die Stornierungsmitteilung bezieht."
+    }
+  }
+}

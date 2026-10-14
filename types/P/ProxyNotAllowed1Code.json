@@ -1,0 +1,10 @@
+{
+  "isoType": "ProxyNotAllowed1Code",
+  "definition": "Gibt an, dass die Erteilung einer Vollmacht für die Versammlung nicht zulässig ist.",
+  "isoCodes": {
+    "NPRO": {
+      "name": "Nicht zulässig",
+      "definition": "Vollmacht nicht zulässig."
+    }
+  }
+}

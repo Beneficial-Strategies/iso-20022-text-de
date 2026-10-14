@@ -1,0 +1,22 @@
+{
+  "isoType": "PendingReason29Code",
+  "definition": "Standardcode zur Angabe des Grundes, warum die Anweisung bzw. das Ereignis den Status „ausstehend“ hat.",
+  "isoCodes": {
+    "NPAY": {
+      "name": "Keine Zahlung",
+      "definition": "Die Zahlung wurde vom Emittenten nicht geleistet."
+    },
+    "NSEC": {
+      "name": "Nicht geliefert",
+      "definition": "Die Finanzinstrumente wurden vom Emittenten nicht geliefert."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "AUTH": {
+      "name": "An Steuerbehörden gesendet",
+      "definition": "Die Anweisung bzw. das Ereignis ist ausstehend, weil die Rückforderung an die Steuerbehörden gesendet wird."
+    }
+  }
+}

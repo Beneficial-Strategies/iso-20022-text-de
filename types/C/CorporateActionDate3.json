@@ -1,0 +1,24 @@
+{
+  "isoType": "CorporateActionDate3",
+  "definition": "Gibt die Termine einer Kapitalmaßnahme an.",
+  "isoElements": {
+    "PaymentDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Ausschüttung (Barmittel und/oder Wertpapiere) stattfinden soll."
+    },
+    "AvailableDate": {
+      "definition": "Datum/Uhrzeit, zu dem Wertpapiere zum Verkauf verfügbar werden."
+    },
+    "DividendRankingDate": {
+      "definition": "Datum/Uhrzeit, ab dem ein Wertpapier dividendenberechtigt ist."
+    },
+    "PariPassuDate": {
+      "definition": "Datum, an dem das Wertpapier sich angleicht, austauschbar wird oder dieselben Dividendenrechte wie die Stammemission hat."
+    },
+    "FirstDealingDate": {
+      "definition": "Datum/Uhrzeit, zu dem der Handel mit neuen Wertpapieren beginnt."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Datum und Uhrzeit, zu denen eine Zahlung erfolgen kann, z. B. wenn der Zahlungstag kein Geschäftstag ist, oder zur Angabe des ersten Zahlungstags eines Angebots."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "ReservationSearchCriteria6",
+  "definition": "Legt die Kriterien für die Suche nach einer Reservierung fest.",
+  "isoElements": {
+    "DateTime": {
+      "definition": "Muster für die Suche nach Datum und Uhrzeit."
+    },
+    "SystemIdentification": {
+      "definition": "Identifikation eines bestimmten Geldclearingsystems."
+    },
+    "DefaultReservationType": {
+      "definition": "Im System standardmäßig festgelegte Art der Reservierung. Die Standardreservierung wird vom System angewendet, sofern nichts anderes angewiesen wird."
+    },
+    "CurrentReservationType": {
+      "definition": "Art der Reservierung, die das System zum aktuellen Zeitpunkt anwendet."
+    },
+    "AccountOwner": {
+      "definition": "Inhaber des abgefragten Kontos."
+    },
+    "AccountIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Kontos zwischen dem Kontoinhaber und der kontoführenden Stelle."
+    }
+  }
+}

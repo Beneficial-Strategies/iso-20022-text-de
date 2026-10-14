@@ -1,0 +1,20 @@
+{
+  "isoType": "BusinessInformationCriteria1",
+  "definition": "Definiert die Kriterien für die Suche nach Geschäftsinformationen und für die Berichterstattung darüber. Der neuen Abfrage kann ein Name gegeben werden.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Name der Abfrage, die durch die Such- und Rückgabekriterien definiert wird."
+    },
+    "SearchCriteria": {
+      "definition": "Legt die Kriterien fest, anhand derer die Informationen extrahiert werden."
+    },
+    "ReturnCriteria": {
+      "definition": "Legt den erwarteten Report fest."
+    }
+  },
+  "isoRules": {
+    "ReturnCriteriaAndOrSearchCriteriaRule": {
+      "definition": "Wenn ReturnCriteria nicht vorhanden ist, muss mindestens ein Vorkommen von SearchCriteria vorhanden sein. Wenn ReturnCriteria vorhanden ist, ist jedes Vorkommen von SearchCriteria optional."
+    }
+  }
+}

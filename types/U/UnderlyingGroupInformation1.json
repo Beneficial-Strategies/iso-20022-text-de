@@ -1,0 +1,18 @@
+{
+  "isoType": "UnderlyingGroupInformation1",
+  "definition": "Eindeutige Identifikation, wie von der ersten Anweisungspartei vergeben, zur zweifelsfreien Identifikation der Transaktionsgruppe.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, wie von der ursprünglichen anweisenden Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Nachricht."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Gibt den Namensbezeichner der ursprünglichen Nachricht an, auf die sich die Nachricht bezieht."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der ursprünglichen Nachricht."
+    },
+    "OriginalMessageDeliveryChannel": {
+      "definition": "Ursprünglicher Kanal, über den die Nachricht zugestellt wurde, damit der Empfänger der Anfrage die Zahlung leichter auffinden kann."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentTransactionStatus1",
+  "definition": "Gibt den Status einer Zahlungstransaktion an.",
+  "isoElements": {
+    "Status": {
+      "definition": "Status einer Transaktion."
+    },
+    "StatusReasonInformation": {
+      "definition": "Enthält detaillierte Angaben zum Statusgrund."
+    }
+  }
+}

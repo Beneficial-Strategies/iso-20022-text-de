@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrentAndDefaultReservation6",
+  "definition": "Meldet Reservierungen.",
+  "isoElements": {
+    "CurrentReservation": {
+      "definition": "Der Bericht wird für eine aktuelle Reservierung erstellt."
+    },
+    "DefaultReservation": {
+      "definition": "Der Bericht wird für eine Standardreservierung erstellt."
+    }
+  }
+}

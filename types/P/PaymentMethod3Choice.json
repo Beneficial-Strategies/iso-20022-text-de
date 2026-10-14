@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentMethod3Choice",
+  "definition": "Zahlungsmethode für die Überweisung des CSD oder der NCB an die rechnungsstellende Partei.",
+  "isoElements": {
+    "Code": {
+      "definition": "Zahlungsmethode für die Überweisung des CSD oder der NCB an die rechnungsstellende Partei in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Zahlungsmethode für die Überweisung des CSD oder der NCB an die rechnungsstellende Partei in einem proprietären Freitextformat."
+    }
+  }
+}

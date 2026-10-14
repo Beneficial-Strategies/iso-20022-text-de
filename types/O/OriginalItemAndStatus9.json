@@ -1,0 +1,30 @@
+{
+  "isoType": "OriginalItemAndStatus9",
+  "definition": "Identifiziert den ursprünglichen Benachrichtigungsposten und gibt dessen Status an.",
+  "isoElements": {
+    "OriginalItemIdentification": {
+      "definition": "Identifikation des ursprünglichen Benachrichtigungspostens."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Eindeutige Identifikation, die vom Zahlungspflichtigen vergeben wird, damit der Zahlungsempfänger die ursprüngliche zugrunde liegende Transaktion zweifelsfrei identifizieren kann."
+    },
+    "OriginalUETR": {
+      "definition": "Universell eindeutiger Bezeichner (UUID) als ursprüngliche Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "Amount": {
+      "definition": "Geldbetrag, der gemäß der ursprünglichen Benachrichtigung zum Empfang voraussichtlich dem Konto gutgeschrieben wird."
+    },
+    "ExpectedValueDate": {
+      "definition": "Wertstellungsdatum, an dem die Gutschrift auf dem Konto erwartet wurde."
+    },
+    "ItemStatus": {
+      "definition": "Gibt den Status des Benachrichtigungspostens an."
+    },
+    "AdditionalStatusInformation": {
+      "definition": "Weitere Details zum Status des Postens."
+    },
+    "OriginalItemReference": {
+      "definition": "Enthält weitere Informationen zur Identifikation einer früheren Zahlungsbenachrichtigung."
+    }
+  }
+}

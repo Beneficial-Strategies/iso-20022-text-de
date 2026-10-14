@@ -1,0 +1,130 @@
+{
+  "isoType": "FailureReason9Code",
+  "definition": "Vorfall bei der Verarbeitung einer ATM-Transaktion.",
+  "isoCodes": {
+    "CDCP": {
+      "name": "Karte eingezogen",
+      "definition": "Der ATM-Manager hat das Einziehen der Karte angefordert."
+    },
+    "CDCL": {
+      "name": "Karte abgelehnt",
+      "definition": "Die Chipkarte lehnt die Transaktion vor oder nach der Autorisierung ab."
+    },
+    "CDER": {
+      "name": "Kartenfehler",
+      "definition": "Die Transaktion kann mit der Karte nicht abgeschlossen werden."
+    },
+    "CUCL": {
+      "name": "Kundenabbruch",
+      "definition": "Abbruch durch den Kunden, zum Beispiel durch Entnahme der Karte vor Ende der Transaktion."
+    },
+    "CUDC": {
+      "name": "Kundenablehnung",
+      "definition": "Der Kunde hat zusätzliche Entgelte oder einen niedrigeren Betrag abgelehnt, die Transaktion schlägt fehl."
+    },
+    "CDFG": {
+      "name": "Vergessene Karte",
+      "definition": "Der Kunde hat die Karte im ATM oder in einem motorisierten Kartenleser zurückgelassen."
+    },
+    "FILL": {
+      "name": "Ausführungsfehler",
+      "definition": "Ausführung nicht möglich, zum Beispiel Auszahlung des Bargelds."
+    },
+    "MALF": {
+      "name": "Fehlfunktion",
+      "definition": "Vermutete Fehlfunktion."
+    },
+    "NDCL": {
+      "name": "Online abgelehnt",
+      "definition": "Die Online-Autorisierung hat die Transaktion abgelehnt."
+    },
+    "SECU": {
+      "name": "Sicherheitsfehler",
+      "definition": "In der vom Acquirer gesendeten Autorisierungsantwortnachricht ist ein Sicherheitsfehler aufgetreten."
+    },
+    "SFRD": {
+      "name": "Betrugsverdacht",
+      "definition": "Die Kartenzahlungstransaktion schlägt fehl, weil der Händler einen Betrug vermutet."
+    },
+    "TIMO": {
+      "name": "Zeitüberschreitung",
+      "definition": "Zeitüberschreitung beim Warten auf eine Antwort auf eine Anfragenachricht, oder es wurde keine Antwort empfangen (zum Beispiel Verbindungsabbau vor Empfang der Antwort)."
+    },
+    "LATE": {
+      "name": "Zu späte Antwort",
+      "definition": "Die Antwort auf die vorherige Nachricht ging zu spät ein."
+    },
+    "UCPT": {
+      "name": "Einzug nicht möglich",
+      "definition": "Die Karte kann wie angefordert nicht eingezogen werden."
+    },
+    "UCMP": {
+      "name": "Abschluss nicht möglich",
+      "definition": "Die Transaktion kann nach der Autorisierungsantwort nicht abgeschlossen werden."
+    },
+    "USND": {
+      "name": "Senden nicht möglich",
+      "definition": "Die Anfragenachricht kann der empfangenden Partei nicht zugestellt werden."
+    },
+    "CSRV": {
+      "name": "Außer Kundenbetrieb",
+      "definition": "Der ATM-Manager hat den ATM aufgefordert, die Kundendienste einzustellen."
+    },
+    "CDRT": {
+      "name": "Karte einbehalten",
+      "definition": "Die Karte wurde vom ATM oder vom Terminal einbehalten."
+    },
+    "CUTO": {
+      "name": "Zeitüberschreitung des Kunden",
+      "definition": "Der Kunde hat eine Aktion nicht rechtzeitig ausgeführt."
+    },
+    "RJCT": {
+      "name": "Ablehnung",
+      "definition": "Der ATM-Manager hat auf eine Autorisierungsanfrage eine ATMReject-Nachricht gesendet."
+    },
+    "FMTE": {
+      "name": "Formatfehler",
+      "definition": "Der ATM-Manager hat auf eine Autorisierungsanfrage eine Antwortnachricht gesendet, bei der einige erforderliche Elemente falsch formatiert waren (zum Beispiel ein Ganzzahlwert, wo ein dateTime-Wert erwartet wurde)."
+    },
+    "VLTE": {
+      "name": "Validierungsfehler",
+      "definition": "Der ATM-Manager hat auf eine Autorisierungsanfrage eine Antwortnachricht gesendet, bei der einige erforderliche Elemente ungültig waren (zum Beispiel ein falscher ExchangeIdentifier)."
+    },
+    "CHFG": {
+      "name": "Geldausgabe-Einzug",
+      "definition": "Nach einer Bargeldauszahlung hat der Verbraucher vergessen, die Banknoten zu entnehmen; diese wurden anschließend nach Ablauf der Entnahmefrist eingezogen. Die Anzahl der eingezogenen Banknoten ist unbekannt."
+    },
+    "DCFG": {
+      "name": "Bareinzahlung eingezogen",
+      "definition": "Nach einer Bargeldrückgabe bei einer Einzahlung hat der Verbraucher vergessen, die zurückgegebenen Banknoten zu entnehmen, sodass diese eingezogen wurden. Die Anzahl der eingezogenen Banknoten ist unbekannt."
+    },
+    "CQFG": {
+      "name": "Scheckeinzahlung eingezogen",
+      "definition": "Nach der Rückgabe von Schecks bei einer Scheckeinreichung hat der Verbraucher vergessen, die zurückgegebenen Schecks zu entnehmen, sodass diese eingezogen wurden. Die Anzahl der eingezogenen Schecks ist unbekannt."
+    },
+    "DFGC": {
+      "name": "Bareinzahlung eingezogen und gezählt",
+      "definition": "Nach einer Bargeldrückgabe bei einer Einzahlung hat der Verbraucher vergessen, die zurückgegebenen Banknoten zu entnehmen, sodass diese eingezogen wurden. Die Anzahl der eingezogenen Banknoten ist bekannt, da das Gerät die eingezogenen Banknoten zählen konnte."
+    },
+    "CFGC": {
+      "name": "Geldausgabe-Einzug gezählt",
+      "definition": "Nach einer Bargeldauszahlung hat der Verbraucher vergessen, die zurückgegebenen Banknoten zu entnehmen; diese wurden anschließend nach Ablauf der Entnahmefrist eingezogen. Die Anzahl der eingezogenen Banknoten ist bekannt, da das Gerät die eingezogenen Banknoten zählen konnte."
+    },
+    "QFGC": {
+      "name": "Scheckeinzahlung eingezogen und gezählt",
+      "definition": "Nach der Rückgabe von Schecks bei einer Scheckeinreichung hat der Verbraucher vergessen, die zurückgegebenen Schecks zu entnehmen, sodass diese eingezogen wurden. Die Anzahl der eingezogenen Schecks ist bekannt, da das Gerät die eingezogenen Schecks zählen konnte."
+    },
+    "CQRT": {
+      "name": "Schecks einbehalten",
+      "definition": "Schecks wurden vom Terminal einbehalten, da es sie nicht zurückgeben konnte."
+    },
+    "DCRT": {
+      "name": "Einzahlungen einbehalten",
+      "definition": "Bargeld wurde vom Terminal einbehalten, da es dieses nicht zurückgeben konnte."
+    },
+    "RSTR": {
+      "name": "Neustart",
+      "definition": "Der ATM wurde neu gestartet."
+    }
+  }
+}

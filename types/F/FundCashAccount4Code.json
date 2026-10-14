@@ -1,0 +1,50 @@
+{
+  "isoType": "FundCashAccount4Code",
+  "definition": "Gibt die Kontoart an.",
+  "isoCodes": {
+    "HEDG": {
+      "name": "Hedgefonds",
+      "definition": "Hedgefonds-Konto."
+    },
+    "CPFO": {
+      "name": "Pensionsfonds (ordentlich)",
+      "definition": "Ordentliches Konto des Central Provident Fund (CPF)."
+    },
+    "CPFS": {
+      "name": "Pensionsfonds (besonders)",
+      "definition": "Spezialkonto des Central Provident Fund (CPF)."
+    },
+    "SRSA": {
+      "name": "Altersvorsorgeplan",
+      "definition": "Konto des Supplementary Retirement Scheme (SRS)."
+    },
+    "CSDO": {
+      "name": "CSD-Sammelkonto",
+      "definition": "Von einem CSD betriebenes Konto im Kontext der CSD-übergreifenden Abwicklung."
+    },
+    "TOFF": {
+      "name": "Technisches Gegenkonto",
+      "definition": "Von einem CSD betriebenes Konto im Kontext eines Direktverwahrungsmarkts."
+    },
+    "ICSA": {
+      "name": "Inter-CSD-Konto",
+      "definition": "Von einem CSD betriebenes Konto zur Abwicklung von Wertpapierseiten bei Anweisungen unter Beteiligung interner CSDs."
+    },
+    "CSDM": {
+      "name": "CSD-Spiegelkonto",
+      "definition": "Von einem CSD betriebenes Konto zur Spiegelung von Positionen."
+    },
+    "CSDP": {
+      "name": "CSD-Teilnehmerkonto",
+      "definition": "Im Eigentum eines CSD-Teilnehmers befindliches Konto."
+    },
+    "PPEN": {
+      "name": "Private Altersvorsorge",
+      "definition": "Privates Rentenkonto."
+    },
+    "CPEN": {
+      "name": "Betriebliche Altersvorsorge",
+      "definition": "Betriebliches oder unternehmensbezogenes Rentenkonto."
+    }
+  }
+}

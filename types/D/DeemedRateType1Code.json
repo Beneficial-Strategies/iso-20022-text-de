@@ -1,0 +1,22 @@
+{
+  "isoType": "DeemedRateType1Code",
+  "definition": "Gibt die Art eines fiktiven Satzes an.",
+  "isoCodes": {
+    "DEDI": {
+      "name": "Fiktive Dividendenerlöse",
+      "definition": "Fiktiver Satz der Dividendenerlöse, die dem Wertpapierinhaber zugerechnet werden."
+    },
+    "DEFP": {
+      "name": "Fiktive Fondserlöse",
+      "definition": "Fiktiver Satz der Fondserlöse, die dem Wertpapierinhaber zugerechnet werden."
+    },
+    "DEIT": {
+      "name": "Fiktive Zinserlöse",
+      "definition": "Fiktiver Satz der Zinserlöse, die dem Wertpapierinhaber zugerechnet werden."
+    },
+    "DERY": {
+      "name": "Fiktive Lizenzgebührenerlöse",
+      "definition": "Fiktiver Satz der Lizenzgebührenerlöse, die dem Wertpapierinhaber zugerechnet werden."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "ChargePaymentMethod1Code",
+  "definition": "Gibt an, wie Aufwendungen gezahlt werden.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Bargeld",
+      "definition": "Die Zahlung erfolgt in bar."
+    },
+    "UNIT": {
+      "name": "Einheit",
+      "definition": "Anteile werden zurückgenommen, um die Zahlung zu decken."
+    }
+  }
+}

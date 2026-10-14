@@ -1,0 +1,14 @@
+{
+  "isoType": "Collateral1Code",
+  "definition": "Gibt an, ob der Posten als Sicherheit verwendet wird.",
+  "isoCodes": {
+    "COLL": {
+      "name": "Sicherheit",
+      "definition": "Der Posten wird als Sicherheit verwendet."
+    },
+    "NCOL": {
+      "name": "Keine Sicherheit",
+      "definition": "Der Posten wird nicht als Sicherheit verwendet."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "DrawdownStatus1Code",
+  "definition": "Gibt einen Entnahmestatus (Drawdown) an.",
+  "isoCodes": {
+    "FULL": {
+      "name": "Vollständig",
+      "definition": "Die Rente befindet sich vollständig im Drawdown."
+    },
+    "NONE": {
+      "name": "Keine",
+      "definition": "Die Rente befindet sich nicht im Drawdown."
+    },
+    "PART": {
+      "name": "Teilweise",
+      "definition": "Die Rente befindet sich teilweise im Drawdown."
+    }
+  }
+}

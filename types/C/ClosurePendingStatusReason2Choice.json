@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosurePendingStatusReason2Choice",
+  "definition": "Auswahl der Formate für einen Code für den Grund des Status „Schließung ausstehend“.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für den Status „Schließung ausstehend“ als Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Grund für den Status „Schließung ausstehend“ als proprietärer Code ausgedrückt."
+    }
+  }
+}

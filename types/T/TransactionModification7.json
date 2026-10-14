@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionModification7",
+  "definition": "Enthält die angeforderten Änderungen.",
+  "isoElements": {
+    "PaymentIdentification": {
+      "definition": "Referenz auf die Anweisung zur Zahlung, für die eine Änderung angefordert wird."
+    },
+    "NewPaymentValueSet": {
+      "definition": "Neue Zahlungswerte."
+    }
+  }
+}

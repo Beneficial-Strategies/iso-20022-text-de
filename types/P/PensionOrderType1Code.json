@@ -1,0 +1,14 @@
+{
+  "isoType": "PensionOrderType1Code",
+  "definition": "Gibt eine Art von Anordnung an, die mit einer Rente verbunden ist.",
+  "isoCodes": {
+    "EARM": {
+      "name": "Zweckbindung",
+      "definition": "Die Rentenpolice, der Rentenplan oder das Rentensystem wurde zweckgebunden gesperrt (beiseitegelegt)."
+    },
+    "SHAR": {
+      "name": "Aufteilung",
+      "definition": "Für die Rentenpolice, den Rentenplan oder das Rentensystem wurde von einem Gericht eine Teilungsanordnung erlassen."
+    }
+  }
+}

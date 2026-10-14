@@ -1,0 +1,9 @@
+{
+  "isoType": "ATMTransaction36",
+  "definition": "Informationen zur Abgleichsanfrage.",
+  "isoElements": {
+    "ReconciliationOperation": {
+      "definition": "Menge der Abgleichsvorgänge zwischen einem ATM-Gerät und einem Wartungshost."
+    }
+  }
+}

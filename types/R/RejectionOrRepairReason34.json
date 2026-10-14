@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionOrRepairReason34",
+  "definition": "Grund für den Status „abgelehnt“ oder „zur Korrektur“.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, weshalb die Anweisung bzw. der Auftrag den Status „abgelehnt“ oder „zur Korrektur“ hat."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Liefert zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

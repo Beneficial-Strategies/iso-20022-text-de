@@ -1,0 +1,22 @@
+{
+  "isoType": "RejectionReason9Code",
+  "definition": "Gibt den Grund für die Ablehnung eines Antrags auf Stornierung einer Wahl an.",
+  "isoCodes": {
+    "NCAN": {
+      "name": "Stornierung nicht zulässig",
+      "definition": "Die Stornierung ist nicht zulässig."
+    },
+    "LATT": {
+      "name": "Verspätet",
+      "definition": "Die Anweisung bzw. Anforderung geht zu spät ein."
+    },
+    "ELEC": {
+      "name": "Wahl bereits storniert",
+      "definition": "Die Wahlmitteilung ist bereits storniert."
+    },
+    "FAIL": {
+      "name": "Validierung fehlgeschlagen",
+      "definition": "Die Validierung der Mitteilung/Anweisung/des Antrags ist fehlgeschlagen."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "isoType": "SecurityOption1",
+  "definition": "Liefert Informationen zur Wertpapieroption der CA.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identifikation des Finanzinstruments."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Wert eine Belastung oder eine Gutschrift ist."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Menge des Finanzinstruments."
+    },
+    "MinimumExercisableSecuritiesQuantity": {
+      "definition": "Mindestmenge des Finanzinstruments bzw. Mindestlos von Rechten/Optionsscheinen, die ausgeübt werden muss."
+    },
+    "MinimumExercisableMultipleSecuritiesQuantity": {
+      "definition": "Mindestvielfaches der Menge des Finanzinstruments bzw. des Loses von Rechten/Optionsscheinen, das ausgeübt werden muss."
+    },
+    "NewDenominationSecuritiesQuantity": {
+      "definition": "Neue Stückelung des Finanzinstruments, z. B. nach einer Erhöhung oder Herabsetzung des Nennwerts."
+    },
+    "NewBoardLotSecuritiesQuantity": {
+      "definition": "Menge an Beteiligungspapieren, die den neuen Handelslot bildet."
+    },
+    "ShareRanking": {
+      "definition": "Gibt an, ob die Aktien dividendenberechtigt oder pari passu sind."
+    },
+    "AdditionalQuantityForSubscribedResultantSecurities": {
+      "definition": "Menge zusätzlicher Zwischenwertpapiere/neuer Aktien, die für eine bestimmte, aus der Zeichnung abgeleitete Wertpapiermenge zugeteilt werden."
+    },
+    "DateDetails": {
+      "definition": "Liefert Informationen zu den Terminen im Zusammenhang mit einer Wertpapierbewegung."
+    },
+    "PriceDetails": {
+      "definition": "Liefert Informationen zu den Kursen im Zusammenhang mit einer Wertpapierbewegung."
+    },
+    "TradingPeriod": {
+      "definition": "Zeitraum, in dem Zwischenwertpapiere an einem Sekundärmarkt handelbar sind."
+    },
+    "AdditionalQuantityForExistingSecurities": {
+      "definition": "Menge zusätzlicher Wertpapiere für eine bestimmte Menge zugrunde liegender Wertpapiere, wobei die zugrunde liegenden Wertpapiere nicht umgetauscht oder belastet werden, z. B. 1 für 1: 1 neue Aktie gutgeschrieben für jede 1 zugrunde liegende Aktie = 2 resultierende Aktien."
+    },
+    "TemporaryFinancialInstrumentIndicator": {
+      "definition": "Gibt an, dass das Wertpapier ein vorläufiges Wertpapier ist."
+    },
+    "FractionDisposition": {
+      "definition": "Gibt an, wie Bruchteile aus abgeleiteten Wertpapieren verarbeitet werden oder wie anteilig gekürzte Entscheidungen gerundet werden, sofern ein Zuteilungssatz angegeben ist."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "MailType1Code",
+  "definition": "Legt die Art des Postdienstes fest.",
+  "isoCodes": {
+    "AIRM": {
+      "name": "Luftpost",
+      "definition": "Luftpost."
+    },
+    "ORDM": {
+      "name": "Normale Post",
+      "definition": "Normale Post."
+    },
+    "REGM": {
+      "name": "Einschreiben",
+      "definition": "Einschreiben."
+    }
+  }
+}

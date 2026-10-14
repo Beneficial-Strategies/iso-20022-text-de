@@ -1,0 +1,12 @@
+{
+  "isoType": "GenericIdentification78",
+  "definition": "Als proprietärer Typ und narrative Beschreibung ausgedrückte Identifikation.",
+  "isoElements": {
+    "Type": {
+      "definition": "Proprietäre Information, häufig ein Code, ausgegeben vom Herausgeber des Datenquellenschemas."
+    },
+    "Identification": {
+      "definition": "Von einer Stelle vergebener Name oder vergebene Nummer, die die Erkennung dieser Stelle ermöglicht, zum Beispiel Kontokennung."
+    }
+  }
+}

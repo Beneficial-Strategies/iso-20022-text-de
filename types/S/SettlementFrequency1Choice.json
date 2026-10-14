@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementFrequency1Choice",
+  "definition": "Auswahl von Formaten für die Abwicklungshäufigkeit.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Abwicklungshäufigkeit."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Abwicklungshäufigkeit."
+    }
+  }
+}

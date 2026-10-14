@@ -1,0 +1,44 @@
+{
+  "isoType": "MandateRelatedInformation15",
+  "definition": "Liefert weitere Einzelheiten zu einem zwischen Zahlungsempfänger und Zahlungspflichtigem unterzeichneten Lastschriftmandat.",
+  "isoElements": {
+    "MandateIdentification": {
+      "definition": "Vom Zahlungsempfänger vergebene eindeutige Identifikation zur zweifelsfreien Identifikation des Mandats."
+    },
+    "DateOfSignature": {
+      "definition": "Datum, an dem das Lastschriftmandat vom Zahlungspflichtigen unterzeichnet wurde."
+    },
+    "AmendmentIndicator": {
+      "definition": "Kennzeichen, das angibt, ob das zugrunde liegende Mandat geändert wurde oder nicht."
+    },
+    "AmendmentInformationDetails": {
+      "definition": "Liste der Mandatselemente, die geändert wurden."
+    },
+    "ElectronicSignature": {
+      "definition": "Zusätzliche Sicherheitsvorkehrungen, z. B. eine digitale Signatur, vom Zahlungspflichtigen bereitgestellt."
+    },
+    "FirstCollectionDate": {
+      "definition": "Datum der ersten Einziehung einer Lastschrift gemäß dem Mandat."
+    },
+    "FinalCollectionDate": {
+      "definition": "Datum der letzten Einziehung einer Lastschrift gemäß dem Mandat."
+    },
+    "Frequency": {
+      "definition": "Regelmäßigkeit, mit der Lastschriftanweisungen zu erstellen und zu verarbeiten sind."
+    },
+    "Reason": {
+      "definition": "Grund für das Lastschriftmandat, anhand dessen der Nutzer verschiedene Mandate desselben Zahlungsempfängers unterscheiden kann."
+    },
+    "TrackingDays": {
+      "definition": "Gibt die Anzahl der Tage an, über die die Lastschriftanweisung nachverfolgt werden muss."
+    }
+  },
+  "isoRules": {
+    "AmendmentIndicatorTrueRule": {
+      "definition": "Wenn AmendmentIndicator wahr ist, muss AmendmentInformationDetails vorhanden sein."
+    },
+    "AmendmentIndicatorFalseRule": {
+      "definition": "Wenn AmendmentIndicator falsch ist, ist AmendmentInformationDetails nicht zulässig."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CallIn1Code",
+  "definition": "Gibt die Art des Berichts zum Einzahlungsabruf (Pay-in Call) an.",
+  "isoCodes": {
+    "CFAV": {
+      "name": "Aufruf für Kontowert",
+      "definition": "Der Einzahlungsabruf betrifft den Kontowert."
+    },
+    "CFST": {
+      "name": "Aufruf zur Abwicklung",
+      "definition": "Der Einzahlungsabruf betrifft die Abwicklung."
+    },
+    "CFCC": {
+      "name": "Aufruf für Währungsschluss",
+      "definition": "Der Einzahlungsabruf betrifft den Währungsschluss."
+    }
+  }
+}

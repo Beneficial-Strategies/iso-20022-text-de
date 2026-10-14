@@ -1,0 +1,12 @@
+{
+  "isoType": "PublicRSAKey1",
+  "definition": "Wert der öffentlichen Komponente eines RSA-Schlüssels.",
+  "isoElements": {
+    "Modulus": {
+      "definition": "Modulus des RSA-Schlüssels."
+    },
+    "Exponent": {
+      "definition": "Öffentlicher Exponent des RSA-Schlüssels."
+    }
+  }
+}

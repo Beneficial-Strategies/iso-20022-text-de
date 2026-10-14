@@ -1,0 +1,18 @@
+{
+  "isoType": "Entitlement1",
+  "definition": "Enthält Informationen zum Anspruch.",
+  "isoElements": {
+    "AccountOwnerIdentification": {
+      "definition": "Identifikation der Partei, die Inhaber des Kontos ist."
+    },
+    "AccountIdentification": {
+      "definition": "Identifikation des Kontos."
+    },
+    "SecuritiesDistributionDetails": {
+      "definition": "Enthält Informationen zur Wertpapierausschüttung."
+    },
+    "CashDistributionDetails": {
+      "definition": "Enthält Informationen zur Geldausschüttung."
+    }
+  }
+}

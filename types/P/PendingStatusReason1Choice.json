@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatusReason1Choice",
+  "definition": "Auswahl der Formate für den Grund eines ausstehenden Status.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Für den ausstehenden Kontostatus liegt kein Grund vor oder ist kein Grund zu melden."
+    },
+    "Reason": {
+      "definition": "Grund für den ausstehenden Kontostatus."
+    }
+  }
+}

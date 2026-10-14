@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingRate1",
+  "definition": "Gibt den Abrechnungssatz an.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Legt die Art des Satzes oder Faktors fest."
+    },
+    "Value": {
+      "definition": "Wert des Satzes oder Faktors, der in der Satzidentifikation angegeben ist."
+    },
+    "DaysInPeriod": {
+      "definition": "Anzahl der Tage im Abrechnungszeitraum. ||Verwendung: Wird zusammen mit DaysInYear für zeitabhängige Jahressatzwerte verwendet."
+    },
+    "DaysInYear": {
+      "definition": "Anzahl der Tage im Jahr.||Verwendung: Wird zusammen mit DaysInPeriod für zeitabhängige Jahressatzwerte verwendet."
+    }
+  }
+}

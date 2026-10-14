@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationProcessingStatus7Choice",
+  "definition": "Auswahl des Verarbeitungsstatus der Stornierung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Status einer Stornierungsanforderung an."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Status einer Stornierungsanforderung an."
+    }
+  }
+}

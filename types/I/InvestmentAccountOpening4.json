@@ -1,0 +1,21 @@
+{
+  "isoType": "InvestmentAccountOpening4",
+  "definition": "Informationen zur Art der Eröffnungsanweisung und Identifikation des Antrags.",
+  "isoElements": {
+    "OpeningType": {
+      "definition": "Gibt an, ob sich die Kontoeröffnungsanweisung auf ein neu angelegtes Konto oder ein Zusatzkonto bezieht."
+    },
+    "AccountApplicationIdentification": {
+      "definition": "Eindeutige und unmissverständliche Kennung des Kontoeröffnungsauftrags auf Anwendungsebene."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und unmissverständliche Identifikation einer Transaktion, zum Beispiel einer Übertragung, wie vom Anleger oder Kontoinhaber vergeben."
+    },
+    "CounterpartyReference": {
+      "definition": "Eindeutige Identifikation der Transaktion, zum Beispiel einer Übertragung, wie von der Gegenpartei zugewiesen."
+    },
+    "ExistingAccountIdentification": {
+      "definition": "Konto, auf das sich die Kontoeröffnung bezieht."
+    }
+  }
+}

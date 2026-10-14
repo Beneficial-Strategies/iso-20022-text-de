@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason8FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe des Grundes für die Ablehnung eines Antrags auf Änderung einer Wahl.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Grundes für die Ablehnung eines Antrags auf Änderung einer Wahl."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe des Grundes für die Ablehnung eines Antrags auf Änderung einer Wahl."
+    }
+  }
+}

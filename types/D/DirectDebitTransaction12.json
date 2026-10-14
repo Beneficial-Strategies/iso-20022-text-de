@@ -1,0 +1,18 @@
+{
+  "isoType": "DirectDebitTransaction12",
+  "definition": "Enthält weitere spezifische Angaben zur Lastschrifttransaktion und zum zugehörigen Mandat.",
+  "isoElements": {
+    "MandateRelatedInformation": {
+      "definition": "Enthält weitere Angaben zum zwischen dem Zahlungsempfänger und dem Zahlungspflichtigen unterzeichneten Lastschriftmandat."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Kreditseitige Partei, die das Mandat unterzeichnet."
+    },
+    "PreNotificationIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Vorabankündigung, die getrennt von der Lastschriftanweisung gesendet wird.||Verwendung: Die Lastschrift-Vorabankündigung dient dem Abgleich separat gesendeter Einzugsinformationen mit den Lastschrifttransaktionsinformationen."
+    },
+    "PreNotificationDate": {
+      "definition": "Datum, an dem der Zahlungsempfänger den Zahlungspflichtigen über den Betrag und das Datum informiert, an dem die Lastschriftanweisung der Bank des Zahlungspflichtigen vorgelegt wird."
+    }
+  }
+}

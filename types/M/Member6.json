@@ -1,0 +1,15 @@
+{
+  "isoType": "Member6",
+  "definition": "Informationen über die Teilnehmer eines Systems.",
+  "isoElements": {
+    "MemberReturnAddress": {
+      "definition": "Physische/logische Adresse eines Teilnehmers, getrennt von seiner Hauptadresse, die für den normalen Betrieb verwendet wird. Die Rückgabeadresse für Gelder dient zur Weiterleitung von Nachrichten, die besondere Beachtung bzw. eine Ausnahmebehandlung erfordern, zum Beispiel Rückläufer oder Zurückweisungen."
+    },
+    "ContactReference": {
+      "definition": "Person, die in einer bestimmten Organisation zu kontaktieren ist."
+    },
+    "CommunicationAddress": {
+      "definition": "Nummer oder virtuelle Adresse, die für die Kommunikation verwendet wird."
+    }
+  }
+}

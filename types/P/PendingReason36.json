@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingReason36",
+  "definition": "Gibt den Grund an, warum die Anweisung oder Anforderung den Status ausstehend hat.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, warum eine für die zugehörige Anweisung gesendete Stornierungsanforderung ausstehend ist."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Enthält zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

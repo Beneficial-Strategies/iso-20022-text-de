@@ -1,0 +1,17 @@
+{
+  "isoType": "Extension1",
+  "definition": "Zusätzliche Informationen, die nicht in den strukturierten Feldern und/oder einem anderen spezifischen Block erfasst werden können.",
+  "isoElements": {
+    "PlaceAndName": {
+      "definition": "Name, der die im Feld Text bereitgestellte Information qualifiziert, und Stelle, an der diese Information einzufügen ist."
+    },
+    "Text": {
+      "definition": "Text der Erweiterung."
+    }
+  },
+  "isoRules": {
+    "ExtensionRule": {
+      "definition": "Dieser Baustein darf nicht ohne ausdrückliche Genehmigung der Registrierungsstelle und ohne von der Registrierungsstelle veröffentlichte strenge Verwendungsregeln verwendet werden."
+    }
+  }
+}

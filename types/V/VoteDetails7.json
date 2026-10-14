@@ -1,0 +1,15 @@
+{
+  "isoType": "VoteDetails7",
+  "definition": "Abstimmungsanweisung für einen Tagesordnungs- oder Versammlungsbeschluss.",
+  "isoElements": {
+    "VoteInstructionForAgendaResolution": {
+      "definition": "Abstimmungsanweisungen für die Beschlüsse, die vor der Versammlung über die Tagesordnung angekündigt werden."
+    },
+    "VoteInstructionForMeetingResolution": {
+      "definition": "Abstimmungsanweisungen für die Beschlüsse, die in der Versammlung aufkommen oder geändert werden können, aber zuvor nicht in der Tagesordnung enthalten waren."
+    },
+    "InvestorTypeIdentification": {
+      "definition": "Anlegerarten, die an dem Ereignis teilnehmen dürfen oder nicht."
+    }
+  }
+}

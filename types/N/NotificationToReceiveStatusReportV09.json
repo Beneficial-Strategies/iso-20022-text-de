@@ -1,0 +1,4 @@
+{
+  "isoType": "NotificationToReceiveStatusReportV09",
+  "definition": "Anwendungsbereich|Die Nachricht NotificationToReceiveStatusReport wird von einem kontoführenden Institut an einen Kontoinhaber oder an eine im Auftrag des Kontoinhabers handelnde Partei gesendet. Sie dient dazu, den Kontoinhaber über den Status einer oder mehrerer erwarteter Zahlungen zu informieren, die in einer früheren Nachricht NotificationToReceive angekündigt wurden.|Verwendung|Die Nachricht NotificationToReceiveStatusReport wird als Antwort auf eine Nachricht NotificationToReceive gesendet und kann sowohl in einem direkten als auch in einem Relay-Szenario verwendet werden. Sie dient dazu, den Kontoinhaber über den erwartungsgemäßen Erhalt der Gelder zu informieren. Sie dient auch dazu, den Kontoinhaber über den Nichterhalt von Geldern oder über Abweichungen bei den erhaltenen Geldern zu benachrichtigen."
+}

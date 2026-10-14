@@ -1,0 +1,15 @@
+{
+  "isoType": "CashDeposit1",
+  "definition": "Einzahlung eines Geldbetrags in Form von Banknoten und/oder Münzen.",
+  "isoElements": {
+    "NoteDenomination": {
+      "definition": "Gibt den Nennwert der Banknote oder Münze einschließlich der Währung an, beispielsweise eine 50-Euro-Banknote."
+    },
+    "NumberOfNotes": {
+      "definition": "Gibt die Anzahl der Banknoten desselben Nennwerts in der Einzahlung an."
+    },
+    "Amount": {
+      "definition": "Gibt den Gesamtbetrag der Bargeldeinzahlung an, das heißt den Nennwert der Banknoten multipliziert mit der Anzahl der Banknoten."
+    }
+  }
+}

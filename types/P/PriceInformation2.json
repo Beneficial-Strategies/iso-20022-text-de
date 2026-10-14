@@ -1,0 +1,38 @@
+{
+  "isoType": "PriceInformation2",
+  "definition": "Geldbetrag, zu dem Waren oder Dienstleistungen angeboten, verkauft oder gekauft werden.",
+  "isoElements": {
+    "Value": {
+      "definition": "Wert des Preises, zum Beispiel als Währung und Wert."
+    },
+    "ValueType": {
+      "definition": "Wertart, in der der Preis ausgedrückt wird."
+    },
+    "Type": {
+      "definition": "Art und Informationen zu einem Preis."
+    },
+    "ExtendedType": {
+      "definition": "Art und Informationen zu einem Preis."
+    },
+    "SourceOfPrice": {
+      "definition": "Ort, von dem der Preis bezogen wurde."
+    },
+    "QuotationDate": {
+      "definition": "Datum, an dem der Preis bezogen wird. Bei einem Investmentfonds ist dies das im Prospekt angegebene Datum."
+    },
+    "Yielded": {
+      "definition": "Gibt an, ob der Preis als Rendite ausgedrückt wird. Das Fehlen von Yielded bedeutet, dass es nicht anwendbar ist."
+    }
+  },
+  "isoRules": {
+    "ValueRule": {
+      "definition": "Wenn Type nicht MRKT ist, darf Value nicht mit UnknownIndicator ausgedrückt werden."
+    },
+    "TypeOrExtendedTypeRule": {
+      "definition": "Entweder Type oder ExtendedType muss vorhanden sein, aber nicht beide."
+    },
+    "TypeOrExtendedTypeRuleNotBoth": {
+      "definition": "Entweder Type oder ExtendedType muss vorhanden sein, aber nicht beide."
+    }
+  }
+}

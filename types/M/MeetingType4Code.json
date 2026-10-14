@@ -1,0 +1,30 @@
+{
+  "isoType": "MeetingType4Code",
+  "definition": "Gibt eine Art von Versammlung der Wertpapierinhaber an.",
+  "isoCodes": {
+    "XMET": {
+      "name": "Außerordentlich",
+      "definition": "Eine Versammlung, die bei Bedarf zusätzlich zu den Hauptversammlungen stattfindet, ist gemäß der Satzung außerordentlich. Die Beschlüsse betreffen außergewöhnliche Geschäfte des Unternehmens, zum Beispiel die Genehmigung von Übernahmen, Fusionen oder Abspaltungen. Diese Versammlungen werden stets vom Emittenten einberufen."
+    },
+    "GMET": {
+      "name": "Allgemein",
+      "definition": "Umfasst jährliche und ordentliche Versammlungen. Satzungsgemäße Versammlung(en), die üblicherweise mindestens einmal jährlich stattfinden. Die Beschlüsse betreffen die gewöhnlichen Geschäfte des Unternehmens, zum Beispiel die Genehmigung von Dividenden und Direktoren. Diese Versammlungen werden stets vom Emittenten einberufen."
+    },
+    "MIXD": {
+      "name": "Gemischt",
+      "definition": "Versammlung, die sowohl ordentliche als auch außerordentliche Beschlüsse enthält."
+    },
+    "SPCL": {
+      "name": "Besonders",
+      "definition": "Versammlung, die bei Bedarf stattfindet und weder ordentlich noch außerordentlich ist."
+    },
+    "BMET": {
+      "name": "Anleihegläubigerversammlung",
+      "definition": "Physische Versammlung der Anleihegläubiger."
+    },
+    "CMET": {
+      "name": "Gerichtsversammlung",
+      "definition": "Die Versammlung ist das Ergebnis eines Gerichtsverfahrens."
+    }
+  }
+}

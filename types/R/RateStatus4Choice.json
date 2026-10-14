@@ -1,0 +1,17 @@
+{
+  "isoType": "RateStatus4Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe eines Satzstatus.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Status des Satzes."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation des Status des Satzes."
+    }
+  },
+  "isoRules": {
+    "RateStatusGuideline": {
+      "definition": "Der Codewert ACTU ist der Standardwert für einen Satzstatus."
+    }
+  }
+}

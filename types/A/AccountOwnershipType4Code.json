@@ -1,0 +1,78 @@
+{
+  "isoType": "AccountOwnershipType4Code",
+  "definition": "Gibt die Art der Kontoinhaberschaft an.",
+  "isoCodes": {
+    "UNCO": {
+      "name": "Nicht eingetragen",
+      "definition": "Der Kontoinhaber ist eine nicht rechtsfähige Personengesellschaft oder ein Einzelunternehmen."
+    },
+    "LIPA": {
+      "name": "Kommanditgesellschaft",
+      "definition": "Der Kontoinhaber ist eine Kommanditgesellschaft oder ein Einzelunternehmen."
+    },
+    "ENTR": {
+      "name": "Unternehmerisch",
+      "definition": "Unternehmerkonto."
+    },
+    "CORP": {
+      "name": "Kapitalgesellschaft",
+      "definition": "Der Kontoinhaber ist eine Kapitalgesellschaft."
+    },
+    "CUST": {
+      "name": "Verwahrkonto",
+      "definition": "Minderjährigenkonto, das auf den Namen des Minderjährigen eingetragen ist. Da der Minderjährige rechtlich kein Eigentum besitzen kann, übt der Verwalter des Kontos die Kontrolle über das Konto aus."
+    },
+    "EURE": {
+      "name": "Sonstige EU-Einheit",
+      "definition": "Der Kontoinhaber ist eine in der Europäischen Union ansässige Einheit, die weder als juristische Person (zum Beispiel Gesellschaft, Kapitalgesellschaft) noch als natürliche Person noch als UCITS-Fonds (Organismen für gemeinsame Anlagen in Wertpapieren) angesehen werden kann."
+    },
+    "PART": {
+      "name": "Förmliche Personengesellschaft",
+      "definition": "Der Kontoinhaber ist eine vertragliche Geschäftsorganisation, in der sich zwei oder mehr Personen darauf einigen, ihre Mittel zusammenzulegen, um ein Unternehmen zu führen und zu betreiben."
+    },
+    "TRUS": {
+      "name": "Förmlicher Trust",
+      "definition": "Der Kontoinhaber ist eine Organisation, die als Treuhänder für Privatpersonen oder Unternehmen mit der Verwaltung von Dienstleistungen wie Aktienübertragung, Registrierung und Treuhandfonds betraut ist."
+    },
+    "GOVO": {
+      "name": "Staatliche Organisation",
+      "definition": "Der Kontoinhaber ist eine Regierungsorganisation."
+    },
+    "JOIT": {
+      "name": "Gemeinschaftskonto",
+      "definition": "Zwei oder mehr volljährige Personen besitzen Anteile am selben Konto."
+    },
+    "COMO": {
+      "name": "Gemeinschaftskonto zu gemeinsamem Eigentum",
+      "definition": "Zwei oder mehr volljährige Personen besitzen Anteile am selben Konto. Beim Tod eines der Kontoinhaber geht der jeweilige Eigentumsanteil auf den Nachlass des Verstorbenen über."
+    },
+    "JOIN": {
+      "name": "Gemeinschaftskonto mit Anwachsungsrecht",
+      "definition": "Zwei oder mehr Personen besitzen Anteile am selben Konto. Beim Tod eines der Kontoinhaber geht das gesamte Kontoeigentum auf die überlebenden Inhaber über."
+    },
+    "LLCO": {
+      "name": "Gesellschaft mit beschränkter Haftung",
+      "definition": "Das Konto gehört einer Gesellschaft mit beschränkter Haftung."
+    },
+    "NOMI": {
+      "name": "Nominee",
+      "definition": "Der Kontoinhaber ist eine Person oder Firma, auf deren Namen Wertpapiere oder andere Vermögenswerte übertragen werden, um Transaktionen zu erleichtern, wobei der Kunde der tatsächliche Eigentümer bleibt."
+    },
+    "NFPO": {
+      "name": "Gemeinnützige Organisation",
+      "definition": "Der Kontoinhaber ist eine Vereinigung, der aufgrund der Art ihrer Tätigkeit, zum Beispiel als Wohltätigkeitsorganisation, ein steuerfreier Status eingeräumt wurde."
+    },
+    "ONIS": {
+      "name": "Sonstige Nicht-Einzelperson",
+      "definition": "Der Kontoinhaber ist eine andere Art von Organisation, die keine natürliche Person ist."
+    },
+    "RGIC": {
+      "name": "Eingetragene Investmentgesellschaft",
+      "definition": "Das Konto gehört einer eingetragenen Investmentgesellschaft."
+    },
+    "SIGL": {
+      "name": "Einzelinhaberkonto",
+      "definition": "Das Konto hat nur einen einzelnen Inhaber."
+    }
+  }
+}

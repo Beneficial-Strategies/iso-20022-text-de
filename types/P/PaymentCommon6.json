@@ -1,0 +1,27 @@
+{
+  "isoType": "PaymentCommon6",
+  "definition": "Gemeinsame Details für alle Zahlungsanweisungen.",
+  "isoElements": {
+    "PaymentFrom": {
+      "definition": "Ursprung der Zahlung (Teilnehmer, System oder beides)."
+    },
+    "PaymentTo": {
+      "definition": "Ziel der Zahlung (Teilnehmer, System oder beides)."
+    },
+    "CommonStatus": {
+      "definition": "Status einer Überweisung."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Geldmittel dem Inhaber des Gutschriftkontos zur Verfügung stehen bzw. zu denen sie dem Inhaber des Belastungskontos nicht mehr zur Verfügung stehen."
+    },
+    "EntryDate": {
+      "definition": "Datum und Uhrzeit, zu denen eine Buchung in den Büchern des Kontoführers auf einem Konto verbucht wird."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob die Zahlungsanweisung eine Belastung oder eine Gutschrift ist.|."
+    },
+    "PaymentMethod": {
+      "definition": "Gibt die Nachricht oder das Ereignis an, durch die bzw. das eine Anweisung ausgelöst wurde."
+    }
+  }
+}

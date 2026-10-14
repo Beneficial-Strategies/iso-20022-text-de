@@ -1,0 +1,12 @@
+{
+  "isoType": "Tax36",
+  "definition": "Informationen zur Steuer.",
+  "isoElements": {
+    "DateOrPeriod": {
+      "definition": "Datum oder Quartal des Steuerjahres, auf dem die Steuer für das Finanzinstrument beruht oder berechnet wird."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zur Steuer."
+    }
+  }
+}

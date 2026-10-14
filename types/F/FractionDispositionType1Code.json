@@ -1,0 +1,30 @@
+{
+  "isoType": "FractionDispositionType1Code",
+  "definition": "Gibt an, wie Bruchteile aus abgeleiteten Wertpapieren verarbeitet werden oder wie anteilig gekürzte Entscheidungen gerundet werden, sofern ein Zuteilungssatz angegeben ist.",
+  "isoCodes": {
+    "BUYU": {
+      "name": "Aufstockung",
+      "definition": "Kauf von Wertpapieren bis zur nächsten ganzen Zahl."
+    },
+    "CINL": {
+      "name": "Barausgleich für Bruchteile",
+      "definition": "Bruchteil als Barbetrag. Barausgleich anstelle von Bruchteilen."
+    },
+    "DIST": {
+      "name": "Bruchteil ausgeben",
+      "definition": "Ausschüttung von Bruchteilen in Form von Wertpapieren."
+    },
+    "RDDN": {
+      "name": "Abrunden",
+      "definition": "Auf die nächste ganze Zahl abrunden."
+    },
+    "RDUP": {
+      "name": "Aufrunden",
+      "definition": "Auf die nächste ganze Zahl aufrunden."
+    },
+    "STAN": {
+      "name": "Auf nächsten Wert runden",
+      "definition": "Ist der Bruchteil größer oder gleich 0,5 des resultierenden Wertpapiers, wird aufgerundet, andernfalls abgerundet (0.5)."
+    }
+  }
+}

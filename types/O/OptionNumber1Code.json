@@ -1,0 +1,10 @@
+{
+  "isoType": "OptionNumber1Code",
+  "definition": "Code zur Identifikation besonderer Optionsnummern von Kapitalmaßnahmen.",
+  "isoCodes": {
+    "UNSO": {
+      "name": "Unaufgefordert",
+      "definition": "Die Kapitalmaßnahmen-Anweisung ist nicht angefordert, das heißt, ihr ging keine Kapitalmaßnahmen-Benachrichtigung voraus."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "Reporting2Code",
+  "definition": "Gibt Informationen im Hinblick auf die Meldung an.",
+  "isoCodes": {
+    "STEX": {
+      "name": "Börse",
+      "definition": "Die Geschäftsdetails sind an eine Börse zu melden."
+    },
+    "REGU": {
+      "name": "Aufsichtsorganisation",
+      "definition": "Die Geschäftsdetails sind an eine Aufsichtsorganisation zu melden."
+    },
+    "DEFR": {
+      "name": "Aufgeschobene Meldung",
+      "definition": "Die Meldung wird aufgeschoben, zum Beispiel weil der Auftrag in Teilausführungen ausgeführt wurde."
+    }
+  }
+}

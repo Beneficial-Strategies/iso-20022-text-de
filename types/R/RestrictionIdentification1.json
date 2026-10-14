@@ -1,0 +1,12 @@
+{
+  "isoType": "RestrictionIdentification1",
+  "definition": "Beschränkungsreferenzen, die auf die Transaktion angewendet werden, für die die Änderung der Wertpapierabwicklungsbedingungen beantragt wird.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Entfernung oder Hinzufügung einer auf die Transaktion angewendeten Beschränkungsidentifikation."
+    },
+    "Identification": {
+      "definition": "Auf die Transaktion angewendete Beschränkungsidentifikation."
+    }
+  }
+}

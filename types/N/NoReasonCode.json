@@ -1,0 +1,10 @@
+{
+  "isoType": "NoReasonCode",
+  "definition": "Gibt an, dass kein Grund verfügbar ist.",
+  "isoCodes": {
+    "NORE": {
+      "name": "Kein Grund",
+      "definition": "Kein Grund zur Meldung bzw. kein meldbarer Grund verfügbar."
+    }
+  }
+}

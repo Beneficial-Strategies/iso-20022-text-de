@@ -1,0 +1,15 @@
+{
+  "isoType": "Reinvestment4",
+  "definition": "Informationen zur Wiederanlage.",
+  "isoElements": {
+    "FinancialInstrumentDetails": {
+      "definition": "Investmentfonds für die Wiederanlage."
+    },
+    "RequestedNAVCurrency": {
+      "definition": "Währung, in der der Fonds bewertet wird. Diese Währung muss zu den im Verkaufsprospekt genannten Währungen gehören, in denen der Preis ausgedrückt werden kann."
+    },
+    "ReinvestmentPercentage": {
+      "definition": "Prozentsatz der Wiederanlage."
+    }
+  }
+}

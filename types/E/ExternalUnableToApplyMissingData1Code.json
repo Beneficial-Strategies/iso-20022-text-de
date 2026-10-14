@@ -1,0 +1,82 @@
+{
+  "isoType": "ExternalUnableToApplyMissingData1Code",
+  "definition": "Legt den Grund für eine Nichtanwendbarkeit aufgrund fehlender Daten fest, wie in einem externen Code-Set für Nichtanwendbarkeit aufgrund fehlender Daten veröffentlicht.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "MS01": {
+      "name": "Verwendungszweck-Informationen fehlen",
+      "definition": "RemittanceInformation fehlt."
+    },
+    "MS02": {
+      "name": "Anweisung für die nächste Bank fehlt",
+      "definition": "Anweisung an die nächste Bank fehlt (früher MissingSenderToReceiverInformation, aufgeteilt in Informationen zu Zahlungspflichtigem, Gutschrift und nächster Bank)."
+    },
+    "MS03": {
+      "name": "Zahlungspflichtiger fehlt",
+      "definition": "Zahlungspflichtiger fehlt."
+    },
+    "MS04": {
+      "name": "Konto des Zahlungspflichtigen fehlt",
+      "definition": "DebtorAccount fehlt."
+    },
+    "MS05": {
+      "name": "Bank des Zahlungspflichtigen fehlt",
+      "definition": "DebtorAgent fehlt (früher MissingFirstAgent bei Überweisungen)."
+    },
+    "MS06": {
+      "name": "Betrag fehlt",
+      "definition": "Betrag fehlt."
+    },
+    "MS07": {
+      "name": "Abwicklungskonto fehlt",
+      "definition": "SettlementAccount fehlt. (früher MissingNostroVostroAccount)."
+    },
+    "MS08": {
+      "name": "Zwischenbank fehlt",
+      "definition": "Zwischengeschaltete Bank fehlt."
+    },
+    "MS09": {
+      "name": "Anweisende Erstattungsbank fehlt",
+      "definition": "InstructingReimbursementAgent fehlt (früher MissingReimbursementAgent1)."
+    },
+    "MS10": {
+      "name": "Angewiesene Erstattungsbank fehlt",
+      "definition": "InstructedReimbursementAgent fehlt (früher MissingReimbursementAgent2)."
+    },
+    "MS11": {
+      "name": "Dritte Erstattungsbank fehlt",
+      "definition": "Dritte Erstattungsbank fehlt (früher MissingReimbursementAgent)."
+    },
+    "MS12": {
+      "name": "Zahlungsempfänger fehlt",
+      "definition": "Zahlungsempfänger fehlt."
+    },
+    "MS13": {
+      "name": "Konto des Zahlungsempfängers fehlt",
+      "definition": "CreditorAccount fehlt."
+    },
+    "MS14": {
+      "name": "Anweisung fehlt",
+      "definition": "Zahlungsanweisung fehlt."
+    },
+    "MS15": {
+      "name": "Bank des Zahlungsempfängers fehlt",
+      "definition": "Bank des Zahlungsempfängers fehlt (früher MissingFirstAgent bei Lastschriften)."
+    },
+    "MS16": {
+      "name": "Anweisung für die Bank des Zahlungsempfängers fehlt",
+      "definition": "Anweisung an die Bank des Zahlungsempfängers fehlt (früher MissingSenderToReceiverInformation, aufgeteilt in Informationen zu Zahlungspflichtigem, Gutschrift und nächster Bank)."
+    },
+    "MS17": {
+      "name": "Anweisung für die Bank des Zahlungspflichtigen fehlt",
+      "definition": "Anweisung an die Bank des Zahlungspflichtigen fehlt (früher MissingSenderToReceiverInformation, aufgeteilt in Informationen zu Zahlungspflichtigem, Gutschrift und nächster Bank)."
+    },
+    "MS18": {
+      "name": "Zugehörige Verwendungszweck-Informationen fehlen",
+      "definition": "RelatedRemittanceInformation fehlt."
+    },
+    "NARR": {
+      "name": "Freitext",
+      "definition": "Zusätzliche Informationen siehe Freitextfeld."
+    }
+  }
+}

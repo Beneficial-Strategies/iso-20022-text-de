@@ -1,0 +1,12 @@
+{
+  "isoType": "ControlData1",
+  "definition": "Enthält Details zur Anzahl der Transaktionen und zur Kontrollsumme der Nachricht.",
+  "isoElements": {
+    "NumberOfTransactions": {
+      "definition": "Anzahl der in der Nachricht enthaltenen einzelnen Transaktionen."
+    },
+    "ControlSum": {
+      "definition": "Summe aller in der Nachricht enthaltenen Einzelbeträge, unabhängig von den Währungen."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "SettlementTransactionCondition18Code",
+  "definition": "Gibt die Bedingungen an, unter denen der Auftrag/das Handelsgeschäft abgewickelt werden soll.",
+  "isoCodes": {
+    "CLEN": {
+      "name": "Clean",
+      "definition": "Steuerbefreite Finanzinstrumente sind abzuwickeln."
+    },
+    "DLWM": {
+      "name": "Lieferung ohne Abgleich",
+      "definition": "Eine passende Empfangsanweisung ist nicht erforderlich (nur für betroffene internationale oder nationale Zentralverwahrer)."
+    },
+    "DIRT": {
+      "name": "Dirty",
+      "definition": "Steuerpflichtige Finanzinstrumente sind abzuwickeln."
+    },
+    "GATE": {
+      "name": "Teilnahme an Gating-Ereignis",
+      "definition": "Teilnahme am Gating-Ereignis. Halten bis zur Startzeit des Ereignisses."
+    },
+    "NOMC": {
+      "name": "Keine automatische Marktforderung",
+      "definition": "Es soll kein Marktanspruch (Market Claim) automatisch erzeugt werden."
+    },
+    "BPSS": {
+      "name": "Teilweise erfolgreiche Zwangseindeckung",
+      "definition": "Identifikation von Abwicklungsanweisungen, die infolge eines teilweise erfolgreichen Deckungskaufs (Buy-in) erstellt wurden."
+    },
+    "PHYS": {
+      "name": "Physisch",
+      "definition": "Die Wertpapiere sind physisch abzuwickeln."
+    },
+    "SPDL": {
+      "name": "Sonderlieferung",
+      "definition": "Abwicklungstransaktionen, die mit Sonderlieferung abzuwickeln sind."
+    },
+    "SPST": {
+      "name": "Geteilte Abwicklung",
+      "definition": "Geld und Finanzinstrumente werden an unterschiedlichen Orten abgewickelt."
+    }
+  }
+}

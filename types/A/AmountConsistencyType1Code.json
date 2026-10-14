@@ -1,0 +1,26 @@
+{
+  "isoType": "AmountConsistencyType1Code",
+  "definition": "Gibt eine Art von Betragsinkonsistenzen an, also ob der angegebene Betragstyp mit dem Referenzbetrag übereinstimmt oder nicht.",
+  "isoCodes": {
+    "CONS": {
+      "name": "Konsistenter Betrag",
+      "definition": "Die Betragsangabe stimmt mit dem Referenzdatensatz überein."
+    },
+    "ICNS": {
+      "name": "Inkonsistenter Betrag",
+      "definition": "Die Betragsangabe stimmt nicht mit dem Referenzdatensatz überein."
+    },
+    "ICGA": {
+      "name": "Inkonsistenter Gebührenbetrag",
+      "definition": "Die Angabe zum Gebührenbetrag stimmt nicht mit dem Referenzdatensatz überein."
+    },
+    "ICFA": {
+      "name": "Inkonsistenter bestätigter Betrag",
+      "definition": "Die dem Zahlungsempfänger bestätigte Betragsangabe stimmt nicht mit dem Referenzdatensatz überein."
+    },
+    "IISA": {
+      "name": "Inkonsistenter Interbanken-Abwicklungsbetrag",
+      "definition": "Die Angabe zum Interbanken-Abwicklungsbetrag stimmt nicht mit dem Referenzdatensatz überein."
+    }
+  }
+}

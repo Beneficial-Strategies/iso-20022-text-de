@@ -1,0 +1,23 @@
+{
+  "isoType": "RelatedSettlementInstruction4",
+  "definition": "Informationen zu einer zugehörigen Abwicklungsanweisung.",
+  "isoElements": {
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer vergeben wurde, zum Beispiel Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, vergeben vom Bearbeiter der Anweisung, der weder der Kontoinhaber, noch der Kontoführer, noch die Marktinfrastruktur ist."
+    },
+    "RelatedSettlementInstructionIdentification": {
+      "definition": "Eindeutige Identifikation der zugehörigen Abwicklungsanweisung, die vom Kontoinhaber vergeben wurde."
+    },
+    "UniqueTransactionIdentifier": {
+      "definition": "Mit der anderen Gegenpartei vereinbarter Unique Transaction Identifier (UTI)."
+    }
+  },
+  "isoRules": {
+    "MarketInfrastructureOrProcessorTransactionIdentificationRule": {
+      "definition": "Entweder MarketInfrastructureTransactionIdentification oder ProcessorTransactionIdentification muss vorhanden sein; beide dürfen vorhanden sein."
+    }
+  }
+}

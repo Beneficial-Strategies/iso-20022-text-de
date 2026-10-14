@@ -1,0 +1,18 @@
+{
+  "isoType": "LinkageType1Code",
+  "definition": "Art der angeforderten Verknüpfung.",
+  "isoCodes": {
+    "LINK": {
+      "name": "Verknüpfen",
+      "definition": "Es wird beantragt, die referenzierten Transaktionen zu verknüpfen."
+    },
+    "UNLK": {
+      "name": "Verknüpfung aufheben",
+      "definition": "Es wird beantragt, die Verknüpfung der referenzierten Transaktionen aufzuheben."
+    },
+    "SOFT": {
+      "name": "Weich",
+      "definition": "Es wird beantragt, die referenzierten Transaktionen weich zu verknüpfen."
+    }
+  }
+}

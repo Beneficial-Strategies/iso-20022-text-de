@@ -1,0 +1,26 @@
+{
+  "isoType": "ProceedsDelivery1",
+  "definition": "Enthält Informationen zum Konto.",
+  "isoElements": {
+    "SecuritiesAccountIdentification": {
+      "definition": "Identifikation des Wertpapierkontos, auf das die Wertpapiere geliefert werden müssen."
+    },
+    "CashAccountIdentification": {
+      "definition": "Identifikation des Geldkontos, auf das das Geld geliefert werden muss."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identifikation der Partei, die Inhaber des Kontos ist."
+    },
+    "AccountServicerIdentification": {
+      "definition": "Identifikation des Instituts, das das Konto führt."
+    }
+  },
+  "isoRules": {
+    "SecuritiesAccountIdentificationOrCashAccountIdentificationRule": {
+      "definition": "Entweder SecuritiesAccountIdentification oder CashAccountIdentification muss vorhanden sein."
+    },
+    "SecuritiesAccountIdentificationOrCashAccountIdentificationRuleNotBoth": {
+      "definition": "Entweder SecuritiesAccountIdentification oder CashAccountIdentification muss vorhanden sein."
+    }
+  }
+}

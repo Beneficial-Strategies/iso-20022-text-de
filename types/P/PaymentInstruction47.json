@@ -1,0 +1,54 @@
+{
+  "isoType": "PaymentInstruction47",
+  "definition": "Liefert Details zur Zahlungsanweisung.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, vergeben von der ursprünglichen initiierenden Partei, zur eindeutigen Identifikation der ursprünglichen Zahlungstransaktionsnachricht.|Verwendung: Dies ist die frühere TransactionReference."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Geldmittel dem Inhaber des Gutschriftkontos zur Verfügung stehen bzw. zu denen sie dem Inhaber des Belastungskontos nicht mehr zur Verfügung stehen."
+    },
+    "Status": {
+      "definition": "Detaillierte Informationen zum Status einer Überweisung.||."
+    },
+    "InstructedAmount": {
+      "definition": "Geldbetrag, der zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, vor Abzug von Entgelten, ausgedrückt in der von der initiierenden Partei angewiesenen Währung."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Geldbetrag, der zwischen der anweisenden Bank und der angewiesenen Bank bewegt wird."
+    },
+    "Purpose": {
+      "definition": "Zugrunde liegender Grund für die Zahlungstransaktion."
+    },
+    "PaymentMethod": {
+      "definition": "Gibt die Nachricht oder das Ereignis an, durch die bzw. das eine Anweisung ausgelöst wurde."
+    },
+    "Priority": {
+      "definition": "Dringlichkeit oder Rangfolge, mit der der Auftraggeber möchte, dass der Empfänger der Zahlungsanweisung diese bearbeitet.|."
+    },
+    "ProcessingValidityTime": {
+      "definition": "Datums- und Zeitraum, innerhalb dessen die Zahlungsanweisung bearbeitet werden muss.|."
+    },
+    "InstructionCopy": {
+      "definition": "Kopie der ursprünglichen Anweisung als Freitext."
+    },
+    "Type": {
+      "definition": "Art oder Natur der Zahlung, zum Beispiel Eilzahlung.|."
+    },
+    "GeneratedOrder": {
+      "definition": "Die Zahlung ist ein Liquiditätsübertragungsauftrag, der nach einem vordefinierten Auftrag oder Dauerauftrag automatisch ausgeführt wurde."
+    },
+    "TransactionIdentification": {
+      "definition": "Eindeutige Identifikation, vergeben von der ersten anweisenden Bank, zur eindeutigen Identifikation der Transaktion, die unverändert über die gesamte Interbankenkette weitergegeben wird.|Verwendung: Die Transaktionsidentifikation kann für Abstimmung, Nachverfolgung oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion auf Interbankenebene verwendet werden. Die anweisende Bank muss sicherstellen, dass die Transaktionsidentifikation für einen vorab vereinbarten Zeitraum eindeutig ist.|Verwendung: Dies ist die frühere PaymentInstructionReference."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag der Bank, die ihn schuldet, nicht mehr zur Verfügung steht und der Bank, der er zusteht, zur Verfügung steht."
+    },
+    "EndToEndIdentification": {
+      "definition": "Eindeutige Identifikation, vergeben von der initiierenden Partei, zur eindeutigen Identifikation der Transaktion. Diese Identifikation wird unverändert über die gesamte Ende-zu-Ende-Kette weitergegeben.|Verwendung: Die Ende-zu-Ende-Identifikation kann für Abstimmung oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion verwendet werden.|Sie kann in mehreren Nachrichten zur Transaktion enthalten sein.|Verwendung: Dies ist die frühere zugehörige Referenz."
+    },
+    "Parties": {
+      "definition": "Definiert die Parteifelder, die für die Suche nach einer Zahlung verwendet werden."
+    }
+  }
+}

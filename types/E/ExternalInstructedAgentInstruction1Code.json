@@ -1,0 +1,10 @@
+{
+  "isoType": "ExternalInstructedAgentInstruction1Code",
+  "definition": "Gibt weitere Anweisungen zur Verarbeitung einer Zahlungsanweisung oder Anpassung an, wie sie der angewiesenen Bank übermittelt werden.",
+  "isoCodes": {
+    "REMD": {
+      "name": "Erinnerung",
+      "definition": "Erinnerung. Eine Entgeltanforderungsnachricht wurde bereits zuvor gesendet."
+    }
+  }
+}

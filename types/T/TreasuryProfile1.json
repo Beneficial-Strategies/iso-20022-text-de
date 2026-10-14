@@ -1,0 +1,15 @@
+{
+  "isoType": "TreasuryProfile1",
+  "definition": "Handelsprofil für Staatsanleihen.",
+  "isoElements": {
+    "Date": {
+      "definition": "Ausführungsdatum des Handels mit Staatsanleihen."
+    },
+    "TraderType": {
+      "definition": "Art der Partei, die Handelsgeschäfte durchführt, z. B. Anleger oder Verwahrer."
+    },
+    "Rate": {
+      "definition": "Steuersatz."
+    }
+  }
+}

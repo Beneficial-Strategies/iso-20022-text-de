@@ -1,0 +1,12 @@
+{
+  "isoType": "RelatedTransactionData1",
+  "definition": "Liefert Angaben zu den einzelnen Transaktionen, in die die Zahlungsanweisung aufgeteilt wurde.",
+  "isoElements": {
+    "MasterUETR": {
+      "definition": "Weltweit eindeutige Kennung, die eine Ende-zu-Ende-Referenz einer Master-Zahlungstransaktion bereitstellt und mit der eine oder mehrere untergeordnete Zahlungstransaktionen verknüpft werden können."
+    },
+    "SubUETR": {
+      "definition": "Weltweit eindeutige Kennung, die eine Ende-zu-Ende-Referenz einer untergeordneten Zahlungstransaktion bereitstellt, die mit einer Master-Zahlungstransaktion verknüpft sein kann."
+    }
+  }
+}

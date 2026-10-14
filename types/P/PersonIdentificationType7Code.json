@@ -1,0 +1,18 @@
+{
+  "isoType": "PersonIdentificationType7Code",
+  "definition": "Gibt eine Art von Steuerreferenz an.",
+  "isoCodes": {
+    "ATIN": {
+      "name": "Steueridentifikationsnummer für Adoption",
+      "definition": "Vorläufige Steuerbearbeitungsnummer (verwendet bei der inländischen Adoption eines Kindes)."
+    },
+    "GTIN": {
+      "name": "Allgemeine Steuernummer",
+      "definition": "Allgemeine Steueridentifikationsnummer."
+    },
+    "ITIN": {
+      "name": "Individuelle Steuerzahler-Identifikationsnummer",
+      "definition": "Steuerbearbeitungsnummer."
+    }
+  }
+}

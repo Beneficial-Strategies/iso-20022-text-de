@@ -1,0 +1,4 @@
+{
+  "isoType": "MultilateralSettlementRequestV02",
+  "definition": "Die Nachricht MultilateralSettlementRequest wird von einer beauftragenden Bank an eine Marktinfrastruktur gesendet, um Verpflichtungen zwischen deren Teilnehmern über in einem Abwicklungsservice geführte Konten abzuwickeln.||Verwendung: Die Nachricht MultilateralSettlementRequest kann eine oder mehrere Abwicklungsanweisungen mit mehreren Bewegungen zwischen Konten enthalten. Standardmäßig sind alle in einer einzelnen Anweisung enthaltenen Bewegungen als Sammelbuchung und nicht als Einzelbuchung je Bewegung zu verarbeiten."
+}

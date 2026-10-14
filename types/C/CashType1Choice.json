@@ -1,0 +1,12 @@
+{
+  "isoType": "CashType1Choice",
+  "definition": "Gibt die Bargeldart an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Bargeldart, wie in einem externen Codesatz für Bargeldarten veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Bargeldart in proprietärer Form."
+    }
+  }
+}

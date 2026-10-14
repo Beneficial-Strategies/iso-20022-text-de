@@ -1,0 +1,15 @@
+{
+  "isoType": "CashAsset2",
+  "definition": "Identifikation eines Barvermögenswerts.",
+  "isoElements": {
+    "CashAssetType": {
+      "definition": "Art des Barvermögenswerts."
+    },
+    "HoldingCurrency": {
+      "definition": "Währung des Vermögenswerts im Bestand."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Barvermögenswert."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "isoType": "IntraBalanceMovement7",
+  "definition": "Enthält die Daten der Bewegungen innerhalb des Saldos.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Konto, auf das oder von dem eine Geldbuchung erfolgt."
+    },
+    "CashAccountOwner": {
+      "definition": "Partei, der das Konto gehört."
+    },
+    "CashAccountServicer": {
+      "definition": "Partei, die das Geldkonto im Auftrag des Kontoinhabers führt, das heißt die Registrierung und Buchung von Einträgen auf dem Konto verwaltet, Salden des Kontos berechnet und Informationen zum Konto bereitstellt."
+    },
+    "StatusAndReason": {
+      "definition": "Status und Statusgrund der Transaktion."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem Kontoinhaber (oder der das Konto verwaltenden anweisenden Partei) bekannt."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem kontoführenden Institut bekannt."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer vergeben wurde, zum Beispiel Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, vom Verarbeiter vergeben."
+    },
+    "PoolIdentification": {
+      "definition": "Sammelreferenz zur Identifikation einer Gruppe von Nachrichten."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Vom kontoführenden Institut vergebene Identifikation zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "MovementDetails": {
+      "definition": "Identifiziert zusätzliche Details der Transaktion."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Liegt für AccountOwnerTransactionIdentification keine Referenz vor, zum Beispiel weil die Transaktion per Fax gesendet wurde, so muss AccountOwnerTransactionIdentification den Wert NONREF haben."
+    }
+  }
+}

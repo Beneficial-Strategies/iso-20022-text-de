@@ -1,0 +1,21 @@
+{
+  "isoType": "AdditionalRights4",
+  "definition": "Angaben zu zusätzlichen Rechten, die für eine Versammlung eingeräumt werden können.",
+  "isoElements": {
+    "AdditionalRight": {
+      "definition": "Bestimmte Rechte, die den Aktionären eingeräumt werden und in Aktionärsversammlungen ausgeübt werden können, zum Beispiel das Recht, Fragen zu stellen, Punkte auf die Tagesordnung zu setzen oder Beschlussentwürfe einzubringen."
+    },
+    "AdditionalRightInformationURLAddress": {
+      "definition": "Adresse für den Dienst im World Wide Web (HTTP), unter der zusätzliche Informationen zu den den Aktionären eingeräumten besonderen Rechten zu finden sind."
+    },
+    "AdditionalRightDeadline": {
+      "definition": "Zusätzlich eingeräumtes Recht zur Festlegung von Datum und Uhrzeit, bis zu denen Wertpapierinhaber Änderungen oder neue Beschlüsse vorschlagen können. Diese Frist wird von einem Intermediär festgelegt."
+    },
+    "AdditionalRightMarketDeadline": {
+      "definition": "Zusätzlich eingeräumtes Recht zur Festlegung von Datum und Uhrzeit, bis zu denen Wertpapierinhaber Änderungen oder neue Beschlüsse vorschlagen können. Diese Frist wird vom Emittenten festgelegt."
+    },
+    "AdditionalRightThreshold": {
+      "definition": "Zusätzlich eingeräumtes Recht zur Festlegung der Mindestbeteiligung am Grundkapital oder des Mindestbarwerts oder der Mindestanzahl von Wertpapierinhabern, die zum Einbringen von Beschlüssen erforderlich ist."
+    }
+  }
+}

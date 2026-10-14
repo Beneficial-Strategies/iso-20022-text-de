@@ -1,0 +1,4 @@
+{
+  "isoType": "RequestForTransferStatusReportV09",
+  "definition": "Anwendungsbereich|Der RequestForTransferStatusReport wird von einer anweisenden Partei, zum Beispiel einem Vermögensverwalter oder dessen bevollmächtigtem Vertreter, an die ausführende Partei, zum Beispiel eine Transferstelle, gesendet, um den Status einer zuvor angewiesenen Übertragung anzufordern.|Der RequestForTransferStatusReport kann auch von jeder Partei der Übertragungstransaktion an eine andere Partei in der Kette der Übertragungstransaktion gesendet werden, um für die Abwicklung einer Übertragungstransaktion relevante Informationen anzufordern.|Verwendung|Der RequestForTransferStatusReport wird verwendet, um entweder Folgendes anzufordern:|- den Status einer oder mehrerer Informationsanfragen oder Übertragungsanweisungen oder|- den Status einer oder mehrerer Übertragungsstornierungsanweisungen oder|- Informationen zu einer oder mehreren Übertragungsanweisungen."
+}

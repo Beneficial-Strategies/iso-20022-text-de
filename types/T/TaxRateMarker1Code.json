@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxRateMarker1Code",
+  "definition": "Gibt den erhobenen Steuersatz an.",
+  "isoCodes": {
+    "ALPR": {
+      "name": "Angegebener Betrag abzüglich Lebensversicherung",
+      "definition": "Gibt den angegebenen Betrag abzüglich der Einkommensteuer zum Satz für Lebensversicherungsprämien an."
+    },
+    "ALIT": {
+      "name": "Angegebener Betrag abzüglich Standardsatz",
+      "definition": "Gibt den angegebenen Betrag abzüglich der Einkommensteuer zum Standardsatz an."
+    },
+    "GRSS": {
+      "name": "Bruttobetrag",
+      "definition": "Gibt einen Betrag vor Abzug der Steuer an."
+    }
+  }
+}

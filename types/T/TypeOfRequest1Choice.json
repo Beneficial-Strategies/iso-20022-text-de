@@ -1,0 +1,12 @@
+{
+  "isoType": "TypeOfRequest1Choice",
+  "definition": "Auswahl zwischen Formaten für eine Art von Anfrage.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der Anfrage, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Art der Anfrage, ausgedrückt als proprietärer Code."
+    }
+  }
+}

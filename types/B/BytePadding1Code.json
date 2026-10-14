@@ -1,0 +1,26 @@
+{
+  "isoType": "BytePadding1Code",
+  "definition": "Auffüllen von Bytes bei einer Verschlüsselung im CBC-Modus (Cipher Block Chaining), wenn das Auffüllen nicht implizit erfolgt.",
+  "isoCodes": {
+    "LNGT": {
+      "name": "Längen-Padding",
+      "definition": "Die zu verschlüsselnde Nachricht wird um einen Bytewert ergänzt, der die Gesamtzahl der hinzugefügten Bytes enthält."
+    },
+    "NUL8": {
+      "name": "Null-80-Padding",
+      "definition": "Die zu verschlüsselnde Nachricht wird um ein Bit mit dem Wert 1 ergänzt, gefolgt von Nullbits, bis die Länge des Verschlüsselungsblocks erreicht ist."
+    },
+    "NULG": {
+      "name": "Null-Längen-Padding",
+      "definition": "Die zu verschlüsselnde Nachricht wird um Null-Bytewerte ergänzt, wobei das letzte Byte die Gesamtzahl der hinzugefügten Bytes enthält."
+    },
+    "NULL": {
+      "name": "Null-Padding",
+      "definition": "Die zu verschlüsselnde Nachricht wird um Null-Bytes ergänzt."
+    },
+    "RAND": {
+      "name": "Zufalls-Padding",
+      "definition": "Die zu verschlüsselnde Nachricht wird um einen Zufallswert ergänzt, wobei das letzte Byte die Gesamtzahl der hinzugefügten Bytes enthält."
+    }
+  }
+}

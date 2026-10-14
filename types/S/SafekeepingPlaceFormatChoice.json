@@ -1,0 +1,15 @@
+{
+  "isoType": "SafekeepingPlaceFormatChoice",
+  "definition": "Auswahl von Formaten für den Verwahrort.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Verwahrort, ausgedrückt als Code und BIC."
+    },
+    "IdentificationAsDSS": {
+      "definition": "Verwahrort, ausgedrückt mit einem proprietären Identifikationsschema."
+    },
+    "IdentificationAsCountry": {
+      "definition": "Verwahrort, ausgedrückt mit einem Ländercode."
+    }
+  }
+}

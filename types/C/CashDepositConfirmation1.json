@@ -1,0 +1,15 @@
+{
+  "isoType": "CashDepositConfirmation1",
+  "definition": "Bestätigung, wie der Bargeldempfänger die Bargeldeinzahlung abwickeln wird.",
+  "isoElements": {
+    "ValidCashDepositReceived": {
+      "definition": "Bestätigt das vom Bargeldempfänger erhaltene Bargeld für einen Auftrag zur Bargeldeinzahlung, das dem Konto gutgeschrieben wird."
+    },
+    "InvalidCashDepositReceived": {
+      "definition": "Bestätigt das vom Bargeldempfänger erhaltene Bargeld für einen CashDepositRequest, das keinem Konto gutgeschrieben wird, zum Beispiel weil das Bargeld gefälscht ist."
+    },
+    "DiscrepancyIdentification": {
+      "definition": "Eindeutige Identifikation der Abweichung."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndDirection35",
+  "definition": "Sich ergebender Lastschrift- oder Gutschriftbetrag aus der Saldierung der Beträge aller Lastschrift- und Gutschriftbuchungen.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Sich ergebender Betrag aus der Saldierung der Beträge aller Lastschrift- und Gutschriftbuchungen."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob es sich bei dem Betrag um einen Gutschrifts- oder einen Lastschriftbetrag handelt."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "MultilateralSettlementRequest3",
+  "definition": "Enthält Einzelheiten zu den einzelnen in der Nachricht enthaltenen Abwicklungsanweisungen.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Eindeutige Identifikation, die von der beauftragenden Bank vergeben und an die Marktinfrastruktur gesendet wird, um die Anweisung zu identifizieren.||Verwendung: Die Anweisungsidentifikation ist eine Punkt-zu-Punkt-Referenz, die zwischen der beauftragenden Bank und der Marktinfrastruktur verwendet werden kann, um auf die einzelne Anweisung zu verweisen. Sie kann in mehreren Nachrichten zur Anweisung enthalten sein."
+    },
+    "InstructionPriority": {
+      "definition": "Kennzeichen für die Dringlichkeit oder Rangfolge, die die beauftragende Bank von der Marktinfrastruktur bei der Bearbeitung der Anweisung angewendet haben möchte.||Verwendung: Die Marktpraxis oder eine bilaterale Vereinbarung sollte festlegen, wie dieses Element zu verwenden ist. Wenn dieses Element nicht befüllt ist und es weder eine Marktvorgabe noch eine bilaterale Vereinbarung gibt, gilt die Priorität als „Normal“."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Enthält Angaben zu den gewünschten Abwicklungszeiten der Anweisung."
+    },
+    "SettlementPriority": {
+      "definition": "Kennzeichen für die Dringlichkeit oder Rangfolge, die die beauftragende Bank von der Marktinfrastruktur bei der Bearbeitung der Abwicklungsanweisung angewendet haben möchte.||Verwendung: Die Marktpraxis oder eine bilaterale Vereinbarung sollte festlegen, wie dieses Element zu verwenden ist. Wenn dieses Element nicht befüllt ist und es weder eine Marktvorgabe noch eine bilaterale Vereinbarung gibt, gilt die Priorität als „Normal“."
+    },
+    "SettlementCycle": {
+      "definition": "Identifikation des Abwicklungszyklus im Abwicklungsservice.||Verwendung: SettlementCycle dient dazu, diese multilaterale Abwicklung von anderen multilateralen Abwicklungen zu unterscheiden, von denen innerhalb eines bestimmten Zeitraums mehrere stattfinden."
+    },
+    "NumberOfMovementRecords": {
+      "definition": "Kennzeichen für die Anzahl der in einer einzelnen Abwicklungsanforderung enthaltenen Bewegungssätze."
+    },
+    "MovementRecord": {
+      "definition": "In einer einzelnen Abwicklungsanforderung enthaltene Gutschrifts- oder Belastungstransaktion.||Verwendung: Die Summe aller Beträge (Belastungs- und Gutschriftssätze) sollte bei Netto-Abwicklung null ergeben."
+    }
+  }
+}

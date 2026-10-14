@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingRateIdentification1Choice",
+  "definition": "Gibt den Identifikationscode des Abrechnungssatzes an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Identifikationscode des Abrechnungssatzes an, wie in einer externen Codeliste definiert."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Identifikationscode des Abrechnungssatzes in einem proprietären Format an."
+    }
+  }
+}

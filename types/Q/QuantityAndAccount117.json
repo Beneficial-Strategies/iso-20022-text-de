@@ -1,0 +1,50 @@
+{
+  "isoType": "QuantityAndAccount117",
+  "definition": "Details zu einer Menge, einem Konto und weiteren zugehörigen Informationen.",
+  "isoElements": {
+    "SettlementQuantity": {
+      "definition": "Gesamtmenge der abzuwickelnden Wertpapiere."
+    },
+    "DenominationChoice": {
+      "definition": "Stückelung des zu empfangenden oder zu liefernden Wertpapiers."
+    },
+    "AccountOwner": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Blockchain-Adresse oder Wallet, in der digitale Vermögenswerte gehalten werden. Dies entspricht dem Verwahrkonto für digitale Vermögenswerte."
+    },
+    "CashAccount": {
+      "definition": "Konto, auf das oder von dem eine Geldbuchung erfolgt."
+    },
+    "SafekeepingPlace": {
+      "definition": "Ort, an dem die Wertpapiere physisch oder buchmäßig verwahrt werden. Dieser Ort kann zum Beispiel eine lokale Depotbank, ein Central Securities Depository (CSD) oder ein International Central Securities Depository (ICSD) sein."
+    },
+    "QuantityBreakdown": {
+      "definition": "Aufgliederung einer Menge in Posten, wie Steuerposten oder Instrumentenserien."
+    }
+  },
+  "isoRules": {
+    "DenominationRule": {
+      "definition": "Sofern zwischen Kontoinhaber und Kontoführer nicht bilateral anders vereinbart, darf DenominationChoice, wenn verwendet, keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können."
+    },
+    "SafekeepingPlaceRule": {
+      "definition": "Die SafekeepingPlace-Funktionalität in den Abwicklungsanweisungen ist ausschließlich für Global Custodians zu verwenden, die es ihren Kunden ermöglichen festzulegen, wo die Wertpapiere gehalten werden sollen, beispielsweise auf einem Konto beim internationalen Zentralverwahrer (ICSD) im Gegensatz zu einem Konto beim lokalen Zentralverwahrer."
+    },
+    "SafekeepingPlaceGuideline": {
+      "definition": "Bei Verwendung (siehe Verwendungsregel SafekeepingPlaceRule) wird empfohlen, sofern zwischen dem Kontoführer und dem Kontoinhaber keine besonderen Vereinbarungen bestehen, das Feld für den Verwahrort nach der folgenden Marktpraxis zu verwenden:|• SafekeepingPlaceType/SharesHeldAtNCSD: Die BIC eines NCSD wird für inländische Abwicklungsanweisungen und für Abwicklungsanweisungen von NCSD zu NCSD verwendet.|• SafekeepingPlaceType/SharesHeldAtICSD: Die BIC eines ICSD wird für ICSD-interne Abwicklungsanweisungen, ICSD/lokale Abwicklungsanweisungen und Abwicklungsanweisungen von ICSD zu ICSD verwendet.|• SafekeepingPlaceType/SharesHeldAtLoaclCustodian: Anwendbar zum Beispiel, wenn der Kontoführer ein globaler Verwahrer ist und dem Kontoinhaber eine Bestandsmeldung auf der Ebene der Agenten des globalen Verwahrers bereitstellt. Bei der Erteilung von Anweisungen würde der Fondsmanager daher als Verwahrort die BIC des Agenten des globalen Verwahrers im Markt angeben.|Das Fehlen von SafekeepingPlace bedeutet, dass:|• Die SafekeepingPlace-Information vom Kontoführer geführt wird (SLA, Kontostruktur usw.) und vom Kontoinhaber nicht angegeben werden sollte.|• Der SafekeepingPlace die Verwahrstelle der Gegenpartei ist. Die Transaktion ist daher inländisch (an einen NCSD) oder intern bei einem ICSD.|Weitere Einzelheiten finden sich im entsprechenden Marktpraxisdokument unter www.smpg.info (ETC)."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Entweder SafekeepingAccount oder BlockChainAddressOrWallet muss vorhanden sein, aber nicht beide."
+    }
+  }
+}

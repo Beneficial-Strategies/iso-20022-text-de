@@ -1,0 +1,21 @@
+{
+  "isoType": "SecuritiesOption80",
+  "definition": "Liefert Informationen zur Wertpapieroption der Kapitalmaßnahme.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifikation des Finanzinstruments."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Wert eine Belastung oder eine Gutschrift ist."
+    },
+    "PostingQuantity": {
+      "definition": "Menge der Wertpapiere, die auf dem Verwahrkonto gebucht wurden (Gutschrift oder Belastung)."
+    },
+    "PostingDate": {
+      "definition": "Datum der Buchung (Gutschrift oder Belastung) auf dem Konto."
+    },
+    "OriginalPostingDate": {
+      "definition": "Datum und Uhrzeit der Buchung (Gutschrift oder Belastung) auf dem Konto, die ursprünglich in der Bestätigung mitgeteilt wurde."
+    }
+  }
+}

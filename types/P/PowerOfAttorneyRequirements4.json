@@ -1,0 +1,20 @@
+{
+  "isoType": "PowerOfAttorneyRequirements4",
+  "definition": "Bedingungen für die Erlangung einer Vollmacht.",
+  "isoElements": {
+    "LegalRequirement": {
+      "definition": "Behörde, die die Vollmacht bestätigen muss."
+    },
+    "OtherDocumentation": {
+      "definition": "Dokumente, die zur Erlangung einer gültigen Vollmacht erforderlich sind."
+    },
+    "DocumentSubmissionDeadline": {
+      "definition": "Datum, bis zu dem die angeforderten Dokumente vorzulegen sind."
+    }
+  },
+  "isoRules": {
+    "OtherDocumentation1Guideline": {
+      "definition": "Werden vollmachtsspezifische Fristen angekündigt, wird empfohlen, OtherDocumentation zu verwenden."
+    }
+  }
+}

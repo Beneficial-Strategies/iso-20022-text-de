@@ -1,0 +1,75 @@
+{
+  "isoType": "ClearingSystemMemberIdentification2Choice",
+  "definition": "Auswahl von Kennungen für ein Clearingsystem-Mitglied, wie vom Clearingsystem vergeben. In einigen Clearingsystemen wird auch den Konten der Clearingsystem-Mitglieder eine Kennung zugewiesen.",
+  "isoElements": {
+    "CHIPSUniversalIdentification": {
+      "definition": "(United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) – identifiziert Einheiten, die Konten bei CHIPS-teilnehmenden Finanzinstituten führen, über die CHIPS-Zahlungen abgewickelt werden. Die CHIPS UID wird vom New York Clearing House vergeben."
+    },
+    "NewZealandNCCIdentification": {
+      "definition": "Neuseeländischer Bank-/Filialcode - identifiziert neuseeländische Institute im neuseeländischen nationalen Clearingsystem. Der Code wird von der New Zealand Bankers' Association (NZBA) vergeben."
+    },
+    "IrishNSCIdentification": {
+      "definition": "Irischer nationaler Sortiercode - identifiziert irische Finanzinstitute im irischen nationalen Clearingsystem. Der Code wird von der Irish Payments Services Organisation (IPSO) vergeben."
+    },
+    "UKDomesticSortCode": {
+      "definition": "Sort Code des Vereinigten Königreichs (UK) - identifiziert britische Finanzinstitute in den britischen nationalen Clearingsystemen. Der Sort Code wird von der Association for Payments and Clearing Services (APACS) vergeben."
+    },
+    "CHIPSParticipantIdentification": {
+      "definition": "(Vereinigte Staaten) Clearing House Interbank Payment System (CHIPS) Participant Identifier (ID) - identifiziert am CHIPS teilnehmende Finanzinstitute. Die CHIPS Participant ID wird vom New York Clearing House vergeben."
+    },
+    "SwissBCIdentification": {
+      "definition": "Schweizer Bankencode - identifiziert Schweizer Institute im Schweizer nationalen Clearingsystem."
+    },
+    "FedwireRoutingNumberIdentification": {
+      "definition": "Fedwire-Routingnummer - identifiziert Finanzinstitute in den USA im FedWire-System. Die Routingnummer wird von der American Bankers Association (ABA) vergeben."
+    },
+    "PortugueseNCCIdentification": {
+      "definition": "Portugiesischer nationaler Clearingcode - identifiziert portugiesische Finanzinstitute im portugiesischen nationalen Clearingsystem."
+    },
+    "RussianCentralBankIdentificationCode": {
+      "definition": "Identifikationscode der russischen Zentralbank - identifiziert russische Finanzinstitute im russischen nationalen Clearingsystem."
+    },
+    "ItalianDomesticIdentificationCode": {
+      "definition": "Italienischer inländischer Identifikationscode - identifiziert italienische Finanzinstitute im italienischen nationalen Clearingsystem. Der Code wird von der Associazione Bancaria Italiana (ABI) vergeben."
+    },
+    "AustrianBankleitzahlIdentification": {
+      "definition": "Österreichische Bankleitzahl - identifiziert österreichische Finanzinstitute im österreichischen nationalen Clearingsystem."
+    },
+    "CanadianPaymentsAssociationRoutingNumberIdentification": {
+      "definition": "Routingnummer der Canadian Payments Association - identifiziert kanadische Finanzinstitute im kanadischen nationalen Clearingsystem."
+    },
+    "SwissSICIdentification": {
+      "definition": "Swiss Interbank Clearing (SIC) Code - identifiziert Schweizer Finanzinstitute im Inland im Schweizer nationalen Clearingsystem."
+    },
+    "GermanBankleitzahlIdentification": {
+      "definition": "Deutsche Bankleitzahl - identifiziert deutsche Finanzinstitute in den deutschen nationalen Clearingsystemen."
+    },
+    "SpanishDomesticInterbankingIdentification": {
+      "definition": "Spanischer inländischer Interbankencode - identifiziert spanische Finanzinstitute im spanischen nationalen Clearingsystem. Der Code wird vom Centro de Cooperacion Interbancaria (CCI) vergeben."
+    },
+    "SouthAfricanNCCIdentification": {
+      "definition": "Südafrikanischer nationaler Clearingcode (NCC) - identifiziert südafrikanische Finanzinstitute im südafrikanischen nationalen Clearingsystem. Der Code wird von der South African Bankers Services Company Ltd. (BankServ) vergeben."
+    },
+    "HongKongBankCode": {
+      "definition": "Hongkonger Bankcode - identifiziert Finanzinstitute in Hongkong im lokalen Clearingsystem von Hongkong."
+    },
+    "AustralianExtensiveBranchNetworkIdentification": {
+      "definition": "Umfangreiche Filialnetzliste des australischen Bank State Branch (BSB) Code. Die Codes dienen der Identifikation australischer Finanzinstitute und werden von der Australian Payments Clearing Association (APCA) vergeben."
+    },
+    "AustralianSmallNetworkIdentification": {
+      "definition": "Kleine Netzliste des australischen Bank State Branch (BSB) Code. Die Codes dienen der Identifikation australischer Finanzinstitute und werden von der Australian Payments Clearing Association (APCA) vergeben."
+    },
+    "IndianFinancialSystemCode": {
+      "definition": "Indian Financial System Code - identifiziert indische Finanzinstitute im indischen lokalen Clearingsystem."
+    },
+    "HellenicBankIdentificationCode": {
+      "definition": "Hellenic Bank Identification Code - identifiziert griechische Finanzinstitute im griechischen nationalen Clearingsystem."
+    },
+    "PolishNationalClearingCode": {
+      "definition": "Polish National Clearing Code - identifiziert polnische Finanzinstitute im polnischen nationalen Clearingsystem."
+    },
+    "OtherClearingCodeIdentification": {
+      "definition": "Identifikationscode für ein Clearingsystem, das in der Liste der Clearingsysteme noch nicht aufgeführt ist."
+    }
+  }
+}

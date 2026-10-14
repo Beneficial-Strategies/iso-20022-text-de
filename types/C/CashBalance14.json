@@ -1,0 +1,29 @@
+{
+  "isoType": "CashBalance14",
+  "definition": "Saldendetails für ein Geldkonto.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art eines Saldos an."
+    },
+    "CounterpartyType": {
+      "definition": "Gibt die Art der Gegenpartei an, für die der Saldo berechnet wird."
+    },
+    "CounterpartyIdentification": {
+      "definition": "Gibt die Gegenpartei an, für die der Saldo berechnet wird."
+    },
+    "ValueDate": {
+      "definition": "Datum und Uhrzeit, zu dem der Saldo verfügbar ist oder sein wird."
+    },
+    "ProcessingDate": {
+      "definition": "Datum oder Datum und Uhrzeit der letzten Aktualisierung des Saldos aufgrund einer auf dem Konto gebuchten Buchung in den Büchern der kontoführenden Stelle."
+    }
+  },
+  "isoRules": {
+    "CounterpartyIdentification1Rule": {
+      "definition": "Wenn mindestens ein Vorkommen von CounterpartyType vorhanden ist und dem Wert Multilateral (MULT) entspricht, ist kein Vorkommen von CounterpartyIdentification zulässig.|Wenn CounterpartyType nicht vorhanden ist, ist jedes Vorkommen von CounterpartyIdentification optional."
+    },
+    "CounterpartyIdentification2Rule": {
+      "definition": "Wenn mindestens ein Vorkommen von CounterpartyType vorhanden ist und dem Wert Bilateral (BILA) entspricht, muss mindestens ein Vorkommen von CounterpartyIdentification vorhanden sein.|Wenn CounterpartyType nicht vorhanden ist, ist jedes Vorkommen von CounterpartyIdentification optional."
+    }
+  }
+}

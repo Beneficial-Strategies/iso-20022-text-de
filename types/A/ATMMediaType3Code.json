@@ -1,0 +1,30 @@
+{
+  "isoType": "ATMMediaType3Code",
+  "definition": "Kategorie der Medienobjekte.",
+  "isoCodes": {
+    "CNTR": {
+      "name": "Falsch",
+      "definition": "Erkannte gefälschte Medien."
+    },
+    "FITN": {
+      "name": "Umlauffähig",
+      "definition": "Umlauffähige Medien."
+    },
+    "FITU": {
+      "name": "Umlauffähig und nicht umlauffähig",
+      "definition": "Umlauffähige oder nicht umlauffähige Medien, wenn die Umlauffähigkeit nicht bestimmt werden kann."
+    },
+    "SPCT": {
+      "name": "Verdächtig",
+      "definition": "Verdächtige Medien."
+    },
+    "UNFT": {
+      "name": "Nicht umlauffähig",
+      "definition": "Nicht umlauffähige Medien (unzureichende Qualität)."
+    },
+    "UNRG": {
+      "name": "Nicht erkannt",
+      "definition": "Nicht erkannte Medien."
+    }
+  }
+}

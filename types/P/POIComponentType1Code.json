@@ -1,0 +1,34 @@
+{
+  "isoType": "POIComponentType1Code",
+  "definition": "Generischer Komponententyp eines POI-Terminals (Point of Interaction).",
+  "isoCodes": {
+    "SOFT": {
+      "name": "Software",
+      "definition": "Zahlungs- oder sonstige Softwareanwendung."
+    },
+    "EMVK": {
+      "name": "EMV-Kernel",
+      "definition": "EMV-Anwendungskernel (EMV sind die ursprünglich von Eurocard, Mastercard und Visa definierten Chipkartenspezifikationen)."
+    },
+    "EMVO": {
+      "name": "EMV-Level 1",
+      "definition": "Physische EMV-Schnittstelle (EMV sind die ursprünglich von Eurocard, Mastercard und Visa definierten Chipkartenspezifikationen)."
+    },
+    "MRIT": {
+      "name": "Händlerschnittstelle",
+      "definition": "Händler-Schnittstelle."
+    },
+    "CHIT": {
+      "name": "Schnittstelle des Karteninhabers",
+      "definition": "Karteninhaber-Schnittstelle."
+    },
+    "SECM": {
+      "name": "Sicherheitsmodul",
+      "definition": "Sicherheitsmodul."
+    },
+    "PEDV": {
+      "name": "PIN-Eingabegerät",
+      "definition": "PIN-Eingabegerät (PED) für die persönliche Identifikationsnummer (PIN)."
+    }
+  }
+}

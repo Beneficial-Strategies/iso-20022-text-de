@@ -1,0 +1,82 @@
+{
+  "isoType": "InvestmentFundFee3Code",
+  "definition": "Gibt die Art der Leistung an, für die eine Gebühr verlangt oder gezahlt wird.",
+  "isoCodes": {
+    "BEND": {
+      "name": "Rücknahmeabschlag",
+      "definition": "Gebühr, die der Anleger bei der Rücknahme an den Fonds oder die Fondsverwaltungsgesellschaft zahlt."
+    },
+    "BRKF": {
+      "name": "Maklergebühr",
+      "definition": "An einen Broker gezahlte Gebühr für erbrachte Leistungen."
+    },
+    "CDSC": {
+      "name": "Bedingte aufgeschobene Verkaufsgebühr",
+      "definition": "Nachträglich fällige Verkaufsgebühr."
+    },
+    "CBCH": {
+      "name": "Gebühr der Korrespondenzbank",
+      "definition": "Bei Investmentfonds die Gebühr der Korrespondenzbank für die Übertragung von Geldern."
+    },
+    "DLEV": {
+      "name": "Verwässerungsabgabe",
+      "definition": "Bei Investmentfonds eine vom Anleger zu zahlende Gebühr, die Geld-Brief-Spannen und Handelskosten für die zugrunde liegenden Anlagen abdeckt. Die Verwässerungsabgabe wird zugunsten der übrigen Anteilinhaber an den Fonds gezahlt."
+    },
+    "FEND": {
+      "name": "Ausgabeaufschlag",
+      "definition": "Gebühr, die der Anleger bei der Zeichnung an den Fonds oder die Fondsverwaltungsgesellschaft zahlt."
+    },
+    "INIT": {
+      "name": "Ausgabeaufschlag",
+      "definition": "Bei der Erstzeichnung gezahlte Gebühr."
+    },
+    "PREM": {
+      "name": "Aufschlag",
+      "definition": "Bei Investmentfonds ein im Voraus vereinbarter Aufschlag auf den Handelsbetrag auf Grundlage des veröffentlichten Nettoinventarwerts."
+    },
+    "CHAR": {
+      "name": "Gebühr für Dienstleistungserbringung",
+      "definition": "Gebühr, die der Anleger an einen Vertriebspartner/Vermittler oder einen anderen Dienstleister für die Erbringung von Finanzdienstleistungen zahlt."
+    },
+    "SWIT": {
+      "name": "Umschichtung",
+      "definition": "Bei Investmentfonds eine Gebühr im Zusammenhang mit einer Umschichtungstransaktion."
+    },
+    "UCIC": {
+      "name": "UCITS-Provision",
+      "definition": "Entgelte, die der Anleger für Zeichnungs- und Rücknahmeaufträge an die Fondsgesellschaft zahlt."
+    },
+    "COMM": {
+      "name": "Provision",
+      "definition": "Betrag, den der Fonds an einen Dritten auszahlt."
+    },
+    "SHIP": {
+      "name": "Versandgebühr",
+      "definition": "Gebühr für den Versand, einschließlich der Versicherung von Wertpapieren."
+    },
+    "POST": {
+      "name": "Portogebühr",
+      "definition": "Für das Porto gezahlte Gebühr."
+    },
+    "CDPL": {
+      "name": "Platzierungsprovision",
+      "definition": "Barbetrag, der einem Vermittler für den Verkauf eines Produkts oder von Dienstleistungen an eine dritte Partei geschuldet wird."
+    },
+    "ADDF": {
+      "name": "Zusätzliche Gebühr",
+      "definition": "Zusätzliche Gebühr, die nicht von einer anderen Gebührenart abgedeckt ist."
+    },
+    "REGF": {
+      "name": "Aufsichtsgebühr",
+      "definition": "Von einer Aufsichtsbehörde erhobene Gebühr, zum Beispiel Wertpapier- und Börsengebühren."
+    },
+    "PENA": {
+      "name": "Strafgebühr",
+      "definition": "Dem Anleger für die vorzeitige Rücknahme des Fonds berechnete Gebühr."
+    },
+    "NTWK": {
+      "name": "Netzwerkgebühr",
+      "definition": "Netzwerkgebühr, die einer Transaktion in einem DLT-Netzwerk zugeordnet wird."
+    }
+  }
+}

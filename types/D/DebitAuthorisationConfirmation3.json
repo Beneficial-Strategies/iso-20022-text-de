@@ -1,0 +1,24 @@
+{
+  "isoType": "DebitAuthorisationConfirmation3",
+  "definition": "Gibt an, ob die Belastungsautorisierung erteilt wird oder nicht.",
+  "isoElements": {
+    "DebitAuthorisation": {
+      "definition": "Code für die vom Kontoinhaber getroffene Entscheidung zur Anfrage einer Belastungsautorisierung."
+    },
+    "AmountToDebit": {
+      "definition": "Für die Belastung autorisierter Geldbetrag. |Verwendung: Die die Belastung genehmigende Partei möchte den Betrag möglicherweise abzüglich Entgelten autorisieren und ist unter Umständen nur bereit, die Belastung mit Wertstellung heute statt mit dem ursprünglichen Wertstellungsdatum zu genehmigen."
+    },
+    "Account": {
+      "definition": "Konto, auf dem die Belastung gebucht werden soll."
+    },
+    "ValueDateToDebit": {
+      "definition": "Wertstellungsdatum für die Belastung des Kontos."
+    },
+    "CommonTransactionIdentification": {
+      "definition": "Eindeutige Identifikation (UTI), die von den beiden Handelspartnern zur Identifikation des Handelsgeschäfts vereinbart wurde.||Verwendung: Wird nur in der Wertpapierbranche verwendet."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Antwort auf die Belastungsautorisierung an."
+    }
+  }
+}

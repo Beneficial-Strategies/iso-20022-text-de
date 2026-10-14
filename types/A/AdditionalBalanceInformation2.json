@@ -1,0 +1,23 @@
+{
+  "isoType": "AdditionalBalanceInformation2",
+  "definition": "Nettoposition eines getrennt geführten Bestands eines einzelnen Wertpapiers innerhalb der im Wertpapierdepot gehaltenen Gesamtposition, zum Beispiel Unterbestand je Status.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Menge der Wertpapiere im Teilsaldo."
+    },
+    "SubBalanceType": {
+      "definition": "Grund, warum ein Wertpapier nicht verfügbar ist, oder zusätzliche Informationen zum Finanzinstrument, für das der Saldo angegeben ist, zum Beispiel nicht registriert, auf den Namen eines Nominees registriert."
+    },
+    "ExtendedSubBalanceType": {
+      "definition": "Grund, warum ein Wertpapier nicht verfügbar ist, oder zusätzliche Informationen zum Finanzinstrument, für das der Saldo angegeben ist, zum Beispiel nicht registriert, auf den Namen eines Nominees registriert."
+    }
+  },
+  "isoRules": {
+    "SubBalanceTypeOrExtendedSubBalanceTypeRule": {
+      "definition": "Entweder SubBalanceType oder ExtendedSubBalanceType muss vorhanden sein, aber nicht beide."
+    },
+    "SubBalanceTypeOrExtendedSubBalanceTypeRuleNotBoth": {
+      "definition": "Entweder SubBalanceType oder ExtendedSubBalanceType muss vorhanden sein, aber nicht beide."
+    }
+  }
+}

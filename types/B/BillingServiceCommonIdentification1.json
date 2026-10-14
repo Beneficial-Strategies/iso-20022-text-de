@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingServiceCommonIdentification1",
+  "definition": "Gemeinsame Identifikation eines abzurechnenden Services.",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Legt den Herausgeber des gemeinsamen Codes fest, wie \"AFP\"."
+    },
+    "Identification": {
+      "definition": "Standardreferenzcode zur eindeutigen Identifikation dieses Services über Finanzinstitute hinweg. Dies ist nicht die interne Service-Identifikation des Finanzinstituts."
+    }
+  }
+}

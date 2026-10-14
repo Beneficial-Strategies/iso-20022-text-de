@@ -1,0 +1,14 @@
+{
+  "isoType": "SecuritiesStatementType1Code",
+  "definition": "Gibt an, ob der Kontoauszug ein Buchhaltungs- oder ein Verwahrauszug ist.",
+  "isoCodes": {
+    "CUST": {
+      "name": "Verwahrung",
+      "definition": "Der Kontoauszug ist ein Verwahrauszug."
+    },
+    "ACCT": {
+      "name": "Buchhaltung",
+      "definition": "Der Kontoauszug ist ein Buchhaltungsauszug."
+    }
+  }
+}

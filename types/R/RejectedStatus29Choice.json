@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedStatus29Choice",
+  "definition": "Auswahl zwischen einem proprietären oder narrativen Grund und keinem Grund für den Status „abgelehnt“.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Grund nicht angegeben."
+    },
+    "Reason": {
+      "definition": "Grund für den abgelehnten Status."
+    }
+  }
+}

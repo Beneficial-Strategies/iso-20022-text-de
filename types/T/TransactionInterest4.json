@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionInterest4",
+  "definition": "Enthält weitere Details zu transaktionsspezifischen Zinsinformationen, die für die zugrunde liegende Transaktion gelten.",
+  "isoElements": {
+    "TotalInterestAndTaxAmount": {
+      "definition": "Gesamtbetrag der im Buchungsbetrag enthaltenen Zinsen und Steuern."
+    },
+    "Record": {
+      "definition": "Individueller Zinsdatensatz."
+    }
+  }
+}

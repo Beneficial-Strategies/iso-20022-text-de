@@ -1,0 +1,4 @@
+{
+  "isoType": "IntraBalanceMovementCancellationQueryV02",
+  "definition": "Die Nachricht IntraBalanceMovementCancellationQuery wird von einem Kontoinhaber bzw. einer anfordernden Partei an eine Abwicklungsinfrastruktur gesendet, um anhand einer Reihe von Suchkriterien oder fachlichen Attributen den Status von Stornierungsanweisungen für Bewegungen innerhalb des Saldos abzufragen.|Die Nachricht kann außerdem verwendet werden, um: |- eine vom Kontoinhaber an das kontoführende Institut gesendete Nachricht erneut zu senden (die Teilfunktion der Nachricht ist \"Duplicate\")|- einer dritten Partei eine Kopie einer vom Kontoinhaber gesendeten Nachricht zur Information bereitzustellen (die Teilfunktion der Nachricht ist \"Copy\")|- einer dritten Partei erneut eine Kopie einer vom Kontoinhaber zur Information gesendeten Nachricht bereitzustellen (die Teilfunktion der Nachricht ist \"Copy Duplicate\")."
+}

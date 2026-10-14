@@ -1,0 +1,21 @@
+{
+  "isoType": "Account34",
+  "definition": "Geschäftsbeziehung zwischen zwei Einheiten; eine Einheit ist der Kontoinhaber, die andere Einheit ist der Kontoführer.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "AccountDesignation": {
+      "definition": "Ergänzende Registrierungsinformationen, die für einen bestimmten Block von Anteilen zu Handels- und Meldezwecken gelten. Die ergänzenden Registrierungsinformationen können verwendet werden, wenn alle Anteile beispielsweise auf einen Fondssupermarkt registriert sind, die Bestände der einzelnen Anleger jedoch individuell abgestimmt werden müssen."
+    },
+    "AccountName": {
+      "definition": "Name des Kontos. Er dient als zusätzliches Identifikationsmittel und wird vom kontoführenden Institut in Absprache mit dem Kontoinhaber festgelegt."
+    },
+    "AccountServicer": {
+      "definition": "Institution, die die Aufzeichnungen führt, in denen das Konto geführt wird."
+    },
+    "RegistrationAddress": {
+      "definition": "Adresse der Nominee-Gesellschaft, die die Vermögenswerte im Auftrag der Partei bei der Transferstelle oder dem International Central Securities Depository oder Central Securities Depository hält."
+    }
+  }
+}

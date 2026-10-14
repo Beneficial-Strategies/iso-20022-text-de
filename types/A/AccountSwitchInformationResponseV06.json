@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchInformationResponseV06",
+  "definition": "Die Nachricht AccountSwitchInformationResponse wird vom Institut, das das Konto zuvor geführt hat, an das neue kontoführende Institut gesendet, um anzuzeigen, ob das Konto des Kontoinhabers gewechselt werden kann, und um, falls das Konto gewechselt werden darf, Einzelheiten der auf das neue kontoführende Institut zu übertragenden Zahlungsvereinbarungen zu übermitteln. Das alte kontoführende Institut darf das Fenster für die Saldoübertragung bestätigen."
+}

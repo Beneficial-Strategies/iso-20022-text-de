@@ -1,0 +1,15 @@
+{
+  "isoType": "DatePeriod1Choice",
+  "definition": "Zeitraum als Datum, Monat oder Datums-/Zeitspanne, für den der Kontoauszug erstellt wird.",
+  "isoElements": {
+    "Date": {
+      "definition": "Zeitspanne, die durch ein bestimmtes Datum definiert ist."
+    },
+    "DateMonth": {
+      "definition": "Zeitspanne, die durch einen Monat und ein Jahr definiert ist."
+    },
+    "FromDateToDate": {
+      "definition": "Zeitspanne, die durch ein Startdatum und ein Enddatum festgelegt ist."
+    }
+  }
+}

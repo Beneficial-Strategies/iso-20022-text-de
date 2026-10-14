@@ -1,0 +1,12 @@
+{
+  "isoType": "Frequency27Choice",
+  "definition": "Auswahl des Formats für eine Häufigkeit, zum Beispiel eine Zahlungshäufigkeit.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als ISO-20022-Code ausgedrückte Häufigkeit."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Häufigkeit."
+    }
+  }
+}

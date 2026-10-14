@@ -1,0 +1,17 @@
+{
+  "isoType": "TransferType2Choice",
+  "definition": "Auswahl von Formaten für eine Übertragungsart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Übertragungsart, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Übertragungsart, ausgedrückt als proprietärer Code."
+    }
+  },
+  "isoRules": {
+    "SECUGuideline": {
+      "definition": "Der Code SECU (Vermögenswert) wird verwendet, wenn ein Finanzinstrument wie Fondsanteile übertragen werden soll. |Der Code SECU wird auch verwendet, wenn Vermögenswerte wie Aktien oder Anleihen übertragen werden sollen. Der Code SECU wird ebenfalls für Vermögenswerte wie Immobilien, bewegliches Vermögen und andere ähnliche Arten sonstiger Vermögenswerte verwendet."
+    }
+  }
+}

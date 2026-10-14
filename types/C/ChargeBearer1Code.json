@@ -1,0 +1,18 @@
+{
+  "isoType": "ChargeBearer1Code",
+  "definition": "Gibt an, welche Partei(en) die für die Verarbeitung der Zahlungstransaktion fälligen Entgelte trägt/tragen.",
+  "isoCodes": {
+    "OUR": {
+      "name": "Zu Lasten des Zahlungspflichtigen",
+      "definition": "Alle Transaktionsentgelte sind vom Zahlungspflichtigen zu tragen."
+    },
+    "BEN": {
+      "name": "Zu Lasten des Zahlungsempfängers",
+      "definition": "Alle Transaktionsentgelte sind vom Zahlungsempfänger zu tragen."
+    },
+    "SHA": {
+      "name": "Geteilt",
+      "definition": "Im Überweisungsszenario sind die Transaktionsentgelte auf der Senderseite vom Zahlungspflichtigen zu tragen; die Transaktionsentgelte auf der Empfängerseite sind vom Zahlungsempfänger zu tragen."
+    }
+  }
+}

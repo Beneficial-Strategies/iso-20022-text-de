@@ -1,0 +1,140 @@
+{
+  "isoType": "SecuritiesFinancingTransactionDetails59",
+  "definition": "Einzelheiten zur Beendigung des Wertpapierfinanzierungsgeschäfts.",
+  "isoElements": {
+    "SecuritiesFinancingTradeIdentification": {
+      "definition": "Eindeutige Identifikation des zugrunde liegenden Wertpapierfinanzierungsgeschäfts, wie von der anweisenden Partei vergeben. Die Identifikation gilt für alle Sicherheitenteile (eines oder mehrere)."
+    },
+    "SecuritiesFinancingUniqueTransactionIdentifier": {
+      "definition": "Mit der anderen Gegenpartei vereinbarter Unique Transaction Identifier (UTI)."
+    },
+    "ClosingLegIdentification": {
+      "definition": "Eindeutige Identifikation des zweiten Teilgeschäfts der Transaktion, wie dem Kontoinhaber (oder der in dessen Auftrag handelnden anweisenden Partei) bekannt."
+    },
+    "PoolIdentification": {
+      "definition": "Sammelreferenz zur Identifikation einer Gruppe von Nachrichten."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Vom kontoführenden Institut vergebene Identifikation zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "TripartyAgentServiceProviderCollateralTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Triparty-Collateral-Management-Transaktion aus Sicht des Triparty-Agenten/Dienstleisters."
+    },
+    "ClientTripartyCollateralTransactionIdentification": {
+      "definition": "Eindeutige Referenz der Triparty-Collateral-Management-Transaktion aus Sicht des Kunden."
+    },
+    "AccountOwner": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Blockchain-Adresse oder Wallet, in der digitale Vermögenswerte gehalten werden. Dies entspricht dem Verwahrkonto für digitale Vermögenswerte."
+    },
+    "SafekeepingPlace": {
+      "definition": "Ort, an dem die Wertpapiere physisch oder buchmäßig verwahrt werden. Dieser Ort kann zum Beispiel eine lokale Depotbank, ein Central Securities Depository (CSD) oder ein International Central Securities Depository (ICSD) sein."
+    },
+    "PlaceOfTrade": {
+      "definition": "Markt, an dem ein Handelsgeschäft ausgeführt wurde."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Finanzinstrument, das eine Summe von Rechten des Anlegers gegenüber dem Emittenten darstellt."
+    },
+    "SettlementQuantity": {
+      "definition": "Gesamtmenge der abzuwickelnden Wertpapiere."
+    },
+    "OpeningSettlementAmount": {
+      "definition": "Gesamter Geldbetrag, der bei Eröffnung einer Wertpapierfinanzierungstransaktion im Austausch gegen die Wertpapiere zu zahlen oder zu erhalten ist."
+    },
+    "TerminationTransactionAmount": {
+      "definition": "Gesamtbetrag, der zur Beendigung der Transaktion abzuwickeln ist."
+    },
+    "DigitalPaymentSettlement": {
+      "definition": "Betrag des digitalen Vermögenswerts, der als Zahlungsmittel auf dem Konto gebucht werden soll bzw. gebucht wurde."
+    },
+    "OpeningSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere geliefert oder empfangen werden sollen."
+    },
+    "TerminationDate": {
+      "definition": "Datum/Uhrzeit der Beendigung oder Fälligkeit der Transaktion."
+    },
+    "TradeDate": {
+      "definition": "Gibt Datum und Uhrzeit der Ausführung des Geschäfts an."
+    },
+    "ExpectedSettlementDate": {
+      "definition": "Datum/Uhrzeit, zu denen der Sender die Abwicklung erwartet."
+    },
+    "ExpectedValueDate": {
+      "definition": "Bei Transaktionen gegen Zahlung das Valutadatum/die Valutazeit, zu der der Kontoführer erwartet, dass der Abwicklungsbetrag gutgeschrieben oder belastet wird."
+    },
+    "LateDeliveryDate": {
+      "definition": "Datum und Uhrzeit nach dem im Geschäft angegebenen Abwicklungsdatum, verwendet für Pool-Geschäfte, die aus den ursprünglichen To-Be-Assigned-(TBA-)Wertpapieren hervorgehen."
+    },
+    "RateChangeDate": {
+      "definition": "Datum/Uhrzeit, zu dem die Satzänderung stattgefunden hat."
+    },
+    "SecuritiesFinancingTransactionType": {
+      "definition": "Gibt die Art der Wertpapierfinanzierungstransaktion an, das heißt Repurchase Agreement, Reverse Repurchase Agreement, Wertpapierleihe oder Wertpapierentleihe."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Legt fest, ob die Bewegung auf einem Wertpapierkonto aus einer Liefer- oder einer Empfangsanweisung resultiert."
+    },
+    "Payment": {
+      "definition": "Legt fest, wie die Transaktion abgewickelt werden soll, beispielsweise gegen Zahlung."
+    },
+    "SettlementParameters": {
+      "definition": "Parameter, die auf die Abwicklung einer Wertpapierübertragung angewendet werden."
+    },
+    "RateType": {
+      "definition": "Gibt an, ob der Zinssatz fest oder variabel ist."
+    },
+    "VariableRateSupport": {
+      "definition": "Index oder Stützzinssatz, der zusammen mit dem Aufschlag zur Berechnung des Rückkaufzinssatzes verwendet wird."
+    },
+    "RepurchaseRate": {
+      "definition": "Zinssatz, der zur Neuberechnung des Rückkaufbetrags zu verwenden ist."
+    },
+    "StockLoanMargin": {
+      "definition": "Prozentualer Aufschlag auf eine Darlehensgegenleistung zur Abbildung des Risikos des Darlehensgebers."
+    },
+    "SecuritiesHaircut": {
+      "definition": "Bewertungsabschlag (Haircut) oder Bewertungsfaktor auf das Wertpapier, ausgedrückt als Prozentsatz."
+    },
+    "PricingRate": {
+      "definition": "Auf den Transaktionsbetrag zu zahlender Zinssatz, wie zwischen den Gegenparteien vereinbart."
+    },
+    "Spread": {
+      "definition": "Repurchase-Spread, ausgedrückt als Satz; Marge über oder unter einem Index, die den Rückkaufsatz bestimmt."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifiziert die Kette der liefernden Abwicklungsparteien."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifiziert die Kette der empfangenden Abwicklungsparteien."
+    },
+    "Investor": {
+      "definition": "Partei, entweder eine Einzelperson oder eine Organisation, deren Vermögenswerte angelegt werden."
+    },
+    "SettlementInstructionProcessingAdditionalDetails": {
+      "definition": "Liefert zusätzliche Informationen zur Abwicklungsverarbeitung, die nicht in den strukturierten Feldern der Nachricht angegeben werden können."
+    }
+  },
+  "isoRules": {
+    "TwoLegTransactionOpeningClosingRule": {
+      "definition": "Für in zwei Teilen abgewickelte Transaktionen (Wertpapierfinanzierung) werden die Informationen zur Eröffnung/Initiierung und Schließung/Rückgabe der Transaktion durch Senden der folgenden Kombination aus SecuritiesMovementType-Codes und SecuritiesFinancingTransactionType-Codes bereitgestellt:||Repo-Eröffnung|SecuritiesMovementType: Delivery (DELI)|SecuritiesFinancingTransactionType: Repo (REPU)|Repo-Schließung|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: Repo (REPU)||Reverse-Repo-Eröffnung|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: ReverseRepo (RVPO)|Reverse-Repo-Schließung|SecuritiesMovementType: Delivery (DELI) |SecuritiesFinancingTransactionType: ReverseRepo (RVPO)||Wertpapierleihe, Initiierung|SecuritiesMovementType: Delivery (DELI)|SecuritiesFinancingTransactionType: SecuritiesLending (SECL)|Wertpapierleihe, Rückgabe|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: SecuritiesLending (SECL)||Wertpapierentleihe, Initiierung|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: SecuritiesBorrowing (SECB)|Wertpapierentleihe, Rückgabe|SecuritiesMovementType: Delivery (DELI) |SecuritiesFinancingTransactionType: SecuritiesBorrowing (SECB)."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Sofern zwischen Sender und Empfänger nicht bilateral vereinbart, darf SettlementInstructionProcessingAdditionalDetails, wenn vorhanden, keine Informationen enthalten, die in einem strukturierten Feld bereitgestellt werden können."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Entweder SafekeepingAccount oder BlockChainAddressOrWallet muss vorhanden sein, aber nicht beide."
+    }
+  }
+}

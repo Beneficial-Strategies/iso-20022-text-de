@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventProcessingStatus3Choice",
+  "definition": "Auswahl des Verarbeitungsstatus der Kapitalmaßnahme.",
+  "isoElements": {
+    "Code": {
+      "definition": "Status einer Kapitalmaßnahme oder Status einer Zahlung, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Status einer Kapitalmaßnahme oder Status einer Zahlung, ausgedrückt als proprietärer Code."
+    }
+  }
+}

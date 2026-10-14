@@ -1,0 +1,12 @@
+{
+  "isoType": "BalanceType10Choice",
+  "definition": "Gibt den Saldotyp an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Saldotyp in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Saldotyp in proprietärer Form."
+    }
+  }
+}

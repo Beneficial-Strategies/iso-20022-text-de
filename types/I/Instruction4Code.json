@@ -1,0 +1,14 @@
+{
+  "isoType": "Instruction4Code",
+  "definition": "Legt weitere Anweisungen zur Bearbeitung einer Zahlungsanweisung fest, die von der sendenden Clearing-Bank an die nächste(n) Bank(en) übermittelt werden.",
+  "isoCodes": {
+    "PHOA": {
+      "name": "Nächste Bank anrufen",
+      "definition": "Bitte die nächste Bank telefonisch benachrichtigen bzw. kontaktieren."
+    },
+    "TELA": {
+      "name": "Nächste Bank per Telekommunikation kontaktieren",
+      "definition": "Bitte die nächste Bank auf dem effizientesten Telekommunikationsweg benachrichtigen bzw. kontaktieren."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "CashAccount204",
+  "definition": "Konto, auf das oder von dem eine Geldbuchung erfolgt.",
+  "isoElements": {
+    "SettlementCurrency": {
+      "definition": "Mit dem Zahlungsinstrument verbundene Währung."
+    },
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "AccountOwner": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    },
+    "AccountServicer": {
+      "definition": "Partei, die das Konto im Auftrag des Kontoinhabers führt, das heißt die Erfassung und Buchung von Umsätzen auf dem Konto verwaltet, die Salden des Kontos berechnet und Informationen über das Konto bereitstellt."
+    },
+    "AccountServicerBranch": {
+      "definition": "Informationen zur Identifikation einer bestimmten Filiale eines Finanzinstituts.||Verwendung: Diese Komponente sollte verwendet werden, wenn die Identifikationsinformationen in der Finanzinstitut-Komponente keine Identifikation bis zur Filialebene bieten."
+    },
+    "AccountOwnerOtherIdentification": {
+      "definition": "Alternative Identifikation, zum Beispiel nationale Registrierungsnummer, Reisepassnummer, Steueridentifikationsnummer. Dies kann eine Kontonummer sein, die zur weiteren Identifikation des wirtschaftlich Berechtigten dient, zum Beispiel ein Konto des Central Provident Fund (CFP), wie es für Singapur erforderlich ist."
+    },
+    "InvestmentAccountType": {
+      "definition": "Kontoart."
+    },
+    "CreditDebit": {
+      "definition": "Gibt an, ob das Konto für Gutschriften oder Lastschriften bestimmt ist."
+    },
+    "SettlementInstructionReason": {
+      "definition": "Transaktionsart, für die das Geldkonto angegeben ist."
+    },
+    "CashAccountPurpose": {
+      "definition": "Zweck des Geldkontos."
+    },
+    "CashAccountDesignation": {
+      "definition": "Gibt an, ob das Konto das Haupt- oder das Nebenkonto ist, wenn es zwei Konten für denselben Zweck gibt."
+    },
+    "DividendPercentage": {
+      "definition": "Prozentsatz der Dividendenzahlung, der nicht wieder angelegt, das heißt in bar ausgezahlt werden soll."
+    }
+  }
+}

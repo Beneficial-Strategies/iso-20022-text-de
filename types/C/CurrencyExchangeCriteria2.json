@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrencyExchangeCriteria2",
+  "definition": "Legt die Kriterien fest, nach denen nach Währungsumrechnungsinformationen gesucht wird. Der neuen Abfrage kann ein Name gegeben werden.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Name der Abfrage, die durch die Such- und Rückgabekriterien definiert wird."
+    },
+    "SearchCriteria": {
+      "definition": "Legt die Kriterien fest, anhand derer die Informationen extrahiert werden."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingReportOrError6Choice",
+  "definition": "Auswahl zwischen Bericht über Abrechnungsdaten, Angaben zur Abrechnungsstornierungsanforderung oder betrieblichem Fehler.",
+  "isoElements": {
+    "BillingReport": {
+      "definition": "Bericht über Abrechnungsdaten."
+    },
+    "CancellationReport": {
+      "definition": "Bericht über stornierte Abrechnungsdaten."
+    },
+    "OperationalError": {
+      "definition": "Gibt an, dass bei der Verarbeitung der zugehörigen Anforderung ein betrieblicher Fehler aufgetreten ist."
+    }
+  }
+}

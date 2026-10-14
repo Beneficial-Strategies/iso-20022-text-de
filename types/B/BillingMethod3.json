@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingMethod3",
+  "definition": "Enthält die Details zur Steuerberechnungsmethode D.",
+  "isoElements": {
+    "ServiceTaxPriceAmount": {
+      "definition": "Betrag, der dem Servicesteuerbetrag in der Sitzwährung entspricht, es dem Absender aber ermöglicht, den Wert wahlweise in der Preiswährung anzugeben."
+    },
+    "TaxIdentification": {
+      "definition": "Sieht die spezifische Steueridentifikation innerhalb derselben Steuerregion vor. ||Verwendung: Dieses Element erlaubt höchstens drei regionale Steuern auf denselben Service."
+    }
+  }
+}

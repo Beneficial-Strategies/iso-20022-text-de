@@ -1,0 +1,12 @@
+{
+  "isoType": "GeneralInvestmentAccountType2Choice",
+  "definition": "Auswahl von Formaten für eine Art von Anlagekonto.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des Anlagekontos, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Art des Anlagekontos, ausgedrückt als proprietärer Code."
+    }
+  }
+}

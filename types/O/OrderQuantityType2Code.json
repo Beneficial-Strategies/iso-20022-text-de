@@ -1,0 +1,14 @@
+{
+  "isoType": "OrderQuantityType2Code",
+  "definition": "Gibt an, wie der Auftrag erteilt wird, zum Beispiel nach Anteilsmenge oder nach Geldbetrag.",
+  "isoCodes": {
+    "UNIT": {
+      "name": "Einheit",
+      "definition": "Der Auftrag wird nach Anteilen erteilt."
+    },
+    "CASH": {
+      "name": "Betrag",
+      "definition": "Der Auftrag wird nach Geldbetrag erteilt."
+    }
+  }
+}

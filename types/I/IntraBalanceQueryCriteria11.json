@@ -1,0 +1,51 @@
+{
+  "isoType": "IntraBalanceQueryCriteria11",
+  "definition": "Definiert die Kriterien, nach denen Informationen einbezogen werden.",
+  "isoElements": {
+    "References": {
+      "definition": "Sammelreferenz zur Identifikation einer Gruppe von Nachrichten."
+    },
+    "Status": {
+      "definition": "Gibt den Abwicklungsstatus einer Transaktion an."
+    },
+    "CashAccount": {
+      "definition": "Konto, auf dem Barmittel geführt werden."
+    },
+    "CashAccountOwner": {
+      "definition": "Partei, der das Konto gehört."
+    },
+    "CashAccountServicer": {
+      "definition": "Partei, die das Geldkonto im Auftrag des Kontoinhabers führt, das heißt die Registrierung und Buchung von Einträgen auf dem Konto verwaltet, Salden des Kontos berechnet und Informationen zum Konto bereitstellt."
+    },
+    "BalanceType": {
+      "definition": "Bestand, auf den der Geldbetrag umgebucht wird."
+    },
+    "CashSubBalanceIdentification": {
+      "definition": "Nummer zur Identifikation eines Loses, das den Teilbestand bildet."
+    },
+    "SettlementAmount": {
+      "definition": "Gesamtbetrag, der abzuwickeln ist."
+    },
+    "SettledAmount": {
+      "definition": "Tatsächlich abgewickelter Geldbetrag, der dem Geldkonto des Kontoinhabers gutgeschrieben bzw. belastet wird. Er kann je nach Markttoleranz vom angewiesenen Abwicklungsbetrag abweichen."
+    },
+    "SettlementCurrency": {
+      "definition": "Währung, in der der angewiesene Betrag ausgedrückt ist."
+    },
+    "IntendedSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Geldbetrag bewegt werden soll."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Geldbetrag umgebucht wird."
+    },
+    "Priority": {
+      "definition": "Gibt an, ob die Transaktion mit hoher Priorität auszuführen ist."
+    },
+    "MessageOriginator": {
+      "definition": "Partei, von der die Nachricht ausgeht, sofern nicht mit dem Absender identisch."
+    },
+    "CreationDateTime": {
+      "definition": "Gibt das Erstellungsdatum und die Erstellungszeit der Bewegung innerhalb des Saldos an."
+    }
+  }
+}

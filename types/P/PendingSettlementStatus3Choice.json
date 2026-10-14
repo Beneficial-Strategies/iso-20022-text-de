@@ -1,0 +1,18 @@
+{
+  "isoType": "PendingSettlementStatus3Choice",
+  "definition": "Grund für den Status \"Abwicklung ausstehend\".",
+  "isoElements": {
+    "Reason": {
+      "definition": "Grund für den Status \"Abwicklung ausstehend\"."
+    },
+    "ExtendedReason": {
+      "definition": "Grund für den Status \"Abwicklung ausstehend\"."
+    },
+    "DataSourceScheme": {
+      "definition": "Proprietäre Identifikation des Grundes für den Status \"Abwicklung ausstehend\"."
+    },
+    "NoSpecifiedReason": {
+      "definition": "Gibt an, dass kein Grund verfügbar oder zu melden ist."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "CorporateActionPrice88",
+  "definition": "Gibt Preise im Zusammenhang mit einer Kapitalmaßnahmen-Option an.",
+  "isoElements": {
+    "IndicativeOrMarketPrice": {
+      "definition": "Gibt an, ob der Preis ein indikativer Preis oder ein Marktpreis ist."
+    },
+    "IssuePrice": {
+      "definition": "Erstausgabepreis eines Finanzinstruments."
+    },
+    "GenericCashPriceReceivedPerProduct": {
+      "definition": "Allgemeiner Barpreis, den der Inhaber des zugrunde liegenden Wertpapiers je Produkt erhält, entweder als Prozentsatz oder als Betrag, zum Beispiel Rückzahlungspreis."
+    },
+    "GenericCashPricePaidPerProduct": {
+      "definition": "Allgemeiner Barpreis, den der Inhaber des zugrunde liegenden Wertpapiers je Produkt zahlt, entweder als Prozentsatz oder als Betrag, zum Beispiel der Wiederanlagepreis."
+    }
+  },
+  "isoRules": {
+    "GenericCashPricePerProductGuideline": {
+      "definition": "Der allgemeine erhaltene Barpreis je Produkt (OFFR) und der allgemeine gezahlte Barpreis je Produkt (PRPP) sind Preise, die im Verlauf eines Ereignisses erhalten oder gezahlt werden. Die spezifische Bedeutung (Rücknahmepreis, Zeichnungspreis, Wiederanlagepreis usw.) ergibt sich aus der Ereignisart."
+    }
+  }
+}

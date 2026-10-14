@@ -1,0 +1,34 @@
+{
+  "isoType": "OfferType1Code",
+  "definition": "Gibt die Bedingungen an, die für das Angebot gelten.",
+  "isoCodes": {
+    "DISS": {
+      "name": "Rechte abweichender Aktionäre",
+      "definition": "Der Wertpapierinhaber hat das Recht, einem obligatorischen Ereignis zu widersprechen. Dieses Recht ist nicht in allen Angeboten enthalten und muss daher in Ankündigungen nur dann vermerkt werden, wenn es anwendbar ist."
+    },
+    "ERUN": {
+      "name": "Beschränkungsumtausch",
+      "definition": "Umtausch von Restricted in Unrestricted (oder umgekehrt)."
+    },
+    "FCFS": {
+      "name": "Wer zuerst kommt, mahlt zuerst",
+      "definition": "Wertpapiere werden in der Reihenfolge ihrer Einreichung angenommen, bis die angestrebte Zielmenge erreicht ist."
+    },
+    "FINL": {
+      "name": "Endgültiges Angebot",
+      "definition": "Endgültiges oder letztes Angebot an Inhaber, vorbehaltlich des Erreichens der Angebotsbedingungen, zum Beispiel 50 Prozent Annahme bei einem Übernahmeangebot."
+    },
+    "MINI": {
+      "name": "Mini-Angebot",
+      "definition": "Übernahmeangebot für ein Wertpapier, dessen Preis unter dem aktuellen Handelspreis dieses Instruments liegt."
+    },
+    "PART": {
+      "name": "Teilangebot",
+      "definition": "Angebot des Anbieters für einen Teil der ausstehenden Aktien, die nicht bereits im Besitz des Anbieters sind."
+    },
+    "SQUE": {
+      "name": "Squeeze-out-Angebot",
+      "definition": "Von einem Unternehmen, das eine große Anzahl der Aktien (90 % - 95 %) eines Unternehmens besitzt (im Allgemeinen als Ergebnis eines Übernahmeangebots), gestartetes Angebot, um die übrigen Aktien dieses Unternehmens zu erwerben."
+    }
+  }
+}

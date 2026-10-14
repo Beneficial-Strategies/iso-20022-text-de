@@ -1,0 +1,4 @@
+{
+  "isoType": "MarketClaimCancellationRequestV02",
+  "definition": "Anwendungsbereich und Verwendung|Die Nachricht MarketClaimCancellationRequest wird vom Kontoinhaber an den Kontoführer gesendet. |Sie wird gesendet, um die Stornierung einer Market-Claim-Transaktion zu beantragen.|Diese Nachrichtendefinition ist zur Verwendung mit dem Business Application Header (BAH) vorgesehen."
+}

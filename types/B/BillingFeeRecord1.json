@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingFeeRecord1",
+  "definition": "Enthält Angaben zu Gebühren und Entgelten.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art der Gebühren oder Entgelte."
+    },
+    "Description": {
+      "definition": "Weitere Angaben zu den Entgelten oder Gebühren."
+    },
+    "Rate": {
+      "definition": "Satz zur Berechnung der Entgelte oder Gebühren."
+    },
+    "Amount": {
+      "definition": "Für die Entgelte oder Gebühren geforderter oder gezahlter Geldbetrag."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "PayInCallV02",
+  "definition": "Die Nachricht PayInCall wird von einem zentralen Abwicklungssystem gesendet, um von einem durch eine Störung betroffenen Abwicklungsteilnehmer zusätzliche Finanzmittel anzufordern.",
+  "isoElements": {
+    "SettlementSessionIdentifier": {
+      "definition": "Zur Angabe der angeforderten CLS-Abwicklungssitzung, zu der das zugehörige Geschäft gehört."
+    }
+  }
+}

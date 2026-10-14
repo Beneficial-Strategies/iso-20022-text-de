@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraPositionMovementPendingReportV01",
+  "definition": "Diese Nachricht IntraPositionMovementPendingReport wird von einer Abwicklungsinfrastruktur an einen Kontoinhaber/Anfragenden gesendet, um die zuvor vom Kontoinhaber gesendeten Anweisungen für Positionsumbuchungen (Intra-Position) zu melden, die den Status \"ausstehend\" haben.||Die Nachricht kann auch verwendet werden, um: |- eine vom Kontoinhaber an den Kontoführer gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist \"Duplicate\") |- einem Dritten zur Information eine Kopie einer vom Kontoinhaber gesendeten Nachricht zur Verfügung zu stellen (die Unterfunktion der Nachricht ist \"Copy\") |- einem Dritten zur Information eine Kopie einer vom Kontoinhaber gesendeten Nachricht erneut zu senden (die Unterfunktion der Nachricht ist \"Copy Duplicate\").",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Wenn ReportGeneralDetails/ActivityIndicator gleich Yes (true oder 1) ist, muss Movements vorhanden sein."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Wenn ReportGeneralDetails/ActivityIndicator gleich No (false oder 0) ist, darf Movements nicht vorhanden sein."
+    }
+  }
+}

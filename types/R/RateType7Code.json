@@ -1,0 +1,14 @@
+{
+  "isoType": "RateType7Code",
+  "definition": "Gibt die Art des Satzes an.",
+  "isoCodes": {
+    "SCHD": {
+      "name": "Planmäßig",
+      "definition": "Satz der planmäßigen Zahlung."
+    },
+    "USCD": {
+      "name": "Außerplanmäßig",
+      "definition": "Satz der außerplanmäßigen Zahlung."
+    }
+  }
+}

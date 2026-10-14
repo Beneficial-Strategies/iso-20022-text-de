@@ -1,0 +1,182 @@
+{
+  "isoType": "SecuritiesTransactionType28Code",
+  "definition": "Gibt zugrunde liegende Informationen zur Art der Abwicklungstransaktion an.",
+  "isoCodes": {
+    "BSBK": {
+      "name": "Buy/Sell-Back",
+      "definition": "Bezieht sich auf ein Buy-Sell-Back-Geschäft."
+    },
+    "COLI": {
+      "name": "Sicherheit eingehend",
+      "definition": "Bezieht sich auf eine Sicherheitentransaktion aus Sicht des Sicherheitennehmers oder seines Agenten."
+    },
+    "COLO": {
+      "name": "Sicherheit ausgehend",
+      "definition": "Bezieht sich auf eine Sicherheitentransaktion aus Sicht des Sicherheitengebers oder seines Agenten."
+    },
+    "MKDW": {
+      "name": "Abschlag",
+      "definition": "Bezieht sich auf die Verringerung der Positionen, die ein internationaler Zentralverwahrer (ICSD) beim gemeinsamen Verwahrer aufgrund von Verwahrgeschäften hält (Rückkauf, Pre-Release, angeglichene Erlöse aus Kapitalmaßnahmen)."
+    },
+    "MKUP": {
+      "name": "Aufschlag",
+      "definition": "Bezieht sich auf die Erhöhung der Positionen, die ein internationaler Zentralverwahrer (ICSD) beim gemeinsamen Verwahrer aufgrund von Verwahrgeschäften hält (Rückkauf, Pre-Release, angeglichene Erlöse aus Kapitalmaßnahmen)."
+    },
+    "NETT": {
+      "name": "Netting",
+      "definition": "Bezieht sich auf das Netting von Abwicklungsanweisungen."
+    },
+    "NSYN": {
+      "name": "Nicht syndiziert",
+      "definition": "Bezieht sich auf die Emission von mittel- und kurzfristigen Papieren (CP, CD, MTN, Notes) im Rahmen eines Programms und ohne Syndizierungsvereinbarung."
+    },
+    "PAIR": {
+      "name": "Gegengeschäft",
+      "definition": "Bezieht sich auf ein Pair-off: Die Transaktion wird gegen eine oder mehrere vorherige Transaktionen gepaart und verrechnet."
+    },
+    "PLAC": {
+      "name": "Platzierung",
+      "definition": "Bezieht sich auf die Platzierung/Neuemission eines Finanzinstruments."
+    },
+    "PORT": {
+      "name": "Portfolioübertragung",
+      "definition": "Bezieht sich auf einen Portfoliowechsel von einem Vermögensverwalter zu einem anderen und/oder von einem Kontoführer zu einem anderen. Er wird im Allgemeinen anders berechnet als eine andere Kontoübertragung, daher die Notwendigkeit, diese Art der Übertragung als solche zu kennzeichnen."
+    },
+    "REAL": {
+      "name": "Neuausrichtung",
+      "definition": "Bezieht sich auf eine Angleichung von Positionen."
+    },
+    "REDM": {
+      "name": "Rücknahme",
+      "definition": "Bezieht sich auf eine Rücknahme von Fonds (nur Fondsbranche)."
+    },
+    "REPU": {
+      "name": "Repo",
+      "definition": "Bezieht sich auf ein Pensionsgeschäft (Repo)."
+    },
+    "RODE": {
+      "name": "Rücklieferung ohne Abgleich",
+      "definition": "Bezieht sich auf die Rückgabe von Finanzinstrumenten infolge einer abgelehnten Lieferung ohne zugehörigen Vorgang."
+    },
+    "RVPO": {
+      "name": "Umgekehrtes Pensionsgeschäft",
+      "definition": "Bezieht sich auf ein umgekehrtes Pensionsgeschäft (Reverse Repo)."
+    },
+    "SECB": {
+      "name": "Wertpapierentleihe",
+      "definition": "Bezieht sich auf einen Wertpapierleihe-Vorgang (Entleihe)."
+    },
+    "SECL": {
+      "name": "Wertpapierleihe",
+      "definition": "Bezieht sich auf einen Wertpapierleihe-Vorgang (Verleih)."
+    },
+    "SUBS": {
+      "name": "Zeichnung",
+      "definition": "Bezieht sich auf eine Zeichnung von Fonds (nur Fondsbranche)."
+    },
+    "SYND": {
+      "name": "Syndikatsübernehmer",
+      "definition": "Bezieht sich auf die Emission von Finanzinstrumenten über ein Konsortium von Übernehmern und einen Konsortialführer."
+    },
+    "TBAC": {
+      "name": "TBA-Schließung",
+      "definition": "Bezieht sich auf ein Closing-Geschäft für ein To Be Announced (TBA)."
+    },
+    "TRAD": {
+      "name": "Handelsgeschäft",
+      "definition": "Bezieht sich auf die Abwicklung eines Handelsgeschäfts."
+    },
+    "TRPO": {
+      "name": "Tri-Party-Repo",
+      "definition": "Bezieht sich auf ein Tri-Party-Pensionsgeschäft."
+    },
+    "TRVO": {
+      "name": "Tri-Party-Reverse-Repo",
+      "definition": "Bezieht sich auf ein umgekehrtes Tri-Party-Pensionsgeschäft."
+    },
+    "TURN": {
+      "name": "Turnaround",
+      "definition": "Bezieht sich auf ein Turnaround: Dasselbe Wertpapier wird am selben Tag gekauft und verkauft, um bei verschiedenen Brokern abzuwickeln."
+    },
+    "BYIY": {
+      "name": "Zwangseindeckung",
+      "definition": "Bezieht sich auf einen Deckungskauf (Buy-in) durch den Markt nach dem Ausfall einer Lieferung."
+    },
+    "CNCB": {
+      "name": "Sicherheitengeschäft mit der Zentralbank",
+      "definition": "Bezieht sich auf eine Lieferung/einen Empfang von Sicherheiten an eine bzw. von einer nationalen Zentralbank für Kreditgeschäfte der Zentralbank."
+    },
+    "OWNE": {
+      "name": "Externe Kontoübertragung",
+      "definition": "Bezieht sich auf eine Kontoübertragung mit mehr als einer anweisenden Partei (Nachrichtensender) und/oder einem Kontoführer (Nachrichtenempfänger)."
+    },
+    "FCTA": {
+      "name": "Faktoraktualisierung",
+      "definition": "Bezieht sich auf eine Faktoraktualisierung."
+    },
+    "OWNI": {
+      "name": "Interne Kontoübertragung",
+      "definition": "Bezieht sich auf eine Kontoübertragung mit einer anweisenden Partei (Nachrichtensender) bei einem Kontoführer (Nachrichtenempfänger)."
+    },
+    "RELE": {
+      "name": "Freigabe/Stornierung von Hinterlegungsscheinen",
+      "definition": "Bezieht sich auf eine Freigabe (in den/aus dem lokalen Bestand) im Rahmen eines Hinterlegungsschein-Vorgangs."
+    },
+    "SBRE": {
+      "name": "Neuzuordnung der Entleihe",
+      "definition": "Interne Umbuchung eines entliehenen Bestands von einem Verwahrkonto auf ein anderes."
+    },
+    "CORP": {
+      "name": "Kapitalmaßnahme",
+      "definition": "Bezieht sich auf eine Kapitalmaßnahme."
+    },
+    "CLAI": {
+      "name": "Marktforderung",
+      "definition": "Bezieht sich auf einen Marktanspruch (Market Claim)."
+    },
+    "AUTO": {
+      "name": "Auto-Besicherung",
+      "definition": "Bezieht sich auf eine Auto-Besicherungsbewegung."
+    },
+    "SWIF": {
+      "name": "Wechsel von",
+      "definition": "Die Transaktion ist ein Wechsel einer Anlage von einem Teilfonds in einen anderen Teilfonds (Rücknahmeseite)."
+    },
+    "SWIT": {
+      "name": "Wechsel zu",
+      "definition": "Die Transaktion ist ein Wechsel einer Anlage von einem Teilfonds in einen anderen Teilfonds (Zeichnungsseite)."
+    },
+    "CONV": {
+      "name": "Umwandlung von Hinterlegungsscheinen",
+      "definition": "Bezieht sich auf eine Umwandlung von Hinterlegungsscheinen."
+    },
+    "ETFT": {
+      "name": "Börsengehandelte Fonds",
+      "definition": "Bezieht sich auf eine ETF-Erstellung oder -Rücknahme."
+    },
+    "ISSU": {
+      "name": "Emission",
+      "definition": "Bezieht sich auf die Emission eines Wertpapiers, wie einer Aktie oder eines Hinterlegungsscheins."
+    },
+    "SLRE": {
+      "name": "Neuzuordnung der Verleihe",
+      "definition": "Interne Umbuchung eines verliehenen Bestands von einem Verwahrkonto auf ein anderes."
+    },
+    "INSP": {
+      "name": "Bestandsverschiebung",
+      "definition": "Bezieht sich auf eine Bewegung von Aktien in ein oder aus einem Sammelkonto."
+    },
+    "SBBK": {
+      "name": "Sell/Buy-Back",
+      "definition": "Bezieht sich auf ein Sell-Buy-Back-Geschäft."
+    },
+    "REDI": {
+      "name": "Entnahme",
+      "definition": "Bezieht sich auf die Entnahme bestimmter Beträge aus bestimmten Unterkonten."
+    },
+    "INTT": {
+      "name": "Gehandelte Zinsen geändert",
+      "definition": "Bezieht sich auf eine Geldbewegung infolge einer Änderung der gehandelten Zinsen aufgrund einer Anpassung des Kuponsatzes."
+    }
+  }
+}

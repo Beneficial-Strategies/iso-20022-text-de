@@ -1,0 +1,12 @@
+{
+  "isoType": "IdentificationVerification5",
+  "definition": "Enthält die Details der Identifikationsdaten, deren Überprüfung angefordert wird.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation, die von einer sendenden Partei vergeben wird, um die Gruppe von Partei- und Kontoidentifikationsinformationen innerhalb der Nachricht zweifelsfrei zu identifizieren."
+    },
+    "PartyAndAccountIdentification": {
+      "definition": "Partei- und/oder Kontoidentifikationsinformationen, für die eine Überprüfung angefordert wird."
+    }
+  }
+}

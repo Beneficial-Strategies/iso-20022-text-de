@@ -1,0 +1,102 @@
+{
+  "isoType": "PaymentType3Code",
+  "definition": "Gibt die Art oder Beschaffenheit der Zahlung an.",
+  "isoCodes": {
+    "CBS": {
+      "name": "Grenzüberschreitende Zahlung",
+      "definition": "Zahlung, die ihren Ursprung in einem Land und ihr Ziel in einem anderen Land hat und in der Währung des Ursprungs- oder des Ziellandes erfolgt."
+    },
+    "BCK": {
+      "name": "Sicherung",
+      "definition": "Zahlung, die im Rahmen des Wiederherstellungsverfahrens erfolgt, um gemäß den Spezifikationen des Systems Liquidität auf das bzw. vom Abwicklungskonto eines Mitglieds zu übertragen."
+    },
+    "BAL": {
+      "name": "Saldo Mengengeschäft",
+      "definition": "Transaktion ist eine Zahlung, die den in einem Massenzahlungssystem geschuldeten bzw. fälligen Nettogeldsaldo ausgleicht."
+    },
+    "CLS": {
+      "name": "CLS-Zahlung",
+      "definition": "Zahlung steht im Zusammenhang mit CLS-Aktivitäten."
+    },
+    "CTR": {
+      "name": "Zentralbankgeschäft",
+      "definition": "Zahlung erfolgt zur Abwicklung eines Geschäfts mit der Zentralbank."
+    },
+    "CBH": {
+      "name": "Grenzüberschreitende Großbetragszahlung",
+      "definition": "Transaktion ist eine Großbetragszahlung, die ihren Ursprung in einem Land und ihr Ziel in einem anderen Land hat und in der Währung des Ursprungs- oder des Ziellandes erfolgt."
+    },
+    "CBP": {
+      "name": "Grenzüberschreitende Prioritätszahlung",
+      "definition": "Transaktion ist eine Prioritätszahlung, die ihren Ursprung in einem Land und ihr Ziel in einem anderen Land hat und in der Währung des Ursprungs- oder des Ziellandes erfolgt."
+    },
+    "DPG": {
+      "name": "DVP brutto",
+      "definition": "Bruttozahlung, die den für die Abwicklung eines Wertpapiergeschäfts geschuldeten bzw. fälligen Betrag ausgleicht."
+    },
+    "DPN": {
+      "name": "DVP netto",
+      "definition": "Nettozahlung, die den für die Abwicklung einer Reihe von Wertpapiergeschäften fälligen bzw. geschuldeten Geldsaldo ausgleicht."
+    },
+    "EXP": {
+      "name": "Expresszahlung",
+      "definition": "Transaktion ist eine Zahlung, die verarbeitet wird, sobald auf dem Abwicklungskonto eines Mitglieds des Systems RTGSPlus Liquidität verfügbar ist."
+    },
+    "TCH": {
+      "name": "Drittwährungs-Großbetragszahlung",
+      "definition": "Transaktion ist eine Großbetragszahlung, die in einer von den Ursprungs- und Zielländern abweichenden dritten Währung erfolgt. Ursprungs- und Zielland können dasselbe Land sein."
+    },
+    "LMT": {
+      "name": "Limitzahlung",
+      "definition": "Transaktion ist eine Zahlung, die verarbeitet wird, wenn der Liquiditätspool den im System RTGSPlus für eine Expresszahlung reservierten Mindestwert übersteigt."
+    },
+    "LIQ": {
+      "name": "Liquiditätstransfer",
+      "definition": "Zahlung erfolgt, um Liquidität auf das bzw. vom Abwicklungskonto eines Mitglieds, auf das bzw. vom bei der Zentralinstitution oder einem anderen Institut geführten laufenden Konto zu übertragen."
+    },
+    "DPP": {
+      "name": "Inländische Prioritätszahlung",
+      "definition": "Transaktion ist eine Prioritätszahlung, die Ursprung und Ziel im selben Land hat und in der Währung dieses Landes erfolgt."
+    },
+    "DPH": {
+      "name": "Inländische Großbetragszahlung",
+      "definition": "Transaktion ist eine Großbetragszahlung, die Ursprung und Ziel im selben Land hat und in der Währung dieses Landes erfolgt."
+    },
+    "DPS": {
+      "name": "Inländische Zahlung",
+      "definition": "Zahlung hat Ursprung und Ziel im selben Land und erfolgt in der Währung dieses Landes."
+    },
+    "STF": {
+      "name": "Ständige Fazilitäten",
+      "definition": "Zahlung steht im Zusammenhang mit Übernachteinlagen und der Spitzenrefinanzierungsfazilität."
+    },
+    "TRP": {
+      "name": "Staatskassenzahlung",
+      "definition": "Zahlung steht im Zusammenhang mit der Staatskasse."
+    },
+    "TCS": {
+      "name": "Drittwährungszahlung",
+      "definition": "Transaktion ist eine Zahlung, die in einer von den Ursprungs- und Zielländern abweichenden dritten Währung erfolgt. Ursprungs- und Zielland können dasselbe Land sein."
+    },
+    "LOA": {
+      "name": "Darlehen",
+      "definition": "Transaktion ist die Zahlung eines bestimmten Geldbetrags, der von einem Gläubiger/Kreditgeber verliehen wird."
+    },
+    "LOR": {
+      "name": "Darlehensrückzahlung",
+      "definition": "Transaktion ist ein Geldbetrag, der zur Rückzahlung eines Darlehens überwiesen wird."
+    },
+    "TCP": {
+      "name": "Drittwährungs-Prioritätszahlung",
+      "definition": "Zahlung erfolgt in einer von den Ursprungs- und Zielländern abweichenden dritten Währung. Ursprungs- und Zielland können dasselbe Land sein."
+    },
+    "OND": {
+      "name": "Übernachteinlage",
+      "definition": "Transaktion steht im Zusammenhang mit einer Übernachteinlage."
+    },
+    "MGL": {
+      "name": "Spitzenrefinanzierung",
+      "definition": "Transaktion steht im Zusammenhang mit der Spitzenrefinanzierungsfazilität."
+    }
+  }
+}

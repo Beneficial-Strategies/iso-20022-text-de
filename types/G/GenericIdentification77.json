@@ -1,0 +1,21 @@
+{
+  "isoType": "GenericIdentification77",
+  "definition": "Identifikation einer Stelle.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Stelle."
+    },
+    "Type": {
+      "definition": "Art der identifizierten Stelle."
+    },
+    "Issuer": {
+      "definition": "Stelle, die die Identifikation vergibt (zum Beispiel Händler, Akzeptant, Acquirer oder Steuerbehörde)."
+    },
+    "Country": {
+      "definition": "Land der Stelle (ISO 3166-1 Alpha-2 oder Alpha-3)."
+    },
+    "ShortName": {
+      "definition": "Name der Stelle."
+    }
+  }
+}

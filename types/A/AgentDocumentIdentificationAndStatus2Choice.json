@@ -1,0 +1,12 @@
+{
+  "isoType": "AgentDocumentIdentificationAndStatus2Choice",
+  "definition": "Auswahl zwischen der Identifikation und dem Status des Kapitalmaßnahmen-Benachrichtigungsavis oder des vom Beauftragten gesendeten Benachrichtigungsstornierungsantrags.",
+  "isoElements": {
+    "AgentCANotificationAdviceIdentificationAndStatus": {
+      "definition": "Identifikation des verknüpften CA-Benachrichtigungsavis des Beauftragten, für den ein Status angegeben wird."
+    },
+    "AgentCANotificationCancellationRequestIdentificationAndStatus": {
+      "definition": "Identifikation des verknüpften CA-Benachrichtigungsstornierungsantrags des Beauftragten, für den ein Status angegeben wird."
+    }
+  }
+}

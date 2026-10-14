@@ -1,0 +1,12 @@
+{
+  "isoType": "PurposeCode9Choice",
+  "definition": "Auswahl zwischen einem Code und/oder einem Datenquellenschema zur Bestimmung der Kontoart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt die Art des Wertpapierkontos an."
+    },
+    "Proprietary": {
+      "definition": "Gibt die Ausführungspriorität der Anweisung nach einem proprietären Schema an."
+    }
+  }
+}

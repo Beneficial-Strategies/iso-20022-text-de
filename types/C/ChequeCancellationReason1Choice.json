@@ -1,0 +1,12 @@
+{
+  "isoType": "ChequeCancellationReason1Choice",
+  "definition": "Gibt den Grund für den Stornierungsauftrag einer Scheckvorlage an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund, wie in einem externen Codesatz veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Grund in proprietärer Form."
+    }
+  }
+}

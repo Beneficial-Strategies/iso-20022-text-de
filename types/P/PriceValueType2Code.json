@@ -1,0 +1,14 @@
+{
+  "isoType": "PriceValueType2Code",
+  "definition": "Gibt eine Art des Preiswerts an.",
+  "isoCodes": {
+    "DISC": {
+      "name": "Abschlag",
+      "definition": "Als Anzahl von Prozentpunkten unter pari ausgedrückter Preis, beispielsweise entspricht ein Abschlagspreis von 2.0 % bei einem Nennwert von 100 einem Preis von 98."
+    },
+    "PREM": {
+      "name": "Aufschlag",
+      "definition": "Als Anzahl von Prozentpunkten über pari ausgedrückter Preis, beispielsweise entspricht ein Aufschlagspreis von 2.0 % bei einem Nennwert von 100 einem Preis von 102."
+    }
+  }
+}

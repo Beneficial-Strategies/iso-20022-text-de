@@ -1,0 +1,15 @@
+{
+  "isoType": "Remittance1",
+  "definition": "Gibt die Verwendungszweck-Ressource für den direkten Zugriff auf die Verwendungszweck-Informationen an.",
+  "isoElements": {
+    "Unstructured": {
+      "definition": "Informationen in unstrukturierter Form, die den Abgleich einer Buchung mit den Posten ermöglichen, die durch die Zahlung beglichen werden sollen, z. B. Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    },
+    "Structured": {
+      "definition": "Informationen in strukturierter Form, die den Abgleich einer Buchung mit den Posten ermöglichen, die durch die Zahlung beglichen werden sollen, z. B. Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    },
+    "Related": {
+      "definition": "Enthält Informationen zur Behandlung der Verwendungszweck-Informationen durch eine der Banken in der Verarbeitungskette der Transaktion."
+    }
+  }
+}

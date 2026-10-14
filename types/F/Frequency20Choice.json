@@ -1,0 +1,12 @@
+{
+  "isoType": "Frequency20Choice",
+  "definition": "Auswahl der Formate für die Häufigkeit.",
+  "isoElements": {
+    "Code": {
+      "definition": "Häufigkeit, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Häufigkeit."
+    }
+  }
+}

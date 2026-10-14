@@ -1,0 +1,12 @@
+{
+  "isoType": "DatePeriod5",
+  "definition": "Zeitraum, der durch ein aktuelles Wertstellungsdatum und ein gewünschtes Wertstellungsdatum definiert ist.",
+  "isoElements": {
+    "CurrentValueDate": {
+      "definition": "Aktuelles Wertstellungsdatum der zugrunde liegenden Transaktion oder Buchung."
+    },
+    "RequestedValueDate": {
+      "definition": "Gewünschtes Wertstellungsdatum der zugrunde liegenden Transaktion oder Buchung."
+    }
+  }
+}

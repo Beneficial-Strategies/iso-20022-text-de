@@ -1,0 +1,26 @@
+{
+  "isoType": "PaginationBalance1",
+  "definition": "Saldo eines Finanzinstruments für eine bestimmte Auszugsseite.",
+  "isoElements": {
+    "FirstOpeningBalance": {
+      "definition": "Anfangssaldo des Finanzinstruments im Auszug."
+    },
+    "IntermediaryOpeningBalance": {
+      "definition": "Anfangssaldo nur dieser Seite. Er muss der Zwischenschlusssaldo der vorherigen Seite (desselben Auszugs) sein."
+    },
+    "FinalClosingBalance": {
+      "definition": "Schlusssaldo des Finanzinstruments im Auszug."
+    },
+    "IntermediaryClosingBalance": {
+      "definition": "Schlusssaldo nur dieser Seite. Er muss der Zwischenanfangssaldo der nächsten Seite (desselben Auszugs) sein."
+    }
+  },
+  "isoRules": {
+    "FirstOpeningBalanceOrIntermediaryOpeningBalanceRule": {
+      "definition": "Entweder FirstOpeningBalance oder IntermediaryOpeningBalance darf vorhanden sein, aber nicht beide."
+    },
+    "FinalClosingBalanceOrIntermediaryClosingBalanceRule": {
+      "definition": "Entweder FinalClosingBalance oder IntermediaryClosingBalance darf vorhanden sein, aber nicht beide."
+    }
+  }
+}

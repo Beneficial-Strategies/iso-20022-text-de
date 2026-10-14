@@ -1,0 +1,38 @@
+{
+  "isoType": "PendingReason9Code",
+  "definition": "Gibt den Grund an, warum eine für die zugehörige Anweisung gesendete Stornierungsanforderung ausstehend ist.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Anweisung ging nach Ablauf der Frist des kontoführenden Instituts ein. Wird nach bestem Bemühen verarbeitet."
+    },
+    "CONF": {
+      "name": "Wartet auf Bestätigung",
+      "definition": "Warten auf Bestätigung der Gegenpartei."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "CDRG": {
+      "name": "Bedingt Registerstelle",
+      "definition": "Die Ausführung hängt von der Durchführung eines Prozesses bei der Registerstelle ab."
+    },
+    "CDCY": {
+      "name": "Bedingt Währung",
+      "definition": "Die Ausführung hängt von der Durchführung eines Prozesses ab, der mit der Währung der Transaktion verknüpft ist."
+    },
+    "CDRE": {
+      "name": "Bedingt Neuausrichtung",
+      "definition": "Die Ausführung hängt von der Durchführung eines Angleichungsprozesses beim Emittenten-CSD ab."
+    },
+    "CDAC": {
+      "name": "Bedingte Lieferung wartet auf Stornierung",
+      "definition": "Warten auf die Stornierung durch eine der Parteien."
+    },
+    "INBC": {
+      "name": "Unvollständige Stückzahl",
+      "definition": "Es sind noch nicht alle zu einem Pool gehörenden Anweisungen eingegangen."
+    }
+  }
+}

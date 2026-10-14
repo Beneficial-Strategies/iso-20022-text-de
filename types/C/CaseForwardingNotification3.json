@@ -1,0 +1,9 @@
+{
+  "isoType": "CaseForwardingNotification3",
+  "definition": "Status eines Falls, der sich aus einer Fallzuweisung ergibt.",
+  "isoElements": {
+    "Justification": {
+      "definition": "Begründung für die Weiterleitung."
+    }
+  }
+}

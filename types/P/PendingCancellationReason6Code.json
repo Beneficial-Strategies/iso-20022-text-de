@@ -1,0 +1,22 @@
+{
+  "isoType": "PendingCancellationReason6Code",
+  "definition": "Gibt einen Grund an, warum die Stornierungsanfrage den Status ausstehend hat.",
+  "isoCodes": {
+    "DQUA": {
+      "name": "Ablehnung wegen Menge",
+      "definition": "Ungültige oder nicht erkannte angewiesene Menge."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Transaktion bzw. Anweisung ging nach Ablauf der vom kontoführenden Institut festgelegten Frist ein."
+    }
+  }
+}

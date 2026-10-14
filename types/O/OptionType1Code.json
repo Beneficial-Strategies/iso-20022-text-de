@@ -1,0 +1,14 @@
+{
+  "isoType": "OptionType1Code",
+  "definition": "Gibt an, ob es sich um eine Call-Option (Recht auf Kauf eines bestimmten Basiswerts) oder eine Put-Option (Recht auf Verkauf eines bestimmten Basiswerts) handelt.",
+  "isoCodes": {
+    "CALL": {
+      "name": "Call",
+      "definition": "Recht, am Ausübungstag eine Menge eines Vermögenswerts zu einem vereinbarten Preis zu kaufen."
+    },
+    "PUTO": {
+      "name": "Put",
+      "definition": "Recht, am Ausübungstag eine Menge eines Vermögenswerts zu einem vereinbarten Preis zu verkaufen."
+    }
+  }
+}

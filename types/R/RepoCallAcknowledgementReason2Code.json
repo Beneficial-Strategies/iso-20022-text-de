@@ -1,0 +1,18 @@
+{
+  "isoType": "RepoCallAcknowledgementReason2Code",
+  "definition": "Gibt zusätzliche Informationen zur verarbeiteten Anweisung zum Abruf des Rückkaufgeschäfts an.",
+  "isoCodes": {
+    "CALD": {
+      "name": "In Bearbeitung",
+      "definition": "Der Abruf des Rückkaufgeschäfts ist in Bearbeitung."
+    },
+    "CALP": {
+      "name": "Verarbeitet",
+      "definition": "Der Abruf des Rückkaufgeschäfts ist verarbeitet."
+    },
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Nach Ablauf der Frist des kontoführenden Instituts eingegangen. Wird nach bestem Bemühen verarbeitet."
+    }
+  }
+}

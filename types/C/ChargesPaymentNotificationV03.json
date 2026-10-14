@@ -1,0 +1,24 @@
+{
+  "isoType": "ChargesPaymentNotificationV03",
+  "definition": "Die Nachricht ChargesPaymentNotification wird vom kontoführenden Institut an den Kontoinhaber gesendet, um Entgelte, Zinsen oder sonstige Anpassungen auf dem Konto des Inhabers anzuzeigen.  Sie enthält Einzelheiten zu Entgelten, die dem Empfänger zuvor nicht bekannt waren.",
+  "isoRules": {
+    "ChargesAccountHeaderOrSingle2Rule": {
+      "definition": "Ist Charges/Single/ChargesAccount vorhanden oder ist Charges/Single/ChargesAccountOwner vorhanden, dürfen GroupHeader/ChargesAccount und GroupHeader/ChargesAccountOwner nicht vorhanden sein."
+    },
+    "ChargesAccountHeaderOrSingle1Rule": {
+      "definition": "Ist GroupHeader/ChargesAccount vorhanden oder ist GroupHeader/ChargesAccountOwner vorhanden, dürfen Charges/Single/ChargesAccount und Charges/Single/ChargesAccountOwner nicht vorhanden sein."
+    },
+    "ChargesAccountHeaderOrTransaction2Rule": {
+      "definition": "Ist Charges/PerTransaction/ChargesAccount vorhanden oder ist Charges/PerTransaction/ChargesAccountOwner vorhanden oder ist Charges/PerTransaction/Record/ChargesAccount vorhanden oder Charges/PerTransaction/Record/ChargesAccountOwner, dürfen GroupHeader/ChargesAccount und GroupHeader/ChargesAccountOwner nicht vorhanden sein."
+    },
+    "ChargesAccountHeaderOrTransaction1Rule": {
+      "definition": "Ist GroupHeader/ChargesAccount vorhanden oder ist GroupHeader/ChargesAccountOwner vorhanden, dürfen Charges/PerTransaction/ChargesAccount, Charges/PerTransaction/ChargesAccountOwner, Charges/PerTransaction/Record/ChargesAccount und Charges/PerTransaction/Record/ChargesAccountOwner nicht vorhanden sein."
+    },
+    "ChargesAccountHeaderOrType2Rule": {
+      "definition": "Ist Charges/PerType/ChargesAccount vorhanden oder ist Charges/PerType/ChargesAccountOwner vorhanden oder ist Charges/PerType/Record/ChargesAccount vorhanden oder Charges/PerType/Record/ChargesAccountOwner, dürfen GroupHeader/ChargesAccount und GroupHeader/ChargesAccountOwner nicht vorhanden sein."
+    },
+    "ChargesAccountHeaderOrType1Rule": {
+      "definition": "Ist GroupHeader/ChargesAccount vorhanden oder ist GroupHeader/ChargesAccountOwner vorhanden, dürfen Charges/PerType/ChargesAccount, Charges/PerType/ChargesAccountOwner, Charges/PerType/Record/ChargesAccount und Charges/PerType/Record/ChargesAccountOwner nicht vorhanden sein."
+    }
+  }
+}

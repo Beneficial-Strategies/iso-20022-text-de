@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalTaxAmountType1Code",
+  "definition": "Gibt die Art oder Verwendung des Betrags als Zeichenfolge mit höchstens 4 Zeichen an.|Die Liste der gültigen Codes ist eine separat veröffentlichte externe Codeliste.|Externe Codesätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "CITY": {
+      "name": "Stadtsteuer",
+      "definition": "Steuer, die von Stadtbehörden innerhalb eines Landes erhoben wird."
+    },
+    "CNTY": {
+      "name": "Kreissteuer",
+      "definition": "Steuer, die von Kreisbehörden innerhalb eines Landes erhoben wird."
+    },
+    "LOCL": {
+      "name": "Lokale Steuer",
+      "definition": "Steuer, die von lokalen Behörden innerhalb eines Landes erhoben wird."
+    },
+    "PROV": {
+      "name": "Provinzsteuer",
+      "definition": "Steuer, die von Provinzbehörden innerhalb eines Landes erhoben wird."
+    },
+    "STAT": {
+      "name": "Staatssteuer",
+      "definition": "Steuer, die von Staatsbehörden innerhalb eines Landes erhoben wird."
+    }
+  }
+}

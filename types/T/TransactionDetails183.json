@@ -1,0 +1,56 @@
+{
+  "isoType": "TransactionDetails183",
+  "definition": "Identifiziert die Einzelheiten der Transaktion.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Finanzinstrumente, die eine Summe von Rechten des Anlegers gegenüber dem Emittenten darstellen."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Legt fest, ob die Bewegung auf einem Wertpapierkonto aus einer Liefer- oder einer Empfangsanweisung resultiert."
+    },
+    "Payment": {
+      "definition": "Legt fest, wie die Transaktion abgewickelt werden soll, beispielsweise gegen Zahlung."
+    },
+    "SettlementQuantity": {
+      "definition": "Gesamtmenge der abzuwickelnden Wertpapiere."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Blockchain-Adresse oder Wallet, in der digitale Vermögenswerte gehalten werden. Dies entspricht dem Verwahrkonto für digitale Vermögenswerte."
+    },
+    "SettlementAmount": {
+      "definition": "Gesamtbetrag, der im Austausch gegen die Wertpapiere zu zahlen oder zu erhalten ist."
+    },
+    "DigitalPaymentSettlement": {
+      "definition": "Gesamtmenge des digitalen Vermögenswerts, die im Austausch gegen den Wertpapier-Token zu zahlen oder zu erhalten ist."
+    },
+    "SettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere geliefert oder empfangen werden sollen."
+    },
+    "TradeDate": {
+      "definition": "Gibt Datum und Uhrzeit der Ausführung des Geschäfts an."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifiziert die Kette der liefernden Abwicklungsparteien."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifiziert die Kette der empfangenden Abwicklungsparteien."
+    },
+    "Investor": {
+      "definition": "Partei, entweder eine Einzelperson oder eine Organisation, deren Vermögenswerte angelegt werden."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Entweder SafekeepingAccount oder BlockChainAddressOrWallet muss vorhanden sein, aber nicht beide."
+    }
+  }
+}

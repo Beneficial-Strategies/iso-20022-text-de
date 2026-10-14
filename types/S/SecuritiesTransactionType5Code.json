@@ -1,0 +1,10 @@
+{
+  "isoType": "SecuritiesTransactionType5Code",
+  "definition": "Gibt zugrunde liegende Informationen zur Art der Transaktion an.",
+  "isoCodes": {
+    "TRAD": {
+      "name": "Handelsgeschäft",
+      "definition": "Bezieht sich auf die Abwicklung eines Handelsgeschäfts."
+    }
+  }
+}

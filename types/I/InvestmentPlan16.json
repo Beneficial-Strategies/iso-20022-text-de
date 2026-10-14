@@ -1,0 +1,65 @@
+{
+  "isoType": "InvestmentPlan16",
+  "definition": "Plan, der es Anlegern ermöglicht, periodische Anlagen oder Desinvestitionen nach vordefinierten Kriterien zu planen.",
+  "isoElements": {
+    "Frequency": {
+      "definition": "Häufigkeit der Anlage oder Desinvestition."
+    },
+    "StartDate": {
+      "definition": "Datum, an dem der Anlageplan beginnt."
+    },
+    "EndDate": {
+      "definition": "Datum, an dem der Anlageplan endet."
+    },
+    "Quantity": {
+      "definition": "Betrag der periodischen Zahlungen."
+    },
+    "GrossAmountIndicator": {
+      "definition": "Gibt an, ob ein beauftragter Betrag ein Bruttobetrag ist (einschließlich Transaktionsnebenkosten). Ist er kein Bruttobetrag, ist der beauftragte Betrag ein Nettobetrag (Betrag, der in den Fonds anzulegen oder aus diesem zurückzunehmen ist und zu dem weitere Elemente hinzugefügt werden)."
+    },
+    "IncomePreference": {
+      "definition": "Vom Kontoinhaber anhand der im Prospekt angebotenen Optionen gewählte Dividendenoption."
+    },
+    "InitialAmount": {
+      "definition": "Anfangsbetrag oder Anzahl der anfänglichen Raten."
+    },
+    "TotalNumberOfInstalments": {
+      "definition": "Gesamtanzahl, wie oft der Betrag ab dem Startdatum des Anlageplans mit der vordefinierten Häufigkeit anzulegen ist."
+    },
+    "RoundingDirection": {
+      "definition": "Gibt die Rundungsrichtung an, wenn ein Betrag auf mehrere Fonds zu verteilen ist."
+    },
+    "SecurityDetails": {
+      "definition": "Wertpapier, in das ein Anlageplan investiert oder aus dem er desinvestiert."
+    },
+    "ModifiedCashSettlement": {
+      "definition": "Dauerauftrag zur Barabwicklung, der dem Anlageplan zugeordnet ist und entweder eingefügt oder gelöscht werden soll."
+    },
+    "ContractReference": {
+      "definition": "Referenz des zugrunde liegenden Anlagevertrags. In einigen Märkten, beispielsweise Italien, kann dies erforderlich sein, um Bestände auf demselben Anlagekonto zu trennen."
+    },
+    "RelatedContractReference": {
+      "definition": "Referenz des vorherigen Vertrags, mit dem dieser Spar- oder Entnahmeplan in Zusammenhang steht."
+    },
+    "ProductIdentification": {
+      "definition": "Identifikation des vom Fondsmanager bezeichneten Produkts. In einigen Märkten, beispielsweise Italien, werden das Finanzprodukt oder die Dienstleistung im Zusammenhang mit einem Sparplan oder Entnahmeplan durch eine Produktidentifikation oder -nummer identifiziert."
+    },
+    "SLAChargeAndCommissionReference": {
+      "definition": "Referenz der zugrunde liegenden Dienstgütevereinbarung (Service Level Agreement, SLA), die die Gebühren regelt."
+    },
+    "InsuranceCover": {
+      "definition": "Legt die Art des Versicherungsvertrags fest, mit dem der Sparanlageplan verknüpft ist."
+    },
+    "PlanStatus": {
+      "definition": "Status des Spar- oder Entnahmeanlageplans."
+    },
+    "InstalmentManagerRole": {
+      "definition": "Rolle oder Funktion des Ratenverwalters."
+    }
+  },
+  "isoRules": {
+    "AmountRule": {
+      "definition": "Wenn Quantity/Amount nicht vorhanden ist, ist GrossAmountIndicator nicht zulässig."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalChequeAgentInstruction1Code",
+  "definition": "Gibt den externen Anweisungscode an, wie er einer Scheckbank zur Verarbeitung übermittelt wird, im Format einer Zeichenkette mit einer Höchstlänge von 4 Zeichen.|Die Liste der gültigen Codes ist ein separat veröffentlichtes externes Codeset.|Externe Codesets können von www.iso20022.org heruntergeladen werden."
+}

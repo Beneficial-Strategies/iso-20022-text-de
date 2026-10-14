@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryVote1",
+  "definition": "Proprietäre Stimmart und abgegebene Stimmenmenge.",
+  "isoElements": {
+    "Code": {
+      "definition": "Andere Stimmart, ausgedrückt als proprietärer Code."
+    },
+    "Quantity": {
+      "definition": "Menge der Wertpapiere, für die abgestimmt wurde."
+    }
+  }
+}

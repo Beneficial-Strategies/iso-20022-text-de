@@ -1,0 +1,18 @@
+{
+  "isoType": "FIToFIPaymentStatusRequestV07",
+  "definition": "Umfang|Die Nachricht FinancialInstitutionToFinancialInstitutionPaymentStatusRequest wird von der Bank des Zahlungspflichtigen direkt oder über andere Banken und/oder ein Clearing- und Abwicklungssystem für Zahlungen an die Bank des Zahlungsempfängers gesendet. Sie dient dazu, eine Nachricht FIToFIPaymentStatusReport mit Informationen zum Status einer zuvor gesendeten Anweisung anzufordern. |Verwendung|Die Nachricht FIToFIPaymentStatusRequest wird zwischen Banken ausgetauscht, um Statusinformationen zu zuvor gesendeten Anweisungen anzufordern. Ihre Verwendung unterliegt stets einer bilateralen Vereinbarung zwischen den Banken.|Die Nachricht FIToFIPaymentStatusRequest kann verwendet werden, um Informationen zum Status (etwa Ablehnung, Annahme) einer Überweisungsanweisung, einer Lastschriftanweisung sowie anderer bankinterner Anweisungen (zum Beispiel FIToFIPaymentCancellationRequest) anzufordern.|Die Nachricht FIToFIPaymentStatusRequest bezieht sich auf die ursprünglichen Anweisungen entweder nur über Referenzen oder über Referenzen und eine Reihe von Elementen aus der ursprünglichen Anweisung.|Die Nachricht FIToFIPaymentStatusRequest kann in nationalen und grenzüberschreitenden Szenarien verwendet werden.",
+  "isoRules": {
+    "OriginalGroupInformationAbsenceRule": {
+      "definition": "Wenn OriginalGroupInformation fehlt, muss TransactionInformation[*]/OriginalGroupInformation vorhanden sein."
+    },
+    "OriginalGroupInformationMultiplePresenceRule": {
+      "definition": "Wenn OriginalGroupInformation vorhanden ist und mehrfach auftritt (Occurrence > 1), muss TransactionInformation[*]/OriginalGroupInformation vorhanden sein."
+    },
+    "OriginalGroupInformationSinglePresenceRule": {
+      "definition": "Wenn OriginalGroupInformationAndStatus genau einmal vorhanden ist, darf TransactionInformationAndStatus[*]/OriginalGroupInformation nicht vorhanden sein."
+    },
+    "SupplementaryDataRule": {
+      "definition": "Der Baustein SupplementaryData auf Nachrichtenebene darf nicht verwendet werden, um zusätzliche Informationen zu einer Transaktion bereitzustellen. Hierfür ist das Element SupplementaryData auf Transaktionsebene zu verwenden."
+    }
+  }
+}

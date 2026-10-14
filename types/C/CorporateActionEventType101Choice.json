@@ -1,0 +1,17 @@
+{
+  "isoType": "CorporateActionEventType101Choice",
+  "definition": "Auswahl des Formats für den Korrekturgrund.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des Kapitalmaßnahmen-Ereignisses, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Art des Kapitalmaßnahmen-Ereignisses, ausgedrückt als proprietärer Code."
+    }
+  },
+  "isoRules": {
+    "EventTypeRule": {
+      "definition": "Die Verwendung eines bestimmten Codes für die Art des Kapitalmaßnahmen-Ereignisses ist nur zulässig, wenn dieses Ereignis gemäß dem von der Securities Market Practice Group (SMPG) veröffentlichten Event Interpretation Grid eine Wertpapierbewegung auslöst.||Der Code OTHR für den Kapitalmaßnahmen-Ereignisindikator darf nur verwendet werden, wenn kein anderer Code für Kapitalmaßnahmen-Ereignisse geeignet ist.||Der Code CHAN für den Kapitalmaßnahmen-Ereignisindikator darf nur verwendet werden, wenn kein anderer Code für Kapitalmaßnahmen-Ereignisse geeignet ist und nur für ein Ereignis, das sich auf eine Änderung bezieht.||Der Code REDM für den Kapitalmaßnahmen-Ereignisindikator darf nur verwendet werden, wenn die Rückzahlung vom Emittenten und nicht von den Inhabern beschlossen wird."
+    }
+  }
+}

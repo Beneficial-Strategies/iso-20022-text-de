@@ -1,0 +1,17 @@
+{
+  "isoType": "PendingCancellationStatusReason14",
+  "definition": "Grund für den Status ausstehend einer Stornierung.",
+  "isoElements": {
+    "ReasonCode": {
+      "definition": "Grund für den Status ausstehend."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Zusätzliche Informationen zum Status ausstehend."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "AdditionalReasonInformation darf keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können, sofern nicht bilateral vereinbart."
+    }
+  }
+}

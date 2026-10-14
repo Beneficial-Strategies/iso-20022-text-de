@@ -1,0 +1,30 @@
+{
+  "isoType": "IntraBalanceCancellation8",
+  "definition": "Enthält die Details der Stornierungsaufträge.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Konto, auf das oder von dem eine Geldbuchung erfolgt."
+    },
+    "CashAccountOwner": {
+      "definition": "Partei, der das Konto gehört."
+    },
+    "CashAccountServicer": {
+      "definition": "Partei, die das Geldkonto im Auftrag des Kontoinhabers führt, d. h. die Registrierung und Buchung von Einträgen auf dem Konto verwaltet, Salden auf dem Konto berechnet und Informationen über das Konto bereitstellt."
+    },
+    "ProcessingStatus": {
+      "definition": "Status und Statusgrund der Transaktion."
+    },
+    "RequestReference": {
+      "definition": "Eindeutige Identifikation des Stornierungsauftrags."
+    },
+    "StatusDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Status vergeben wurde."
+    },
+    "TransactionIdentification": {
+      "definition": "Referenzen der Transaktion, für die die Änderung der Umbuchung zwischen Beständen beantragt wird."
+    },
+    "UnderlyingIntraBalance": {
+      "definition": "Identifiziert zusätzliche Details der Transaktion."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionNarrative1Code",
+  "definition": "Gibt die Art der Narrative einer Kapitalmaßnahme an.",
+  "isoCodes": {
+    "TAXE": {
+      "name": "Besteuerungsbedingungen",
+      "definition": "Liefert Besteuerungsbedingungen, die nicht in den strukturierten Feldern dieser Nachricht enthalten sein können."
+    },
+    "REGI": {
+      "name": "Registrierungsangaben",
+      "definition": "Liefert die für die Registrierung erforderlichen Informationen."
+    },
+    "WTRC": {
+      "name": "Bescheinigung über Quellensteuerermäßigung",
+      "definition": "Bescheinigungsverfahren zur Ermäßigung oder Befreiung von der Quellensteuer auf Grundlage des steuerlichen Status des Inhabers."
+    },
+    "RFMC": {
+      "name": "ICSD-Ablehnung der Mark-up/Mark-down-Bestätigung",
+      "definition": "Im Rahmen einer Kapitalmaßnahme lehnt ein International Central Securities Depository (ICSD) eine von der kontoführenden Stelle gesendete Mark-up/Mark-down-Bestätigung ab."
+    },
+    "PAUT": {
+      "name": "Nachfassen einer vorherigen Autorisierung",
+      "definition": "Ein International Central Securities Depository (ICSD) mahnt bei der kontoführenden Stelle die Autorisierung an, um den Umtausch von einer vorläufigen Globalurkunde in eine permanente Globalurkunde zu verarbeiten."
+    },
+    "CTIN": {
+      "name": "Bestätigung der Bestandsübertragung",
+      "definition": "Bestätigung der Übertragung von Anteilen zwischen International Central Securities Depositories (ICSDs) infolge einer Kapitalmaßnahme."
+    }
+  }
+}

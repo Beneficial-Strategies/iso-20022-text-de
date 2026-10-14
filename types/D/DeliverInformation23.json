@@ -1,0 +1,74 @@
+{
+  "isoType": "DeliverInformation23",
+  "definition": "Parameter, die auf die Abwicklung einer Wertpapierübertragung angewendet werden.",
+  "isoElements": {
+    "Transferor": {
+      "definition": "Partei, die Wertpapiere an die empfangende Stelle (Übertragungsempfänger) liefert (Übertragender)."
+    },
+    "TransferorRegisteredAccount": {
+      "definition": "Konto, von dem die Wertpapiere geliefert werden sollen."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identifikation einer verbundenen Partei oder eines Vermittlers."
+    },
+    "SecuritiesForm": {
+      "definition": "Form, das heißt Eigentumsform, des Wertpapiers, das heißt Namens- oder Inhaberpapier."
+    },
+    "DematerialisedIndicator": {
+      "definition": "Gibt an, ob ein Wertpapier nur als elektronischer Eintrag existiert, d. h. ob es kein physisches Dokument gibt, das das Wertpapier verkörpert."
+    },
+    "IncomePreference": {
+      "definition": "Vom Kontoinhaber anhand der im Prospekt angebotenen Optionen gewählte Dividendenoption."
+    },
+    "BeneficiaryCertificationCompletion": {
+      "definition": "Der wirtschaftlich Berechtigte oder sein bestellter Beauftragter bescheinigt, dass er alle Halte- oder Anlagebeschränkungen oder -anforderungen des Fonds einhält."
+    },
+    "RequestedTradeDate": {
+      "definition": "Datum, das als Handelstag verwendet wird, wenn Wertpapiere über eine internationale Zentralverwahrer-Einrichtung (ICSD) oder eine Zentralverwahrer-Einrichtung (CSD) abgewickelt werden."
+    },
+    "RequestedSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere beim International Central Securities Depository (ICSD) oder Central Securities Depository (CSD) getauscht werden sollen."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere bei der internationalen Zentralverwahrer-Einrichtung (ICSD) oder der Zentralverwahrer-Einrichtung (CSD) getauscht wurden."
+    },
+    "SettlementAmount": {
+      "definition": "Gesamtbetrag, der im Austausch für das Finanzinstrument gezahlt wurde bzw. zu zahlen ist oder erhalten wurde."
+    },
+    "StampDuty": {
+      "definition": "Gibt an, ob der Abwicklungsbetrag den Stempelsteuerbetrag enthält."
+    },
+    "NetAmount": {
+      "definition": "Geschäftsbetrag."
+    },
+    "Fees": {
+      "definition": "Gebühr im Zusammenhang mit der Übertragung des Finanzinstruments."
+    },
+    "IndividualTax": {
+      "definition": "Steuer im Zusammenhang mit der Übertragung eines Finanzinstruments."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Informationen, die für die Abwicklung eines Währungsumtauschs oder einer Währungsumrechnung erforderlich sind.|Die Art, wie der Wechselkurs ausgedrückt wird, bestimmt, welche Währung die Basiswährung (Unit Currency) und welche die Kurswährung (Quoted Currency) ist. Betragen die betreffenden Beträge EUR 1000 und USD 1300, kann der Wechselkurs nach einem der folgenden Beispiele ausgedrückt werden:|BEISPIEL 1 |UnitCurrency EUR|QuotedCurrency USD|ExchangeRate 1.300|BEISPIEL 2|UnitCurrency USD|QuotedCurrency EUR|ExchangeRate 0.769 (EXAMPLE)."
+    },
+    "SettlementPartiesDetails": {
+      "definition": "Kette der an der Abwicklung der Transaktion beteiligten Parteien."
+    },
+    "PhysicalTransfer": {
+      "definition": "Gibt an, ob das Finanzinstrument physisch geliefert werden soll."
+    },
+    "PhysicalTransferDetails": {
+      "definition": "Parameter einer physischen Lieferung."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Übertragung durch den Anleger. Diese Referenz kann typischerweise in einem Hub-Szenario verwendet werden, um die vom zugrunde liegenden Kunden vergebene Referenz der Übertragung anzugeben."
+    }
+  },
+  "isoRules": {
+    "PhysicalTransferDetails1Rule": {
+      "definition": "Wenn PhysicalTransfer PHYS (Physisch) ist, muss PhysicalTransferDetails vorhanden sein."
+    },
+    "PhysicalTransferDetails2Rule": {
+      "definition": "Wenn PhysicalTransfer DEMT (Entmaterialisiert) ist, ist PhysicalTransferDetails nicht zulässig."
+    }
+  }
+}

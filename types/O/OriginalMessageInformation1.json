@@ -1,0 +1,15 @@
+{
+  "isoType": "OriginalMessageInformation1",
+  "definition": "Eindeutige Identifikation, wie von der ursprünglichen anweisenden Partei vergeben, zur unmissverständlichen Identifizierung der Nachricht.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, wie von der ursprünglichen initiierenden Partei vergeben, zur unmissverständlichen Identifizierung der ursprünglichen Mandatsanforderungsnachricht."
+    },
+    "MessageNameIdentification": {
+      "definition": "Gibt die Nachrichtennamenskennung an, auf die sich die Nachricht bezieht."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    }
+  }
+}

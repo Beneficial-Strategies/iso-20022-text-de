@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAElectionAmendmentRequestV01",
+  "definition": "Umfang|Diese Nachricht wird von einem CSD an den Emittenten (oder dessen Agenten) gesendet, um die Genehmigung einer Änderung einer zuvor gesendeten Nachricht Agent Corporate Action Election Advice zu beantragen.|Verwendung|Diese Nachricht wird verwendet, um die Änderung einer zuvor gesendeten Nachricht Agent Corporate Action Election Advice zu beantragen.|Sobald der Änderungsantrag vom Emittenten (oder dessen Agenten) akzeptiert wurde, verarbeitet der CSD jede Ressourcenbewegung und sendet eine Nachricht Agent Corporate Action Election Advice mit der Funktion 'Optionsänderung', um zu bestätigen, dass die Änderung beim CSD gebucht wurde.|Diese Nachricht wird verwendet, wenn die Bedingungen der Kapitalmaßnahme Änderungen zulassen."
+}

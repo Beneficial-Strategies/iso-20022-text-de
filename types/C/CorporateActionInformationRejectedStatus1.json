@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionInformationRejectedStatus1",
+  "definition": "Stellt den Grund für die Ablehnung einer Informationsmitteilung bereit.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Der Ablehnungsgrund."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

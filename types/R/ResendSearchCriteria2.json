@@ -1,0 +1,24 @@
+{
+  "isoType": "ResendSearchCriteria2",
+  "definition": "Legt die Kriterien fest, nach denen die erneut zu übermittelnden Nachrichten ausgewählt werden.",
+  "isoElements": {
+    "BusinessDate": {
+      "definition": "Datum des Geschäftstags der angeforderten Nachrichten, für die die Funktion zur erneuten Übermittlung verwendet wird."
+    },
+    "SequenceNumber": {
+      "definition": "Unabhängiger Zähler für die Nachrichtensequenz, der einmal je technischer Adresse einer Partei verfügbar ist.|Gibt die Identifikationssequenznummer für ein bestimmtes Paar aus Absender und Empfänger an."
+    },
+    "SequenceRange": {
+      "definition": "Unabhängiger Zähler für einen Bereich von Nachrichtensequenzen, der einmal je technischer Adresse einer Partei verfügbar ist.|Gibt den Bereich der Identifikationssequenznummern für ein bestimmtes Paar aus Absender und Empfänger an."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Identifiziert die ursprüngliche Geschäftsnachricht, die vom geschäftlichen Absender zugestellt wurde, eindeutig."
+    },
+    "FileReference": {
+      "definition": "Zeichenfolge, die die vom Absender zugestellte Datei eindeutig identifiziert."
+    },
+    "Recipient": {
+      "definition": "Eindeutige Kennung zur zweifelsfreien Identifikation des Empfängers der Berichtsnachricht."
+    }
+  }
+}

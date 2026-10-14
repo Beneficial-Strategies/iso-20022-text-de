@@ -1,0 +1,21 @@
+{
+  "isoType": "SequenceRange1Choice",
+  "definition": "Gibt eine Auswahl von Sequenzen an.",
+  "isoElements": {
+    "FromSequence": {
+      "definition": "Startsequenz des Bereichs."
+    },
+    "ToSequence": {
+      "definition": "Endsequenz des Bereichs."
+    },
+    "FromToSequence": {
+      "definition": "Bestimmter Sequenzbereich, angegeben zwischen einer Startsequenz und einer Endsequenz."
+    },
+    "EqualSequence": {
+      "definition": "Anzugebende übereinstimmende Sequenz."
+    },
+    "NotEqualSequence": {
+      "definition": "Anzugebende auszuschließende Sequenz."
+    }
+  }
+}

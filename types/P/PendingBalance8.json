@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingBalance8",
+  "definition": "Liefert Informationen zum ausstehenden Bestand und zu ausstehenden Transaktionen.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Vorzeichenbehaftete Menge des Bestands."
+    },
+    "PendingTransactions": {
+      "definition": "Gesamtprozess, der die Handels- und Abwicklungstransaktionen von Finanzinstrumenten umfasst."
+    }
+  }
+}

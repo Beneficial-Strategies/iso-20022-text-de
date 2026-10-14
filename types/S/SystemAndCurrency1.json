@@ -1,0 +1,12 @@
+{
+  "isoType": "SystemAndCurrency1",
+  "definition": "Enthält die Identifikation des Systems und seiner Währung.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Systems, wie vom Systemadministrator vergeben."
+    },
+    "SystemCurrency": {
+      "definition": "Währung, die vom System verarbeitet werden kann. Ein System kann Transaktionen in einer einzigen Währung oder in mehreren Währungen verarbeiten."
+    }
+  }
+}

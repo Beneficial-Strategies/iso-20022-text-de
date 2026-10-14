@@ -1,0 +1,4 @@
+{
+  "isoType": "MessageRejectV01",
+  "definition": "Anwendungsbereich|Die Nachricht MessageReject wird von einem zentralen System gesendet, um die Ablehnung einer zuvor empfangenen Nachricht mitzuteilen.|Verwendung|Die Nachricht liefert spezifische Angaben zum Ablehnungsgrund."
+}

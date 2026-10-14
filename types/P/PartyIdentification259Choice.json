@@ -1,0 +1,18 @@
+{
+  "isoType": "PartyIdentification259Choice",
+  "definition": "Auswahl zwischen verschiedenen Formaten für die Identifikation einer Partei.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Code, der einem Finanz- oder Nichtfinanzinstitut von der ISO-9362-Registrierungsstelle zugewiesen wird, wie in ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\" beschrieben."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Eindeutiger und zweifelsfreier Bezeichner, der einem Finanzinstitut mithilfe eines proprietären Identifikationsschemas zugewiesen wurde."
+    },
+    "NameAndAddress": {
+      "definition": "Name und Anschrift einer Partei."
+    },
+    "IndividualOwnerIdentification": {
+      "definition": "Individuelle, länderspezifische lokale Identifikation des Inhabers, vereinbart zwischen der kontoführenden Stelle und dem Kontoinhaber."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "IncorrectData1Choice",
+  "definition": "Legt den fehlerhaften Datentyp fest.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fehlerhafter Datentyp in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Fehlerhafter Datentyp in proprietärer Form."
+    }
+  }
+}

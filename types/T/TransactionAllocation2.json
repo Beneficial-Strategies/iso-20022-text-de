@@ -1,0 +1,29 @@
+{
+  "isoType": "TransactionAllocation2",
+  "definition": "Gruppe von Elementen zur Identifizierung der einzelnen zugrunde liegenden Zuordnungen.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag der Zuordnung."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob es sich bei der Zuordnung um eine Belastung oder eine Gutschrift handelt."
+    },
+    "Account": {
+      "definition": "Eindeutige Identifikation des Kontos, zu dessen Gunsten oder zu dessen Lasten die Zuordnung erfolgt."
+    },
+    "Purpose": {
+      "definition": "Zugrunde liegender Grund für die Zuordnung.||Verwendung: Dies gilt nur für die Zuordnung und ist nicht der zugrunde liegende Grund für die Zahlung."
+    },
+    "Reference": {
+      "definition": "Referenz für die Zuordnung."
+    },
+    "RelatedReferences": {
+      "definition": "Referenz zur Zuordnung, die für beide Parteien aussagekräftig ist (zum Beispiel die ursprüngliche Identifikation der Wertpapierabwicklungstransaktion)."
+    }
+  },
+  "isoRules": {
+    "UnderlyingAllocationGuideline": {
+      "definition": "UnderlyingAllocation darf nur vorhanden sein, wenn dies bilateral vereinbart wurde."
+    }
+  }
+}

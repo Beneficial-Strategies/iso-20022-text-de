@@ -1,0 +1,41 @@
+{
+  "isoType": "Fee11",
+  "definition": "Geldbetrag im Zusammenhang mit einer Dienstleistung.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art der Gebühr (Entgelt/Provision)."
+    },
+    "Basis": {
+      "definition": "Methode zur Berechnung der Gebühr (Entgelt/Provision)."
+    },
+    "StandardAmount": {
+      "definition": "Standardgebührenbetrag (Entgelt/Provision) gemäß Fondsprospekt oder für das Konto vereinbart."
+    },
+    "StandardRate": {
+      "definition": "Standardgebührensatz (Entgelt/Provision) zur Berechnung des Entgelt- oder Gebührenbetrags gemäß Fondsprospekt oder für das Konto vereinbart."
+    },
+    "DiscountDetails": {
+      "definition": "Auf die Gebühr (Entgelt/Provision) angewendeter Rabatt oder Erlass."
+    },
+    "AppliedAmount": {
+      "definition": "Auf die Transaktion angewendeter Gebührenbetrag (Entgelt/Provision)."
+    },
+    "AppliedRate": {
+      "definition": "Endgültiger Satz zur Berechnung des Gebührenbetrags (Entgelt/Provision)."
+    },
+    "NonStandardSLAReference": {
+      "definition": "Referenz auf eine Vertriebsvereinbarung, die die normale Verarbeitung oder die Dienstgütevereinbarung (SLA) außer Kraft setzt, z. B. eine Gebühr (Entgelt/Provision)."
+    },
+    "RecipientIdentification": {
+      "definition": "Partei, die Anspruch auf den aus einer Gebühr (Entgelt/Provision) resultierenden Geldbetrag hat."
+    },
+    "InformativeIndicator": {
+      "definition": "Gibt an, dass die Information nur zu Informationszwecken bereitgestellt wird. Beim Wert ‚false‘ oder ‚0‘ wird der angegebene Betrag bei den Transaktionsnebenkosten berücksichtigt. Beim Wert ‚true‘ oder ‚1‘ wird der angegebene Betrag bei den Transaktionsnebenkosten nicht berücksichtigt."
+    }
+  },
+  "isoRules": {
+    "AppliedAmountRule": {
+      "definition": "Wenn InformativeIndicator \"false\" oder \"0\" (Nein) ist, muss AppliedAmount vorhanden sein."
+    }
+  }
+}

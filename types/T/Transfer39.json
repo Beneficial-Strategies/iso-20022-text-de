@@ -1,0 +1,68 @@
+{
+  "isoType": "Transfer39",
+  "definition": "Parameter, die auf die Abwicklung einer Wertpapierübertragung angewendet werden.",
+  "isoElements": {
+    "TransferReference": {
+      "definition": "Eindeutiger und zweifelsfreier Identifikator der Übertragungsanweisung, wie von der anweisenden Partei vergeben."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Übertragung durch den Anleger. Diese Referenz kann typischerweise in einem Hub-Szenario verwendet werden, um die vom zugrunde liegenden Kunden vergebene Referenz der Übertragung anzugeben."
+    },
+    "CounterpartyReference": {
+      "definition": "Von der Gegenpartei vergebene zweifelsfreie Identifikation der Übertragung."
+    },
+    "BusinessFlowType": {
+      "definition": "Identifiziert den Geschäftsprozess, an dem die Beteiligten mitwirken. Dies ist wichtig, um den richtigen Geschäftsprozess gemäß dem Marktgeschäftsmodell auszulösen, der ein Matching von Anweisungen in einer CSD-Umgebung (Double-Leg-Prozess) erfordern kann oder nicht (Single-Leg-Prozess)."
+    },
+    "RequestedTransferDate": {
+      "definition": "Datum, für das die anweisende Partei die Übertragung beantragt."
+    },
+    "RequestedSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere beim International Central Securities Depository (ICSD) oder Central Securities Depository (CSD) getauscht werden sollen."
+    },
+    "TransferOrderDateForm": {
+      "definition": "Datum, an dem der Anleger das Übertragungsformular unterzeichnet hat."
+    },
+    "TransferReason": {
+      "definition": "Grund für die Übertragung."
+    },
+    "HoldingsPlanType": {
+      "definition": "Gibt Informationen zu den im Bestand enthaltenen Anlageplänen an."
+    },
+    "FinancialInstrumentDetails": {
+      "definition": "Informationen zum zu übertragenden Finanzinstrument."
+    },
+    "Quantity": {
+      "definition": "Gesamtmenge der zu übertragenden Wertpapiere, ausgedrückt als Anzahl von Anteilen oder als Prozentsatz."
+    },
+    "UnitsDetails": {
+      "definition": "Aufschlüsselung der zu übertragenden Anteile."
+    },
+    "Rounding": {
+      "definition": "Rundungsrichtung, die auf die nächste Einheit angewendet wird."
+    },
+    "OriginalCost": {
+      "definition": "Ursprünglich für den Vermögenswert zum Zeitpunkt des Kaufs gezahlter Betrag. Kann auch als Buchkosten bezeichnet werden."
+    },
+    "AveragePrice": {
+      "definition": "Wert des Wertpapiers, wie im Konto gebucht. Der Buchwert weicht häufig vom aktuellen Marktwert des Wertpapiers ab."
+    },
+    "TransferCurrency": {
+      "definition": "Währung, die für die Übertragung der Bestände zu verwenden ist. Einige Transferstellen führen Bestände zusätzlich zur ISIN nach Währung gruppiert, bei Fondsanteilen in mehreren Währungen."
+    },
+    "OwnAccountTransferIndicator": {
+      "definition": "Gibt an, ob die Übertragung zu einem Wechsel des wirtschaftlich Berechtigten führt."
+    },
+    "NonStandardSettlementInformation": {
+      "definition": "Zusätzliche spezifische Abwicklungsinformationen für den Fonds."
+    },
+    "TransferExpensesPaymentType": {
+      "definition": "Gibt an, wie die Zahlung der aus der Übertragung resultierenden Gebühren und Steuern gedeckt wird, d. h. ob in bar oder durch die Rücknahme von Anteilen."
+    }
+  },
+  "isoRules": {
+    "TotalUnitsNumberRule": {
+      "definition": "Quantity/TotalUnitsNumber muss die Summe aller Vorkommen von UnitsDetails/UnitsNumber sein, wenn UnitsDetails vorhanden ist."
+    }
+  }
+}

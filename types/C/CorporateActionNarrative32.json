@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionNarrative32",
+  "definition": "Liefert zusätzliche Informationen, etwa die Informationen, die einzuhalten sind.",
+  "isoElements": {
+    "InformationToComplyWith": {
+      "definition": "Liefert dem Kontoinhaber Informationsbedingungen, die einzuhalten sind, zum Beispiel nicht offen für Ansässige in den USA/Kanada, Qualified Institutional Buyers (QIB) oder vorzulegendes Sophisticated Investor Letter (SIL)."
+    },
+    "DeliveryDetails": {
+      "definition": "Liefert zusätzliche Informationen zu den Lieferdetails der ausgelieferten (abgeleiteten) Wertpapiere. Diese Freitextangabe darf nur verwendet werden, wenn die Wertpapiere beim Beauftragten/Verwahrer nicht berechtigt sind, und darf nicht für Abwicklungsanweisungen verwendet werden."
+    },
+    "ForeignExchangeInstructionsAdditionalInformation": {
+      "definition": "Liefert zusätzliche Details zu Devisenanweisungen."
+    },
+    "InstructionAdditionalInformation": {
+      "definition": "Enthält zusätzliche Details zur Anweisung zur Kapitalmaßnahme."
+    }
+  }
+}

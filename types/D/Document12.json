@@ -1,0 +1,33 @@
+{
+  "isoType": "Document12",
+  "definition": "Informationen zu einem Dokument.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art des Dokuments oder der Vorlage."
+    },
+    "Identification": {
+      "definition": "Identifikation des Dokuments oder der Vorlage."
+    },
+    "IssueDate": {
+      "definition": "Ausstellungsdatum bzw. Ausstellungsdatum und -zeit des Dokuments."
+    },
+    "Name": {
+      "definition": "Name des Dokuments oder der Transaktion, z. B. Steuerrechnung."
+    },
+    "LanguageCode": {
+      "definition": "Eindeutige Kennung für eine im Dokument verwendete Sprache."
+    },
+    "Format": {
+      "definition": "Format des Dokuments oder der Vorlage, z. B. PDF, XML, XSLT."
+    },
+    "FileName": {
+      "definition": "Technischer Name der Datei."
+    },
+    "DigitalSignature": {
+      "definition": "Digitale Signatur der beigefügten Binärdatei."
+    },
+    "Enclosure": {
+      "definition": "Binärdatei, die das beigefügte Dokument oder die Vorlage darstellt, z. B. eine PDF-Datei, Bilddatei, XML-Datei, MT-Nachricht."
+    }
+  }
+}

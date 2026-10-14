@@ -1,0 +1,12 @@
+{
+  "isoType": "DerivativeBasicAttributes2",
+  "definition": "Einzelheiten zum Derivatekontrakt, die nicht in der allgemeinen Komponente der Finanzinstrumentattribute enthalten sind.",
+  "isoElements": {
+    "NotionalCurrencyAndAmount": {
+      "definition": "Einem Finanzderivatekontrakt zugrunde liegender Betrag, der für die Berechnung von Zahlungen oder Zahlungseingängen erforderlich ist."
+    },
+    "InterestIncludedInPrice": {
+      "definition": "Gibt an, ob der angegebene Derivatepreis eine anteilige Stückzinskomponente enthält."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "isoType": "IntermediateSecurityDistributionType1Code",
+  "definition": "Gibt die Art der Ausschüttung von Zwischenwertpapieren an.",
+  "isoCodes": {
+    "BIDS": {
+      "name": "Umgekehrte Rechte",
+      "definition": "Ausschüttung umgekehrter Bezugsrechte."
+    },
+    "BONU": {
+      "name": "Bonusrechte",
+      "definition": "Ausschüttung von Gratisbezugsrechten."
+    },
+    "DRIP": {
+      "name": "Dividendenwiederanlage",
+      "definition": "Ausschüttung von Wertpapieren zur Dividendenwiederanlage."
+    },
+    "DVCA": {
+      "name": "Bardividende",
+      "definition": "Ausschüttung von Bargeld an Aktionäre im Verhältnis zu ihrem Anteilsbesitz. Ordentliche Dividenden sind wiederkehrend und regelmäßig. Der Aktionär muss das Bargeld annehmen und kann eine Wahl der Währung angeboten bekommen."
+    },
+    "DVOP": {
+      "name": "Dividendenwahlrecht",
+      "definition": "Ausschüttung einer Dividendenoption."
+    },
+    "EXRI": {
+      "name": "Bezugsrechte",
+      "definition": "Ausschüttung von Bezugsrechten."
+    },
+    "PRIO": {
+      "name": "Rechte aus offenem Angebot",
+      "definition": "Ausschüttung von Rechten aus einem offenen Angebot."
+    },
+    "DVSC": {
+      "name": "Aktiendividende oder Zahlung",
+      "definition": "Dividende oder Zinsen, die in Form von Scrip gezahlt werden."
+    },
+    "DVSE": {
+      "name": "Aktiendividende",
+      "definition": "An die Aktionäre in Form von Aktien gezahlte Dividende."
+    },
+    "INTR": {
+      "name": "Zinszahlung",
+      "definition": "Zinszahlung, die an die Inhaber eines verzinslichen Vermögenswerts ausgeschüttet wird."
+    },
+    "LIQU": {
+      "name": "Liquidationsdividende oder -zahlung",
+      "definition": "Eine Ausschüttung von Barmitteln, Vermögenswerten oder beidem."
+    },
+    "SOFF": {
+      "name": "Abspaltung",
+      "definition": "Eine Ausschüttung von Aktien einer Tochtergesellschaft an die Aktionäre."
+    }
+  }
+}

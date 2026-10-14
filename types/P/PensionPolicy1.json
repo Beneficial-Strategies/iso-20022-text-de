@@ -1,0 +1,15 @@
+{
+  "isoType": "PensionPolicy1",
+  "definition": "Identifikation einer Pensionspolice.",
+  "isoElements": {
+    "Identifier": {
+      "definition": "Referenznummer der Pensionspolice, des Pensionsplans oder der Pensionsregelung."
+    },
+    "SubIdentifier": {
+      "definition": "Unteridentifikation der Pensionspolice, des Pensionsplans oder der Pensionsregelung, etwa eine Mitgliedsreferenz."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zur Identifikation der Pensionspolice, des Pensionsplans oder der Pensionsregelung."
+    }
+  }
+}

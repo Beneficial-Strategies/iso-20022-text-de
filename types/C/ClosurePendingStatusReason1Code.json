@@ -1,0 +1,14 @@
+{
+  "isoType": "ClosurePendingStatusReason1Code",
+  "definition": "Gibt den Grund für den Status „Schließung ausstehend“ an.",
+  "isoCodes": {
+    "CLOS": {
+      "name": "Kontoschließung in Bearbeitung",
+      "definition": "Die Kontoschließung ist in Bearbeitung."
+    },
+    "PEND": {
+      "name": "Ausstehende Bedingungen",
+      "definition": "Das Konto wird geschlossen, sobald die Bedingungen erfüllt sind."
+    }
+  }
+}

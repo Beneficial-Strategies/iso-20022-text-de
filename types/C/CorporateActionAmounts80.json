@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionAmounts80",
+  "definition": "Gibt Beträge im Rahmen eines Kapitalmaßnahmen-Ereignisses an.",
+  "isoElements": {
+    "RefundedAmount": {
+      "definition": "Bei teilweisen Prerefunding-Ereignissen der Betrag, den der Emittent auf ein früheres Fälligkeitsdatum umschuldet, der garantiert und treuhänderisch (Escrow) hinterlegt ist."
+    },
+    "NonRefundedAmount": {
+      "definition": "Bei teilweisen Prerefunding-Ereignissen der verbleibende Betrag, der weiterhin dasselbe Fälligkeitsdatum hat."
+    },
+    "DepositoryCalledAmount": {
+      "definition": "Gibt den Teil des Kündigungsbetrags an, der bei der Verwahrstelle gehalten wird. Dies kann bei der Verwahrstelle in Urkundenform gehaltene Bestände zuzüglich des bei der Rückzahlungsstelle gehaltenen Saldos einschließen. Bei Namensemissionen umfasst dies nur den Teil der Urkunden, der bei der Verwahrstelle in Namens- oder Inhaberform gehalten wird."
+    }
+  }
+}

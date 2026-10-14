@@ -1,0 +1,18 @@
+{
+  "isoType": "RemittanceLocation9",
+  "definition": "Enthält Angaben zur Zahlungsavisierung.",
+  "isoElements": {
+    "RemittanceIdentification": {
+      "definition": "Eindeutige Identifikation, vom Auftraggeber der Zahlung vergeben, um die getrennt vom Zahlungsauftrag gesendeten Verwendungszweck-Informationen, zum Beispiel eine Zahlungsavisierung, eindeutig zu identifizieren."
+    },
+    "RemittanceLocationMethod": {
+      "definition": "Methode, mit der die Informationen der Zahlungsavisierung übermittelt werden."
+    },
+    "RemittanceLocationElectronicAddress": {
+      "definition": "Elektronische Adresse, an die eine Bank die Verwendungszweck-Informationen senden soll."
+    },
+    "RemittanceLocationPostalAddress": {
+      "definition": "Postanschrift, an die eine Bank die Verwendungszweck-Informationen senden soll."
+    }
+  }
+}

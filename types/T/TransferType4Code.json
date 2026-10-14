@@ -1,0 +1,22 @@
+{
+  "isoType": "TransferType4Code",
+  "definition": "Gibt an, ob ein Finanzinstrument als Vermögenswert oder als Barmittel übertragen wird.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Bargeld",
+      "definition": "Übertragung als Barmittel."
+    },
+    "CONV": {
+      "name": "Wandlung",
+      "definition": "Die ISIN wird in eine andere ISIN umgewandelt und anschließend übertragen."
+    },
+    "EXCL": {
+      "name": "Ausgeschlossen",
+      "definition": "Vom Transfer ausgeschlossener Vermögenswert."
+    },
+    "SECU": {
+      "name": "Sachleistung",
+      "definition": "Das Wertpapier wird als Vermögenswert in specie übertragen, d. h. \"in seiner tatsächlichen Form\"."
+    }
+  }
+}

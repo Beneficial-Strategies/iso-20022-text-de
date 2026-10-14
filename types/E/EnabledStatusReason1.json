@@ -1,0 +1,12 @@
+{
+  "isoType": "EnabledStatusReason1",
+  "definition": "Grund für einen aktivierten Status.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für den aktivierten Kontostatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Grund für den aktivierten Kontostatus."
+    }
+  }
+}

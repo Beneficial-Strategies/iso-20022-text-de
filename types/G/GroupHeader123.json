@@ -1,0 +1,56 @@
+{
+  "isoType": "GroupHeader123",
+  "definition": "Satz von Merkmalen, die für alle in der Nachricht enthaltenen Einzeltransaktionen gelten.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, die von der beauftragenden Partei vergeben und an die nächste Partei in der Kette gesendet wird, um die Nachricht eindeutig zu identifizieren.|Verwendung: Die beauftragende Partei muss sicherstellen, dass MessageIdentification je beauftragter Partei für einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "Authorisation": {
+      "definition": "Benutzeridentifikation oder Benutzerschlüssel, anhand derer geprüft wird, ob die initiierende Partei Transaktionen von dem in der Nachricht angegebenen Konto auslösen darf.||Verwendung: Der Inhalt ist nicht technischer Natur, sondern spiegelt die Organisationsstruktur auf der initiierenden Seite wider.|Das Autorisierungselement kann typischerweise in Relay-Szenarien, Zahlungsinitiierungen, Zahlungsrückgaben oder Zahlungsrückbuchungen verwendet werden, die im Auftrag einer von der initiierenden Partei verschiedenen Partei ausgelöst werden."
+    },
+    "BatchBooking": {
+      "definition": "Gibt an, ob ein einzelner Umsatz je Einzeltransaktion oder ein Sammelumsatz für die Summe der Beträge aller Transaktionen innerhalb der Gruppe einer Nachricht gewünscht wird.|Verwendung: Die Sammelbuchung wird verwendet, um eine mögliche Sammelbuchung anzufordern und nicht anzuordnen."
+    },
+    "NumberOfTransactions": {
+      "definition": "Anzahl der in der Nachricht enthaltenen Einzeltransaktionen."
+    },
+    "ControlSum": {
+      "definition": "Summe aller in der Nachricht enthaltenen Einzelbeträge, unabhängig von den Währungen."
+    },
+    "GroupReturn": {
+      "definition": "Gibt an, ob sich die Rückgabe auf die gesamte Transaktionsgruppe oder auf einzelne Transaktionen innerhalb der ursprünglichen Gruppe(n) bezieht."
+    },
+    "TotalReturnedInterbankSettlementAmount": {
+      "definition": "Gesamtbetrag der in der Rückgabenachricht zwischen der beauftragenden Bank und der beauftragten Bank bewegten Gelder."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag der Bank, die ihn schuldet, nicht mehr zur Verfügung steht und der Bank, der er zusteht, zur Verfügung steht."
+    },
+    "SettlementInformation": {
+      "definition": "Gibt Einzelheiten dazu an, wie die Abwicklung der Transaktion(en) zwischen der anweisenden Bank und der angewiesenen Bank erfolgt."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Gibt die Art der Rückgabetransaktion an."
+    },
+    "InstructingAgent": {
+      "definition": "Bank, die die nächste Partei in der Kette anweist, die Anweisung(en) auszuführen.|Verwendung: Die beauftragende Bank ist die Partei, die die Rückgabenachricht sendet, und nicht die Partei, die die ursprüngliche, zurückgegebene Anweisung gesendet hat."
+    },
+    "InstructedAgent": {
+      "definition": "Bank, die von der vorherigen Partei in der Kette angewiesen wird, die Anweisung(en) auszuführen.|Verwendung: Die beauftragte Bank ist die Partei, die die Rückgabenachricht erhält, und nicht die Partei, die die ursprüngliche, zurückgegebene Anweisung erhalten hat."
+    }
+  },
+  "isoRules": {
+    "GroupReturnAndNumberOfTransactionsGuideline": {
+      "definition": "Wenn GroupReturn wahr ist, entspricht NumberOfTransactions der Anzahl der Transaktionen in der ursprünglichen Nachricht."
+    },
+    "TotalInterbankSettlementAmountAndDateRule": {
+      "definition": "Wenn TotalReturnedInterbankSettlementAmount vorhanden ist, muss InterbankSettlementDate vorhanden sein."
+    },
+    "ControlSumAndGroupReturnRule": {
+      "definition": "Wenn GroupReturn wahr ist, ist ControlSum nicht zulässig."
+    }
+  }
+}

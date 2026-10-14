@@ -1,0 +1,10 @@
+{
+  "isoType": "DateType3Code",
+  "definition": "Gibt eine Datumsart an.",
+  "isoCodes": {
+    "VARI": {
+      "name": "Verschiedene",
+      "definition": "Teilgeschäfte haben über einen Zeitraum von zwei oder mehr Tagen stattgefunden."
+    }
+  }
+}

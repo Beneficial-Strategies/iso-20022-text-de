@@ -1,0 +1,22 @@
+{
+  "isoType": "LimitStatus1Code",
+  "definition": "Gibt den aktuellen Status eines Limits an.",
+  "isoCodes": {
+    "ENAB": {
+      "name": "Aktiviert",
+      "definition": "Das Limit ist derzeit in Kraft."
+    },
+    "DISA": {
+      "name": "Deaktiviert",
+      "definition": "Das Limit ist derzeit nicht in Kraft."
+    },
+    "DELD": {
+      "name": "Gelöscht",
+      "definition": "Das Limit wurde gelöscht oder ausgesetzt."
+    },
+    "REQD": {
+      "name": "Angefordert",
+      "definition": "Das Limit wurde beantragt und ist noch nicht aktiviert."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "AccountOpeningType1Code",
+  "definition": "Gibt die Art des Kontos an, auf die sich ein Kontoeröffnungsauftrag bezieht, z. B. ein neues Konto.",
+  "isoCodes": {
+    "NEWA": {
+      "name": "Neue Kontoeröffnung",
+      "definition": "Der Kontoauftrag dient der Eröffnung eines neuen Kontos."
+    },
+    "SUPA": {
+      "name": "Zusätzliche Kontoeröffnung",
+      "definition": "Der Kontoauftrag dient der Eröffnung eines Zusatzkontos, das heißt auf Basis eines bestehenden Kontos."
+    }
+  }
+}

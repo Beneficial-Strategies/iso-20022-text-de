@@ -1,0 +1,190 @@
+{
+  "isoType": "RejectedStatusReason12Code",
+  "definition": "Gibt den Grund für den Status „abgelehnt“ einer Übertragungs- oder Abwicklungsanweisung an.",
+  "isoCodes": {
+    "BLCA": {
+      "name": "Konto für Kapitalmaßnahme gesperrt",
+      "definition": "Das Anlagekonto ist aufgrund einer Kapitalmaßnahme gesperrt."
+    },
+    "DOCC": {
+      "name": "Konto gesperrt, Unterlagen fehlen",
+      "definition": "Das Anlagekonto ist gesperrt, bis bestimmte Rechtsverfahren abgeschlossen sind, zum Beispiel rechtliche Unterlagen des Rechtsnachfolgers oder Gerichtsverfahren aufgrund einer Insolvenz."
+    },
+    "IAQD": {
+      "name": "Erwerbsdatum",
+      "definition": "Das Erwerbsdatum wird nicht erkannt oder ist ungültig."
+    },
+    "ICTN": {
+      "name": "Zertifikatnummer",
+      "definition": "Die Zertifikatsnummer wird nicht erkannt oder ist ungültig."
+    },
+    "CYPA": {
+      "name": "Teilweise laufendes Jahr",
+      "definition": "Eine Teilübertragung des laufenden Jahres ist nicht zulässig, das heißt, es ist nicht möglich, einen Vermögenswert für das laufende Jahr zu übertragen, da für das laufende Jahr weitere Vermögenswerte gehalten werden."
+    },
+    "TREF": {
+      "name": "Doppelte Übertragungsreferenz",
+      "definition": "Die Übertragungsreferenz ist ein Duplikat einer zuvor erhaltenen Übertragung."
+    },
+    "DSEC": {
+      "name": "Finanzinstrument-Identifikation",
+      "definition": "Die Identifikation des Wertpapiers wird nicht erkannt oder ist ungültig."
+    },
+    "IDNA": {
+      "name": "Finanzinstrument-Identifikation und -Name",
+      "definition": "Die Identifikation des Wertpapiers und der Wertpapiername stimmen nicht überein."
+    },
+    "DQUA": {
+      "name": "Menge des Finanzinstruments",
+      "definition": "Die Menge des Finanzinstruments ist ungültig."
+    },
+    "FTAX": {
+      "name": "Steuerjahr des Finanzinstruments",
+      "definition": "Das Finanzinstrument ist für das angeforderte Steuerjahr nicht gültig."
+    },
+    "INID": {
+      "name": "Unzureichende Anlegerdaten",
+      "definition": "Die Anlegerdaten sind unzureichend. Anwendbar, wenn die vorgeschriebene Marktpraxis nicht befolgt wird."
+    },
+    "INAC": {
+      "name": "Ungültiger Kontoführer",
+      "definition": "Der kontoführende Dienstleister wird nicht erkannt oder ist ungültig."
+    },
+    "CASH": {
+      "name": "Ungültiges Geldkonto",
+      "definition": "Das Geldkonto wird nicht erkannt oder ist ungültig."
+    },
+    "INPM": {
+      "name": "Ungültiger neuer Plan-Manager",
+      "definition": "Der neue Planverwalter wird nicht erkannt oder ist ungültig."
+    },
+    "INNA": {
+      "name": "Ungültiges Nominee-Konto",
+      "definition": "Das Nominee-Konto wird nicht erkannt oder ist ungültig."
+    },
+    "SAFE": {
+      "name": "Anlagekonto",
+      "definition": "Die Identifikation des Anlagekontos wird nicht erkannt oder ist ungültig."
+    },
+    "INUK": {
+      "name": "Name und Adresse des Anlegers unbekannt",
+      "definition": "Name und Adresse des Anlegers sind nicht bekannt."
+    },
+    "LEGL": {
+      "name": "Rechtlich unmöglich",
+      "definition": "Eine Stornierung ist rechtlich unmöglich."
+    },
+    "NSLA": {
+      "name": "Nicht SLA-konform",
+      "definition": "Die Anweisung entspricht nicht der Dienstgütevereinbarung."
+    },
+    "SECU": {
+      "name": "Nicht genügend Finanzinstrumente",
+      "definition": "Das Konto enthält nicht genügend Wertpapiere, um die Anweisung zu verarbeiten."
+    },
+    "PTNS": {
+      "name": "Teilweise nicht unterstützt",
+      "definition": "Eine Teilübertragung wird nicht unterstützt. Anwendbar, wenn Steuerjahre zusammengefasst werden und, zum Beispiel weil nur ein Übertragungsauftrag für das Steuerjahr 2000 eingeht, die Übertragung nicht verarbeitet werden kann, da der Anleger auch weitere Steuerjahre hält."
+    },
+    "DLVY": {
+      "name": "Physische Lieferung unmöglich",
+      "definition": "Der Auftrag enthält Angaben zur physischen Lieferung, der Fonds kann jedoch nicht physisch geliefert werden."
+    },
+    "DDAT": {
+      "name": "Abwicklungsdatum",
+      "definition": "Das Datum der Barabwicklung wird nicht erkannt oder ist ungültig."
+    },
+    "ISTP": {
+      "name": "Abwicklungsparteien",
+      "definition": "Eine oder mehrere Abwicklungsparteien werden nicht erkannt oder sind ungültig."
+    },
+    "DEPT": {
+      "name": "Abwicklungsort",
+      "definition": "Der Abwicklungsort wird nicht erkannt oder ist ungültig."
+    },
+    "ISAT": {
+      "name": "Ungültige ISA-Art",
+      "definition": "Die ISA-Art wird nicht erkannt oder ist ungültig."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Ein anderer Grund für den Status „abgelehnt“."
+    },
+    "NCON": {
+      "name": "Nicht umwandelbar",
+      "definition": "Die beiden Anteilklassen gehören nicht zum selben Fonds."
+    },
+    "ACLO": {
+      "name": "Vermögenswert geschlossen",
+      "definition": "Der zur Übertragung angewiesene Vermögenswert ist geschlossen."
+    },
+    "NASS": {
+      "name": "Vermögenswert nicht unterstützt",
+      "definition": "Der Vermögenswert unterstützt keine Umregistrierung."
+    },
+    "NQTY": {
+      "name": "Menge unter Mindestmenge",
+      "definition": "Die Übertragungsmenge ist zu gering."
+    },
+    "BLTR": {
+      "name": "Konto für Übertragung gesperrt",
+      "definition": "Das Anlagekonto ist aufgrund einer Übertragung von Investmentfonds nach außen gesperrt."
+    },
+    "COSE": {
+      "name": "Bereits ausgeführt",
+      "definition": "Der Auftrag oder die Übertragung wurde bereits ausgeführt und die Bestätigung wurde gesendet."
+    },
+    "ILLI": {
+      "name": "Vermögenswerte illiquide",
+      "definition": "Die Vermögenswerte sind illiquide."
+    },
+    "BMRV": {
+      "name": "Unter dem Mindestverbleibsbetrag",
+      "definition": "Der Bestand würde unter den Mindestverbleibswert fallen."
+    },
+    "DINV": {
+      "name": "Daten ungültig",
+      "definition": "Die Daten im Auftrag oder in der Übertragungsanweisung sind ungültig."
+    },
+    "ICAG": {
+      "name": "Liefernde Bank",
+      "definition": "Die liefernde Stelle wird nicht erkannt oder ist ungültig."
+    },
+    "IPAC": {
+      "name": "Anweisende Partei für das Konto nicht zugelassen",
+      "definition": "Die anweisende Partei ist nicht berechtigt, für dieses Anlagekonto Anweisungen zu erteilen."
+    },
+    "INTE": {
+      "name": "Intermediär",
+      "definition": "Der Intermediär ist nicht bekannt oder ungültig."
+    },
+    "DMON": {
+      "name": "Ungültiger Abwicklungsbetrag",
+      "definition": "Ungültiger oder nicht erkannter Abwicklungsbetrag."
+    },
+    "PRCT": {
+      "name": "Verletzung der prozentualen Beteiligung",
+      "definition": "Verstoß gegen die prozentuale Beteiligungsgrenze, zum Beispiel PPM-Regeln; Steuervorschriften (ERISA)."
+    },
+    "IVAG": {
+      "name": "Empfangende Bank",
+      "definition": "Der empfangende Beauftragte ist nicht bekannt oder ungültig."
+    },
+    "NCRR": {
+      "name": "Währung des Abwicklungsbetrags",
+      "definition": "Die Währung des Abwicklungsbetrags wird nicht erkannt oder ist ungültig."
+    },
+    "DTRD": {
+      "name": "Handelstag",
+      "definition": "Unbekanntes oder ungültiges Handelsdatum oder gewünschtes Handelsdatum oder zukünftiges Handelsdatum."
+    },
+    "UPAY": {
+      "name": "Nicht akzeptierte Zahlungsmethode",
+      "definition": "Die Zahlungsmethode, zum Beispiel Scheck oder Zahlungskarte, wird nicht akzeptiert."
+    },
+    "URSC": {
+      "name": "Nicht akzeptierte gewünschte Abwicklungswährung",
+      "definition": "Die angeforderte Abwicklungswährung wird nicht unterstützt."
+    }
+  }
+}

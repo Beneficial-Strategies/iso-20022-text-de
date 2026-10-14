@@ -1,0 +1,12 @@
+{
+  "isoType": "InitialAmount1Choice",
+  "definition": "Auswahl zwischen einem Anfangsbetrag oder einer Anzahl vorausbezahlter Raten.",
+  "isoElements": {
+    "InitialNumberOfInstalments": {
+      "definition": "Anzahl der vorausbezahlten Ratenperioden zum Zeitpunkt der Erstellung des Anlageplans."
+    },
+    "Amount": {
+      "definition": "Betrag, der zum Zeitpunkt der Erstellung des Anlageplans zu zahlen oder zurückzunehmen ist."
+    }
+  }
+}

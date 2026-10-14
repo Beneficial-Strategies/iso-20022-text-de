@@ -1,0 +1,26 @@
+{
+  "isoType": "Statement58",
+  "definition": "Merkmale des Berichts.",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Identifikation der Nachricht SecuritiesStatementQuery, mit der dieser Auszug angefordert wurde."
+    },
+    "ReportIdentification": {
+      "definition": "Referenz, die allen Seiten eines Berichts gemeinsam ist."
+    },
+    "HistoricData": {
+      "definition": "Gibt an, ob die Daten historisch (true) oder aktuell (false) sind."
+    },
+    "ActivityIndicator": {
+      "definition": "Gibt an, ob im Auszug Aktivität oder eine Aktualisierung von Informationen gemeldet wird."
+    },
+    "SubAccountIndicator": {
+      "definition": "Gibt an, ob der Auszug Bestände auf Ebene des Unterverwahrkontos meldet."
+    }
+  },
+  "isoRules": {
+    "ReportNumberRule": {
+      "definition": "Hat der Bericht mehrere Seiten, muss die ReportNumber auf allen Seiten gleich bleiben. Sie ist eine eindeutige Nummer des Berichts.|Zwei Berichte desselben Typs, die nacheinander an denselben Empfänger in Bezug auf dasselbe Verwahrkonto gesendet werden, müssen unterschiedliche ReportNumbers haben. Ein Tagesbericht von Tag 1 hätte beispielsweise die ReportNumber 001, der von Tag 2 die ReportNumber 002 usw."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "Event1",
+  "definition": "Liefert Angaben zu einem Ereignis, das in einem System aufgetreten ist.",
+  "isoElements": {
+    "EventCode": {
+      "definition": "Proprietärer Code zur Angabe eines Ereignisses, das in einem System aufgetreten ist."
+    },
+    "EventParameter": {
+      "definition": "Beschreibt die Parameter eines Ereignisses, das in einem System aufgetreten ist."
+    },
+    "EventDescription": {
+      "definition": "Freitext zur Beschreibung eines Ereignisses, das in einem System aufgetreten ist."
+    },
+    "EventTime": {
+      "definition": "Datum und Uhrzeit, zu denen das Ereignis eingetreten ist."
+    }
+  }
+}

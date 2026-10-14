@@ -1,0 +1,15 @@
+{
+  "isoType": "OrganisationIdentification29",
+  "definition": "Eindeutige und zweifelsfreie Möglichkeit zur Identifikation einer Organisation.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Business Identifier Code der Organisation."
+    },
+    "LEI": {
+      "definition": "Legal Entity Identifier als alternative Identifikation einer Partei."
+    },
+    "Other": {
+      "definition": "Eindeutige Identifikation einer Organisation, vergeben von einem Institut anhand eines Identifikationsschemas."
+    }
+  }
+}

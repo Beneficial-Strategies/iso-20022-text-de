@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountUsageType2Choice",
+  "definition": "Auswahl von Formaten für die Angabe der Art der Kontonutzung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Art der Kontonutzung."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Art der Kontonutzung."
+    }
+  }
+}

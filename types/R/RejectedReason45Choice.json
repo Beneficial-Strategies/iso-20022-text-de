@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedReason45Choice",
+  "definition": "Auswahl der Formate für die Angabe des Ablehnungsgrundes.",
+  "isoElements": {
+    "Code": {
+      "definition": "Ablehnungsgrund als Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Ablehnungsgrund als proprietärer Code ausgedrückt."
+    }
+  }
+}

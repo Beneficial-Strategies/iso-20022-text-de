@@ -1,0 +1,71 @@
+{
+  "isoType": "CorporateActionOption242",
+  "definition": "Liefert Informationen zur Kapitalmaßnahmen-Option.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "OptionFeatures": {
+      "definition": "Gibt die Merkmale an, die für eine Kapitalmaßnahmen-Option gelten können."
+    },
+    "AccountOwner": {
+      "definition": "Partei, der das Konto gehört."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem Finanzinstrumente geführt werden."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Blockchain-Adresse oder Wallet, in der digitale Vermögenswerte gehalten werden. Dies entspricht dem Verwahrkonto für digitale Vermögenswerte."
+    },
+    "CashAccount": {
+      "definition": "Konto, auf dem eine Wertpapierbuchung erfolgt."
+    },
+    "SafekeepingPlace": {
+      "definition": "Ort, an dem die Finanzinstrumente verwahrt werden bzw. verwahrt werden."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifiziert das Finanzinstrument."
+    },
+    "TotalEligibleBalance": {
+      "definition": "Gesamter für dieses Kapitalmaßnahmen-Ereignis anspruchsberechtigter Wertpapierbestand. Die Berechnung des Anspruchs beruht auf diesem Bestand."
+    },
+    "InstructedBalance": {
+      "definition": "Saldo der angewiesenen Position."
+    },
+    "UninstructedBalance": {
+      "definition": "Saldo der nicht angewiesenen Position."
+    },
+    "ProtectBalance": {
+      "definition": "Bestand an Wertpapieren im Protect-Status bei einem CSD, der einen Protect-Cover-Service betreibt."
+    },
+    "StatusQuantity": {
+      "definition": "Menge der Wertpapiere, denen der angegebene Status zugewiesen wurde."
+    },
+    "StatusCashAmount": {
+      "definition": "Betrag des gezeichneten Bargelds, dem der angegebene Status zugewiesen wurde."
+    },
+    "SolicitationDealerFeeIndicator": {
+      "definition": "Gibt an, ob für das Ereignis eine Akquisitionsgebühr (Solicitation Fee) anfällt. Diese Gebühr wird vom akquirierenden Händler gezahlt."
+    }
+  },
+  "isoRules": {
+    "OptionNumberRule": {
+      "definition": "Zur Unterscheidung zwischen Optionen muss die OptionNumber statt des OptionType verwendet werden, zum Beispiel wenn zwei oder mehr Angebote durch denselben Kapitalmaßnahmen-Optionscode beschrieben werden können. Daher muss der Wert von OptionNumber für jede Option unterschiedlich sein."
+    },
+    "SafekeepingPlaceRule": {
+      "definition": "SafekeepingPlace darf nur von globalen Verwahrstellen verwendet werden, die es ihren Kunden erlauben anzugeben, wo die Wertpapiere gehalten werden sollen, zum Beispiel auf einem ICSD-Konto im Gegensatz zu einem Konto beim lokalen CSD."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Entweder SafekeepingAccount oder BlockChainAddressOrWallet muss vorhanden sein, aber nicht beide."
+    }
+  }
+}

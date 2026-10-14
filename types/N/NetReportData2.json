@@ -1,0 +1,33 @@
+{
+  "isoType": "NetReportData2",
+  "definition": "Gibt die mit einem Nettobericht verbundenen Metadaten an.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Eindeutige Kennung einer Nachricht, wie vom Absender vergeben. Diese eindeutige Kennung kann in nachfolgenden Nachrichten für Querverweise verwendet werden."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung des Nettoberichts."
+    },
+    "NettingCutOffTime": {
+      "definition": "Gibt den überschrittenen Annahmeschluss an, der zur Erstellung des Nettoberichts geführt hat."
+    },
+    "ReportDate": {
+      "definition": "Gibt das Valutadatum an, zu dem der Nettobericht erstellt wurde."
+    },
+    "ValueDate": {
+      "definition": "Gibt das Valutadatum der Geschäfte an, die bei der Erstellung des Nettoberichts verwendet wurden."
+    },
+    "ReportType": {
+      "definition": "Gibt die Art des Nettoberichts an und zeigt, wie die Verpflichtungen berechnet wurden."
+    },
+    "NetReportServicer": {
+      "definition": "Beschreibt das zentrale System, das für die Erstellung des Nettoberichts verantwortlich ist."
+    },
+    "NetServiceType": {
+      "definition": "Beschreibt die Art des Netting-Dienstes, der dem Nettobericht zugrunde liegt."
+    },
+    "MessagePagination": {
+      "definition": "Seitennummer der Nachricht (innerhalb des Nettoberichts) und Fortsetzungskennzeichen, das angibt, dass der Bericht fortgesetzt wird oder dass die Nachricht die letzte Seite des Berichts ist."
+    }
+  }
+}

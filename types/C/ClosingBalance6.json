@@ -1,0 +1,17 @@
+{
+  "isoType": "ClosingBalance6",
+  "definition": "Schlusssaldo für den Auszugszeitraum (endgültiger Schlusssaldo) oder dieser Seite (Zwischenschlusssaldo).",
+  "isoElements": {
+    "ShortLongIndicator": {
+      "definition": "Angabe, dass die Position Short oder Long ist."
+    },
+    "ClosingBalance": {
+      "definition": "Schlusssaldo für den Auszugszeitraum (endgültiger Schlusssaldo) oder dieser Seite (Zwischenschlusssaldo)."
+    }
+  },
+  "isoRules": {
+    "ShortLongDefaultRule": {
+      "definition": "Wenn Shortlong fehlt, gilt standardmäßig long, das heißt, der Saldo ist positiv."
+    }
+  }
+}

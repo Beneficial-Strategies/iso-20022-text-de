@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingProcessingStatus16Choice",
+  "definition": "Gibt an, ob der Status mit oder ohne Grund angegeben wird.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Gibt an, dass kein Grund verfügbar oder zu melden ist."
+    },
+    "Reason": {
+      "definition": "Legt den Grund für den Status „Verarbeitung ausstehend“ fest."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "isoType": "Statement59",
+  "definition": "Allgemeine Merkmale eines Auszugs, der Informationen für ein genaues Datum meldet.",
+  "isoElements": {
+    "SenderBusinessRole": {
+      "definition": "Gibt die fachliche Rolle des Nachrichtenabsenders und damit die Geschäftsbeziehung zwischen Absender und Empfänger an (oder die von ihnen vertretenen Interessen, sofern eine andere Stelle im Namen des Absenders oder Empfängers handelt). Die Nachricht wird zwischen zwei Stellen ausgetauscht, wobei die eine der Kontoführer und die andere der Kontoinhaber ist, und die Nachricht kann mit jeder von beiden als Absender verwendet werden."
+    },
+    "StatementNumber": {
+      "definition": "Fortlaufende Nummer des Berichts."
+    },
+    "QueryReference": {
+      "definition": "Identifikation der Abfragenachricht, mit der dieser Auszug angefordert wurde."
+    },
+    "StatementIdentification": {
+      "definition": "Referenz, die allen Seiten des Kontoauszugs gemeinsam ist."
+    },
+    "StatementDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung des Kontoauszugs."
+    },
+    "StatementPeriod": {
+      "definition": "Datumszeitraum, für den der Kontoauszug erstellt wurde."
+    },
+    "Frequency": {
+      "definition": "Häufigkeit des Auszugs."
+    },
+    "FrequencyGranularity": {
+      "definition": "Granularität der für die Berichterstattung verwendeten Häufigkeit."
+    },
+    "UpdateType": {
+      "definition": "Gibt an, ob der Kontoauszug vollständig ist oder nur Änderungen enthält."
+    },
+    "ActivityIndicator": {
+      "definition": "Gibt an, ob im Kontoauszug Aktivitäten oder aktualisierte Informationen gemeldet werden."
+    }
+  },
+  "isoRules": {
+    "FrequencyGranularityGuideline": {
+      "definition": "FrequencyGranularity sollte innerhalb der Grenzen der Frequency liegen, z. B. Frequency gleich Monthly und FrequencyGranularity gleich Daily."
+    }
+  }
+}

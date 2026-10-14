@@ -1,0 +1,12 @@
+{
+  "isoType": "ReservationReport8",
+  "definition": "Meldet entweder die Reservierung oder einen fachlichen Fehler.",
+  "isoElements": {
+    "ReservationIdentification": {
+      "definition": "Identifikation der Reservierung, zu der Informationen angefordert werden."
+    },
+    "ReservationOrError": {
+      "definition": "Angeforderte Informationen zum Limit."
+    }
+  }
+}

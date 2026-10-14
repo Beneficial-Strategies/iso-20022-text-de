@@ -1,0 +1,18 @@
+{
+  "isoType": "OutputFormat1Code",
+  "definition": "Nachrichtenformat.",
+  "isoCodes": {
+    "MREF": {
+      "name": "Nachrichtenreferenz",
+      "definition": "Vordefinierte, konfigurierte Nachrichten, die durch eine Referenz identifiziert werden."
+    },
+    "TEXT": {
+      "name": "Einfacher Text",
+      "definition": "Text ohne Formatattribute."
+    },
+    "HTML": {
+      "name": "XHTML",
+      "definition": "XHTML-Dokument mit einer Teilmenge des XHTML-Ausgabe-Tags."
+    }
+  }
+}

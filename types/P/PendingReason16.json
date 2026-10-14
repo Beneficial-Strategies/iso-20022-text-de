@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingReason16",
+  "definition": "Gibt den Grund an, weshalb die Anweisung oder der Auftrag den Status „anhängig“ hat.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, weshalb ein für die zugehörige Anweisung gesendeter Stornierungsauftrag anhängig ist."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Liefert zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

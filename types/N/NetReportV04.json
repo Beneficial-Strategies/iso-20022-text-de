@@ -1,0 +1,9 @@
+{
+  "isoType": "NetReportV04",
+  "definition": "Die Nachricht Net Report wird von einem zentralen System an einen Teilnehmer gesendet, um Einzelheiten der bilateralen Zahlungsverpflichtungen zu übermitteln, die vom zentralen System je Währung berechnet wurden.",
+  "isoRules": {
+    "CounterpartyIdentificationRule": {
+      "definition": "NetServiceCounterpartyIdentification darf auf dieser Ebene nur verwendet werden, wenn alle zugrunde liegenden Verpflichtungen mit einer einzigen Gegenpartei bestehen."
+    }
+  }
+}

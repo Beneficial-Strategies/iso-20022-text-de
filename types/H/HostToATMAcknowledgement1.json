@@ -1,0 +1,9 @@
+{
+  "isoType": "HostToATMAcknowledgement1",
+  "definition": "Informationen zur Bestätigung eines ATM, den ATM-Betreiber zu kontaktieren.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Umfeld des ATM."
+    }
+  }
+}

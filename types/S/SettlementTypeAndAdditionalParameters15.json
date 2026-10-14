@@ -1,0 +1,15 @@
+{
+  "isoType": "SettlementTypeAndAdditionalParameters15",
+  "definition": "Liefert Informationen zu Transaktionsart und Identifikation.",
+  "isoElements": {
+    "SecuritiesMovementType": {
+      "definition": "Legt fest, ob die Bewegung auf einem Wertpapierkonto aus einer Liefer- oder einer Empfangsanweisung resultiert."
+    },
+    "Payment": {
+      "definition": "Legt fest, wie die Transaktion abgewickelt werden soll, beispielsweise gegen Zahlung."
+    },
+    "CommonIdentification": {
+      "definition": "Eindeutige Referenz, auf die sich die beiden Handelspartner zur Identifizierung des Handelsgeschäfts geeinigt haben."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DateFormat45Choice",
+  "definition": "Gibt den Wert eines Datums an.",
+  "isoElements": {
+    "Date": {
+      "definition": "Datum, als ISO-Datum ausgedrückt."
+    },
+    "NotSpecifiedDate": {
+      "definition": "Datum nicht angegeben, zum Beispiel ist das Datum unbekannt."
+    }
+  }
+}

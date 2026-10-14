@@ -1,0 +1,12 @@
+{
+  "isoType": "BusinessDayReportOrError10Choice",
+  "definition": "Auswahl zwischen den Details der Geschäftstagsinformationen oder einem fachlichen Fehler, wenn die angeforderten Daten nicht abgerufen werden können.",
+  "isoElements": {
+    "BusinessDayInformation": {
+      "definition": "Angeforderte Systemdetails für einen bestimmten Geschäftstag."
+    },
+    "BusinessError": {
+      "definition": "Grund, weshalb die angeforderten Geschäftsinformationen nicht angegeben werden."
+    }
+  }
+}

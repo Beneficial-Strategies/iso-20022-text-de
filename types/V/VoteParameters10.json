@@ -1,0 +1,63 @@
+{
+  "isoType": "VoteParameters10",
+  "definition": "Informationen zur Beschreibung, wie das Abstimmungsverfahren organisiert ist.",
+  "isoElements": {
+    "SecuritiesQuantityRequiredToVote": {
+      "definition": "Anzahl der für eine Stimmabgabe erforderlichen Bestände."
+    },
+    "PartialVoteAllowed": {
+      "definition": "Gibt an, ob die Stimmabgabe für einen Teil des gesamten Bestands erfolgen kann, das heißt, ein Teil der Position bleibt ohne Stimmabgabe."
+    },
+    "SplitVoteAllowed": {
+      "definition": "Gibt an, ob die Stimme aufgeteilt werden kann, das heißt, für verschiedene Teile des Bestands könnten unterschiedliche Stimmen abgegeben werden."
+    },
+    "VoteDeadline": {
+      "definition": "Datum und Uhrzeit, bis zu denen die Abstimmungsanweisungen beim Intermediär einzureichen sind."
+    },
+    "VoteMarketDeadline": {
+      "definition": "Datum und Uhrzeit, bis zu denen die Abstimmungsanweisungen beim Emittenten einzureichen sind."
+    },
+    "VoteMethods": {
+      "definition": "Gibt die verschiedenen Methoden an, die für die Stimmabgabe verwendet werden können."
+    },
+    "VotingBallotElectronicAddress": {
+      "definition": "Elektronische Adresse, E-Mail- oder URL-Adresse, unter der der Stimmzettel angefordert werden kann."
+    },
+    "VotingBallotRequestAddress": {
+      "definition": "Postanschrift, unter der der Stimmzettel angefordert werden kann."
+    },
+    "RevocabilityDeadline": {
+      "definition": "Datum, bis zu dem die anweisende Partei ihre Abstimmungsanweisung widerrufen, ändern oder zurückziehen kann. Diese Frist wird von einem Intermediär festgelegt."
+    },
+    "RevocabilityMarketDeadline": {
+      "definition": "Datum, bis zu dem die anweisende Partei ihre Abstimmungsanweisung widerrufen, ändern oder zurückziehen kann. Diese Frist wird vom Emittenten festgelegt."
+    },
+    "BeneficialOwnerDisclosure": {
+      "definition": "Gibt an, ob Angaben zum Begünstigten, zum Beispiel Name und Anschrift, übermittelt werden müssen, um an einer Versammlung teilzunehmen."
+    },
+    "EarlyIncentivePremium": {
+      "definition": "Barprämie, die dem Wertpapierinhaber bei früherer Stimmabgabe gezahlt wird (vor der Frist für die vorzeitige Stimmabgabe mit Prämie)."
+    },
+    "IncentivePremium": {
+      "definition": "Barprämie, die dem Wertpapierinhaber bei der Stimmabgabe gezahlt wird."
+    },
+    "EarlyVoteWithPremiumDeadline": {
+      "definition": "Datum und Uhrzeit, bis zu denen die Abstimmungsanweisungen beim Intermediär einzureichen sind, um die frühe Anreizprämie in Anspruch zu nehmen."
+    },
+    "VoteWithPremiumDeadline": {
+      "definition": "Datum und Uhrzeit, bis zu denen die Abstimmungsanweisungen beim Intermediär einzureichen sind, um die Prämie in Anspruch zu nehmen."
+    },
+    "VoteWithPremiumMarketDeadline": {
+      "definition": "Datum und Uhrzeit, bis zu denen die Abstimmungsanweisungen beim Emittenten einzureichen sind, um die Prämie in Anspruch zu nehmen."
+    },
+    "AdditionalVotingRequirements": {
+      "definition": "Zusätzliche Informationen zu besonderen Anforderungen, damit eine Person abstimmen darf."
+    },
+    "AdditionalDisclosureRequirements": {
+      "definition": "Vom Emittenten verlangte Informationen, die als Teil einer eingereichten Anweisung offenzulegen sind und weder Angaben zum begünstigten Inhaber noch zum Abstimmungsteilnehmer noch zum vom Emittenten bestellten Bevollmächtigten noch zu den an der Versammlung teilnehmenden Personen (ohne Stimmrecht) sind."
+    },
+    "PreviousInstructionInvalidityIndicator": {
+      "definition": "Gibt an, ob die zuvor gesendeten Anweisungen nach einer Verlängerung der Marktfrist ungültig werden."
+    }
+  }
+}

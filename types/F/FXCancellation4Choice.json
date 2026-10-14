@@ -1,0 +1,12 @@
+{
+  "isoType": "FXCancellation4Choice",
+  "definition": "Auswahl des Formats für die Informationen zur Devisenstornierung.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Gibt an, ob die zugrunde liegende Devisentransaktion ebenfalls storniert werden soll. Ja bedeutet, dass das Devisengeschäft storniert werden soll. Nein bedeutet, dass das Devisengeschäft beibehalten werden soll."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Informationen zur Devisenstornierung."
+    }
+  }
+}

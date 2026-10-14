@@ -1,0 +1,24 @@
+{
+  "isoType": "SecurityDate24",
+  "definition": "Gibt Datumsangaben zum Wertpapier an.",
+  "isoElements": {
+    "PaymentDate": {
+      "definition": "Datum/Uhrzeit, zu dem die Bewegung stattfinden soll (Geld und/oder Wertpapiere)."
+    },
+    "AvailableDate": {
+      "definition": "Datum/Uhrzeit, zu dem Wertpapiere für den Handel verfügbar werden, zum Beispiel erster Handelstag."
+    },
+    "DividendRankingDate": {
+      "definition": "Datum/Uhrzeit, ab dem ein Wertpapier dividendenberechtigt ist."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Datum/Uhrzeit, zu dem eine Zahlung geleistet werden kann, zum Beispiel wenn der Zahlungstag kein Geschäftstag ist, oder zur Angabe des ersten Zahlungstags eines Angebots."
+    },
+    "PariPassuDate": {
+      "definition": "Datum/Uhrzeit, zu dem das Wertpapier angeglichen wird, fungibel wird oder dieselben Dividendenrechte wie die Stammemission hat."
+    },
+    "LastTradingDate": {
+      "definition": "Datum/Uhrzeit, zu dem die umzustrukturierenden Wertpapiere nicht mehr handelbar sind."
+    }
+  }
+}

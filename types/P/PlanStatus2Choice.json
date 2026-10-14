@@ -1,0 +1,12 @@
+{
+  "isoType": "PlanStatus2Choice",
+  "definition": "Auswahl der Formate für den Status eines Plans.",
+  "isoElements": {
+    "Code": {
+      "definition": "Status des Plans, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Status des Plans, ausgedrückt als proprietärer Code."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "isoType": "CryptographicKeyType5Code",
+  "definition": "Codes zur Qualifizierung der Art kryptografischer Schlüssel.",
+  "isoCodes": {
+    "AES2": {
+      "name": "AES128",
+      "definition": "Kryptografischer AES-Schlüssel (Advanced Encryption Standard) mit 128 Bit gemäß den Federal Information Processing Standards (FIPS 197 - 6. November 2001 - Advanced Encryption Standard)."
+    },
+    "EDE3": {
+      "name": "DES112",
+      "definition": "Schlüssel für den Data Encryption Standard mit 112 Bit (ohne die Paritätsbits)."
+    },
+    "DKP9": {
+      "name": "DUKPT2009",
+      "definition": "DUKPT-Schlüssel (Derived Unique Key Per Transaction) gemäß ANSI X9.24-2009 Anhang A."
+    },
+    "AES9": {
+      "name": "AES192",
+      "definition": "AES-Verschlüsselung (Advanced Encryption Standard) mit einem kryptografischen Schlüssel von 192 Bit gemäß den Federal Information Processing Standards (FIPS 197 – 6. November 2001 - Advanced Encryption Standard)."
+    },
+    "AES5": {
+      "name": "AES256",
+      "definition": "AES-Verschlüsselung (Advanced Encryption Standard) mit einem kryptografischen Schlüssel von 256 Bit gemäß den Federal Information Processing Standards (FIPS 197 – 6. November 2001 - Advanced Encryption Standard)."
+    },
+    "EDE4": {
+      "name": "DES168",
+      "definition": "Schlüssel für den Data Encryption Standard mit 168 Bit (ohne die Paritätsbits)."
+    },
+    "UKA2": {
+      "name": "UKPTAES192",
+      "definition": "UKPT-Schlüsselverschlüsselung (Unique Key Per Transaction) oder Master-Session-Key-Verschlüsselung mit dem Advanced Encryption Standard und einem kryptografischen Schlüssel von 192 Bit, zugelassen durch die Federal Information Processing Standards (FIPS 197 - 6. November 2001 - Advanced Encryption Standard)."
+    },
+    "UKA6": {
+      "name": "UKPTAES256",
+      "definition": "UKPT (Unique Key Per Transaction). Verschlüsselungsschlüssel mit AES (Advanced Encryption Standard) und einer Schlüssellänge von 256 Bit.|FIPS 197 - 6. November 2001)."
+    },
+    "RSAC": {
+      "name": "RSA",
+      "definition": "Rivest, Shamir und Adleman."
+    },
+    "ECCC": {
+      "name": "ECC",
+      "definition": "Elliptische-Kurven-Kryptografie."
+    },
+    "DKAE": {
+      "name": "DUKPTAES",
+      "definition": "DUKPT-AES-Algorithmus (Derived Unique Key Per Transaction)."
+    },
+    "UKA8": {
+      "name": "UKPTAES128",
+      "definition": "UKPT (Unique Key Per Transaction). Verschlüsselungsschlüssel mit AES (Advanced Encryption Standard) und einer Schlüssellänge von 128 Bit.|FIPS 197 - 6. November 2001)."
+    }
+  }
+}

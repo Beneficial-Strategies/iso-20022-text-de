@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionAndRepairReason32Choice",
+  "definition": "Auswahl des Formats für den Ablehnungs- oder Korrekturgrund.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, weshalb die Anweisung bzw. der Auftrag den Status „zur Korrektur“ oder „abgelehnt“ hat."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Grund an, weshalb die Anweisung bzw. der Auftrag den Status „zur Korrektur“ oder „abgelehnt“ hat."
+    }
+  }
+}

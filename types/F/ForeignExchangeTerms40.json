@@ -1,0 +1,18 @@
+{
+  "isoType": "ForeignExchangeTerms40",
+  "definition": "Enthält Informationen zu den Bedingungen des Devisengeschäfts.",
+  "isoElements": {
+    "UnitCurrency": {
+      "definition": "Währung, in der der Wechselkurs bei einem Währungsumtausch ausgedrückt wird. Im Beispiel 1 GBP = xxx CUR ist die Einheitswährung GBP."
+    },
+    "QuotedCurrency": {
+      "definition": "Währung, in die die Basiswährung bei einem Währungsumtausch umgerechnet wird."
+    },
+    "ExchangeRate": {
+      "definition": "Faktor, der für die Umrechnung eines Betrags von einer Währung in eine andere verwendet wird. Er gibt den Preis wieder, zu dem eine Währung mit einer anderen Währung gekauft wurde.|Verwendung: ExchangeRate drückt das Verhältnis zwischen UnitCurrency und QuotedCurrency aus (ExchangeRate = UnitCurrency/QuotedCurrency)."
+    },
+    "ResultingAmount": {
+      "definition": "Gegenwert einer Devisenumrechnung."
+    }
+  }
+}

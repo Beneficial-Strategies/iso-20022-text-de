@@ -1,0 +1,17 @@
+{
+  "isoType": "Rate2",
+  "definition": "Gruppe von Elementen, die den Zinssatz näher bestimmen.",
+  "isoElements": {
+    "Sign": {
+      "definition": "Gibt das Vorzeichen des Satzes an."
+    },
+    "Rate": {
+      "definition": "Prozentsatz, der für die Nutzung eines Geldbetrags berechnet wird, üblicherweise als Jahressatz ausgedrückt. Der Zinssatz ist das Verhältnis des in einem bestimmten Zeitraum gezahlten Zinsbetrags zum Kapitalbetrag des verzinslichen Finanzinstruments."
+    }
+  },
+  "isoRules": {
+    "SignRule": {
+      "definition": "Wenn Sign vorhanden ist, darf der Satz nicht null sein."
+    }
+  }
+}

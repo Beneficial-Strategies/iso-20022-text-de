@@ -1,0 +1,15 @@
+{
+  "isoType": "CashAccountIdentification13Choice",
+  "definition": "Eindeutige Kennung eines Kontos, wie vom kontoführenden Institut vergeben.",
+  "isoElements": {
+    "IBAN": {
+      "definition": "Internationale Bankkontonummer (IBAN) - von Finanzinstituten international verwendete Kennung zur eindeutigen Identifizierung des Kontos eines Kunden. Weitere Spezifikationen zu Format und Inhalt der IBAN finden sich in der Norm ISO 13616 „Banking and related financial services - International Bank Account Number (IBAN)“ Version 1997-10-01 oder späteren Revisionen."
+    },
+    "BlockChainCashWallet": {
+      "definition": "Blockchain-Wallet, in der digitale Währungen verwahrt werden. Dies entspricht dem Geldkonto für digitale Währungen."
+    },
+    "Proprietary": {
+      "definition": "Eindeutige Kennung eines Kontos. Sie wird vom kontoführenden Institut anhand eines proprietären Identifikationsschemas vergeben."
+    }
+  }
+}

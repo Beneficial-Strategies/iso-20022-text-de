@@ -1,0 +1,26 @@
+{
+  "isoType": "PaymentIdentification13",
+  "definition": "Enthält weitere Möglichkeiten zur Referenzierung einer Zahlungstransaktion.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Eindeutige, von einer anweisenden Partei für eine angewiesene Partei vergebene Identifikation zur zweifelsfreien Identifizierung der Anweisung.||Verwendung: Die Anweisungsidentifikation ist eine Punkt-zu-Punkt-Referenz, die zwischen der anweisenden und der angewiesenen Partei verwendet werden kann, um auf die einzelne Anweisung Bezug zu nehmen. Sie kann in mehreren Nachrichten zur Anweisung enthalten sein."
+    },
+    "EndToEndIdentification": {
+      "definition": "Eindeutige, von der initiierenden Partei vergebene Identifikation zur zweifelsfreien Identifizierung der Transaktion. Diese Identifikation wird unverändert durch die gesamte Ende-zu-Ende-Kette weitergegeben.||Verwendung: Die Ende-zu-Ende-Identifikation kann zum Abgleich oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion verwendet werden. Sie kann in mehreren Nachrichten zur Transaktion enthalten sein.||Verwendung: Bestehen technische Einschränkungen bei der Weitergabe mehrerer Referenzen, muss die Ende-zu-Ende-Identifikation durch die gesamte Ende-zu-Ende-Kette weitergegeben werden."
+    },
+    "TransactionIdentification": {
+      "definition": "Eindeutige, von der ersten anweisenden Bank vergebene Identifikation zur zweifelsfreien Identifizierung der Transaktion, die unverändert durch die gesamte Interbankenkette weitergegeben wird. |Verwendung: Die Transaktionsidentifikation kann zum Abgleich, zur Nachverfolgung oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion auf Interbankenebene verwendet werden. |Verwendung: Die anweisende Bank muss sicherstellen, dass die Transaktionsidentifikation über einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "UETR": {
+      "definition": "Universell eindeutige Kennung zur Angabe einer Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "ClearingSystemReference": {
+      "definition": "Eindeutige, von einem Clearingsystem vergebene Referenz zur zweifelsfreien Identifizierung der Anweisung."
+    }
+  },
+  "isoRules": {
+    "TransactionIdentificationPresenceRule": {
+      "definition": "TransactionIdentification oder UETR muss vorhanden sein. Beide dürfen vorhanden sein."
+    }
+  }
+}

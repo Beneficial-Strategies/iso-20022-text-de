@@ -1,0 +1,12 @@
+{
+  "isoType": "RequestShareHeldDate1Choice",
+  "definition": "Auswahl zwischen verschiedenen Arten der Angabe der Methode, mit der bestimmt wird, seit wann ein Anleger Aktien hält.",
+  "isoElements": {
+    "DateCalculationMethod": {
+      "definition": "Gibt die logische Methode an, mit der das Datum, seit dem die Aktien gehalten werden, bestimmt und mitgeteilt wird."
+    },
+    "DateCalculationDescription": {
+      "definition": "Liefert die Beschreibung, wie das Datum, seit dem die Aktien gehalten werden, bestimmt und mitgeteilt werden soll."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventType126Choice",
+  "definition": "Auswahl zwischen einem Unternehmensereignistyp oder einem erweiterten Unternehmensereignistyp.",
+  "isoElements": {
+    "PlainCorporateEventType": {
+      "definition": "Art des Kapitalmaßnahmen-Ereignisses."
+    },
+    "ExtendedCorporateEventType": {
+      "definition": "Erweiterte Liste der Kapitalmaßnahmen-Ereignistypen."
+    }
+  }
+}

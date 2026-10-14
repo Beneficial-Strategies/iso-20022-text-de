@@ -1,0 +1,54 @@
+{
+  "isoType": "ExternalInvestigationType1Code",
+  "definition": "Gibt die Untersuchungsart an, wie in einem externen Codesatz für Untersuchungsarten veröffentlicht.|Externe Codesätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "UTAP": {
+      "name": "Durch Zahlungsempfänger nicht zuordenbar",
+      "definition": "Eine gebuchte Position kann vom Zahlungsempfänger nicht zugeordnet werden."
+    },
+    "CCNR": {
+      "name": "Zahlungsempfänger meldet Nichterhalt",
+      "definition": "Der Zahlungsempfänger macht den Nichteingang einer Zahlung geltend."
+    },
+    "CONR": {
+      "name": "Bank des Zahlungsempfängers meldet Nichterhalt der Deckung",
+      "definition": "Die Bank des Zahlungsempfängers macht den Nichteingang der Deckung oder der Abwicklung geltend."
+    },
+    "RQFI": {
+      "name": "Informationsanfrage",
+      "definition": "Zu einer Zahlung, Position, Nachricht oder Anweisung werden weitere Informationen benötigt."
+    },
+    "PINC": {
+      "name": "Zahlungsinitiierung nicht bestätigt",
+      "definition": "Die Zahlungsinitiierung wurde nicht abgewickelt oder bestätigt."
+    },
+    "RQVA": {
+      "name": "Anpassung des Wertstellungsdatums anfordern",
+      "definition": "Eine Neubewertung einer Position wird beantragt."
+    },
+    "RQUF": {
+      "name": "Verwendung der Mittel anfordern",
+      "definition": "Die Verwendung der Mittel einer Position wird beantragt."
+    },
+    "RQDA": {
+      "name": "Anfrage zur Belastungsautorisierung",
+      "definition": "Eine Belastungsautorisierung für eine Position wird beantragt."
+    },
+    "ACCT": {
+      "name": "Kontobezogene Untersuchung",
+      "definition": "Untersuchung im Zusammenhang mit einem Konto."
+    },
+    "RQCH": {
+      "name": "Entgeltbezogene Anforderung",
+      "definition": "Untersuchung im Zusammenhang mit Entgelten, die erhoben wurden oder angefordert werden."
+    },
+    "RIMF": {
+      "name": "Anforderung vom IMF",
+      "definition": "Anfrage des Internationalen Währungsfonds."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiger Anfragetyp."
+    }
+  }
+}

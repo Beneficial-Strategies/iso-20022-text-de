@@ -1,0 +1,15 @@
+{
+  "isoType": "MessageIdentification8",
+  "definition": "Identifiziert eine Nachricht anhand einer eindeutigen Kennung sowie des Datums und der Uhrzeit, zu der die Nachricht vom Sender erstellt wurde.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, die vom Zuweisenden vergeben und an die nächste Partei in der Kette gesendet wird, um die Nachricht eindeutig zu identifizieren.||Verwendung: Der Zuweisende muss sicherstellen, dass die MessageIdentification je Zuweisungsempfänger für einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "FirstAgent": {
+      "definition": "Identifiziert die erste Bank in der Identifikationskette, die auf die zahlungsinitiierende Partei folgt."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TransferInstructionStatusReportV10",
+  "definition": "Anwendungsbereich|Die Nachricht TransferInstructionStatusReport wird von einer ausführenden Partei, zum Beispiel einer Transferstelle, an die anweisende Partei, zum Beispiel einen Vermögensverwalter oder einen seiner bevollmächtigten Vertreter, gesendet, um den Status einer zuvor empfangenen Anfrage nach Bestandsinformationen, einer Portfolioübertragung oder einer Übertragungsanweisung mitzuteilen.| Sie kann auch verwendet werden, um den Status eines Ereignisses im Zusammenhang mit dem zu übertragenden Vermögenswert zu melden oder zusätzliche Informationen bereitzustellen.|Die Nachricht TransferInstructionStatusReport kann auch von jeder Partei der Übertragungstransaktion an eine andere Partei der Übertragungstransaktionskette gesendet werden, um Informationen bereitzustellen, die für die Abwicklung einer Übertragungstransaktion relevant sind. |Verwendung|Die Nachricht TransferInstructionStatusReport wird verwendet, um den Status einer zuvor empfangenen Anfrage nach Bestandsinformationen, einer Portfolioübertragung oder einer Übertragungsanweisung mitzuteilen, oder als Antwort auf eine Nachricht RequestForTransferStatus. Sie kann auch verwendet werden, um den Status eines Ereignisses im Zusammenhang mit dem zu übertragenden Vermögenswert zu melden oder zusätzliche Informationen bereitzustellen.",
+  "isoRules": {
+    "OtherReferenceRule": {
+      "definition": "Reference/OtherReference sollte verwendet werden, um auf eine Übertragungsanweisung oder eine „Nachricht“ eines Übertragungsstornierungsauftrags zu verweisen, die auf proprietäre Weise gesendet wurde oder als Systemreferenz dient. Wenn Reference/OtherReference vorhanden ist, muss Reference/OtherReference/MessageName „fax“ oder „phone“ oder „email“ usw. enthalten."
+    },
+    "RelatedReferenceRule": {
+      "definition": "Wenn Reference/RelatedReference/MessageName vorhanden ist, muss es mit sese.001, sese.002, sese.005, sese.006, sese.009, sese.012 oder sese.014 beginnen."
+    }
+  }
+}

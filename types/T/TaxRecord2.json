@@ -1,0 +1,33 @@
+{
+  "isoType": "TaxRecord2",
+  "definition": "Elementgruppe zur Definition des Steuerdatensatzes.",
+  "isoElements": {
+    "Type": {
+      "definition": "Übergeordneter Code zur Identifikation der Art der Steuerangaben."
+    },
+    "Category": {
+      "definition": "Gibt den von der Steuerbehörde veröffentlichten Steuercode an."
+    },
+    "CategoryDetails": {
+      "definition": "Enthält weitere Angaben zum Steuercode der Kategorie."
+    },
+    "DebtorStatus": {
+      "definition": "Von der lokalen Behörde vergebener Code zur Identifikation des Status der Partei, die das Abrechnungsdokument erstellt hat."
+    },
+    "CertificateIdentification": {
+      "definition": "Von der Steuerbehörde vergebene Identifikationsnummer der Steuermeldung."
+    },
+    "FormsCode": {
+      "definition": "Gibt in codierter Form an, auf welcher Vorlage die Steuermeldung zu erstellen ist."
+    },
+    "Period": {
+      "definition": "Elementgruppe mit Angaben zum Zeitraum der Steuerzahlung."
+    },
+    "TaxAmount": {
+      "definition": "Elementgruppe mit Angaben zum Betrag des Steuerdatensatzes."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Angaben zum Steuerdatensatz."
+    }
+  }
+}

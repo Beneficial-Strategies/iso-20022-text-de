@@ -1,0 +1,24 @@
+{
+  "isoType": "TrackerHeader6",
+  "definition": "Satz von Merkmalen, die für alle in der Nachricht enthaltenen Einzeltransaktionen gelten.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, von der informierenden Partei des Trackers vergeben und an den Tracker gesendet, um die Nachricht eindeutig zu identifizieren."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "NumberOfTransactions": {
+      "definition": "Anzahl der in der Nachricht enthaltenen Einzeltransaktionen."
+    },
+    "TrackerInformingParty": {
+      "definition": "Partei, die Informationen über den Status und die zugehörigen Details einer Transaktion liefert."
+    },
+    "TrackerInformedParty": {
+      "definition": "Partei, die über den Status und die zugehörigen Details einer Transaktion auf dem Laufenden gehalten wird."
+    },
+    "ServiceLevel": {
+      "definition": "Vereinbarung oder Regeln, nach denen die Tracker-Aktualisierung verarbeitet werden soll."
+    }
+  }
+}

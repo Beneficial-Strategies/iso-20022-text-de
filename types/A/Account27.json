@@ -1,0 +1,12 @@
+{
+  "isoType": "Account27",
+  "definition": "Geschäftsbeziehung zwischen zwei Einheiten; eine Einheit ist der Kontoinhaber, die andere Einheit ist der Kontoführer.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "AccountServicer": {
+      "definition": "Institution, die die Aufzeichnungen führt, in denen das Konto geführt wird."
+    }
+  }
+}

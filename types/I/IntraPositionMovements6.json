@@ -1,0 +1,29 @@
+{
+  "isoType": "IntraPositionMovements6",
+  "definition": "Liefert die Transaktionen in der Antwort.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Partei, der das Konto gehört."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "StatusAndReason": {
+      "definition": "Status und Statusgrund der Transaktion."
+    },
+    "Movement": {
+      "definition": "Identifiziert die einzelne Transaktion."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountRule": {
+      "definition": "SafekeepingAccount muss vorhanden sein oder Movement(*)/SafekeepingAccount muss vorhanden sein, aber nicht beide."
+    },
+    "AccountOwnerRule": {
+      "definition": "AccountOwner muss vorhanden sein oder Movement(*)/AccountOwner muss vorhanden sein, aber nicht beide."
+    },
+    "StatusAndReasonRule": {
+      "definition": "StatusAndReason muss vorhanden sein oder Movement(*)/StatusAndReason muss vorhanden sein, jedoch nicht beides."
+    }
+  }
+}

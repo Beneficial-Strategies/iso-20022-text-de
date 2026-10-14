@@ -1,0 +1,24 @@
+{
+  "isoType": "References75Choice",
+  "definition": "Auswahl der Referenz.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem Kontoinhaber (oder der das Konto verwaltenden anweisenden Partei) bekannt."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem kontoführenden Institut bekannt."
+    },
+    "PoolIdentification": {
+      "definition": "Sammelreferenz zur Identifikation einer Gruppe von Nachrichten."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer vergeben wurde, zum Beispiel Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion der Gegenpartei, die von einer anderen Marktinfrastruktur als einer Zentralverwahrer zugewiesen wurde, zum Beispiel Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, die vom Bearbeiter der Anweisung vergeben wird, der nicht der Kontoinhaber, der Kontoführer oder die Marktinfrastruktur ist."
+    }
+  }
+}

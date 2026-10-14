@@ -1,0 +1,12 @@
+{
+  "isoType": "AdditionalBusinessProcessFormat15Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe der Art des zusätzlichen Geschäftsprozesses.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des zusätzlichen Geschäftsprozesses, der mit einem Kapitalmaßnahmen-Ereignis verknüpft ist."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation des zusätzlichen Geschäftsprozesses, der mit einem Kapitalmaßnahmen-Ereignis verknüpft ist."
+    }
+  }
+}

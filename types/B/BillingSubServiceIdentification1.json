@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingSubServiceIdentification1",
+  "definition": "Gibt die Identifikation eines Abrechnungs-Subservice an.",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Gibt den Qualifizierer des Subservice an."
+    },
+    "Identification": {
+      "definition": "Definiert einen Service des Finanzinstituts näher durch die Angabe des vom Subservice-Qualifizierer geforderten Werts, wie die tatsächliche Lockbox-Nummer oder Filialnummer."
+    }
+  }
+}

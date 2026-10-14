@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionReturnCriteria5",
+  "definition": "Legt die Kriterien fest, nach denen über eine Zahlungstransaktion berichtet wird.",
+  "isoElements": {
+    "PaymentToReturnCriteria": {
+      "definition": "Zielort der Zahlung (sei es ein Teilnehmer, ein System oder beides)."
+    },
+    "PaymentFromReturnCriteria": {
+      "definition": "Ursprung der Zahlung (sei es ein Teilnehmer, ein System oder beides)."
+    },
+    "AccountCashEntryReturnCriteria": {
+      "definition": "Legt die Kriterien fest, nach denen über den Kontoumsatz berichtet wird."
+    },
+    "PaymentReturnCriteria": {
+      "definition": "Legt die Kriterien fest, nach denen über die Zahlung berichtet wird."
+    }
+  }
+}

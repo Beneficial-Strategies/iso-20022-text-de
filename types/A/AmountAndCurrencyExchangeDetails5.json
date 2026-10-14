@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndCurrencyExchangeDetails5",
+  "definition": "Satz von Elementen mit Angaben zum ursprünglichen Betrag und zum Währungsumtausch.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag, der zwischen Zahlungspflichtigem und Zahlungsempfänger bewegt werden soll, vor Abzug von Entgelten, in der von der initiierenden Partei angewiesenen Währung."
+    },
+    "CurrencyExchange": {
+      "definition": "Satz von Elementen mit Einzelheiten zum Währungsumtausch."
+    }
+  }
+}

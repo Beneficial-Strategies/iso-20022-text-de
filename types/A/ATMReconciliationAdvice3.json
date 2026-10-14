@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMReconciliationAdvice3",
+  "definition": "Informationen zum Abgleich eines ATM.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Umfeld des ATM."
+    },
+    "CommandResult": {
+      "definition": "Befehlsergebnis für die Neuinitialisierung der Transaktionszähler."
+    },
+    "CommandContext": {
+      "definition": "Partei, die den Abgleich angefordert hat."
+    },
+    "Transaction": {
+      "definition": "Informationen zur Abgleichsanfrage."
+    }
+  }
+}

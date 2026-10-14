@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountForAction2",
+  "definition": "Konto, auf das oder von dem eine Geldbuchung erfolgt.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "Name": {
+      "definition": "Name des Kontos. Bei einem Widerspruch zwischen der Kontoidentifikation und dem Kontonamen wird empfohlen, dass der Kontoführer mittels der Nachricht Request for Additional Information um Klärung bittet."
+    },
+    "Currency": {
+      "definition": "Tauschmittel für Werte."
+    }
+  }
+}

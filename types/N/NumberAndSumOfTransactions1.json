@@ -1,0 +1,12 @@
+{
+  "isoType": "NumberAndSumOfTransactions1",
+  "definition": "Satz von Elementen mit der Gesamtsumme der Buchungen.",
+  "isoElements": {
+    "NumberOfEntries": {
+      "definition": "Anzahl der im Bericht enthaltenen einzelnen Buchungen."
+    },
+    "Sum": {
+      "definition": "Summe aller im Bericht enthaltenen einzelnen Buchungen."
+    }
+  }
+}

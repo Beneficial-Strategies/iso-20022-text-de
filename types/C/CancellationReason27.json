@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationReason27",
+  "definition": "Gibt den Grund an, warum die Anweisung bzw. Anforderung storniert wird.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, warum die Anweisung storniert wird."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Liefert die Identifikation des Kapitalmaßnahmen-Ereignisses, das die Stornierung ausgelöst hat."
+    }
+  }
+}

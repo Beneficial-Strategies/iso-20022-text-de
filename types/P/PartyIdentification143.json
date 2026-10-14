@@ -1,0 +1,20 @@
+{
+  "isoType": "PartyIdentification143",
+  "definition": "Liefert Informationen zur Identifikation der Partei.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation einer Partei."
+    },
+    "ProcessingIdentification": {
+      "definition": "Für die identifizierte Partei aussagekräftige Referenz."
+    },
+    "AlternateIdentification": {
+      "definition": "Liefert eine alternative Identifikation für eine Partei anhand einer Id-Art, eines Ländercodes und eines Textfeldes."
+    }
+  },
+  "isoRules": {
+    "AdditionalInforrmationRule": {
+      "definition": "Das Feld AdditionalInformation darf in keinem Element Informationen enthalten, die in einem strukturierten Feld bereitgestellt werden können, es sei denn, dies wurde bilateral vereinbart oder in der Elementdefinition abweichend festgelegt, wie bei NarrativeVersion."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isoType": "LimitIdentification8",
+  "definition": "Legt die Identifikationsangaben fest, mit denen ein Limit im System eindeutig identifiziert wird.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identifikation eines bestimmten Geldclearingsystems."
+    },
+    "BilateralLimitCounterpartyIdentification": {
+      "definition": "Identifikation des Systemteilnehmers, für den das Limit eingerichtet ist."
+    },
+    "Type": {
+      "definition": "Art des Risikomanagement-Limits."
+    },
+    "AccountOwner": {
+      "definition": "Inhaber des abgefragten Kontos."
+    },
+    "AccountIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Kontos zwischen dem Kontoinhaber und der kontoführenden Stelle."
+    }
+  },
+  "isoRules": {
+    "BilateralLimitCounterparty1Rule": {
+      "definition": "Lautet Type MULT, ist BilateralLimitCounterpartyIdentification nicht zulässig."
+    },
+    "BilateralLimitCounterparty2Rule": {
+      "definition": "Lautet Type BILI oder NELI oder INBI, muss BilateralLimitCounterpartyIdentification vorhanden sein."
+    }
+  }
+}

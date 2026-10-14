@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericIdentification6",
+  "definition": "Bestand, ausgedrückt mit einem Datenquellenschema.",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Stelle, die die Identifikation vergibt."
+    },
+    "Information": {
+      "definition": "Proprietäre Information, häufig ein Code, ausgegeben vom Herausgeber des Datenquellenschemas."
+    },
+    "Balance": {
+      "definition": "Wert des Saldos."
+    }
+  }
+}

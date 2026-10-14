@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingReason83Choice",
+  "definition": "Auswahl zwischen einem Standardcode und einem proprietären Code zur Angabe des Grundes, warum die Anweisung/das Ereignis den Status ausstehend hat.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Grundes, warum die Anweisung bzw. das Ereignis den Status „ausstehend“ hat."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation des Grundes, warum die Anweisung bzw. das Ereignis den Status „ausstehend“ hat."
+    }
+  }
+}

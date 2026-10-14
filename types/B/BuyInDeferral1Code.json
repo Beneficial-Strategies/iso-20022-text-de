@@ -1,0 +1,14 @@
+{
+  "isoType": "BuyInDeferral1Code",
+  "definition": "Gibt an, ob die Zwangsdeckung (Buy-in) aufgeschoben wurde oder nicht.",
+  "isoCodes": {
+    "DEFY": {
+      "name": "Zwangseindeckung aufgeschoben",
+      "definition": "Die Zwangsdeckung (Buy-in) ist aufgeschoben."
+    },
+    "DEFN": {
+      "name": "Zwangseindeckung nicht aufgeschoben",
+      "definition": "Die Zwangsdeckung (Buy-in) ist nicht aufgeschoben."
+    }
+  }
+}

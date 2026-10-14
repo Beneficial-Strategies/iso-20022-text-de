@@ -1,0 +1,29 @@
+{
+  "isoType": "AccountingStatementOfHoldings2",
+  "definition": "Informationen zu einem Buchhaltungsauszug der Bestände.",
+  "isoElements": {
+    "StatementGeneralDetails": {
+      "definition": "Allgemeine Informationen zum Verwahrungsauszug der Bestände, der storniert wird."
+    },
+    "AccountDetails": {
+      "definition": "Das Verwahr- oder Anlagekonto des Auszugs, der storniert wird."
+    },
+    "BalanceForAccount": {
+      "definition": "Nettoposition eines getrennt geführten Bestands in einem einzelnen Wertpapier innerhalb der im Wertpapierdepot gehaltenen Gesamtposition."
+    },
+    "SubAccountDetails": {
+      "definition": "Das Unterkonto des Verwahr- oder Anlagekontos."
+    },
+    "TotalValues": {
+      "definition": "Wert der gemeldeten Gesamtbestände."
+    },
+    "Extension": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "BalanceForAccountOrSubAccountDetailsRule": {
+      "definition": "Wenn StatementGeneralDetails/ActivityIndicator „true“ oder „1“ (Ja) ist, ist entweder BalanceForAccount oder SubAccountDetails obligatorisch. Wenn StatementGeneralDetails/ActivityIndicator „false“ oder „0“ (Nein) ist, dürfen BalanceForAccount und SubAccountDetails vorhanden sein."
+    }
+  }
+}

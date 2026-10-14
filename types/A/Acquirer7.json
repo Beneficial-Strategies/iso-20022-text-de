@@ -1,0 +1,12 @@
+{
+  "isoType": "Acquirer7",
+  "definition": "Acquirer der Abhebungstransaktion, zuständig für die Verrechnung der Gelder mit dem Emittenten.",
+  "isoElements": {
+    "AcquiringInstitution": {
+      "definition": "Identifikation des Acquirers."
+    },
+    "Branch": {
+      "definition": "Identifikation der Filiale des Acquirers."
+    }
+  }
+}

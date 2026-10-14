@@ -1,0 +1,18 @@
+{
+  "isoType": "EUCapitalGain2Code",
+  "definition": "Gibt an, ob der Kapitalertrag in den Anwendungsbereich der europäischen Richtlinie über die Besteuerung von Zinserträgen (Richtlinie 2003/48/EG des Rates vom 3. Juni) fällt, für Erträge, die bei Verkauf, Rückerstattung oder Rückgabe von Aktien und Anteilen usw. erzielt werden (EC).",
+  "isoCodes": {
+    "EUSI": {
+      "name": "Kapitalgewinn im Anwendungsbereich",
+      "definition": "Der Kapitalertrag fällt in den Anwendungsbereich der Richtlinie."
+    },
+    "EUSO": {
+      "name": "Kapitalgewinn außerhalb des Anwendungsbereichs",
+      "definition": "Der Kapitalertrag fällt nicht in den Anwendungsbereich der Richtlinie."
+    },
+    "UKWN": {
+      "name": "Kapitalgewinn unbekannt",
+      "definition": "Es ist unbekannt, ob der Kapitalertrag in den Anwendungsbereich der Richtlinie fällt."
+    }
+  }
+}

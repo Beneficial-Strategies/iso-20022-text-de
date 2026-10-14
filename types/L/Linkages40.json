@@ -1,0 +1,9 @@
+{
+  "isoType": "Linkages40",
+  "definition": "Informationen zu einer verknüpften Transaktion.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referenz auf die verknüpfte Transaktion."
+    }
+  }
+}

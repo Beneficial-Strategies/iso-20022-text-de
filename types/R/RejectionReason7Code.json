@@ -1,0 +1,62 @@
+{
+  "isoType": "RejectionReason7Code",
+  "definition": "Gibt den Grund für die Ablehnung eines Stornierungsantrags an.",
+  "isoCodes": {
+    "DEAC": {
+      "name": "Ereignis bereits deaktiviert",
+      "definition": "Abgelehnt, da die Deaktivierung des Ereignisses bereits abgeschlossen ist."
+    },
+    "FAIL": {
+      "name": "Validierung fehlgeschlagen",
+      "definition": "Die Validierung der Mitteilung/Anweisung/des Antrags ist fehlgeschlagen."
+    },
+    "PDEA": {
+      "name": "Keine ausstehende Deaktivierungsanweisung",
+      "definition": "Der Stornierungsantrag wird abgelehnt, da keine ausstehende Deaktivierungsanweisung vorliegt."
+    },
+    "INID": {
+      "name": "Ungültige Identifikation",
+      "definition": "Die Anweisung enthält eine ungültige Nachrichtenidentifikation, die Identifikation ist unbekannt."
+    },
+    "REFI": {
+      "name": "Ungültige CA-Identifikation",
+      "definition": "Ungültige Kapitalmaßnahmen-Identifikation angegeben."
+    },
+    "AGIN": {
+      "name": "Ungültiger Agent",
+      "definition": "Ungültige Identifikation des Beauftragten angegeben."
+    },
+    "SAID": {
+      "name": "Gleiche Identifikation",
+      "definition": "Mehrere Nachrichten mit derselben Identifikation."
+    },
+    "DEAO": {
+      "name": "Option bereits deaktiviert",
+      "definition": "Abgelehnt, da die Deaktivierung der Option bereits abgeschlossen ist."
+    },
+    "INET": {
+      "name": "Ungültiger Ereignistyp",
+      "definition": "Der CA Event Type entspricht nicht der zugehörigen Kapitalmaßnahme."
+    },
+    "INUS": {
+      "name": "Ungültiges Basiswertpapier",
+      "definition": "Die Underlying Security Identification entspricht nicht der angegebenen Corporate Action Reference."
+    },
+    "INPT": {
+      "name": "Ungültige Art der Ereignisverarbeitung",
+      "definition": "Der Event Processing Type entspricht nicht der zugehörigen Kapitalmaßnahme."
+    },
+    "INMV": {
+      "name": "Ungültige Ereignisart (verpflichtend/freiwillig)",
+      "definition": "Der Mandatory/Voluntary Event Type entspricht nicht der zugehörigen Kapitalmaßnahme."
+    },
+    "INDE": {
+      "name": "Ungültige Informationen zur Kapitalmaßnahme",
+      "definition": "Die im Block Corporate Action General Information angegebenen Details stimmen nicht mit den in der zugehörigen ursprünglichen Nachricht angegebenen überein."
+    },
+    "INDT": {
+      "name": "Ungültige Details",
+      "definition": "Die in der Anweisung bzw. Anforderung angegebenen Nachrichtendetails stimmen nicht mit den in der zugehörigen ursprünglichen Nachricht angegebenen überein."
+    }
+  }
+}

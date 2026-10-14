@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxType3Code",
+  "definition": "Art der Steuer.",
+  "isoCodes": {
+    "LIDT": {
+      "name": "Deutsche lokale Steuer 2",
+      "definition": "Lokale Steuer (ZAS pflichtige Zinsen) - zinsabschlagsteuerpflichtige Zinsen (Anteil der Bruttozinsen pro Anteil/Zwischengewinne, der nicht durch die Gutschrift im Zinstopf gedeckt ist)."
+    },
+    "WITF": {
+      "name": "Einbehalt ausländischer Steuer",
+      "definition": "Satz, zu dem die Erträge von dem Rechtsraum einbehalten werden, in dem die Erträge ursprünglich gezahlt wurden, und für den eine Entlastung an der Quelle und/oder eine Rückerstattung möglich sein kann."
+    },
+    "WITL": {
+      "name": "Einbehalt lokaler Steuer",
+      "definition": "Satz, zu dem die Erträge von dem Rechtsraum einbehalten werden, in dem der Kontoinhaber ansässig ist, und für den eine Entlastung an der Quelle und/oder eine Rückerstattung möglich sein kann."
+    }
+  }
+}

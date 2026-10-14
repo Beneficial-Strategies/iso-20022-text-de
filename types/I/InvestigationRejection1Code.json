@@ -1,0 +1,34 @@
+{
+  "isoType": "InvestigationRejection1Code",
+  "definition": "Legt den Grund für die Ablehnung eines Untersuchungsfalls fest.",
+  "isoCodes": {
+    "NFND": {
+      "name": "Zugrunde liegende Zahlung nicht gefunden",
+      "definition": "Die zugrunde liegende Anweisung kann nicht gefunden werden."
+    },
+    "NAUT": {
+      "name": "Nicht zur Untersuchung berechtigt",
+      "definition": "Der Fallempfänger darf zu dieser Anweisung keine Untersuchung durchführen, oder eine Partei wurde in der Zahlungskette übergangen, oder für diese Art von Anfrage wurde keine bilaterale Vereinbarung getroffen."
+    },
+    "UKNW": {
+      "name": "Unbekannter Fall",
+      "definition": "Der Fall wurde noch nie zuvor zugewiesen."
+    },
+    "PCOR": {
+      "name": "Zahlung zuvor storniert oder abgelehnt",
+      "definition": "Wird verwendet, wenn die Zahlungsanweisung zuvor storniert oder abgelehnt wurde."
+    },
+    "WMSG": {
+      "name": "Falsche Nachricht",
+      "definition": "Im Untersuchungsablauf wurde die falsche Nachricht verwendet."
+    },
+    "RNCR": {
+      "name": "Nicht bargeldbezogen ablehnen",
+      "definition": "Wird verwendet, um eine nicht zahlungsbezogene Anfrage abzulehnen, die im Ablauf nicht abgedeckt ist."
+    },
+    "MROI": {
+      "name": "Fehlende Untersuchungsentscheidung",
+      "definition": "Für den wiedereröffneten Fall wurde keine Resolution Of Investigation empfangen."
+    }
+  }
+}

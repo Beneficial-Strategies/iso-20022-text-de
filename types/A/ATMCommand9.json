@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMCommand9",
+  "definition": "Partei, die den Abgleich angefordert hat.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art des vom ATM auszuführenden Befehls."
+    },
+    "CommandIdentification": {
+      "definition": "Identifikation der Stelle, die den Befehl erteilt."
+    }
+  }
+}

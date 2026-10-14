@@ -1,0 +1,27 @@
+{
+  "isoType": "ATMSecurityConfiguration3",
+  "definition": "Konfiguration der Verschlüsselung oder des digitalen Umschlags, wenn das Sicherheitsmodul Verschlüsselungen durchführen kann.",
+  "isoElements": {
+    "AsymmetricEncryption": {
+      "definition": "Wahr, wenn das Sicherheitsmodul Verschlüsselungen mit einem asymmetrischen Schlüssel durchführen kann."
+    },
+    "AsymmetricKeyStandardIdentification": {
+      "definition": "Wahr, wenn das Sicherheitsmodul einen asymmetrischen Schlüssel anhand des X.500-Namens des Zertifikatsausstellers und der Zertifikatsseriennummer identifizieren kann. Falsch, wenn eine proprietäre Kennung für asymmetrische Schlüssel erforderlich ist."
+    },
+    "AsymmetricEncryptionAlgorithm": {
+      "definition": "Asymmetrischer Verschlüsselungsalgorithmus, den das Sicherheitsmodul verwalten kann."
+    },
+    "SymmetricTransportKey": {
+      "definition": "Wahr, wenn das Sicherheitsmodul einen symmetrischen Transport-Sitzungsschlüssel zum Schutz kryptografischer Schlüssel und Daten verwalten kann. Falsch, wenn nur ein zuvor ausgetauschter symmetrischer Schlüssel verwendet werden darf; es wird dann eine proprietäre Kennung für symmetrische Schlüssel verwendet."
+    },
+    "SymmetricTransportKeyAlgorithm": {
+      "definition": "Algorithmus für den symmetrischen Transport-Sitzungsschlüssel, den das Sicherheitsmodul verwalten kann."
+    },
+    "SymmetricEncryptionAlgorithm": {
+      "definition": "Symmetrischer Verschlüsselungsalgorithmus, den das Sicherheitsmodul verwalten kann."
+    },
+    "EncryptionFormat": {
+      "definition": "Format der Daten vor der Verschlüsselung, wenn das Format nicht Klartext oder implizit ist."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "TrackerData8",
+  "definition": "Gibt die detaillierten Informationen an, wie sie von einem Zahlungs-Trackingsystem bereitgestellt werden.",
+  "isoElements": {
+    "ConfirmedDate": {
+      "definition": "Zeitpunkt, zu dem das Konto des Zahlungsempfängers mit den Geldern einer Zahlung gutgeschrieben wurde."
+    },
+    "ConfirmedAmount": {
+      "definition": "Geldbetrag, der dem Zahlungsempfänger tatsächlich gutgeschrieben und dem Tracking-System vom Institut bestätigt wurde."
+    },
+    "ReturnedConfirmedDate": {
+      "definition": "Zeitpunkt, zu dem das Konto des Zahlungsempfängers mit den Geldern einer Zahlungsrückgabe gutgeschrieben wurde."
+    },
+    "ReturnedConfirmedAmount": {
+      "definition": "Geldbetrag, der dem Zahlungsempfänger für eine Zahlungsrückgabe tatsächlich gutgeschrieben und dem Tracking-System vom Institut bestätigt wurde."
+    },
+    "RemainingToBeConfirmedAmount": {
+      "definition": "Noch zu bestätigender Geldbetrag."
+    },
+    "PreviouslyConfirmedAmount": {
+      "definition": "Geldbetrag, der dem Zahlungsempfänger zuvor gutgeschrieben und dem Tracking-System vom Institut bestätigt wurde."
+    },
+    "PreviouslyConfirmedDate": {
+      "definition": "Zeitpunkt, zu dem der vorherige Betrag bestätigt wurde.||Verwendung:|Dieses Datum gibt den Zeitpunkt an, zu dem dem Tracker im Fall einer Teilbestätigung der zuletzt zuvor bestätigte Betrag mitgeteilt wurde."
+    }
+  }
+}

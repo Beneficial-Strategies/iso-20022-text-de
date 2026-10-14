@@ -1,0 +1,9 @@
+{
+  "isoType": "MeetingCancellationV10",
+  "definition": "Anwendungsbereich|Die Nachricht MeetingCancellation wird von der Partei, die die Nachricht MeetingNotification gesendet hat, an den ursprünglichen Empfänger gesendet. Sie wird gesendet, um eine zuvor angekündigte Versammlung abzusagen oder die Rücknahme einer Versammlung mitzuteilen.|Verwendung|Die Nachricht MeetingCancellation wird verwendet, um mitzuteilen, dass die Versammlung vom kontoführenden Institut abgesagt oder vom Emittenten zurückgezogen wurde. |Diese Nachrichtendefinition ist für die Verwendung mit dem Business Application Header (BAH) vorgesehen.",
+  "isoRules": {
+    "Cancellation1Guideline": {
+      "definition": "Es wird empfohlen, eine Versammlung ausschließlich unter Verwendung von MeetingReference/MeetingIdentification, MeetingReference/Type sowie Security und Reason abzusagen. Es wird empfohlen, optionale Elemente nicht zu verwenden."
+    }
+  }
+}

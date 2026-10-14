@@ -1,0 +1,14 @@
+{
+  "isoType": "SecuritiesSettlementStatus1Code",
+  "definition": "Gibt den Abwicklungsstatus einer Anweisung an.",
+  "isoCodes": {
+    "PEND": {
+      "name": "Ausstehend",
+      "definition": "Die Anweisung ist anhängig. Eine Abwicklung am angewiesenen Abwicklungstag ist weiterhin möglich."
+    },
+    "PENF": {
+      "name": "Nicht abgewickelt",
+      "definition": "Die Abwicklung der Anweisung schlägt fehl. Eine Abwicklung am angewiesenen Abwicklungstag ist nicht mehr möglich."
+    }
+  }
+}

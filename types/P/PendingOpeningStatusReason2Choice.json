@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingOpeningStatusReason2Choice",
+  "definition": "Auswahl der Formate für einen Code für den Grund eines ausstehenden Kontoeröffnungsstatus.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für den ausstehenden Kontoeröffnungsstatus als Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Grund für den ausstehenden Kontoeröffnungsstatus als proprietärer Code ausgedrückt."
+    }
+  }
+}

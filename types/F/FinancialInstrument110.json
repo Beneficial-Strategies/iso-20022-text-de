@@ -1,0 +1,77 @@
+{
+  "isoType": "FinancialInstrument110",
+  "definition": "Identifikation eines Wertpapiers oder sonstigen Vermögenswerts.",
+  "isoElements": {
+    "LineIdentification": {
+      "definition": "Identifikation der Bestandsposition im Portfolio."
+    },
+    "Instrument": {
+      "definition": "Identifikation des Vermögenswerts."
+    },
+    "Quantity": {
+      "definition": "Gibt die Menge der zu übertragenden Vermögenswerte in Einheiten oder als Prozentsatz an."
+    },
+    "UnitsDetails": {
+      "definition": "Aufschlüsselung der Einheiten."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Übertragung durch den Anleger. Diese Referenz kann typischerweise in einem Hub-Szenario verwendet werden, um die vom zugrunde liegenden Kunden vergebene Referenz der Übertragung anzugeben."
+    },
+    "CounterpartyReference": {
+      "definition": "Von der Gegenpartei vergebene zweifelsfreie Identifikation der Übertragung."
+    },
+    "BusinessFlowType": {
+      "definition": "Geschäftsprozess, an dem die Beteiligten mitwirken. Dies ermöglicht es, den richtigen Geschäftsprozess auszulösen, entsprechend dem Geschäftsmodell des Marktes, das übereinstimmende Anweisungen (Prozess mit zwei Seiten) erfordern kann oder nicht (Prozess mit einer Seite)."
+    },
+    "AverageAcquisitionPrice": {
+      "definition": "Durchschnittliche Kosten je Anteil des Wertpapiers einschließlich aller Gebühren."
+    },
+    "TransferCurrency": {
+      "definition": "Währung, die für die Übertragung der Bestände zu verwenden ist. Einige Transferstellen führen Bestände zusätzlich zur ISIN nach Währung gruppiert, bei Fondsanteilen in mehreren Währungen."
+    },
+    "TotalBookValue": {
+      "definition": "Nettovermögen in der Bilanz, d. h. der Gesamtwert des Portfolios abzüglich oder zuzüglich des nicht realisierten Gewinns oder Verlusts."
+    },
+    "LatestValuation": {
+      "definition": "Datum und Marktwert des Vermögenswerts."
+    },
+    "OriginalCost": {
+      "definition": "Ursprünglich für den Vermögenswert zum Zeitpunkt des Kaufs gezahlter Betrag. Kann auch als Buchkosten bezeichnet werden."
+    },
+    "TransfereeAccount": {
+      "definition": "Konto, das auf den Namen der Partei lautet, die nicht der Name des wirtschaftlichen Eigentümers der Anteile ist.|(Partei und Konto, auf das der Übertragungsempfänger das Finanzinstrument vom Übertragenden erhält.)"
+    },
+    "Transferor": {
+      "definition": "Partei und Konto, von dem der Übertragende das Finanzinstrument an den Übertragungsempfänger liefert."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identifikation einer verbundenen Partei oder eines Vermittlers."
+    },
+    "CrystallisationDetails": {
+      "definition": "Anzahl der Einheiten, die aus dem Fonds erhalten wurden (kristallisiert) oder noch nicht erhalten wurden (nicht kristallisiert). Dies ist typischerweise für einen Pensionsfonds relevant."
+    },
+    "TaxValuationPoint": {
+      "definition": "Datum oder Steuerquartal, das für die Berechnung der Steuer auf den Vermögenswert verwendet wird."
+    },
+    "SettlementPartiesDetails": {
+      "definition": "Kette der an der Abwicklung einer Transaktion beteiligten Parteien."
+    },
+    "AssetsHeldInOwnName": {
+      "definition": "Gibt an, ob die Vermögenswerte auf den eigenen Namen einer Einzelperson gehalten werden."
+    },
+    "TransferResultsInChangeOfBeneficialOwner": {
+      "definition": "Gibt an, ob die Übertragung zu einem Wechsel des wirtschaftlich Berechtigten führt."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Finanzinstrument."
+    }
+  },
+  "isoRules": {
+    "AssetQuantity1Guideline": {
+      "definition": "Wenn Instrument/Security vorhanden ist, dann muss Quantity/Unit oder Quantity/FaceAmount oder Quantity/AmortisedValue vorhanden sein."
+    },
+    "AssetQuantity2Guideline": {
+      "definition": "Wenn Instrument/CashAsset vorhanden ist, dann muss Quantity/CashAmount vorhanden sein."
+    }
+  }
+}

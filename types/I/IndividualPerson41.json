@@ -1,0 +1,18 @@
+{
+  "isoType": "IndividualPerson41",
+  "definition": "Menschliches Wesen, im Unterschied zu einer Körperschaft (die manchmal als „künstliche Person“ bezeichnet wird).",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Bevollmächtigten."
+    },
+    "ParticipationMethod": {
+      "definition": "Methode der Abstimmungsteilnahme an der Hauptversammlung."
+    },
+    "EmployingParty": {
+      "definition": "Organisation, die von der Person vertreten wird oder für die die Person arbeitet."
+    },
+    "AttendanceCardDetails": {
+      "definition": "Details zur Teilnahmekarte."
+    }
+  }
+}

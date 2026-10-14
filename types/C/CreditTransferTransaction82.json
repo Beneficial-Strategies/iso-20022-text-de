@@ -1,0 +1,170 @@
+{
+  "isoType": "CreditTransferTransaction82",
+  "definition": "Enthält weitere Einzelheiten zu den einzelnen in der Nachricht enthaltenen Transaktionen.",
+  "isoElements": {
+    "PaymentIdentification": {
+      "definition": "Satz von Elementen zur Referenzierung einer Zahlungsanweisung."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Satz von Elementen zur näheren Bestimmung der Transaktionsart."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Geldbetrag, der zwischen der anweisenden Bank und der angewiesenen Bank bewegt wird."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag der Bank, die ihn schuldet, nicht mehr zur Verfügung steht und der Bank, der er zusteht, zur Verfügung steht."
+    },
+    "SettlementPriority": {
+      "definition": "Kennzeichen für die Dringlichkeit oder Wichtigkeit, mit der die anweisende Partei die Abwicklungsanweisung von der angewiesenen Partei verarbeitet haben möchte."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Enthält Angaben zu den erfolgten Abwicklungszeiten der Zahlungstransaktion."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Enthält Angaben zu den gewünschten Abwicklungszeiten der Zahlungsanweisung."
+    },
+    "ExpiryDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen die Zahlung verfällt, falls sie nicht abgewickelt wurde."
+    },
+    "PaymentSignature": {
+      "definition": "Kryptografischer Schlüssel, der die von den Banken innerhalb der Zahlungskette vor der Abwicklung vereinbarten Bedingungen identifiziert. Dieser Schlüssel kann auch nach der Abwicklung verwendet werden, um zu bestätigen, dass die Zahlung wie vorgesehen gutgeschrieben wurde."
+    },
+    "PreviousInstructingAgent1": {
+      "definition": "Bank zwischen DebtorAgent und der beauftragenden Bank. ||Verwendung: Wenn mehr als eine vorherige beauftragende Bank vorhanden ist, bezeichnet PreviousInstructingAgent1 die Bank zwischen DebtorAgent und PreviousInstructingAgent2."
+    },
+    "PreviousInstructingAgent1Account": {
+      "definition": "Eindeutige Identifikation des Kontos der vorherigen beauftragenden Bank bei ihrer kontoführenden Bank in der Zahlungskette."
+    },
+    "PreviousInstructingAgent2": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der beauftragenden Bank. ||Verwendung: Wenn mehr als zwei vorherige beauftragende Banken vorhanden sind, bezeichnet PreviousInstructingAgent2 die Bank zwischen PreviousInstructingAgent1 und PreviousInstructingAgent3."
+    },
+    "PreviousInstructingAgent2Account": {
+      "definition": "Eindeutige Identifikation des Kontos der vorherigen beauftragenden Bank bei ihrer kontoführenden Bank in der Zahlungskette."
+    },
+    "PreviousInstructingAgent3": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der beauftragenden Bank. ||Verwendung: Wenn PreviousInstructingAgent3 vorhanden ist, bezeichnet PreviousInstructingAgent3 die Bank zwischen PreviousInstructingAgent2 und InstructingAgent."
+    },
+    "PreviousInstructingAgent3Account": {
+      "definition": "Eindeutige Identifikation des Kontos der vorherigen beauftragenden Bank bei ihrer kontoführenden Bank in der Zahlungskette."
+    },
+    "InstructingAgent": {
+      "definition": "Bank, die die nächste Partei in der Kette anweist, die Anweisung(en) auszuführen."
+    },
+    "InstructedAgent": {
+      "definition": "Bank, die von der vorherigen Partei in der Kette angewiesen wird, die Anweisung(en) auszuführen."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers.||Verwendung: Sind mehrere zwischengeschaltete Banken vorhanden, kennzeichnet IntermediaryAgent1 die Bank zwischen der DebtorAgent und der IntermediaryAgent2."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Eindeutige Identifikation des Kontos der zwischengeschalteten Bank 1 bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers.||Verwendung: Sind mehr als zwei zwischengeschaltete Banken vorhanden, kennzeichnet IntermediaryAgent2 die Bank zwischen der IntermediaryAgent1 und der IntermediaryAgent3."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Eindeutige Identifikation des Kontos der zwischengeschalteten Bank 2 bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Bank zwischen DebtorAgent und CreditorAgent.||Verwendung: Wenn IntermediaryAgent3 vorhanden ist, bezeichnet sie die Bank zwischen IntermediaryAgent 2 und CreditorAgent."
+    },
+    "IntermediaryAgent3Account": {
+      "definition": "Eindeutige Identifikation des Kontos der zwischengeschalteten Bank 3 bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "UltimateDebtor": {
+      "definition": "Letztes Finanzinstitut, das dem (letztlich) institutionellen Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "Debtor": {
+      "definition": "Finanzinstitut, das dem (letztlich) zahlungsempfangenden Finanzinstitut einen Geldbetrag schuldet."
+    },
+    "DebtorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungspflichtigen, das aufgrund der Transaktion belastet wird."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungspflichtigen führt."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungspflichtigen bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungsempfänger führt."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungsempfängers bei der sie kontoführenden Bank, dem aufgrund der Zahlungstransaktion eine Gutschrift erteilt wird."
+    },
+    "Creditor": {
+      "definition": "Finanzinstitut, das einen Geldbetrag vom zahlungspflichtigen Finanzinstitut erhält."
+    },
+    "CreditorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungsempfängers, dem aufgrund der Zahlungstransaktion eine Gutschrift gebucht wird."
+    },
+    "UltimateCreditor": {
+      "definition": "Letztes Finanzinstitut, dem ein Geldbetrag geschuldet wird."
+    },
+    "InstructionForCreditorAgent": {
+      "definition": "Weitere Informationen zur Bearbeitung der Zahlungsanweisung, die von der initiierenden Partei bereitgestellt werden und für die Bank des Zahlungsempfängers bestimmt sind."
+    },
+    "InstructionForNextAgent": {
+      "definition": "Weitere Informationen zur Bearbeitung der Zahlungsanweisung, auf die die nächste Bank gegebenenfalls reagieren muss. ||Verwendung: Die nächste Bank ist nicht zwingend die Bank des Zahlungsempfängers.|Die Anweisung kann sich auf ein Servicelevel beziehen, eine von der Bank auszuführende Anweisung sein oder Informationen enthalten, die die nächste Bank benötigt."
+    },
+    "Purpose": {
+      "definition": "Zugrunde liegender Grund für die Zahlungstransaktion.|Verwendung: Der Zweck wird von den Endkunden, das heißt der initiierenden Partei, dem (letztlich) Zahlungspflichtigen und dem (letztlichen) Zahlungsempfänger, verwendet, um Informationen zur Art der Zahlung bereitzustellen. Der Zweck ist ein Inhaltselement, das von keiner der an der Zahlungskette beteiligten Banken zur Verarbeitung verwendet wird."
+    },
+    "RemittanceInformation": {
+      "definition": "Informationen zur Ermöglichung des Abgleichs eines Umsatzes mit den Posten, die durch die Übertragung beglichen werden sollen, etwa Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    },
+    "UnderlyingAllocation": {
+      "definition": "Enthält Angaben zu den zugrunde liegenden Zuordnungen, aus denen sich die Zahlung zusammensetzt.||Verwendung: Wird nur in der Wertpapierbranche verwendet."
+    }
+  },
+  "isoRules": {
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor darf nur vorhanden sein, wenn er sich vom Debtor unterscheidet."
+    },
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor darf nur vorhanden sein, wenn er sich vom Creditor unterscheidet."
+    },
+    "IntermediaryAgent2Rule": {
+      "definition": "Wenn IntermediaryAgent2 vorhanden ist, muss IntermediaryAgent1 vorhanden sein."
+    },
+    "IntermediaryAgent3Rule": {
+      "definition": "Wenn IntermediaryAgent3 vorhanden ist, muss IntermediaryAgent2 vorhanden sein."
+    },
+    "IntermediaryAgent1Rule": {
+      "definition": "Wenn IntermediaryAgent1 vorhanden ist, muss CreditorAgent vorhanden sein."
+    },
+    "IntermediaryAgent1AccountRule": {
+      "definition": "Wenn IntermediaryAgent1Account vorhanden ist, muss IntermediaryAgent1 vorhanden sein."
+    },
+    "IntermediaryAgent2AccountRule": {
+      "definition": "Wenn IntermediaryAgent2Account vorhanden ist, muss IntermediaryAgent2 vorhanden sein."
+    },
+    "IntermediaryAgent3AccountRule": {
+      "definition": "Wenn IntermediaryAgent3Account vorhanden ist, muss IntermediaryAgent3 vorhanden sein."
+    },
+    "DebtorAgentAccountRule": {
+      "definition": "Wenn DebtorAgentAccount vorhanden ist, muss DebtorAgent vorhanden sein."
+    },
+    "CreditorAgentAccountRule": {
+      "definition": "Wenn CreditorAgentAccount vorhanden ist, muss CreditorAgent vorhanden sein."
+    },
+    "PreviousInstructingAgent1AccountRule": {
+      "definition": "Wenn PreviousInstructingAgent1Account vorhanden ist, muss PreviousInstructingAgent1 vorhanden sein."
+    },
+    "PreviousInstructingAgent2AccountRule": {
+      "definition": "Wenn PreviousInstructingAgent2Account vorhanden ist, muss PreviousInstructingAgent2 vorhanden sein."
+    },
+    "PreviousInstructingAgent3AccountRule": {
+      "definition": "Wenn PreviousInstructingAgent3Account vorhanden ist, muss PreviousInstructingAgent3 vorhanden sein."
+    },
+    "PreviousInstructingAgent2Rule": {
+      "definition": "Wenn PreviousInstructingAgent2 vorhanden ist, muss PreviousInstructingAgent1 vorhanden sein."
+    },
+    "PreviousInstructingAgent3Rule": {
+      "definition": "Wenn PreviousInstructingAgent3 vorhanden ist, muss PreviousInstructingAgent2 vorhanden sein."
+    },
+    "PreviousInstructingAgent1Guideline": {
+      "definition": "Es wird empfohlen, dass PreviousInstructingAgent1, sofern vorhanden, in der Zahlungskette DebtorAgent am nächsten steht."
+    }
+  }
+}

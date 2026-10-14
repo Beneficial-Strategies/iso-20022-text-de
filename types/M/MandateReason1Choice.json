@@ -1,0 +1,12 @@
+{
+  "isoType": "MandateReason1Choice",
+  "definition": "Gibt den Grund für die Anforderung oder den Status eines Mandats an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund, wie in einer externen Grundcodeliste veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Grund in proprietärer Form."
+    }
+  }
+}

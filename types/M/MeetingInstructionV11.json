@@ -1,0 +1,17 @@
+{
+  "isoType": "MeetingInstructionV11",
+  "definition": "Anwendungsbereich|Die Nachricht MeetingInstruction wird von einer stimmberechtigten Partei an einen Intermediär, den Emittenten oder dessen Bevollmächtigten gesendet, um die empfangende Partei zu ersuchen, aufgrund einer oder mehrerer Anweisungen tätig zu werden.|Verwendung|Die Nachricht MeetingInstruction wird verwendet, um abzustimmen, die Teilnahme an einer Versammlung zu verlangen, die Registrierung von Wertpapieren zu beantragen und einen Bevollmächtigten zu bestimmen. Eine Anweisung oder mehrere Anweisungen können in derselben Nachricht übermittelt werden.|Nach dem Senden kann die Nachricht nicht mehr geändert werden. Sie muss durch eine MeetingInstructionCancellationRequest storniert werden. Erst nach Erhalt eines bestätigten Stornostatus über die|Nachricht MeetingInstructionStatus kann eine neue Nachricht MeetingInstruction gesendet werden.|Diese Nachrichtendefinition ist für die Verwendung mit dem Business Application Header (BAH) vorgesehen.",
+  "isoElements": {
+    "MeetingInstructionIdentification": {
+      "definition": "Eindeutige Identifikation der Gruppe von Nachrichten zur Versammlungsanweisung, wenn die Anweisung auf mehrere (paginierte) Nachrichten aufgeteilt ist."
+    }
+  },
+  "isoRules": {
+    "PaginationRule": {
+      "definition": "Wenn eine Paginierung vorhanden ist, muss MeetingInstructionIdentification vorhanden sein."
+    },
+    "EntitlementFixingDate1Rule": {
+      "definition": "Wenn Confirmation of Holding Required in MeetingNotification auf Y gesetzt ist, muss Entitlement Fixing Date angegeben werden."
+    }
+  }
+}

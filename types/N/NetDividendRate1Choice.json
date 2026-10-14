@@ -1,0 +1,15 @@
+{
+  "isoType": "NetDividendRate1Choice",
+  "definition": "Auswahl des Formats zur Angabe einer Nettodividende.",
+  "isoElements": {
+    "NotSpecifiedRate": {
+      "definition": "Der Wert des Satzes ist nicht angegeben, z. B. ist der Satz unbekannt."
+    },
+    "Amount": {
+      "definition": "Als Betrag ausgedrückter Wert."
+    },
+    "RateTypeAmount": {
+      "definition": "Der Wert wird als Betrag in Bezug auf zugrunde liegende Wertpapiere angegeben, z. B. zugrunde liegendes Wertpapier, für das Zinsen gezahlt werden."
+    }
+  }
+}

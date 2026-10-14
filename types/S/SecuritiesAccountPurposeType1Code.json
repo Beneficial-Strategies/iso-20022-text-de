@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesAccountPurposeType1Code",
+  "definition": "Gibt den Zweck des Wertpapierkontos an.",
+  "isoCodes": {
+    "MARG": {
+      "name": "Marge",
+      "definition": "Das Konto wird verwendet, wenn die Finanzierung durch den Broker erfolgt."
+    },
+    "SHOR": {
+      "name": "Leerverkauf",
+      "definition": "Das Konto wird für Leerverkaufsaufträge verwendet."
+    },
+    "ABRD": {
+      "name": "Ausland",
+      "definition": "Das Konto befindet sich bei einem Finanzinstitut außerhalb des Landes, in dem die Transaktion stattfindet."
+    },
+    "CEND": {
+      "name": "Zentralisiert",
+      "definition": "Das Konto und alle zugehörigen Positionen werden an einem Ort gehalten."
+    },
+    "DVPA": {
+      "name": "Lieferung gegen Zahlung (Bar)",
+      "definition": "Das Konto wird für die Abwicklung bei Lieferung oder für ein Inkasso auf Lieferbasis verwendet."
+    },
+    "PHYS": {
+      "name": "Physisch",
+      "definition": "Das Konto wird für die physische inländische Verwahrung verwendet."
+    }
+  }
+}

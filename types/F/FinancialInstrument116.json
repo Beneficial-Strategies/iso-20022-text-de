@@ -1,0 +1,35 @@
+{
+  "isoType": "FinancialInstrument116",
+  "definition": "Wertpapier, das eine Teilmenge eines Investmentfonds darstellt und denselben Anlagegrundsätzen des Investmentfonds unterliegt, zum Beispiel Dividendenoption oder Bewertungswährung.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation eines Wertpapiers anhand einer ISIN."
+    },
+    "Name": {
+      "definition": "Name des Finanzinstruments als Freitext."
+    },
+    "ShortName": {
+      "definition": "Financial Instrument Short Name (FISN), ausgedrückt in Übereinstimmung mit dem Standard ISO 18774."
+    },
+    "SupplementaryIdentification": {
+      "definition": "Zusätzliche Informationen zum Finanzinstrument."
+    },
+    "ClassType": {
+      "definition": "Merkmale der von einem Fonds angebotenen Anteile. Ein Anteil kann zum Beispiel eine bestimmte Ausgabeaufschlagstruktur (z. B. Vorab- oder Nachlaufgebühr), eine Ertragspolitik (z. B. Ausschüttung oder Thesaurierung) oder eine Bestandspflegeprovisionspolitik (z. B. mit oder ohne) aufweisen. Fondsklassen werden typischerweise durch ein einzelnes Zeichen bezeichnet, zum Beispiel 'Class A', 'Class 2'."
+    },
+    "SecuritiesForm": {
+      "definition": "Form, das heißt Eigentumsform, des Wertpapiers, das heißt Namens- oder Inhaberpapier."
+    },
+    "DistributionPolicy": {
+      "definition": "Ertragspolitik in Bezug auf eine Klassenart, das heißt, ob Erträge ausgeschüttet oder im Fonds einbehalten werden."
+    },
+    "DematerialisedIndicator": {
+      "definition": "Gibt an, ob ein Wertpapier nur als elektronischer Eintrag existiert, d. h. ob es kein physisches Dokument gibt, das das Wertpapier verkörpert."
+    }
+  },
+  "isoRules": {
+    "IdentificationGuideline": {
+      "definition": "Es wird empfohlen, dass in Identification die ISIN verwendet wird.|Wenn ein ISIN-Code existiert, wird dringend empfohlen, die ISIN zu verwenden."
+    }
+  }
+}

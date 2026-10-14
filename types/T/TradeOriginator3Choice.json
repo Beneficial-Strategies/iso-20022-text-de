@@ -1,0 +1,12 @@
+{
+  "isoType": "TradeOriginator3Choice",
+  "definition": "Auswahl des Formats für die Handelskapazität der Partei.",
+  "isoElements": {
+    "Code": {
+      "definition": "Handelskapazität der Partei, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Handelskapazität der Partei, ausgedrückt als proprietärer Code."
+    }
+  }
+}

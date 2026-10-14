@@ -1,0 +1,46 @@
+{
+  "isoType": "ATMMediaType4Code",
+  "definition": "Art der Medien in einer Kassette des ATM.",
+  "isoCodes": {
+    "CARD": {
+      "name": "Karten",
+      "definition": "Kartenmedien."
+    },
+    "COIN": {
+      "name": "Münzen",
+      "definition": "Münzmedien."
+    },
+    "CMDT": {
+      "name": "Ware",
+      "definition": "Nicht festgelegter Wert der Medien, zum Beispiel Gold, Silber."
+    },
+    "CPNS": {
+      "name": "Gutscheine",
+      "definition": "Gutscheinmedien."
+    },
+    "NOTE": {
+      "name": "Banknoten",
+      "definition": "Banknotenmedien."
+    },
+    "STMP": {
+      "name": "Briefmarken",
+      "definition": "Briefmarkenmedien."
+    },
+    "UDTM": {
+      "name": "Unbestimmt",
+      "definition": "Unbestimmte Medien."
+    },
+    "CHCK": {
+      "name": "Scheck",
+      "definition": "Scheckmedien."
+    },
+    "ENVP": {
+      "name": "Umschlag",
+      "definition": "Ein Umschlag mit unbekannten Beträgen unbekannter Gegenstände."
+    },
+    "MLTP": {
+      "name": "Mehrfach",
+      "definition": "Mehrere Gegenstände, entweder außerhalb eines Umschlags oder in mehreren Umschlägen."
+    }
+  }
+}

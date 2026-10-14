@@ -1,0 +1,80 @@
+{
+  "isoType": "AggregateBalanceInformation46",
+  "definition": "Gesamtposition in einem einzelnen Wertpapier, die in einem Wertpapierdepot an einem bestimmten Verwahrort gehalten wird.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Finanzinstrument, das eine Summe von Rechten des Anlegers gegenüber dem Emittenten darstellt."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Elemente, die ein Finanzinstrument außer Investmentfonds charakterisieren."
+    },
+    "InvestmentFundsFinancialInstrumentAttributes": {
+      "definition": "Elemente, die ein Finanzinstrument in Form eines Investmentfonds charakterisieren."
+    },
+    "ValuationHaircutDetails": {
+      "definition": "Elemente, die zur Berechnung des Bewertungsabschlags (Haircut) verwendet werden."
+    },
+    "AggregateBalance": {
+      "definition": "Gesamtmenge der Finanzinstrumente des Saldos."
+    },
+    "AvailableBalance": {
+      "definition": "Gesamtmenge der Finanzinstrumente des Bestands, die verfügbar ist."
+    },
+    "NotAvailableBalance": {
+      "definition": "Gesamtmenge der Finanzinstrumente des Bestands, die nicht verfügbar ist."
+    },
+    "SafekeepingPlace": {
+      "definition": "Ort, an dem die Wertpapiere physisch oder buchmäßig verwahrt werden. Dieser Ort kann zum Beispiel eine lokale Depotbank, ein Central Securities Depository (CSD) oder ein International Central Securities Depository (ICSD) sein."
+    },
+    "CorporateActionOptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "PriceDetails": {
+      "definition": "Preis des Finanzinstruments in einer oder mehreren Währungen."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Informationen, die für die Verarbeitung eines Währungsumtauschs oder einer Währungsumrechnung erforderlich sind."
+    },
+    "DaysAccrued": {
+      "definition": "Gibt die Anzahl der Tage an, die für die Berechnung des aufgelaufenen Zinsbetrags verwendet werden."
+    },
+    "AccountBaseCurrencyAmounts": {
+      "definition": "Bewertungsbeträge in der Basiswährung des Kontos."
+    },
+    "InstrumentCurrencyAmounts": {
+      "definition": "Bewertungsbeträge in der Währung des Finanzinstruments."
+    },
+    "QuantityBreakdown": {
+      "definition": "Aufgliederung der gemeldeten Gesamtmenge in wesentliche Lose, zum Beispiel Steuerlose."
+    },
+    "BalanceBreakdown": {
+      "definition": "Aufgliederung des Gesamtbestands nach aussagekräftigen Unterbeständen und Verfügbarkeit."
+    },
+    "AdditionalBalanceBreakdown": {
+      "definition": "Liefert zusätzliche Informationen zum Unterbestand des Instruments für das gesamte gemeldete Finanzinstrument oder Teile davon (nicht registriert, steuerbefreit usw.)."
+    },
+    "BalanceAtSafekeepingPlace": {
+      "definition": "Aufgliederung der Positionen nach Verwahrort (und optional nach Börsenplatz)."
+    },
+    "HoldingAdditionalDetails": {
+      "definition": "Liefert zusätzliche Informationen zum Bestand."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "BalanceAtSafekeepingPlaceRule": {
+      "definition": "Wenn SafekeepingPlace vorhanden ist, ist BalanceAtSafekeepingPlace nicht zulässig."
+    },
+    "AggregateBalanceGuideline": {
+      "definition": "Wenn AvailableQuantity und NotAvailableQuantity beide vorhanden sind, sollte AggregateQuantity die Summe aus AvailableQuantity und NotAvailableQuantity sein."
+    },
+    "HoldingAdditionalDetailsRule": {
+      "definition": "Sofern zwischen Sender und Empfänger nicht bilateral vereinbart, darf SubBalanceAdditionnalDetails, falls vorhanden, keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können."
+    },
+    "FinancialInstrumentAttributesRule": {
+      "definition": "Wenn InvestmentFundsFinancialInstrumentAttributes vorhanden ist, ist FinancialInstrumentAttributes nicht zulässig."
+    }
+  }
+}

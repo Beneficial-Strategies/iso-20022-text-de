@@ -1,0 +1,22 @@
+{
+  "isoType": "FinalStatusCode",
+  "definition": "Gibt den Endstatus einer Transaktion an.",
+  "isoCodes": {
+    "STLD": {
+      "name": "Abgewickelt",
+      "definition": "Transaktion wurde von der Clearingstelle erfolgreich verarbeitet."
+    },
+    "RJTD": {
+      "name": "Abgelehnt",
+      "definition": "Transaktion wurde von der Clearingstelle abgelehnt."
+    },
+    "CAND": {
+      "name": "Storniert",
+      "definition": "Transaktion wurde storniert."
+    },
+    "FNLD": {
+      "name": "Abgeschlossen",
+      "definition": "Transaktion wurde von der Clearingstelle erfolgreich verarbeitet. Die Abwicklung findet außerhalb des Systems statt."
+    }
+  }
+}

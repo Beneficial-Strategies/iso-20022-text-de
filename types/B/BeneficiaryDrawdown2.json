@@ -1,0 +1,21 @@
+{
+  "isoType": "BeneficiaryDrawdown2",
+  "definition": "Informationen zum Begünstigten einer Entnahme (Drawdown).",
+  "isoElements": {
+    "BeneficiaryType": {
+      "definition": "Art des Begünstigten."
+    },
+    "DeathUnderLimit": {
+      "definition": "Gibt an, ob der ursprüngliche Pensionsinhaber zum Zeitpunkt seines Todes unter der Altersgrenze lag. Im UK liegt diese Grenze üblicherweise bei fünfundsiebzig Jahren."
+    },
+    "DateOfDeath": {
+      "definition": "Sterbedatum des ursprünglichen Pensionsinhabers."
+    },
+    "DateDesignatedToBeneficiary": {
+      "definition": "Datum, an dem der neue Begünstigte bestimmt wurde."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Empfänger der Entnahme (Drawdown)."
+    }
+  }
+}

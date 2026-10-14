@@ -1,0 +1,14 @@
+{
+  "isoType": "ShortLong1Code",
+  "definition": "Gibt an, ob die Wertpapierposition eine Short- oder Long-Position ist, das heißt, ob der Saldo ein negativer oder positiver Saldo ist.",
+  "isoCodes": {
+    "SHOR": {
+      "name": "Short",
+      "definition": "Die Position ist Short, das heißt, der Saldo ist negativ."
+    },
+    "LONG": {
+      "name": "Long",
+      "definition": "Die Position ist Long, das heißt, der Saldo ist positiv."
+    }
+  }
+}

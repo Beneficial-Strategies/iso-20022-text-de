@@ -1,0 +1,12 @@
+{
+  "isoType": "PriceRate1",
+  "definition": "Gibt einen als Satz ausgedrückten Preis an.",
+  "isoElements": {
+    "RateType": {
+      "definition": "Art des Satzes, z. B. Rendite."
+    },
+    "Rate": {
+      "definition": "Preis, ausgedrückt als Satz, das heißt Prozentsatz."
+    }
+  }
+}

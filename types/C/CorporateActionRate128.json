@@ -1,0 +1,39 @@
+{
+  "isoType": "CorporateActionRate128",
+  "definition": "Gibt Einzelheiten zu Wertpapiersätzen an.",
+  "isoElements": {
+    "AdditionalQuantityForSubscribedResultantSecurities": {
+      "definition": "Menge zusätzlicher Zwischenwertpapiere/neuer Aktien, die für eine bestimmte, aus der Zeichnung abgeleitete Wertpapiermenge zugeteilt werden."
+    },
+    "AdditionalQuantityForExistingSecurities": {
+      "definition": "Menge zusätzlicher Wertpapiere für eine bestimmte Menge zugrunde liegender Wertpapiere, wobei die zugrunde liegenden Wertpapiere nicht umgetauscht oder belastet werden, zum Beispiel 1 für 1: 1 neue Aktie gutgeschrieben für jede zugrunde liegende Aktie = 2 resultierende Aktien."
+    },
+    "NewToOld": {
+      "definition": "Menge neuer Wertpapiere für eine bestimmte Menge zugrunde liegender Wertpapiere, wobei die zugrunde liegenden Wertpapiere umgetauscht oder belastet werden, zum Beispiel 2 für 1: 2 neue Aktien gutgeschrieben für jede belastete zugrunde liegende Aktie = 2 resultierende Aktien."
+    },
+    "TransformationRate": {
+      "definition": "Satz zur Bestimmung der Aufteilung der Barvergütung auf Ergebnis-Abwicklungstransaktionen, die aus einer Umwandlung der Ursprungstransaktion hervorgehen."
+    },
+    "ChargesFees": {
+      "definition": "Satz zur Berechnung des Betrags der Entgelte/Gebühren, die nicht kategorisiert werden können."
+    },
+    "FiscalStamp": {
+      "definition": "Anzuwendender Prozentsatz der Fiskalsteuer."
+    },
+    "ApplicableRate": {
+      "definition": "Für das angekündigte Ereignis geltender Satz, zum Beispiel der Rückzahlungssatz bei einem Rückzahlungsereignis."
+    },
+    "TaxCreditRate": {
+      "definition": "Geldbetrag je Aktie, der infolge einer Steuergutschrift zugeteilt wird."
+    },
+    "FinancialTransactionTaxRate": {
+      "definition": "Satz der Finanztransaktionssteuer."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Prozentsatz einer Barausschüttung, der von den Steuerbehörden des Rechtsraums des Emittenten einbehalten wird und für den eine Entlastung an der Quelle und/oder eine Rückforderung möglich sein kann."
+    },
+    "SecondLevelTax": {
+      "definition": "Satz, zu dem die Erträge von einem anderen Rechtsraum als dem des steuerlichen Gründungslands des Emittenten einbehalten werden und für den eine Entlastung an der Quelle und/oder eine Rückforderung möglich sein kann. Er wird ergänzend zum oder verrechnend mit dem Quellensteuersatz (TAXR) erhoben, den der Rechtsraum des steuerlichen Sitzes des Emittenten erhebt."
+    }
+  }
+}

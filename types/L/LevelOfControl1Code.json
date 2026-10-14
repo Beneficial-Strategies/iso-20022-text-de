@@ -1,0 +1,14 @@
+{
+  "isoType": "LevelOfControl1Code",
+  "definition": "Gibt die Kontrollstufe an.",
+  "isoCodes": {
+    "TRAN": {
+      "name": "Transaktionen",
+      "definition": "Auf dem Konto sind Transaktionen zulässig."
+    },
+    "VIEW": {
+      "name": "Ansicht",
+      "definition": "Das Konto darf nur eingesehen werden."
+    }
+  }
+}

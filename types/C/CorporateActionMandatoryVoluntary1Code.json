@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionMandatoryVoluntary1Code",
+  "definition": "Gibt an, ob das Ereignis obligatorisch, obligatorisch mit Wahlmöglichkeiten oder freiwillig ist.",
+  "isoCodes": {
+    "MAND": {
+      "name": "Verpflichtend",
+      "definition": "Die Teilnahme am CA-Ereignis ist obligatorisch. Weitere Anweisungen des Kontoinhabers sind nicht erforderlich."
+    },
+    "CHOS": {
+      "name": "Verpflichtend mit Wahlmöglichkeiten",
+      "definition": "Die Teilnahme an der Kapitalmaßnahme ist obligatorisch, und weitere Anweisungen des Kontoinhabers sind erforderlich, sofern keine Standardoption festgelegt wurde."
+    },
+    "VOLU": {
+      "name": "Freiwillig",
+      "definition": "Die Teilnahme an der Kapitalmaßnahme ist freiwillig. Wenn der Inhaber an dem Ereignis teilnehmen möchte, sind Anweisungen des Kontoinhabers erforderlich."
+    }
+  }
+}

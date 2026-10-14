@@ -1,0 +1,38 @@
+{
+  "isoType": "TransferStatus6Code",
+  "definition": "Gibt den Status einer Übertragungs- oder Abwicklungsanweisung an.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Akzeptiert",
+      "definition": "Die Übertragungs- oder Abwicklungsanweisung wurde bestätigt bzw. zur Weiterverarbeitung angenommen."
+    },
+    "COSE": {
+      "name": "Bereits ausgeführt",
+      "definition": "Die Übertragungs- oder Abwicklungsanweisung ist vollständig ausgeführt und die Bestätigung wurde gesendet."
+    },
+    "COMP": {
+      "name": "Vollständig",
+      "definition": "Die Portfolioübertragung ist abgeschlossen."
+    },
+    "DELY": {
+      "name": "Verzögert",
+      "definition": "Die Übertragungs- oder Abwicklungsanweisung ist verzögert."
+    },
+    "MACH": {
+      "name": "Abgeglichen",
+      "definition": "Die Übertragungs- oder Abwicklungsanweisung wurde abgeglichen (Matching)."
+    },
+    "RECE": {
+      "name": "Empfangen",
+      "definition": "Die Anweisung wurde empfangen, d. h. die technische Validierung der Nachricht ist in Ordnung und die Nachricht liegt nun auf der Empfangsseite vor."
+    },
+    "STNP": {
+      "name": "An nächste Partei gesendet",
+      "definition": "Die Übertragungs- oder Abwicklungsanweisung wurde an die nächste Partei, d. h. den nächsten Intermediär, gesendet."
+    },
+    "SETT": {
+      "name": "Abgewickelt",
+      "definition": "Die Übertragungs- oder Abwicklungsanweisung ist abgewickelt."
+    }
+  }
+}

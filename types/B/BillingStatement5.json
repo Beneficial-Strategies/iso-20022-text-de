@@ -1,0 +1,45 @@
+{
+  "isoType": "BillingStatement5",
+  "definition": "Einzelheiten zum Kontoauszug, der die Abrechnung der Bankdienstleistungen ausweist.",
+  "isoElements": {
+    "StatementIdentification": {
+      "definition": "Identifikation der Kundenabrechnung."
+    },
+    "FromToDate": {
+      "definition": "Zeitraum zwischen Anfangs- und Enddatum, für den der Kontoauszug erstellt wird."
+    },
+    "CreationDateTime": {
+      "definition": "Datum, an dem die Kontoauszugsnachricht erstellt wurde."
+    },
+    "Status": {
+      "definition": "Definiert den Status des Kontoauszugs."
+    },
+    "AccountCharacteristics": {
+      "definition": "Gibt die Einzelheiten der Kontomerkmale an."
+    },
+    "RateData": {
+      "definition": "Identifiziert die im Kontoauszug verwendeten nicht steuerlichen Jahreszinssätze und Faktorwerte sowie gegebenenfalls zeitabhängige Entgeltgrundlagen."
+    },
+    "CurrencyExchange": {
+      "definition": "Gibt Einzelheiten zu Währungsumrechnungsdaten an."
+    },
+    "Balance": {
+      "definition": "Identifiziert den Durchschnittswert der im Kontoauszugszeitraum gehaltenen Salden."
+    },
+    "Compensation": {
+      "definition": "Identifiziert die Werte und Summen, die für Kompensationsinformationen sowie Dienstleistungs- und Steuersummen verwendet werden."
+    },
+    "Service": {
+      "definition": "Gibt die Werte an, die für jede Servicezeile in der Abrechnung verwendet werden."
+    },
+    "TaxRegion": {
+      "definition": "Steuerregion, die auf die Dienstleistungen in diesem Kontoauszug eine Steuer erhebt."
+    },
+    "BalanceAdjustment": {
+      "definition": "Ein oder mehrere Abschnitte, die Saldo- oder Float-Anpassungen des Kontos ausweisen. Sie können entweder Anpassungen des aktuellen Kontoauszugs oder Anpassungen von Kontoauszügen früherer Berichtszeiträume wiedergeben."
+    },
+    "ServiceAdjustment": {
+      "definition": "Ein oder mehrere Abschnitte, die Anpassungen einzelner Dienstleistungspositionen des Kontos ausweisen. Sie geben Anpassungen von Kontoauszügen früherer Berichtszeiträume wieder."
+    }
+  }
+}

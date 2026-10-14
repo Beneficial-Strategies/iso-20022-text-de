@@ -1,0 +1,26 @@
+{
+  "isoType": "InvestmentAccountModification4",
+  "definition": "Informationen zur Änderung eines Kontos.",
+  "isoElements": {
+    "ModificationReason": {
+      "definition": "Grund für die Änderung der Informationen zum Anlagekonto."
+    },
+    "AccountApplicationIdentification": {
+      "definition": "Eindeutige und unmissverständliche Kennung des Kontoänderungsauftrags."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und unmissverständliche Identifikation einer Übertragung durch den Anleger."
+    },
+    "CounterpartyReference": {
+      "definition": "Eindeutige Identifikation der Transaktion, zum Beispiel einer Übertragung, wie von der Gegenpartei zugewiesen."
+    },
+    "ExistingAccountIdentification": {
+      "definition": "Konto, auf das sich die Kontoeröffnung bezieht."
+    }
+  },
+  "isoRules": {
+    "InstructionDetailsElementRule": {
+      "definition": "Eines der Elemente (ModificationReason, AccountApplicationIdentification, ClientReference, CounterpartyReference, ExistingAccountIdentification) muss vorhanden sein."
+    }
+  }
+}

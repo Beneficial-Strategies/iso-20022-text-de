@@ -1,0 +1,12 @@
+{
+  "isoType": "Reporting6Choice",
+  "definition": "Auswahl des Formats für die Meldeart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als ISO 20022 Code ausgedrückte Informationen zur Meldung durch Dritte."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Informationen zur Meldung durch Dritte."
+    }
+  }
+}

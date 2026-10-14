@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementOrCorporateActionEvent35Choice",
+  "definition": "Auswahl zwischen Transaktionsart, Kapitalmaßnahmen-Ereignis und Abwicklungstransaktion.",
+  "isoElements": {
+    "SecuritiesTransactionType": {
+      "definition": "Identifiziert die Art der Wertpapiertransaktion."
+    },
+    "CorporateActionEventType": {
+      "definition": "Gibt die Art des Unternehmensereignisses an."
+    }
+  }
+}

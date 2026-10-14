@@ -1,0 +1,14 @@
+{
+  "isoType": "RoundingDirection2Code",
+  "definition": "Gibt die Rundungsrichtung an, die auf die nächste Einheit angewendet wird.",
+  "isoCodes": {
+    "RDUP": {
+      "name": "Aufrunden",
+      "definition": "Auf die nächste ganze Zahl aufrunden."
+    },
+    "RDWN": {
+      "name": "Abrunden",
+      "definition": "Auf die nächste ganze Zahl abrunden."
+    }
+  }
+}

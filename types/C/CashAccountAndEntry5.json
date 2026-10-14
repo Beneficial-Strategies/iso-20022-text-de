@@ -1,0 +1,12 @@
+{
+  "isoType": "CashAccountAndEntry5",
+  "definition": "Buchung eines Postens auf einem Geldkonto im Rahmen einer Geldtransaktion, die zu einer Erhöhung oder Verminderung des Kontosaldos führt.",
+  "isoElements": {
+    "Account": {
+      "definition": "Konto, auf das oder von dem eine Geldbuchung erfolgt."
+    },
+    "Entry": {
+      "definition": "Buchung eines Postens auf einem Geldkonto im Rahmen einer Geldtransaktion, die zu einer Erhöhung oder Verminderung des Kontosaldos führt."
+    }
+  }
+}

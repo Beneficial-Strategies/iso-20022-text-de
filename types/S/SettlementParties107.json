@@ -1,0 +1,47 @@
+{
+  "isoType": "SettlementParties107",
+  "definition": "Kette der an der Abwicklung einer Transaktion beteiligten Parteien, einschließlich Empfängen und Lieferungen, Buchübertragungen, Treasury-Geschäften oder anderen Aktivitäten, die zur Bewegung eines Wertpapiers oder eines Geldbetrags von einem Konto auf ein anderes führen.",
+  "isoElements": {
+    "Depository": {
+      "definition": "Erste Partei in der Abwicklungskette. Bei einer einfachen Standardabwicklung ist dies der Zentralverwahrer, bei dem die Gegenpartei den Empfang des Finanzinstruments verlangt oder von dem die Gegenpartei die Finanzinstrumente liefert."
+    },
+    "Party1": {
+      "definition": "Partei, die in einer Abwicklungskette mit dem Verwahrer interagiert."
+    },
+    "Party2": {
+      "definition": "Partei, die in einer Abwicklungskette mit Partei 1 interagiert."
+    },
+    "Party3": {
+      "definition": "Partei, die in einer Abwicklungskette mit Partei 2 interagiert."
+    },
+    "Party4": {
+      "definition": "Partei, die in einer Abwicklungskette mit Partei 3 interagiert."
+    },
+    "Party5": {
+      "definition": "Partei, die in einer Abwicklungskette mit Partei 4 interagiert."
+    }
+  },
+  "isoRules": {
+    "Party2PresenceRule": {
+      "definition": "Wenn Party2 vorhanden ist, muss Party1 vorhanden sein."
+    },
+    "Party3PresenceRule": {
+      "definition": "Wenn Party3 vorhanden ist, muss Party2 vorhanden sein."
+    },
+    "Party4PresenceRule": {
+      "definition": "Wenn Party4 vorhanden ist, muss Party3 vorhanden sein."
+    },
+    "Party5PresenceRule": {
+      "definition": "Wenn Party5 vorhanden ist, muss Party4 vorhanden sein."
+    },
+    "SettlementChainGuideline": {
+      "definition": "Die SMPG empfiehlt, bei Abwicklungsanweisungen für Aktien oder Festverzinsliche mit Lieferung/Empfang|frei von Zahlung oder gegen Zahlung mindestens drei Abwicklungsparteien anzugeben: die Verwahrstelle, den Teilnehmer der Verwahrstelle (Party1) und den Kunden von Party1 (Party2).|Das Datenformat für die Identifikation von Party1 hängt vom Markt ab. Liegt keine länderspezifische Vorgabe vor, wird BIC empfohlen.|Weitere Einzelheiten siehe das jeweilige Marktpraxisdokument unter www.smpg.info."
+    },
+    "DepositoryGuideline": {
+      "definition": "Bei einer Lieferung ist die empfangende Verwahrstelle als die angeforderte Verwahrstelle der empfangenden Gegenpartei zu verstehen. |Bei einem Empfang ist die liefernde Verwahrstelle als die angeforderte Verwahrstelle der liefernden Gegenpartei zu verstehen.|Das Feld muss mit dem BIC eines nationalen oder internationalen Zentralverwahrers befüllt werden. Gibt es in einem Markt keinen Zentralverwahrer, ist der BIC der Börse zu verwenden.|Der Ländercode ist für Abwicklungen zu verwenden, die außerhalb eines in der BIC-Liste des PSET veröffentlichten Instituts stattfinden. Dazu gehören physische Lieferungen und Investmentfonds, die nicht bei einem Zentralverwahrer abgewickelt werden. |Format und Inhalt der Sequenzen der Abwicklungsparteien entsprechen den Marktpraktiken, die für die in der Nachricht angegebene Verwahrstelle der Gegenpartei veröffentlicht sind.|Weitere Einzelheiten siehe das jeweilige Marktpraxisdokument unter www.smpg.info (CSD)."
+    },
+    "BookTransferGuideline": {
+      "definition": "Bei einer internen Übertragung zwischen eigenen Konten, einer externen Übertragung zwischen eigenen Konten, einer Portfolioübertragung und einer Übertragung in specie (siehe SecuritiesTransactionType) muss das Konto von (liefernder) Party2 bei (liefernder) Party1 angegeben werden.|Weitere Einzelheiten siehe das jeweilige Marktpraxisdokument unter www.smpg.info."
+    }
+  }
+}

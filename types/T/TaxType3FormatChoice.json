@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxType3FormatChoice",
+  "definition": "Auswahl der Formate zur Angabe der Steuerart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Steuerart."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe der Steuerart."
+    }
+  }
+}

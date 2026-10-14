@@ -1,0 +1,14 @@
+{
+  "isoType": "EventSequenceType1Code",
+  "definition": "Gibt an, ob das Ereignis ein Zwischenereignis oder ein abschließendes Ereignis in einer Reihe aufeinanderfolgender Ereignisse ist.",
+  "isoCodes": {
+    "FINL": {
+      "name": "Letzte",
+      "definition": "Abschließendes Ereignis in einer Reihe aufeinanderfolgender Ereignisse."
+    },
+    "INTE": {
+      "name": "Zwischenwert",
+      "definition": "Zwischenereignis in einer Reihe aufeinanderfolgender Ereignisse."
+    }
+  }
+}

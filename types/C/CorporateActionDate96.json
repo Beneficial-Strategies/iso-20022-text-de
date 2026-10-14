@@ -1,0 +1,116 @@
+{
+  "isoType": "CorporateActionDate96",
+  "definition": "Gibt Daten der Kapitalmaßnahme an.",
+  "isoElements": {
+    "AnnouncementDate": {
+      "definition": "Datum/Uhrzeit, zu dem der Emittent angekündigt hat, dass ein Kapitalmaßnahmen-Ereignis eintreten wird."
+    },
+    "CertificationDeadline": {
+      "definition": "Frist, bis zu der die Bescheinigung gesendet werden muss."
+    },
+    "CourtApprovalDate": {
+      "definition": "Datum, an dem das Gericht die Genehmigung erteilt hat."
+    },
+    "EarlyClosingDate": {
+      "definition": "Frühestmögliches vorzeitiges Abschlussdatum eines Angebots, sofern es vom Ablaufdatum abweicht."
+    },
+    "EffectiveDate": {
+      "definition": "Datum/Uhrzeit, zu dem ein Ereignis aus Sicht des Emittenten offiziell wirksam wird."
+    },
+    "EqualisationDate": {
+      "definition": "Datum/Uhrzeit, ab dem ein in einem Investmentfonds gekaufter Bestand ganz oder teilweise als Kapital statt als Ertrag behandelt wird. Dies ist normalerweise ein Tag nach dem Ex-Datum der vorherigen Ausschüttung."
+    },
+    "FurtherDetailedAnnouncementDate": {
+      "definition": "Datum/Uhrzeit, zu dem zusätzliche Informationen zum Ereignis bekannt gegeben werden, zum Beispiel das Datum der Bekanntgabe des Umtauschverhältnisses."
+    },
+    "FixingDate": {
+      "definition": "Datum/Uhrzeit, zu dem ein Index / Satz / Preis / Wert festgelegt wird."
+    },
+    "LotteryDate": {
+      "definition": "Datum/Uhrzeit, zu dem die Auslosung durchgeführt und auf die Positionen des Inhabers angewendet wird. Dies gilt auch für teilweise Kündigungen."
+    },
+    "NewMaturityDate": {
+      "definition": "Datum/Uhrzeit, auf das das Fälligkeitsdatum eines verzinslichen Wertpapiers verlängert wird."
+    },
+    "MeetingDate": {
+      "definition": "Datum/Uhrzeit, zu dem die Versammlung der Anleihegläubiger oder Aktionäre stattfindet."
+    },
+    "MarginFixingDate": {
+      "definition": "Datum/Uhrzeit, zu dem der Margensatz festgelegt wird."
+    },
+    "ProrationDate": {
+      "definition": "Datum/Uhrzeit (und Uhrzeit), zu dem ein Emittent den Zuteilungsbetrag/die Zuteilungsmenge eines Angebots festlegt."
+    },
+    "RecordDate": {
+      "definition": "Datum/Uhrzeit, zu dem die Positionen am Ende des Tages festgestellt werden, um zu ermitteln, welche Parteien den maßgeblichen Anspruchsbetrag erhalten, der am Zahlungstag auszuschütten ist."
+    },
+    "RegistrationDeadline": {
+      "definition": "Datum/Uhrzeit, ab dem Anweisungen zur Registrierung oder Registrierungsdaten akzeptiert werden."
+    },
+    "ResultsPublicationDate": {
+      "definition": "Datum/Uhrzeit, zu dem Ergebnisse veröffentlicht werden, zum Beispiel die Ergebnisse eines Angebots."
+    },
+    "DeadlineToSplit": {
+      "definition": "Frist, bis zu der Anweisungen zur Aufteilung von Wertpapieren, zum Beispiel physischer Urkunden, eingegangen sein müssen."
+    },
+    "DeadlineForTaxBreakdownInstruction": {
+      "definition": "Datum/Uhrzeit, bis zu dem Anweisungen zur Steueraufschlüsselung akzeptiert werden."
+    },
+    "TradingSuspendedDate": {
+      "definition": "Datum/Uhrzeit, zu dem der Handel mit einem Wertpapier aufgrund eines Ereignisses ausgesetzt wird."
+    },
+    "UnconditionalDate": {
+      "definition": "Datum/Uhrzeit, zu dem die Bedingungen der Übernahme hinsichtlich der Annahmen unbedingt werden."
+    },
+    "WhollyUnconditionalDate": {
+      "definition": "Datum/Uhrzeit, zu dem alle Bedingungen, einschließlich regulatorischer, rechtlicher usw., die die Übernahme betreffen, erfüllt wurden."
+    },
+    "ExDividendDate": {
+      "definition": "Datum/Uhrzeit, ab dem der Handel (einschließlich Börsen- und OTC-Handel) mit dem zugrunde liegenden Wertpapier ohne den Vorteil stattfindet."
+    },
+    "OfficialAnnouncementPublicationDate": {
+      "definition": "Datum/Uhrzeit, zu dem die Kapitalmaßnahme von einer offiziellen Stelle rechtlich bekannt gegeben wird, zum Beispiel durch Veröffentlichung seitens einer Regierungsbehörde."
+    },
+    "SpecialExDate": {
+      "definition": "Datum/Uhrzeit, ab dem die „Sonderbearbeitung“ von Teilnehmern für dieses Ereignis verwendet werden kann. Die Sonderbearbeitung ist ein Mittel, eine Transaktion, die normalerweise ex oder cum gehandelt würde, als cum beziehungsweise ex gehandelt zu kennzeichnen, zum Beispiel hätte eine nach dem Ex-Datum „special“ abgeschlossene Transaktion zur Folge, dass der Käufer anspruchsberechtigt ist. Dies wird typischerweise in den Märkten des UK und Irlands verwendet."
+    },
+    "GuaranteedParticipationDate": {
+      "definition": "Letztes Datum/letzte Uhrzeit, bis zu dem eine kaufende Gegenpartei eines Handelsgeschäfts sicher sein kann, dass sie das Recht zur Teilnahme an einem Ereignis hat."
+    },
+    "ElectionToCounterpartyMarketDeadline": {
+      "definition": "Frist, bis zu der ein anspruchsberechtigter Inhaber seiner Gegenpartei bei einer Transaktion seine Wahl für ein Kapitalmaßnahmen-Ereignis mitteilen muss, auch bekannt als Buyer Protection Deadline."
+    },
+    "ElectionToCounterpartyResponseDeadline": {
+      "definition": "Datum/Uhrzeit, das der Kontoführer als Frist für die Antwort mit Anweisungen vor der Marktfrist für die Wahl gegenüber der Gegenpartei festgelegt hat."
+    },
+    "LapsedDate": {
+      "definition": "Datum/Uhrzeit, zu dem ein Ereignis/Angebot beendet wird oder verfällt."
+    },
+    "PaymentDate": {
+      "definition": "Datum/Uhrzeit, zu dem die Bewegung stattfinden soll (Geld und/oder Wertpapiere)."
+    },
+    "ThirdPartyDeadline": {
+      "definition": "Datum/Uhrzeit, bis zu dem der Kontoinhaber eine andere Partei direkt anweisen muss, zum Beispiel um einem Emissionsbeauftragten Unterlagen zur Verfügung zu stellen."
+    },
+    "EarlyThirdPartyDeadline": {
+      "definition": "Datum/Uhrzeit, das der Emissionsbeauftragte als erste frühe Frist festlegt, bis zu der der Kontoinhaber eine andere Partei direkt anweisen muss, wodurch der Inhaber möglicherweise Anspruch auf Anreize erhält. Zum Beispiel um einem Emissionsbeauftragten Unterlagen zur Verfügung zu stellen."
+    },
+    "MarketClaimTrackingEndDate": {
+      "definition": "Datum, bis zu dem die Verwahrstelle die Überwachung der Aktivitäten des Ereignisses einstellt, zum Beispiel enden die Buchungs- und Verfolgungsaktivitäten für Due Bills."
+    },
+    "LeadPlaintiffDeadline": {
+      "definition": "Letzter Tag, an dem ein Anleger Hauptkläger werden kann."
+    },
+    "FilingDate": {
+      "definition": "Datum, an dem die Klage beim zuständigen Gericht eingereicht wurde."
+    },
+    "HearingDate": {
+      "definition": "Datum der Verhandlung zwischen Kläger und Beklagtem, wie vom Gericht festgelegt."
+    }
+  },
+  "isoRules": {
+    "EffectiveDateRule": {
+      "definition": "Das Wirksamkeitsdatum ist bei Ereignissen zu verwenden, bei denen es kein Anspruchskonzept gibt, zum Beispiel Namensänderung (CHAN) oder Gründungsort (PLAC), und bei Ereignissen, bei denen es eine Berechtigung, aber mit rechtlicher Verpflichtung gibt, zum Beispiel Fusion (MRGR)."
+    }
+  }
+}

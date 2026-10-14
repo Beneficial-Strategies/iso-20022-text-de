@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionOption2",
+  "definition": "Stellt Informationen zu einer CA-Option bereit.",
+  "isoElements": {
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    }
+  }
+}

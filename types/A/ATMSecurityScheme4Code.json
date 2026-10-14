@@ -1,0 +1,42 @@
+{
+  "isoType": "ATMSecurityScheme4Code",
+  "definition": "Im Hardware-Sicherheitsmodul des ATM implementierte Sicherheitsverfahren für den Schlüsselaustausch.",
+  "isoCodes": {
+    "APPK": {
+      "name": "Anwendungs-Fernschlüsselladung",
+      "definition": "Anwendungsschlüssel-Download, geschützt durch einen gemeinsamen symmetrischen Schlüssel."
+    },
+    "CERT": {
+      "name": "Zertifikats-Fernschlüsselladung",
+      "definition": "Schlüssel-Download, geschützt durch asymmetrische Schlüssel, die mit einem Zertifikat authentifiziert sind."
+    },
+    "FRAN": {
+      "name": "Französische Fernschlüsselladung",
+      "definition": "Schlüssel-Download gemäß dem französischen Sicherheitsverfahren für den Schlüssel-Download an ATM."
+    },
+    "DTCH": {
+      "name": "Deutsche Fernschlüsselladung",
+      "definition": "Schlüssel-Download gemäß dem deutschen Sicherheitsverfahren für den Schlüssel-Download an ATM."
+    },
+    "LUXG": {
+      "name": "Luxemburgische Fernschlüsselladung",
+      "definition": "Schlüssel-Download gemäß dem luxemburgischen Sicherheitsverfahren für den Schlüssel-Download an ATM."
+    },
+    "MANU": {
+      "name": "Manuelle Schlüsseleingabe",
+      "definition": "Manuelle Schlüsseleingabe am ATM."
+    },
+    "PKIP": {
+      "name": "PKI-Schlüssel-Download",
+      "definition": "Schlüssel-Download, geschützt durch asymmetrische Schlüssel, die mit einer PKI (Public-Key-Infrastruktur) authentifiziert sind."
+    },
+    "SIGN": {
+      "name": "Signatur-Fernschlüsselladung",
+      "definition": "Schlüssel-Download, geschützt durch asymmetrische Schlüssel, die mit einer digitalen Signatur authentifiziert sind."
+    },
+    "TR34": {
+      "name": "TR34",
+      "definition": "ANSI-X9-TR34-2012-Verfahren für die Verteilung der symmetrischen öffentlichen Schlüssel und des initialen Hauptschlüssels."
+    }
+  }
+}

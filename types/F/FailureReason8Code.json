@@ -1,0 +1,38 @@
+{
+  "isoType": "FailureReason8Code",
+  "definition": "Außerhalb des Dienstes auftretende Ausnahme.",
+  "isoCodes": {
+    "CDRT": {
+      "name": "Karte einbehalten",
+      "definition": "Die Karte wurde vom ATM oder vom Terminal einbehalten."
+    },
+    "CDCP": {
+      "name": "Karte eingezogen",
+      "definition": "Der ATM-Manager hat das Einziehen der Karte angefordert."
+    },
+    "CUCL": {
+      "name": "Kundenabbruch",
+      "definition": "Abbruch durch den Kunden, zum Beispiel durch Entnahme der Karte vor Ende der Transaktion."
+    },
+    "CDFG": {
+      "name": "Vergessene Karte",
+      "definition": "Der Kunde hat die Karte im ATM oder in einem motorisierten Kartenleser zurückgelassen."
+    },
+    "MALF": {
+      "name": "Fehlfunktion",
+      "definition": "Vermutete Fehlfunktion."
+    },
+    "SECU": {
+      "name": "Sicherheitsfehler",
+      "definition": "In der vom Acquirer gesendeten Autorisierungsantwortnachricht ist ein Sicherheitsfehler aufgetreten."
+    },
+    "SFRD": {
+      "name": "Betrugsverdacht",
+      "definition": "Die Kartenzahlungstransaktion schlägt fehl, weil der Händler einen Betrug vermutet."
+    },
+    "UCPT": {
+      "name": "Einzug nicht möglich",
+      "definition": "Die Karte kann wie angefordert nicht eingezogen werden."
+    }
+  }
+}

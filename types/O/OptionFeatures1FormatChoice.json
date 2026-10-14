@@ -1,0 +1,12 @@
+{
+  "isoType": "OptionFeatures1FormatChoice",
+  "definition": "Auswahl der Formate zur Angabe des Merkmals einer Option.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Merkmals einer Option."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe des Merkmals einer Option."
+    }
+  }
+}

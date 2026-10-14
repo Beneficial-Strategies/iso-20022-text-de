@@ -1,0 +1,10 @@
+{
+  "isoType": "EnabledStatusReason1Code",
+  "definition": "Gibt den Grund für einen aktivierten Status an.",
+  "isoCodes": {
+    "MODI": {
+      "name": "Geändert",
+      "definition": "Die Änderung der Kontodaten ist in Bearbeitung."
+    }
+  }
+}

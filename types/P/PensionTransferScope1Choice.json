@@ -1,0 +1,12 @@
+{
+  "isoType": "PensionTransferScope1Choice",
+  "definition": "Auswahl von Formaten für den Umfang einer Pensionsübertragung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des Übertragungsumfangs der Pensionspolice, des Pensionsplans oder der Pensionsregelung, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Art des Übertragungsumfangs der Pensionspolice, des Pensionsplans oder der Pensionsregelung, ausgedrückt als proprietärer Code."
+    }
+  }
+}

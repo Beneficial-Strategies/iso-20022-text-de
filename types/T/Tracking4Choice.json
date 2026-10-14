@@ -1,0 +1,12 @@
+{
+  "isoType": "Tracking4Choice",
+  "definition": "Auswahl des Formats für die Nachverfolgungsinformationen.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Gibt an, ob das Darlehen und/oder die Sicherheit nachverfolgt wird."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Nachverfolgungsinformationen."
+    }
+  }
+}

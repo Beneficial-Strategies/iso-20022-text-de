@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountToAmountRatio2",
+  "definition": "Als Quotient von Beträgen ausgedrücktes Verhältnis.",
+  "isoElements": {
+    "Amount1": {
+      "definition": "Zähler des Quotienten der Beträge."
+    },
+    "Amount2": {
+      "definition": "Nenner des Quotienten der Beträge."
+    }
+  }
+}

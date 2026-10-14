@@ -1,0 +1,12 @@
+{
+  "isoType": "BankToCustomerStatementV14",
+  "definition": "Umfang|Die Nachricht BankToCustomerStatement wird vom Kontoführer an einen Kontoinhaber oder an eine vom Kontoinhaber zum Empfang der Nachricht autorisierte Partei gesendet. Sie dient dazu, den Kontoinhaber oder die autorisierte Partei über die auf dem Konto gebuchten Buchungen zu informieren und dem Inhaber Saldeninformationen zum Konto zu einem bestimmten Zeitpunkt bereitzustellen.|Verwendung|Die Nachricht BankToCustomerStatement kann Berichte für mehr als ein Konto enthalten. Sie liefert Informationen für das Cash Management und/oder den Abgleich.|Sie enthält ausschließlich Informationen zu gebuchten Buchungen.|Sie kann zugrunde liegende Details zu Transaktionen enthalten, die in der Buchung enthalten sind.|Die Nachricht wird wie zwischen dem Kontoführer und dem Kontoinhaber festgelegt ausgetauscht. Sie liefert Informationen zu Posten, die auf dem Konto gebucht wurden, sowie Saldeninformationen. Je nach den zwischen Banken und ihren Kunden vereinbarten Leistungen und Zeitplänen können Kontoauszüge entsprechend erstellt und ausgetauscht werden, beispielsweise für untertägige oder Vortagszeiträume.|Es ist möglich, dass der Empfänger der Nachricht nicht der Kontoinhaber ist, sondern eine aufgrund einer Vereinbarung mit dem Kontoinhaber zum Empfang der Kontoinformationen berechtigte Partei (auch als Empfänger bezeichnet).",
+  "isoRules": {
+    "MessageOrStatementPaginationRule": {
+      "definition": "MessagePagination darf vorhanden sein oder StatementPagination darf vorhanden sein, aber nicht beide."
+    },
+    "SupplementaryDataRule": {
+      "definition": "Der Baustein SupplementaryData auf Nachrichtenebene darf nicht verwendet werden, um zusätzliche Informationen zu einer Transaktion bereitzustellen. Dafür sollte das Element SupplementaryData auf Transaktionsebene verwendet werden."
+    }
+  }
+}

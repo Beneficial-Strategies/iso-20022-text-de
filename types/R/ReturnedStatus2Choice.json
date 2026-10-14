@@ -1,0 +1,12 @@
+{
+  "isoType": "ReturnedStatus2Choice",
+  "definition": "Auswahl zwischen einem Grund und keinem Grund für den Status „zurückgegeben“ der Verarbeitung der Kapitalmaßnahmen-Anweisung.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Grund nicht angegeben."
+    },
+    "Reason": {
+      "definition": "Grund, warum die Versammlungsanweisungs-Nachricht oder die einzelne Versammlungsanweisung zurückgegeben wird."
+    }
+  }
+}

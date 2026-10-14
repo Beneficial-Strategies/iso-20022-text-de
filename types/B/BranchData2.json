@@ -1,0 +1,15 @@
+{
+  "isoType": "BranchData2",
+  "definition": "Information, die eine bestimmte Filiale eines Finanzinstituts lokalisiert und identifiziert.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation einer Filiale eines Finanzinstituts."
+    },
+    "Name": {
+      "definition": "Name, unter dem eine Bank bekannt ist und der üblicherweise zur Identifikation dieser Bank verwendet wird."
+    },
+    "PostalAddress": {
+      "definition": "Informationen, die eine bestimmte Adresse lokalisieren und identifizieren, wie von den Postdiensten definiert."
+    }
+  }
+}

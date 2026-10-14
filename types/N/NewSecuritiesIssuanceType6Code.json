@@ -1,0 +1,22 @@
+{
+  "isoType": "NewSecuritiesIssuanceType6Code",
+  "definition": "Gibt die Art der Wertpapiererlöse an, das heißt, ob diese defeased oder non-defeased sind.",
+  "isoCodes": {
+    "DEFE": {
+      "name": "Kennzeichen für abgelöstes Wertpapier",
+      "definition": "Mittel wurden von einem Treuhänder oder Beauftragten treuhänderisch hinterlegt, um die Zahlung eines Teils des ausstehenden Betrags des ursprünglichen Wertpapiers am Fälligkeitstag sicherzustellen. Nur im Rahmen eines Kapitalmaßnahmen-Ereignisses Partial Defeasance PDEF anwendbar."
+    },
+    "NDEF": {
+      "name": "Kennzeichen für nicht abgelöstes Wertpapier",
+      "definition": "Die Mittel werden bei Fälligkeit für dieses neu emittierte, nicht durch Defeasance abgelöste Wertpapier nicht vom Emittenten oder der Zahlstelle garantiert. Nur im Rahmen eines Kapitalmaßnahmen-Ereignisses Partial Defeasance PDEF anwendbar."
+    },
+    "REFU": {
+      "name": "Kennzeichen für zurückerstattetes Wertpapier",
+      "definition": "Neu emittiertes Wertpapier, das auf einen früheren Fälligkeitstag zurückgezahlt wurde. Nur im Rahmen eines Kapitalmaßnahmen-Ereignisses Partial Defeasance PDEF anwendbar."
+    },
+    "NREF": {
+      "name": "Kennzeichen für nicht zurückerstattetes Wertpapier",
+      "definition": "Neu emittiertes Wertpapier, das nicht zurückgezahlt wurde und bei dem der Fälligkeitstag des ursprünglichen zugrunde liegenden Wertpapiers unverändert ist. Nur im Rahmen eines Kapitalmaßnahmen-Ereignisses Partial Defeasance PDEF anwendbar."
+    }
+  }
+}

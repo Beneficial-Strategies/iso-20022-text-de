@@ -1,0 +1,30 @@
+{
+  "isoType": "MessageFunction8Code",
+  "definition": "Bezeichnet die Art des vom Host an einen ATM angeforderten Prozesses.",
+  "isoCodes": {
+    "BALN": {
+      "name": "ATM-Saldo",
+      "definition": "Die Zählerstände des ATM bereitstellen und die dafür geeigneten Zähler zurücksetzen."
+    },
+    "GSTS": {
+      "name": "ATM-Gesamtstatus",
+      "definition": "Gesamtstatus des ATM."
+    },
+    "DSEC": {
+      "name": "Sicherheitsdetails",
+      "definition": "Detaillierter Sicherheitsbericht."
+    },
+    "INQC": {
+      "name": "Zählerabfrage",
+      "definition": "Den Wert der Zähler des ATM anfordern."
+    },
+    "KEYQ": {
+      "name": "Schlüsselaustauschanforderung",
+      "definition": "Anforderung eines Schlüsselaustauschs."
+    },
+    "SSTS": {
+      "name": "Sicherheitsschlüsselstatus",
+      "definition": "Status kryptografischer Schlüssel."
+    }
+  }
+}

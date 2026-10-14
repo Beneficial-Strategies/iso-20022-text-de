@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountOrOperationalError6Choice",
+  "definition": "Auswahl zwischen Kontoeinzelheiten oder einem Betriebsfehler, wenn die angeforderten Daten nicht abgerufen werden können.",
+  "isoElements": {
+    "AccountReport": {
+      "definition": "Berichtet entweder über die Kontoinformationen oder über einen Geschäftsfehler."
+    },
+    "OperationalError": {
+      "definition": "Gibt an, dass bei der Verarbeitung der zugehörigen Anfrage ein Betriebsfehler aufgetreten ist."
+    }
+  }
+}

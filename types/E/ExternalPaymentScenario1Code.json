@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalPaymentScenario1Code",
+  "definition": "Gibt das Zahlungsszenario an, wie in einer externen Codeliste für Zahlungsszenarien veröffentlicht.|Externe Codelisten können unter www.iso20022.org heruntergeladen werden."
+}

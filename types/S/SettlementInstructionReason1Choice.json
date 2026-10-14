@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementInstructionReason1Choice",
+  "definition": "Auswahl von Formaten für den Grund der Abwicklungsanweisung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund der Abwicklungsanweisung, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Grund der Abwicklungsanweisung, ausgedrückt als proprietärer Code."
+    }
+  }
+}

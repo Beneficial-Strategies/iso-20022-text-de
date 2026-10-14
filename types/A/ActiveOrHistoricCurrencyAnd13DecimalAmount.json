@@ -1,0 +1,4 @@
+{
+  "isoType": "ActiveOrHistoricCurrencyAnd13DecimalAmount",
+  "definition": "Anzahl von Geldeinheiten in einer aktiven oder historischen Währung, wobei die Währungseinheit explizit angegeben ist und ISO 4217 entspricht. Die Anzahl der Nachkommastellen (oder Untereinheit der Währung) wird nicht gemäß ISO 4217 geprüft: Sie muss kleiner oder gleich 13 sein.|Hinweis: Das Dezimaltrennzeichen ist ein Punkt."
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentInstruction33",
+  "definition": "Liefert Details zur Zahlungsanweisung.",
+  "isoElements": {
+    "Instruction": {
+      "definition": "Weitere Informationen zur Bearbeitung der Zahlungsanweisung. Die Anweisung kann sich auf eine Dienstleistungsstufe zwischen der Bank und dem Kunden beziehen oder Anweisungen an und für bestimmte Parteien in der Zahlungskette enthalten.|."
+    },
+    "Type": {
+      "definition": "Art oder Natur der Zahlung, zum Beispiel eine Eilzahlung."
+    },
+    "Priority": {
+      "definition": "Dringlichkeit oder Rangfolge, mit der der Auftraggeber möchte, dass der Empfänger der Zahlungsanweisung diese bearbeitet.|."
+    },
+    "ProcessingValidityTime": {
+      "definition": "Datums- und Zeitraum, innerhalb dessen die Zahlungsanweisung bearbeitet werden muss.|."
+    }
+  }
+}

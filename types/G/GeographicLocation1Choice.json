@@ -1,0 +1,12 @@
+{
+  "isoType": "GeographicLocation1Choice",
+  "definition": "Geografischer Standort des ATM, angegeben durch geografische Koordinaten oder UTM-Koordinaten.",
+  "isoElements": {
+    "GeographicCoordinates": {
+      "definition": "Standort auf der Erde, angegeben durch zwei Zahlen, die die vertikale und die horizontale Position darstellen."
+    },
+    "UTMCoordinates": {
+      "definition": "Standort auf der Erde, angegeben durch das UTM-Koordinatensystem (Universal Transverse Mercator) unter Verwendung des geodätischen Systems WGS84."
+    }
+  }
+}

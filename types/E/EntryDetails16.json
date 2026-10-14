@@ -1,0 +1,12 @@
+{
+  "isoType": "EntryDetails16",
+  "definition": "Identifiziert die zugrunde liegende(n) Transaktion(en) und/oder gesammelten Buchungen.",
+  "isoElements": {
+    "Batch": {
+      "definition": "Enthält Details zu gesammelten Transaktionen."
+    },
+    "TransactionDetails": {
+      "definition": "Enthält Informationen zu der/den zugrunde liegenden Transaktion(en)."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "MandateSuspensionReason3",
+  "definition": "Enthält detaillierte Informationen zum Aussetzungsgrund.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Partei, die die Aussetzungsanforderung stellt."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Aussetzungsanforderung an."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Einzelheiten zum Grund der Aussetzungsanforderung."
+    }
+  }
+}

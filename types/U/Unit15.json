@@ -1,0 +1,24 @@
+{
+  "isoType": "Unit15",
+  "definition": "Informationen zu den zu übertragenden Anteilen.",
+  "isoElements": {
+    "Units": {
+      "definition": "Menge an Anteilen oder digitalen Token."
+    },
+    "OrderDate": {
+      "definition": "Datum, an dem der Anleger oder sein Beauftragter den ursprünglichen Auftrag erteilt hat."
+    },
+    "AcquisitionDate": {
+      "definition": "Datum, an dem der Anleger das Finanzinstrument erworben hat."
+    },
+    "CertificateNumber": {
+      "definition": "Urkunde, die das Wertpapier verbrieft."
+    },
+    "Group1Or2Units": {
+      "definition": "Steuergruppe, zu der die erworbenen Investmentfondsanteile gehören. Der Anleger teilt dem Vermittler, der Sammel-Nominee-Konten führt, mit, welche Art von Anteilen zu verkaufen ist."
+    },
+    "Reference": {
+      "definition": "Referenz auf die Anteilsnummer. Dies kann die Auftragsreferenz des ursprünglichen Erwerbs, die Identifikation eines Postens (Lot), eine Kundenreferenz, eine Unterpositionsreferenz oder eine sonstige zugehörige Referenz sein."
+    }
+  }
+}

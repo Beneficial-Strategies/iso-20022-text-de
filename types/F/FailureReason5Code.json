@@ -1,0 +1,14 @@
+{
+  "isoType": "FailureReason5Code",
+  "definition": "Auf einem Gerät aufgetretener Vorfall.",
+  "isoCodes": {
+    "SECR": {
+      "name": "Wertpapier",
+      "definition": "Allgemeiner Sicherheitsfehler."
+    },
+    "HRDW": {
+      "name": "Hardware",
+      "definition": "Hardwarefehler am Gerät."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "isoType": "CorporateActionDate107",
+  "definition": "Gibt Daten der Kapitalmaßnahme an.",
+  "isoElements": {
+    "EarlyResponseDeadline": {
+      "definition": "Datum/Uhrzeit, die das kontoführende Institut als Frist festgelegt hat, um mit Anweisungen auf ein ausstehendes Ereignis zu antworten, wodurch der Inhaber Anspruch auf Anreize erhält."
+    },
+    "CoverExpirationDeadline": {
+      "definition": "Letzter Tag, an dem ein Inhaber die Wertpapiere liefern kann, für die er sich entschieden und/oder die er zuvor gesichert hatte."
+    },
+    "ProtectDeadline": {
+      "definition": "Letztes Datum bzw. letzte Uhrzeit, zu dem ein Inhaber die Verschiebung der Lieferung von Wertpapieren aufgrund einer Mitteilung über garantierte Lieferung oder anderer erforderlicher Dokumentation beantragen kann."
+    },
+    "MarketDeadline": {
+      "definition": "Frist des Emittenten oder seines Beauftragten, um mit einer Anweisung auf ein ausstehendes Angebot oder Vorrecht zu antworten."
+    },
+    "ResponseDeadline": {
+      "definition": "Datum/Uhrzeit, die das kontoführende Institut als Frist festgelegt hat, um mit Anweisungen auf ein ausstehendes Ereignis zu antworten."
+    },
+    "ExpiryDate": {
+      "definition": "Datum/Uhrzeit, zu dem ein Auftrag verfällt oder ein Vorrecht bzw. Angebot endet."
+    },
+    "SubscriptionCostDebitDate": {
+      "definition": "Datum/Uhrzeit, bis zu dem Barmittel vorhanden sein müssen, um an dem Ereignis teilzunehmen."
+    },
+    "DepositoryCoverExpirationDate": {
+      "definition": "Letzter Tag, an dem ein Teilnehmer der Verwahrstelle Wertpapiere liefern kann, für die er sich entschieden und/oder die er zuvor gesichert hatte."
+    },
+    "StockLendingDeadline": {
+      "definition": "Datum/Uhrzeit, die als Frist festgelegt ist, um mit Anweisungen auf ein ausstehendes Ereignis zu antworten, für das das zugrunde liegende Wertpapier verliehen ist."
+    },
+    "BorrowerStockLendingDeadline": {
+      "definition": "Gibt die Partei an, die Wertpapiere entleiht, sowie die zugehörige, dem Entleiher zugewiesene Frist der Wertpapierleihe."
+    },
+    "DocumentationDeadline": {
+      "definition": "Datum/Uhrzeit, bis zu dem die Dokumentation vorgelegt werden muss."
+    }
+  }
+}

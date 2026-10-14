@@ -1,0 +1,21 @@
+{
+  "isoType": "SecuritiesAccount6",
+  "definition": "Liefert Informationen zum Wertpapierkonto.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identifikation des Finanzinstruments."
+    },
+    "SecuritiesAccountIdentification": {
+      "definition": "Identifikation des Kontos, auf dem Finanzinstrumente geführt werden."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identifikation der Partei, die Inhaber des Kontos ist."
+    },
+    "SafekeepingPlace": {
+      "definition": "Identifikation des Verwahrorts."
+    },
+    "RegistrationDetails": {
+      "definition": "Stellt Informationen bereit, die für die Registrierung des Wertpapiers erforderlich sind."
+    }
+  }
+}

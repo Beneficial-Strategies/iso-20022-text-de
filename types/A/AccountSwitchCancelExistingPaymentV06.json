@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchCancelExistingPaymentV06",
+  "definition": "Die Nachricht AccountSwitchCancelExistingPayment wird vom neuen kontoführenden Institut an das vorherige kontoführende Institut gesendet, um anzugeben, welche Zahlungsvereinbarungen auf dem Konto des Kontoinhabers zu stornieren sind und wann sie zu stornieren sind. Diese Nachricht wird bei einem teilweisen Kontowechsel verwendet und kann mehrfach gesendet werden, damit die Kontoparteien verschiedene Zahlungsvereinbarungen zu unterschiedlichen Zeitpunkten während des Wechsels übertragen können."
+}

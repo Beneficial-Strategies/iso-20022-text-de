@@ -1,0 +1,12 @@
+{
+  "isoType": "DeniedReason23Choice",
+  "definition": "Auswahl des Formats für den Zurückweisungsgrund.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, warum die Anforderung zurückgewiesen wurde."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Grund an, warum die Anforderung zurückgewiesen wurde."
+    }
+  }
+}

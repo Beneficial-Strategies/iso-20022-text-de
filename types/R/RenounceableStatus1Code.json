@@ -1,0 +1,14 @@
+{
+  "isoType": "RenounceableStatus1Code",
+  "definition": "Gibt den Status der Übertragbarkeit an.",
+  "isoCodes": {
+    "NREN": {
+      "name": "Nicht übertragbar",
+      "definition": "Zwischenwertpapiere können nicht verkauft werden."
+    },
+    "RENO": {
+      "name": "Übertragbar",
+      "definition": "Zwischenwertpapiere können verkauft werden."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentIdentification37",
+  "definition": "Identifikation eines Dokuments und Art der Verknüpfung.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifiziert das Dokument."
+    },
+    "LinkageType": {
+      "definition": "Gibt an, wann dieses Dokument im Verhältnis zu einem anderen referenzierten Dokument zu verarbeiten ist."
+    }
+  }
+}

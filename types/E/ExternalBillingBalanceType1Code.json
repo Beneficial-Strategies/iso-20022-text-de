@@ -1,0 +1,98 @@
+{
+  "isoType": "ExternalBillingBalanceType1Code",
+  "definition": "Gibt den Saldo der Abrechnungsdienstleistung an, wie in einer externen Codeliste für Abrechnungssalden veröffentlicht.|Externe Codelisten können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "ABRR": {
+      "name": "Zusätzliche Mindestreserve auf den Saldo",
+      "definition": "Die Differenz zwischen dem Überschuss/(Fehlbetrag) des anlagefähigen Saldos und dem Überschuss/(Fehlbetrag) des eingezogenen Saldos aufgrund der Reserveanforderung. Dieser Saldo wird nicht verwendet, wenn der Earnings Credit Rate des Kontos net of reserves ist. Er kann verwendet werden, wenn der Ertragsgutschriftssatz nicht um Reserven bereinigt ist. Möglicherweise wurden Reserven vom eingezogenen Saldo abgezogen, um den anlagefähigen Saldo zu ermitteln. Daher müssen sie dem Überschuss/(Fehlbetrag) des anlagefähigen Saldos wieder hinzugerechnet werden, um die Position des eingezogenen Saldos zu ermitteln. Die Darstellung dieser Berechnung ist optional. AFP-Code=00 04 21"
+    },
+    "BEQU": {
+      "name": "Saldenäquivalent",
+      "definition": "Saldo, der erforderlich ist, um die saldenkompensierbaren Dienstleistungsentgelte des aktuellen Analysezeitraums auszugleichen. Das Saldenäquivalent kann auf zwei verschiedene Arten berechnet werden. Die erste multipliziert einfach die Summe der saldenkompensierbaren Dienstleistungsentgelte mit dem Multiplikator.  Die zweite bezieht alle Elemente der Multiplikatorberechnung ein. Beachten Sie, dass diese Berechnung aufgrund der Dezimalgenauigkeit und der Rundung bei der Berechnung zu einem geringfügig abweichenden Wert führen kann: AFP-Code=00 04 00"
+    },
+    "CBAM": {
+      "name": "Durchschnittlich negativer eingezogener Saldo",
+      "definition": "Die Summe ausschließlich der täglichen NEGATIVEN eingezogenen Schlusssalden, geteilt durch die Anzahl der Tage im Kontoauszugszeitraum. Der durchschnittliche negative Saldo ist, falls vorhanden, immer positiv vorzeichenbehaftet. Die Salden verstehen sich nach Anpassungen des laufenden Zeitraums. Beachten Sie, dass ein NEGATIVER Saldo dem POSITIVEN Saldo abzüglich des NETTO-Saldos entspricht. Beachten Sie, dass auf diesen Saldo ein NEGATIVER Zinssatz für eingezogene Salden angewendet werden kann, um ein Überziehungszinsentgelt zu ermitteln. AFP-Code=00 00 13 (OD)"
+    },
+    "CBAN": {
+      "name": "Durchschnittlicher eingezogener Nettosaldo",
+      "definition": "Die Summe der täglichen eingezogenen Schlusssalden (sowohl positiv als auch negativ), geteilt durch die Anzahl der Tage im Kontoauszugszeitraum.  Ein negativ vorzeichenbehafteter Wert weist auf einen negativen durchschnittlichen NETTO-Saldo hin.  Wird ein reservenbereinigter Ertragsgutschriftssatz verwendet, kann dieser Saldo dem anlagefähigen Saldo (00 00 40) entsprechen.  Die Salden verstehen sich nach Anpassungen des laufenden Zeitraums. Eingezogene Salden stellen Einlagengelder dar, die eingezogen wurden, und schließen Gelder im Float aus. Beachten Sie, dass ein NETTO-Saldo dem POSITIVEN Saldo abzüglich des NEGATIVEN Saldos entspricht. Beachten Sie, dass auf diesen Saldo, falls negativ, ein Überziehungszinssatz für NETTO-eingezogene Salden (00 01 43) angewendet werden kann, um ein Überziehungszinsentgelt zu ermitteln.  AFP-Code=00 00 10 (OD)"
+    },
+    "CBAP": {
+      "name": "Durchschnittlich positiver eingezogener Saldo",
+      "definition": "Die Summe ausschließlich der täglichen POSITIVEN eingezogenen Schlusssalden, geteilt durch die Anzahl der Tage im Kontoauszugszeitraum.  Die Salden verstehen sich nach Anpassungen des laufenden Zeitraums. Eingezogene Salden stellen Einlagengelder dar, die eingezogen wurden, und schließen Gelder im Float aus. Beachten Sie, dass ein POSITIVER Saldo dem NETTO-Saldo zuzüglich des NEGATIVEN Saldos entspricht. AFP-Code=00 00 11"
+    },
+    "DABR": {
+      "name": "Mindestreserve auf den Saldo des Sichteinlagenkontos",
+      "definition": "Derjenige Teil des Saldos des Sichteinlagenkontos, der von der Bank zur Erfüllung der Reserveanforderungen zurückgestellt werden muss. AFP-Code=00 04 20"
+    },
+    "EDCB": {
+      "name": "Über-/Unterdeckung des eingezogenen Saldos",
+      "definition": "Eingezogener Saldo, der verbleibt, nachdem der Saldo abgezogen wurde, der erforderlich ist, um die saldenkompensierbaren Dienstleistungsentgelte des aktuellen Analysezeitraums auszugleichen.  Ist er negativ (Fehlbetrag), stellt er den zusätzlichen eingezogenen Saldo dar, der erforderlich ist, um die saldenkompensierbaren Dienstleistungsentgelte für den laufenden Zeitraum vollständig auszugleichen.  Ist er positiv (Überschuss), stellt er den Überschuss des eingezogenen Saldos nach Ausgleich der saldenkompensierbaren Dienstleistungsentgelte für den laufenden Zeitraum dar. AFP-Code=00 04 12"
+    },
+    "EDIB": {
+      "name": "Über-/Unterdeckung des anlagefähigen Saldos",
+      "definition": "Anlagefähiger Saldo, der verbleibt, nachdem der Saldo abgezogen wurde, der erforderlich ist, um die saldenkompensierbaren Dienstleistungsentgelte des aktuellen Analysezeitraums auszugleichen.  Ist er negativ (Fehlbetrag), stellt er den zusätzlichen anlagefähigen Saldo dar, der erforderlich ist, um die saldenkompensierbaren Dienstleistungsentgelte für den laufenden Zeitraum vollständig auszugleichen.  Ist er positiv (Überschuss), stellt er den Überschuss des anlagefähigen Saldos nach Ausgleich der saldenkompensierbaren Dienstleistungsentgelte für den laufenden Zeitraum dar. Je nach Art des zugrunde liegenden Kontos kann auf einen Saldenüberschuss ein fester Zinssatz angewendet werden, was zu einer festen Zinsgutschrift auf dem zugrunde liegenden Konto führt. AFP-Code=00 04 10"
+    },
+    "FDIC": {
+      "name": "FDIC-Bemessungssaldo",
+      "definition": "Derjenige Kontosaldo, der zur Berechnung des FDIC-Veranlagungsentgelts verwendet wird. AFP-Code=00 00 50"
+    },
+    "FLBA": {
+      "name": "Durchschnittlicher Float-Saldo",
+      "definition": "Die Summe der täglichen Dollarbeträge der Posten im Einzugsprozess, geteilt durch die Anzahl der Tage im Kontoauszugszeitraum.  AFP-Code=00 00 30"
+    },
+    "FLPP": {
+      "name": "Saldoanpassung für den durchschnittlichen Float der Vorperiode",
+      "definition": "Summe der Anpassungen des durchschnittlichen Float in einem oder mehreren Vorzeiträumen.  Ein negativ vorzeichenbehafteter Wert weist auf eine Saldenminderung hin. Dieser Saldo kann auch zur Anpassung der durchschnittlich eingezogenen Salden verwendet werden, da Gelder im Float einen direkten Einfluss auf eingezogene Salden haben. AFP-Code=00 00 61"
+    },
+    "IBAL": {
+      "name": "Anlagefähiger Saldo",
+      "definition": "Saldo, auf den der Ertragsgutschriftssatz angewendet wird.  Dieser Wert kann positiv oder negativ vorzeichenbehaftet sein.  Ein negativ vorzeichenbehafteter Saldo weist auf einen Mangel an anlagefähigen Mitteln hin und kann zu einem Entgelt führen. AFP-Code=00 00 40"
+    },
+    "IBIB": {
+      "name": "Verzinslicher anlagefähiger Saldo",
+      "definition": "Der durchschnittliche anlagefähige Saldo, der verwendet werden kann, um den Basissaldo für die Berechnung einer festen Zinsgutschrift anzugeben. Dies ist eine feste Zinsgutschrift im Unterschied zu einer Ertragsgutschrift. AFP-Code=00 00 75"
+    },
+    "IBLB": {
+      "name": "Verzinslicher Buchsaldo",
+      "definition": "Der durchschnittliche Buchsaldo, der verwendet werden kann, um den Basissaldo für die Berechnung einer festen Zinsgutschrift anzugeben. Dies ist eine feste Zinsgutschrift im Unterschied zu einer Ertragsgutschrift. AFP-Code=00 00 70"
+    },
+    "IBNC": {
+      "name": "Verzinslicher eingezogener Nettosaldo",
+      "definition": "Der durchschnittliche eingezogene Nettosaldo, der verwendet werden kann, um den Basissaldo für die Berechnung einer festen Zinsgutschrift anzugeben. Dies ist eine feste Zinsgutschrift im Unterschied zu einer Ertragsgutschrift. AFP-Code=00 00 71"
+    },
+    "IBNG": {
+      "name": "Verzinslicher negativer eingezogener Saldo",
+      "definition": "Der durchschnittliche negative eingezogene Saldo, der verwendet werden kann, um den Basissaldo für die Berechnung einer festen Zinsbelastung anzugeben. Dies ist eine feste Zinsbelastung im Unterschied zu einer Ertragsgutschriftsbelastung. AFP-Code=00 00 73"
+    },
+    "IBPC": {
+      "name": "Verzinslicher positiver eingezogener Saldo",
+      "definition": "Der durchschnittliche positive eingezogene Saldo, der verwendet werden kann, um den Basissaldo für die Berechnung einer festen Zinsgutschrift anzugeben. Dies ist eine feste Zinsgutschrift im Unterschied zu einer Ertragsgutschrift. AFP-Code=00 00 72"
+    },
+    "IBRR": {
+      "name": "Verzinslicher Mindestreservesaldo",
+      "definition": "Der durchschnittliche Reserveanforderungssaldo, der verwendet werden kann, um den Basissaldo für die Berechnung einer festen Zinsgutschrift anzugeben. Dies ist eine feste Zinsgutschrift im Unterschied zu einer Ertragsgutschrift. AFP-Code=00 00 74"
+    },
+    "LBAN": {
+      "name": "Durchschnittlicher Netto-Buchsaldo",
+      "definition": "Die Summe der täglichen Buchschlusssalden (sowohl positiv als auch negativ), geteilt durch die Anzahl der Tage im Kontoauszugszeitraum.  Ein negativ vorzeichenbehafteter Wert weist auf einen negativen durchschnittlichen NETTO-Saldo hin. Die Salden verstehen sich nach Anpassungen des laufenden Zeitraums. Der Buchsaldo enthält Einlagengelder, die nicht eingezogen wurden, d. h. Gelder im Float. Beachten Sie, dass ein NETTO-Saldo dem POSITIVEN Saldo abzüglich des NEGATIVEN Saldos entspricht. Beachten Sie, dass auf diesen Saldo, falls negativ, ein Überziehungszinssatz für NETTO-Buchsalden angewendet werden kann, um ein Überziehungszinsentgelt zu ermitteln.  AFP-Code=00 00 00 (OD)"
+    },
+    "LBAP": {
+      "name": "Durchschnittlich positiver Buchsaldo",
+      "definition": "Die Summe ausschließlich der täglichen POSITIVEN Buchschlusssalden, geteilt durch die Anzahl der Tage im Kontoauszugszeitraum.  Die Salden verstehen sich nach Anpassungen des laufenden Zeitraums. Der Buchsaldo enthält Einlagengelder, die nicht eingezogen wurden, d. h. Gelder im Float. Beachten Sie, dass ein POSITIVER Saldo dem NETTO-Saldo zuzüglich des NEGATIVEN Saldos entspricht. AFP-Code=00 00 01"
+    },
+    "LBME": {
+      "name": "Buchsaldo zum Monatsende",
+      "definition": "Wert des Buch- oder Hauptbuchsaldos am Ende des Kalendermonats. AFP-Code=00 00 05"
+    },
+    "LBNM": {
+      "name": "Durchschnittlich negativer Buchsaldo",
+      "definition": "Die Summe ausschließlich der täglichen NEGATIVEN Buchschlusssalden, geteilt durch die Anzahl der Tage im Kontoauszugszeitraum. Der durchschnittliche negative Saldo ist, falls vorhanden, immer positiv vorzeichenbehaftet. Die Salden verstehen sich nach Anpassungen des laufenden Zeitraums. Beachten Sie, dass ein NEGATIVER Saldo dem POSITIVEN Saldo abzüglich des NETTO-Saldos entspricht. Beachten Sie, dass auf diesen Saldo ein NEGATIVER Zinssatz für Buchsalden angewendet werden kann, um ein Überziehungszinsentgelt zu ermitteln. AFP-Code=00 00 03 (OD)"
+    },
+    "UCFU": {
+      "name": "Genutzte nicht eingezogene Mittel",
+      "definition": "Derjenige Teil des Saldos, der die Differenz zwischen dem durchschnittlichen negativen eingezogenen Saldo und dem durchschnittlichen negativen Buchsaldo darstellt.  Damit wird derjenige Teil des negativen eingezogenen Saldos isoliert, der die Nutzung nicht eingezogener Mittel darstellt.  Die Salden verstehen sich nach Anpassungen des laufenden Zeitraums. Beachten Sie, dass auf diesen Saldo der Satz für die Nutzung nicht eingezogener Mittel angewendet werden kann, um ein Überziehungszinsentgelt für nicht eingezogene Mittel zu ermitteln.  AFP-Code=00 00 15 (OD)"
+    }
+  }
+}

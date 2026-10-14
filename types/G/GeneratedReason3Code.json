@@ -1,0 +1,34 @@
+{
+  "isoType": "GeneratedReason3Code",
+  "definition": "Legt den Grund fest, aus dem die Transaktion erzeugt wurde.",
+  "isoCodes": {
+    "COLL": {
+      "name": "Sicherheitenverwaltung",
+      "definition": "Die Transaktion wurde für Zwecke des Collateral Management erzeugt."
+    },
+    "CLAI": {
+      "name": "Marktforderung",
+      "definition": "Transaktion, die aus einem Marktanspruch (Market Claim) resultiert."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "RODE": {
+      "name": "Rückgabe abgelehnter Lieferungen",
+      "definition": "Bezieht sich auf die Rückgabe von Finanzinstrumenten aufgrund einer abgelehnten Lieferung ohne Abgleichsvorgang."
+    },
+    "SPLI": {
+      "name": "Aufteilung und Formung",
+      "definition": "Die Transaktion wurde erzeugt, um die Abwicklung nach einer Positionsunterdeckung zu ermöglichen."
+    },
+    "THRD": {
+      "name": "Dritter",
+      "definition": "Die Transaktion wurde von einem Dritten erzeugt, beispielsweise einer zentralen Gegenpartei."
+    },
+    "TRAN": {
+      "name": "Umwandlung",
+      "definition": "Die Transaktion wurde aufgrund einer Umwandlung im Anschluss an eine Kapitalmaßnahme erzeugt."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ElectionMovementType1FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe der Auswirkung der Wahl einer Kapitalmaßnahmen-Option auf die Bestände.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Auswirkung der Wahl einer Kapitalmaßnahmen-Option auf die Bestände."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe der Auswirkung der Wahl einer Kapitalmaßnahmen-Option auf die Bestände."
+    }
+  }
+}

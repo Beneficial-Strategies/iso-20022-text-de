@@ -1,0 +1,18 @@
+{
+  "isoType": "CaseAssignment6",
+  "definition": "Stellt die Zuweisung eines Falls an eine Partei dar.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifiziert die Fallzuweisung eindeutig."
+    },
+    "Assigner": {
+      "definition": "Partei, die den Fall zuweist. |Verwendung: Dies ist zugleich der Absender der Nachricht."
+    },
+    "Assignee": {
+      "definition": "Partei, der der Fall zugewiesen wird.|Verwendung: Dies ist zugleich der Empfänger der Nachricht."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Zuweisung."
+    }
+  }
+}

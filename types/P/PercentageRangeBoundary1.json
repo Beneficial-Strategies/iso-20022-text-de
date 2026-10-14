@@ -1,0 +1,12 @@
+{
+  "isoType": "PercentageRangeBoundary1",
+  "definition": "Limit für einen Prozentsatzbereich.",
+  "isoElements": {
+    "BoundaryRate": {
+      "definition": "Prozentsatz der Bereichsgrenze."
+    },
+    "Included": {
+      "definition": "Gibt an, ob der Grenzprozentsatz im Prozentsatzbereich enthalten ist."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DefaultProcessingOrStandingInstruction2Choice",
+  "definition": "Auswahl zwischen Standardverarbeitung oder Dauerauftragsanweisung.",
+  "isoElements": {
+    "DefaultOptionIndicator": {
+      "definition": "Gibt an, ob die Option, zum Beispiel eine Währungsoption, standardmäßig gewählt wird, wenn der Kontoinhaber keine Anweisung erteilt."
+    },
+    "StandingInstructionIndicator": {
+      "definition": "Gibt an, ob ein Kontoinhaber einen Dauerauftrag zur Auswahl dieser Kapitalmaßnahmen-Option erteilt hat.|Die Dauerauftragsanweisung kann je nach Konto- oder Ereignisbedingungen übersteuert werden oder nicht."
+    }
+  }
+}

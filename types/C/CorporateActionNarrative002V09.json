@@ -1,0 +1,9 @@
+{
+  "isoType": "CorporateActionNarrative002V09",
+  "definition": "Anwendungsbereich|Die Nachricht CorporateActionNarrative wird zwischen einer kontoführenden Stelle und einem Kontoinhaber oder dessen benanntem Beauftragten gesendet, um Prozesse abzudecken, die nicht mit Nachrichten wie CorporateActionNotification abgewickelt werden können. Sie ist nicht für die Ereignisnarrative zu verwenden, da diese in der CorporateActionNotification enthalten sein sollte. Beispiele für die Verwendung der Nachricht CorporateActionNarrative sind Steuerrückforderungen, Beschränkungen und Dokumentationsanforderungen. Diese Nachricht sollte nur bei bilateraler Vereinbarung verwendet werden. Diese Nachricht ist bidirektional.|Verwendung|Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist Duplicate),|- einem Dritten eine Kopie einer Nachricht zur Information bereitzustellen (die Unterfunktion der Nachricht ist Copy),|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu senden (die Unterfunktion der Nachricht ist Copy Duplicate), unter Verwendung der entsprechenden Elemente im Business Application Header (BAH).",
+  "isoElements": {
+    "AdditionalInformation": {
+      "definition": "Liefert zusätzliche Informationen."
+    }
+  }
+}

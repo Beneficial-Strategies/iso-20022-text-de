@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedReason56Choice",
+  "definition": "Auswahl zwischen einem Standardcode und einem proprietären Code zur Angabe des Grundes, warum die Anweisung oder Stornierungsanfrage den Status abgelehnt hat.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Grundes, warum die Anweisung/Stornierungsanfrage den Status abgelehnt hat."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation des Grundes, warum die Anweisung/Stornierungsanfrage den Status abgelehnt hat."
+    }
+  }
+}

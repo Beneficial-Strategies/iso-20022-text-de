@@ -1,0 +1,30 @@
+{
+  "isoType": "LimitJournalEntry3",
+  "definition": "Journaleinträge verfolgen Änderungen der Auslastung des Limits. Es bestehen Einträge für alle Aktivitäten, die sich auf das Limit auswirken.",
+  "isoElements": {
+    "JournalDate": {
+      "definition": "Datum und Uhrzeit, für die der Limit-Journaleintrag gilt."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob es sich bei dem Eintrag um einen Haben- oder einen Soll-Eintrag handelt."
+    },
+    "Amount": {
+      "definition": "Geldbetrag des einzelnen Eintrags, der sich auf das Limit auswirkt."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer vergeben wurde, zum Beispiel Target2-Securities."
+    },
+    "TransactionIdentification": {
+      "definition": "Eindeutige Referenz, vom Kontoinhaber-Institut vergeben, zur zweifelsfreien Identifikation des Eintrags."
+    },
+    "AccountServicerReference": {
+      "definition": "Eindeutige Referenz, vom kontoführenden Institut vergeben, zur zweifelsfreien Identifikation des Eintrags."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, vom Verarbeiter vergeben."
+    },
+    "AdditionalEntryInformation": {
+      "definition": "Weitere Details zur Buchung."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "PlanStatus1Code",
+  "definition": "Legt den Status eines Plans fest.",
+  "isoCodes": {
+    "ACTV": {
+      "name": "Aktiv",
+      "definition": "Der Plan ist aktiv."
+    },
+    "CLOS": {
+      "name": "Geschlossen",
+      "definition": "Der Plan ist geschlossen."
+    },
+    "SUSP": {
+      "name": "Ausgesetzt",
+      "definition": "Der Plan ist ausgesetzt."
+    }
+  }
+}

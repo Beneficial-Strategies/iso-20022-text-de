@@ -1,0 +1,44 @@
+{
+  "isoType": "Fund3",
+  "definition": "Informationen zu einem Investmentfonds.",
+  "isoElements": {
+    "Name": {
+      "definition": "Name des Fonds/Teilfonds."
+    },
+    "LegalEntityIdentifier": {
+      "definition": "Identifikation des Fonds/Teilfonds mit einem Legal Entity Identifier. Dies ist ein Code, der einer Partei gemäß ISO 17442 „Financial Services - Legal Entity Identifier (LEI)“ zugeteilt wird."
+    },
+    "Identification": {
+      "definition": "Eindeutige und unmissverständliche Kennung für den Fonds/Teilfonds, vergeben im Rahmen eines formalen oder proprietären Identifikationsschemas."
+    },
+    "Currency": {
+      "definition": "Währung des Fonds/Teilfonds."
+    },
+    "EstimatedTotalNAV": {
+      "definition": "Geschätzter Gesamtwert aller Bestände abzüglich der Verbindlichkeiten des Fonds/Teilfonds."
+    },
+    "PreviousTotalNAV": {
+      "definition": "Vorheriger Gesamtwert aller Bestände abzüglich der Verbindlichkeiten des Fonds/Teilfonds."
+    },
+    "EstimatedTotalUnitsNumber": {
+      "definition": "Geschätzte Gesamtzahl der Anteile des Fonds/Teilfonds."
+    },
+    "PreviousTotalUnitsNumber": {
+      "definition": "Vorherige Gesamtzahl der Anteile des Fonds/Teilfonds."
+    },
+    "EstimatedPercentageOfFundTotalNAV": {
+      "definition": "Geschätzter konsolidierter Netto-Zahlungsstrom, ausgedrückt als Prozentsatz des vorherigen Gesamt-NAV des Fonds/Teilfonds."
+    }
+  },
+  "isoRules": {
+    "FundIdentification1Rule": {
+      "definition": "Wenn Identification nicht vorhanden ist, muss Name oder LegalEntityIdentifier vorhanden sein. Identification, Name und Legal Entity Identifier können alle vorhanden sein."
+    },
+    "FundIdentification2Rule": {
+      "definition": "Wenn Name nicht vorhanden ist, muss Identification oder Legal Entity Identifier vorhanden sein. Identification, Name und Legal Entity Identifier können alle vorhanden sein."
+    },
+    "FundIdentification3Rule": {
+      "definition": "Wenn Legal Entity Identifier nicht vorhanden ist, muss Identification oder Name vorhanden sein. Identification, Name und Legal Entity Identifier können alle vorhanden sein."
+    }
+  }
+}

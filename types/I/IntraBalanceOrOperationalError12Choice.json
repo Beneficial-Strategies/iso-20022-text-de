@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalanceOrOperationalError12Choice",
+  "definition": "Auswahl zwischen den Berichtsdaten oder einem operativen Fehler.",
+  "isoElements": {
+    "Modifications": {
+      "definition": "Weitere Einzelheiten zu den Änderungstransaktionen der Bewegung innerhalb des Saldos."
+    },
+    "OperationalError": {
+      "definition": "Operativer Fehler infolge einer Ablehnung."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ElectionTypeFormat4Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe der Art der Wahlbewegung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Auswirkung der Wahl einer Kapitalmaßnahmen-Option auf die Bestände."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Art der Wahl einer Kapitalmaßnahmen-Option."
+    }
+  }
+}

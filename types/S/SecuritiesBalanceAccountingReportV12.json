@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesBalanceAccountingReportV12",
+  "definition": "Geltungsbereich |Ein kontoführendes Institut sendet einen SecuritiesBalanceAccountingReport an einen Kontoinhaber, um zu einem bestimmten Zeitpunkt Bewertungen des Portfolios zusammen mit Einzelheiten zu jedem Finanzinstrumentbestand mitzuteilen.|Die Beziehung zwischen kontoführendem Institut und Kontoinhaber kann sein:|- ein Buchhaltungsagent, der im Auftrag eines Kontoinhabers handelt, oder|- eine Transferstelle, die im Auftrag eines Fondsmanagers oder des benannten Agenten eines Kontoinhabers handelt.||Verwendung|Die Nachricht sollte in einer zwischen dem kontoführenden Institut und dem Kontoinhaber bilateral vereinbarten Häufigkeit gesendet werden.|Die Nachricht kann entweder geprüft oder ungeprüft gesendet werden und auf Handelstag-, Vertrags- oder Abwicklungstagbasis bereitgestellt werden. |Diese Nachricht kann nur verwendet werden, um die Bestände eines einzelnen (Haupt-)Kontos aufzulisten. Es ist jedoch möglich, diese Bestände in ein oder mehrere Unterkonten aufzugliedern. Daher kann die Nachricht verwendet werden, um Bestände entweder auf folgender Ebene anzugeben:|- Hauptkontoebene oder |- Unterkontoebene.|Diese Nachricht kann verwendet werden, um mitzuteilen, wo die Finanzinstrumente verwahrt werden, physisch oder buchmäßig. Wird ein Wertpapier an mehr als einem Verwahrort gehalten, kann dies ebenfalls angegeben werden. |Die Nachricht SecuritiesBalanceAccountingReport sollte nicht für Handelszwecke verwendet werden.|Es kann eine oder mehrere zwischengeschaltete Parteien geben, zum Beispiel einen Intermediär oder Konzentrator zwischen dem Kontoinhaber und dem kontoführenden Institut.|Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden,|- einem Dritten zur Information eine Kopie einer Nachricht zu übermitteln,|- einem Dritten zur Information eine Kopie einer Nachricht erneut zu senden, unter Verwendung der entsprechenden Elemente im Business Application Header.",
+  "isoRules": {
+    "BalanceForAccountOrSubAccountDetailsRule": {
+      "definition": "Wenn StatementGeneralDetails/ActivityIndicator TRUE (Ja) ist, muss entweder BalanceForAccount oder SubAccountDetails vorhanden sein. Wenn StatementGeneralDetails/ActivityIndicator FALSE (Nein) ist, müssen BalanceForAccount und SubAccountDetails fehlen."
+    },
+    "BalanceForAccountReportingRule": {
+      "definition": "Wenn StatementGeneralDetails/ActivityIndicator TRUE (Ja) und SubAccountIndicator FALSE (NO) ist, muss BalanceForAccount vorhanden sein und Sub Account Details müssen fehlen."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Die Securities Market Practice Group (SMPG) hat Marktpraxisempfehlungen zur Verwendung dieser Nachricht veröffentlicht.|Diese Marktpraxisregeln sind unter www.smpg.info verfügbar."
+    },
+    "SubAccountDetailsBalanceForAccountPresenceRule": {
+      "definition": "Wenn StatementGeneralDetails/ActivityIndicator TRUE (Ja) und SubAccountIndicator TRUE (YES) ist, müssen SubAccountDetails vorhanden sein und BalanceForAccount muss fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Entweder SafekeepingAccount oder BlockChainAddressOrWallet muss vorhanden sein, aber nicht beide."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "TR34Status1Code",
+  "definition": "Spezifischer TR34-Status, den der ATM verwenden kann.",
+  "isoCodes": {
+    "BUND": {
+      "name": "Gebunden",
+      "definition": "Das Gerät ist gebunden."
+    },
+    "UBND": {
+      "name": "Ungebunden",
+      "definition": "Das Gerät ist nicht gebunden."
+    }
+  }
+}

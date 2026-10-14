@@ -1,0 +1,15 @@
+{
+  "isoType": "PersonalInformation1",
+  "definition": "Informationen zur Identifikation einer Person.",
+  "isoElements": {
+    "NameOfFather": {
+      "definition": "Name des Vaters der natürlichen Person."
+    },
+    "MaidenNameOfMother": {
+      "definition": "Mädchenname (Geburtsname) der Mutter der natürlichen Person."
+    },
+    "NameOfPartner": {
+      "definition": "Name des Partners der natürlichen Person."
+    }
+  }
+}

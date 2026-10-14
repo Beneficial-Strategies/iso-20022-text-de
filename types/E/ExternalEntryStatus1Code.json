@@ -1,0 +1,22 @@
+{
+  "isoType": "ExternalEntryStatus1Code",
+  "definition": "Gibt den Status einer Buchung in den Büchern des Kontoführers an, wie in einer externen Codeliste veröffentlicht.|Externe Codelisten können unter www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "BOOK": {
+      "name": "Gebucht",
+      "definition": "Gebucht bedeutet, dass die Geldüberweisung zwischen dem kontoführenden Institut und dem Kontoinhaber abgeschlossen wurde.|Verwendung: Der Status „Gebucht“ impliziert nicht zwingend die Endgültigkeit des Geldes, da dies von weiteren Faktoren abhängt, wie dem verwendeten Zahlungssystem, dem Abschluss der Ende-zu-Ende-Transaktion und den zwischen kontoführendem Institut und Kontoinhaber vereinbarten Bedingungen.|Der Status „Gebucht“ ist der einzige Status, der rückgängig gemacht werden kann."
+    },
+    "FUTR": {
+      "name": "Zukünftig",
+      "definition": "Der Umsatz ist in den Büchern des kontoführenden Instituts verbucht, und die Wertstellung zugunsten des Kontoinhabers erfolgt zu einem zukünftigen Zeitpunkt."
+    },
+    "INFO": {
+      "name": "Information",
+      "definition": "Die Buchung wird nur zur Information bereitgestellt; auf dem Konto des Kontoinhabers im Hauptbuch des kontoführenden Instituts wurde keine Buchung vorgenommen."
+    },
+    "PDNG": {
+      "name": "Ausstehend",
+      "definition": "Die Buchung auf dem Konto des Kontoinhabers im Hauptbuch des kontoführenden Instituts wurde nicht abgeschlossen.|Verwendung: Dies kann für erwartete Posten oder für Posten verwendet werden, bei denen vor der Buchung noch Bedingungen zu erfüllen sind. Erfolgt die Buchung, wird der Posten in einem nachfolgenden Kontobericht oder Kontoauszug mit dem Status „Gebucht“ aufgeführt. Der Status „Ausstehend“ kann nicht rückgängig gemacht werden."
+    }
+  }
+}

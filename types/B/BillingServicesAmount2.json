@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingServicesAmount2",
+  "definition": "Umrechnungen des steuerpflichtigen Servicentgeltbetrags in die Sitzwährung.",
+  "isoElements": {
+    "HostAmount": {
+      "definition": "Summe aus dem ursprünglichen Entgeltbetrag in der Sitzwährung und dem Servicesteuerbetrag in der Sitzwährung. Sie stellt das Gesamtentgelt für einen Service (einschließlich Steuern) in der Sitzwährung dar."
+    },
+    "SettlementAmount": {
+      "definition": "Summe aus dem ursprünglichen Entgeltbetrag in der Sitzwährung und dem Servicesteuerbetrag in der Sitzwährung, jedoch ausgedrückt in der Abrechnungswährung."
+    },
+    "PricingAmount": {
+      "definition": "Summe aus dem ursprünglichen Entgeltbetrag in der Sitzwährung und dem Servicesteuerbetrag in der Sitzwährung, jedoch ausgedrückt in der Preiswährung."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "EventConfirmationStatus1Code",
+  "definition": "Gibt den Status des Eintritts eines Ereignisses an.",
+  "isoCodes": {
+    "CONF": {
+      "name": "Bestätigt",
+      "definition": "Der Eintritt des Ereignisses wurde bestätigt."
+    },
+    "UCON": {
+      "name": "Unbestätigt",
+      "definition": "Der Eintritt des Ereignisses wurde nicht bestätigt."
+    }
+  }
+}

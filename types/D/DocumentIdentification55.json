@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentIdentification55",
+  "definition": "Identifikation der Nachrichtennummer und der Abfrageidentifikation.",
+  "isoElements": {
+    "MessageNumber": {
+      "definition": "Nachrichtentypnummer bzw. Nachrichtenbezeichner der in der Verknüpfungsfolge referenzierten Nachricht."
+    },
+    "Reference": {
+      "definition": "Referenz auf die Abfrageidentifikation."
+    }
+  }
+}

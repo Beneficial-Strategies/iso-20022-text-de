@@ -1,0 +1,21 @@
+{
+  "isoType": "IntraPositionProcessingStatus11Choice",
+  "definition": "Auswahl des Formats für den Verarbeitungsstatus.",
+  "isoElements": {
+    "Rejected": {
+      "definition": "Die Anweisung/Anfrage wurde für die weitere Verarbeitung abgelehnt."
+    },
+    "Repair": {
+      "definition": "Die Anweisung/Anfrage wird akzeptiert, befindet sich aber in Klärung."
+    },
+    "Cancelled": {
+      "definition": "Die Anweisung wurde storniert."
+    },
+    "AcknowledgedAccepted": {
+      "definition": "Die Anweisung wurde vom kontoführenden Institut bestätigt."
+    },
+    "Proprietary": {
+      "definition": "Gibt eine Statusauswahl für die Verarbeitung einer Bewegung innerhalb der Position an."
+    }
+  }
+}

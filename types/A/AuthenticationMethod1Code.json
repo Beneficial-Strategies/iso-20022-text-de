@@ -1,0 +1,50 @@
+{
+  "isoType": "AuthenticationMethod1Code",
+  "definition": "Verfahren zur Authentifizierung eines Karteninhabers.",
+  "isoCodes": {
+    "UKNW": {
+      "name": "Unbekannte Methode",
+      "definition": "Das durchgeführte Authentifizierungsverfahren ist unbekannt."
+    },
+    "BYPS": {
+      "name": "Umgehung",
+      "definition": "Authentifizierung vom Händler umgangen."
+    },
+    "NPIN": {
+      "name": "Online-PIN",
+      "definition": "Online-PIN-Authentifizierung (Personal Identification Number)."
+    },
+    "FPIN": {
+      "name": "Offline-PIN",
+      "definition": "Offline-PIN-Authentifizierung (Personal Identification Number)."
+    },
+    "CPSG": {
+      "name": "Unterschriftserfassung",
+      "definition": "Erfassung der elektronischen Signatur (handschriftliche Unterschrift)."
+    },
+    "PPSG": {
+      "name": "Papierunterschrift",
+      "definition": "Handschriftliche Unterschrift auf Papier."
+    },
+    "MANU": {
+      "name": "Manuelle Überprüfung",
+      "definition": "Manuelle Verifizierung, zum Beispiel Reisepass oder Führerschein."
+    },
+    "MERC": {
+      "name": "Händlerauthentifizierung",
+      "definition": "Händlerbezogene Authentifizierung."
+    },
+    "SCRT": {
+      "name": "Sicheres Zertifikat",
+      "definition": "E-Commerce-Transaktion, gesichert mit dem X.509-Zertifikat eines Kunden."
+    },
+    "SNCT": {
+      "name": "Sicher ohne Zertifikat",
+      "definition": "Sichere elektronische Transaktion ohne Karteninhaberzertifikat."
+    },
+    "SCNL": {
+      "name": "Gesicherter Kanal",
+      "definition": "Kanalverschlüsselte Transaktion."
+    }
+  }
+}

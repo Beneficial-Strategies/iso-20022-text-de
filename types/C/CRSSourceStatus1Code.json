@@ -1,0 +1,14 @@
+{
+  "isoType": "CRSSourceStatus1Code",
+  "definition": "Legt die Quelle des Status nach dem Common Reporting Standard (CRS) fest.",
+  "isoCodes": {
+    "CALC": {
+      "name": "Berechnet",
+      "definition": "Die Quelle des Status nach dem Common Reporting Standard (CRS) ist berechnet."
+    },
+    "DECL": {
+      "name": "Erklärt",
+      "definition": "Die Quelle des Status nach dem Common Reporting Standard (CRS) ist die Erklärung des Anlegers."
+    }
+  }
+}

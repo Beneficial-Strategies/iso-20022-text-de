@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationProcessingStatus2",
+  "definition": "Status zur Mitteilung über die Verarbeitung der Stornierungsanfrage.",
+  "isoElements": {
+    "Status": {
+      "definition": "Statuscode."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

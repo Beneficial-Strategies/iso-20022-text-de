@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification214",
+  "definition": "Identifikation einer Partei.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Partei, an die die Offenlegungsantwort zu senden ist."
+    },
+    "RecipientName": {
+      "definition": "Name der Partei, an die die Offenlegungsantwort zu senden ist."
+    },
+    "ResponseRecipientAddress": {
+      "definition": "Adresse der Partei, an die die Offenlegungsantwort zu senden ist."
+    }
+  }
+}

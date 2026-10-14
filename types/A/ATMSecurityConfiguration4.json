@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMSecurityConfiguration4",
+  "definition": "Konfiguration der digitalen Signaturen, wenn das Sicherheitsmodul digitale Signaturen mit einem asymmetrischen Schlüssel erzeugen kann.",
+  "isoElements": {
+    "MaximumCertificates": {
+      "definition": "Maximale Anzahl von Zertifikaten in einem Zertifikatspfad, die das Sicherheitsmodul verwalten kann."
+    },
+    "MaximumSignatures": {
+      "definition": "Maximale Anzahl von Mitunterzeichnern bei einer digitalen Signatur, die das Sicherheitsmodul verwalten kann."
+    },
+    "DigitalSignatureAlgorithm": {
+      "definition": "Algorithmus für digitale Signaturen, den das Sicherheitsmodul verwalten kann."
+    }
+  }
+}

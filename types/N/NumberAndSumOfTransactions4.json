@@ -1,0 +1,15 @@
+{
+  "isoType": "NumberAndSumOfTransactions4",
+  "definition": "Satz von Elementen mit der Gesamtsumme der Buchungen.",
+  "isoElements": {
+    "NumberOfEntries": {
+      "definition": "Anzahl der im Bericht enthaltenen einzelnen Buchungen."
+    },
+    "Sum": {
+      "definition": "Summe aller im Bericht enthaltenen einzelnen Buchungen."
+    },
+    "TotalNetEntry": {
+      "definition": "Sich ergebender Lastschrift- oder Gutschriftbetrag aus der Saldierung der Beträge aller Lastschrift- und Gutschriftbuchungen."
+    }
+  }
+}

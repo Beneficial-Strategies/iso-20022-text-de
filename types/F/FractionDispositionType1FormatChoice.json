@@ -1,0 +1,12 @@
+{
+  "isoType": "FractionDispositionType1FormatChoice",
+  "definition": "Auswahl der Formate zur Angabe, wie Bruchteile aus abgeleiteten Wertpapieren behandelt werden oder wie anteilige Entscheidungen gerundet werden, sofern ein Repartierungssatz angegeben ist.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe, wie Bruchteile aus abgeleiteten Wertpapieren behandelt werden oder wie anteilig zugeteilte Entscheidungen gerundet werden, sofern ein Zuteilungssatz angegeben ist."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe, wie Bruchteile aus abgeleiteten Wertpapieren behandelt werden oder wie anteilige Entscheidungen gerundet werden, sofern ein Repartierungssatz angegeben ist."
+    }
+  }
+}

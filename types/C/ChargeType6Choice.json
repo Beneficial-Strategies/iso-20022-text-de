@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargeType6Choice",
+  "definition": "Auswahl zwischen Formaten für eine Entgeltart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gebührenart, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Gebührenart, ausgedrückt als proprietärer Code."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "InvestigationRejectionJustification1",
+  "definition": "Gibt den Grund für die Ablehnung der Fallzuweisung an.",
+  "isoElements": {
+    "RejectionReason": {
+      "definition": "Grund für die Ablehnung einer Fallzuweisung in codierter Form."
+    }
+  }
+}

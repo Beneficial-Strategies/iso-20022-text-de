@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMSignature3Choice",
+  "definition": "Element mit der Signatur.",
+  "isoElements": {
+    "DigitalSignature": {
+      "definition": "Digitale Signatur impliziter Daten in Abhängigkeit vom Download-Verfahren des Sicherheitsverfahrens."
+    },
+    "TRRelatedData": {
+      "definition": "Der Datenblock für einen TR31- oder TR34-Block, wenn der Block keinen Schlüssel enthält (zum Beispiel das TR34-Unbind, das die signierten Autorisierungsdaten enthält)."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "CashAssetType1Code",
+  "definition": "Gibt eine Quelle des Barvermögenswerts an.",
+  "isoCodes": {
+    "CSH2": {
+      "name": "Gehaltene Barmittel",
+      "definition": "Bargeld ist noch nicht angelegtes Bargeld im Bestand."
+    },
+    "CSH1": {
+      "name": "Bargeldanlage",
+      "definition": "Bargeld ist einer Bargeldanlage zugeordnet."
+    }
+  }
+}

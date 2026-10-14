@@ -1,0 +1,4 @@
+{
+  "isoType": "StatementOfInvestmentFundTransactionsCancellationV02",
+  "definition": "Anwendungsbereich|Ein Kontoführer, zum Beispiel ein Transferagent, sendet die Nachricht StatementOfInvestmentFundTransactionsCancellation an den Kontoinhaber, zum Beispiel einen Anlageverwalter oder dessen bevollmächtigten Vertreter, um eine zuvor gesendete Nachricht StatementOfInvestmentFundTransactions zu stornieren.|Verwendung|Die Nachricht StatementOfInvestmentFundTransactionsCancellation wird verwendet, um eine zuvor gesendete Nachricht StatementOfInvestmentFundTransactions zu stornieren. Diese Nachricht muss die Referenz der zu stornierenden Nachricht enthalten.|Diese Nachricht kann auch alle Einzelheiten der zu stornierenden Nachricht enthalten, dies wird jedoch nicht empfohlen."
+}

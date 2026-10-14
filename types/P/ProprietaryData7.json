@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryData7",
+  "definition": "Container für proprietäre Informationen. Der fachliche Inhalt dieses Elements ist nicht festgelegt.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art des proprietären Dokuments an."
+    },
+    "Data": {
+      "definition": "Proprietärer Dateninhalt."
+    }
+  }
+}

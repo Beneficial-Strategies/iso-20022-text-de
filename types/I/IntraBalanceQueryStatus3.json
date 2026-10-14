@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalanceQueryStatus3",
+  "definition": "Definiert die Statusabfragekriterien für Bewegungen innerhalb des Saldos einschließlich des Statuszeitraums.",
+  "isoElements": {
+    "Type": {
+      "definition": "Definiert die Statusart der Abfragekriterien."
+    },
+    "DatePeriod": {
+      "definition": "Festgelegter Datumszeitraum des Status."
+    }
+  }
+}

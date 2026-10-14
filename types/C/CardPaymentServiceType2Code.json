@@ -1,0 +1,50 @@
+{
+  "isoType": "CardPaymentServiceType2Code",
+  "definition": "Von der Kartenzahlungstransaktion zusätzlich zur Hauptleistung erbrachte Leistung.",
+  "isoCodes": {
+    "AGGR": {
+      "name": "Aggregation",
+      "definition": "Aggregation von Kleinbeträgen."
+    },
+    "DCCV": {
+      "name": "DCC",
+      "definition": "Dynamische Währungsumrechnung (DCC)."
+    },
+    "GRTT": {
+      "name": "Trinkgeld",
+      "definition": "Kartenzahlung mit Trinkgeld."
+    },
+    "INSP": {
+      "name": "Ratenzahlung",
+      "definition": "Ratenzahlung."
+    },
+    "LOYT": {
+      "name": "Kundenbindung",
+      "definition": "Treueleistungen."
+    },
+    "NRES": {
+      "name": "Nichterscheinen",
+      "definition": "Nichterscheinen nach Reservierung."
+    },
+    "PUCO": {
+      "name": "Firmenkauf",
+      "definition": "Kauf- und Unternehmensdaten."
+    },
+    "RECP": {
+      "name": "Wiederkehrende Zahlung",
+      "definition": "Wiederkehrende Zahlung."
+    },
+    "SOAF": {
+      "name": "Angeforderte verfügbare Mittel",
+      "definition": "Angeforderte verfügbare Mittel."
+    },
+    "UNAF": {
+      "name": "Nicht angeforderte verfügbare Mittel",
+      "definition": "Nicht angeforderte verfügbare Mittel."
+    },
+    "VCAU": {
+      "name": "Autorisierung per Sprache",
+      "definition": "Sprachautorisierung."
+    }
+  }
+}

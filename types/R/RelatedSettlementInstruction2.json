@@ -1,0 +1,18 @@
+{
+  "isoType": "RelatedSettlementInstruction2",
+  "definition": "Informationen zu einer zugehörigen Abwicklungsanweisung.",
+  "isoElements": {
+    "RelatedSettlementInstructionIdentification": {
+      "definition": "Eindeutige Identifikation der zugehörigen Abwicklungsanweisung, die vom Kontoinhaber vergeben wurde."
+    },
+    "RelatedSettlementQuantity": {
+      "definition": "Wertpapiermenge, für die der Market Claim erhoben wurde."
+    },
+    "TransferOfProceedsTypeIndicator": {
+      "definition": "Gibt die Art der Übertragung der Erlöse aus dem Market Claim an."
+    },
+    "ProceedsQuantityBreakdown": {
+      "definition": "Gibt die Aufschlüsselung der Mengen zwischen Übertragung der Erlöse und Barausgleich an."
+    }
+  }
+}

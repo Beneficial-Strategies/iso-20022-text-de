@@ -1,0 +1,12 @@
+{
+  "isoType": "AdditionalRightThreshold2Choice",
+  "definition": "Auswahl des Schwellenwerts für ein zusätzliches Recht.",
+  "isoElements": {
+    "AdditionalRightThreshold": {
+      "definition": "Zusätzlich eingeräumtes Recht zur Festlegung der Mindestbeteiligung am Grundkapital oder des Mindestbarwerts oder der Mindestanzahl von Wertpapierinhabern, die zum Einbringen von Beschlüssen erforderlich ist."
+    },
+    "AdditionalRightThresholdPercentage": {
+      "definition": "Zusätzlich eingeräumtes Recht zur Festlegung der Mindestbeteiligung am Grundkapital oder des Mindestbarwerts oder der Mindestanzahl von Wertpapierinhabern, die zum Einbringen von Beschlüssen erforderlich ist. Dieses Minimum wird als Prozentsatz ausgedrückt."
+    }
+  }
+}

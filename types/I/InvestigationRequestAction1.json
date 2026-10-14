@@ -1,0 +1,20 @@
+{
+  "isoType": "InvestigationRequestAction1",
+  "definition": "Gibt die Art der angeforderten Maßnahme und den Grund für die Maßnahme an.",
+  "isoElements": {
+    "Action": {
+      "definition": "Gibt die Art der beantragten Maßnahme an."
+    },
+    "ActionReason": {
+      "definition": "Liefert detaillierte Informationen zum Maßnahmengrund."
+    }
+  },
+  "isoRules": {
+    "ObjectionActionReasonRule": {
+      "definition": "Wenn Action/Code gleich RQOB für Request Objection (Einwand gegen die Anforderung) ist, muss ActionReason vorhanden sein."
+    },
+    "ObjectionActionRule": {
+      "definition": "Der externe Code RQOB für Request Objection (Einwand gegen die Anforderung) darf in Action/Code nur angegeben werden, wenn der Anfordernde bereits eine Antwort vom Antwortenden erhalten hat."
+    }
+  }
+}

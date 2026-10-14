@@ -1,0 +1,12 @@
+{
+  "isoType": "ConversionType1FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe der Art der Umwandlung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Art der Umwandlung."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe der Art der Umwandlung."
+    }
+  }
+}

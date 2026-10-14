@@ -1,0 +1,12 @@
+{
+  "isoType": "CryptographicKey1Choice",
+  "definition": "Auswahl des Formats eines kryptografischen Schlüssels, der sicherstellt, dass eine Zahlung nur zu den zuvor vereinbarten Bedingungen ausgeführt werden kann.",
+  "isoElements": {
+    "ILPV4": {
+      "definition": "Kryptografischer Schlüssel in Form eines ILP-V4-Pakets."
+    },
+    "Signature": {
+      "definition": "Kryptografischer Schlüssel in Form einer Signatur."
+    }
+  }
+}

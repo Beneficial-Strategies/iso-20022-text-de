@@ -1,0 +1,18 @@
+{
+  "isoType": "PenaltyStatus2Code",
+  "definition": "Gibt den Status der Strafzahlung an.",
+  "isoCodes": {
+    "ACTV": {
+      "name": "Aktiv",
+      "definition": "Die Strafzahlung ist für die Partei aktiv."
+    },
+    "NCOM": {
+      "name": "Nicht berechnet",
+      "definition": "Die Strafzahlung konnte nicht berechnet werden."
+    },
+    "REMO": {
+      "name": "Entfernt",
+      "definition": "Aufhebung einer Barstrafzahlung, wenn die Abwicklung aus Gründen nicht durchgeführt werden kann, die unabhängig von den CSD-Teilnehmern oder dem CSD sind."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "TypeOfRequest1Code",
+  "definition": "Gibt eine Art von Anfrage an.",
+  "isoCodes": {
+    "INFO": {
+      "name": "Information",
+      "definition": "Informationsanfrage."
+    },
+    "STAT": {
+      "name": "Status",
+      "definition": "Statusanfrage."
+    }
+  }
+}

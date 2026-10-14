@@ -1,0 +1,39 @@
+{
+  "isoType": "PortfolioTransfer14",
+  "definition": "Art des Produkts und der zu übertragenden Vermögenswerte.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Eindeutiger Identifikator für eine Gruppe einzelner Übertragungen, wie von der anweisenden Partei vergeben. Dieser Identifikator verknüpft die einzelnen Übertragungen miteinander."
+    },
+    "TransferIdentification": {
+      "definition": "Der Übertragung von Vermögenswerten zugewiesene Identifikation."
+    },
+    "TransferConfirmationIdentification": {
+      "definition": "Identifikation der Bestätigung, die vom Übertragenden der Übertragung zugewiesen wurde."
+    },
+    "RequestedTransferDate": {
+      "definition": "Datum, für das die anweisende Partei die Übertragung des Portfolios als Ganzes beantragt."
+    },
+    "Portfolio": {
+      "definition": "Auswahl zwischen steuerbegünstigtem Produkt, allgemeiner Kapitalanlage oder Altersvorsorge."
+    },
+    "AllOtherCash": {
+      "definition": "Gibt an, ob alle verbleibenden Vermögenswerte im Portfolio, die nicht zur Übertragung aufgeführt sind, liquidiert und als Barmittel übertragen werden sollen."
+    },
+    "CashAll": {
+      "definition": "Gibt an, ob alle Vermögenswerte im Portfolio liquidiert und als Barmittel übertragen werden sollen."
+    },
+    "ResidualCash": {
+      "definition": "Gibt an, wie mit den auf dem Konto befindlichen, noch nicht angelegten Barmitteln verfahren werden soll."
+    },
+    "PaymentDetails": {
+      "definition": "Zahlungsprozess für die Übertragung von Barmitteln vom Zahlungspflichtigen an den Zahlungsempfänger."
+    },
+    "FinancialInstrumentAssetForTransfer": {
+      "definition": "Zu übertragender Vermögenswert."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zur Produktübertragung."
+    }
+  }
+}

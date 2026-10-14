@@ -1,0 +1,15 @@
+{
+  "isoType": "Role6Choice",
+  "definition": "Auswahl des Formats für eine Rolle der Partei.",
+  "isoElements": {
+    "Code": {
+      "definition": "Rolle der Partei in der Aktivität, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Rolle der Partei in der Aktivität, ausgedrückt als proprietärer Code."
+    },
+    "Text": {
+      "definition": "Rolle der Partei in der Aktivität."
+    }
+  }
+}

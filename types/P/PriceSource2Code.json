@@ -1,0 +1,22 @@
+{
+  "isoType": "PriceSource2Code",
+  "definition": "Gibt die Quelle einer Preisnotierung an.",
+  "isoCodes": {
+    "FUND": {
+      "name": "Fonds",
+      "definition": "Quelle der Preisnotierung ist ein Fonds, zum Beispiel Transferstelle oder der Fonds selbst."
+    },
+    "THEO": {
+      "name": "Theoretisch",
+      "definition": "Quelle der Preisnotierung ist ein theoretischer Wert auf Grundlage der Marktrendite."
+    },
+    "VEND": {
+      "name": "Anbieter",
+      "definition": "Quelle der Preisnotierung ist ein externer Anbieter."
+    },
+    "EXCH": {
+      "name": "Börse",
+      "definition": "Die Quelle der Preisnotierung ist eine Börse."
+    }
+  }
+}

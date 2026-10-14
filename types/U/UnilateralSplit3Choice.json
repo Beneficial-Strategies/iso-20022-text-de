@@ -1,0 +1,12 @@
+{
+  "isoType": "UnilateralSplit3Choice",
+  "definition": "Gibt die beantragte Änderung der Abgleichsverarbeitung an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als ISO-20022-Code ausgedrückte einseitige Aufteilung."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte einseitige Aufteilung."
+    }
+  }
+}

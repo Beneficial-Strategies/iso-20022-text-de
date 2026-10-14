@@ -1,0 +1,20 @@
+{
+  "isoType": "TransferInConfirmationV10",
+  "definition": "Anwendungsbereich|Die Nachricht TransferInConfirmation wird von einer ausführenden Partei, zum Beispiel einer Transferstelle, an die anweisende Partei, zum Beispiel einen Vermögensverwalter oder dessen bevollmächtigten Vertreter, gesendet, um den Empfang eines Finanzinstruments, frei von Zahlung, an einem bestimmten Datum von einer angegebenen Partei zu bestätigen.|Diese Nachricht kann auch verwendet werden, um den Empfang eines Finanzinstruments, frei von Zahlung, von einem anderen eigenen Konto der anweisenden Partei oder von einem Dritten zu bestätigen.|Diese Nachricht kann auch als Avisierung verwendet werden, das heißt, die Nachricht dient dazu, Kontoinformationen zu übermitteln.|Verwendung|Die Nachricht TransferInConfirmation wird verwendet, um den Empfang eines Finanzinstruments zu bestätigen, entweder von einem anderen Konto der anweisenden Partei oder von einem Dritten. Die Referenz der Übertragungsbestätigung wird in TransferConfirmationReference angegeben.|Die Referenz der ursprünglichen Übertragungsanweisung wird in TransferReference angegeben. Die Nachrichtenidentifikation der Nachricht TransferInInstruction, in der die Übertragungsanweisung übermittelt wurde, kann auch in RelatedReference angegeben werden.",
+  "isoElements": {
+    "Function": {
+      "definition": "Funktion des Übertragungseingangs, das heißt, ob die Übertragungseingangsnachricht als Bestätigung oder als Avisierung verwendet wird. Fehlt Function, handelt es sich bei der Nachricht um eine Bestätigung."
+    },
+    "MasterReference": {
+      "definition": "Eindeutiger Identifikator für eine Gruppe einzelner Übertragungen, wie von der anweisenden Partei vergeben. Dieser Identifikator verknüpft die einzelnen Übertragungen miteinander."
+    }
+  },
+  "isoRules": {
+    "RequestedSettlementDateRule": {
+      "definition": "Entweder darf TransferDetails/RequestedSettlementDate in einem oder mehreren Vorkommen von TransferDetails vorhanden sein oder SettlementDetails/RequestedSettlementDate darf vorhanden sein, aber nicht beides."
+    },
+    "EffectiveSettlementDateRule": {
+      "definition": "Entweder darf TransferDetails/EffectiveSettlementDate in einem oder mehreren Vorkommen von TransferDetails vorhanden sein oder SettlementDetails/Effective Settlement Date darf vorhanden sein, aber nicht beides."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "AccountLevel1Code",
+  "definition": "Legt die Ebene eines Kontos innerhalb der Kontohierarchie fest.",
+  "isoCodes": {
+    "INTM": {
+      "name": "Zwischenbericht",
+      "definition": "Mittlere Ebene innerhalb einer Kontohierarchie."
+    },
+    "SMRY": {
+      "name": "Zusammenfassung",
+      "definition": "Höchste Ebene innerhalb einer Kontohierarchie."
+    }
+  }
+}

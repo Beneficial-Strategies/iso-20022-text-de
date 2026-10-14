@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountForAction1",
+  "definition": "Konto, auf das oder von dem eine Geldbuchung erfolgt.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "Currency": {
+      "definition": "Tauschmittel für Werte."
+    }
+  }
+}

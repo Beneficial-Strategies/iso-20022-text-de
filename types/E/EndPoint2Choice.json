@@ -1,0 +1,12 @@
+{
+  "isoType": "EndPoint2Choice",
+  "definition": "Auswahl zwischen dem Datum der letzten Zahlung oder der Anzahl der auszuführenden Zahlungen.",
+  "isoElements": {
+    "NumberOfPayments": {
+      "definition": "Anzahl der Zahlungen, die bei Abschluss dieser Frequenzfolge ausgeführt werden, einschließlich der seit dem Startdatum der Folge bereits ausgeführten."
+    },
+    "LastPaymentDate": {
+      "definition": "Fällige Schlusszahlung des Dauerauftrags."
+    }
+  }
+}

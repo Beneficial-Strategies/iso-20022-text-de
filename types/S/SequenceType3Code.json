@@ -1,0 +1,26 @@
+{
+  "isoType": "SequenceType3Code",
+  "definition": "Gibt die Art der aktuellen Transaktion an, die zu einer Folge von Transaktionen gehört.",
+  "isoCodes": {
+    "FRST": {
+      "name": "Erste",
+      "definition": "Erste Einziehung einer Reihe von Lastschriftanweisungen."
+    },
+    "RCUR": {
+      "name": "Wiederkehrend",
+      "definition": "Lastschriftanweisung, bei der die Autorisierung des Zahlungspflichtigen für regelmäßige, vom Zahlungsempfänger ausgelöste Lastschrifttransaktionen verwendet wird."
+    },
+    "FNAL": {
+      "name": "Letzte",
+      "definition": "Letzte Einziehung einer Reihe von Lastschriftanweisungen."
+    },
+    "OOFF": {
+      "name": "Einmalig",
+      "definition": "Lastschriftanweisung, bei der die Autorisierung des Zahlungspflichtigen zur Auslösung einer einzelnen Lastschrifttransaktion verwendet wird."
+    },
+    "RPRE": {
+      "name": "Erneut vorgelegt",
+      "definition": "Einziehung zur erneuten Vorlage zuvor rückgebuchter oder zurückgegebener Lastschrifttransaktionen."
+    }
+  }
+}

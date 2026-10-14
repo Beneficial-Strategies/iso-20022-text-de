@@ -1,0 +1,18 @@
+{
+  "isoType": "StandingInstructionType1Code",
+  "definition": "Gibt die Art der Dauerauftragsanweisung an.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Barausschüttung",
+      "definition": "Dauerauftragsanweisung für eine Barausschüttung."
+    },
+    "PAYM": {
+      "name": "Brutto/Netto",
+      "definition": "Dauerauftragsanweisung für die Zahlungsmodalität, brutto oder netto."
+    },
+    "SECU": {
+      "name": "Wertpapierausschüttung",
+      "definition": "Dauerauftragsanweisung für eine Wertpapierausschüttung."
+    }
+  }
+}

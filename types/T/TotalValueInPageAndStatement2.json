@@ -1,0 +1,15 @@
+{
+  "isoType": "TotalValueInPageAndStatement2",
+  "definition": "Summen des Wertes der im Auszug oder auf der Seite gemeldeten Bestände.",
+  "isoElements": {
+    "TotalHoldingsValueOfPage": {
+      "definition": "Gesamtwert der in dieser Nachricht gemeldeten Positionen."
+    },
+    "TotalHoldingsValueOfStatement": {
+      "definition": "Gesamtwert der in diesem Auszug gemeldeten Positionen (ein Auszug kann aus einer oder mehreren Nachrichten bestehen)."
+    },
+    "TotalBookValueOfStatement": {
+      "definition": "Gesamtbuchwert der in diesem Auszug gemeldeten Positionen (ein Auszug kann aus einer oder mehreren Nachrichten bestehen)."
+    }
+  }
+}

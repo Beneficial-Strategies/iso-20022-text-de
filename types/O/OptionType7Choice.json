@@ -1,0 +1,12 @@
+{
+  "isoType": "OptionType7Choice",
+  "definition": "Auswahl des Formats für die Optionsart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Optionsart, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Optionsart, ausgedrückt als proprietärer Code."
+    }
+  }
+}

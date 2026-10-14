@@ -1,0 +1,12 @@
+{
+  "isoType": "Amount3Choice",
+  "definition": "Auswahl zwischen einem Betrag mit oder ohne Währung.",
+  "isoElements": {
+    "AmountWithCurrency": {
+      "definition": "Anzahl der Geldeinheiten in einer Währung, wobei die Währungseinheit ausdrücklich angegeben ist."
+    },
+    "AmountWithoutCurrency": {
+      "definition": "Anzahl der Geldeinheiten in einer Währung, wobei sich die Währungseinheit aus dem Kontext ergibt."
+    }
+  }
+}

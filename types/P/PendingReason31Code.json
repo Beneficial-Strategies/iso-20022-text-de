@@ -1,0 +1,46 @@
+{
+  "isoType": "PendingReason31Code",
+  "definition": "Gibt den Grund an, weshalb die Transaktion/Anweisung zur Abwicklung ansteht. Eine Abwicklung am angewiesenen Abwicklungstag ist weiterhin möglich.",
+  "isoCodes": {
+    "BLOC": {
+      "name": "Konto gesperrt",
+      "definition": "Ihr Konto ist gesperrt, über das Konto kann keine Anweisung abgewickelt werden."
+    },
+    "PART": {
+      "name": "Geschäft wird in Teilmengen abgewickelt",
+      "definition": "Das Geschäft wird in Teilmengen abgewickelt."
+    },
+    "COLL": {
+      "name": "Als Sicherheit verpfändete Wertpapiere",
+      "definition": "Die Finanzinstrumente sind nicht lieferbar, da sie als Sicherheit verpfändet sind."
+    },
+    "LINK": {
+      "name": "Ausstehende verknüpfte Anweisung",
+      "definition": "Ihre Anweisung steht zur Abwicklung an, da die damit verknüpfte Anweisung aussteht."
+    },
+    "FUTU": {
+      "name": "Wartet auf Abwicklungsdatum",
+      "definition": "Es steht der Abwicklungstag aus. Es sind keine Abwicklungsprobleme zu melden."
+    },
+    "LACK": {
+      "name": "Mangel an Wertpapieren",
+      "definition": "Auf Ihrem Konto sind nicht genügend Finanzinstrumente vorhanden."
+    },
+    "SBLO": {
+      "name": "Wertpapiere gesperrt",
+      "definition": "Finanzinstrumente sind aufgrund eines Kapitalmaßnahmenereignisses, einer Neuausrichtung usw. gesperrt."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "PRSY": {
+      "name": "System angehalten",
+      "definition": "Die Transaktion wurde vom System angehalten/eingefroren."
+    },
+    "INBC": {
+      "name": "Unvollständige Stückzahl",
+      "definition": "Es sind noch nicht alle zu einem Pool gehörenden Anweisungen eingegangen."
+    }
+  }
+}

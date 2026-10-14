@@ -1,0 +1,18 @@
+{
+  "isoType": "CommunicationAddress10",
+  "definition": "Nummer des Kommunikationsgeräts oder elektronische Adresse, die für die Kommunikation verwendet wird.",
+  "isoElements": {
+    "PostalAddress": {
+      "definition": "Informationen, die eine bestimmte Adresse lokalisieren und identifizieren, wie von den Postdiensten definiert."
+    },
+    "PhoneNumber": {
+      "definition": "Gesamtheit der Informationen, die eine Telefonnummer identifizieren, wie von den Telekommunikationsdiensten definiert."
+    },
+    "FaxNumber": {
+      "definition": "Gesamtheit der Informationen, die eine FAX-Nummer identifizieren, wie von den Telekommunikationsdiensten definiert."
+    },
+    "EmailAddress": {
+      "definition": "Adresse für elektronische Post (E-Mail)."
+    }
+  }
+}

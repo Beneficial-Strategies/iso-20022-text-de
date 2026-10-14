@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationUpdate2",
+  "definition": "Identifikation einer früheren Benachrichtigung.",
+  "isoElements": {
+    "PreviousNotificationIdentification": {
+      "definition": "Identifikation einer zuvor gesendeten Versammlungsbenachrichtigung."
+    },
+    "ReconfirmInstructions": {
+      "definition": "Gibt an, ob eine Versammlungsanweisung erneut gesendet werden muss, wenn die Parameter der Versammlung geändert werden und die Versammlungsanweisung bereits gesendet wurde."
+    }
+  }
+}

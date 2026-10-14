@@ -1,0 +1,15 @@
+{
+  "isoType": "AcceptanceResult6",
+  "definition": "Gesamtheit der Elemente, die detaillierte Informationen zum Annahmeergebnis liefern.",
+  "isoElements": {
+    "Accepted": {
+      "definition": "Gibt an, ob die Mandatsanforderung angenommen oder abgelehnt wurde."
+    },
+    "RejectReason": {
+      "definition": "Gibt den Grund für die Ablehnung einer Mandatsanforderung an."
+    },
+    "AdditionalRejectReasonInformation": {
+      "definition": "Weitere Einzelheiten zum Ablehnungsgrund."
+    }
+  }
+}

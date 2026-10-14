@@ -1,0 +1,12 @@
+{
+  "isoType": "DeemedRateType1Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe der Art eines fiktiven Satzes.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Art des fiktiven Satzes."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Art des fiktiven Satzes."
+    }
+  }
+}

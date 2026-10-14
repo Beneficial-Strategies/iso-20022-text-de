@@ -1,0 +1,131 @@
+{
+  "isoType": "TransactionDetails187",
+  "definition": "Identifiziert zusätzliche Details der Transaktion.",
+  "isoElements": {
+    "TransactionActivity": {
+      "definition": "Legt die Art der Aktivität fest, auf die sich diese Anweisung bezieht."
+    },
+    "SettlementTransactionOrCorporateActionEventType": {
+      "definition": "Auswahl der Art der gemeldeten Transaktion."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Legt fest, ob die Bewegung auf einem Wertpapierkonto aus einer Liefer- oder einer Empfangsanweisung resultiert."
+    },
+    "Payment": {
+      "definition": "Legt fest, wie die Transaktion abgewickelt werden soll, beispielsweise gegen Zahlung."
+    },
+    "SettlementParameters": {
+      "definition": "Parameter, die auf die Abwicklung einer Wertpapierübertragung angewendet werden."
+    },
+    "PlaceOfTrade": {
+      "definition": "Markt, an dem ein Handelsgeschäft ausgeführt wurde."
+    },
+    "SafekeepingPlace": {
+      "definition": "Ort, an dem die Wertpapiere physisch oder buchmäßig verwahrt werden. Dieser Ort kann zum Beispiel eine lokale Depotbank, ein Central Securities Depository (CSD) oder ein International Central Securities Depository (ICSD) sein."
+    },
+    "PlaceOfClearing": {
+      "definition": "Infrastruktur, die Bestandteil eines Clearinghauses sein kann und das Clearing und die Abwicklung für ihre Mitglieder erleichtert, indem sie zwischen Käufer und Verkäufer tritt. Sie kann Transaktionen verrechnen und tritt für jede Position als Abwicklungsgegenpartei an ihre Stelle."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Finanzinstrumente, die eine Summe von Rechten des Anlegers gegenüber dem Emittenten darstellen."
+    },
+    "CountryOfIssue": {
+      "definition": "Primärmarkt oder Land, in dem ein Wertpapier vom Emittenten oder dessen Beauftragten ausgegeben wird."
+    },
+    "ConditionalSecuritiesDelivery": {
+      "definition": "Gibt an, ob die Transaktion der bedingten Wertpapierlieferung (Conditional Securities Delivery, CoSD) unterliegt."
+    },
+    "SettlementQuantity": {
+      "definition": "Gesamtmenge des abzuwickelnden Finanzinstruments."
+    },
+    "SettledQuantity": {
+      "definition": "Menge des Finanzinstruments, die tatsächlich abgewickelt wurde und auf das Wertpapierkonto des Kontoinhabers geliefert bzw. von diesem erhalten wird. Sie kann aufgrund der Markttoleranz von der angewiesenen Abwicklungsmenge abweichen."
+    },
+    "PreviouslySettledQuantity": {
+      "definition": "Menge des zuvor abgewickelten Finanzinstruments."
+    },
+    "RemainingToBeSettledQuantity": {
+      "definition": "Menge des noch abzuwickelnden Finanzinstruments."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Anzahl der Tage, an denen der Zinssatz aufläuft (täglich aufgelaufene Zinsen)."
+    },
+    "SettlementAmount": {
+      "definition": "Gesamtbetrag, der im Austausch gegen die Wertpapiere zu zahlen oder zu erhalten ist."
+    },
+    "SettledAmount": {
+      "definition": "Tatsächlich abgewickelter Geldbetrag, der dem Geldkonto des Kontoinhabers gutgeschrieben bzw. belastet wird. Er kann je nach Markttoleranz vom angewiesenen Abwicklungsbetrag abweichen."
+    },
+    "PreviouslySettledAmount": {
+      "definition": "Zuvor abgewickelter Geldbetrag."
+    },
+    "RemainingSettlementAmount": {
+      "definition": "Noch abzuwickelnder Geldbetrag."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Zinsbetrag, der zwischen den Kuponzahlungsperioden aufgelaufen ist."
+    },
+    "TradeDate": {
+      "definition": "Gibt Datum und Uhrzeit der Ausführung des Geschäfts an."
+    },
+    "IntendedSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere geliefert oder empfangen werden sollen."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen eine Transaktion abgeschlossen und verrechnet wird, das heißt eine Zahlung erfolgt und Wertpapiere geliefert werden."
+    },
+    "ValueDate": {
+      "definition": "Datum und Uhrzeit, zu denen Vermögenswerte dem Kontoinhaber zur Verfügung stehen (bei einer Gutschrift) oder dem Kontoinhaber nicht mehr zur Verfügung stehen (bei einer Belastung)."
+    },
+    "StatusDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Status zugewiesen wurde."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Zeitstempel, wann die Transaktion bestätigt wird."
+    },
+    "MatchedStatusTimeStamp": {
+      "definition": "Zeitstempel, wann die Transaktion abgeglichen wurde."
+    },
+    "Linkages": {
+      "definition": "Verknüpfung mit einer anderen Transaktion, die danach, davor oder gleichzeitig verarbeitet werden muss."
+    },
+    "Priority": {
+      "definition": "Gibt an, ob die Transaktion mit hoher Priorität auszuführen ist."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifiziert die Kette der liefernden Abwicklungsparteien."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifiziert die Kette der empfangenden Abwicklungsparteien."
+    },
+    "ReversalIndicator": {
+      "definition": "Gibt an, ob es sich um die Stornierung einer zuvor gemeldeten Bewegung handelt."
+    },
+    "MessageOriginator": {
+      "definition": "Partei, von der die Nachricht ausgeht, sofern nicht mit dem Absender identisch."
+    },
+    "CreationDateTime": {
+      "definition": "Gibt Datum und Uhrzeit der Ausführung des Geschäfts an."
+    },
+    "TransactionAdditionalDetails": {
+      "definition": "Liefert zusätzliche Details zur Transaktion, die nicht in den strukturierten Feldern der Nachricht enthalten sein können."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "PostingAmountRule": {
+      "definition": "Handelt es sich um eine Anweisung gegen Zahlung, muss PostingAmount vorhanden sein.|."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Sofern zwischen Sender und Empfänger nicht bilateral anders vereinbart, darf TransactionAdditionalDetails, wenn vorhanden, keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können."
+    },
+    "TwoLegTransactionOpeningClosing1Rule": {
+      "definition": "Für die Abwicklung zweiteiliger Transaktionen (Wertpapierfinanzierung) wird die Eröffnung/Einleitung und der Abschluss/die Rückgabe der Transaktion durch Senden der nachstehenden Kombination von SecuritiesMovementType-Codes und SettlementParameters/SecuritiesTransactionType-Codes bestätigt:||Repo-Eröffnung|SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)|Repo-Abschluss|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)||Reverse-Repo-Eröffnung|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)|Reverse-Repo-Abschluss|SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)||TriParty-Repo-Eröffnung|SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)|TriParty-Repo-Abschluss|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)||TriParty-Reverse-Repo-Eröffnung|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)|TriParty-Reverse-Repo-Abschluss|SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)||Wertpapierverleih-Einleitung|SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)|Wertpapierverleih-Rückgabe|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)||Wertpapierleihe-Einleitung|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)|Wertpapierleihe-Rückgabe|SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)."
+    },
+    "TwoLegTransactionOpeningClosing2Rule": {
+      "definition": "Für die Abwicklung zweiteiliger Transaktionen (Buy-Sell-Back, Sell-Buy-Back, Sicherheit ein und aus) wird die Eröffnung/Einleitung und der Abschluss/die Rückgabe der Transaktion durch Senden der nachstehenden Kombination von SecuritiesMovementType-Codes und SettlementParameters/SecuritiesTransactionType-Codes bestätigt:||Sell-Buy-Back: Verkauf|SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)|Sell-Buy-Back: Rückkauf|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)||Buy-Sell-Back: Kauf|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)|Buy-Sell-Back: Rückverkauf|SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)||Sicherheit (Geber) aus, Einleitung|SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)|Sicherheit (Geber) aus, Rückgabe|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)||Sicherheit (Nehmer) ein, Einleitung|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)|Sicherheit (Nehmer) ein, Rückgabe|SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)."
+    }
+  }
+}

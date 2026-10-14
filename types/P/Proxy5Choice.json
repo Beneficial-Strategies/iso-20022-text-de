@@ -1,0 +1,12 @@
+{
+  "isoType": "Proxy5Choice",
+  "definition": "Auswahl der Vollmachtszulässigkeit.",
+  "isoElements": {
+    "Proxy": {
+      "definition": "Angaben zur Vollmachtserteilung und -registrierung."
+    },
+    "ProxyNotAllowed": {
+      "definition": "Gibt an, dass für eine Versammlung keine Vollmacht zulässig ist."
+    }
+  }
+}

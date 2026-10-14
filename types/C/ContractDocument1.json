@@ -1,0 +1,15 @@
+{
+  "isoType": "ContractDocument1",
+  "definition": "Dokument, das die Informationen des zwischen beiden Parteien vereinbarten Vertrags enthält.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Kontovertrag, der zwischen der Organisation oder der Gruppe, zu der die Organisation gehört, und dem Kontoführer geschlossen wurde. Dieser Vertrag muss für das neu zu eröffnende und zu führende Konto angewendet werden."
+    },
+    "SignOffDate": {
+      "definition": "Datum der Freigabe des Dokuments."
+    },
+    "Version": {
+      "definition": "Identifikation der Version des Vertrags."
+    }
+  }
+}

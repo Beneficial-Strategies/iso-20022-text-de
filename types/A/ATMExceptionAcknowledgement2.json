@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMExceptionAcknowledgement2",
+  "definition": "Informationen zur Bestätigung einer ATM-Ausnahme.",
+  "isoElements": {
+    "ATM": {
+      "definition": "Informationen zum ATM."
+    },
+    "Context": {
+      "definition": "Kontext, in dem die Transaktion durchgeführt wird, falls vorhanden."
+    },
+    "Transaction": {
+      "definition": "Bestätigung der Ausnahmemeldung."
+    }
+  }
+}

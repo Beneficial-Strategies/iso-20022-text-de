@@ -1,0 +1,17 @@
+{
+  "isoType": "PoliticallyExposedPerson1",
+  "definition": "Prüfungen zur politisch exponierten Person.",
+  "isoElements": {
+    "PoliticallyExposedPersonType": {
+      "definition": "Gibt an, ob Sorgfaltsprüfungen zur politischen Exponiertheit des Anlegers durchgeführt wurden. (Eine politisch exponierte Person ist jemand, der mit einem bedeutenden öffentlichen Amt betraut wurde, oder eine Person, die mit einer solchen Person eng verbunden ist.)"
+    },
+    "PoliticallyExposedPersonStatus": {
+      "definition": "Status der politisch exponierten Person."
+    }
+  },
+  "isoRules": {
+    "PoliticallyExposedPersonTypeRule": {
+      "definition": "Wenn PoliticallyExposedPersonType/Code „NoPoliticalExposure“ (NPEX) ist, ist PoliticallyExposedPersonStatus nicht zulässig."
+    }
+  }
+}

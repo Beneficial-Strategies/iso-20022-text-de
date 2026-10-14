@@ -1,0 +1,15 @@
+{
+  "isoType": "InstructionStatus14Choice",
+  "definition": "Status, der global für die empfangene Anweisung gilt.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Status zur Mitteilung über die Verarbeitung der Anweisung."
+    },
+    "Rejected": {
+      "definition": "Status zur Mitteilung über die Ablehnung der Anweisung und den Ablehnungsgrund."
+    },
+    "Pending": {
+      "definition": "Status zur Mitteilung, dass die Anweisung ausstehend ist, und über den Grund für den Status ausstehend."
+    }
+  }
+}

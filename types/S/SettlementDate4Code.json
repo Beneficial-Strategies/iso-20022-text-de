@@ -1,0 +1,10 @@
+{
+  "isoType": "SettlementDate4Code",
+  "definition": "Gibt das Abwicklungsdatum in codierter Form an.",
+  "isoCodes": {
+    "WISS": {
+      "name": "Erst-nach-Emission-Handel",
+      "definition": "Die Abwicklung soll erfolgen, wenn das Wertpapier ausgegeben wird."
+    }
+  }
+}

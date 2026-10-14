@@ -1,0 +1,12 @@
+{
+  "isoType": "FailingStatus11Choice",
+  "definition": "Auswahl des Status „fehlgeschlagen“.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Gibt an, dass kein Grund verfügbar oder zu melden ist."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für den Status „fehlgeschlagen“ an."
+    }
+  }
+}

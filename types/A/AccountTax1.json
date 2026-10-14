@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountTax1",
+  "definition": "Beschreibt die Besteuerungsparameter des Kontos.",
+  "isoElements": {
+    "CalculationMethod": {
+      "definition": "Legt die Berechnungsmethode fest, nach der die Steuern auf das Konto angewendet werden."
+    },
+    "Region": {
+      "definition": "Identifiziert die Steuerregion, in der das Konto geführt wird."
+    },
+    "NonResidenceCountry": {
+      "definition": "Gibt das Ansässigkeitsland an, wenn der Kontoinhaber nicht in der Steuerregion des Kontos ansässig ist.||Verwendung: Falls vorhanden, ist der Kontoinhaber nicht in der Steuerregion des Kontos ansässig."
+    }
+  }
+}

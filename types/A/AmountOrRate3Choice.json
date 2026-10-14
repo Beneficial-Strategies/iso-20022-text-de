@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountOrRate3Choice",
+  "definition": "Auswahl zwischen einem Betrag oder einem Satz.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag."
+    },
+    "Rate": {
+      "definition": "Satz, der zur Berechnung des Betrags verwendet wird."
+    }
+  }
+}

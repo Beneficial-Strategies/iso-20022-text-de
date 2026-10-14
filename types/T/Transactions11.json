@@ -1,0 +1,26 @@
+{
+  "isoType": "Transactions11",
+  "definition": "Berichtet über Transaktionen.",
+  "isoElements": {
+    "PaymentCommonInformation": {
+      "definition": "Gemeinsame detaillierte Informationen zur Zahlungsanweisung."
+    },
+    "TransactionsSummary": {
+      "definition": "Gibt die Gesamtanzahl und die Summe der Transaktionen an."
+    },
+    "TransactionReport": {
+      "definition": "Berichtet entweder die Transaktionsinformationen oder einen Geschäftsfehler."
+    }
+  },
+  "isoRules": {
+    "PaymentInstructionStatusRule": {
+      "definition": "Wenn PaymentCommonInformation/PaymentInstructionStatus vorhanden ist, ist TransactionReport/Transaction/Payment/InstructionStatus/PaymentInstructionStatus nicht zulässig.|Wenn PaymentCommonInformation/PaymentInstructionStatus nicht vorhanden ist, ist TransactionReport/Transaction/Payment/InstructionStatus/PaymentInstructionStatus optional."
+    },
+    "TransferValueDateRule": {
+      "definition": "Wenn PaymentCommonInformation/RequestedExecutionDate vorhanden ist, ist TransactionReport/Transaction/Payment/RequestedExecutionDate nicht zulässig.|Wenn PaymentCommonInformation/RequestedExecutionDate nicht vorhanden ist, ist TransactionReport/Transaction/Payment/RequestedExecutionDate optional."
+    },
+    "CreditDebitIndicator1Rule": {
+      "definition": "Wenn PaymentCommonInformation/CreditDebitIndicator vorhanden ist, ist TransactionReport/Transaction/CreditDebitIndicator nicht zulässig.|Wenn PaymentCommonInformation/CreditDebitIndicator nicht vorhanden ist, ist TransactionReport/Transaction/CreditDebitIndicator optional."
+    }
+  }
+}

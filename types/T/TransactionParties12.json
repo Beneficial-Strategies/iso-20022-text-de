@@ -1,0 +1,33 @@
+{
+  "isoType": "TransactionParties12",
+  "definition": "Enthält weitere Details zu den Parteien, die für die einzelne Transaktion spezifisch sind.",
+  "isoElements": {
+    "InitiatingParty": {
+      "definition": "Partei, die die in der Buchung gemeldete Zahlung initiiert hat."
+    },
+    "Debtor": {
+      "definition": "Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "DebtorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungspflichtigen."
+    },
+    "UltimateDebtor": {
+      "definition": "Letztliche Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "Creditor": {
+      "definition": "Partei, der ein Geldbetrag geschuldet wird."
+    },
+    "CreditorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungsempfängers, dem infolge der Zahlungstransaktion eine Gutschrift gebucht wurde."
+    },
+    "UltimateCreditor": {
+      "definition": "Letztliche Partei, der ein Geldbetrag geschuldet wird."
+    },
+    "TradingParty": {
+      "definition": "Partei, die bei der Planung und Ausführung der Transaktionen, die Anlagen aus dem Vermögen der Anleger schaffen oder auflösen oder das Vermögen der Anleger von einer Anlage in eine andere überführen, eine aktive Rolle spielt. Eine Handelspartei ist ein Handelsauftraggeber, ein Anlageentscheider, ein Administrator nach dem Handel oder ein Händler. Im Treasury-Kontext ist dies die Partei, die das Treasury-Geschäft verhandelt und ausführt."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Partei zur zugrunde liegenden Transaktion."
+    }
+  }
+}

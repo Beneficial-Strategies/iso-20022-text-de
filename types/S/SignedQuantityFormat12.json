@@ -1,0 +1,12 @@
+{
+  "isoType": "SignedQuantityFormat12",
+  "definition": "Formate der vorzeichenbehafteten Wertpapiermenge.",
+  "isoElements": {
+    "ShortLongPosition": {
+      "definition": "Vorzeichen der Wertpapiermenge."
+    },
+    "QuantityChoice": {
+      "definition": "Auswahl zwischen verschiedenen Formaten der Wertpapiermenge."
+    }
+  }
+}

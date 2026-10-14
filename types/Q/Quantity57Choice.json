@@ -1,0 +1,12 @@
+{
+  "isoType": "Quantity57Choice",
+  "definition": "Auswahl zwischen verschiedenen Formaten der Wertpapiermenge.",
+  "isoElements": {
+    "OriginalAndCurrentFaceAmount": {
+      "definition": "Vorzeichenbehafteter Nennbetrag und amortisierter Wert des Wertpapiers."
+    },
+    "SignedQuantity": {
+      "definition": "Vorzeichenbehaftete Wertpapiermenge."
+    }
+  }
+}

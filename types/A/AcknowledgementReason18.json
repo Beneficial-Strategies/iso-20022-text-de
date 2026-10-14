@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgementReason18",
+  "definition": "Gibt zusätzliche Informationen zur verarbeiteten Anweisung an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Auswahl des Formats für den Bestätigungsgrund."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Enthält zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

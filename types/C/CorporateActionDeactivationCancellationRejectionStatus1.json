@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDeactivationCancellationRejectionStatus1",
+  "definition": "Stellt den Grund für die Ablehnung eines Antrags auf Stornierung einer Deaktivierung bereit.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Der Ablehnungsgrund."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "MarketType4Code",
+  "definition": "Gibt die Art des Ortes an, an dem ein Handel ausgeführt wurde, ein Preis bezogen wurde oder ein Instrument notiert ist.",
+  "isoCodes": {
+    "FUND": {
+      "name": "Fonds",
+      "definition": "Der Ort ist ein Fonds (Transfer Agent, Fonds selbst usw.)."
+    },
+    "LMAR": {
+      "name": "Lokaler Markt",
+      "definition": "Der Ort ist ein lokaler Markt."
+    },
+    "THEO": {
+      "name": "Theoretisch",
+      "definition": "Der Ort ist theoretisch."
+    },
+    "VEND": {
+      "name": "Anbieter",
+      "definition": "Der Ort ist ein Anbieter."
+    }
+  }
+}

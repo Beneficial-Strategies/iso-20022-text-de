@@ -1,0 +1,38 @@
+{
+  "isoType": "OfferType5Code",
+  "definition": "Gibt die Bedingungen an, die für das Angebot gelten.",
+  "isoCodes": {
+    "DISS": {
+      "name": "Rechte abweichender Aktionäre",
+      "definition": "Der Wertpapierinhaber hat das Recht, einem obligatorischen Ereignis zu widersprechen. Dieses Recht ist nicht in allen Angeboten enthalten und muss daher in Ankündigungen nur angegeben werden, wenn es anwendbar ist."
+    },
+    "NDIS": {
+      "name": "Rechte abweichender Aktionäre nicht anwendbar",
+      "definition": "Die Rechte abweichender Gesellschafter (Dissenter’s rights) sind für diese Option des Angebots nicht anwendbar."
+    },
+    "FINL": {
+      "name": "Endgültiges Angebot",
+      "definition": "Endgültiges oder letztes Angebot an Inhaber, vorbehaltlich des Erreichens der Angebotsbedingungen, zum Beispiel 50 Prozent Annahme bei einem Übernahmeangebot."
+    },
+    "FCFS": {
+      "name": "Wer zuerst kommt, mahlt zuerst",
+      "definition": "Wertpapiere werden in der Reihenfolge ihrer Einreichung angenommen, bis die angestrebte Zielmenge erreicht ist."
+    },
+    "PART": {
+      "name": "Teilangebot",
+      "definition": "Angebot des Anbieters für einen Teil der ausstehenden Aktien, die nicht bereits im Besitz des Anbieters sind."
+    },
+    "ERUN": {
+      "name": "Beschränkungsumtausch",
+      "definition": "Umtausch von Restricted in Unrestricted (oder umgekehrt)."
+    },
+    "SQUE": {
+      "name": "Squeeze-out-Angebot",
+      "definition": "Von einem Unternehmen, das eine große Anzahl der Aktien (90 % - 95 %) eines Unternehmens besitzt (im Allgemeinen als Ergebnis eines Übernahmeangebots), gestartetes Angebot, um die übrigen Aktien dieses Unternehmens zu erwerben."
+    },
+    "ACPR": {
+      "name": "Annahmepriorität",
+      "definition": "Das Ereignis wird in einer bestimmten, in den Angebotsunterlagen angegebenen Rangfolge gezahlt. Höhere Tranchen von Wertpapieren werden vor niedrigeren Tranchen gezahlt."
+    }
+  }
+}

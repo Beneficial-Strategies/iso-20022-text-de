@@ -1,0 +1,26 @@
+{
+  "isoType": "NetCashForecast4",
+  "definition": "Netto-Geldbewegung zu einem Fonds als Ergebnis von Investmentfondstransaktionen.",
+  "isoElements": {
+    "CashSettlementDate": {
+      "definition": "Datum, an dem das Geld verfügbar ist."
+    },
+    "NetAmount": {
+      "definition": "Nettobetrag des Zahlungsstroms, ausgedrückt als Geldbetrag."
+    },
+    "NetUnitsNumber": {
+      "definition": "Nettobetrag, ausgedrückt als Anzahl von Anteilen."
+    },
+    "FlowDirection": {
+      "definition": "Gibt die Richtung des Zahlungsstroms aus Sicht des Fonds an."
+    },
+    "AdditionalBalance": {
+      "definition": "Zusätzliche Salden für Geldbeträge und Anzahl von Anteilen. |In einem geschätzten Bericht ist das aus in Anteilen erteilten Aufträgen abgeleitete Gesamtgeld ein geschätzter Geldbetrag und die aus in Geld erteilten Aufträgen abgeleitete Gesamtzahl der Anteile eine geschätzte Anzahl von Anteilen."
+    }
+  },
+  "isoRules": {
+    "AdditionalBalanceRule": {
+      "definition": "Wenn AdditionalBalance vorhanden ist, muss mindestens ein Element der Liste (AdditionalBalance/TotalUnitsFromUnitOrders, AdditionalBalance/TotalUnitsFromCashOrders, AdditionalBalance/TotalCashFromUnitOrders, AdditionalBalance/TotalCashFromCashOrders) vorhanden sein."
+    }
+  }
+}

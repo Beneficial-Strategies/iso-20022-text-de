@@ -1,0 +1,22 @@
+{
+  "isoType": "ExternalTechnicalInputChannel1Code",
+  "definition": "Gibt den technischen Eingabekanal an, wie in einer externen Codeliste für technische Eingabekanäle veröffentlicht.|Externe Codelisten können unter www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "FAXI": {
+      "name": "Fax",
+      "definition": "Technischer Eingangskanal ist Fax bzw. Telefax"
+    },
+    "PAPR": {
+      "name": "Papier",
+      "definition": "Technischer Eingangskanal ist Papier"
+    },
+    "TAPE": {
+      "name": "Band",
+      "definition": "Technischer Eingangskanal ist Band"
+    },
+    "WEBI": {
+      "name": "Internet",
+      "definition": "Technischer Eingangskanal ist Internet"
+    }
+  }
+}

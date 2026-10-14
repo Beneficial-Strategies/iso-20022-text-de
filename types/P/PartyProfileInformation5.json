@@ -1,0 +1,48 @@
+{
+  "isoType": "PartyProfileInformation5",
+  "definition": "Informationen zur Unterstützung der Know-Your-Customer-Prozesse (KYC).",
+  "isoElements": {
+    "CertificationIndicator": {
+      "definition": "Gibt an, ob die Zertifikatsart eingeholt und überprüft wurde."
+    },
+    "ValidatingParty": {
+      "definition": "Identifikation der Person, die das Dokument validiert hat."
+    },
+    "CheckingParty": {
+      "definition": "Identifikation der Person, die das Dokument geprüft hat."
+    },
+    "ResponsibleParty": {
+      "definition": "Identifikation der Person, die für das Dokument verantwortlich ist."
+    },
+    "CertificateType": {
+      "definition": "Art des Zertifikats."
+    },
+    "CheckingDate": {
+      "definition": "Datum, an dem die Zertifizierungsprüfung durchgeführt wurde."
+    },
+    "CheckingFrequency": {
+      "definition": "Gibt an, wie häufig die Prüfung durchgeführt wird."
+    },
+    "NextRevisionDate": {
+      "definition": "Gibt das Datum an, an dem die nächste Zertifizierungsprüfung durchgeführt wird."
+    },
+    "SalaryRange": {
+      "definition": "Grenzen, zwischen denen das Gehalt einer Person geschätzt wird."
+    },
+    "SourceOfWealth": {
+      "definition": "Gibt die Haupteinkommensquelle an."
+    },
+    "CustomerConductClassification": {
+      "definition": "Gibt eine Beurteilung des Verhaltens des Kunden zum Zeitpunkt des Kontoeröffnungsantrags an."
+    },
+    "RiskLevel": {
+      "definition": "Gibt das Geldwäscherisiko des Kunden an."
+    },
+    "KnowYourCustomerCheckType": {
+      "definition": "Gibt die Art der Sorgfaltsprüfungen an, die beim Anleger oder Kontoinhaber durchgeführt wurden. Für Definitionen der ordentlichen, vereinfachten und verstärkten Know-Your-Customer-Prüfungen sind die lokalen Marktvorschriften heranzuziehen."
+    },
+    "KnowYourCustomerDatabaseCheck": {
+      "definition": "Gibt an, ob ein Kunde in einer Know-Your-Customer-Datenbank (KYC) geprüft wurde."
+    }
+  }
+}

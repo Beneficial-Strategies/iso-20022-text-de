@@ -1,0 +1,63 @@
+{
+  "isoType": "PaymentTransaction177",
+  "definition": "Enthält weitere Angaben zu den ursprünglichen Transaktionen, auf die sich die Statusbericht-Nachricht bezieht.",
+  "isoElements": {
+    "StatusIdentification": {
+      "definition": "Eindeutige, von einer anweisenden Partei für eine angewiesene Partei vergebene Identifikation zur zweifelsfreien Identifizierung des gemeldeten Status.|Verwendung: Die anweisende Partei ist die Partei, die die Statusnachricht sendet, und nicht die Partei, die die ursprüngliche Anweisung gesendet hat, über die berichtet wird."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Von der ursprünglich anweisenden Partei vergebene Punkt-zu-Punkt-Referenz zur zweifelsfreien Identifizierung der ursprünglichen Nachricht."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Eindeutige, von der ursprünglichen anweisenden Partei für die ursprüngliche angewiesene Partei vergebene Identifikation zur zweifelsfreien Identifizierung der ursprünglichen Anweisung."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Eindeutige, von der ursprünglichen initiierenden Partei vergebene Identifikation zur zweifelsfreien Identifizierung der ursprünglichen Transaktion."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Eindeutige, von der ursprünglichen ersten anweisenden Bank vergebene Identifikation zur zweifelsfreien Identifizierung der Transaktion."
+    },
+    "OriginalUETR": {
+      "definition": "Universell eindeutige Kennung zur Angabe der ursprünglichen Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "TransactionStatus": {
+      "definition": "Gibt den Status einer Transaktion an, wie in einer externen Code-Liste für Zahlungstransaktionsstatus veröffentlicht."
+    },
+    "StatusReasonInformation": {
+      "definition": "Liefert detaillierte Informationen zum Statusgrund."
+    },
+    "ChargesInformation": {
+      "definition": "Enthält Informationen zu den Entgelten im Zusammenhang mit der Verarbeitung der Zurückweisung der Anweisung.||Verwendung: Diese werden nur zu Informationszwecken weitergegeben. Die Abrechnung der Entgelte erfolgt gesondert."
+    },
+    "AcceptanceDateTime": {
+      "definition": "Zeitpunkt, zu dem der Zahlungsauftrag der initiierenden Partei die Verarbeitungsbedingungen der kontoführenden Bank erfüllt. Das heißt, die kontoführende Bank hat den Zahlungsauftrag erhalten und Prüfungen wie Autorisierung und Deckungsprüfung angewendet."
+    },
+    "ProcessingDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Anweisung von der angegebenen Partei verarbeitet wurde."
+    },
+    "EffectiveInterbankSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen eine Transaktion abgeschlossen und verrechnet ist, das heißt die Zahlung erfolgt."
+    },
+    "AccountServicerReference": {
+      "definition": "Eindeutige, vom kontoführenden Institut vergebene Referenz zur zweifelsfreien Identifizierung der Anweisung."
+    },
+    "ClearingSystemReference": {
+      "definition": "Eindeutige, von einem Clearingsystem vergebene Referenz zur zweifelsfreien Identifizierung der Anweisung."
+    },
+    "CreditSettlementKey": {
+      "definition": "Kryptografischer Schlüssel, der von der CreditorAgent bereitgestellt wird, um zu bestätigen, dass die Abwicklung auf dem Konto des Zahlungsempfängers garantiert ist."
+    },
+    "InstructingAgent": {
+      "definition": "Bank, die die nächste Partei in der Kette anweist, die Anweisung(en) auszuführen.||Verwendung: Die anweisende Bank ist die Partei, die die Statusnachricht sendet, und nicht die Partei, die die ursprüngliche Anweisung gesendet hat, über die berichtet wird."
+    },
+    "InstructedAgent": {
+      "definition": "Bank, die von der vorherigen Partei in der Kette angewiesen wird, die Anweisung(en) auszuführen.||Verwendung: Die angewiesene Bank ist die Partei, die die Statusnachricht empfängt, und nicht die Partei, die die ursprüngliche Anweisung erhalten hat, über die berichtet wird."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Schlüsselelemente zur Identifizierung der ursprünglichen Transaktion, auf die Bezug genommen wird."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  }
+}

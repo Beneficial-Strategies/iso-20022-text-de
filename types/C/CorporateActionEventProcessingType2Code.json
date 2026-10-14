@@ -1,0 +1,22 @@
+{
+  "isoType": "CorporateActionEventProcessingType2Code",
+  "definition": "Gibt die Art der Ereignisbearbeitung an.",
+  "isoCodes": {
+    "DISN": {
+      "name": "Ausschüttung",
+      "definition": "Der Inhaber des betreffenden Wertpapiers an einem bestimmten Datum, zum Beispiel dem Stichtag, erhält einen Vorteil, ohne das zugrunde liegende Wertpapier aufzugeben."
+    },
+    "GENL": {
+      "name": "Allgemein",
+      "definition": "Keine Belastung oder Gutschrift von Ressourcen."
+    },
+    "REDM": {
+      "name": "Rücknahme",
+      "definition": "Gibt an, dass die Ankündigung eine Rückzahlung von Wertpapieren betrifft, einschließlich Ereignissen wie vollständigen und teilweisen Kündigungen, Fälligkeiten, teilweiser Vorfinanzierung (Prerefunding) und teilweiser Defeasance."
+    },
+    "REOR": {
+      "name": "Reorganisation",
+      "definition": "Das zugrunde liegende Wertpapier wird belastet und kann durch eine andere Ressource (oder andere Ressourcen) ersetzt werden."
+    }
+  }
+}

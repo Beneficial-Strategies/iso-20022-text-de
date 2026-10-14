@@ -1,0 +1,33 @@
+{
+  "isoType": "CorporateActionPrice87",
+  "definition": "Gibt Preise im Zusammenhang mit einer Kapitalmaßnahmen-Option an.",
+  "isoElements": {
+    "CashInLieuOfSharePrice": {
+      "definition": "Barauszahlung anstelle von Aktien; üblicherweise anstelle einer Bruchteilsmenge."
+    },
+    "OverSubscriptionDepositPrice": {
+      "definition": "Vom Emittenten festgelegter Geldbetrag, der je überzeichneter Aktie erforderlich ist."
+    },
+    "MaximumCashToInstruct": {
+      "definition": "Maximaler Barbetrag, der angewiesen werden darf."
+    },
+    "MinimumCashToInstruct": {
+      "definition": "Minimaler Barbetrag, der angewiesen werden darf."
+    },
+    "MinimumMultipleCashToInstruct": {
+      "definition": "Mindestvielfaches eines Barbetrags, das angewiesen werden darf."
+    },
+    "MaximumPrice": {
+      "definition": "Höchst- oder Obergrenzenpreis, zu dem ein Inhaber bieten kann, zum Beispiel bei einem Angebot im Holländischen Verfahren (Dutch Auction)."
+    },
+    "MinimumPrice": {
+      "definition": "Mindest- oder Untergrenzenpreis, zu dem ein Inhaber bieten kann, zum Beispiel bei einem Angebot im Holländischen Verfahren (Dutch Auction)."
+    },
+    "FirstBidIncrementPrice": {
+      "definition": "Erster akzeptabler Preis nach dem Mindestpreis, zu dem ein Inhaber bieten kann, zum Beispiel bei einem Angebot im Holländischen Verfahren (Dutch Auction)."
+    },
+    "LastBidIncrementPrice": {
+      "definition": "Letzter akzeptabler Preis vor dem Höchstpreis, zu dem ein Inhaber bieten kann, zum Beispiel bei einem Angebot im Holländischen Verfahren (Dutch Auction)."
+    }
+  }
+}

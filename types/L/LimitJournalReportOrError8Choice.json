@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitJournalReportOrError8Choice",
+  "definition": "Legt den Limit-Geschäftsbericht entweder als Limitbericht oder als Geschäftsfehler fest.",
+  "isoElements": {
+    "LimitJournal": {
+      "definition": "Angeforderte Informationen zum Limit."
+    },
+    "BusinessError": {
+      "definition": "Grund, weshalb die angeforderten Geschäftsinformationen nicht angegeben werden."
+    }
+  }
+}

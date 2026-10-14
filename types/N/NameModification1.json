@@ -1,0 +1,12 @@
+{
+  "isoType": "NameModification1",
+  "definition": "Legt die Art der Änderung des Namens fest.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Legt die Art der Änderung fest."
+    },
+    "Name": {
+      "definition": "Name des Kontos."
+    }
+  }
+}

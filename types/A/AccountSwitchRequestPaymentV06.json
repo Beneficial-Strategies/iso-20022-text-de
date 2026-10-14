@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchRequestPaymentV06",
+  "definition": "Die Nachricht AccountSwitchRequestPayment wird nach Abschluss des Kontowechsels vom alten kontoführenden Institut an das neue kontoführende Institut gesendet, um die Übertragung von Geldern für eine Zahlung anzufordern, die das vorherige kontoführende Institut vom alten Konto hat leisten müssen (zum Beispiel die Abwicklung einer offline autorisierten Kartentransaktion)."
+}

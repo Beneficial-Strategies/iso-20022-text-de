@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentIdentification57",
+  "definition": "Identifiziert ein Dokument anhand einer eindeutigen Identifikation.",
+  "isoElements": {
+    "BuyerProtectionInstructionIdentification": {
+      "definition": "Identifikation des zugehörigen Dokuments der Käuferschutz-Anweisung, für das der Status geliefert wird."
+    },
+    "ProcessorInstructionIdentification": {
+      "definition": "Identifikation der Anweisung, die vom Bearbeiter der Anweisung vergeben wurde, bei dem es sich nicht um den Kontoinhaber, den Kontoführer oder die Marktinfrastruktur handelt."
+    }
+  }
+}

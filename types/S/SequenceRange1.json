@@ -1,0 +1,12 @@
+{
+  "isoType": "SequenceRange1",
+  "definition": "Gibt einen Bereich von Sequenzen von einer Startsequenz bis zu einer Endsequenz an.",
+  "isoElements": {
+    "FromSequence": {
+      "definition": "Startsequenz des Bereichs."
+    },
+    "ToSequence": {
+      "definition": "Endsequenz des Bereichs."
+    }
+  }
+}

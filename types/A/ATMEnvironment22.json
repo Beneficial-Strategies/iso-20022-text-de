@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMEnvironment22",
+  "definition": "Umfeld der Transaktion.",
+  "isoElements": {
+    "Acquirer": {
+      "definition": "Acquirer der Transaktion am ATM, zuständig für die Verrechnung der Gelder mit dem Emittenten."
+    },
+    "ATMManagerIdentification": {
+      "definition": "Identifikation des ATM-Betreibers."
+    },
+    "HostingEntity": {
+      "definition": "Stelle, die das Terminal des ATM betreibt."
+    },
+    "ATM": {
+      "definition": "Informationen zum ATM."
+    },
+    "Card": {
+      "definition": "Karte, mit der die Transaktion durchgeführt wird."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ReferredDocumentType4",
+  "definition": "Gibt die Art des in den Verwendungszweck-Informationen referenzierten Dokuments an.",
+  "isoElements": {
+    "CodeOrProprietary": {
+      "definition": "Liefert die Angaben zur Art des referenzierten Dokuments."
+    },
+    "Issuer": {
+      "definition": "Identifikation des Ausstellers der Art des Referenzdokuments."
+    }
+  }
+}

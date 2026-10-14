@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesOption84",
+  "definition": "Gibt die Wertpapier-Option eines Kapitalmaßnahmen-Ereignisses an.",
+  "isoElements": {
+    "MaximumQuantityToInstruct": {
+      "definition": "Maximale Menge des Finanzinstruments, die angewiesen werden darf."
+    },
+    "MinimumQuantityToInstruct": {
+      "definition": "Minimale Menge des Finanzinstruments, die angewiesen werden darf."
+    },
+    "MinimumMultipleQuantityToInstruct": {
+      "definition": "Mindestvielfaches der Menge des Finanzinstruments, das angewiesen werden darf."
+    },
+    "NewBoardLotQuantity": {
+      "definition": "Menge an Beteiligungspapieren, die den neuen Handelslot bildet."
+    },
+    "NewDenominationQuantity": {
+      "definition": "Neue Stückelung der Beteiligungspapiere nach zum Beispiel einer Erhöhung oder Herabsetzung des Nennwerts."
+    },
+    "FrontEndOddLotQuantity": {
+      "definition": "Gibt an, dass bei anteiliger Zuteilung eines Auftrags der Bestand von Inhabern von Splitterbeständen, die ihren gesamten Bestand andienen, nicht anteilig gekürzt, sondern vollständig angenommen wird."
+    },
+    "BackEndOddLotQuantity": {
+      "definition": "Stellt das Vorhandensein einer nachgelagerten Splitterbestandsregelung dar sowie die nach der anteiligen Zuteilung erforderliche Aktienmenge, um für dieses Vorrecht in Frage zu kommen."
+    }
+  }
+}

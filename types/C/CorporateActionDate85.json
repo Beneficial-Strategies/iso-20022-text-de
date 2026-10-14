@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionDate85",
+  "definition": "Gibt Daten der Kapitalmaßnahme an.",
+  "isoElements": {
+    "RecordDate": {
+      "definition": "Datum/Uhrzeit, zu dem die Positionen am Ende des Tages festgestellt werden, um zu ermitteln, welche Parteien den maßgeblichen Anspruchsbetrag erhalten, der am Zahlungstag auszuschütten ist."
+    },
+    "ExDividendDate": {
+      "definition": "Datum/Uhrzeit, ab dem der Handel (einschließlich Börsen- und OTC-Handel) mit dem zugrunde liegenden Wertpapier ohne den Vorteil stattfindet."
+    },
+    "LotteryDate": {
+      "definition": "Datum/Uhrzeit, zu dem die Auslosung durchgeführt und auf die Positionen des Inhabers angewendet wird. Dies gilt auch für teilweise Kündigungen."
+    }
+  }
+}

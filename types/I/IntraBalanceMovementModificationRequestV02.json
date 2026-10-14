@@ -1,0 +1,4 @@
+{
+  "isoType": "IntraBalanceMovementModificationRequestV02",
+  "definition": "Die Nachricht IntraBalanceMovementModificationRequest wird von einem Kontoinhaber/Auftraggeber an eine Abwicklungsinfrastruktur gesendet, um die Änderung eines Verarbeitungskennzeichens einer zuvor gesendeten Nachricht IntraBalanceMovementInstruction zu beantragen.||Verwendung: |Die Nachricht kann verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht lautet „Duplicate“)|- einem Dritten zur Information eine Kopie einer Nachricht zur Verfügung zu stellen (die Unterfunktion der Nachricht lautet „Copy“)|- einem Dritten zur Information eine Kopie einer Nachricht erneut zu senden (die Unterfunktion der Nachricht lautet „CopyDuplicate“)."
+}

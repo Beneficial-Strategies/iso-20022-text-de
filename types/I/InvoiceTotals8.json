@@ -1,0 +1,15 @@
+{
+  "isoType": "InvoiceTotals8",
+  "definition": "Gibt Summen im Zusammenhang mit der Rechnung an.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Eindeutige Identifikation eines Wertpapierkontos oder Geldkontos des abgerechneten Kunden."
+    },
+    "InvoiceTotals": {
+      "definition": "Gibt Summen im Zusammenhang mit der Rechnung an."
+    },
+    "ServiceCategoryTotals": {
+      "definition": "Gibt Summen im Zusammenhang mit der Dienstleistungskategorie an."
+    }
+  }
+}

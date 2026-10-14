@@ -1,0 +1,18 @@
+{
+  "isoType": "RegulatoryInformation1",
+  "definition": "Aufsichtsrechtliche Informationen.",
+  "isoElements": {
+    "Sector": {
+      "definition": "Sektor der Wirtschaftstätigkeit, beispielsweise SAE im italienischen Markt."
+    },
+    "Branch": {
+      "definition": "Zweig der Wirtschaftstätigkeit, beispielsweise RAE im italienischen Markt."
+    },
+    "Group": {
+      "definition": "Gruppe der Wirtschaftstätigkeit, beispielsweise ein von einer Aufsichtsbehörde vergebener Code."
+    },
+    "Other": {
+      "definition": "Sonstige aufsichtsrechtliche Informationen."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "isoType": "PendingStatusReason34",
+  "definition": "Gründe für den Status ausstehend einer Anweisung.",
+  "isoElements": {
+    "ReasonCode": {
+      "definition": "Grund für den Status ausstehend."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Zusätzliche Informationen zum Status ausstehend."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "Das Element AdditionalReasonInformation darf keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können, sofern nicht bilateral vereinbart."
+    }
+  }
+}

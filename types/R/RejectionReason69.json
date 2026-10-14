@@ -1,0 +1,15 @@
+{
+  "isoType": "RejectionReason69",
+  "definition": "Grund für die Ablehnung der Nachricht.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Grund für die Ablehnung der Nachricht."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Ablehnungsgrund."
+    },
+    "LinkedMessage": {
+      "definition": "Identifikation der ungültigen oder nicht erkannten Referenz."
+    }
+  }
+}

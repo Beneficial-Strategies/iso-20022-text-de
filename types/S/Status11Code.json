@@ -1,0 +1,42 @@
+{
+  "isoType": "Status11Code",
+  "definition": "Gibt den Status einer Anweisung an.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Akzeptiert",
+      "definition": "Die Anweisung wurde akzeptiert und für die Weiterverarbeitung validiert."
+    },
+    "ATTC": {
+      "name": "Teilnahme bestätigt",
+      "definition": "Die Teilnahme an der Versammlung ist bestätigt."
+    },
+    "CAND": {
+      "name": "Storniert",
+      "definition": "Die Anweisung wurde storniert."
+    },
+    "CSUB": {
+      "name": "Vom Unterverwahrer storniert",
+      "definition": "Die Anweisung wurde vom Beauftragten storniert, zum Beispiel aufgrund einer Verlängerung der Ereignisfrist."
+    },
+    "FRWD": {
+      "name": "Weitergeleitet",
+      "definition": "Akzeptiert und entlang der Kette weitergeleitet."
+    },
+    "RCIS": {
+      "name": "Vom Emittenten oder Registerführer erhalten",
+      "definition": "Die Anweisung wurde vom Emittenten empfangen, gleichbedeutend mit der Empfangsbestätigung für elektronisch abgegebene Stimmen."
+    },
+    "REGM": {
+      "name": "Zur Teilnahme an der Versammlung registriert",
+      "definition": "Der Rechteinhaber wurde für die Teilnahme an der Versammlung registriert."
+    },
+    "STIN": {
+      "name": "Dauerauftrag",
+      "definition": "Die Dauerauftragsanweisung wird angewendet."
+    },
+    "DREG": {
+      "name": "Abmeldung abgeschlossen",
+      "definition": "Der Rechteinhaber wurde aus der Teilnehmerliste der Versammlung abgemeldet."
+    }
+  }
+}

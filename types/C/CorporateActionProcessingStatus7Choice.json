@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionProcessingStatus7Choice",
+  "definition": "Gibt den Status der Einzelheiten des Kapitalmaßnahmen-Ereignisses an.",
+  "isoElements": {
+    "ForInformationOnly": {
+      "definition": "Gibt an, ob die Informationen zum Unternehmensereignis nur zur Information bereitgestellt werden."
+    },
+    "EventInformationStatus": {
+      "definition": "Status der zum Kapitalmaßnahmen-Ereignis bereitgestellten Informationen."
+    }
+  }
+}

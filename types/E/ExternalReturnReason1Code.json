@@ -1,0 +1,422 @@
+{
+  "isoType": "ExternalReturnReason1Code",
+  "definition": "Gibt den Rückgabegrund an, wie er in einer externen Liste von Rückgabegrund-Codes veröffentlicht ist.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "AC01": {
+      "name": "Falsche Kontonummer",
+      "definition": "Das Format der angegebenen Kontonummer ist nicht korrekt"
+    },
+    "AC03": {
+      "name": "Ungültige Kontonummer des Zahlungsempfängers",
+      "definition": "Falsche IBAN in SCT"
+    },
+    "AC04": {
+      "name": "Geschlossene Kontonummer",
+      "definition": "Die angegebene Kontonummer wurde in den Büchern der kontoführenden Bank geschlossen"
+    },
+    "AC06": {
+      "name": "Gesperrtes Konto",
+      "definition": "Das angegebene Konto ist gesperrt, sodass keine Transaktionen darauf gebucht werden können."
+    },
+    "AC13": {
+      "name": "Ungültige Kontoart des Zahlungspflichtigen",
+      "definition": "Kontotyp des Zahlungspflichtigen fehlt oder ist ungültig"
+    },
+    "AC14": {
+      "name": "Ungültiger Agent",
+      "definition": "Eine Bank in der Zahlungskette ist ungültig."
+    },
+    "AC15": {
+      "name": "Kontodaten geändert",
+      "definition": "Kontodaten haben sich geändert."
+    },
+    "AC16": {
+      "name": "Konto unter Zwangsverwaltung",
+      "definition": "Das Konto befindet sich in Zwangsverwaltung."
+    },
+    "AC17": {
+      "name": "Konto in Liquidation",
+      "definition": "Das Konto befindet sich in Liquidation."
+    },
+    "AG01": {
+      "name": "Transaktion nicht erlaubt",
+      "definition": "Transaktion auf dieser Kontoart nicht zulässig (früher NoAgreement)"
+    },
+    "AG02": {
+      "name": "Ungültiger Bankoperationscode",
+      "definition": "Der in der Nachricht angegebene Bank-Operation-Code ist für den Empfänger nicht gültig."
+    },
+    "AM01": {
+      "name": "Nullbetrag",
+      "definition": "Der angegebene Nachrichtenbetrag ist gleich null"
+    },
+    "AM02": {
+      "name": "Nicht erlaubter Betrag",
+      "definition": "Der angegebene Transaktions-/Nachrichtenbetrag ist größer als das zulässige Maximum"
+    },
+    "AM03": {
+      "name": "Nicht erlaubte Währung",
+      "definition": "Der angegebene Nachrichtenbetrag lautet auf eine nicht verarbeitbare Währung außerhalb der bestehenden Vereinbarung"
+    },
+    "AM04": {
+      "name": "Unzureichende Deckung",
+      "definition": "Der zur Deckung des angegebenen Nachrichtenbetrags verfügbare Betrag ist unzureichend."
+    },
+    "AM05": {
+      "name": "Duplizierung",
+      "definition": "Duplizierung"
+    },
+    "AM06": {
+      "name": "Zu niedriger Betrag",
+      "definition": "Der angegebene Transaktionsbetrag liegt unter dem vereinbarten Minimum."
+    },
+    "AM07": {
+      "name": "Gesperrter Betrag",
+      "definition": "Der in der Nachricht angegebene Betrag wurde von Aufsichtsbehörden gesperrt."
+    },
+    "AM09": {
+      "name": "Falscher Betrag",
+      "definition": "Der erhaltene Betrag entspricht nicht dem vereinbarten oder erwarteten Betrag"
+    },
+    "AM10": {
+      "name": "Ungültige Kontrollsumme",
+      "definition": "Die Summe der angewiesenen Beträge entspricht nicht der Kontrollsumme."
+    },
+    "ARDT": {
+      "name": "Transaktion bereits zurückgegeben",
+      "definition": "Ursprüngliche SCT bereits zurückgegeben"
+    },
+    "BE01": {
+      "name": "Nicht konsistent mit dem Endkunden",
+      "definition": "Die Identifikation des Endkunden stimmt nicht mit der zugehörigen Kontonummer, Organisations-ID oder Privat-ID überein."
+    },
+    "BE04": {
+      "name": "Fehlende Adresse des Zahlungsempfängers",
+      "definition": "Die für die Zahlung erforderliche Angabe der Adresse des Zahlungsempfängers fehlt bzw. ist nicht korrekt (früher IncorrectCreditorAddress)."
+    },
+    "BE05": {
+      "name": "Nicht erkannte initiierende Partei",
+      "definition": "Die Partei, die die Nachricht veranlasst hat, ist dem Endkunden nicht bekannt"
+    },
+    "BE06": {
+      "name": "Unbekannter Endkunde",
+      "definition": "Der angegebene Endkunde ist bei der zugehörigen Bankleitzahl/nationalen Bankkennung nicht bekannt oder existiert in den Büchern nicht mehr"
+    },
+    "BE07": {
+      "name": "Anschrift des Zahlungspflichtigen fehlt",
+      "definition": "Die für die Zahlung erforderliche Angabe der Adresse des Zahlungspflichtigen fehlt bzw. ist nicht korrekt."
+    },
+    "BE08": {
+      "name": "Bankfehler",
+      "definition": "Aufgrund eines Bankfehlers zurückgegeben."
+    },
+    "CN01": {
+      "name": "Autorisierung storniert",
+      "definition": "Autorisierung wird storniert."
+    },
+    "CNOR": {
+      "name": "Bank des Zahlungsempfängers ist nicht registriert",
+      "definition": "Die Bank des Zahlungsempfängers ist unter diesem BIC im CSM nicht registriert"
+    },
+    "CNPC": {
+      "name": "Bargeld nicht abgeholt",
+      "definition": "Bargeld wurde vom Zahlungsempfänger nicht abgeholt oder konnte dem Zahlungsempfänger nicht zugestellt werden"
+    },
+    "CURR": {
+      "name": "Falsche Währung",
+      "definition": "Die Währung der Zahlung ist nicht korrekt"
+    },
+    "CUST": {
+      "name": "Vom Kunden angefordert",
+      "definition": "Stornierung vom Zahlungspflichtigen beantragt"
+    },
+    "DNOR": {
+      "name": "Bank des Zahlungspflichtigen ist nicht registriert",
+      "definition": "Die Bank des Zahlungspflichtigen ist unter diesem BIC im CSM nicht registriert"
+    },
+    "DS28": {
+      "name": "Rückgabe aus technischen Gründen",
+      "definition": "Rückgabe aufgrund technischer Probleme, die zu einer fehlerhaften Transaktion geführt haben."
+    },
+    "DT01": {
+      "name": "Ungültiges Datum",
+      "definition": "Ungültiges Datum (z. B. falsches Abwicklungsdatum)"
+    },
+    "DT02": {
+      "name": "Scheck verfallen",
+      "definition": "Scheck wurde ausgestellt, aber nicht eingereicht und gilt als verfallen."
+    },
+    "ED01": {
+      "name": "Korrespondenzbank nicht möglich",
+      "definition": "Korrespondenzbank nicht möglich."
+    },
+    "ED03": {
+      "name": "Anforderung von Saldeninformationen",
+      "definition": "Ergänzende Informationen zur Zahlungsbilanz werden angefordert"
+    },
+    "ED05": {
+      "name": "Abwicklung fehlgeschlagen",
+      "definition": "Die Abwicklung der Transaktion ist fehlgeschlagen."
+    },
+    "EMVL": {
+      "name": "EMV-Haftungsverschiebung",
+      "definition": "Die Kartenzahlung ist betrügerisch und wurde bei einer EMV-Karte nicht mit EMV-Technologie verarbeitet."
+    },
+    "ERIN": {
+      "name": "ERI-Option nicht unterstützt",
+      "definition": "Die Option Extended Remittance Information (ERI) wird nicht unterstützt."
+    },
+    "FF05": {
+      "name": "Ungültiger Code für das lokale Instrument",
+      "definition": "Local-Instrument-Code fehlt oder ist ungültig"
+    },
+    "FOCR": {
+      "name": "Aufgrund einer Stornoanfrage",
+      "definition": "Rückgabe nach einem Stornierungsantrag"
+    },
+    "FR01": {
+      "name": "Betrug",
+      "definition": "Rückgabe infolge von Betrug."
+    },
+    "FRTR": {
+      "name": "Endgültige Antwort, Mandat widerrufen",
+      "definition": "Abschließende Antwort/Nachverfolgung wird zurückgerufen, da das Mandat widerrufen wurde."
+    },
+    "MD01": {
+      "name": "Kein Mandat",
+      "definition": "Kein Mandat"
+    },
+    "MD02": {
+      "name": "Pflichtangaben im Mandat fehlen",
+      "definition": "Die vom Verfahren geforderten mandatsbezogenen Informationen fehlen."
+    },
+    "MD06": {
+      "name": "Erstattungsanfrage des Endkunden",
+      "definition": "Rückgabe der Mittel vom Endkunden angefordert"
+    },
+    "MD07": {
+      "name": "Endkunde verstorben",
+      "definition": "Der Endkunde ist verstorben."
+    },
+    "MS02": {
+      "name": "Nicht spezifizierter, vom Kunden veranlasster Grund",
+      "definition": "Der Grund wurde vom Endkunden nicht angegeben"
+    },
+    "MS03": {
+      "name": "Nicht angegebener Grund (vom Agenten erzeugt)",
+      "definition": "Der Grund wurde von der Bank nicht angegeben."
+    },
+    "NARR": {
+      "name": "Freitext",
+      "definition": "Der Grund wird als Freitext in den zusätzlichen Grundinformationen angegeben."
+    },
+    "NOAS": {
+      "name": "Keine Antwort vom Kunden",
+      "definition": "Keine Antwort vom Begünstigten"
+    },
+    "NOCM": {
+      "name": "Nicht konform",
+      "definition": "Das Kundenkonto entspricht nicht den aufsichtsrechtlichen Anforderungen, beispielsweise FICA (in Südafrika) oder anderen aufsichtsrechtlichen Anforderungen, durch die ein Konto für bestimmte Verarbeitungen inaktiv wird."
+    },
+    "NOOR": {
+      "name": "Keine ursprüngliche Transaktion empfangen",
+      "definition": "Ursprüngliche SCT nie eingegangen"
+    },
+    "PINL": {
+      "name": "PIN-Haftungsverschiebung",
+      "definition": "Die Kartenzahlung ist betrügerisch (Betrug mit verlorener oder gestohlener Karte) und wurde als EMV-Transaktion ohne PIN-Verifizierung verarbeitet."
+    },
+    "RC01": {
+      "name": "Bankkennung fehlerhaft",
+      "definition": "Der in der Nachricht angegebene Bank Identifier Code hat ein falsches Format (früher IncorrectFormatForRoutingCode)."
+    },
+    "RC07": {
+      "name": "Ungültige BIC-Kennung des Zahlungsempfängers",
+      "definition": "Falscher BIC der Bank des Begünstigten in der SCTR"
+    },
+    "RF01": {
+      "name": "Transaktionsreferenz nicht eindeutig",
+      "definition": "Die Transaktionsreferenz ist innerhalb der Nachricht nicht eindeutig."
+    },
+    "RR01": {
+      "name": "Konto oder Identifikation des Zahlungspflichtigen fehlt",
+      "definition": "Die aus aufsichtsrechtlichen Gründen erforderliche Angabe des Kontos oder der eindeutigen Identifikation des Zahlungspflichtigen ist unzureichend oder fehlt"
+    },
+    "RR02": {
+      "name": "Name oder Anschrift des Zahlungspflichtigen fehlt",
+      "definition": "Die aus aufsichtsrechtlichen Gründen erforderliche Angabe von Name und/oder Adresse des Zahlungspflichtigen ist unzureichend oder fehlt."
+    },
+    "RR03": {
+      "name": "Name oder Anschrift des Zahlungsempfängers fehlt",
+      "definition": "Die aus aufsichtsrechtlichen Gründen erforderliche Angabe von Name und/oder Adresse des Zahlungsempfängers ist unzureichend oder fehlt."
+    },
+    "RR04": {
+      "name": "Regulatorischer Grund",
+      "definition": "Aufsichtsrechtlicher Grund"
+    },
+    "RUTA": {
+      "name": "Rückgabe wegen fehlender Zuordnungsmöglichkeit",
+      "definition": "Rückgabe infolge einer Untersuchungsanfrage, keine Abhilfe möglich."
+    },
+    "SL01": {
+      "name": "Spezifischer Service der Bank des Zahlungspflichtigen",
+      "definition": "Aufgrund einer besonderen Dienstleistung der Bank des Zahlungspflichtigen"
+    },
+    "SL02": {
+      "name": "Spezifischer Service der Bank des Zahlungsempfängers",
+      "definition": "Aufgrund einer besonderen Dienstleistung der Bank des Zahlungsempfängers"
+    },
+    "SL11": {
+      "name": "Zahlungsempfänger nicht auf der Whitelist des Zahlungspflichtigen",
+      "definition": "Whitelisting-Dienst der Bank des Zahlungspflichtigen; der Zahlungspflichtige hat den Zahlungsempfänger (noch) nicht in seine „Whitelist“ aufgenommen. In der Whitelist kann der Zahlungspflichtige alle Zahlungsempfänger aufführen, die das Konto des Zahlungspflichtigen belasten dürfen."
+    },
+    "SL12": {
+      "name": "Zahlungsempfänger auf der Blacklist des Zahlungspflichtigen",
+      "definition": "Blacklisting-Dienst der Bank des Zahlungspflichtigen; der Zahlungspflichtige hat den Zahlungsempfänger in seine „Blacklist“ aufgenommen. In der Blacklist kann der Zahlungspflichtige alle Zahlungsempfänger aufführen, die das Konto des Zahlungspflichtigen nicht belasten dürfen."
+    },
+    "SL13": {
+      "name": "Höchstzahl an Lastschrifttransaktionen überschritten",
+      "definition": "Aufgrund des von der Bank des Zahlungspflichtigen angebotenen Dienstes zur Begrenzung der maximal zulässigen Anzahl von Lastschrifttransaktionen pro Zeitraum."
+    },
+    "SL14": {
+      "name": "Höchstbetrag der Lastschrifttransaktion überschritten",
+      "definition": "Aufgrund des von der Bank des Zahlungspflichtigen angebotenen Dienstes zur Begrenzung des maximal zulässigen Lastschriftbetrags."
+    },
+    "SP01": {
+      "name": "Zahlung gestoppt",
+      "definition": "Die Zahlung wurde vom Kontoinhaber gestoppt."
+    },
+    "SP02": {
+      "name": "Zuvor gestoppt",
+      "definition": "Zuvor durch eine Zahlungsstopp-Mitteilung gestoppt."
+    },
+    "SVNR": {
+      "name": "Leistung nicht erbracht",
+      "definition": "Die Kartenzahlung wird zurückgegeben, da ein ausgegebener Bargeldbetrag nicht korrekt war oder dem Kunden Waren oder eine Dienstleistung nicht geliefert wurden, z. B. im E-Commerce."
+    },
+    "TM01": {
+      "name": "Annahmeschlusszeit",
+      "definition": "Die zugehörige Nachricht wurde nach der vereinbarten Annahmeschlusszeit der Verarbeitung empfangen."
+    },
+    "TRAC": {
+      "name": "Aus der Nachverfolgung entfernt",
+      "definition": "Rückgabe nach Entfernung der Lastschrift aus dem Nachverfolgungsprozess."
+    },
+    "UPAY": {
+      "name": "Ungerechtfertigte Zahlung",
+      "definition": "Die Zahlung ist nicht gerechtfertigt."
+    },
+    "AGNT": {
+      "name": "Falsche Bank",
+      "definition": "Die Bank im Zahlungsablauf ist nicht korrekt."
+    },
+    "FF06": {
+      "name": "Ungültiger Code für den Kategoriezweck",
+      "definition": "Der Category-Purpose-Code fehlt oder ist ungültig."
+    },
+    "RC08": {
+      "name": "Ungültige Kennung des Clearingsystem-Teilnehmers",
+      "definition": "ClearingSystemMemberidentifier ist ungültig oder fehlt.|Allgemeine Verwendung, wenn nicht zwischen Lastschrift- oder Gutschriftkonto unterschieden werden kann."
+    },
+    "BE11": {
+      "name": "Ungültiges Land des Zahlungsempfängers",
+      "definition": "Der Ländercode des Zahlungsempfängers fehlt oder ist ungültig."
+    },
+    "BE17": {
+      "name": "Ungültiger Identifikationscode des Zahlungsempfängers",
+      "definition": "Der Identifikationscode des Zahlungsempfängers oder Letztlichen Zahlungsempfängers fehlt oder ist ungültig."
+    },
+    "AC02": {
+      "name": "Ungültige Kontonummer des Zahlungspflichtigen",
+      "definition": "Kontonummer des Zahlungspflichtigen ungültig oder fehlend."
+    },
+    "RR11": {
+      "name": "Ungültige Service-Identifikation der Bank des Zahlungspflichtigen",
+      "definition": "Ungültige oder fehlende Identifikation eines bankeigenen Dienstes."
+    },
+    "BE10": {
+      "name": "Ungültiges Land des Zahlungspflichtigen",
+      "definition": "Der Ländercode des Zahlungspflichtigen fehlt oder ist ungültig."
+    },
+    "BE16": {
+      "name": "Ungültiger Identifikationscode des Zahlungspflichtigen",
+      "definition": "Identifikationscode des Zahlungspflichtigen oder Letztlich Zahlungspflichtigen fehlt oder ist ungültig."
+    },
+    "RC11": {
+      "name": "Ungültige zwischengeschaltete Bank",
+      "definition": "Die zwischengeschaltete Bank ist ungültig oder fehlt."
+    },
+    "RR12": {
+      "name": "Ungültige Partei-Identifikation",
+      "definition": "Ungültige oder fehlende Identifikation, die innerhalb eines bestimmten Landes oder für eine bestimmte Zahlungsart erforderlich ist."
+    },
+    "FF03": {
+      "name": "Ungültige Angaben zur Zahlungsart",
+      "definition": "Die Zahlungstypinformationen fehlen oder sind ungültig.|Allgemeine Verwendung, wenn nicht zwischen Service-Level- oder Local-Instrument-Code unterschieden werden kann."
+    },
+    "FF07": {
+      "name": "Ungültiger Zweck",
+      "definition": "Der Zweck fehlt oder ist ungültig."
+    },
+    "FF04": {
+      "name": "Ungültiger Servicelevel-Code",
+      "definition": "Der Service-Level-Code fehlt oder ist ungültig."
+    },
+    "RR09": {
+      "name": "Ungültige strukturierte Referenz des Zahlungsempfängers",
+      "definition": "Strukturierte Referenz des Zahlungsempfängers ungültig oder fehlt."
+    },
+    "RR05": {
+      "name": "Regulatorische Informationen ungültig",
+      "definition": "Aufsichtsrechtliche Meldeinformationen bzw. Informationen für die Zentralbank fehlen, sind unvollständig oder ungültig."
+    },
+    "RR07": {
+      "name": "Verwendungszweck-Informationen ungültig",
+      "definition": "Die Struktur der Verwendungszweck-Informationen entspricht nicht den Regeln für die Zahlungsart."
+    },
+    "RR08": {
+      "name": "Verwendungszweck-Informationen abgeschnitten",
+      "definition": "Verwendungszweck-Informationen wurden gekürzt, um den Regeln für die Zahlungsart zu entsprechen."
+    },
+    "RR06": {
+      "name": "Steuerinformationen ungültig",
+      "definition": "Steuerinformationen fehlen, sind unvollständig oder ungültig."
+    },
+    "AG07": {
+      "name": "Erfolglose Lastschrift",
+      "definition": "Das Konto des Zahlungspflichtigen kann aus einem allgemeinen Grund nicht belastet werden.|Verwendung: Der Codewert kann allgemein verwendet werden und als Ersatz für AM04, wenn die Bank des Zahlungspflichtigen die unzureichende Deckung ihres Kunden aus Datenschutzgründen nicht offenlegt."
+    },
+    "G004": {
+      "name": "Gutschrift ausstehend, Deckung fehlt",
+      "definition": "Bei einer FIToFI-Kundenüberweisung: Die Gutschrift auf dem Konto des Zahlungsempfängers steht noch aus, der Status-Originator wartet auf Mittel, die über eine Deckung bereitgestellt werden. Vom Status-Originator folgt eine Aktualisierung."
+    },
+    "MD05": {
+      "name": "Einzug nicht fällig",
+      "definition": "Der Zahlungsempfänger oder die Bank des Zahlungsempfängers hätte die Lastschrift nicht einziehen dürfen."
+    },
+    "AC07": {
+      "name": "Geschlossene Kontonummer des Zahlungsempfängers",
+      "definition": "Kontonummer des Zahlungsempfängers geschlossen."
+    },
+    "DC04": {
+      "name": "Keine Kundenüberweisung empfangen",
+      "definition": "Rückgabe der Covering-Abwicklung, weil die Details der zugrunde liegenden Überweisung nicht eingegangen sind."
+    },
+    "RC04": {
+      "name": "Ungültige Kennung der Bank des Zahlungsempfängers",
+      "definition": "Die Kennung der Bank des Zahlungsempfängers ist ungültig oder fehlt."
+    },
+    "DT04": {
+      "name": "Zukünftiges Datum nicht unterstützt",
+      "definition": "Zukünftiges Datum wird nicht unterstützt."
+    },
+    "DUPL": {
+      "name": "Doppelte Zahlung",
+      "definition": "Die Zahlung ist ein Duplikat einer anderen Zahlung."
+    },
+    "RC03": {
+      "name": "Ungültige Kennung der Bank des Zahlungspflichtigen",
+      "definition": "Die Kennung der Bank des Zahlungspflichtigen ist ungültig oder fehlt."
+    }
+  }
+}

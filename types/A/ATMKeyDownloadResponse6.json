@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMKeyDownloadResponse6",
+  "definition": "Informationen zur Antwort auf einen Schlüssel-Download eines ATM von einem ATM-Betreiber.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Umfeld des Schlüssel-Downloads."
+    },
+    "ATMSecurityContext": {
+      "definition": "Kontext des ATM für den Schlüssel-Download."
+    },
+    "ATMChallenge": {
+      "definition": "Zufallswert des ATM, der bei einem vorherigen Austausch bereitgestellt wurde."
+    },
+    "HostSecurityParameters": {
+      "definition": "Sicherheitsparameter des Hosts, der den Schlüssel herunterlädt."
+    },
+    "Command": {
+      "definition": "Auf dem ATM auszuführender Wartungsbefehl."
+    }
+  }
+}

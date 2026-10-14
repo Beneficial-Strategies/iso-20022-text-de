@@ -1,0 +1,24 @@
+{
+  "isoType": "TransferReference16",
+  "definition": "Referenz einer Übertragung und einer Übertragungsbestätigung.",
+  "isoElements": {
+    "TransferReference": {
+      "definition": "Eindeutiger Identifikator für die Übertragungsanweisung, für die die Rückbuchung der Bestätigung gesendet wird, wie von der anweisenden Partei vergeben."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Übertragung durch den Anleger. Diese Referenz kann typischerweise in einem Hub-Szenario verwendet werden, um die vom zugrunde liegenden Kunden vergebene Referenz der Übertragung anzugeben."
+    },
+    "TransferConfirmationReference": {
+      "definition": "Eindeutiger Identifikator für die Ausführung der Übertragung, für die die Rückbuchung der Bestätigung gesendet wird, wie von der bestätigenden Partei vergeben."
+    },
+    "CounterpartyReference": {
+      "definition": "Von der Gegenpartei vergebene zweifelsfreie Identifikation der Übertragung."
+    },
+    "CancellationReference": {
+      "definition": "Eindeutiger Identifikator für die Rückbuchung, wie von der bestätigenden Partei vergeben."
+    },
+    "ReversalReason": {
+      "definition": "Grund für die Rückbuchung der Bestätigung."
+    }
+  }
+}

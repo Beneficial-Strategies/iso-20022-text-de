@@ -1,0 +1,18 @@
+{
+  "isoType": "ResidentialStatus1Code",
+  "definition": "Legt den Ansässigkeitsstatus einer natürlichen Person fest.",
+  "isoCodes": {
+    "RESI": {
+      "name": "Gebietsansässiger",
+      "definition": "Ansässig."
+    },
+    "PRES": {
+      "name": "Dauerhaft Gebietsansässiger",
+      "definition": "Dauerhaft ansässig."
+    },
+    "NRES": {
+      "name": "Gebietsfremder",
+      "definition": "Nicht ansässig."
+    }
+  }
+}

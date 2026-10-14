@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountStatusUpdateInstruction1Choice",
+  "definition": "Auswahl der Formate für eine Anweisung zur Aktualisierung des Kontostatus.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der Änderung des Kontostatus als Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Art der Änderung des Kontostatus als proprietärer Code ausgedrückt."
+    }
+  }
+}

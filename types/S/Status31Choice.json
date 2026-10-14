@@ -1,0 +1,18 @@
+{
+  "isoType": "Status31Choice",
+  "definition": "Auswahl der Formate für die Angabe des Status.",
+  "isoElements": {
+    "Status": {
+      "definition": "Der Status der Übertragungsstornierung ist angenommen oder an die nächste Partei gesendet."
+    },
+    "Rejected": {
+      "definition": "Der Status der Übertragungsstornierung ist abgelehnt."
+    },
+    "Complete": {
+      "definition": "Der Status der Übertragungsstornierung ist abgeschlossen. Die Stornierungsanweisung wurde angenommen und verarbeitet, die Stornierung ist abgeschlossen."
+    },
+    "Pending": {
+      "definition": "Der Status der Übertragungsstornierung ist ausstehend."
+    }
+  }
+}

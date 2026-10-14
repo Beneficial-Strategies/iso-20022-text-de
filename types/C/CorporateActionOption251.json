@@ -1,0 +1,104 @@
+{
+  "isoType": "CorporateActionOption251",
+  "definition": "Liefert Informationen zur Kapitalmaßnahmen-Option.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "FractionDisposition": {
+      "definition": "Gibt an, wie Bruchteile aus abgeleiteten Wertpapieren verarbeitet werden oder wie anteilig gekürzte Entscheidungen gerundet werden, sofern ein Zuteilungssatz angegeben ist."
+    },
+    "OptionFeatures": {
+      "definition": "Gibt die Merkmale an, die für eine Kapitalmaßnahmen-Option gelten können."
+    },
+    "OptionAvailabilityStatus": {
+      "definition": "Gibt den Status der Option an."
+    },
+    "CertificationBreakdownType": {
+      "definition": "Art der Bescheinigung/Aufschlüsselung."
+    },
+    "BidRangeType": {
+      "definition": "Gibt die Art der zulässigen Werte für die Gebotsspanne an."
+    },
+    "ProrationBelowMinimumQuantity": {
+      "definition": "Gibt an, wie Anweisungen verarbeitet werden, die anteilig unter die minimal anzuweisende Menge gekürzt werden."
+    },
+    "NonDomicileCountry": {
+      "definition": "Der Inhaber des Wertpapiers muss gemäß den Bedingungen der Kapitalmaßnahme bescheinigen, dass er nicht in dem angegebenen Land ansässig ist."
+    },
+    "ValidDomicileCountry": {
+      "definition": "Wohnsitzland, in dem die Kapitalmaßnahmen-Option gültig ist. Der Inhaber des Wertpapiers muss bescheinigen, dass er in dem angegebenen Land ansässig ist."
+    },
+    "CurrencyOption": {
+      "definition": "Währung, in der Barerlöse gutzuschreiben/zu belasten sind."
+    },
+    "DefaultProcessingOrStandingInstruction": {
+      "definition": "Gibt an, ob die Bewegung der Kapitalmaßnahme eine Standardverarbeitung oder eine Dauerauftragsanweisung ist."
+    },
+    "ChargesAppliedIndicator": {
+      "definition": "Gibt an, ob für den Inhaber Gebühren anfallen, beispielsweise Rücknahmegebühren."
+    },
+    "CertificationBreakdownIndicator": {
+      "definition": "Gibt an, ob vom Kontoinhaber eine Bescheinigung/Aufschlüsselung verlangt wird. |Ja: Bescheinigung erforderlich |Nein: keine Bescheinigung erforderlich."
+    },
+    "WithdrawalAllowedIndicator": {
+      "definition": "Gibt an, ob der Widerruf der Anweisung zulässig ist."
+    },
+    "ChangeAllowedIndicator": {
+      "definition": "Gibt an, ob eine Änderung der Anweisung zulässig ist."
+    },
+    "AppliedOptionIndicator": {
+      "definition": "Gibt an, ob die von der Standardoption abweichende Option vom Kontoinhaber angewendet werden soll."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifiziert das Finanzinstrument."
+    },
+    "DateDetails": {
+      "definition": "Liefert Informationen zu den Daten einer Kapitalmaßnahmen-Option."
+    },
+    "PeriodDetails": {
+      "definition": "Liefert Informationen zu den Zeiträumen einer Kapitalmaßnahmen-Option."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Liefert Informationen zu Sätzen und Beträgen einer Kapitalmaßnahmen-Option."
+    },
+    "PriceDetails": {
+      "definition": "Liefert Informationen zu den Preisen einer Kapitalmaßnahmen-Option."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Liefert Informationen zur Wertpapiermenge im Zusammenhang mit einer Kapitalmaßnahmen-Option."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Liefert Informationen zur Wertpapierbewegung im Zusammenhang mit der Kapitalmaßnahmen-Option."
+    },
+    "CashMovementDetails": {
+      "definition": "Liefert Informationen zur Geldbewegung im Zusammenhang mit der Kapitalmaßnahmen-Option."
+    },
+    "AdditionalInformation": {
+      "definition": "Liefert zusätzliche Informationen."
+    }
+  },
+  "isoRules": {
+    "AdditionalTextRule": {
+      "definition": "Wenn OptionType/Code gleich OTHR (Other) ist, muss mindestens ein Vorkommen von AdditionalInformation/AdditionalText/AdditionalInformation vorhanden sein.|(MT564 NVR C5)."
+    },
+    "OptionNumberGuideline": {
+      "definition": "Zur Unterscheidung zwischen Optionen wird empfohlen, die OptionNumber statt des OptionType zu verwenden, zum Beispiel wenn zwei oder mehr Angebote durch denselben Kapitalmaßnahmen-Optionscode beschrieben werden können."
+    },
+    "RevocabilityPeriodRule": {
+      "definition": "Wenn WithdrawalAllowedIndicator oder ChangeAllowedIndicator vorhanden ist und 'true' oder '1' (Ja) lautet, dann muss PeriodDetails/RevocabilityPeriod vorhanden sein, um den Zeitraum anzugeben, in dem die Änderung oder der Widerruf der Anweisung zulässig ist."
+    },
+    "OptionTypeUnknownProceedsUsageRule": {
+      "definition": "Bei Verwendung sollte der Kapitalmaßnahmen-Optionscode PRUN (Unknown Proceeds) während des gesamten Lebenszyklus des Ereignisses beibehalten werden."
+    },
+    "AppliedOptionRule": {
+      "definition": "Wenn DefaultProcessingOrStandingInstruction/DefaultOptionIndicator vorhanden ist und sein Wert '1' oder 'true' (Ja) ist, dann darf der Wert von AppliedOptionIndicator nicht '1' oder 'true' (Ja) sein."
+    },
+    "InstructCashAmountRule": {
+      "definition": "Wenn OptionFeatures/Code QCAS (InstructCashAmount) nicht vorhanden ist, dürfen keine der Nachrichtenelemente in der Liste (PriceDetails/MaximumCashToInstruct, PriceDetails/MinimumCashToInstruct, PriceDetails/MinimumMutipleCashToInstruct) vorhanden sein.|(MT564 NVR C20)."
+    }
+  }
+}

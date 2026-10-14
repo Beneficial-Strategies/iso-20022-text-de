@@ -1,0 +1,12 @@
+{
+  "isoType": "ProfileType1Choice",
+  "definition": "Auswahl von Formaten für die Profilart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Art des Profils."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Art des Profils."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isoType": "PartyIdentification59",
+  "definition": "Identifikation einer Partei. Die Partei kann durch Angabe ihres Namens identifiziert werden; optional können auch BIC, Kontonummer, Anschrift, Clearingsystem-Identifikation oder LEI angegeben werden.",
+  "isoElements": {
+    "PartyName": {
+      "definition": "Identifikation der Partei in Form des Namens der Partei."
+    },
+    "AnyBIC": {
+      "definition": "Identifikation der Partei in Form einer BIC und eines optionalen alternativen Identifikators."
+    },
+    "AccountNumber": {
+      "definition": "Identifikation der Kontonummer der Partei."
+    },
+    "Address": {
+      "definition": "Identifikation der Anschrift der Partei."
+    },
+    "ClearingSystemIdentification": {
+      "definition": "Auswahl einer Clearingsystem-Kennung."
+    },
+    "LegalEntityIdentifier": {
+      "definition": "Identifikation der Rechtsträgerkennung (Legal Entity Identifier). Dies ist ein Code, der einer Partei zugewiesen wird, wie in ISO 17442 \"Financial Services - Legal Entity Identifier (LEI)\" beschrieben."
+    }
+  },
+  "isoRules": {
+    "PartyNameOrLEIRule": {
+      "definition": "PartyName muss vorhanden sein oder LegalEntityIdentifier muss vorhanden sein."
+    }
+  }
+}

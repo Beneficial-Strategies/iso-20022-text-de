@@ -1,0 +1,12 @@
+{
+  "isoType": "BlockedStatusReason2Choice",
+  "definition": "Auswahl von Formaten für einen Sperrstatusgrund.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Für den Status des geschlossenen Kontos ist kein Grund verfügbar oder zu melden."
+    },
+    "Reason": {
+      "definition": "Transaktionsart, für die das Konto gesperrt ist, und der zugrunde liegende Grund."
+    }
+  }
+}

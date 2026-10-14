@@ -1,0 +1,12 @@
+{
+  "isoType": "InterestType1Choice",
+  "definition": "Die Zinsart wird als Code oder als Text angegeben.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt die Zinsart an."
+    },
+    "Proprietary": {
+      "definition": "Gibt die Zinsart in nicht codierter Form an."
+    }
+  }
+}

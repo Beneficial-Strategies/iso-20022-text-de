@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessedStatus1Format1Choice",
+  "definition": "Auswahl der Formate zur Angabe des Bearbeitungsstatus des Benachrichtigungsavis.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Bearbeitungsstatus des Benachrichtigungsavis."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe des Bearbeitungsstatus des Benachrichtigungsavis."
+    }
+  }
+}

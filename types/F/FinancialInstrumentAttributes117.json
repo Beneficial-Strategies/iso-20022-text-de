@@ -1,0 +1,39 @@
+{
+  "isoType": "FinancialInstrumentAttributes117",
+  "definition": "Beschreibung des Finanzinstruments.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identifiziert das Finanzinstrument."
+    },
+    "Quantity": {
+      "definition": "Menge der zustehenden Zwischenwertpapiere auf Basis des Bestands an zugrunde liegenden Wertpapieren."
+    },
+    "RenounceableEntitlementStatusType": {
+      "definition": "Gibt an, ob die Bedingungen des Ereignisses den Weiterverkauf der Rechte erlauben."
+    },
+    "FractionDisposition": {
+      "definition": "Gibt an, wie Bruchteile aus abgeleiteten Wertpapieren verarbeitet werden oder wie anteilig gekürzte Entscheidungen gerundet werden, sofern ein Zuteilungssatz angegeben ist."
+    },
+    "IntermediateSecuritiesToUnderlyingRatio": {
+      "definition": "Menge der Zwischenwertpapiere, die für eine bestimmte Menge des zugrunde liegenden Wertpapiers zugeteilt wird."
+    },
+    "MarketPrice": {
+      "definition": "Zuletzt gemeldeter bzw. bekannter Preis eines Finanzinstruments an einem Markt."
+    },
+    "ExpiryDate": {
+      "definition": "Datum, an dem ein Auftrag verfällt oder ein Recht oder Angebot endet."
+    },
+    "PostingDate": {
+      "definition": "Datum der Buchung (Gutschrift oder Belastung) auf dem Konto."
+    },
+    "TradingPeriod": {
+      "definition": "Zeitraum, in dem Zwischen- oder Ergebniswertpapiere an einem Sekundärmarkt handelbar sind."
+    },
+    "UninstructedBalance": {
+      "definition": "Saldo der nicht angewiesenen Position."
+    },
+    "InstructedBalance": {
+      "definition": "Saldo der angewiesenen Position."
+    }
+  }
+}

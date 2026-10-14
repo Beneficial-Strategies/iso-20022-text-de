@@ -1,0 +1,12 @@
+{
+  "isoType": "ErrorHandling3Choice",
+  "definition": "Gibt die Auswahl zwischen den aufgeführten und den proprietären Fehlercodes an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Angabe des Fehlers in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Angabe des Fehlers in freiem Format."
+    }
+  }
+}

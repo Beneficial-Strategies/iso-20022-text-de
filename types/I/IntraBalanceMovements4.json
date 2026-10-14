@@ -1,0 +1,35 @@
+{
+  "isoType": "IntraBalanceMovements4",
+  "definition": "Enthält die Bewegungen innerhalb des Saldos im Bericht.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Konto, auf das oder von dem ein Eintrag erfolgt."
+    },
+    "CashAccountOwner": {
+      "definition": "Partei, der das Konto gehört."
+    },
+    "CashAccountServicer": {
+      "definition": "Partei, die das Geldkonto im Auftrag des Kontoinhabers führt, das heißt die Registrierung und Buchung von Einträgen auf dem Konto verwaltet, Salden des Kontos berechnet und Informationen zum Konto bereitstellt."
+    },
+    "StatusAndReason": {
+      "definition": "Status und Statusgrund der Transaktion."
+    },
+    "Movement": {
+      "definition": "Weitere Einzelheiten zur einzelnen Transaktion der Bewegung innerhalb des Saldos."
+    }
+  },
+  "isoRules": {
+    "CashAccountRule": {
+      "definition": "CashAccount muss vorhanden sein oder Movement(*)/CashAccount muss vorhanden sein, jedoch nicht beides."
+    },
+    "CashAccountOwnerRule": {
+      "definition": "CashAccountOwner muss vorhanden sein oder Movement(*)/AccountOwner muss vorhanden sein, jedoch nicht beides."
+    },
+    "StatusAndReasonRule": {
+      "definition": "StatusAndReason muss vorhanden sein oder Movement(*)/StatusAndReason muss vorhanden sein, jedoch nicht beides."
+    },
+    "CashAccountServicerRule": {
+      "definition": "CashAccountServicer muss vorhanden sein oder Movement(*)/AccountOwner muss vorhanden sein, jedoch nicht beides."
+    }
+  }
+}

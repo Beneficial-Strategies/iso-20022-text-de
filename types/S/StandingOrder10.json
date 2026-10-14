@@ -1,0 +1,38 @@
+{
+  "isoType": "StandingOrder10",
+  "definition": "Neue Werte des Dauerauftrags.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag und Währung, die zu übertragen sind, wenn aufgrund eines Dauerauftrags eine Zahlungsanweisung erstellt wird."
+    },
+    "Creditor": {
+      "definition": "Partei, der ein Geldbetrag zusteht."
+    },
+    "CreditorAccount": {
+      "definition": "Geldkonto, das durch einen Dauerauftragsmechanismus gutgeschrieben wird."
+    },
+    "Debtor": {
+      "definition": "Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "DebtorAccount": {
+      "definition": "Geldkonto, das durch einen Dauerauftragsmechanismus belastet wird."
+    },
+    "ExecutionType": {
+      "definition": "Definiert, ob der Dauerauftrag über einen zeitbasierten oder einen ereignisbasierten Auslöser ausgeführt wird."
+    },
+    "Frequency": {
+      "definition": "Regelmäßigkeit, mit der aufgrund des Dauerauftrags Zahlungsanweisungen zu erstellen und zu verarbeiten sind, zum Beispiel täglich, wöchentlich oder monatlich."
+    },
+    "ValidityPeriod": {
+      "definition": "Zeiträume, in denen der Dauerauftrag gültig ist."
+    },
+    "ZeroSweepIndicator": {
+      "definition": "Gibt an, ob der Dauerauftrag als Nullsaldierungsauftrag (Zero Sweeping) definiert ist. Bei „true“ überträgt der Liquiditätsübertragungs-Dauerauftrag den gesamten Geldbetrag vom Konto, sodass der resultierende Saldo null beträgt."
+    }
+  },
+  "isoRules": {
+    "ModifyStandingOrderValueSetRule": {
+      "definition": "Mindestens ein Element muss vorhanden sein."
+    }
+  }
+}

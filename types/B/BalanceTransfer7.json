@@ -1,0 +1,15 @@
+{
+  "isoType": "BalanceTransfer7",
+  "definition": "Informationen, die es dem jeweiligen kontoführenden Institut ermöglichen, alle im Zusammenhang mit der Erfüllung eines Kontowechsels geleisteten Zahlungen mit der zugehörigen Anforderung abzugleichen.",
+  "isoElements": {
+    "BalanceTransferReference": {
+      "definition": "Referenz, die es dem Zahlungsempfänger ermöglicht, eine über einen anderen Zahlungskanal eingegangene Zahlung mit der Zahlungsaufforderung abzugleichen."
+    },
+    "BalanceTransferMethod": {
+      "definition": "Enthält Einzelheiten zum gewählten Clearing- und Abwicklungsverfahren für die entsprechende Zahlung von einem kontoführenden Institut an das andere, um den positiven oder negativen Schlusssaldo des alten Kontos auf das neue Konto zu übertragen."
+    },
+    "BalanceTransferFundingLimit": {
+      "definition": "Höchstbetrag, den das neue kontoführende Institut an das alte kontoführende Institut zahlt, wenn der Schlusssaldo auf dem alten Konto negativ ist."
+    }
+  }
+}

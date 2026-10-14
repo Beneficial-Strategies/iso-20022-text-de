@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionType2Choice",
+  "definition": "Art der Anweisung.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Identifikation der ursprünglichen Nachricht zur Versammlungsanweisung, für die der Gesamtstatus oder der Status einer oder mehrerer einzelner Anweisungen bereitgestellt wird."
+    },
+    "InstructionCancellationIdentification": {
+      "definition": "Identifikation der ursprünglichen Stornierungsanfrage-Nachricht zur Versammlungsanweisung, für die der Gesamtstatus oder der Status einer oder mehrerer einzelner Stornierungsanfragen zu Anweisungen bereitgestellt wird."
+    }
+  }
+}

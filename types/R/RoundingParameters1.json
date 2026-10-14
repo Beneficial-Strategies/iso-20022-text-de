@@ -1,0 +1,12 @@
+{
+  "isoType": "RoundingParameters1",
+  "definition": "Auf eine Bruchzahl angewandte Parameter.",
+  "isoElements": {
+    "RoundingModulus": {
+      "definition": "Gleitkommawert, der den Wert angibt, auf den gerundet werden soll, z. B. bedeutet 10, auf ein Vielfaches von 10 Anteilen zu runden, 0.5 bedeutet, auf ein Vielfaches von 0.5 Anteilen zu runden."
+    },
+    "RoundingDirection": {
+      "definition": "Auf Bruchzahlen angewandte Rundungsrichtung, z. B. aufrunden."
+    }
+  }
+}

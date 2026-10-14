@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyAndCertificate7",
+  "definition": "Partei und zugehöriges Sicherheitszertifikat.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Legt die Art der Änderung fest."
+    },
+    "Party": {
+      "definition": "An einer Aktivität beteiligte Einheit."
+    },
+    "Certificate": {
+      "definition": "Sicherheitszertifikat, das für die elektronische Signatur verwendet wird."
+    }
+  }
+}

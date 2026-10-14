@@ -1,0 +1,14 @@
+{
+  "isoType": "GenderCode",
+  "definition": "Gibt das Geschlecht einer Person an.",
+  "isoCodes": {
+    "MALE": {
+      "name": "Männlich",
+      "definition": "Die Person ist männlich."
+    },
+    "FEMA": {
+      "name": "Weiblich",
+      "definition": "Die Person ist weiblich."
+    }
+  }
+}

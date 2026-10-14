@@ -1,0 +1,29 @@
+{
+  "isoType": "CashBalance8",
+  "definition": "Satz von Elementen zur Festlegung der Saldodetails.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art eines Saldos an."
+    },
+    "CreditLine": {
+      "definition": "Satz von Elementen mit Einzelheiten zur Kreditlinie."
+    },
+    "Amount": {
+      "definition": "Geldbetrag des Kassensaldos."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Saldo ein Haben- oder ein Sollsaldo ist. |Verwendung: Ein Nullsaldo gilt als Habensaldo."
+    },
+    "Date": {
+      "definition": "Gibt das Datum (und die Uhrzeit) des Saldos an."
+    },
+    "Availability": {
+      "definition": "Satz von Elementen, der angibt, wann der gebuchte Geldbetrag verfügbar wird, das heißt abgerufen werden kann und Zinsen zu erzeugen beginnt. ||Verwendung: Diese Art von Information wird in den USA verwendet und ist an bestimmte Instrumente wie Schecks gebunden.|Beispiel: Wird ein Scheck eingereicht, wird er am Einreichungstag gebucht, der Geldbetrag ist jedoch erst ab dem angegebenen Verfügbarkeitstag zugänglich (gemäß nationalen Bankvorschriften)."
+    }
+  },
+  "isoRules": {
+    "ForwardBalanceAndAvailabilityRule": {
+      "definition": "Ist Type gleich ForwardAvailable, so ist Availability nicht zulässig."
+    }
+  }
+}

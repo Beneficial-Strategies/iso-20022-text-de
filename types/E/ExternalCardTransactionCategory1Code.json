@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalCardTransactionCategory1Code",
+  "definition": "Gibt die Kategorie der Kartentransaktion als Zeichenfolge mit maximal 4 Zeichen an.|Die Liste der gültigen Codes ist eine separat veröffentlichte externe Code-Liste.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden."
+}

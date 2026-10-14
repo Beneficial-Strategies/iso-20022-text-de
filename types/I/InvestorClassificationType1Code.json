@@ -1,0 +1,26 @@
+{
+  "isoType": "InvestorClassificationType1Code",
+  "definition": "Klassifizierung eines Anlegers in Bezug auf eine Kapitalmaßnahme.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Berechtigt",
+      "definition": "Anleger, die zur Teilnahme an dem Ereignis berechtigt sind."
+    },
+    "NLIG": {
+      "name": "Nicht berechtigt",
+      "definition": "Anleger, die nicht zur Teilnahme an dem Ereignis berechtigt sind."
+    },
+    "NQIB": {
+      "name": "Kein QIB",
+      "definition": "Anleger, die nach US-Recht nicht zur Teilnahme an dem Ereignis berechtigt sind."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Anleger, die gemäß den Angaben des Emittenten zur Teilnahme an dem Ereignis berechtigt sein können oder nicht."
+    },
+    "QUIB": {
+      "name": "QIB",
+      "definition": "Anleger, die zur Teilnahme an dem Ereignis berechtigt sind, da sie nach US-Recht als qualifiziert gelten."
+    }
+  }
+}

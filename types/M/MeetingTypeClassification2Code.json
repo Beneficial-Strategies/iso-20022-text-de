@@ -1,0 +1,26 @@
+{
+  "isoType": "MeetingTypeClassification2Code",
+  "definition": "Klassifiziert die Art der Versammlung.",
+  "isoCodes": {
+    "AMET": {
+      "name": "Jährlich",
+      "definition": "Periodisch abgehaltene Versammlung zur Genehmigung des Jahresabschlusses sowie zur Wahl der Verwaltungsratsmitglieder und der Abschlussprüfer."
+    },
+    "CLAS": {
+      "name": "Gattung",
+      "definition": "Versammlung für die Inhaber einer bestimmten Art von Vermögenswerten, zum Beispiel Vorzugsaktien oder Anleihen."
+    },
+    "ISSU": {
+      "name": "Vom Emittenten initiiert",
+      "definition": "Die Versammlung ist das Ergebnis einer Verpflichtung oder eines Beschlusses des Emittenten, im Gegensatz zu einer von den Stimmrechtsinhabern veranlassten Versammlung, zum Beispiel einer angefochtenen Versammlung."
+    },
+    "OMET": {
+      "name": "Ordentlich",
+      "definition": "Versammlung, die in der Satzung vorgesehen ist."
+    },
+    "VRHI": {
+      "name": "Vom Stimmrechtsinhaber initiiert",
+      "definition": "Die Versammlung ist das Ergebnis eines Antrags oder einer Handlung eines oder mehrerer Stimmrechtsinhaber, zum Beispiel einer angefochtenen Versammlung."
+    }
+  }
+}

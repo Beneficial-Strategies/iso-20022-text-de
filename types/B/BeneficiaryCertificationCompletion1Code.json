@@ -1,0 +1,18 @@
+{
+  "isoType": "BeneficiaryCertificationCompletion1Code",
+  "definition": "Gibt die Art der für einen Begünstigten erforderlichen Zertifizierung an.",
+  "isoCodes": {
+    "NCER": {
+      "name": "Bescheinigung nicht erforderlich",
+      "definition": "Für diesen Fonds ist keine Zertifizierung erforderlich."
+    },
+    "ELEC": {
+      "name": "Elektronische Bescheinigung",
+      "definition": "Eine elektronische Zertifizierung ist zulässig."
+    },
+    "PHYS": {
+      "name": "Physische Bescheinigung",
+      "definition": "Eine elektronische Zertifizierung ist nicht zulässig und es ist eine physische Form erforderlich."
+    }
+  }
+}

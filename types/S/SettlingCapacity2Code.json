@@ -1,0 +1,22 @@
+{
+  "isoType": "SettlingCapacity2Code",
+  "definition": "Gibt die Rolle der Partei bei der Abwicklung der Transaktion an.",
+  "isoCodes": {
+    "SAGE": {
+      "name": "Abwickelnde Bank",
+      "definition": "Die Abwicklungspartei handelt und wickelt Transaktionen in Finanzinstrumenten im Auftrag ihrer Kunden ab."
+    },
+    "CUST": {
+      "name": "Abwickelnde Verwahrstelle",
+      "definition": "Die Abwicklungspartei ist ein Verwahrer. Sie empfängt/liefert die Wertpapiere und nimmt Verwahraufgaben wahr."
+    },
+    "SPRI": {
+      "name": "Abwickelnder Eigenhändler",
+      "definition": "Die Abwicklungspartei wickelt ihre eigenen Geschäfte ab."
+    },
+    "RISP": {
+      "name": "Abwickelnder risikoloser Eigenhändler",
+      "definition": "Die Partei wickelt Geschäfte ab, die gleichzeitig verrechnet wurden."
+    }
+  }
+}

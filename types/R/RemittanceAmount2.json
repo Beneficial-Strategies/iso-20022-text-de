@@ -1,0 +1,24 @@
+{
+  "isoType": "RemittanceAmount2",
+  "definition": "Art des Betrags und der Währung auf einem im Abschnitt Verwendungszweck referenzierten Dokument, in der Regel entweder der ursprünglich fällige/zu zahlende Betrag oder der für das referenzierte Dokument tatsächlich überwiesene Betrag.",
+  "isoElements": {
+    "DuePayableAmount": {
+      "definition": "Der angegebene Betrag ist der genaue, an den Zahlungsempfänger fällige und zu zahlende Betrag."
+    },
+    "DiscountAppliedAmount": {
+      "definition": "Der für das referenzierte Dokument angegebene Betrag ist der Abzugsbetrag, der auf den an den Zahlungsempfänger fälligen und zu zahlenden Betrag anzuwenden ist."
+    },
+    "CreditNoteAmount": {
+      "definition": "Der für das referenzierte Dokument angegebene Betrag ist der Betrag einer Gutschriftsanzeige."
+    },
+    "TaxAmount": {
+      "definition": "Aus der Steuerberechnung resultierender Geldbetrag."
+    },
+    "AdjustmentAmountAndReason": {
+      "definition": "Gibt detaillierte Informationen zu Betrag und Grund der Dokumentanpassung an."
+    },
+    "RemittedAmount": {
+      "definition": "Für das referenzierte Dokument überwiesener Geldbetrag."
+    }
+  }
+}

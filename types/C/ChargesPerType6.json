@@ -1,0 +1,35 @@
+{
+  "isoType": "ChargesPerType6",
+  "definition": "Stellt eine detaillierte Aufschlüsselung der Entgelte nach Entgeltart bereit.",
+  "isoElements": {
+    "ChargesIdentification": {
+      "definition": "Eindeutige und unzweideutige Identifikation der Entgeltinformationen zu Abstimmungszwecken.||Verwendung: Diese Identifikation ist in der resultierenden Nachricht für die Zahlung der Entgelte als End-to-End-Identifikation zu verwenden, um einen automatisierten Abgleich zu ermöglichen."
+    },
+    "TotalChargesPerChargeType": {
+      "definition": "Gesamtentgelte, die für die angegebene Entgeltart geltend gemacht werden."
+    },
+    "ChargesAccountAgent": {
+      "definition": "Bank, die das Entgeltkonto führt.||Verwendung: Dieses Element sollte verwendet werden, wenn das geltend gemachte Entgelt nicht mit der Verarbeitung einer Zahlungstransaktion zusammenhängt, zum Beispiel mit einer Untersuchung oder einem anderen Vorgang. Es identifiziert die Bank, die das Konto führt, von dem die Entgelte zu begleichen sind."
+    },
+    "ChargesAccountAgentAccount": {
+      "definition": "Konto der Bank, die das Entgeltkonto führt.||Verwendung: Dieses Element sollte verwendet werden, wenn das geltend gemachte Entgelt nicht mit der Verarbeitung einer Zahlungstransaktion zusammenhängt, zum Beispiel mit einer Untersuchung oder einem anderen Vorgang. Es identifiziert das Konto, von dem die Entgelte zu begleichen sind."
+    },
+    "Type": {
+      "definition": "Gibt die Art des Entgelts an."
+    },
+    "Record": {
+      "definition": "Einzeln aufgeführter Entgeltdatensatz je Entgeltart."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Einzelheiten zum Grund der Entgelte."
+    }
+  },
+  "isoRules": {
+    "ChargesAccountAgent2Rule": {
+      "definition": "Ist Record/ChargesAccountAgent vorhanden oder ist Record/ChargesAccountAgentAccount vorhanden, dürfen ChargesAccountAgent und ChargesAccountAgentAccount nicht vorhanden sein."
+    },
+    "ChargesAccountAgentRule": {
+      "definition": "Ist ChargesAccountAgent vorhanden oder ist ChargesAccountAgentAccount vorhanden, dürfen Record/ChargesAccountAgent und Record/ChargesAccountAgentAccount nicht vorhanden sein."
+    }
+  }
+}

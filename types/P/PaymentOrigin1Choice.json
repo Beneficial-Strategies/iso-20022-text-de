@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentOrigin1Choice",
+  "definition": "Gibt das Format an, in dem die Zahlung, die die Buchung erzeugt hat, übermittelt wurde.",
+  "isoElements": {
+    "FINMessageType": {
+      "definition": "Gibt an, dass die Zahlung in einer Nachricht im SWIFT-FIN-Format enthalten war, zum Beispiel MT 103."
+    },
+    "XMLMessageName": {
+      "definition": "Gibt an, dass die Zahlung in einer SWIFT-XML-Nachricht enthalten war."
+    },
+    "Proprietary": {
+      "definition": "Gibt an, dass die Zahlung in einer Nachricht im proprietären Format enthalten war."
+    },
+    "Instrument": {
+      "definition": "Gibt die Art der Zahlung an, wenn sie nicht in einem SWIFT- oder proprietären Format enthalten ist."
+    }
+  }
+}

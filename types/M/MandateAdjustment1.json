@@ -1,0 +1,18 @@
+{
+  "isoType": "MandateAdjustment1",
+  "definition": "Gibt die Einzelheiten zur Anpassung des Mandats an.",
+  "isoElements": {
+    "DateAdjustmentRuleIndicator": {
+      "definition": "Gibt an, ob eine Anpassung zum vorab vereinbarten Einzugsdatum angewendet werden soll oder nicht."
+    },
+    "Category": {
+      "definition": "Legt die Kategorie der Anpassung fest."
+    },
+    "Amount": {
+      "definition": "Vorab vereinbarter Betrag zur Erhöhung oder Verminderung des Mandatsbetrags, wie anhand der Informationen in der Kategorie begründet."
+    },
+    "Rate": {
+      "definition": "Vorab vereinbarter Erhöhungs- oder Verminderungssatz, der auf den Einzugsbetrag angewendet wird."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "Provided1Code",
+  "definition": "Gibt an, ob Positionen bereitgestellt wurden.",
+  "isoCodes": {
+    "NPRO": {
+      "name": "Nicht bereitgestellt",
+      "definition": "Nicht bereitgestellt."
+    },
+    "PROV": {
+      "name": "Bereitgestellt",
+      "definition": "Bereitgestellt."
+    }
+  }
+}

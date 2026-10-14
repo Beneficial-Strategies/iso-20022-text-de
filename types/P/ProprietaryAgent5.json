@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryAgent5",
+  "definition": "Identifiziert eine proprietäre Partei.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art der proprietären Bank an."
+    },
+    "Agent": {
+      "definition": "Organisation, die in erster Linie zur Erbringung von Finanzdienstleistungen gegründet wurde."
+    }
+  }
+}

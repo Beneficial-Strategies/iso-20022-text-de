@@ -1,0 +1,33 @@
+{
+  "isoType": "ProcessingStatus94Choice",
+  "definition": "Auswahl von Formaten für einen Verarbeitungsstatus.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "Die Anweisung wurde vom kontoführenden Institut bestätigt."
+    },
+    "PendingProcessing": {
+      "definition": "Die Verarbeitung der Anweisung/Anforderung steht aus."
+    },
+    "Rejected": {
+      "definition": "Anweisung/Auftrag wurde für die weitere Verarbeitung abgelehnt."
+    },
+    "Repair": {
+      "definition": "Die Anweisung/Anforderung ist akzeptiert, befindet sich aber in Korrektur."
+    },
+    "Cancelled": {
+      "definition": "Anweisung/Auftrag wurde storniert."
+    },
+    "PendingCancellation": {
+      "definition": "Ein Stornierungsauftrag von Ihnen für diese Anweisung ist offen und wartet auf die weitere Verarbeitung."
+    },
+    "Proprietary": {
+      "definition": "Status, der mit keinem der verfügbaren Standardstatus gemeldet werden kann."
+    },
+    "CancellationRequested": {
+      "definition": "Die Stornierungsanforderung Ihrer Gegenpartei für diese Transaktion ist ausstehend und wartet auf Ihre Stornierungsanforderung oder Ihre Zustimmung."
+    },
+    "ModificationRequested": {
+      "definition": "Die Änderungsanforderung Ihrer Gegenpartei für diese Transaktion steht aus und wartet auf Ihre Stornierungsanforderung oder Ihre Zustimmung."
+    }
+  }
+}

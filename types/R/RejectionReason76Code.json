@@ -1,0 +1,322 @@
+{
+  "isoType": "RejectionReason76Code",
+  "definition": "Gibt den Grund an, warum die Anweisung bzw. Stornierungsanforderung den Status abgelehnt hat.",
+  "isoCodes": {
+    "ULNK": {
+      "name": "Ungültige Referenz",
+      "definition": "Die verknüpfte Referenz ist unbekannt."
+    },
+    "SAFE": {
+      "name": "Ablehnung des Verwahrkontos",
+      "definition": "Nicht erkanntes oder ungültiges Verwahrkonto des Nachrichtensenders."
+    },
+    "DQUA": {
+      "name": "Ablehnung wegen Menge",
+      "definition": "Ungültige oder nicht erkannte angewiesene Menge."
+    },
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Transaktion bzw. Anweisung ging nach Ablauf der vom kontoführenden Institut festgelegten Frist ein."
+    },
+    "RTGS": {
+      "name": "Verwendung des angewiesenen RTGS-Systems nicht möglich",
+      "definition": "Das angewiesene RTGS-System kann nicht verwendet werden (NRTG oder YRTG)."
+    },
+    "NCRR": {
+      "name": "Ablehnung wegen Abwicklungsbetragswährung",
+      "definition": "Ungültige oder nicht erkannte Währung des Abwicklungsbetrags."
+    },
+    "DSEC": {
+      "name": "Ungültiges Wertpapier",
+      "definition": "Ungültige oder nicht erkannte Identifikation des Finanzinstruments."
+    },
+    "DADR": {
+      "name": "Ablehnung wegen Adressangaben",
+      "definition": "Die Adressangaben sind fehlerhaft oder nicht erkennbar."
+    },
+    "INIR": {
+      "name": "Anweisung unwiderruflich",
+      "definition": "Die Anweisung ist unwiderruflich."
+    },
+    "CANC": {
+      "name": "Option storniert",
+      "definition": "Die Option ist nicht gültig; sie wurde vom Markt oder Dienstleister storniert, und es kann nicht mehr darauf geantwortet werden. Bereits zu dieser Option verarbeitete Antworten gelten als ungültig, und neue Antworten sind erforderlich."
+    },
+    "INTV": {
+      "name": "Option inaktiv",
+      "definition": "Die Option ist nicht aktiv, und es kann nicht mehr darauf geantwortet werden. Bereits zu dieser Option verarbeitete Antworten bleiben gültig, zum Beispiel bei einer abgelaufenen Option."
+    },
+    "INVA": {
+      "name": "Für Steuerbehörden ungültig",
+      "definition": "Bei einer Steuerrückerstattung ist der Erstattungsantrag für die Steuerbehörden ungültig."
+    },
+    "REFT": {
+      "name": "Von Steuerbehörden abgelehnt",
+      "definition": "Die Erstattung wird von den Steuerbehörden abgelehnt."
+    },
+    "PHYS": {
+      "name": "Physische Abwicklung nicht möglich",
+      "definition": "Physische Abwicklung ist für das angewiesene Finanzinstrument nicht möglich."
+    },
+    "REFE": {
+      "name": "Ablehnung wegen Referenz",
+      "definition": "Die Anweisung hat eine Referenz, die mit einer anderen zuvor eingegangenen Anweisung identisch ist."
+    },
+    "LACK": {
+      "name": "Mangel an Wertpapieren",
+      "definition": "Die angewiesene Position übersteigt den zulässigen Bestand."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "NMTY": {
+      "name": "Abweichung",
+      "definition": "Option und Optionsart stimmen nicht überein."
+    },
+    "OPNM": {
+      "name": "Ablehnung wegen Optionsnummer",
+      "definition": "Unbekannte Optionsnummer."
+    },
+    "DMON": {
+      "name": "Ablehnung wegen Abwicklungsbetrag",
+      "definition": "Ungültiger oder nicht erkannter Abwicklungsbetrag."
+    },
+    "OPTY": {
+      "name": "Ungültiger Optionstyp",
+      "definition": "Ungültige Optionsart."
+    },
+    "DCAN": {
+      "name": "Abgelehnt, da bereits storniert",
+      "definition": "Die Stornierungsanforderung wurde abgelehnt, da die Anweisung bereits storniert wurde."
+    },
+    "DPRG": {
+      "name": "Abgelehnt, da in Bearbeitung",
+      "definition": "Die Stornierungsanforderung wurde abgelehnt, da die Anweisung in Bearbeitung ist oder bereits verarbeitet wurde."
+    },
+    "EVNM": {
+      "name": "Nicht erkannte Identifikation",
+      "definition": "Unbekannte Ereignisnummer."
+    },
+    "STAT": {
+      "name": "Fehlende Satzung",
+      "definition": "Satzung oder Handelsregisterauszug oder andere rechtliche Dokumente fehlen."
+    },
+    "STAM": {
+      "name": "Nicht gestempelt oder unterzeichnet",
+      "definition": "Das Finanzinstrument wurde nicht abgestempelt und/oder nicht ordnungsgemäß unterzeichnet."
+    },
+    "SIGN": {
+      "name": "Ungültige Signatur",
+      "definition": "Die Registrierungsanforderung trägt nicht die gültige Unterschrift des Eigentümers des Finanzinstruments."
+    },
+    "SHAR": {
+      "name": "Ablehnung wegen Aktionärsnummer",
+      "definition": "Unbekannte, fehlende oder ungültige Aktionärsnummer."
+    },
+    "MINO": {
+      "name": "Mindestabwicklungsmenge",
+      "definition": "Die angewiesene Menge liegt unter der für das Finanzinstrument bestehenden Mindestabwicklungsmenge."
+    },
+    "NRGM": {
+      "name": "Keine Übereinstimmung",
+      "definition": "Mehr als eine Anweisung entspricht den Kriterien."
+    },
+    "MLEG": {
+      "name": "Fehlende Vertretungsbefugnis",
+      "definition": "Die rechtliche Befugnis zur Übertragung fehlt."
+    },
+    "BATC": {
+      "name": "Ablehnung des Verarbeitungsstapels",
+      "definition": "Nicht erkannter oder ungültiger Verarbeitungsstapel, das heißt, Tages-/Echtzeitverarbeitung, obwohl die Abwicklung nur im Übernacht-Stapel möglich ist."
+    },
+    "CADE": {
+      "name": "Kündigungsfrist der Transaktion",
+      "definition": "Unbekannte oder ungültige Abrufverzögerung der Transaktion."
+    },
+    "CASH": {
+      "name": "Geldkonto",
+      "definition": "Nicht erkanntes oder ungültiges Geldkonto."
+    },
+    "DDEA": {
+      "name": "Geschäftspreis",
+      "definition": "Nicht erkannter oder ungültiger Geschäftspreis."
+    },
+    "OWNT": {
+      "name": "Ablehnung wegen Eigentumsart",
+      "definition": "Die angegebene Eigentumsart ist nicht korrekt."
+    },
+    "NRGN": {
+      "name": "Ablehnung wegen Nichtauffindbarkeit",
+      "definition": "Die Anweisung konnte nicht gefunden werden."
+    },
+    "MUNO": {
+      "name": "Mehrfache Abwicklungsmenge",
+      "definition": "Die angewiesene Menge ist kein Vielfaches einer für das Finanzinstrument bestehenden Abwicklungslosgröße."
+    },
+    "REQW": {
+      "name": "Fehlerhafte Registrierungsanforderung",
+      "definition": "Die vom Käufer auszufüllende und an den Emittenten weiterzuleitende Registrierungsanforderung ist falsch. Sie haben die Registrierungsanforderung eines anderen Emittenten/Registerführers verwendet."
+    },
+    "TXST": {
+      "name": "Ablehnung wegen Steuerstatus",
+      "definition": "Nicht erkannter oder ungültiger steuerlicher Status der angewiesenen Wertpapiere."
+    },
+    "REPA": {
+      "name": "Transaktionsbetrag bei Beendigung",
+      "definition": "Unbekannter oder ungültiger Betrag der Beendigungstransaktion."
+    },
+    "REPO": {
+      "name": "Rückkaufsatz",
+      "definition": "Unbekannter oder ungültiger Rückkaufzinssatz."
+    },
+    "REPP": {
+      "name": "Prämienbetrag",
+      "definition": "Unbekannter oder ungültiger Prämienbetrag."
+    },
+    "RREA": {
+      "name": "Uneinigkeit über den Registrierungsgrund",
+      "definition": "Der angegebene Registrierungsgrund ist nicht korrekt."
+    },
+    "REQM": {
+      "name": "Fehlende Registrierungsanforderung",
+      "definition": "Die vom Käufer auszufüllende und an den Emittenten weiterzuleitende Registrierungsanforderung fehlt."
+    },
+    "RERT": {
+      "name": "Rückkaufsatzart",
+      "definition": "Unbekannte oder ungültige Rückkaufzinssatzart."
+    },
+    "RSPR": {
+      "name": "Spread-Satz",
+      "definition": "Unbekannter oder ungültiger Aufschlagssatz."
+    },
+    "SETS": {
+      "name": "Ablehnung wegen Abwicklungssystemmethode",
+      "definition": "Nicht erkanntes oder ungültiges angewiesenes Abwicklungssystem bzw. -methode."
+    },
+    "DTRD": {
+      "name": "Handelstag",
+      "definition": "Unbekanntes oder ungültiges Handelsdatum oder gewünschtes Handelsdatum oder zukünftiges Handelsdatum."
+    },
+    "IIND": {
+      "name": "Ablehnung wegen gemeinsamer Referenz",
+      "definition": "Nicht erkannte, ungültige oder fehlende gemeinsame Referenz."
+    },
+    "PLCE": {
+      "name": "Handelsplatz",
+      "definition": "Nicht erkannter oder ungültiger Handelsplatz."
+    },
+    "INNA": {
+      "name": "Ablehnung wegen Freitextinformation",
+      "definition": "Unbekannte oder ungültige vorab vereinbarte Freitextinformation der Dienstgütevereinbarung (Service Level Agreement)."
+    },
+    "ICOL": {
+      "name": "Unzureichende Sicherheiten",
+      "definition": "Unzureichende Sicherheiten vorgeschlagen."
+    },
+    "BPAR": {
+      "name": "Ablehnung wegen Geschäftspartnernummer",
+      "definition": "Unbekannte oder ungültige Geschäftspartnernummer."
+    },
+    "BREF": {
+      "name": "Ablehnung wegen Bankreferenznummer",
+      "definition": "Unbekannte oder ungültige Bankreferenznummer."
+    },
+    "BUSE": {
+      "name": "Ablehnung wegen Auftragsart",
+      "definition": "Unbekannte oder ungültige Auftragsart."
+    },
+    "CAEV": {
+      "name": "Ablehnung wegen Kapitalmaßnahme",
+      "definition": "Für das angewiesene Finanzinstrument steht eine Kapitalmaßnahme aus."
+    },
+    "CASY": {
+      "name": "Unmögliches Barabwicklungssystem",
+      "definition": "Unmögliche Dauerauftragsvereinbarungen überschreiben die Anweisung für das Barabwicklungssystem."
+    },
+    "COMC": {
+      "name": "Ablehnung wegen Vertriebsvertrag",
+      "definition": "Unbekannter oder ungültiger Vermarktungsvertrag."
+    },
+    "CONL": {
+      "name": "Konzentrationsgrenze überschritten",
+      "definition": "Das Konzentrationslimit wurde überschritten."
+    },
+    "CPTY": {
+      "name": "Unbekanntes Geschäftsengagement",
+      "definition": "Das Geschäft oder die Risikoposition ist unbekannt."
+    },
+    "DDAT": {
+      "name": "Ablehnung wegen Abwicklungsdatum",
+      "definition": "Ungültiger oder nicht erkannter Abwicklungstag."
+    },
+    "DISC": {
+      "name": "Uneinigkeit über den Abrufbetrag",
+      "definition": "Die Partei stimmt dem Abrufbetrag nicht zu."
+    },
+    "DISE": {
+      "name": "Uneinigkeit über den Engagementbetrag",
+      "definition": "Die Partei stimmt dem Betrag der Risikoposition nicht zu."
+    },
+    "DORD": {
+      "name": "Ablehnung wegen Registrierungsanforderungsdaten und Auftrag",
+      "definition": "Die Daten der Registrierungsanforderung und des Auftrags stimmen nicht überein."
+    },
+    "FEEE": {
+      "name": "Ablehnung wegen Gebühr oder Provision",
+      "definition": "Unbekannte oder ungültige Gebühr oder Provision."
+    },
+    "SETR": {
+      "name": "Ablehnung der Abwicklungstransaktion",
+      "definition": "Nicht erkannte oder ungültige Art der Abwicklungstransaktion."
+    },
+    "TERM": {
+      "name": "Ablehnung wegen Abschlussdatum und -zeit",
+      "definition": "Unbekanntes oder ungültiges Beendigungsdatum/-uhrzeit."
+    },
+    "VASU": {
+      "name": "Ablehnung wegen Unterstützung variabler Zinssätze",
+      "definition": "Unbekannte oder ungültige Stützung des variablen Zinssatzes (Rückkaufgeschäft)."
+    },
+    "INPS": {
+      "name": "Verwahrort",
+      "definition": "Unbekannter, ungültiger oder fehlender Verwahrort."
+    },
+    "SDUT": {
+      "name": "Fehlende Stempelsteuer",
+      "definition": "Erforderliche Angaben zur Stempelsteuer fehlen."
+    },
+    "FORF": {
+      "name": "Verfallsbetrag",
+      "definition": "Unbekannter oder ungültiger Verfallsbetrag."
+    },
+    "ICUS": {
+      "name": "Empfangende/liefernde Partei 2",
+      "definition": "Unbekannter oder ungültiger Kunde der liefernden oder empfangenden Partei 1."
+    },
+    "ICAG": {
+      "name": "Empfangende/liefernde Partei 1",
+      "definition": "Unbekannter oder ungültiger Teilnehmer der liefernden oder empfangenden Verwahrstelle."
+    },
+    "DEPT": {
+      "name": "Empfangende/liefernde Verwahrstelle",
+      "definition": "Unbekannte oder ungültige Verwahrstelle."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "IEXE": {
+      "name": "Empfangende/liefernde Partei 3",
+      "definition": "Unbekannter oder ungültiger Kunde der liefernden oder empfangenden Partei 2."
+    },
+    "INVE": {
+      "name": "Ungültige Anlegerpartei",
+      "definition": "Unbekannte oder ungültige Anlegerpartei. Kann von einer ausführenden Partei verwendet werden, um eine Anweisung für einen Anleger (oder ein Portfolio) abzulehnen, für den sie nicht zum Handeln befugt ist."
+    },
+    "PLIS": {
+      "name": "Notierungsort",
+      "definition": "Unbekannter oder ungültiger Notierungsplatz. Wird verwendet, wenn das identifizierte Wertpapier am angegebenen Markt nicht notiert ist."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification15",
+  "definition": "Organisierte Struktur, die für einen bestimmten Zweck eingerichtet wurde, z. B. ein Unternehmen, eine Regierungsstelle, eine Abteilung, eine Wohltätigkeitsorganisation oder ein Finanzinstitut.",
+  "isoElements": {
+    "Country": {
+      "definition": "Land, in dem die Organisation registriert ist."
+    },
+    "Identification": {
+      "definition": "Beschreibung einer Organisation."
+    }
+  }
+}

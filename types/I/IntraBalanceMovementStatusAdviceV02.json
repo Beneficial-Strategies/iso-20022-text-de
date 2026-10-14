@@ -1,0 +1,4 @@
+{
+  "isoType": "IntraBalanceMovementStatusAdviceV02",
+  "definition": "Die Nachricht IntraBalanceMovementStatusAdvice wird von einer Abwicklungsinfrastruktur an einen Kontoinhaber/Auftraggeber gesendet, um den Status einer zuvor vom Kontoinhaber/Auftraggeber gesendeten Anweisung zur Umbuchung zwischen Beständen mitzuteilen.||Verwendung: |Die Nachricht kann verwendet werden, um: |- eine zuvor gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht lautet „Duplicate“)|- einem Dritten zur Information eine Kopie einer Nachricht zur Verfügung zu stellen (die Unterfunktion der Nachricht lautet „Copy“)|- einem Dritten zur Information eine Kopie einer Nachricht erneut zu senden (die Unterfunktion der Nachricht lautet „CopyDuplicate“)."
+}

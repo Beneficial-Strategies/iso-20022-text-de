@@ -1,0 +1,12 @@
+{
+  "isoType": "ExposureType25Choice",
+  "definition": "Auswahl des Formats für die Risikoinformationen.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des Risikos der Sicherheitenbewegung, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Art des Risikos der Sicherheitenbewegung, ausgedrückt als proprietärer Code."
+    }
+  }
+}

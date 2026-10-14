@@ -1,0 +1,48 @@
+{
+  "isoType": "ConfirmationParties7",
+  "definition": "Parteien, die als handelnde Parteien verwendet werden und entweder für die gesamte Nachricht oder für einzelne Seiten gelten.",
+  "isoElements": {
+    "Buyer": {
+      "definition": "Partei, die Waren oder Dienstleistungen oder ein Finanzinstrument kauft."
+    },
+    "Borrower": {
+      "definition": "Partei, die sich beworben, bestimmte Anforderungen erfüllt und ein Geld- oder Wertpapierdarlehen von einem Verleiher erhalten hat. Die den Antrag stellende Partei unterzeichnet einen Schuldschein, in dem sie sich verpflichtet, dem Pfandgläubiger innerhalb eines festgelegten Zeitraums den gesamten Darlehensbetrag zuzüglich etwaiger zusätzlicher Gebühren zurückzuzahlen. Der Entleiher ist rechtlich für die Rückzahlung des Darlehens verantwortlich und unterliegt allen Sanktionen für die Nichtrückzahlung gemäß den vereinbarten Darlehensbedingungen."
+    },
+    "Seller": {
+      "definition": "Partei, die Waren oder Dienstleistungen oder ein Finanzinstrument verkauft."
+    },
+    "Lender": {
+      "definition": "Eine private, öffentliche oder institutionelle Stelle, die anderen Mittel zur Kreditaufnahme zur Verfügung stellt."
+    },
+    "BrokerOfCredit": {
+      "definition": "Maklerfirma, die bei einem Geschäft mit mehreren Brokern der beauftragte Broker ist."
+    },
+    "IntroducingFirm": {
+      "definition": "Broker oder anderer Intermediär mit der engsten Verbindung zum Anleger."
+    },
+    "StepInFirm": {
+      "definition": "Maklerfirma, der die Gutschrift für das Geschäft von der Step-out-Maklerfirma zugewiesen wird."
+    },
+    "StepOutFirm": {
+      "definition": "Maklerfirma, die einen Auftrag ausführt, aber anderen Firmen die Gutschrift und einen Teil der Provision für das Geschäft überlässt."
+    },
+    "ClearingFirm": {
+      "definition": "Partei, auch Take-up-Broker genannt, die Wertpapiergeschäfte eines anderen Brokers gegen Entgelt abwickelt."
+    },
+    "ExecutingBroker": {
+      "definition": "Partei, die für die Ausführung eines Auftrags verantwortlich ist (z. B. ein ausführender Broker oder Give-up-Broker). In der Regel wird dem Kunden für die Ausführung eines Auftrags eine Provision berechnet."
+    },
+    "CMUParty": {
+      "definition": "Partei, die die Nachricht an das CMU (Central Matching Utility) sendet, um die dem CMU (Central Matching Utility) bekannte tatsächliche Geschäftseinheit zu identifizieren."
+    },
+    "CMUCounterparty": {
+      "definition": "Tatsächliche Geschäftseinheit der Gegenpartei des Absenders der Nachricht an das CMU (Central Matching Utility), wie dem CMU (Central Matching Utility) bekannt."
+    },
+    "AffirmingParty": {
+      "definition": "Partei (Käufer oder Verkäufer), die die Einzelheiten einer zuvor vereinbarten Wertpapiergeschäftsbestätigung ausdrücklich bekräftigt."
+    },
+    "TradeBeneficiaryParty": {
+      "definition": "An einem Rechtsverfahren, einer Vereinbarung oder einer anderen Transaktion beteiligte Partei."
+    }
+  }
+}

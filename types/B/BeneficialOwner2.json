@@ -1,0 +1,30 @@
+{
+  "isoType": "BeneficialOwner2",
+  "definition": "Liefert Informationen über den wirtschaftlich Berechtigten der Wertpapiere.",
+  "isoElements": {
+    "BeneficialOwnerIdentification": {
+      "definition": "Identifikation der Partei, die wirtschaftlich Berechtigter des angegebenen Finanzinstruments ist."
+    },
+    "AdditionalIdentification": {
+      "definition": "Zusätzliche Identifikation der Partei, die wirtschaftlich Berechtigter des angegebenen Finanzinstruments ist."
+    },
+    "Nationality": {
+      "definition": "Staatsangehörigkeit des wirtschaftlich Berechtigten."
+    },
+    "DomicileCountry": {
+      "definition": "Land, in dem die Person ihren ständigen Wohnsitz hat (der Ort des dauerhaften Wohnsitzes einer Person)."
+    },
+    "NonDomicileCountry": {
+      "definition": "Land, in dem der Inhaber des Finanzinstruments nachweislich nicht ansässig sein darf. (Der Inhaber muss gemäß den Bedingungen der Kapitalmaßnahme bescheinigen, dass er nicht in dem angegebenen Land ansässig ist.)."
+    },
+    "CertificationIndicator": {
+      "definition": "Gibt an, ob vom Kontoinhaber eine Bescheinigung erforderlich ist. (Yes bedeutet, dass eine Bescheinigung erforderlich ist. No bedeutet, dass keine Bescheinigung erforderlich ist.)."
+    },
+    "CertificationType": {
+      "definition": "Art der erforderlichen Bescheinigung des wirtschaftlich Berechtigten."
+    },
+    "DeclarationDetails": {
+      "definition": "Erklärungsdetails zum Finanzinstrument, zum Beispiel zum wirtschaftlichen Eigentum."
+    }
+  }
+}

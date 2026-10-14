@@ -1,0 +1,12 @@
+{
+  "isoType": "DateCode27Choice",
+  "definition": "Auswahl zwischen einem Code und einem proprietären Code für einen Datumscode.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe, dass das Datum unbekannt ist."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Art des Datums."
+    }
+  }
+}

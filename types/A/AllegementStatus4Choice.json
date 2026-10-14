@@ -1,0 +1,12 @@
+{
+  "isoType": "AllegementStatus4Choice",
+  "definition": "Auswahl des Formats für den Allegement-Status.",
+  "isoElements": {
+    "Code": {
+      "definition": "Status des gemeldeten Allegements."
+    },
+    "Proprietary": {
+      "definition": "Status des gemeldeten Allegements."
+    }
+  }
+}

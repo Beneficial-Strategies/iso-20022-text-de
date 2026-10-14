@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationAcceptedWithWarningStatus1",
+  "definition": "Liefert Informationen zum Status \"mit Warnung angenommen\" eines Benachrichtigungsavis.",
+  "isoElements": {
+    "Status": {
+      "definition": "Der Bearbeitungsstatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "LocationFormat1Choice",
+  "definition": "Auswahl zwischen den Formaten zur Angabe des Versammlungsorts.",
+  "isoElements": {
+    "Address": {
+      "definition": "Gibt die physische Adresse der Versammlung an."
+    },
+    "LocationCode": {
+      "definition": "Gibt an, dass der Ort unbekannt ist."
+    }
+  }
+}

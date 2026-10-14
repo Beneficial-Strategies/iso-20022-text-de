@@ -1,0 +1,26 @@
+{
+  "isoType": "SecuritiesTradeDetails100",
+  "definition": "Einzelheiten zum Wertpapiergeschäft.",
+  "isoElements": {
+    "TradeDate": {
+      "definition": "Gibt Datum und Uhrzeit der Ausführung des Geschäfts an."
+    },
+    "OpeningSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere geliefert oder empfangen werden sollen."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Anzahl der Tage, an denen der Zinssatz aufläuft (täglich aufgelaufene Zinsen)."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Liefert zusätzliche Informationen zur Abwicklungsverarbeitung, die nicht in den strukturierten Feldern der Nachricht angegeben werden können."
+    }
+  },
+  "isoRules": {
+    "TradeDateTimeUTCRule": {
+      "definition": "Wird Trade Date/Time mit einer Uhrzeit oder einer Uhrzeit plus UTC-Indikator verwendet, so muss es die Ortszeit des Handelsplatzes sein, zum Beispiel der Börse oder, bei OTC, des verkaufenden Brokers."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Sofern zwischen Sender und Empfänger nicht bilateral anders vereinbart, darf InstructionProcessingAdditionalDetails, wenn vorhanden, keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

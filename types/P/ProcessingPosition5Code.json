@@ -1,0 +1,10 @@
+{
+  "isoType": "ProcessingPosition5Code",
+  "definition": "Legt fest, wann eine Transaktion/Anweisung relativ zu einer verknüpften Transaktion/Anweisung auszuführen ist.",
+  "isoCodes": {
+    "INFO": {
+      "name": "Information",
+      "definition": "Gibt an, dass die Transaktionen bzw. Anweisungen nur zu Informationszwecken verknüpft sind."
+    }
+  }
+}

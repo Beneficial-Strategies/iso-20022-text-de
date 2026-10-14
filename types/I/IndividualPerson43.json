@@ -1,0 +1,12 @@
+{
+  "isoType": "IndividualPerson43",
+  "definition": "Menschliches Wesen, im Unterschied zu einer Körperschaft (die manchmal als „künstliche Person“ bezeichnet wird).",
+  "isoElements": {
+    "PreassignedProxy": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Bevollmächtigten."
+    },
+    "EmployingParty": {
+      "definition": "Organisation, die von der Person vertreten wird oder für die die Person arbeitet."
+    }
+  }
+}

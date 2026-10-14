@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMSecurityConfiguration5",
+  "definition": "Konfiguration der Online-Prüfung der PIN.",
+  "isoElements": {
+    "PINFormat": {
+      "definition": "PIN-Blockformat, das das Sicherheitsmodul für die Online-Prüfung der PIN verwalten kann."
+    },
+    "PINLengthCapabilities": {
+      "definition": "Maximale Anzahl von Ziffern, die das Sicherheitsmodul bei der PIN-Eingabe durch den Karteninhaber akzeptieren kann."
+    }
+  }
+}

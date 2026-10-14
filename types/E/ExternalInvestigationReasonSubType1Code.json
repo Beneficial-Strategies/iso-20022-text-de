@@ -1,0 +1,378 @@
+{
+  "isoType": "ExternalInvestigationReasonSubType1Code",
+  "definition": "Gibt die Untersuchungsgrund-Unterart an, wie in einem externen Codesatz für Untersuchungsgrund-Unterarten veröffentlicht.|Externe Codesätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "MMNA": {
+      "name": "Name und Konto stimmen nicht überein",
+      "definition": "Name und Konto stimmen nicht überein."
+    },
+    "RQAC": {
+      "name": "Konto anfordern",
+      "definition": "Das Konto wird angefordert."
+    },
+    "RQPP": {
+      "name": "Passkopie anfordern",
+      "definition": "Eine Kopie des Reisepasses wird angefordert."
+    },
+    "RQIN": {
+      "name": "Rechnungskopie anfordern",
+      "definition": "Eine Kopie der Rechnung wird angefordert."
+    },
+    "RQOW": {
+      "name": "Eigentumsbestätigung anfordern",
+      "definition": "Die Bestätigung des Eigentums wird angefordert."
+    },
+    "RQDB": {
+      "name": "Geburtsdatum anfordern",
+      "definition": "Das Geburtsdatum wird angefordert."
+    },
+    "RQCB": {
+      "name": "Geburtsort anfordern",
+      "definition": "Der Geburtsort (Stadt) wird angefordert."
+    },
+    "RQPO": {
+      "name": "Geburtsprovinz anfordern",
+      "definition": "Die Geburtsprovinz wird angefordert."
+    },
+    "RQCO": {
+      "name": "Geburtsland anfordern",
+      "definition": "Das Geburtsland wird angefordert."
+    },
+    "RQAT": {
+      "name": "Art der Postanschrift anfordern",
+      "definition": "Der Typ der Postanschrift wird angefordert."
+    },
+    "RQDE": {
+      "name": "Abteilung der Postanschrift anfordern",
+      "definition": "Die Abteilung der Postanschrift wird angefordert."
+    },
+    "RQAS": {
+      "name": "Unterabteilung der Postanschrift anfordern",
+      "definition": "Die Unterabteilung der Postanschrift wird angefordert."
+    },
+    "RQSN": {
+      "name": "Straßenname der Postanschrift anfordern",
+      "definition": "Der Straßenname der Postanschrift wird angefordert."
+    },
+    "RQB1": {
+      "name": "Hausnummer der Postanschrift anfordern",
+      "definition": "Die Gebäudenummer der Postanschrift wird angefordert."
+    },
+    "RQBN": {
+      "name": "Gebäudename der Postanschrift anfordern",
+      "definition": "Der Gebäudename der Postanschrift wird angefordert."
+    },
+    "RQFL": {
+      "name": "Stockwerk der Postanschrift anfordern",
+      "definition": "Das Stockwerk der Postanschrift wird angefordert."
+    },
+    "RQPB": {
+      "name": "Postfach der Postanschrift anfordern",
+      "definition": "Das Postfach der Postanschrift wird angefordert."
+    },
+    "RQRO": {
+      "name": "Zimmer der Postanschrift anfordern",
+      "definition": "Das Zimmer der Postanschrift wird angefordert."
+    },
+    "RQPC": {
+      "name": "Postleitzahl der Postanschrift anfordern",
+      "definition": "Die Postleitzahl der Postanschrift wird angefordert."
+    },
+    "RQTN": {
+      "name": "Ortsname der Postanschrift anfordern",
+      "definition": "Der Ortsname der Postanschrift wird angefordert."
+    },
+    "RQTL": {
+      "name": "Ortsteilname der Postanschrift anfordern",
+      "definition": "Der Ortsteilname der Postanschrift wird angefordert."
+    },
+    "RQDN": {
+      "name": "Stadtbezirk der Postanschrift anfordern",
+      "definition": "Der Bezirksname der Postanschrift wird angefordert."
+    },
+    "RQCS": {
+      "name": "Land-Unterteilung der Postanschrift anfordern",
+      "definition": "Die Landesunterteilung der Postanschrift wird angefordert."
+    },
+    "RQCC": {
+      "name": "Land der Postanschrift anfordern",
+      "definition": "Das Land der Postanschrift wird angefordert."
+    },
+    "RQAL": {
+      "name": "Zeile der Postanschrift anfordern",
+      "definition": "Die Zeile der Postanschrift wird angefordert."
+    },
+    "RQPA": {
+      "name": "Vollständige Postanschrift anfordern",
+      "definition": "Die vollständige Postanschrift wird angefordert."
+    },
+    "RQNM": {
+      "name": "Vollständigen Namen anfordern",
+      "definition": "Der vollständige Name wird angefordert."
+    },
+    "ARNU": {
+      "name": "Ausländerregistrierungsnummer anfordern",
+      "definition": "Die Alien Registration Number wird angefordert."
+    },
+    "CCPT": {
+      "name": "Passnummer anfordern",
+      "definition": "Die Passnummer wird angefordert."
+    },
+    "DRLC": {
+      "name": "Führerscheinnummer anfordern",
+      "definition": "Die Führerscheinnummer wird angefordert."
+    },
+    "EMPL": {
+      "name": "Mitarbeiteridentifikationsnummer anfordern",
+      "definition": "Die Mitarbeiteridentifikationsnummer wird angefordert."
+    },
+    "NIDN": {
+      "name": "Nationale Identitätsnummer anfordern",
+      "definition": "Die nationale Identitätsnummer wird angefordert."
+    },
+    "SOSE": {
+      "name": "Sozialversicherungsnummer anfordern",
+      "definition": "Die Sozialversicherungsnummer wird angefordert."
+    },
+    "TELE": {
+      "name": "Telefonnummer anfordern",
+      "definition": "Die Telefonnummer wird angefordert."
+    },
+    "TXID": {
+      "name": "Steueridentifikationsnummer anfordern",
+      "definition": "Die Steueridentifikationsnummer wird angefordert."
+    },
+    "POID": {
+      "name": "Geschäftliche Identifikation der Person anfordern",
+      "definition": "Die Person Commercial Identification wird angefordert."
+    },
+    "BANK": {
+      "name": "Identifikation der Bankpartei anfordern",
+      "definition": "Die Bank-Parteiidentifikation wird angefordert. Dies ist eine eindeutige und unmissverständliche Zuweisung durch eine bestimmte Bank oder ein ähnliches Finanzinstitut zur Identifikation einer zwischen der Bank und ihrem Kunden bestehenden Beziehung."
+    },
+    "CBID": {
+      "name": "Identifikationsnummer der Zentralbank anfordern",
+      "definition": "Die Zentralbank-Identifikationsnummer wird angefordert. Dies ist eine eindeutige Identifikationsnummer, die von einer Zentralbank zur Identifikation einer Organisation vergeben wird."
+    },
+    "CHID": {
+      "name": "Clearing-Identifikationsnummer anfordern",
+      "definition": "Die Clearing-Identifikationsnummer wird angefordert. Dies ist eine eindeutige Identifikationsnummer, die von einer Clearingstelle zur Identifikation einer Organisation vergeben wird"
+    },
+    "CINC": {
+      "name": "Nummer der Gründungsurkunde anfordern",
+      "definition": "Die Nummer der Gründungsurkunde wird angefordert. Dies ist eine eindeutige Identifikationsnummer, die von einer benannten Behörde einer Gründungsurkunde zugewiesen und zur Identifikation einer Organisation verwendet wird."
+    },
+    "COID": {
+      "name": "Ländercode zur Identifikation anfordern",
+      "definition": "Der Länder-Identifikationscode wird angefordert. Dies ist eine von einer Landesbehörde vergebene Organisationsidentifikation (z. B. Handelsregisternummer)"
+    },
+    "CUST": {
+      "name": "Kundennummer anfordern",
+      "definition": "Die Kundennummer wird angefordert. Dies ist eine von einem Emittenten zur Identifikation eines Kunden vergebene Nummer oder eine von einer Partei zur Identifikation einer Zahlungsempfänger- oder Zahlungspflichtigenbeziehung vergebene Nummer."
+    },
+    "DUNS": {
+      "name": "Data Universal Numbering System anfordern",
+      "definition": "Die Data Universal Number wird angefordert. Dies ist eine eindeutige Identifikationsnummer, die von Dun & Bradstreet zur Identifikation einer Organisation bereitgestellt wird."
+    },
+    "GS1G": {
+      "name": "GS1-GLN-Kennung anfordern",
+      "definition": "Die GS1GLN-Kennung (Global Location Number) wird angefordert. Dies ist eine nicht sprechende Referenznummer zur Identifikation von juristischen, funktionalen oder physischen Einheiten gemäß den Nummerierungsregeln des GS1-Schemas. Die Nummer wird verwendet, um damit verknüpfte Detailinformationen abzurufen."
+    },
+    "SREN": {
+      "name": "SIREN anfordern",
+      "definition": "Die SIREN-Nummer wird angefordert. Dies ist ein 9-stelliger Code, der von INSEE, dem französischen Nationalen Institut für Statistik und Wirtschaftsstudien, zur Identifikation einer Organisation in Frankreich vergeben wird."
+    },
+    "SRET": {
+      "name": "SIRET anfordern",
+      "definition": "Die SIRET-Nummer wird angefordert. Dies ist ein 14-stelliger Code, der von INSEE, dem französischen Nationalen Institut für Statistik und Wirtschaftsstudien, zur Identifikation einer Organisationseinheit in Frankreich vergeben wird. Sie besteht aus der SIREN-Nummer, gefolgt von einer fünfstelligen Klassifikationsnummer zur Identifikation der lokalen geografischen Einheit dieser Organisation"
+    },
+    "BDID": {
+      "name": "Geschäftsbereichskennung anfordern",
+      "definition": "Die Kennung des Geschäftsbereichs, in dem die Organisation tätig ist, wird angefordert."
+    },
+    "BOID": {
+      "name": "Sonstige geschäftliche Identifikation anfordern",
+      "definition": "Eine sonstige Identifikation der Organisation wird angefordert."
+    },
+    "RQLE": {
+      "name": "LEI anfordern",
+      "definition": "Die Legal Entity Identifier wird angefordert."
+    },
+    "RQNA": {
+      "name": "Staatsangehörigkeit anfordern",
+      "definition": "Die Staatsangehörigkeit wird angefordert."
+    },
+    "RQCZ": {
+      "name": "Staatsbürgerschaft anfordern",
+      "definition": "Die Staatsbürgerschaft wird angefordert."
+    },
+    "RQRE": {
+      "name": "Beziehung zwischen Zahlungspflichtigem und Zahlungsempfänger anfordern",
+      "definition": "Die Beziehung zwischen Zahlungspflichtigem und Zahlungsempfänger wird angefordert."
+    },
+    "RQOC": {
+      "name": "Beruf anfordern",
+      "definition": "Der Beruf wird angefordert."
+    },
+    "RQID": {
+      "name": "Branche anfordern",
+      "definition": "Die Branche wird angefordert."
+    },
+    "RICD": {
+      "name": "Gründungsdatum anfordern",
+      "definition": "Das Gründungsdatum wird angefordert."
+    },
+    "RICC": {
+      "name": "Gründungsland anfordern",
+      "definition": "Das Gründungsland/Registrierungsland wird angefordert."
+    },
+    "RCBL": {
+      "name": "Länder aller Geschäftsstandorte anfordern",
+      "definition": "Die Länder aller Geschäfts-/Betriebsstandorte werden angefordert."
+    },
+    "RQLB": {
+      "name": "Geschäftszweig anfordern",
+      "definition": "Die Geschäftsart wird angefordert."
+    },
+    "RQON": {
+      "name": "Ort eines etwaigen Weiterhandels mit Waren oder Dienstleistungen anfordern",
+      "definition": "Der Ort eines etwaigen Weiterverkaufs von Waren oder Dienstleistungen wird angefordert."
+    },
+    "RQCI": {
+      "name": "An der Transaktion beteiligte Länder anfordern",
+      "definition": "Einzelheiten zu allen an der Transaktion beteiligten Ländern werden angefordert."
+    },
+    "RQDS": {
+      "name": "Einzelheiten zu Dienstleistungen anfordern",
+      "definition": "Einzelheiten zu den Dienstleistungen werden angefordert."
+    },
+    "RQDG": {
+      "name": "Einzelheiten zu Waren anfordern",
+      "definition": "Einzelheiten zu den Waren werden angefordert."
+    },
+    "RQLS": {
+      "name": "Ort der Dienstleistungen anfordern",
+      "definition": "Der Ort, an dem Dienstleistungen erbracht werden, wird angefordert."
+    },
+    "RQGF": {
+      "name": "Endbestimmungsort der Waren anfordern",
+      "definition": "Das Endziel der Waren wird angefordert."
+    },
+    "RQSD": {
+      "name": "Datum der Dienstleistungen anfordern",
+      "definition": "Das Datum, an dem Dienstleistungen erbracht werden, wird angefordert."
+    },
+    "RQGD": {
+      "name": "Datum der Waren anfordern",
+      "definition": "Das Datum, an dem Waren offiziell den Eigentümer wechseln, wird angefordert."
+    },
+    "RQUS": {
+      "name": "US-Nexus-Status anfordern",
+      "definition": "Die Bestätigung, ob die USA einen Anknüpfungspunkt zur Transaktion darstellen, wird angefordert."
+    },
+    "RQBL": {
+      "name": "Konnossement anfordern",
+      "definition": "Der Frachtbrief (Bill of Lading) wird angefordert."
+    },
+    "RQCD": {
+      "name": "Zollanmeldung anfordern",
+      "definition": "Die Zollanmeldung wird angefordert."
+    },
+    "RQTD": {
+      "name": "Transportdokumentation anfordern",
+      "definition": "Die Transportdokumentation wird angefordert."
+    },
+    "RQHS": {
+      "name": "HS-Codes der gelieferten Waren anfordern",
+      "definition": "Der HS-Code der Waren wird angefordert."
+    },
+    "RQAB": {
+      "name": "Luftfrachtbrief anfordern",
+      "definition": "Der Luftfrachtbrief wird angefordert."
+    },
+    "RQIM": {
+      "name": "Beteiligtes Schiff mit IMO-Nummer anfordern",
+      "definition": "Die Schiffs-IMO-Nummer wird angefordert."
+    },
+    "RQTA": {
+      "name": "Kennzeichen des beteiligten Luftfahrzeugs anfordern",
+      "definition": "Das Heckkennzeichen des Luftfahrzeugs wird angefordert."
+    },
+    "RCOO": {
+      "name": "Ursprungsland anfordern",
+      "definition": "Das Ursprungsland wird angefordert."
+    },
+    "RQUO": {
+      "name": "Wirtschaftlich Berechtigten anfordern",
+      "definition": "Der wirtschaftlich Berechtigte wird angefordert."
+    },
+    "RQCT": {
+      "name": "Transitländer zwischen Zahlungspflichtigem und Zahlungsempfänger in der Transaktion anfordern",
+      "definition": "Die Transitländer zwischen Zahlungspflichtigem und Zahlungsempfänger werden angefordert."
+    },
+    "RQDV": {
+      "name": "Reisedaten für die in der Transaktion referenzierten Waren oder Dienstleistungen anfordern",
+      "definition": "Die Reisedaten für Waren oder Dienstleistungen werden angefordert."
+    },
+    "RPOC": {
+      "name": "Anlaufhäfen anfordern",
+      "definition": "Die Anlaufhäfen werden angefordert."
+    },
+    "RQCM": {
+      "name": "Anfordern, ob die Zahlung zivilen oder militärischen Charakter hat",
+      "definition": "Die Bestätigung, ob die Transaktion ziviler oder militärischer Natur ist, wird angefordert."
+    },
+    "RQUP": {
+      "name": "Beteiligte letztliche Parteien einschließlich Herkunft der Mittel anfordern",
+      "definition": "Die letztlich Beteiligten und die Herkunft der Mittel werden angefordert."
+    },
+    "RQLP": {
+      "name": "Anfordern, ob für die Zahlung eine Lizenz gilt oder erforderlich ist",
+      "definition": "Die für die Zahlung geltende oder erforderliche Lizenz wird angefordert."
+    },
+    "RQIC": {
+      "name": "Anfordern, ob der gemeinnützige Sektor beteiligt ist",
+      "definition": "Die Bestätigung, ob der gemeinnützige Sektor an der Transaktion beteiligt ist, wird angefordert."
+    },
+    "RQKC": {
+      "name": "Kimberley-Zertifizierung anfordern",
+      "definition": "Die Kimberley-Zertifizierung wird angefordert."
+    },
+    "RQGL": {
+      "name": "Kopie der Allgemeingenehmigung anfordern",
+      "definition": "Eine Kopie der Allgemeingenehmigung wird angefordert."
+    },
+    "RQSL": {
+      "name": "Kopie der Einzelgenehmigung anfordern",
+      "definition": "Eine Kopie der Einzelgenehmigung wird angefordert."
+    },
+    "RQDP": {
+      "name": "Detaillierten Zahlungszweck anfordern",
+      "definition": "Der detaillierte Zahlungszweck wird angefordert."
+    },
+    "RQBW": {
+      "name": "Geschäftliche Website anfordern",
+      "definition": "Die Geschäfts-Website wird angefordert."
+    },
+    "RQOG": {
+      "name": "Ursprung der Waren anfordern",
+      "definition": "Der Ursprung der Waren wird angefordert."
+    },
+    "RQUU": {
+      "name": "Endverwender und Verwendung der Waren oder Dienstleistungen anfordern",
+      "definition": "Der Endverbraucher und die Verwendung der Waren oder Dienstleistungen werden angefordert."
+    },
+    "MISS": {
+      "name": "Fehlend",
+      "definition": "Informationen fehlen."
+    },
+    "INVA": {
+      "name": "Ungültig",
+      "definition": "Informationen sind ungültig."
+    },
+    "ICOM": {
+      "name": "Unvollständig",
+      "definition": "Informationen sind unvollständig."
+    }
+  }
+}

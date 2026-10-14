@@ -1,0 +1,15 @@
+{
+  "isoType": "OriginalMessageAndIssuer1",
+  "definition": "Fachliche Referenz(en) auf eine oder mehrere relevante Nachrichten, die zuvor von anderen Parteien oder von derselben Partei gesendet wurden, die diese Nachricht ausstellt.||.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Eindeutige Identifikation der ursprünglichen Nachricht, auf die sich die Nachricht bezieht."
+    },
+    "MessageNameIdentification": {
+      "definition": "Gibt die Kennung des Namens der ursprünglichen Nachricht an, auf die sich die Nachricht bezieht."
+    },
+    "OriginatorName": {
+      "definition": "Name der ursprünglichen Partei, die die ursprüngliche Nachrichtenidentifikation vergeben hat."
+    }
+  }
+}

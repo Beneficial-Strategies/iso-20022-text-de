@@ -1,0 +1,12 @@
+{
+  "isoType": "Recipient5Choice",
+  "definition": "Identifikation eines kryptografischen asymmetrischen Schlüssels.",
+  "isoElements": {
+    "IssuerAndSerialNumber": {
+      "definition": "Name des Zertifikatsausstellers und Seriennummer (siehe ITU X.509)."
+    },
+    "KeyIdentifier": {
+      "definition": "Kennung eines kryptografischen asymmetrischen Schlüssels, der zuvor zwischen Initiator und Empfänger ausgetauscht wurde."
+    }
+  }
+}

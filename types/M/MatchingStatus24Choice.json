@@ -1,0 +1,15 @@
+{
+  "isoType": "MatchingStatus24Choice",
+  "definition": "Auswahl des Formats für den Abgleichsstatus.",
+  "isoElements": {
+    "Matched": {
+      "definition": "Der Status ist abgeglichen."
+    },
+    "Unmatched": {
+      "definition": "Der Status ist nicht abgeglichen."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Status."
+    }
+  }
+}

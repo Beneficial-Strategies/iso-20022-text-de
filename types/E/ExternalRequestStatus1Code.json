@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalRequestStatus1Code",
+  "definition": "Gibt den Status des Auftrags an, wie in einem externen Codesatz für Auftragsstatus veröffentlicht.|Externe Codesätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "RCVD": {
+      "name": "Empfangen",
+      "definition": "Die Nachricht wurde empfangen."
+    },
+    "RJCT": {
+      "name": "Abgelehnt",
+      "definition": "Die Nachricht wurde abgelehnt."
+    },
+    "ACPT": {
+      "name": "Akzeptiert",
+      "definition": "Die Nachricht wurde akzeptiert."
+    },
+    "PDNG": {
+      "name": "Ausstehend",
+      "definition": "Die Nachricht steht bis zu weiterer Analyse und Untersuchung aus."
+    },
+    "PART": {
+      "name": "Teilweise akzeptiert",
+      "definition": "Die Nachricht wurde teilweise akzeptiert."
+    }
+  }
+}

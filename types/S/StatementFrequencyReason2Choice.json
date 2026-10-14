@@ -1,0 +1,12 @@
+{
+  "isoType": "StatementFrequencyReason2Choice",
+  "definition": "Auswahl von Formaten für die Angabe der Auszugshäufigkeit.",
+  "isoElements": {
+    "Code": {
+      "definition": "Auszugshäufigkeit, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Auszugshäufigkeit, ausgedrückt als proprietärer Code."
+    }
+  }
+}

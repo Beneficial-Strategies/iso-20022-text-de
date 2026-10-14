@@ -1,0 +1,38 @@
+{
+  "isoType": "LongPaymentIdentification4",
+  "definition": "Identifiziert eine Zahlungsanweisung anhand einer Reihe von Merkmalen, die eine eindeutige Identifikation der Anweisung ermöglichen.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Eindeutige Identifikation, vom ersten anweisenden Institut vergeben, zur zweifelsfreien Identifikation der Transaktion, die unverändert durch die gesamte Interbankenkette weitergegeben wird.|Verwendung: Die Transaktionsidentifikation kann für den Abgleich, die Nachverfolgung oder die Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion auf Interbankenebene verwendet werden. Die anweisende Bank muss sicherstellen, dass die Transaktionsidentifikation für einen vorab vereinbarten Zeitraum eindeutig ist.|Verwendung: Dies ist das frühere Element PaymentInstructionReference."
+    },
+    "UETR": {
+      "definition": "Universell eindeutiger Bezeichner für eine Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Geldbetrag, der zwischen der anweisenden Bank und der angewiesenen Bank bewegt wird."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag für die schuldende Bank nicht mehr verfügbar ist und für die Bank, der er geschuldet wird, verfügbar wird."
+    },
+    "PaymentMethod": {
+      "definition": "Nachrichtentyp, mit dem die Anweisung veranlasst wurde."
+    },
+    "InstructingAgent": {
+      "definition": "Bank, die die nächste Partei in der Kette anweist, die Anweisung(en) auszuführen."
+    },
+    "InstructedAgent": {
+      "definition": "Bank, die von der vorhergehenden Partei in der Kette angewiesen wird, die Anweisung(en) auszuführen."
+    },
+    "EntryType": {
+      "definition": "Optionaler Qualifizierer mit zusätzlichen systemspezifischen Informationen zur Buchung."
+    },
+    "EndToEndIdentification": {
+      "definition": "Eindeutige Identifikation, von der initiierenden Partei vergeben, zur zweifelsfreien Identifikation der Transaktion. Diese Identifikation wird unverändert durch die gesamte Ende-zu-Ende-Kette weitergegeben.|Verwendung: Die Ende-zu-Ende-Identifikation kann für den Abgleich oder die Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion verwendet werden.|Sie kann in mehreren Nachrichten zur Transaktion enthalten sein.|Verwendung: Dies ist die frühere RelatedReference."
+    }
+  },
+  "isoRules": {
+    "TransactionIdentificationPresenceRule": {
+      "definition": "TransactionIdentification oder UETR muss vorhanden sein. Beide können vorhanden sein."
+    }
+  }
+}

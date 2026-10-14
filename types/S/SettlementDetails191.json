@@ -1,0 +1,47 @@
+{
+  "isoType": "SettlementDetails191",
+  "definition": "Einzelheiten zur Abwicklung einer Transaktion.",
+  "isoElements": {
+    "HoldIndicator": {
+      "definition": "Gibt an, ob die Transaktion angehalten/gesperrt/eingefroren ist."
+    },
+    "SecuritiesTransactionType": {
+      "definition": "Identifiziert die Art der Wertpapiertransaktion."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Bedingungen, unter denen der Auftrag/das Handelsgeschäft abgewickelt werden soll."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Gibt an, ob eine Teilabwicklung zulässig ist."
+    },
+    "BeneficialOwnership": {
+      "definition": "Gibt an, ob ein Wechsel des wirtschaftlichen Eigentums stattfindet."
+    },
+    "CashClearingSystem": {
+      "definition": "Gibt die Kategorie des Geld-Clearingsystems an, zum Beispiel Scheck-Clearing."
+    },
+    "MarketClientSide": {
+      "definition": "Gibt an, ob eine Anweisung für eine Transaktion auf der Marktseite oder der Kundenseite gilt."
+    },
+    "Registration": {
+      "definition": "Gibt an, ob die Registrierung bei Eingang erfolgen soll."
+    },
+    "RepurchaseType": {
+      "definition": "Gibt an, ob der Satz fest, variabel oder pauschal ist."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Gibt an, ob die Abwicklungstransaktion über ein RTGS-System oder ein Nicht-RTGS-System abgewickelt werden soll."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Gibt die Art der Stempelsteuer oder den Befreiungsgrund an, der für die Abwicklungstransaktion gilt."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Wenn SettlementDetails-Elemente verwendet werden, müssen ihre Nutzungsbedingungen zwischen Kontoinhaber und Kontoführer vorab vereinbart sein."
+    },
+    "CashClearingSystemRule": {
+      "definition": "Die CashSettlementSystem-Codes sind ausschließlich von Banken zu verwenden, die unmittelbar am Abwicklungsprozess beteiligt sind, wie lokale Abwicklungsbanken, Zentralverwahrer und Zentralbanken (CSD)."
+    }
+  }
+}

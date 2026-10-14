@@ -1,0 +1,18 @@
+{
+  "isoType": "PendingCancellationReason8Code",
+  "definition": "Gibt den Grund an, weshalb der Stornierungsauftrag den Status „ausstehend“ hat.",
+  "isoCodes": {
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "PCAT": {
+      "name": "Akzeptanz der Gegenpartei ausstehend",
+      "definition": "Ausstehende Akzeptanz durch die Gegenpartei."
+    },
+    "ECRD": {
+      "name": "Antwortfrist für die Wahl gegenüber der Gegenpartei verpasst",
+      "definition": "Nach der Marktfrist für die Antwort auf die Wahl gegenüber der Gegenpartei eingegangen."
+    }
+  }
+}

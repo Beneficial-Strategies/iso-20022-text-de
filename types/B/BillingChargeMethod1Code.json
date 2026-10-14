@@ -1,0 +1,86 @@
+{
+  "isoType": "BillingChargeMethod1Code",
+  "definition": "Legt fest, wie das Abrechnungsentgelt berechnet wird.",
+  "isoCodes": {
+    "UPRC": {
+      "name": "Stückpreis",
+      "definition": "Das Entgelt wird als Produkt aus Volumen und Stückpreis berechnet. Dies ist der Standardwert."
+    },
+    "STAM": {
+      "name": "Stempelsteuer",
+      "definition": "Der Service ist ausdrücklich als Stempelsteuer für Buchhaltungszwecke gekennzeichnet. Das Entgelt wird als Produkt aus Volumen und Stückpreis berechnet."
+    },
+    "BCHG": {
+      "name": "Grundentgelt",
+      "definition": "Gebühr, die zusätzlich zu Volumen mal Stückpreis erhoben wird, wenn eine oder mehrere Einheiten des Services erbracht werden."
+    },
+    "DPRC": {
+      "name": "Rabattpreis",
+      "definition": "Das Entgelt wird mit einem Preis berechnet, der niedriger ist als der notierte Bankpreis."
+    },
+    "FCHG": {
+      "name": "Pauschalentgelt",
+      "definition": "Pauschalentgelt, das nicht an Volumen oder Stückpreis gebunden ist. Pauschalentgelte erfordern kein Volumen und keinen Stückpreis."
+    },
+    "LPRC": {
+      "name": "Listenpreis",
+      "definition": "Ein einzelner Service, bei dem Volumen, ursprüngliches Entgelt und erforderlicher Saldo die Summen aus zwei oder mehr Preisstufen sind."
+    },
+    "MCHG": {
+      "name": "Mindestentgelt",
+      "definition": "Niedrigstmögliches Entgelt für den Service."
+    },
+    "MXRD": {
+      "name": "Maximale Reduzierung",
+      "definition": "Höchstmögliches Entgelt für den Service, auch wenn Volumen mal Stückpreis den Maximalwert der Ermäßigung übersteigt."
+    },
+    "TIR1": {
+      "name": "Stufe 1",
+      "definition": "Die Position stellt ein Entgelt für Stufe 1 in einer mehrstufigen Entgeltstruktur mit Mengenrabatt dar. Kennzeichnet die Stufe 1, mit der das in diese Stufe fallende Volumen abgerechnet wird."
+    },
+    "TIR2": {
+      "name": "Stufe 2",
+      "definition": "Die Position stellt ein Entgelt für Stufe 2 in einer mehrstufigen Entgeltstruktur mit Mengenrabatt dar. Kennzeichnet die Stufe 2, mit der das in diese Stufe fallende Volumen abgerechnet wird."
+    },
+    "TIR3": {
+      "name": "Stufe 3",
+      "definition": "Die Position stellt ein Entgelt für Stufe 3 in einer mehrstufigen Entgeltstruktur mit Mengenrabatt dar. Kennzeichnet die Stufe 3, mit der das in diese Stufe fallende Volumen abgerechnet wird."
+    },
+    "TIR4": {
+      "name": "Stufe 4",
+      "definition": "Die Position stellt ein Entgelt für Stufe 4 in einer mehrstufigen Entgeltstruktur mit Mengenrabatt dar. Kennzeichnet die Stufe 4, mit der das in diese Stufe fallende Volumen abgerechnet wird."
+    },
+    "TIR5": {
+      "name": "Stufe 5",
+      "definition": "Die Position stellt ein Entgelt für Stufe 5 in einer mehrstufigen Entgeltstruktur mit Mengenrabatt dar. Kennzeichnet die Stufe 5, mit der das in diese Stufe fallende Volumen abgerechnet wird."
+    },
+    "TIR6": {
+      "name": "Stufe 6",
+      "definition": "Die Position stellt ein Entgelt für Stufe 6 in einer mehrstufigen Entgeltstruktur mit Mengenrabatt dar. Kennzeichnet die Stufe 6, mit der das in diese Stufe fallende Volumen abgerechnet wird."
+    },
+    "TIR7": {
+      "name": "Stufe 7",
+      "definition": "Die Position stellt ein Entgelt für Stufe 7 in einer mehrstufigen Entgeltstruktur mit Mengenrabatt dar. Kennzeichnet die Stufe 7, mit der das in diese Stufe fallende Volumen abgerechnet wird."
+    },
+    "TIR8": {
+      "name": "Stufe 8",
+      "definition": "Die Position stellt ein Entgelt für Stufe 8 in einer mehrstufigen Entgeltstruktur mit Mengenrabatt dar. Kennzeichnet die Stufe 8, mit der das in diese Stufe fallende Volumen abgerechnet wird."
+    },
+    "TIR9": {
+      "name": "Stufe 9",
+      "definition": "Die Position stellt ein Entgelt für Stufe 9 in einer mehrstufigen Entgeltstruktur mit Mengenrabatt dar. Kennzeichnet die Stufe 9, mit der das in diese Stufe fallende Volumen abgerechnet wird."
+    },
+    "TPRC": {
+      "name": "Schwellenpreis",
+      "definition": "Der Stückpreis wird durch das Gesamtvolumen bestimmt."
+    },
+    "ZPRC": {
+      "name": "Zonenpreis",
+      "definition": "Kennzeichnet unterschiedliche Preise für denselben Service. Wird typischerweise in einer Beziehungsübersicht verwendet, in der derselbe Service für verschiedene Konten der Beziehung unterschiedliche Preise hat."
+    },
+    "BBSE": {
+      "name": "Saldobasiert",
+      "definition": "Das Entgelt wird als Saldo mal Jahressatz mal Zeitfaktor berechnet."
+    }
+  }
+}

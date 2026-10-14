@@ -1,0 +1,26 @@
+{
+  "isoType": "BalanceAmounts3",
+  "definition": "Mit einem Wertpapiersaldo verbundene Beträge, zum Beispiel der Bestandswert.",
+  "isoElements": {
+    "HoldingValue": {
+      "definition": "Wert eines einzelnen Finanzinstrumentbestands innerhalb eines Verwahrkontos."
+    },
+    "PreviousHoldingValue": {
+      "definition": "Vorheriger Wert eines einzelnen Finanzinstrumentbestands innerhalb eines Verwahrkontos."
+    },
+    "BookValue": {
+      "definition": "Wert eines Finanzinstruments, wie auf einem Konto gebucht/erworben. Er kann zur Feststellung der Kapitalertragsteuerpflicht verwendet werden."
+    },
+    "EligibleCollateralValue": {
+      "definition": "Wert der für Sicherungszwecke anrechenbaren Position."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Zinsbetrag, der zwischen den Kuponzahlungsperioden aufgelaufen ist."
+    }
+  },
+  "isoRules": {
+    "EligibleCollateralValueRule": {
+      "definition": "EligibleCollateralValue ist nur in der Kommunikation mit (I)CSD-Teilnehmern oder bei bilateraler Vereinbarung zwischen Absender und Empfänger zu verwenden."
+    }
+  }
+}

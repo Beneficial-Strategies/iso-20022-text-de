@@ -1,0 +1,15 @@
+{
+  "isoType": "Case6",
+  "definition": "Enthält weitere Angaben zur Identifikation eines Untersuchungsfalls.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifiziert den Fall eindeutig."
+    },
+    "Creator": {
+      "definition": "Partei, die den Untersuchungsfall erstellt hat."
+    },
+    "ReopenCaseIndication": {
+      "definition": "Gibt an, ob der Fall zuvor abgeschlossen war und nun wieder geöffnet wurde."
+    }
+  }
+}

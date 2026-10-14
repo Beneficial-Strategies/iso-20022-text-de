@@ -1,0 +1,45 @@
+{
+  "isoType": "StandingOrderSearchCriteria5",
+  "definition": "Legt die Kriterien fest, nach denen im System definierte Daueraufträge gesucht werden.",
+  "isoElements": {
+    "KeyAttributesIndicator": {
+      "definition": "Gibt an, ob die im System definierten Schlüsselfelder oder fachlichen Attribute zurückgegeben werden müssen."
+    },
+    "StandingOrderIdentification": {
+      "definition": "Eindeutige Identifikation des Dauerauftrags, mit dem die Liquiditätsübertragung ausgelöst wurde."
+    },
+    "Type": {
+      "definition": "Art des Dauerauftrags."
+    },
+    "Account": {
+      "definition": "Ursprungs- oder Zielkonto der Liquiditätsübertragung innerhalb des Kontopools, der von der anfordernden Partei verwaltet wird."
+    },
+    "Currency": {
+      "definition": "Eindeutige Identifikation eines Dauerauftrags, wie vom kontoführenden Institut oder vom Kontoinhaber vergeben."
+    },
+    "ValidityPeriod": {
+      "definition": "Zeiträume, in denen der Dauerauftrag gültig ist."
+    },
+    "SystemMember": {
+      "definition": "Gibt an, ob das Konto durch den Dauerauftrag belastet oder gutgeschrieben wird."
+    },
+    "ResponsibleParty": {
+      "definition": "An einer Aktivität beteiligte Einheit."
+    },
+    "AssociatedPoolAccount": {
+      "definition": "Ursprungs- oder Zielkonto der Liquiditätsübertragung innerhalb des Kontopools, der von der anfordernden Partei verwaltet wird."
+    },
+    "LinkSetIdentification": {
+      "definition": "Eindeutige Identifikation des Verknüpfungssatzes, in dem der Dauerauftrag definiert ist. Der Verknüpfungssatz ist eine Sammlung von Daueraufträgen, die in einer bestimmten Reihenfolge definiert sind."
+    },
+    "LinkSetOrderIdentification": {
+      "definition": "Eindeutige Identifikation des Dauerauftrags für Liquiditätsübertragungen innerhalb des Verknüpfungssatzes."
+    },
+    "LinkSetOrderSequence": {
+      "definition": "Gibt die Reihenfolge an, in der das System die Daueraufträge für Liquiditätsübertragungen innerhalb des Verknüpfungssatzes ausführt, wenn zusätzliche Liquidität benötigt wird."
+    },
+    "ZeroSweepIndicator": {
+      "definition": "Gibt an, ob die Abfrage alle als Zero-Sweeping-Aufträge definierten Daueraufträge für Liquiditätsübertragungen zurückgeben soll.|Wenn der Indikator auf true gesetzt ist, überträgt der Dauerauftrag für Liquiditätsübertragungen den gesamten Geldbetrag vom Konto, sodass der resultierende Saldo null beträgt."
+    }
+  }
+}

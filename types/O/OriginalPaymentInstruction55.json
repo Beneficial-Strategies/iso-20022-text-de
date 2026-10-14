@@ -1,0 +1,44 @@
+{
+  "isoType": "OriginalPaymentInstruction55",
+  "definition": "Enthält Angaben zu Referenz und Status der ursprünglichen Transaktionen der ursprünglichen Anweisung, auf die sich die Stornierungsnachricht bezieht.",
+  "isoElements": {
+    "PaymentCancellationIdentification": {
+      "definition": "Eindeutige Identifikation, vergeben vom Beauftragenden (Assigner), zur zweifelsfreien Identifikation der Stornierungsanforderung.||Verwendung: Die Identifikation der Stornierungsanforderung kann für den Abgleich oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Stornierungsanforderung verwendet werden."
+    },
+    "Case": {
+      "definition": "Identifiziert den Fall."
+    },
+    "OriginalPaymentInformationIdentification": {
+      "definition": "Eindeutige Kennung des ursprünglichen Zahlungsinformationsblocks, vergeben von der ursprünglich sendenden Partei."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Informationen zur ursprünglichen Gruppe von Transaktionen, auf die sich die Nachricht bezieht."
+    },
+    "NumberOfTransactions": {
+      "definition": "Anzahl der in der Stornierungs-Zahlungsinformationsgruppe enthaltenen einzelnen Transaktionen."
+    },
+    "ControlSum": {
+      "definition": "Summe aller in der Stornierungs-Zahlungsinformationsgruppe enthaltenen Einzelbeträge, unabhängig von den Währungen."
+    },
+    "PaymentInformationCancellation": {
+      "definition": "Gibt an, ob sich die Stornierung auf eine ganze Gruppe von Transaktionen oder auf einzelne Transaktionen innerhalb der ursprünglichen Gruppe bezieht."
+    },
+    "CancellationReasonInformation": {
+      "definition": "Detaillierte Informationen zum Stornierungsgrund."
+    },
+    "TransactionInformation": {
+      "definition": "Informationen zu den ursprünglichen Transaktionen, auf die sich die Stornierungsanforderung bezieht."
+    }
+  },
+  "isoRules": {
+    "PaymentInformationCancellationTrueAndTransactionInformationRule": {
+      "definition": "Ist PaymentInformationCancellation wahr, ist TransactionInformation nicht zulässig."
+    },
+    "PaymentInformationCancellationFalseAndTransactionInformationRule": {
+      "definition": "Ist PaymentInformationCancellation falsch, muss TransactionInformation vorhanden sein."
+    },
+    "PaymentInformationOrTransactionCaseRule": {
+      "definition": "Case darf entweder auf der Ebene Case, OriginalGroupInformationAndCancellation, OriginalPaymentInformationAndCancellation oder TransactionInformation vorhanden sein."
+    }
+  }
+}

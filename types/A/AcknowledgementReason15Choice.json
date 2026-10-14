@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgementReason15Choice",
+  "definition": "Auswahl des Formats für den Bestätigungsgrund.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt zusätzliche Informationen zur verarbeiteten Anweisung an."
+    },
+    "Proprietary": {
+      "definition": "Gibt zusätzliche Informationen zur verarbeiteten Anweisung an."
+    }
+  }
+}

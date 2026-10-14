@@ -1,0 +1,12 @@
+{
+  "isoType": "ElectionCancellationStatus1Choice",
+  "definition": "Auswahl zwischen verschiedenen Status für die Stornierung einer Wahl bei einer Kapitalmaßnahme.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Enthält Informationen zum Verarbeitungsstatus des Antrags."
+    },
+    "RejectedStatus": {
+      "definition": "Liefert Informationen zum Ablehnungsstatus."
+    }
+  }
+}

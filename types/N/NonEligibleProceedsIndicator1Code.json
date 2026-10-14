@@ -1,0 +1,18 @@
+{
+  "isoType": "NonEligibleProceedsIndicator1Code",
+  "definition": "Gibt Informationen zur fehlenden Zulässigkeit der Ergebnisressourcen an.",
+  "isoCodes": {
+    "NELC": {
+      "name": "Nicht zulässige Währung",
+      "definition": "Währung nicht zur Abwicklung in der Zentralverwahrer-Stelle (CSD) zugelassen."
+    },
+    "ACLI": {
+      "name": "Kontobeschränkung",
+      "definition": "Kontobeschränkung des Teilnehmers."
+    },
+    "ONEL": {
+      "name": "Sonstige Nichtzulässigkeit",
+      "definition": "Sonstige Ursache der fehlenden Zulässigkeit."
+    }
+  }
+}

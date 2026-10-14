@@ -1,0 +1,12 @@
+{
+  "isoType": "DrawdownType2Choice",
+  "definition": "Auswahl der Formate für eine Art von Entnahme.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der Entnahme, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Art der Entnahme, ausgedrückt als proprietärer Code."
+    }
+  }
+}

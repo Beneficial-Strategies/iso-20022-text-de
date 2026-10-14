@@ -1,0 +1,18 @@
+{
+  "isoType": "AggregatedPenaltyAmount1",
+  "definition": "Gibt die aggregierten Strafzahlungsbeträge an.",
+  "isoElements": {
+    "AggregatedDebitAmount": {
+      "definition": "Summe aller Lastschriftbeträge."
+    },
+    "AggregatedCreditAmount": {
+      "definition": "Summe aller Gutschriftbeträge."
+    },
+    "GlobalNetAmount": {
+      "definition": "Saldo aller Beträge."
+    },
+    "CounterpartyCSDAggregatedAmount": {
+      "definition": "Aggregierte Beträge je CSD der Gegenpartei."
+    }
+  }
+}

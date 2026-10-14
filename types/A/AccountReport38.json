@@ -1,0 +1,54 @@
+{
+  "isoType": "AccountReport38",
+  "definition": "Enthält weitere Details zum Kontobericht.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation, vergeben vom Kontoführer, zur zweifelsfreien Identifikation des Kontoberichts."
+    },
+    "ReportPagination": {
+      "definition": "Enthält Details zur Seitennummer des Berichts.||Verwendung: Die Paginierung des Berichts ist nur zulässig, wenn sie zwischen den Parteien vereinbart wurde."
+    },
+    "ElectronicSequenceNumber": {
+      "definition": "Laufende Nummer des Berichts, vergeben vom Kontoführer. |Verwendung: Die laufende Nummer wird für jeden elektronisch gesendeten Bericht fortlaufend erhöht."
+    },
+    "ReportingSequence": {
+      "definition": "Gibt den Bereich der Identifikationssequenznummern an, wie in der Anforderung angegeben."
+    },
+    "LegalSequenceNumber": {
+      "definition": "Rechtlich maßgebliche laufende Nummer des Berichts, vergeben vom Kontoführer. Sie wird für jeden gesendeten Bericht fortlaufend erhöht."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung des Berichts."
+    },
+    "FromToDate": {
+      "definition": "Zeitraum zwischen einem Startdatum und einem Enddatum, für den der Kontobericht erstellt wird."
+    },
+    "CopyDuplicateIndicator": {
+      "definition": "Gibt an, ob das Dokument eine Kopie, ein Duplikat oder ein Duplikat einer Kopie ist."
+    },
+    "ReportingSource": {
+      "definition": "Gibt die Anwendung an, die zur Erstellung der Berichterstattung verwendet wurde."
+    },
+    "Account": {
+      "definition": "Eindeutige Identifikation des Kontos, auf dem Gutschriften und Lastschriften gebucht werden."
+    },
+    "RelatedAccount": {
+      "definition": "Identifiziert das übergeordnete Konto des Kontos, für das der Bericht erstellt wurde."
+    },
+    "Interest": {
+      "definition": "Enthält allgemeine Zinsinformationen, die zu einem bestimmten Zeitpunkt für das Konto gelten."
+    },
+    "Balance": {
+      "definition": "Satz von Elementen zur Definition des Saldos als numerische Darstellung der Nettozu- und -abgänge auf einem Konto zu einem bestimmten Zeitpunkt."
+    },
+    "TransactionsSummary": {
+      "definition": "Enthält zusammenfassende Informationen zu den Buchungen."
+    },
+    "Entry": {
+      "definition": "Gibt eine Buchung im Bericht an.|Verwendung: Zur Identifikation der Buchung und der zugrunde liegenden Transaktion(en) muss mindestens eine Referenz angegeben werden.||Verwendungsregel: Bei einer R-Transaktion im Zahlungsverkehr wird die Referenz auf Zahlungsempfänger/Zahlungspflichtigen aus den ursprünglichen Zahlungsinitiierungsnachrichten auch für die Meldung der R-Transaktion verwendet. Der ursprüngliche Zahlungspflichtige/Zahlungsempfänger wird bei der Meldung von R-Transaktionen nicht vertauscht. |Von dieser Verwendungsregel sind die folgenden Elemente betroffen, die alle in TransactionDetails in RelatedParties oder RelatedAgents definiert sind:|Creditor, UltimateCreditor, CreditorAccount, CreditorAgent, Debtor, UltimateDebtor, DebtorAccount und DebtorAgent."
+    },
+    "AdditionalReportInformation": {
+      "definition": "Weitere Details zum Kontobericht."
+    }
+  }
+}

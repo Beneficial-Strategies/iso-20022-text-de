@@ -1,0 +1,18 @@
+{
+  "isoType": "CancellationStatus6Code",
+  "definition": "Gibt den Stornierungsstatus an.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Akzeptiert",
+      "definition": "Die Stornierungsanweisung bzw. -anfrage wurde empfangen und für die Weiterverarbeitung bestätigt bzw. akzeptiert."
+    },
+    "CAND": {
+      "name": "Vollständig",
+      "definition": "Die Stornierungsanweisung bzw. -anfrage wurde akzeptiert und verarbeitet, die Stornierung ist abgeschlossen."
+    },
+    "RCIS": {
+      "name": "Vom Emittenten oder Registerführer erhalten",
+      "definition": "Die Stornierungsanweisung bzw. -anfrage wurde vom Emittenten oder der Registerstelle empfangen."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "isoType": "DocumentNumber19",
+  "definition": "Identifikation des angeforderten Status.",
+  "isoElements": {
+    "Number": {
+      "definition": "Nummer zur Identifikation einer Nachricht oder eines Dokuments."
+    },
+    "References": {
+      "definition": "Referenzen der Transaktion, für die der Status angefordert wird."
+    }
+  },
+  "isoRules": {
+    "ReferenceRule": {
+      "definition": "Die zur Identifikation der Transaktion verwendete Referenz muss mit der Identifikation übereinstimmen, die für die von der SecuritiesTransactionStatusQuery angeforderte Statusmeldung verfügbar ist. Zum Beispiel darf eine SecuritiesTransactionStatusQuery keine SecuritiesSettlementTransactionStatusAdvice unter Verwendung einer CorporateActionEventIdentification anfordern."
+    }
+  }
+}

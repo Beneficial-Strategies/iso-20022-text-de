@@ -1,0 +1,15 @@
+{
+  "isoType": "OriginalGroupInformation33",
+  "definition": "Eindeutige und zweifelsfreie Kennung der Gruppe von Transaktionen, wie von der ursprünglich anweisenden Partei vergeben.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Von der ursprünglich anweisenden Partei vergebene Punkt-zu-Punkt-Referenz zur zweifelsfreien Identifizierung der ursprünglichen Nachricht."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Gibt die Kennung des Namens der ursprünglichen Nachricht an, auf die sich die Nachricht bezieht."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Ursprüngliches Datum und ursprüngliche Uhrzeit der Erstellung der Nachricht."
+    }
+  }
+}

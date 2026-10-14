@@ -1,0 +1,45 @@
+{
+  "isoType": "BusinessApplicationHeader8",
+  "definition": "Legt den Business Application Header der Geschäftsnachricht fest.|Kann beim Beantworten einer Anfrage verwendet werden; ebenso beim Stornieren oder Ändern.",
+  "isoElements": {
+    "CharacterSet": {
+      "definition": "Enthält den Zeichensatz der textbasierten Elemente, die in der Geschäftsnachricht verwendet werden."
+    },
+    "From": {
+      "definition": "Der sendende MessagingEndpoint, der diese Geschäftsnachricht für den empfangenden MessagingEndpoint erstellt hat, der sie verarbeiten wird.||Hinweis: Der sendende MessagingEndpoint kann sich von der im Transport-Header möglicherweise enthaltenen Absenderadresse (wie in der Transportschicht definiert) unterscheiden."
+    },
+    "To": {
+      "definition": "Der vom sendenden MessagingEndpoint bestimmte MessagingEndpoint, der als Empfänger diese Geschäftsnachricht letztlich verarbeiten wird.||Hinweis: Der empfangende MessagingEndpoint kann sich von der im Transport-Header möglicherweise enthaltenen Empfangsadresse (wie in der Transportschicht definiert) unterscheiden."
+    },
+    "BusinessMessageIdentifier": {
+      "definition": "Identifiziert die Geschäftsnachricht gegenüber dem MessagingEndpoint, der sie erstellt hat, eindeutig."
+    },
+    "MessageDefinitionIdentifier": {
+      "definition": "Die Kennung der Nachrichtendefinition der Instanz der Geschäftsnachricht, der diese Instanz des Business Application Headers zugeordnet ist."
+    },
+    "BusinessService": {
+      "definition": "Legt den zwischen den beiden MessagingEndpoints vereinbarten Geschäftsdienst fest, nach dessen Regeln diese Geschäftsnachricht ausgetauscht wird.|Zu verwenden, wenn es eine Auswahl zwischen Verarbeitungsdiensten oder Verarbeitungsdienstgüten gibt.||Beispiel: |„marketx.hvps.01“ und „marketx.xbdr.01“ könnten verwendet werden, um anzuzeigen, dass die zugehörigen Nachrichten innerhalb derselben Marktpraxis unterschiedlichen Verarbeitungsstufen für inländische Großbetragszahlungen gegenüber grenzüberschreitenden Zahlungen unterliegen."
+    },
+    "MarketPractice": {
+      "definition": "Legt die Marktpraxis fest, der die Nachricht entspricht. Marktpraxen sind ein zwischen den Parteien vereinbartes Regelwerk, das die Verwendung der Nachrichten einschränkt, um bessere STP-Quoten (Straight Through Processing) zu erreichen.|Eine Marktpraxis-Spezifikation kann die zugrunde liegende Nachrichtenspezifikation auch durch Erweiterungen oder ergänzende Daten dieser Nachricht erweitern."
+    },
+    "CreationDate": {
+      "definition": "Datum und Uhrzeit der Erstellung dieser Geschäftsnachricht (des Headers).|Hinweis: Zeiten müssen mit der Kennzeichnung „Z“ normalisiert werden."
+    },
+    "BusinessProcessingDate": {
+      "definition": "Vom Absender für den Empfänger der Geschäftsnachricht angegebener Verarbeitungszeitpunkt. Dieses Datum kann vom in CreationDate angegebenen Datum und der Uhrzeit abweichen.||Verwendung: Marktpraxis oder bilaterale Vereinbarung sollten festlegen, wie dieses Element zu verwenden ist."
+    },
+    "CopyDuplicate": {
+      "definition": "Gibt an, ob die Nachricht eine Kopie, ein Duplikat oder eine Kopie eines Duplikats einer zuvor gesendeten ISO-20022-Nachricht ist."
+    },
+    "PossibleDuplicate": {
+      "definition": "Kennzeichen, ob die zwischen den MessagingEndpoints ausgetauschte Geschäftsnachricht möglicherweise ein Duplikat ist. |Hat der empfangende MessagingEndpoint das Original nicht erhalten, ist diese Geschäftsnachricht so zu verarbeiten, als wäre sie das Original. ||Hat der empfangende MessagingEndpoint das Original erhalten, muss er die nötigen Maßnahmen ergreifen, um diese Geschäftsnachricht nicht erneut zu verarbeiten.||Dies gewährleistet ein geschäftlich idempotentes Verhalten.||HINWEIS (NOTE): In FIX heißt dies „PossResend“; es ist eine erneute Sendung auf Anwendungsebene, keine Wiederübertragung auf Netzwerkebene."
+    },
+    "Priority": {
+      "definition": "Relative Angabe der Verarbeitungsreihenfolge der Nachricht gegenüber einer (Menge von) Geschäftsnachricht(en) mit zugewiesenen Prioritäten."
+    },
+    "Signature": {
+      "definition": "Enthält die digitale Signatur der Geschäftseinheit, die zum Signieren dieser Geschäftsnachricht berechtigt ist."
+    }
+  }
+}

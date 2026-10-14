@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementDateTimeIndication1",
+  "definition": "Informationen zu den eingetretenen Abwicklungszeiten der Zahlungstransaktion.",
+  "isoElements": {
+    "DebitDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen eine Zahlung beim Transaktionsadministrator belastet wurde. Im Fall von TARGET das Datum und die Uhrzeit, zu denen die Zahlung bei der Zentralbank belastet wurde, ausgedrückt in mitteleuropäischer Zeit (Central European Time, CET)."
+    },
+    "CreditDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen eine Zahlung beim Transaktionsadministrator gutgeschrieben wurde. Im Fall von TARGET das Datum und die Uhrzeit, zu denen die Zahlung bei der empfangenden Zentralbank gutgeschrieben wurde, ausgedrückt in mitteleuropäischer Zeit (Central European Time, CET)."
+    }
+  }
+}

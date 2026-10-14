@@ -1,0 +1,12 @@
+{
+  "isoType": "Role4Choice",
+  "definition": "Auswahl des Formats für eine Rolle der Partei.",
+  "isoElements": {
+    "Code": {
+      "definition": "Rolle der Partei in der Aktivität, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Rolle der Partei in der Aktivität, ausgedrückt als proprietärer Code."
+    }
+  }
+}

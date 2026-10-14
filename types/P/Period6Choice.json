@@ -1,0 +1,12 @@
+{
+  "isoType": "Period6Choice",
+  "definition": "Auswahl zwischen einem Zeitraum und einem Zeitraumcode.",
+  "isoElements": {
+    "Period": {
+      "definition": "Zeitspanne, die durch Startdatum und -zeit sowie Enddatum und -zeit festgelegt ist."
+    },
+    "PeriodCode": {
+      "definition": "Standardcode zur Angabe der Art des Zeitraums."
+    }
+  }
+}

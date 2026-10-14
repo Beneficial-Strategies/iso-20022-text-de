@@ -1,0 +1,12 @@
+{
+  "isoType": "LinkageType3Choice",
+  "definition": "Auswahl des Formats für die Verknüpfungsart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Verknüpfungsart als ISO-20022-Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Verknüpfungsart als proprietärer Code ausgedrückt."
+    }
+  }
+}

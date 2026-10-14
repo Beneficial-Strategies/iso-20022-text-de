@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesStatusOrStatementQueryStatusAdvice002V06",
+  "definition": "Anwendungsbereich|Ein Kontoführer sendet eine SecuritiesStatusOrStatementQueryStatusAdvice an einen Kontoinhaber, um den Status einer zuvor vom Kontoinhaber gesendeten Statusabfrage oder Auszugsabfrage mitzuteilen.|Die Beziehung zwischen Kontoführer und Kontoinhaber kann sein:|- ein Zentralverwahrer oder eine andere Abwicklungs-Marktinfrastruktur, der bzw. die im Namen seiner bzw. ihrer Teilnehmer handelt|- ein Agent (Unterverwahrer), der im Namen seines Kunden, des globalen Verwahrers, handelt, oder|- ein Verwahrer, der im Namen eines Vermögensverwaltungsinstituts oder eines Brokers/Händlers handelt.||Verwendung|Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden,|- einem Dritten eine Kopie einer Nachricht zur Information bereitzustellen,|- einem Dritten eine Kopie einer Nachricht zur Information unter Verwendung der entsprechenden Elemente im Business Application Header erneut zu senden.",
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    }
+  }
+}

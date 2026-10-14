@@ -1,0 +1,4 @@
+{
+  "isoType": "GetReservationV08",
+  "definition": "Anwendungsbereich|Die Nachricht GetReservation wird von einem Teilnehmer an den Transaktionsadministrator gesendet.|Sie dient der Anforderung von Informationen zu den Einzelheiten einer oder mehrerer vom Teilnehmer eingerichteter und vom Transaktionsadministrator verwalteter Reservierungsfazilitäten.|Verwendung|Der Teilnehmer kann Reservierungsinformationen anhand der folgenden Elemente anfordern:|- Identifikation des Systems;|- Identifikation des Kontos;|- Status der Reservierung (Standard und/oder aktuell);|- Art der Reservierung.|Diese Nachricht wird mit einer Nachricht ReturnReservation beantwortet."
+}

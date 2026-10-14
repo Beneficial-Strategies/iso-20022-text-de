@@ -1,0 +1,18 @@
+{
+  "isoType": "PersonName3",
+  "definition": "Identifiziert eine Person anhand ihres Vornamens und Nachnamens.",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Präfix als Titel vor dem Namen einer Person."
+    },
+    "FirstName": {
+      "definition": "Vorname(n), unter dem bzw. denen eine natürliche Person bekannt ist."
+    },
+    "Surname": {
+      "definition": "Name(n), unter dem bzw. denen eine natürliche Person bekannt ist und der üblicherweise zur Identifikation dieser Partei verwendet wird."
+    },
+    "Address": {
+      "definition": "Postanschrift der Partei."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "CustomerPaymentStatusReportV15",
+  "definition": "Umfang|Die Nachricht CustomerPaymentStatusReport wird von einer angewiesenen Bank an die vorherige Partei in der Zahlungskette gesendet. Sie dient dazu, diese Partei über den positiven oder negativen Status einer Anweisung (entweder einzeln oder als Datei) zu informieren. Sie wird auch verwendet, um über eine ausstehende Anweisung zu berichten.|Verwendung|Die Nachricht CustomerPaymentStatusReport wird zwischen einer Bank und einem Kunden, der kein Finanzinstitut ist, ausgetauscht, um Statusinformationen zu zuvor gesendeten Anweisungen bereitzustellen. Ihre Verwendung kann durch eine bilaterale oder multilaterale Vereinbarung zwischen der Bank und dem Kunden, der kein Finanzinstitut ist, geregelt sein.|Die Nachricht CustomerPaymentStatusReport kann verwendet werden, um Informationen über den Status (zum Beispiel eine Ablehnung oder eine Annahme) der Initiierung einer Überweisung, einer Lastschrift sowie der Initiierung anderer Kundenanweisungen bereitzustellen.|Die Nachricht CustomerPaymentStatusReport verweist auf die ursprünglichen Anweisung(en) entweder nur mittels Referenzen oder mittels Referenzen und einer Reihe von Elementen aus der ursprünglichen Anweisung.|Die Nachricht CustomerPaymentStatusReport kann in nationalen und grenzüberschreitenden Szenarien verwendet werden.|Die CustomerPaymentStatusReport kann in einem Echtzeit-Zahlungsszenario auch an den Zahlungsempfänger gesendet werden, da beide Seiten der Transaktionen über den Status der Transaktion informiert werden müssen (d. h., entweder wird der Begünstigte gutgeschrieben oder die Transaktion wird abgelehnt).",
+  "isoRules": {
+    "GroupStatusAcceptedRule": {
+      "definition": "Wenn OriginalGroupInformationAndStatus/GroupStatus vorhanden und gleich ACTC (AcceptedTechnicalValidation), ACCP (AcceptedCustomerProfile), ACSP (AcceptedSettlementInProcess), ACSC (AcceptedSettlementCompleted) oder ACWC (AcceptedWithChange) ist, muss OriginalPaymentInformationAndStatus/PaymentInformationStatus von RJCT (Rejected) verschieden sein."
+    },
+    "GroupStatusPendingRule": {
+      "definition": "Wenn OriginalGroupInformationAndStatus/GroupStatus vorhanden und gleich PDNG (Pending) ist, muss OriginalPaymentInformationAndStatus/PaymentInformationStatus von RJCT (Rejected) verschieden sein."
+    },
+    "GroupStatusRejectedRule": {
+      "definition": "Wenn OriginalGroupInformationAndStatus/GroupStatus vorhanden und gleich RJCT (Rejected) ist, muss OriginalPaymentInformationAndStatus/PaymentInformationStatus, sofern vorhanden, gleich RJCT (Rejected) sein."
+    },
+    "GroupStatusReceivedRule": {
+      "definition": "Wenn OriginalGroupInformationAndStatus/GroupStatus vorhanden und gleich RCVD (Received) ist, ist OriginalPaymentInformationAndStatus/PaymentInformationStatus nicht zulässig."
+    },
+    "SupplementaryDataRule": {
+      "definition": "Der Baustein SupplementaryData auf Nachrichtenebene darf nicht verwendet werden, um zusätzliche Informationen zu einer Transaktion bereitzustellen. Hierfür ist das Element SupplementaryData auf Transaktionsebene zu verwenden."
+    }
+  }
+}

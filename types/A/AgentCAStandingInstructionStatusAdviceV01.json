@@ -1,0 +1,24 @@
+{
+  "isoType": "AgentCAStandingInstructionStatusAdviceV01",
+  "definition": "Anwendungsbereich|Diese Nachricht wird von einem Emittenten (oder dessen Beauftragten) an den CSD gesendet, um den Status oder eine Statusänderung eines Antrags auf Dauerauftragsanweisung oder den Status eines Antrags auf Stornierung einer Dauerauftragsanweisung zu melden.|Verwendung|Wird diese Nachricht zur Meldung des Status eines Antrags auf Dauerauftragsanweisung verwendet, muss der Baustein Standing Instruction Request Identification vorhanden sein.|Wird diese Nachricht zur Meldung des Status eines Antrags auf Stornierung einer Dauerauftragsanweisung verwendet, muss der Baustein Standing Instruction Cancellation Request Identification vorhanden sein.",
+  "isoRules": {
+    "StandingInstructionRequestIdentificationOrStandingInstructionCancellationIdentificationRule": {
+      "definition": "Entweder AgentCAStandingInstructionRequestIdentification oder AgentCAStandingInstructionCancellationRequestIdentification muss vorhanden sein, aber nicht beide."
+    },
+    "StandingInstructionRequestIdentificationOrStandingInstructionCancellationIdentificationRuleNotBoth": {
+      "definition": "Entweder AgentCAStandingInstructionRequestIdentification oder AgentCAStandingInstructionCancellationRequestIdentification muss vorhanden sein, aber nicht beide."
+    },
+    "StandingInstructionRequestStatusOrStandingInstructionCancellationRequestStatusRule": {
+      "definition": "Entweder StandingInstructionRequestStatus oder StandingInstructionCancellationRequestStatus muss vorhanden sein, aber nicht beide."
+    },
+    "StandingInstructionRequestStatusOrStandingInstructionCancellationRequestStatusRuleNotBoth": {
+      "definition": "Entweder StandingInstructionRequestStatus oder StandingInstructionCancellationRequestStatus muss vorhanden sein, aber nicht beide."
+    },
+    "StandingInstructionCancellationRequestStatusRule": {
+      "definition": "Wenn AgentCAStandingInstructionCancellationRequestIdentification vorhanden ist, dann muss StandingInstructionCancellationRequestStatus vorhanden sein."
+    },
+    "StandingInstructionRequestStatusRule": {
+      "definition": "Wenn AgentCAStandingInstructionRequestIdentification vorhanden ist, dann muss StandingInstructionRequestStatus vorhanden sein."
+    }
+  }
+}

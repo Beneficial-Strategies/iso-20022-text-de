@@ -1,0 +1,18 @@
+{
+  "isoType": "Attendance2",
+  "definition": "Angaben und Bedingungen für die physische Teilnahme an der Versammlung.",
+  "isoElements": {
+    "AdmissionConditions": {
+      "definition": "Bedingungen für den physischen Zutritt zur Hauptversammlung."
+    },
+    "ConfirmationInformation": {
+      "definition": "Gibt an, wie die Teilnahmekarte zu bestellen oder die Teilnahme anzuzeigen ist."
+    },
+    "ConfirmationDeadline": {
+      "definition": "Datum und Uhrzeit, bis zu denen der wirtschaftlich Berechtigte oder der Vertreter seine Absicht zur Teilnahme an der Versammlung mitteilen muss. Diese Frist wird von einem Intermediär festgelegt."
+    },
+    "ConfirmationMarketDeadline": {
+      "definition": "Datum und Uhrzeit, bis zu denen die Teilnahme an der Versammlung bestätigt werden muss. Diese Frist wird vom Emittenten festgelegt."
+    }
+  }
+}

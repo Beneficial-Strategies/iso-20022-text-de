@@ -1,0 +1,33 @@
+{
+  "isoType": "ATMReconciliationOperation1",
+  "definition": "Informationen zu einem Abgleich zwischen einem ATM-Gerät und einem Wartungshost.",
+  "isoElements": {
+    "TypeOfOperation": {
+      "definition": "Auf einem ATM auszuführender logischer oder physischer Vorgang."
+    },
+    "TransactionIdentification": {
+      "definition": "Identifikation der vom ATM vergebenen Transaktion."
+    },
+    "ReconciliationIdentification": {
+      "definition": "Identifikation des vom ATM vergebenen Abgleichszeitraums."
+    },
+    "ATMTotals": {
+      "definition": "Aktuelle Summen des ATM."
+    },
+    "Cassette": {
+      "definition": "Informationen zu den Kassetten des ATM."
+    },
+    "TransactionTotals": {
+      "definition": "Transaktionszähler, die nach einem Abgleich mit Befehl zur Neuinitialisierung der Zähler auf null gesetzt werden."
+    },
+    "RetainedCard": {
+      "definition": "Gesamtzahl der einbehaltenen Karten."
+    },
+    "AdditionalTransactionInformation": {
+      "definition": "Zusätzliche Informationen zum Abgleich."
+    },
+    "Incident": {
+      "definition": "Vorfall bei der Verarbeitung der Transaktion."
+    }
+  }
+}

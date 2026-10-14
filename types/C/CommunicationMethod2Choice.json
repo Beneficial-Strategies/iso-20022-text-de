@@ -1,0 +1,12 @@
+{
+  "isoType": "CommunicationMethod2Choice",
+  "definition": "Legt eine Auswahl für die Kommunikationsmethode für Dokumente fest.",
+  "isoElements": {
+    "Code": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Kommunikationsmethode anhand einer Codeliste."
+    },
+    "Proprietary": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Kommunikationsmethode anhand einer bilateral oder multilateral vereinbarten Beschreibung."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TransferCancellationStatusReportV07",
+  "definition": "Anwendungsbereich|Die Nachricht TransferCancellationStatusReport wird von einer ausführenden Partei, zum Beispiel einer Transferstelle, an die anweisende Partei, zum Beispiel einen Vermögensverwalter oder einen seiner bevollmächtigten Vertreter, gesendet, um den Status einer zuvor empfangenen Übertragungsstornierungsanweisung mitzuteilen.|Verwendung|Die Nachricht TransferCancellationStatusReport wird verwendet, um über den Status eines Stornierungsauftrags für einen Übertragungseingang oder Übertragungsausgang zu berichten.|Die Referenz der Übertragungsanweisung, für die der Stornierungsstatus gemeldet wird, wird in TransferReference angegeben. Die Nachrichtenidentifikation der Nachricht des Übertragungsstornierungsauftrags, in der die Übertragungsanweisung übermittelt wurde, kann auch in RelatedReference angegeben werden.|Die Nachrichtenidentifikation der Nachricht der Übertragungsanweisung, in der die Übertragungsanweisung übermittelt wurde, kann auch in RelatedReference angegeben werden.|Einer der folgenden Status kann gemeldet werden:|- die Übertragungsstornierung ist angenommen oder|- die Übertragungsstornierung wurde an die nächste Partei gesendet oder|- die Übertragungsstornierung ist abgeschlossen, mit dem Grund für den Status,|- die Übertragungsstornierung ist ausstehend, mit dem Grund für den Status,|- die Übertragungsstornierung ist abgelehnt, mit dem Grund für den Status.",
+  "isoRules": {
+    "OtherReferenceRule": {
+      "definition": "Reference/OtherReference sollte verwendet werden, um auf eine „Nachricht“ eines Übertragungsstornierungsauftrags zu verweisen, die auf proprietäre Weise gesendet wurde oder als Systemreferenz dient. Wenn Reference/OtherReference vorhanden ist, muss References/OtherReference/MessageName zum Beispiel „fax“ oder „phone“ oder „email“ enthalten."
+    },
+    "RelatedReferenceRule": {
+      "definition": "Wenn Reference/RelatedReference/MessageName vorhanden ist, muss es mit sese.002, sese.006, sese.009 oder sese.014 beginnen."
+    }
+  }
+}

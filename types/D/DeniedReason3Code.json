@@ -1,0 +1,26 @@
+{
+  "isoType": "DeniedReason3Code",
+  "definition": "Gibt den Zurückweisungsgrund an.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Nach Ablauf der Frist des kontoführenden Instituts eingegangen."
+    },
+    "DCAL": {
+      "name": "Abruf abgelehnt, da bereits angewendet",
+      "definition": "Die Anforderung zum Abruf des Repos wurde abgelehnt, da bereits ein anderer Abruf gilt."
+    },
+    "DFOR": {
+      "name": "Abgelehnt, da nicht zulässig",
+      "definition": "Die Anforderung zum Abruf des Repos wurde abgelehnt. Abruf für das betreffende Repo nicht zulässig, zum Beispiel wegen Fristüberschreitung."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    }
+  }
+}

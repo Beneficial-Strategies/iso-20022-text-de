@@ -1,0 +1,30 @@
+{
+  "isoType": "ExternalMandateSuspensionReason1Code",
+  "definition": "Gibt den externen Code für den Grund der Mandatsaussetzung als Zeichenfolge mit maximal 4 Zeichen an.|Die Liste der gültigen Codes ist eine separat veröffentlichte externe Codeliste.|Externe Code-Sets können unter www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "CTAM": {
+      "name": "Vertrag geändert",
+      "definition": "Mandat ausgesetzt aufgrund einer Änderung des Vertrags."
+    },
+    "CTCA": {
+      "name": "Vertragskündigung durch Zahlungspflichtigen veranlasst",
+      "definition": "Mandat ausgesetzt aufgrund der vom Zahlungspflichtigen beantragten Kündigung des Vertrags."
+    },
+    "CTEX": {
+      "name": "Vertrag abgelaufen",
+      "definition": "Mandat ausgesetzt, da der Vertrag abgelaufen ist."
+    },
+    "MCFC": {
+      "name": "Mandat ausgesetzt, letzte Einziehung",
+      "definition": "Mandat ausgesetzt, da der finale Einzug stattgefunden hat."
+    },
+    "MCOC": {
+      "name": "Mandat ausgesetzt, einmalige Einziehung",
+      "definition": "Mandat ausgesetzt, da der einmalige Einzug stattgefunden hat."
+    },
+    "MSUC": {
+      "name": "Mandat nach 7 aufeinanderfolgenden erfolglosen Einziehungen ausgesetzt",
+      "definition": "Mandat ausgesetzt nach 7 aufeinanderfolgenden erfolglosen Einzügen."
+    }
+  }
+}

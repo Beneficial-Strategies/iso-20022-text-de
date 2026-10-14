@@ -1,0 +1,30 @@
+{
+  "isoType": "BusinessDayConvention2Code",
+  "definition": "Gibt an, wie ein Datum angepasst wird, wenn es auf einen Nicht-Geschäftstag fällt.",
+  "isoCodes": {
+    "FWNG": {
+      "name": "Folgender",
+      "definition": "Das Datum ist der erste folgende Tag, der ein Geschäftstag ist."
+    },
+    "FRNC": {
+      "name": "Konvention für variabel verzinsliche Anleihen",
+      "definition": "Konvention für variabel verzinsliche Schuldverschreibungen (Floating Rate Note)."
+    },
+    "MODF": {
+      "name": "Modifiziert folgender",
+      "definition": "Das Datum ist der erste folgende Tag, der ein Geschäftstag ist, es sei denn, dieser Tag fällt in den nächsten Kalendermonat; in diesem Fall ist das Datum der erste vorangehende Tag, der ein Geschäftstag ist."
+    },
+    "NEAR": {
+      "name": "Nächstgelegener",
+      "definition": "Das Datum ist der erste vorangehende Tag, der ein Geschäftstag ist, es sei denn, dieser Tag fällt auf einen anderen Tag als einen Sonntag oder einen Montag; fällt das betreffende Datum andernfalls auf einen Sonntag oder einen Montag, ist es der erste folgende Tag, der ein Geschäftstag ist."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Andere Geschäftstagkonvention."
+    },
+    "PREC": {
+      "name": "Vorangehender",
+      "definition": "Der Nicht-Geschäftstag wird auf den ersten vorangehenden Tag angepasst, der ein Geschäftstag ist."
+    }
+  }
+}

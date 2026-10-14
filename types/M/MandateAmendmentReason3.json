@@ -1,0 +1,15 @@
+{
+  "isoType": "MandateAmendmentReason3",
+  "definition": "Enthält weitere Einzelheiten zum Grund der Mandatsänderung.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Partei, die die Änderungsanforderung stellt."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Änderungsanforderung an."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Einzelheiten zum Grund der Änderungsanforderung."
+    }
+  }
+}

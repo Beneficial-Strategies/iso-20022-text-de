@@ -1,0 +1,30 @@
+{
+  "isoType": "InstructionProcessingStatus45Choice",
+  "definition": "Auswahl der Formate für den Verarbeitungsstatus einer Anweisung.",
+  "isoElements": {
+    "PendingProcessing": {
+      "definition": "Die Verarbeitung der Anweisung/Anforderung steht aus."
+    },
+    "CancellationRequested": {
+      "definition": "Die Stornierungsanforderung Ihrer Gegenpartei für diese Transaktion steht aus und wartet auf Ihre Stornierungsanforderung."
+    },
+    "AcknowledgedAccepted": {
+      "definition": "Die Anweisung wurde vom kontoführenden Institut bestätigt."
+    },
+    "Cancelled": {
+      "definition": "Die Anweisung wurde storniert."
+    },
+    "Generated": {
+      "definition": "Die Transaktion wurde vom Kontoführer oder einem Dritten erstellt. Sie wurde nicht direkt vom Kontoinhaber angewiesen."
+    },
+    "Repair": {
+      "definition": "Die Anweisung/Anforderung ist akzeptiert, befindet sich aber in Korrektur."
+    },
+    "PendingCancellation": {
+      "definition": "Ihre eigene Stornierungsanforderung für diese Anweisung steht aus und wartet auf die weitere Verarbeitung."
+    },
+    "ModificationRequested": {
+      "definition": "Die Änderungsanforderung Ihrer Gegenpartei für diese Transaktion steht aus und wartet auf Ihre Stornierungsanforderung oder Ihre Zustimmung."
+    }
+  }
+}

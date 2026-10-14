@@ -1,0 +1,21 @@
+{
+  "isoType": "MandateSuspension4",
+  "definition": "Identifiziert das Mandat, das ausgesetzt wird.",
+  "isoElements": {
+    "SuspensionRequestIdentification": {
+      "definition": "Eindeutige Identifikation, wie von der initiierenden Partei vergeben, zur unmissverständlichen Identifizierung der Aussetzungsanforderung."
+    },
+    "OriginalMessageInformation": {
+      "definition": "Enthält Angaben zur ursprünglichen Nachricht."
+    },
+    "SuspensionReason": {
+      "definition": "Enthält detaillierte Informationen zum Aussetzungsgrund."
+    },
+    "OriginalMandate": {
+      "definition": "Enthält die ursprünglichen Mandatsdaten."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  }
+}

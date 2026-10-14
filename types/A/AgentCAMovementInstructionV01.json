@@ -1,0 +1,12 @@
+{
+  "isoType": "AgentCAMovementInstructionV01",
+  "definition": "Umfang|Diese Nachricht wird von einem Emittenten (oder dessen Agenten) an einen CSD gesendet, um Folgendes anzuordnen:|- die globale oder einzelne Belastung ausgeübter Ressourcen (Geld und/oder Wertpapiere), je Ereignis und optional je Option und je Ressource, für alle oder einzelne Konten der CSD-Kunden;|- und/oder die einzelnen Gutschriften der ausgelieferten Ressourcen je Ereignis und optional je Option und je Ressource für ein bestimmtes Konto eines CSD-Kunden.|Verwendung|Diese Nachricht wird verwendet, um Folgendes anzuweisen:|- die globale Belastung der ausgeübten Ressourcen vom verfügbaren oder gesperrten Bestand des CSD-Kunden; in diesem Fall muss die Auftragsart 'globaler Belastungsauftrag' sein;|- die einzelnen Belastungen und Gutschriften:|- die einzelne Belastung der ausgeübten Ressourcen vom verfügbaren oder gesperrten Bestand des CSD-Kunden und/oder|- die einzelne Gutschrift der ausgelieferten Ressourcen auf das Konto des CSD-Kunden.|Die Auftragsart muss 'Einzelauftrag' sein;|- einen Rückgabeauftrag im Falle einer Kürzung, d. h. die Rückgabe der ausgeübten Ressourcen auf das Konto des CSD-Kunden. Die Auftragsart muss entweder 'globaler Rückgabeauftrag' oder 'einzelner Rückgabeauftrag' sein; und|die Änderung einer Option, z. B. im Falle der Schließung einer Option, indem die ausgeübten Ressourcen innerhalb der gesperrten Bestände gemäß den neuen Optionsbedingungen von einer Option auf eine andere Option verschoben werden. Die Auftragsart muss 'Optionsänderungsauftrag' sein.",
+  "isoRules": {
+    "OptionRule1": {
+      "definition": "WENN MovementGeneralInformation/OrderType CHAN (OptionChangeOrder) ist, müssen OptionNumber und OptionType in jedem Vorkommen von UnderlyingSecuritiesMovementDetails/CreditAccountDetails und UnderlyingSecuritiesMovement/DebitAccountDetails vorhanden sein, und OptionNumber und OptionType dürfen in MovementGeneralInformation nicht vorhanden sein."
+    },
+    "OptionRule2": {
+      "definition": "WENN MovementGeneralInformation/OrderType nicht CHAN (OptionChangeOrder) ist, müssen OptionNumber und OptionType in MovementGeneralInformation vorhanden sein und dürfen weder in einem Vorkommen von UnderlyingSecuritiesMovementDetails/CreditAccountDetails noch in UnderlyingSecuritiesMovement/DebitAccountDetails vorhanden sein."
+    }
+  }
+}

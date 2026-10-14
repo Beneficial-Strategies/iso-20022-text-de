@@ -1,0 +1,20 @@
+{
+  "isoType": "MeetingVoteExecutionConfirmationV12",
+  "definition": "Anwendungsbereich|Die Nachricht MeetingVoteExecutionConfirmation wird von einem Emittenten, dessen Beauftragten oder einem Intermediär an einen anderen Intermediär, eine stimmberechtigte Partei, einen eingetragenen Wertpapierinhaber oder einen wirtschaftlich Berechtigten gesendet, um dem Sender der Nachricht MeetingInstruction zu bestätigen, dass seine Stimme vom Emittenten erfasst und gezählt wurde.|Verwendung|Diese Nachricht wird gesendet, nachdem die Aktionärsversammlung stattgefunden hat. Der Sender dieser Nachricht bestätigt die Ausführung der Stimmabgabe auf der Versammlung.|Diese Nachricht wird gesendet, wenn der Sender der Nachricht MeetingInstruction eine solche Bestätigung angefordert hat oder wenn die Marktpraxis oder die Regulierung einen vollständigen Prüfpfad vorschreibt.|Diese Nachrichtendefinition ist für die Verwendung mit dem Business Application Header (BAH) vorgesehen.",
+  "isoElements": {
+    "VoteExecutionConfirmationIdentification": {
+      "definition": "Eindeutige Identifikation der Gruppe von Nachrichten zur Bestätigung der Stimmausführung, wenn die Bestätigung der Stimmausführung auf mehrere (paginierte) Nachrichten aufgeteilt wird."
+    },
+    "MeetingInstructionIdentification": {
+      "definition": "Identifikation der ursprünglichen Nachricht mit Versammlungsanweisung, für die die Bestätigung der Stimmausführung erteilt wird."
+    },
+    "VoteInstructionsConfirmationURLAddress": {
+      "definition": "Adresse, die über den www-Dienst (HTTP) zu verwenden ist und unter der die Bestätigungen der Stimmrechtsanweisungen zu finden sind."
+    }
+  },
+  "isoRules": {
+    "PaginationRule": {
+      "definition": "Wenn pagination vorhanden ist, muss VoteExecutionConfirmationIdentification vorhanden sein."
+    }
+  }
+}

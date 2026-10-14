@@ -1,0 +1,18 @@
+{
+  "isoType": "Intermediary43",
+  "definition": "Partei, die Anlegern Dienstleistungen im Zusammenhang mit Finanzprodukten erbringt.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige und unmissverständliche Kennung des Intermediärs."
+    },
+    "Account": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "Role": {
+      "definition": "Vom Intermediär ausgeübte Funktion."
+    },
+    "ContactPerson": {
+      "definition": "Kontaktperson und Kontaktinformationen."
+    }
+  }
+}

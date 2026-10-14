@@ -1,0 +1,30 @@
+{
+  "isoType": "PartyIdentificationAndAccount177",
+  "definition": "Angaben zu Partei und Konto.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Partei."
+    },
+    "LEI": {
+      "definition": "Legal Entity Identifier als alternative Identifikation einer Partei."
+    },
+    "AlternateIdentification": {
+      "definition": "Alternative Identifikation einer Partei."
+    },
+    "CashAccount": {
+      "definition": "Konto, auf das oder von dem eine Geldbuchung erfolgt."
+    },
+    "ChargesAccount": {
+      "definition": "Für Entgelte/Gebühren zu verwendendes Konto, falls abweichend vom Konto für die Zahlung."
+    },
+    "CommissionAccount": {
+      "definition": "Für Provisionen zu verwendendes Konto, falls abweichend vom Konto für die Zahlung."
+    },
+    "TaxAccount": {
+      "definition": "Für Steuern zu verwendendes Konto, falls abweichend vom Konto für die Zahlung."
+    },
+    "AdditionalInformation": {
+      "definition": "Liefert zusätzliche Informationen zu einer Identifikation einer Partei."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Charge26",
+  "definition": "Auswahl von Formaten für die Gebührenart.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gebührenart."
+    },
+    "ChargeApplied": {
+      "definition": "Angewendeter Gebührenbetrag oder Gebührensatz."
+    }
+  }
+}

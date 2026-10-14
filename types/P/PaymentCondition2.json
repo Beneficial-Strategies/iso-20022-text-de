@@ -1,0 +1,21 @@
+{
+  "isoType": "PaymentCondition2",
+  "definition": "Gibt die Bedingungen für die Ausführung der Zahlung an.",
+  "isoElements": {
+    "AmountModificationAllowed": {
+      "definition": "Gibt an, ob der Zahlungspflichtige einen anderen als den angeforderten Betrag zahlen darf.||Verwendung: Wenn das Element nicht vorhanden ist, lautet der Standardwert „Nicht zutreffend“."
+    },
+    "EarlyPaymentAllowed": {
+      "definition": "Gibt an, ob der Zahlungspflichtige vor dem gewünschten Ausführungsdatum zahlen darf.||Verwendung: Wenn das Element nicht vorhanden ist, lautet der Standardwert „Nicht zutreffend“."
+    },
+    "DelayPenalty": {
+      "definition": "Strafe, die bei verspäteter Zahlung anzuwenden ist, d. h. wenn die Zahlung nach dem gewünschten Ausführungsdatum erfolgt."
+    },
+    "ImmediatePaymentRebate": {
+      "definition": "Diskontsatz, der bei sofortiger Zahlung nach Eingang der Anforderung angewendet wird."
+    },
+    "GuaranteedPaymentRequested": {
+      "definition": "Gibt an, ob eine Zahlungsgarantie angefordert wird, vorausgesetzt, zwischen den beteiligten Akteuren besteht ein Zahlungsgarantievertrag.||Verwendung: Wenn das Element nicht vorhanden ist, lautet der Standardwert „Nicht zutreffend“."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "GeneralInvestmentAccountType2Code",
+  "definition": "Gibt eine Art von Anlagekonto an.",
+  "isoCodes": {
+    "ANYY": {
+      "name": "Beliebig",
+      "definition": "Jede Art von allgemeinem Anlagekonto."
+    },
+    "EQUI": {
+      "name": "Aktiensparkonto",
+      "definition": "Allgemeines Aktien- oder Beteiligungssparkonto."
+    }
+  }
+}

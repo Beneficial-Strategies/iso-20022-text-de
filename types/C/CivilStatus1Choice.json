@@ -1,0 +1,12 @@
+{
+  "isoType": "CivilStatus1Choice",
+  "definition": "Auswahl von Formaten für den Familienstand.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückter Familienstand."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückter Familienstand."
+    }
+  }
+}

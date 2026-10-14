@@ -1,0 +1,12 @@
+{
+  "isoType": "FailingReason13",
+  "definition": "Gibt den Grund an, weshalb die Anweisung oder der Auftrag den Abwicklungsstatus „fehlgeschlagen“ hat.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, weshalb die Anweisung den Status „fehlgeschlagen“ hat."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Enthält zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

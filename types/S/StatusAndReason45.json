@@ -1,0 +1,12 @@
+{
+  "isoType": "StatusAndReason45",
+  "definition": "Status und Grund einer angewiesenen Order.",
+  "isoElements": {
+    "StatusAndReason": {
+      "definition": "Status und Grund für die Transaktion."
+    },
+    "Transaction": {
+      "definition": "Details der gemeldeten Transaktionen."
+    }
+  }
+}

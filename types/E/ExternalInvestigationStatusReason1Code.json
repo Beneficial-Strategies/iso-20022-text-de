@@ -1,0 +1,90 @@
+{
+  "isoType": "ExternalInvestigationStatusReason1Code",
+  "definition": "Gibt den Grund für den Untersuchungsstatus an, wie in einem externen Codesatz für Untersuchungsstatusgründe veröffentlicht.|Externe Codesätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "AGNT": {
+      "name": "Falsche Bank oder Partei",
+      "definition": "Die Anfragenachricht wurde an eine falsche Bank oder Partei gerichtet."
+    },
+    "DU01": {
+      "name": "Doppelte Anforderung",
+      "definition": "Die Anfragenachricht ist ein Duplikat; die doppelte Anfragenachricht wird abgelehnt."
+    },
+    "NARR": {
+      "name": "Freitext",
+      "definition": "Siehe Element ResponseData für zusätzliche Informationen."
+    },
+    "FTNA": {
+      "name": "Untersuchungsanforderung an Bank oder Partei weitergeleitet",
+      "definition": "Die Anfragenachricht wurde an eine andere Bank oder Partei weitergeleitet; diese können im Element NextResponder angegeben sein."
+    },
+    "CAPR": {
+      "name": "Auf Anforderung abgeschlossen",
+      "definition": "Untersuchung gemäß der Anfragenachricht abgeschlossen."
+    },
+    "CACR": {
+      "name": "Abgeschlossen, da Stornierungsanforderung gesendet",
+      "definition": "Untersuchung abgeschlossen, da ein Stornierungsantrag für die zugrunde liegende Transaktion gesendet wurde."
+    },
+    "ADAC": {
+      "name": "Warten auf Belastungsermächtigung des Kunden",
+      "definition": "Warten auf die Belastungsautorisierung des Kunden."
+    },
+    "ARPL": {
+      "name": "Wartet auf Antwort des Kunden",
+      "definition": "Warten auf die Antwort des Kunden."
+    },
+    "NOAS": {
+      "name": "Keine Antwort vom Kunden",
+      "definition": "Keine Antwort des Kunden."
+    },
+    "INPO": {
+      "name": "In Bearbeitung",
+      "definition": "Die Zusammenstellung der Antwortdaten dauert noch an."
+    },
+    "NOOR": {
+      "name": "Keine ursprüngliche Transaktion empfangen",
+      "definition": "Zugrunde liegende Transaktion nie empfangen."
+    },
+    "ARJT": {
+      "name": "Transaktion bereits abgelehnt",
+      "definition": "Zugrunde liegende Transaktion bereits abgelehnt."
+    },
+    "ARDT": {
+      "name": "Bereits zurückgegeben",
+      "definition": "Untersuchungsanfrage nicht angenommen, da die Transaktion bereits zurückgegeben wurde."
+    },
+    "RR04": {
+      "name": "Regulatorischer Grund",
+      "definition": "Aufsichtsrechtlicher Grund."
+    },
+    "LEGL": {
+      "name": "Rechtliche Entscheidung",
+      "definition": "Wird gemeldet, wenn die Anfrage aufgrund aufsichtsrechtlicher Vorschriften nicht angenommen werden kann."
+    },
+    "ESCA": {
+      "name": "Eskalation",
+      "definition": "Eine besondere Nachverfolgung findet statt."
+    },
+    "INIT": {
+      "name": "Falsche Untersuchungsart",
+      "definition": "In der Anfragenachricht wurde ein falscher Untersuchungstyp verwendet."
+    },
+    "PARE": {
+      "name": "Teilantwort",
+      "definition": "Die Antwortnachricht beantwortet die Anfrage teilweise; eine weitere Antwortnachricht folgt."
+    },
+    "NOAD": {
+      "name": "Keine weiteren Informationen verfügbar",
+      "definition": "Zur Anfrage können keine zusätzlichen Informationen bereitgestellt werden."
+    },
+    "G004": {
+      "name": "Wartet auf Deckung",
+      "definition": "Zeigt an, dass die Untersuchung des Nichteingangs der Gutschrift ausstehend ist, da der Deckungszahlungsempfänger auf die Gutschrift der Deckung wartet."
+    },
+    "CMPI": {
+      "name": "Korrektur gemäß Anfrage vorgenommen",
+      "definition": "Bezieht sich auf ein Correction-Made-as-Per-Inquiry-Verfahren für den Untersuchungsstatus Abgeschlossen (CLSD)."
+    }
+  }
+}

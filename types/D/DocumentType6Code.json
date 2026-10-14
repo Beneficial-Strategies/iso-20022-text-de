@@ -1,0 +1,70 @@
+{
+  "isoType": "DocumentType6Code",
+  "definition": "Gibt eine Art von Finanz- oder Handelsdokument an.",
+  "isoCodes": {
+    "MSIN": {
+      "name": "Rechnung für gemessene Leistungen",
+      "definition": "Das Dokument ist eine Rechnung über die Lieferung gemessener Leistungen, z. B. Gas oder Strom, geliefert an einen fest installierten Zähler."
+    },
+    "CNFA": {
+      "name": "Gutschriftsanzeige zu finanzieller Anpassung",
+      "definition": "Das Dokument ist eine Gutschriftsanzeige über den endgültig abgerechneten Betrag eines Handelsgeschäfts."
+    },
+    "DNFA": {
+      "name": "Belastungsanzeige zu finanzieller Anpassung",
+      "definition": "Das Dokument ist eine Belastungsanzeige über den endgültig abgerechneten Betrag eines Handelsgeschäfts."
+    },
+    "CINV": {
+      "name": "Handelsrechnung",
+      "definition": "Das Dokument ist eine Rechnung."
+    },
+    "CREN": {
+      "name": "Gutschriftsanzeige",
+      "definition": "Das Dokument ist eine Gutschriftsanzeige."
+    },
+    "DEBN": {
+      "name": "Belastungsanzeige",
+      "definition": "Das Dokument ist eine Belastungsanzeige."
+    },
+    "HIRI": {
+      "name": "Mietrechnung",
+      "definition": "Das Dokument ist eine Rechnung für die Überlassung von Personal oder die Vermietung von Waren oder Ausrüstung."
+    },
+    "SBIN": {
+      "name": "Gutschriftsverfahren-Rechnung",
+      "definition": "Das Dokument ist eine vom Zahlungspflichtigen ausgestellte Rechnung."
+    },
+    "CMCN": {
+      "name": "Handelsvertrag",
+      "definition": "Das Dokument ist eine Vereinbarung zwischen den Parteien, die die Bedingungen für die Lieferung von Waren oder Dienstleistungen festlegt."
+    },
+    "SOAC": {
+      "name": "Kontoauszug",
+      "definition": "Das Dokument ist eine Aufstellung der auf dem Konto des Zahlungspflichtigen beim Lieferanten gebuchten Transaktionen."
+    },
+    "DISP": {
+      "name": "Versandavis",
+      "definition": "Das Dokument ist eine Versandanzeige."
+    },
+    "BOLD": {
+      "name": "Konnossement",
+      "definition": "Das Dokument ist eine Versandmitteilung."
+    },
+    "VCHR": {
+      "name": "Beleg",
+      "definition": "Das Dokument ist ein elektronisches Zahlungsdokument."
+    },
+    "AROI": {
+      "name": "Offener Posten Forderungen",
+      "definition": "Das Dokument ist eine Zahlung, die sich auf ein bestimmtes Ursprungsdokument bezieht."
+    },
+    "TSUT": {
+      "name": "Transaktion für Handelsdienstleistungen",
+      "definition": "Das Dokument ist eine Transaktionskennung, die vom Trade Services Utility vergeben wurde."
+    },
+    "PUOR": {
+      "name": "Bestellung",
+      "definition": "Das Dokument ist eine Bestellung."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "BalanceFormat16Choice",
+  "definition": "Auswahl zwischen den Formaten Bestand, anspruchsberechtigter Bestand und nicht anspruchsberechtigter Bestand.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Stellt Informationen zu einem Bestand im Zusammenhang mit einer Kapitalmaßnahme bereit."
+    },
+    "EligibleBalance": {
+      "definition": "Stellt Informationen zum anspruchsberechtigten Bestand in verschiedenen Formaten bereit."
+    },
+    "NotEligibleBalance": {
+      "definition": "Stellt Informationen zum nicht anspruchsberechtigten Bestand in verschiedenen Formaten bereit."
+    },
+    "FullPeriodUnits": {
+      "definition": "Anzahl der Anteile eines Fonds, die in einer früheren Ausschüttungsperiode erworben und/oder zu Beginn einer Ausschüttungsperiode gehalten wurden, zum Beispiel Group I Units im UK."
+    },
+    "PartWayPeriodUnits": {
+      "definition": "Anzahl der Anteile eines Fonds, die im Laufe einer Ausschüttungsperiode erworben wurden, zum Beispiel Group II Units im U.K."
+    }
+  }
+}

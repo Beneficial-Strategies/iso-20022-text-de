@@ -1,0 +1,12 @@
+{
+  "isoType": "SystemIdentification2Choice",
+  "definition": "Angaben zur Identifikation eines Cash-Clearing-Systems.",
+  "isoElements": {
+    "MarketInfrastructureIdentification": {
+      "definition": "Für eine Transaktion ausgewähltes Clearing-Verfahren."
+    },
+    "Country": {
+      "definition": "Land, in dem sich das System befindet."
+    }
+  }
+}

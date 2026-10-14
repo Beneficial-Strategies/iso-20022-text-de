@@ -1,0 +1,27 @@
+{
+  "isoType": "GroupHeader118",
+  "definition": "Satz von Merkmalen, die für alle in der Nachricht enthaltenen Einzeltransaktionen gelten.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, von der anweisenden Partei vergeben und an die nächste Partei in der Kette gesendet, zur unmissverständlichen Identifizierung der Nachricht.||Verwendung: Die anweisende Partei muss sicherstellen, dass MessageIdentification für einen vorab vereinbarten Zeitraum je angewiesener Partei eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "Authorisation": {
+      "definition": "Benutzeridentifikation oder beliebiger Benutzerschlüssel, anhand dessen geprüft werden kann, ob die initiierende Partei berechtigt ist, Transaktionen von dem in der Initiierung angegebenen Konto zu initiieren.||Verwendung: Der Inhalt ist nicht technischer Natur, sondern spiegelt die Organisationsstruktur auf der initiierenden Seite wider. Das Autorisierungselement kann typischerweise in Relay-Szenarien sowie bei Zahlungsinitiierungen, Zahlungsrückgaben oder Zahlungsrückbuchungen verwendet werden, die im Auftrag einer anderen Partei als der initiierenden Partei initiiert werden."
+    },
+    "NumberOfTransactions": {
+      "definition": "Anzahl der in der Nachricht enthaltenen Einzeltransaktionen."
+    },
+    "ControlSum": {
+      "definition": "Summe aller in der Nachricht enthaltenen Einzelbeträge, unabhängig von den Währungen."
+    },
+    "InitiatingParty": {
+      "definition": "Partei, die die Zahlung initiiert.||Verwendung: Dies kann entweder der Zahlungsempfänger sein oder eine Partei, die die Lastschrift im Auftrag des Zahlungsempfängers initiiert."
+    },
+    "ForwardingAgent": {
+      "definition": "Finanzinstitut, das die Anweisung von der initiierenden Partei erhält und zur Ausführung an die nächste Bank in der Zahlungskette weiterleitet."
+    }
+  }
+}

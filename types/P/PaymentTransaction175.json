@@ -1,0 +1,39 @@
+{
+  "isoType": "PaymentTransaction175",
+  "definition": "Enthält Referenz- und Statusangaben zu den ursprünglichen Transaktionen der ursprünglichen Anweisung, auf die sich die Stornierungsnachricht bezieht.",
+  "isoElements": {
+    "CancellationStatusIdentification": {
+      "definition": "Eindeutiger und zweifelsfreier Identifikator eines Stornierungsstatus, vom Zuweisenden vergeben.||Verwendung: Die Identifikation des Stornierungsstatus kann für den Abgleich oder zur Verknüpfung von Aufgaben im Zusammenhang mit dem Stornierungsauftrag verwendet werden."
+    },
+    "ResolvedCase": {
+      "definition": "Identifiziert den gelösten Fall."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Eindeutige Identifikation, von der ursprünglichen anweisenden Partei für die ursprünglich angewiesene Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Anweisung."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Eindeutige Identifikation, von der ursprünglichen initiierenden Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Transaktion."
+    },
+    "UETR": {
+      "definition": "Universell eindeutiger Identifikator als Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "TransactionCancellationStatus": {
+      "definition": "Gibt den Status des Transaktionsstornierungsauftrags an."
+    },
+    "CancellationStatusReasonInformation": {
+      "definition": "Enthält detaillierte Angaben zum Grund des Stornierungsstatus."
+    },
+    "OriginalInstructedAmount": {
+      "definition": "Geldbetrag gemäß der ursprünglichen Transaktion, der zwischen Zahlungspflichtigem und Zahlungsempfänger bewegt werden soll, vor Abzug von Entgelten, in der von der ursprünglichen initiierenden Partei angewiesenen Währung.|Verwendung: Dieser Betrag muss unverändert durch die Transaktionskette übermittelt werden."
+    },
+    "OriginalRequestedExecutionDate": {
+      "definition": "Datum, an dem die initiierende Partei die Clearing-Bank ursprünglich um Verarbeitung der Zahlung gebeten hat."
+    },
+    "OriginalRequestedCollectionDate": {
+      "definition": "Datum, an dem der Zahlungsempfänger ursprünglich den Einzug des Geldbetrags vom Zahlungspflichtigen beauftragt hat."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Schlüsselelemente zur Identifikation der ursprünglichen Transaktion, auf die verwiesen wird."
+    }
+  }
+}

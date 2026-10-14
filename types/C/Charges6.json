@@ -1,0 +1,12 @@
+{
+  "isoType": "Charges6",
+  "definition": "Enthält weitere Angaben zu den Entgelten im Zusammenhang mit der Zahlungstransaktion.",
+  "isoElements": {
+    "TotalChargesAndTaxAmount": {
+      "definition": "Gesamtsumme aller auf den Posten angewandten Entgelte und Steuern."
+    },
+    "Record": {
+      "definition": "Enthält Angaben zum einzelnen Entgeltdatensatz."
+    }
+  }
+}

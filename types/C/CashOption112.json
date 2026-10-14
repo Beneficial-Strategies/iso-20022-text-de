@@ -1,0 +1,24 @@
+{
+  "isoType": "CashOption112",
+  "definition": "Liefert Informationen zur Baroption.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Wert eine Belastung oder eine Gutschrift ist."
+    },
+    "Account": {
+      "definition": "Auswahl zwischen einem Geldkonto, einem Entgeltkonto oder einem Steuerkonto."
+    },
+    "PostingDate": {
+      "definition": "Datum und Uhrzeit der Buchung (Gutschrift oder Belastung) auf dem Konto."
+    },
+    "OriginalPostingDate": {
+      "definition": "Datum und Uhrzeit der Buchung (Gutschrift oder Belastung) auf dem Konto, die ursprünglich in der Bestätigung mitgeteilt wurde."
+    },
+    "ValueDate": {
+      "definition": "Datum/Uhrzeit der Berechnung des wirtschaftlichen Vorteils für einen Barbetrag."
+    },
+    "PostingAmount": {
+      "definition": "Geldbetrag, der auf dem Konto gebucht werden soll bzw. gebucht wurde."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "RejectionReason20Code",
+  "definition": "Gibt den Grund für die Ablehnung des Antrags auf Dauerauftragsanweisung an.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Validierung fehlgeschlagen",
+      "definition": "Die Validierung der Mitteilung/Anweisung/des Antrags ist fehlgeschlagen."
+    },
+    "CASA": {
+      "name": "Nicht identifiziertes Geldkonto",
+      "definition": "Das Geldkonto kann nicht identifiziert werden."
+    },
+    "CORR": {
+      "name": "Nicht identifizierte Korrespondenzbank",
+      "definition": "Die Korrespondenzbank kann nicht identifiziert werden."
+    },
+    "STAN": {
+      "name": "Ungültige Art der Dauerauftragsanweisung",
+      "definition": "Ungültige Art der Dauerauftragsanweisung für das angegebene zugrunde liegende Wertpapier."
+    },
+    "NOHO": {
+      "name": "Kein Bestand",
+      "definition": "Kein Bestand für das angegebene zugrunde liegende Wertpapier."
+    }
+  }
+}

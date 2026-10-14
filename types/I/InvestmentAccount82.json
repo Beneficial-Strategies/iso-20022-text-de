@@ -1,0 +1,48 @@
+{
+  "isoType": "InvestmentAccount82",
+  "definition": "Konto zwischen einem oder mehreren Anlegern und einer Fondsverwaltungsgesellschaft oder einem Fonds. Das Konto kann Bestände an jedem von der Fondsverwaltungsgesellschaft verwalteten (oder vertriebenen) Investmentfonds oder jeder Anteilklasse eines Investmentfonds innerhalb derselben Fondsfamilie enthalten.",
+  "isoElements": {
+    "OwnerIdentification": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    },
+    "AccountIdentification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "AccountName": {
+      "definition": "Name des Kontos. Er dient als zusätzliches Identifikationsmittel und wird vom kontoführenden Institut in Absprache mit dem Kontoinhaber festgelegt."
+    },
+    "AccountDesignation": {
+      "definition": "Ergänzende Registrierungsinformationen, die für einen bestimmten Block von Anteilen zu Handels- und Meldezwecken gelten. Die ergänzenden Registrierungsinformationen können verwendet werden, wenn alle Anteile beispielsweise auf einen Fondssupermarkt registriert sind, die Bestände der einzelnen Anleger jedoch individuell abgestimmt werden müssen."
+    },
+    "AccountServicer": {
+      "definition": "Institution, die die Aufzeichnungen führt, in denen das Konto geführt wird."
+    },
+    "SubAccountDetails": {
+      "definition": "Unterkonto des Haupt- oder Sammelkontos."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Digitales Konto, auf dem digitale Vermögenswerte oder digitale Token gespeichert werden können und in dem ein Eintrag vorgenommen wird."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identifikation einer verbundenen Partei oder eines Vermittlers."
+    },
+    "SecuritiesForm": {
+      "definition": "Form, das heißt Eigentumsform, des Wertpapiers, das heißt Namens- oder Inhaberpapier."
+    },
+    "DematerialisedIndicator": {
+      "definition": "Gibt an, ob ein Wertpapier nur als elektronischer Eintrag existiert, d. h. ob es kein physisches Dokument gibt, das das Wertpapier verkörpert."
+    },
+    "IncomePreference": {
+      "definition": "Vom Kontoinhaber anhand der im Prospekt angebotenen Optionen gewählte Dividendenoption."
+    },
+    "BeneficiaryCertificationCompletion": {
+      "definition": "Der wirtschaftlich Berechtigte oder sein bestellter Beauftragter bescheinigt, dass er alle Halte- oder Anlagebeschränkungen oder -anforderungen des Fonds einhält."
+    },
+    "SafekeepingPlace": {
+      "definition": "Als Verwahrort gewünschter Ort."
+    },
+    "SettlementPartiesDetails": {
+      "definition": "Kette der an der Abwicklung der Transaktion beteiligten Parteien."
+    }
+  }
+}

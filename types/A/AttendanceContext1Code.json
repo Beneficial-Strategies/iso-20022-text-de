@@ -1,0 +1,18 @@
+{
+  "isoType": "AttendanceContext1Code",
+  "definition": "Menschliche Anwesenheit am POI-Standort während der Transaktion.",
+  "isoCodes": {
+    "ATTD": {
+      "name": "Bedient",
+      "definition": "Bediente Zahlung, mit Bedienpersonal."
+    },
+    "SATT": {
+      "name": "Teilbedient",
+      "definition": "Teilbediente Zahlung, einschließlich Selbstbedienungskasse. Ein Mitarbeiter beaufsichtigt mehrere Zahlungen und kann zur Hilfe des Karteninhabers gerufen werden."
+    },
+    "UATT": {
+      "name": "Unbedient",
+      "definition": "Unbediente Zahlung, kein Bedienpersonal anwesend."
+    }
+  }
+}

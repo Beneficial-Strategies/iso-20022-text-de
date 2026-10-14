@@ -1,0 +1,26 @@
+{
+  "isoType": "Frequency10Code",
+  "definition": "Gibt die Regelmäßigkeit einer Maßnahme an.",
+  "isoCodes": {
+    "NEVR": {
+      "name": "Nie",
+      "definition": "Das Ereignis findet nie statt."
+    },
+    "YEAR": {
+      "name": "Jährlich",
+      "definition": "Das Ereignis findet jährlich bzw. einmal im Jahr statt."
+    },
+    "RATE": {
+      "name": "Satz",
+      "definition": "Das Ereignis findet aufgrund einer Änderung eines Satzes statt."
+    },
+    "MIAN": {
+      "name": "Halbjährlich",
+      "definition": "Das Ereignis findet alle sechs Monate bzw. zweimal jährlich statt."
+    },
+    "QURT": {
+      "name": "Vierteljährlich",
+      "definition": "Das Ereignis findet alle drei Monate bzw. viermal jährlich statt."
+    }
+  }
+}

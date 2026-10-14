@@ -1,0 +1,23 @@
+{
+  "isoType": "CorporateActionGeneralInformation195",
+  "definition": "Allgemeine Informationen zum Kapitalmaßnahmen-Ereignis.",
+  "isoElements": {
+    "CorporateActionEventIdentification": {
+      "definition": "Referenz, vergeben vom Kontoführer, zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "definition": "Offizielle und eindeutige Referenz, die zu Beginn eines Kapitalmaßnahmen-Ereignisses von der offiziellen zentralen Stelle bzw. Einrichtung innerhalb des jeweiligen Marktes vergeben wird."
+    },
+    "EventType": {
+      "definition": "Art des Kapitalmaßnahmen-Ereignisses."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifiziert das Finanzinstrument."
+    }
+  },
+  "isoRules": {
+    "OfficialCorporateActionEventReference": {
+      "definition": "Die Securities Market Practice Group (SMPG) hat Marktpraxisempfehlungen zu Aufbau und Verwendung der Official Corporate Action Event Reference (COAF) veröffentlicht. Diese Empfehlungen sind|im Dokument SMPG Global Market Practices Part 1 auf www.smpg.info verfügbar."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "ShareholdersIdentificationDisclosureRequestCancellationAdviceV01",
+  "definition": "Die Nachricht ShareholdersIdentificationDisclosureCancellationAdvice wird von einem Emittenten oder von einem vom Emittenten benannten Dritten (etwa einem Beauftragten des Emittenten) an die ersten Intermediäre einer Verwahrkette gesendet oder von beliebigen Intermediären einer Verwahrkette an den nächsten Intermediär in der Kette (in Richtung der Anlegerseite der Kette), um die zuvor gesendete Offenlegungsanfrage zur Identität der Aktionäre zurückzunehmen/zu stornieren.",
+  "isoElements": {
+    "CancellationReason": {
+      "definition": "Liefert den Grund für die Stornierung der Anfrage zur Offenlegung der Aktionärsidentifikation."
+    }
+  }
+}

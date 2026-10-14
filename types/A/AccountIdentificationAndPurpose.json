@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentificationAndPurpose",
+  "definition": "Identifikation des Kontos, ausgedrückt als Kontonummer und Code.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "Purpose": {
+      "definition": "Legt den Zweck des Kontos fest."
+    }
+  }
+}

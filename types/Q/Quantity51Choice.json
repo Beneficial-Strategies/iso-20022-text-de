@@ -1,0 +1,12 @@
+{
+  "isoType": "Quantity51Choice",
+  "definition": "Auswahl des Formats für die Menge.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Menge des Finanzinstruments in Einheiten, ursprünglichem Nennbetrag oder aktuellem Nennbetrag."
+    },
+    "OriginalAndCurrentFace": {
+      "definition": "Ursprünglicher und aktueller Wert eines forderungsbesicherten Instruments."
+    }
+  }
+}

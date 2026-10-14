@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyStatusReason2Choice",
+  "definition": "Gibt den Grund für den Status der Strafzahlungen an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für den Status der Strafzahlung in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Grund für den Status der Strafzahlung in proprietärer Form."
+    }
+  }
+}

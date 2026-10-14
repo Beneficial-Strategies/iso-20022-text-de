@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingOrderReport3",
+  "definition": "Legt die detaillierten Attribute eines Dauerauftrags fest.",
+  "isoElements": {
+    "StandingOrderIdentification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "StandingOrderOrError": {
+      "definition": "Angeforderte Informationen zum Dauerauftrag oder Geschäftsfehler, wenn keine Informationen gefunden wurden."
+    }
+  }
+}

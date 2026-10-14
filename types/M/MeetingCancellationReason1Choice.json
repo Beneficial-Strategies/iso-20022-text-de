@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingCancellationReason1Choice",
+  "definition": "Auswahl des Grundes für die Absage der Versammlung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund für die Absage einer Versammlung in codierter Form an."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Grund für die Absage einer Versammlung als Freitext an."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "isoType": "ChargesPerType5",
+  "definition": "Stellt eine detaillierte Aufschlüsselung der Entgelte nach Entgeltart bereit.",
+  "isoElements": {
+    "ChargesIdentification": {
+      "definition": "Eindeutige und unzweideutige Identifikation der Entgeltinformationen zu Abstimmungszwecken."
+    },
+    "TotalChargesPerChargeType": {
+      "definition": "Gesamtentgelte, die für die angegebene Entgeltart geltend gemacht werden."
+    },
+    "ChargesAccount": {
+      "definition": "Identifiziert das Konto, das für die Entgelte, Zinsen oder sonstige Anpassungen belastet oder gutgeschrieben wurde."
+    },
+    "ChargesAccountOwner": {
+      "definition": "Bank, die das Entgeltkonto führt."
+    },
+    "Type": {
+      "definition": "Gibt die Art des Entgelts an."
+    },
+    "Record": {
+      "definition": "Einzeln aufgeführter Entgeltdatensatz je Entgeltart."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Einzelheiten zum Grund der Entgelte."
+    }
+  },
+  "isoRules": {
+    "ChargesAccountTypeOrRecord2Rule": {
+      "definition": "Ist Record/ChargesAccount vorhanden oder ist Record/ChargesAccountOwner vorhanden, dürfen ChargesAccount und ChargesAccountOwner nicht vorhanden sein."
+    },
+    "ChargesAccountTypeOrRecord1Rule": {
+      "definition": "Ist ChargesAccount vorhanden oder ist ChargesAccountOwner vorhanden, dürfen Record/ChargesAccount und Record/ChargesAccountOwner nicht vorhanden sein."
+    }
+  }
+}

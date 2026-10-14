@@ -1,0 +1,17 @@
+{
+  "isoType": "IntraBalanceType3",
+  "definition": "Saldoart innerhalb des Saldos zur Angabe von Paaren von Von-/Nach-Salden.",
+  "isoElements": {
+    "BalanceFrom": {
+      "definition": "Bestand, von dem der Geldbetrag umgebucht wird."
+    },
+    "BalanceTo": {
+      "definition": "Bestand, auf den der Geldbetrag umgebucht wird."
+    }
+  },
+  "isoRules": {
+    "BalanceFromToRule": {
+      "definition": "Die Kassensaldoart von BalanceFrom muss sich von der Kassensaldoart von BalanceTo unterscheiden."
+    }
+  }
+}

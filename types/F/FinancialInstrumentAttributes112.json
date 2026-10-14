@@ -1,0 +1,137 @@
+{
+  "isoType": "FinancialInstrumentAttributes112",
+  "definition": "Elemente, die ein Finanzinstrument kennzeichnen.",
+  "isoElements": {
+    "PlaceOfListing": {
+      "definition": "Markt bzw. Märkte, an dem bzw. denen das Wertpapier notiert ist."
+    },
+    "DayCountBasis": {
+      "definition": "Gibt die Berechnungsmethode der (aufgelaufenen) Zinsen des Wertpapiers an."
+    },
+    "RegistrationForm": {
+      "definition": "Gibt die Form, das heißt das Eigentum, des Wertpapiers an."
+    },
+    "PaymentFrequency": {
+      "definition": "Gibt die Häufigkeit einer Zinszahlung an."
+    },
+    "PaymentStatus": {
+      "definition": "Zahlungsstatus eines Wertpapiers zu einem bestimmten Zeitpunkt."
+    },
+    "VariableRateChangeFrequency": {
+      "definition": "Gibt die Häufigkeit der Änderung des variablen Zinssatzes eines verzinslichen Instruments an."
+    },
+    "ClassificationType": {
+      "definition": "Klassifizierungsart des Finanzinstruments gemäß der Kodierung der ISO Classification of Financial Instrument (CFI), zum Beispiel Stammaktie mit Stimmrecht, voll eingezahlt oder auf den Namen lautend."
+    },
+    "OptionStyle": {
+      "definition": "Gibt an, wie eine Option ausgeübt werden kann (amerikanisch, europäisch, bermudisch)."
+    },
+    "OptionType": {
+      "definition": "Gibt an, ob es sich um eine Call-Option (Recht auf Kauf eines bestimmten Basiswerts) oder eine Put-Option (Recht auf Verkauf eines bestimmten Basiswerts) handelt."
+    },
+    "DenominationCurrency": {
+      "definition": "Währung, in der ein Wertpapier begeben oder umgestellt wird."
+    },
+    "CouponDate": {
+      "definition": "Nächster Zahlungstermin eines verzinslichen Finanzinstruments."
+    },
+    "ExpiryDate": {
+      "definition": "Datum, an dem ein Vorrecht erlischt."
+    },
+    "FloatingRateFixingDate": {
+      "definition": "Datum, an dem der Zinssatz eines verzinslichen Wertpapiers gemäß den Emissionsbedingungen berechnet und neu festgesetzt wird."
+    },
+    "MaturityDate": {
+      "definition": "Geplanter Termin der Endrückzahlung zum Zeitpunkt der Emission."
+    },
+    "IssueDate": {
+      "definition": "Datum, an dem das Wertpapier zur Verfügung gestellt wurde."
+    },
+    "NextCallableDate": {
+      "definition": "Nächstes Datum, an dem der Emittent das Recht hat, das Wertpapier vor Fälligkeit zurückzuzahlen."
+    },
+    "PutableDate": {
+      "definition": "Datum, an dem der Inhaber das Recht hat, die Rückzahlung des Wertpapiers vor der Endfälligkeit zu verlangen."
+    },
+    "DatedDate": {
+      "definition": "Erstes Datum, ab dem für ein Wertpapier Zinsen aufzulaufen beginnen."
+    },
+    "FirstPaymentDate": {
+      "definition": "Datum, an dem die erste Zinszahlung an die Inhaber des Wertpapiers fällig ist."
+    },
+    "PreviousFactor": {
+      "definition": "Als Dezimalzahl zwischen 0 und 1 ausgedrückter Satz, der vor dem aktuellen Faktor galt und den ausstehenden Kapitalbetrag des Finanzinstruments definiert (bei Wertpapieren mit Faktor)."
+    },
+    "CurrentFactor": {
+      "definition": "Als Dezimalzahl zwischen 0 und 1 ausgedrückter Satz, der den ausstehenden Kapitalbetrag des Finanzinstruments definiert (bei Wertpapieren mit Faktor)."
+    },
+    "NextFactor": {
+      "definition": "Als Dezimalzahl zwischen 0 und 1 ausgedrückter Satz, der ab dem nächsten Faktordatum gilt und den ausstehenden Kapitalbetrag des Finanzinstruments definiert (bei Wertpapieren mit Faktor)."
+    },
+    "InterestRate": {
+      "definition": "Jährliches Verhältnis der gezahlten Zinsen zum Kapitalbetrag des Finanzinstruments für einen bestimmten Zeitraum."
+    },
+    "YieldToMaturityRate": {
+      "definition": "Erwartete Rendite einer Anleihe, wenn sie bis zum Fälligkeitsdatum gehalten wird."
+    },
+    "NextInterestRate": {
+      "definition": "Zinssatz, der für die nächste Zinszahlungsperiode bei Instrumenten mit variablem Zinssatz gilt."
+    },
+    "IndexRateBasis": {
+      "definition": "Gibt den Referenzsatz für festverzinsliche Instrumente an, bei denen der |Preis des Instruments an den Preis eines zugrunde liegenden Referenzwerts gekoppelt ist."
+    },
+    "CouponAttachedNumber": {
+      "definition": "Nummer des Kupons, der dem physischen Wertpapier beigefügt ist."
+    },
+    "PoolNumber": {
+      "definition": "Nummer zur Identifikation einer Gruppe zugrunde liegender Vermögenswerte, die vom Emittenten eines Wertpapiers mit Faktor zugewiesen wird."
+    },
+    "QuantityBreakdown": {
+      "definition": "Aufgliederung einer Menge in Posten, wie Steuerposten oder Instrumentenserien."
+    },
+    "VariableRateIndicator": {
+      "definition": "Gibt an, ob der Zinssatz eines verzinslichen Instruments periodisch neu festgesetzt wird."
+    },
+    "CallableIndicator": {
+      "definition": "Gibt an, ob der Emittent das Recht hat, das Wertpapier vor Fälligkeit zurückzuzahlen. Auch RetractableIndicator genannt."
+    },
+    "PutableIndicator": {
+      "definition": "Gibt an, ob der Inhaber das Recht hat, die Rückzahlung des Wertpapiers vor der Endfälligkeit zu verlangen. Auch RedeemableIndicator genannt."
+    },
+    "MarketOrIndicativePrice": {
+      "definition": "Wert des Preises, zum Beispiel als Währung und Wert je Einheit oder als Prozentsatz."
+    },
+    "ExercisePrice": {
+      "definition": "Im Voraus festgelegter Preis, zu dem der Inhaber eines Derivats das Basisinstrument kaufen oder verkaufen wird."
+    },
+    "SubscriptionPrice": {
+      "definition": "Im Voraus festgelegter Preis, zu dem der Inhaber eines Rechts berechtigt ist, das Basisinstrument zu kaufen."
+    },
+    "ConversionPrice": {
+      "definition": "Preis eines Zielwertpapiers bei der Umwandlung."
+    },
+    "StrikePrice": {
+      "definition": "Im Voraus festgelegter Preis, zu dem der Inhaber das Basisinstrument kaufen oder verkaufen muss."
+    },
+    "MinimumNominalQuantity": {
+      "definition": "Mindestnennmenge des Finanzinstruments."
+    },
+    "ContractSize": {
+      "definition": "Verhältnis oder Multiplikationsfaktor zur Umrechnung eines Kontrakts in eine Menge."
+    },
+    "UnderlyingFinancialInstrumentIdentification": {
+      "definition": "Identifikation des zugrunde liegenden Wertpapiers."
+    },
+    "FinancialInstrumentAttributeAdditionalDetails": {
+      "definition": "Liefert zusätzliche Informationen zum Finanzinstrument in Textform."
+    }
+  },
+  "isoRules": {
+    "PlaceOfListingRule": {
+      "definition": "Wenn PlaceOfListing verwendet wird und für den zu identifizierenden Markt ein ISO-10383-MIC existiert, muss der ISO 10383 Market Identifier Code (MIC) verwendet werden."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Sofern zwischen Absender und Empfänger nicht bilateral anders vereinbart, darf FinancialInstrumentAttributeAdditionalDetails, wenn vorhanden, keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

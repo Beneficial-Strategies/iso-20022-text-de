@@ -1,0 +1,12 @@
+{
+  "isoType": "RequestStatus1Choice",
+  "definition": "Gibt den Status eines Auftrags an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Auftragsstatus, wie in einem externen Codesatz für Auftragsstatus veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Auftragsstatus in proprietärer Form."
+    }
+  }
+}

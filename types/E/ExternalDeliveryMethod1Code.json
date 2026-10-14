@@ -1,0 +1,14 @@
+{
+  "isoType": "ExternalDeliveryMethod1Code",
+  "definition": "Gibt den externen Lieferart-Code als Zeichenfolge mit einer maximalen Länge von 4 Zeichen an.|Die Liste der gültigen Codes ist eine separat veröffentlichte externe Codeliste.|Externe Codesätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "CITC": {
+      "name": "Bargeld im Transit",
+      "definition": "Das Bargeld wird von einem sicheren Transportunternehmen geliefert."
+    },
+    "AUPE": {
+      "name": "Bevollmächtigte Person",
+      "definition": "Das Bargeld wird von einer autorisierten Person geliefert."
+    }
+  }
+}

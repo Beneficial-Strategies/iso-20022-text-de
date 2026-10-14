@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMReconciliationAcknowledgement3",
+  "definition": "Informationen zur Bestätigung eines ATM-Abgleichs durch den ATM-Manager.",
+  "isoElements": {
+    "ATM": {
+      "definition": "Informationen zum ATM."
+    },
+    "Transaction": {
+      "definition": "Informationen zur Abgleichsantwort."
+    }
+  }
+}

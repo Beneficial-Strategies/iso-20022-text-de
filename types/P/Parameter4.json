@@ -1,0 +1,15 @@
+{
+  "isoType": "Parameter4",
+  "definition": "Parameter des asymmetrischen Verschlüsselungsalgorithmus.",
+  "isoElements": {
+    "EncryptionFormat": {
+      "definition": "Format der Daten vor der Verschlüsselung, wenn das Format nicht Klartext oder implizit ist."
+    },
+    "DigestAlgorithm": {
+      "definition": "Identifikation des Digest-Algorithmus."
+    },
+    "MaskGeneratorAlgorithm": {
+      "definition": "Kryptografischer Algorithmus und Parameter der Maskengenerierungsfunktion."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "LimitJournal3",
+  "definition": "Aufzeichnung, in der alle Transaktionen ursprünglich erfasst werden. Das Journal weist aus, welche Transaktionen stattgefunden haben und welche Konten betroffen waren.",
+  "isoElements": {
+    "Limit": {
+      "definition": "Höchstwert zur Risikobegrenzung in einem System oder gegenüber Gegenparteien. Das Limit kann ein aktuelles Limit oder ein Standardlimit sein."
+    },
+    "JournalActivityDate": {
+      "definition": "Datum, an dem die Journalaktivität stattfindet."
+    },
+    "JournalEntry": {
+      "definition": "Erfassung von Transaktionsdaten zu einer Transaktion in einem Journal."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionDate99",
+  "definition": "Gibt Daten der Kapitalmaßnahme an.",
+  "isoElements": {
+    "PostingDate": {
+      "definition": "Datum und Uhrzeit der Buchung (Gutschrift oder Belastung) auf dem Konto."
+    },
+    "ValueDate": {
+      "definition": "Datum/Uhrzeit der Berechnung des wirtschaftlichen Vorteils für einen Barbetrag."
+    },
+    "ForeignExchangeRateFixingDate": {
+      "definition": "Datum/Uhrzeit, zu dem ein Devisenkurs festgelegt wird."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Datum und Uhrzeit, zu dem eine Zahlung erfolgen kann, zum Beispiel wenn der Zahlungstag ein Nicht-Geschäftstag ist, oder zur Angabe des ersten Zahlungsdatums eines Angebots."
+    },
+    "PaymentDate": {
+      "definition": "Datum, an dem die Ausschüttung (in bar und/oder in Wertpapieren) erfolgen soll."
+    }
+  }
+}

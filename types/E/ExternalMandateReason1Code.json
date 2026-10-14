@@ -1,0 +1,198 @@
+{
+  "isoType": "ExternalMandateReason1Code",
+  "definition": "Gibt den externen Code für den Grund der Mandatsbearbeitung als Zeichenfolge mit maximal 4 Zeichen an.|Die Liste der gültigen Codes ist eine separat veröffentlichte externe Codeliste.|Externe Code-Sets können unter www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "AC01": {
+      "name": "Falsche Kontonummer",
+      "definition": "Das Format der angegebenen Kontonummer ist nicht korrekt"
+    },
+    "AC04": {
+      "name": "Geschlossene Kontonummer",
+      "definition": "Die angegebene Kontonummer wurde in den Büchern des Empfängers geschlossen"
+    },
+    "AC06": {
+      "name": "Gesperrtes Konto",
+      "definition": "Das angegebene Konto ist gesperrt, sodass keine Transaktionen darauf gebucht werden können."
+    },
+    "AG01": {
+      "name": "Transaktion nicht erlaubt",
+      "definition": "Transaktion auf dieser Kontoart nicht zulässig (früher NoAgreement)"
+    },
+    "AG02": {
+      "name": "Ungültiger Bankoperationscode",
+      "definition": "Der in der Nachricht angegebene Bank-Operation-Code ist für den Empfänger nicht gültig."
+    },
+    "AM02": {
+      "name": "Nicht erlaubter Betrag",
+      "definition": "Der angegebene Transaktions-/Nachrichtenbetrag ist größer als das zulässige Maximum"
+    },
+    "AM03": {
+      "name": "Nicht erlaubte Währung",
+      "definition": "Der angegebene Nachrichtenbetrag lautet auf eine nicht verarbeitbare Währung außerhalb der bestehenden Vereinbarung"
+    },
+    "AM05": {
+      "name": "Duplizierung",
+      "definition": "Duplikat."
+    },
+    "BE01": {
+      "name": "Nicht konsistent mit dem Endkunden",
+      "definition": "Die Identifikation des Endkunden stimmt nicht mit der zugehörigen Kontonummer überein. (früher CreditorConsistency)."
+    },
+    "BE04": {
+      "name": "Fehlende Adresse des Zahlungsempfängers",
+      "definition": "Die für die Zahlung erforderliche Angabe der Adresse des Zahlungsempfängers fehlt bzw. ist nicht korrekt (früher IncorrectCreditorAddress)."
+    },
+    "BE05": {
+      "name": "Nicht erkannte initiierende Partei",
+      "definition": "Die Partei, die die Nachricht veranlasst hat, ist dem Endkunden nicht bekannt"
+    },
+    "BE06": {
+      "name": "Unbekannter Endkunde",
+      "definition": "Der angegebene Endkunde ist bei der zugehörigen Bankleitzahl/nationalen Bankkennung nicht bekannt oder existiert in den Büchern nicht mehr"
+    },
+    "BE07": {
+      "name": "Anschrift des Zahlungspflichtigen fehlt",
+      "definition": "Die für die Zahlung erforderliche Angabe der Adresse des Zahlungspflichtigen fehlt bzw. ist nicht korrekt."
+    },
+    "DT01": {
+      "name": "Ungültiges Datum",
+      "definition": "Ungültiges Datum (z. B. falsches Abwicklungsdatum)"
+    },
+    "FF01": {
+      "name": "Ungültiges Dateiformat",
+      "definition": "Dateiformat unvollständig oder ungültig"
+    },
+    "MD01": {
+      "name": "Kein Mandat",
+      "definition": "Kein Mandat"
+    },
+    "MD02": {
+      "name": "Pflichtangaben im Mandat fehlen",
+      "definition": "Die vom Verfahren geforderten mandatsbezogenen Informationen fehlen."
+    },
+    "MD07": {
+      "name": "Endkunde verstorben",
+      "definition": "Der Endkunde ist verstorben."
+    },
+    "MD08": {
+      "name": "Kein Mandatsservice durch Bank",
+      "definition": "Die empfangende Bank bietet die angegebenen Mandatsservices nicht an"
+    },
+    "MD09": {
+      "name": "Kein Mandatsservice für Kunden",
+      "definition": "Das Konto ist für die angegebenen Mandatsservices nicht freigegeben"
+    },
+    "MD10": {
+      "name": "Kein Mandatsservice für Angegebene",
+      "definition": "Das Konto ist für die angegebenen Mandatsservices für diesen bestimmten Zahlungsempfänger nicht freigegeben"
+    },
+    "MD11": {
+      "name": "Unbekannte Bank",
+      "definition": "Die Bank, an die die Nachricht weitergeleitet werden muss, kann nicht ermittelt werden"
+    },
+    "MD12": {
+      "name": "Mandatsreferenz nicht eindeutig",
+      "definition": "Die Mandatsidentifikation ist für den Zahlungsempfänger nicht eindeutig"
+    },
+    "MD13": {
+      "name": "Falsche Kundenauthentifizierung",
+      "definition": "Es liegt ein Problem mit der Kundenauthentifizierung vor"
+    },
+    "MD14": {
+      "name": "Falsche Bank",
+      "definition": "Die Bank im Zahlungsablauf ist nicht korrekt"
+    },
+    "MD15": {
+      "name": "Falsche Währung",
+      "definition": "Die Währung der Transaktion ist falsch"
+    },
+    "MD16": {
+      "name": "Vom Kunden angefordert",
+      "definition": "Stornierung/Änderung vom Zahlungspflichtigen beantragt"
+    },
+    "MD17": {
+      "name": "Von initiierender Partei angefordert",
+      "definition": "Stornierung/Änderung vom Zahlungsempfänger beantragt"
+    },
+    "MD18": {
+      "name": "Von initiierender Partei und Kunde angefordert",
+      "definition": "Stornierung/Änderung vom Zahlungsempfänger und vom Zahlungspflichtigen beantragt"
+    },
+    "MD19": {
+      "name": "Mandat wegen vorzeitiger Abwicklung storniert",
+      "definition": "Mandatsstornierung nach vorzeitiger Erstattung der Belastung durch den Zahlungspflichtigen"
+    },
+    "MD20": {
+      "name": "Mandat abgelaufen",
+      "definition": "Mandatsstornierung nach Ablauf der Gültigkeit"
+    },
+    "MD21": {
+      "name": "Mandat wegen Betrugs storniert",
+      "definition": "Mandatsstornierung wegen Betrugsverdachts"
+    },
+    "MD22": {
+      "name": "Mandatsinitiierung storniert",
+      "definition": "Mandatsstornierung nach Stornierung der Mandatsinitiierung"
+    },
+    "MD23": {
+      "name": "Mandatsänderung storniert",
+      "definition": "Mandatsstornierung nach Stornierung der Mandatsänderung"
+    },
+    "MS02": {
+      "name": "Nicht spezifizierter, vom Kunden veranlasster Grund",
+      "definition": "Der Grund wurde vom Endkunden nicht angegeben"
+    },
+    "MS03": {
+      "name": "Nicht angegebener Grund (vom Agenten erzeugt)",
+      "definition": "Der Grund wurde von der Bank nicht angegeben."
+    },
+    "NARR": {
+      "name": "Freitext",
+      "definition": "Der Grund wird als Freitext in den zusätzlichen Grundinformationen angegeben."
+    },
+    "RC01": {
+      "name": "Bankkennung fehlerhaft",
+      "definition": "Der in der Nachricht angegebene Bank Identifier Code hat ein falsches Format (früher IncorrectFormatForRoutingCode)."
+    },
+    "RF01": {
+      "name": "Transaktionsreferenz nicht eindeutig",
+      "definition": "Die Transaktionsreferenz ist innerhalb der Nachricht nicht eindeutig."
+    },
+    "RR01": {
+      "name": "Konto oder Identifikation des Zahlungspflichtigen fehlt",
+      "definition": "Die aus aufsichtsrechtlichen Gründen erforderliche Angabe des Kontos oder der eindeutigen Identifikation des Zahlungspflichtigen ist unzureichend oder fehlt"
+    },
+    "RR02": {
+      "name": "Name oder Anschrift des Zahlungspflichtigen fehlt",
+      "definition": "Die aus aufsichtsrechtlichen Gründen erforderliche Angabe von Name und/oder Adresse des Zahlungspflichtigen ist unzureichend oder fehlt."
+    },
+    "RR03": {
+      "name": "Name oder Anschrift des Zahlungsempfängers fehlt",
+      "definition": "Die aus aufsichtsrechtlichen Gründen erforderliche Angabe von Name und/oder Adresse des Zahlungsempfängers ist unzureichend oder fehlt."
+    },
+    "RR04": {
+      "name": "Regulatorischer Grund",
+      "definition": "Aufsichtsrechtlicher Grund"
+    },
+    "SL01": {
+      "name": "Spezifischer Service der Bank des Zahlungspflichtigen",
+      "definition": "Aufgrund einer besonderen Dienstleistung der Bank des Zahlungspflichtigen"
+    },
+    "SL11": {
+      "name": "Zahlungsempfänger nicht auf der Whitelist des Zahlungspflichtigen",
+      "definition": "Whitelisting-Dienst der Bank des Zahlungspflichtigen; der Zahlungspflichtige hat den Zahlungsempfänger (noch) nicht in seine „Whitelist“ aufgenommen. In der Whitelist kann der Zahlungspflichtige alle Zahlungsempfänger aufführen, die das Konto des Zahlungspflichtigen belasten dürfen."
+    },
+    "SL12": {
+      "name": "Zahlungsempfänger auf der Blacklist des Zahlungspflichtigen",
+      "definition": "Blacklisting-Dienst der Bank des Zahlungspflichtigen; der Zahlungspflichtige hat den Zahlungsempfänger in seine „Blacklist“ aufgenommen. In der Blacklist kann der Zahlungspflichtige alle Zahlungsempfänger aufführen, die das Konto des Zahlungspflichtigen nicht belasten dürfen."
+    },
+    "SL13": {
+      "name": "Höchstzahl an Lastschrifttransaktionen überschritten",
+      "definition": "Aufgrund des von der Bank des Zahlungspflichtigen angebotenen Dienstes zur Begrenzung der maximal zulässigen Anzahl von Lastschrifttransaktionen pro Zeitraum."
+    },
+    "SL14": {
+      "name": "Höchstbetrag der Lastschrifttransaktion überschritten",
+      "definition": "Aufgrund des von der Bank des Zahlungspflichtigen angebotenen Dienstes zur Begrenzung des maximal zulässigen Lastschriftbetrags."
+    }
+  }
+}

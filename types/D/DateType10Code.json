@@ -1,0 +1,26 @@
+{
+  "isoType": "DateType10Code",
+  "definition": "Das Datum wird als fester Codewert angegeben.",
+  "isoCodes": {
+    "MEET": {
+      "name": "Sperrung bis zum Versammlungsdatum",
+      "definition": "Die Sperrung gilt bis einschließlich zum Versammlungsdatum."
+    },
+    "UKWN": {
+      "name": "Unbekannt",
+      "definition": "Das Datum ist dem Sender nicht bekannt oder wurde noch nicht festgelegt."
+    },
+    "NARR": {
+      "name": "Freitext zum Entsperrungsdatum",
+      "definition": "Das Datum, bis zu dem die Wertpapiere gesperrt sind, ist dem zusätzlichen Informationselement zu entnehmen."
+    },
+    "RDTE": {
+      "name": "Sperrung bis zum Stichtag",
+      "definition": "Die Sperrung gilt bis einschließlich zum Stichtag des Ereignisses."
+    },
+    "PPYD": {
+      "name": "Sperrung bis zum Prämienzahlungsdatum",
+      "definition": "Die Entsperrung erfolgt am Zahlungstag der Prämie."
+    }
+  }
+}

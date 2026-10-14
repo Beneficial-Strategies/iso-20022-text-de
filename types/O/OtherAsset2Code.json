@@ -1,0 +1,26 @@
+{
+  "isoType": "OtherAsset2Code",
+  "definition": "Gibt eine Art von Vermögenswert an.",
+  "isoCodes": {
+    "DIMA": {
+      "name": "Nach Ermessen",
+      "definition": "Der Vermögenswert ist ein Konto eines diskretionären Vermögensverwalters"
+    },
+    "EXIA": {
+      "name": "Externes Konto",
+      "definition": "Der Vermögenswert ist ein externes Anlagekonto."
+    },
+    "MOVE": {
+      "name": "Bewegliches Vermögen",
+      "definition": "Vermögen, das keine Immobilie ist. Auch bekannt als „bewegliche Sachen“."
+    },
+    "PROP": {
+      "name": "Immobilie",
+      "definition": "Vermögen, das eine Immobilie ist."
+    },
+    "TIPP": {
+      "name": "Treuhänder-Anlageplan",
+      "definition": "Der Vermögenswert ist ein Treuhänder-Anlageplan (TIP)."
+    }
+  }
+}

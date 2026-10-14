@@ -1,0 +1,21 @@
+{
+  "isoType": "FundConfirmedCashForecastReportV04",
+  "definition": "Anwendungsbereich|Ein Berichtsersteller, zum Beispiel eine Transferstelle, sendet die Nachricht FundConfirmedCashForecastReport an den Berichtsempfänger, zum Beispiel einen Anlageverwalter oder Preisermittlungsagenten, um die bestätigten Mittelzuflüsse und Mittelabflüsse einer oder mehrerer Anteilklassen eines Investmentfonds an einem oder mehreren Handelstagen zu melden.|Die Mittelbewegungen können sich zum Beispiel aus Rücknahmen, Zeichnungen, Umtauschtransaktionen oder der Wiederanlage von Dividenden ergeben.|Verwendung|Die Nachricht FundConfirmedCashForecastReport dient der Meldung endgültiger Mittelbewegungen, das heißt, sie wird nach dem Annahmeschluss und/oder der Preisbewertung des Fonds gesendet.|Diese Nachricht enthält bestätigte ein- und ausgehende Cashflows, das heißt, der Preis wurde angewendet. Ist der Preis noch nicht endgültig, muss die Nachricht FundEstimatedCashForecastReport verwendet werden.|Die Nachrichtenstruktur ermöglicht folgende Verwendungen:|- Angabe der Mittelzu- und -abflüsse für einen Fonds/Teilfonds (eine Sequenz FundOrSubFundDetails wird verwendet),|- Angabe der Mittelzu- und -abflüsse für einen Fonds/Teilfonds und eine oder mehrere Anteilklassen (eine Sequenz FundOrSubFundDetails und eine oder mehrere Sequenzen FundCashForecastDetails werden verwendet),|- Angabe der Mittelzu- und -abflüsse für eine oder mehrere Anteilklassen (eine oder mehrere Sequenzen FundCashForecastDetails werden verwendet).|- Angabe der Mittelzu- und -abflüsse für mehr als einen Fonds/Teilfonds und mehr als eine Anteilklasse (zwei oder mehr Sequenzen FundOrSubFundDetails und zwei oder mehr Sequenzen FundCashForecastDetails werden verwendet); dabei ist jedoch zu beachten, dass sich bei dieser Verwendung aus dem Nachrichteninhalt selbst nicht feststellen lässt, welche Anteilklasse zu welchem Fonds/Teilfonds gehört, was unerwünscht sein kann, und dass die Verwendung einer solchen Kombination bilateral vereinbart werden sollte.|Diese Nachricht ermöglicht es dem Berichtsersteller, Mittelbewegungen in einen Fonds oder aus einem Fonds zu melden, erlaubt dem Sender jedoch nicht, diese Bewegungen zu kategorisieren, zum Beispiel nach Land, oder Einzelheiten zu den zugrunde liegenden Aufträgen, Provisionen oder Gebühren anzugeben.|Möchte der Berichtsersteller detaillierte Informationen zu Mittelbewegungen liefern, muss die Nachricht FundDetailedConfirmedCashForecastReport verwendet werden.",
+  "isoRules": {
+    "PreviousTradeDateRule": {
+      "definition": "Wenn ein Vorkommen von FundCashForecastDetails vorhanden ist, ist kein Vorkommen von FundOrSubFundDetails/PreviousTradeDateTime zulässig."
+    },
+    "TradeDate1Rule": {
+      "definition": "Wenn ein Vorkommen von FundCashForecastDetails vorhanden ist, ist kein Vorkommen von FundOrSubFundDetails/TradeDateTime zulässig."
+    },
+    "TradeDate2Rule": {
+      "definition": "Wenn FundCashForecastDetails nicht vorhanden ist, muss mindestens ein Vorkommen von FundOrSubFundDetails/TradeDateTime vorhanden sein."
+    },
+    "ConsolidatedNetCashRule": {
+      "definition": "Wenn ConsolidatedNetCashForecast vorhanden ist, muss mindestens ein Vorkommen von FundOrSubFundDetails oder FundCashForecastDetails vorhanden sein. FundOrSubFundDetails und FundCashForecastDetails können beide vorhanden sein."
+    },
+    "FundOrSubFundAndShareClassGuideline": {
+      "definition": "Wird die Nachricht verwendet, um Mittelzu- und -abflüsse für mehr als einen Fonds/Teilfonds und mehr als eine Anteilklasse anzugeben (zwei oder mehr Sequenzen FundOrSubFundDetails und zwei oder mehr Sequenzen FundCashForecastDetails werden verwendet), lässt sich bei dieser Verwendung aus dem Nachrichteninhalt selbst nicht feststellen, welche Anteilklasse zu welchem Fonds/Teilfonds gehört, was unerwünscht sein kann; eine solche Verwendung sollte bilateral vereinbart werden."
+    }
+  }
+}

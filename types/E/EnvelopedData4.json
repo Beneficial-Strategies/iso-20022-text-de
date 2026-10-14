@@ -1,0 +1,15 @@
+{
+  "isoType": "EnvelopedData4",
+  "definition": "Verschlüsselte Daten mit Verschlüsselungsschlüssel.",
+  "isoElements": {
+    "Version": {
+      "definition": "Version der Datenstruktur."
+    },
+    "Recipient": {
+      "definition": "Sitzungsschlüssel oder Identifikation des vom Empfänger verwendeten Schutzschlüssels."
+    },
+    "EncryptedContent": {
+      "definition": "Datenschutz durch Verschlüsselung (digitaler Umschlag) mit einem Verschlüsselungsschlüssel."
+    }
+  }
+}

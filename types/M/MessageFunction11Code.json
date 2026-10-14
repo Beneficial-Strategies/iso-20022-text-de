@@ -1,0 +1,154 @@
+{
+  "isoType": "MessageFunction11Code",
+  "definition": "Bezeichnet die Art des Prozesses im Zusammenhang mit einer Nachricht des ATM.",
+  "isoCodes": {
+    "BALN": {
+      "name": "ATM-Saldo",
+      "definition": "Die Zählerstände des ATM bereitstellen und die dafür geeigneten Zähler zurücksetzen."
+    },
+    "CMPA": {
+      "name": "ATM-Abschlussbestätigung",
+      "definition": "Bestätigung einer Abschlussmeldung."
+    },
+    "CMPD": {
+      "name": "ATM-Abschlussavis",
+      "definition": "Meldung über den Abschluss einer Transaktion am ATM."
+    },
+    "ACMD": {
+      "name": "ATM-Steuerung",
+      "definition": "Globale Befehle des ATM."
+    },
+    "DVCC": {
+      "name": "ATM-Gerätesteuerung",
+      "definition": "Auszuführende Wartungsbefehle."
+    },
+    "DIAQ": {
+      "name": "ATM-Diagnoseanforderung",
+      "definition": "Anfrage für eine Diagnose."
+    },
+    "DIAP": {
+      "name": "ATM-Diagnoseantwort",
+      "definition": "Antwort auf eine Diagnoseanfrage."
+    },
+    "GSTS": {
+      "name": "ATM-Gesamtstatus",
+      "definition": "Gesamtstatus des ATM."
+    },
+    "INQQ": {
+      "name": "ATM-Abfrageanforderung",
+      "definition": "Anfrage für eine Auskunft."
+    },
+    "INQP": {
+      "name": "ATM-Abfrageantwort",
+      "definition": "Antwort auf eine Auskunftsanfrage."
+    },
+    "KYAQ": {
+      "name": "ATM-Schlüssel-Download-Anforderung",
+      "definition": "Anfrage für einen Schlüssel-Download."
+    },
+    "KYAP": {
+      "name": "ATM-Schlüssel-Download-Antwort",
+      "definition": "Antwort auf einen Schlüssel-Download."
+    },
+    "PINQ": {
+      "name": "ATM-PIN-Verwaltungsanforderung",
+      "definition": "Anfrage zur PIN-Verwaltung des Karteninhabers."
+    },
+    "PINP": {
+      "name": "ATM-PIN-Verwaltungsantwort",
+      "definition": "Antwort auf eine Anfrage zur PIN-Verwaltung des Karteninhabers."
+    },
+    "RJAQ": {
+      "name": "ATM-Anforderungsablehnung",
+      "definition": "Abgelehnte Anfragenachricht."
+    },
+    "RJAP": {
+      "name": "ATM-Antwortablehnung",
+      "definition": "Abgelehnte Antwortnachricht."
+    },
+    "WITV": {
+      "name": "ATM-Auszahlungsavis",
+      "definition": "Antwort einer Abhebungstransaktion."
+    },
+    "WITK": {
+      "name": "ATM-Auszahlungsbestätigung",
+      "definition": "Bestätigung einer Meldung zu einer Abhebungstransaktion."
+    },
+    "WITQ": {
+      "name": "ATM-Auszahlungsanforderung",
+      "definition": "Anfrage für eine Abhebungstransaktion."
+    },
+    "WITP": {
+      "name": "ATM-Auszahlungsantwort",
+      "definition": "Antwort auf eine Anfrage für eine Abhebungstransaktion."
+    },
+    "INQC": {
+      "name": "Zählerabfrage",
+      "definition": "Den Wert der Zähler des ATM anfordern."
+    },
+    "H2AP": {
+      "name": "Host-an-ATM-Bestätigung",
+      "definition": "Bestätigung einer Anfrage eines Hosts an einen ATM, Kontakt aufzunehmen."
+    },
+    "H2AQ": {
+      "name": "Host-an-ATM-Anforderung",
+      "definition": "Anfrage eines Hosts an einen ATM, von diesem ATM kontaktiert zu werden."
+    },
+    "TMOP": {
+      "name": "ATM-Vorgang",
+      "definition": "Logischer oder physischer Vorgang am ATM."
+    },
+    "CSEC": {
+      "name": "Sicherheitssteuerung",
+      "definition": "Sicherheitsbefehle."
+    },
+    "DSEC": {
+      "name": "Sicherheitsdetails",
+      "definition": "Detaillierter Sicherheitsbericht."
+    },
+    "SKSC": {
+      "name": "Sicherheitsschlüssel-Abschluss",
+      "definition": "Ergebnis des Schlüssel-Downloads mit dem Status der heruntergeladenen Schlüssel einschließlich der Schlüsselprüfwerte."
+    },
+    "SSTS": {
+      "name": "Sicherheitsschlüsselstatus",
+      "definition": "Status kryptografischer Schlüssel."
+    },
+    "DPSK": {
+      "name": "ATM-Einzahlungsabschlussbestätigung",
+      "definition": "Bestätigung einer Abschlussmeldung zu einer Einzahlung."
+    },
+    "DPSV": {
+      "name": "ATM-Einzahlungsabschlussavis",
+      "definition": "Meldung über den Abschluss einer Einzahlungstransaktion am ATM."
+    },
+    "DPSQ": {
+      "name": "ATM-Einzahlungsanforderung",
+      "definition": "Anfrage für eine Einzahlung."
+    },
+    "DPSP": {
+      "name": "ATM-Einzahlungsantwort",
+      "definition": "Antwort auf eine Einzahlungsanfrage."
+    },
+    "EXPK": {
+      "name": "ATM-Ausnahmebestätigung",
+      "definition": "Bestätigung einer Ausnahmemeldung."
+    },
+    "EXPV": {
+      "name": "ATM-Ausnahmeavis",
+      "definition": "Meldung über eine Ausnahme am ATM."
+    },
+    "TRFQ": {
+      "name": "ATM-Überweisungsanforderung",
+      "definition": "Anfrage für eine Geldüberweisung."
+    },
+    "TRFP": {
+      "name": "ATM-Überweisungsantwort",
+      "definition": "Antwort auf eine Anfrage für eine Geldüberweisung."
+    },
+    "RPTC": {
+      "name": "Zählerbericht",
+      "definition": "Den Wert der Zähler des ATM bereitstellen, ohne die Zähler neu zu initialisieren."
+    }
+  }
+}

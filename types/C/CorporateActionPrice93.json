@@ -1,0 +1,26 @@
+{
+  "isoType": "CorporateActionPrice93",
+  "definition": "Gibt verschiedene Preise einer Kapitalmaßnahme an.",
+  "isoElements": {
+    "CashInLieuOfSharePrice": {
+      "definition": "Barauszahlung anstelle von Aktien; üblicherweise anstelle einer Bruchteilsmenge."
+    },
+    "IndicativeOrMarketPrice": {
+      "definition": "Gibt an, ob der Preis ein indikativer Preis oder ein Marktpreis ist."
+    },
+    "CashValueForTax": {
+      "definition": "Barwert des resultierenden Wertpapiererlöses für die Steuerberechnung und/oder Meldung."
+    },
+    "GenericCashPricePaidPerProduct": {
+      "definition": "Allgemeiner Barpreis, den der Inhaber des zugrunde liegenden Wertpapiers je Produkt zahlt, entweder als Prozentsatz, als Betrag oder als Anzahl von Punkten über einem Index, zum Beispiel Wiederanlagepreis, Basispreis und Ausübungspreis."
+    },
+    "GenericCashPriceReceivedPerProduct": {
+      "definition": "Allgemeiner Barpreis, den der Inhaber des zugrunde liegenden Wertpapiers je Produkt erhält, entweder als Prozentsatz oder als Betrag, zum Beispiel Rückzahlungspreis."
+    }
+  },
+  "isoRules": {
+    "GenericCashPricePerProductGuideline": {
+      "definition": "GenericCashPriceReceivedPerProduct und GenericCashPricePaidPerProduct sind Preise, die im Verlauf eines Ereignisses erhalten oder gezahlt werden. Die konkrete Bedeutung (Rückzahlungspreis, Zeichnungspreis, Wiederanlagepreis usw.) ergibt sich aus der Ereignisart."
+    }
+  }
+}

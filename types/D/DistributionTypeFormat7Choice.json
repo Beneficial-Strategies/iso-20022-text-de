@@ -1,0 +1,12 @@
+{
+  "isoType": "DistributionTypeFormat7Choice",
+  "definition": "Auswahl zwischen einem Standardcode und einem proprietären Code zur Angabe der Art der Ausschüttung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode, der angibt, ob die Erlöse des Ereignisses fortlaufend statt an einem bestimmten Datum ausgeschüttet werden."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Art der Ausschüttung."
+    }
+  }
+}

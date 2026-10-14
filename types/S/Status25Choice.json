@@ -1,0 +1,12 @@
+{
+  "isoType": "Status25Choice",
+  "definition": "Auswahl der Formate für die Angabe des Status.",
+  "isoElements": {
+    "Status": {
+      "definition": "Statuscode."
+    },
+    "Rejected": {
+      "definition": "Der Status der Kontoverwaltungsanweisung ist abgelehnt."
+    }
+  }
+}

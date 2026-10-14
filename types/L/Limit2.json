@@ -1,0 +1,12 @@
+{
+  "isoType": "Limit2",
+  "definition": "Gibt den Mindestwert der Buchungen an, die in der angeforderten Nachricht zu melden sind.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Mindestbetrag der Transaktionen, die in der angeforderten Nachricht gemeldet werden sollen."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob die Freigrenze für Gutschriften, für Belastungen oder für Gutschriften und Belastungen gilt."
+    }
+  }
+}

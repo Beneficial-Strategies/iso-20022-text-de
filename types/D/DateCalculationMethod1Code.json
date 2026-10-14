@@ -1,0 +1,14 @@
+{
+  "isoType": "DateCalculationMethod1Code",
+  "definition": "Gibt die Berechnungsmethode an, anhand derer bestimmt wird, an welchen Daten die Aktien erworben wurden.",
+  "isoCodes": {
+    "FIFO": {
+      "name": "FIFO",
+      "definition": "First in, first out (zuerst eingegangen, zuerst ausgegeben)."
+    },
+    "LIFO": {
+      "name": "LIFO",
+      "definition": "Last in, first out (zuletzt eingegangen, zuerst ausgegeben)."
+    }
+  }
+}

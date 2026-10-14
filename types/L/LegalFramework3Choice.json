@@ -1,0 +1,12 @@
+{
+  "isoType": "LegalFramework3Choice",
+  "definition": "Auswahl des Formats für den rechtlichen Rahmen.",
+  "isoElements": {
+    "Code": {
+      "definition": "Rechtsrahmen, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Rechtsrahmen, ausgedrückt als proprietärer Code."
+    }
+  }
+}

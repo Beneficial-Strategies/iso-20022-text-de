@@ -1,0 +1,14 @@
+{
+  "isoType": "ProcessedStatus2Code",
+  "definition": "Gibt den Bearbeitungsstatus eines Stornierungsantrags an.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Empfangen",
+      "definition": "Die Anweisung/der Antrag ist eingegangen."
+    },
+    "COMP": {
+      "name": "Abgeschlossen",
+      "definition": "Der Antrag wurde abgeschlossen."
+    }
+  }
+}

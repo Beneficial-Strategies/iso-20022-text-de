@@ -1,0 +1,21 @@
+{
+  "isoType": "PercentageRange1Choice",
+  "definition": "Auswahl zwischen Bereichen, in denen ein Prozentsatz als gültig gilt, oder einem bestimmten Prozentsatz, der übereinstimmen oder nicht übereinstimmen muss, damit er gültig ist.",
+  "isoElements": {
+    "From": {
+      "definition": "Untere Grenze eines Bereichs von Prozentsätzen."
+    },
+    "To": {
+      "definition": "Obere Grenze eines Bereichs von Prozentsätzen."
+    },
+    "FromTo": {
+      "definition": "Bereich gültiger Prozentsätze."
+    },
+    "Equal": {
+      "definition": "Der genaue Prozentsatz muss übereinstimmen, damit er als gültig gilt."
+    },
+    "NotEqual": {
+      "definition": "Wert, mit dem der Prozentsatz nicht übereinstimmen darf, damit er als gültig gilt."
+    }
+  }
+}

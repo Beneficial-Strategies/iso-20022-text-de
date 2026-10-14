@@ -1,0 +1,12 @@
+{
+  "isoType": "UnitsOrAmount1Choice",
+  "definition": "Auswahl zwischen einem Betrag oder einer Anzahl von Einheiten.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Währung und Betrag der periodischen Zahlungen."
+    },
+    "Unit": {
+      "definition": "Anzahl der zu zeichnenden oder zurückzunehmenden Einheiten."
+    }
+  }
+}

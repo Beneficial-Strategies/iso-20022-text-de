@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionMandatoryVoluntary1FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe, ob das Ereignis obligatorisch, obligatorisch mit Optionen oder freiwillig ist.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode, der angibt, ob das Ereignis obligatorisch, obligatorisch mit Wahlmöglichkeiten oder freiwillig ist."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe, ob das Ereignis obligatorisch, obligatorisch mit Optionen oder freiwillig ist."
+    }
+  }
+}

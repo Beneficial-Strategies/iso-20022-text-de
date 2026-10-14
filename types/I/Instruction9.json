@@ -1,0 +1,38 @@
+{
+  "isoType": "Instruction9",
+  "definition": "Informationen zu einer Abstimmungsanweisung für eine Versammlung.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "definition": "Identifikation der einzelnen Anweisung."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Datum, an dem die Anweisung ausgeführt werden muss."
+    },
+    "VoteExecutionConfirmation": {
+      "definition": "Gibt an, dass eine Bestätigung der Stimmausführung angefordert wird."
+    },
+    "AccountDetails": {
+      "definition": "Identifikation des Wertpapierkontos."
+    },
+    "Proxy": {
+      "definition": "Identifikation der vom Wertpapierinhaber als Bevollmächtigter bestellten Person."
+    },
+    "VoteDetails": {
+      "definition": "Detaillierte Abstimmungsanweisungen."
+    },
+    "MeetingAttendee": {
+      "definition": "Identifikation des Wertpapierinhabers, der persönlich an der Versammlung teilnehmen und abstimmen wird, und/oder der vom Wertpapierinhaber beauftragten Person, die an der Versammlung ohne Stimmrecht und ohne Handlungsbefugnis teilnehmen wird."
+    },
+    "SpecificInstructionRequest": {
+      "definition": "Antrag auf Ausführung bestimmter Anweisungen, wie Teilnahmeregistrierung, Wertpapierregistrierung oder Sperrung von Wertpapieren."
+    },
+    "AdditionalDisclosureInformation": {
+      "definition": "Vom Emittenten verlangte Informationen, die als Teil einer eingereichten Anweisung offenzulegen sind und weder Angaben zum begünstigten Inhaber noch zum Abstimmungsteilnehmer noch zum vom Emittenten bestellten Bevollmächtigten noch zu den an der Versammlung teilnehmenden Personen (ohne Stimmrecht) sind."
+    }
+  },
+  "isoRules": {
+    "MeetingAttendeeRule": {
+      "definition": "Wenn mindestens ein Vorkommen von MeetingAttendee vorhanden ist, muss SpecificInstructionRequest/ParticipationMethod/Code PHYS (InPerson) sein."
+    }
+  }
+}

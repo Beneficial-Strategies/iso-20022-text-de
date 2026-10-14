@@ -1,0 +1,20 @@
+{
+  "isoType": "CorporateActionInstructionCancellationRequestV13",
+  "definition": "Anwendungsbereich|Die Nachricht CorporateActionInstructionCancellationRequest wird von einem Kontoinhaber an eine kontoführende Stelle gesendet, um die Stornierung einer zuvor gesendeten Wahlanweisung zu einer Kapitalmaßnahme zu beantragen.|Verwendung|Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist Duplicate),|- einem Dritten eine Kopie einer Nachricht zur Information bereitzustellen (die Unterfunktion der Nachricht ist Copy),|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu senden (die Unterfunktion der Nachricht ist Copy Duplicate), unter Verwendung der entsprechenden Elemente im Business Application Header (BAH).",
+  "isoElements": {
+    "ChangeInstructionIndicator": {
+      "definition": "Gibt an, dass die stornierte Anweisung durch eine neue, später zu sendende Anweisung zur Kapitalmaßnahme ersetzt wird."
+    }
+  },
+  "isoRules": {
+    "ChangeInstructionIndicatorGuideline": {
+      "definition": "ChangeInstructionIndicator darf nur verwendet werden, wenn CorporateActionOptionDetails/WithdrawalAllowedIndicator in der zuvor erhaltenen Nachricht CorporateActionNotification auf 'false' oder '0' (No) gesetzt war und wenn CorporateActionOptionDetails/ChangeAllowedIndicator in der zuvor erhaltenen Nachricht CorporateActionNotification auf 'true' oder '1' (Yes) gesetzt war."
+    },
+    "CorporateActionEventIdentificationRule": {
+      "definition": "Wenn die Nachricht CorporateActionInstruction unaufgefordert erfolgte (das heißt, dieser Anweisung ging keine CorporateActionNotification voraus), dann muss CorporateActionGeneralInformation/CorporateActionEventIdentification NONREF sein."
+    },
+    "BeneficialOwnerBreakdownRequestRule ": {
+      "definition": "Wenn der Wert von CorporateActionInstruction/OptionType/Code BOBD (BeneficialOwnerBreakdownRequest) ist, muss der Wert von CorporateActionGeneralInformation/EventType/Code WTRC (Withholding Tax Relief Certification) sein.|(MT565 NVR C8)"
+    }
+  }
+}

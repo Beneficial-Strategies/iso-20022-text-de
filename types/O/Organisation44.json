@@ -1,0 +1,17 @@
+{
+  "isoType": "Organisation44",
+  "definition": "Informationen zur Beschreibung der Organisation.",
+  "isoElements": {
+    "FullLegalName": {
+      "definition": "Name, unter dem eine Partei bekannt ist und der üblicherweise zur Identifikation dieser Partei verwendet wird."
+    },
+    "OrganisationIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Art der Identifikation einer Organisation."
+    }
+  },
+  "isoRules": {
+    "OrganisationIdentificationRule": {
+      "definition": "Bei einem Widerspruch zwischen der Organisationsidentifikation und dem vollständigen Rechtsnamen wird empfohlen, dass der Kontoführer mittels einer Nachricht AdditionalInformationRequest um Klärung bittet."
+    }
+  }
+}

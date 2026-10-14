@@ -1,0 +1,15 @@
+{
+  "isoType": "DateTimePeriod1Choice",
+  "definition": "Auswahl zwischen verschiedenen Datums-/Zeitmustern.",
+  "isoElements": {
+    "FromDateTime": {
+      "definition": "Datum und Uhrzeit des Beginns des Bereichs."
+    },
+    "ToDateTime": {
+      "definition": "Datum und Uhrzeit des Endes des Bereichs."
+    },
+    "DateTimeRange": {
+      "definition": "Zeitraum zwischen einem Anfangsdatum mit Uhrzeit und einem Enddatum mit Uhrzeit."
+    }
+  }
+}

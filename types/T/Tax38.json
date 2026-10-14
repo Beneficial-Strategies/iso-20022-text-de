@@ -1,0 +1,30 @@
+{
+  "isoType": "Tax38",
+  "definition": "Steuer im Zusammenhang mit einem Investmentfondsauftrag.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art der Steuer."
+    },
+    "Basis": {
+      "definition": "Grundlage zur Ermittlung des Kapitalgewinns oder -verlusts."
+    },
+    "Amount": {
+      "definition": "Geldbetrag, der sich aus der Steuerberechnung ergibt."
+    },
+    "Country": {
+      "definition": "Land, in dem die Steuer fällig ist."
+    },
+    "ExemptionIndicator": {
+      "definition": "Gibt an, ob eine Steuerbefreiung gilt."
+    },
+    "ExemptionReason": {
+      "definition": "Grund für die Steuerbefreiung."
+    },
+    "RecipientIdentification": {
+      "definition": "Partei, die die Steuer erhält. Der Empfänger der Steuer und die zum Bezug der Steuer berechtigte Partei können zwei verschiedene Parteien sein."
+    },
+    "TaxCalculationDetails": {
+      "definition": "Informationen zur Berechnung der Steuer."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMConfigurationControlComponent1",
+  "definition": "Informationen zur Steuerung einer Konfiguration auf einem ATM-Gerät.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Umfeld der Transaktion."
+    },
+    "ConfigurationVersion": {
+      "definition": "Die an das Terminal gesendete Konfigurationsversion."
+    },
+    "ActionRequired": {
+      "definition": "Die Aktion, die das Terminal beim Empfang dieser Konfigurationsaktualisierung ausführen muss. Sie ist eine der folgenden: APLY (Apply) Konfigurationsaktualisierung anwenden, oder NONE keine Konfiguration anzuwenden."
+    },
+    "Property": {
+      "definition": "Menge der Eigenschaften einer ATM-Konfiguration."
+    },
+    "ActivationDate": {
+      "definition": "Datum, an dem die gesamte Konfiguration zu aktivieren ist. Wird kein Aktivierungsdatum angegeben, muss die Aktivierung sofort erfolgen."
+    }
+  }
+}

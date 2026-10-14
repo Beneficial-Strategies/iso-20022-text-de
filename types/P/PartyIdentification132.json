@@ -1,0 +1,21 @@
+{
+  "isoType": "PartyIdentification132",
+  "definition": "Identifikation einer Partei.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Identifikation der Partei, ausgedrückt als BIC."
+    },
+    "ClearingSystemMemberIdentification": {
+      "definition": "Auswahl einer Kennung für ein Clearingsystem-Mitglied, wie vom Clearingsystem vergeben. In einigen Clearingsystemen wird auch den Konten der Clearingsystem-Mitglieder eine Kennung zugewiesen."
+    },
+    "NameAndAddress": {
+      "definition": "Name und Adresse der Partei."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Eindeutige und unmissverständliche Kennung, die der Partei anhand eines proprietären Identifikationsschemas zugewiesen wurde."
+    },
+    "LEI": {
+      "definition": "Identifikation einer juristischen Person als alternative Identifikation der Partei."
+    }
+  }
+}

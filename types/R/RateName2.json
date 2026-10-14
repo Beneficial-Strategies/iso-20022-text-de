@@ -1,0 +1,12 @@
+{
+  "isoType": "RateName2",
+  "definition": "Der Zinssatzname gibt den Referenzzinssatz oder Basiszinssatz an, auf dem ein variabler Zinssatz beruht (z. B. EONIA, EURIBOR, LIBOR, FEFUND, EURREPO).",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Stelle, die die Identifikation vergibt."
+    },
+    "RateName": {
+      "definition": "Der Zinssatzname gibt den Referenzzinssatz oder Basiszinssatz an, auf dem ein variabler Zinssatz beruht (z. B. EONIA, EURIBOR, LIBOR, FEFUND, EURREPO)."
+    }
+  }
+}

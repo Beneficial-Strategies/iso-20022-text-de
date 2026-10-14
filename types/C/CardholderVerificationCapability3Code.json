@@ -1,0 +1,38 @@
+{
+  "isoType": "CardholderVerificationCapability3Code",
+  "definition": "Am ATM verfügbare Fähigkeiten zur Kundenauthentifizierung.",
+  "isoCodes": {
+    "NPIN": {
+      "name": "Online-PIN",
+      "definition": "Online-PIN (Personal Identification Number)."
+    },
+    "FCPN": {
+      "name": "Offline-PIN im Klartext",
+      "definition": "Offline-PIN im Klartext (Personal Identification Number)."
+    },
+    "FEPN": {
+      "name": "Offline-PIN verschlüsselt",
+      "definition": "Offline-PIN verschlüsselt (Personal Identification Number)."
+    },
+    "FDSG": {
+      "name": "Offline-Digitalsignatur",
+      "definition": "Offline-Analyse der digitalen Signatur."
+    },
+    "FBIO": {
+      "name": "Offline-Biometrie",
+      "definition": "Offline-Biometrie."
+    },
+    "FBIG": {
+      "name": "Offline-Biografiedaten",
+      "definition": "Offline-Biografiedaten."
+    },
+    "PKIS": {
+      "name": "PKI-Signatur",
+      "definition": "Auf PKI (Public Key Infrastructure) basierende digitale Signatur."
+    },
+    "PCOD": {
+      "name": "Persönlicher Code",
+      "definition": "Persönlicher Code des Kunden für Bankdienstleistungen."
+    }
+  }
+}

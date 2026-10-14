@@ -1,0 +1,18 @@
+{
+  "isoType": "VoteMethods5",
+  "definition": "Angaben zu den zu verwendenden Abstimmungsmethoden.",
+  "isoElements": {
+    "VoteThroughNetwork": {
+      "definition": "Netzwerkadresse, über die eine abstimmende Partei ihre Stimme mittels einer strukturierten Nachricht abgeben kann."
+    },
+    "VoteByMail": {
+      "definition": "Adresse, an die der Stimmzettel gesendet werden kann."
+    },
+    "ElectronicVote": {
+      "definition": "Elektronische Adresse, E-Mail oder Website, über die ein Wertpapierinhaber abstimmen kann."
+    },
+    "VoteByTelephone": {
+      "definition": "Telefonnummer, die Zugang zu einem automatisierten Abstimmungssystem bietet."
+    }
+  }
+}

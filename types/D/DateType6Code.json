@@ -1,0 +1,18 @@
+{
+  "isoType": "DateType6Code",
+  "definition": "Gibt die Art der Daten an.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Offen",
+      "definition": "Mit offenem Datum, das heißt, das Datum wurde noch nicht festgelegt."
+    },
+    "UKWN": {
+      "name": "Unbekannt",
+      "definition": "Das Datum ist dem Sender nicht bekannt oder wurde noch nicht festgelegt."
+    },
+    "ONGO": {
+      "name": "Laufend",
+      "definition": "Laufende Basis, die angibt, dass das Datum nach dem Verfahren „laufende Basis“ bestimmt wird, zum Beispiel „au fil de l'eau“."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingStatementStatus1Code",
+  "definition": "Legt den Status der Abrechnung fest.",
+  "isoCodes": {
+    "ORGN": {
+      "name": "Original",
+      "definition": "Die Abrechnung ist die Originalabrechnung."
+    },
+    "RPLC": {
+      "name": "Ersetzen",
+      "definition": "Die Abrechnung ersetzt die Originalabrechnung."
+    },
+    "TEST": {
+      "name": "Test",
+      "definition": "Die Abrechnung ist eine Testabrechnung."
+    }
+  }
+}

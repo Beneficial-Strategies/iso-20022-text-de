@@ -1,0 +1,12 @@
+{
+  "isoType": "AlgorithmIdentification12",
+  "definition": "Kryptografischer Algorithmus und Parameter der Maskengenerierungsfunktion.",
+  "isoElements": {
+    "Algorithm": {
+      "definition": "Kryptografischer Algorithmus der Maskengenerierungsfunktion."
+    },
+    "Parameter": {
+      "definition": "Mit dem kryptografischen Algorithmus der Maskengenerierungsfunktion verbundene Parameter."
+    }
+  }
+}

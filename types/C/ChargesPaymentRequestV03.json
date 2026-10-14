@@ -1,0 +1,27 @@
+{
+  "isoType": "ChargesPaymentRequestV03",
+  "definition": "Die Nachricht ChargesPaymentRequest wird von einem Finanzinstitut an ein anderes Finanzinstitut gesendet, um die Zahlung von Entgelten, Zinsen und/oder sonstigen Auslagen anzufordern, die dem Empfänger zuvor nicht bekannt waren.",
+  "isoRules": {
+    "ChargesAccountAgentHeaderOrSingle1Rule": {
+      "definition": "Ist GroupHeader/ChargesAccountAgent vorhanden oder ist GroupHeader/ChargesAccountAgentAccount vorhanden, dürfen Charges/Single/ChargesAccountAgent und Charges/Single/ChargesAccountAgentAccount nicht vorhanden sein."
+    },
+    "ChargesAccountAgentHeaderOrSingle2Rule": {
+      "definition": "Ist Charges/Single/ChargesAccountAgent vorhanden oder ist Charges/Single/ChargesAccountAgentAccount vorhanden, dürfen GroupHeader/ChargesAccountAgent und GroupHeader/ChargesAccountAgentAccount nicht vorhanden sein."
+    },
+    "ChargesAccountAgentHeaderOrTransaction1Rule": {
+      "definition": "Ist GroupHeader/ChargesAccountAgent vorhanden oder ist GroupHeader/ChargesAccountAgentAccount vorhanden, dürfen Charges/PerTransaction/ChargesAccountAgent, Charges/PerTransaction/ChargesAccountAgentAccount, Charges/PerTransaction/Record/ChargesAccountAgent und Charges/PerTransaction/Record/ChargesAccountAgentAccount nicht vorhanden sein."
+    },
+    "ChargesAccountAgentHeaderOrTransaction2Rule": {
+      "definition": "Ist Charges/PerTransaction/ChargesAccount vorhanden oder ist Charges/PerTransaction/ChargesAccountOwner vorhanden oder ist Charges/PerTransaction/Record/ChargesAccount vorhanden oder Charges/PerTransaction/Record/ChargesAccountOwner, dürfen GroupHeader/ChargesAccountAgent und GroupHeader/ChargesAccountAgentAccount nicht vorhanden sein."
+    },
+    "ChargesAccountAgentHeaderOrType1Rule": {
+      "definition": "Ist GroupHeader/ChargesAccountAgent vorhanden oder ist GroupHeader/ChargesAccountAgentAccount vorhanden, dürfen Charges/PerType/ChargesAccountAgent, Charges/PerType/ChargesAccountAgentAccount, Charges/PerType/Record/ChargesAccountAgent und Charges/PerType/Record/ChargesAccountAgentAccount nicht vorhanden sein."
+    },
+    "ChargesAccountAgentHeaderOrType2Rule": {
+      "definition": "Ist Charges/PerType/ChargesAccountAgent vorhanden oder ist Charges/PerType/ChargesAccountAgentAccount vorhanden oder ist Charges/PerType/Record/ChargesAccountAgent vorhanden oder Charges/PerType/Record/ChargesAccountAgentAccount, dürfen GroupHeader/ChargesAccountAgent und GroupHeader/ChargesAccountAgentAccount nicht vorhanden sein."
+    },
+    "ChargesRequestorGroupHeaderRule": {
+      "definition": "Ist GroupHeader/ChargesRequestor vorhanden, dürfen Charges/Single/ChargesRequestor, Charges/PerTransaction/Record[*]/ChargesRequestor und Charges/PerType[*]/Record[*]/ChargesRequestor nicht vorhanden sein.||Alle dürfen fehlen."
+    }
+  }
+}

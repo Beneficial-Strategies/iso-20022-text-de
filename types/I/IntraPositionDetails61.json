@@ -1,0 +1,47 @@
+{
+  "isoType": "IntraPositionDetails61",
+  "definition": "Einzelheiten der Bewegung innerhalb der Position.",
+  "isoElements": {
+    "SettledQuantity": {
+      "definition": "Menge des tatsächlich abgewickelten Finanzinstruments."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "definition": "Nummer zur Identifikation eines Wertpapier-Unterbestandstyps, zum Beispiel Identifikation einer Beschränkung."
+    },
+    "CollateralMonitorAmount": {
+      "definition": "Wert der Sicherheit, die für den Lieferabwicklungsprozess auf Kontoebene verfügbar ist."
+    },
+    "PreviouslySettledQuantity": {
+      "definition": "Menge des zuvor abgewickelten Finanzinstruments."
+    },
+    "RemainingToBeSettledQuantity": {
+      "definition": "Menge des noch abzuwickelnden Finanzinstruments."
+    },
+    "SettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere bewegt wurden."
+    },
+    "AvailableDate": {
+      "definition": "Datum/Uhrzeit, zu der Wertpapiere zum Verkauf verfügbar werden (wenn Wertpapiere nicht mehr verfügbar sind, gibt dies Datum/Uhrzeit an, zu der sie wieder verfügbar werden)."
+    },
+    "CorporateActionEventType": {
+      "definition": "Gibt die Art des Unternehmensereignisses an."
+    },
+    "BalanceFrom": {
+      "definition": "Saldo, von dem die Wertpapiere bewegt werden."
+    },
+    "BalanceTo": {
+      "definition": "Saldo, auf den die Wertpapiere bewegt werden."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Liefert zusätzliche Informationen zur Abwicklungsverarbeitung, die nicht in den strukturierten Feldern der Nachricht angegeben werden können."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Sofern zwischen Sender und Empfänger nicht bilateral anders vereinbart, darf InstructionProcessingAdditionalDetails, wenn vorhanden, keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können."
+    },
+    "BalanceFromToRule": {
+      "definition": "BalanceFrom/Type muss sich von BalanceTo/Type unterscheiden."
+    }
+  }
+}

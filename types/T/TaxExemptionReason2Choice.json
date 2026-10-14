@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxExemptionReason2Choice",
+  "definition": "Auswahl von Formaten für die Angabe des Grundes der Steuerbefreiung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund der Steuerbefreiung, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Grund der Steuerbefreiung, ausgedrückt als proprietärer Code."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "isoType": "AmountPriceType2Code",
+  "definition": "Gibt die Art des Betragspreises an.",
+  "isoCodes": {
+    "ACTU": {
+      "name": "Tatsächlicher Betrag",
+      "definition": "Preis, ausgedrückt als Währung und Betrag je Einheit oder je Aktie."
+    }
+  }
+}

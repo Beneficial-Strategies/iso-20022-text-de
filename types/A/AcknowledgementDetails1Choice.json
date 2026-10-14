@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgementDetails1Choice",
+  "definition": "Referenz auf den PayInSchedule oder PayInCall, der bestätigt wird. Dies ist das Element Message Identification aus der Sequenz Report Data der Nachricht Pay In Schedule oder Pay In Call.",
+  "isoElements": {
+    "PayInScheduleReference": {
+      "definition": "Referenz auf den Einzahlungsplan, der bestätigt wird."
+    },
+    "PayInCallReference": {
+      "definition": "Referenz auf den Einzahlungsabruf, der bestätigt wird."
+    }
+  }
+}

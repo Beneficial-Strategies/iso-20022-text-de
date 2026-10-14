@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentificationAndName5",
+  "definition": "Identifikation des Kontos, ausgedrückt durch einen Namen und eine Kontonummer.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "Name": {
+      "definition": "Name des Kontos. Er dient als zusätzliches Identifikationsmittel und wird vom kontoführenden Institut in Absprache mit dem Kontoinhaber festgelegt."
+    }
+  }
+}

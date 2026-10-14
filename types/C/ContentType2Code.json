@@ -1,0 +1,26 @@
+{
+  "isoType": "ContentType2Code",
+  "definition": "Identifikation der Art einer Datenstruktur der Cryptographic Message Syntax (CMS).",
+  "isoCodes": {
+    "DATA": {
+      "name": "Klartextdaten",
+      "definition": "Allgemeiner, nicht kryptografischer oder nicht qualifizierter Dateninhalt - (ASN.1 Object Identifier: id-data)."
+    },
+    "SIGN": {
+      "name": "Signierte Daten",
+      "definition": "Digitale Signatur - (ASN.1 Object Identifier: id-signedData)."
+    },
+    "EVLP": {
+      "name": "Umhüllte Daten",
+      "definition": "Verschlüsselte Daten mit Verschlüsselungsschlüssel - (ASN.1 Object Identifier: id-envelopedData)."
+    },
+    "DGST": {
+      "name": "Hash-Daten",
+      "definition": "Nachrichten-Digest - (ASN.1 Object Identifier: id-digestedData)."
+    },
+    "AUTH": {
+      "name": "Authentisierte Daten",
+      "definition": "MAC (Nachrichtenauthentifizierungscode) mit Verschlüsselungsschlüssel - (ASN.1 Object Identifier: id-ct-authData)."
+    }
+  }
+}

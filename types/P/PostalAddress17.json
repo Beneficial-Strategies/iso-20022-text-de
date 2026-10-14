@@ -1,0 +1,30 @@
+{
+  "isoType": "PostalAddress17",
+  "definition": "Informationen zur Lokalisierung und Identifikation einer bestimmten Adresse, wie von den Postdiensten definiert oder als Freitext.",
+  "isoElements": {
+    "AddressLine": {
+      "definition": "Informationen zur Lokalisierung und Identifikation einer bestimmten Adresse, wie von den Postdiensten definiert, in Form von Freitext."
+    },
+    "StreetName": {
+      "definition": "Name einer Straße oder eines Verkehrswegs."
+    },
+    "BuildingNumber": {
+      "definition": "Nummer zur Identifikation der Position eines Gebäudes in einer Straße."
+    },
+    "PostCode": {
+      "definition": "Kennung aus einer Gruppe von Buchstaben und/oder Ziffern, die einer Postadresse hinzugefügt wird, um die Sortierung der Post zu unterstützen."
+    },
+    "TownName": {
+      "definition": "Name eines bebauten Gebiets mit festgelegten Grenzen und einer örtlichen Verwaltung."
+    },
+    "CountrySubDivision": {
+      "definition": "Bezeichnet eine Untergliederung eines Landes, zum Beispiel Bundesstaat, Region, Landkreis."
+    },
+    "Country": {
+      "definition": "Staat mit eigener Regierung, der ein bestimmtes Gebiet einnimmt."
+    },
+    "GeoLocation": {
+      "definition": "Geografischer Standort des ATM, angegeben durch geografische Koordinaten oder UTM-Koordinaten."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalPaymentControlRequestType1Code",
+  "definition": "Gibt den externen Anfragetyp-Code für einen Zahlungssteuerungsbefehl an, im Format einer Zeichenkette mit höchstens 4 Zeichen.|Die Liste der gültigen Codes ist ein externer Codesatz, der separat veröffentlicht wird.|Externe Codesätze können unter www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "RT01": {
+      "name": "Freigabe ausstehend",
+      "definition": "Der Typ ist eine Anforderung zur Freigabe der anstehenden Transaktionen."
+    },
+    "RT02": {
+      "name": "Normal zurückhalten",
+      "definition": "Der Typ ist eine Anforderung, normale Transaktionen anzuhalten."
+    },
+    "RT03": {
+      "name": "Stornierung",
+      "definition": "Der Typ ist eine Anforderung zur Stornierung einer Transaktion."
+    },
+    "RT04": {
+      "name": "Neu einreihen",
+      "definition": "Der Typ ist eine Anforderung zur Änderung der Reihenfolge der Transaktionen."
+    },
+    "RT05": {
+      "name": "Verdächtige freigeben",
+      "definition": "Der Typ ist eine Anforderung zur Freigabe der verdächtigen Transaktionen."
+    }
+  }
+}

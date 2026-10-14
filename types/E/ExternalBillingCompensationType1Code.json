@@ -1,0 +1,94 @@
+{
+  "isoType": "ExternalBillingCompensationType1Code",
+  "definition": "Gibt die Art der anzuwendenden Abrechnungskompensation an, wie in einer externen Codeliste für Abrechnungskompensationsarten veröffentlicht.|Externe Codelisten können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "BACS": {
+      "name": "Durch Saldo vergütbare Dienste",
+      "definition": "Gesamtbetrag der Dienstleistungsentgelte, die durch eine Ertragsgutschrift ausgeglichen werden können. Solche Dienstleistungen tragen den Payment-Method-Code „Balance Compensable“.  Dieser Betrag ist in SettleChargeTtl-Current Period (AFP-Code 00 03 00) enthalten. Dieser Wert muss gesendet werden, wenn die Bank eine Ertragsgutschrift auf Grundlage von Einlagensalden gewährt. AFP-Code=00 03 31"
+    },
+    "CTND": {
+      "name": "Netto fällige Entgelte und Steuern laut diesem Auszug",
+      "definition": "Der der Bank für den Abrechnungszeitraum geschuldete Betrag nach allen Anpassungen und Abzügen. Enthält sowohl Dienstleistungs- als auch Steuerentgelte. Ist nichts fällig, muss dieser Wert als null gesendet werden. AFP-Code=00 03 14"
+    },
+    "DEAD": {
+      "name": "Fällige Ertragsgutschrift bei Fehlbetrag laut diesem Auszug",
+      "definition": "Der der Bank geschuldete Betrag für saldenkompensierbare Dienstleistungsentgelte, die die Ertragsgutschrift für den Abrechnungszeitraum übersteigen. Dieser Betrag sollte dem Absolutwert von ExcessDeficitEarningsAllowance-Adjusted (AFP-Code 00 02 44) entsprechen. Dieser Wert muss gesendet werden, wenn die Bank eine Ertragsgutschrift auf Grundlage von Einlagensalden gewährt. AFP-Code=00 02 47"
+    },
+    "EALL": {
+      "name": "Ertragsgutschrift",
+      "definition": "Wert der während des Kontoauszugszeitraums unterhaltenen Salden, der zum Ausgleich saldenkompensierbarer Dienstleistungsentgelte verwendet werden kann. Dieser Wert muss gesendet werden, wenn die Bank eine Ertragsgutschrift auf Grundlage von Einlagensalden gewährt. AFP-Code=00 02 40"
+    },
+    "EANA": {
+      "name": "Netto-Anpassung der Ertragsgutschrift",
+      "definition": "Nettowert der Saldo- und/oder Zinssatzanpassungen für Vorperioden, der auf die aktuelle Überschuss-/(Defizit-)Gutschrift anzuwenden ist. AFP code=00 02 43"
+    },
+    "EDAA": {
+      "name": "Angepasste Über-/Unterdeckung der Ertragsgutschrift",
+      "definition": "Überschuss-/(Defizit-)Ertragsgutschrift für den Analysezeitraum zuzüglich oder abzüglich etwaiger Nettoertragsgutschriften und/oder Anpassungen der saldenkompensierbaren Servicegebühren. Beachten Sie, dass in Ermangelung eines EarningsAllowance-NetAdjust (AFP code 00 02 43) dieser Saldo anstelle des ExcessDeficitEarningsAllowance (AFP code 00 02 41) bevorzugt wird. Dieser Wert muss gesendet werden, wenn die Bank eine auf Einlagensalden basierende Ertragsgutschrift gewährt. AFP code=00 02 44"
+    },
+    "EDAL": {
+      "name": "Über-/Unterdeckung der Ertragsgutschrift",
+      "definition": "Die Differenz zwischen der Ertragsgutschrift und den saldenkompensierbaren Servicegebühren.  Eine Überschussgutschrift entsteht, wenn die Ertragsgutschrift die gesamten saldenkompensierbaren Servicegebühren übersteigt.  Eine Defizitgutschrift entsteht, wenn die gesamten saldenkompensierbaren Servicegebühren die Ertragsgutschrift übersteigen. Überschussgutschriften können nach Ermessen der Bank auf künftige Abrechnungszeiträume vorgetragen werden. Defizitgutschriften werden in der Regel als der Bank geschuldete Entgelte in Form von DeficitEarningsAllowanceDueThisStmt (AFP code 00 02 47) ausgewiesen. Dieser Wert muss gesendet werden, wenn die Bank eine auf Einlagensalden basierende Ertragsgutschrift gewährt. AFP code=00 02 41"
+    },
+    "FESS": {
+      "name": "Gezahlte Gebühren",
+      "definition": "Entgelte aus einem früheren Abrechnungszeitraum, die bezahlt wurden. AFP code=00 03 22"
+    },
+    "FREE": {
+      "name": "Kostenfreie Dienste",
+      "definition": "Gesamtbetrag der in den Service-Abschnitten aufgeführten Servicegebühren, die kostenfrei erbracht werden. Solche Services tragen einen Payment Method code \"FREE\" (Free). Dieser Betrag ist in SettleChargetTL-Current Period (AFP code 00 03 00) enthalten. Sollte gesendet werden, wenn in den Service-Abschnitten \"Free\"-Servicegebühren vorhanden sind. Es wird davon ausgegangen, dass \"waived\" und \"free\" Services nicht besteuert werden. AFP code=00 03 36"
+    },
+    "NBCS": {
+      "name": "Nicht durch Saldo vergütbare Dienste",
+      "definition": "Gesamtbetrag der zum Zeitpunkt dieser Abrechnung fälligen Servicegebühren, die nicht mit einer Ertragsgutschrift verrechnet werden können. Solche Services tragen einen Payment Method code \"FLAT\" (HardCharge).  Dieser Betrag ist in SettleChargeTtl-CurrentPeriod (AFP code 00 03 00 ) enthalten. AFP code=00 03 00"
+    },
+    "PVCS": {
+      "name": "Zuvor berechnete Dienstleistungen",
+      "definition": "Gesamtbetrag der in den Service-Abschnitten aufgeführten Servicegebühren, die jedoch bereits zuvor erhoben wurden und daher nicht fällig sind.  Solche Services tragen einen Payment Method code \"PVCH\" (PreviouslyCharged). Dieser Betrag ist in SettleChargetTL-CurrentPeriod (AFP code 00 03 00) enthalten. Sollte gesendet werden, wenn in den Service-Abschnitten \"Previously Charged\"-Services vorhanden sind. AFP code=00 03 35"
+    },
+    "SCAB": {
+      "name": "Nettoanpassung Dienstleistungsentgelte, saldenkompensierbar",
+      "definition": "Nettowert der Anpassungen der saldenkompensierbaren Servicegebühren für eine oder mehrere Vorperioden, der auf die aktuelle Überschuss-/(Defizit-)Gutschrift anzuwenden ist. AFP cod=00 03 32"
+    },
+    "SCAN": {
+      "name": "Nettoanpassung Dienstleistungsentgelte, nicht saldenkompensierbar",
+      "definition": "Summe aller Anpassungen der Servicegebühren, die nicht mit einer Ertragsgutschrift verrechnet werden können.  Dies kann eine positive oder negative Zahl sein. AFP code=00 03 33"
+    },
+    "SCBT": {
+      "name": "Fällige Dienstleistungsentgelte vor Steuern",
+      "definition": "Der Gesamtbetrag der fälligen Servicegebühren ohne fällige Steuern. AFP code=00 03 11"
+    },
+    "SCCP": {
+      "name": "Gesamtentgelt der Abrechnung im laufenden Zeitraum",
+      "definition": "Gesamtentgelte vor Gutschrift für im aktuellen Abrechnungszeitraum erbrachte Services. Diese Summe ist die arithmetische Summe aller Entgelte, die im Element Settlement Amount der Service-Abschnitte der Abrechnung aufgeführt sind, unabhängig vom Payment Method code. Sie umfasst alle Balance-Compensable-Entgelte, Hard-Entgelte, Previously-Charged-Entgelte, Waived-Entgelte und Free-Entgelte. Sie umfasst keine mit den Services verbundenen Steuern. AFP code=00 03 00"
+    },
+    "SCDB": {
+      "name": "Belastete Dienstleistungsentgelte",
+      "definition": "Betrag von ChargesAndTaxes-NetDueThisStmt (AFP code 00 03 14 ), der direkt vom Konto des Kunden belastet wird. AFP code=00 03 50"
+    },
+    "SCDI": {
+      "name": "Rabatt auf Dienstleistungsentgelte",
+      "definition": "Der Gesamtbetrag etwaiger Rabatte auf Servicegebühren. AFP code=00 03 41"
+    },
+    "SCIN": {
+      "name": "In Rechnung gestellte Dienstleistungsentgelte",
+      "definition": "Betrag von ChargesAndTaxes-NetDueThisStmt (AFP code 00 03 14 ), der in Rechnung gestellt wird. AFP code=00 03 A0"
+    },
+    "TICD": {
+      "name": "Gesamte gutgeschriebene Zinsen",
+      "definition": "Gesamtbetrag der Hard-Zinsen, die einem bestimmten Konto gutgeschrieben wurden. Der gegebenenfalls gutgeschriebene Betrag der Hard-Zinsen wird berechnet, indem der Zinssatz für Gutschriften (Interest Credited) auf einen negativen Saldo angewendet wird, der im Saldenabschnitt mit einer Saldenkennung (Balance Identifier) von ExcessDeficitCollectedBal (AFP code 00 04 12) ausgewiesen ist. AFP code=00 00 76"
+    },
+    "TXSC": {
+      "name": "Steuerpflichtige Dienstleistungsentgelte",
+      "definition": "Der Gesamtbetrag der Servicegebühren, die der Besteuerung unterlagen. AFP code=00 03 13"
+    },
+    "TXTS": {
+      "name": "Steuergesamtsumme",
+      "definition": "Die Summe aller einzelnen Steuerwerte, wie sie entweder in den einzelnen Service-Abschnitten oder in den Steuer-Abschnitten enthalten sind. AFP code=00 03 60"
+    },
+    "WAIV": {
+      "name": "Erlassene Dienstleistungen",
+      "definition": "Betrag der ansonsten fälligen Servicegebühren, auf die in dieser Abrechnung verzichtet wird. Solche Services tragen einen Payment Method code \"WVED\" (Waived). Beachten Sie, dass dieser Betrag keine kostenfreien Einzelpositionen (AFP code 00 03 36) enthält. Dieser Betrag ist in SettleChargetTL-Current Period (AFP code 00 03 00) enthalten. Solche Verzichte oder kostenfreien Services auf Positionsebene werden nicht in die Kompensationsberechnungen übernommen. Es wird davon ausgegangen, dass \"waived\" und \"free\" Services nicht besteuert werden. afp CODE=00 03 40"
+    }
+  }
+}

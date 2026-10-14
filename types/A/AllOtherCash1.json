@@ -1,0 +1,12 @@
+{
+  "isoType": "AllOtherCash1",
+  "definition": "Gibt an, ob alle verbleibenden, nicht zur Übertragung aufgeführten Vermögenswerte eines Portfolios liquidiert und als Barmittel übertragen werden sollen",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Gibt an, ob alle verbleibenden, nicht zur Übertragung aufgeführten Vermögenswerte eines Portfolios liquidiert und als Barmittel übertragen werden sollen."
+    },
+    "Currency": {
+      "definition": "Währung der Barmittel."
+    }
+  }
+}

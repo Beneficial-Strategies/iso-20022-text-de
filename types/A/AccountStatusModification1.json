@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountStatusModification1",
+  "definition": "Legt die Art der Änderung des Kontostatus fest.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Legt die Art der Änderung fest."
+    },
+    "Status": {
+      "definition": "Status des Kontos."
+    }
+  }
+}

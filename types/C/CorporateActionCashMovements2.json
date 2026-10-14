@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionCashMovements2",
+  "definition": "Liefert Informationen zur Geldbewegung, die sich aus der Wahlanweisung ergibt.",
+  "isoElements": {
+    "PostingIdentification": {
+      "definition": "Buchungsidentifikation der Geldbewegung."
+    },
+    "PostingDateTime": {
+      "definition": "Buchungsdatum der Geldbewegung."
+    },
+    "PostingAmount": {
+      "definition": "Betrag, der infolge der Geldbewegung gebucht wurde."
+    },
+    "AccountDetails": {
+      "definition": "Liefert Informationen zum Konto, das infolge der Bewegung belastet/gutgeschrieben wird."
+    }
+  }
+}

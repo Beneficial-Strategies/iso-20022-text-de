@@ -1,0 +1,30 @@
+{
+  "isoType": "InvestmentFundTransactionsByFund2",
+  "definition": "Investmentfondstransaktionen für ein bestimmtes Finanzinstrument.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation eines Wertpapiers anhand einer ISIN."
+    },
+    "Name": {
+      "definition": "Name des Finanzinstruments als Freitext."
+    },
+    "SupplementaryIdentification": {
+      "definition": "Zusätzliche Informationen zu einem Finanzinstrument, die zu dessen Identifikation beitragen."
+    },
+    "SecuritiesForm": {
+      "definition": "Form, d. h. Eigentumsart, des Wertpapiers, z. B. Namens- oder Inhaberpapier."
+    },
+    "ClassType": {
+      "definition": "Merkmale der von einem Fonds angebotenen Anteile. Ein Anteil kann zum Beispiel eine bestimmte Gebührenstruktur (z. B. Ausgabeaufschlag oder Rücknahmeabschlag), eine Ertragspolitik (z. B. Ausschüttung oder Thesaurierung) oder eine Bestandsprovisionspolitik (z. B. mit oder ohne) haben. Anteilsklassen werden üblicherweise mit einem einzelnen Zeichen bezeichnet, z. B. „Class A“, „Class 2“."
+    },
+    "DistributionPolicy": {
+      "definition": "Ertragspolitik einer Anteilsklasse, d. h. ob die Erträge ausgeschüttet oder im Fonds einbehalten werden."
+    },
+    "TransactionDetails": {
+      "definition": "Vorgang des Kaufs, Verkaufs, Umtauschs (Switch) oder der Übertragung von Fondsanteilen."
+    },
+    "BalanceByPage": {
+      "definition": "Saldo des Finanzinstruments für diese bestimmte Auszugsseite."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "isoType": "Payment2Code",
+  "definition": "Gibt an, ob die Barzahlung vor Eingang der Erlöse vom Emittenten erfolgt oder erfolgen wird, auf Grundlage einer mit dem Kontoführer getroffenen vertraglichen Vereinbarung, oder bei Eingang der Erlöse vom Emittenten.",
+  "isoCodes": {
+    "ACTU": {
+      "name": "Tatsächliche Zahlung",
+      "definition": "Die Barzahlung erfolgt oder wird bei Eingang der Erlöse vom Emittenten erfolgen."
+    }
+  }
+}

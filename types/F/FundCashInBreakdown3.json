@@ -1,0 +1,30 @@
+{
+  "isoType": "FundCashInBreakdown3",
+  "definition": "Aufschlüsselung der Mittelzuflüsse in einen Fonds aufgrund von Investmentfonds-Transaktionen, zum Beispiel Zeichnungen oder Umtausch-Zugänge.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Betrag des Mittelzuflusses, ausgedrückt als Geldbetrag."
+    },
+    "UnitsNumber": {
+      "definition": "Betrag des Mittelzuflusses, ausgedrückt als Anzahl von Anteilen."
+    },
+    "NewAmountIndicator": {
+      "definition": "Gibt an, ob der Cashflow eine Position ist, die im zuvor gesendeten Bericht nicht enthalten war, zum Beispiel weil sie kurz vor Annahmeschluss eingegangen ist."
+    },
+    "InvestmentFundTransactionInType": {
+      "definition": "Art der Transaktion, die zum Mittelzufluss geführt hat, zum Beispiel Zeichnung, Umtausch-Zugang."
+    },
+    "OriginalOrderQuantityType": {
+      "definition": "Gibt an, wie der ursprüngliche Auftrag, der zum Mittelzufluss geführt hat, ausgedrückt wurde, das heißt in Geld oder in Anteilen."
+    },
+    "ChargeDetails": {
+      "definition": "Gebühr für die Erteilung eines Auftrags."
+    },
+    "CommissionDetails": {
+      "definition": "Angaben zur auf einen Auftrag angewendeten Provision, zum Beispiel Rücknahme- oder Ausgabeprovision."
+    },
+    "SettlementCurrency": {
+      "definition": "Abwicklungswährung der Transaktion."
+    }
+  }
+}

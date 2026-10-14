@@ -1,0 +1,78 @@
+{
+  "isoType": "PendingReason38Code",
+  "definition": "Gibt den Grund an, warum die Anweisung den Status „ausstehend“ hat.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Anweisung wurde nach Ablauf der Frist des Kontoführers empfangen. Sie wird gemäß der bilateralen Dienstleistungsvereinbarung zwischen Kontoführer und Kontoinhaber behandelt."
+    },
+    "BSTR": {
+      "name": "Vor dem Anweisungszeitraum",
+      "definition": "Die Anweisung wurde vor dem Anweisungsbeginn-Datum eingereicht."
+    },
+    "DQCS": {
+      "name": "Uneinigkeit über den Barbetrag",
+      "definition": "Nicht erkannter oder ungültiger angewiesener Barbetrag."
+    },
+    "NTAX": {
+      "name": "Uneinheitlicher Steuersatz",
+      "definition": "Der Steuersatz stimmt nicht mit den vorliegenden Unterlagen überein."
+    },
+    "ITAX": {
+      "name": "Falscher Steuersatz",
+      "definition": "Der angegebene Steuersatz ist falsch. Er liegt außerhalb der zulässigen Werte für das jeweilige Anlageland."
+    },
+    "IPED": {
+      "name": "Anweisung vor dem Anspruchsdatum",
+      "definition": "Die Anweisung wurde vor dem Anspruchsdatum empfangen."
+    },
+    "MONY": {
+      "name": "Unzureichendes Geld",
+      "definition": "Unzureichende Geldmittel auf Ihrem Konto."
+    },
+    "IPAW": {
+      "name": "Ungültige Unterlagen",
+      "definition": "Erforderliche Unterlagen sind ungültig, unvollständig oder fehlen."
+    },
+    "LACK": {
+      "name": "Mangel an Wertpapieren",
+      "definition": "Auf Ihrem Konto sind nicht genügend Finanzinstrumente vorhanden."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Die Anweisung ist nach der Marktfrist eingegangen."
+    },
+    "MCER": {
+      "name": "Fehlende Bescheinigung",
+      "definition": "Warten auf den Eingang einer angemessenen Bescheinigung."
+    },
+    "MTAX": {
+      "name": "Fehlender Steuersatz",
+      "definition": "Der Steuersatz fehlt."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "FULL": {
+      "name": "Angaben zum wirtschaftlich Berechtigten ausstehend",
+      "definition": "Der Erhalt der Angaben zum wirtschaftlich Berechtigten steht aus."
+    },
+    "PENR": {
+      "name": "Ausstehender Empfang",
+      "definition": "Die Anweisung wartet auf den Eingang von Wertpapieren, zum Beispiel aus einem Kauf oder einem Darlehen."
+    },
+    "DQUA": {
+      "name": "Mengenabweichung",
+      "definition": "Die Menge der Finanzinstrumente stimmt nicht überein."
+    },
+    "SNAV": {
+      "name": "System nicht verfügbar",
+      "definition": "Das System ist nicht verfügbar. Die Anweisung wird außerhalb der Geschäftszeiten gesendet."
+    },
+    "CERT": {
+      "name": "Falsche Zertifikatsnummern",
+      "definition": "Fehler bei der Zertifikatsnummer."
+    }
+  }
+}

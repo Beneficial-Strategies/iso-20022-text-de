@@ -1,0 +1,38 @@
+{
+  "isoType": "IntraBalanceReport5",
+  "definition": "Merkmale des Berichts.",
+  "isoElements": {
+    "ReportNumber": {
+      "definition": "Fortlaufende Nummer des Berichts."
+    },
+    "QueryReference": {
+      "definition": "Identifikation der Abfragenachricht, mit der dieser Auszug angefordert wurde."
+    },
+    "ReportIdentification": {
+      "definition": "Allen Seiten eines Auszugs gemeinsame Referenz."
+    },
+    "ReportDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen der Bericht erstellt wurde."
+    },
+    "ReportPeriod": {
+      "definition": "Zeitraum des Auszugs."
+    },
+    "QueryType": {
+      "definition": "Legt den Abfragetyp fest."
+    },
+    "Frequency": {
+      "definition": "Häufigkeit des Auszugs."
+    },
+    "UpdateType": {
+      "definition": "Gibt an, ob der Auszug vollständig ist oder nur Änderungen enthält."
+    },
+    "ActivityIndicator": {
+      "definition": "Gibt an, ob im Auszug Aktivität oder eine Informationsaktualisierung gemeldet wird."
+    }
+  },
+  "isoRules": {
+    "ReportNumberRule": {
+      "definition": "Wird die lange Nummer (Exact5NumericTest) verwendet, muss es sich bei dem Bericht um einen Deltabericht handeln (UpdateType: DELT).|Hat der Bericht mehrere Seiten, muss die ReportNumber auf allen Seiten gleich bleiben. Sie ist eine für den Bericht eindeutige Nummer.|Zwei Berichte desselben Typs, die nacheinander an denselben Empfänger in Bezug auf dasselbe Verwahrkonto gesendet werden, müssen unterschiedliche ReportNumbers haben. Beispielsweise hätte ein Tagesbericht an Tag 1 die ReportNumber 001, an Tag 2 die 002 usw."
+    }
+  }
+}

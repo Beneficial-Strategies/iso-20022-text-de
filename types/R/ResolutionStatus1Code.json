@@ -1,0 +1,14 @@
+{
+  "isoType": "ResolutionStatus1Code",
+  "definition": "Gibt an, ob ein Beschluss auf der Tagesordnung noch aktiv ist oder gestrichen wurde.",
+  "isoCodes": {
+    "ACTV": {
+      "name": "Aktiv",
+      "definition": "Über den Versammlungsbeschluss müssen die Teilnehmer an einer Hauptversammlung abstimmen."
+    },
+    "WDRA": {
+      "name": "Zurückgezogen",
+      "definition": "Der Versammlungsbeschluss wurde zurückgezogen."
+    }
+  }
+}

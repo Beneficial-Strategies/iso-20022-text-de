@@ -1,0 +1,22 @@
+{
+  "isoType": "AdditionalBusinessProcess8Code",
+  "definition": "Gibt den zusätzlichen Geschäftsprozess im Zusammenhang mit einem Ereignis der Kapitalmaßnahme an, wie zum Beispiel einen automatischen Marktanspruch.",
+  "isoCodes": {
+    "CONS": {
+      "name": "Zustimmung",
+      "definition": "Bezieht sich auf eine Zustimmung innerhalb eines Kapitalmaßnahmen-Ereignisses, das kein Zustimmungsereignis (Consent) ist (: 22F:: CAEV//CONS)."
+    },
+    "FPRE": {
+      "name": "Vollständige Vorfinanzierung",
+      "definition": "Vollständige Vorfinanzierung eines Schuldinstruments durch den Emittenten vor der ursprünglichen Fälligkeit, wobei der Emittent Vermögenswerte treuhänderisch hinterlegt. Nur im Rahmen eines Kapitalmaßnahmen-Ereignisses mit teilweiser Defeasance anwendbar."
+    },
+    "PPUT": {
+      "name": "Teilweise verpflichtende Rückgaberückzahlung",
+      "definition": "Teilweiser obligatorischer Umtausch eines Teils von Anleihen, bei dem die umgetauschten Wertpapiere in der Regel erneut vermarktet werden. Der Emittent kann den Inhabern das Recht anbieten, ihre Wertpapiere zu behalten, anstatt sie umzutauschen. Die Berechtigung für das Ereignis wird per Los bestimmt."
+    },
+    "PPRE": {
+      "name": "Teilweise Vorfinanzierung",
+      "definition": "Teilweises Prefunding einer Schuldverschreibung vor Fälligkeit, ausgelost im Losverfahren. Ein neues Wertpapier wird mit einem früheren Fälligkeitsdatum für den refinanzierten (gekündigten) Teil begeben, und das andere neue Wertpapier wird mit dem ursprünglichen Fälligkeitsdatum für den nicht refinanzierten (verbleibenden) Teil begeben. Nur im Rahmen eines Kapitalmaßnahmen-Ereignisses der teilweisen Defeasance anwendbar."
+    }
+  }
+}

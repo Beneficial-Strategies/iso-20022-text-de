@@ -1,0 +1,12 @@
+{
+  "isoType": "SystemPartyIdentification8",
+  "definition": "Eindeutige Identifikation einer Partei innerhalb eines Systems.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation der Partei innerhalb des Systems."
+    },
+    "ResponsiblePartyIdentification": {
+      "definition": "Eindeutige Identifikation der Partei, die für die Pflege der Stammdaten der Partei verantwortlich ist."
+    }
+  }
+}

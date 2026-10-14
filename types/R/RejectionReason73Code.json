@@ -1,0 +1,146 @@
+{
+  "isoType": "RejectionReason73Code",
+  "definition": "Gibt den Grund an, weshalb die Abwicklungsanweisung den Status abgelehnt hat.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Ablehnung des Verwahrkontos",
+      "definition": "Nicht erkanntes oder ungültiges Verwahrkonto des Nachrichtensenders."
+    },
+    "DQUA": {
+      "name": "Ablehnung wegen Menge",
+      "definition": "Ungültige oder nicht erkannte angewiesene Menge."
+    },
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Transaktion bzw. Anweisung ging nach Ablauf der vom kontoführenden Institut festgelegten Frist ein."
+    },
+    "DSEC": {
+      "name": "Ungültiges Wertpapier",
+      "definition": "Ungültige oder nicht erkannte Identifikation des Finanzinstruments."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "CASH": {
+      "name": "Geldkonto",
+      "definition": "Nicht erkanntes oder ungültiges Geldkonto."
+    },
+    "DDEA": {
+      "name": "Geschäftspreis",
+      "definition": "Nicht erkannter oder ungültiger Geschäftspreis."
+    },
+    "DTRD": {
+      "name": "Handelstag",
+      "definition": "Unbekanntes oder ungültiges Handelsdatum oder gewünschtes Handelsdatum oder zukünftiges Handelsdatum."
+    },
+    "PLCE": {
+      "name": "Handelsplatz",
+      "definition": "Nicht erkannter oder ungültiger Handelsplatz."
+    },
+    "RTGS": {
+      "name": "Verwendung des angewiesenen RTGS-Systems nicht möglich",
+      "definition": "Das angewiesene RTGS-System kann nicht verwendet werden (NRTG oder YRTG)."
+    },
+    "NCRR": {
+      "name": "Ablehnung wegen Abwicklungsbetragswährung",
+      "definition": "Ungültige oder nicht erkannte Währung des Abwicklungsbetrags."
+    },
+    "PHYS": {
+      "name": "Physische Abwicklung nicht möglich",
+      "definition": "Physische Abwicklung ist für das angewiesene Finanzinstrument nicht möglich."
+    },
+    "REFE": {
+      "name": "Ablehnung wegen Referenz",
+      "definition": "Die Anweisung hat eine Referenz, die mit einer anderen zuvor eingegangenen Anweisung identisch ist."
+    },
+    "DMON": {
+      "name": "Ablehnung wegen Abwicklungsbetrag",
+      "definition": "Ungültiger oder nicht erkannter Abwicklungsbetrag."
+    },
+    "MINO": {
+      "name": "Mindestabwicklungsmenge",
+      "definition": "Die angewiesene Menge liegt unter der für das Finanzinstrument bestehenden Mindestabwicklungsmenge."
+    },
+    "BATC": {
+      "name": "Ablehnung des Verarbeitungsstapels",
+      "definition": "Nicht erkannter oder ungültiger Verarbeitungsstapel, das heißt, Tages-/Echtzeitverarbeitung, obwohl die Abwicklung nur im Übernacht-Stapel möglich ist."
+    },
+    "MUNO": {
+      "name": "Mehrfache Abwicklungsmenge",
+      "definition": "Die angewiesene Menge ist kein Vielfaches einer für das Finanzinstrument bestehenden Abwicklungslosgröße."
+    },
+    "TXST": {
+      "name": "Ablehnung wegen Steuerstatus",
+      "definition": "Nicht erkannter oder ungültiger steuerlicher Status der angewiesenen Wertpapiere."
+    },
+    "SETS": {
+      "name": "Ablehnung wegen Abwicklungssystemmethode",
+      "definition": "Nicht erkanntes oder ungültiges angewiesenes Abwicklungssystem bzw. -methode."
+    },
+    "IIND": {
+      "name": "Ablehnung wegen gemeinsamer Referenz",
+      "definition": "Nicht erkannte, ungültige oder fehlende gemeinsame Referenz."
+    },
+    "CAEV": {
+      "name": "Ablehnung wegen Kapitalmaßnahme",
+      "definition": "Für das angewiesene Finanzinstrument steht eine Kapitalmaßnahme aus."
+    },
+    "CASY": {
+      "name": "Unmögliches Barabwicklungssystem",
+      "definition": "Unmögliche Dauerauftragsvereinbarungen überschreiben die Anweisung für das Barabwicklungssystem."
+    },
+    "DDAT": {
+      "name": "Ablehnung wegen Abwicklungsdatum",
+      "definition": "Ungültiger oder nicht erkannter Abwicklungstag."
+    },
+    "SETR": {
+      "name": "Ablehnung der Abwicklungstransaktion",
+      "definition": "Nicht erkannte oder ungültige Art der Abwicklungstransaktion."
+    },
+    "SDUT": {
+      "name": "Fehlende Stempelsteuer",
+      "definition": "Erforderliche Angaben zur Stempelsteuer fehlen."
+    },
+    "INPS": {
+      "name": "Verwahrort",
+      "definition": "Unbekannter, ungültiger oder fehlender Verwahrort."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "ICUS": {
+      "name": "Empfangende/liefernde Partei 2",
+      "definition": "Unbekannter oder ungültiger Kunde der liefernden oder empfangenden Partei 1."
+    },
+    "ICAG": {
+      "name": "Empfangende/liefernde Partei 1",
+      "definition": "Unbekannter oder ungültiger Teilnehmer der liefernden oder empfangenden Verwahrstelle."
+    },
+    "DEPT": {
+      "name": "Empfangende/liefernde Verwahrstelle",
+      "definition": "Unbekannte oder ungültige Verwahrstelle."
+    },
+    "IEXE": {
+      "name": "Empfangende/liefernde Partei 3",
+      "definition": "Unbekannter oder ungültiger Kunde der liefernden oder empfangenden Partei 2."
+    },
+    "INVB": {
+      "name": "Ungültiger Saldo",
+      "definition": "Die Anweisung zielt auf die Verwendung eines ungültigen Bestands ab."
+    },
+    "INVL": {
+      "name": "Ungültige Verknüpfung",
+      "definition": "Ungültige oder nicht erkannte Verknüpfung."
+    },
+    "INVN": {
+      "name": "Ungültige Losnummer",
+      "definition": "Ungültige oder nicht erkannte Losnummer."
+    },
+    "VALR": {
+      "name": "Ungültige Regel",
+      "definition": "Ablehnung aufgrund einer Validierungsregel des kontoführenden Instituts."
+    }
+  }
+}

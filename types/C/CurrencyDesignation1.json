@@ -1,0 +1,15 @@
+{
+  "isoType": "CurrencyDesignation1",
+  "definition": "Informationen zur Bezeichnung einer Währung.",
+  "isoElements": {
+    "CurrencyDesignation": {
+      "definition": "Gibt an, ob die Währung offshore oder onshore abgewickelt wird."
+    },
+    "Location": {
+      "definition": "Offshore-Standort der Währung."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zur Offshore-Währung."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "BusinessDaySearchCriteria2",
+  "definition": "Definiert die Kriterien für die Suche nach Informationen zum Geschäftstag des Systems.",
+  "isoElements": {
+    "SystemDate": {
+      "definition": "Datum, für das die Verfügbarkeitsinformationen bereitgestellt werden."
+    },
+    "SystemIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Systems, wie vom Systemadministrator vergeben."
+    },
+    "SystemCurrency": {
+      "definition": "Währung, die vom System verarbeitet werden kann. Ein System kann Transaktionen in einer einzigen Währung oder in mehreren Währungen verarbeiten."
+    },
+    "EventType": {
+      "definition": "Art des aufgetretenen Ereignisses."
+    },
+    "ClosurePeriod": {
+      "definition": "Zeitraum, in dem das System geschlossen ist bzw. nicht in Betrieb ist."
+    }
+  }
+}

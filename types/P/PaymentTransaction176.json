@@ -1,0 +1,39 @@
+{
+  "isoType": "PaymentTransaction176",
+  "definition": "Enthält Referenz- und Statusangaben zu den ursprünglichen Transaktionen der ursprünglichen Anweisung, auf die sich die Stornierungsnachricht bezieht.",
+  "isoElements": {
+    "CancellationIdentification": {
+      "definition": "Eindeutige Identifikation, vergeben vom Beauftragenden (Assigner), zur zweifelsfreien Identifikation einer Stornierungsanforderung.||Verwendung: Die Identifikation der Stornierungsanforderung kann für den Abgleich oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Stornierungsanforderung verwendet werden."
+    },
+    "Case": {
+      "definition": "Satz von Elementen zur eindeutigen Identifikation einer Ausnahme oder eines Untersuchungsablaufs."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Eindeutige Identifikation, von der ursprünglichen anweisenden Partei für die ursprünglich angewiesene Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Anweisung."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Eindeutige Identifikation, von der ursprünglichen initiierenden Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Transaktion."
+    },
+    "OriginalUETR": {
+      "definition": "Universell eindeutiger Identifikator als Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "OriginalInstructedAmount": {
+      "definition": "Betrag, wie in der ursprünglichen Transaktion angegeben, der vor Abzug der Entgelte zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, ausgedrückt in der Währung, wie von der ursprünglichen initiierenden Partei beauftragt.||Verwendung: Dieser Betrag muss unverändert durch die Transaktionskette weitergegeben werden."
+    },
+    "OriginalRequestedExecutionDate": {
+      "definition": "Datum, an dem die initiierende Partei die Clearing-Bank ursprünglich um Verarbeitung der Zahlung gebeten hat."
+    },
+    "OriginalRequestedCollectionDate": {
+      "definition": "Datum, an dem der Zahlungsempfänger ursprünglich den Einzug des Geldbetrags vom Zahlungspflichtigen beauftragt hat."
+    },
+    "CancellationReasonInformation": {
+      "definition": "Enthält detaillierte Informationen zum Stornierungsgrund."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Schlüsselelemente zur Identifikation der ursprünglichen Transaktion, auf die verwiesen wird."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  }
+}

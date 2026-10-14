@@ -1,0 +1,12 @@
+{
+  "isoType": "UpdatedAdditionalInformation24",
+  "definition": "Zusätzliche Informationen mit Aktualisierungsbeschreibung und Datum.",
+  "isoElements": {
+    "Language": {
+      "definition": "Sprache, in der die zusätzlichen Informationen bereitgestellt werden, unter Verwendung des Sprachcode-Standards ISO 639-1."
+    },
+    "AdditionalInformation": {
+      "definition": "Liefert zusätzliche Textinformationen."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxCalculationInformation11",
+  "definition": "Informationen zur Berechnung einer Steuer.",
+  "isoElements": {
+    "Basis": {
+      "definition": "Grundlage zur Ermittlung des Kapitalgewinns oder -verlusts."
+    },
+    "TaxableAmount": {
+      "definition": "Geldbetrag, auf den die Steuer erhoben wird."
+    }
+  }
+}

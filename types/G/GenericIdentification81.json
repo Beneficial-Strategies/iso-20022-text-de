@@ -1,0 +1,12 @@
+{
+  "isoType": "GenericIdentification81",
+  "definition": "Informationen zur Identifikation einer Partei.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation einer Partei, wie eine Steuer- oder Sozialversicherungskennung."
+    },
+    "IdentificationType": {
+      "definition": "Art der Identifikation."
+    }
+  }
+}

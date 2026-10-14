@@ -1,0 +1,27 @@
+{
+  "isoType": "ConfirmationPartyDetails14",
+  "definition": "Parteien, die als handelnde Parteien verwendet werden und entweder für die gesamte Nachricht oder für einzelne Seiten gelten.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige und zweifelsfreie Kennung einer Organisation, die von einem Institut vergeben wird, z. B. die Dun-&-Bradstreet-Identifikation."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "CashDetails": {
+      "definition": "Geschäftsbeziehung zwischen zwei Einheiten; eine Einheit ist der Kontoinhaber, die andere Einheit ist der Kontoführer."
+    },
+    "AlternateIdentification": {
+      "definition": "Alternative Identifikation einer Partei."
+    },
+    "ProcessingIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion für die identifizierte Partei."
+    },
+    "AdditionalInformation": {
+      "definition": "Liefert zusätzliche Informationen zu einer Identifikation einer Partei."
+    },
+    "PartyCapacity": {
+      "definition": "Eigenschaft des Kunden, der den Auftrag erteilt. Wird vorrangig von Terminbörsen verwendet, um den CTI-Code (Customer Type Indicator) anzugeben, wie von der US CFTC (Commodity Futures Trading Commission) vorgeschrieben."
+    }
+  }
+}

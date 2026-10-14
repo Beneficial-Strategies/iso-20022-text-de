@@ -1,0 +1,12 @@
+{
+  "isoType": "MatchingDenied3Choice",
+  "definition": "Gibt die beantragte Änderung der Abgleichsverarbeitung an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt die Durchführung eines Abgleichsverweigerungsprozesses an."
+    },
+    "Proprietary": {
+      "definition": "Gibt die Durchführung eines Abgleichsverweigerungsprozesses an."
+    }
+  }
+}

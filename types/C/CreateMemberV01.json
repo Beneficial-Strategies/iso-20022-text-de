@@ -1,0 +1,4 @@
+{
+  "isoType": "CreateMemberV01",
+  "definition": "Anwendungsbereich|Die Nachricht ModifyMember wird von einem Teilnehmer an den Transaktionsadministrator gesendet.|Sie dient dazu, das Profil eines Teilnehmers anzulegen, das der Transaktionsadministrator führt.|Verwendung|Auf Grundlage der in der Nachricht CreateLimit definierten Kriterien führt der Transaktionsadministrator die beantragte Anlage aus oder lehnt sie ab und antwortet auf die Anfrage mit einer Nachricht Receipt."
+}

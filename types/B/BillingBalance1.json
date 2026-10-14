@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingBalance1",
+  "definition": "Enthält den Saldo für die Abrechnungsdienstleistungen.",
+  "isoElements": {
+    "Type": {
+      "definition": "Legt die Art des Saldos fest."
+    },
+    "Value": {
+      "definition": "Saldowert."
+    },
+    "CurrencyType": {
+      "definition": "Identifiziert die Währungsart, die zur Meldung des Saldos verwendet wird. Dies ist nicht der ISO-Code."
+    }
+  }
+}

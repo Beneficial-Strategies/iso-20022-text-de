@@ -1,0 +1,12 @@
+{
+  "isoType": "RepairReason11Choice",
+  "definition": "Auswahl des Formats für den Korrekturgrund.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, warum die Anweisung bzw. Anforderung den Status Klärung oder Ablehnung hat."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Grund an, warum die Anweisung bzw. Anforderung den Status Klärung oder Ablehnung hat."
+    }
+  }
+}

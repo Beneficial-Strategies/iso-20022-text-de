@@ -1,0 +1,14 @@
+{
+  "isoType": "DeliveryReceiptType2Code",
+  "definition": "Gibt an, wie die Transaktion abzuwickeln ist.",
+  "isoCodes": {
+    "FREE": {
+      "name": "Getrennte Abwicklung",
+      "definition": "Die Abwicklung von Finanzinstrument und Geld erfolgt getrennt."
+    },
+    "APMT": {
+      "name": "Abwicklung gegen Zahlung",
+      "definition": "Die Abwicklung von Finanzinstrument und Geld erfolgt in einem Lieferung-gegen-Zahlung-Umfeld (DVP), das heißt über einen internationalen Zentralverwahrer (ICSD) oder Zentralverwahrer (CSD)."
+    }
+  }
+}

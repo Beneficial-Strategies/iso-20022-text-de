@@ -1,0 +1,12 @@
+{
+  "isoType": "OwnerIdentification3Choice",
+  "definition": "Auswahl von Angaben zu einer natürlichen Person oder einer Organisation.",
+  "isoElements": {
+    "IndividualOwnerIdentification": {
+      "definition": "Identifikation der natürlichen Person."
+    },
+    "OrganisationOwnerIdentification": {
+      "definition": "Identifikation einer Organisation."
+    }
+  }
+}

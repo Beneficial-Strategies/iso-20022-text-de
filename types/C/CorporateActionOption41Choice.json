@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionOption41Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe der Art der Kapitalmaßnahmen-Option.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Art der Kapitalmaßnahmen-Option."
+    }
+  }
+}

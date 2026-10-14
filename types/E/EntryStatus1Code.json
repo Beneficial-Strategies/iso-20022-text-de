@@ -1,0 +1,18 @@
+{
+  "isoType": "EntryStatus1Code",
+  "definition": "Gibt den Status einer Buchung an.",
+  "isoCodes": {
+    "BOOK": {
+      "name": "Gebucht",
+      "definition": "Gebucht bedeutet, dass der Geldtransfer zwischen der kontoführenden Stelle und dem Kontoinhaber abgeschlossen wurde.||Verwendung: |Der Status „Gebucht“ impliziert nicht zwangsläufig die Endgültigkeit des Geldes, da diese von weiteren Faktoren abhängt, etwa dem verwendeten Zahlungssystem, dem Abschluss der Ende-zu-Ende-Transaktion und den zwischen kontoführender Stelle und Inhaber vereinbarten Bedingungen.|Der Status „Gebucht“ ist der einzige Status, der rückgängig gemacht werden kann."
+    },
+    "PDNG": {
+      "name": "Ausstehend",
+      "definition": "Die Buchung auf dem Konto des Kontoinhabers im Hauptbuch des kontoführenden Instituts wurde noch nicht abgeschlossen.||Verwendung: Dies kann für erwartete Posten oder für Posten verwendet werden, für die vor der Buchung noch Bedingungen erfüllt werden müssen. Erfolgt die Buchung, wird der Umsatz in einem nachfolgenden Konto-Report oder Kontoauszug mit dem Status „Gebucht“ aufgeführt. Der Status „Ausstehend“ kann nicht rückgängig gemacht werden."
+    },
+    "FUTR": {
+      "name": "Zukünftig",
+      "definition": "Der Umsatz ist in den Büchern des kontoführenden Instituts verbucht, und die Wertstellung zugunsten des Kontoinhabers erfolgt zu einem zukünftigen Zeitpunkt."
+    }
+  }
+}

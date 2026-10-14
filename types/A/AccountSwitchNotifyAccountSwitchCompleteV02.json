@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchNotifyAccountSwitchCompleteV02",
+  "definition": "Die Nachricht AccountSwitchNotifyAccountSwitchComplete wird vom neuen kontoführenden Institut an ein zentrales Kontowechselinstitut gesendet, um den Abschluss des Kontowechsels anzuzeigen."
+}

@@ -1,0 +1,35 @@
+{
+  "isoType": "IndividualPerson8",
+  "definition": "Menschliches Wesen, im Unterschied zu einer Körperschaft (die manchmal als „künstliche Person“ bezeichnet wird).",
+  "isoElements": {
+    "Name": {
+      "definition": "Name, unter dem eine Partei bekannt ist und der üblicherweise zur Identifikation dieser Partei verwendet wird."
+    },
+    "GivenName": {
+      "definition": "Vorname einer Person."
+    },
+    "NamePrefix": {
+      "definition": "Gibt die Begriffe an, mit denen eine Person förmlich angesprochen wird."
+    },
+    "NameSuffix": {
+      "definition": "Zusätzliche Informationen zu einer Person, die dem Namen der Person folgen, zum Beispiel eine Qualifikation wie Doctor of Philosophy (PhD)."
+    },
+    "Gender": {
+      "definition": "Gibt das Geschlecht der Person an."
+    },
+    "BirthDate": {
+      "definition": "Datum, an dem eine Person geboren wurde."
+    },
+    "SocialSecurityNumber": {
+      "definition": "Nummer, die von einer Sozialversicherungsbehörde vergeben wurde."
+    },
+    "IndividualInvestorAddress": {
+      "definition": "Postanschrift einer Partei."
+    }
+  },
+  "isoRules": {
+    "SocialSecurityNumberGuideline": {
+      "definition": "Die UK-Versicherungsnummer (Insurance Number) muss ohne Leerzeichen angegeben werden."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "PenaltyCalculationRecord1",
+  "definition": "Gibt die Einzelheiten zur Berechnung der Strafzahlung an.",
+  "isoElements": {
+    "Date": {
+      "definition": "Datum, für das die Strafzahlung gilt."
+    },
+    "MissingReferenceData": {
+      "definition": "Angaben zu Strafzahlungen, bei denen an diesem Geschäftstag Referenzdaten fehlen.||Verwendung: Wenn nicht vorhanden, fehlen keine Referenzdaten."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Weitere Einzelheiten zum gemeldeten Finanzinstrument."
+    },
+    "DiscountRate": {
+      "definition": "Diskontsatz für die Währung der Strafzahlung, angegeben, wenn das Wertpapier Strafzahlungen unterliegt und der Code der Berechnungsmethode Geld, gemischt oder beides lautet."
+    },
+    "ForeignExchangeData": {
+      "definition": "Weitere Einzelheiten zum Devisenkurs."
+    },
+    "SubAmountPenaltyBreakdown": {
+      "definition": "Aufschlüsselung in Teilbeträge, aus denen sich der Gesamtbetrag der Strafzahlung zusammensetzt."
+    }
+  }
+}

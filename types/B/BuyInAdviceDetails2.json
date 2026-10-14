@@ -1,0 +1,30 @@
+{
+  "isoType": "BuyInAdviceDetails2",
+  "definition": "Details einer Zwangsdeckung (Buy-in).",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referenzen der fehlgeschlagenen Transaktion."
+    },
+    "BuyInState": {
+      "definition": "Status der Zwangsdeckung (Buy-in)."
+    },
+    "BuyInDeferral": {
+      "definition": "Gibt an, ob die Zwangsdeckung (Buy-in) aufgeschoben wurde oder nicht."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifikation des Finanzinstruments der Zwangsdeckungsanweisung (Buy-in)."
+    },
+    "Quantity": {
+      "definition": "Menge des Finanzinstruments, auf das sich die Zwangsdeckung (Buy-in) bezieht."
+    },
+    "BuyInPrice": {
+      "definition": "Preis des gehandelten Finanzinstruments in der Zwangsdeckung (Buy-in)."
+    },
+    "CashCompensationAmount": {
+      "definition": "Geldbetrag, den die nicht liefernde Handelspartei bei einer erfolglosen oder teilweise erfolgreichen Zwangsdeckung (Buy-in) zu zahlen hat."
+    },
+    "BuyInSettlementDate": {
+      "definition": "Abwicklungsdatum der Zwangsdeckung (Buy-in)."
+    }
+  }
+}

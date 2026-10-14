@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingTaxIdentification3",
+  "definition": "Gibt die Steueridentifikation im Zusammenhang mit einem abzurechnenden Service an.",
+  "isoElements": {
+    "VATRegistrationNumber": {
+      "definition": "Umsatzsteuer-Identifikationsnummer (VAT), wie von der lokalen Steuerbehörde der Region vergeben."
+    },
+    "TaxRegistrationNumber": {
+      "definition": "Steuerregistrierungsnummer (TRN), wie von der lokalen Steuerbehörde der Steuerregion vergeben."
+    },
+    "TaxContact": {
+      "definition": "Gibt die Kontaktdaten des Finanzinstituts für die Steuerregion an. Dieser Kontakt arbeitet für das Finanzinstitut, nicht für die Steuerregion."
+    }
+  }
+}

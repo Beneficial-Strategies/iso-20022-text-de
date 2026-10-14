@@ -1,0 +1,26 @@
+{
+  "isoType": "ATMNoteType1Code",
+  "definition": "Art der Objekte der Einzahlungskassette.",
+  "isoCodes": {
+    "ALLT": {
+      "name": "Alle",
+      "definition": "Alle umlauffähigen Banknotenarten."
+    },
+    "CNTR": {
+      "name": "Falsch",
+      "definition": "Erkannte gefälschte Banknoten."
+    },
+    "IDVD": {
+      "name": "Einzeln",
+      "definition": "Alle Arten umlauffähiger Banknoten, die in einer individuellen Liste angegeben sind."
+    },
+    "SCNT": {
+      "name": "Falschgeldverdacht",
+      "definition": "Verdächtige gefälschte Banknoten."
+    },
+    "UNFT": {
+      "name": "Nicht umlauffähig",
+      "definition": "Nicht umlauffähige Banknoten (unzureichende Qualität)."
+    }
+  }
+}

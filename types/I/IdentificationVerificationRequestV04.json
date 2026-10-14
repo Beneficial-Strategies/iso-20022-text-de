@@ -1,0 +1,4 @@
+{
+  "isoType": "IdentificationVerificationRequestV04",
+  "definition": "Anwendungsbereich|Die Nachricht IdentificationVerificationRequest wird von einem Zuweisenden an einen Zuweisungsempfänger gesendet. Sie wird verwendet, um die Überprüfung von Partei- und/oder Kontoidentifikationsinformationen anzufordern.|Verwendung|Die Nachricht IdentificationVerificationRequest wird vor dem Senden einer oder mehrerer Transaktionsnachrichten gesendet.|Die Nachricht IdentificationVerificationRequest kann eine oder mehrere Überprüfungsanfragen enthalten."
+}

@@ -1,0 +1,10 @@
+{
+  "isoType": "SafekeepingAccountIdentification1Code",
+  "definition": "Gibt die Kontoidentifikation über einen Code an.",
+  "isoCodes": {
+    "GENR": {
+      "name": "Allgemein",
+      "definition": "Die Ankündigung gilt für alle Depotkonten, die das zugrunde liegende Finanzinstrument besitzen. (Verwendet für allgemeine oder vorläufige Ankündigungen.)."
+    }
+  }
+}

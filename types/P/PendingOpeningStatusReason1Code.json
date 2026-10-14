@@ -1,0 +1,34 @@
+{
+  "isoType": "PendingOpeningStatusReason1Code",
+  "definition": "Gibt den Grund für einen ausstehenden Kontoeröffnungsstatus an.",
+  "isoCodes": {
+    "ATHR": {
+      "name": "Autorisierung",
+      "definition": "Eine Autorisierung ist erforderlich."
+    },
+    "ATHP": {
+      "name": "Autorisiert, aber ausstehend",
+      "definition": "Die Autorisierung liegt vor, die Kontoeröffnung ist jedoch noch ausstehend."
+    },
+    "FRDM": {
+      "name": "FATCA-Meldedatum fehlt",
+      "definition": "Das FATCA-Meldedatum fehlt."
+    },
+    "KYCM": {
+      "name": "Know-Your-Customer-Dokument fehlt",
+      "definition": "Das Dokument zur Kundenidentifizierung (Know Your Customer, KYC) fehlt."
+    },
+    "NOTO": {
+      "name": "Nicht eröffnet",
+      "definition": "Das Konto ist noch nicht eröffnet, auch nicht für eine teilweise Nutzung."
+    },
+    "REST": {
+      "name": "Beschränkungen",
+      "definition": "Das Konto wird eröffnet, sobald die Beschränkungen behoben sind."
+    },
+    "RIGH": {
+      "name": "Rechteinhaber fehlt",
+      "definition": "Die Informationen zum Rechteinhaber fehlen."
+    }
+  }
+}

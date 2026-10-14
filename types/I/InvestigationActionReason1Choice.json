@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationActionReason1Choice",
+  "definition": "Gibt den Grund für die angeforderte Maßnahme an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für die Maßnahme, wie in einer externen Codeliste für Maßnahmengründe von Untersuchungen veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Grund für die Maßnahme in proprietärer Form."
+    }
+  }
+}

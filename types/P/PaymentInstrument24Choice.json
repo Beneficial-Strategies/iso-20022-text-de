@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentInstrument24Choice",
+  "definition": "Auswahl der Zahlungsinstrumente.",
+  "isoElements": {
+    "PaymentCardDetails": {
+      "definition": "Abwicklungsanweisungen für eine Zahlung per Karte."
+    },
+    "DirectDebitDetails": {
+      "definition": "Abwicklungsanweisungen für eine Zahlung per Lastschrift."
+    },
+    "Cheque": {
+      "definition": "Gibt an, ob die Zahlung per Scheck erfolgt."
+    },
+    "BankersDraft": {
+      "definition": "Gibt an, ob die Zahlung per Wechsel erfolgt."
+    }
+  }
+}

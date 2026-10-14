@@ -1,0 +1,21 @@
+{
+  "isoType": "FinancialInstrument76",
+  "definition": "Identifizierende Merkmale eines Finanzinstruments, das eine Untergruppe eines Investmentfonds ist.",
+  "isoElements": {
+    "SupplementaryIdentification": {
+      "definition": "Zusätzliche Informationen zu einem Finanzinstrument, die zu dessen Identifikation beitragen."
+    },
+    "SecuritiesForm": {
+      "definition": "Gibt die Form, das heißt das Eigentum, des Wertpapiers an."
+    },
+    "ClassType": {
+      "definition": "Merkmale der von einem Fonds angebotenen Anteile. Zum Beispiel kann ein Anteil eine bestimmte Gebührenstruktur haben, zum Beispiel Ausgabeaufschlag oder Rücknahmeabschlag, eine Ertragspolitik, zum Beispiel Ausschüttung oder Thesaurierung, oder eine Bestandspflegeprovisions-Politik, zum Beispiel mit oder ohne. Fondsklassen werden typischerweise durch ein einzelnes Zeichen bezeichnet, zum Beispiel 'Class A', 'Class 2'."
+    },
+    "DistributionPolicy": {
+      "definition": "Ertragspolitik in Bezug auf eine Klassenart, das heißt, ob Erträge ausgeschüttet oder im Fonds einbehalten werden."
+    },
+    "ClassificationType": {
+      "definition": "Klassifizierungsart des Finanzinstruments gemäß der Kodierung der ISO Classification of Financial Instrument (CFI), zum Beispiel Stammaktie mit Stimmrecht, voll eingezahlt oder auf den Namen lautend."
+    }
+  }
+}

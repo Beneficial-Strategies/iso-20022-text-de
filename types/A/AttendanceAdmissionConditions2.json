@@ -1,0 +1,12 @@
+{
+  "isoType": "AttendanceAdmissionConditions2",
+  "definition": "Zutrittsbedingungen für die physische Teilnahme an einer Versammlung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Bedingung für den physischen Zutritt zur Hauptversammlung."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Angaben zu den Bedingungen für den physischen Zutritt zur Hauptversammlung."
+    }
+  }
+}

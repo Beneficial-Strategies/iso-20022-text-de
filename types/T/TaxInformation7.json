@@ -1,0 +1,39 @@
+{
+  "isoType": "TaxInformation7",
+  "definition": "Angaben zu Steuern, die gemäß Gesetz an den Staat gezahlt wurden oder zu zahlen sind, einschließlich vordefinierter Parameter wie Schwellenwerte und Kontoart.",
+  "isoElements": {
+    "Creditor": {
+      "definition": "Partei auf der Gutschriftsseite der Transaktion, auf die sich die Steuer bezieht."
+    },
+    "Debtor": {
+      "definition": "Identifiziert die Partei auf der Belastungsseite der Transaktion, auf die sich die Steuer bezieht."
+    },
+    "UltimateDebtor": {
+      "definition": "Letztliche Partei, die dem (letztlichen) Zahlungsempfänger, in diesem Fall der Steuerbehörde, einen Geldbetrag schuldet."
+    },
+    "AdministrationZone": {
+      "definition": "Gebietskörperschaft eines Landes, auf die sich die Steuerzahlung bezieht."
+    },
+    "ReferenceNumber": {
+      "definition": "Steuerreferenzangabe, die für eine bestimmte Steuerbehörde spezifisch ist."
+    },
+    "Method": {
+      "definition": "Methode zur Angabe des zugrunde liegenden Geschäftsvorgangs oder der Art der Steuerzahlung."
+    },
+    "TotalTaxableBaseAmount": {
+      "definition": "Gesamtgeldbetrag, der der Steuer zugrunde liegt."
+    },
+    "TotalTaxAmount": {
+      "definition": "Gesamtgeldbetrag, der sich aus der Berechnung der Steuer ergibt."
+    },
+    "Date": {
+      "definition": "Datum, bis zu dem die Steuer fällig ist."
+    },
+    "SequenceNumber": {
+      "definition": "Laufende Nummer der Steuermeldung."
+    },
+    "Record": {
+      "definition": "Datensatz mit Steuerangaben."
+    }
+  }
+}

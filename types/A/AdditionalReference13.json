@@ -1,0 +1,15 @@
+{
+  "isoType": "AdditionalReference13",
+  "definition": "Referenz auf eine zugehörige Nachricht oder Transaktion.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Nachrichtenidentifikation einer Nachricht. Diese Referenz wurde von der Partei vergeben, die die Nachricht ausgestellt hat."
+    },
+    "ReferenceIssuer": {
+      "definition": "Aussteller der Referenz."
+    },
+    "MessageName": {
+      "definition": "Name der Nachricht."
+    }
+  }
+}

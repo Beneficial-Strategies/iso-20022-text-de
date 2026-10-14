@@ -1,0 +1,22 @@
+{
+  "isoType": "CorporateActionFrequencyType1Code",
+  "definition": "Gibt die Häufigkeit eines CA-Ereignisses an.",
+  "isoCodes": {
+    "FINL": {
+      "name": "Letzte",
+      "definition": "Zahlung einer Dividende abzüglich der bereits über Zwischendividenden gezahlten Beträge."
+    },
+    "INTE": {
+      "name": "Zwischenwert",
+      "definition": "Dividende, die erklärt und gezahlt wird, bevor das Jahresergebnis feststeht."
+    },
+    "REGR": {
+      "name": "Regulär",
+      "definition": "In regelmäßigen Abständen gezahlte Dividende, zum Beispiel vierteljährlich."
+    },
+    "SPEC": {
+      "name": "Besonders",
+      "definition": "Dividende zusätzlich zur regulären Dividende, die vom Unternehmen gezahlt wird."
+    }
+  }
+}

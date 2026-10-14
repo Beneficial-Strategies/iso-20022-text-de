@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification202",
+  "definition": "Identifikation einer Partei.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Name und Adresse der Partei."
+    },
+    "Identification": {
+      "definition": "CONCAT"
+    }
+  }
+}

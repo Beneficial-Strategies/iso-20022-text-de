@@ -1,0 +1,41 @@
+{
+  "isoType": "Organisation39",
+  "definition": "Organisierte Struktur, die für einen bestimmten Zweck eingerichtet wurde, z. B. ein Unternehmen, eine Regierungsstelle, eine Abteilung, eine Wohltätigkeitsorganisation oder ein Finanzinstitut.",
+  "isoElements": {
+    "Name": {
+      "definition": "Name, unter dem die Organisation bekannt ist und der üblicherweise zu ihrer Identifizierung verwendet wird."
+    },
+    "ShortName": {
+      "definition": "Name der Organisation in Kurzform."
+    },
+    "Identification": {
+      "definition": "Eindeutiger und unmissverständlicher Identifikator der Organisation."
+    },
+    "LegalEntityIdentifier": {
+      "definition": "Identifikation der Organisation mit einer Rechtsträgerkennung (Legal Entity Identifier). Dies ist ein Code, der einer Partei zugewiesen wird, wie in ISO 17442 „Financial Services - Legal Entity Identifier (LEI)“ beschrieben."
+    },
+    "Purpose": {
+      "definition": "Zweck der Organisation, z. B. Wohltätigkeit."
+    },
+    "RegistrationCountry": {
+      "definition": "Land, in dem die Organisation registriert ist."
+    },
+    "RegistrationDate": {
+      "definition": "Datum und Uhrzeit, zu denen eine bestimmte Organisation offiziell registriert wurde."
+    },
+    "PostalAddress": {
+      "definition": "Informationen, die eine bestimmte Adresse lokalisieren und identifizieren, wie von den Postdiensten definiert."
+    },
+    "TypeOfOrganisation": {
+      "definition": "Art der Organisation."
+    },
+    "PlaceOfListing": {
+      "definition": "Börsennotierungsort für Anteile an der Organisation."
+    }
+  },
+  "isoRules": {
+    "OrganisationElementRule": {
+      "definition": "Eines der Elemente (Name, ShortName, Identification, LegalEntityIdentifier, Purpose, RegistrationCountry, RegistrationDate, PostalAddress, TypeOfOrganisation, PlaceOfListing) muss vorhanden sein."
+    }
+  }
+}

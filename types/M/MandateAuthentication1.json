@@ -1,0 +1,15 @@
+{
+  "isoType": "MandateAuthentication1",
+  "definition": "Gibt die Einzelheiten zur Transportauthentifizierung im Zusammenhang mit dem Mandat an.",
+  "isoElements": {
+    "MessageAuthenticationCode": {
+      "definition": "Gibt eine Information an, die zur Authentifizierung einer Nachricht verwendet wird, d. h. zur Bestätigung, dass die Nachricht vom angegebenen Absender stammt (Authentizität) und auf dem Transportweg nicht verändert wurde (Integrität)."
+    },
+    "Date": {
+      "definition": "Datum, an dem die Authentifizierung durchgeführt wurde."
+    },
+    "Channel": {
+      "definition": "Kanal, der zur Übermittlung der Authentifizierungsinformationen verwendet wird."
+    }
+  }
+}

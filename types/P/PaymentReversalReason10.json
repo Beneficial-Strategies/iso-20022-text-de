@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentReversalReason10",
+  "definition": "Enthält weitere Einzelheiten zum Grund für die Rückbuchung der Transaktion.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Partei, die die Rückbuchung veranlasst."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Rückbuchung an."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Einzelheiten zum Rückbuchungsgrund."
+    }
+  }
+}

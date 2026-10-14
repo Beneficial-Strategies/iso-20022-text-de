@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesQuantityOrAmount6Choice",
+  "definition": "Auswahl zwischen Wertpapiermengen oder einem Betrag.",
+  "isoElements": {
+    "SecuritiesQuantity": {
+      "definition": "Liefert Informationen zur Wertpapiermenge im Zusammenhang mit einer Kapitalmaßnahmen-Option."
+    },
+    "InstructedAmount": {
+      "definition": "Anzuweisender Barbetrag."
+    }
+  }
+}

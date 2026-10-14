@@ -1,0 +1,39 @@
+{
+  "isoType": "References80Choice",
+  "definition": "Auswahl zwischen Referenzen.",
+  "isoElements": {
+    "SecuritiesSettlementTransactionIdentification": {
+      "definition": "Eindeutige Identifikation einer Wertpapierabwicklungstransaktion, wie sie dem Kontoinhaber (oder der in dessen Auftrag handelnden beauftragenden Partei) bekannt ist."
+    },
+    "IntraPositionMovementIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion zur Umbuchung zwischen Positionen, wie sie dem Kontoinhaber (oder der in dessen Auftrag handelnden beauftragenden Partei) bekannt ist."
+    },
+    "IntraBalanceMovementIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion zur Umbuchung zwischen Beständen, wie sie dem Kontoinhaber bekannt ist."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie sie der kontoführenden Stelle bekannt ist."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer zugewiesen wurde, zum Beispiel Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion der Gegenpartei, die von einer anderen Marktinfrastruktur als einer Zentralverwahrer zugewiesen wurde, zum Beispiel Target2-Securities."
+    },
+    "PoolIdentification": {
+      "definition": "Sammelreferenz zur Identifizierung einer Gruppe von Nachrichten."
+    },
+    "CommonIdentification": {
+      "definition": "Eindeutige Referenz, auf die sich die beiden Handelspartner zur Identifizierung des Handelsgeschäfts geeinigt haben."
+    },
+    "TradeIdentification": {
+      "definition": "Vom Anleger oder der handelnden Partei dem Handelsgeschäft zugewiesene Referenz. Diese Referenz wird während des gesamten Lebenszyklus des Handelsgeschäfts verwendet, um auf die Handelsdetails zuzugreifen bzw. diese zu aktualisieren."
+    },
+    "UniqueTransactionIdentifier": {
+      "definition": "Mit der anderen Gegenpartei vereinbarter Unique Transaction Identifier (UTI)."
+    },
+    "OtherTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die nicht anhand eines in der Nachricht vorhandenen Standardreferenzelements identifiziert werden kann."
+    }
+  }
+}

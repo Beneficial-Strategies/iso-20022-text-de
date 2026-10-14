@@ -1,0 +1,15 @@
+{
+  "isoType": "Parameter6",
+  "definition": "Mit einem kryptografischen Verschlüsselungsalgorithmus verbundene Parameter.",
+  "isoElements": {
+    "EncryptionFormat": {
+      "definition": "Format der Daten vor der Verschlüsselung, wenn das Format nicht Klartext oder implizit ist."
+    },
+    "InitialisationVector": {
+      "definition": "Initialisierungsvektor einer Verschlüsselung im CBC-Modus (Cipher Block Chaining)."
+    },
+    "BytePadding": {
+      "definition": "Auffüllen von Bytes bei einer Verschlüsselung im CBC-Modus (Cipher Block Chaining), wenn das Auffüllen nicht implizit erfolgt."
+    }
+  }
+}

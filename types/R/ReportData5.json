@@ -1,0 +1,27 @@
+{
+  "isoType": "ReportData5",
+  "definition": "Numerische Darstellung der Netto-Zu- und Abnahmen auf einem Konto zu einem bestimmten Zeitpunkt. Ein Barsaldo wird aus der Summe der Bargutschriften abzüglich der Summe der Barbelastungen berechnet.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identifikation des Berichts, die vom zentralen System vergeben wird."
+    },
+    "ValueDate": {
+      "definition": "Datum, bis zu dem der bzw. die angeforderten Beträge abgewickelt sein müssen."
+    },
+    "DateAndTimeStamp": {
+      "definition": "Datum und Uhrzeit der Berichtserstellung. Die Abweichung von UTC kann ebenfalls angegeben werden."
+    },
+    "Type": {
+      "definition": "Gibt die Art des Einzahlungsabrufs (Pay In Call) an."
+    },
+    "PayInCallAmount": {
+      "definition": "Gibt den angeforderten Betrag an."
+    },
+    "SettlementSessionIdentifier": {
+      "definition": "Zur Angabe der angeforderten CLS-Abwicklungssitzung, zu der das zugehörige Geschäft gehört."
+    },
+    "AccountValue": {
+      "definition": "Gibt den angeforderten Betrag in mehreren Währungen an."
+    }
+  }
+}

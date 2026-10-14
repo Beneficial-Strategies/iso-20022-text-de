@@ -1,0 +1,12 @@
+{
+  "isoType": "CodeOrProprietary1Choice",
+  "definition": "Auswahl zwischen einem ISO-20022-Code und einem proprietären Code.",
+  "isoElements": {
+    "Code": {
+      "definition": "Element, ausgedrückt als ISO-20022-Code aus einer externen Liste."
+    },
+    "Proprietary": {
+      "definition": "Element, ausgedrückt als proprietärer Code."
+    }
+  }
+}

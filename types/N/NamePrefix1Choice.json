@@ -1,0 +1,12 @@
+{
+  "isoType": "NamePrefix1Choice",
+  "definition": "Auswahl von Formaten für die Angabe des Namenspräfixes.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrücktes Namenspräfix."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrücktes Namenspräfix."
+    }
+  }
+}

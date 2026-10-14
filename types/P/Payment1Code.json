@@ -1,0 +1,14 @@
+{
+  "isoType": "Payment1Code",
+  "definition": "Gibt die Art der Zahlung an.",
+  "isoCodes": {
+    "ACTU": {
+      "name": "Tatsächliche Zahlung",
+      "definition": "Die Barzahlung erfolgt oder wird bei Eingang der Erlöse vom Emittenten erfolgen."
+    },
+    "CONT": {
+      "name": "Vertragliche Zahlung",
+      "definition": "Die Barzahlung erfolgt oder wird vor Eingang der Erlöse vom Emittenten erfolgen und beruht auf einer vertraglichen Vereinbarung mit der kontoführenden Stelle."
+    }
+  }
+}

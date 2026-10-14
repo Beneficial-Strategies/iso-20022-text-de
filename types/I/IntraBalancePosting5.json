@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalancePosting5",
+  "definition": "Enthält die Transaktionen im Bericht.",
+  "isoElements": {
+    "BalanceFrom": {
+      "definition": "Bestand, von dem der Geldbetrag umgebucht wird."
+    },
+    "Movement": {
+      "definition": "Weitere Einzelheiten zur einzelnen Transaktion der Bewegung innerhalb des Saldos."
+    }
+  }
+}

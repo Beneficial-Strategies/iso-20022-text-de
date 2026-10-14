@@ -1,0 +1,38 @@
+{
+  "isoType": "ReinvestmentIncomeClassification2Code",
+  "definition": "Gibt die Art der Barerlöse an, die der Inhaber reinvestieren darf.",
+  "isoCodes": {
+    "CAPG": {
+      "name": "Kapitalgewinne",
+      "definition": "Die reinvestierten Barerlöse werden als Kapitalgewinne eingestuft."
+    },
+    "DVCA": {
+      "name": "Bardividende",
+      "definition": "Die reinvestierten Barerlöse werden als Bardividende eingestuft."
+    },
+    "CDPS": {
+      "name": "Bardividende Sonderausschüttung",
+      "definition": "Die reinvestierten Barerlöse werden als Sonderbardividende eingestuft."
+    },
+    "INTR": {
+      "name": "Zinsen",
+      "definition": "Die reinvestierten Barerlöse werden als Zinsen eingestuft."
+    },
+    "LTCG": {
+      "name": "Langfristige Kapitalgewinne",
+      "definition": "Die reinvestierten Barerlöse werden als langfristige Kapitalgewinne eingestuft."
+    },
+    "PRPL": {
+      "name": "Eigenhändler",
+      "definition": "Die reinvestierten Barerlöse werden als Kapitalbetrag eingestuft."
+    },
+    "ROCA": {
+      "name": "Kapitalrückzahlung",
+      "definition": "Die reinvestierten Barerlöse werden als Kapitalrückzahlung eingestuft."
+    },
+    "STCG": {
+      "name": "Kurzfristige Kapitalgewinne",
+      "definition": "Die reinvestierten Barerlöse werden als kurzfristige Kapitalgewinne eingestuft."
+    }
+  }
+}

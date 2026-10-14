@@ -1,0 +1,17 @@
+{
+  "isoType": "PartyIdentification276",
+  "definition": "Identifikation einer Partei.",
+  "isoElements": {
+    "LegalPerson": {
+      "definition": "Juristische Person."
+    },
+    "NaturalPerson": {
+      "definition": "Privatperson."
+    }
+  },
+  "isoRules": {
+    "LegalPersonOrNaturalPersonRule": {
+      "definition": "Mindestens ein Vorkommen von entweder NaturalPerson oder LegalPerson muss vorhanden sein."
+    }
+  }
+}

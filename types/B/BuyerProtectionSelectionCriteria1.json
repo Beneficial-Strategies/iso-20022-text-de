@@ -1,0 +1,27 @@
+{
+  "isoType": "BuyerProtectionSelectionCriteria1",
+  "definition": "Auswahlkriterien für die Käuferschutz-Abfrage.",
+  "isoElements": {
+    "FinancialInstitutionIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation eines Finanzinstituts, vergeben nach einem international anerkannten oder proprietären Identifikationsschema."
+    },
+    "AccountIdentification": {
+      "definition": "Liste ausgewählter Verwahrkonten, auf die sich das Ereignis der Kapitalmaßnahme bezieht."
+    },
+    "ISIN": {
+      "definition": "International Securities Identification Number (ISIN). Ein Nummerierungssystem der Internationalen Organisation für Normung (ISO) der Vereinten Nationen. Die ISIN besteht aus einem 2-stelligen Präfix für das Ausgabeland, gefolgt von der nationalen Wertpapiernummer (sofern vorhanden) und einer Prüfziffer. Jedes Land hat eine nationale Nummerierungsstelle, die ISIN-Nummern für Wertpapiere dieses Landes vergibt."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Referenz, vergeben vom Kontoführer, zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer vergeben wurde, zum Beispiel Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, vergeben vom Bearbeiter der Anweisung, der weder der Kontoinhaber, noch der Kontoführer, noch die Marktinfrastruktur ist."
+    },
+    "UniqueTransactionIdentifier": {
+      "definition": "Mit der anderen Gegenpartei vereinbarter Unique Transaction Identifier (UTI)."
+    }
+  }
+}

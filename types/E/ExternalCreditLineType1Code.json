@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalCreditLineType1Code",
+  "definition": "Gibt den Code des externen Kreditlinientyps als Zeichenfolge mit maximal 4 Zeichen an.|Die Liste der gültigen Codes ist ein separat veröffentlichtes externes Code-Set.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden."
+}

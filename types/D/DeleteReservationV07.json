@@ -1,0 +1,4 @@
+{
+  "isoType": "DeleteReservationV07",
+  "definition": "Anwendungsbereich|Die Nachricht DeleteReservation dient dazu, die Löschung einer bestimmten, vom Teilnehmer eingerichteten und vom Transaktionsadministrator verwalteten Reservierung anzufordern.|Verwendung|Die Löschung einer Reservierung im System setzt nicht nur die reservierte Liquidität auf null zurück, sondern löscht auch die Reservierung selbst aus dem System: Nur die Standardreservierung für den aktuellen Geschäftstag verbleibt im System."
+}

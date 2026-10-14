@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountSubLevel24",
+  "definition": "Liefert detaillierte Eigentumsinformationen zur offenzulegenden Aktienmenge oder zur nicht offenzulegenden Aktienmenge sowie zur Aktienmenge unterhalb des Schwellenwerts.",
+  "isoElements": {
+    "NonDisclosedShareholdingQuantity": {
+      "definition": "Aktienmenge, für die keine Details zum Aktienbesitz offengelegt werden."
+    },
+    "BelowThresholdShareholdingQuantity": {
+      "definition": "Aktienmenge, für die keine Details zum Aktienbesitz gemeldet werden, da die vom Aktionär gehaltene Aktienmenge unter dem Schwellenwert liegt."
+    },
+    "Disclosure": {
+      "definition": "Details der Unterebenen des Kontos und der Bestände."
+    }
+  }
+}

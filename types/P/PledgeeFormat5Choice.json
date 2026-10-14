@@ -1,0 +1,15 @@
+{
+  "isoType": "PledgeeFormat5Choice",
+  "definition": "Auswahl zwischen Formaten für die Einheit, an die die Finanzinstrumente verpfändet sind.",
+  "isoElements": {
+    "TypeAndIdentification": {
+      "definition": "Identifikation der Einheit, an die die Finanzinstrumente verpfändet sind, ausgedrückt als Code und BIC."
+    },
+    "Identification": {
+      "definition": "Identifikation der Einheit, an die die Finanzinstrumente verpfändet sind, ausgedrückt als Code und Freitextbeschreibung."
+    },
+    "Proprietary": {
+      "definition": "Identifikation der Einheit, an die die Finanzinstrumente verpfändet sind, ausgedrückt als proprietärer Typ und Freitextbeschreibung."
+    }
+  }
+}

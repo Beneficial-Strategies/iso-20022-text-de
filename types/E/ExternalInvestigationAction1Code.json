@@ -1,0 +1,22 @@
+{
+  "isoType": "ExternalInvestigationAction1Code",
+  "definition": "Gibt die beantragte Maßnahme an, wie in einer externen Codeliste für Untersuchungsmaßnahmen veröffentlicht.|Externe Codelisten können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "RQCL": {
+      "name": "Abschluss der Untersuchung anfordern",
+      "definition": "Der Antwortende wird gebeten, die Untersuchung abzuschließen. Alle Untersuchungsanfragen im Zusammenhang mit der Untersuchung können unberücksichtigt bleiben."
+    },
+    "RQST": {
+      "name": "Status der Untersuchung anfordern",
+      "definition": "Der Antwortende wird gebeten, den Status der Untersuchung mitzuteilen."
+    },
+    "RQOB": {
+      "name": "Widerspruch zur Anforderung",
+      "definition": "Der Antwortende wird gebeten, eine frühere Antwort zu überprüfen, da der Anfragende ihr widerspricht."
+    },
+    "RQRO": {
+      "name": "Wiedereröffnung der Untersuchung anfordern",
+      "definition": "Der Antwortende wird gebeten, die Untersuchung wieder zu eröffnen."
+    }
+  }
+}

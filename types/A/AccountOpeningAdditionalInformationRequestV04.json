@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountOpeningAdditionalInformationRequestV04",
+  "definition": "Die Nachricht AccountOpeningAdditionalInformationRequest wird im Rahmen des Kontoeröffnungsprozesses von einem Finanzinstitut an eine Organisation gesendet. Diese Nachricht wird als Antwort auf eine Eröffnungsanfrage der Organisation gesendet, wenn der fachliche Inhalt gültig ist, jedoch zusätzliche Informationen erforderlich sind."
+}

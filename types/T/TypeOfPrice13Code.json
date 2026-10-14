@@ -1,0 +1,66 @@
+{
+  "isoType": "TypeOfPrice13Code",
+  "definition": "Gibt die Art des Preises und Informationen zum Preis an.",
+  "isoCodes": {
+    "BIDE": {
+      "name": "Geldkurs",
+      "definition": "Der Preis ist der berechnete Geldkurs (Bid) eines Fonds mit zwei Preisen (Brief-Geld-Preise), d. h. der Verkaufspreis der Anteile für den Anleger."
+    },
+    "OFFR": {
+      "name": "Briefkurs",
+      "definition": "Der Preis ist der berechnete Briefkurs (Offer) eines Investmentfonds mit zwei Preisen (Brief-Geld-Preise), d. h. der Kaufpreis der Anteile für einen Anleger."
+    },
+    "NAVL": {
+      "name": "Nettoinventarwert",
+      "definition": "Der Preis ist der Nettoinventarwert je Anteil, der entweder als Handelspreis für eine Anteilsklasse eines Investmentfonds mit einem Preis oder als rechnerischer Preis für die Berechnung anderer Preise verwendet wird."
+    },
+    "CREA": {
+      "name": "Erstellung",
+      "definition": "Der Preis ist der berechnete Ausgabepreis (Creation) eines Investmentfonds mit zwei Preisen (Ausgabe-Rücknahme-Preise) und der höchstmögliche Kaufpreis der Anteile vor dem Ausgabeaufschlag. Der tatsächliche Kauf- bzw. Briefpreis, der Gebühren enthält, ist höher."
+    },
+    "CANC": {
+      "name": "Stornierung",
+      "definition": "Der Preis ist der berechnete Rücknahmepreis (Cancellation) eines Investmentfonds mit zwei Preisen (Ausgabe-Rücknahme-Preis) und die niedrigstmögliche Bewertung der Anteile an einem beliebigen Tag. Der tatsächliche Verkaufs- bzw. Geldpreis ist in der Regel höher."
+    },
+    "INTE": {
+      "name": "Zwischenwert",
+      "definition": "Der Preis ist der nicht offizielle vorläufige Preis, der einem Anleger vor dem ausgeführten Preis mitgeteilt wird."
+    },
+    "SWNG": {
+      "name": "Swing",
+      "definition": "Der Preis ist der berechnete Nettoinventarwert-Preis eines Investmentfonds mit einem Preis. Der Preis wird angepasst, um die Handelskosten aufgrund einzelner großer Geschäfte oder aufgrund eines erheblichen Ungleichgewichts zwischen Zeichnungs- und Rücknahmevolumen zu berücksichtigen, als Alternative zu einer Verwässerungsabgabe."
+    },
+    "MIDD": {
+      "name": "Mittelkurs",
+      "definition": "Der Preis ist der Durchschnittspreis zwischen Geld- und Briefkurs."
+    },
+    "RINV": {
+      "name": "Wiederanlage",
+      "definition": "Der Preis ist der Preis, der bei der Wiederanlage von Anteilen nach einer Ausschüttung verwendet wird."
+    },
+    "NAVS": {
+      "name": "Side-Pocket-NAV",
+      "definition": "Der Preis ist der geschätzte Nettoinventarwert für die Side Pocket."
+    },
+    "SWIC": {
+      "name": "Umschichtung",
+      "definition": "Der Preis ist der Preis, der bei der Übertragung von Anteilen zwischen Produkten verwendet wird."
+    },
+    "GAVL": {
+      "name": "Bruttovermögenswert",
+      "definition": "Der Preis ist der Bruttoinventarwert je Anteil und enthält die Performancegebühr je Anteil. Er wird als Transaktionspreis für einen Fonds mit Equalisation verwendet. GAVL-Preis minus NAVL-Preis = Performancegebühr."
+    },
+    "DDVR": {
+      "name": "Tägliche Dividendenrate",
+      "definition": "Der Preis ist der Nettoertrag eines Finanzinstruments, berechnet an jedem Handelstag und geteilt durch alle an diesem Tag ausstehenden Anteile."
+    },
+    "ACTU": {
+      "name": "Tatsächlich",
+      "definition": "Echter Briefkurs."
+    },
+    "EGAV": {
+      "name": "Geschätzter GAV",
+      "definition": "Der Preis ist der geschätzte Bruttoinventarwert je Anteil und enthält die Performancegebühr je Anteil. Er wird als Transaktionspreis für einen Fonds mit Equalisation verwendet. GAVL-Preis minus NAVL-Preis = Performancegebühr."
+    }
+  }
+}
