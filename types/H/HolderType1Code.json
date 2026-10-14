@@ -1,0 +1,14 @@
+{
+  "isoType": "HolderType1Code",
+  "definition": "Gibt eine Art von Inhaber an.",
+  "isoCodes": {
+    "TFEE": {
+      "name": "Übernehmer",
+      "definition": "Der Inhaber ist die übernehmende Partei. Die übernehmende Partei kann auch als erwerbende Partei bezeichnet werden."
+    },
+    "TFOR": {
+      "name": "Übertragender",
+      "definition": "Der Inhaber ist die übertragende Partei. Die übernehmende Partei kann auch als abtretende Partei bezeichnet werden."
+    }
+  }
+}

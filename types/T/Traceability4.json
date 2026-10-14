@@ -1,0 +1,18 @@
+{
+  "isoType": "Traceability4",
+  "definition": "Identifikation der am Austausch zwischen dem ATM und dem Emittenten beteiligten Partner mit dem relativen Zeitstempel ihres Austauschs.",
+  "isoElements": {
+    "RelayIdentification": {
+      "definition": "Identifikation eines Partners eines Nachrichtenaustauschs."
+    },
+    "SequenceNumber": {
+      "definition": "Identifikation des Relaisknotens im Pfad, um die Identifikation mehrerer paralleler Hosts zu ermöglichen."
+    },
+    "TraceDateTimeIn": {
+      "definition": "Datum und Uhrzeit des eingehenden Datenaustauschs zur Weiterleitung oder Verarbeitung."
+    },
+    "TraceDateTimeOut": {
+      "definition": "Datum und Uhrzeit des ausgehenden Austauschs zur Weiterleitung oder Verarbeitung."
+    }
+  }
+}

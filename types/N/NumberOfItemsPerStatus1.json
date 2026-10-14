@@ -1,0 +1,12 @@
+{
+  "isoType": "NumberOfItemsPerStatus1",
+  "definition": "Enthält detaillierte Informationen zur Anzahl der gemeldeten Positionen mit ihrem jeweiligen Annahmestatus.",
+  "isoElements": {
+    "Status": {
+      "definition": "Gemeinsamer Status der Berichtspositionen, deren Anzahl in NumberOfItems angegeben ist."
+    },
+    "NumberOfItems": {
+      "definition": "Anzahl der Positionen für den Status."
+    }
+  }
+}

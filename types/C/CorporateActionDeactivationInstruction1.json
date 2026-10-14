@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDeactivationInstruction1",
+  "definition": "Stellt Informationen zur Deaktivierung bereit.",
+  "isoElements": {
+    "DeactivationDateAndTime": {
+      "definition": "Datum und Uhrzeit, zu denen der CSD das Kapitalmaßnahmen-Ereignis oder die Option deaktivieren muss."
+    },
+    "OptionDetails": {
+      "definition": "Stellt Informationen zur Option bereit, wenn die Deaktivierungsanweisung auf der Ebene einer Kapitalmaßnahmen-Option gilt."
+    }
+  }
+}

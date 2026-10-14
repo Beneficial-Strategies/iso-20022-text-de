@@ -1,0 +1,26 @@
+{
+  "isoType": "FailedMovement1",
+  "definition": "Enthält Informationen zu einer Bewegung, deren Abwicklung gescheitert ist.",
+  "isoElements": {
+    "CashAmount": {
+      "definition": "Geldbetrag."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Menge des Finanzinstruments."
+    },
+    "SecurityIdentification": {
+      "definition": "Identifikation des Finanzinstruments."
+    },
+    "Reason": {
+      "definition": "Der Grund für das Scheitern der Abwicklung."
+    }
+  },
+  "isoRules": {
+    "CashAmountOrSecuritiesQuantityRule": {
+      "definition": "Entweder CashAmount oder SecuritiesQuantity muss vorhanden sein."
+    },
+    "CashAmountOrSecuritiesQuantityRuleNotBoth": {
+      "definition": "Entweder CashAmount oder SecuritiesQuantity muss vorhanden sein."
+    }
+  }
+}

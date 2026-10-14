@@ -1,0 +1,122 @@
+{
+  "isoType": "RepairReason4Code",
+  "definition": "Legt den Grund fest, aus dem die Abwicklungsanweisung den Status „in Korrektur“ hat.",
+  "isoCodes": {
+    "BATC": {
+      "name": "Verarbeitungsstapel",
+      "definition": "Nicht erkannter oder ungültiger Verarbeitungsstapel, das heißt, Tages-/Echtzeitverarbeitung, obwohl die Abwicklung nur im Übernacht-Stapel möglich ist."
+    },
+    "CAEV": {
+      "name": "Kapitalmaßnahme",
+      "definition": "Für das angewiesene Finanzinstrument steht eine Kapitalmaßnahme aus."
+    },
+    "CASH": {
+      "name": "Geldkonto",
+      "definition": "Nicht erkanntes oder ungültiges Geldkonto."
+    },
+    "CASY": {
+      "name": "Unmögliches Barabwicklungssystem",
+      "definition": "Unmögliche Dauerauftragsvereinbarungen überschreiben die Anweisung für das Barabwicklungssystem."
+    },
+    "DDAT": {
+      "name": "Abwicklungsdatum",
+      "definition": "Ungültiger oder nicht erkannter Abwicklungstag."
+    },
+    "DDEA": {
+      "name": "Geschäftspreis",
+      "definition": "Nicht erkannter oder ungültiger Geschäftspreis."
+    },
+    "DMON": {
+      "name": "Abwicklungsbetrag",
+      "definition": "Ungültiger oder nicht erkannter Abwicklungsbetrag."
+    },
+    "DQUA": {
+      "name": "Menge",
+      "definition": "Nicht erkannte oder ungültige Abwicklungsmenge."
+    },
+    "DSEC": {
+      "name": "Wertpapier",
+      "definition": "Ungültige oder nicht erkannte Identifikation des Finanzinstruments."
+    },
+    "DTRD": {
+      "name": "Handelstag",
+      "definition": "Nicht erkannter oder ungültiger Handelstag."
+    },
+    "IIND": {
+      "name": "Gemeinsame Referenz",
+      "definition": "Nicht erkannte, ungültige oder fehlende gemeinsame Referenz."
+    },
+    "MINO": {
+      "name": "Mindestabwicklungsmenge",
+      "definition": "Die angewiesene Menge liegt unter der für das Finanzinstrument bestehenden Mindestabwicklungsmenge."
+    },
+    "MUNO": {
+      "name": "Mehrfache Abwicklungsmenge",
+      "definition": "Die angewiesene Menge ist kein Vielfaches einer für das Finanzinstrument bestehenden Abwicklungslosgröße."
+    },
+    "NCRR": {
+      "name": "Währung des Abwicklungsbetrags",
+      "definition": "Ungültige oder nicht erkannte Währung des Abwicklungsbetrags."
+    },
+    "PHYS": {
+      "name": "Physische Abwicklung nicht möglich",
+      "definition": "Physische Abwicklung ist für das angewiesene Finanzinstrument nicht möglich."
+    },
+    "PLCE": {
+      "name": "Handelsplatz",
+      "definition": "Nicht erkannter oder ungültiger Handelsplatz."
+    },
+    "REFE": {
+      "name": "Referenz",
+      "definition": "Die Anweisung hat eine Referenz, die mit einer anderen zuvor eingegangenen Anweisung identisch ist."
+    },
+    "RTGS": {
+      "name": "Verwendung des angewiesenen RTGS-Systems nicht möglich",
+      "definition": "Das angewiesene RTGS-System (NRTG oder YRTG) kann nicht verwendet werden."
+    },
+    "SAFE": {
+      "name": "Verwahrkonto",
+      "definition": "Nicht erkanntes oder ungültiges Verwahrkonto des Nachrichtensenders."
+    },
+    "SETR": {
+      "name": "Abwicklungstransaktion",
+      "definition": "Nicht erkannte oder ungültige Art der Abwicklungstransaktion."
+    },
+    "SETS": {
+      "name": "Methode des Abwicklungssystems",
+      "definition": "Nicht erkanntes oder ungültiges angewiesenes Abwicklungssystem bzw. -methode."
+    },
+    "TXST": {
+      "name": "Steuerstatus",
+      "definition": "Nicht erkannter oder ungültiger steuerlicher Status der angewiesenen Wertpapiere."
+    },
+    "INPS": {
+      "name": "Verwahrort",
+      "definition": "Nicht erkannter, ungültiger oder fehlender Verwahrort (Place of Safekeeping)."
+    },
+    "SDUT": {
+      "name": "Stempelsteuer",
+      "definition": "Erforderliche Angaben zur Stempelsteuer fehlen."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "IEXE": {
+      "name": "Empfangende/liefernde Partei 3",
+      "definition": "Abweichung beim Kunden der liefernden oder empfangenden Partei 2."
+    },
+    "ICAG": {
+      "name": "Empfangende/liefernde Partei 1",
+      "definition": "Abweichung beim Teilnehmer der liefernden oder empfangenden Verwahrstelle."
+    },
+    "DEPT": {
+      "name": "Empfangende/liefernde Verwahrstelle",
+      "definition": "Abweichung bei der Verwahrstelle."
+    },
+    "ICUS": {
+      "name": "Empfangende/liefernde Partei 2",
+      "definition": "Abweichung beim Kunden der liefernden oder empfangenden Partei 1."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementStandingInstructionDatabase1Code",
+  "definition": "Gibt an, welche Datenbank für Standardabwicklungsanweisungen zur Ermittlung der an der Transaktion beteiligten Abwicklungsparteien zu verwenden ist.",
+  "isoCodes": {
+    "INTE": {
+      "name": "Interne Datenbank",
+      "definition": "Die zu verwendende Datenbank für Standardabwicklungsanweisungen ist die interne Datenbank des Empfängers."
+    },
+    "BRKR": {
+      "name": "Broker-Datenbank",
+      "definition": "Die zu verwendende Datenbank für Standardabwicklungsanweisungen ist die Datenbank des Brokers."
+    },
+    "VEND": {
+      "name": "Anbieter-Datenbank",
+      "definition": "Die zu verwendende Datenbank für Standardabwicklungsanweisungen ist die Datenbank des Anbieters."
+    }
+  }
+}

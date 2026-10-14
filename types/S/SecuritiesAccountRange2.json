@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesAccountRange2",
+  "definition": "Gibt einen Bereich von Wertpapierkonten an.",
+  "isoElements": {
+    "From": {
+      "definition": "Wertpapierkontonummer oder -code, bei dem der Bereich beginnt."
+    },
+    "To": {
+      "definition": "Wertpapierkontonummer oder -code, bei dem der Bereich endet."
+    }
+  }
+}

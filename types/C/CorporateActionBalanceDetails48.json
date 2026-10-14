@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionBalanceDetails48",
+  "definition": "Mit dem Emittentenagenten geteilte Kontostände.",
+  "isoElements": {
+    "SecurityCalledAmount": {
+      "definition": "Gesamter gekündigter Betrag des Wertpapiers, das zu einem bestimmten Zahlungstermin zur Rückzahlung gekündigt wurde. Dies kann außerhalb der Verwahrstelle gehaltene Bestände einschließen."
+    },
+    "TotalAmountOutstanding": {
+      "definition": "Gesamter ausstehender Betrag des zugrunde liegenden Wertpapiers, das bei der Verwahrstelle gehalten werden kann, aber nicht muss."
+    }
+  }
+}

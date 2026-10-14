@@ -1,0 +1,12 @@
+{
+  "isoType": "ContentInformationType15",
+  "definition": "Allgemeine Cryptographic Message Syntax (CMS) mit authentifizierten Daten.",
+  "isoElements": {
+    "ContentType": {
+      "definition": "Art des Datenschutzes."
+    },
+    "AuthenticatedData": {
+      "definition": "Datenschutz durch einen Nachrichtenauthentifizierungscode (MAC)."
+    }
+  }
+}

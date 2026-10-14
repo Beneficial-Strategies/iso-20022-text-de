@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingEventReference1Choice",
+  "definition": "Auswahl zwischen einer Identifikation des Versammlungsereignisses und einer offiziellen Identifikation des Versammlungsereignisses.",
+  "isoElements": {
+    "LinkedIssuerMeetingIdentification": {
+      "definition": "Offizielle und eindeutige Referenz, die von der offiziellen zentralen Stelle bzw. Einrichtung des jeweiligen Marktes zu Beginn eines Versammlungsereignisses vergeben wird."
+    },
+    "LinkedMeetingIdentification": {
+      "definition": "Vom Kontoführer vergebene Referenz zur zweifelsfreien Identifikation eines zugehörigen Versammlungsereignisses."
+    }
+  }
+}

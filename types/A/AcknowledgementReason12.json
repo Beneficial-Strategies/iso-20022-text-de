@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgementReason12",
+  "definition": "Gibt zusätzliche Informationen zur verarbeiteten Anweisung an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Für den Status angegebener Grund."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Enthält zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

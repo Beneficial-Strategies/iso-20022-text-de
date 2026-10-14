@@ -1,0 +1,22 @@
+{
+  "isoType": "PendingReason7Code",
+  "definition": "Gibt den Grund an, warum eine für die zugehörige Anweisung gesendete Stornierungsanforderung ausstehend ist.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Anweisung ging nach Ablauf der Frist des kontoführenden Instituts ein. Wird nach bestem Bemühen verarbeitet."
+    },
+    "CONF": {
+      "name": "Wartet auf Bestätigung",
+      "definition": "Warten auf Bestätigung der Gegenpartei."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "DQUA": {
+      "name": "Mengenabweichung",
+      "definition": "Die Menge der Finanzinstrumente stimmt nicht überein."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "isoType": "PortfolioWithdrawalReason1Code",
+  "definition": "Gibt einen Grund für eine Entnahme aus dem Anlageprodukt an.",
+  "isoCodes": {
+    "FTRS": {
+      "name": "Erstmaliger Wohnimmobilienerwerb",
+      "definition": "Die Entnahme erfolgt für den erstmaligen Erwerb von Wohneigentum."
+    }
+  }
+}

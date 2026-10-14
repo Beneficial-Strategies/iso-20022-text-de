@@ -1,0 +1,32 @@
+{
+  "isoType": "PenaltyReport1",
+  "definition": "Gibt die Details des Berichts über Strafzahlungen an.",
+  "isoElements": {
+    "ReportIdentification": {
+      "definition": "Referenz, die allen Seiten eines Berichts gemeinsam ist."
+    },
+    "ReportDate": {
+      "definition": "Datum des Berichts."
+    },
+    "ReportPeriod": {
+      "definition": "Zeitraum des Berichts."
+    },
+    "Frequency": {
+      "definition": "Häufigkeit des Auszugs."
+    },
+    "PenaltyListType": {
+      "definition": "Gibt an, ob die gemeldete Liste der Strafzahlungen neu berechnete Strafzahlungen oder aktualisierte/entfernte Strafzahlungen enthält."
+    },
+    "UpdateType": {
+      "definition": "Gibt an, ob der Auszug vollständig ist oder nur Änderungen enthält."
+    },
+    "ActivityIndicator": {
+      "definition": "Gibt an, ob im Bericht Aktivitäten oder Informationsaktualisierungen gemeldet werden."
+    }
+  },
+  "isoRules": {
+    "ReportDatePeriodPresenceRule": {
+      "definition": "Mindestens ein Vorkommen von ReportDate oder ReportPeriod muss vorhanden sein."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "FinancialInstrumentAggregateBalance2",
+  "definition": "Aggregierte Position, die in einem Wertpapierkonto für ein bestimmtes Finanzinstrument gehalten wird.",
+  "isoElements": {
+    "SettledBalance": {
+      "definition": "Saldo der abgewickelten Transaktionen."
+    },
+    "TradedBalance": {
+      "definition": "Saldo der abgewickelten Transaktionen und der Transaktionen, deren Abwicklung aussteht."
+    },
+    "BalanceBreakdown": {
+      "definition": "Aufschlüsselung der Bestandssalden in Teilsalden."
+    }
+  }
+}

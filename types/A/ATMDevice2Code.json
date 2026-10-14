@@ -1,0 +1,94 @@
+{
+  "isoType": "ATMDevice2Code",
+  "definition": "Liste der Geräte des ATM.",
+  "isoCodes": {
+    "ALRM": {
+      "name": "Alarmsensoren",
+      "definition": "Alarmsensoren, zum Beispiel Sensoren für Manipulation, Erschütterung oder Hitze."
+    },
+    "BRCD": {
+      "name": "Barcodeleser",
+      "definition": "Gerät zum Scannen von Barcodes mit beliebiger Scantechnologie."
+    },
+    "CAMR": {
+      "name": "Kamera",
+      "definition": "Kamera, Rekorder, Videomischer."
+    },
+    "CRDD": {
+      "name": "Kartenausgabe",
+      "definition": "Gerät zur Ausgabe von Karten an einen Verbraucher."
+    },
+    "CRDR": {
+      "name": "Karteneinheit",
+      "definition": "Gerät zum Lesen und optional zum Beschreiben von Karten mit verschiedenen Eingabearten."
+    },
+    "CSHD": {
+      "name": "Geldausgabe",
+      "definition": "Gerät zur Bargeldausgabe in einer automatisierten Umgebung oder im Beisein eines Bedieners."
+    },
+    "CSHI": {
+      "name": "Einzahlungsmodul",
+      "definition": "Gerät zur Annahme und Ausgabe von Gegenständen wie Gutscheinen, Dokumenten, Banknoten und Münzen."
+    },
+    "CSHR": {
+      "name": "Geldrecycler",
+      "definition": "Kombiniertes Gerät mit Bargeldeinzahlungsmodul, Bargeldausgabe und Bargeldwechsel."
+    },
+    "CHCK": {
+      "name": "Scheckleser",
+      "definition": "Scheckleser und Scheckbildscanner."
+    },
+    "CDIS": {
+      "name": "Kundenkonsole",
+      "definition": "Kundendisplay und Tastatur."
+    },
+    "DPST": {
+      "name": "Einzahlung",
+      "definition": "Gerät zur Einzahlung von Medien in Umschlägen oder zur Einzahlung von Beuteln mit Sammelmedien."
+    },
+    "DPRN": {
+      "name": "Dokumentendrucker",
+      "definition": "Drucker für Formulardokumente in Normalgröße, der das Drucken von Text und Grafiken unterstützt."
+    },
+    "DOOR": {
+      "name": "Türsensoren",
+      "definition": "Türsensoren, zum Beispiel für Gehäuse-, Tresor- oder Vandalismusschutztüren."
+    },
+    "INPM": {
+      "name": "Eingabeverarbeitungsmodul",
+      "definition": "Selbstbedienungsgerät zur Verarbeitung von Gegenständen."
+    },
+    "JRNL": {
+      "name": "Journal",
+      "definition": "Ereignisprotokoll."
+    },
+    "JPRN": {
+      "name": "Journaldrucker",
+      "definition": "Endlosformulargerät zur Aufzeichnung eines Papier-Prüfpfads von Transaktionen und für bestimmte Berichtsdruckanforderungen."
+    },
+    "SNSR": {
+      "name": "Anderer Sensor",
+      "definition": "Sonstige Einheit für Sensoren und Anzeigen."
+    },
+    "PSBK": {
+      "name": "Sparbuchdrucker",
+      "definition": "Kontoauszugsgerät mit automatischer Positionierung des Kontobuchs."
+    },
+    "PINR": {
+      "name": "PIN-Tastatur",
+      "definition": "Hardware-Sicherheitsmodul für die Eingabe der PIN (persönliche Identifikationsnummer), die sichere Speicherung kryptografischer Schlüssel und weitere kryptografische Funktionen."
+    },
+    "RPRN": {
+      "name": "Belegdrucker",
+      "definition": "Belegdrucker zum Bedrucken von Einzelblattdokumenten."
+    },
+    "SCAN": {
+      "name": "Scannerdrucker",
+      "definition": "Gerät, das sowohl eingelegte Dokumente scannen als auch optional bedrucken kann."
+    },
+    "RWDR": {
+      "name": "Auszahlungsbeleg",
+      "definition": "Beleg der Abhebungstransaktionen."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "GenericIdentification32",
+  "definition": "Identifikation einer Stelle.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Stelle."
+    },
+    "Type": {
+      "definition": "Art der identifizierten Stelle."
+    },
+    "Issuer": {
+      "definition": "Stelle, die die Identifikation vergibt (zum Beispiel Händler, Akzeptant, Acquirer oder Steuerbehörde)."
+    },
+    "ShortName": {
+      "definition": "Name der Stelle."
+    }
+  }
+}

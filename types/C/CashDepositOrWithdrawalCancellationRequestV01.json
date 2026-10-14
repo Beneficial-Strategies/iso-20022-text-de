@@ -1,0 +1,4 @@
+{
+  "isoType": "CashDepositOrWithdrawalCancellationRequestV01",
+  "definition": "Die Nachricht CashDepositOrWithdrawalCancellationRequest beantragt die Stornierung eines Auftrags zur Bargeldeinzahlung oder Bargeldabhebung.|Bei der Beantragung der Stornierung eines Auftrags zur Bargeldeinzahlung wird sie von einem Bargeldempfänger an einen Bargeldsender gesendet.|Bei der Beantragung der Stornierung eines Auftrags zur Bargeldabhebung wird sie von einem Bargeldsender an einen Bargeldempfänger gesendet."
+}

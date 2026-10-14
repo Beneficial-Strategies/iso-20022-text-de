@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionCancellation4",
+  "definition": "Status und Grund der Stornierung des Ereignisses der Kapitalmaßnahme.",
+  "isoElements": {
+    "CancellationReasonCode": {
+      "definition": "Gibt die Gründe für die Stornierung eines Ereignisses der Kapitalmaßnahme an."
+    },
+    "CancellationReason": {
+      "definition": "Zusätzliche Informationen zur Stornierung eines Ereignisses der Kapitalmaßnahme."
+    },
+    "ProcessingStatus": {
+      "definition": "Gibt den Status der Einzelheiten des Ereignisses an."
+    }
+  }
+}

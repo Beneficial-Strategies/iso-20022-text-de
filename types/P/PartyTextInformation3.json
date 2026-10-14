@@ -1,0 +1,20 @@
+{
+  "isoType": "PartyTextInformation3",
+  "definition": "Liefert zusätzliche Informationen zur Partei, beispielsweise die Kontakteinheit oder die für die in der Nachricht identifizierte Transaktion verantwortliche Person.",
+  "isoElements": {
+    "DeclarationDetails": {
+      "definition": "Liefert Freitext-Angaben zur Erklärung bezüglich der Partei."
+    },
+    "PartyContactDetails": {
+      "definition": "Liefert zusätzliche Informationen zur Partei, beispielsweise die Kontakteinheit oder die für die in der Nachricht identifizierte Transaktion verantwortliche Person."
+    },
+    "RegistrationDetails": {
+      "definition": "Liefert die für die Registrierung erforderlichen Informationen."
+    }
+  },
+  "isoRules": {
+    "AdditonalDetailsGuideline": {
+      "definition": "Sofern zwischen Sender und Empfänger nicht bilateral anders vereinbart, dürfen DeclarationlDetails, RegistrationDetails und PartyContactDetails keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

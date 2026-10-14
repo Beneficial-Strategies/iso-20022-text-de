@@ -1,0 +1,54 @@
+{
+  "isoType": "UnmatchedReason16Code",
+  "definition": "Legt den Grund fest, aus dem die Transaktion, Übertragung oder Abwicklungsanweisung nicht abgeglichen ist.",
+  "isoCodes": {
+    "NCRR": {
+      "name": "Abwicklungsbetrag in Währung",
+      "definition": "Die Währung des Abwicklungsbetrags stimmt nicht überein."
+    },
+    "DSEC": {
+      "name": "Finanzinstrument",
+      "definition": "Die Identifikation des Finanzinstruments stimmt nicht überein, beispielsweise unterscheiden sich ISIN oder Attribute des Finanzinstruments."
+    },
+    "DQUA": {
+      "name": "Menge des Finanzinstruments",
+      "definition": "Die Menge der Finanzinstrumente stimmt nicht überein."
+    },
+    "CMIS": {
+      "name": "Keine Übereinstimmung",
+      "definition": "Eine übereinstimmende Anweisung Ihrer Gegenpartei konnte nicht gefunden werden."
+    },
+    "DEPT": {
+      "name": "Empfangende/liefernde Verwahrstelle",
+      "definition": "Die Verwahrstelle stimmt nicht überein."
+    },
+    "ICAG": {
+      "name": "Empfangende/liefernde Partei 1",
+      "definition": "Der Teilnehmer der liefernden oder empfangenden Verwahrstelle stimmt nicht überein."
+    },
+    "ICUS": {
+      "name": "Empfangende/liefernde Partei 2",
+      "definition": "Der Kunde der liefernden oder empfangenden Partei 1 stimmt nicht überein."
+    },
+    "IEXE": {
+      "name": "Empfangende/liefernde Partei 3",
+      "definition": "Der Kunde der liefernden oder empfangenden Partei 2 stimmt nicht überein."
+    },
+    "DMON": {
+      "name": "Abwicklungsbetrag",
+      "definition": "Der Abwicklungsbetrag stimmt nicht überein."
+    },
+    "DDAT": {
+      "name": "Abwicklungsdatum",
+      "definition": "Abwicklungsdatum/-zeit stimmen nicht überein."
+    },
+    "DTRD": {
+      "name": "Handelstag",
+      "definition": "Der Handelstag stimmt nicht überein."
+    },
+    "DELN": {
+      "name": "Transaktionsrichtung",
+      "definition": "Die Richtung des Geschäfts stimmt nicht überein. Die Gegenpartei erwartet von Ihnen eine Lieferung, keinen Empfang, oder umgekehrt."
+    }
+  }
+}

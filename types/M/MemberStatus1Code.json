@@ -1,0 +1,22 @@
+{
+  "isoType": "MemberStatus1Code",
+  "definition": "Gibt den Live-Status eines Teilnehmers eines Systems an.",
+  "isoCodes": {
+    "ENBL": {
+      "name": "Aktiviert",
+      "definition": "Der Teilnehmer ist im System aktiv."
+    },
+    "DSBL": {
+      "name": "Deaktiviert",
+      "definition": "Der Teilnehmer ist vorübergehend nicht im System aktiv."
+    },
+    "DLTD": {
+      "name": "Gelöscht",
+      "definition": "Der Teilnehmer ist nicht mehr im System aktiv."
+    },
+    "JOIN": {
+      "name": "Beitretend",
+      "definition": "Der Teilnehmer tritt bei und wird in Kürze im System freigeschaltet."
+    }
+  }
+}

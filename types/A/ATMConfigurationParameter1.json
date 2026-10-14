@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMConfigurationParameter1",
+  "definition": "Version der Konfigurationsparameter des ATM.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art der Konfiguration des ATM."
+    },
+    "Version": {
+      "definition": "Aktive Version der Konfiguration."
+    }
+  }
+}

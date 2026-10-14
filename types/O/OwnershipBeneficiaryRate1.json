@@ -1,0 +1,17 @@
+{
+  "isoType": "OwnershipBeneficiaryRate1",
+  "definition": "Anteil am Eigentum oder am wirtschaftlichen Eigentum an den Aktien/Anteilen auf dem Konto.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Als Prozentsatz ausgedrücktes Eigentum oder wirtschaftliches Eigentum."
+    },
+    "Fraction": {
+      "definition": "Als Bruchteil oder in anderer Form ausgedrücktes Eigentum oder wirtschaftliches Eigentum."
+    }
+  },
+  "isoRules": {
+    "OwnershipBeneficiaryRateRule": {
+      "definition": "Entweder Rate oder Fraction muss vorhanden sein. Beide können vorhanden sein."
+    }
+  }
+}

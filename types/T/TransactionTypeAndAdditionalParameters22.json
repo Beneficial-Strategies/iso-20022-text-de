@@ -1,0 +1,38 @@
+{
+  "isoType": "TransactionTypeAndAdditionalParameters22",
+  "definition": "Gibt die Bedingungen an, zu denen der Auftrag/Handel abzuwickeln ist.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion (eindeutig je Sicherheitenstück), wie sie dem Kontoinhaber (oder der anweisenden Partei, die das Konto verwaltet) bekannt ist."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion (eindeutig je Sicherheitenstück), wie sie dem Kontoführer bekannt ist."
+    },
+    "SecuritiesFinancingTransactionType": {
+      "definition": "Gibt die Art der Wertpapierfinanzierungstransaktion an, das heißt Repurchase Agreement, Reverse Repurchase Agreement, Wertpapierleihe oder Wertpapierentleihe."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Legt fest, ob die Bewegung auf einem Wertpapierkonto aus einer Liefer- oder einer Empfangsanweisung resultiert."
+    },
+    "Payment": {
+      "definition": "Legt fest, wie die Transaktion abgewickelt werden soll, beispielsweise gegen Zahlung."
+    },
+    "CommonIdentification": {
+      "definition": "Eindeutige Referenz, auf die sich die beiden Handelspartner zur Identifizierung des Handelsgeschäfts geeinigt haben."
+    },
+    "PoolIdentification": {
+      "definition": "Sammelreferenz zur Identifikation einer Gruppe von Nachrichten."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Vom kontoführenden Institut vergebene Identifikation zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "NonceIdentification": {
+      "definition": "Zweifelsfreie Identifikation einer Zufallszahl oder Quasi-Zufallszahl zur einmaligen Verwendung (NONCE), die im Rahmen einer kryptografischen Kommunikation erzeugt wird."
+    }
+  },
+  "isoRules": {
+    "TwoLegTransactionOpeningClosingRule": {
+      "definition": "Für in zwei Teilen abgewickelte Transaktionen (Wertpapierfinanzierung) werden die Informationen zur Eröffnung/Initiierung und Schließung/Rückgabe der Transaktion durch Senden der folgenden Kombination aus SecuritiesMovementType-Codes und SecuritiesFinancingTransactionType-Codes bereitgestellt (siehe unten):||Repo-Eröffnung|SecuritiesMovementType: Delivery (DELI)|SecuritiesFinancingTransactionType: Repo (REPU)|Repo-Schließung|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: Repo (REPU)||Reverse-Repo-Eröffnung|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: ReverseRepo (RVPO)|Reverse-Repo-Schließung|SecuritiesMovementType: Delivery (DELI) |SecuritiesFinancingTransactionType: ReverseRepo (RVPO)||Wertpapierleihe, Initiierung|SecuritiesMovementType: Delivery (DELI)|SecuritiesFinancingTransactionType: SecuritiesLending (SECL)|Wertpapierleihe, Rückgabe|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: SecuritiesLending (SECL)||Wertpapierentleihe, Initiierung|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: SecuritiesBorrowing (SECB)|Wertpapierentleihe, Rückgabe|SecuritiesMovementType: Delivery (DELI) |SecuritiesFinancingTransactionType: SecuritiesBorrowing (SECB)."
+    }
+  }
+}

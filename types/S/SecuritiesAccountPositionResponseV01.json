@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesAccountPositionResponseV01",
+  "definition": "ANWENDUNGSBEREICH|Die Nachricht SecuritiesAccountPositionResponse wird von einer Marktinfrastruktur an eine anweisende Partei gesendet, um die Wertpapierbestände für den in der Abfrage angeforderten Datumszeitraum für alle Wertpapiere über alle Konten, die die Abfragekriterien erfüllen, zu melden.||VERWENDUNG|Die Nachricht SecuritiesAccountPositionResponse stellt CSDs und T2S-Teilnehmern einen Bericht zur SecuritiesAccountPositionQuery zur Verfügung, der die Salden der angegebenen Wertpapierkonten innerhalb des angegebenen Zeitraums zurückgibt, die die definierten Auswahlkriterien erfüllen. Die Securities Account Position Response liefert die folgenden fachlichen Attribute:|- CSD |- Kontoinhaber|- Wertpapierkontonummer|- Wertpapierkennung (z. B. ISIN)|- Datum|- Der Gesamtbestand|- Der gesperrte Bestand|- Der freie Bestand ||Sofern der Absender in der Securities Balance Query nichts anderes angibt, gibt T2S nur Wertpapierbestände ungleich null auf den Konten zurück.||Die Nachricht kann auch verwendet werden, um: ||- eine zuvor gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist Duplicate) ||- einem Dritten eine Kopie einer Nachricht zur Information bereitzustellen (die Unterfunktion der Nachricht ist Copy) ||- einem Dritten eine Kopie einer Nachricht zur Information erneut zu senden (die Unterfunktion der Nachricht ist Copy Duplicate) (SCOPE) (USAGE).",
+  "isoRules": {
+    "BalancePresenceRule": {
+      "definition": "Wenn ReportGeneralDetails/ActivityIndicator TRUE (Yes) ist, muss Balances vorhanden sein. Wenn ReportGeneralDetails/ActivityIndicator FALSE (No) ist, muss Balances nicht vorhanden sein."
+    },
+    "BalanceForAccountReportingRule": {
+      "definition": "Wenn ReportGeneralDetails/ActivityIndicator TRUE (Yes) ist und ReportGeneralDetails/SubAccountIndicator FALSE (NO) ist, muss Balances/BalanceForAccount vorhanden sein und Balances/SubAccountDetails nicht vorhanden sein."
+    },
+    "SubAccountReportingRule": {
+      "definition": "Wenn ReportGeneralDetails/ActivityIndicator TRUE (Yes) ist und ReportGeneralDetails/SubAccountIndicator TRUE (YES) ist, muss Balances/SubAccountDetails vorhanden sein und Balances/BalanceForAccount nicht vorhanden sein."
+    }
+  }
+}

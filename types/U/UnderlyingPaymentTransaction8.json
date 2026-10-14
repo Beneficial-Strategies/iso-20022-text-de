@@ -1,0 +1,38 @@
+{
+  "isoType": "UnderlyingPaymentTransaction8",
+  "definition": "Enthält weitere Details zur ursprünglichen Zahlungstransaktion, auf die sich die Untersuchungsnachricht bezieht.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "definition": "Menge von Elementen mit Informationen zur ursprünglichen Nachricht."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Eindeutige Identifikation, wie von der ursprünglichen anweisenden Partei für die ursprüngliche angewiesene Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Anweisung."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Eindeutige Identifikation, wie von der ursprünglichen initiierenden Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Transaktion."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Eindeutige Identifikation, wie von der ursprünglichen ersten anweisenden Bank vergeben, zur zweifelsfreien Identifikation der Transaktion."
+    },
+    "OriginalUETR": {
+      "definition": "Universell eindeutiger Bezeichner (UUID) für die ursprüngliche Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "definition": "Geldbetrag, der gemäß der ursprünglichen Anweisung zwischen der anweisenden Bank und der angewiesenen Bank bewegt wurde."
+    },
+    "OriginalInterbankSettlementDate": {
+      "definition": "Datum gemäß der ursprünglichen Transaktion, an dem der Geldbetrag der zahlungspflichtigen Bank nicht mehr zur Verfügung steht und der zahlungsberechtigten Bank zur Verfügung steht."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Schlüsselelemente zur Identifikation der ursprünglichen Transaktion, auf die Bezug genommen wird."
+    },
+    "OriginalServiceLevel": {
+      "definition": "Vereinbarung bzw. Regeln, nach denen die Transaktion verarbeitet werden soll."
+    }
+  },
+  "isoRules": {
+    "OriginalIdentificationRule": {
+      "definition": "Entweder OriginalInstructionIdentification, OriginalEndToEndIdentification, OriginalTransactionIdentification oder OriginalUETR muss vorhanden sein."
+    }
+  }
+}

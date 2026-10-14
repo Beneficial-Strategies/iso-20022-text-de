@@ -1,0 +1,46 @@
+{
+  "isoType": "ExternalBalanceType1Code",
+  "definition": "Gibt den Saldotyp an, wie in einem externen Code-Set für Saldotypen veröffentlicht.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "CLAV": {
+      "name": "Verfügbarer Schlusssaldo",
+      "definition": "Schlusssaldo des Geldbetrags, der dem Kontoinhaber zum angegebenen Datum zur Verfügung steht."
+    },
+    "CLBD": {
+      "name": "Gebuchter Schlusssaldo",
+      "definition": "Saldo des Kontos am Ende des vereinbarten Kontoberichtszeitraums. Er ist die Summe aus dem gebuchten Eröffnungssaldo zu Beginn des Zeitraums und allen Buchungen, die während des vereinbarten Kontoberichtszeitraums auf dem Konto vorgenommen wurden."
+    },
+    "FWAV": {
+      "name": "Verfügbarer Vorausssaldo",
+      "definition": "Vorausschauender verfügbarer Saldo des Geldbetrags, der dem Kontoinhaber zum angegebenen Datum zur Verfügung steht."
+    },
+    "INFO": {
+      "name": "Information",
+      "definition": "Saldo zu Informationszwecken."
+    },
+    "ITAV": {
+      "name": "Verfügbarer Zwischensaldo",
+      "definition": "Verfügbarer Saldo, der im Verlauf des Geschäftstags des kontoführenden Instituts zum angegebenen Zeitpunkt berechnet wird und im Laufe des Geschäftstags weiteren Änderungen unterliegt. Der Zwischensaldo wird auf Grundlage der gebuchten Gutschrifts- und Lastschriftposten im angegebenen Berechnungszeitpunkt bzw. -zeitraum berechnet."
+    },
+    "ITBD": {
+      "name": "Gebuchter Zwischensaldo",
+      "definition": "Saldo, der im Laufe des Geschäftstags des kontoführenden Instituts zum angegebenen Zeitpunkt berechnet wird und während des Geschäftstags weiteren Änderungen unterliegt. Der Zwischensaldo wird auf der Grundlage der gebuchten Gutschriften und Lastschriften im angegebenen Berechnungszeitpunkt bzw. -zeitraum berechnet."
+    },
+    "OPAV": {
+      "name": "Verfügbarer Anfangssaldo",
+      "definition": "Eröffnungssaldo des Geldbetrags, der dem Kontoinhaber zum angegebenen Datum zur Verfügung steht."
+    },
+    "OPBD": {
+      "name": "Gebuchter Anfangssaldo",
+      "definition": "Buchsaldo des Kontos zu Beginn des Kontoberichtszeitraums. Er entspricht stets dem Buchschlusssaldo des vorherigen Berichts."
+    },
+    "PRCD": {
+      "name": "Zuvor abgeschlossener gebuchter Saldo",
+      "definition": "Saldo des Kontos am Ende des zuvor abgeschlossenen Kontoberichtszeitraums. Der gebuchte Eröffnungssaldo für den neuen Zeitraum muss diesem Saldo entsprechen.|Verwendung: Der zuvor gebuchte Schlusssaldo sollte (einschließlich Datum) dem gebuchten Schlusssaldo des referenzierten Datums und dem tatsächlichen gebuchten Eröffnungssaldo des aktuellen Datums entsprechen."
+    },
+    "XPCD": {
+      "name": "Erwartet",
+      "definition": "Saldo, bestehend aus gebuchten Buchungen und zum Berechnungszeitpunkt bekannten ausstehenden Posten, der den Tagesendsaldo prognostiziert, wenn alles auf dem Konto gebucht wird und keine weitere Buchung erfolgt."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "SettlementMethod1Code",
+  "definition": "Gibt das Verfahren an, mit dem die Überweisungsanweisung abgewickelt wird.",
+  "isoCodes": {
+    "INDA": {
+      "name": "Angewiesene Bank",
+      "definition": "Die Abwicklung erfolgt durch die Bank, die mit der Ausführung einer Zahlungsanweisung beauftragt wurde."
+    },
+    "INGA": {
+      "name": "Anweisende Bank",
+      "definition": "Die Abwicklung erfolgt durch die Bank, die die Zahlung anweist und an die nächste Partei in der Zahlungskette weiterleitet."
+    },
+    "COVE": {
+      "name": "Deckungsmethode",
+      "definition": "Die Abwicklung erfolgt über eine Deckungszahlung."
+    },
+    "CLRG": {
+      "name": "Clearingsystem",
+      "definition": "Die Abwicklung erfolgt über ein Zahlungsclearingsystem."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "MarketInfrastructureIdentification1Choice",
+  "definition": "Gibt die Identifikation der Marktinfrastruktur an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Infrastruktur, über die die Zahlungsanweisung verarbeitet wird, wie in einer externen Code-Liste zur Identifikation von Clearing-Systemen veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Identifikation des Clearing-Systems in proprietärer Form.|."
+    }
+  }
+}

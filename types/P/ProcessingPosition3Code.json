@@ -1,0 +1,22 @@
+{
+  "isoType": "ProcessingPosition3Code",
+  "definition": "Gibt die Verarbeitungsposition an.",
+  "isoCodes": {
+    "AFTE": {
+      "name": "Nach",
+      "definition": "Gibt an, dass die Transaktion bzw. Anweisung nach der verknüpften Transaktion bzw. Anweisung auszuführen ist."
+    },
+    "WITH": {
+      "name": "Mit",
+      "definition": "Gibt an, dass die Transaktion bzw. Anweisung zusammen mit der verknüpften Transaktion bzw. Anweisung auszuführen ist."
+    },
+    "BEFO": {
+      "name": "Vor",
+      "definition": "Gibt an, dass die Transaktion bzw. Anweisung vor der verknüpften Transaktion bzw. Anweisung auszuführen ist."
+    },
+    "INFO": {
+      "name": "Information",
+      "definition": "Gibt an, dass die Transaktionen bzw. Anweisungen nur zu Informationszwecken verknüpft sind."
+    }
+  }
+}

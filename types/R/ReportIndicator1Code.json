@@ -1,0 +1,14 @@
+{
+  "isoType": "ReportIndicator1Code",
+  "definition": "Gibt die Art des Reports an, das heißt Standard oder proprietär.",
+  "isoCodes": {
+    "STND": {
+      "name": "Standard",
+      "definition": "Der angeforderte Report muss Informationen im Format eines Kontoauszugs enthalten."
+    },
+    "PRPR": {
+      "name": "Proprietär",
+      "definition": "Der angeforderte Report muss Informationen in einem bilateral vereinbarten Format enthalten."
+    }
+  }
+}

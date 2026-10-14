@@ -1,0 +1,21 @@
+{
+  "isoType": "Signer3",
+  "definition": "Stelle, die die Daten signiert hat, und ihre digitale Signatur.",
+  "isoElements": {
+    "Version": {
+      "definition": "Version der Datenstruktur der Cryptographic Message Syntax (CMS)."
+    },
+    "SignerIdentification": {
+      "definition": "Identifikation der Stelle, die die Daten signiert hat."
+    },
+    "DigestAlgorithm": {
+      "definition": "Identifikation eines vor der Signatur anzuwendenden Digest-Algorithmus."
+    },
+    "SignatureAlgorithm": {
+      "definition": "Kryptografischer Algorithmus für digitale Signaturen."
+    },
+    "Signature": {
+      "definition": "Digitale Signatur."
+    }
+  }
+}

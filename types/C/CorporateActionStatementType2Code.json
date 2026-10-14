@@ -1,0 +1,22 @@
+{
+  "isoType": "CorporateActionStatementType2Code",
+  "definition": "Gibt an, ob der Kontoauszug nur fehlende Anweisungen oder alle Anweisungen enthält.",
+  "isoCodes": {
+    "MISS": {
+      "name": "Fehlend",
+      "definition": "Der Kontoauszug enthält fehlende Anweisungen."
+    },
+    "ALLL": {
+      "name": "Alle",
+      "definition": "Der Kontoauszug enthält alle Anweisungen."
+    },
+    "BALO": {
+      "name": "Benachrichtigung nur mit Bestand",
+      "definition": "Bestandsinformationen ohne Angabe von Anweisungsdetails."
+    },
+    "BALI": {
+      "name": "Bestandsinformationen",
+      "definition": "Bestandsinformationen mit Anweisungsdetails."
+    }
+  }
+}

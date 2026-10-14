@@ -1,0 +1,12 @@
+{
+  "isoType": "QuantityAndAvailability3",
+  "definition": "Nettoposition eines getrennt geführten Bestands eines einzelnen Wertpapiers innerhalb der Gesamtposition auf dem Wertpapierkonto, zum Beispiel Teilsaldo je Status.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Menge der Wertpapiere im Teilsaldo."
+    },
+    "AvailabilityIndicator": {
+      "definition": "Gibt an, ob die Menge der Wertpapiere im Unterbestand verfügbar ist."
+    }
+  }
+}

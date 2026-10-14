@@ -1,0 +1,22 @@
+{
+  "isoType": "PoliticalExposureType2Code",
+  "definition": "Gibt die Art der politischen Exponiertheit an.",
+  "isoCodes": {
+    "NPEX": {
+      "name": "Keine politische Exponierung",
+      "definition": "Keine politische Exponiertheit."
+    },
+    "YPEX": {
+      "name": "Politische Exponierung",
+      "definition": "Politische Exponiertheit."
+    },
+    "PEXD": {
+      "name": "Inländische politische Exponierung",
+      "definition": "Die Art der politischen Exponiertheit ist inländisch."
+    },
+    "PEXF": {
+      "name": "Ausländische politische Exponierung",
+      "definition": "Die Art der politischen Exponiertheit ist ausländisch."
+    }
+  }
+}

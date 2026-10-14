@@ -1,0 +1,18 @@
+{
+  "isoType": "StatementFrequencyAndForm1",
+  "definition": "Legt Häufigkeit, Format und Zustelladresse für Kontoauszüge fest.",
+  "isoElements": {
+    "Frequency": {
+      "definition": "Legt die Häufigkeit für das Senden von Kontoauszügen fest."
+    },
+    "CommunicationMethod": {
+      "definition": "Legt die Kommunikationsmethode für Kontoauszüge fest."
+    },
+    "DeliveryAddress": {
+      "definition": "Legt die Zustelladresse für Kontoauszüge fest."
+    },
+    "Format": {
+      "definition": "Legt das Format für Kontoauszüge fest."
+    }
+  }
+}

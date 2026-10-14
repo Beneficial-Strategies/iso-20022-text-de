@@ -1,0 +1,12 @@
+{
+  "isoType": "SignedQuantityFormat15",
+  "definition": "Vorzeichenbehaftete Menge eines Wertpapiers für verschiedene Mengenformate.",
+  "isoElements": {
+    "ShortLongPosition": {
+      "definition": "Vorzeichen der Wertpapiermenge."
+    },
+    "Quantity": {
+      "definition": "Wertpapiermenge."
+    }
+  }
+}

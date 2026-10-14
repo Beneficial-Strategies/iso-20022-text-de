@@ -1,0 +1,22 @@
+{
+  "isoType": "ProfileType1Code",
+  "definition": "Gibt die Art des Profils an.",
+  "isoCodes": {
+    "HEDG": {
+      "name": "Absicherung",
+      "definition": "Anleger, die Absicherungsgeschäfte (Hedging) einsetzen und so das Risiko großer Kursschwankungen vermeiden."
+    },
+    "HFTR": {
+      "name": "Hochfrequenzhändler",
+      "definition": "Anleger, die über Algorithmen handeln und Aufträge automatisch gemäß den von ihren Managern festgelegten Strategien senden. Über dieses Zugangsmodell werden die Teilnehmer dieser Server überwiegend in den Räumlichkeiten des brasilianischen Marktes gehostet und verkürzen die Übermittlungszeit von Angeboten an Handelssysteme erheblich."
+    },
+    "MAKE": {
+      "name": "Market Maker",
+      "definition": "Liquiditätsagent, Liquiditätsermöglicher, Geschäftsförderer, Spezialist, Market Maker und Liquiditätsanbieter sind einige Bezeichnungen für diejenigen, die sich anbieten, Liquidität und einen Mindestreferenzpreis für zuvor zugelassene Vermögenswerte bereitzustellen, Faktoren, die bei der Analyse der Effizienz an den Kapitalmärkten hervorgehoben werden."
+    },
+    "TREA": {
+      "name": "Treasury",
+      "definition": "Handelssystem für Bundeswertpapiere im Privatkundenmarkt direkt an den Anleger. Das Geschäft kann direkt über das Internet abgewickelt werden."
+    }
+  }
+}

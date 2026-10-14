@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountReport35",
+  "definition": "Berichtet entweder über die Kontoinformationen oder über einen Geschäftsfehler.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "AccountOrError": {
+      "definition": "Angeforderte Informationen zum Konto oder Geschäftsfehler, wenn die Informationen nicht gefunden wurden."
+    }
+  }
+}

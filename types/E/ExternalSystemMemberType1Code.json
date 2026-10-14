@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalSystemMemberType1Code",
+  "definition": "Gibt die Art der Mitgliedschaft einer Partei in einem System an, wie in einer externen Code-Liste für Systemteilnehmertypen veröffentlicht.|Externe Code-Listen können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "DRCT": {
+      "name": "Direkt",
+      "definition": "Das Mitglied hat volle Rechte im System. Dieser Mitgliedsstatus beinhaltet grundsätzlich die finanzielle Verantwortung für die eigenen im System eingereichten Geschäfte und die der gesponserten Mitglieder."
+    },
+    "IDRT": {
+      "name": "Indirekt",
+      "definition": "Das Mitglied hat eingeschränkte Rechte gemäß den Systemspezifikationen. Dieser Mitgliedsstatus beinhaltet grundsätzlich keine finanzielle Verantwortung für die im System eingereichten Geschäfte."
+    },
+    "RMTE": {
+      "name": "Remote",
+      "definition": "Das Mitglied hat von einem entfernten Standort oder über technische Fernzugriffsmittel Zugang zum System."
+    },
+    "EURO": {
+      "name": "EURO1",
+      "definition": "Das Mitglied ist berechtigt, auf das Euro1-System der Euro Banking Association (EBA) zuzugreifen."
+    },
+    "STEP": {
+      "name": "STEP1",
+      "definition": "Das Mitglied ist berechtigt, auf das Step1-System der Euro Banking Association (EBA) zuzugreifen."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "TransactionAndDocumentIdentification6",
+  "definition": "Angaben zur Identifikation von Transaktion und Dokument.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie der anweisenden Partei bekannt."
+    },
+    "DocumentIdentification": {
+      "definition": "Eindeutiger Bezeichner des Dokuments (der Nachricht), vom Absender des Dokuments vergeben."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen die Transaktion von der anweisenden Partei in ihrer Geschäftsanwendung erstellt wurde."
+    },
+    "CopyDuplicate": {
+      "definition": "Gibt an, ob dieses Dokument eine Kopie, ein Duplikat oder ein Duplikat einer Kopie ist."
+    },
+    "MessageOriginator": {
+      "definition": "Partei, von der die Nachricht ausgeht, sofern nicht mit dem Absender identisch."
+    },
+    "MessageRecipient": {
+      "definition": "Partei, die das endgültige Ziel der Nachricht ist, sofern nicht mit dem Empfänger identisch."
+    }
+  }
+}

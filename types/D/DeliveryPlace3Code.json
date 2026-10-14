@@ -1,0 +1,26 @@
+{
+  "isoType": "DeliveryPlace3Code",
+  "definition": "Gibt den Lieferort an.",
+  "isoCodes": {
+    "EMAL": {
+      "name": "E-Mail",
+      "definition": "Die Karte muss per E-Mail gesendet werden."
+    },
+    "EMPL": {
+      "name": "Arbeitgeber",
+      "definition": "Die Karte muss an die Anschrift des Arbeitgebers gesendet werden."
+    },
+    "INDI": {
+      "name": "Einzeln",
+      "definition": "Die Karte muss an die in PersonDetail angegebene Person gesendet werden."
+    },
+    "ENTR": {
+      "name": "Versammlungseingang",
+      "definition": "Die Karte muss am Eingang der Versammlung bereitgehalten werden."
+    },
+    "OADR": {
+      "name": "Andere Adresse",
+      "definition": "Die Karten müssen an eine andere angegebene Anschrift gesendet werden."
+    }
+  }
+}

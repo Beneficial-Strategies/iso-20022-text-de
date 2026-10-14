@@ -1,0 +1,18 @@
+{
+  "isoType": "PenaltyListType1Code",
+  "definition": "Gibt die Art des Berichts für die Strafzahlungen an.",
+  "isoCodes": {
+    "CURR": {
+      "name": "Aktuell",
+      "definition": "Zur Meldung der neuen und der geänderten Strafzahlungen in einer einzigen Nachricht bzw. einem einzigen Bericht (/report)."
+    },
+    "FWAM": {
+      "name": "Weiterleitung mit Änderung",
+      "definition": "Zur Meldung einer geänderten Liste der Strafzahlungen (das heißt, die Liste enthält nur aktualisierte und/oder entfernte Strafzahlungen, die bereits zuvor in einer FWIS Penalty List gemeldet wurden)."
+    },
+    "FWIS": {
+      "name": "Weiterleitung der Erstübermittlung",
+      "definition": "Zur Meldung einer erstmals erstellten täglichen Liste der Strafzahlungen (das heißt, die Liste enthält nur neu berechnete Strafzahlungen)"
+    }
+  }
+}

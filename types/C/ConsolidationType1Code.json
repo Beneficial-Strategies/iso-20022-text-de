@@ -1,0 +1,14 @@
+{
+  "isoType": "ConsolidationType1Code",
+  "definition": "Gibt die Konsolidierungsart an.",
+  "isoCodes": {
+    "GENL": {
+      "name": "Allgemein",
+      "definition": "Die Konsolidierung erfolgt allgemein."
+    },
+    "PART": {
+      "name": "Teilnahme",
+      "definition": "Die Konsolidierung erfolgt auf Ebene des Teilnehmers."
+    }
+  }
+}

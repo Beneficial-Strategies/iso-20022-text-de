@@ -1,0 +1,27 @@
+{
+  "isoType": "PaymentStatusReason1Choice",
+  "definition": "Grund für den Status der Zahlungstransaktion.",
+  "isoElements": {
+    "Unmatched": {
+      "definition": "Grund, weshalb der Zahlungsstatus „nicht abgeglichen“ ist."
+    },
+    "Cancelled": {
+      "definition": "Grund, weshalb der Zahlungsstatus „storniert“ ist."
+    },
+    "Suspended": {
+      "definition": "Grund, weshalb der Zahlungsstatus „ausgesetzt“ ist."
+    },
+    "PendingFailingSettlement": {
+      "definition": "Grund, weshalb der Zahlungsstatus „offen“ ist (Abwicklung schlägt fehl)."
+    },
+    "PendingSettlement": {
+      "definition": "Grund, weshalb der Zahlungsstatus „offen“ ist (Abwicklung)."
+    },
+    "ProprietaryRejection": {
+      "definition": "Definiert den Grund, den das System für die Ablehnung der Transaktion verwendet hat."
+    },
+    "Proprietary": {
+      "definition": "Definiert einen proprietären Grund als Freitext."
+    }
+  }
+}

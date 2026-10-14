@@ -1,0 +1,18 @@
+{
+  "isoType": "CancellationIndividualStatus1Code",
+  "definition": "Gibt den Status eines Stornierungsauftrags an.",
+  "isoCodes": {
+    "RJCR": {
+      "name": "Stornierungsauftrag abgelehnt",
+      "definition": "Der Stornierungsauftrag ist abgelehnt."
+    },
+    "ACCR": {
+      "name": "Stornierungsauftrag akzeptiert",
+      "definition": "Die Stornierung ist akzeptiert."
+    },
+    "PDCR": {
+      "name": "Stornierungsauftrag ausstehend",
+      "definition": "Der Stornierungsauftrag ist in Bearbeitung."
+    }
+  }
+}

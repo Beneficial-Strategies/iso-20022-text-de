@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrencyToBuyOrSell1Choice",
+  "definition": "Auswahl der Gegenparteiart.",
+  "isoElements": {
+    "CurrencyToBuy": {
+      "definition": "Die kontoführende Stelle wird angewiesen, nach Eingang der Barerlöse die angegebene Währung zu kaufen."
+    },
+    "CurrencyToSell": {
+      "definition": "Der Kontoführer wird angewiesen, die angegebene Währung zu verkaufen, um die zur Finanzierung der Transaktion erforderliche Währung zu beschaffen."
+    }
+  }
+}

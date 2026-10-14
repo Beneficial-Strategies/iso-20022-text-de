@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionNotificationType1Code",
+  "definition": "Art der Benachrichtigungsmitteilung.",
+  "isoCodes": {
+    "NEWM": {
+      "name": "Neu",
+      "definition": "Neue Benachrichtigung."
+    },
+    "REPL": {
+      "name": "Ersetzung",
+      "definition": "Benachrichtigung, die eine zuvor gesendete Benachrichtigung ersetzt."
+    },
+    "RMDR": {
+      "name": "Erinnerung",
+      "definition": "Benachrichtigung, die als Erinnerung an ein stattfindendes Ereignis gesendet wird."
+    }
+  }
+}

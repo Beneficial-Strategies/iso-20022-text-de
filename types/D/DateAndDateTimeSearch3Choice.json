@@ -1,0 +1,12 @@
+{
+  "isoType": "DateAndDateTimeSearch3Choice",
+  "definition": "Auswahl zwischen einem Datum oder einem Datums-/Zeitmuster als Suchauswahlkriterium.",
+  "isoElements": {
+    "DateTimeSearch": {
+      "definition": "Muster für die Suche nach Datum und Uhrzeit."
+    },
+    "DateSearch": {
+      "definition": "Muster für die Suche nach einem Datum."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope44",
+  "definition": "Umfang der Änderung, die auf einen bestimmten Informationssatz anzuwenden ist.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Gibt die Art der anzuwendenden Änderung an."
+    },
+    "ServiceLevelAgreement": {
+      "definition": "Identifikation von Informationen, die Teil einer Dienstgütevereinbarung (Service Level Agreement) sind."
+    }
+  }
+}

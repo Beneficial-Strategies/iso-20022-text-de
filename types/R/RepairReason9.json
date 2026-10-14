@@ -1,0 +1,12 @@
+{
+  "isoType": "RepairReason9",
+  "definition": "Legt den Grund fest, aus dem sich die Anweisung in Korrektur befindet.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, weshalb die Anweisung/der Antrag den Status Korrektur hat."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Enthält zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

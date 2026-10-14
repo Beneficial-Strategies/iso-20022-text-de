@@ -1,0 +1,21 @@
+{
+  "isoType": "SettlementTransactionStatusType2",
+  "definition": "Auswahl des Statustyps der Wertpapierabwicklungsanweisung.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Gibt Einzelheiten zum Bearbeitungsstatus der Transaktion an."
+    },
+    "InferredMatchingStatus": {
+      "definition": "Liefert den Abgleichsstatus einer Anweisung, wie er dem Kontoführer auf Grundlage einer Behauptung (Allegement) bekannt ist. Zu diesem Zeitpunkt hat am Markt (beim Zentralverwahrer/internationalen Zentralverwahrer) noch kein Abgleich stattgefunden (CSD) (ICSD)."
+    },
+    "MatchingStatus": {
+      "definition": "Liefert den Abgleichsstatus der Anweisung."
+    },
+    "SettlementStatus": {
+      "definition": "Gibt den Abwicklungsstatus einer Transaktion an."
+    },
+    "Settled": {
+      "definition": "Legt fest, dass die Transaktion abgewickelt wurde."
+    }
+  }
+}

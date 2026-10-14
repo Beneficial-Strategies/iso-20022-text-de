@@ -1,0 +1,12 @@
+{
+  "isoType": "Liability1Choice",
+  "definition": "Auswahl von Formaten für die Haftung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Haftung."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Haftung."
+    }
+  }
+}

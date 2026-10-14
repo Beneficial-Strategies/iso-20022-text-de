@@ -1,0 +1,12 @@
+{
+  "isoType": "ResidualCash1",
+  "definition": "Gibt an, ob auf dem Konto Barmittel vorhanden sind, die auf Anlage warten.",
+  "isoElements": {
+    "ResidualCashIndicator": {
+      "definition": "Gibt an, ob auf dem Konto Barmittel vorhanden sind, die auf Anlage warten."
+    },
+    "Currency": {
+      "definition": "Währung der Barmittel."
+    }
+  }
+}

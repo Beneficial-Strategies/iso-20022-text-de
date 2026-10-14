@@ -1,0 +1,156 @@
+{
+  "isoType": "CorporateActionAmounts1",
+  "definition": "Gibt Beträge im Rahmen eines Kapitalmaßnahmen-Ereignisses an.",
+  "isoElements": {
+    "GrossCashAmount": {
+      "definition": "Geldbetrag vor Abzügen und Freibeträgen."
+    },
+    "NetCashAmount": {
+      "definition": "Geldbetrag nach etwaigen Abzügen und Freibeträgen, d. h. der Gesamtbetrag +/- Entgelte/Gebühren."
+    },
+    "IssueDiscountAmount": {
+      "definition": "Geldbetrag, der als Abschlag auf eine Neuemission oder auf eine Tranche einer bestehenden Emission definiert ist."
+    },
+    "SolicitationFees": {
+      "definition": "Betrag der Barprämie, der bereitgestellt wird, um die Teilnahme am Angebot zu fördern. Die Zahlung erfolgt an einen Dritten, der eine Stelle zur Teilnahme am Angebot aufgefordert hat."
+    },
+    "CashInLieuOfShare": {
+      "definition": "Barauszahlung anstelle einer Bruchteilsmenge von z. B. Aktien."
+    },
+    "OriginalAmount": {
+      "definition": "Betrag in seiner ursprünglichen Währung, wenn eine Umrechnung von/in eine andere Währung stattgefunden hat."
+    },
+    "CapitalGain": {
+      "definition": "Geldbetrag, der als Ergebnis eines Kapitalgewinns ausgeschüttet wird."
+    },
+    "InterestAmount": {
+      "definition": "Geldbetrag, der einer Kuponzahlung entspricht."
+    },
+    "IndemnityAmount": {
+      "definition": "(Nur in Frankreich) Betrag, der einem Käufer von Wertpapieren zusteht, die vor dem Ex-Tag gehandelt wurden und einem anderen Steuersatz unterliegen können."
+    },
+    "RedemptionPremiumAmount": {
+      "definition": "Geldbetrag (keine Zinsen) zusätzlich zum Kapitalbetrag bei der Rückzahlung einer Anleihe."
+    },
+    "ManufacturedDividendAmount": {
+      "definition": "Geldbetrag, den der Entleiher dem Verleiher als Ausgleich zahlt. Er berechtigt den Verleiher nicht zur Rückforderung einer Steuergutschrift und wird von den lokalen Steuerbehörden des Verleihers mitunter anders behandelt."
+    },
+    "PrincipalOrCorpus": {
+      "definition": "Geldbetrag, der eine Ausschüttung des Kapitalbetrags einer Anleihe darstellt, z. B. Rückzahlung ausstehender Schulden."
+    },
+    "ReinvestmentAmount": {
+      "definition": "Geldbetrag, der in zusätzliche Wertpapiere reinvestiert wird."
+    },
+    "MarketClaimAmount": {
+      "definition": "Geldbetrag, der sich aus einem Market Claim ergibt."
+    },
+    "FullyFrankedAmount": {
+      "definition": "Betrag aus einer vollständig anrechnungsfähigen Dividende (fully franked), die von einem Unternehmen gezahlt wird; der Betrag enthält die Steuergutschrift für Unternehmen, die im Geschäftsjahr ausreichende Steuerzahlungen geleistet haben."
+    },
+    "UnfrankedAmount": {
+      "definition": "Betrag aus einer nicht anrechnungsfähigen Dividende (unfranked), die von einem Unternehmen gezahlt wird; der Betrag enthält keine Steuergutschrift und unterliegt der Quellensteuer."
+    },
+    "SundryOrOtherAmount": {
+      "definition": "Geldbetrag im Zusammenhang mit steuerpflichtigem Einkommen, der nicht kategorisiert werden kann."
+    },
+    "SpecialConcessionAmount": {
+      "definition": "Betrag einer Inanspruchnahme oder einer sonstigen Minderung oder Erhöhung gegenüber dem Abschlusspreis."
+    },
+    "EntitledAmount": {
+      "definition": "Barbetrag auf Grundlage der Bedingungen des Kapitalmaßnahmenereignisses und des Bestands an zugrunde liegenden Wertpapieren, der dem Kontoinhaber zusteht bzw. von ihm geschuldet wird (kann positiv oder negativ sein)."
+    },
+    "CashIncentive": {
+      "definition": "Satz der Barprämie, die bereitgestellt wird, wenn der Wertpapierinhaber einem Ereignis zustimmt oder daran teilnimmt, z. B. Zustimmungsgebühren."
+    },
+    "AdditionalSubscriptionCost": {
+      "definition": "Zusätzliche Kosten - zusätzlich zu den Zeichnungskosten -, die der Zeichner gemäß dem Zeichnungsverfahren zahlen muss. Nicht für die Zeichnungskosten selbst zu verwenden."
+    },
+    "TaxFreeAmount": {
+      "definition": "Geldbetrag, der nicht besteuert wurde."
+    },
+    "TaxDeferredAmount": {
+      "definition": "Betrag der Erträge, die für eine aufgeschobene Besteuerung in Frage kommen."
+    },
+    "GermanLocalTax1Amount": {
+      "definition": "Lokale Steuer (ZAS Anrechnungsbetrag), die der Zinsabschlagsteuer unterliegt (Anteil der zinsabschlagsteuerpflichtigen Zinsen/Zwischengewinne, der nicht durch den steuerfreien Betrag gedeckt ist)."
+    },
+    "GermanLocalTax2Amount": {
+      "definition": "Lokale Steuer (ZAS Pflichtige Zinsen) - zinsabschlagsteuerpflichtige Zinsen (Anteil der Bruttozinsen pro Anteil/Zwischengewinne, der nicht durch die Gutschrift im Zinstopf gedeckt ist)."
+    },
+    "GermanLocalTax3Amount": {
+      "definition": "Lokale Steuer (Zinstopf) - Verrechnung der Zinsen pro Anteil mit dem steuerfreien Betrag (Abweichung bei der Verrechnung der Zinsen pro Anteil in Bezug auf den steuerfreien Betrag)."
+    },
+    "GermanLocalTax4Amount": {
+      "definition": "Lokale Steuer (Ertrag Besitzanteilig) - zinsabschlagsteuerpflichtiger Ertrag."
+    },
+    "StockExchangeTaxAmount": {
+      "definition": "Betrag der Börsenumsatzsteuer."
+    },
+    "TransferTaxAmount": {
+      "definition": "Steuer, die bei einer Eigentumsübertragung eines Finanzinstruments erhoben wird."
+    },
+    "TransactionTaxAmount": {
+      "definition": "Betrag der Transaktionssteuer."
+    },
+    "ValueAddedTaxAmount": {
+      "definition": "Mehrwertsteuer."
+    },
+    "EURetentionTaxAmount": {
+      "definition": "Gesamtbetrag der an der Quelle einbehaltenen Steuer gemäß der EU-Zinsrichtlinie."
+    },
+    "LocalTaxAmount": {
+      "definition": "Steuerbetrag, der von dem Rechtsraum erhoben wird, in dem das Finanzinstrument abgewickelt wird."
+    },
+    "PaymentLevyTaxAmount": {
+      "definition": "Zahlungsabgabe."
+    },
+    "CountryNationalFederalTaxAmount": {
+      "definition": "Betrag der Landes-, National- oder Bundessteuer, die von dem Rechtsraum erhoben wird, in dem der Kontoführer ansässig ist."
+    },
+    "StampDutyAmount": {
+      "definition": "Betrag der Stempelsteuer."
+    },
+    "TaxReclaimAmount": {
+      "definition": "Betrag, der über die tatsächliche Steuerschuld hinaus gezahlt und zurückgefordert wurde."
+    },
+    "TaxCreditAmount": {
+      "definition": "Betrag der Steuern, die im Zusammenhang mit dem steuerpflichtigen Ereignis bereits gezahlt wurden."
+    },
+    "WithholdingOfForeignTaxAmount": {
+      "definition": "Geldbetrag, der von dem Rechtsraum einbehalten wird, in dem die Erträge ursprünglich gezahlt wurden, und für den eine Entlastung an der Quelle und/oder eine Rückerstattung möglich sein kann."
+    },
+    "WithholdingOfLocalTaxAmount": {
+      "definition": "Geldbetrag, der von dem Rechtsraum einbehalten wird, in dem der Kontoinhaber ansässig ist, und für den eine Entlastung an der Quelle und/oder eine Rückerstattung möglich sein kann."
+    },
+    "AdditionalTaxAmount": {
+      "definition": "Betrag zusätzlicher Steuern, die nicht kategorisiert werden können."
+    },
+    "WithholdingTaxAmount": {
+      "definition": "Betrag einer Barausschüttung, der von einer Steuerbehörde einbehalten wird."
+    },
+    "FiscalStampAmount": {
+      "definition": "Betrag der anzuwendenden Fiskalsteuer."
+    },
+    "ExecutingBrokerAmount": {
+      "definition": "Betrag, der als Provision an einen ausführenden Broker gezahlt wird."
+    },
+    "PayingAgentCommissionAmount": {
+      "definition": "Betrag der Provision der Zahl-/Unterzahlstelle."
+    },
+    "LocalBrokerCommissionAmount": {
+      "definition": "Provision des lokalen Brokers."
+    },
+    "PostageFeeAmount": {
+      "definition": "Geldbetrag, der für die Zustellung per normaler Briefpost gezahlt wird."
+    },
+    "RegulatoryFeesAmount": {
+      "definition": "Geldbetrag, der von einer Aufsichtsbehörde erhoben wird, z. B. Securities-and-Exchange-Gebühren."
+    },
+    "ShippingFeesAmount": {
+      "definition": "Geldbetrag (einschließlich Versicherung), der für die Zustellung durch einen Spediteur gezahlt wird."
+    },
+    "ChargesAmount": {
+      "definition": "Betrag, der für die Erbringung von Finanzdienstleistungen gezahlt wird und keinem anderen Qualifier zugeordnet werden kann."
+    }
+  }
+}

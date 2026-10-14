@@ -1,0 +1,15 @@
+{
+  "isoType": "SplitObligationAttributes1",
+  "definition": "Gibt die Einzelheiten der Aufteilung an.",
+  "isoElements": {
+    "ObligationIdentification": {
+      "definition": "Referenz für die aufgeteilte Verpflichtung."
+    },
+    "SplitSequenceNumber": {
+      "definition": "Fortlaufende Nummer für die Aufteilung."
+    },
+    "Amount": {
+      "definition": "Geldbetrag für die Aufteilung."
+    }
+  }
+}

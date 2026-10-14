@@ -1,0 +1,18 @@
+{
+  "isoType": "TransferUnmatchedStatus4Choice",
+  "definition": "Grund für den Status \"nicht abgeglichen\".",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Gibt an, dass kein Grund verfügbar oder zu melden ist."
+    },
+    "Reason": {
+      "definition": "Grund für den Status \"nicht abgeglichen\"."
+    },
+    "ExtendedReason": {
+      "definition": "Grund für den Status \"nicht abgeglichen\"."
+    },
+    "DataSourceScheme": {
+      "definition": "Proprietäre Identifikation des Grundes für den Status \"nicht abgeglichen\"."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "FloorLimitType1Code",
+  "definition": "Gibt an, ob die Freigrenze für Gutschriften, für Belastungen oder für Gutschriften und Belastungen gilt.",
+  "isoCodes": {
+    "CRED": {
+      "name": "Gutschrift",
+      "definition": "Die Freigrenze gilt für Gutschriften."
+    },
+    "DEBT": {
+      "name": "Lastschrift",
+      "definition": "Die Freigrenze gilt für Belastungen."
+    },
+    "BOTH": {
+      "name": "Beide",
+      "definition": "Die Freigrenze gilt sowohl für Gutschriften als auch für Belastungen."
+    }
+  }
+}

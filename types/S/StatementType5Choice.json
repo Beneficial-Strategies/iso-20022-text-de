@@ -1,0 +1,12 @@
+{
+  "isoType": "StatementType5Choice",
+  "definition": "Auswahl des Formats für die Auszugsart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Auszugsart, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Auszugsart, ausgedrückt als proprietärer Code."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "ThresholdBasis1Code",
+  "definition": "Art der Menge, die als Grundlage zur Festlegung eines Schwellenwerts für Abstimmungen über Beschlüsse in Hauptversammlungen dient.",
+  "isoCodes": {
+    "ALSH": {
+      "name": "Alle ausgegebenen Aktien",
+      "definition": "Grundlage ist die Gesamtzahl der ausgegebenen Aktien."
+    },
+    "ALSM": {
+      "name": "Alle in der Versammlung vertretenen Aktien",
+      "definition": "Grundlage ist die Gesamtzahl der in der Versammlung durch Teilnehmer vertretenen Aktien."
+    },
+    "ALVO": {
+      "name": "Alle abgegebenen Stimmen",
+      "definition": "Grundlage ist die Gesamtzahl der für einen Beschluss abgegebenen Stimmen."
+    }
+  }
+}

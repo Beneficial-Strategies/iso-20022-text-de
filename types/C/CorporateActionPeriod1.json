@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionPeriod1",
+  "definition": "Gibt Zeiträume an.",
+  "isoElements": {
+    "ActionPeriod": {
+      "definition": "Zeitraum, in dem die angegebene Option oder alle Optionen des Ereignisses gültig bleiben, z. B. Angebotszeitraum."
+    },
+    "CompulsoryPurchasePeriod": {
+      "definition": "Zeitraum während einer Übernahme, in dem jede ausstehende Beteiligung vom übernehmenden Unternehmen gekauft werden muss."
+    },
+    "InterestPeriod": {
+      "definition": "Zeitraum, in dem der Zinssatz angewendet wurde."
+    },
+    "BlockingPeriod": {
+      "definition": "Zeitraum, in dem das Wertpapier gesperrt ist."
+    },
+    "PriceCalculationPeriod": {
+      "definition": "Zeitraum, in dem der Kurs eines Wertpapiers ermittelt wird."
+    }
+  }
+}

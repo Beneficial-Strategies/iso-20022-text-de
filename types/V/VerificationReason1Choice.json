@@ -1,0 +1,12 @@
+{
+  "isoType": "VerificationReason1Choice",
+  "definition": "Legt den Grund fest, warum die überprüften Identifikationsinformationen nicht korrekt sind.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund, warum die überprüften Identifikationsinformationen nicht korrekt sind, wie in einer externen Grundcodeliste veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Grund, warum die überprüften Identifikationsinformationen nicht korrekt sind, in proprietärer Form."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "Linkages80",
+  "definition": "Informationen zu einer verknüpften Transaktion.",
+  "isoElements": {
+    "ProcessingPosition": {
+      "definition": "Zeitpunkt, zu dem die Transaktion im Verhältnis zu einer verknüpften Transaktion auszuführen ist."
+    },
+    "MessageNumber": {
+      "definition": "Nachrichtentypnummer bzw. Nachrichtenbezeichner der in der Verknüpfungsfolge referenzierten Nachricht."
+    },
+    "Reference": {
+      "definition": "Referenz auf die verknüpfte Transaktion."
+    },
+    "LinkedQuantity": {
+      "definition": "Menge der Finanzinstrumente der verknüpften Transaktion, die per Pair-off verrechnet oder per Turnaround gedreht werden soll."
+    }
+  },
+  "isoRules": {
+    "LinkedQuantityRule": {
+      "definition": "Wenn die verknüpfte Menge für ein teilweises Pair-off und die gedrehte Menge für teilweise Turnarounds verwendet wird, muss ihre Verwendung zwischen dem Kontoinhaber der Nachricht und dem Kontoführer vorab vereinbart sein."
+    }
+  }
+}

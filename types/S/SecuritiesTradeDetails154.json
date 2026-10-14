@@ -1,0 +1,83 @@
+{
+  "isoType": "SecuritiesTradeDetails154",
+  "definition": "Einzelheiten zum Wertpapiergeschäft.",
+  "isoElements": {
+    "NotificationSenderTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie sie dem Empfänger der Benachrichtigung bekannt ist."
+    },
+    "NotificationReceiverTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie sie dem Empfänger der Benachrichtigung bekannt ist."
+    },
+    "CommonIdentification": {
+      "definition": "Eindeutige Referenz, auf die sich die beiden Handelspartner zur Identifizierung des Handelsgeschäfts geeinigt haben."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Legt fest, ob die Bewegung auf einem Wertpapierkonto aus einer Liefer- oder einer Empfangsanweisung resultiert."
+    },
+    "Payment": {
+      "definition": "Legt fest, wie die Transaktion abgewickelt werden soll, beispielsweise gegen Zahlung."
+    },
+    "Status": {
+      "definition": "Status der Übertragung."
+    },
+    "TradeDate": {
+      "definition": "Gibt Datum und Uhrzeit der Ausführung des Geschäfts an."
+    },
+    "SettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere geliefert oder empfangen werden sollen."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Anzahl der Tage, an denen der Zinssatz aufläuft (täglich aufgelaufene Zinsen)."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Finanzinstrumente, die eine Summe von Rechten des Anlegers gegenüber dem Emittenten darstellen."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Elemente, die ein Finanzinstrument kennzeichnen."
+    },
+    "Reporting": {
+      "definition": "Legt fest, dass ein Handelsgeschäft an einen Dritten zu melden ist."
+    },
+    "QuantityDetails": {
+      "definition": "Details zur Menge des Finanzinstruments, das an der Übertragung beteiligt ist."
+    },
+    "SettlementParameters": {
+      "definition": "Parameter, die auf die Abwicklung einer Wertpapierübertragung angewendet werden."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifiziert die Kette der liefernden Abwicklungsparteien."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifiziert die Kette der empfangenden Abwicklungsparteien."
+    },
+    "SettlementAmount": {
+      "definition": "Gesamtbetrag, der im Austausch gegen die Wertpapiere zu zahlen oder zu erhalten ist."
+    },
+    "OtherAmounts": {
+      "definition": "Andere Beträge als der Abwicklungsbetrag."
+    },
+    "DigitalPaymentSettlement": {
+      "definition": "Gesamtmenge des digitalen Vermögenswerts, die im Austausch gegen den Wertpapier-Token zu zahlen oder zu erhalten ist, oder die Netzwerkgebühr."
+    },
+    "OtherBusinessParties": {
+      "definition": "Weitere für die Transaktion relevante Geschäftsparteien."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "TradeDateRule": {
+      "definition": "Wird Trade Date/Time mit einer Uhrzeit oder einer Uhrzeit plus UTC-Indikator verwendet, so muss es die Ortszeit des Handelsplatzes sein, zum Beispiel der Börse oder, bei OTC, des verkaufenden Brokers."
+    },
+    "SettlementAmountRule": {
+      "definition": "Ist die Anweisung gegen Zahlung, so muss SettlementAmount vorhanden sein."
+    },
+    "ReceivingParty1Rule": {
+      "definition": "Wenn die Anweisung eine Lieferung ist, muss ReceivingParty 1 vorhanden sein."
+    },
+    "DeliveringParty1Rule": {
+      "definition": "Wenn die Anweisung ein Empfang ist, muss DeliveringParty1 vorhanden sein."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "PartyIdentificationAndAccount163",
+  "definition": "Liefert Informationen zur Identifikation und zum Konto der Partei.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation einer Partei."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem Finanzinstrumente geführt werden."
+    },
+    "ProcessingIdentification": {
+      "definition": "Für die identifizierte Partei aussagekräftige Referenz."
+    },
+    "AlternateIdentification": {
+      "definition": "Alternative Identifikation einer Partei."
+    }
+  },
+  "isoRules": {
+    "AdditionalInforrmationRule": {
+      "definition": "Das Feld AdditionalInformation darf in keinem Element Informationen enthalten, die in einem strukturierten Feld bereitgestellt werden können, es sei denn, dies wurde bilateral vereinbart oder in der Elementdefinition abweichend festgelegt, wie bei NarrativeVersion."
+    }
+  }
+}

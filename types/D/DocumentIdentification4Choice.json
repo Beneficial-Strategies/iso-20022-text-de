@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentIdentification4Choice",
+  "definition": "Auswahl zwischen einer Dokumentidentifikation, die entweder vom Kontoinhaber oder vom kontoführenden Institut vergeben wird.",
+  "isoElements": {
+    "AccountServicerDocumentIdentification": {
+      "definition": "Identifikation des Dokuments, die vom kontoführenden Institut vergeben wurde."
+    },
+    "AccountOwnerDocumentIdentification": {
+      "definition": "Identifikation des Dokuments, die vom Kontoinhaber vergeben wurde."
+    }
+  }
+}

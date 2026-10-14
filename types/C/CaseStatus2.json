@@ -1,0 +1,15 @@
+{
+  "isoType": "CaseStatus2",
+  "definition": "Definiert den Status eines Untersuchungsfalls.",
+  "isoElements": {
+    "DateTime": {
+      "definition": "Datum und Uhrzeit des Status."
+    },
+    "CaseStatus": {
+      "definition": "Status des Falls."
+    },
+    "Reason": {
+      "definition": "Begründung des Status als Freitext."
+    }
+  }
+}

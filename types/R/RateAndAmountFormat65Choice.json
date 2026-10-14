@@ -1,0 +1,15 @@
+{
+  "isoType": "RateAndAmountFormat65Choice",
+  "definition": "Auswahl des Formats zwischen einem Satz, oder einer Satzart und einem Satz, oder einem Betrag, oder einem nicht angegebenen Satz.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Als Satz ausgedrückter Wert."
+    },
+    "Amount": {
+      "definition": "Der Wert wird als Währung und Betrag ausgedrückt."
+    },
+    "RateTypeAndRate": {
+      "definition": "Der Wert wird als Satzart und Prozentsatz ausgedrückt."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DataBaseCheck1",
+  "definition": "Informationen zu einer Datenbank.",
+  "isoElements": {
+    "DatabaseCheck": {
+      "definition": "Gibt an, ob die Einzelperson oder Organisation in einer globalen Online-Know-Your-Customer-Datenbank (KYC) geführt wird."
+    },
+    "Identification": {
+      "definition": "Identifikation der Datenbank."
+    }
+  }
+}

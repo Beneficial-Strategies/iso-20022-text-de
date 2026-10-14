@@ -1,0 +1,4 @@
+{
+  "isoType": "InvestigationResponseV03",
+  "definition": "Anwendungsbereich|Die Nachricht InvestigationResponse wird zwischen Banken gesendet, um eine Antwort oder Statusaktualisierung zu einer Untersuchung zu geben.|Verwendung|Die Nachricht InvestigationResponse sollte verwendet werden, um auf eine Nachricht InvestigationRequest zu antworten. Die Antworten decken die folgenden Geschäftsszenarien ab -|- nicht zuordenbar;|- Informationsanfrage;|- Anfrage zur Anpassung des Wertstellungsdatums;|- Reklamation wegen Nichteingangs;|- Anfrage einer Belastungsautorisierung;|- Anfrage zur Verwendung von Geldern;|- Zahlungsinitiierung nicht bestätigt;|- sonstige Geschäftsszenarien.|Die Nachricht InvestigationResponse bezieht sich immer auf genau eine Transaktion oder einen Posten, außer bei der Antwort auf bestimmte Informationsanfragen."
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMDeviceReportV05",
+  "definition": "Die Nachricht ATMDeviceReport wird von einem ATM an einen Acquirer gesendet oder von einer Bank weitergeleitet, um Folgendes zu melden:|- Das Ergebnis der vom ATM ausgeführten Wartungsbefehle,|- Die Komponenten des ATM,|- Den Status der Komponenten des ATM."
+}

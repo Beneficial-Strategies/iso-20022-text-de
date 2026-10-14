@@ -1,0 +1,10 @@
+{
+  "isoType": "LegalFramework1Code",
+  "definition": "Identifiziert den rechtlichen Rahmen der Transaktion.",
+  "isoCodes": {
+    "FRAN": {
+      "name": "Pension livrée",
+      "definition": "Bezieht sich auf den französischen Rechtsrahmen für Repos, das heißt, auf eine „Pension Livrée“."
+    }
+  }
+}

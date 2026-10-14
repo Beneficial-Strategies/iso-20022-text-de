@@ -1,0 +1,14 @@
+{
+  "isoType": "ExternalObligationSettlementMethod1Code",
+  "definition": "Gibt die Abwicklungsmethode für die Verpflichtung an.|||Die Liste der gültigen Codes ist eine externe Codeliste, die separat veröffentlicht wird. ||Externe Codelisten können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "BILA": {
+      "name": "Bilateral",
+      "definition": "Bilateral abgewickelt."
+    },
+    "MULT": {
+      "name": "Multilateral",
+      "definition": "Multilateral abgewickelt."
+    }
+  }
+}

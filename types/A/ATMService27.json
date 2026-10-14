@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMService27",
+  "definition": "Vom ATM innerhalb der Sitzung erbrachter Dienst.",
+  "isoElements": {
+    "ServiceReference": {
+      "definition": "Eindeutige Identifikation des vom ATM innerhalb der Sitzung erbrachten Dienstes."
+    },
+    "ATMServiceCode": {
+      "definition": "Kodierung der Dienstart für den ATM."
+    },
+    "HostServiceCode": {
+      "definition": "Codierung der Dienstart für den Host."
+    },
+    "ServiceType": {
+      "definition": "Beschreibt die vom Kunden gewählte Dienstart."
+    },
+    "ServiceVariantIdentification": {
+      "definition": "Identifikation der Dienstvariante."
+    }
+  }
+}

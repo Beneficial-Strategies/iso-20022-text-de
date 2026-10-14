@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementDateCode11Choice",
+  "definition": "Auswahl des Formats für den Abwicklungsdatum-Code.",
+  "isoElements": {
+    "Code": {
+      "definition": "Abwicklungsdatum, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Abwicklungsdatum, ausgedrückt als proprietärer Code."
+    }
+  }
+}

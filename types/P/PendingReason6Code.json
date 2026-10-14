@@ -1,0 +1,30 @@
+{
+  "isoType": "PendingReason6Code",
+  "definition": "Gibt den Grund an, weshalb ein für die zugehörige Anweisung gesendeter Stornierungsauftrag anhängig ist.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Anweisung ist nach der Frist des kontoführenden Instituts eingegangen. Verarbeitung nach bestem Bemühen."
+    },
+    "CONF": {
+      "name": "Bestätigung ausstehend",
+      "definition": "Bestätigung der Gegenpartei steht aus."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "CDRG": {
+      "name": "Bedingter Registrar",
+      "definition": "Die Ausführung hängt von der Durchführung eines Prozesses bei der Registerstelle ab."
+    },
+    "CDCY": {
+      "name": "Bedingte Währung",
+      "definition": "Die Ausführung hängt von der Durchführung eines Prozesses im Zusammenhang mit der Währung der Transaktion ab."
+    },
+    "CDRE": {
+      "name": "Bedingte Neuausrichtung",
+      "definition": "Die Ausführung hängt von der Durchführung eines Angleichungsprozesses beim Emittenten-Zentralverwahrer (CSD) ab."
+    }
+  }
+}

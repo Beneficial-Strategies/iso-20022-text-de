@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesFinancingTransactionType2Code",
+  "definition": "Gibt die Art der Wertpapierfinanzierungstransaktion an.",
+  "isoCodes": {
+    "REPU": {
+      "name": "Repo",
+      "definition": "Bezieht sich auf ein Pensionsgeschäft (Repo)."
+    },
+    "RVPO": {
+      "name": "Reverse-Repo",
+      "definition": "Bezieht sich auf ein umgekehrtes Pensionsgeschäft (Reverse Repo)."
+    },
+    "SECB": {
+      "name": "Wertpapierentleihe",
+      "definition": "Bezieht sich auf einen Wertpapierleihe-Vorgang (Entleihe)."
+    },
+    "SECL": {
+      "name": "Wertpapierleihe",
+      "definition": "Bezieht sich auf einen Wertpapierleihe-Vorgang (Verleih)."
+    },
+    "BSBK": {
+      "name": "Buy/Sell-Back",
+      "definition": "Bezieht sich auf ein Buy-Sell-Back-Geschäft."
+    },
+    "SBBK": {
+      "name": "Sell/Buy-Back",
+      "definition": "Bezieht sich auf ein Sell-Buy-Back-Geschäft."
+    }
+  }
+}

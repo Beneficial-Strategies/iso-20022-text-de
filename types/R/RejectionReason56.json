@@ -1,0 +1,17 @@
+{
+  "isoType": "RejectionReason56",
+  "definition": "Informationen zu einem abgelehnten Status.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Grund für den abgelehnten Status."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Zusätzliche Informationen zum Grund des abgelehnten Status."
+    }
+  },
+  "isoRules": {
+    "OtherRule": {
+      "definition": "Wenn Reason/Code/OTHR (Sonstiges) vorhanden ist, muss AdditionReasonInformation vorhanden sein und der Grund für den Ablehnungsstatus angegeben werden."
+    }
+  }
+}

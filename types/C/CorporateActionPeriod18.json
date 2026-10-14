@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionPeriod18",
+  "definition": "Gibt Zeiträume im Zusammenhang mit einer Kapitalmaßnahmen-Option an.",
+  "isoElements": {
+    "PriceCalculationPeriod": {
+      "definition": "Zeitraum, in dem der Kurs eines Wertpapiers ermittelt wird."
+    },
+    "ParallelTradingPeriod": {
+      "definition": "Zeitraum, in dem alte und neue Aktien gleichzeitig gehandelt werden können, zum Beispiel bei Zusammenlegung oder Teilung von Aktien."
+    },
+    "ActionPeriod": {
+      "definition": "Zeitraum, in dem die angegebene Option oder alle Optionen des Ereignisses gültig bleiben, zum Beispiel die Angebotsfrist."
+    },
+    "RevocabilityPeriod": {
+      "definition": "Zeitraum, in dem der Aktionär seine Anweisung widerrufen, ändern oder zurückziehen kann."
+    },
+    "PrivilegeSuspensionPeriod": {
+      "definition": "Zeitraum, in dem das Vorrecht nicht verfügbar ist; dies kann zum Beispiel bei einer Versammlung oder bei Fälligkeit einer Kuponzahlung der Fall sein."
+    },
+    "AccountServicerRevocabilityPeriod": {
+      "definition": "Zeitraum, in dem der Teilnehmer des kontoführenden Instituts seine Anweisungen widerrufen, ändern oder zurückziehen kann."
+    },
+    "DepositorySuspensionPeriodForWithdrawal": {
+      "definition": "Zeitraum, der das letzte Datum festlegt, an dem Anträge auf Abzug im Street Name für das Ergebniswertpapier angenommen werden, sowie das Datum, an dem die Aussetzung aufgehoben und die Abzugsabwicklung per Übertragung für das Ergebniswertpapier wieder aufgenommen wird."
+    }
+  }
+}

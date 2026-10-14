@@ -1,0 +1,15 @@
+{
+  "isoType": "CancellationStatusReason5",
+  "definition": "Enthält weitere Angaben zum Status des Stornierungsauftrags.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Partei, die den Stornierungsstatus meldet."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Statusmeldung an."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Angaben zum Grund des Stornierungsstatus."
+    }
+  }
+}

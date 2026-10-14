@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitReportOrError5Choice",
+  "definition": "Auswahl zwischen Details zu einem oder mehreren Limits, die vom Teilnehmer (oder in dessen Auftrag) festgelegt und vom Transaktionsverwalter verwaltet werden, oder einem operativen Fehler, wenn die angeforderten Daten nicht abgerufen werden können.",
+  "isoElements": {
+    "BusinessReport": {
+      "definition": "Berichtet über Limits."
+    },
+    "OperationalError": {
+      "definition": "Gibt an, dass bei der Verarbeitung der zugehörigen Anfrage ein Betriebsfehler aufgetreten ist."
+    }
+  }
+}

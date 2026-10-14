@@ -1,0 +1,12 @@
+{
+  "isoType": "DiscountAmountAndType1",
+  "definition": "Gibt den Betrag mit einer bestimmten Art an.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art des Betrags an."
+    },
+    "Amount": {
+      "definition": "Geldbetrag, dem eine Art zugeordnet wurde."
+    }
+  }
+}

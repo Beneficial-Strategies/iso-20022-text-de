@@ -1,0 +1,12 @@
+{
+  "isoType": "CustomerConductClassification1Choice",
+  "definition": "Auswahl von Formaten für die Angabe der Klassifizierung des Kundenverhaltens.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Verhaltensart."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Verhaltensart."
+    }
+  }
+}

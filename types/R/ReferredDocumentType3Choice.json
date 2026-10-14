@@ -1,0 +1,12 @@
+{
+  "isoType": "ReferredDocumentType3Choice",
+  "definition": "Gibt die Art des in den Verwendungszweck-Informationen referenzierten Dokuments an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Dokumentart in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Art des Zahlungsavis-Dokuments."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope46",
+  "definition": "Umfang der Änderung, die auf einen bestimmten Informationssatz anzuwenden ist.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Gibt die Art der anzuwendenden Änderung an."
+    },
+    "InvestorProfile": {
+      "definition": "Informationen zur Bestimmung der Gebühren und der Arten von Vorgängen, die auf dem Konto ausgeführt werden können."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedStatus31Choice",
+  "definition": "Auswahl zwischen einem Grund oder keinem Grund für den Status abgelehnt bei der Verarbeitung der Kapitalmaßnahmen-Anweisung.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Grund nicht angegeben."
+    },
+    "Reason": {
+      "definition": "Grund, warum die Stornierungsanfrage-Nachricht zur Versammlungsanweisung oder die einzelne Stornierungsanfrage zur Versammlungsanweisung abgelehnt wird."
+    }
+  }
+}

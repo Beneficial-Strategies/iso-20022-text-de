@@ -1,0 +1,12 @@
+{
+  "isoType": "ProrationBelowMinimumQuantity1Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe der Art der anteiligen Zuteilung unterhalb der Mindestmenge.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Art der anteiligen Zuteilung unterhalb der Mindestmenge."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Art der anteiligen Zuteilung unterhalb der Mindestmenge."
+    }
+  }
+}

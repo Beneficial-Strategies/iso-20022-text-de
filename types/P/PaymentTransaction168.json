@@ -1,0 +1,101 @@
+{
+  "isoType": "PaymentTransaction168",
+  "definition": "Enthält weitere Einzelheiten zu Referenz und Status der ursprünglichen Transaktionen aus der ursprünglichen Anweisung, auf die sich die Rückgabenachricht bezieht.",
+  "isoElements": {
+    "ReturnIdentification": {
+      "definition": "Eindeutige Identifikation, die von einer beauftragenden Partei für eine beauftragte Partei vergeben wird, um die zurückgegebene Transaktion zu identifizieren.|Verwendung: Die beauftragende Partei ist die Partei, die die Rückgabenachricht sendet, und nicht die Partei, die die ursprüngliche, zurückgegebene Anweisung gesendet hat."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Enthält Angaben zur ursprünglichen Nachricht."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Eindeutige, von der ursprünglichen anweisenden Partei für die ursprüngliche angewiesene Partei vergebene Identifikation zur zweifelsfreien Identifizierung der ursprünglichen Anweisung."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Eindeutige, von der ursprünglichen initiierenden Partei vergebene Identifikation zur zweifelsfreien Identifizierung der ursprünglichen Transaktion."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Eindeutige, von der ursprünglichen ersten anweisenden Bank vergebene Identifikation zur zweifelsfreien Identifizierung der Transaktion."
+    },
+    "OriginalUETR": {
+      "definition": "Universell eindeutige Kennung zur Angabe der ursprünglichen Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "OriginalClearingSystemReference": {
+      "definition": "Eindeutige Referenz, die vom ursprünglichen Clearingsystem vergeben wird, um die ursprüngliche Anweisung zu identifizieren."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "definition": "Zwischen der beauftragenden Bank und der beauftragten Bank bewegter Geldbetrag, wie in der ursprünglichen Anweisung angegeben."
+    },
+    "OriginalInterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag der schuldenden Bank nicht mehr zur Verfügung steht und der Bank, der er geschuldet wird, zur Verfügung steht.||Verwendung: OriginalInterbankSettlementDate ist das Interbank-Abwicklungsdatum der Rückgabenachricht zur ursprünglichen Anweisung und nicht das der Rückgabenachricht."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Gibt die Art der Rückgabetransaktion an."
+    },
+    "ReturnedInterbankSettlementAmount": {
+      "definition": "Zwischen der beauftragenden Bank und der beauftragten Bank in der zurückgegebenen Anweisung zu bewegender Geldbetrag."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag der schuldenden Bank nicht mehr zur Verfügung steht und der Bank, der er geschuldet wird, zur Verfügung steht.||Verwendung: InterbankSettlementDate ist das Interbank-Abwicklungsdatum der Rückgabenachricht und nicht das der ursprünglichen Anweisung."
+    },
+    "SettlementPriority": {
+      "definition": "Kennzeichen für die Dringlichkeit oder Rangfolge, die die beauftragende Partei von der beauftragten Partei bei der Bearbeitung der Abwicklungsanweisung angewendet haben möchte.|||Verwendung: SettlementPriority ist die Abwicklungspriorität der Rückgabenachricht und nicht die der ursprünglichen Anweisung."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Enthält Informationen zur eingetretenen Abwicklungszeit der Zahlungstransaktion."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Enthält Angaben zur gewünschten Abwicklungszeit der Zahlungsanweisung."
+    },
+    "ReturnedInstructedAmount": {
+      "definition": "Zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegender Geldbetrag vor Abzug der Entgelte in der zurückgegebenen Transaktion.|Verwendung: Dieser Betrag muss unverändert durch die Transaktionskette übermittelt werden."
+    },
+    "ExchangeRate": {
+      "definition": "Faktor zur Umrechnung eines Betrags von einer Währung in eine andere. Er gibt den Preis wieder, zu dem eine Währung mit einer anderen Währung gekauft wurde."
+    },
+    "AgreedRate": {
+      "definition": "Gruppe von Elementen mit Angaben zu einem vorab vereinbarten Wechselkurs.||Verwendung: Dieses Element darf nur verwendet werden, wenn dies bilateral oder im Rahmen eines Zahlungsverfahrens multilateral vereinbart wurde."
+    },
+    "CompensationAmount": {
+      "definition": "Geldbetrag, der als Entschädigung für die Bearbeitung der Anweisung verlangt oder gezahlt wird."
+    },
+    "ChargeBearer": {
+      "definition": "Gibt an, welche Partei(en) die mit der Bearbeitung der Zahlungstransaktion verbundenen Entgelte (ChargeBearer) trägt/tragen.||Verwendung: Die Entgelte beziehen sich auf die Rückgabenachricht, nicht auf die ursprüngliche Anweisung."
+    },
+    "ChargesInformation": {
+      "definition": "Enthält Angaben zu den Entgelten, die vom Entgeltträger bzw. den Entgeltträgern im Zusammenhang mit der Bearbeitung der Rückgabetransaktion zu zahlen sind."
+    },
+    "ClearingSystemReference": {
+      "definition": "Eindeutige Referenz, die vom Clearingsystem vergeben wird, um die Rückgabeanweisung zu identifizieren."
+    },
+    "InstructingAgent": {
+      "definition": "Bank, die die nächste Partei in der Kette anweist, die Anweisung(en) auszuführen.||Verwendung: Die beauftragende Bank ist die Partei, die die Rückgabenachricht sendet, und nicht die Partei, die die ursprüngliche, zurückgegebene Anweisung gesendet hat."
+    },
+    "InstructedAgent": {
+      "definition": "Bank, die von der vorherigen Partei in der Kette angewiesen wird, die Anweisung(en) auszuführen.||Verwendung: Die beauftragte Bank ist die Partei, die die Rückgabenachricht erhält, und nicht die Partei, die die ursprüngliche, zurückgegebene Anweisung erhalten hat."
+    },
+    "ReturnChain": {
+      "definition": "Enthält alle an einer Rückgabetransaktion beteiligten Parteien (Banken und Nicht-Banken)."
+    },
+    "ReturnReasonInformation": {
+      "definition": "Enthält detaillierte Angaben zum Rückgabegrund."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Schlüsselelemente zur Identifizierung der ursprünglichen Transaktion, auf die Bezug genommen wird."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "ReturnedInstructedAmountAndExchangeRate1Rule": {
+      "definition": "Wenn ReturnedInstructedAmount vorhanden ist und die Währung von der Währung in ReturnedInterbankSettlementAmount abweicht, muss ExchangeRate vorhanden sein."
+    },
+    "ReturnedInstructedAmountAndExchangeRate2Rule": {
+      "definition": "Wenn ReturnedInstructedAmount vorhanden ist und die Währung mit der Währung in ReturnedInterbankSettlementAmount übereinstimmt, ist ExchangeRate nicht zulässig."
+    },
+    "ChargesInformationAndReturnedInstructedAmountRule": {
+      "definition": "Wenn ChargesInformation vorhanden ist, muss ReturnedInstructedAmount vorhanden sein."
+    }
+  }
+}

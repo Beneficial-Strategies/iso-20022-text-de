@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxReference2",
+  "definition": "Steuerreferenz des Pensionsplans.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art der Steuerreferenz."
+    },
+    "Reference": {
+      "definition": "Steuerreferenz des Pensionsplans, die dem Pensionsplan von einer zentralen Organisation zugewiesen wurde."
+    }
+  }
+}

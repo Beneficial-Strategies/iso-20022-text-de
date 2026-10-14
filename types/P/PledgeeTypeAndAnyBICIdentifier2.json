@@ -1,0 +1,12 @@
+{
+  "isoType": "PledgeeTypeAndAnyBICIdentifier2",
+  "definition": "Identifikation der Einheit, an die die Finanzinstrumente verpfändet sind, ausgedrückt als Code und BIC.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Einheit, an die die Finanzinstrumente verpfändet sind, ausgedrückt als BIC."
+    },
+    "PledgeeType": {
+      "definition": "Einheit, an die die Finanzinstrumente verpfändet sind, ausgedrückt als Code."
+    }
+  }
+}

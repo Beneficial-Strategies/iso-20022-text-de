@@ -1,0 +1,86 @@
+{
+  "isoType": "CorporateActionEventType1Code",
+  "definition": "Gibt die Art des Kapitalmaßnahmenereignisses an.",
+  "isoCodes": {
+    "DRIP": {
+      "name": "Dividendenwiederanlage",
+      "definition": "Das Ereignis ist eine Dividendenzahlung, bei der die Bardividende in zusätzliche Aktien des emittierenden Unternehmens umgeschichtet wird."
+    },
+    "CAPG": {
+      "name": "Ausschüttung von Kapitalgewinnen",
+      "definition": "Das Ereignis ist die Ausschüttung von Gewinnen aus dem Verkauf von Wertpapieren. Anteilseigner von Investmentfonds, Unit Trusts oder Sicavs sind Empfänger von Kapitalgewinnausschüttungen, die häufig in zusätzliche Fondsanteile reinvestiert werden."
+    },
+    "DVCA": {
+      "name": "Bardividende",
+      "definition": "Das Ereignis ist eine Barausschüttung an die Aktionäre im Verhältnis zu ihrem Eigenkapitalanteil. Ordentliche Dividenden sind wiederkehrend und regelmäßig. Der Aktionär muss die Barzahlung annehmen und hat keine Wahl hinsichtlich der Form der Ausschüttung."
+    },
+    "DVOP": {
+      "name": "Dividendenwahlrecht",
+      "definition": "Das Ereignis ist die Ausschüttung einer Dividende an die Aktionäre mit Wahlmöglichkeit der Zahlungsart. Der Aktionär muss die Form der Zahlung wählen - Aktien, Bargeld oder beides."
+    },
+    "DVSE": {
+      "name": "Aktiendividende",
+      "definition": "Das Ereignis ist eine Dividende, die an die Aktionäre in Form von Aktien des emittierenden Unternehmens oder eines anderen Unternehmens gezahlt wird. Der Aktionär muss die Aktien annehmen und hat keine Wahl hinsichtlich der Form der Ausschüttung."
+    },
+    "LIQU": {
+      "name": "Liquidation",
+      "definition": "Das Ereignis ist eine Liquidationsdividende oder Liquidation, die aus einer Ausschüttung von Bargeld, Vermögenswerten oder beidem besteht. Schulden können in der Rangfolge der bevorzugten Ansprüche auf Vermögenswerte beglichen werden, die durch das Wertpapier festgelegt sind. Der Wertpapierinhaber kann gegebenenfalls die Form der Liquidationsausschüttung wählen."
+    },
+    "MRGR": {
+      "name": "Fusion",
+      "definition": "Das Ereignis ist ein obligatorischer oder freiwilliger Umtausch ausstehender Wertpapiere infolge der Zusammenlegung von Vermögenswerten zweier oder mehrerer Unternehmen. Barzahlungen können den Aktientausch begleiten."
+    },
+    "NAME": {
+      "name": "Namensänderung",
+      "definition": "Das Ereignis ist eine Namensänderung. Das emittierende Unternehmen ändert seinen Namen. Das Ereignis zeigt die Änderung vom alten zum neuen Namen und kann die Rückgabe physischer Aktien mit dem alten Namen an die Registerstelle umfassen."
+    },
+    "SOFF": {
+      "name": "Abspaltung",
+      "definition": "Das Ereignis ist eine Abspaltung oder Ausschüttung oder eine Entflechtung. Es handelt sich um eine Ausschüttung von Aktien einer Tochtergesellschaft an die Aktionäre der Muttergesellschaft ohne Rückgabe von Aktien. Ein Spin-off stellt eine Form der Veräußerung dar, aus der ein unabhängiges Unternehmen hervorgeht. Normalerweise ist dies für die Aktionäre der Muttergesellschaft kostenlos."
+    },
+    "SPLF": {
+      "name": "Aktiensplit",
+      "definition": "Das Ereignis ist eine Änderung des Nennwerts, eine Aufteilung. Es handelt sich um eine Erhöhung der Zahl der ausstehenden Aktien einer Gesellschaft ohne Änderung des Eigenkapitals des Aktionärs oder des gesamten Marktwerts zum Zeitpunkt der Aufteilung. Aktienkurs und Nennwert werden entsprechend verringert."
+    },
+    "SPLR": {
+      "name": "Umgekehrter Aktiensplit",
+      "definition": "Das Ereignis ist eine Änderung des Nennwerts, eine Zusammenlegung. Es handelt sich um eine Verringerung der Zahl der ausstehenden Aktien ohne Änderung des Eigenkapitals des Aktionärs oder des gesamten Marktwerts zum Zeitpunkt der Aufteilung. Aktienkurs und Nennwert werden entsprechend verringert."
+    },
+    "TEND": {
+      "name": "Angebot",
+      "definition": "Das Ereignis ist eine Übernahme oder ein Übernahmeangebot oder offre publique de retrait (FR) oder Kaufangebot oder Rückkauf. Es handelt sich um ein Angebot an die Aktionäre, ihre Aktien zu einem festgelegten Preis, in der Regel mit einem Aufschlag auf den vorherrschenden Marktpreis, zu verkaufen (anzudienen). Im Allgemeinen ist das Ziel eines Übernahmeangebots, die Kontrolle über die Zielgesellschaft zu erlangen."
+    },
+    "BONU": {
+      "name": "Gratisaktien",
+      "definition": "Das Ereignis ist eine Gratisaktienausgabe oder Berichtigungsaktienausgabe oder Kapitalisierungsausgabe. Wertpapierinhabern werden im Verhältnis zu ihrem Bestand zusätzliche Vermögenswerte vom Emittenten unentgeltlich zugeteilt. Eine Gratisausgabe wird typischerweise durch Aktien, Rechte oder Optionsscheine dargestellt. Der Nennwert ändert sich nicht. Dem Inhaber kann eine Wahl der Form angeboten werden."
+    },
+    "RHDI": {
+      "name": "Rechteausschüttung",
+      "definition": "Das Ereignis ist die Ausschüttung von Bezugsrechten an die Aktionäre im Verhältnis zu ihrem Eigenkapitalanteil."
+    },
+    "EXRI": {
+      "name": "Aufruf von Bezugsrechten",
+      "definition": "Das Ereignis ist ein Abruf oder eine Ausübung nicht voll eingezahlter Wertpapiere oder Rechte, die sich aus einer Rechteausschüttung (RHDI) ergeben. Dies ist für das zweite Ereignis zu verwenden, wenn die Bezugsrechtsemission in zwei Ereignissen abgewickelt wird, wobei das erste Ereignis die Rechteausschüttung (RHDI) ist."
+    },
+    "CHAN": {
+      "name": "Änderung",
+      "definition": "Das Ereignis ist eine allgemeine Änderung. Zum Beispiel eine Änderung der Emissionsbedingungen, eine Änderung der Identifikation eines Wertpapiers, eine Änderung der Handelseinheit, eine Umstellung von Global- auf Einzelurkunden."
+    },
+    "REDO": {
+      "name": "Umdenominierung",
+      "definition": "Ereignis, durch das die Einheit (Währung und/oder Nennwert) eines Finanzinstruments neu festgelegt wird, z. B. wird die Schuld in einer nationalen Währung auf Euro umgestellt."
+    },
+    "EXOP": {
+      "name": "Umtauschwahlrecht",
+      "definition": "Das Ereignis ist eine Option für die Aktionäre, ihre Wertpapiere gegen andere Wertpapiere und/oder Bargeld umzutauschen. Umtauschoptionen sind in den Emissionsbedingungen eines Wertpapiers genannt und gelten während der gesamten Laufzeit eines Wertpapiers."
+    },
+    "EXOF": {
+      "name": "Umtauschangebot",
+      "definition": "Das Ereignis ist ein Umtauschangebot oder eine Kapitalumstrukturierung.|Es handelt sich um ein Angebot an die Aktionäre, ihre Bestände gegen andere Wertpapiere und/oder Bargeld umzutauschen. Umtauschangebote sind in der Regel freiwillig und beinhalten den Umtausch eines ausstehenden Wertpapiers gegen ein anderes Wertpapier oder andere Wertpapiere und/oder Bargeld."
+    },
+    "DECR": {
+      "name": "Wertminderung",
+      "definition": "Das Ereignis ist eine Herabsetzung des Aktienkapitals und des Nennwerts einer einzelnen Aktie. Die Zahl der im Umlauf befindlichen Aktien bleibt unverändert. Es kann eine Kapitalauszahlung an die Aktionäre umfassen."
+    }
+  }
+}

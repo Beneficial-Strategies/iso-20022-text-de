@@ -1,0 +1,26 @@
+{
+  "isoType": "SystemClosureReason1Code",
+  "definition": "Legt den Grund für die Inaktivität des Systems fest.",
+  "isoCodes": {
+    "BHOL": {
+      "name": "Bankfeiertag",
+      "definition": "Das System ist wegen eines Bankfeiertags geschlossen."
+    },
+    "SMTN": {
+      "name": "Systemwartung",
+      "definition": "Das System ist aus Wartungsgründen geschlossen."
+    },
+    "NOOP": {
+      "name": "Kein Betrieb",
+      "definition": "Das System verarbeitet keine Vorgänge."
+    },
+    "RCVR": {
+      "name": "Wiederherstellung",
+      "definition": "Das System ist während der Wiederherstellungsmaßnahmen nicht betriebsbereit."
+    },
+    "ADTW": {
+      "name": "Zulässiges Ausfallfenster",
+      "definition": "Das System ist während der zulässigen Ausfallzeitfenster nicht betriebsbereit."
+    }
+  }
+}

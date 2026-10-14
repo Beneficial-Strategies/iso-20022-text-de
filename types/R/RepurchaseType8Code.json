@@ -1,0 +1,22 @@
+{
+  "isoType": "RepurchaseType8Code",
+  "definition": "Gibt die Art der Pensionsgeschäft-Transaktion an.",
+  "isoCodes": {
+    "PADJ": {
+      "name": "Anpassung der Kapitalrisikoposition",
+      "definition": "Bezieht sich auf eine Kapitalanpassung."
+    },
+    "ROLP": {
+      "name": "Verlängerung des Repo-Vertrags",
+      "definition": "Bezieht sich auf die Verlängerung eines Repo-Vertrags, bei der das Schluss- oder Fälligkeitsdatum ohne Auswirkung auf die zugrunde liegenden Sicherheiten verlängert wird."
+    },
+    "RATE": {
+      "name": "Repo-Satz",
+      "definition": "Ist Teil eines Pair-off."
+    },
+    "CALL": {
+      "name": "Rückkaufaufruf",
+      "definition": "Bezieht sich auf das vorzeitige Schluss-/Fälligkeitsdatum eines befristeten Repos oder ein Beendigungsdatum eines offenen Repos mit den zugrunde liegenden Sicherheiten."
+    }
+  }
+}

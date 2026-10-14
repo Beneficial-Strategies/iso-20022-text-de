@@ -1,0 +1,14 @@
+{
+  "isoType": "TaxLiability1Code",
+  "definition": "Gibt die steuerliche Rolle der anweisenden Partei an.",
+  "isoCodes": {
+    "PRIN": {
+      "name": "Steuerlicher Auftraggeber",
+      "definition": "Die Abwicklungspartei handelt hinsichtlich der Steuerpflicht als Auftraggeber (Principal)."
+    },
+    "AGEN": {
+      "name": "Steuervertreter",
+      "definition": "Die Abwicklungspartei handelt hinsichtlich der Steuerpflicht als Agent."
+    }
+  }
+}

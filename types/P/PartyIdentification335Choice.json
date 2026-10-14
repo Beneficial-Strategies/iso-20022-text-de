@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification335Choice",
+  "definition": "Identifikation einer Partei.",
+  "isoElements": {
+    "Account": {
+      "definition": "Identifikation des Kontos."
+    },
+    "Party": {
+      "definition": "Identifikation der Partei."
+    }
+  }
+}

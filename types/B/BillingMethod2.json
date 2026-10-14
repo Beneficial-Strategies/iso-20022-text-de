@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingMethod2",
+  "definition": "Enthält die Details zur Steuerberechnungsmethode B.",
+  "isoElements": {
+    "ServiceChargeHostAmount": {
+      "definition": "Betrag des ursprünglichen Entgelts, ausgedrückt in der Sitzwährung."
+    },
+    "ServiceTax": {
+      "definition": "Sieht die regionalen Steuern auf den Service vor. Für denselben Service können bis zu drei regionale Steuern festgelegt werden."
+    },
+    "TaxIdentification": {
+      "definition": "Sieht die spezifische Steueridentifikation innerhalb derselben Steuerregion vor. ||Verwendung: Dieses Element erlaubt höchstens drei regionale Steuern auf denselben Service."
+    }
+  }
+}

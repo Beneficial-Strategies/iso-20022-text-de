@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryParty6",
+  "definition": "Identifiziert eine proprietäre Partei.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art der proprietären Partei an."
+    },
+    "Party": {
+      "definition": "Proprietäre Partei."
+    }
+  }
+}

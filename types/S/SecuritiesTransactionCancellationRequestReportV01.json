@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesTransactionCancellationRequestReportV01",
+  "definition": "Die Nachricht SecuritiesTransactionCancellationRequestReport wird von einer Abwicklungsinfrastruktur an einen Kontoinhaber/Anfragenden gesendet, um die vollständigen Details oder aktuellen Statuswerte der Stornierungsanträge für Abwicklungen oder Positionsumbuchungen (Intra-Position) zu liefern, wie in der Abfrage festgelegt.|||Die Nachricht kann auch verwendet werden, um: ||- eine zuvor gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist \"Duplicate\") ||- einem Dritten zur Information eine Kopie einer Nachricht zur Verfügung zu stellen (die Unterfunktion der Nachricht ist \"Copy\") ||- einem Dritten zur Information eine Kopie einer Nachricht erneut zu senden (die Unterfunktion der Nachricht ist \"Copy Duplicate\").",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Ist ReportGeneralDetails/ActivityIndicator gleich Yes (true oder 1), muss Cancellations vorhanden sein."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Ist ReportGeneralDetails/ActivityIndicator gleich No (false oder 0), darf Cancellations nicht vorhanden sein."
+    }
+  }
+}

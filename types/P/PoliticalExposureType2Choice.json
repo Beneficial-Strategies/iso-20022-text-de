@@ -1,0 +1,12 @@
+{
+  "isoType": "PoliticalExposureType2Choice",
+  "definition": "Auswahl von Formaten für die Angabe der Art der politischen Exponiertheit.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Art der politischen Exponiertheit."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Art der politischen Exponiertheit."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "isoType": "RepurchaseType10Code",
+  "definition": "Gibt die Art der Pensionsgeschäft-Transaktion an.",
+  "isoCodes": {
+    "PAIR": {
+      "name": "Gegengeschäft",
+      "definition": "Bezieht sich auf eine Transaktion, die gegen eine oder mehrere vorherige Transaktionen gepaart und verrechnet wird. Eine gepaarte Transaktion ist ein Rückkauf, um einen früheren Verkauf von Wertpapieren auszugleichen und faktisch aufzulösen, oder ein Rückverkauf, um einen früheren Kauf von Wertpapieren auszugleichen und faktisch aufzulösen."
+    },
+    "ROLP": {
+      "name": "Verlängerung des Repo-Vertrags",
+      "definition": "Bezieht sich auf die Verlängerung eines Repo-Vertrags, bei der das Schluss- oder Fälligkeitsdatum ohne Auswirkung auf die zugrunde liegenden Sicherheiten verlängert wird."
+    },
+    "RATE": {
+      "name": "Repo-Satz",
+      "definition": "Ist Teil eines Pair-off."
+    },
+    "CALL": {
+      "name": "Rückkaufaufruf",
+      "definition": "Bezieht sich auf das vorzeitige Schluss-/Fälligkeitsdatum eines befristeten Repos oder ein Beendigungsdatum eines offenen Repos mit den zugrunde liegenden Sicherheiten."
+    },
+    "CADJ": {
+      "name": "Tauschen",
+      "definition": "Bezieht sich auf einen Tausch/eine Substitution."
+    },
+    "TOPU": {
+      "name": "Aufstockung",
+      "definition": "Bezieht sich auf die Verlängerung einer Repo-Position, bei der das Schluss- oder Fälligkeitsdatum verlängert wird."
+    },
+    "WTHD": {
+      "name": "Entnahme",
+      "definition": "Bezieht sich auf die Verlängerung einer Repo-Position, bei der das Schluss- oder Fälligkeitsdatum verlängert wird."
+    }
+  }
+}

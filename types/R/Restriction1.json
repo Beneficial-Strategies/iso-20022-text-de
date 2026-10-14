@@ -1,0 +1,15 @@
+{
+  "isoType": "Restriction1",
+  "definition": "Einschränkung der zulässigen Funktionen oder Vorgänge.",
+  "isoElements": {
+    "RestrictionType": {
+      "definition": "Art der Einschränkung."
+    },
+    "ValidFrom": {
+      "definition": "Datum, ab dem die Einschränkung gültig ist."
+    },
+    "ValidUntil": {
+      "definition": "Datum, bis zu dem die Einschränkung gültig ist."
+    }
+  }
+}

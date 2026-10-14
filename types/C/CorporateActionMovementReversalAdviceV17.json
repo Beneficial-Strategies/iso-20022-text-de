@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionMovementReversalAdviceV17",
+  "definition": "Anwendungsbereich|Die Nachricht CorporateActionMovementReversalAdvice wird von einer kontoführenden Stelle an einen Kontoinhaber oder dessen benannten Beauftragten gesendet, um eine zuvor bestätigte Buchung von Wertpapieren oder Geld zu stornieren.|Verwendung|Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist Duplicate),|- einem Dritten eine Kopie einer Nachricht zur Information bereitzustellen (die Unterfunktion der Nachricht ist Copy),|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu senden (die Unterfunktion der Nachricht ist Copy Duplicate), unter Verwendung der entsprechenden Elemente im Business Application Header (BAH).",
+  "isoRules": {
+    "OptionNumberRule": {
+      "definition": "Der angegebene Wert von CorporateActionConfirmationDetails/OptionNumber muss mit dem Wert im zugehörigen Element CorporateActionOptionDetails/OptionNumber der zuvor gesendeten Nachrichten CorporateActionNotification oder CorporateActionMovementPreliminaryAdvice übereinstimmen."
+    },
+    "AdditionalInformationRule": {
+      "definition": "Alle Elemente in der Sequenz AdditionalInformation dürfen keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können, es sei denn, dies wurde bilateral vereinbart oder in der Elementdefinition anders angegeben, wie bei AdditionalInformation/NarrativeVersion."
+    },
+    "IssuerAgentGuideline": {
+      "definition": "IssuerAgent darf nur in der Kommunikation zwischen einem CSD und lokalen Verwahrstellen verwendet werden."
+    },
+    "IntermediateSecuritiesDistribution1Rule": {
+      "definition": "Wenn CorporateActionGeneralInformation/EventType/Code RHDI (IntermediateSecuritiesDistribution) ist, dann muss CorporateActionDetails/|IntermediateSecuritiesDistributionType vorhanden sein.|(MT 566 NVR C5)."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "PaymentCard29",
+  "definition": "Elektronisches Geldprodukt, das dem Karteninhaber ein tragbares, spezialisiertes Computergerät bereitstellt, das typischerweise einen Mikroprozessor enthält.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art der Karte, beispielsweise Kreditkarte."
+    },
+    "Number": {
+      "definition": "Auf der Karte eingeprägte Nummer, die die Karte mit dem Kontoinhaber und dem Kontoführer verknüpft."
+    },
+    "HolderName": {
+      "definition": "Partei, die von einem Kartenemittenten zur Nutzung einer Karte berechtigt wurde."
+    },
+    "StartDate": {
+      "definition": "Jahr und Monat, ab dem die Karte nutzbar ist."
+    },
+    "ExpiryDate": {
+      "definition": "Jahr und Monat, in dem die Karte abläuft."
+    },
+    "CardIssuerName": {
+      "definition": "Partei, die eine Zahlungskarte ausgibt, ausgedrückt durch eine numerische Identifikation des Kartenemittenten gemäß ISO/IEC 7812-1."
+    },
+    "CardIssuerIdentification": {
+      "definition": "Partei, die eine Zahlungskarte ausgibt, ausgedrückt durch eine numerische Identifikation des Kartenemittenten gemäß ISO/IEC 7812-1."
+    },
+    "SecurityCode": {
+      "definition": "Auf oder in der Karte angebrachter Sicherheitscode."
+    },
+    "SequenceNumber": {
+      "definition": "Nummer zur Unterscheidung von zwei oder mehr Zahlungskarten mit derselben Kontonummer."
+    }
+  }
+}

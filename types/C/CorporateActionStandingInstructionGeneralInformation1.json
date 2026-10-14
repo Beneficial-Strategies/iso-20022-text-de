@@ -1,0 +1,24 @@
+{
+  "isoType": "CorporateActionStandingInstructionGeneralInformation1",
+  "definition": "Stellt Informationen zur Dauerauftragsanweisung bereit.",
+  "isoElements": {
+    "StandingInstructionType": {
+      "definition": "Art der Dauerauftragsanweisung."
+    },
+    "EventType": {
+      "definition": "Art des Kapitalmaßnahmen-Ereignisses."
+    },
+    "InstructingPartyIdentification": {
+      "definition": "Identifikation der anweisenden Partei, d. h. des CSD-Kunden."
+    },
+    "ClientStandingInstructionIdentification": {
+      "definition": "Vom Kunden vergebene Referenz der Dauerauftragsanweisung."
+    },
+    "AccountDetails": {
+      "definition": "Stellt Informationen zum Konto bereit, auf das die Dauerauftragsanweisung angewendet werden kann."
+    },
+    "UnderlyingSecurity": {
+      "definition": "Identifikation des zugrunde liegenden Finanzinstruments, d. h. des von dem Kapitalmaßnahmen-Ereignis betroffenen Finanzinstruments."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "FundBalance1",
+  "definition": "Salden von Anteilen und Geld, abgeleitet aus Investmentfondsaufträgen.",
+  "isoElements": {
+    "TotalUnitsFromUnitOrders": {
+      "definition": "Gesamtzahl der Anteile aus in Anteilen erteilten Aufträgen."
+    },
+    "TotalUnitsFromCashOrders": {
+      "definition": "Anzahl der Anteile, abgeleitet aus in Geld erteilten Aufträgen."
+    },
+    "TotalCashFromUnitOrders": {
+      "definition": "Gesamtgeldbetrag, abgeleitet aus in Anteilen erteilten Aufträgen."
+    },
+    "TotalCashFromCashOrders": {
+      "definition": "Gesamtgeldbetrag aus in Geld erteilten Aufträgen."
+    }
+  }
+}

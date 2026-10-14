@@ -1,0 +1,22 @@
+{
+  "isoType": "RejectionReason81Code",
+  "definition": "Gibt den Grund an, weshalb der Kapitalmaßnahmen-Benachrichtigungsstornierungsantrag den Status \"abgelehnt\" hat.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Validierung fehlgeschlagen",
+      "definition": "Die Validierung des Avis/der Anweisung/des Antrags ist fehlgeschlagen."
+    },
+    "REFI": {
+      "name": "Ungültige CA-Identifikation",
+      "definition": "Ungültige Kapitalmaßnahmen-Identifikation angegeben."
+    },
+    "DCAN": {
+      "name": "Abgelehnt, da bereits storniert",
+      "definition": "Die Stornierungsanforderung wurde abgelehnt, da die Anweisung bereits storniert wurde."
+    },
+    "DPRG": {
+      "name": "Abgelehnt, da in Bearbeitung",
+      "definition": "Die Stornierungsanforderung wurde abgelehnt, da die Anweisung in Bearbeitung ist oder bereits verarbeitet wurde."
+    }
+  }
+}

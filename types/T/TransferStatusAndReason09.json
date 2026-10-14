@@ -1,0 +1,98 @@
+{
+  "isoType": "TransferStatusAndReason09",
+  "definition": "Informationen zum Status einer Übertragungsanweisung und zu dessen Grund.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Eindeutiger Identifikator für eine Gruppe einzelner Übertragungen, wie von der anweisenden Partei vergeben. Dieser Identifikator verknüpft die einzelnen Übertragungen miteinander."
+    },
+    "TransferReference": {
+      "definition": "Eindeutige Identifikation der Übertragung, wie von der anweisenden Partei vergeben."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Übertragung durch den Anleger. Diese Referenz kann typischerweise in einem Hub-Szenario verwendet werden, um die vom zugrunde liegenden Kunden vergebene Referenz der Übertragung anzugeben."
+    },
+    "CancellationReference": {
+      "definition": "Eindeutiger Identifikator für eine Übertragungsstornierung, wie von der anweisenden Partei vergeben."
+    },
+    "TransferEventType": {
+      "definition": "Art des Ereignisses, für das die Nachricht gesendet wird."
+    },
+    "TransferStatus": {
+      "definition": "Status der Übertragungsanweisung."
+    },
+    "Instrument": {
+      "definition": "Identifikation des Vermögenswerts."
+    },
+    "InvestmentAccountDetails": {
+      "definition": "Informationen zum Anlagekonto der Übertragung, für die der Status oder die Information bereitgestellt wird."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identifikation einer verbundenen Partei oder eines Vermittlers."
+    },
+    "TradeDate": {
+      "definition": "Datum, an dem die Übertragung ausgeführt wurde.|In manchen Szenarien ist dies das Datum und die Uhrzeit, die als Handelsdatum verwendet werden, wenn Wertpapiere über ein International Central Securities Depository (ICSD) oder Central Securities Depository (CSD) abgewickelt werden."
+    },
+    "SettlementDate": {
+      "definition": "Datum, an dem die Wertpapiere im International Central Securities Depository (ICSD) oder Central Securities Depository (CSD) getauscht werden sollen bzw. getauscht wurden."
+    },
+    "SendOutDate": {
+      "definition": "Datum, an dem das Dokument, zum Beispiel das Antragsformular, gesendet wurde."
+    },
+    "CashSettlementDate": {
+      "definition": "Datum, an dem das Geld verfügbar ist."
+    },
+    "TotalUnitsNumber": {
+      "definition": "Anzahl der zu übertragenden Anteile."
+    },
+    "AveragePrice": {
+      "definition": "Gewichteter Durchschnittspreis der Anteile auf dem Konto. Der Durchschnittspreis kann auch als durchschnittlicher Anschaffungspreis bezeichnet werden."
+    },
+    "UnitsDetails": {
+      "definition": "Aufschlüsselung der zu übertragenden Anteile."
+    },
+    "Conversion": {
+      "definition": "Informationen zum Ausgangswertpapier nach einer Umwandlung."
+    },
+    "TotalTransferValue": {
+      "definition": "Gesamter Übertragungswert."
+    },
+    "PaymentDetails": {
+      "definition": "Details einer Zahlung, die aus der Liquidation eines Vermögenswerts und der Übertragung von Barmitteln resultiert oder resultieren wird, oder für die Übertragung von nicht angelegten Barmitteln."
+    },
+    "BenefitCrystallisationEvent": {
+      "definition": "Informationen zur Realisierung von aus einer Pension bezogenen Leistungen."
+    },
+    "DrawdownTranche": {
+      "definition": "Details einer Entnahmetranche (Drawdown-Tranche)."
+    },
+    "OtherDrawdownInformation": {
+      "definition": "Entnahmeinformationen (Drawdown), die nicht speziell einer Entnahmetranche zugeordnet sind."
+    },
+    "QueryResponse": {
+      "definition": "Antwortinformationen."
+    },
+    "StatusInitiator": {
+      "definition": "Partei, die den Status auslöst."
+    },
+    "StatusIssuer": {
+      "definition": "Partei, die die Status- oder Informationsnachricht ausgibt."
+    },
+    "StatusRecipient": {
+      "definition": "Partei, die die Status- oder Informationsnachricht empfängt."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  },
+  "isoRules": {
+    "TransferStatusEventType1Rule": {
+      "definition": "Wenn mindestens ein Vorkommen von TransferEventType Information (INFO) ist, muss TransferStatus/Status/Status gleich Received (RECE) sein."
+    },
+    "TransferStatusEventType2Rule": {
+      "definition": "Wenn mindestens ein Vorkommen von TransferEventType ConversionStatus (CONV) ist, muss TransferStatus/Status/Status gleich Received (RECE) sein."
+    },
+    "ConversionRule": {
+      "definition": "Wenn mindestens ein Vorkommen von TransferEventType ConversionStatus (CONV) ist, muss Conversion vorhanden sein."
+    }
+  }
+}

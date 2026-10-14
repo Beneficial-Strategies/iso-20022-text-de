@@ -1,0 +1,23 @@
+{
+  "isoType": "DetailedInstructionCancellationStatus16",
+  "definition": "Status, der für einzelne Stornierungsanweisungen einer Nachricht mit Stornierungsauftrag für Versammlungsanweisungen gilt.",
+  "isoElements": {
+    "SingleInstructionCancellationIdentification": {
+      "definition": "Identifikation des einzelnen Stornierungsauftrags für eine Anweisung aus der ursprünglichen Nachricht mit Stornierungsauftrag für Versammlungsanweisungen, die in InstructionType/ InstructionCancellationIdentification identifiziert ist und für die der Status mitgeteilt wird."
+    },
+    "AccountIdentification": {
+      "definition": "Identifikation des Wertpapierkontos."
+    },
+    "SubAccountIdentification": {
+      "definition": "Identifikation des Unterkontos innerhalb des Verwahrkontos."
+    },
+    "InstructionCancellationStatus": {
+      "definition": "Status eines einzelnen Stornierungsauftrags für eine Versammlungsanweisung."
+    }
+  },
+  "isoRules": {
+    "SubAccount1Rule": {
+      "definition": "Wenn SubAccountIdentification vorhanden ist, muss AccountIdentification vorhanden sein."
+    }
+  }
+}

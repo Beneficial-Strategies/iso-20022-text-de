@@ -1,0 +1,22 @@
+{
+  "isoType": "FractionDispositionType10Code",
+  "definition": "Gibt an, dass der Bruchteilswert beibehalten werden soll; keine Rundung.",
+  "isoCodes": {
+    "BUYU": {
+      "name": "Aufstockung",
+      "definition": "Kauf von Wertpapieren bis zur nächsten ganzen Zahl."
+    },
+    "CINL": {
+      "name": "Barausgleich für Bruchteile",
+      "definition": "Bruchteil als Barbetrag. Barausgleich anstelle von Bruchteilen."
+    },
+    "EXPI": {
+      "name": "Verfall",
+      "definition": "Bruchteile wertlos verfallen lassen."
+    },
+    "DIST": {
+      "name": "Bruchteil ausgeben",
+      "definition": "Ausschüttung von Bruchteilen in Form von Wertpapieren."
+    }
+  }
+}

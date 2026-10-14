@@ -1,0 +1,12 @@
+{
+  "isoType": "BeneficialOwnership5Choice",
+  "definition": "Auswahl des Formats für das wirtschaftliche Eigentum.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Gibt an, ob ein Wechsel des wirtschaftlichen Eigentums stattfindet."
+    },
+    "Proprietary": {
+      "definition": "Informationen zum wirtschaftlichen Eigentum, ausgedrückt als proprietärer Code."
+    }
+  }
+}

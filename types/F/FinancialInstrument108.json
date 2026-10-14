@@ -1,0 +1,110 @@
+{
+  "isoType": "FinancialInstrument108",
+  "definition": "Identifikation eines Wertpapiers oder sonstigen Vermögenswerts.",
+  "isoElements": {
+    "LineIdentification": {
+      "definition": "Identifikation der Bestandsposition im Portfolio."
+    },
+    "Instrument": {
+      "definition": "Identifikation des Vermögenswerts."
+    },
+    "Quantity": {
+      "definition": "Menge des zu übertragenden Vermögenswerts."
+    },
+    "PartialInstructedQuantity": {
+      "definition": "Gibt an, dass die zu übertragende Menge des Vermögenswerts eine teilweise angewiesene Menge ist."
+    },
+    "TransferType": {
+      "definition": "Gibt an, wie das Finanzinstrument übertragen wird."
+    },
+    "AdditionalAsset": {
+      "definition": "Gibt an, dass der Vermögenswert ein neuer Vermögenswert ist, der von der übertragenden Partei (abgebende Partei) im Rahmen der Ermittlung des Kontobestands noch nicht identifiziert wurde."
+    },
+    "NotAvailable": {
+      "definition": "Gibt an, dass der Vermögenswert bei der übertragenden Partei (abgebende Partei) nicht mehr verfügbar ist."
+    },
+    "Conversion": {
+      "definition": "Das Wertpapier ist vor der Übertragung in ein anderes Wertpapier umzuwandeln."
+    },
+    "UnitsDetails": {
+      "definition": "Aufschlüsselung der Einheiten."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Übertragung durch den Anleger. Diese Referenz kann typischerweise in einem Hub-Szenario verwendet werden, um die vom zugrunde liegenden Kunden vergebene Referenz der Übertragung anzugeben."
+    },
+    "CounterpartyReference": {
+      "definition": "Von der Gegenpartei vergebene zweifelsfreie Identifikation der Übertragung."
+    },
+    "BusinessFlowType": {
+      "definition": "Geschäftsprozess, an dem die Beteiligten mitwirken. Dies ermöglicht es, den richtigen Geschäftsprozess auszulösen, entsprechend dem Geschäftsmodell des Marktes, das übereinstimmende Anweisungen (Prozess mit zwei Seiten) erfordern kann oder nicht (Prozess mit einer Seite)."
+    },
+    "AverageAcquisitionPrice": {
+      "definition": "Durchschnittliche Kosten je Anteil des Wertpapiers einschließlich aller Gebühren."
+    },
+    "TransferCurrency": {
+      "definition": "Währung, die für die Übertragung der Bestände zu verwenden ist. Einige Transferstellen führen Bestände zusätzlich zur ISIN nach Währung gruppiert, bei Fondsanteilen in mehreren Währungen."
+    },
+    "TotalBookValue": {
+      "definition": "Nettovermögen in der Bilanz, d. h. der Gesamtwert des Portfolios abzüglich oder zuzüglich des nicht realisierten Gewinns oder Verlusts."
+    },
+    "TransfereeAccount": {
+      "definition": "Konto, das auf den Namen der Partei lautet, die nicht der Name des wirtschaftlichen Eigentümers der Anteile ist.|(Partei und Konto, auf das der Übertragungsempfänger das Finanzinstrument vom Übertragenden erhält.)"
+    },
+    "Transferor": {
+      "definition": "Partei und Konto, von dem der Übertragende das Finanzinstrument an den Übertragungsempfänger liefert."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identifikation einer verbundenen Partei oder eines Vermittlers."
+    },
+    "RequestedTransferDate": {
+      "definition": "Datum, für das die anweisende Partei die Übertragung beantragt."
+    },
+    "RequestedTradeDate": {
+      "definition": "Datum, das als Handelstag verwendet wird, wenn Wertpapiere über eine internationale Zentralverwahrer-Einrichtung (ICSD) oder eine Zentralverwahrer-Einrichtung (CSD) abgewickelt werden."
+    },
+    "RequestedSettlementDate": {
+      "definition": "Datum, an dem die Wertpapiere beim International Central Securities Depository (ICSD) oder Central Securities Depository (CSD) getauscht werden sollen."
+    },
+    "PaymentDetails": {
+      "definition": "Zahlungsprozess für die Übertragung von Barmitteln vom Zahlungspflichtigen an den Zahlungsempfänger."
+    },
+    "CrystallisationDetails": {
+      "definition": "Anzahl der Einheiten, die aus dem Fonds erhalten wurden (kristallisiert) oder noch nicht erhalten wurden (nicht kristallisiert). Dies ist typischerweise für einen Pensionsfonds relevant."
+    },
+    "TaxValuationPoint": {
+      "definition": "Datum oder Steuerquartal, das für die Berechnung der Steuer auf den Vermögenswert verwendet wird."
+    },
+    "SettlementPartiesDetails": {
+      "definition": "Kette der an der Abwicklung einer Transaktion beteiligten Parteien."
+    },
+    "AssetsHeldInOwnName": {
+      "definition": "Gibt an, ob die Vermögenswerte auf den eigenen Namen einer Einzelperson gehalten werden."
+    },
+    "TransferResultsInChangeOfBeneficialOwner": {
+      "definition": "Gibt an, ob die Übertragung zu einem Wechsel des wirtschaftlich Berechtigten führt."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Finanzinstrument."
+    }
+  },
+  "isoRules": {
+    "AssetQuantity1Guideline": {
+      "definition": "Wenn Instrument/Security vorhanden ist und Quantity vorhanden ist, dann muss Quantity/Unit oder Quantity/PercentageRate oder Quantity/FaceAmount oder Quantity/AmortisedValue vorhanden sein."
+    },
+    "AssetQuantity2Guideline": {
+      "definition": "Wenn Instrument/CashAsset vorhanden ist und Quantity vorhanden ist, dann muss Quantity/CashAmount oder Quantity/Percentage vorhanden sein."
+    },
+    "Conversion1Rule": {
+      "definition": "Wenn TransferType/Code/CONV (Conversion) vorhanden ist, dann muss Conversion vorhanden sein."
+    },
+    "Conversion2Rule": {
+      "definition": "Wenn TransferType/Code/CONV (Conversion) nicht vorhanden ist, dann ist Conversion nicht zulässig."
+    },
+    "AssetLiquidatedCurrencyGuideline": {
+      "definition": "Wenn ein Wertpapier liquidiert und als Barmittel übertragen werden soll (TransferType ist CASH), dann wird die Währung der resultierenden Barmittel in TransferCurrency angegeben."
+    },
+    "PartialInstructedQuantityRule": {
+      "definition": "Wenn der Wert von PartialInstructedQuantity 'true' oder '1' (Ja) ist, dann muss Quantity vorhanden sein.|Wenn der Wert von PartialInstructedQuantity 'false' oder '0' (Nein) ist, dann kann Quantity vorhanden sein."
+    }
+  }
+}

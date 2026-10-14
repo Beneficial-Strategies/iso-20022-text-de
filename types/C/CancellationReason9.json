@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationReason9",
+  "definition": "Gibt den Grund an, weshalb die Anweisung oder der Auftrag storniert wird.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, weshalb die Anweisung storniert wird."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Liefert zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

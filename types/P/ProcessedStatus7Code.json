@@ -1,0 +1,30 @@
+{
+  "isoType": "ProcessedStatus7Code",
+  "definition": "Bearbeitungsstatus des Kapitalmaßnahmen-Benachrichtigungsavis vom Beauftragten des Emittenten.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Empfangen",
+      "definition": "Die Anweisung/der Antrag ist eingegangen."
+    },
+    "SENT": {
+      "name": "An den Markt gesendet",
+      "definition": "Das Avis wurde an den Markt gesendet."
+    },
+    "SNAV": {
+      "name": "System nicht verfügbar",
+      "definition": "Das System ist nicht verfügbar. Die Anweisung wird außerhalb der Geschäftszeiten gesendet."
+    },
+    "WARN": {
+      "name": "Mit Warnung angenommen",
+      "definition": "Die Ankündigung wurde angenommen, aber eine andere Quelle hat abweichende Informationen geliefert."
+    },
+    "PACK": {
+      "name": "Akzeptiert",
+      "definition": "Der Antrag ist angenommen."
+    },
+    "PEND": {
+      "name": "Ausstehend",
+      "definition": "Die Bearbeitung des Antrags steht noch aus."
+    }
+  }
+}

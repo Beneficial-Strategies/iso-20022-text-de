@@ -1,0 +1,23 @@
+{
+  "isoType": "LimitCriteria7",
+  "definition": "Legt die Kriterien zur Extraktion der Limitinformationen und den erwarteten Limit-Report fest. Der neuen Abfrage kann ein Name gegeben werden.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Name der Abfrage, die durch die Such- und Rückgabekriterien definiert wird."
+    },
+    "SearchCriteria": {
+      "definition": "Legt die Kriterien zur Extraktion der Limitinformationen fest."
+    },
+    "ReturnCriteria": {
+      "definition": "Legt den erwarteten Limit-Report fest."
+    }
+  },
+  "isoRules": {
+    "LimitCriteriaGuideline": {
+      "definition": "Wird ein bilaterales Limit für bestimmte Teilnehmer im System benötigt, ist die Identifikation der bilateralen Gegenpartei anzugeben.|Ist standardmäßig keine Identifikation der bilateralen Gegenpartei angegeben und wird das aktuelle oder das Standard-Bilateral-Limit benötigt, werden alle bilateralen Limits mit den jeweiligen Identifikationen der Gegenparteien zurückgegeben."
+    },
+    "ReturnCriteriaAndOrSearchCriteriaRule": {
+      "definition": "Wenn ReturnCriteria nicht vorhanden ist, muss mindestens ein Vorkommen von SearchCriteria vorhanden sein. Wenn ReturnCriteria vorhanden ist, ist jedes Vorkommen von SearchCriteria optional."
+    }
+  }
+}

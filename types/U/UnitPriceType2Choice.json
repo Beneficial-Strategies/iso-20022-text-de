@@ -1,0 +1,12 @@
+{
+  "isoType": "UnitPriceType2Choice",
+  "definition": "Auswahl von Formaten für die Preisart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Preisart."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Preisart."
+    }
+  }
+}

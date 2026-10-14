@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionDate94",
+  "definition": "Gibt Daten der Kapitalmaßnahme an.",
+  "isoElements": {
+    "PaymentDate": {
+      "definition": "Datum/Uhrzeit, zu dem die Bewegung stattfinden soll (Bargeld und/oder Wertpapiere)."
+    },
+    "ValueDate": {
+      "definition": "Datum/Uhrzeit der Berechnung des wirtschaftlichen Vorteils für einen Barbetrag."
+    },
+    "ForeignExchangeRateFixingDate": {
+      "definition": "Datum/Uhrzeit, zu dem ein Devisenkurs festgelegt wird."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Datum/Uhrzeit, zu dem eine Zahlung erfolgen kann, zum Beispiel wenn der Zahlungstermin ein Nicht-Geschäftstag ist, oder zur Angabe des ersten Zahlungstermins eines Angebots."
+    }
+  }
+}

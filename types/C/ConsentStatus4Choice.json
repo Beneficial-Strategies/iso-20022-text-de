@@ -1,0 +1,12 @@
+{
+  "isoType": "ConsentStatus4Choice",
+  "definition": "Auswahl des Zustimmungsstatus.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Gibt an, dass kein Grund verfügbar oder zu melden ist."
+    },
+    "Reason": {
+      "definition": "Für den Status angegebener Grund."
+    }
+  }
+}

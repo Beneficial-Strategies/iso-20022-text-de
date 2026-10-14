@@ -1,0 +1,30 @@
+{
+  "isoType": "DocumentType3Code",
+  "definition": "Gibt eine Art von Finanz- oder Handelsdokument an.",
+  "isoCodes": {
+    "RADM": {
+      "name": "Zahlungsavis-Nachricht",
+      "definition": "Das Dokument ist ein separat von der aktuellen Transaktion gesendetes Zahlungsavis."
+    },
+    "RPIN": {
+      "name": "Zugehörige Zahlungsanweisung",
+      "definition": "Das Dokument ist eine verknüpfte Zahlungsanweisung, auf die sich die aktuelle Zahlungsanweisung bezieht, z. B. in einem Cover-Szenario."
+    },
+    "FXDR": {
+      "name": "Devisengeschäftsreferenz",
+      "definition": "Das Dokument ist ein vorab vereinbartes Devisengeschäft, auf das sich die Zahlungstransaktion bezieht."
+    },
+    "DISP": {
+      "name": "Versandavis",
+      "definition": "Das Dokument ist eine Versandanzeige."
+    },
+    "PUOR": {
+      "name": "Bestellung",
+      "definition": "Das Dokument ist eine Bestellung."
+    },
+    "SCOR": {
+      "name": "Strukturierte Verwendungszweckreferenz",
+      "definition": "Das Dokument ist eine vom Zahlungsempfänger bereitgestellte strukturierte Kommunikationsreferenz zur Identifikation der referenzierten Transaktion."
+    }
+  }
+}

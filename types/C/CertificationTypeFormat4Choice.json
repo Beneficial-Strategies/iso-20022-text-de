@@ -1,0 +1,12 @@
+{
+  "isoType": "CertificationTypeFormat4Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe des erforderlichen Bescheinigungsformats.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des erforderlichen Bescheinigungsformats, das heißt physisches oder elektronisches Format."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation des Bescheinigungsformats."
+    }
+  }
+}

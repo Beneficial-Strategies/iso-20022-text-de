@@ -1,0 +1,14 @@
+{
+  "isoType": "FATCASourceStatus1Code",
+  "definition": "Gibt die Quelle des Status nach dem Foreign Account Tax Compliance Act (FATCA) an.",
+  "isoCodes": {
+    "CALC": {
+      "name": "Berechnet",
+      "definition": "Quelle des berechneten Status nach dem Foreign Account Tax Compliance Act (FATCA)."
+    },
+    "DECL": {
+      "name": "Erklärt",
+      "definition": "Quelle des Status nach dem Foreign Account Tax Compliance Act (FATCA) ist die Erklärung des Anlegers."
+    }
+  }
+}

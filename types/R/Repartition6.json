@@ -1,0 +1,15 @@
+{
+  "isoType": "Repartition6",
+  "definition": "Gibt an, wie der Betrag des Anlageplans auf die Fonds aufgeteilt wird.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Betrag, Einheiten oder Prozentsatz des angelegten oder entnommenen Finanzinstruments."
+    },
+    "FinancialInstrument": {
+      "definition": "Detaillierte Informationen zum Wertpapier oder Investmentfonds."
+    },
+    "CurrencyOfPlan": {
+      "definition": "Wenn ein Fonds innerhalb derselben ISIN mehrere Währungen hat, gibt dies die Währung des Spar- oder Entnahmeplans an."
+    }
+  }
+}

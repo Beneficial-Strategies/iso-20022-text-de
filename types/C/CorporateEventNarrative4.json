@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateEventNarrative4",
+  "definition": "Liefert Haftungsausschluss-Freitextinformationen zum Ereignis.",
+  "isoElements": {
+    "Disclaimer": {
+      "definition": "Haftungsausschlusshinweis des Emittenten in Bezug auf die bereitgestellten Informationen zur Ankündigung der Versammlung. Er kann bei der automatisierten Verarbeitung ignoriert werden."
+    },
+    "ProcessingTextForNextIntermediary": {
+      "definition": "Liefert zusätzliche Informationen des kontoführenden Instituts oder eines Dienstleisters, die ausschließlich für den nächsten unmittelbaren Kontoinhaber bestimmt sind, um die Ereignisverarbeitung zwischen den Parteien zu ermöglichen oder zu erleichtern."
+    }
+  }
+}

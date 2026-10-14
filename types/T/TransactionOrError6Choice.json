@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionOrError6Choice",
+  "definition": "Auswahl zwischen den Transaktionsdetails oder einem Geschäftsfehler, wenn die angeforderten Daten nicht abgerufen werden können.",
+  "isoElements": {
+    "Transaction": {
+      "definition": "Angeforderte Informationen zur Zahlungstransaktion."
+    },
+    "BusinessError": {
+      "definition": "Grund, weshalb die angeforderten Geschäftsinformationen nicht bereitgestellt werden."
+    }
+  }
+}

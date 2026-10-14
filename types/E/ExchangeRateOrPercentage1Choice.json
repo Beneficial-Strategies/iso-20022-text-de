@@ -1,0 +1,12 @@
+{
+  "isoType": "ExchangeRateOrPercentage1Choice",
+  "definition": "Legt eine Auswahl zwischen einem absoluten Kurs und einem prozentualen Satz fest.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Der Kurs wird als Währungswechselkurs ausgedrückt."
+    },
+    "Percentage": {
+      "definition": "Der Kurs wird als Prozentsatz im Verhältnis zum Referenzkurs ausgedrückt."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMPropertyComponent1",
+  "definition": "Menge der auf einem Terminal zu aktualisierenden Eigenschaften.",
+  "isoElements": {
+    "PropertyName": {
+      "definition": "Der Name der auf dem Terminal zu aktualisierenden Eigenschaft."
+    },
+    "PropertyType": {
+      "definition": "Die Art der Eigenschaft. Sie ist eine der folgenden: String, Number, Boolean, JSON, CSV (das heißt eine CSV1-Zeichenfolge, die eine Datentabelle darstellt)."
+    },
+    "PropertyValue": {
+      "definition": "Der der Eigenschaft zuzuweisende Wert."
+    }
+  }
+}

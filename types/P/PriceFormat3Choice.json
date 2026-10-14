@@ -1,0 +1,12 @@
+{
+  "isoType": "PriceFormat3Choice",
+  "definition": "Auswahl von Formaten zur Angabe eines Preises.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Preis, ausgedrückt als Währung und Betrag."
+    },
+    "Rate": {
+      "definition": "Preis, ausgedrückt als Satz, das heißt Prozentsatz."
+    }
+  }
+}

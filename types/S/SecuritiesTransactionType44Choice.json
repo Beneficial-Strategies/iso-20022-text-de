@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesTransactionType44Choice",
+  "definition": "Auswahl der Formate für Angaben zur Art der Abwicklungstransaktion.",
+  "isoElements": {
+    "Code": {
+      "definition": "Wertpapiertransaktionsart, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Wertpapiertransaktionsart, ausgedrückt als proprietärer Code."
+    }
+  }
+}

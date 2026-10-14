@@ -1,0 +1,39 @@
+{
+  "isoType": "CorporateActionDate4",
+  "definition": "Gibt Daten der Kapitalmaßnahme an.",
+  "isoElements": {
+    "CouponClippingDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Kupons zur Zahlung von Zinsen eingereicht werden sollen bzw. wurden."
+    },
+    "ConsentExpirationDate": {
+      "definition": "Letztes Datum und letzte Uhrzeit, zu denen ein Inhaber den von der Gesellschaft angestrebten Änderungen zustimmen kann."
+    },
+    "ConsentRecordDate": {
+      "definition": "Datum und Uhrzeit, die vom Anbieter verwendet werden, um den zur Teilnahme an einer Zustimmung berechtigten Begünstigten anhand des eingetragenen Eigentümers der Wertpapiere zu bestimmen, z. B. wirtschaftlicher Eigentümer des Zustimmungsstichtags. Der Qualifizierer für den Zustimmungsstichtag wird verwendet, um anzugeben, dass ein Stichtag nur für einen bestimmten Teil des Angebots und nicht für das gesamte Angebot gilt."
+    },
+    "PaymentDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Ausschüttung (Barmittel und/oder Wertpapiere) stattfinden soll."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Datum und Uhrzeit, zu denen eine Zahlung erfolgen kann, z. B. wenn der Zahlungstag kein Geschäftstag ist, oder zur Angabe des ersten Zahlungstags eines Angebots."
+    },
+    "MarketDeadline": {
+      "definition": "Frist des Emittenten oder des Beauftragten des Emittenten, innerhalb der mit einer Anweisung auf ein ausstehendes Angebot oder Privileg zu reagieren ist."
+    },
+    "ResponseDeadline": {
+      "definition": "Datum und Uhrzeit, die der Kontoführer als Frist festgelegt hat, innerhalb der mit Anweisungen auf ein ausstehendes Ereignis zu reagieren ist. Diese Zeit hängt von der Referenzzeitzone des Kontoführers ab, wie in einem SLA angegeben."
+    },
+    "DeadlineToSplit": {
+      "definition": "Frist, bis zu der Anweisungen zur Teilung von Wertpapieren, z. B. physischer Urkunden, eingegangen sein müssen."
+    },
+    "ExpiryDate": {
+      "definition": "Datum/Uhrzeit, zu dem ein Auftrag verfällt oder ein Vorrecht bzw. Angebot endet."
+    },
+    "QuotationSettingDate": {
+      "definition": "Datum/Uhrzeit, zu dem der Kurs eines Wertpapiers festgelegt wird."
+    },
+    "SubscriptionCostDebitDate": {
+      "definition": "Datum/Uhrzeit, bis zu dem Barmittel vorhanden sein müssen, um an dem Ereignis teilzunehmen."
+    }
+  }
+}

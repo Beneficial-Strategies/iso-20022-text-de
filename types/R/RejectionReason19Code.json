@@ -1,0 +1,10 @@
+{
+  "isoType": "RejectionReason19Code",
+  "definition": "Gibt den Grund für die Ablehnung eines Antrags auf Autorisierung einer globalen Bewegung an.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Validierung fehlgeschlagen",
+      "definition": "Die Validierung der Mitteilung/Anweisung/des Antrags ist fehlgeschlagen."
+    }
+  }
+}

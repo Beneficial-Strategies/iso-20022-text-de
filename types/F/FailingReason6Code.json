@@ -1,0 +1,50 @@
+{
+  "isoType": "FailingReason6Code",
+  "definition": "Gibt den Grund an, weshalb die Abwicklung der Transaktion/Anweisung fehlschlägt. Eine Abwicklung am angewiesenen Abwicklungstag ist nicht mehr möglich.",
+  "isoCodes": {
+    "BLOC": {
+      "name": "Konto gesperrt",
+      "definition": "Ihr Konto ist gesperrt, über das Konto kann keine Anweisung abgewickelt werden."
+    },
+    "PART": {
+      "name": "Geschäft wird in Teilmengen abgewickelt",
+      "definition": "Das Geschäft wird in Teilmengen abgewickelt."
+    },
+    "LINK": {
+      "name": "Ausstehende verknüpfte Anweisung",
+      "definition": "Ihre Anweisung steht zur Abwicklung an, da die damit verknüpfte Anweisung aussteht."
+    },
+    "LACK": {
+      "name": "Mangel an Wertpapieren",
+      "definition": "Auf Ihrem Konto sind nicht genügend Finanzinstrumente vorhanden."
+    },
+    "CYCL": {
+      "name": "Wartet auf nächsten Abwicklungszyklus",
+      "definition": "Ihre Anweisung ist im lokalen Markt bestätigt oder zur Abwicklung bereit und wartet auf den nächsten Abwicklungszyklus."
+    },
+    "SBLO": {
+      "name": "Wertpapiere gesperrt",
+      "definition": "Finanzinstrumente sind aufgrund eines Kapitalmaßnahmenereignisses, einer Neuausrichtung usw. gesperrt."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Die Anweisung ist nach der Marktfrist eingegangen."
+    },
+    "CERT": {
+      "name": "Falsche Zertifikatsnummern",
+      "definition": "Fehler bei der Zertifikatsnummer."
+    },
+    "PRSY": {
+      "name": "System angehalten",
+      "definition": "Die Transaktion wurde vom System angehalten/eingefroren."
+    },
+    "INBC": {
+      "name": "Unvollständige Stückzahl",
+      "definition": "Es sind noch nicht alle zu einem Pool gehörenden Anweisungen eingegangen."
+    }
+  }
+}

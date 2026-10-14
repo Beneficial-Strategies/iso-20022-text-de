@@ -1,0 +1,12 @@
+{
+  "isoType": "SubBalanceType9Choice",
+  "definition": "Auswahl des Formats für den Teilsaldo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund, warum ein Finanzinstrument nicht verfügbar ist, oder zusätzliche Informationen zu dem Finanzinstrument, für das der Saldo angegeben wird, zum Beispiel nicht registriert, auf den Namen eines Nominees registriert."
+    },
+    "Proprietary": {
+      "definition": "Grund, warum ein Finanzinstrument nicht verfügbar ist, oder zusätzliche Informationen zu dem Finanzinstrument, für das der Saldo angegeben wird, zum Beispiel nicht registriert, auf den Namen eines Nominees registriert."
+    }
+  }
+}

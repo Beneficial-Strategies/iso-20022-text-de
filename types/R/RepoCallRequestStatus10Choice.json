@@ -1,0 +1,12 @@
+{
+  "isoType": "RepoCallRequestStatus10Choice",
+  "definition": "Auswahl des Formats für die Bestätigung des Abrufs des Rückkaufgeschäfts.",
+  "isoElements": {
+    "Code": {
+      "definition": "Liefert den Status der Anforderung zum Abruf des Rückkaufgeschäfts."
+    },
+    "Proprietary": {
+      "definition": "Liefert den Status der Anforderung zum Abruf des Rückkaufgeschäfts."
+    }
+  }
+}

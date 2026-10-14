@@ -1,0 +1,36 @@
+{
+  "isoType": "OriginalItemReference8",
+  "definition": "Enthält weitere Möglichkeiten zur Referenzierung einer Zahlungstransaktion.",
+  "isoElements": {
+    "Account": {
+      "definition": "Identifiziert das Konto, dem der eingehende Geldbetrag gutgeschrieben wird."
+    },
+    "AccountOwner": {
+      "definition": "Partei, die rechtlich Eigentümer des Kontos ist."
+    },
+    "AccountServicer": {
+      "definition": "Partei, die das Konto im Auftrag des Kontoinhabers führt, d. h. die Registrierung und Buchung von Posten auf dem Konto verwaltet, Salden des Kontos berechnet und Informationen zum Konto bereitstellt."
+    },
+    "RelatedAccount": {
+      "definition": "Identifiziert das übergeordnete Konto des Kontos, dem der eingehende Geldbetrag gutgeschrieben wird."
+    },
+    "Debtor": {
+      "definition": "Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungspflichtigen führt."
+    },
+    "IntermediaryAgent": {
+      "definition": "Zahlungsprozesse, die zur Übertragung von Geld vom Zahlungspflichtigen an den Zahlungsempfänger erforderlich sind."
+    },
+    "Purpose": {
+      "definition": "Zugrunde liegender Grund für die Zahlungstransaktion."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Enthält Informationen zur Behandlung der Verwendungszweck-Informationen durch eine der Banken in der Verarbeitungskette der Transaktion."
+    },
+    "RemittanceInformation": {
+      "definition": "Strukturierte Informationen, die den Abgleich einer Zahlung mit den Posten ermöglichen, die durch die Zahlung beglichen werden sollen, etwa Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    }
+  }
+}

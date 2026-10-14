@@ -1,0 +1,24 @@
+{
+  "isoType": "TrackerRecord8",
+  "definition": "Gibt die bankspezifischen Informationen des Trackingsystems zu einer Zahlungstransaktion an.",
+  "isoElements": {
+    "PartyOrAgentIdentification": {
+      "definition": "Identifikation einer Partei oder eines Instituts im Tracker."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Geldbetrag, der zwischen der anweisenden Bank und der angewiesenen Bank bewegt wird."
+    },
+    "ChargeBearer": {
+      "definition": "Gibt an, welche Partei(en) die mit der Verarbeitung der Zahlungstransaktion verbundenen Entgelte trägt/tragen."
+    },
+    "ChargesAmount": {
+      "definition": "Transaktionsentgelte, die vom Entgeltträger zu zahlen sind."
+    },
+    "ExchangeRateData": {
+      "definition": "Enthält Einzelheiten zu Kurs und Währungen, die beim Devisengeschäft verwendet wurden."
+    },
+    "ProcessingDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen die Anweisung von der angegebenen Partei verarbeitet wurde."
+    }
+  }
+}

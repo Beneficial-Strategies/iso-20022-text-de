@@ -1,0 +1,24 @@
+{
+  "isoType": "ProtectInstruction2",
+  "definition": "Liefert detaillierte Informationen zu Protect- und Cover-Protect-Anweisungen.",
+  "isoElements": {
+    "TransactionType": {
+      "definition": "Gibt an, ob die Anweisung eine Protect- oder eine Cover-Protect-Anweisung ist."
+    },
+    "ProtectTransactionStatus": {
+      "definition": "Status der Protect-Transaktion."
+    },
+    "TransactionIdentification": {
+      "definition": "Eindeutige Referenz der Protect-Transaktion, die von der Verwahrstelle vergeben und für die Cover-Protect-Validierung verwendet wird."
+    },
+    "ProtectSafekeepingAccount": {
+      "definition": "Konto, das die ursprüngliche Protect-Anweisung eingereicht hat, die für Cover-Protect-Anweisungen verwendet wird, bei denen ein Depotkonto im Namen eines anderen Depotkontos deckt."
+    },
+    "ProtectDate": {
+      "definition": "Datum, an dem die Protect-Anweisung erstellt wurde und das für die Cover-Protect-Validierung verwendet wird."
+    },
+    "UncoveredProtectQuantity": {
+      "definition": "Verbleibende Menge der Protect-Anweisung, die nicht gedeckt wurde."
+    }
+  }
+}

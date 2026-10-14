@@ -1,0 +1,22 @@
+{
+  "isoType": "Algorithm15Code",
+  "definition": "Kryptografische Algorithmen für Verschlüsselungen mit einem symmetrischen kryptografischen Schlüssel.",
+  "isoCodes": {
+    "EA2C": {
+      "name": "AES128CBC",
+      "definition": "AES-Verschlüsselung (Advanced Encryption Standard) im CBC-Modus (Cipher Block Chaining) mit einem kryptografischen Schlüssel von 128 Bit gemäß den Federal Information Processing Standards (FIPS 197 - 6. November 2001 - Advanced Encryption Standard)."
+    },
+    "E3DC": {
+      "name": "DES112CBC",
+      "definition": "Triple-DES-Verschlüsselung (Data Encryption Standard) im CBC-Modus (Cipher Block Chaining) mit doppelt langem Schlüssel (112 Bit) gemäß FIPS PUB 46-3 - (ASN.1 Object Identifier: des-ede3-cbc)."
+    },
+    "EA9C": {
+      "name": "AES192CBC",
+      "definition": "AES-Verschlüsselung (Advanced Encryption Standard) im CBC-Modus (Cipher Block Chaining) mit einem kryptografischen Schlüssel von 192 Bit gemäß den Federal Information Processing Standards (FIPS 197 – 6. November 2001 - Advanced Encryption Standard)."
+    },
+    "EA5C": {
+      "name": "AES256CBC",
+      "definition": "AES-Verschlüsselung (Advanced Encryption Standard) im CBC-Modus (Cipher Block Chaining) mit einem kryptografischen Schlüssel von 256 Bit gemäß den Federal Information Processing Standards (FIPS 197 – 6. November 2001 - Advanced Encryption Standard)."
+    }
+  }
+}

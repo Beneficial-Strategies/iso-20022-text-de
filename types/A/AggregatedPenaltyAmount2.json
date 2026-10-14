@@ -1,0 +1,18 @@
+{
+  "isoType": "AggregatedPenaltyAmount2",
+  "definition": "Gibt die aggregierten Strafzahlungsbeträge je Partei an.",
+  "isoElements": {
+    "PartyIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Partei, auf die sich die aggregierten Beträge beziehen."
+    },
+    "AggregatedDebitAmount": {
+      "definition": "Summe der Lastschriftbeträge für die Partei."
+    },
+    "AggregatedCreditAmount": {
+      "definition": "Summe der Gutschriftbeträge für die Partei."
+    },
+    "GlobalNetAmount": {
+      "definition": "Saldo aller Beträge für diesen CSD."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationType1Choice",
+  "definition": "Gibt die Art der Benachrichtigung an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Benachrichtigungsart, wie in einer externen Codeliste für Benachrichtigungsarten veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Benachrichtigungsart in proprietärer Form."
+    }
+  }
+}

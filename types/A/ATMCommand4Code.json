@@ -1,0 +1,34 @@
+{
+  "isoType": "ATMCommand4Code",
+  "definition": "Art des von einem ATM auszuführenden Befehls.",
+  "isoCodes": {
+    "ABAL": {
+      "name": "ATM-Saldo",
+      "definition": "Die Zählerstände des ATM bereitstellen und die dafür geeigneten Zähler zurücksetzen."
+    },
+    "ASTS": {
+      "name": "ATM-Statusaktualisierung",
+      "definition": "Vom ATM-Betreiber geforderter Status des ATM."
+    },
+    "CFGT": {
+      "name": "Konfigurationsaktualisierung",
+      "definition": "Die Konfigurationsparameter des ATM aktualisieren."
+    },
+    "CCNT": {
+      "name": "Zählerabfrage",
+      "definition": "Den Wert der Zähler des ATM anfordern."
+    },
+    "DISC": {
+      "name": "Trennen",
+      "definition": "Eine Trennung gefolgt von einer erneuten Verbindung durchführen."
+    },
+    "SNDM": {
+      "name": "Nachricht senden",
+      "definition": "Eine bestimmte Nachricht zum Anstoßen eines Prozesses senden."
+    },
+    "RPTC": {
+      "name": "Zählerbericht",
+      "definition": "Den Wert der Zähler des ATM bereitstellen, ohne die Zähler neu zu initialisieren."
+    }
+  }
+}

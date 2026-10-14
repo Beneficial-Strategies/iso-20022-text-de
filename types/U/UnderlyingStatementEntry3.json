@@ -1,0 +1,18 @@
+{
+  "isoType": "UnderlyingStatementEntry3",
+  "definition": "Enthält weitere Details zur zugrunde liegenden Kontoauszugsbuchung, auf die sich die Untersuchungsnachricht bezieht.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "definition": "Menge von Elementen mit Informationen zur ursprünglichen Nachricht."
+    },
+    "OriginalStatementIdentification": {
+      "definition": "Eindeutige Identifikation, wie von der kontoführenden Stelle vergeben, zur zweifelsfreien Identifikation des ursprünglichen Kontoauszugs."
+    },
+    "OriginalEntryIdentification": {
+      "definition": "Ursprüngliche eindeutige Identifikation, wie von der kontoführenden Stelle vergeben, zur zweifelsfreien Identifikation der ursprünglichen Buchung."
+    },
+    "OriginalUETR": {
+      "definition": "Universell eindeutiger Bezeichner (UUID) für die ursprüngliche Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    }
+  }
+}

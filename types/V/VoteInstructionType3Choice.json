@@ -1,0 +1,12 @@
+{
+  "isoType": "VoteInstructionType3Choice",
+  "definition": "Auswahl zwischen einem vordefinierten Codewert und einem proprietären Codewert für eine Art der Stimmanweisung.",
+  "isoElements": {
+    "Type": {
+      "definition": "Stimmoption, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Stimmoption, ausgedrückt als proprietärer Code."
+    }
+  }
+}

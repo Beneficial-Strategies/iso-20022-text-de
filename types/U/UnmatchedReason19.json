@@ -1,0 +1,12 @@
+{
+  "isoType": "UnmatchedReason19",
+  "definition": "Legt den Grund fest, aus dem die Anweisung den Status „nicht abgeglichen“ hat.",
+  "isoElements": {
+    "Code": {
+      "definition": "Legt den Grund fest, aus dem die Anweisung den Status „nicht abgeglichen“ hat."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Enthält zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

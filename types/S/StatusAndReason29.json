@@ -1,0 +1,23 @@
+{
+  "isoType": "StatusAndReason29",
+  "definition": "Status und Grund einer Transaktion.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Gibt den Status einer Anweisung an."
+    },
+    "InferredMatchingStatus": {
+      "definition": "Liefert den Abgleichsstatus einer Anweisung, wie er dem Kontoführer auf Grundlage einer Behauptung (Allegement) bekannt ist. Zu diesem Zeitpunkt hat am Markt (beim Zentralverwahrer/internationalen Zentralverwahrer) noch kein Abgleich stattgefunden (CSD) (ICSD)."
+    },
+    "MatchingStatus": {
+      "definition": "Liefert den Abgleichsstatus der Anweisung."
+    },
+    "SettlementStatus": {
+      "definition": "Gibt den Status der Abwicklung einer Transaktion an."
+    }
+  },
+  "isoRules": {
+    "SettlementStatusAndMatchedRule": {
+      "definition": "Wenn Abwicklungsstatus/-grund allein verwendet wird, bedeutet dies, dass die Transaktion abgeglichen ist (sofern am betreffenden Markt oder beim betreffenden Kontoführer ein Abgleichsprozess besteht)."
+    }
+  }
+}

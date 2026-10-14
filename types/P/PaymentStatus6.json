@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentStatus6",
+  "definition": "Details zum Zahlungsstatus.",
+  "isoElements": {
+    "Code": {
+      "definition": "Status einer Überweisung in codierter Form, wie vom Transaktionsverwalter vergeben."
+    },
+    "DateTime": {
+      "definition": "Datum und Uhrzeit, zu denen der Überweisung der Status zugewiesen wurde."
+    },
+    "Reason": {
+      "definition": "Angegebener Grund für den Status einer Überweisung."
+    }
+  }
+}

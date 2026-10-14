@@ -1,0 +1,30 @@
+{
+  "isoType": "PendingStatusReason1Code",
+  "definition": "Gibt den Grund für einen ausstehenden Status an.",
+  "isoCodes": {
+    "KYCM": {
+      "name": "Know-Your-Customer-Dokument fehlt",
+      "definition": "Das Dokument zur Kundenidentifizierung (Know Your Customer, KYC) fehlt."
+    },
+    "FRDM": {
+      "name": "FATCA-Meldedatum fehlt",
+      "definition": "Das FATCA-Meldedatum fehlt."
+    },
+    "RIGH": {
+      "name": "Rechteinhaber fehlt",
+      "definition": "Die Informationen zum Rechteinhaber fehlen."
+    },
+    "ATHR": {
+      "name": "Autorisierung",
+      "definition": "Eine Autorisierung ist erforderlich."
+    },
+    "ATHP": {
+      "name": "Autorisiert, aber ausstehend",
+      "definition": "Die Autorisierung liegt vor, die Kontoänderung ist jedoch noch ausstehend."
+    },
+    "MODI": {
+      "name": "Änderung in Bearbeitung",
+      "definition": "Die Änderung der Kontodaten ist in Bearbeitung."
+    }
+  }
+}

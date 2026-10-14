@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason57",
+  "definition": "Gibt den Grund an, weshalb die Anweisung oder der Antrag den Status abgelehnt hat.",
+  "isoElements": {
+    "Code": {
+      "definition": "Für den Status angegebener Grund."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Enthält zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

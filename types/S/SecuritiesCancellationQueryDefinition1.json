@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesCancellationQueryDefinition1",
+  "definition": "Definiert die Informationen, nach denen anhand der Festlegung bestimmter Kriterien gesucht wird.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Legt den Abfragetyp fest."
+    },
+    "SearchCriteria": {
+      "definition": "Definiert die Kriterien zum Abruf der Informationen zu Stornierungsanweisungen für Positionsumbuchungen (Intra-Position) oder Abwicklungsanweisungen."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "TransactionDates3",
+  "definition": "Satz von Elementen mit Informationen zu den Daten, die sich auf die zugrunde liegende einzelne Transaktion beziehen.",
+  "isoElements": {
+    "AcceptanceDateTime": {
+      "definition": "Zeitpunkt, zu dem der Zahlungsauftrag der initiierenden Partei die Bearbeitungsbedingungen der kontoführenden Bank erfüllt. Das bedeutet, dass die kontoführende Bank den Zahlungsauftrag erhalten und Prüfungen wie Autorisierung und Verfügbarkeit von Geldmitteln durchgeführt hat."
+    },
+    "TradeActivityContractualSettlementDate": {
+      "definition": "Gibt an, wann ein Geldbetrag vertragsgemäß dem Konto hätte gutgeschrieben oder belastet werden sollen, im Vergleich dazu, wann der Geldbetrag tatsächlich auf dem Geldkonto abgewickelt (belastet/gutgeschrieben) wurde."
+    },
+    "TradeDate": {
+      "definition": "Datum, an dem das Geschäft ausgeführt wurde."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag der schuldenden Bank nicht mehr zur Verfügung steht und der Bank, der er zusteht, zur Verfügung steht."
+    },
+    "StartDate": {
+      "definition": "Startdatum der zugrunde liegenden Transaktion, beispielsweise eines Treasury-Geschäfts oder eines Anlageplans."
+    },
+    "EndDate": {
+      "definition": "Enddatum der zugrunde liegenden Transaktion, beispielsweise eines Treasury-Geschäfts oder eines Anlageplans."
+    },
+    "TransactionDateTime": {
+      "definition": "Datum und Uhrzeit der zugrunde liegenden Transaktion."
+    },
+    "Proprietary": {
+      "definition": "Proprietäres Datum zur zugrunde liegenden Transaktion."
+    }
+  }
+}

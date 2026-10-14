@@ -1,0 +1,12 @@
+{
+  "isoType": "Reservation4",
+  "definition": "Vom Kontoinhaber für bestimmte Zwecke beiseitegelegte Liquidität.",
+  "isoElements": {
+    "StartDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen die Reservierung wirksam wird."
+    },
+    "Amount": {
+      "definition": "Geldbetrag des Limits, ausgedrückt in einer zulässigen Währung."
+    }
+  }
+}

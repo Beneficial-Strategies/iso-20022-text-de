@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountIdentificationFormatChoice",
+  "definition": "Auswahl zwischen Formaten für die Kontoidentifikation.",
+  "isoElements": {
+    "SimpleIdentification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "IdentificationAndPurpose": {
+      "definition": "Identifikation des Kontos, ausgedrückt als Kontonummer und Code."
+    },
+    "IdentificationAsDSS": {
+      "definition": "Identifikation des Kontos, ausgedrückt als Datenquellenschema, ein innerhalb des Datenquellenschemas verwendeter Code und die Kontoidentifikation."
+    }
+  }
+}

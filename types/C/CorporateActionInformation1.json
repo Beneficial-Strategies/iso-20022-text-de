@@ -1,0 +1,32 @@
+{
+  "isoType": "CorporateActionInformation1",
+  "definition": "Allgemeine Informationen zum Kapitalmaßnahmen-Ereignis.",
+  "isoElements": {
+    "AgentIdentification": {
+      "definition": "Identifikation der Emittentenbank."
+    },
+    "IssuerCorporateActionIdentification": {
+      "definition": "Vom Emittenten (Beauftragten) des CA-Ereignisses vergebene Referenz für das Ereignis."
+    },
+    "CorporateActionProcessingIdentification": {
+      "definition": "Referenz, vergeben vom Kontoführer, zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "EventType": {
+      "definition": "Art des Kapitalmaßnahmen-Ereignisses."
+    },
+    "MandatoryVoluntaryEventType": {
+      "definition": "Gibt an, ob das Ereignis obligatorisch, obligatorisch mit Wahlmöglichkeiten oder freiwillig ist."
+    },
+    "EventProcessingType": {
+      "definition": "Art der mit einer Kapitalmaßnahme verbundenen Verarbeitung."
+    },
+    "UnderlyingSecurity": {
+      "definition": "Identifikation des zugrunde liegenden Finanzinstruments, d. h. des von dem Kapitalmaßnahmen-Ereignis betroffenen Finanzinstruments."
+    }
+  },
+  "isoRules": {
+    "CorporateActionIdentificationRule": {
+      "definition": "Mindestens ein Element der Liste (IssuerCorporateActionReference, OfficialCorporateActionReference, CorporateActionProcessingIdentifier) muss vorhanden sein. Es dürfen auch alle vorhanden sein."
+    }
+  }
+}

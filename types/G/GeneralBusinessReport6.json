@@ -1,0 +1,12 @@
+{
+  "isoType": "GeneralBusinessReport6",
+  "definition": "Meldet entweder die fachlichen Informationen oder einen fachlichen Fehler.",
+  "isoElements": {
+    "BusinessInformationReference": {
+      "definition": "Eindeutige Identifikation eines allgemeinen fachlichen Informationssystems, wie vom Transaktionsverwalter des Systems vergeben."
+    },
+    "GeneralBusinessOrError": {
+      "definition": "Angeforderte fachliche Informationen."
+    }
+  }
+}

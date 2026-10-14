@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMSecurityContext3",
+  "definition": "Kontext des ATM für den Schlüssel-Download.",
+  "isoElements": {
+    "CurrentSecurityScheme": {
+      "definition": "Für den Host-Manager am ATM aktives Sicherheitsverfahren für den Schlüsselaustausch."
+    },
+    "DeviceProperty": {
+      "definition": "Informationen zum Hardware-Sicherheitsmodul, auch EPP (Encrypted PIN Pad) genannt."
+    },
+    "CurrentConfiguration": {
+      "definition": "Vom Sicherheitsgerät verwendete Konfigurationsparameter."
+    }
+  }
+}

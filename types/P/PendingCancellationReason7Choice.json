@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingCancellationReason7Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe des Grundes, warum eine für die zugehörige Anweisung gesendete Stornierungsanfrage ausstehend ist.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code angegebener Grund für den Status ausstehend."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code angegebener Grund für den Status ausstehend."
+    }
+  }
+}

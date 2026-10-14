@@ -1,0 +1,22 @@
+{
+  "isoType": "CardDataReading4Code",
+  "definition": "Fähigkeiten des ATM-Terminals, das die Transaktion durchführt.",
+  "isoCodes": {
+    "ECTL": {
+      "name": "EMV-Näherungsleser",
+      "definition": "Kontaktloses Nahbereichslesegerät mit Anwendung gemäß dem Standard EMV (von Europay, Mastercard und Visa initiierter Standard)."
+    },
+    "CICC": {
+      "name": "ICC",
+      "definition": "ICC (Integrated Circuit Card) mit Kontakt, die Softwareanwendungen gemäß ISO 7816 enthält."
+    },
+    "MGST": {
+      "name": "Magnetstreifen",
+      "definition": "Magnetstreifen."
+    },
+    "CTLS": {
+      "name": "Näherungsleser",
+      "definition": "Kontaktloses Nahbereichslesegerät."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "isoType": "CorporateActionPendingStatus1Code",
+  "definition": "Status \"ausstehend\" des Kapitalmaßnahmen-Benachrichtigungsavis vom Beauftragten des Emittenten.",
+  "isoCodes": {
+    "CNFC": {
+      "name": "Gleichzeitige vollständige Kündigung",
+      "definition": "Ein gleichzeitiges Ereignis einer vollständigen Kündigung liegt vor."
+    },
+    "PUBF": {
+      "name": "Zukünftiges Veröffentlichungsdatum",
+      "definition": "Ausstehend aufgrund eines in der Zukunft liegenden Veröffentlichungsdatums."
+    },
+    "REOR": {
+      "name": "Gleichzeitige Reorganisation",
+      "definition": "Eine gleichzeitige Reorganisationsankündigung liegt vor."
+    },
+    "ACCR": {
+      "name": "Nicht berechenbare Zinsen",
+      "definition": "Aufgelaufene Zinsen können nicht berechnet werden. Zahlungsdetails fehlen."
+    },
+    "SCAL": {
+      "name": "Ungültiger gekündigter Wertpapierbetrag",
+      "definition": "Ungültiger gekündigter Wertpapierbetrag."
+    },
+    "LATE": {
+      "name": "Verspätete Ankündigung",
+      "definition": "Verspätete Ankündigung. Das gemeldete Zahlungsdatum liegt außerhalb des zulässigen Bereichs in der Vergangenheit."
+    },
+    "MATU": {
+      "name": "Fällig werdende Emission",
+      "definition": "Auslaufende Emission. Das Rückzahlungsdatum liegt auf oder nach dem Fälligkeitsdatum."
+    },
+    "PAYD": {
+      "name": "Zahlungsdatum außerhalb des Bereichs",
+      "definition": "Das Zahlbarkeitsdatum liegt außerhalb des anwendbaren Datumsbereichs."
+    },
+    "POSD": {
+      "name": "Positionsabweichung",
+      "definition": "Positionsabweichung. Mögliche Teilkündigung."
+    },
+    "CNPC": {
+      "name": "Mögliche Teilkündigung",
+      "definition": "Ereignis prüfen. Eine möglicherweise widersprüchliche Teilkündigung liegt vor."
+    },
+    "CNRD": {
+      "name": "Gleichzeitige Rückzahlung prüfen",
+      "definition": "Ereignis prüfen. Ein gleichzeitiges Rückzahlungsereignis liegt vor."
+    },
+    "CNRE": {
+      "name": "Gleichzeitige Reorganisation prüfen",
+      "definition": "Ereignis prüfen. Ein gleichzeitiges Reorganisationsereignis liegt vor."
+    },
+    "VRON": {
+      "name": "Satz der Rückzahlung prüfen",
+      "definition": "Satz prüfen. Rückzahlung im regulären Zyklus."
+    },
+    "VRZC": {
+      "name": "Satz der Nullkuponanleihe prüfen",
+      "definition": "Satz prüfen. Nullkuponanleihe."
+    }
+  }
+}

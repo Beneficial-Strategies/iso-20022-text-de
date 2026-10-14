@@ -1,0 +1,286 @@
+{
+  "isoType": "ExternalSystemBalanceType1Code",
+  "definition": "Gibt den Systemsaldotyp an, wie in einem externen Codesatz für Systemsaldotypen veröffentlicht.|Externe Codesätze können unter www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "ADJT": {
+      "name": "Anpassung",
+      "definition": "Durchschnittlicher Saldo, der am Ende jedes Tages auf dem Abwicklungskonto zu halten ist, um das Reservesoll zu erfüllen.|Die Annäherung erfolgt stets durch Aufrunden."
+    },
+    "ADWR": {
+      "name": "Verfügbarer DMV für Discount-Window-Repo",
+      "definition": "Der Saldo stellt den verfügbaren diskontierten Marktwert für Diskontfenster-Repos dar."
+    },
+    "AIDR": {
+      "name": "Verfügbarer DMV für Intraday-Repo",
+      "definition": "Der Saldo stellt den verfügbaren diskontierten Marktwert für Innertages-Repos dar."
+    },
+    "AVLB": {
+      "name": "Verfügbar",
+      "definition": "Saldo an Geld oder Wertpapieren, der dem Kontoinhaber am angegebenen Datum zur Verfügung steht."
+    },
+    "BLCK": {
+      "name": "Gesperrt",
+      "definition": "Saldo, der die Mindestreserve darstellt, die ein Finanzinstitut beim kontoführenden Institut halten muss, zum Beispiel das Mindestguthaben, das ein Finanzinstitut zu Mindestreservezwecken bei seiner Zentralbank unterhalten muss. In manchen Ländern wird ein gesperrter Saldo als „Reservesaldo“ bezeichnet."
+    },
+    "BLOC": {
+      "name": "Gesperrte Geschäfte",
+      "definition": "Saldo, der die voraussichtliche Summe aller Geldseiten von Geschäften darstellt, die über einen Zentralverwahrer abgewickelt werden sollen, die abgeglichen, aber gesperrt wurden, damit sie nicht abgewickelt werden. Diese gesperrten Geschäfte sind in der Berechnung für die Abwicklung enthalten (zum Beispiel zur Vermeidung von Überziehungen).|Verwendungsregel: Die Sperrung kann durch den Kontoinhaber oder seine Gegenparteien erfolgen. Üblicherweise geschieht dies, um Transaktionen zu verketten oder andere Geschäfte zu priorisieren. Gesperrte Geschäfte tragen ein Kennzeichen, das die Abwicklung der Transaktionen verhindert. Nach dem Abgleich können sie abgewickelt werden, sobald die Sperre aufgehoben wird. In diesem Fall wechseln sie zu FSET. Die Aufhebung der Sperre kann jederzeit während des Tages erfolgen, und die Transaktion wird im nächsten Abwicklungszyklus abgewickelt, der derselbe Tag sein kann, wenn der (internationale) Zentralverwahrer mehrere Abwicklungszyklen pro Tag betreibt."
+    },
+    "BOOK": {
+      "name": "Buchsaldo",
+      "definition": "Saldo, der in den Büchern des kontoführenden Instituts erfasst ist."
+    },
+    "BSCC": {
+      "name": "Sammelabwicklung CMUP-Haben",
+      "definition": "Der Saldo stellt die Summe der Gutschriften der Sammelabwicklung und des Prozessors der zentralen Geldmarkteinheit dar."
+    },
+    "BSCD": {
+      "name": "Sammelabwicklung CMUP-Soll",
+      "definition": "Der Saldo stellt die Summe der Lastschriften der Sammelabwicklung und des Prozessors der zentralen Geldmarkteinheit dar."
+    },
+    "CCPS": {
+      "name": "Zentrale Gegenpartei",
+      "definition": "Saldo, der die Prognose der Summe aller Geldseiten von an Börsen gehandelten Transaktionen darstellt, die eine Funktion als zentrale Gegenpartei bieten."
+    },
+    "CLSG": {
+      "name": "Schließung",
+      "definition": "Saldo des Kontos am Ende des Geschäftstags des kontoführenden Instituts. Er ist die Summe aus dem Eröffnungssaldo zu Tagesbeginn und allen Buchungen, die während des Geschäftstags des kontoführenden Instituts auf dem Konto gebucht wurden."
+    },
+    "COHB": {
+      "name": "Haben in Wartestellung",
+      "definition": "Saldo, der die Summe der eingehenden Zahlungen darstellt, die zurückgehalten wurden, weil das Gutschriftlimit überschritten wurde."
+    },
+    "COLC": {
+      "name": "Dividendeneinzug",
+      "definition": "Saldo, der den voraussichtlichen Gesamtbetrag aller Zahlungsverpflichtungen gegenüber dem Teilnehmer (Bank) in dessen Rolle als Hauptzahlstelle darstellt."
+    },
+    "CPBL": {
+      "name": "Haben verarbeitet",
+      "definition": "Saldo, der die Summe der eingehenden Zahlungen darstellt, die verarbeitet wurden und auf die Abwicklung warten."
+    },
+    "CRDT": {
+      "name": "Gutschrift",
+      "definition": "Saldo, der die Summe aller auf einem Konto gebuchten Gutschriften darstellt."
+    },
+    "CRRT": {
+      "name": "Aktuell",
+      "definition": "Saldo des Kontos zu einem genauen Zeitpunkt."
+    },
+    "CUSA": {
+      "name": "Tatsächliche Verwahrung",
+      "definition": "Saldo, der die tatsächliche Summe aller Transaktionen des Asset Servicing darstellt, wie Dividenden, Erträge, Entsprechungen zu Kapitalmaßnahmen, Steuerrückerstattungen, Rückzahlungen usw."
+    },
+    "CUST": {
+      "name": "Verwahrung",
+      "definition": "Saldo, der die voraussichtliche Summe aller Transaktionen des Asset Servicing darstellt, wie Dividenden, Erträge, Entsprechungen zu Kapitalmaßnahmen, Steuerrückerstattungen usw."
+    },
+    "DBIT": {
+      "name": "Lastschrift",
+      "definition": "Saldo, der die Summe aller auf einem Konto gebuchten Lastschriften darstellt."
+    },
+    "DLOD": {
+      "name": "Tagesüberziehung",
+      "definition": "Saldo, der den Innertages-Überziehungsrahmen darstellt, den die Zentralbank den an einem RTGS-System teilnehmenden Finanzinstituten gewährt. Dieser Saldo kann sich im Zeitverlauf ändern und ist am Ende des Tages auszugleichen."
+    },
+    "DOHB": {
+      "name": "Soll in Wartestellung",
+      "definition": "Saldo, der die Summe der ausgehenden Zahlungen darstellt, die zurückgehalten wurden, weil das Lastschriftlimit überschritten wurde."
+    },
+    "DPBL": {
+      "name": "Soll verarbeitet",
+      "definition": "Saldo, der die Summe der ausgehenden Zahlungen darstellt, die verarbeitet wurden und auf die Abwicklung warten."
+    },
+    "DSET": {
+      "name": "Endgültig abgewickelte Wertpapiere",
+      "definition": "Saldo, der das Geldäquivalent aller abgewickelten Wertpapiertransaktionen darstellt."
+    },
+    "DWRD": {
+      "name": "Discount-Window-Repo-Inanspruchnahmen",
+      "definition": "Der Saldo stellt die Repo-Inanspruchnahmen am Diskontfenster dar."
+    },
+    "EAST": {
+      "name": "Anrechenbare Vermögenswerte",
+      "definition": "Saldo, der den potenziellen Kredit darstellt, den eine Zentralbank in bar gewähren würde, wenn die Sicherheiten verpfändet sind, zum Beispiel verfügbare und bei der Zentralbank als Sicherheit zugelassene Wertpapiere."
+    },
+    "EXRE": {
+      "name": "Überschussreserve: Freibetragsschwelle, freigestellte Stufe",
+      "definition": "Der Code definiert die Schwelle für den Freibetrag der Überschussreserve zwischen der freigestellten und der nicht freigestellten Stufe der Überschussreserve."
+    },
+    "EXRR": {
+      "name": "Überschussreserve: Verzinsungssaldo, nicht freigestellte Stufe",
+      "definition": "Der Code definiert den Saldo oberhalb der Freibetragsschwelle der Überschussreserve innerhalb des periodischen Durchschnittssaldos für die Mindestreserve. Dieser Teil der Überschussreserve ist somit weiterhin zu verzinsen."
+    },
+    "FCOL": {
+      "name": "Feste Besicherung",
+      "definition": "Saldo, der die Prognose des Geldäquivalents darstellt, das sich aus der Bewertung vorhandener Bestände beim Zentralverwahrer ergibt, die als Sicherheiten geeignet sind."
+    },
+    "FCOU": {
+      "name": "Genutzte Beträge feste Besicherung",
+      "definition": "Saldo, der das Geldäquivalent darstellt, das sich aus der Bewertung vorhandener Bestände beim CSD ergibt, die als Sicherheiten geeignet sind und als Sicherheiten verwendet wurden."
+    },
+    "FORC": {
+      "name": "Cash-Prognose",
+      "definition": "Saldo, der die Summe aller Saldoarten darstellt, die abzuwickelnde Transaktionen, gesperrte Posten und Verwahrungstransaktionen repräsentieren."
+    },
+    "FSET": {
+      "name": "Abwicklungsprognose",
+      "definition": "Saldo, der die Prognose der Summe aller Geldseiten von Geschäften darstellt, die über einen Zentralverwahrer abgewickelt werden können. Die angezeigten Beträge unterliegen weiterhin der Verarbeitung der Wertpapierabwicklung."
+    },
+    "FUND": {
+      "name": "Nettofinanzierung",
+      "definition": "Saldo, der den zu finanzierenden Nettobetrag darstellt, der sich aus allen Transaktionen ergibt, die sich auf den Finanzierungsbedarf auswirken."
+    },
+    "FUTB": {
+      "name": "Gesamtbetrag zukünftig",
+      "definition": "Saldo, der die Summe der Zahlungen mit einem Verarbeitungsdatum in der Zukunft darstellt."
+    },
+    "INTM": {
+      "name": "Zwischenwert",
+      "definition": "Saldo, der im Laufe des Geschäftstags des kontoführenden Instituts zum angegebenen Zeitpunkt berechnet wird und während des Geschäftstags weiteren Änderungen unterliegt. Der Zwischensaldo wird auf der Grundlage der gebuchten Gutschriften und Lastschriften im angegebenen Berechnungszeitpunkt bzw. -zeitraum berechnet."
+    },
+    "IRDR": {
+      "name": "Intraday-Repo-Inanspruchnahmen",
+      "definition": "Der Saldo stellt die Innertages-Repo-Inanspruchnahmen dar."
+    },
+    "IRLT": {
+      "name": "Intraday-Repo-Limit",
+      "definition": "Der Saldo stellt das Innertages-Repo-Limit dar."
+    },
+    "LACK": {
+      "name": "Geschäfte mangels Bestand",
+      "definition": "Saldo, der das Geldäquivalent von Transaktionen mit fehlendem Bestand darstellt."
+    },
+    "LRLD": {
+      "name": "Limitbezogen",
+      "definition": "Saldo eines bestimmten Limitwerts, zum Beispiel ein bilateraler Saldo, der in Bezug auf ein gegebenes bilaterales Limit berechnet wird."
+    },
+    "LTSF": {
+      "name": "Liquiditätstransfer",
+      "definition": "Saldo, der sich aus der Summe aller Liquiditätsübertragungen auf ein Konto oder von einem Konto zusammensetzt."
+    },
+    "MSTR": {
+      "name": "Master",
+      "definition": "Saldo des angegebenen Kontos zuzüglich des Saldos aller seiner Unterkonten."
+    },
+    "NOTE": {
+      "name": "Vermerkt",
+      "definition": "Saldo, der den Betrag darstellt, den ein Finanzinstitut aus einem bestimmten Grund zurückgelegt hat und der daher nicht verfügbar ist."
+    },
+    "NSET": {
+      "name": "Nicht abgewickelte Wertpapiere",
+      "definition": "Saldo, der das Geldäquivalent aller nicht abgewickelten Wertpapiertransaktionen darstellt."
+    },
+    "OPNG": {
+      "name": "Eröffnung",
+      "definition": "Buchsaldo des Kontos zu Beginn des Geschäftstags des kontoführenden Instituts. Er entspricht stets dem Schlussbuchsaldo des vorangegangenen Geschäftstags. |Hinweis: Der verfügbare Saldo zu Beginn des Geschäftstags des kontoführenden Instituts kann vom Schlussbuchsaldo des vorangegangenen Geschäftstags abweichen."
+    },
+    "OTCC": {
+      "name": "CCP-garantierte OTC-Geschäfte",
+      "definition": "Saldo, der die Prognose der Summe aller Geldseiten von Transaktionen im Freiverkehr (OTC) darstellt, die über Funktionen der zentralen Gegenpartei (CCP) laufen."
+    },
+    "OTCG": {
+      "name": "Prognostizierte OTC-Geschäfte",
+      "definition": "Saldo, der die Prognose der Summe aller Geldseiten von im Freiverkehr (OTC) gehandelten Transaktionen darstellt."
+    },
+    "OTCN": {
+      "name": "Nicht CCP-garantierte OTC-Geschäfte",
+      "definition": "Saldo, der die Prognose der Summe aller Geldseiten von im Freiverkehr (OTC) gehandelten Transaktionen darstellt, die nicht über Funktionen der zentralen Gegenpartei (CCP) laufen."
+    },
+    "OTHB": {
+      "name": "Sonstige gesperrte Geschäfte",
+      "definition": "Saldo, der die voraussichtliche Summe aller Geldseiten von Geschäften darstellt, die über einen Zentralverwahrer abgewickelt werden sollen, die abgeglichen, aber gesperrt wurden, damit sie nicht abgewickelt werden. Diese gesperrten Transaktionen sind in der Berechnung für die Abwicklung nicht enthalten."
+    },
+    "PDNG": {
+      "name": "Ausstehend",
+      "definition": "Saldo der zur Lieferung anstehenden Wertpapiere, zum Beispiel wenn Verkaufsaufträge für Wertpapiere ausgeführt wurden, die Abwicklung der offenen Transaktionen jedoch noch nicht bestätigt ist."
+    },
+    "PIPO": {
+      "name": "Ein- und Auszahlung",
+      "definition": "Saldo, der die fiktive Prognose automatisierter Lastschriften oder Zahlungen auf Basis ständiger Vereinbarungen zwischen einer Zentralverwahrer-Stelle und dem Nutzer darstellt.||||Verwendung: Pay-Ins und Pay-Outs können je nach einzelnen Zahlungsanweisungen oder verfügbaren Mitteln unterschiedlich ausfallen."
+    },
+    "PRAV": {
+      "name": "Fortlaufender Durchschnitt",
+      "definition": "Durchschnitt der Tagessalden auf dem Konto, der zur Erfüllung der Mindestreservepflicht verwendet wird, berechnet ab Beginn der Erfüllungsperiode."
+    },
+    "PYMT": {
+      "name": "Zahlung",
+      "definition": "Saldo, der die Summe der Buchungen aus der Zahlungsverarbeitung darstellt. Buchungen zu Entgelten, Zinsen oder anderen Bewegungen, die nicht aus vom Kontoinhaber gesendeten oder empfangenen Zahlungen stammen, sind nicht enthalten."
+    },
+    "REJB": {
+      "name": "Gesamtbetrag abgelehnt",
+      "definition": "Saldo, der die Summe der abgelehnten Zahlungen darstellt."
+    },
+    "REPC": {
+      "name": "CMUP-Repo-Haben",
+      "definition": "Der Saldo stellt die Summe der Repo-Gutschriften des Prozessors der zentralen Geldmarkteinheit dar."
+    },
+    "REPD": {
+      "name": "CMUP-Repo-Soll",
+      "definition": "Der Saldo stellt die Summe der Repo-Lastschriften des Prozessors der zentralen Geldmarkteinheit dar."
+    },
+    "REST": {
+      "name": "Beschränkt",
+      "definition": "Saldo an Barmitteln, der nur unter bestimmten Bedingungen verwendet werden darf.||Die Saldoart dient dazu, Wertpapiere/Barmittel auf dem Kundenkonto zu sperren, beispielsweise wenn im Zusammenhang mit bestimmten Kapitalmaßnahmen der Bestand unter der direkten Kontrolle der Zahlstelle des Systems steht, die als Einzige Wertpapiere aus dieser Saldoart übertragen kann.|Auch bekannt als \"Treuhandsaldo\" oder \"Sperrsaldo\"."
+    },
+    "SAPC": {
+      "name": "SAP-Gutschriftbetrag",
+      "definition": "Der Saldo stellt den Gutschriftbetrag des Abwicklungskonto-Prozessors dar."
+    },
+    "SAPD": {
+      "name": "SAP-Lastschriftbetrag",
+      "definition": "Der Saldo stellt den Lastschriftbetrag des Abwicklungskonto-Prozessors dar."
+    },
+    "SAPP": {
+      "name": "SAP-Warteschlangenbetrag",
+      "definition": "Der Saldo stellt den Warteschlangenbetrag des Abwicklungskonto-Prozessors dar."
+    },
+    "SCOL": {
+      "name": "Selbstbesicherung",
+      "definition": "Saldo, der die Prognose des Geldäquivalents darstellt, das sich aus der Bewertung des eingehenden Nettosaldos an als Sicherheiten geeigneten Wertpapieren ergibt, für die Abwicklungsanweisungen gehalten werden."
+    },
+    "SCOU": {
+      "name": "Genutzte Beträge Selbstbesicherung",
+      "definition": "Saldo, der das Geldäquivalent darstellt, das sich aus der Bewertung eingehender Wertpapiere ergibt, die als Sicherheiten geeignet sind und tatsächlich als Sicherheiten verwendet werden und die im Abwicklungsprozess abgewickelt wurden."
+    },
+    "SELF": {
+      "name": "Selbst",
+      "definition": "Saldo des identifizierten Kontos (im Gegensatz zum Hauptsaldo)."
+    },
+    "THRE": {
+      "name": "Schwellenwert",
+      "definition": "Saldo, der den Betrag darstellt, der für Anlagen vorgesehen ist. Differenz zwischen dem verfügbaren Saldo und der Schwelle für das Anlagelimit."
+    },
+    "TOHB": {
+      "name": "Gesamtbetrag in Wartestellung",
+      "definition": "Saldo, der die Summe der Zahlungen darstellt, die zurückgehalten wurden, weil die Limits überschritten wurden."
+    },
+    "TPBL": {
+      "name": "Gesamtbetrag verarbeitet",
+      "definition": "Saldo, der die Summe der Zahlungen darstellt, die verarbeitet wurden und im Laufe des Tages auf die Abwicklung warten."
+    },
+    "XCHC": {
+      "name": "CCP-garantierte Prognose",
+      "definition": "Saldo, der die Prognose der Summe aller Geldseiten von Börsentransaktionen darstellt, die über Funktionen der zentralen Gegenpartei (CCP) laufen."
+    },
+    "XCHG": {
+      "name": "Börsenprognose",
+      "definition": "Saldo, der die Prognose der Summe aller Geldseiten von an Börsen gehandelten Transaktionen darstellt."
+    },
+    "XCHN": {
+      "name": "Nicht CCP-garantierte Prognose",
+      "definition": "Saldo, der die Prognose der Summe aller Geldseiten von an Börsen gehandelten Transaktionen darstellt, die nicht über Funktionen der zentralen Gegenpartei (CCP) laufen."
+    },
+    "XCRD": {
+      "name": "Erwartetes Haben",
+      "definition": "Saldo, bestehend aus gebuchten Buchungen und zum Berechnungszeitpunkt bekannten ausstehenden Posten, der den Tagesend-Habensaldo prognostiziert, wenn alles auf dem Konto gebucht wird und keine weitere Gutschrift erfolgt."
+    },
+    "XDBT": {
+      "name": "Erwartetes Soll",
+      "definition": "Saldo, bestehend aus gebuchten Buchungen und zum Berechnungszeitpunkt bekannten ausstehenden Posten, der den Tagesend-Sollsaldo prognostiziert, wenn alles auf dem Konto gebucht wird und keine weitere Lastschrift erfolgt."
+    },
+    "XPCD": {
+      "name": "Erwartet",
+      "definition": "Saldo, bestehend aus gebuchten Buchungen und zum Berechnungszeitpunkt bekannten ausstehenden Posten, der den Tagesendsaldo prognostiziert, wenn alles auf dem Konto gebucht wird und keine weitere Buchung erfolgt."
+    }
+  }
+}

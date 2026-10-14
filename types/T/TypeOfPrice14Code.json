@@ -1,0 +1,10 @@
+{
+  "isoType": "TypeOfPrice14Code",
+  "definition": "Gibt die Art des Transaktionspreises an.",
+  "isoCodes": {
+    "AVER": {
+      "name": "Durchschnitt",
+      "definition": "Der Preis ist ein durchschnittlicher Ausführungspreis."
+    }
+  }
+}

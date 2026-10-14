@@ -1,0 +1,27 @@
+{
+  "isoType": "ATMCassetteCounters6",
+  "definition": "Zähler der ATM-Kassette je Stückwert oder insgesamt.",
+  "isoElements": {
+    "UnitValue": {
+      "definition": "Betrag einer Medieneinheit, wenn die Medienart einen Wert hat."
+    },
+    "Currency": {
+      "definition": "Währung der Medien, wenn die Medienart einen Wert hat und sich von der Währung des angeforderten Betrags unterscheidet."
+    },
+    "MediaCategory": {
+      "definition": "Kategorie der Medienobjekte."
+    },
+    "InitialCount": {
+      "definition": "Anzahl der Medienobjekte in der Kassette nach der letzten Befüllung."
+    },
+    "CurrentNumber": {
+      "definition": "Aktuelle Anzahl der in der Kassette befindlichen Medien."
+    },
+    "CurrentAmount": {
+      "definition": "Aktueller Betrag in der Kassette."
+    },
+    "FlowTotals": {
+      "definition": "Zähler der Medien in der Kassette."
+    }
+  }
+}

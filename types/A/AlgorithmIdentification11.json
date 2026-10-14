@@ -1,0 +1,12 @@
+{
+  "isoType": "AlgorithmIdentification11",
+  "definition": "Kryptografische Algorithmen und Parameter für den Schutz übertragener Schlüssel durch einen asymmetrischen Schlüssel.",
+  "isoElements": {
+    "Algorithm": {
+      "definition": "Asymmetrischer Verschlüsselungsalgorithmus eines Transportschlüssels."
+    },
+    "Parameter": {
+      "definition": "Parameter des Verschlüsselungsalgorithmus."
+    }
+  }
+}

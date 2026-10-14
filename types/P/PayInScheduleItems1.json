@@ -1,0 +1,12 @@
+{
+  "isoType": "PayInScheduleItems1",
+  "definition": "Buchung eines Postens auf einem Geldkonto im Rahmen einer Geldtransaktion, die zu einer Erhöhung oder Verminderung des Kontosaldos führt.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Einzuzahlende Währung und einzuzahlender Betrag."
+    },
+    "Deadline": {
+      "definition": "Zeitpunkt, bis zu dem der Betrag eingezahlt sein muss."
+    }
+  }
+}

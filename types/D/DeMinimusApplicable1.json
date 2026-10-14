@@ -1,0 +1,12 @@
+{
+  "isoType": "DeMinimusApplicable1",
+  "definition": "Bedingungen, die gelten, wenn der Anleger unter die „De-minimis“-Ausnahme fällt.",
+  "isoElements": {
+    "NewIssuePermission": {
+      "definition": "Gibt an, ob der Anleger seinen wirtschaftlich Berechtigten, die gegebenenfalls beschränkte Personen sind, die Teilnahme an den dem Anleger zugewiesenen Gewinnen und Verlusten gestattet, die Neuemissionen zuzurechnen sind."
+    },
+    "Percentage": {
+      "definition": "Prozentsatz der Gewinne und Verluste aus Neuemissionen, den er an wirtschaftlich Berechtigte erhält, die beschränkte Personen sind."
+    }
+  }
+}

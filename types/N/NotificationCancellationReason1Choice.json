@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationCancellationReason1Choice",
+  "definition": "Gibt den Grund für die Stornierungsanfrage zu einer Benachrichtigung an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für die Stornierungsanfrage in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Grund für die Stornierungsanfrage in proprietärer Form."
+    }
+  }
+}

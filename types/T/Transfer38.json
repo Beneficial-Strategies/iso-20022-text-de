@@ -1,0 +1,89 @@
+{
+  "isoType": "Transfer38",
+  "definition": "Parameter, die auf die Abwicklung einer Wertpapierübertragung angewendet werden.",
+  "isoElements": {
+    "TransferConfirmationReference": {
+      "definition": "Eindeutiger Identifikator für die Ausführung der Übertragung, wie von der bestätigenden Partei vergeben."
+    },
+    "TransferReference": {
+      "definition": "Eindeutiger und zweifelsfreier Identifikator der Übertragungsanweisung, wie von der anweisenden Partei vergeben."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Übertragung durch den Anleger. Diese Referenz kann typischerweise in einem Hub-Szenario verwendet werden, um die vom zugrunde liegenden Kunden vergebene Referenz der Übertragung anzugeben."
+    },
+    "CounterpartyReference": {
+      "definition": "Von der Gegenpartei vergebene zweifelsfreie Identifikation der Übertragung."
+    },
+    "BusinessFlowType": {
+      "definition": "Identifiziert den Geschäftsprozess, an dem die Beteiligten mitwirken. Dies ist wichtig, um den richtigen Geschäftsprozess gemäß dem Marktgeschäftsmodell auszulösen, der ein Matching von Anweisungen in einer CSD-Umgebung (Double-Leg-Prozess) erfordern kann oder nicht (Single-Leg-Prozess)."
+    },
+    "RequestedSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere beim International Central Securities Depository (ICSD) oder Central Securities Depository (CSD) getauscht werden sollen."
+    },
+    "EffectiveTransferDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Übertragung ausgeführt wurde."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere bei der internationalen Zentralverwahrer-Einrichtung (ICSD) oder der Zentralverwahrer-Einrichtung (CSD) getauscht wurden."
+    },
+    "TradeDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Transaktion abgeschlossen und abgerechnet ist, das heißt, die Wertpapiere geliefert werden."
+    },
+    "TransferOrderDateForm": {
+      "definition": "Datum, an dem der Anleger das Übertragungsformular unterzeichnet hat."
+    },
+    "TransferReason": {
+      "definition": "Grund für die Übertragung."
+    },
+    "HoldingsPlanType": {
+      "definition": "Gibt Informationen zu den im Bestand enthaltenen Anlageplänen an."
+    },
+    "FinancialInstrumentDetails": {
+      "definition": "Informationen zum übertragenen Finanzinstrument."
+    },
+    "TotalUnitsNumber": {
+      "definition": "Anzahl der übertragenen Einheiten."
+    },
+    "TransferRate": {
+      "definition": "Menge der übertragenen Wertpapiere als Prozentsatz des Bestands."
+    },
+    "UnitsDetails": {
+      "definition": "Aufschlüsselung der übertragenen Einheiten."
+    },
+    "Rounding": {
+      "definition": "Rundungsrichtung, die auf die nächste Einheit angewendet wird."
+    },
+    "OriginalCost": {
+      "definition": "Ursprünglich für den Vermögenswert zum Zeitpunkt des Kaufs gezahlter Betrag. Kann auch als Buchkosten bezeichnet werden."
+    },
+    "AveragePrice": {
+      "definition": "Gewichteter Durchschnittspreis der Einheiten im Konto vor Ausführung der Übertragung."
+    },
+    "NewAveragePrice": {
+      "definition": "Gewichteter Durchschnittspreis der Einheiten im Konto nach Ausführung der Übertragung."
+    },
+    "AverageDate": {
+      "definition": "Handelstag der gewichteten Durchschnittsdaten der Einheiten im Konto vor Ausführung der Übertragung."
+    },
+    "NewAverageDate": {
+      "definition": "Handelstag der gewichteten Durchschnittsdaten der Einheiten im Konto nach Ausführung der Übertragung."
+    },
+    "TransferCurrency": {
+      "definition": "Währung, in der die Bestände übertragen werden. Einige Transferstellen erfassen Bestände zusätzlich zur ISIN bei Fondsanteilen in mehreren Währungen nach Währung gruppiert."
+    },
+    "OwnAccountTransferIndicator": {
+      "definition": "Gibt an, ob die Übertragung zu einem Wechsel des wirtschaftlich Berechtigten führt."
+    },
+    "NonStandardSettlementInformation": {
+      "definition": "Zusätzliche spezifische Abwicklungsinformationen für nicht regulierte gehandelte Fonds."
+    },
+    "TransferExpensesPaymentType": {
+      "definition": "Gibt an, wie die Zahlung der aus der Übertragung resultierenden Gebühren und Steuern gedeckt wird, d. h. ob in bar oder durch die Rücknahme von Anteilen."
+    }
+  },
+  "isoRules": {
+    "TotalUnitsNumberRule": {
+      "definition": "TotalUnitsNumber muss die Summe aller Vorkommen von UnitsDetails/UnitsNumber sein, wenn UnitsDetails vorhanden ist."
+    }
+  }
+}

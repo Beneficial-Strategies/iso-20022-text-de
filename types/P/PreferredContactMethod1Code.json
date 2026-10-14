@@ -1,0 +1,26 @@
+{
+  "isoType": "PreferredContactMethod1Code",
+  "definition": "Bevorzugte Methode, um den einzelnen Ansprechpartner innerhalb einer Organisation zu erreichen.",
+  "isoCodes": {
+    "LETT": {
+      "name": "Brief",
+      "definition": "Die bevorzugte Methode zur Kontaktaufnahme ist der Postweg."
+    },
+    "MAIL": {
+      "name": "E-Mail",
+      "definition": "Die bevorzugte Methode zur Kontaktaufnahme ist E-Mail."
+    },
+    "PHON": {
+      "name": "Telefon",
+      "definition": "Die bevorzugte Methode zur Kontaktaufnahme ist das Telefon."
+    },
+    "FAXX": {
+      "name": "Fax",
+      "definition": "Die bevorzugte Methode zur Kontaktaufnahme ist das Fax."
+    },
+    "CELL": {
+      "name": "Mobiltelefon",
+      "definition": "Die bevorzugte Methode zur Kontaktaufnahme ist das Mobiltelefon."
+    }
+  }
+}

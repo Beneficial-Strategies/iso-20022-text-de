@@ -1,0 +1,50 @@
+{
+  "isoType": "BeneficiaryCertificationType6Code",
+  "definition": "Gibt die Art der erforderlichen Bescheinigung an.",
+  "isoCodes": {
+    "ACCI": {
+      "name": "Akkreditierter Anleger",
+      "definition": "Der Inhaber des Wertpapiers muss unwiderruflich bescheinigen, dass er ein Accredited Investor im Sinne der Regulation D der US Securities and Exchange Commission ist."
+    },
+    "DOMI": {
+      "name": "Sitzland",
+      "definition": "Der Inhaber des Wertpapiers muss seinen Wohnsitz bescheinigen."
+    },
+    "NDOM": {
+      "name": "Nicht-Sitzland",
+      "definition": "Der Inhaber des Wertpapiers muss gemäß den Bedingungen der Kapitalmaßnahme bescheinigen, dass er nicht in dem angegebenen Land ansässig ist."
+    },
+    "FULL": {
+      "name": "Vollständige Aufschlüsselung der wirtschaftlich Berechtigten",
+      "definition": "Der Inhaber des Wertpapiers muss Angaben zu seinem wirtschaftlich Berechtigten zu Offenlegungs- bzw. Anweisungszwecken machen."
+    },
+    "NCOM": {
+      "name": "Kein Unternehmen",
+      "definition": "Der Inhaber des Wertpapiers muss bescheinigen, dass er eine nicht dem Unternehmen nahestehende Person ist."
+    },
+    "QIBB": {
+      "name": "QIB-Bescheinigung",
+      "definition": "Der Inhaber des Wertpapiers muss unwiderruflich bescheinigen, dass er ein Qualified Institutional Buyer im Sinne der Rule 144A der US Securities and Exchange Commission ist."
+    },
+    "TRBD": {
+      "name": "Aufschlüsselung nach Steuersatz",
+      "definition": "Der Inhaber des Wertpapiers muss grundlegende Angaben zu Nominalbeträgen und dem zugehörigen Steuersatz machen, die vom Kontoführer zu verwenden sind."
+    },
+    "PABD": {
+      "name": "Aufschlüsselung nach ICSD-Teilnehmer",
+      "definition": "Das (I)CSD muss dem Emittenten bzw. dem Beauftragten des Emittenten die Angaben zu seinen Teilnehmern zu Offenlegungszwecken übermitteln."
+    },
+    "FRAC": {
+      "name": "Aufschlüsselung nach Bruchteilen",
+      "definition": "Gibt an, dass die Rundungsregel in der Komponente Fraction Disposition auf Optionsebene auf der Ebene des wirtschaftlich Berechtigten angeboten werden kann."
+    },
+    "PAPW": {
+      "name": "Unterlagen des wirtschaftlich Berechtigten",
+      "definition": "Gibt an, ob der wirtschaftlich Berechtigte für das Ausfüllen der Unterlagen verantwortlich ist."
+    },
+    "DIOR": {
+      "name": "Dokumentation des Intermediärs erforderlich",
+      "definition": "Dokumentation, die am oder vor dem Stichtag für die Dokumentation erforderlich ist."
+    }
+  }
+}

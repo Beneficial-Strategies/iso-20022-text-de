@@ -1,0 +1,18 @@
+{
+  "isoType": "FundDetailedConfirmedCashForecastReport3",
+  "definition": "Angaben zu einem Cashflow-Prognosebericht.",
+  "isoElements": {
+    "FundOrSubFundDetails": {
+      "definition": "Angaben zum Fonds/Teilfonds, wenn der Bericht den Cashflow entweder für den Fonds/Teilfonds oder für eine Anteilklasse des Fonds/Teilfonds angibt."
+    },
+    "FundCashForecastDetails": {
+      "definition": "Angaben zu den Mittelzu- und -abflüssen für einen bestimmten Handelstag aufgrund von Transaktionen mit Anteilen an einem Investmentfonds, zum Beispiel Zeichnungen, Rücknahmen oder Umtausch. Die bereitgestellten Informationen sind nach vordefinierten Kriterien wie Land, Institut, Währung oder benutzerdefinierten Kriterien sortiert."
+    },
+    "ConsolidatedNetCashForecast": {
+      "definition": "Geschätzter Nettobetrag aus den Mittelzu- und -abflüssen."
+    },
+    "Extension": {
+      "definition": "Zusätzliche Informationen, die nicht in den strukturierten Elementen und/oder einem anderen spezifischen Block erfasst werden können."
+    }
+  }
+}

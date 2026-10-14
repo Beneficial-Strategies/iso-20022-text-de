@@ -1,0 +1,22 @@
+{
+  "isoType": "GroupCancellationStatus1Code",
+  "definition": "Gibt den Status einer Gruppe von Stornierungsaufträgen an.",
+  "isoCodes": {
+    "PACR": {
+      "name": "Stornierungsauftrag teilweise akzeptiert",
+      "definition": "Die Stornierung ist teilweise akzeptiert."
+    },
+    "RJCR": {
+      "name": "Stornierungsauftrag abgelehnt",
+      "definition": "Der Stornierungsauftrag ist abgelehnt."
+    },
+    "ACCR": {
+      "name": "Stornierungsauftrag akzeptiert",
+      "definition": "Die Stornierung ist akzeptiert."
+    },
+    "PDCR": {
+      "name": "Stornierungsauftrag ausstehend",
+      "definition": "Der Stornierungsauftrag ist in Bearbeitung."
+    }
+  }
+}

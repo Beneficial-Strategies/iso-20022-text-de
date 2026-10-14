@@ -1,0 +1,15 @@
+{
+  "isoType": "SubBalanceQuantity8Choice",
+  "definition": "Auswahl zwischen Formaten für die Bestandsinformationen.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Menge der Wertpapiere im Teilsaldo."
+    },
+    "Proprietary": {
+      "definition": "Menge der Wertpapiere im Teilsaldo."
+    },
+    "QuantityAndAvailability": {
+      "definition": "Menge der Wertpapiere im Unterbestand und Angabe, ob der Bestand verfügbar ist."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "isoType": "NotificationItem10",
+  "definition": "Enthält weitere Möglichkeiten zur Referenzierung einer Zahlungstransaktion.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation, die vom Kontoinhaber vergeben wird, um den erwarteten Gutschriftsposten zweifelsfrei zu identifizieren."
+    },
+    "EndToEndIdentification": {
+      "definition": "Eindeutige Identifikation, die vom Zahlungspflichtigen vergeben wird, damit der Zahlungsempfänger die zugrunde liegende Transaktion zweifelsfrei identifizieren kann. |Verwendung: Die Ende-zu-Ende-Identifikation kann für den Abgleich oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion verwendet werden."
+    },
+    "UETR": {
+      "definition": "Universell eindeutiger Bezeichner (UUID) als Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "Account": {
+      "definition": "Identifiziert das Konto, dem der eingehende Geldbetrag gutgeschrieben wird."
+    },
+    "AccountOwner": {
+      "definition": "Partei, die rechtlich Eigentümer des Kontos ist."
+    },
+    "AccountServicer": {
+      "definition": "Partei, die das Konto im Auftrag des Kontoinhabers führt, d. h. die Registrierung und Buchung von Posten auf dem Konto verwaltet, Salden des Kontos berechnet und Informationen zum Konto bereitstellt."
+    },
+    "RelatedAccount": {
+      "definition": "Geschäftsbeziehung zwischen zwei Einheiten; eine Einheit ist der Kontoinhaber, die andere Einheit ist der Kontoführer."
+    },
+    "Amount": {
+      "definition": "Geldbetrag, der voraussichtlich dem Konto gutgeschrieben wird."
+    },
+    "ExpectedValueDate": {
+      "definition": "Wertstellungsdatum, an dem die Gutschrift auf dem Konto erwartet wird."
+    },
+    "Debtor": {
+      "definition": "Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungspflichtigen führt."
+    },
+    "IntermediaryAgent": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der kontoführenden Stelle.|Verwendung: Dies ist die Bank, von der die kontoführende Stelle den Geldbetrag erhält. Gibt es mehr als eine zwischengeschaltete Bank, identifiziert IntermediaryAgent die Bank, die der kontoführenden Stelle am nächsten ist.|IntermediaryAgent darf nur angegeben werden, wenn sie sich von der Bank des Zahlungspflichtigen unterscheidet."
+    },
+    "Purpose": {
+      "definition": "Zugrunde liegender Grund für die Zahlungstransaktion."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Enthält Informationen zur Behandlung der Verwendungszweck-Informationen durch eine der Banken in der Verarbeitungskette der Transaktion."
+    },
+    "RemittanceInformation": {
+      "definition": "Strukturierte Informationen, die den Abgleich einer Zahlung mit den Posten ermöglichen, die durch die Zahlung beglichen werden sollen, etwa Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    },
+    "UnderlyingAllocation": {
+      "definition": "Enthält Informationen zu den zugrunde liegenden Zuordnungen, aus denen sich der erwartete Gutschriftsposten zusammensetzt.||Verwendung: Wird nur in der Wertpapierbranche verwendet."
+    }
+  },
+  "isoRules": {
+    "IntermediaryAgentAndDebtorAgentRule": {
+      "definition": "Ist IntermediaryAgent vorhanden, muss DebtorAgent vorhanden sein."
+    }
+  }
+}

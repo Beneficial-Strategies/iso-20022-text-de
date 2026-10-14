@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryReference1",
+  "definition": "Satz von Elementen zur Identifikation einer proprietären Referenz.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art der gemeldeten Referenz an."
+    },
+    "Reference": {
+      "definition": "Proprietäre Referenzangabe zur zugrunde liegenden Transaktion."
+    }
+  }
+}

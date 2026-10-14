@@ -1,0 +1,58 @@
+{
+  "isoType": "RejectionReason59Code",
+  "definition": "Gibt den Grund an, warum die Anweisungsanfrage den Status „abgelehnt“ hat.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Transaktion bzw. Anweisung ging nach Ablauf der vom kontoführenden Institut festgelegten Frist ein."
+    },
+    "OPTY": {
+      "name": "Ungültiger Optionstyp",
+      "definition": "Ungültige Optionsart."
+    },
+    "ULNK": {
+      "name": "Ungültige Referenz",
+      "definition": "Die verknüpfte Referenz ist unbekannt."
+    },
+    "DSEC": {
+      "name": "Ungültiges Wertpapier",
+      "definition": "Ungültige oder nicht erkannte Identifikation des Finanzinstruments."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "NMTY": {
+      "name": "Abweichung",
+      "definition": "Option und Optionsart stimmen nicht überein."
+    },
+    "OPNM": {
+      "name": "Ablehnung wegen Optionsnummer",
+      "definition": "Unbekannte Optionsnummer."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "DQUA": {
+      "name": "Ablehnung wegen Menge",
+      "definition": "Ungültige oder nicht erkannte angewiesene Menge."
+    },
+    "SAFE": {
+      "name": "Ablehnung des Verwahrkontos",
+      "definition": "Nicht erkanntes oder ungültiges Verwahrkonto des Nachrichtensenders."
+    },
+    "EVNM": {
+      "name": "Nicht erkannte Identifikation",
+      "definition": "Unbekannte Ereignisnummer."
+    },
+    "DQCS": {
+      "name": "Ablehnung des Betrags",
+      "definition": "Nicht erkannter oder ungültiger angewiesener Barbetrag."
+    },
+    "DQCC": {
+      "name": "Ablehnung der Währung",
+      "definition": "Ungültige angewiesene Währung."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "BillingReport6",
+  "definition": "Bericht über bestimmte Abrechnungsdaten.",
+  "isoElements": {
+    "RegulatoryData": {
+      "definition": "Informationen über rechtliche und aufsichtsrechtliche Daten, die zwischen der rechnungsstellenden und der zahlenden Partei ausgetauscht werden."
+    },
+    "Service": {
+      "definition": "Identifikation des Dienstes oder Systems, für den bzw. das die Abrechnungsinformationen bereitgestellt werden."
+    },
+    "InvoiceDate": {
+      "definition": "Datum, an dem der Abrechnungsbericht erstellt wurde."
+    },
+    "BillingIdentification": {
+      "definition": "Eindeutige Identifikation des Abrechnungsberichts."
+    },
+    "BillingPeriod": {
+      "definition": "Datumszeitraum, für den die Berichtsdaten gültig sind."
+    },
+    "ResponsiblePartyIdentification": {
+      "definition": "Eindeutige Identifikation der Partei, die für die referenzierte Partei verantwortlich ist (d. h. die vertraglich für den abgerechneten Kunden verantwortlich ist)."
+    },
+    "PartyIdentification": {
+      "definition": "Eindeutige Identifikation der abgerechneten Partei."
+    },
+    "AccountInvoiceTotals": {
+      "definition": "Gibt Summen im Zusammenhang mit der Rechnung je Konto an."
+    },
+    "InvoiceTotals": {
+      "definition": "Gibt Summen im Zusammenhang mit der Rechnung an."
+    },
+    "ServiceCategoryTotals": {
+      "definition": "Gibt Summen im Zusammenhang mit der Dienstleistungskategorie an."
+    }
+  }
+}

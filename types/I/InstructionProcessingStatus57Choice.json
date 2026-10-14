@@ -1,0 +1,33 @@
+{
+  "isoType": "InstructionProcessingStatus57Choice",
+  "definition": "Auswahl zwischen verschiedenen Verarbeitungsstatus der Anweisung.",
+  "isoElements": {
+    "Accepted": {
+      "definition": "Die Anweisung ist akzeptiert."
+    },
+    "Cancelled": {
+      "definition": "Anweisung durch eine Stornierungsanweisung des Kunden storniert."
+    },
+    "AcceptedForFurtherProcessing": {
+      "definition": "Liefert Statusinformationen zu einem akzeptierten Anweisungsauftrag. Das bedeutet, dass die Anweisung eingegangen ist, bearbeitbar ist und für die weitere Bearbeitung validiert wurde."
+    },
+    "Rejected": {
+      "definition": "Anweisung vom Empfänger abgelehnt."
+    },
+    "Pending": {
+      "definition": "Die Anweisung wurde nicht abgeschlossen."
+    },
+    "PendingCancellation": {
+      "definition": "Die Stornierungsanweisung ist ausstehend."
+    },
+    "Covered": {
+      "definition": "Die Protect-Anweisung wurde vollständig gedeckt."
+    },
+    "Uncovered": {
+      "definition": "Die Deckungs-Protect-Anweisung wurde akzeptiert, hat die Protect-Anweisung jedoch nicht vollständig gedeckt."
+    },
+    "Returned": {
+      "definition": "Angewiesene Einheiten werden an die anweisende Partei ganz oder teilweise zurückgegeben."
+    }
+  }
+}

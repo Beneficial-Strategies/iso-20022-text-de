@@ -1,0 +1,18 @@
+{
+  "isoType": "StandingOrderTotalAmount1",
+  "definition": "Enthält Einzelheiten zum Gesamtbetrag der „noch nicht ausgeführten“ vordefinierten Liquiditätsübertragungsaufträge oder der von einem Systemteilnehmer in seinem Verantwortungsbereich innerhalb des Systems „definierten“ Aufträge.",
+  "isoElements": {
+    "SetPredefinedOrder": {
+      "definition": "Definierter Gesamtbetrag der vordefinierten Liquiditätsübertragungsaufträge."
+    },
+    "PendingPredefinedOrder": {
+      "definition": "Gesamtbetrag der noch nicht ausgeführten vordefinierten Liquiditätsübertragungsaufträge."
+    },
+    "SetStandingOrder": {
+      "definition": "Definierter Gesamtbetrag der Dauerauftrags-Liquiditätsübertragungsaufträge."
+    },
+    "PendingStandingOrder": {
+      "definition": "Gesamtbetrag der noch nicht ausgeführten Dauerauftrags-Liquiditätsübertragungsaufträge."
+    }
+  }
+}

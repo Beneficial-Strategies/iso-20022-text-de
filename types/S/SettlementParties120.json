@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementParties120",
+  "definition": "Enthält eine Abwicklungspartei, wahlweise durch einen BIC, durch Name und Adresse oder durch eine Parteiidentifikation.",
+  "isoElements": {
+    "DeliveryAgent": {
+      "definition": "Finanzinstitut, von dem Barmittel überwiesen werden."
+    },
+    "Intermediary": {
+      "definition": "Partei innerhalb der Abwicklungskette zwischen den liefernden und den empfangenden Instituten."
+    },
+    "ReceivingAgent": {
+      "definition": "Finanzinstitut, bei dem der Zahlungsempfänger die Gelder erhält."
+    },
+    "BeneficiaryInstitution": {
+      "definition": "Letztes Institut, das die Gelder erhält, wenn es sich von der Handels- oder Gegenpartei unterscheidet."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyPartyType2Choice",
+  "definition": "Gibt die Art der Strafzahlungspartei an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der Strafzahlungspartei in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Art der Strafzahlungspartei in proprietärer Form."
+    }
+  }
+}

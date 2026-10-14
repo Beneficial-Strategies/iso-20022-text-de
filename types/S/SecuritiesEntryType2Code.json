@@ -1,0 +1,66 @@
+{
+  "isoType": "SecuritiesEntryType2Code",
+  "definition": "Gibt die Art der Wertpapierbuchung auf einem Konto an.",
+  "isoCodes": {
+    "BLOK": {
+      "name": "Gesperrt",
+      "definition": "Bestand an Wertpapieren, die gesperrt oder eingefroren sind. Ein Finanzinstrument kann aufgrund äußerer Umstände nicht verfügbar sein, wie etwa einer gerichtlichen Anordnung, dem Tod des Begünstigten oder Kontoinhabers oder einer Insolvenz."
+    },
+    "ELIG": {
+      "name": "Berechtigt",
+      "definition": "Gesamtanzahl der für dieses Ereignis berechtigten Wertpapiere."
+    },
+    "PEND": {
+      "name": "Ausstehende Lieferung",
+      "definition": "Bestand an Wertpapieren mit ausstehender Lieferung."
+    },
+    "PENR": {
+      "name": "Ausstehender Empfang",
+      "definition": "Bestand an Wertpapieren mit ausstehendem Empfang."
+    },
+    "NOMI": {
+      "name": "Namens",
+      "definition": "Bestand an Wertpapieren, die registriert sind (auf den Namen eines Nominees oder des wirtschaftlich Berechtigten)."
+    },
+    "SETD": {
+      "name": "Abgewickelt",
+      "definition": "Wertpapierbestand, der nur abgewickelte Transaktionen abbildet."
+    },
+    "BORR": {
+      "name": "Entliehen",
+      "definition": "Bestand an Wertpapieren, die von einer anderen Partei entliehen wurden."
+    },
+    "LOAN": {
+      "name": "Verliehen",
+      "definition": "Bestand an Wertpapieren, die an einen Dritten verliehen wurden."
+    },
+    "SPOS": {
+      "name": "Street-Position",
+      "definition": "Bestand an Wertpapieren, die weiterhin auf den Namen des früheren wirtschaftlich Berechtigten der Wertpapiere registriert sind."
+    },
+    "TRAD": {
+      "name": "Gehandelt",
+      "definition": "Wertpapierbestand, der abgeschlossene Transaktionen abbildet."
+    },
+    "COLI": {
+      "name": "Sicherheit eingehend",
+      "definition": "Saldo der Wertpapiere, die einem Dritten gehören und zum Zweck der Besicherung gehalten werden."
+    },
+    "COLO": {
+      "name": "Sicherheit ausgehend",
+      "definition": "Saldo der Wertpapiere, die zu dem in dieser Nachricht angegebenen Verwahrkonto gehören und zum Zweck der Besicherung bei einem Dritten hinterlegt sind."
+    },
+    "UNBA": {
+      "name": "Nicht angewiesener Bestand",
+      "definition": "Saldo der nicht angewiesenen Position."
+    },
+    "INBA": {
+      "name": "Angewiesener Bestand",
+      "definition": "Saldo der angewiesenen Position."
+    },
+    "REGO": {
+      "name": "Zur Registrierung eingereicht",
+      "definition": "Bestand an Wertpapieren, die derzeit von dem Institut bearbeitet werden, das nach der Abwicklung eines Geschäfts für die Registrierung des neuen wirtschaftlich Berechtigten (oder Nominees) der Wertpapiere zuständig ist."
+    }
+  }
+}

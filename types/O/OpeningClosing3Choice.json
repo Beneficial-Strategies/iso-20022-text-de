@@ -1,0 +1,12 @@
+{
+  "isoType": "OpeningClosing3Choice",
+  "definition": "Auswahl des Formats für die Informationen zu Eröffnung/Glattstellung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als ISO 20022 Code ausgedrückte Informationen zu Eröffnung/Glattstellung."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Informationen zu Eröffnung/Glattstellung."
+    }
+  }
+}

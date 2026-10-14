@@ -1,0 +1,33 @@
+{
+  "isoType": "AccountManagementStatusAndReason5",
+  "definition": "Statusinformationen.",
+  "isoElements": {
+    "Status": {
+      "definition": "Status der zuvor empfangenen Kontoverwaltungsanweisung."
+    },
+    "StatusReason": {
+      "definition": "Grund für den Status der Kontoverwaltungsanweisung."
+    },
+    "AccountApplicationIdentification": {
+      "definition": "Eindeutige und unmissverständliche Kennung der Kontoeröffnungs- oder Kontoänderungsanweisung auf Anwendungsebene."
+    },
+    "ExistingAccountIdentification": {
+      "definition": "Konto, auf das sich die Kontoeröffnung bezieht."
+    },
+    "AccountIdentification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "AccountStatus": {
+      "definition": "Status des Kontos."
+    },
+    "BlockedStatus": {
+      "definition": "Gibt an, dass das Konto gesperrt ist, sowie weitere Faktoren des gesperrten Kontos."
+    },
+    "FATCAReportingDate": {
+      "definition": "Vom Kontoinhaber angegebenes Datum, um den Kontoführer über das Datum zu informieren, zu dem die Bestände zu melden sind, bevor das Konto anschließend geschlossen wird."
+    },
+    "CRSReportingDate": {
+      "definition": "Vom Kontoinhaber angegebenes Datum, um den Kontoführer über das Datum zu informieren, zu dem die Bestände zu melden sind, bevor das Konto anschließend geschlossen wird."
+    }
+  }
+}

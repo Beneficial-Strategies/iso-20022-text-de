@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementTransactionCondition30Choice",
+  "definition": "Auswahl des Formats für die Bedingungen der Abwicklungstransaktion.",
+  "isoElements": {
+    "Code": {
+      "definition": "Abwicklungsbedingung, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Abwicklungsbedingung, ausgedrückt als proprietärer Code."
+    }
+  }
+}

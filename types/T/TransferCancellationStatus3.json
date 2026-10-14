@@ -1,0 +1,12 @@
+{
+  "isoType": "TransferCancellationStatus3",
+  "definition": "Der Status der Übertragungsstornierung ist angenommen oder an die nächste Partei gesendet.",
+  "isoElements": {
+    "Status": {
+      "definition": "Der Status der Übertragungsstornierung ist angenommen oder an die nächste Partei gesendet."
+    },
+    "Reason": {
+      "definition": "Grund für den Status."
+    }
+  }
+}

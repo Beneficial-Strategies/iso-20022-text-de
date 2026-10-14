@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationStatus34Choice",
+  "definition": "Status, der für die empfangene Stornierungsanfrage zur Anweisung gilt.",
+  "isoElements": {
+    "GlobalCancellationStatus": {
+      "definition": "Status, der global für die Nachricht mit Stornierungsauftrag für Versammlungsanweisungen gilt."
+    },
+    "DetailedCancellationStatus": {
+      "definition": "Status der einzelnen Stornierungsaufträge für Anweisungen, die in der Stornierungsnachricht empfangen wurden, die in InstructionType/InstructionCancellationIdentification identifiziert ist."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DividendTypeFormat10Choice",
+  "definition": "Auswahl zwischen einem Standardcode und einem proprietären Code zur Angabe der Art der Dividende.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Häufigkeit des Kapitalmaßnahmen-Ereignisses."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Häufigkeit des Kapitalmaßnahmen-Ereignisses."
+    }
+  }
+}

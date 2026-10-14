@@ -1,0 +1,12 @@
+{
+  "isoType": "SystemEventType2Choice",
+  "definition": "Gibt die Art des Systemereignisses an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des aufgetretenen Systemereignisses in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Art des aufgetretenen Systemereignisses als Freitext oder als bilateral vereinbarter Code.|."
+    }
+  }
+}

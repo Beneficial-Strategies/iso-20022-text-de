@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountRangeBoundary1",
+  "definition": "Grenze für einen Betragsbereich.",
+  "isoElements": {
+    "BoundaryAmount": {
+      "definition": "Betragswert der Bereichsgrenze."
+    },
+    "Included": {
+      "definition": "Gibt an, ob der Grenzbetrag im Bereich der Betragswerte enthalten ist."
+    }
+  }
+}

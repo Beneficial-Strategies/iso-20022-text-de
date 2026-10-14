@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalRePresentmentReason1Code",
+  "definition": "Gibt den externen Code für den Grund der erneuten Vorlage (Representment) als Zeichenfolge mit maximal 4 Zeichen an. Die Liste der gültigen Codes ist eine separat veröffentlichte externe Codeliste.",
+  "isoCodes": {
+    "AMCR": {
+      "name": "Betrag korrigiert",
+      "definition": "Betrag aufgrund eines Transaktionsnachweises korrigiert"
+    },
+    "CLSD": {
+      "name": "Haftungsverschiebung bei Kartenauthentifizierung verweigert",
+      "definition": "Haftungsverlagerung auf den Acquirer wegen fehlender Kartenauthentifizierungsmethode abgelehnt"
+    },
+    "CRPI": {
+      "name": "Gutschrift bereits erteilt",
+      "definition": "Gutschrift bereits zuvor erteilt"
+    },
+    "OTVA": {
+      "name": "Ursprüngliche Transaktion gültig",
+      "definition": "Ursprüngliche Transaktion war gültig"
+    },
+    "VLSD": {
+      "name": "Haftungsverschiebung bei Verifizierung verweigert",
+      "definition": "Haftungsverlagerung auf den Acquirer wegen fehlender Karteninhaber-Verifizierungsmethode abgelehnt"
+    }
+  }
+}

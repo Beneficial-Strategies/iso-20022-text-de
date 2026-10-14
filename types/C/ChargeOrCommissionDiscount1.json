@@ -1,0 +1,20 @@
+{
+  "isoType": "ChargeOrCommissionDiscount1",
+  "definition": "Informationen zu Rabatten oder Erlassen auf Entgelte und Provisionen.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Differenz zwischen dem Standardgebührenbetrag (Entgelt/Provision) und dem angewendeten Gebührenbetrag (Entgelt/Provision).|BEISPIEL:|Standardentgelt beträgt EUR 100|Rabatt beträgt EUR 30|Angewendetes Entgelt beträgt EUR 70 (EXAMPLE)."
+    },
+    "Rate": {
+      "definition": "Differenz zwischen dem Standardgebührensatz (Entgelt/Provision) und dem angewendeten Gebührensatz (Entgelt/Provision).|BEISPIEL:|Standardsatz beträgt 5 %|Rabattsatz beträgt 3 %|Angewendeter Satz beträgt 2 % (EXAMPLE)."
+    },
+    "Basis": {
+      "definition": "Form des Rabatts oder der Rückvergütung, zum Beispiel Bargeld."
+    }
+  },
+  "isoRules": {
+    "DiscountElementRule": {
+      "definition": "Amount Or Rate Or Basis muss vorhanden sein."
+    }
+  }
+}

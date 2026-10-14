@@ -1,0 +1,22 @@
+{
+  "isoType": "RestrictionReference1Code",
+  "definition": "Gibt die auf eine Transaktion anzuwendenden Beschränkungsreferenzen an.",
+  "isoCodes": {
+    "ADDC": {
+      "name": "Referenz der Geldbeschränkung hinzufügen",
+      "definition": "Hinzufügung einer Geldbeschränkungsreferenz, die einen Geldteilsaldo darstellt, der in der Abwicklungsanweisung für die Belastung oder Gutschrift von Geld verwendet werden soll."
+    },
+    "ADDS": {
+      "name": "Referenz der Wertpapierbeschränkung hinzufügen",
+      "definition": "Hinzufügung einer Wertpapierbeschränkungsreferenz, die eine Wertpapierteilposition darstellt, die in der Abwicklungsanweisung für die Lieferung oder den Empfang von Wertpapieren verwendet werden soll."
+    },
+    "REMC": {
+      "name": "Referenz der Geldbeschränkung entfernen",
+      "definition": "Entfernung einer bereits in der Abwicklungsanweisung vorhandenen Geldbeschränkungsreferenz, die einen Geldteilsaldo darstellt, der in der Abwicklungsanweisung für die Belastung oder Gutschrift von Geld verwendet werden soll."
+    },
+    "REMS": {
+      "name": "Referenz der Wertpapierbeschränkung entfernen",
+      "definition": "Entfernung einer bereits in der Abwicklungsanweisung vorhandenen Wertpapierbeschränkungsreferenz, die eine Wertpapierteilposition darstellt, die in der Abwicklungsanweisung für die Lieferung oder den Empfang von Wertpapieren verwendet werden soll."
+    }
+  }
+}

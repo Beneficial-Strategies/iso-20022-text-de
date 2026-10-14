@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCADeactivationCancellationRequestV01",
+  "definition": "Anwendungsbereich|Diese Nachricht wird von einem Emittenten (oder dessen Beauftragten) an den CSD gesendet, um die Stornierung einer zuvor gesendeten Deaktivierungsanweisung für eine Kapitalmaßnahme zu beantragen.|Verwendung|Diese Nachricht wird verwendet, um die Stornierung einer ausstehenden Deaktivierungsanweisung zu beantragen. Die Stornierung muss sich auf genau dieselbe Ebene wie die ursprüngliche Anweisung beziehen, d. h. gemäß der ursprünglichen Anweisung auf das gesamte CA-Ereignis oder auf eine Option.|Diese Nachricht muss vor dem Ausführungsdatum der Deaktivierung gesendet werden.|Falls eine Kapitalmaßnahme oder Option bereits deaktiviert ist, kann diese Nachricht nicht verwendet werden, um das gesamte Kapitalmaßnahmen-Ereignis oder die Option zu reaktivieren; zur Reaktivierung einer Kapitalmaßnahme oder Option muss die Benachrichtigungsmitteilung verwendet werden."
+}

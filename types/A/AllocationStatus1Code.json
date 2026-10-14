@@ -1,0 +1,14 @@
+{
+  "isoType": "AllocationStatus1Code",
+  "definition": "Gibt den Status der Zuordnung von Sicherheiten zur Deckung der Anweisung an.",
+  "isoCodes": {
+    "AOLF": {
+      "name": "Vollständig zugeteilt",
+      "definition": "Die Anweisung ist vollständig durch Sicherheiten gedeckt."
+    },
+    "AOLP": {
+      "name": "Teilweise zugeteilt",
+      "definition": "Die Anweisung ist teilweise durch Sicherheiten gedeckt."
+    }
+  }
+}

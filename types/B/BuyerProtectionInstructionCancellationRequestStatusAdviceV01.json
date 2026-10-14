@@ -1,0 +1,9 @@
+{
+  "isoType": "BuyerProtectionInstructionCancellationRequestStatusAdviceV01",
+  "definition": "Anwendungsbereich|Die Nachricht BuyerProtectionInstructionCancellationRequestStatusAdvice wird von einem Kontoführer an einen Kontoinhaber oder dessen bestimmte Bank gesendet, um den Status einer zuvor empfangenen, vom Kontoinhaber gesendeten Nachricht BuyerProtectionInstructionCancellationRequest zu melden. Dies umfasst die Bestätigung bzw. Ablehnung eines Antrags auf Stornierung einer offenen Anweisung. ||Verwendung|Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist Duplicate),|- einem Dritten eine Kopie einer Nachricht zur Information zu übermitteln (die Unterfunktion der Nachricht ist Copy),|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu übermitteln (die Unterfunktion der Nachricht ist Copy Duplicate), unter Verwendung der entsprechenden Elemente im Business Application Header (BAH).",
+  "isoElements": {
+    "ProcessorTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, vergeben vom Bearbeiter der Anweisung, der weder der Kontoinhaber, noch der Kontoführer, noch die Marktinfrastruktur ist."
+    }
+  }
+}

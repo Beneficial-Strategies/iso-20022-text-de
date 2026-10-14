@@ -1,0 +1,23 @@
+{
+  "isoType": "IntraPositionMovementInstructionV07",
+  "definition": "Anwendungsbereich|Ein Kontoinhaber sendet eine IntraPositionMovementInstruction an einen Kontoführer, um die Bewegung von Wertpapieren innerhalb seines Bestands von einem Teilsaldo auf einen anderen anzuweisen, zum Beispiel die Sperrung von Wertpapieren.||Die Beziehung zwischen Kontoinhaber und Kontoführer kann sein:|- ein Global Custodian, der ein Konto bei seinem lokalen Beauftragten (Unterverwahrer) hat, oder|- ein Vermögensverwaltungsinstitut, das ein bei einer Depotbank eröffnetes Fondskonto verwaltet, oder|- ein Broker, der ein Konto bei einer Depotbank hat, oder|- ein Zentralverwahrer-Teilnehmer, der ein Konto bei einem Zentralverwahrer hat, oder|- ein Zentralverwahrer, der ein Konto bei einer Depotbank, einem anderen Zentralverwahrer oder einer anderen Abwicklungs-Marktinfrastruktur hat.||Verwendung|Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden,|- einem Dritten eine Kopie einer Nachricht zur Information bereitzustellen,|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu senden.|unter Verwendung der entsprechenden Elemente im Business Application Header.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie der anweisenden Partei bekannt."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Vom kontoführenden Institut vergebene Identifikation zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Entweder SafekeepingAccount oder BlockChainAddressOrWallet muss vorhanden sein, aber nicht beide."
+    }
+  }
+}

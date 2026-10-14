@@ -1,0 +1,12 @@
+{
+  "isoType": "ReservationReturnCriteria1",
+  "definition": "Legt die Kriterien für die Berichterstattung über die Reservierung fest.",
+  "isoElements": {
+    "StartDateTimeIndicator": {
+      "definition": "Gibt an, ob Datum und Uhrzeit des Reservierungsbeginns angefordert werden."
+    },
+    "StatusIndicator": {
+      "definition": "Gibt an, ob der Reservierungsstatus angefordert wird."
+    }
+  }
+}

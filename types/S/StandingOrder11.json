@@ -1,0 +1,66 @@
+{
+  "isoType": "StandingOrder11",
+  "definition": "Legt die detaillierten Attribute eines Dauerauftrags fest.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag und Währung, die zu übertragen sind, wenn aufgrund eines Dauerauftrags eine Zahlungsanweisung erstellt wird."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob das Konto durch den Dauerauftrag belastet oder gutgeschrieben wird."
+    },
+    "Currency": {
+      "definition": "Eindeutige Identifikation eines Dauerauftrags, vergeben vom kontoführenden Institut oder vom Kontoinhaber."
+    },
+    "Type": {
+      "definition": "Art des Dauerauftrags."
+    },
+    "AssociatedPoolAccount": {
+      "definition": "Ursprungs- oder Zielkonto der Liquiditätsübertragung innerhalb des Kontenpools, der vom Auftraggeber verwaltet wird."
+    },
+    "Reference": {
+      "definition": "Eindeutige Identifikation eines Dauerauftrags, vergeben vom kontoführenden Institut oder vom Kontoinhaber."
+    },
+    "Frequency": {
+      "definition": "Regelmäßigkeit, mit der aufgrund des Dauerauftrags Zahlungsanweisungen zu erstellen und zu verarbeiten sind, zum Beispiel täglich, wöchentlich oder monatlich."
+    },
+    "ValidityPeriod": {
+      "definition": "Zeitraum, in dem der Dauerauftrag gültig ist."
+    },
+    "SystemMember": {
+      "definition": "Gibt an, ob das Konto durch den Dauerauftrag belastet oder gutgeschrieben wird."
+    },
+    "ResponsibleParty": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "LinkSetIdentification": {
+      "definition": "Eindeutige Identifikation des Link-Sets, in dem der Dauerauftrag definiert ist. Das Link-Set ist eine Sammlung von Daueraufträgen in einer bestimmten Reihenfolge."
+    },
+    "LinkSetOrderIdentification": {
+      "definition": "Eindeutige Identifikation des Liquiditätsübertragungs-Dauerauftrags innerhalb des Link-Sets."
+    },
+    "LinkSetOrderSequence": {
+      "definition": "Legt die Reihenfolge fest, in der das System die Liquiditätsübertragungs-Daueraufträge innerhalb des Link-Sets ausführt, wenn zusätzliche Liquidität benötigt wird."
+    },
+    "ExecutionType": {
+      "definition": "Legt fest, ob der Dauerauftrag durch einen zeitbasierten oder einen ereignisbasierten Auslöser ausgeführt wird."
+    },
+    "Creditor": {
+      "definition": "Partei, der ein Geldbetrag geschuldet wird."
+    },
+    "CreditorAccount": {
+      "definition": "Geldkonto, dem ein Betrag aus einem Dauerauftragsverfahren gutgeschrieben wird."
+    },
+    "Debtor": {
+      "definition": "Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "DebtorAccount": {
+      "definition": "Geldkonto, das durch ein Dauerauftragsverfahren belastet wird."
+    },
+    "TotalsPerStandingOrder": {
+      "definition": "Gesamtbetrag der „noch nicht ausgeführten“ vordefinierten Liquiditätsübertragungsaufträge oder der von einem Systemteilnehmer in seinem Verantwortungsbereich innerhalb des Systems „definierten“ Aufträge."
+    },
+    "ZeroSweepIndicator": {
+      "definition": "Gibt an, ob der Liquiditätsübertragungs-Dauerauftrag als Zero-Sweeping-Auftrag definiert ist. Bei „true“ überträgt der Liquiditätsübertragungs-Dauerauftrag den gesamten Geldbetrag vom Konto, sodass der resultierende Saldo null beträgt."
+    }
+  }
+}

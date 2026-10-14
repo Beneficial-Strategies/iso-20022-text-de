@@ -1,0 +1,30 @@
+{
+  "isoType": "ChargesRecord3",
+  "definition": "Enthält weitere Einzelangaben zu den Entgelten im Zusammenhang mit der Zahlungstransaktion.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Von der Entgeltträgerseite zu zahlende Transaktionsentgelte."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Entgeltbetrag ein Gutschrifts- oder ein Belastungsbetrag ist. |Verwendung: Ein Betrag von null gilt als Gutschrift."
+    },
+    "ChargeIncludedIndicator": {
+      "definition": "Gibt an, ob das Entgelt im Betrag enthalten sein soll oder als Vorabavis hinzugefügt wird."
+    },
+    "Type": {
+      "definition": "Gibt die Art des Entgelts an."
+    },
+    "Rate": {
+      "definition": "Satz, der zur Berechnung des Entgelt- oder Gebührenbetrags verwendet wird."
+    },
+    "Bearer": {
+      "definition": "Gibt an, welche Partei(en) die mit der Verarbeitung der Zahlungstransaktion verbundenen Entgelte trägt/tragen."
+    },
+    "Agent": {
+      "definition": "Bank, die die Transaktionsentgelte einbehält oder der die Transaktionsentgelte zustehen."
+    },
+    "Tax": {
+      "definition": "Enthält Angaben zur auf die Entgelte erhobenen Steuer."
+    }
+  }
+}

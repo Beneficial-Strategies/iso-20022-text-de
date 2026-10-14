@@ -1,0 +1,30 @@
+{
+  "isoType": "MovementRecord2",
+  "definition": "Einzelheiten eines in einer einzelnen Abwicklungsanweisung angeforderten Bewegungssatzes.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation, die von der beauftragenden Bank vergeben und an die Marktinfrastruktur gesendet wird, um den bestimmten Bewegungssatz (die Transaktion) innerhalb einer Abwicklungsanforderung zu identifizieren.||Verwendung: Die Bewegungsidentifikation ist eine Punkt-zu-Punkt-Referenz, die zwischen der beauftragenden Bank und der Marktinfrastruktur verwendet werden kann, um auf den einzelnen Bewegungssatz innerhalb einer Abwicklungsanforderung zu verweisen. Sie kann in mehreren Nachrichten zur Bewegung enthalten sein."
+    },
+    "SequenceNumber": {
+      "definition": "Ein Index zur Identifizierung des einzelnen Bewegungssatzes."
+    },
+    "Amount": {
+      "definition": "Von der beauftragenden Bank für die Abwicklung bei der Marktinfrastruktur angeforderter Geldbetrag in einem einzelnen Bewegungssatz."
+    },
+    "SettlementAgent": {
+      "definition": "Bank, auf deren Konto die Gelder im Auftrag des Teilnehmers abgewickelt werden."
+    },
+    "SettlementAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Abwicklungsbank."
+    },
+    "Participant": {
+      "definition": "Identifikation eines Teilnehmers, in dessen Auftrag die Abwicklungsbank die Marktinfrastruktur anweist, die Verpflichtungen über die im Abwicklungsservice geführten Konten abzuwickeln."
+    },
+    "ParticipantAccount": {
+      "definition": "Eindeutige Identifikation des im Abwicklungsservice geführten Kontos des Teilnehmers."
+    },
+    "Reference": {
+      "definition": "Referenzinformationen zur Ergänzung eines Bewegungssatzes."
+    }
+  }
+}

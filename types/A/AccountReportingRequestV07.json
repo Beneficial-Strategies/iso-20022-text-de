@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountReportingRequestV07",
+  "definition": "Umfang|Die Nachricht AccountReportingRequest wird vom Kontoinhaber, direkt oder über eine weiterleitende Bank, an eines seiner kontoführenden Institute gesendet. Sie dient dazu, das kontoführende Institut aufzufordern, einen Bericht über das Konto des Kontoinhabers in einem BankToCustomerAccountReport (camt.052), einem BankToCustomerStatement (camt.053) oder einer BankToCustomerDebitCreditNotification (camt.054) zu senden."
+}

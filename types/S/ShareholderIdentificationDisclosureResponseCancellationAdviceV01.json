@@ -1,0 +1,9 @@
+{
+  "isoType": "ShareholderIdentificationDisclosureResponseCancellationAdviceV01",
+  "definition": "Die Nachricht ShareholdersIdentificationDisclosureResponseCancellationAdvice wird von beliebigen Intermediären an den vom Emittenten (etwa einem Beauftragten des Emittenten) in der Offenlegungsanfrage benannten Empfänger gesendet, um die Offenlegungsantwort zur Aktionärsidentifikation zu stornieren, unabhängig davon, ob sie zuvor in einer einzelnen Nachricht oder in mehreren mehrteiligen/seitenweise aufgeteilten Antwortnachrichten gesendet wurde.",
+  "isoElements": {
+    "DisclosureResponseIdentification": {
+      "definition": "Eindeutige Identifikation der Offenlegungsantwort, für die eine Stornierungsmitteilung gesendet wird.|Dieselbe Identifikationsnummer der Offenlegungsantwort ist zu verwenden, wenn eine auf mehrere Nachrichten verteilte Antwort storniert wird."
+    }
+  }
+}

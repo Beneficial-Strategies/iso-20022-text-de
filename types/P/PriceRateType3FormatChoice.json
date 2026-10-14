@@ -1,0 +1,12 @@
+{
+  "isoType": "PriceRateType3FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe der Art des Preissatzes.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Art des Preissatzes."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe der Art des Preissatzes."
+    }
+  }
+}

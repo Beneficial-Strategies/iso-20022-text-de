@@ -1,0 +1,42 @@
+{
+  "isoType": "DataSetCategory7Code",
+  "definition": "Art einer Konfiguration des ATM.",
+  "isoCodes": {
+    "ATMC": {
+      "name": "ATM-Konfiguration",
+      "definition": "Konfigurationsparameter des ATM."
+    },
+    "ATMP": {
+      "name": "ATM-Protokoll",
+      "definition": "Protokollparameter des ATM einschließlich der Konfiguration der Hosts."
+    },
+    "APPR": {
+      "name": "Anwendungsparameter",
+      "definition": "Zahlungsanwendungsspezifische Konfigurationsparameter für das Point-of-Interaction-System (POI)."
+    },
+    "CRAP": {
+      "name": "Kartenanwendung",
+      "definition": "Konfigurationsparameter der Kartenanwendung."
+    },
+    "CPRC": {
+      "name": "Kartenkonfiguration",
+      "definition": "Konfiguration der vom Terminal akzeptierten Karten."
+    },
+    "OEXR": {
+      "name": "Offline-Wechselkurs",
+      "definition": "Lokale Kurse für Währungsumrechnungen."
+    },
+    "AMNT": {
+      "name": "Vordefinierter Betrag",
+      "definition": "Vordefinierte Beträge, die dem Kunden angezeigt werden."
+    },
+    "LOCC": {
+      "name": "Standortkonfiguration",
+      "definition": "Konfiguration des Standorts."
+    },
+    "MNOC": {
+      "name": "Mobilfunkbetreiber",
+      "definition": "Konfiguration der vom Terminal akzeptierten Karten von Mobilfunkbetreibern."
+    }
+  }
+}

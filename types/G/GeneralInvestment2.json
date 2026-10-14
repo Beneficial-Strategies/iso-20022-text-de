@@ -1,0 +1,21 @@
+{
+  "isoType": "GeneralInvestment2",
+  "definition": "Informationen zu einer allgemeinen Kapitalanlage.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art der Kapitalanlage."
+    },
+    "OwnershipType": {
+      "definition": "Gibt an, ob das Konto zum Beispiel auf den Namen eines Nominees oder auf den eigenen Namen lautet."
+    },
+    "CurrentInvestmentAmount": {
+      "definition": "Angelegter Geldbetrag."
+    },
+    "EstimatedValue": {
+      "definition": "Geschätzter Wert der Vermögenswerte."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Portfolio."
+    }
+  }
+}

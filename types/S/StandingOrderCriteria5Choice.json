@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingOrderCriteria5Choice",
+  "definition": "Legt die Informationen fest, nach denen entweder implizit durch Abruf einer früheren Abfrage oder explizit durch Festlegung der Kriterien gesucht wird.",
+  "isoElements": {
+    "QueryName": {
+      "definition": "Ruft die in einer vorhergehenden Abfrage festgelegten Kriterien (Such- und Rückgabekriterien) ab."
+    },
+    "NewCriteria": {
+      "definition": "Legt die Abfragekriterien explizit fest."
+    }
+  }
+}

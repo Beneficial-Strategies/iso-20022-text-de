@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessingRequestV02",
+  "definition": "Die Nachricht Processing Request wird von einem Teilnehmer an ein zentrales System gesendet, um den Start eines von einem zentralen System unterstützten Systemprozesses anzufordern.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Eindeutiger und zweifelsfreier Bezeichner der Nachricht, der vom Absender vergeben wird."
+    },
+    "SettlementSessionIdentifier": {
+      "definition": "Gibt die angeforderte CLS-Abwicklungssitzung an, zu der das zugehörige Geschäft gehört."
+    }
+  }
+}

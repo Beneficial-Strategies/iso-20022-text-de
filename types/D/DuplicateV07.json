@@ -1,0 +1,4 @@
+{
+  "isoType": "DuplicateV07",
+  "definition": "Anwendungsbereich|Die Nachricht Duplicate wird von Finanzinstituten mit ihren eigenen Niederlassungen und/oder mit anderen Finanzinstituten verwendet, mit denen sie bilaterale Vereinbarungen getroffen haben. Sie ermöglicht den Austausch von Duplikaten von Zahlungsanweisungen.|Verwendung|Diese Nachricht muss als Antwort auf eine Nachricht RequestForDuplicate gesendet werden.|Das Element Duplicate Data muss ein wohlgeformtes XML-Dokument enthalten. Dies bedeutet, dass XML-Sonderzeichen wie '<' so verwendet werden müssen, dass sie den Kriterien der XML-Wohlgeformtheit entsprechen."
+}

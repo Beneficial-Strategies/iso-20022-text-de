@@ -1,0 +1,12 @@
+{
+  "isoType": "TerminalHosting1",
+  "definition": "Stelle, die das Terminal des ATM betreibt.",
+  "isoElements": {
+    "Category": {
+      "definition": "Art des Betriebs des Terminals des ATM."
+    },
+    "Identification": {
+      "definition": "Identifiziert die Stelle, die den ATM betreibt."
+    }
+  }
+}

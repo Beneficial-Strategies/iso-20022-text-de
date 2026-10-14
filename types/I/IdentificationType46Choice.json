@@ -1,0 +1,12 @@
+{
+  "isoType": "IdentificationType46Choice",
+  "definition": "Auswahl zwischen einem Code und einem Datenquellen-Schema zur Festlegung der Art der alternativen Identifikation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Die Art der Identifikation wird mithilfe eines Codes definiert."
+    },
+    "Proprietary": {
+      "definition": "Die Art der Identifikation wird mithilfe eines Datenquellen-Schemas definiert."
+    }
+  }
+}

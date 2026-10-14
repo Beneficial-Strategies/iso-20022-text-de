@@ -1,0 +1,15 @@
+{
+  "isoType": "NotificationLocationData1",
+  "definition": "Liefert zusätzliche Einzelheiten zu den Daten oder der Dokumentation.",
+  "isoElements": {
+    "Method": {
+      "definition": "Methode, mit der die Daten oder die Dokumentation übermittelt werden."
+    },
+    "ElectronicAddress": {
+      "definition": "Elektronische Adresse, an die eine Bank die Daten oder die Dokumentation gesendet hat."
+    },
+    "PostalAddress": {
+      "definition": "Postanschrift, an die eine Bank die Daten oder die Dokumentation gesendet hat."
+    }
+  }
+}

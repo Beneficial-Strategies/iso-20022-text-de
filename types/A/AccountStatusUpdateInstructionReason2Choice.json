@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountStatusUpdateInstructionReason2Choice",
+  "definition": "Auswahl der Formate für einen Grund für eine Anweisung zur Änderung des Status eines Kontos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für die Anweisung zur Änderung des Kontostatus als Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Grund für die Anweisung zur Änderung des Kontostatus als proprietärer Code ausgedrückt."
+    }
+  }
+}

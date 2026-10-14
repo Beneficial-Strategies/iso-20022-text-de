@@ -1,0 +1,14 @@
+{
+  "isoType": "MessageRejectedReason2Code",
+  "definition": "Gibt den Grund für den Status einer abgelehnten Nachricht an.",
+  "isoCodes": {
+    "NALO": {
+      "name": "Nicht zulässige Anfrage",
+      "definition": "Die sendende Partei ist nicht berechtigt, diese Anfrage zu senden."
+    },
+    "REFE": {
+      "name": "Ungültige oder nicht erkannte Referenz",
+      "definition": "Die Anfrage enthält eine ungültige oder nicht erkannte Geschäftsreferenz."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "TaxWrapperAmountType1Code",
+  "definition": "Gibt eine Betragsart an.",
+  "isoCodes": {
+    "BONU": {
+      "name": "Bonus",
+      "definition": "Die Betragsart ist ein Bonus, zum Beispiel ein staatlicher Bonus."
+    },
+    "WTHD": {
+      "name": "Entnahme",
+      "definition": "Die Betragsart ist eine Entnahme, zum Beispiel eine Entnahme für den erstmaligen Erwerb von Wohneigentum."
+    }
+  }
+}

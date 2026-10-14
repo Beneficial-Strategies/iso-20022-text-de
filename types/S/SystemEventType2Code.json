@@ -1,0 +1,94 @@
+{
+  "isoType": "SystemEventType2Code",
+  "definition": "Gibt eine Art von Ereignis im Zusammenhang mit dem Betrieb eines Systems an.",
+  "isoCodes": {
+    "LVCO": {
+      "name": "LVP-Annahmeschluss",
+      "definition": "Das Ereignis ist der Annahmeschluss für Zahlungen mit niedrigem Betrag, die vom System verarbeitet werden."
+    },
+    "LVCC": {
+      "name": "LVP-Stornierungsschluss",
+      "definition": "Das Ereignis ist der Zeitpunkt, nach dem Zahlungen mit niedrigem Betrag nicht mehr storniert werden können."
+    },
+    "LVRT": {
+      "name": "LVP-Annahmeschluss-Berichtszeit",
+      "definition": "Das Ereignis ist der Zeitpunkt, zu dem den Teilnehmern der Report zur Verarbeitung der Zahlungen mit niedrigem Betrag bereitgestellt wird."
+    },
+    "EUSU": {
+      "name": "Euro1-Start",
+      "definition": "Das Ereignis ist die Eröffnung des Systembetriebs von Euro 1."
+    },
+    "STSU": {
+      "name": "Step1-Start",
+      "definition": "Das Ereignis ist der Beginn des Systembetriebs von Step 1."
+    },
+    "LWSU": {
+      "name": "Limitwarnung-Start",
+      "definition": "Das Ereignis ist der Beginn der Limit-Warnperiode."
+    },
+    "EUCO": {
+      "name": "Euro1-Annahmeschluss",
+      "definition": "Das Ereignis ist der Annahmeschluss für das System Euro1, das heißt die Frist für die Verarbeitung von Euro1-Transaktionen."
+    },
+    "FIRE": {
+      "name": "Abschlussbericht",
+      "definition": "Das Ereignis ist der Report nach Einstellung aller Operationen im System."
+    },
+    "STDY": {
+      "name": "Tagesbeginn",
+      "definition": "Das Ereignis ist der Beginn des Betriebstags."
+    },
+    "LTNC": {
+      "name": "LTN-Annahmeschluss",
+      "definition": "Das Ereignis ist der Annahmeschluss für die Abwicklung der multilateralen Cash-Salden aus dem Übernachtzyklus des Wertpapierabwicklungssystems."
+    },
+    "CRCO": {
+      "name": "Annahmeschluss Geldreservierung",
+      "definition": "Das Ereignis ist der Annahmeschluss für das Cash-Reservierungsfenster."
+    },
+    "RECC": {
+      "name": "Rec-Annahmeschluss",
+      "definition": "Das Ereignis ist der Annahmeschluss für die Abwicklung der multilateralen Salden aus dem Retail-Clearing-System."
+    },
+    "LTGC": {
+      "name": "LTG-Annahmeschluss",
+      "definition": "Das Ereignis ist der Annahmeschluss für den Tageszyklus des Wertpapierabwicklungssystems."
+    },
+    "LTDC": {
+      "name": "LTD-Annahmeschluss",
+      "definition": "Das Ereignis ist der Annahmeschluss für die Abwicklung der multilateralen Barsalden aus dem Tageszyklus des Wertpapierabwicklungssystems."
+    },
+    "CUSC": {
+      "name": "Annahmeschluss Kunden",
+      "definition": "Das Ereignis ist der Annahmeschluss für Kundenzahlungen."
+    },
+    "IBKC": {
+      "name": "Annahmeschluss Interbank",
+      "definition": "Das Ereignis ist der Annahmeschluss für Interbankenzahlungen."
+    },
+    "SYSC": {
+      "name": "Annahmeschluss System",
+      "definition": "Das Ereignis ist der Annahmeschluss für das System."
+    },
+    "SSSC": {
+      "name": "Annahmeschluss Netto-SSS-Reservierung",
+      "definition": "Das Ereignis ist der Annahmeschluss für das Barreservierungsfenster des Wertpapierabwicklungssystems."
+    },
+    "REOP": {
+      "name": "Betrieb wieder aufnehmen",
+      "definition": "Das Ereignis ist der erwartete Wiederaufnahmezeitpunkt einer TARGET-Komponente."
+    },
+    "PCOT": {
+      "name": "Annahmeschlusszeit der Verarbeitung",
+      "definition": "Das Ereignis ist der Annahmeschluss für die Verarbeitung von Zahlungen."
+    },
+    "NPCT": {
+      "name": "Annahmeschlusszeit neuer Zahlungen",
+      "definition": "Das Ereignis ist der Annahmeschluss für den Eingang neuer gewerblicher Zahlungen."
+    },
+    "ESTF": {
+      "name": "Ende der Ständigen Fazilitäten",
+      "definition": "Das Ereignis ist der Annahmeschluss für die ständigen Fazilitäten."
+    }
+  }
+}

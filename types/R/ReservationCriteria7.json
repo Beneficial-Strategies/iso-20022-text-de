@@ -1,0 +1,20 @@
+{
+  "isoType": "ReservationCriteria7",
+  "definition": "Legt die Kriterien zur Extraktion der Reservierungsinformationen und den erwarteten Reservierungsbericht fest. Der neuen Abfrage kann ein Name gegeben werden.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Name der Abfrage, die durch die Such- und Rückgabekriterien definiert wird."
+    },
+    "SearchCriteria": {
+      "definition": "Legt die Kriterien zur Extraktion der Reservierungsinformationen fest."
+    },
+    "ReturnCriteria": {
+      "definition": "Legt den erwarteten Reservierungsbericht fest."
+    }
+  },
+  "isoRules": {
+    "ReturnCriteriaAndOrSearchCriteriaRule": {
+      "definition": "Wenn ReturnCriteria nicht vorhanden ist, muss mindestens ein Vorkommen von SearchCriteria vorhanden sein. Wenn ReturnCriteria vorhanden ist, ist jedes Vorkommen von SearchCriteria optional."
+    }
+  }
+}

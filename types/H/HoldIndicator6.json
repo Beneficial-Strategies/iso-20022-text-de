@@ -1,0 +1,12 @@
+{
+  "isoType": "HoldIndicator6",
+  "definition": "Legt fest, ob die Transaktion angehalten/gesperrt/eingefroren ist.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Legt fest, ob die Transaktion angehalten/gesperrt/eingefroren ist."
+    },
+    "Reason": {
+      "definition": "Legt den Grund für den Registrierungsstatus fest."
+    }
+  }
+}

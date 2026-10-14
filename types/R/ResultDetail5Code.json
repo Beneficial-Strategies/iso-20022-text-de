@@ -1,0 +1,402 @@
+{
+  "isoType": "ResultDetail5Code",
+  "definition": "Detail der Antwort an einen ATM.",
+  "isoCodes": {
+    "ACTF": {
+      "name": "Konto nicht gefunden",
+      "definition": "Das Konto des Karteninhabers oder des Kunden wurde nicht gefunden."
+    },
+    "ACQS": {
+      "name": "Acquirer nicht unterstützt",
+      "definition": "Der Acquirer wird nicht unterstützt."
+    },
+    "AMLV": {
+      "name": "Geldwäscheprüfung",
+      "definition": "Fehler bei der AML-Prüfung (Anti Money Laundering, Geldwäschebekämpfung)."
+    },
+    "AMTA": {
+      "name": "Betrag nicht gefunden",
+      "definition": "Betrag nicht gefunden."
+    },
+    "AUTH": {
+      "name": "Authentisierung fehlgeschlagen",
+      "definition": "Der Karteninhaber oder Kunde konnte nicht authentifiziert werden, zum Beispiel wegen einer falschen Anmeldekennung oder eines falschen Passworts."
+    },
+    "BANK": {
+      "name": "Bank nicht gefunden",
+      "definition": "Bank nicht gefunden."
+    },
+    "CRDR": {
+      "name": "Kartenfehler",
+      "definition": "Kartenfehler, zum Beispiel ungültiger ARQC (Authorisation ReQuest Cryptogram)."
+    },
+    "CRDF": {
+      "name": "Kartenprüfung fehlgeschlagen",
+      "definition": "Die Identifikation der Karte ist ungültig."
+    },
+    "ACTC": {
+      "name": "Geschlossenes Konto",
+      "definition": "Das Konto ist für die Transaktion nicht mehr verwendbar."
+    },
+    "CTVG": {
+      "name": "Umstellung läuft",
+      "definition": "Eine Umstellung ist im Gange, die Transaktion konnte nicht verarbeitet werden."
+    },
+    "DBER": {
+      "name": "Datenbankfehler",
+      "definition": "Fehler beim Datenbankzugriff."
+    },
+    "FEES": {
+      "name": "Strittige Gebühren",
+      "definition": "Die Transaktionsentgelte werden vom Emittenten bestritten."
+    },
+    "TXNL": {
+      "name": "Transaktionslebenszyklus überschritten",
+      "definition": "Die Gültigkeitsdauer der Transaktion wurde überschritten."
+    },
+    "AMTD": {
+      "name": "Einzahlungsbetragslimit",
+      "definition": "Der Betrag der Einzahlungstransaktionen überschreitet das Limit."
+    },
+    "NMBD": {
+      "name": "Limit der Einzahlungsanzahl",
+      "definition": "Die Anzahl der Einzahlungstransaktionen oder -objekte überschreitet das Limit."
+    },
+    "CRDX": {
+      "name": "Abgelaufene Karte",
+      "definition": "Die Karte ist abgelaufen."
+    },
+    "FDCL": {
+      "name": "Fallback abgelehnt",
+      "definition": "Der Emittent hat die Fall-back-Transaktion abgelehnt."
+    },
+    "FMTR": {
+      "name": "Formatfehler",
+      "definition": "Ungültiges Format der Nachricht oder ihres Inhalts."
+    },
+    "TXNG": {
+      "name": "In Bearbeitung",
+      "definition": "Die ursprüngliche Anfrage wird bearbeitet."
+    },
+    "FNDI": {
+      "name": "Unzureichende Deckung",
+      "definition": "Das Kontoguthaben reicht nicht aus."
+    },
+    "ACPI": {
+      "name": "Ungültiger Akzeptant",
+      "definition": "Der Emittent verweigert dem Akzeptanten die Annahme."
+    },
+    "AMTI": {
+      "name": "Ungültiger Betrag",
+      "definition": "Der angeforderte Betrag liegt außerhalb der Kartenlimits, oder die Währung ist ungültig."
+    },
+    "ADDI": {
+      "name": "Ungültige Adresse",
+      "definition": "Ein Teil der angegebenen Adresse ist falsch."
+    },
+    "BRHI": {
+      "name": "Ungültige Filiale",
+      "definition": "Ungültige Filial- oder Bankinformationen."
+    },
+    "CHDI": {
+      "name": "Ungültige Identifikation des Karteninhabers",
+      "definition": "Die Identifikation des Karteninhabers oder des Kunden stimmt nicht überein."
+    },
+    "CRDI": {
+      "name": "Ungültige Kartennummer",
+      "definition": "Die Identifikation der Karte ist ungültig."
+    },
+    "CTFV": {
+      "name": "Ungültiges Zertifikat",
+      "definition": "Das digitale Zertifikat kann nicht authentifiziert werden, ist abgelaufen oder wurde widerrufen."
+    },
+    "AMTO": {
+      "name": "Ungültiger ursprünglicher Betrag",
+      "definition": "Der ursprüngliche Betrag ist ungültig."
+    },
+    "PINV": {
+      "name": "Ungültige PIN",
+      "definition": "Die PIN ist ungültig."
+    },
+    "TKKO": {
+      "name": "Ungültiges Token",
+      "definition": "Das Token kann nicht als Ersatz für eine PAN (Primary Account Number) verwendet werden."
+    },
+    "SGNI": {
+      "name": "Ungültige Signatur",
+      "definition": "Die signierte Nachricht hat eine ungültige Signatur."
+    },
+    "TKID": {
+      "name": "Ungültige Token-Identifikation",
+      "definition": "Die Identifikation des Token-Anbieters oder des Token-Anfordernden ist ungültig."
+    },
+    "TXNV": {
+      "name": "Ungültige Transaktion",
+      "definition": "Die Transaktion ist ungültig."
+    },
+    "DATI": {
+      "name": "Ungültiges Transaktionsdatum und ungültige Transaktionszeit",
+      "definition": "Datum und Uhrzeit der Transaktion sind ungültig."
+    },
+    "ISSP": {
+      "name": "Herausgeber nicht betriebsbereit",
+      "definition": "Der Emittent ist nicht betriebsbereit."
+    },
+    "ISSF": {
+      "name": "Herausgeber nicht gefunden",
+      "definition": "Emittent nicht gefunden."
+    },
+    "ISSO": {
+      "name": "Herausgeber abgemeldet",
+      "definition": "Die Transaktion konnte nicht verarbeitet werden, da der Emittent abgemeldet ist."
+    },
+    "ISST": {
+      "name": "Zeitüberschreitung beim Herausgeber",
+      "definition": "Die Transaktion konnte nicht verarbeitet werden, da beim Emittenten eine Zeitüberschreitung auftrat."
+    },
+    "ISSU": {
+      "name": "Herausgeber nicht verfügbar",
+      "definition": "Die Transaktion konnte nicht verarbeitet werden, da der Emittent nicht verfügbar ist."
+    },
+    "KEYS": {
+      "name": "Schlüsselspeicher voll",
+      "definition": "Kein Speicherplatz für den Schlüssel verfügbar."
+    },
+    "LBLA": {
+      "name": "Haftung akzeptiert",
+      "definition": "Die Transaktion wird verarbeitet und die Haftung übernommen."
+    },
+    "CRDL": {
+      "name": "Verlorene Karte",
+      "definition": "Die Karte wurde als verloren gemeldet."
+    },
+    "MACR": {
+      "name": "MAC-Fehler",
+      "definition": "MAC-Fehler."
+    },
+    "MACK": {
+      "name": "MAC-Schlüsselfehler",
+      "definition": "MAC-Schlüsselfehler."
+    },
+    "ICCM": {
+      "name": "Fehlende ICC-Daten",
+      "definition": "Für die Verarbeitung der ICC-Transaktion erforderliche ICC-Datenelemente waren in der Nachricht nicht vorhanden."
+    },
+    "PINN": {
+      "name": "Neue PIN ungültig",
+      "definition": "Die neue PIN ist ungültig (PIN-Änderung)."
+    },
+    "CRDA": {
+      "name": "Kein Karteneintrag",
+      "definition": "Kein Kartendateisatz vorhanden."
+    },
+    "LBLU": {
+      "name": "Haftung nicht akzeptiert",
+      "definition": "Die Transaktion wird verarbeitet, die Haftung wird jedoch nicht übernommen."
+    },
+    "PINA": {
+      "name": "PIN-Prüfung nicht möglich",
+      "definition": "Die PIN konnte nicht validiert werden."
+    },
+    "NPRA": {
+      "name": "Für Akzeptanten nicht zulässig",
+      "definition": "Vorgang für den Akzeptanten nicht zulässig (zum Beispiel Fall-back)."
+    },
+    "OFFL": {
+      "name": "Offline-Verarbeitung",
+      "definition": "Die Transaktion wurde vom Terminal offline verarbeitet."
+    },
+    "ONLP": {
+      "name": "Offline-Verarbeitung nach Rückfrage",
+      "definition": "Die Transaktion wurde nach einer Rückfrage offline verarbeitet."
+    },
+    "NPRC": {
+      "name": "Für Karteninhaber nicht zulässig",
+      "definition": "Transaktion für den Karteninhaber oder den Kunden nicht zulässig."
+    },
+    "TXNM": {
+      "name": "Original stimmt nicht überein",
+      "definition": "Die ursprüngliche Transaktion wurde gefunden, die Transaktion stimmt jedoch nicht überein."
+    },
+    "OTHR": {
+      "name": "Sonstiger Fehler",
+      "definition": "Sonstiger Fehler."
+    },
+    "BALO": {
+      "name": "Nicht ausgeglichen",
+      "definition": "Saldo nicht ausgeglichen."
+    },
+    "SEQO": {
+      "name": "Außerhalb der Reihenfolge",
+      "definition": "Die Nachricht ist außerhalb der Reihenfolge."
+    },
+    "PINC": {
+      "name": "PIN-Änderung erforderlich",
+      "definition": "Der Karteninhaber muss die PIN ändern, um die Transaktion durchführen zu können."
+    },
+    "PIND": {
+      "name": "PIN-Daten erforderlich",
+      "definition": "Zur Überprüfung der PIN sind zusätzliche Informationen erforderlich."
+    },
+    "PINS": {
+      "name": "PIN-Sicherheitsfehler",
+      "definition": "PIN-Länge oder PIN-Schlüssel ist ungültig."
+    },
+    "PINX": {
+      "name": "PIN-Versuche überschritten",
+      "definition": "Der letzte Versuch der PIN-Überprüfung schlägt fehl."
+    },
+    "PINE": {
+      "name": "PIN-Verschlüsselungsfehler",
+      "definition": "Der entschlüsselte PIN-Block ist ungültig."
+    },
+    "QMAX": {
+      "name": "Warteschlangenmaximum überschritten",
+      "definition": "Maximale Größe der Store-and-Forward-Warteschlange überschritten."
+    },
+    "RECD": {
+      "name": "Fehler bei wiederkehrenden Daten",
+      "definition": "Wiederkehrender Datenfehler."
+    },
+    "CRDT": {
+      "name": "Eingeschränkte Karte",
+      "definition": "Der angeforderte Dienst ist mit der Karte nicht zulässig."
+    },
+    "SECV": {
+      "name": "Sicherheitsverletzung",
+      "definition": "Sicherheitsverletzung, zum Beispiel ungültiger ARPC (Authorisation ResPonse Cryptogram)."
+    },
+    "SRVU": {
+      "name": "Service nicht aktiviert",
+      "definition": "Der Karteninhaber oder Kunde hat den Dienst beim Dienstleister nicht aktiviert."
+    },
+    "SFWE": {
+      "name": "Software- oder Hardwarefehler",
+      "definition": "Fehler der Sicherheitssoftware oder -hardware."
+    },
+    "SPCC": {
+      "name": "Besondere Bedingungen",
+      "definition": "Besondere Kartenbedingungen wurden nicht eingehalten."
+    },
+    "CRDS": {
+      "name": "Gestohlene Karte",
+      "definition": "Die Karte wurde als gestohlen gemeldet."
+    },
+    "SRCH": {
+      "name": "Aufschlag nicht zulässig",
+      "definition": "Aufschläge sind nicht zulässig."
+    },
+    "CNTC": {
+      "name": "Verdacht auf gefälschte Karte",
+      "definition": "Der Emittent oder der Verarbeiter vermutet eine gefälschte Karte."
+    },
+    "FRDS": {
+      "name": "Betrugsverdacht",
+      "definition": "Der Emittent oder der Verarbeiter vermutet eine betrügerische Transaktion."
+    },
+    "SYSP": {
+      "name": "System nicht betriebsbereit",
+      "definition": "Verarbeitung vorübergehend nicht verfügbar."
+    },
+    "SYSM": {
+      "name": "Systemfehlfunktion",
+      "definition": "Systemfehlfunktion."
+    },
+    "TRMI": {
+      "name": "Terminal nicht konfiguriert",
+      "definition": "Der Server hat eine Terminal-Identifikation erhalten, die ihm unbekannt ist."
+    },
+    "ACTT": {
+      "name": "Fehler beim Zielkonto",
+      "definition": "Statusfehler beim Zielkonto."
+    },
+    "TTLV": {
+      "name": "Summen nicht verfügbar",
+      "definition": "Summen sind nicht verfügbar."
+    },
+    "TXNU": {
+      "name": "Transaktion nicht abgeschlossen",
+      "definition": "Die Transaktion wurde am Terminal nicht abgeschlossen."
+    },
+    "TXND": {
+      "name": "Doppelte Transaktion",
+      "definition": "Die Transaktionsidentifikation wurde bereits für eine andere Transaktion verwendet."
+    },
+    "ORGF": {
+      "name": "Original nicht auffindbar",
+      "definition": "Die Transaktion konnte nicht verarbeitet werden, da die ursprüngliche Transaktion nicht gefunden wurde."
+    },
+    "UNBO": {
+      "name": "Online-Gehen nicht möglich",
+      "definition": "Die Transaktion kann vom Terminal nicht online verarbeitet werden."
+    },
+    "UNBP": {
+      "name": "Offline-Verarbeitung nicht möglich",
+      "definition": "Die Transaktion kann nicht offline verarbeitet werden."
+    },
+    "UNBC": {
+      "name": "Nicht akzeptable Währung",
+      "definition": "Die Währung ist für den Emittenten oder den Verarbeiter nicht akzeptabel."
+    },
+    "CMKY": {
+      "name": "Kommunikationsschlüssel nicht verfügbar",
+      "definition": "Kommunikationsschlüssel sind nicht verfügbar."
+    },
+    "CRDU": {
+      "name": "Unwirksame Karte",
+      "definition": "Die Karte ist noch nicht aktiv."
+    },
+    "SVSU": {
+      "name": "Nicht unterstützter Service",
+      "definition": "Der angeforderte Dienst wird nicht unterstützt."
+    },
+    "VNDR": {
+      "name": "Anbieter-Formatfehler",
+      "definition": "Das Anbieterformat enthält einen Fehler."
+    },
+    "VNDF": {
+      "name": "Anbieter nicht gefunden",
+      "definition": "Anbieter nicht gefunden."
+    },
+    "AMTW": {
+      "name": "Auszahlungsbetragslimit",
+      "definition": "Der Betrag der Auszahlungstransaktionen überschreitet das Kartenlimit."
+    },
+    "NMBW": {
+      "name": "Limit der Auszahlungsanzahl",
+      "definition": "Die Anzahl der Auszahlungstransaktionen überschreitet das Kartenlimit."
+    },
+    "CRDW": {
+      "name": "Falsche Karte",
+      "definition": "Für die ursprüngliche Transaktion wurde eine andere Karte verwendet."
+    },
+    "MEDI": {
+      "name": "Ungültiger Medientyp",
+      "definition": "Die angeforderten Medien sind für den Dienst nicht zulässig."
+    },
+    "SRVI": {
+      "name": "Ungültiger Service",
+      "definition": "Der angeforderte Dienst ist nicht zulässig."
+    },
+    "AMMA": {
+      "name": "Konto entspricht mehreren Konten",
+      "definition": "Die in der Anfragenachricht angegebenen Kontodaten passen auf mehrere Konten."
+    },
+    "AGFE": {
+      "name": "Gebühr zustimmen",
+      "definition": "Der Verbraucher muss dem Entgelt aus den angebotenen Entgelten zustimmen, um die Transaktion zu autorisieren. Siehe <Tx><AuthstnRslt><FeeToAdd>."
+    },
+    "SACT": {
+      "name": "Konto auswählen",
+      "definition": "Der Verbraucher muss aus den angebotenen Konten ein Konto auswählen, um die Transaktion zu autorisieren. Siehe <Tx><AcctInf>."
+    },
+    "ADCC": {
+      "name": "DCC zustimmen",
+      "definition": "Der Verbraucher muss entscheiden, ob er das DCC-Angebot zur Autorisierung der Transaktion annimmt. Siehe <Tx><CcyConvsElgblty>."
+    },
+    "FEEM": {
+      "name": "Gebühr fehlt",
+      "definition": "Das Transaktionsentgelt fehlt in der Anfrage."
+    }
+  }
+}

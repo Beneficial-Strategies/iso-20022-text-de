@@ -1,0 +1,14 @@
+{
+  "isoType": "VoteChannel1Code",
+  "definition": "Gibt den Netzwerkkanal an, über den die Stimme gesendet werden soll.",
+  "isoCodes": {
+    "VOPI": {
+      "name": "Abstimmung gemäß Information des Intermediärs",
+      "definition": "Die Stimme wird wie im Verarbeitungstext des Informationsfelds für den nächsten Intermediär beschrieben abgegeben."
+    },
+    "VOCI": {
+      "name": "Abstimmung über die Kette",
+      "definition": "Die Stimme wird über die Kette der Intermediäre abgegeben."
+    }
+  }
+}

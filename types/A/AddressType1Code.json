@@ -1,0 +1,14 @@
+{
+  "isoType": "AddressType1Code",
+  "definition": "Gibt die Adressart an.",
+  "isoCodes": {
+    "HOME": {
+      "name": "Wohnanschrift",
+      "definition": "Die Adresse ist die Privatadresse."
+    },
+    "BIZZ": {
+      "name": "Geschäftlich",
+      "definition": "Die Adresse ist die Geschäftsadresse."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "RejectionReason2",
+  "definition": "Allgemeine Angaben zum Grund der Ablehnung.",
+  "isoElements": {
+    "RejectingPartyReason": {
+      "definition": "Von der ablehnenden Partei angegebener Grund der Ablehnung."
+    },
+    "RejectionDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen die Ablehnung erzeugt wurde."
+    },
+    "ErrorLocation": {
+      "definition": "Beschreibung der genauen Stelle des möglichen Fehlers in einer Nachricht."
+    },
+    "ReasonDescription": {
+      "definition": "Detaillierte Beschreibung des Ablehnungsgrundes."
+    },
+    "AdditionalData": {
+      "definition": "Zusätzliche Informationen zur Ablehnung, die eine genaue Bestimmung des Ablehnungsgrundes ermöglichen sollen. Dazu kann eine vollständige oder teilweise Kopie der abgelehnten Nachricht gehören."
+    }
+  }
+}

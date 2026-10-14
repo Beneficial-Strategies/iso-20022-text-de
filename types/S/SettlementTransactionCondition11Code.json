@@ -1,0 +1,10 @@
+{
+  "isoType": "SettlementTransactionCondition11Code",
+  "definition": "Gibt die Bedingungen an, unter denen ein Auftrag/Handelsgeschäft abzuwickeln ist.",
+  "isoCodes": {
+    "NOMC": {
+      "name": "Keine automatische Marktforderung",
+      "definition": "Es soll kein Marktanspruch (Market Claim) automatisch erzeugt werden."
+    }
+  }
+}

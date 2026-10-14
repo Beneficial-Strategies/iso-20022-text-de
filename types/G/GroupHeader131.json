@@ -1,0 +1,47 @@
+{
+  "isoType": "GroupHeader131",
+  "definition": "Satz von Merkmalen, die für alle in der Nachricht enthaltenen Einzeltransaktionen gelten.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, vergeben von der anweisenden Partei und an die nächste Partei in der Kette gesendet, zur zweifelsfreien Identifizierung der Nachricht.|Verwendung: Die anweisende Partei muss sicherstellen, dass MessageIdentification für die angewiesene Partei über einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "ExpiryDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen die Zahlung verfällt, falls sie nicht abgewickelt wurde."
+    },
+    "BatchBooking": {
+      "definition": "Gibt an, ob ein einzelner Umsatz je Einzeltransaktion oder ein Sammelumsatz für die Summe der Beträge aller Transaktionen innerhalb der Gruppe einer Nachricht gewünscht wird.|Verwendung: Die Sammelbuchung wird verwendet, um eine mögliche Sammelbuchung anzufordern und nicht anzuordnen."
+    },
+    "NumberOfTransactions": {
+      "definition": "Anzahl der in der Nachricht enthaltenen Einzeltransaktionen."
+    },
+    "ControlSum": {
+      "definition": "Summe aller in der Nachricht enthaltenen Einzelbeträge, unabhängig von den Währungen."
+    },
+    "TotalInterbankSettlementAmount": {
+      "definition": "Gesamtgeldbetrag, der zwischen der anweisenden Bank und der angewiesenen Bank bewegt wird."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag der Bank, die ihn schuldet, nicht mehr zur Verfügung steht und der Bank, der er zusteht, zur Verfügung steht."
+    },
+    "SettlementInformation": {
+      "definition": "Gibt Einzelheiten dazu an, wie die Abwicklung der Transaktion(en) zwischen der anweisenden Bank und der angewiesenen Bank erfolgt."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Satz von Elementen zur näheren Bestimmung der Transaktionsart."
+    },
+    "InstructingAgent": {
+      "definition": "Bank, die die nächste Partei in der Kette anweist, die Anweisung(en) auszuführen."
+    },
+    "InstructedAgent": {
+      "definition": "Bank, die von der vorherigen Partei in der Kette angewiesen wird, die Anweisung(en) auszuführen."
+    }
+  },
+  "isoRules": {
+    "TotalInterbankSettlementAmountAndDateRule": {
+      "definition": "Wenn TotalInterbankSettlementAmount vorhanden ist, muss InterbankSettlementDate vorhanden sein."
+    }
+  }
+}

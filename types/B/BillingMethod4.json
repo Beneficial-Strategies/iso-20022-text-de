@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingMethod4",
+  "definition": "Enthält die Details zur Steuerberechnungsmethode C.",
+  "isoElements": {
+    "ServiceDetail": {
+      "definition": "Gibt die Details der steuerpflichtigen Services nach Steuerberechnungsmethode C an."
+    },
+    "TaxCalculation": {
+      "definition": "Gesamtbetrag des zu besteuernden Servicentgelts in der Sitzwährung der Steuerregion zusammen mit den zugehörigen Steuerberechnungen. ||Verwendung: Nur für die Steuerberechnungsmethode C; je Steuerregion darf nur ein Eintrag angegeben werden."
+    }
+  }
+}

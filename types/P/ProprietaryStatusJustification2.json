@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryStatusJustification2",
+  "definition": "Definiert einen proprietären Grund für die Ablehnung einer Transaktion.",
+  "isoElements": {
+    "ProprietaryStatusReason": {
+      "definition": "Definiert den Grund, aus dem das System die Transaktion abgelehnt hat."
+    },
+    "Reason": {
+      "definition": "Liefert detaillierte Informationen zum Grund, aus dem das System die Transaktion abgelehnt hat."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "DisclosureRequestIdentification1",
+  "definition": "Informationen zur Identifikation der Offenlegungsanfrage zur Aktionärsidentifikation, die vom Emittenten oder dem von ihm benannten Dritten veröffentlicht wurde, um die Offenlegungsantworten der Intermediäre in der Verwahrkette zu erhalten.",
+  "isoElements": {
+    "IssuerDisclosureRequestIdentification": {
+      "definition": "Offizielle und eindeutige Referenz, die einem Offenlegungsanfrageprozess zur Aktionärsidentifikation vom Emittenten oder dem von ihm benannten Dritten zugewiesen wurde."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifiziert das Finanzinstrument."
+    },
+    "ShareholdersDisclosureRecordDate": {
+      "definition": "Vom Emittenten festgelegtes Datum, an dem die Identität der Aktionäre auf Grundlage der abgewickelten Positionen in den Büchern des Emittenten-CSD oder eines anderen ersten Intermediärs bei Geschäftsschluss ermittelt wird."
+    }
+  }
+}

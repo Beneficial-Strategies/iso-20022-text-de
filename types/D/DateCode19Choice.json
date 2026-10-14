@@ -1,0 +1,12 @@
+{
+  "isoType": "DateCode19Choice",
+  "definition": "Auswahl zwischen einem Code und einem proprietären Code für einen Datumscode.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Art des Datums."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Art des Datums."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "isoType": "CertificateType2Code",
+  "definition": "Gibt die Art des Zertifikats an.",
+  "isoCodes": {
+    "AMLC": {
+      "name": "Geldwäschebekämpfung",
+      "definition": "Formular zur Bescheinigung der Geldwäschebekämpfung."
+    },
+    "DVLC": {
+      "name": "Führerschein",
+      "definition": "Behördlich ausgestellter Lichtbildausweis - Führerschein."
+    },
+    "DFOR": {
+      "name": "Ordnungsgemäße Gründung und Organisation",
+      "definition": "Bescheinigung über ordnungsgemäße Gründung und Organisation."
+    },
+    "GOST": {
+      "name": "Ordnungsgemäßer Status",
+      "definition": "Bescheinigung über die einwandfreie Geschäftslage (Certificate of Good Standing)."
+    },
+    "IDEN": {
+      "name": "Personalausweis",
+      "definition": "Behördlich ausgestellter Lichtbildausweis - Personalausweis."
+    },
+    "INCU": {
+      "name": "Amtsinhaberschaft",
+      "definition": "Bescheinigung der Amtsinhaberschaft."
+    },
+    "LREF": {
+      "name": "Referenzschreiben",
+      "definition": "Referenzschreiben."
+    },
+    "PASS": {
+      "name": "Reisepass",
+      "definition": "Behördlich ausgestellter Lichtbildausweis - Reisepass."
+    },
+    "PRAD": {
+      "name": "Adressnachweis",
+      "definition": "Adressnachweis, z. B. eine Nebenkostenabrechnung."
+    },
+    "PKIC": {
+      "name": "Zertifikat der Public-Key-Infrastruktur",
+      "definition": "Zertifikat der Public-Key-Infrastruktur."
+    }
+  }
+}

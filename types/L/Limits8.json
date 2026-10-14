@@ -1,0 +1,12 @@
+{
+  "isoType": "Limits8",
+  "definition": "Berichtet über Limits.",
+  "isoElements": {
+    "CurrentLimit": {
+      "definition": "Der Bericht wird für ein aktuelles Limit vom Typ Risikomanagement erstellt."
+    },
+    "DefaultLimit": {
+      "definition": "Der Bericht wird für ein Standardlimit vom Typ Risikomanagement erstellt."
+    }
+  }
+}

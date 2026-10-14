@@ -1,0 +1,9 @@
+{
+  "isoType": "BuyInRegulatoryAdviceV02",
+  "definition": "Anwendungsbereich||Ein Kontoinhaber sendet einen BuyInRegulatoryAdvice an einen Kontoführer, um ihn über die Ergebnisse der Zwangsdeckungen (Buy-ins) zu informieren, die unter dem Regime der CSDR durchgeführt wurden.|||Die Beziehung zwischen Kontoinhaber und Kontoführer kann sein:|- ein Teilnehmer eines Zentralverwahrers, der ein Konto bei einem Zentralverwahrer unterhält.|Sie kann, sofern in einer Dienstleistungsvereinbarung (Service Level Agreement) vereinbart, auch sein:|- ein Global Custodian, der ein Konto bei seinem lokalen Agenten (Unterverwahrer) unterhält, oder|- ein Vermögensverwaltungsinstitut, das ein bei einem Verwahrer eröffnetes Fondskonto verwaltet, oder|- ein Broker, der ein Konto bei einem Verwahrer unterhält, oder|- ein Zentralverwahrer, der ein Konto bei einem Verwahrer, einem anderen Zentralverwahrer oder einer anderen Abwicklungs-Marktinfrastruktur unterhält.|Die letztendlich empfangende Partei am Ende der Abwicklungskette ist ein Zentralverwahrer oder ein internationaler Zentralverwahrer.||||Verwendung||Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden,|- einem Dritten zur Information eine Kopie einer Nachricht zur Verfügung zu stellen,|- einem Dritten zur Information eine Kopie einer Nachricht erneut zu senden, unter Verwendung der entsprechenden Elemente im Business Application Header.",
+  "isoRules": {
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Die Securities Market Practice Group (SMPG) hat Marktpraxisempfehlungen zur Verwendung dieser Nachricht veröffentlicht.|Diese Marktpraxisregeln sind unter www.smpg.info verfügbar."
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "isoType": "CashDepositRequest1",
+  "definition": "Gibt die Einzelheiten eines Auftrags zur Bargeldeinzahlung an.",
+  "isoElements": {
+    "OrderReference": {
+      "definition": "Eindeutige Identifikation des Auftrags."
+    },
+    "CashSenderReference": {
+      "definition": "Eindeutige Identifikation, die vom Bargeldsender für die Bargeldeinzahlung vergeben wird."
+    },
+    "AmendmentIndicator": {
+      "definition": "Gibt an, ob diese Nachricht einen früheren Auftrag ändert.||Verwendung: Bei dem Wert Yes müssen OrderReference und CashSenderReference mit denen der ursprünglichen Nachricht übereinstimmen. Wird dieses Element nicht verwendet, gilt die Nachricht nicht als Änderung."
+    },
+    "ExpectedValueDate": {
+      "definition": "Datum, an dem der Bargeldsender erwartet, dass das Bargeld beim Bargeldempfänger eintrifft und seinem Konto gutgeschrieben wird."
+    },
+    "Account": {
+      "definition": "Eindeutige Identifikation des Kontos, auf das das Bargeld eingezahlt wird."
+    },
+    "CashDeposit": {
+      "definition": "Liefert die Einzelheiten einer Bargeldeinzahlung über einen Geldbetrag in Banknoten und/oder Münzen."
+    },
+    "DeliveryMethod": {
+      "definition": "Gibt die Lieferart für die Bargeldeinzahlung an."
+    },
+    "DeliveryAddress": {
+      "definition": "Gibt die Adresse an, an die die Bargeldeinzahlung geliefert wird."
+    },
+    "DepositContact": {
+      "definition": "Partei, die das einzuzahlende Bargeld überbringt."
+    },
+    "SecureCarrierName": {
+      "definition": "Identifikation des Geldtransportunternehmens."
+    },
+    "SecureCarrierReference": {
+      "definition": "Eindeutige Identifikation, die vom Geldtransportunternehmen für die Einzahlung vergeben wird."
+    },
+    "InsuranceIndicator": {
+      "definition": "Gibt an, ob die Einzahlung auf dem Transportweg versichert ist.||Verwendung: Wird dieses Element nicht verwendet, ist die Einzahlung nicht versichert."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Einzelheiten zur Bargeldeinzahlung."
+    }
+  }
+}

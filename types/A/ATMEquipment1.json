@@ -1,0 +1,30 @@
+{
+  "isoType": "ATMEquipment1",
+  "definition": "Terminalausrüstung des ATM.",
+  "isoElements": {
+    "Manufacturer": {
+      "definition": "Hersteller des ATM."
+    },
+    "Model": {
+      "definition": "Modell des ATM."
+    },
+    "SerialNumber": {
+      "definition": "Seriennummer des ATM."
+    },
+    "ApplicationProvider": {
+      "definition": "Anbieter der Anwendungssoftware des ATM."
+    },
+    "ApplicationName": {
+      "definition": "Name des Softwareprodukts."
+    },
+    "ApplicationVersion": {
+      "definition": "Aktuelle Version der Software, die die Release-Nummer enthalten kann."
+    },
+    "ApprovalNumber": {
+      "definition": "Eindeutige Bewertungsnummer der Komponente."
+    },
+    "ConfigurationParameter": {
+      "definition": "Version der Konfigurationsparameter."
+    }
+  }
+}

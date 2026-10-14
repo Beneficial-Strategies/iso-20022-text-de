@@ -1,0 +1,14 @@
+{
+  "isoType": "ResolutionSubStatus1Code",
+  "definition": "Gibt den Unterstatus eines Beschlusses an.",
+  "isoCodes": {
+    "AMDR": {
+      "name": "Geänderter Beschluss",
+      "definition": "Der auf der Versammlung abgestimmte Beschluss wurde geändert."
+    },
+    "NEWR": {
+      "name": "Neuer Beschluss",
+      "definition": "Der auf der Versammlung abgestimmte Beschluss ist neu."
+    }
+  }
+}

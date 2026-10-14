@@ -1,0 +1,12 @@
+{
+  "isoType": "CashAccountType3Choice",
+  "definition": "Auswahl von Formaten für die Art des Geldkontos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des Geldkontos, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Art des Geldkontos, ausgedrückt als proprietärer Code."
+    }
+  }
+}

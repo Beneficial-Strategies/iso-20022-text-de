@@ -1,0 +1,12 @@
+{
+  "isoType": "ContentInformationType10",
+  "definition": "Allgemeine Cryptographic Message Syntax (CMS) mit verschlüsselten Daten.",
+  "isoElements": {
+    "ContentType": {
+      "definition": "Art des Datenschutzes."
+    },
+    "EnvelopedData": {
+      "definition": "Datenschutz durch Verschlüsselung oder durch einen digitalen Umschlag mit einem Verschlüsselungsschlüssel."
+    }
+  }
+}

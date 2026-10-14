@@ -1,0 +1,21 @@
+{
+  "isoType": "BreakdownByParty3",
+  "definition": "Gibt die Mittelzu- und -abflüsse je Partei an.",
+  "isoElements": {
+    "Party": {
+      "definition": "Partei, zum Beispiel Fondsverwaltungsgesellschaft, für die der Cashflow gemeldet wird."
+    },
+    "AdditionalParameters": {
+      "definition": "Zusätzliche Parameter, die auf den Cashflow der Partei angewendet werden."
+    },
+    "CashInForecast": {
+      "definition": "Mittelzufluss in den Fonds aufgrund von Transaktionen mit Anteilen an einem Investmentfonds, zum Beispiel Zeichnungen oder Umtausch-Zugänge."
+    },
+    "CashOutForecast": {
+      "definition": "Mittelabfluss aus dem Fonds aufgrund von Transaktionen mit Anteilen an einem Investmentfonds, zum Beispiel Rücknahmen oder Umtausch-Abgänge."
+    },
+    "NetCashForecast": {
+      "definition": "Nettobetrag aus den für die Partei angegebenen Mittelzu- und -abflüssen."
+    }
+  }
+}

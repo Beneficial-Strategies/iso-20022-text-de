@@ -1,0 +1,18 @@
+{
+  "isoType": "RequestIdentification2",
+  "definition": "Identifikation des ursprünglichen Abhebungs- oder Einzahlungsauftrags.",
+  "isoElements": {
+    "OriginalOrderReference": {
+      "definition": "Eindeutige Identifikation des Auftrags."
+    },
+    "OriginalCashReceiverReference": {
+      "definition": "Eindeutige Identifikation, die vom Bargeldempfänger für die Bargeldabhebung vergeben wird."
+    },
+    "OriginalCashSenderReference": {
+      "definition": "Eindeutige Identifikation, die vom Bargeldsender für die Bargeldeinzahlung vergeben wird."
+    },
+    "OriginalTotalAmount": {
+      "definition": "Gesamtbetrag aller Banknoten und Münzen im ursprünglichen Auftrag."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedStatus61Choice",
+  "definition": "Auswahl zwischen einem Grund und keinem Grund für den Status abgelehnt bei der Verarbeitung der Hauptversammlungsanweisung.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Grund nicht angegeben."
+    },
+    "Reason": {
+      "definition": "Grund, warum die Nachricht zur Versammlungsanweisung oder die einzelne Versammlungsanweisung abgelehnt wird."
+    }
+  }
+}

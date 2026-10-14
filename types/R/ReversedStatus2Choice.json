@@ -1,0 +1,15 @@
+{
+  "isoType": "ReversedStatus2Choice",
+  "definition": "Grund für den Status \"rückgebucht\".",
+  "isoElements": {
+    "Reason": {
+      "definition": "Grund für den Status \"Rückbuchung\"."
+    },
+    "DataSourceScheme": {
+      "definition": "Proprietäre Identifikation des Grundes für den Status \"rückgebucht\"."
+    },
+    "NoSpecifiedReason": {
+      "definition": "Gibt an, dass kein Grund verfügbar oder zu melden ist."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "ShareholdersIdentificationDisclosureRequestV04",
+  "definition": "Die Nachricht ShareholdersIdentificationDisclosureRequest wird von einem Emittenten oder von einem vom Emittenten benannten Dritten (etwa einem Beauftragten des Emittenten) an die ersten Intermediäre einer Verwahrkette gesendet oder von beliebigen Intermediären einer Verwahrkette an den nächsten Intermediär in der Kette (in Richtung der Anlegerseite der Kette), um die Offenlegung der Identität der Aktionäre anzufordern; sie liefert Informationen zur empfangenden Partei, an die Antworten zu senden sind, zum betreffenden Finanzinstrument und zur Antwortfrist.",
+  "isoElements": {
+    "IssuerDisclosureRequestIdentification": {
+      "definition": "Offizielle und eindeutige Identifikation eines Offenlegungsanfrageprozesses zur Aktionärsidentifikation, die vom Emittenten oder dem von ihm benannten Dritten vergeben wurde."
+    },
+    "DisclosureRequestType": {
+      "definition": "Gibt die Art der Offenlegungsanfrage an."
+    },
+    "PreviousDisclosureRequestIdentification": {
+      "definition": "Identifikation einer zuvor gesendeten Nachricht zur Offenlegungsanfrage der Aktionärsidentifikation."
+    },
+    "ForwardRequestIndicator": {
+      "definition": "Gibt an, ob die Anfrage an die anderen Intermediäre weiter unten in der Kette weiterzuleiten und von diesen zu beantworten ist oder nicht. Wenn die Anfrage nicht weiterzuleiten ist, darf der Indikator nicht vorhanden sein."
+    },
+    "ResponseThroughChainIndicator": {
+      "definition": "Gibt an, ob die Antwort auf die Offenlegungsanfrage zur Aktionärsidentifikation über die Kette der Intermediäre zurückzusenden oder direkt an den benannten Antwortempfänger zu senden ist. |Bei „true“ oder „1“ muss die Antwort über die Kette der Intermediäre zurückgesendet werden.|Bei „false“ oder „0“ oder wenn der Indikator nicht vorhanden ist, muss die Antwort direkt an den benannten Antwortempfänger gesendet werden."
+    },
+    "ShareholderRightsDirectiveIndicator": {
+      "definition": "Gibt an, ob die Anfrage gemäß SRD II vom ersten Intermediär der Verwahrkette ausgelöst wurde."
+    },
+    "PlaceOfJurisdiction": {
+      "definition": "Geltendes Recht oder Gerichtsstand, auf den sich die Offenlegungsanfrage bezieht."
+    },
+    "ApplicableLaw": {
+      "definition": "Identifikation des Rechts, auf das sich die Offenlegungsanfrage bezieht."
+    },
+    "SharesQuantityThreshold": {
+      "definition": "Mindestanzahl der von einem Aktionär gehaltenen Aktien, ab der die Identifikation offengelegt werden muss."
+    }
+  },
+  "isoRules": {
+    "PreviousDisclosureRequestIdentificationRule": {
+      "definition": "Wenn DisclosureRequestType REPL (Replacement) ist, muss PreviousDisclosureRequestIdentification vorhanden sein."
+    }
+  }
+}

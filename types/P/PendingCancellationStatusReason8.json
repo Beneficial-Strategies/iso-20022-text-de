@@ -1,0 +1,20 @@
+{
+  "isoType": "PendingCancellationStatusReason8",
+  "definition": "Gibt die Gründe für den Status „Stornierung ausstehend“ an.",
+  "isoElements": {
+    "ReasonCode": {
+      "definition": "Gibt den Grund an, warum die Stornierungsanforderung ausstehend ist."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Enthält zusätzliche Informationen zur verarbeiteten Anweisung."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "Das Element AdditionalReasonInformation darf keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können, sofern nicht bilateral vereinbart."
+    },
+    "AccountServicerDeadlineMissedGuideline": {
+      "definition": "Wenn ReasonCode/Code ADEA (Account Servicer Deadline Missed) ist, wird davon ausgegangen, dass die Anweisung vom Kontoführer „nach bestem Bemühen“ bearbeitet wird."
+    }
+  }
+}

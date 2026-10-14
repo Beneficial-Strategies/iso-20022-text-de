@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestmentFundTransactionInType1Choice",
+  "definition": "Auswahl von Formaten für die Art der Zugangstransaktion.",
+  "isoElements": {
+    "Code": {
+      "definition": "Transaktionsart als Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Transaktionsart als proprietärer Code ausgedrückt."
+    }
+  }
+}

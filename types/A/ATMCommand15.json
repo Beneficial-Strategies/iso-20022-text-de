@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMCommand15",
+  "definition": "Ergebnis eines vom ATM ausgeführten Wartungsbefehls.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art des vom ATM auszuführenden Befehls."
+    },
+    "RequiredDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen die Ausführung des Befehls angefordert wurde."
+    },
+    "ProcessedDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen der Befehl ausgeführt wurde."
+    },
+    "CommandIdentification": {
+      "definition": "Identifikation der Stelle, die den Befehl erteilt."
+    },
+    "Result": {
+      "definition": "Endergebnis des am ATM verarbeiteten Befehls."
+    },
+    "AdditionalErrorInformation": {
+      "definition": "Zusätzliche Informationen zum Fehlschlag, die zur weiteren Untersuchung protokolliert werden sollen."
+    }
+  }
+}

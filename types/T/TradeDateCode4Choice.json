@@ -1,0 +1,12 @@
+{
+  "isoType": "TradeDateCode4Choice",
+  "definition": "Auswahl des Formats für den Handelstag-Code.",
+  "isoElements": {
+    "Code": {
+      "definition": "Handelstag, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Handelstag, ausgedrückt als proprietärer Code."
+    }
+  }
+}

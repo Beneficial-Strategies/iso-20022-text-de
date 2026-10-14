@@ -1,0 +1,24 @@
+{
+  "isoType": "TransferInstruction1",
+  "definition": "Enthält weitere für den Kontowechsel erforderliche Informationen.",
+  "isoElements": {
+    "TransferIndicator": {
+      "definition": "Gibt an, ob eine Zahlungsvereinbarung übertragbar ist.||Verwendung: Der Standardwert für TransferIndicator ist false."
+    },
+    "Code": {
+      "definition": "Gibt einen zusätzlichen Parameter an, der auf den angeforderten Transaktionsplan anzuwenden ist."
+    },
+    "Proprietary": {
+      "definition": "Gibt einen zusätzlichen Parameter in einem proprietären Format an, der auf den Transaktionsplan anzuwenden ist."
+    },
+    "StartDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen das durch Code angegebene Ereignis beginnt."
+    },
+    "StartDate": {
+      "definition": "Datum, an dem das durch Code angegebene Ereignis beginnt."
+    },
+    "Description": {
+      "definition": "Zusätzliche Wechselparameter in Freitextform."
+    }
+  }
+}

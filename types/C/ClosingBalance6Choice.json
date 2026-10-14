@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosingBalance6Choice",
+  "definition": "Auswahl des Schlusssaldos.",
+  "isoElements": {
+    "Final": {
+      "definition": "Summe aus dem Eröffnungssaldo und allen auf das Konto gebuchten Buchungen zum Ende des Auszugszeitraums."
+    },
+    "Intermediary": {
+      "definition": "Schlusssaldo nur dieser Seite. Dieser Saldo muss der Zwischeneröffnungssaldo der nächsten Seite desselben Auszugs sein."
+    }
+  }
+}

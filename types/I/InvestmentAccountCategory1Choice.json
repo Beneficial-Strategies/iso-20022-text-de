@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestmentAccountCategory1Choice",
+  "definition": "Auswahl von Formaten für die Angabe der Kategorie des Anlagekontos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Kategorie des Anlagekontos."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Kategorie des Anlagekontos."
+    }
+  }
+}

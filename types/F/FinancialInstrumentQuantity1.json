@@ -1,0 +1,9 @@
+{
+  "isoType": "FinancialInstrumentQuantity1",
+  "definition": "Menge eines Wertpapiers.",
+  "isoElements": {
+    "Unit": {
+      "definition": "Als Zahl ausgedrückte Menge, z. B. eine Anzahl von Aktien."
+    }
+  }
+}

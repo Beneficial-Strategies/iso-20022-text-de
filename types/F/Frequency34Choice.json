@@ -1,0 +1,12 @@
+{
+  "isoType": "Frequency34Choice",
+  "definition": "Auswahl des Formats für eine Häufigkeit, zum Beispiel die Häufigkeit der Zustellung eines Auszugs.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als ISO-20022-Code ausgedrückte Häufigkeit."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Häufigkeit."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "SettlementTypeAndIdentification22",
+  "definition": "Liefert Informationen zu Transaktionsart und Identifikation.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Liefert eindeutige Informationen zur Transaktionsidentifikation."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Legt fest, ob die Bewegung auf einem Wertpapierkonto aus einer Liefer- oder einer Empfangsanweisung resultiert."
+    },
+    "Payment": {
+      "definition": "Legt fest, wie die Transaktion abgewickelt werden soll, beispielsweise gegen Zahlung."
+    }
+  }
+}

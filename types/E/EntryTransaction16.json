@@ -1,0 +1,98 @@
+{
+  "isoType": "EntryTransaction16",
+  "definition": "Identifiziert die zugrunde liegende Transaktion.",
+  "isoElements": {
+    "References": {
+      "definition": "Enthält die Identifikation der zugrunde liegenden Transaktion."
+    },
+    "Amount": {
+      "definition": "Geldbetrag der Bargeldtransaktion."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob es sich bei der Transaktion um eine Gutschrifts- oder eine Lastschrifttransaktion handelt."
+    },
+    "AmountDetails": {
+      "definition": "Enthält detaillierte Informationen zum ursprünglichen Betrag.||Verwendung: Diese Komponente (auf Transaktionsebene) sollte verwendet werden, wenn die Buchung für eine einzelne Transaktion erfolgt und der ursprüngliche Betrag vom Buchungsbetrag abweicht. Sie kann auch verwendet werden, wenn bei einer Sammel- oder Gesamtbuchung einzelne ursprüngliche Beträge angegeben werden."
+    },
+    "Availability": {
+      "definition": "Gibt an, wann der gebuchte Geldbetrag verfügbar wird, das heißt, wann darauf zugegriffen werden kann und er Zinsen zu erzeugen beginnt. ||Verwendung: Diese Art von Information wird in den USA verwendet und ist an bestimmte Instrumente wie Schecks gebunden.|Beispiel: Wird ein Scheck eingereicht, wird er am Einreichungstag gebucht, der Geldbetrag ist jedoch erst ab dem angegebenen Verfügbarkeitstag zugänglich (gemäß den nationalen Bankvorschriften)."
+    },
+    "BankTransactionCode": {
+      "definition": "Satz von Elementen zur vollständigen Identifikation der Art der zugrunde liegenden Transaktion, die zu einer Buchung führt."
+    },
+    "Charges": {
+      "definition": "Enthält Informationen zu den Entgelten, die vorab avisiert oder im Buchungsbetrag enthalten sind.||Verwendung: Diese Komponente (auf Transaktionsebene) kann verwendet werden, wenn die Buchung für eine einzelne Transaktion erfolgt und Entgelte im Buchungsbetrag enthalten sind. Sie kann auch verwendet werden, wenn bei einer Sammel- oder Gesamtbetragsbuchung einzelne Entgeltbeträge auf einzelne Transaktionen angewendet werden."
+    },
+    "Interest": {
+      "definition": "Enthält Details zum im Buchungsbetrag enthaltenen Zinsbetrag.||Verwendung: Diese Komponente (auf Transaktionsebene) kann verwendet werden, wenn die Buchung für eine einzelne Transaktion erfolgt und der Zinsbetrag im Buchungsbetrag enthalten ist. Sie kann auch verwendet werden, wenn bei einer Sammel- oder Gesamtbetragsbuchung einzelne Zinsbeträge auf einzelne Transaktionen angewendet werden."
+    },
+    "RelatedParties": {
+      "definition": "Satz von Elementen zur Identifikation der Parteien, die sich auf die zugrunde liegende Transaktion beziehen."
+    },
+    "RelatedAgents": {
+      "definition": "Satz von Elementen zur Identifikation der Banken, die sich auf die zugrunde liegende Transaktion beziehen."
+    },
+    "LocalInstrument": {
+      "definition": "Für die Nutzergemeinschaft spezifisches Instrument.|Verwendung: Dieses Element dient zur Angabe eines lokalen Instruments, einer lokalen Clearing-Option und/oder zur weiteren Qualifizierung des Service oder Service-Levels."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Satz von Elementen zur näheren Angabe der Transaktionsart."
+    },
+    "Purpose": {
+      "definition": "Zugrunde liegender Grund für die Zahlungstransaktion.|Verwendung: Der Zweck wird von den Endkunden, das heißt der initiierenden Partei, dem (letztlich) Zahlungspflichtigen und dem (letztlichen) Zahlungsempfänger, verwendet, um Informationen zur Art der Zahlung bereitzustellen. Der Zweck ist ein Inhaltselement, das von keiner der an der Zahlungskette beteiligten Banken zur Verarbeitung verwendet wird."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Enthält Informationen zur Behandlung der Verwendungszweck-Informationen durch eine der Banken in der Transaktionsverarbeitungskette."
+    },
+    "RemittanceInformation": {
+      "definition": "Strukturierte Informationen, die den Abgleich einer Zahlung mit den Posten ermöglichen, die die Zahlung begleichen soll, beispielsweise Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    },
+    "RelatedDates": {
+      "definition": "Satz von Elementen zur Identifikation der Daten, die sich auf die zugrunde liegenden Transaktionen beziehen."
+    },
+    "RelatedPrice": {
+      "definition": "Satz von Elementen zur Identifikation der Preisinformationen, die sich auf die zugrunde liegende Transaktion beziehen."
+    },
+    "RelatedQuantities": {
+      "definition": "Satz von Elementen zur Identifikation der zugehörigen Mengen, beispielsweise von Wertpapieren, in der zugrunde liegenden Transaktion."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifikation eines Wertpapiers, vergeben nach einem formalen oder proprietären Identifikationsschema."
+    },
+    "Tax": {
+      "definition": "Enthält Details zur Steuer."
+    },
+    "ReturnInformation": {
+      "definition": "Enthält die Rückgabeinformationen."
+    },
+    "RelatedCorporateAction": {
+      "definition": "Satz von Elementen zur Identifikation der zugrunde liegenden Kapitalmaßnahme."
+    },
+    "SafekeepingAccount": {
+      "definition": "Verwahr- oder Anlagekonto. Ein Verwahrkonto ist ein Konto, auf dem eine Wertpapierbuchung erfolgt. Ein Anlagekonto ist ein Konto zwischen einem oder mehreren Anlegern und einem Fondsmanager oder einem Fonds. Das Konto kann Bestände an beliebigen vom Fondsmanager verwalteten (oder vertriebenen) Investmentfonds oder Investmentfondsklassen innerhalb derselben Fondsfamilie enthalten."
+    },
+    "UnderlyingAllocation": {
+      "definition": "Enthält Informationen zu den zugrunde liegenden Zuteilungen, aus denen sich die Zahlung zusammensetzt.||Verwendung: Wird nur in der Wertpapierbranche verwendet."
+    },
+    "CashDeposit": {
+      "definition": "Enthält die Details einer Bargeldeinzahlung eines Geldbetrags in Form von Banknoten und/oder Münzen."
+    },
+    "CardTransaction": {
+      "definition": "Enthält die Daten zur Karte (Nummer, Schema), zum Terminal (Nummer, Identifikation) und die Transaktionsdaten, die zur eindeutigen Identifikation einer Kartentransaktion verwendet werden."
+    },
+    "InstructionCopy": {
+      "definition": "Kopie der ursprünglichen Anweisung in Freitextform.||Verwendung: Handelt es sich bei der kopierten Anweisung um eine ISO-20022-Nachricht in XML-Syntax, muss ein CDATA-Format verwendet werden."
+    },
+    "AdditionalTransactionInformation": {
+      "definition": "Weitere Details zur Transaktion."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "PaymentTypeOrLocalInstrumentRule": {
+      "definition": "PaymentTypeInformation oder LocalInstrument darf nicht vorhanden sein; beide dürfen fehlen."
+    }
+  }
+}

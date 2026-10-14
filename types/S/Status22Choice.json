@@ -1,0 +1,53 @@
+{
+  "isoType": "Status22Choice",
+  "definition": "Auswahl des Status.",
+  "isoElements": {
+    "AffirmationStatus": {
+      "definition": "Status der Affirmation eines Geschäfts."
+    },
+    "AllocationStatus": {
+      "definition": "Liefert den Status der Zuordnung von Sicherheiten zur Deckung der Anweisung."
+    },
+    "RepoCallRequestStatus": {
+      "definition": "Liefert den Status der Anforderung zum Abruf des Rückkaufgeschäfts."
+    },
+    "CorporateActionEventProcessingStatus": {
+      "definition": "Gibt den Status einer Kapitalmaßnahme oder den Status einer Zahlung an."
+    },
+    "CorporateActionEventStage": {
+      "definition": "Phase im Lebenszyklus der Kapitalmaßnahme."
+    },
+    "InferredMatchingStatus": {
+      "definition": "Liefert den Abgleichsstatus einer Anweisung, wie er dem Kontoführer auf Grundlage einer Behauptung (Allegement) bekannt ist. Zu diesem Zeitpunkt hat am Markt (beim Zentralverwahrer/internationalen Zentralverwahrer) noch kein Abgleich stattgefunden (CSD) (ICSD)."
+    },
+    "InstructionProcessingStatus": {
+      "definition": "Gibt den Status einer Anweisung an."
+    },
+    "MatchingStatus": {
+      "definition": "Liefert den Abgleichsstatus der Anweisung."
+    },
+    "RegistrationProcessingStatus": {
+      "definition": "Liefert den Status der Registrierungsverarbeitung."
+    },
+    "ResponseStatus": {
+      "definition": "Liefert den Status der empfangenen Sicherheitennachricht (Sicherheitenforderung, Sicherheitenvorschlag oder Vorschlag/Anforderung zum Austausch von Sicherheiten) aus Sicht des Sicherheitenmanagements."
+    },
+    "ReplacementProcessingStatus": {
+      "definition": "Liefert den Verarbeitungsstatus der Ersetzungsanforderung."
+    },
+    "CancellationProcessingStatus": {
+      "definition": "Gibt den Status einer Stornierungsanforderung an."
+    },
+    "SettlementStatus": {
+      "definition": "Gibt den Status der Abwicklung einer Transaktion an."
+    },
+    "SettlementConditionModificationStatus": {
+      "definition": "Gibt den Status eines Antrags auf Änderung einer Wertpapier-Abwicklungsbedingung an."
+    }
+  },
+  "isoRules": {
+    "StatusRule": {
+      "definition": "Wird ein bestimmter Status angefordert, muss dieser mit den für den angeforderten Nachrichtentyp verfügbaren Status übereinstimmen."
+    }
+  }
+}

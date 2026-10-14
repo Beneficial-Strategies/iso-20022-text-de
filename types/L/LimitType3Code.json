@@ -1,0 +1,66 @@
+{
+  "isoType": "LimitType3Code",
+  "definition": "Gibt die Art des Risikomanagement-Limits an.",
+  "isoCodes": {
+    "MULT": {
+      "name": "Multilateral",
+      "definition": "Das Limit ist ein Höchstbetrag, der für einen Teilnehmer gegenüber einer Gruppe von Gegenparteien oder von einem Teilnehmer gegenüber einer Gruppe von Gegenparteien gilt. Das multilaterale Limit wird vom Transaktionsadministrator berücksichtigt, um das Risiko im System zu begrenzen. Mithilfe des multilateralen Limits beschränkt der direkte Teilnehmer die Inanspruchnahme von Liquidität beim Clearing von Zahlungen mit allen anderen direkten Teilnehmern, für die kein bilaterales Limit festgelegt ist."
+    },
+    "BILI": {
+      "name": "Bilateral",
+      "definition": "Das Limit wird von einer Partei für eine bestimmte Gegenpartei festgelegt und entspricht dem Höchstbetrag an Zahlungsverkehr, den die das Limit festlegende Partei an diese Gegenpartei senden kann. Das Limit kann als Belastungs- oder Gutschriftlimit ausgedrückt werden. Mithilfe eines bilateralen Limits beschränkt der direkte Teilnehmer die Inanspruchnahme von Liquidität beim Clearing von Zahlungen mit einem anderen direkten Teilnehmer."
+    },
+    "MAND": {
+      "name": "Verpflichtend bilateral",
+      "definition": "Verpflichtender Teil des bilateralen Limits, das von einer Partei für eine bestimmte Gegenpartei festgelegt wird und dem Höchstbetrag an Zahlungsverkehr entspricht, den die das Limit festlegende Partei an diese Gegenpartei senden kann. Das Limit kann als Belastungs- oder Gutschriftlimit ausgedrückt werden. Mithilfe eines bilateralen Limits beschränkt der direkte Teilnehmer die Inanspruchnahme von Liquidität beim Clearing von Zahlungen mit einem anderen direkten Teilnehmer."
+    },
+    "DISC": {
+      "name": "Diskretionär bilateral",
+      "definition": "Diskretionärer Teil des bilateralen Limits, das von einer Partei für eine bestimmte Gegenpartei festgelegt wird und dem Höchstbetrag an Zahlungsverkehr entspricht, den die das Limit festlegende Partei an diese Gegenpartei senden kann. Das Limit kann als Belastungs- oder Gutschriftlimit ausgedrückt werden. Mithilfe eines bilateralen Limits beschränkt der direkte Teilnehmer die Inanspruchnahme von Liquidität beim Clearing von Zahlungen mit einem anderen direkten Teilnehmer."
+    },
+    "NELI": {
+      "name": "Netto bilateral",
+      "definition": "Das Limit wird von einer Partei für eine bestimmte Gegenpartei festgelegt und entspricht dem maximalen Nettosaldo, der für die das Limit festlegende Partei akzeptabel ist. Das Limit wird als arithmetische Summe der Werte der zwischen den beiden Parteien ausgetauschten bilateralen Zahlungsströme berechnet. Das Netto-Bilateral-Limit kann als Belastungs- oder Gutschriftsaldo ausgedrückt werden."
+    },
+    "INBI": {
+      "name": "Indirekt bilateral",
+      "definition": "Das Limit ist ein Höchstwert, den ein direkter Teilnehmer in Bezug auf seinen indirekten Teilnehmer festlegt. Das Limit stellt den Höchstbetrag dar, den der indirekte Teilnehmer zur Abwicklung seiner Geschäfte nutzen kann."
+    },
+    "GLBL": {
+      "name": "Global",
+      "definition": "Höchstwert, der entweder vom Transaktionsadministrator oder von einem Teilnehmer für die Teilnahme eines Teilnehmers am System festgelegt wird. Das globale Limit kann als Gutschrift- oder Belastungshöchstwert ausgedrückt werden und wird vom Transaktionsadministrator bei der Verarbeitung von Transaktionen innerhalb des Systems berücksichtigt. Mithilfe des globalen Limits kann der direkte Teilnehmer die Inanspruchnahme von Liquidität beim Clearing bestimmter Zahlungsarten beschränken."
+    },
+    "DIDB": {
+      "name": "Lastschrift",
+      "definition": "Limit, das bei Lastschriftgeschäften nicht überschritten werden darf."
+    },
+    "SPLC": {
+      "name": "Einzelne Kundenlastschrift",
+      "definition": "Limit für Einzellastschriften, das von keiner einzelnen Lastschrifttransaktion eines Kunden überschritten werden darf."
+    },
+    "SPLF": {
+      "name": "Einzelne Finanzinstitut-Lastschrift",
+      "definition": "Limit für Einzellastschriften, das von keiner einzelnen von einem Finanzinstitut initiierten Lastschrifttransaktion überschritten werden darf."
+    },
+    "TDLC": {
+      "name": "Tägliche Gesamtsumme Kundenlastschriften",
+      "definition": "Tageslimit für Zahlungen insgesamt für Kundenlastschriften, das von der Summe aller von Kunden initiierten Lastschrifttransaktionen nicht überschritten werden darf."
+    },
+    "TDLF": {
+      "name": "Tägliche Gesamtsumme Finanzinstitut-Lastschriften",
+      "definition": "Tageslimit für Zahlungen insgesamt für Lastschriften von Finanzinstituten, das von der Summe aller von Finanzinstituten initiierten Lastschrifttransaktionen nicht überschritten werden darf."
+    },
+    "UCDT": {
+      "name": "Ungesicherter Kredit",
+      "definition": "Das Limit bezieht sich auf einen Höchstbetrag, der von einer Zentralbank oder einer Abwicklungsbank gewährt wird, in der Regel jedoch außerhalb der Marktinfrastruktur unbesichert ist."
+    },
+    "ACOL": {
+      "name": "Automatische Besicherung",
+      "definition": "Das Limit bezieht sich auf eine Kreditoperation, die ausgelöst wird oder ausgelöst werden kann, wenn ein Käufer nicht über ausreichend Mittel zur Abwicklung einer Wertpapiertransaktion verfügt, um seine Liquiditätsposition für den nächsten Abwicklungszyklus zu verbessern. Der gewährte Kredit kann durch bereits vom Käufer gehaltene Wertpapiere („Sicherheitenbestände“) oder durch die erworbenen Wertpapiere („Sicherheitenflüsse“) besichert werden."
+    },
+    "EXGT": {
+      "name": "Externe Garantie",
+      "definition": "Das Limit bezieht sich auf einen Höchstbetrag, der von einer Zentralbank oder einer Abwicklungsbank gewährt wird."
+    }
+  }
+}

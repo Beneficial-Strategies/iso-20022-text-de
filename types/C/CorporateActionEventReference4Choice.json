@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventReference4Choice",
+  "definition": "Auswahl zwischen einer Identifikation der Kapitalmaßnahme oder einer offiziellen Identifikation der Kapitalmaßnahme.",
+  "isoElements": {
+    "LinkedOfficialCorporateActionEventIdentification": {
+      "definition": "Offizielle und eindeutige Referenz, die von der offiziellen zentralen Stelle/Einrichtung innerhalb jedes Marktes zu Beginn eines Kapitalmaßnahmen-Ereignisses vergeben wird."
+    },
+    "LinkedCorporateActionIdentification": {
+      "definition": "Vom Kontoführer vergebene Referenz zur eindeutigen Identifikation eines zugehörigen Kapitalmaßnahmen-Ereignisses."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "AgentNotificationIdentificationAndStatus2",
+  "definition": "Identifikation und Status des vom Beauftragten gesendeten Kapitalmaßnahmen-Benachrichtigungsavis.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Dokuments."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung des Dokuments."
+    },
+    "Status": {
+      "definition": "Status des vom Beauftragten gesendeten Kapitalmaßnahmen-Benachrichtigungsavis."
+    }
+  }
+}

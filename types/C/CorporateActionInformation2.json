@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionInformation2",
+  "definition": "Liefert Informationen zum Kapitalmaßnahmen-Ereignis.",
+  "isoElements": {
+    "AgentIdentification": {
+      "definition": "Identifikation des Beauftragten des Emittenten oder des Emittenten."
+    },
+    "IssuerCorporateActionIdentification": {
+      "definition": "Vom Emittenten (Beauftragten) des CA-Ereignisses vergebene Referenz für das Ereignis."
+    },
+    "CorporateActionProcessingIdentification": {
+      "definition": "Vom (I)CSD vergebene Referenz zur eindeutigen Identifikation eines Unternehmensereignisses."
+    },
+    "EventType": {
+      "definition": "Gibt die Art des Unternehmensereignisses an."
+    },
+    "EventProcessingType": {
+      "definition": "Art der mit einer Kapitalmaßnahme verbundenen Verarbeitung."
+    },
+    "MandatoryVoluntaryEventType": {
+      "definition": "Gibt an, ob das Ereignis obligatorisch, obligatorisch mit Wahlmöglichkeiten oder freiwillig ist."
+    },
+    "UnderlyingSecurity": {
+      "definition": "Identifikation des zugrunde liegenden Finanzinstruments, d. h. des von dem Kapitalmaßnahmen-Ereignis betroffenen Finanzinstruments."
+    },
+    "OtherUnderlyingSecurity": {
+      "definition": "Identifikation des sekundären zugrunde liegenden Finanzinstruments, d. h. des nicht hauptsächlichen Finanzinstruments, das von dem Kapitalmaßnahmen-Ereignis betroffen ist."
+    }
+  }
+}

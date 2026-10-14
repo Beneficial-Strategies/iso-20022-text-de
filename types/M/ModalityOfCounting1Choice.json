@@ -1,0 +1,12 @@
+{
+  "isoType": "ModalityOfCounting1Choice",
+  "definition": "Zählmodalität als vordefinierter oder proprietärer Codewert.",
+  "isoElements": {
+    "Code": {
+      "definition": "Zählmodalität, als Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Zählmodalität, als proprietärer Code ausgedrückt."
+    }
+  }
+}

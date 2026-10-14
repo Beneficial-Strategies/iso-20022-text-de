@@ -1,0 +1,22 @@
+{
+  "isoType": "ShareholdingType1Code",
+  "definition": "Gibt die Art des Aktienbesitzes an.",
+  "isoCodes": {
+    "BENE": {
+      "name": "Wirtschaftlicher Aktienbesitz",
+      "definition": "Die Aktien werden im Namen des wirtschaftlich Berechtigten gehalten. |Verwendung: Diese Art ist zu verwenden, um Vermögenswerte zu melden, die der Intermediär im Namen eines endgültigen wirtschaftlich Berechtigten hält."
+    },
+    "NOMI": {
+      "name": "Treuhänderischer Aktienbesitz",
+      "definition": "Die Aktien werden im Namen eines Intermediärs gehalten.|Verwendung: Diese Art ist zu verwenden, um Vermögenswerte zu melden, die der Intermediär im Namen eines anderen Intermediärs hält."
+    },
+    "OOAC": {
+      "name": "Auf eigene Rechnung",
+      "definition": "Die Aktien werden vom antwortenden Intermediär für eigene Rechnung gehalten.|Verwendung: Diese Art ist nur zu verwenden, um die eigenen Vermögenswerte des Intermediärs zu melden, wenn und sofern der Intermediär diese mit denen seiner Kunden vermischt.  In Rechtsordnungen, in denen eine Vermischung nicht erlaubt ist, ist diese Art nicht zu verwenden."
+    },
+    "UKWN": {
+      "name": "Unbekannt",
+      "definition": "Die Art des Aktienbesitzes ist unbekannt.|Verwendung: Diese Art ist zu verwenden, wenn der Kunde des Intermediärs noch nicht klassifiziert wurde."
+    }
+  }
+}

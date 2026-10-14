@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrentOrDefaultReservation4Choice",
+  "definition": "Aktuelle oder Standardreservierung, die vom Teilnehmer festgelegt und vom Transaktionsadministrator verwaltet wird.",
+  "isoElements": {
+    "Current": {
+      "definition": "Identifikation der aktuellen Reservierung."
+    },
+    "Default": {
+      "definition": "Identifikation der Standardreservierung."
+    }
+  }
+}

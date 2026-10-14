@@ -1,0 +1,30 @@
+{
+  "isoType": "PartyIdentification340",
+  "definition": "Enthält Informationen zum wirtschaftlich Berechtigten der Wertpapiere.",
+  "isoElements": {
+    "OwnerIdentification": {
+      "definition": "Partei, die wirtschaftlicher Eigentümer der angegebenen Wertpapiermenge ist."
+    },
+    "AlternateIdentification": {
+      "definition": "Alternative Identifikation einer Partei."
+    },
+    "DomicileCountry": {
+      "definition": "Land, in dem eine Person ihren ständigen Wohnsitz hat (der Ort des dauerhaften Zuhauses einer Person)."
+    },
+    "NonDomicileCountry": {
+      "definition": "Der Inhaber des Wertpapiers bescheinigt entsprechend den Bedingungen der Kapitalmaßnahme, dass er seinen Wohnsitz nicht im angegebenen Land hat."
+    },
+    "OwnedSecuritiesQuantity": {
+      "definition": "Menge der Wertpapiere, die dem angegebenen wirtschaftlichen Eigentümer gehören."
+    },
+    "CertificationType": {
+      "definition": "Art der erforderlichen Bescheinigung."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Beantragter Prozentsatz einer Barausschüttung, der von den Steuerbehörden der Rechtsordnung des Emittenten einbehalten wird und für den eine Entlastung an der Quelle und/oder eine Rückforderung möglich sein kann."
+    },
+    "CertificationBreakdown": {
+      "definition": "Liefert zusätzliche Informationen zur Art der erforderlichen Bescheinigung/Aufschlüsselung."
+    }
+  }
+}

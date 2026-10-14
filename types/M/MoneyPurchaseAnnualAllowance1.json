@@ -1,0 +1,12 @@
+{
+  "isoType": "MoneyPurchaseAnnualAllowance1",
+  "definition": "Informationen zu einem Money Purchase Annual Allowance (MPAA).",
+  "isoElements": {
+    "Triggered": {
+      "definition": "Gibt an, ob der jährliche Freibetrag ausgelöst wurde."
+    },
+    "TriggeredDate": {
+      "definition": "Datum, an dem der jährliche Freibetrag in Anspruch genommen wird."
+    }
+  }
+}

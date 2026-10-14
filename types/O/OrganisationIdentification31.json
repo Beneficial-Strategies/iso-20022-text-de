@@ -1,0 +1,12 @@
+{
+  "isoType": "OrganisationIdentification31",
+  "definition": "Eindeutige und zweifelsfreie Möglichkeit zur Identifikation einer Organisation.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Code, der einem Institut von der ISO-9362-Registrierungsstelle zugewiesen wird, wie in ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\" beschrieben."
+    },
+    "Other": {
+      "definition": "Eindeutige Identifikation einer Organisation, vergeben von einem Institut anhand eines Identifikationsschemas."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "SystemAvailabilityAndEvents3",
+  "definition": "Legt die Details zur Systemverfügbarkeit und zu den zugehörigen Systemereignissen fest, die sich auf die Verfügbarkeit auswirken können.",
+  "isoElements": {
+    "SystemCurrency": {
+      "definition": "Währung, die vom System verarbeitet werden kann. Ein System kann Transaktionen in einer einzigen Währung oder in mehreren Währungen verarbeiten."
+    },
+    "SessionPeriod": {
+      "definition": "Zeitfenster der Systemaktivität."
+    },
+    "Event": {
+      "definition": "Detaillierte Informationen zu einem Ereignis, das in einem System auftritt, sei es geplant, wie der Annahmeschluss für eine bestimmte Art zulässiger Übertragungen, oder ungeplant (ein nicht angeforderter Ausfall), wie in den Spezifikationen des Systems festgelegt."
+    },
+    "ClosureInformation": {
+      "definition": "Informationen zum Schließungszeitpunkt eines Systems."
+    }
+  }
+}

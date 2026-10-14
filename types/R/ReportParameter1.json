@@ -1,0 +1,12 @@
+{
+  "isoType": "ReportParameter1",
+  "definition": "Name und Wert eines zurückgegebenen Parameters.",
+  "isoElements": {
+    "Name": {
+      "definition": "Name oder Art des zurückgegebenen Parameters."
+    },
+    "Value": {
+      "definition": "Wert des zurückgegebenen Parameters."
+    }
+  }
+}

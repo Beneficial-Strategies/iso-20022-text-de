@@ -1,0 +1,4 @@
+{
+  "isoType": "NotificationToReceiveV09",
+  "definition": "Anwendungsbereich|Die Nachricht NotificationToReceive wird von einem Kontoinhaber oder von einer im Auftrag des Kontoinhabers handelnden Partei an eines der kontoführenden Institute des Kontoinhabers gesendet. Sie ist eine Vorabmitteilung, dass das kontoführende Institut Gelder erhalten wird, die dem Konto des Kontoinhabers gutzuschreiben sind.|Verwendung|Die Nachricht NotificationToReceive dient dazu, das kontoführende Institut über Gelder zu informieren, die der Kontoinhaber auf seinem Konto gutgeschrieben erwartet. Die Nachricht kann sowohl in einem direkten als auch in einem Relay-Szenario verwendet werden."
+}

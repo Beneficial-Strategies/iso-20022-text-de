@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateSuspensionRequestV04",
+  "definition": "Umfang|Die Nachricht MandateSuspensionRequest wird vom Initiator der Anforderung an seine Bank gesendet. Der Initiator kann entweder der Zahlungspflichtige, die Bank des Zahlungspflichtigen, der Zahlungsempfänger oder die Bank des Zahlungsempfängers sein.|Eine Nachricht MandateSuspensionRequest dient dazu, die Aussetzung eines bestehenden Mandats bis zur Aufhebung der Aussetzung anzufordern. |Verwendung|Die Nachricht MandateSuspensionRequest kann eine oder mehrere Aussetzungsanforderungen enthalten.|Die Nachrichten können zwischen Zahlungsempfänger und Bank des Zahlungsempfängers, zwischen Zahlungspflichtigem und Bank des Zahlungspflichtigen sowie zwischen der Bank des Zahlungsempfängers und der Bank des Zahlungspflichtigen ausgetauscht werden.|Die Nachricht MandateSuspensionRequest kann in nationalen und grenzüberschreitenden Szenarien verwendet werden.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "Der Baustein SupplementaryData auf Nachrichtenebene darf nicht verwendet werden, um zusätzliche Informationen zu einer Transaktion bereitzustellen. Hierfür ist das Element SupplementaryData auf Transaktionsebene zu verwenden."
+    }
+  }
+}

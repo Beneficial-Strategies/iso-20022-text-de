@@ -1,0 +1,154 @@
+{
+  "isoType": "PendingSettlementStatusReason2Code",
+  "definition": "Gibt den Grund für den Status \"Abwicklung ausstehend\" einer Übertragungs- oder Abwicklungsanweisung an.",
+  "isoCodes": {
+    "AWSH": {
+      "name": "Wartet auf Aktien von der Gegenpartei",
+      "definition": "Die Wertpapiere wurden von der Gegenpartei noch nicht empfangen."
+    },
+    "BLOC": {
+      "name": "Konto gesperrt",
+      "definition": "Ihr Konto ist gesperrt, über das Konto kann keine Anweisung abgewickelt werden."
+    },
+    "CAIS": {
+      "name": "Wartet auf Wertpapiere",
+      "definition": "Erwartet Wertpapiere aus einer Kapitalmaßnahme oder anderen Verfahren, zum Beispiel Umwandlung, Entmaterialisierung, Umtausch, Registrierung, Stempelung, Splitting usw."
+    },
+    "CLAC": {
+      "name": "Gegenpartei mit unzureichenden Wertpapieren",
+      "definition": "Unzureichende lieferbare Wertpapiere auf dem Konto der Gegenpartei, oder die Gegenpartei hält die Wertpapiere nicht."
+    },
+    "DOCC": {
+      "name": "Wartet auf Dokumente oder Indossamente von der Gegenpartei",
+      "definition": "Warten auf Dokumente oder Indossamente von der Gegenpartei."
+    },
+    "DOCY": {
+      "name": "Wartet auf Dokumente oder Indossamente von Ihnen",
+      "definition": "Warten auf Dokumente oder Indossamente von Ihnen."
+    },
+    "IAAD": {
+      "name": "Statusgrund Untersuchung",
+      "definition": "Der Grund für den ausstehenden Status wird untersucht."
+    },
+    "LACK": {
+      "name": "Mangel an Wertpapieren",
+      "definition": "Nicht ausreichend lieferbare Wertpapiere auf Ihrem Konto."
+    },
+    "LINK": {
+      "name": "Ausstehende verknüpfte Anweisung",
+      "definition": "Ihre Anweisung steht zur Abwicklung an, da die damit verknüpfte Anweisung aussteht."
+    },
+    "PHCK": {
+      "name": "Prüfung physischer Wertpapiere",
+      "definition": "Physische Aktien wurden empfangen und werden auf Echtheit geprüft."
+    },
+    "PHSE": {
+      "name": "Verzögerung bei physischer Lieferung",
+      "definition": "Die Abwicklung erfolgt physisch, und die Wertpapiere werden geliefert."
+    },
+    "SBLO": {
+      "name": "Wertpapiere gesperrt",
+      "definition": "Die Abwicklung steht aus. Die Wertpapiere sind gesperrt, zum Beispiel aufgrund einer Kapitalmaßnahme oder Neuausrichtung (Re-Alignment)."
+    },
+    "MINF": {
+      "name": "Fehlende Informationen",
+      "definition": "Informationen, zum Beispiel Telefonnummer oder Ansprechpartner, fehlen."
+    },
+    "ACOP": {
+      "name": "Konto nicht eröffnet",
+      "definition": "Das Konto muss bereits eröffnet sein, damit die Übertragung verarbeitet werden kann."
+    },
+    "IINV": {
+      "name": "In Untersuchung",
+      "definition": "Der Intermediär untersucht, warum die Übertragung ausstehend ist."
+    },
+    "CINV": {
+      "name": "In Prüfung durch den Kunden",
+      "definition": "Der Kunde wurde über ein Problem informiert und untersucht es."
+    },
+    "AINV": {
+      "name": "In Prüfung durch die Transferstelle",
+      "definition": "Die Transferstelle untersucht den Sachverhalt."
+    },
+    "WTRF": {
+      "name": "Warten auf Status der Transferstelle",
+      "definition": "Die Übertragung wird von der Transferstelle bearbeitet; der Status der Transferstelle wird erwartet."
+    },
+    "USUA": {
+      "name": "Übliche Transaktionszeit",
+      "definition": "Übliche Bearbeitungszeit der Transferstelle."
+    },
+    "ASTA": {
+      "name": "Warten auf Status",
+      "definition": "Auf Ihre Anfrage prüft der Intermediär den Status Ihrer Anweisung bei der Transferstelle."
+    },
+    "AFST": {
+      "name": "Antragsformular versendet",
+      "definition": "Das Antragsformular wurde an die Transferstelle gesendet."
+    },
+    "STST": {
+      "name": "Wertpapierübertragungsformular versendet",
+      "definition": "Das Aktienübertragungsformular wurde an die Gegenpartei gesendet, damit diese es unterzeichnet und an die Transferstelle weiterleitet."
+    },
+    "LPRO": {
+      "name": "Längere Bearbeitung",
+      "definition": "Aufgrund von Dokumentationsanforderungen längere Bearbeitungszeit für diese Art der Übertragung."
+    },
+    "ADRQ": {
+      "name": "Zusätzliche Unterlagen angefordert",
+      "definition": "Zusätzliche Dokumente wurden von der Transferstelle angefordert."
+    },
+    "ADS1": {
+      "name": "Zusätzliche Unterlagen versendet 1",
+      "definition": "Zusätzliche Dokumente wurden gesendet."
+    },
+    "ADS2": {
+      "name": "Zusätzliche Unterlagen versendet 2",
+      "definition": "Auf Anforderung der Transferstelle hat der Intermediär zusätzliche Dokumente gesendet. Die Transferstelle hat bestätigt, dass nun alle erforderlichen Informationen vorliegen."
+    },
+    "DRJC": {
+      "name": "Unterlagen abgelehnt",
+      "definition": "Die Dokumente wurden von der Transferstelle abgelehnt."
+    },
+    "CYIN": {
+      "name": "Warten auf Empfang durch die Gegenpartei",
+      "definition": "Die Gegenpartei hat keine Anweisung zum Empfang gesendet. Bitte mit der Gegenpartei klären."
+    },
+    "CYDV": {
+      "name": "Warten auf Lieferung durch die Gegenpartei",
+      "definition": "Die Gegenpartei hat weder eine Anweisung zur Lieferung gesendet noch die Aktien geliefert. Bitte mit der Gegenpartei klären."
+    },
+    "OVER": {
+      "name": "Normale Bearbeitungsfrist abgelaufen",
+      "definition": "Die normale Bearbeitungsfrist für die Anweisung ist abgelaufen. Die Transferstelle wurde oder wird kontaktiert."
+    },
+    "WCPA": {
+      "name": "Falsches Konto der Gegenpartei",
+      "definition": "Falsche Kontodaten der Gegenpartei."
+    },
+    "SDUT": {
+      "name": "Fehlende Stempelsteuerangaben",
+      "definition": "Die Anweisung steht aus, da Angaben zur Stempelsteuer fehlen."
+    },
+    "TAPR": {
+      "name": "Bearbeitung durch die Transferstelle",
+      "definition": "Die Übertragung wird von der Transferstelle bearbeitet."
+    },
+    "XCNF": {
+      "name": "Erwartete Bestätigung",
+      "definition": "Eine Bestätigung der Transferstelle wird erwartet."
+    },
+    "ESCA": {
+      "name": "Eskalation",
+      "definition": "Eine besondere Nachverfolgung findet statt."
+    },
+    "NRCP": {
+      "name": "Nichterhalt bei der Transferstelle",
+      "definition": "Die Transferstelle gibt an, die physischen Aktien nicht erhalten zu haben."
+    },
+    "FVER": {
+      "name": "Abschließende Prüfung",
+      "definition": "Bestätigt, die Endgültigkeit ist jedoch noch zu überprüfen."
+    }
+  }
+}

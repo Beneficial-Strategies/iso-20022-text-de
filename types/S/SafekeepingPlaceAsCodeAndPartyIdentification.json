@@ -1,0 +1,20 @@
+{
+  "isoType": "SafekeepingPlaceAsCodeAndPartyIdentification",
+  "definition": "Identifikation des Verwahrorts, ausgedrückt als Code und BIC.",
+  "isoElements": {
+    "PlaceSafekeeping": {
+      "definition": "Verwahrort als Code."
+    },
+    "Narrative": {
+      "definition": "Zusätzliche Informationen zum Verwahrort."
+    },
+    "Party": {
+      "definition": "Verwahrort."
+    }
+  },
+  "isoRules": {
+    "Party1Rule": {
+      "definition": "Wenn PlaceSafekeeping nicht SHHE ist, ist Party obligatorisch. Wenn PlaceSafekeeping SHHE ist, ist Party optional."
+    }
+  }
+}

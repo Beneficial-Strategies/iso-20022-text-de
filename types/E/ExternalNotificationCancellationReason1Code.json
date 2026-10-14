@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalNotificationCancellationReason1Code",
+  "definition": "Gibt den Stornierungsgrund an, wie er in einer externen Codeliste für Stornierungsgründe veröffentlicht ist.|Externe Codelisten können unter www.iso20022.org heruntergeladen werden."
+}

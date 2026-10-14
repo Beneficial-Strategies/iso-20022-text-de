@@ -1,0 +1,12 @@
+{
+  "isoType": "DateAndAmount1",
+  "definition": "Datum und Betrag.",
+  "isoElements": {
+    "Date": {
+      "definition": "Datum, an dem der Betrag erklärt oder erfasst wird."
+    },
+    "Amount": {
+      "definition": "Geldbetrag."
+    }
+  }
+}

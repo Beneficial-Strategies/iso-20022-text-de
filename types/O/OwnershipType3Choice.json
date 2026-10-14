@@ -1,0 +1,12 @@
+{
+  "isoType": "OwnershipType3Choice",
+  "definition": "Auswahl des Formats für die Eigentümerart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als ISO-20022-Code ausgedrückte Eigentümerart."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Eigentümerart."
+    }
+  }
+}

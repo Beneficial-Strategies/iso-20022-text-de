@@ -1,0 +1,12 @@
+{
+  "isoType": "SafekeepingPlaceTypeAndText6",
+  "definition": "Identifikation des Verwahrorts, ausgedrückt als Code und Textbeschreibung.",
+  "isoElements": {
+    "SafekeepingPlaceType": {
+      "definition": "Verwahrort als Code."
+    },
+    "Identification": {
+      "definition": "Zusätzliche Informationen zum Verwahrort."
+    }
+  }
+}

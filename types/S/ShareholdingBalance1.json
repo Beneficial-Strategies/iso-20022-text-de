@@ -1,0 +1,21 @@
+{
+  "isoType": "ShareholdingBalance1",
+  "definition": "Liefert detaillierte Informationen zum Aktienbestand eines Kontos.",
+  "isoElements": {
+    "ShareholdingType": {
+      "definition": "Identifiziert die Kategorie des Aktienbesitzes."
+    },
+    "Quantity": {
+      "definition": "Anzahl der Aktien dieser Art des Aktienbesitzes oder mit diesem Datum des Aktienbesitzes, die vom Kontoinhaber gehalten werden."
+    },
+    "InitialDateOfShareholding": {
+      "definition": "Datum, seit dem die Aktien vom Aktionär auf seinem Konto gehalten werden."
+    },
+    "ThirdParty": {
+      "definition": "Dritter, der befugt ist, im Namen des Aktionärs bestimmte Maßnahmen zu ergreifen."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die nicht in den strukturierten Feldern und/oder einem anderen spezifischen Block erfasst werden können."
+    }
+  }
+}

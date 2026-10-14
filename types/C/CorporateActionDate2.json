@@ -1,0 +1,81 @@
+{
+  "isoType": "CorporateActionDate2",
+  "definition": "Gibt Daten der Kapitalmaßnahme an.",
+  "isoElements": {
+    "RecordDate": {
+      "definition": "Datum, an dem die Positionen am Tagesende festgestellt werden, um zu ermitteln, welche Parteien den maßgeblichen Anspruchsbetrag erhalten, der am Zahlungstag auszuschütten ist."
+    },
+    "EffectiveDate": {
+      "definition": "Datum, an dem ein Vorgang abgeschlossen sein muss oder wirksam wird."
+    },
+    "CoverExpirationDate": {
+      "definition": "Letzter Tag, an dem ein Inhaber die Wertpapiere liefern kann, die er zuvor geschützt hatte."
+    },
+    "EqualisationDate": {
+      "definition": "Datum, ab dem der gesamte oder ein Teil eines in einem Investmentfonds erworbenen Bestands als Kapital statt als Ertrag behandelt wird. Dies ist normalerweise ein Tag nach dem Ex-Tag der vorherigen Ausschüttung."
+    },
+    "MarginFixingDate": {
+      "definition": "Datum/Uhrzeit, zu dem der Margensatz festgelegt wird."
+    },
+    "LotteryDate": {
+      "definition": "Datum, an dem die Auslosung durchgeführt und auf die Positionen des Inhabers angewendet wird. Dies gilt auch für teilweise Kündigungen."
+    },
+    "ProtectDate": {
+      "definition": "Letztes Datum, bis zu dem ein Inhaber aufgrund einer Mitteilung über garantierte Lieferung oder anderer erforderlicher Unterlagen die Verschiebung der Lieferung von Wertpapieren beantragen kann."
+    },
+    "UnconditionalDate": {
+      "definition": "Datum, an dem die Bedingungen der Übernahme hinsichtlich der Annahmen unbedingt werden."
+    },
+    "WhollyUnconditionalDate": {
+      "definition": "Datum, an dem alle Bedingungen, einschließlich regulatorischer, rechtlicher usw., die die Übernahme betreffen, erfüllt wurden."
+    },
+    "ResultsPublicationDate": {
+      "definition": "Datum, an dem Ergebnisse veröffentlicht werden, z. B. Ergebnisse eines Angebots."
+    },
+    "CourtApprovalDate": {
+      "definition": "Datum und Uhrzeit, zu denen das High Court seine Genehmigung erteilt hat."
+    },
+    "EarlyClosingDate": {
+      "definition": "Frühestmögliches vorzeitiges Abschlussdatum eines Angebots, sofern es vom Ablaufdatum abweicht."
+    },
+    "ExDividendDate": {
+      "definition": "Datum/Uhrzeit, ab dem der Handel (einschließlich Börsen- und OTC-Handel) mit dem zugrunde liegenden Wertpapier ohne den Vorteil stattfindet."
+    },
+    "IndexFixingDate": {
+      "definition": "Datum und Uhrzeit, zu denen ein Indexsatz festgelegt wird."
+    },
+    "MaturityDate": {
+      "definition": "Datum, an dem ein verzinsliches Finanzinstrument fällig wird und der Kapitalbetrag vom Emittenten an den Anleger zurückgezahlt wird."
+    },
+    "TradingSuspendedDate": {
+      "definition": "Datum, an dem der Handel mit einem Wertpapier aufgrund eines Ereignisses ausgesetzt wird."
+    },
+    "CertificationDeadline": {
+      "definition": "Frist, bis zu der das wirtschaftliche Eigentum an Wertpapieren erklärt werden muss."
+    },
+    "RedemptionDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere (vorzeitig) zur Zahlung des Kapitalbetrags zurückgezahlt werden."
+    },
+    "RegistrationDeadline": {
+      "definition": "Datum, an dem Anweisungen zur Registrierung oder Registrierungsdetails akzeptiert werden."
+    },
+    "ProrationDate": {
+      "definition": "Datum (und Uhrzeit), zu dem ein Emittent den Zuteilungsbetrag bzw. die Zuteilungsmenge eines Angebots festlegt."
+    },
+    "DeadlineForTaxBreakdownInstruction": {
+      "definition": "Datum, bis zu dem Anweisungen zur Steueraufschlüsselung akzeptiert werden."
+    },
+    "LapsedDate": {
+      "definition": "Datum/Uhrzeit, zu dem ein Ereignis/Angebot beendet wird oder verfällt."
+    },
+    "GuaranteedParticipationDate": {
+      "definition": "Letztes Datum/letzte Uhrzeit, bis zu dem eine kaufende Gegenpartei eines Handelsgeschäfts sicher sein kann, dass sie das Recht zur Teilnahme an einem Ereignis hat."
+    },
+    "ElectionToCounterpartyDeadline": {
+      "definition": "Frist, bis zu der ein anspruchsberechtigter Inhaber seiner Gegenpartei in einer Transaktion seine Wahl für ein Unternehmensereignis mitteilen muss."
+    },
+    "SpecialExDate": {
+      "definition": "Datum und Uhrzeit, ab denen die „Sonderbehandlung“ von Teilnehmern für dieses Ereignis genutzt werden kann. Die Sonderbehandlung ist ein Mittel, eine Transaktion, die normalerweise ex oder cum gehandelt würde, als cum bzw. ex gehandelt zu kennzeichnen, z. B. würde eine nach dem Ex-Tag „special“ abgeschlossene Transaktion dazu führen, dass der Käufer Anspruch auf die Leistung hat. Dies wird typischerweise in den UK und irischen Märkten verwendet."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "isoType": "AggregateBalanceInformation47",
+  "definition": "Gesamtposition in einem einzelnen Wertpapier, die in einem Wertpapierdepot an einem bestimmten Verwahrort gehalten wird.",
+  "isoElements": {
+    "BalanceDate": {
+      "definition": "Gibt das Datum der Saldenposition an."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Finanzinstrumente, die eine Summe von Rechten des Anlegers gegenüber dem Emittenten darstellen."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Elemente, die ein Finanzinstrument außer einem Investmentfonds kennzeichnen."
+    },
+    "InvestmentFundsFinancialInstrumentAttributes": {
+      "definition": "Elemente, die ein Finanzinstrument in Form eines Investmentfonds charakterisieren."
+    },
+    "ValuationHaircutDetails": {
+      "definition": "Elemente, die zur Berechnung des Bewertungsabschlags (Haircut) verwendet werden."
+    },
+    "AggregateBalance": {
+      "definition": "Gesamtmenge der Finanzinstrumente des Saldos."
+    },
+    "AvailableBalance": {
+      "definition": "Gesamtmenge der Finanzinstrumente des Bestands, die verfügbar ist."
+    },
+    "NotAvailableBalance": {
+      "definition": "Gesamtmenge der Finanzinstrumente des Bestands, die nicht verfügbar ist."
+    },
+    "SafekeepingPlace": {
+      "definition": "Ort, an dem die Wertpapiere physisch oder buchmäßig sicher verwahrt werden. Dieser Ort kann zum Beispiel ein lokaler Verwahrer, ein Zentralverwahrer (Central Securities Depository, CSD) oder ein internationaler Zentralverwahrer (International Central Securities Depository, ICSD) sein."
+    },
+    "CorporateActionOptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "PriceDetails": {
+      "definition": "Preis des Finanzinstruments in einer oder mehreren Währungen."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Informationen, die für die Verarbeitung eines Währungsumtauschs oder einer Währungsumrechnung erforderlich sind."
+    },
+    "DaysAccrued": {
+      "definition": "Gibt die Anzahl der Tage an, die für die Berechnung des aufgelaufenen Zinsbetrags verwendet werden."
+    },
+    "AccountBaseCurrencyAmounts": {
+      "definition": "Bewertungsbeträge in der Basiswährung des Kontos."
+    },
+    "InstrumentCurrencyAmounts": {
+      "definition": "Bewertungsbeträge in der Währung des Finanzinstruments."
+    },
+    "QuantityBreakdown": {
+      "definition": "Aufgliederung der gemeldeten Gesamtmenge in wesentliche Lose, zum Beispiel Steuerlose."
+    },
+    "BalanceBreakdown": {
+      "definition": "Aufgliederung des Gesamtbestands nach aussagekräftigen Unterbeständen und Verfügbarkeit."
+    },
+    "AdditionalBalanceBreakdown": {
+      "definition": "Liefert zusätzliche Informationen zum Unterbestand des Instruments für das gesamte gemeldete Finanzinstrument oder Teile davon (nicht registriert, steuerbefreit usw.)."
+    },
+    "BalanceAtSafekeepingPlace": {
+      "definition": "Aufgliederung der Positionen nach Verwahrort (und optional nach Börsenplatz)."
+    },
+    "HoldingAdditionalDetails": {
+      "definition": "Liefert zusätzliche Informationen zum Bestand."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "BalanceAtSafekeepingPlaceRule": {
+      "definition": "Wenn SafekeepingPlace vorhanden ist, ist BalanceAtSafekeepingPlace nicht zulässig."
+    },
+    "AggregateBalanceGuideline": {
+      "definition": "Sind AvailableBalance und NotAvailableBalance beide vorhanden, sollte AggregateBalance die Summe aus AvailableBalance und NotAvailableBalance sein."
+    },
+    "FinancialInstrumentAttributesRule": {
+      "definition": "Wenn InvestmentFundsFinancialInstrumentAttributes vorhanden ist, ist FinancialInstrumentAttributes nicht zulässig."
+    }
+  }
+}

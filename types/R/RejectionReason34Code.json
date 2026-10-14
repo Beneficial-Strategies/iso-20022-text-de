@@ -1,0 +1,34 @@
+{
+  "isoType": "RejectionReason34Code",
+  "definition": "Gibt den Grund an, warum die Anweisung bzw. Stornierungsanforderung den Status abgelehnt hat.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Transaktion bzw. Anweisung ging nach Ablauf der vom kontoführenden Institut festgelegten Frist ein."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "CASH": {
+      "name": "Geldkonto",
+      "definition": "Nicht erkanntes oder ungültiges Geldkonto."
+    },
+    "NRGM": {
+      "name": "Keine Übereinstimmung",
+      "definition": "Mehr als eine Anweisung entspricht den Kriterien."
+    },
+    "NRGN": {
+      "name": "Ablehnung wegen Nichtauffindbarkeit",
+      "definition": "Die Anweisung konnte nicht gefunden werden."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "REFE": {
+      "name": "Ablehnung wegen Referenz",
+      "definition": "Die Anweisung hat eine Referenz, die mit einer anderen zuvor eingegangenen Anweisung identisch ist."
+    }
+  }
+}

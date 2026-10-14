@@ -1,0 +1,33 @@
+{
+  "isoType": "AmountAndDirection94",
+  "definition": "Buchung eines Postens auf einem Geldkonto im Rahmen einer Geldtransaktion, die zu einer Erhöhung oder Verminderung des Kontosaldos führt.",
+  "isoElements": {
+    "AccruedInterestIndicator": {
+      "definition": "Gibt an, ob der Nettoerlös die auf das Finanzinstrument aufgelaufenen Zinsen enthält."
+    },
+    "StampDutyIndicator": {
+      "definition": "Gibt an, ob der Nettoerlös den Betrag der Stempelsteuer enthält."
+    },
+    "BrokerageAmountIndicator": {
+      "definition": "Gibt an, ob der Nettoerlös Maklergebühren für die Transaktion enthält. Falls nicht vorhanden, ist das Element nicht erforderlich."
+    },
+    "ResearchFeeIndicator": {
+      "definition": "Gibt an, ob der Nettoerlös Research-Gebühren für die Transaktion enthält."
+    },
+    "Amount": {
+      "definition": "Geldbetrag der Geldbuchung."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob es sich bei einem Umsatz um eine Gutschrift oder eine Belastung handelt."
+    },
+    "OriginalCurrencyAndOrderedAmount": {
+      "definition": "Buchungs-/Abwicklungsbetrag in seiner ursprünglichen Währung, wenn eine Umrechnung von/in eine andere Währung stattgefunden hat."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Informationen, die für die Verarbeitung eines Währungsumtauschs oder einer Währungsumrechnung erforderlich sind."
+    },
+    "ValueDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Geldmittel dem Inhaber des Gutschriftkontos zur Verfügung stehen bzw. zu denen sie dem Inhaber des Belastungskontos nicht mehr zur Verfügung stehen."
+    }
+  }
+}

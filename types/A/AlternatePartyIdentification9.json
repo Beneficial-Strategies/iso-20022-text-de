@@ -1,0 +1,15 @@
+{
+  "isoType": "AlternatePartyIdentification9",
+  "definition": "Alternative Identifikation einer Partei mit einer Identifikationsart, einem Ländercode und einem Textfeld.",
+  "isoElements": {
+    "IdentificationType": {
+      "definition": "Legt die Art der alternativen Identifikation der identifizierten Partei fest."
+    },
+    "Country": {
+      "definition": "Land, in dem eine Person ansässig ist (Ort des Wohnsitzes der Person). Bei einem Unternehmen ist es das Land, von dem aus die Geschäfte des Unternehmens geführt werden."
+    },
+    "AlternateIdentification": {
+      "definition": "Alternative Identifikation einer Partei."
+    }
+  }
+}

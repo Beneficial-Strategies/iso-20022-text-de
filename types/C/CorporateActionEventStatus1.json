@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventStatus1",
+  "definition": "Der Vorgang der Benachrichtigung über eine bevorstehende Kapitalmaßnahme. Er liefert Einzelheiten zur Kapitalmaßnahme einschließlich der verschiedenen Optionen.",
+  "isoElements": {
+    "EventCompletenessStatus": {
+      "definition": "Gibt an, ob die zu einem Ereignis angegebenen Details vollständig oder unvollständig sind."
+    },
+    "EventConfirmationStatus": {
+      "definition": "Gibt den Status des Eintritts eines Ereignisses an."
+    }
+  }
+}

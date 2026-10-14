@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionStatus1Choice",
+  "definition": "Gibt den Status der Transaktion an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Status einer Transaktion an, wie in einer externen Codeliste für Zahlungstransaktionsstatus veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Status einer Transaktion in proprietärer Form an."
+    }
+  }
+}

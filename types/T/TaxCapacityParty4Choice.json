@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxCapacityParty4Choice",
+  "definition": "Auswahl des Formats für die Angaben zur steuerlichen Funktion.",
+  "isoElements": {
+    "Code": {
+      "definition": "Steuerliche Funktion der Partei, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Steuerliche Funktion der Partei, ausgedrückt als proprietärer Code."
+    }
+  }
+}

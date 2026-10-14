@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingServiceParameters2",
+  "definition": "Gibt die detaillierten Parameter eines abzurechnenden Services an.",
+  "isoElements": {
+    "BankService": {
+      "definition": "Gibt die Details zur vollständigen Identifikation des Bankservices an."
+    },
+    "Volume": {
+      "definition": "Anzahl der Posten (Volumen), die in das Entgelt einfließen."
+    },
+    "UnitPrice": {
+      "definition": "Preis je Posten oder Einheit, der zur Berechnung des Entgelts verwendet wird, ausgedrückt in der Preiswährung."
+    },
+    "ServiceChargeAmount": {
+      "definition": "Betrag des berechneten Entgelts, ausgedrückt in der Preiswährung, ohne Steuern."
+    }
+  }
+}

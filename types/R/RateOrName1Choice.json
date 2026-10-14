@@ -1,0 +1,12 @@
+{
+  "isoType": "RateOrName1Choice",
+  "definition": "Auswahl zwischen einem Prozentsatz und einem Satznamen.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Preisgestaltung, ausgedrückt als Satz."
+    },
+    "RateName": {
+      "definition": "Preisgestaltung, ausgedrückt als Satzname."
+    }
+  }
+}

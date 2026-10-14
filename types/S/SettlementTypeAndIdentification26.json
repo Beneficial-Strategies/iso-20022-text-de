@@ -1,0 +1,15 @@
+{
+  "isoType": "SettlementTypeAndIdentification26",
+  "definition": "Gesamtprozess, der die Handels- und Abwicklungstransaktionen von Finanzinstrumenten umfasst.",
+  "isoElements": {
+    "Payment": {
+      "definition": "Gibt an, wie die Transaktion abzuwickeln ist."
+    },
+    "TransactionIdentification": {
+      "definition": "Referenz der Transaktion."
+    },
+    "SettlementDate": {
+      "definition": "Identifiziert das vorgesehene Abwicklungsdatum."
+    }
+  }
+}

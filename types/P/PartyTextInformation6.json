@@ -1,0 +1,23 @@
+{
+  "isoType": "PartyTextInformation6",
+  "definition": "Liefert zusätzliche Informationen zur Partei, beispielsweise die Kontakteinheit oder die für die in der Nachricht identifizierte Transaktion verantwortliche Person.",
+  "isoElements": {
+    "DeclarationDetails": {
+      "definition": "Liefert Freitext-Angaben zur Erklärung bezüglich der Partei."
+    },
+    "PartyContactDetails": {
+      "definition": "Liefert zusätzliche Informationen zur Partei, beispielsweise die Kontakteinheit oder die für die in der Nachricht identifizierte Transaktion verantwortliche Person."
+    },
+    "RegistrationDetails": {
+      "definition": "Liefert die für die Registrierung erforderlichen Informationen."
+    },
+    "RegistrationAddress": {
+      "definition": "Adresse der Nominee-Gesellschaft, die die Vermögenswerte im Auftrag der Partei bei der Transferstelle oder dem International Central Securities Depository oder Central Securities Depository hält."
+    }
+  },
+  "isoRules": {
+    "AdditonalDetailsGuideline": {
+      "definition": "Sofern zwischen Sender und Empfänger nicht bilateral anders vereinbart, dürfen DeclarationlDetails, RegistrationDetails und PartyContactDetails keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

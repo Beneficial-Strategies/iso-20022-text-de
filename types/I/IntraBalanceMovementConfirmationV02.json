@@ -1,0 +1,4 @@
+{
+  "isoType": "IntraBalanceMovementConfirmationV02",
+  "definition": "Die Nachricht IntraBalanceMovementConfirmation wird von einer Abwicklungsinfrastruktur an einen Kontoinhaber/Auftraggeber gesendet, um die Umbuchung eines Geldbetrags innerhalb seiner Bestände von einem Teilbestand auf einen anderen zu bestätigen. ||Verwendung: |Die Nachricht kann verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht lautet „Duplicate“)|- einem Dritten zur Information eine Kopie einer Nachricht zur Verfügung zu stellen (die Unterfunktion der Nachricht lautet „Copy“)|- einem Dritten zur Information eine Kopie einer Nachricht erneut zu senden (die Unterfunktion der Nachricht lautet „CopyDuplicate“)."
+}

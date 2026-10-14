@@ -1,0 +1,18 @@
+{
+  "isoType": "IdentificationModification5",
+  "definition": "Enthält die Details der Identifikationsdaten, für die eine Änderung empfohlen wird.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation, die von einer sendenden Partei vergeben wird, um die Gruppe von Partei- und Kontoidentifikationsinformationen innerhalb der Nachricht zweifelsfrei zu identifizieren."
+    },
+    "OriginalPartyAndAccountIdentification": {
+      "definition": "Enthält Partei- und/oder Kontoidentifikationsinformationen, wie sie in der ursprünglichen Nachricht angegeben wurden."
+    },
+    "UpdatedPartyAndAccountIdentification": {
+      "definition": "Enthält aktualisierte Partei- und/oder Kontoidentifikationsinformationen."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen in Freitextform zur Ergänzung der Änderungsinformationen."
+    }
+  }
+}

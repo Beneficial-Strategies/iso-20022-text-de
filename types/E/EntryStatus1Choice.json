@@ -1,0 +1,12 @@
+{
+  "isoType": "EntryStatus1Choice",
+  "definition": "Gibt den Status einer Buchung in den Büchern des Kontoführers an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Buchungsstatus in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Buchungsstatus in proprietärer Form."
+    }
+  }
+}

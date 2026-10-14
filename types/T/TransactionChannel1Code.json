@@ -1,0 +1,22 @@
+{
+  "isoType": "TransactionChannel1Code",
+  "definition": "Bezeichnet die Art der Kommunikationskanäle, die der Karteninhaber zum Akzeptantensystem nutzt.",
+  "isoCodes": {
+    "MAIL": {
+      "name": "Postbestellung",
+      "definition": "Versandhandel."
+    },
+    "TLPH": {
+      "name": "Telefonbestellung",
+      "definition": "Telefonbestellung."
+    },
+    "ECOM": {
+      "name": "Elektronischer Handel",
+      "definition": "E-Commerce."
+    },
+    "TVPY": {
+      "name": "Fernsehzahlung",
+      "definition": "Zahlung per Fernseher."
+    }
+  }
+}

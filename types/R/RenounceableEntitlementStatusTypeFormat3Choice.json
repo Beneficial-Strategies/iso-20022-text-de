@@ -1,0 +1,12 @@
+{
+  "isoType": "RenounceableEntitlementStatusTypeFormat3Choice",
+  "definition": "Auswahl zwischen einem Standardcode und einem proprietären Code zur Angabe der Art des Status des übertragbaren Anspruchs.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Status der Übertragbarkeit."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation des Status der Übertragbarkeit."
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "isoType": "SecuritiesOption116",
+  "definition": "Liefert Informationen zur Wertpapieroption der Kapitalmaßnahme.",
+  "isoElements": {
+    "SecurityDetails": {
+      "definition": "Liefert die Beschreibung des Finanzinstruments im Zusammenhang mit der Wertpapierbewegung."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Wert eine Belastung oder eine Gutschrift ist."
+    },
+    "TemporaryFinancialInstrumentIndicator": {
+      "definition": "Gibt an, dass das identifizierte Wertpapier eine aus Verarbeitungsgründen verwendete vorübergehende Wertpapieridentifikation ist, zum Beispiel ein in den US verwendetes Gegenwertpapier."
+    },
+    "NonEligibleProceedsIndicator": {
+      "definition": "Gibt Informationen zu Ergebnisbeständen an, die vom Zentralverwahrer (CSD) nicht verarbeitet werden können. Für die Gutschrift des Ergebnisses der Kapitalmaßnahme ist eine besondere Lieferanweisung des Kontoinhabers erforderlich."
+    },
+    "IssuerOfferorTaxabilityIndicator": {
+      "definition": "Die Erlöse sind gemäß den vom Emittenten/Anbieter bereitgestellten Informationen steuerpflichtig."
+    },
+    "NewSecuritiesIssuanceIndicator": {
+      "definition": "Gibt die Art der Wertpapieremission an."
+    },
+    "IncomeType": {
+      "definition": "Gibt die Art des Ertrags an.|Die Listen der zu verwendenden Ertragsart-Codes sind auf der SMPG-Website unter www.smpg.info verfügbar."
+    },
+    "OtherIncomeType": {
+      "definition": "Ertragsart, die unter einem anderen Steuerregime zu verwenden ist."
+    },
+    "ExemptionType": {
+      "definition": "Gibt die Grundlage für den ermäßigten Quellensteuersatz an."
+    },
+    "EntitledQuantity": {
+      "definition": "Wertpapiermenge auf Grundlage der Bedingungen des Kapitalmaßnahmen-Ereignisses und des dem Kontoinhaber zustehenden Bestands an zugrunde liegenden Wertpapieren. (Diese Menge kann positiv oder negativ sein)."
+    },
+    "SafekeepingPlace": {
+      "definition": "Ort, an dem die Finanzinstrumente verwahrt werden bzw. verwahrt werden."
+    },
+    "CountryOfIncomeSource": {
+      "definition": "Gibt das Land an, aus dem der Ertrag stammt."
+    },
+    "FractionDisposition": {
+      "definition": "Gibt an, wie Bruchteile aus abgeleiteten Wertpapieren verarbeitet werden oder wie anteilig gekürzte Entscheidungen gerundet werden, sofern ein Zuteilungssatz angegeben ist."
+    },
+    "CurrencyOption": {
+      "definition": "Währung, in der Barerlöse gutzuschreiben oder zu belasten sind."
+    },
+    "TradingPeriod": {
+      "definition": "Zeitraum, in dem Zwischen- oder Ergebniswertpapiere an einem Sekundärmarkt handelbar sind."
+    },
+    "DateDetails": {
+      "definition": "Liefert Informationen zu den Daten im Zusammenhang mit der Wertpapierbewegung."
+    },
+    "RateDetails": {
+      "definition": "Liefert Informationen zu den Sätzen im Zusammenhang mit der Wertpapierbewegung."
+    },
+    "PriceDetails": {
+      "definition": "Liefert Informationen zu den Preisen im Zusammenhang mit der Wertpapierbewegung."
+    },
+    "AmountDetails": {
+      "definition": "Stellt Informationen zu den Beträgen im Zusammenhang mit einer Wertpapierbewegung bereit."
+    }
+  },
+  "isoRules": {
+    "IssuerOfferorTaxabilityIndicatorUsageRule": {
+      "definition": "Der IssuerOfferorTaxabilityIndicator darf nur verwendet werden, wenn in der Nachricht kein Steuersatz angegeben ist, und darf nicht bei Ereignissen wie Dividende oder Zinsen verwendet werden.|Die Liste der proprietären IssuerOfferorTaxabilityIndicator-Codes, die verwendet werden dürfen, ist im Dokument \" TXAP Taxability Codes\" auf der SMPG-Website unter www.smpg.info enthalten."
+    },
+    "IncomeTypeUsageRule": {
+      "definition": "Die Listen der in IncomeType zu verwendenden Ertragsart-Codes sind im Dokument „ETYP-ITYP Exemption & Income Type Codes“ enthalten, das auf der SMPG-Website unter www.smpg.info verfügbar ist."
+    },
+    "ExemptionTypeUsageRule": {
+      "definition": "Die Listen der in ExemptionType zu verwendenden Befreiungsart-Codes sind im Dokument „ETYP-ITYP Exemption & Income Type Codes“ enthalten, das auf der SMPG-Website unter www.smpg.info verfügbar ist."
+    },
+    "IncomeType1Rule": {
+      "definition": "Wenn mindestens ein Vorkommen von OtherIncomeType vorhanden ist, muss IncomeType vorhanden sein."
+    }
+  }
+}

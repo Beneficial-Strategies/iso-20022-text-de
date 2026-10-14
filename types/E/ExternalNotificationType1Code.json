@@ -1,0 +1,58 @@
+{
+  "isoType": "ExternalNotificationType1Code",
+  "definition": "Gibt die Benachrichtigungsart an, wie in einer externen Codeliste für Benachrichtigungsarten veröffentlicht.|Externe Codelisten können unter www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "CUHO": {
+      "name": "Währungsfeiertag",
+      "definition": "Mitteilung über einen Währungsfeiertag."
+    },
+    "ATAC": {
+      "name": "Kontobedingungen",
+      "definition": "Mitteilung über neue oder geänderte Geschäftsbedingungen für ein Konto."
+    },
+    "SUSP": {
+      "name": "Aussetzung",
+      "definition": "Mitteilung über die Aussetzung eines Prozesses aufgrund eines Vorfalls."
+    },
+    "COUP": {
+      "name": "Aktualisierung der Kontaktdaten",
+      "definition": "Mitteilung über neue oder geänderte Kontaktdaten."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Andere Mitteilungsart."
+    },
+    "INFO": {
+      "name": "Informationsaustausch",
+      "definition": "Austausch von Informationen."
+    },
+    "ADDR": {
+      "name": "Adressänderung",
+      "definition": "Mitteilung über eine Adressänderung."
+    },
+    "TERM": {
+      "name": "Beendigung des Dienstes",
+      "definition": "Mitteilung über die Beendigung einer Dienstleistung, etwa einer Kontoschließung."
+    },
+    "SSIS": {
+      "name": "Aktualisierung der Standard-Abwicklungsanweisungen",
+      "definition": "Mitteilung über eine Änderung der Standing Settlement Instructions (SSIs)."
+    },
+    "MERG": {
+      "name": "Mitteilung über eine Fusion",
+      "definition": "Mitteilung über eine Fusion und damit verbundene Änderungen."
+    },
+    "SYST": {
+      "name": "Antrag auf Systemzugang",
+      "definition": "Antrag auf Zugang zu einem System."
+    },
+    "OPEN": {
+      "name": "Änderung der Öffnungszeiten der Bankfiliale",
+      "definition": "Mitteilung über eine Änderung der Öffnungszeiten."
+    },
+    "INCH": {
+      "name": "Branchenänderungen",
+      "definition": "Mitteilung über relevante Änderungen in der Branche oder am Markt."
+    }
+  }
+}

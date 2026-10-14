@@ -1,0 +1,12 @@
+{
+  "isoType": "BlockTrade5Choice",
+  "definition": "Auswahl des Formats für die Angaben zum Blockgeschäft.",
+  "isoElements": {
+    "Code": {
+      "definition": "Angaben zur übergeordneten oder untergeordneten Blocktransaktion, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Angaben zur übergeordneten oder untergeordneten Blocktransaktion, ausgedrückt als proprietärer Code."
+    }
+  }
+}

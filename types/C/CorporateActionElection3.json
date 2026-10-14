@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionElection3",
+  "definition": "Enthält Informationen zu einer Wahl bei einer Kapitalmaßnahme.",
+  "isoElements": {
+    "AccountDetails": {
+      "definition": "Enthält Informationen zum Konto."
+    },
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "InstructedUnderlyingSecuritiesQuantity": {
+      "definition": "Menge der zugrunde liegenden Wertpapiere, auf die sich diese Anweisung bezieht."
+    },
+    "InstructedSecuritiesQuantityToReceive": {
+      "definition": "Menge der Leistungen, die der Kontoinhaber erhalten möchte, z. B. infolge einer Dividendenreinvestition."
+    },
+    "ProposedRate": {
+      "definition": "Im Rahmen einer Neuvermarktung von variabel verzinslichen Schuldverschreibungen vorgeschlagener Satz."
+    },
+    "CashMovementDetails": {
+      "definition": "Liefert Informationen zur Geldbewegung, die sich aus der Wahlanweisung ergibt."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Liefert Informationen zur Wertpapierbewegung, die sich aus der Wahlanweisung ergibt."
+    }
+  }
+}

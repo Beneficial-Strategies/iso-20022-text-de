@@ -1,0 +1,18 @@
+{
+  "isoType": "ReportHeader7",
+  "definition": "Gibt allgemeine Informationen zu einem Untersuchungsbericht an.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Punkt-zu-Punkt-Referenz, die vom Fallzuweiser vergeben wird, um den Fallstatusbericht eindeutig zu identifizieren."
+    },
+    "From": {
+      "definition": "Partei, die den Status des Untersuchungsfalls meldet."
+    },
+    "To": {
+      "definition": "Partei, an die der Status des Falls gemeldet wird."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    }
+  }
+}

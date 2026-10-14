@@ -1,0 +1,18 @@
+{
+  "isoType": "TotalTransactions6",
+  "definition": "Satz von Elementen mit zusammenfassenden Informationen zu den Buchungen.",
+  "isoElements": {
+    "TotalEntries": {
+      "definition": "Gibt die Gesamtanzahl und die Summe der Lastschrift- und Gutschriftbuchungen an."
+    },
+    "TotalCreditEntries": {
+      "definition": "Gibt die Gesamtanzahl und die Summe der Gutschriftbuchungen an."
+    },
+    "TotalDebitEntries": {
+      "definition": "Gibt die Gesamtanzahl und die Summe der Lastschriftbuchungen an."
+    },
+    "TotalEntriesPerBankTransactionCode": {
+      "definition": "Gibt die Gesamtanzahl und die Summe der Buchungen je Banktransaktionscode an."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionMovement1",
+  "definition": "Enthält Informationen zur Bewegungsanweisung.",
+  "isoElements": {
+    "OrderType": {
+      "definition": "Art der Bewegungsanweisung."
+    },
+    "HighPriorityIndicator": {
+      "definition": "Gibt an, ob die Bewegung hohe Priorität hat oder nicht.|Bedeutung bei „true“: Hohe Priorität|Bedeutung bei „false“: Standard."
+    },
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Datum, an dem die Ausschüttungsbewegung ausgeführt werden muss."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identifikation der Partei, die Inhaber des Kontos ist."
+    },
+    "AccountIdentification": {
+      "definition": "Identifikation des Kontos."
+    },
+    "ConfirmedBalanceSecuritiesQuantity": {
+      "definition": "Wertpapiermenge im bestätigten Bestand, d. h. dem Bestand, auf den sich die Gutschrift der ausgelieferten Ressourcen bezieht."
+    }
+  }
+}

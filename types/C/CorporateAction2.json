@@ -1,0 +1,123 @@
+{
+  "isoType": "CorporateAction2",
+  "definition": "Liefert Informationen über das CA-Ereignis.",
+  "isoElements": {
+    "EventStage": {
+      "definition": "Phase im Lebenszyklus der Kapitalmaßnahme."
+    },
+    "DefaultOptionType": {
+      "definition": "Identifiziert die Option, die standardmäßig gewählt wird, wenn der Kontoinhaber keine Anweisung erteilt."
+    },
+    "DefaultOptionNumber": {
+      "definition": "Identifiziert die Optionsnummer, die standardmäßig gewählt wird, wenn der Kontoinhaber keine Anweisung erteilt."
+    },
+    "CalculationMethod": {
+      "definition": "Die Methode zur Berechnung von Auslosungen und teilweisen Rückzahlungen."
+    },
+    "BackEndOddLotSecuritiesQuantity": {
+      "definition": "Stellt das Vorhandensein einer nachgelagerten Splitterbestandsregelung dar sowie die nach der anteiligen Zuteilung erforderliche Aktienmenge, um für dieses Vorrecht in Frage zu kommen."
+    },
+    "FrontEndOddLotSecuritiesQuantity": {
+      "definition": "Gibt an, dass bei anteiliger Zuteilung eines Auftrags der Bestand von Inhabern von Splitterbeständen, die ihren gesamten Bestand andienen, nicht anteilig gekürzt, sondern vollständig angenommen wird."
+    },
+    "MinimumExercisableSecuritiesQuantity": {
+      "definition": "Mindestmenge des Finanzinstruments bzw. Mindestlos von Rechten/Optionsscheinen, die ausgeübt werden muss."
+    },
+    "MinimumExercisableMultipleSecuritiesQuantity": {
+      "definition": "Mindestvielfaches der Menge des Finanzinstruments bzw. des Loses von Rechten/Optionsscheinen, das ausgeübt werden muss."
+    },
+    "IncrementalDenomination": {
+      "definition": "Betrag, der verwendet wird, wenn der gekündigte Betrag durch die Auslosung mit der Basisstückelung nicht erreicht wird."
+    },
+    "NewDenominationSecuritiesQuantity": {
+      "definition": "Neue Stückelung des Eigenkapitals im Anschluss an z. B. eine Erhöhung oder Verringerung des Nennwerts."
+    },
+    "NewBoardLotSecuritiesQuantity": {
+      "definition": "Menge an Beteiligungspapieren, die den neuen Handelslot bildet."
+    },
+    "SecuritiesQuantitySought": {
+      "definition": "Menge der Wertpapiere, die der Anbieter bzw. Emittent gemäß den Bedingungen des Ereignisses kaufen oder zurückzahlen wird. Dies kann eine Zahl oder der Begriff „any and all“ sein."
+    },
+    "BaseDenomination": {
+      "definition": "Der kleinste ganzzahlige Betrag an Wertpapieren, den jeder Kontoinhaber nach Anwendung der gekündigten Beträge noch halten muss."
+    },
+    "ChangeType": {
+      "definition": "Gibt die Art der angekündigten Änderung an."
+    },
+    "OfferType": {
+      "definition": "Gibt die Bedingungen an, die für das Angebot gelten."
+    },
+    "RestrictionIndicator": {
+      "definition": "Gibt an, ob für das CA-Ereignis Beschränkungen gelten oder nicht.||Yes = Es gibt Beschränkungen.|No = Es gibt keine Beschränkungen."
+    },
+    "PartialElectionIndicator": {
+      "definition": "Gibt an, ob der Emittent dem Beauftragten erlaubt, Teilwahlen anzunehmen. Dies ermöglicht eine geteilte Stimmabgabe über Optionen. Es erlaubt dem Kunden, pro bezeichnetem Bestand mehr als eine Option zu wählen."
+    },
+    "ElectionType": {
+      "definition": "Gibt die Auswirkung der Wahl einer Kapitalmaßnahmen-Option auf die Bestände an."
+    },
+    "LotteryType": {
+      "definition": "Gibt die Art des angekündigten Losverfahrens an."
+    },
+    "IncomeType": {
+      "definition": "Gibt die Art des Ertrags an.|Die Listen der zu verwendenden Ertragsart-Codes sind auf der SMPG-Website unter www.smpg.info verfügbar."
+    },
+    "DividendType": {
+      "definition": "Gibt die Bedingungen an, unter denen eine Dividende gezahlt wird."
+    },
+    "IntermediateSecuritiesDistributionType": {
+      "definition": "Art der Ausschüttung von Zwischenwertpapieren, z. B. Aktiendividende, umgekehrtes Bezugsrecht."
+    },
+    "CouponNumber": {
+      "definition": "Nummer des einem Wertpapier beigefügten bzw. zugeordneten Kupons."
+    },
+    "InterestAccruedNumberOfDays": {
+      "definition": "Anzahl der Tage, die zur Berechnung des aufgelaufenen Zinsbetrags verwendet werden."
+    },
+    "NewDenominationCurrency": {
+      "definition": "Neue Stückelungswährung des Finanzinstruments."
+    },
+    "DateDetails": {
+      "definition": "Liefert Informationen über die Daten im Zusammenhang mit einem CA-Ereignis."
+    },
+    "PriceDetails": {
+      "definition": "Liefert Informationen über die Preise im Zusammenhang mit einem CA-Ereignis."
+    },
+    "PeriodDetails": {
+      "definition": "Liefert Informationen über die Zeiträume im Zusammenhang mit einem CA-Ereignis."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Liefert Informationen über Sätze und Beträge im Zusammenhang mit einem CA-Ereignis."
+    },
+    "CorporateActionAdditionalInformation": {
+      "definition": "Liefert zusätzliche Informationen."
+    },
+    "CertificationRequiredIndicator": {
+      "definition": "Gibt an, ob vom Kontoinhaber eine Bescheinigung erforderlich ist."
+    },
+    "CertificationType": {
+      "definition": "Art der erforderlichen Bescheinigung."
+    },
+    "CapitalGain": {
+      "definition": "Gibt an, ob der Kapitalgewinn für die bei Verkauf, Erstattung oder Rücknahme von Aktien und Anteilen (.) realisierten Erträge in den Anwendungsbereich der EU-Zinsrichtlinie fällt (Artikel 6 Absatz 1 Buchstabe d)."
+    },
+    "TaxableIncomePerShareCalculated": {
+      "definition": "Gibt an, ob das Finanzinstrument das steuerpflichtige Einkommen je Dividende bzw. je Aktie berechnet."
+    },
+    "NewPlaceOfIncorporation": {
+      "definition": "Sitz der neuen Gesellschaft."
+    },
+    "RenounceableEntitlementStatusType": {
+      "definition": "Gibt an, ob die Bedingungen des Ereignisses den Weiterverkauf der Rechte erlauben."
+    },
+    "ConversionType": {
+      "definition": "Gibt die Umwandlungsart eines Instruments an."
+    },
+    "RedemptionChargesAppliedIndicator": {
+      "definition": "Gibt an, ob Rückzahlungsgebühren anfallen."
+    },
+    "DistributionType": {
+      "definition": "Gibt an, ob die Erlöse des Ereignisses fortlaufend statt an einem bestimmten Datum ausgeschüttet werden."
+    }
+  }
+}

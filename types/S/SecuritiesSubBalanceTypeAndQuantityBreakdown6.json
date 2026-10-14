@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesSubBalanceTypeAndQuantityBreakdown6",
+  "definition": "Informationen zur Aufgliederung der Menge für einen bestimmten Wertpapierbestand.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art des Wertpapier-Unterbestands an (zum Beispiel Sperrart für eine Marktinfrastruktur)."
+    },
+    "QuantityBreakdown": {
+      "definition": "Aufgliederung einer Menge in Posten, wie Steuerposten oder Instrumentenserien."
+    }
+  }
+}

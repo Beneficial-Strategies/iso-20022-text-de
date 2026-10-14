@@ -1,0 +1,12 @@
+{
+  "isoType": "QueryReference2",
+  "definition": "Gibt den Namen und die Referenz der Abfrage an.",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Abfrage."
+    },
+    "QueryName": {
+      "definition": "Name der Abfrage."
+    }
+  }
+}

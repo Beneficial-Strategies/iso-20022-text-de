@@ -1,0 +1,12 @@
+{
+  "isoType": "FXStandingInstruction4Choice",
+  "definition": "Auswahl des Formats für die Informationen zur Devisen-Dauerauftragsanweisung.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Gibt an, ob die bestehende Devisen-Dauerauftragsanweisung angewendet werden soll."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Informationen zur Devisen-Dauerauftragsanweisung (FX)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DisabledStatusReason2Choice",
+  "definition": "Auswahl der Formate für einen Code für den Grund eines deaktivierten Status.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für den deaktivierten Kontostatus als Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Grund für den deaktivierten Kontostatus als proprietärer Code ausgedrückt."
+    }
+  }
+}

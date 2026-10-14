@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionAmendment1",
+  "definition": "Gibt den Pfad und die Datenelemente an, die in der Untersuchungsanfrage angefordert wurden.",
+  "isoElements": {
+    "Path": {
+      "definition": "Absoluter Pfad eines Elements."
+    },
+    "Record": {
+      "definition": "Enthält den einzelnen Datensatz der Datenelemente."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "CustomerPaymentReversalV13",
+  "definition": "Umfang|Die Nachricht CustomerPaymentReversal wird von der initiierenden Partei an die nächste Partei in der Zahlungskette gesendet. Sie dient dazu, eine zuvor ausgeführte Zahlung rückgängig zu machen.|Verwendung|Die Nachricht CustomerPaymentReversal wird zwischen einem Kunden, der kein Finanzinstitut ist, und einer Bank ausgetauscht, um eine bereits abgewickelte Nachricht CustomerDirectDebitInitiation rückgängig zu machen. Das Ergebnis ist eine Gutschrift auf dem Konto des Zahlungspflichtigen.|Die Nachricht CustomerPaymentReversal verweist auf die ursprüngliche Nachricht CustomerDirectDebitInitiation entweder nur mittels Referenzen oder mittels Referenzen und einer Reihe von Elementen aus der ursprünglichen Anweisung.|Die Nachricht CustomerPaymentReversal kann in nationalen und grenzüberschreitenden Szenarien verwendet werden.",
+  "isoRules": {
+    "GroupReversalAndPaymentInformationNotPresentRule": {
+      "definition": "Wenn GroupHeader/GroupReversal wahr ist, ist OriginalPaymentInformationAndReversal nicht zulässig."
+    },
+    "GroupReversalAndReasonRule": {
+      "definition": "Wenn GroupHeader/GroupReversal wahr ist, muss OriginalGroupInformation/ReversalReasonInformation/Reason vorhanden sein."
+    },
+    "GroupReversalAndNumberOfTransactionsGuideline": {
+      "definition": "Wenn GroupHeader/GroupReversal falsch ist und OriginalPaymentInformationAndReversal[*]/PaymentInformationReversal falsch ist, muss NumberOfTransactions der Anzahl der Vorkommen von OriginalPaymentInformationAndReversal[*]/TransactionInformation entsprechen."
+    },
+    "GroupReversalAndPaymentInformationPresentRule": {
+      "definition": "Wenn GroupHeader/GroupReversal falsch ist, muss mindestens ein Vorkommen von OriginalPaymentInformationAndReversal vorhanden sein."
+    },
+    "SupplementaryDataRule": {
+      "definition": "Der Baustein SupplementaryData auf Nachrichtenebene darf nicht verwendet werden, um zusätzliche Informationen zu einer Transaktion bereitzustellen. Hierfür ist das Element SupplementaryData auf Transaktionsebene zu verwenden."
+    }
+  }
+}

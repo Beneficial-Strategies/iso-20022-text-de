@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionAgent1",
+  "definition": "Liefert Informationen zum Beauftragten.",
+  "isoElements": {
+    "AgentIdentification": {
+      "definition": "Identifikation des Beauftragten."
+    },
+    "AgentRole": {
+      "definition": "Vom Beauftragten wahrgenommene Rolle."
+    },
+    "ContactPerson": {
+      "definition": "Ansprechpartner beim Beauftragten."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "GDPRDataConsent1Code",
+  "definition": "Einwilligungsart im Rahmen der Datenschutz-Grundverordnung (GDPR) 2016/679.",
+  "isoCodes": {
+    "DP00": {
+      "name": "Einwilligung Marketing",
+      "definition": "Einwilligung, die den Verantwortlichen für die Verarbeitung personenbezogener Daten ermächtigt, personenbezogene Daten für Marketingzwecke zu verarbeiten."
+    },
+    "DP03": {
+      "name": "Einwilligung Profiling und gezielte Ansprache",
+      "definition": "Einwilligung, die den Verantwortlichen für die Verarbeitung personenbezogener Daten ermächtigt, personenbezogene Daten zu Profiling-Zwecken zu verarbeiten, um maßgeschneiderte und zielgerichtete Produkt- und Dienstleistungsangebote zu erstellen."
+    },
+    "DP01": {
+      "name": "Einwilligung Weitergabe für gleiches Marketing",
+      "definition": "Einwilligung, die den Verantwortlichen für die Verarbeitung personenbezogener Daten ermächtigt, personenbezogene Daten zur eigenständigen Verarbeitung für Marketingzwecke an andere Unternehmen derselben Gruppe zu übermitteln."
+    },
+    "DP02": {
+      "name": "Einwilligung Weitergabe an Dritte für Marketing",
+      "definition": "Einwilligung, die den Verantwortlichen für die Verarbeitung personenbezogener Daten ermächtigt, personenbezogene Daten zur eigenständigen Verarbeitung für Marketingzwecke an Drittunternehmen zu übermitteln."
+    }
+  }
+}

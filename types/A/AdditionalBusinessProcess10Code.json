@@ -1,0 +1,38 @@
+{
+  "isoType": "AdditionalBusinessProcess10Code",
+  "definition": "Gibt den zusätzlichen Geschäftsprozess an, der mit einem Kapitalmaßnahmen-Ereignis verknüpft ist.",
+  "isoCodes": {
+    "CLAI": {
+      "name": "Anspruch oder Entschädigung",
+      "definition": "Bezieht sich auf einen Anspruch im Zusammenhang mit dem zugehörigen Ereignis der Kapitalmaßnahme."
+    },
+    "REVR": {
+      "name": "Benachrichtigung über Rückbuchung",
+      "definition": "Gibt eine Vorabavisierung einer Bewegungsstornierung an."
+    },
+    "TAXR": {
+      "name": "Steuerrückerstattung",
+      "definition": "Bezieht sich auf eine Steuerrückerstattung durch die Behörden im Zusammenhang mit dem zugehörigen Ereignis der Kapitalmaßnahme."
+    },
+    "PPUT": {
+      "name": "Teilweise verpflichtende Rückgaberückzahlung",
+      "definition": "Teilweiser obligatorischer Umtausch eines Teils von Anleihen, bei dem die umgetauschten Wertpapiere in der Regel erneut vermarktet werden. Der Emittent kann den Inhabern das Recht anbieten, ihre Wertpapiere zu behalten, anstatt sie umzutauschen. Die Berechtigung für das Ereignis wird per Los bestimmt."
+    },
+    "PPRE": {
+      "name": "Teilweise Vorfinanzierung",
+      "definition": "Teilweises Prefunding einer Schuldverschreibung vor Fälligkeit, ausgelost im Losverfahren. Ein neues Wertpapier wird mit einem früheren Fälligkeitsdatum für den refinanzierten (gekündigten) Teil begeben, und das andere neue Wertpapier wird mit dem ursprünglichen Fälligkeitsdatum für den nicht refinanzierten (verbleibenden) Teil begeben. Nur im Rahmen eines Kapitalmaßnahmen-Ereignisses der teilweisen Defeasance anwendbar."
+    },
+    "FPRE": {
+      "name": "Vollständige Vorfinanzierung",
+      "definition": "Vollständige Vorfinanzierung eines Schuldinstruments durch den Emittenten vor der ursprünglichen Fälligkeit, wobei der Emittent Vermögenswerte treuhänderisch hinterlegt. Nur im Rahmen eines Kapitalmaßnahmen-Ereignisses mit teilweiser Defeasance anwendbar."
+    },
+    "REAC": {
+      "name": "Erforderliche Maßnahme",
+      "definition": "Erlöse/Ansprüche des obligatorischen Ereignisses können nur gezahlt werden, wenn der Kontoinhaber die festgelegte Maßnahme ergreift."
+    },
+    "INCP": {
+      "name": "Zahlung einer Anreizprämie",
+      "definition": "Das Ereignis ist die Zahlung einer Anreizprämie im Zusammenhang mit den auf einer Hauptversammlung vorgeschriebenen Abstimmungsbedingungen."
+    }
+  }
+}

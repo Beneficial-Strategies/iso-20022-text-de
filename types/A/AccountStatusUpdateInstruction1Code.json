@@ -1,0 +1,14 @@
+{
+  "isoType": "AccountStatusUpdateInstruction1Code",
+  "definition": "Gibt die Art der angewiesenen Aktualisierung des Kontostatus an.",
+  "isoCodes": {
+    "CLOS": {
+      "name": "Schließen",
+      "definition": "Das Konto ist zu schließen."
+    },
+    "REAC": {
+      "name": "Reaktivieren",
+      "definition": "Das Konto ist wieder zu aktivieren; jede frühere Anweisung zur Schließung des Kontos wird aufgehoben."
+    }
+  }
+}

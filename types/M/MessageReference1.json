@@ -1,0 +1,15 @@
+{
+  "isoType": "MessageReference1",
+  "definition": "Geschäftliche Referenz(en) auf eine oder mehrere relevante Nachrichten, die zuvor von anderen Parteien oder von derselben Partei, die diese Nachricht ausstellt, gesendet wurden.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Eindeutiger Verweis auf eine vorangegangene Nachricht, die einen geschäftlichen Bezug zu dieser Nachricht hat."
+    },
+    "MessageName": {
+      "definition": "Name der Nachricht, die die angegebene zusätzliche Referenz als Nachrichtenreferenz enthielt."
+    },
+    "ReferenceIssuer": {
+      "definition": "Partei, die die angegebene zusätzliche Referenz ursprünglich vergeben hat."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "DateMode1Code",
+  "definition": "Gibt für ein Datum an, wann das Ereignis oder der Vorgang stattfinden soll, zum Beispiel zu Beginn oder am Ende des Tages.",
+  "isoCodes": {
+    "BODY": {
+      "name": "BODY",
+      "definition": "Tagesbeginn."
+    },
+    "EODY": {
+      "name": "EODY",
+      "definition": "Tagesende."
+    }
+  }
+}

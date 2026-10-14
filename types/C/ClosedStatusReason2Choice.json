@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosedStatusReason2Choice",
+  "definition": "Auswahl der Formate für einen Code für den Grund eines geschlossenen Status.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für den geschlossenen Kontostatus als Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Grund für den geschlossenen Kontostatus als proprietärer Code ausgedrückt."
+    }
+  }
+}

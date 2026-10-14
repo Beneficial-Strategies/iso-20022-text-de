@@ -1,0 +1,26 @@
+{
+  "isoType": "StandingSettlementInstruction20",
+  "definition": "Einzelheiten der anzuwendenden Standardabwicklungsanweisung.",
+  "isoElements": {
+    "SettlementStandingInstructionDatabase": {
+      "definition": "Gibt an, welche Datenbank für Standardabwicklungsanweisungen zur Ermittlung der an der Transaktion beteiligten Abwicklungsparteien zu verwenden ist."
+    },
+    "Counterparty": {
+      "definition": "Identifikation des Käufers oder Verkäufers in einer Standardabwicklungsanweisung, die die Ermittlung der Standardabwicklungsanweisung ermöglicht."
+    },
+    "Vendor": {
+      "definition": "Anbieter der Datenbank für Standardabwicklungsanweisungen, die abzufragen ist."
+    },
+    "OtherDeliveringSettlementParties": {
+      "definition": "Liefernde Parteien, außer dem Verkäufer, die zur Ermittlung der Standardabwicklungsanweisung erforderlich sind (zum Beispiel die Verwahrstelle) oder zu Informationszwecken angegeben werden (zum Beispiel die Abwicklungskette der anweisenden Partei)."
+    },
+    "OtherReceivingSettlementParties": {
+      "definition": "Empfangende Parteien, außer dem Käufer, die zur Ermittlung der Standardabwicklungsanweisung erforderlich sind (zum Beispiel die Verwahrstelle) oder zu Informationszwecken angegeben werden (zum Beispiel die Abwicklungskette der anweisenden Partei)."
+    }
+  },
+  "isoRules": {
+    "VendorPresenceRule": {
+      "definition": "Handelt es sich bei der Datenbank für Standardabwicklungsanweisungen um eine Anbieterdatenbank, muss der Anbieter angegeben werden."
+    }
+  }
+}

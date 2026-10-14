@@ -1,0 +1,22 @@
+{
+  "isoType": "ClearingChannel2Code",
+  "definition": "Gibt als Teil der Zahlungsartidentifikation den Clearingkanal für das Routing der Transaktion an.",
+  "isoCodes": {
+    "RTGS": {
+      "name": "Echtzeit-Bruttoabwicklungssystem",
+      "definition": "Der Clearingkanal ist ein Echtzeit-Brutto-Abwicklungssystem."
+    },
+    "RTNS": {
+      "name": "Echtzeit-Nettoabwicklungssystem",
+      "definition": "Der Clearingkanal ist ein Echtzeit-Netto-Abwicklungssystem."
+    },
+    "MPNS": {
+      "name": "Massenzahlungs-Nettosystem",
+      "definition": "Der Clearingkanal ist ein Netto-Abwicklungssystem für Massenzahlungen."
+    },
+    "BOOK": {
+      "name": "Umbuchung",
+      "definition": "Zahlung per interner Buchungsüberweisung."
+    }
+  }
+}

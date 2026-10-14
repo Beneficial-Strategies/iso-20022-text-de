@@ -1,0 +1,17 @@
+{
+  "isoType": "ReferredAgent3",
+  "definition": "Liefert die Identifikation des Platzierungsagenten für einen Hedgefonds, wenn der Anleger von einem solchen vermittelt wurde.",
+  "isoElements": {
+    "Referred": {
+      "definition": "Gibt an, ob der Anleger von einem Platzierungsagenten vermittelt wurde."
+    },
+    "ReferredPlacementAgent": {
+      "definition": "Platzierungsagent, der den Anleger vermittelt hat."
+    }
+  },
+  "isoRules": {
+    "ReferredPlacementAgentRule": {
+      "definition": "ReferredPlacementAgent darf nur vorhanden sein, wenn Referred den Wert REFR (Referred) hat."
+    }
+  }
+}

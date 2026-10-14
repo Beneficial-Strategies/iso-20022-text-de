@@ -1,0 +1,21 @@
+{
+  "isoType": "DocumentIdentification51",
+  "definition": "Identifikation und Erstellungsdatum eines Dokuments.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutiger Bezeichner des Dokuments (der Nachricht), wie vom Absender des Dokuments vergeben."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen das Dokument (die Nachricht) vom Absender erstellt wurde."
+    },
+    "CopyDuplicate": {
+      "definition": "Gibt an, ob es sich bei diesem Dokument um eine Kopie, ein Duplikat oder ein Duplikat einer Kopie handelt."
+    },
+    "MessageOriginator": {
+      "definition": "Partei, von der die Nachricht ausging, sofern nicht mit dem Absender identisch."
+    },
+    "MessageRecipient": {
+      "definition": "Partei, die das endgültige Ziel der Nachricht ist, sofern nicht mit dem Empfänger identisch."
+    }
+  }
+}

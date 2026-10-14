@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionOption39Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Optionsart."
+    },
+    "Proprietary": {
+      "definition": "Optionsart, ausgedrückt als proprietäre Identifikation."
+    }
+  }
+}

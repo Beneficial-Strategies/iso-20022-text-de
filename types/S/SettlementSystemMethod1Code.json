@@ -1,0 +1,14 @@
+{
+  "isoType": "SettlementSystemMethod1Code",
+  "definition": "Gibt an, ob die Abwicklungsanweisung über das Standard- oder das alternative Abwicklungssystem abgewickelt werden soll.",
+  "isoCodes": {
+    "NSET": {
+      "name": "Standard",
+      "definition": "Über das Standard-Abwicklungssystem/-verfahren abwickeln. Besteht eine Dauerauftragsanweisung zur Abwicklung über das alternative Abwicklungssystem/-verfahren, ist diese Dauerauftragsanweisung zu ignorieren."
+    },
+    "YSET": {
+      "name": "Alternative",
+      "definition": "Über das alternative Abwicklungssystem/-verfahren abwickeln. Besteht eine Dauerauftragsanweisung zur Abwicklung über das Standard-Abwicklungssystem/-verfahren, ist diese Dauerauftragsanweisung zu ignorieren."
+    }
+  }
+}

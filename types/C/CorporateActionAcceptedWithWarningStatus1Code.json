@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionAcceptedWithWarningStatus1Code",
+  "definition": "Status \"mit Warnung angenommen\" des Kapitalmaßnahmen-Benachrichtigungsavis vom Beauftragten des Emittenten.",
+  "isoCodes": {
+    "SCAL": {
+      "name": "Ungültiger gekündigter Wertpapierbetrag",
+      "definition": "Ungültiger gekündigter Wertpapierbetrag."
+    },
+    "PAYD": {
+      "name": "Zahlungsdatum außerhalb des Bereichs",
+      "definition": "Das Zahlbarkeitsdatum liegt außerhalb des anwendbaren Datumsbereichs."
+    }
+  }
+}

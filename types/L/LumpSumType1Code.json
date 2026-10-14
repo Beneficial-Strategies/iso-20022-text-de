@@ -1,0 +1,18 @@
+{
+  "isoType": "LumpSumType1Code",
+  "definition": "Gibt eine Art von Einmalzahlung an.",
+  "isoCodes": {
+    "DEAB": {
+      "name": "Todesfallleistung",
+      "definition": "Die Einmalzahlung ist eine Einmalzahlung als Sterbegeld."
+    },
+    "PCLS": {
+      "name": "Rentenbeginn",
+      "definition": "Die Einmalzahlung ist eine Einmalzahlung bei Rentenbeginn."
+    },
+    "UFPL": {
+      "name": "Nicht kristallisiert",
+      "definition": "Die Einmalzahlung ist eine Einmalzahlung aus einer nicht kristallisierten Fondsrente."
+    }
+  }
+}

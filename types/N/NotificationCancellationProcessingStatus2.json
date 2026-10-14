@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationCancellationProcessingStatus2",
+  "definition": "Liefert Informationen zum Bearbeitungsstatus eines Benachrichtigungsstornierungsantrags.",
+  "isoElements": {
+    "Status": {
+      "definition": "Der Bearbeitungsstatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

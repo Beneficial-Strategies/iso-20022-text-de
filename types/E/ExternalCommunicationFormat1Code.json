@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalCommunicationFormat1Code",
+  "definition": "Legt das Kommunikationsformat für Kontoauszüge als Zeichenfolge mit einer Höchstlänge von 4 Zeichen fest.|Die Liste der gültigen Codes ist eine externe Codeliste, die separat veröffentlicht wird.|Externe Codelisten können von www.iso20022.org heruntergeladen werden."
+}

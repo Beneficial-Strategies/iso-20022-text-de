@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionAndRepairReason39Choice",
+  "definition": "Auswahl des Formats für den Ablehnungs- oder Klärungsgrund.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, warum die Anweisung bzw. Anforderung den Status Klärung oder Ablehnung hat."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Grund an, warum die Anweisung bzw. Anforderung den Status Klärung oder Ablehnung hat."
+    }
+  }
+}

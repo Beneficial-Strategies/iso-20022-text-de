@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMConfigurationControlV01",
+  "definition": "Informationen zur Protokollverwaltung auf einem Abschnitt des Pfads vom ATM zum Acquirer."
+}

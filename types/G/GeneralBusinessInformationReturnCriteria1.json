@@ -1,0 +1,15 @@
+{
+  "isoType": "GeneralBusinessInformationReturnCriteria1",
+  "definition": "Definiert die Kriterien für die Berichterstattung über Geschäftsinformationen.",
+  "isoElements": {
+    "QualifierIndicator": {
+      "definition": "Gibt an, ob der Qualifier angefordert wird."
+    },
+    "SubjectIndicator": {
+      "definition": "Gibt an, ob der Betreff angefordert wird."
+    },
+    "SubjectDetailsIndicator": {
+      "definition": "Gibt an, ob die Betreffdetails angefordert werden."
+    }
+  }
+}

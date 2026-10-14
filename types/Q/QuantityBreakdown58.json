@@ -1,0 +1,30 @@
+{
+  "isoType": "QuantityBreakdown58",
+  "definition": "Einzelheiten zur Aufgliederung einer Menge.",
+  "isoElements": {
+    "LotNumber": {
+      "definition": "Identifikation einer Menge identischer Wertpapiere, die zu einem bestimmten Datum und zu einem bestimmten Preis gekauft wurden, für Steuerzwecke."
+    },
+    "LotQuantity": {
+      "definition": "Menge an Finanzinstrumenten, die Teil des beschriebenen Postens ist."
+    },
+    "LotDateTime": {
+      "definition": "Datum/Uhrzeit, zu der das Los erworben wurde."
+    },
+    "LotPrice": {
+      "definition": "Preis, zu dem das Los erworben wurde."
+    },
+    "TypeOfPrice": {
+      "definition": "Gibt die Art des Preises und Informationen zum Preis an."
+    },
+    "AccountBaseCurrencyAmounts": {
+      "definition": "Bewertungsbeträge für das Los in der Basiswährung des Kontos."
+    },
+    "InstrumentCurrencyAmounts": {
+      "definition": "Bewertungsbeträge für das Los in der Währung des Finanzinstruments."
+    },
+    "AlternateReportingCurrencyAmounts": {
+      "definition": "Bewertungsbeträge für das Los in einer anderen Währung als der Basiswährung des Kontos."
+    }
+  }
+}

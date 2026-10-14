@@ -1,0 +1,60 @@
+{
+  "isoType": "Organisation43",
+  "definition": "Organisierte Struktur, die für einen bestimmten Zweck geschaffen wurde. Zum Beispiel ein Unternehmen, eine Regierungsstelle, eine Behörde, eine Wohltätigkeitsorganisation oder ein Finanzinstitut.",
+  "isoElements": {
+    "FullLegalName": {
+      "definition": "Name, unter dem eine Partei bekannt ist und der üblicherweise zur Identifikation dieser Partei verwendet wird."
+    },
+    "TradingName": {
+      "definition": "Name, den ein Unternehmen für geschäftliche Zwecke verwendet, auch wenn sein eingetragener Rechtsname, der für Verträge und andere formelle Situationen verwendet wird, ein anderer sein kann."
+    },
+    "OrganisationLegalStatus": {
+      "definition": "Status einer juristischen Person."
+    },
+    "EstablishedDate": {
+      "definition": "Gründungsdatum oder Datum der Gründung einer Institution ist das Datum, das diese Institution als ihren Ausgangspunkt beansprucht."
+    },
+    "RegistrationNumber": {
+      "definition": "Registernummer der Organisation."
+    },
+    "RegistrationCountry": {
+      "definition": "Land, in dem die Organisation registriert ist."
+    },
+    "RegistrationDate": {
+      "definition": "Datum, an dem eine bestimmte Organisation offiziell registriert wurde."
+    },
+    "TaxationIdentificationNumber": {
+      "definition": "Eindeutige Steuerreferenznummer."
+    },
+    "TaxationCountry": {
+      "definition": "Steuerland einer natürlichen Person oder einer Organisation."
+    },
+    "CountryOfOperation": {
+      "definition": "Land, in dem die Organisation ihre Geschäftstätigkeit ausübt."
+    },
+    "BoardResolutionIndicator": {
+      "definition": "Gibt an, dass die neue Bank eine Kopie des Vorstandsbeschlusses eines eingetragenen Unternehmens zum Kontowechsel besitzt."
+    },
+    "BusinessAddress": {
+      "definition": "Adresse, an der die Geschäftstätigkeit ausgeübt wird."
+    },
+    "OperationalAddress": {
+      "definition": "Adresse, zum Beispiel eines Shared-Services-Centers."
+    },
+    "LegalAddress": {
+      "definition": "Adresse, an der die Einheit ansässig und registriert ist. Allgemeiner ist es die Heimatadresse (Wohnanschrift)."
+    },
+    "RepresentativeOfficer": {
+      "definition": "Person in der Organisation des Kunden, die vom kontoführenden Institut kontaktiert werden kann."
+    },
+    "TreasuryManager": {
+      "definition": "Für die Treasury-Abteilung einer Organisation verantwortliche Person."
+    },
+    "MainMandateHolder": {
+      "definition": "Person, die bestimmte Befugnisse an andere Personen (Mandatsinhaber) delegiert, um bestimmte Bankgeschäfte auf dem Konto durchzuführen."
+    },
+    "Sender": {
+      "definition": "Absender einer Nachricht zum Lebenszyklus eines Kontos."
+    }
+  }
+}

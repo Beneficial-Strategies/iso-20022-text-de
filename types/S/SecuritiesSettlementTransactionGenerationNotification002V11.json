@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesSettlementTransactionGenerationNotification002V11",
+  "definition": "Anwendungsbereich|Ein Kontoführer sendet eine SecuritiesSettlementTransactionGenerationNotification an einen Kontoinhaber, um den Kontoinhaber über eine Wertpapierabwicklungstransaktion zu informieren, die vom Kontoführer für den Kontoinhaber generiert/erstellt wurde. Der Grund für die Erstellung kann von der automatischen Umwandlung ausstehender Abwicklungsanweisungen nach einer Kapitalmaßnahme bis zur Wiederherstellung einer Transaktionsdatenbank des Kontoinhabers reichen, die von seinem Kontoführer veranlasst wird.|Die Beziehung zwischen Kontoführer und Kontoinhaber kann sein:|- ein Zentralverwahrer oder eine andere Abwicklungs-Marktinfrastruktur, die im Namen ihrer Teilnehmer handelt|- ein Agent (Unterverwahrer), der im Namen seines Global-Custodian-Kunden handelt, oder|- eine Depotbank, die im Namen eines Vermögensverwalters oder eines Brokers/Händlers handelt||Verwendung|Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden,|- einem Dritten eine Kopie einer Nachricht zur Information zur Verfügung zu stellen,|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu senden, unter Verwendung der entsprechenden Elemente im Business Application Header.",
+  "isoRules": {
+    "SettlementAmountRule": {
+      "definition": "Ist die Anweisung gegen Zahlung, so muss SettlementAmount vorhanden sein."
+    },
+    "ReceivingDepositoryAndParty1Rule": {
+      "definition": "Wenn die Anweisung eine Lieferung ist und keine Dauerabwicklungsanweisung gilt, müssen ReceivingDepository und Party1 vorhanden sein.|."
+    },
+    "AdditionalPhysicalOrRegistrationDetailsRule": {
+      "definition": "Wird AdditionalPhysicalOrRegistrationDetails verwendet, muss die Anweisung frei von Zahlung sein."
+    },
+    "DeliveringDepositoryAndParty1Rule": {
+      "definition": "Ist die Anweisung ein Empfang und gilt keine Standardabwicklungsanweisung, müssen DeliveringDepository und Party1 vorhanden sein."
+    },
+    "CurrencyToSellRule": {
+      "definition": "Wird CurrencytoSell verwendet, muss die Anweisung ein Empfang sein."
+    },
+    "CurrencyToBuyRule": {
+      "definition": "Wird CurrencytoBuy verwendet, muss die Anweisung eine Lieferung sein."
+    }
+  }
+}

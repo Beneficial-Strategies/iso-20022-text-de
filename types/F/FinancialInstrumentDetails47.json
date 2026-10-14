@@ -1,0 +1,15 @@
+{
+  "isoType": "FinancialInstrumentDetails47",
+  "definition": "Berichterstattung je Finanzinstrument.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Finanzinstrumente, die eine Summe von Rechten des Anlegers gegenüber dem Emittenten darstellen."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Elemente, die ein Finanzinstrument kennzeichnen."
+    },
+    "SubBalance": {
+      "definition": "Identifikation des Unterbestands."
+    }
+  }
+}

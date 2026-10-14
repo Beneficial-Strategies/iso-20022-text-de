@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification84Choice",
+  "definition": "Auswahl zwischen dem Namen und der Identifikation eines Kontos.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Zusätzliche Identifikation des Offenlegungskontos."
+    },
+    "Name": {
+      "definition": "Zusätzlicher Name des Offenlegungskontos."
+    }
+  }
+}

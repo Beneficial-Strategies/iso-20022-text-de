@@ -1,0 +1,12 @@
+{
+  "isoType": "DrawdownStatus1Choice",
+  "definition": "Auswahl von Formaten für einen Drawdown-Status.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückter Status."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückter Status."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "PaymentReturnReason8",
+  "definition": "Enthält weitere Details zum Grund der Rückgabe der Transaktion.",
+  "isoElements": {
+    "OriginalBankTransactionCode": {
+      "definition": "Im ursprünglichen Eintrag zur Transaktion enthaltener Banktransaktionscode."
+    },
+    "Originator": {
+      "definition": "Partei, die die Rückgabe veranlasst."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Rückgabe an."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Details zum Rückgabegrund."
+    }
+  },
+  "isoRules": {
+    "ReturnReasonRule": {
+      "definition": "Wenn Reason/Code gleich NARR ist, muss AdditionalInformation vorhanden sein."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "OptionStyle9Choice",
+  "definition": "Auswahl des Formats für den Optionsstil.",
+  "isoElements": {
+    "Code": {
+      "definition": "Optionsstil, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Optionsstil, ausgedrückt als proprietärer Code."
+    }
+  }
+}

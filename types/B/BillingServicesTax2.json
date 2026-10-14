@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingServicesTax2",
+  "definition": "Sieht regionale Steuern auf den Service vor.",
+  "isoElements": {
+    "Number": {
+      "definition": "Identifikationsnummer der spezifischen regionalen Steuer, die zur Berechnung der Steuer verwendet wird."
+    },
+    "Description": {
+      "definition": "Bezeichnung der Steuer (z. B. nationale Mehrwertsteuer)."
+    },
+    "Rate": {
+      "definition": "Satz zur Berechnung der Steuer."
+    },
+    "PricingAmount": {
+      "definition": "Betrag der Steuerschuld, ausgedrückt in der Preiswährung der Steuerregion."
+    }
+  }
+}

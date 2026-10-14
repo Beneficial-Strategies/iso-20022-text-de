@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxReason1",
+  "definition": "Grund, weshalb der Service besteuert wird.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund, weshalb der Service besteuert wird, in codierter Form."
+    },
+    "Explanation": {
+      "definition": "Grund, weshalb der Service besteuert wird, in Freitextform."
+    }
+  }
+}

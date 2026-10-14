@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxableIncomePerShareCalculated2Choice",
+  "definition": "Auswahl von Formaten für den berechneten steuerpflichtigen Ertrag je Anteil.",
+  "isoElements": {
+    "Code": {
+      "definition": "Berechneter steuerpflichtiger Ertrag je Anteil (TIS), ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Berechneter steuerpflichtiger Ertrag je Anteil (TIS), ausgedrückt als proprietärer Code."
+    }
+  }
+}

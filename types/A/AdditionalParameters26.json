@@ -1,0 +1,20 @@
+{
+  "isoType": "AdditionalParameters26",
+  "definition": "Gibt zusätzliche Parameter zur Nachricht oder Transaktion an.",
+  "isoElements": {
+    "PreConfirmation": {
+      "definition": "Legt fest, ob eine Vorabbestätigung vorliegt."
+    },
+    "PartialSettlement": {
+      "definition": "Gibt Informationen zur Teilabwicklung an."
+    },
+    "PreviousPartialConfirmationIdentification": {
+      "definition": "Identifikation der zuvor gesendeten Bestätigung zur Bestätigung der Teilabwicklung einer Transaktion."
+    }
+  },
+  "isoRules": {
+    "PartialSettlementGuideline": {
+      "definition": "Informationen zur Teilabwicklung gelten nur für Märkte, in denen Teilabwicklung zulässig ist.|Das Feld PartialSettlement sollte wie folgt verwendet werden:|- mit dem Code PAIN in der ersten Nachricht bzw. den ersten Nachrichten (es können mehrere sein), die die Teilabwicklung einer Anweisung bestätigen.|- mit dem Code PARC in der allerletzten Nachricht, die die Abwicklung des Restbetrags bestätigt.|Weitere Einzelheiten finden sich im entsprechenden Marktpraxisdokument unter www.smpg.info."
+    }
+  }
+}

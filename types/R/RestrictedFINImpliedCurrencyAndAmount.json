@@ -1,0 +1,4 @@
+{
+  "isoType": "RestrictedFINImpliedCurrencyAndAmount",
+  "definition": "Anzahl der in einer Währung angegebenen Geldeinheiten, wobei die Währungseinheit sich aus dem Kontext ergibt und ISO 4217 entspricht. Das Dezimaltrennzeichen ist ein Punkt.|Hinweis: Ein Betrag von null gilt als positiver Betrag."
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "OtherParties42",
+  "definition": "Informationen zu weiteren Parteien.",
+  "isoElements": {
+    "Investor": {
+      "definition": "Partei, entweder eine Einzelperson oder eine Organisation, deren Vermögenswerte angelegt werden."
+    },
+    "StockExchange": {
+      "definition": "Identifikation der Börse, an die die Transaktionsmeldung erfolgt."
+    },
+    "TradeRegulator": {
+      "definition": "Institution, an die ein Geschäft gemeldet werden muss."
+    }
+  },
+  "isoRules": {
+    "InvestorCountryCodeRule": {
+      "definition": "Wird Investor mit einem Ländercode verwendet, gibt der Ländercode die Staatsangehörigkeit des Anlegers an, zum Beispiel für die Abwicklung bestimmter Wertpapiere (das heißt Fluggesellschaften, Rüstungshersteller) nach EU-Recht."
+    }
+  }
+}

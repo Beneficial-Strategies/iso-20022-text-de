@@ -1,0 +1,12 @@
+{
+  "isoType": "TradingPartyCapacity3Choice",
+  "definition": "Auswahl des Formats für die Handelseigenschaft.",
+  "isoElements": {
+    "Code": {
+      "definition": "Handelseigenschaft, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Handelseigenschaft, ausgedrückt als proprietärer Code."
+    }
+  }
+}

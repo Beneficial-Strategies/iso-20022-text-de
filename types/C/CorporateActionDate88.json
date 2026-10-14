@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDate88",
+  "definition": "Gibt das Datum der Kapitalmaßnahme an.",
+  "isoElements": {
+    "CoverExpirationDeadline": {
+      "definition": "Letzter Tag, an dem ein Inhaber die Wertpapiere liefern kann, für die er sich entschieden und/oder die er zuvor gesichert hatte."
+    },
+    "TradingDate": {
+      "definition": "Datum und Uhrzeit, zu dem das Geschäft (die Rechte) vereinbart wurde."
+    }
+  }
+}

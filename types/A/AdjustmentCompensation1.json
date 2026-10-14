@@ -1,0 +1,30 @@
+{
+  "isoType": "AdjustmentCompensation1",
+  "definition": "Gibt die Entschädigung für eine Valutierungsanfrage an.",
+  "isoElements": {
+    "InitialAmount": {
+      "definition": "Für die Anfrage berechnete Entschädigung vor Hinzurechnung der Entgelte."
+    },
+    "DueCharges": {
+      "definition": "Dem ursprünglichen Betrag hinzugerechnete Entgelte."
+    },
+    "AmountDue": {
+      "definition": "Für die Anfrage geschuldete Entschädigung nach Hinzurechnung der Entgelte."
+    },
+    "CompensationAgent": {
+      "definition": "Finanzinstitut, das ein Konto für die Partei oder Bank führt, der die Entschädigung zusteht."
+    },
+    "CompensationAccount": {
+      "definition": "Konto, dem die Entschädigung zusteht."
+    },
+    "Period": {
+      "definition": "Zeitraum, für den die Entschädigung gilt."
+    },
+    "InterestRate": {
+      "definition": "Zinssatz eines Finanzinstruments, der zur Berechnung der Entschädigung verwendet wird."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Antwort auf die Valutierungsanfrage an."
+    }
+  }
+}

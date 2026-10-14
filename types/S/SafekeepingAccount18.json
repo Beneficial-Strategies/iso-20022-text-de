@@ -1,0 +1,41 @@
+{
+  "isoType": "SafekeepingAccount18",
+  "definition": "Identifikation und Informationen zu einem Wertpapierkonto und -bestand.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Wertpapierkontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Blockchain-Adresse oder Wallet, in der digitale Vermögenswerte gehalten werden. Dies entspricht dem Verwahrkonto für digitale Vermögenswerte."
+    },
+    "AccountOwner": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    },
+    "SubAccountIdentification": {
+      "definition": "Identifikation eines Unterkontos innerhalb des Verwahrkontos."
+    },
+    "InstructedBalance": {
+      "definition": "Menge der Wertpapiere im Teilsaldo."
+    },
+    "RightsHolder": {
+      "definition": "Inhaber der Stimmrechte."
+    }
+  },
+  "isoRules": {
+    "RightsHolderMultiplicity1Guideline": {
+      "definition": "Es wird empfohlen, RightsHolder nur dann mehrfach anzugeben, wenn Miteigentum besteht."
+    },
+    "BalanceQall1Rule": {
+      "definition": "Wenn SubAccountIdentification vorhanden ist, ist InstructedBalance/Balance/Quantity/Code \"QALL\" (AllSecurities) in keinem Vorkommen von InstructedBalance zulässig."
+    },
+    "AccountIdentificationOrBlockChainAddress1Rule": {
+      "definition": "Entweder AccountIdentification oder BlockChainAddressOrWallet muss vorhanden sein, aber nicht beide."
+    },
+    "AccountIdentificationOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, dann darf AccountIdentification nicht vorhanden sein."
+    },
+    "AccountIdentificationOrBlockChainAddress3Rule": {
+      "definition": "Wenn AccountIdentification vorhanden ist, dann darf BlockChainAddressOrWallet nicht vorhanden sein."
+    }
+  }
+}

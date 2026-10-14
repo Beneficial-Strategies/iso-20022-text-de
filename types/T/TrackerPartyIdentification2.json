@@ -1,0 +1,15 @@
+{
+  "isoType": "TrackerPartyIdentification2",
+  "definition": "Gibt die Identifikation einer Person, einer Organisation oder eines Finanzinstituts im Tracker an.",
+  "isoElements": {
+    "Name": {
+      "definition": "Name, unter dem eine Partei bekannt ist und der üblicherweise zur Identifikation dieser Partei verwendet wird."
+    },
+    "PostalAddress": {
+      "definition": "Informationen, die eine bestimmte Adresse lokalisieren und identifizieren, wie von den Postdiensten definiert."
+    },
+    "Identification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation einer Partei."
+    }
+  }
+}

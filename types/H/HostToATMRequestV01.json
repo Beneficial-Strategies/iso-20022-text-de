@@ -1,0 +1,4 @@
+{
+  "isoType": "HostToATMRequestV01",
+  "definition": "Die Nachricht HostToATMRequest wird von einem Host an einen ATM gesendet, um den ATM aufzufordern, durch das Senden von Wartungsnachrichten einen Host zu kontaktieren."
+}

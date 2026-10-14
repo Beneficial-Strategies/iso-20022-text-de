@@ -1,0 +1,18 @@
+{
+  "isoType": "Entry2Code",
+  "definition": "Gibt die Art eines Eintrags in einem Bericht an.",
+  "isoCodes": {
+    "TRIA": {
+      "name": "Test",
+      "definition": "Probe-Einzahlungsplan."
+    },
+    "OFFI": {
+      "name": "Offiziell",
+      "definition": "Offizieller Einzahlungsplan."
+    },
+    "REQU": {
+      "name": "Angefordert",
+      "definition": "Einzahlungsplan auf Anfrage."
+    }
+  }
+}

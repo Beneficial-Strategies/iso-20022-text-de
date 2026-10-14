@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyAmountBreakdown1",
+  "definition": "Gibt die Aufschlüsselung der Strafzahlung in Teilbeträge an.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Pro Betragsart definierter Strafbetrag."
+    },
+    "Type": {
+      "definition": "Betragsart für die Aufschlüsselung der Strafzahlung."
+    }
+  }
+}

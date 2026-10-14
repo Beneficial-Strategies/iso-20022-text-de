@@ -1,0 +1,26 @@
+{
+  "isoType": "AgentRole2Code",
+  "definition": "Gibt die Rolle des Beauftragten an.",
+  "isoCodes": {
+    "SPAY": {
+      "name": "Systemzahlstelle",
+      "definition": "Der System Paying Agent (SPA) ist die Partei innerhalb des CSD, die für die Verteilung von Bar- und Wertpapiererlösen im Zusammenhang mit einer bestimmten Ausschüttung an andere CSD-Parteien verantwortlich ist."
+    },
+    "CODO": {
+      "name": "Gemeinsamer Sitz",
+      "definition": "Unterbeauftragter, der damit betraut wurde, die Zahlung für das Kapitalmaßnahmenereignis im Namen des Emittenten/Anbieters auszuführen."
+    },
+    "ISAG": {
+      "name": "Emittentenagent",
+      "definition": "Partei, die damit beauftragt ist, das Ereignis im Namen des emittierenden Unternehmens/Anbieters abzuwickeln. Die Partei kann für weitere Informationen zum Ereignis kontaktiert werden."
+    },
+    "REGR": {
+      "name": "Registerführer",
+      "definition": "Partei/Beauftragter, der für die Führung des Registers eines Wertpapiers verantwortlich ist."
+    },
+    "PAYA": {
+      "name": "Zahlstelle",
+      "definition": "Agent (Haupt- oder Fiskalzahlstelle), der damit beauftragt ist, die Zahlung für das Kapitalmaßnahmen-Ereignis im Namen des emittierenden Unternehmens/Anbieters auszuführen."
+    }
+  }
+}

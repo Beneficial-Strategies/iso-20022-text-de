@@ -1,0 +1,12 @@
+{
+  "isoType": "Limit5",
+  "definition": "Einzelheiten zu den Limits.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag des Limits, ausgedrückt in einer zulässigen Währung."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob ein Limit ein Lastschrift- oder ein Gutschriftlimit ist."
+    }
+  }
+}

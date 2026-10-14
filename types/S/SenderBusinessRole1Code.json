@@ -1,0 +1,14 @@
+{
+  "isoType": "SenderBusinessRole1Code",
+  "definition": "Gibt an, ob ein Kontoinhaber oder ein Kontoführer die Nachricht sendet.",
+  "isoCodes": {
+    "AOWN": {
+      "name": "Kontoinhaber",
+      "definition": "Der Absender ist der Inhaber des Verwahrkontos. Der Absender legt dem Empfänger die Aufschlüsselung der zugrunde liegenden Eigentümer der Bestände des Absenders offen."
+    },
+    "ASER": {
+      "name": "Kontoführer",
+      "definition": "Der Absender ist der Kontoführer eines Kontos, das dem Empfänger gehört."
+    }
+  }
+}

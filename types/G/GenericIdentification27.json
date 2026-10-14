@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericIdentification27",
+  "definition": "Informationen zu einer Identifikation, z. B. Identifikation einer Partei oder eines Kontos.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Von einem Institut vergebene Identifikation."
+    },
+    "SchemeName": {
+      "definition": "Name des Identifikationsschemas."
+    },
+    "Issuer": {
+      "definition": "Stelle, die die Identifikation vergibt."
+    }
+  }
+}

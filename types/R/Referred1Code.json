@@ -1,0 +1,18 @@
+{
+  "isoType": "Referred1Code",
+  "definition": "Gibt an, ob der Anleger vermittelt wurde.",
+  "isoCodes": {
+    "REFR": {
+      "name": "Vermittelt",
+      "definition": "Der Anleger wurde dem Fonds von einem Platzierungsagenten vermittelt."
+    },
+    "NRFR": {
+      "name": "Nicht vermittelt",
+      "definition": "Der Anleger wurde dem Fonds nicht von einem Platzierungsagenten vermittelt."
+    },
+    "UKNW": {
+      "name": "Nicht bekannt",
+      "definition": "Es ist nicht bekannt, ob der Anleger dem Fonds von einem Platzierungsagenten vermittelt wurde."
+    }
+  }
+}

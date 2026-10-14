@@ -1,0 +1,18 @@
+{
+  "isoType": "CounterpartyResponseStatusReason1Code",
+  "definition": "Gibt die Art der Maßnahme der Gegenpartei an, auf die sich die Antwort bezieht.",
+  "isoCodes": {
+    "CPTR": {
+      "name": "Transaktion der Gegenpartei",
+      "definition": "Gibt an, dass sich die Antwort auf eine Behauptung (Allegement) der Gegenpartei bezieht."
+    },
+    "CPCX": {
+      "name": "Stornierung der Gegenpartei",
+      "definition": "Gibt an, dass sich die Antwort auf den Stornierungsauftrag der Gegenpartei bezieht."
+    },
+    "CPMD": {
+      "name": "Änderung der Gegenpartei",
+      "definition": "Gibt an, dass sich die Antwort auf den Änderungsauftrag der Gegenpartei bezieht."
+    }
+  }
+}

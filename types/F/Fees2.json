@@ -1,0 +1,17 @@
+{
+  "isoType": "Fees2",
+  "definition": "Geldbetrag im Zusammenhang mit einer Dienstleistung.",
+  "isoElements": {
+    "CommercialAgreementReference": {
+      "definition": "Referenz auf die zwischen dem Fonds und einer anderen Partei getroffene Vereinbarung. Dieses Element legt unter anderem die Provisionsbedingungen fest."
+    },
+    "IndividualFee": {
+      "definition": "Einzelne Gebühr (Entgelt/Provision)."
+    }
+  },
+  "isoRules": {
+    "FeeTaxElementRule": {
+      "definition": "Eines der Elemente (CommercialAgreementReference, IndividualFee, IndividualTax) muss vorhanden sein."
+    }
+  }
+}

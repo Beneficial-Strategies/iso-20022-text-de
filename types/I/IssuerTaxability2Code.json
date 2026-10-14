@@ -1,0 +1,10 @@
+{
+  "isoType": "IssuerTaxability2Code",
+  "definition": "Gibt an, ob die Erlöse der Kapitalmaßnahme auf Emittentenebene steuerpflichtig sind.",
+  "isoCodes": {
+    "TXBL": {
+      "name": "Steuerpflichtig",
+      "definition": "Die betreffenden Erlöse sind steuerpflichtig."
+    }
+  }
+}

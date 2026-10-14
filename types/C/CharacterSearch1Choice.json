@@ -1,0 +1,18 @@
+{
+  "isoType": "CharacterSearch1Choice",
+  "definition": "Zeichenmenge, die zutreffen muss, damit der Wert als gültig gilt.",
+  "isoElements": {
+    "Equal": {
+      "definition": "Genaue Zeichenmenge, die zutreffen muss, damit der Wert als gültig gilt."
+    },
+    "NotEqual": {
+      "definition": "Genaue Zeichenmenge, die nicht zutreffen darf, damit der Wert als gültig gilt."
+    },
+    "Contain": {
+      "definition": "Zeichenmenge, die zutreffen muss, damit der Wert als gültig gilt."
+    },
+    "NotContain": {
+      "definition": "Zeichenmenge, die nicht zutreffen darf, damit der Wert als gültig gilt."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "RatioFormat2Choice",
+  "definition": "Auswahl des Formats zur Angabe eines Verhältnisses.",
+  "isoElements": {
+    "QuantityToQuantity": {
+      "definition": "Das Verhältnis wird als Menge pro andere Menge angegeben."
+    },
+    "AmountToAmount": {
+      "definition": "Das Verhältnis wird als Betrag pro anderer Betrag angegeben."
+    },
+    "AmountToQuantity": {
+      "definition": "Das Verhältnis wird als Betrag pro Menge angegeben."
+    },
+    "QuantityToAmount": {
+      "definition": "Das Verhältnis wird als Menge pro Betrag angegeben."
+    },
+    "NotSpecifiedRate": {
+      "definition": "Der Wert des Verhältnisses ist nicht angegeben."
+    }
+  }
+}

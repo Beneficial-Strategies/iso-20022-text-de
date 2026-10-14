@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMConfigurationReportV01",
+  "definition": "Der ATMConfigurationReport wird von einem ATM an einen Wartungshost gesendet, um die Version der aktiven Konfiguration zu melden."
+}

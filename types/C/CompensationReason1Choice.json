@@ -1,0 +1,12 @@
+{
+  "isoType": "CompensationReason1Choice",
+  "definition": "Gibt den Grund für die Zahlungsausgleichszahlung an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für die Zahlungsausgleichszahlung in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Grund für die Zahlungsausgleichszahlung in proprietärer Form."
+    }
+  }
+}

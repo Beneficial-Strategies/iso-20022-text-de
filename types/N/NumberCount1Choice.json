@@ -1,0 +1,17 @@
+{
+  "isoType": "NumberCount1Choice",
+  "definition": "Auswahl der Art der Nummernzählung.",
+  "isoElements": {
+    "CurrentInstructionNumber": {
+      "definition": "Laufende Nummer der Anweisung innerhalb einer Reihe verknüpfter Abwicklungsanweisungen."
+    },
+    "TotalNumber": {
+      "definition": "Gesamtanzahl der Abwicklungstransaktionen, Eingänge und Lieferungen sowie die betreffende Nummer der Abwicklungstransaktion."
+    }
+  },
+  "isoRules": {
+    "CurrentInstructionNumberRule": {
+      "definition": "Möchte der Absender angeben, dass diese Anweisung mit einer oder mehreren Abwicklungsanweisungen verknüpft ist, so muss CurrentInstructionNumber angegeben werden."
+    }
+  }
+}

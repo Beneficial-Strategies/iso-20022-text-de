@@ -1,0 +1,14 @@
+{
+  "isoType": "ExternalSecuritiesStatementType1Code",
+  "definition": "Gibt an, ob der Auszug ein Rechnungswesen- oder ein Verwahrungsauszug ist.|Die Liste der gültigen Codes ist ein extern gepflegter Codesatz, der gesondert veröffentlicht wird.|Externe Codesätze können unter www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "RGAD": {
+      "name": "Namen und Anschrift des eingetragenen Inhabers",
+      "definition": "Der Auszug ist ein Auszug der Namen und Anschriften der eingetragenen Inhaber."
+    },
+    "SRNR": {
+      "name": "Referenznummer des Wertpapierinhabers und Registrierung",
+      "definition": "Der Auszug ist ein Auszug der Referenznummern der Wertpapierinhaber und der Registrierung."
+    }
+  }
+}

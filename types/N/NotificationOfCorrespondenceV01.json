@@ -1,0 +1,4 @@
+{
+  "isoType": "NotificationOfCorrespondenceV01",
+  "definition": "Anwendungsbereich|Die Nachricht NotificationOfCorrespondence wird vom Absender an den Empfänger gesendet, um ihn über ein Ereignis oder eine Information zu unterrichten, die beide Parteien betrifft.||Verwendung|Die Nachricht NotificationOfCorrespondence darf nur verwendet werden, um Ereignisse oder Informationen mitzuteilen, bei denen der Absender keine Antwort des Empfängers erwartet."
+}

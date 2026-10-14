@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxVoucher5",
+  "definition": "Gibt Steuerbescheinigungen im Rahmen eines Ereignisses der Kapitalmaßnahme an.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Referenz der Steuerbescheinigung, die von den zuständigen Steuerbehörden verlangt wird, um sicherzustellen, dass ein Anspruch im Zusammenhang mit dieser bestimmten Steuerbescheinigung nicht doppelt geltend gemacht werden kann."
+    },
+    "BargainDate": {
+      "definition": "Datum, an dem ein Wiederanlagekauf einer Dividende abgeschlossen wurde. Ist nur ein Abschluss beteiligt, muss die Uhrzeit des Abschlusses angegeben werden."
+    },
+    "BargainSettlementDate": {
+      "definition": "Abwicklungsdatum der Wiederanlagekauf-Transaktion der Dividende."
+    }
+  }
+}

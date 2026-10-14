@@ -1,0 +1,65 @@
+{
+  "isoType": "CorporateActionOption243",
+  "definition": "Liefert Informationen zur Kapitalmaßnahmen-Option.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "OptionFeatures": {
+      "definition": "Gibt die Merkmale an, die für eine Kapitalmaßnahmen-Option gelten können."
+    },
+    "FractionDisposition": {
+      "definition": "Gibt an, wie Bruchteilbeträge/-mengen behandelt werden."
+    },
+    "ChangeType": {
+      "definition": "Art der Änderungen, die die Form des Wertpapiers betreffen."
+    },
+    "EligibleForCollateralIndicator": {
+      "definition": "Gibt an, dass die Kapitalmaßnahmen-Anweisung unter Verwendung des Pools „Available-for-Collateral“ zu verarbeiten ist."
+    },
+    "SolicitationDealerFeeIndicator": {
+      "definition": "Gibt an, ob für das Ereignis eine Akquisitionsgebühr (Solicitation Fee) anfällt. Diese Gebühr wird vom akquirierenden Händler gezahlt."
+    },
+    "CurrencyToBuy": {
+      "definition": "Die kontoführende Stelle wird angewiesen, nach Eingang der Barerlöse die angegebene Währung zu kaufen."
+    },
+    "CurrencyToSell": {
+      "definition": "Die kontoführende Stelle wird angewiesen, die angegebene Währung zu verkaufen, um die erforderliche Währung zur Finanzierung der Transaktion innerhalb dieser Anweisungsnachricht zu erhalten."
+    },
+    "CurrencyOption": {
+      "definition": "Währung, in der Barerlöse gutzuschreiben oder zu belasten sind."
+    },
+    "SecurityIdentification": {
+      "definition": "Identifiziert das Finanzinstrument."
+    },
+    "SecuritiesQuantityOrInstructedAmount": {
+      "definition": "Liefert Informationen zur Wertpapiermenge im Zusammenhang mit einer Kapitalmaßnahmen-Option."
+    },
+    "ExecutionRequestedDateTime": {
+      "definition": "Datum/Uhrzeit, zu dem die anweisende Partei die Ausführung der Anweisung verlangt."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Liefert Informationen zu Sätzen und Beträgen einer Kapitalmaßnahmen-Option."
+    },
+    "PriceDetails": {
+      "definition": "Liefert Informationen zu den Preisen einer Kapitalmaßnahmen-Option."
+    },
+    "ShareholderNumber": {
+      "definition": "Referenznummer, die zur Identifikation eines Anlegers oder Aktionärs beim Emittenten oder beim Registerführer vergeben wird (zum Beispiel Zuteilungscode)."
+    },
+    "AdditionalInformation": {
+      "definition": "Liefert zusätzliche Informationen."
+    }
+  },
+  "isoRules": {
+    "OptionNumber1Rule": {
+      "definition": "Zur Unterscheidung zwischen Optionen muss die OptionNumber statt des OptionType verwendet werden, zum Beispiel wenn zwei oder mehr Angebote durch denselben Kapitalmaßnahmen-Optionscode beschrieben werden können. Daher muss der Wert von OptionNumber für jede Option unterschiedlich sein."
+    },
+    "OptionNumber2Rule": {
+      "definition": "Wenn die CorporateActionInstruction nicht angefordert ist, das heißt, ihr ging keine Corporate ActionNotification voraus, muss OptionNumber/code UNSO (unsolicited) sein."
+    }
+  }
+}

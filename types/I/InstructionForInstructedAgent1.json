@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForInstructedAgent1",
+  "definition": "Weitere Informationen zur Verarbeitung der Entgeltanweisung, die von der angewiesenen Bank gegebenenfalls zu beachten sind. Die Anweisung kann sich auf eine von der angewiesenen Bank auszuführende Anweisung beziehen oder eine von der angewiesenen Bank benötigte Information darstellen.",
+  "isoElements": {
+    "Code": {
+      "definition": "Codierte Informationen zur Verarbeitung der Zahlungsanweisung, die von der initiierenden Partei bereitgestellt werden und für die angewiesene Bank bestimmt sind."
+    },
+    "InstructionInformation": {
+      "definition": "Weitere Informationen, die die codierte Anweisung oder die Anweisung an die angewiesene Bank ergänzen und bilateral vereinbart oder für eine Nutzergemeinschaft spezifisch sind."
+    }
+  }
+}

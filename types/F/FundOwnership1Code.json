@@ -1,0 +1,14 @@
+{
+  "isoType": "FundOwnership1Code",
+  "definition": "Gibt an, ob alle Anteile ausschließlich im Eigentum der Fondsgesellschaft stehen.",
+  "isoCodes": {
+    "YALL": {
+      "name": "Vollständig im Eigentum",
+      "definition": "Alle Anteile im Eigentum."
+    },
+    "NALL": {
+      "name": "Nicht vollständig im Eigentum",
+      "definition": "Nicht alle Anteile im Eigentum."
+    }
+  }
+}

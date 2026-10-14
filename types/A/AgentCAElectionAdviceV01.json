@@ -1,0 +1,15 @@
+{
+  "isoType": "AgentCAElectionAdviceV01",
+  "definition": "Umfang|Diese Nachricht wird von einem CSD an den Emittenten (oder dessen Agenten) gesendet, um Informationen zu den Wahlanweisungen der Kunden, den Registrierungsdetails, den Lieferdetails usw. zu übermitteln. Bei einer Wahl mit zugrunde liegenden Ressourcenbewegungen bestätigt sie zudem, dass diese abgeschlossen wurden. Diese Nachricht kann auch im Falle einer Änderung einer Wahl gesendet werden, sobald der CSD die erforderlichen Ressourcenbewegungen abgeschlossen hat.|Verwendung|Diese Nachricht kann für eine neue Wahlmitteilung oder eine geänderte Wahlmitteilung verwendet werden.|Wird diese Nachricht für eine neue Wahlmitteilung verwendet, muss die Funktion der Nachricht 'neue Wahl' sein.|Wird diese Nachricht für eine geänderte Wahlmitteilung verwendet, muss die Funktion der Nachricht 'Optionsänderung' sein und die Identifikation der zuvor gesendeten Wahlmitteilung muss vorhanden sein.|Diese Nachricht kann bei einer Wahl mit zugrunde liegenden Ressourcenbewegungen die Geld- und/oder Wertpapierbewegungen enthalten. Zusätzlich kann diese Nachricht Angaben zu Lieferung, Bescheinigung und wirtschaftlich Berechtigtem enthalten.|Hinweis: Diese Informationen können auch separat in der Nachricht Agent Corporate Action Information Advice gesendet werden.",
+  "isoRules": {
+    "OptionTypeRule": {
+      "definition": "Wenn ElectionDetails/OptionType vorhanden ist, ist OptionType in keinem Vorkommen von ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails und/oder ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails zulässig.||Wenn ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails/OptionType mindestens einmal vorhanden ist und/oder ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails/OptionType mindestens einmal vorhanden ist, ist ElectionDetails/CorporateActionOptionType nicht zulässig."
+    },
+    "OptionNumberRule": {
+      "definition": "Wenn ElectionDetails/OptionNumber vorhanden ist, ist OptionNumber in keinem Vorkommen von ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails und/oder ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails zulässig.||Wenn ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails/OptionNumber mindestens einmal vorhanden ist und/oder ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails/OptionNumber mindestens einmal vorhanden ist, ist ElectionDetails/CorporateActionOptionNumber nicht zulässig."
+    },
+    "ElectionType2Rule": {
+      "definition": "Wenn ElectionAdviceTypeAndLinkages/ElectionType CHAN ist, müssen ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails/OptionNumber, ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails/OptionType, ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails/OptionNumber und ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails/OptionType vorhanden sein."
+    }
+  }
+}

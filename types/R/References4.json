@@ -1,0 +1,15 @@
+{
+  "isoType": "References4",
+  "definition": "Gruppe von Elementen zur Identifikation der Nachricht und zugehöriger Referenzen.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identifiziert eine Nachricht durch eine eindeutige Kennung sowie durch Datum und Uhrzeit, zu denen die Nachricht vom Sender erstellt wurde."
+    },
+    "ProcessIdentification": {
+      "definition": "Identifiziert einen Prozess durch eine eindeutige Kennung sowie durch Datum und Uhrzeit, zu denen die erste zum Prozess gehörende Nachricht vom Sender erstellt wurde. Die Prozessidentifikation bleibt in allen Nachrichten desselben Prozesses gleich, von der ursprünglichen Anfragenachricht bis zum abschließenden Kontobericht, der den Prozess beendet."
+    },
+    "AttachedDocumentName": {
+      "definition": "Dateiname eines Dokuments, das logisch mit der Anfrage zusammenhängt."
+    }
+  }
+}

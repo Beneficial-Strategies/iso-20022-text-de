@@ -1,0 +1,15 @@
+{
+  "isoType": "MemberSearchCriteria4",
+  "definition": "Legt die Kriterien fest, nach denen ein Teilnehmer gesucht wird.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation eines Mitglieds innerhalb eines Systems, vergeben anhand des Mitgliedsidentifikationsschemas des Systems."
+    },
+    "Type": {
+      "definition": "Art der Beziehung, die ein Teilnehmer zu einem System hat."
+    },
+    "Status": {
+      "definition": "Status eines Teilnehmers in einem System, zum Beispiel freigeschaltet oder gelöscht."
+    }
+  }
+}

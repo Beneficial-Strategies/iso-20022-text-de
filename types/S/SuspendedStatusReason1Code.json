@@ -1,0 +1,14 @@
+{
+  "isoType": "SuspendedStatusReason1Code",
+  "definition": "Gibt den Grund an, weshalb die Transaktion bzw. Anweisung ausgesetzt ist.",
+  "isoCodes": {
+    "SUBY": {
+      "name": "Von Ihnen ausgesetzt",
+      "definition": "Die Transaktion bzw. Anweisung ist aufgrund Ihrer früheren Aussetzungsanweisung ausgesetzt."
+    },
+    "SUBS": {
+      "name": "Vom System ausgesetzt",
+      "definition": "Die Transaktion bzw. Anweisung ist aufgrund einer Aussetzungsanweisung des Systems ausgesetzt."
+    }
+  }
+}

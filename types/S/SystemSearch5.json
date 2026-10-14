@@ -1,0 +1,18 @@
+{
+  "isoType": "SystemSearch5",
+  "definition": "Suche nach einem System und einem Mitglied eines Systems.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identifikation eines bestimmten Geldclearingsystems."
+    },
+    "MemberIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation eines Mitglieds innerhalb eines Systems, vergeben anhand des Mitgliedsidentifikationsschemas des Systems."
+    },
+    "Country": {
+      "definition": "Land, in dem sich das System befindet."
+    },
+    "AccountIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Kontos zwischen dem Kontoinhaber und der kontoführenden Stelle."
+    }
+  }
+}

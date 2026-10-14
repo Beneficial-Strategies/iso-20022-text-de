@@ -1,0 +1,131 @@
+{
+  "isoType": "InvestmentAccount73",
+  "definition": "Informationen zu einem Wertpapierkonto und seinen Merkmalen.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "Name": {
+      "definition": "Name des Kontos. Er dient als zusätzliches Identifikationsmittel und wird vom kontoführenden Institut in Absprache mit dem Kontoinhaber festgelegt."
+    },
+    "Designation": {
+      "definition": "Ergänzende Registrierungsinformationen, die für einen bestimmten Block von Anteilen zu Handels- und Meldezwecken gelten. Die ergänzenden Registrierungsinformationen können verwendet werden, wenn alle Anteile beispielsweise auf einen Fondssupermarkt registriert sind, die Bestände der einzelnen Anleger jedoch individuell abgestimmt werden müssen."
+    },
+    "Type": {
+      "definition": "Kontoart."
+    },
+    "OwnershipType": {
+      "definition": "Eigentumsstatus des Kontos, zum Beispiel gemeinschaftliche Inhaber."
+    },
+    "TaxExemption": {
+      "definition": "Steuervorteil, der für das Konto gilt."
+    },
+    "StatementFrequency": {
+      "definition": "Häufigkeit, mit der ein Auszug erstellt wird."
+    },
+    "ReferenceCurrency": {
+      "definition": "Vom Kontoinhaber in Abstimmung mit dem Kontoführer für Meldezwecke gewählte Währung."
+    },
+    "Language": {
+      "definition": "Sprache für die gesamte Kommunikation zum Konto."
+    },
+    "IncomePreference": {
+      "definition": "Vom Kontoinhaber anhand der im Prospekt angebotenen Optionen gewählte Dividendenoption."
+    },
+    "ReinvestmentDetails": {
+      "definition": "Gibt für wiederanzulegende Erträge des Fonds oder Wertpapiers die Parameter der Wiederanlage an. Beträgt der Wiederanlageprozentsatz weniger als hundert Prozent, wird der verbleibende Prozentsatz gemäß den nachfolgenden Anweisungen des Anlegers oder Kontoinhabers angelegt."
+    },
+    "TaxWithholdingMethod": {
+      "definition": "Verfahren, nach dem die Steuer (Quellensteuer) zu behandeln ist, das heißt entweder an der Quelle einbehalten oder Steuerinformationen werden den Steuerbehörden gemeldet oder Steuerinformationen werden aufgrund der Vorlage einer Steuerbescheinigung gemeldet."
+    },
+    "TaxReporting": {
+      "definition": "Einzelheiten zur Steuermeldung, beispielsweise das Land der Besteuerung."
+    },
+    "LetterIntentDetails": {
+      "definition": "Einzelheiten zur Absichtserklärung (Letter of Intent)."
+    },
+    "AccumulationRightReference": {
+      "definition": "Referenz eines Programms für Mengenrabatte (Accumulation Rights Program), bei dem Verkaufsprovisionen auf den aktuellen Käufen von Anteilen eines Kunden und der zuvor vom Kunden erworbenen Gesamtmenge basieren. Ein solches Programm wird hauptsächlich im US-Markt verwendet."
+    },
+    "RequiredSignatoriesNumber": {
+      "definition": "Anzahl der Kontoinhaber oder verbundenen Parteien, die zur Autorisierung von Transaktionen auf dem Konto erforderlich sind."
+    },
+    "FundFamilyName": {
+      "definition": "Name der Investmentfondsfamilie."
+    },
+    "FinancialInstrumentDetails": {
+      "definition": "Detaillierte Informationen zum dem Konto zugeordneten Investmentfonds oder Wertpapier."
+    },
+    "RoundingDetails": {
+      "definition": "Parameter, die auf den Abschlussbetrag bei Aufträgen anzuwenden sind, wenn der Betrag eine Bruchzahl ist."
+    },
+    "AccountServicer": {
+      "definition": "Partei, die das Konto im Auftrag des Kontoinhabers führt, das heißt die Erfassung und Buchung von Umsätzen auf dem Konto verwaltet, die Salden des Kontos berechnet und Informationen über das Konto bereitstellt."
+    },
+    "BlockedStatus": {
+      "definition": "Gibt an, dass das Konto gesperrt ist, sowie weitere Faktoren des gesperrten Kontos."
+    },
+    "AccountUsageType": {
+      "definition": "Art der Verwendung des Kontos."
+    },
+    "ForeignStatusCertification": {
+      "definition": "Gibt an, ob für den Gebietsfremden ein Nachweis erbracht wurde."
+    },
+    "AccountSignatureDateTime": {
+      "definition": "Datum, an dem der Anleger oder Kontoinhaber das Kontoeröffnungsformular unterzeichnet."
+    },
+    "TransactionChannelType": {
+      "definition": "Weg, auf dem der Anleger oder Kontoinhaber das Kontoeröffnungsformular einreicht."
+    },
+    "InvestmentAccountCategory": {
+      "definition": "Kategorie des Kontos."
+    },
+    "Pledging": {
+      "definition": "Gibt an, ob die Bestände im Konto für eine Verpfändung zulässig sind."
+    },
+    "Collateral": {
+      "definition": "Gibt an, ob die Bestände im Konto als Sicherheit verwendet werden."
+    },
+    "ThirdPartyRights": {
+      "definition": "Einzelheiten zu Rechten Dritter."
+    },
+    "PowerOfAttorneyLevelOfControl": {
+      "definition": "Funktionalität, die einem Dritten bei den Handlungen zugestanden wird, die im Namen des Anlegers auf einem Konto vorgenommen werden dürfen."
+    },
+    "AccountingStatus": {
+      "definition": "Gibt an, ob das Konto für Meldezwecke als inländisch oder nicht inländisch gilt."
+    },
+    "OpeningDate": {
+      "definition": "Rechtliches Eröffnungsdatum des Kontos."
+    },
+    "ClosingDate": {
+      "definition": "Rechtliches Schließungsdatum des Kontos."
+    },
+    "NegativeIndicator": {
+      "definition": "Gibt an, ob das Konto eine negative Position in einem Wertpapier halten kann."
+    },
+    "ProcessingOrder": {
+      "definition": "Reihenfolge, in der Wertpapiere vom Konto abgebucht werden."
+    },
+    "Liability": {
+      "definition": "Gibt an, ob der Anleger die Verantwortung für die Verbindlichkeit übernimmt."
+    },
+    "InvestorProfile": {
+      "definition": "Informationen zur Bestimmung der Gebühren und der Arten von Vorgängen, die auf dem Konto ausgeführt werden können."
+    },
+    "FiscalYear": {
+      "definition": "Geschäftsjahr, wenn es nicht dem Kalenderjahr entspricht."
+    }
+  },
+  "isoRules": {
+    "FinancialInstrumentDetailsGuideline": {
+      "definition": "FinancialInstrumentDetails kann vorhanden sein, wenn dem Anlagekonto ein einzelner Investmentfonds zugeordnet ist. Sind dem Anlagekonto mehrere Investmentfonds zugeordnet, sollte nur der FundFamilyName angegeben werden."
+    },
+    "ReinvestmentPercentage1Rule": {
+      "definition": "Die Summe aller Vorkommen von ReinvestmentDetails/ReinvestmentPercentage darf nicht größer als 100 sein."
+    },
+    "IncomePreferenceReinvestment1Rule": {
+      "definition": "Wenn IncomePreference CASH (Cash) ist, ist ReinvestmentDetails nicht zulässig."
+    }
+  }
+}

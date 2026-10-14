@@ -1,0 +1,12 @@
+{
+  "isoType": "MessageIdentification1",
+  "definition": "Identifiziert eine Nachricht durch eine eindeutige Kennung sowie durch Datum und Uhrzeit, zu denen die Nachricht vom Sender erstellt wurde.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Nachricht."
+    },
+    "CreationDateTime": {
+      "definition": "Erstellungsdatum der Nachricht."
+    }
+  }
+}

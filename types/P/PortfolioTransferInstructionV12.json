@@ -1,0 +1,21 @@
+{
+  "isoType": "PortfolioTransferInstructionV12",
+  "definition": "Anwendungsbereich|Die Nachricht PortfolioTransferInstruction wird von einer anweisenden Partei, zum Beispiel einem (neuen) Planverwalter (Übertragungsempfänger), im Namen der initiierenden Partei, zum Beispiel eines Anlegers (Kunde), an die ausführende Partei, zum Beispiel einen (alten) Planverwalter (Übertragender), gesendet, um die Übertragung von Finanzinstrumenten vom Konto des Kunden beim alten Planverwalter (Übertragender) auf das Konto des Kunden beim neuen Planverwalter (Übertragungsempfänger) anzuweisen. |Verwendung|Die Nachricht PortfolioTransferInstruction wird verwendet, um eine oder mehrere Portfolioübertragungen für einen Kunden anzuweisen. Jede Portfolioübertragung erfolgt zur Lieferung auf dasselbe Konto. Das Konto kann einem oder mehreren Privatanlegern oder einem oder mehreren Unternehmensanlegern gehören.|Verfügt die anweisende Partei nicht über ausreichende Informationen, um die Portfolioübertragung anzuweisen, muss sie zunächst eine Nachricht AccountHoldingInformationRequest an die ausführende Partei senden, um eine Nachricht AccountHoldingInformation zu erhalten.",
+  "isoRules": {
+    "NomineeAccountServicerRule": {
+      "definition": "NomineeAccount/Servicer muss genau dann vorhanden sein, wenn es sich von TransferorAccount/Servicer unterscheidet."
+    },
+    "Investor1Rule": {
+      "definition": "Wenn PrimaryIndividualInvestor nicht vorhanden ist, dann ist SecondaryIndividualInvestor nicht zulässig.|Wenn PrimaryIndividualInvestor vorhanden ist, dann kann SecondaryIndividualInvestor vorhanden sein."
+    },
+    "Investor2Rule": {
+      "definition": "Wenn PrimaryIndividualInvestor nicht vorhanden ist, dann ist OtherIndividualInvestor nicht zulässig. |Wenn PrimaryIndividualInvestor vorhanden ist, dann kann OtherIndividualInvestor vorhanden sein."
+    },
+    "Corporate2Rule": {
+      "definition": "Wenn PrimaryCorporateInvestor nicht vorhanden ist, dann ist OtherCorporateInvestor nicht zulässig.|Wenn PrimaryCorporateInvestor vorhanden ist, dann kann OtherCorporateInvestor vorhanden sein."
+    },
+    "Corporate1Rule": {
+      "definition": "Wenn PrimaryCorporateInvestor nicht vorhanden ist, dann ist SecondaryCorporateInvestor nicht zulässig.|Wenn PrimaryCorporateInvestor vorhanden ist, dann kann SecondaryCorporateInvestor vorhanden sein."
+    }
+  }
+}

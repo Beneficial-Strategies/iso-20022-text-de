@@ -1,0 +1,12 @@
+{
+  "isoType": "Role5Choice",
+  "definition": "Auswahl des Formats für eine Rolle der Partei.",
+  "isoElements": {
+    "Code": {
+      "definition": "Rolle, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Rolle."
+    }
+  }
+}

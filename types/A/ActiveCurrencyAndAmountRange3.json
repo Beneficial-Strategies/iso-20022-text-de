@@ -1,0 +1,15 @@
+{
+  "isoType": "ActiveCurrencyAndAmountRange3",
+  "definition": "Bereich von Betragswerten.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Festgelegter Betrag oder Betragsbereich."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob es sich bei dem Betrag um einen Haben- oder einen Sollbetrag handelt."
+    },
+    "Currency": {
+      "definition": "Tauschmittel, das zur Qualifizierung eines Betrags verwendet wird."
+    }
+  }
+}

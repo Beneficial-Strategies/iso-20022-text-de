@@ -1,0 +1,15 @@
+{
+  "isoType": "UnderlyingSecurityMovement1",
+  "definition": "Enthält Informationen zur Bewegung der zugrunde liegenden Wertpapiere.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identifikation des Finanzinstruments."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Menge des Finanzinstruments."
+    },
+    "AccountDetails": {
+      "definition": "Enthält Informationen zum belasteten/gutgeschriebenen Wertpapierkonto."
+    }
+  }
+}

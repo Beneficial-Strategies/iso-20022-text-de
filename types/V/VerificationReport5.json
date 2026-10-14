@@ -1,0 +1,21 @@
+{
+  "isoType": "VerificationReport5",
+  "definition": "Enthält die Details der Überprüfung der Identifikationsdaten, für die eine Überprüfung angefordert wurde.",
+  "isoElements": {
+    "OriginalIdentification": {
+      "definition": "Eindeutige Identifikation, die von einer sendenden Partei vergeben wird, um die Gruppe von Partei- und Kontoidentifikationsinformationen innerhalb der ursprünglichen Nachricht zweifelsfrei zu identifizieren."
+    },
+    "Verification": {
+      "definition": "Gibt an, ob die empfangenen Partei- und/oder Kontoinformationen korrekt sind."
+    },
+    "Reason": {
+      "definition": "Legt den Grund fest, warum die überprüften Identifikationsinformationen nicht korrekt sind."
+    },
+    "OriginalPartyAndAccountIdentification": {
+      "definition": "Enthält Partei- und/oder Kontoidentifikationsinformationen, wie sie in der ursprünglichen Nachricht angegeben wurden."
+    },
+    "UpdatedPartyAndAccountIdentification": {
+      "definition": "Enthält Partei- und/oder Kontoidentifikationsinformationen."
+    }
+  }
+}

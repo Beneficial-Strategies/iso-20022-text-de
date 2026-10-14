@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentInstrument19Choice",
+  "definition": "Auswahl der Zahlungsinstrumente.",
+  "isoElements": {
+    "ChequeDetails": {
+      "definition": "Abwicklungsanweisungen für eine Zahlung per Scheck."
+    },
+    "BankersDraftDetails": {
+      "definition": "Abwicklungsanweisungen für eine Zahlung per Wechsel."
+    }
+  }
+}

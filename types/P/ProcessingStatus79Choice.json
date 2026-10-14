@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessingStatus79Choice",
+  "definition": "Auswahl des Formats für einen Verarbeitungsstatus.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "Die Zwangsdeckungsavise (Buy-in) wird vom Kontoführer bestätigt."
+    },
+    "Rejected": {
+      "definition": "Die Zwangsdeckungsavise (Buy-in) wird für die weitere Verarbeitung abgelehnt."
+    }
+  }
+}

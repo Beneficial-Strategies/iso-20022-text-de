@@ -1,0 +1,54 @@
+{
+  "isoType": "OtherAmounts33",
+  "definition": "Identifiziert weitere Beträge zur Transaktion.",
+  "isoElements": {
+    "AccruedInterestAmount": {
+      "definition": "Zinsbetrag, der zwischen den Kuponzahlungsperioden aufgelaufen ist."
+    },
+    "ChargesFees": {
+      "definition": "Betrag, der für die Erbringung von Finanzdienstleistungen gezahlt wird und keinem anderen Qualifier zugeordnet werden kann."
+    },
+    "CountryNationalFederalTax": {
+      "definition": "Betrag der Landes-, National- oder Bundessteuer, die von dem Rechtsraum erhoben wird, in dem der Kontoführer ansässig ist."
+    },
+    "PaymentLevyTax": {
+      "definition": "Betrag der Zahlungsabgabe."
+    },
+    "LocalTax": {
+      "definition": "Steuer, die von der Rechtsordnung erhoben wird, in der das Finanzinstrument abgewickelt wird."
+    },
+    "Other": {
+      "definition": "Ein Betrag, der nicht durch eine bekannte geschäftliche Bezeichnung angegeben ist."
+    },
+    "RegulatoryAmount": {
+      "definition": "Von einer Aufsichtsbehörde erhobener Geldbetrag, zum Beispiel Gebühren der Securities and Exchange."
+    },
+    "ShippingAmount": {
+      "definition": "Sämtliche Kosten im Zusammenhang mit der physischen Zustellung von Dokumenten, wie Stempelgebühren, Porto, Frachtgebühren, Versicherungen oder Botendienste."
+    },
+    "StampDuty": {
+      "definition": "Betrag der Stempelsteuer."
+    },
+    "StockExchangeTax": {
+      "definition": "Betrag der Börsenumsatzsteuer."
+    },
+    "TransferTax": {
+      "definition": "Betrag der Steuer, die bei einer Eigentumsübertragung eines Finanzinstruments erhoben wird."
+    },
+    "TransactionTax": {
+      "definition": "Betrag der Transaktionssteuer."
+    },
+    "ValueAddedTax": {
+      "definition": "Betrag der Mehrwertsteuer."
+    },
+    "WithholdingTax": {
+      "definition": "Betrag, der von einer Steuerbehörde einbehalten wird."
+    },
+    "ConsumptionTax": {
+      "definition": "Betrag der Verbrauchsteuer."
+    },
+    "AccruedCapitalisationAmount": {
+      "definition": "Betrag nicht gezahlter Zinsen (auf Anleihen, die in Verzug geraten und anschließend |restrukturiert wurden), der kapitalisiert und dem ursprünglichen Nennbetrag der Anleihe hinzugerechnet wird."
+    }
+  }
+}

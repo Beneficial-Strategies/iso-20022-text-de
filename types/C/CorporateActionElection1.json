@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionElection1",
+  "definition": "Enthält Informationen zu einer geänderten Wahlanweisung.",
+  "isoElements": {
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "OriginalInstructedQuantity": {
+      "definition": "Menge der Wertpapiere, die in der ursprünglichen Wahlmitteilung angewiesen wurde."
+    },
+    "RemainingQuantity": {
+      "definition": "Verbleibende angewiesene Wertpapiermenge nach der Änderung der Wahl."
+    }
+  }
+}

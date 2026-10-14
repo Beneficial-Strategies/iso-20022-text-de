@@ -1,0 +1,30 @@
+{
+  "isoType": "PositionSearchCriteria4",
+  "definition": "Legt die Abfragekriterien für Wertpapierkontopositionen fest.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    },
+    "AccountServicer": {
+      "definition": "Partei, die das Konto im Auftrag des Kontoinhabers führt, das heißt die Erfassung und Buchung von Umsätzen auf dem Konto verwaltet, die Salden des Kontos berechnet und Informationen über das Konto bereitstellt."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "FinancialInstrument": {
+      "definition": "Finanzinstrument, das eine Summe von Rechten des Anlegers gegenüber dem Emittenten darstellt."
+    },
+    "CountryOfIssue": {
+      "definition": "Land, in dem das Wertpapier emittiert wird."
+    },
+    "SubBalanceType": {
+      "definition": "Legt spezifische Beschränkungsmerkmale für eine Wertpapierposition fest."
+    },
+    "ReturnZeroPosition": {
+      "definition": "Option, in den Ergebnissen Nullpositionen auszugeben."
+    },
+    "OtherBusinessParties": {
+      "definition": "Weitere für die Transaktion relevante Geschäftsparteien."
+    }
+  }
+}

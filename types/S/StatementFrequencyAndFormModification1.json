@@ -1,0 +1,12 @@
+{
+  "isoType": "StatementFrequencyAndFormModification1",
+  "definition": "Legt die Art der Änderung von Häufigkeit und Form der Kontoauszüge fest.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Legt die Art der Änderung fest."
+    },
+    "StatementFrequencyAndForm": {
+      "definition": "Legt Häufigkeit, Format und Zustelladresse der Kontoauszüge fest."
+    }
+  }
+}

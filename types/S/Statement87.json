@@ -1,0 +1,24 @@
+{
+  "isoType": "Statement87",
+  "definition": "Merkmale des Auszugs.",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Identifikation der Nachricht SecuritiesStatementQuery, mit der dieser Auszug angefordert wurde."
+    },
+    "StatementIdentification": {
+      "definition": "Referenz, die allen Seiten eines Auszugs gemeinsam ist."
+    },
+    "StatementDateTime": {
+      "definition": "Datum und Uhrzeit des Auszugs."
+    },
+    "Frequency": {
+      "definition": "Häufigkeit des Auszugs."
+    },
+    "UpdateType": {
+      "definition": "Gibt an, ob der Bericht vollständig ist oder nur Änderungen enthält."
+    },
+    "ActivityIndicator": {
+      "definition": "Gibt an, ob im Auszug Aktivität oder eine Aktualisierung von Informationen gemeldet wird."
+    }
+  }
+}

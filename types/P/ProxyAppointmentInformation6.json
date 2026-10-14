@@ -1,0 +1,18 @@
+{
+  "isoType": "ProxyAppointmentInformation6",
+  "definition": "Angaben zur Registrierung eines Bevollmächtigten.",
+  "isoElements": {
+    "RegistrationMethod": {
+      "definition": "Gibt an, wie der Bevollmächtigte zu registrieren ist."
+    },
+    "Deadline": {
+      "definition": "Datum, bis zu dem die Angaben zur Bevollmächtigung beim Intermediär eingegangen sein müssen."
+    },
+    "MarketDeadline": {
+      "definition": "Datum, bis zu dem die Angaben zur Bevollmächtigung beim Emittenten eingegangen sein müssen."
+    },
+    "AuthorisedProxy": {
+      "definition": "Vom Emittenten autorisierter Bevollmächtigter."
+    }
+  }
+}

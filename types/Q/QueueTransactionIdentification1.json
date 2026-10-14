@@ -1,0 +1,12 @@
+{
+  "isoType": "QueueTransactionIdentification1",
+  "definition": "Identifikation einer Zahlungsanweisung anhand ihrer relativen Position in einer Warteschlange von Zahlungstransaktionen, die von der Clearingstelle verwaltet wird.",
+  "isoElements": {
+    "QueueIdentification": {
+      "definition": "Identifikation der Zahlungswarteschlange, in der sich die Zahlungsanweisung befindet."
+    },
+    "PositionInQueue": {
+      "definition": "Position der Zahlungsanweisung innerhalb der identifizierten Warteschlange."
+    }
+  }
+}

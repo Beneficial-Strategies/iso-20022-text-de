@@ -1,0 +1,23 @@
+{
+  "isoType": "CorporateActionOption200",
+  "definition": "Liefert Informationen zur Kapitalmaßnahmen-Option.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "InstructedQuantity": {
+      "definition": "Menge der Wertpapiere, auf die sich diese Anweisung bezieht."
+    }
+  },
+  "isoRules": {
+    "OptionNumber1Rule": {
+      "definition": "Zur Unterscheidung zwischen Optionen muss die OptionNumber verwendet werden (vorzugsweise statt des OptionType, zum Beispiel wenn zwei oder mehr Angebote durch denselben Optionscode der Kapitalmaßnahme beschrieben werden können). Daher muss der Wert von OptionNumber für jede Option verschieden sein."
+    },
+    "OptionNumber2Rule": {
+      "definition": "Wenn die CorporateActionInstruction unaufgefordert erfolgt, das heißt, der Anweisung ging keine Corporate ActionNotification voraus, dann muss OptionNumber/code UNSO (unsolicited) sein."
+    }
+  }
+}

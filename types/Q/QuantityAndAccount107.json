@@ -1,0 +1,29 @@
+{
+  "isoType": "QuantityAndAccount107",
+  "definition": "Details zu einer Menge, einem Konto und weiteren zugehörigen Informationen.",
+  "isoElements": {
+    "SettlementQuantity": {
+      "definition": "Gesamtmenge der abzuwickelnden Wertpapiere."
+    },
+    "DenominationChoice": {
+      "definition": "Stückelung des zu empfangenden oder zu liefernden Wertpapiers."
+    },
+    "CashAccount": {
+      "definition": "Konto, auf das oder von dem eine Geldbuchung erfolgt."
+    },
+    "QuantityBreakdown": {
+      "definition": "Aufgliederung einer Menge in Posten, wie Steuerposten oder Instrumentenserien."
+    },
+    "SafekeepingPlace": {
+      "definition": "Ort, an dem die Wertpapiere physisch oder buchmäßig verwahrt werden. Dieser Ort kann zum Beispiel eine lokale Depotbank, ein Central Securities Depository (CSD) oder ein International Central Securities Depository (ICSD) sein."
+    }
+  },
+  "isoRules": {
+    "DenominationRule": {
+      "definition": "Sofern zwischen Kontoinhaber und Kontoführer nicht bilateral anders vereinbart, darf DenominationChoice, wenn verwendet, keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können."
+    },
+    "SafekeepingPlaceRule": {
+      "definition": "Die SafekeepingPlace-Funktionalität in den Abwicklungsanweisungen ist ausschließlich für Global Custodians zu verwenden, die es ihren Kunden ermöglichen festzulegen, wo die Wertpapiere gehalten werden sollen, beispielsweise auf einem Konto beim internationalen Zentralverwahrer (ICSD) im Gegensatz zu einem Konto beim lokalen Zentralverwahrer."
+    }
+  }
+}

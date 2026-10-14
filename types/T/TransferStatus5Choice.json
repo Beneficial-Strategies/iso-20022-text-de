@@ -1,0 +1,33 @@
+{
+  "isoType": "TransferStatus5Choice",
+  "definition": "Auswahl von Status für den Status einer Übertragung.",
+  "isoElements": {
+    "Status": {
+      "definition": "Der Status der Übertragung ist empfangen, angenommen, an die nächste Partei gesendet, abgeglichen, bereits ausgeführt oder abgewickelt."
+    },
+    "PendingSettlement": {
+      "definition": "Der Status der Übertragung ist \"Abwicklung ausstehend\"."
+    },
+    "Unmatched": {
+      "definition": "Der Status der Übertragung ist \"nicht abgeglichen\"."
+    },
+    "InRepair": {
+      "definition": "Der Status der Übertragung ist \"in Klärung\"."
+    },
+    "Rejected": {
+      "definition": "Der Status der Übertragung ist \"abgelehnt\"."
+    },
+    "FailedSettlement": {
+      "definition": "Der Status der Übertragung ist \"Abwicklung fehlgeschlagen\", d. h. die Abwicklung im International Central Securities Depository (ICSD) oder Central Securities Depository (CSD) ist fehlgeschlagen."
+    },
+    "Cancelled": {
+      "definition": "Der Status der Übertragung ist \"storniert\"."
+    },
+    "Reversed": {
+      "definition": "Der Status der Übertragung ist \"rückgebucht\"."
+    },
+    "CancellationPending": {
+      "definition": "Der Status der Übertragung ist \"Stornierung ausstehend\"."
+    }
+  }
+}

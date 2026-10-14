@@ -1,0 +1,17 @@
+{
+  "isoType": "OpeningBalance6",
+  "definition": "Eröffnungssaldo für den Auszugszeitraum (erster Eröffnungssaldo) oder dieser Seite (Zwischeneröffnungssaldo).",
+  "isoElements": {
+    "ShortLongIndicator": {
+      "definition": "Angabe, dass die Position Short oder Long ist."
+    },
+    "OpeningBalance": {
+      "definition": "Eröffnungssaldo für den Auszugszeitraum (erster Eröffnungssaldo) oder dieser Seite (Zwischeneröffnungssaldo)."
+    }
+  },
+  "isoRules": {
+    "ShortLongDefaultRule": {
+      "definition": "Wenn Shortlong fehlt, gilt standardmäßig long, das heißt, der Saldo ist positiv."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "ChargesRecord8",
+  "definition": "Enthält weitere Einzeldatensätze zu den Entgelten im Zusammenhang mit der Zahlungstransaktion.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Transaktionsentgelte, die vom Entgeltträger zu zahlen sind."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Entgeltbetrag ein Haben- oder ein Sollbetrag ist. |Verwendung: Ein Nullbetrag gilt als Habenbetrag."
+    },
+    "ChargeIncludedIndicator": {
+      "definition": "Gibt an, ob das Entgelt im Betrag enthalten sein soll oder als Vorabavis hinzugefügt wird."
+    },
+    "Type": {
+      "definition": "Gibt die Art des Entgelts an."
+    },
+    "Rate": {
+      "definition": "Satz zur Berechnung des Entgelt- oder Gebührenbetrags."
+    },
+    "Bearer": {
+      "definition": "Gibt an, welche Partei(en) die mit der Verarbeitung der Zahlungstransaktion verbundenen Entgelte trägt bzw. tragen."
+    },
+    "Agent": {
+      "definition": "Bank, die die Transaktionsentgelte erhebt oder der die Transaktionsentgelte zustehen."
+    },
+    "Tax": {
+      "definition": "Enthält Angaben zur auf Entgelte angewandten Steuer."
+    }
+  }
+}

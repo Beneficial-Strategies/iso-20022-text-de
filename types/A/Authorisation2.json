@@ -1,0 +1,15 @@
+{
+  "isoType": "Authorisation2",
+  "definition": "Autorisierung des Mandatsinhabers.",
+  "isoElements": {
+    "MaximumAmountByTransaction": {
+      "definition": "Maximaler Betrag, der durch das Mandat für jede Transaktion zulässig ist."
+    },
+    "MaximumAmountByPeriod": {
+      "definition": "Maximaler Betrag, der über einen bestimmten Zeitraum zulässig ist."
+    },
+    "MaximumAmountByBulkSubmission": {
+      "definition": "Legt den Höchstbetrag für jede Sammeleinreichung fest."
+    }
+  }
+}

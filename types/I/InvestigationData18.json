@@ -1,0 +1,35 @@
+{
+  "isoType": "InvestigationData18",
+  "definition": "Enthält die detaillierten Angaben zur Untersuchungsantwort.",
+  "isoElements": {
+    "OriginalInvestigationSequence": {
+      "definition": "Ursprüngliche Untersuchungssequenz, wie in der Untersuchungsanfrage angegeben."
+    },
+    "OriginalInvestigationReason": {
+      "definition": "Ursprünglicher Untersuchungsgrund, wie in der Untersuchungsanfrage angegeben."
+    },
+    "OriginalInvestigationReasonSubType": {
+      "definition": "Ursprüngliche Untersuchungsunterart des Grundes, wie in der Untersuchungsanfrage angegeben."
+    },
+    "ResponseData": {
+      "definition": "Antwort auf die Untersuchung, wie vom Antwortenden geliefert."
+    },
+    "RelatedInvestigationData": {
+      "definition": "Zusätzliche Informationen, die gesondert zur Nachricht gesendet werden, zum Beispiel die Kopie eines Reisepasses."
+    },
+    "EnclosedFile": {
+      "definition": "In der Nachricht beigefügtes Dokument oder beigefügte Vorlage.||Verwendung: Die Verwendung des Elements EnclosedFile muss bilateral vereinbart werden."
+    },
+    "RelatedFileData": {
+      "definition": "Angaben zu einem Dokument, das der Nachricht nicht beigefügt ist und gesondert gesendet oder bereitgestellt wird."
+    },
+    "ResponseOriginator": {
+      "definition": "Identifikation der Bank oder Partei, von der die Antwort ausgegangen ist.||Verwendung: Das Element sollte nur angegeben werden, wenn es sich vom Antwortenden unterscheidet."
+    }
+  },
+  "isoRules": {
+    "InvestigationDataGuideline": {
+      "definition": "InvestigationData sollte nur wiederholt werden, wenn die ursprüngliche Untersuchungsanfrage mehrere Vorkommen des Blocks InvestigationData enthielt."
+    }
+  }
+}

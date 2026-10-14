@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesPaymentStatus1Code",
+  "definition": "Gibt den Zahlungsstand eines Wertpapiers zu einem bestimmten Zeitpunkt an.",
+  "isoCodes": {
+    "FULL": {
+      "name": "Voll eingezahlt",
+      "definition": "Das Wertpapier ist voll eingezahlt."
+    },
+    "NILL": {
+      "name": "Nicht eingezahlt",
+      "definition": "Auf das Wertpapier ist nichts eingezahlt."
+    },
+    "PART": {
+      "name": "Teileingezahlt",
+      "definition": "Das Wertpapier ist teileingezahlt."
+    }
+  }
+}

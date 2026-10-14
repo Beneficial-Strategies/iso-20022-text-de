@@ -1,0 +1,17 @@
+{
+  "isoType": "ProcessingPosition18Choice",
+  "definition": "Auswahl des Formats für die Verarbeitungsposition.",
+  "isoElements": {
+    "Code": {
+      "definition": "Verarbeitungsposition als ISO-20022-Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Verarbeitungsposition als proprietärer Code ausgedrückt."
+    }
+  },
+  "isoRules": {
+    "WithLinkageRule": {
+      "definition": "Wird der Code WITH verwendet, so werden die verknüpften Anweisungen bindend und müssen gemeinsam ausgeführt werden. Kann auch nur eine einzige Transaktion/Anweisung/Benachrichtigung nicht ausgeführt werden, so müssen alle übrigen Transaktionen/Anweisungen/Benachrichtigungen ebenfalls ausgesetzt bleiben. Daher darf der Code WITH nur zur Verknüpfung von bis zu 2 oder 3 Transaktionen/Anweisungen/Benachrichtigungen verwendet werden."
+    }
+  }
+}

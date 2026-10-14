@@ -1,0 +1,12 @@
+{
+  "isoType": "SafekeepingPlaceTypeAndIdentification1",
+  "definition": "Identifikation der Art des Verwahrorts, ausgedrückt als Code und BIC.",
+  "isoElements": {
+    "SafekeepingPlaceType": {
+      "definition": "Verwahrort als Code."
+    },
+    "Identification": {
+      "definition": "Verwahrort."
+    }
+  }
+}

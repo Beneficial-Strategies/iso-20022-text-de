@@ -1,0 +1,32 @@
+{
+  "isoType": "BreakdownByUserDefinedParameter3",
+  "definition": "Gibt die Mittelzu- und -abflüsse nach einem oder mehreren benutzerdefinierten Parametern an.",
+  "isoElements": {
+    "Party": {
+      "definition": "Partei, für die der Cashflow gemeldet wird."
+    },
+    "Country": {
+      "definition": "Land, für das der Cashflow gemeldet wird."
+    },
+    "Currency": {
+      "definition": "Währung, für die der Cashflow gemeldet wird."
+    },
+    "UserDefined": {
+      "definition": "Parameter, für den der Cashflow gemeldet wird."
+    },
+    "CashInForecast": {
+      "definition": "Mittelzufluss in den Fonds aufgrund von Transaktionen mit Anteilen an einem Investmentfonds, zum Beispiel Zeichnungen oder Umtausch-Zugänge."
+    },
+    "CashOutForecast": {
+      "definition": "Mittelabfluss aus dem Fonds aufgrund von Transaktionen mit Anteilen an einem Investmentfonds, zum Beispiel Rücknahmen oder Umtausch-Abgänge."
+    },
+    "NetCashForecast": {
+      "definition": "Nettobetrag aus den für den benutzerdefinierten Parameter angegebenen Mittelzu- und -abflüssen."
+    }
+  },
+  "isoRules": {
+    "UserDefinedRule": {
+      "definition": "Mindestens ein Nachrichtenelement der Liste (Party, Country, Currency, UserDefined) muss vorhanden sein. Es können mehrere Elemente der Liste (Party, Country, Currency, UserDefined) vorhanden sein."
+    }
+  }
+}

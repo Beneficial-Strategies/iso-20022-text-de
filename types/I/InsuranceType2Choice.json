@@ -1,0 +1,12 @@
+{
+  "isoType": "InsuranceType2Choice",
+  "definition": "Auswahl der Formate für die Angabe der Versicherungsart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des Versicherungsvertrags, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Art des Versicherungsvertrags, ausgedrückt als proprietärer Code."
+    }
+  }
+}

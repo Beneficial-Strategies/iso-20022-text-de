@@ -1,0 +1,12 @@
+{
+  "isoType": "MaximumAmountByPeriod1",
+  "definition": "Maximaler Betrag, der über einen bestimmten Zeitraum zulässig ist.",
+  "isoElements": {
+    "MaximumAmount": {
+      "definition": "Maximaler Betrag, der über einen bestimmten Zeitraum zulässig ist."
+    },
+    "NumberOfDays": {
+      "definition": "Als Anzahl von Tagen angegebener Zeitraum."
+    }
+  }
+}

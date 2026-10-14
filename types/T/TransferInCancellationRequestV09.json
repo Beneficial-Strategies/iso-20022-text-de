@@ -1,0 +1,12 @@
+{
+  "isoType": "TransferInCancellationRequestV09",
+  "definition": "Anwendungsbereich|Die Nachricht TransferInCancellationRequest wird von einer anweisenden Partei, zum Beispiel einem Vermögensverwalter oder dessen bevollmächtigtem Vertreter, an die ausführende Partei, zum Beispiel eine Transferstelle, gesendet, um die Stornierung einer zuvor gesendeten Übertragungseingangsanweisung zu beantragen.|Verwendung|Die Nachricht TransferInCancellationRequest wird verwendet, um die Stornierung einer oder mehrerer Übertragungseingangsanweisungen zu beantragen.|Es gibt keine Änderung, sondern ein Verfahren aus Stornierung und erneuter Anweisung.|Um die Stornierung einer oder mehrerer Übertragungseingangsanweisungen zu beantragen, wird die Übertragungsreferenz der Übertragung, wie in der ursprünglichen Nachricht TransferInInstruction angegeben, im Element für die Übertragungsreferenz angegeben.|Die Nachrichtenidentifikation der ursprünglichen Nachricht TransferOutInstruction kann auch in PreviousReference angegeben werden, dies wird jedoch nicht empfohlen.|Die Frist und die Annahme eines Stornierungsauftrags unterliegen einer Dienstgütevereinbarung (SLA). Diese Stornierungsnachricht ist ein Stornierungsauftrag. Es gibt keine automatische Annahme der Stornierung.|Die Ablehnung oder Annahme einer TransferInCancellationRequest erfolgt mittels einer Nachricht TransferCancellationStatusReport.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Eindeutiger Identifikator für eine Gruppe einzelner Übertragungen, wie von der anweisenden Partei vergeben. Dieser Identifikator verknüpft die einzelnen Übertragungen miteinander."
+    },
+    "Function": {
+      "definition": "Funktion des Übertragungseingangs, das heißt, ob die Nachricht als Auftrag zur Stornierung einer zuvor gesendeten Anweisung oder als Stornierung einer zuvor gesendeten Avisierung und Informationsanfrage verwendet wird. Fehlt Function, handelt es sich bei der Nachricht um einen Auftrag zur Stornierung einer zuvor gesendeten Anweisung."
+    }
+  }
+}

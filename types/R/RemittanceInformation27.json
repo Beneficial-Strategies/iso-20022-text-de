@@ -1,0 +1,18 @@
+{
+  "isoType": "RemittanceInformation27",
+  "definition": "Informationen, die den Abgleich einer Buchung mit den Posten ermöglichen, die durch die Zahlung beglichen werden sollen, z. B. Handelsrechnungen in einem Debitorenbuchhaltungssystem.",
+  "isoElements": {
+    "RemittanceIdentification": {
+      "definition": "Vom Auftraggeber vergebene eindeutige Kennung zur zweifelsfreien Identifikation der Avisinformationen innerhalb der Nachricht."
+    },
+    "Unstructured": {
+      "definition": "Informationen in unstrukturierter Form, die den Abgleich einer Buchung mit den Posten ermöglichen, die durch die Zahlung beglichen werden sollen, z. B. Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    },
+    "Structured": {
+      "definition": "Informationen in strukturierter Form, die den Abgleich einer Buchung mit den Posten ermöglichen, die durch die Zahlung beglichen werden sollen, z. B. Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    },
+    "OriginalPaymentInformation": {
+      "definition": "Menge von Elementen zur Angabe der ursprünglichen Transaktionen, auf die sich die Avisnachricht bezieht."
+    }
+  }
+}

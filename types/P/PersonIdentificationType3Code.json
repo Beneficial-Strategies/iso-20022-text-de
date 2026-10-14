@@ -1,0 +1,30 @@
+{
+  "isoType": "PersonIdentificationType3Code",
+  "definition": "Gibt die Art der Identifikation einer Person an.",
+  "isoCodes": {
+    "ARNU": {
+      "name": "Ausländerregistrierungsnummer",
+      "definition": "Von einer Regierungsbehörde zur Identifikation von Ausländern vergebene Nummer."
+    },
+    "CCPT": {
+      "name": "Reisepassnummer",
+      "definition": "Von einer Passbehörde vergebene Nummer eines Reisepasses."
+    },
+    "EMID": {
+      "name": "Arbeitgeber-Identifikationsnummer",
+      "definition": "Einem Arbeitgeber von einer Registrierungsbehörde zugewiesene Nummer."
+    },
+    "DRLC": {
+      "name": "Führerscheinnummer",
+      "definition": "Von einer Lizenzbehörde vergebene Führerscheinnummer."
+    },
+    "FINN": {
+      "name": "Identifikationsnummer für Auslandsinvestitionen",
+      "definition": "Einem ausländischen Anleger zugewiesene Nummer (ausgenommen die Alien-Nummer)."
+    },
+    "TXID": {
+      "name": "Steuer-Identifikationsnummer",
+      "definition": "Von einer Steuerbehörde einer Einheit zugewiesene Nummer."
+    }
+  }
+}

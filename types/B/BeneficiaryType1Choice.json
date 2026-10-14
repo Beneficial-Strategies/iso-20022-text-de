@@ -1,0 +1,12 @@
+{
+  "isoType": "BeneficiaryType1Choice",
+  "definition": "Auswahl von Formaten für eine Art von Begünstigtem.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des Begünstigten, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Art des Begünstigten, ausgedrückt als proprietärer Code."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "AttendanceAdmissionConditions2Code",
+  "definition": "Gibt die Bedingungen für den physischen Zutritt zu einer Hauptversammlung an.",
+  "isoCodes": {
+    "MASH": {
+      "name": "Für Aktionär zulässig",
+      "definition": "Jeder Teilnehmer muss selbst Aktionär sein."
+    },
+    "MASL": {
+      "name": "Zulässig bei Eintragung im Aktienregister",
+      "definition": "Der Teilnehmer muss ein im Aktienbuch des Unternehmens eingetragener Aktionär sein."
+    },
+    "MAPO": {
+      "name": "Im Namen eines Dritten zulässig",
+      "definition": "Teilnehmer, die im Namen des eingetragenen Inhabers handeln, müssen eine gültige Vollmacht (POA) und/oder einen Bestandsnachweis vorlegen."
+    },
+    "MAAL": {
+      "name": "Mit Teilnehmerliste zulässig",
+      "definition": "Die Teilnehmer werden in eine Teilnehmerliste aufgenommen und müssen einen Lichtbildausweis mitbringen."
+    },
+    "MALR": {
+      "name": "Mit Vertretungsschreiben zulässig",
+      "definition": "Die Teilnehmer werden in eine Teilnehmerliste aufgenommen oder erhalten ein Vertretungsschreiben und müssen einen Lichtbildausweis mitbringen."
+    },
+    "MAHI": {
+      "name": "Mit Nachweis zulässig",
+      "definition": "Die Teilnehmer müssen einen Bestandsnachweis anfordern und sich direkt beim Emittenten zur Teilnahme anmelden."
+    },
+    "MATK": {
+      "name": "Mit Eintrittskarte zulässig",
+      "definition": "Die Teilnehmer erhalten eine Eintrittskarte und müssen einen Lichtbildausweis mitbringen."
+    },
+    "MADS": {
+      "name": "Delegierter zulässig bei Eintragung im Aktienregister",
+      "definition": "Der Teilnehmer muss ein Delegierter des im Aktienbuch des Unternehmens eingetragenen Aktionärs sein."
+    },
+    "MANP": {
+      "name": "Nicht möglich",
+      "definition": "Die Teilnahme an der Versammlung ist nicht möglich."
+    }
+  }
+}

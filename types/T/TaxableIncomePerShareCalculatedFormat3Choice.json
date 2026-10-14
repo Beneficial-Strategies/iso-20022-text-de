@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxableIncomePerShareCalculatedFormat3Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe, ob das steuerpflichtige Einkommen je Anteil oder je Dividende berechnet wird.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe, ob der Fonds das steuerpflichtige Einkommen je Dividende bzw. je Anteil (TID/TIS) berechnet."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation zur Angabe, ob der Fonds das steuerpflichtige Einkommen je Dividende bzw. je Anteil (TID/TIS) berechnet."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "AccountInterest4",
+  "definition": "Enthält weitere Details zu den Zinsen, die zu einem bestimmten Zeitpunkt für das Konto gelten.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Zinsart an."
+    },
+    "Rate": {
+      "definition": "Satz von Elementen zur Qualifizierung des Zinssatzes."
+    },
+    "FromToDate": {
+      "definition": "Zeitraum zwischen einem Startdatum und einem Enddatum für die Zinsberechnung."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Zinsen an."
+    },
+    "Tax": {
+      "definition": "Enthält Angaben zur auf Entgelte angewandten Steuer."
+    }
+  }
+}

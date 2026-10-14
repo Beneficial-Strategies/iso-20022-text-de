@@ -1,0 +1,14 @@
+{
+  "isoType": "UKTaxGroupUnit1Code",
+  "definition": "Gibt die UK Steuergruppe an, zu der Anteile gehören. Für die britische Steuer gilt die erste Dividende, die ein Anleger aus einer Fondsanlage erhält, als teils Ertrag und teils Kapitalrückzahlung. Der Kapitalanteil ist die 'Equalisation' und ist von der Einkommensteuer befreit.",
+  "isoCodes": {
+    "GRP1": {
+      "name": "Gruppe 1",
+      "definition": "Die Anteile, die vor dem letzten Ex-Dividenden-Termin erworben wurden."
+    },
+    "GRP2": {
+      "name": "Gruppe 2",
+      "definition": "Die Anteile, die seit dem Ex-Dividenden-Termin erworben wurden und von der Steuerbefreiung profitieren."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "SecurityClassificationType3Choice",
+  "definition": "Auswahl zwischen einem CFI-Code und einer anderen Art der Identifikation für die Klassifizierung eines Finanzinstruments.",
+  "isoElements": {
+    "CFI": {
+      "definition": "Klassifizierungsart des Finanzinstruments gemäß der Kodifizierung der ISO 10962 Classification of Financial Instrument (CFI)."
+    },
+    "AlternateClassification": {
+      "definition": "Andere Art der Klassifizierung des Finanzinstruments."
+    }
+  }
+}

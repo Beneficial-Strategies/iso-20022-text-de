@@ -1,0 +1,24 @@
+{
+  "isoType": "CompensationRequest1",
+  "definition": "Nennt den Zeitraum der Anfrage sowie das Konto, dem die Entschädigung gutgeschrieben werden soll.",
+  "isoElements": {
+    "CompensationAccount": {
+      "definition": "Konto, dem die Entschädigung zusteht."
+    },
+    "Period": {
+      "definition": "Zeitraum, für den die Entschädigung gilt."
+    },
+    "Amount": {
+      "definition": "Vom Auftraggeber berechnete voraussichtliche Entschädigung für die Anfrage."
+    },
+    "ExpectedValueDate": {
+      "definition": "Wertstellungsdatum, zu dem die Zahlung der Entschädigung beantragt wird."
+    },
+    "InterestRate": {
+      "definition": "Zinssatz eines Finanzinstruments, der zur Schätzung der Entschädigung verwendet wird."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Entschädigung an."
+    }
+  }
+}

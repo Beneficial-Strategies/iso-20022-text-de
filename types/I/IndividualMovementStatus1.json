@@ -1,0 +1,23 @@
+{
+  "isoType": "IndividualMovementStatus1",
+  "definition": "Enthält Informationen zum Verarbeitungsstatus.",
+  "isoElements": {
+    "MovementIdentification": {
+      "definition": "Identifikation der Bewegung."
+    },
+    "ProcessedStatus": {
+      "definition": "Enthält Informationen zum Verarbeitungsstatus der einzelnen Bewegung."
+    },
+    "RejectedStatus": {
+      "definition": "Liefert Informationen zum Ablehnungsstatus."
+    }
+  },
+  "isoRules": {
+    "ProcessedStatusOrRejectedStatusRule": {
+      "definition": "Entweder ProcessedStatus oder RejectedStatus."
+    },
+    "ProcessedStatusOrRejectedStatusRuleNotBoth": {
+      "definition": "Entweder ProcessedStatus oder RejectedStatus."
+    }
+  }
+}

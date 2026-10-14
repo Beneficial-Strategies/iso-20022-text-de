@@ -1,0 +1,86 @@
+{
+  "isoType": "OriginalTransactionReference45",
+  "definition": "Gibt Schlüsselelemente der ursprünglichen Transaktion an.",
+  "isoElements": {
+    "InterbankSettlementAmount": {
+      "definition": "Geldbetrag, der zwischen der anweisenden Bank und der angewiesenen Bank bewegt wird."
+    },
+    "Amount": {
+      "definition": "Geldbetrag, der vor Abzug von Entgelten zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, ausgedrückt in der von der initiierenden Partei beauftragten Währung."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag der Bank, die ihn schuldet, nicht mehr zur Verfügung steht und der Bank, der er zusteht, zur Verfügung steht."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Zahlungsempfänger verlangt, dass der Geldbetrag vom Zahlungspflichtigen eingezogen wird."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Datum, zu dem die initiierende Partei die Clearingstelle um Verarbeitung der Zahlung ersucht. |Verwendung: Dies ist das Datum, an dem das Konto des Zahlungspflichtigen zu belasten ist. Bei Zahlung per Scheck das Datum, an dem der Scheck von der Bank ausgestellt sein muss."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Kreditseitige Partei, die das Mandat unterzeichnet."
+    },
+    "SettlementInformation": {
+      "definition": "Gibt Einzelheiten dazu an, wie die Abwicklung der ursprünglichen Transaktion(en) zwischen der anweisenden Bank und der angewiesenen Bank erfolgt ist."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Satz von Elementen zur näheren Bestimmung der Transaktionsart."
+    },
+    "PaymentMethod": {
+      "definition": "Gibt das Zahlungsmittel an, mit dem der Geldbetrag bewegt wird."
+    },
+    "MandateRelatedInformation": {
+      "definition": "Enthält weitere Angaben zum zwischen dem Zahlungsempfänger und dem Zahlungspflichtigen unterzeichneten Mandat."
+    },
+    "RemittanceInformation": {
+      "definition": "Informationen zur Ermöglichung des Abgleichs eines Umsatzes mit den Posten, die durch die Übertragung beglichen werden sollen, etwa Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    },
+    "UltimateDebtor": {
+      "definition": "Letztlich Zahlungspflichtiger, der dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "Debtor": {
+      "definition": "Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "DebtorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungspflichtigen, das aufgrund der Transaktion belastet wird."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungspflichtigen führt."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungspflichtigen bei der sie kontoführenden Bank in der Zahlungskette."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungsempfänger führt."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungsempfängers bei der sie kontoführenden Bank, dem aufgrund der Zahlungstransaktion eine Gutschrift erteilt wird."
+    },
+    "Creditor": {
+      "definition": "Partei, der ein Geldbetrag zusteht."
+    },
+    "CreditorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungsempfängers, dem aufgrund der Zahlungstransaktion eine Gutschrift gebucht wird."
+    },
+    "UltimateCreditor": {
+      "definition": "Letztliche Partei, der ein Geldbetrag zusteht."
+    },
+    "Purpose": {
+      "definition": "Zugrunde liegender Grund für die Zahlungstransaktion.||Verwendung: |Der Zweck wird von den Endkunden, das heißt der initiierenden Partei, dem (letztlich) Zahlungspflichtigen und dem (letztlichen) Zahlungsempfänger, verwendet, um Informationen zur Art der Zahlung bereitzustellen. Der Zweck ist ein Inhaltselement, das von keiner der an der Zahlungskette beteiligten Banken zur Verarbeitung verwendet wird."
+    },
+    "UnderlyingCustomerCreditTransfer": {
+      "definition": "Enthält Angaben zur zugrunde liegenden Kundenüberweisung, für die eine Deckung bereitgestellt wird."
+    },
+    "UnderlyingFinancialInstitutionCreditTransfer": {
+      "definition": "Enthält Angaben zur zugrunde liegenden Überweisung zwischen Finanzinstituten, für die eine Deckung bereitgestellt wird."
+    }
+  },
+  "isoRules": {
+    "UnderlyingCustomerCreditTransferRule": {
+      "definition": "Das Element UnderlyingCustomerCreditTransfer darf nur vorhanden sein, wenn es in der ursprünglichen, zurückgegebenen Transaktion vorhanden war."
+    },
+    "UnderlyingFinancialInstitutionCreditTransferRule": {
+      "definition": "Das Element UnderlyingFinancialInstitutionCreditTransfer darf nur vorhanden sein, wenn es in der ursprünglichen, zurückgegebenen Transaktion vorhanden war."
+    }
+  }
+}

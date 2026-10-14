@@ -1,0 +1,18 @@
+{
+  "isoType": "PledgeInformation1",
+  "definition": "Informationen zum Pfand und zum Pfandgeber.",
+  "isoElements": {
+    "Pledger": {
+      "definition": "Einheit, die einer Gegenpartei Vermögenswerte als Sicherheit zur Verfügung stellt."
+    },
+    "ThirdParty": {
+      "definition": "An der Verpfändung beteiligter Dritter, in der Regel eine Bank."
+    },
+    "PledgeType": {
+      "definition": "Bezeichnet die Art der Verpfändung."
+    },
+    "ReturnSecuritiesIndicator": {
+      "definition": "Gibt an, ob der Pfandgeber stimmberechtigt ist; andernfalls liegt das Stimmrecht beim Rechteinhaber."
+    }
+  }
+}

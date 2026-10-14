@@ -1,0 +1,10 @@
+{
+  "isoType": "PendingFailingReason1Code",
+  "definition": "Legt den Grund fest, aus dem die Abwicklung der Transaktion/Anweisung aussteht oder scheitert. Eine Abwicklung am angewiesenen Abwicklungstag ist weiterhin möglich, der Status ist ausstehend. Eine Abwicklung am angewiesenen Abwicklungstag ist nicht mehr möglich, der Status ist scheiternd.",
+  "isoCodes": {
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    }
+  }
+}

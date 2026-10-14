@@ -1,0 +1,26 @@
+{
+  "isoType": "MarketType2Code",
+  "definition": "Gibt die Art des Marktes an, an dem Transaktionen stattfinden, zum Beispiel Primärmarkt.",
+  "isoCodes": {
+    "PRIM": {
+      "name": "Primärmarkt",
+      "definition": "Der Ort ist ein Primärmarkt."
+    },
+    "SECM": {
+      "name": "Sekundärmarkt",
+      "definition": "Der Ort ist ein Sekundärmarkt."
+    },
+    "OTCO": {
+      "name": "Freiverkehr (OTC)",
+      "definition": "Der Ort ist außerbörslich (Over the Counter)."
+    },
+    "VARI": {
+      "name": "Verschiedene",
+      "definition": "Verschiedene Orte."
+    },
+    "EXCH": {
+      "name": "Börse",
+      "definition": "Der Ort ist eine Börse."
+    }
+  }
+}

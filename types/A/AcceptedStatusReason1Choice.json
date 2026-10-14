@@ -1,0 +1,12 @@
+{
+  "isoType": "AcceptedStatusReason1Choice",
+  "definition": "Auswahl von Formaten für einen Code für den Grund eines akzeptierten Status.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für den Status, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Grund für den Status, ausgedrückt als proprietärer Code."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "isoType": "LimitSearchCriteria7",
+  "definition": "Legt die Kriterien fest, nach denen ein Limit gesucht wird.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identifikation eines bestimmten Geldclearingsystems."
+    },
+    "BilateralLimitCounterpartyIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation eines Mitglieds innerhalb eines Systems, vergeben anhand des Mitgliedsidentifikationsschemas des Systems."
+    },
+    "DefaultLimitType": {
+      "definition": "Im System standardmäßig festgelegte Art des Limits. Das Standardlimit gilt im System, sofern nichts anderes angewiesen wird."
+    },
+    "CurrentLimitType": {
+      "definition": "Art des Limits, das vom System derzeit angewandt wird."
+    },
+    "AccountOwner": {
+      "definition": "Inhaber des abgefragten Kontos."
+    },
+    "AccountIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Kontos zwischen dem Kontoinhaber und der kontoführenden Stelle."
+    },
+    "UsedAmount": {
+      "definition": "Tatsächliche Inanspruchnahme des Limits, ausgedrückt als Betrag."
+    },
+    "UsedPercentage": {
+      "definition": "Tatsächliche Inanspruchnahme des Limits, ausgedrückt als Prozentsatz."
+    },
+    "LimitCurrency": {
+      "definition": "Währungseinheit, in der der Limitbetrag angegeben wird."
+    },
+    "LimitAmount": {
+      "definition": "Geldbetrag des Limits, ausgedrückt in einer zulässigen Währung."
+    },
+    "LimitValidAsOfDate": {
+      "definition": "Bereich von Daten, in dem das Limit gültig wird."
+    }
+  },
+  "isoRules": {
+    "BilateralLimitCounterparty3Rule": {
+      "definition": "Ist mindestens ein Vorkommen von CurrentLimitType vorhanden und lautet es MULT, ist kein Vorkommen von BilateralLimitCounterpartyIdentification zulässig.|Lautet kein Vorkommen von CurrentLimitType MULT, ist jedes Vorkommen von BilateralLimitCounterpartyIdentification optional.|Ist CurrentLimitType nicht vorhanden, ist jedes Vorkommen von BilateralLimitCounterpartyIdentification optional."
+    },
+    "BilateralLimitCounterparty4Rule": {
+      "definition": "Ist mindestens ein Vorkommen von DefaultLimitType vorhanden und lautet es MULT, ist kein Vorkommen von BilateralLimitCounterpartyIdentification zulässig.|Lautet kein Vorkommen von DefaultLimitType MULT, ist jedes Vorkommen von BilateralLimitCounterpartyIdentification optional.|Ist DefaultLimitType nicht vorhanden, ist jedes Vorkommen von BilateralLimitCounterpartyIdentification optional."
+    }
+  }
+}

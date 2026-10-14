@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosurePendingStatusReason1Choice",
+  "definition": "Auswahl der Formate für den Grund des Status „Schließung ausstehend“.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Für den Status „Schließung ausstehend“ liegt kein Grund vor oder ist kein Grund zu melden."
+    },
+    "Reason": {
+      "definition": "Grund für den Status „Schließung ausstehend“."
+    }
+  }
+}

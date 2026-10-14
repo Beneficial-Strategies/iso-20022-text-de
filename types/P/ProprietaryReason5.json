@@ -1,0 +1,17 @@
+{
+  "isoType": "ProprietaryReason5",
+  "definition": "Proprietäre Identifikation des mit einem Status verbundenen Grundes.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Proprietäre Identifikation des mit einem Status verbundenen Grundes."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Enthält zusätzliche Informationen zur verarbeiteten Anweisung."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "Das Element AdditionalReasonInformation darf keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können, sofern nicht bilateral vereinbart."
+    }
+  }
+}

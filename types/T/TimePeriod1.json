@@ -1,0 +1,12 @@
+{
+  "isoType": "TimePeriod1",
+  "definition": "Bestimmte Zeitspanne zwischen einer Startzeit und einer Endzeit. Der Zeitraum darf 24 Stunden nicht überschreiten.",
+  "isoElements": {
+    "FromTime": {
+      "definition": "Zeitpunkt, zu dem die Zeitspanne beginnt."
+    },
+    "ToTime": {
+      "definition": "Zeitpunkt, zu dem die Zeitspanne endet."
+    }
+  }
+}

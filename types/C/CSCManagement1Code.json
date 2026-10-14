@@ -1,0 +1,22 @@
+{
+  "isoType": "CSCManagement1Code",
+  "definition": "Verwaltung des CSC (Card Security Code) im Zusammenhang mit der Transaktion.",
+  "isoCodes": {
+    "PRST": {
+      "name": "CSC vorhanden",
+      "definition": "Kartenprüfnummer vorhanden."
+    },
+    "BYPS": {
+      "name": "CSC übergangen",
+      "definition": "Kartenprüfnummer vom Händler umgangen oder nicht bereitgestellt."
+    },
+    "UNRD": {
+      "name": "CSC nicht lesbar",
+      "definition": "Kartenprüfnummer nicht lesbar."
+    },
+    "NCSC": {
+      "name": "Kein CSC",
+      "definition": "Kein Abdruck der Kartenprüfnummer."
+    }
+  }
+}

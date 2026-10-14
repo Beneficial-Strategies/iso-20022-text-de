@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesSettlementConditionsModificationRequestV10",
+  "definition": "Anwendungsbereich|Ein Kontoinhaber sendet eine SecuritiesSettlementConditionsModificationRequest an einen Kontoführer, um die Änderung eines Verarbeitungskennzeichens oder anderer nicht abgleichrelevanter Informationen anzufragen.||Die Beziehung zwischen Kontoinhaber und Kontoführer kann sein:|- ein Zentralverwahrer-Teilnehmer, der ein Konto bei einem Zentralverwahrer hat.|Es kann auch, sofern in einer Dienstleistungsvereinbarung vereinbart, sein:|- ein Global Custodian, der ein Konto bei seinem lokalen Agenten (Unterverwahrer) hat, oder|- ein Vermögensverwalter, der ein bei einer Depotbank eröffnetes Fondskonto verwaltet, oder|- ein Broker, der ein Konto bei einer Depotbank hat, oder|- ein Zentralverwahrer, der ein Konto bei einer Depotbank, einem anderen Zentralverwahrer oder einer anderen Abwicklungs-Marktinfrastruktur hat.||Verwendung|Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden,|- einem Dritten eine Kopie einer Nachricht zur Information zur Verfügung zu stellen,|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu senden, unter Verwendung der entsprechenden Elemente im Business Application Header.||In Märkten, in denen dies gilt (zum Beispiel Wertpapier-Marktinfrastrukturen ohne Abgleichprozess vor der Abwicklung), wird sie von einer Partei verwendet, um eine von der Gegenpartei angewiesene Transaktion zu genehmigen, zu stornieren oder abzulehnen.||Diese Nachricht kann nicht verwendet werden, um die Änderung von Handels- oder Ereignisdetails anzufragen.|Die Verwendung von AdditionalInformation und seiner Felder muss zwischen Kontoführer und Kontoinhaber vorab vereinbart werden. Die Felder in dieser Sequenz können nicht zur Änderung eines Handels- oder Ereignisdetails verwendet werden, es sei denn, dies ist durch die Marktpraxis des Landes zugelassen.",
+  "isoRules": {
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Die Securities Market Practice Group (SMPG) hat Marktpraxisempfehlungen zur Verwendung dieser Nachricht veröffentlicht.|Diese Marktpraxisregeln sind unter www.smpg.info verfügbar."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Entweder SafekeepingAccount oder BlockChainAddressOrWallet muss vorhanden sein, aber nicht beide."
+    }
+  }
+}

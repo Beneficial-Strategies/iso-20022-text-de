@@ -1,0 +1,22 @@
+{
+  "isoType": "DistributionType3Code",
+  "definition": "Gibt an, ob die Erlöse des Ereignisses fortlaufend statt an einem bestimmten Datum ausgeschüttet werden.",
+  "isoCodes": {
+    "FINL": {
+      "name": "Letzte",
+      "definition": "Schlusszahlung."
+    },
+    "INTE": {
+      "name": "Zwischenwert",
+      "definition": "Zwischenzahlung."
+    },
+    "ONGO": {
+      "name": "Laufend",
+      "definition": "Das Ereignis läuft fortlaufend für die Annahme auf unaufgeforderter Basis."
+    },
+    "ROLL": {
+      "name": "Rollierende Basis",
+      "definition": "Das Ereignis hat mehrere Annahme- und Zahlungstermine bis zu einer weiteren Ankündigung durch den Emittenten oder dessen Beauftragten."
+    }
+  }
+}

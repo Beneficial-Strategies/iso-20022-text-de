@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlingCapacity8Choice",
+  "definition": "Auswahl des Formats für die Angaben zur Abwicklungsfunktion.",
+  "isoElements": {
+    "Code": {
+      "definition": "Abwicklungsfunktion, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Abwicklungsfunktion, ausgedrückt als proprietärer Code."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DatePeriod3",
+  "definition": "Zeitspanne, die durch ein Anfangsdatum und ein Enddatum definiert ist.",
+  "isoElements": {
+    "FromDate": {
+      "definition": "Anfangsdatum der Zeitspanne."
+    },
+    "ToDate": {
+      "definition": "Enddatum der Zeitspanne."
+    }
+  }
+}

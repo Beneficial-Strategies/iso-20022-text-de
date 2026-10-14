@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentCancellationReason6",
+  "definition": "Enthält weitere Details zum Grund der Stornierungsanforderung.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Partei, die die Stornierungsanforderung stellt."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Stornierung an."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Details zum Grund der Stornierungsanforderung."
+    }
+  }
+}

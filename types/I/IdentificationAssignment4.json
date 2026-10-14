@@ -1,0 +1,24 @@
+{
+  "isoType": "IdentificationAssignment4",
+  "definition": "Enthält die Details der Identifikationszuweisung.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, die vom Zuweisenden vergeben und an die nächste Partei in der Kette gesendet wird, um die Nachricht eindeutig zu identifizieren.||Verwendung: Der Zuweisende muss sicherstellen, dass die MessageIdentification je Zuweisungsempfänger für einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen die Identifikationszuweisung erstellt wurde."
+    },
+    "Creator": {
+      "definition": "Partei, die die Identifikationszuweisung erstellt hat."
+    },
+    "FirstAgent": {
+      "definition": "Identifiziert die erste Bank in der Identifikationskette, die auf die zahlungsinitiierende Partei folgt."
+    },
+    "Assigner": {
+      "definition": "Partei, die die Identifikationszuweisung einer anderen Partei zuweist. Sie ist auch der Sender der Nachricht."
+    },
+    "Assignee": {
+      "definition": "Partei, der die Identifikationszuweisung zugewiesen wird. Sie ist auch der Empfänger der Nachricht."
+    }
+  }
+}

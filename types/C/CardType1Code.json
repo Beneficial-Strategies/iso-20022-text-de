@@ -1,0 +1,14 @@
+{
+  "isoType": "CardType1Code",
+  "definition": "Legt die Art der Zahlungskarte fest.",
+  "isoCodes": {
+    "CRDT": {
+      "name": "Kreditkarte",
+      "definition": "Karte, bei der dem Inhaber eine Kreditlinie eingeräumt wurde. Die Karte ermöglicht es dem Inhaber, Käufe zu tätigen und Bargeld bis zu einer vorab vereinbarten Obergrenze abzuheben."
+    },
+    "DBIT": {
+      "name": "Debitkarte",
+      "definition": "Karte, die es dem Inhaber ermöglicht, seine Käufe direkt seinem Konto zu belasten. Die Karte kann auch andere Funktionen kombinieren, beispielsweise Geldkarte oder Scheckgarantiekarte."
+    }
+  }
+}

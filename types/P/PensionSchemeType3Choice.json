@@ -1,0 +1,12 @@
+{
+  "isoType": "PensionSchemeType3Choice",
+  "definition": "Auswahl von Formaten für eine Art von Pensionsregelung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der Pensionspolice, des Pensionsplans oder der Pensionsregelung, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Art der Pensionspolice, des Pensionsplans oder der Pensionsregelung, ausgedrückt als proprietärer Code."
+    }
+  }
+}

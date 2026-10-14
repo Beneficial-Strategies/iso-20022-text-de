@@ -1,0 +1,9 @@
+{
+  "isoType": "AccountIdentification10",
+  "definition": "Stellt Informationen zur Kontoidentifikation bereit.",
+  "isoElements": {
+    "IdentificationCode": {
+      "definition": "Standardcode zur Angabe, dass die Ankündigung für alle Depotkonten gilt, die das zugrunde liegende Finanzinstrument besitzen."
+    }
+  }
+}

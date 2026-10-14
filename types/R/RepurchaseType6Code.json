@@ -1,0 +1,18 @@
+{
+  "isoType": "RepurchaseType6Code",
+  "definition": "Gibt die Art der Pensionsgeschäft-Transaktion an.",
+  "isoCodes": {
+    "CADJ": {
+      "name": "Tauschen",
+      "definition": "Bezieht sich auf einen Swap/eine Substitution."
+    },
+    "TOPU": {
+      "name": "Aufstockung",
+      "definition": "Bezieht sich auf die Verlängerung einer Repo-Position, bei der das Schluss- oder Fälligkeitsdatum verlängert wird."
+    },
+    "WTHD": {
+      "name": "Entnahme",
+      "definition": "Bezieht sich auf die Verlängerung einer Repo-Position, bei der das Schluss- oder Fälligkeitsdatum verlängert wird."
+    }
+  }
+}

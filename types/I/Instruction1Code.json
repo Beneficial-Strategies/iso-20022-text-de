@@ -1,0 +1,18 @@
+{
+  "isoType": "Instruction1Code",
+  "definition": "Gibt weitere Anweisungen zur Verarbeitung einer Zahlungsanweisung an, die von der sendenden Clearingstelle an die nächste(n) Bank(en) übermittelt werden.",
+  "isoCodes": {
+    "PBEN": {
+      "name": "Begünstigten bezahlen",
+      "definition": "(Letztlich) Zahlungsempfänger darf erst nach Überprüfung der Identität bezahlt werden."
+    },
+    "TTIL": {
+      "name": "Zeit bis",
+      "definition": "Die Zahlungsanweisung ist bis zum angegebenen Datum und zur angegebenen Uhrzeit gültig und ausführbar. Andernfalls wird die Zahlungsanweisung abgelehnt."
+    },
+    "TFRO": {
+      "name": "Zeit ab",
+      "definition": "Die Zahlungsanweisung ist ab dem angegebenen Datum und der angegebenen Uhrzeit gültig und ausführbar."
+    }
+  }
+}

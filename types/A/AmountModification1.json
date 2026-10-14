@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountModification1",
+  "definition": "Legt die Art der Änderung eines Betrags fest.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Legt die Art der Änderung fest."
+    },
+    "Amount": {
+      "definition": "Betrag."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventProcessingType3Choice",
+  "definition": "Auswahl zwischen einem Standardcode und einem proprietären Code zur Angabe der Verarbeitungsart eines Kapitalmaßnahmenereignisses.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Verarbeitungsart eines Kapitalmaßnahmenereignisses."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Verarbeitungsart eines Kapitalmaßnahmenereignisses."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "UnitsOrAmountOrPercentage1Choice",
+  "definition": "Auswahl zwischen einem Betrag, einer Anzahl von Einheiten oder einem Prozentsatz.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Bargeldbetrag."
+    },
+    "Unit": {
+      "definition": "Anzahl der Einheiten."
+    },
+    "Percentage": {
+      "definition": "Prozentsatz des Bargeldbetrags."
+    }
+  }
+}

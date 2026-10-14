@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesPaymentStatus6Choice",
+  "definition": "Auswahl des Formats für den Zahlungsstatus eines Wertpapiers zu einem bestimmten Zeitpunkt.",
+  "isoElements": {
+    "Code": {
+      "definition": "Zahlungsstatus des Wertpapiers, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Zahlungsstatus des Wertpapiers, ausgedrückt als proprietärer Code."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "DeleteStandingOrderV05",
+  "definition": "Die Nachricht DeleteStandingOrder wird vom Systemmitglied gesendet, um einen oder mehrere Daueraufträge in den Stammdaten des Transaktionsadministrators des Systems zu löschen."
+}

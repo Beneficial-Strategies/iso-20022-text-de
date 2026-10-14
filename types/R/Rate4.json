@@ -1,0 +1,12 @@
+{
+  "isoType": "Rate4",
+  "definition": "Satz von Elementen zur Qualifizierung des Zinssatzes.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art des Zinssatzes an."
+    },
+    "ValidityRange": {
+      "definition": "Betragsbereich, für den der Zinssatz gilt."
+    }
+  }
+}

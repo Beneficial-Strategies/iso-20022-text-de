@@ -1,0 +1,35 @@
+{
+  "isoType": "IntraBalance5",
+  "definition": "Details zur Umbuchung zwischen Beständen.",
+  "isoElements": {
+    "SettlementAmount": {
+      "definition": "Gesamtbetrag, der abzuwickeln ist."
+    },
+    "SettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Geldbetrag bewegt werden soll."
+    },
+    "BalanceFrom": {
+      "definition": "Bestand, von dem der Geldbetrag abgebucht wird."
+    },
+    "BalanceTo": {
+      "definition": "Bestand, auf den der Geldbetrag übertragen wird."
+    },
+    "CashSubBalanceIdentification": {
+      "definition": "Nummer zur Identifikation eines Postens, der den Unterbestand bildet."
+    },
+    "Priority": {
+      "definition": "Gibt an, ob die Transaktion mit hoher Priorität auszuführen ist."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Enthält zusätzliche Informationen zur Abwicklung, die nicht in den strukturierten Feldern der Nachricht angegeben werden können."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Sofern zwischen Absender und Empfänger nicht bilateral vereinbart, darf InstructionProcessingAdditionalDetails, falls vorhanden, keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können."
+    },
+    "BalanceFromToRule": {
+      "definition": "Die Art des Geldbestands von BalanceFrom muss sich von der Art des Geldbestands von BalanceTo unterscheiden."
+    }
+  }
+}

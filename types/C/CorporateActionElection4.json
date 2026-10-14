@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionElection4",
+  "definition": "Enthält Informationen zu einer Wahl bei einer Kapitalmaßnahme.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "CurrencyOption": {
+      "definition": "Währung, in der Barerlöse gutzuschreiben oder zu belasten sind."
+    },
+    "PriceDetails": {
+      "definition": "Liefert Informationen zu den Preisen einer Kapitalmaßnahmen-Option."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifiziert das Finanzinstrument."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "GeneralBusinessInformationSearchCriteria1",
+  "definition": "Definiert die Kriterien für die Suche nach Geschäftsinformationen.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Eindeutige und zweifelsfreie Referenz, die einem allgemeinen Geschäftsinformationssystem zugewiesen wurde."
+    },
+    "Subject": {
+      "definition": "Betreffzeile einer allgemeinen Geschäftsinformation, die das Thema und den vorgesehenen Adressatenkreis der Information zusammenfasst."
+    },
+    "Qualifier": {
+      "definition": "Weitere Informationen zur Kritikalität oder Wichtigkeit eines allgemeinen Geschäftsinformationssystems."
+    }
+  }
+}

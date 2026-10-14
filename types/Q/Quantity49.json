@@ -1,0 +1,18 @@
+{
+  "isoType": "Quantity49",
+  "definition": "Details zu Menge, Konto und weiteren zugehörigen Informationen, die an einer Transaktion beteiligt sind.",
+  "isoElements": {
+    "SettlementQuantity": {
+      "definition": "Gesamtmenge der abzuwickelnden Wertpapiere."
+    },
+    "DenominationChoice": {
+      "definition": "Stückelung des zu empfangenden oder zu liefernden Wertpapiers."
+    },
+    "CertificateNumber": {
+      "definition": "Eindeutiger und unmissverständlicher Identifikator eines vom Emittenten vergebenen Zertifikats."
+    },
+    "QuantityBreakdown": {
+      "definition": "Aufgliederung einer Menge in Posten, wie Steuerposten oder Instrumentenserien."
+    }
+  }
+}

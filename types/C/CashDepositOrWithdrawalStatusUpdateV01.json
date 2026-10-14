@@ -1,0 +1,4 @@
+{
+  "isoType": "CashDepositOrWithdrawalStatusUpdateV01",
+  "definition": "Die Nachricht CashDepositOrWithdrawalStatusUpdate meldet den Status eines Auftrags zur Bargeldeinzahlung oder Bargeldabhebung.|Bei der Meldung des Status eines Auftrags zur Bargeldeinzahlung wird sie von einem Bargeldempfänger an einen Bargeldsender gesendet.|Bei der Meldung des Status eines Auftrags zur Bargeldabhebung wird sie von einem Bargeldsender an einen Bargeldempfänger gesendet."
+}

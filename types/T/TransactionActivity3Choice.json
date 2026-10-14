@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionActivity3Choice",
+  "definition": "Auswahl des Formats für die Identifikation der Transaktionsaktivität.",
+  "isoElements": {
+    "Code": {
+      "definition": "Transaktionsart, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Transaktionsart als proprietärer Code ausgedrückt."
+    }
+  }
+}

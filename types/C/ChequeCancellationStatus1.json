@@ -1,0 +1,15 @@
+{
+  "isoType": "ChequeCancellationStatus1",
+  "definition": "Liefert weitere Einzelheiten zum Status des Stornierungsauftrags der Scheckvorlage.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Partei, die den Stornierungsauftrag erteilt."
+    },
+    "Status": {
+      "definition": "Gibt den Status des Stornierungsauftrags an."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Angaben zum Grund der Stornierungsanfrage."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountingStatus1Choice",
+  "definition": "Auswahl von Formaten für den Rechnungslegungsstatus.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückter Rechnungslegungsstatus."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückter Rechnungslegungsstatus."
+    }
+  }
+}

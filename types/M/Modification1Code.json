@@ -1,0 +1,22 @@
+{
+  "isoType": "Modification1Code",
+  "definition": "Legt fest, ob ein Element hinzugefügt, geändert, gelöscht oder unverändert ist.",
+  "isoCodes": {
+    "NOCH": {
+      "name": "Keine Änderung",
+      "definition": "Legt fest, dass das Element nicht geändert wurde."
+    },
+    "MODI": {
+      "name": "Änderung",
+      "definition": "Legt fest, dass das Element geändert wurde."
+    },
+    "DELE": {
+      "name": "Löschung",
+      "definition": "Legt fest, dass das Element gelöscht wurde."
+    },
+    "ADDD": {
+      "name": "Hinzufügung",
+      "definition": "Legt fest, dass das Element hinzugefügt wurde."
+    }
+  }
+}

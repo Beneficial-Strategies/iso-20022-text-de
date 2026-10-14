@@ -1,0 +1,59 @@
+{
+  "isoType": "AccountStatus2",
+  "definition": "Status eines Kontos.",
+  "isoElements": {
+    "Enabled": {
+      "definition": "Das Konto kann für seinen vorgesehenen Zweck verwendet werden."
+    },
+    "Disabled": {
+      "definition": "Das Konto kann vorübergehend nicht für seinen vorgesehenen Zweck verwendet werden."
+    },
+    "Pending": {
+      "definition": "Die Kontoänderung wartet auf Genehmigung."
+    },
+    "PendingOpening": {
+      "definition": "Die Kontoeröffnung ist ausstehend."
+    },
+    "Proforma": {
+      "definition": "Das Konto ist vorläufig und kann teilweise für seinen vorgesehenen Zweck verwendet werden. Das Konto steht uneingeschränkt zur Verfügung, sobald der Kontoführer alle relevanten Dokumente erhalten hat."
+    },
+    "Closed": {
+      "definition": "Das Konto ist geschlossen."
+    },
+    "ClosurePending": {
+      "definition": "Die Kontoschließung ist ausstehend."
+    },
+    "Other": {
+      "definition": "Der Status ist ein bilateral vereinbarter Status."
+    }
+  },
+  "isoRules": {
+    "ClosedStatus1Rule": {
+      "definition": "Wenn Closed vorhanden ist, ist Enabled nicht zulässig."
+    },
+    "EnabledDisabledStatus1Rule": {
+      "definition": "Wenn Enabled vorhanden ist, ist Disabled nicht zulässig."
+    },
+    "EnabledDisabledStatus2Rule": {
+      "definition": "Wenn Disabled vorhanden ist, ist Enabled nicht zulässig."
+    },
+    "ClosedStatus3Rule": {
+      "definition": "Wenn Closed vorhanden ist, ist Pending nicht zulässig."
+    },
+    "ClosedStatus2Rule": {
+      "definition": "Wenn Closed vorhanden ist, ist Disabled nicht zulässig."
+    },
+    "ClosedStatus4Rule": {
+      "definition": "Wenn Closed vorhanden ist, ist PendingOpening nicht zulässig."
+    },
+    "ClosedStatus5Rule": {
+      "definition": "Wenn Closed vorhanden ist, ist Proforma nicht zulässig."
+    },
+    "ClosedStatus6Rule": {
+      "definition": "Wenn Closed vorhanden ist, ist ClosurePending nicht zulässig."
+    },
+    "StatusElementRule": {
+      "definition": "Eines der Elemente (Enabled, Disabled, Pending, PendingOpening, Proforma, Closed, ClosurePending, Other) muss vorhanden sein."
+    }
+  }
+}

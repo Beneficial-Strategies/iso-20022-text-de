@@ -1,0 +1,12 @@
+{
+  "isoType": "Commission21",
+  "definition": "Geldbetrag, der einer Partei als Vergütung für eine Dienstleistung geschuldet wird.",
+  "isoElements": {
+    "CommissionType": {
+      "definition": "Provisionsart."
+    },
+    "CommissionApplied": {
+      "definition": "Angewendeter Provisionsbetrag oder Provisionssatz."
+    }
+  }
+}

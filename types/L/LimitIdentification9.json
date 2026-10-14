@@ -1,0 +1,18 @@
+{
+  "isoType": "LimitIdentification9",
+  "definition": "Legt die Elemente fest, mit denen ein im System definiertes Risikomanagement-Limit eindeutig identifiziert wird.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identifikation eines bestimmten Geldclearingsystems."
+    },
+    "Type": {
+      "definition": "Art des Risikomanagement-Limits."
+    },
+    "AccountOwner": {
+      "definition": "Inhaber des abgefragten Kontos."
+    },
+    "AccountIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Kontos zwischen dem Kontoinhaber und der kontoführenden Stelle."
+    }
+  }
+}

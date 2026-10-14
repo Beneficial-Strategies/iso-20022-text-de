@@ -1,0 +1,18 @@
+{
+  "isoType": "IntraBalanceMovementModificationReportV02",
+  "definition": "Die Nachricht IntraBalanceMovementModificationReport wird von einer Abwicklungsinfrastruktur an einen Kontoinhaber/Auftraggeber gesendet, um vollständige Einzelheiten oder aktuelle Statuswerte der in der Abfrage definierten Änderungsaufträge für Bewegungen innerhalb des Saldos zu übermitteln. ||Die Nachricht kann auch verwendet werden, um: |- eine zuvor gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist \"Duplicate\") |- einem Dritten eine Kopie einer Nachricht zur Information zu übermitteln (die Unterfunktion der Nachricht ist \"Copy\") |- einem Dritten erneut eine Kopie einer Nachricht zur Information zu übermitteln (die Unterfunktion der Nachricht ist \"Copy Duplicate\").",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Wenn ReportGeneralDetails/ActivityIndicator gleich Yes (true oder 1) ist, muss ReportOrError vorhanden sein."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Wenn ReportGeneralDetails/ActivityIndicator gleich No (false oder 0) ist, darf ReportOrError nicht vorhanden sein."
+    },
+    "QueryTypeStatusRule": {
+      "definition": "Wenn ReportGeneralDetails/QueryType gleich Status ist, darf ReportOrError/Modifications(*)/Modification/UnderlyingIntraBalance nicht vorhanden sein."
+    },
+    "QueryTypeFullRule": {
+      "definition": "Wenn ReportGeneralDetails/QueryType gleich Full ist, muss ReportOrError/Modifications(*)/Modification/UnderlyingIntraBalance vorhanden sein."
+    }
+  }
+}

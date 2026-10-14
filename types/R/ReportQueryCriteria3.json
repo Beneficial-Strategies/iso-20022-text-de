@@ -1,0 +1,12 @@
+{
+  "isoType": "ReportQueryCriteria3",
+  "definition": "Legt die Kriterien fest, nach denen ein erzeugter Bericht gesucht wird.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Name der Abfrage, die durch die Such- und Rückgabekriterien definiert wird."
+    },
+    "SearchCriteria": {
+      "definition": "Legt die Kriterien fest, die für die Extraktion der Kontoinformationen zu verwenden sind."
+    }
+  }
+}

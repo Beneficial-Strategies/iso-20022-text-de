@@ -1,0 +1,29 @@
+{
+  "isoType": "Meeting7",
+  "definition": "Angaben zu Datum und Ort(en) einer Hauptversammlung.",
+  "isoElements": {
+    "DateAndTime": {
+      "definition": "Datum und Uhrzeit, zu denen die Versammlung stattfinden wird."
+    },
+    "DateStatus": {
+      "definition": "Status des Versammlungsdatums."
+    },
+    "QuorumRequired": {
+      "definition": "Gibt an, ob eine Mindestanzahl vertretener Wertpapiere zur Abhaltung einer Versammlung erforderlich ist."
+    },
+    "Location": {
+      "definition": "Ort, an dem die Versammlung stattfinden wird."
+    },
+    "QuorumQuantity": {
+      "definition": "Mindestmenge an Wertpapieren, die zur Abhaltung einer Versammlung erforderlich ist."
+    },
+    "URLAddress": {
+      "definition": "Adresse des Uniform Resource Locator (URL), beispielsweise für den Dienst im World Wide Web (HTTP)."
+    }
+  },
+  "isoRules": {
+    "DateStatus1Rule": {
+      "definition": "Wenn DateAndTime/DateCode „UKWN“ (Unbekannt) ist, darf DateStatus nicht vorhanden sein."
+    }
+  }
+}

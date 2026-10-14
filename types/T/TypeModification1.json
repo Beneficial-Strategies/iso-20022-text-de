@@ -1,0 +1,12 @@
+{
+  "isoType": "TypeModification1",
+  "definition": "Legt die Art der Änderung der Kontoart fest.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Legt die Art der Änderung fest."
+    },
+    "Type": {
+      "definition": "Art des Kontos."
+    }
+  }
+}

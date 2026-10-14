@@ -1,0 +1,47 @@
+{
+  "isoType": "CorporateActionRate122",
+  "definition": "Gibt Sätze einer Kapitalmaßnahme an.",
+  "isoElements": {
+    "InterestRate": {
+      "definition": "Auf das Jahr bezogener Zinssatz eines Finanzinstruments, der zur Berechnung des tatsächlichen Zinssatzes des Kupons oder der Stückzinsen verwendet wird."
+    },
+    "PercentageSought": {
+      "definition": "Prozentsatz der Wertpapiere, die der Anbieter/Emittent gemäß den Bedingungen des Ereignisses kaufen oder zurückzahlen wird."
+    },
+    "RelatedIndex": {
+      "definition": "Indexsatz in Bezug auf den Zinssatz der bevorstehenden Zinszahlung."
+    },
+    "Spread": {
+      "definition": "Zulässige Marge über oder unter einem gegebenen Satz."
+    },
+    "BidInterval": {
+      "definition": "Zulässiger Preisschritt für die Abgabe eines Gebots."
+    },
+    "PreviousFactor": {
+      "definition": "Faktor zur Berechnung des Werts des ausstehenden Kapitalbetrags des Finanzinstruments (bei Wertpapieren mit Faktor) bis zum nächsten Rückzahlungstermin (Faktor)."
+    },
+    "NextFactor": {
+      "definition": "Faktor zur Berechnung des Werts des ausstehenden Kapitalbetrags des Finanzinstruments (bei Wertpapieren mit Faktor), der nach dem Rückzahlungstermin (Faktor) gelten wird."
+    },
+    "ReinvestmentDiscountRateToMarket": {
+      "definition": "Diskontsatz für Wertpapiere, die über einen Wiederanlageplan erworben werden, im Vergleich zum aktuellen Marktpreis des Wertpapiers."
+    },
+    "InterestShortfall": {
+      "definition": "Bei strukturierten Wertpapieremissionen mit einem festgelegten Plan für Kapital- und Zinszahlungen über die Laufzeit der Emission ist dies die Differenz zwischen dem tatsächlichen Satz der Zinszahlung und dem erwarteten oder planmäßigen Satz der Zinszahlung."
+    },
+    "RealisedLoss": {
+      "definition": "Bei strukturierten Wertpapieremissionen mit einem festgelegten Plan für Kapital- und Zinszahlungen über die Laufzeit der Emission ist dies die Differenz zwischen dem tatsächlichen Satz der Kapital- oder Hauptschuldrückzahlung und der planmäßigen Kapitalrückzahlung."
+    },
+    "DeclaredRate": {
+      "definition": "Vom Emittenten erklärter Dividenden- oder Zinssatz."
+    },
+    "IndexFactor": {
+      "definition": "Öffentlicher Indexsatz, der auf den gezahlten Betrag angewendet wird, um ihn an die Inflation anzupassen."
+    }
+  },
+  "isoRules": {
+    "DeclaredRateRule": {
+      "definition": "DeclaredRate darf nur verwendet werden, wenn die vom Emittenten erklärte Dividende oder der erklärte Zins tatsächlich in einer anderen als der erklärten Währung gezahlt wird oder wenn das Dividenden- oder Zinsereignis die Wahl zwischen mehreren Währungsoptionen ermöglicht."
+    }
+  }
+}

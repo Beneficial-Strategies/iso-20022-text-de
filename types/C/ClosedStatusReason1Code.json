@@ -1,0 +1,14 @@
+{
+  "isoType": "ClosedStatusReason1Code",
+  "definition": "Gibt den Grund für den Status „geschlossen“ an.",
+  "isoCodes": {
+    "ASIN": {
+      "name": "Anweisung des kontoführenden Instituts",
+      "definition": "Das Konto ist geschlossen, nach einer Anweisung des Kontoführers, das Konto zu schließen."
+    },
+    "CLIN": {
+      "name": "Kundenanweisung",
+      "definition": "Das Konto ist geschlossen, nach einer Anweisung des Kunden oder einer bevollmächtigten Partei, das Konto zu schließen."
+    }
+  }
+}

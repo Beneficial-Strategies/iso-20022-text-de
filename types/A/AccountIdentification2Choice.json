@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification2Choice",
+  "definition": "Auswahl zwischen der Identifikation eines Geld- oder eines Wertpapierkontos.",
+  "isoElements": {
+    "CashAccountIdentification": {
+      "definition": "Identifikation eines Geldkontos."
+    },
+    "SecuritiesAccountIdentification": {
+      "definition": "Identifikation eines Wertpapierkontos."
+    }
+  }
+}

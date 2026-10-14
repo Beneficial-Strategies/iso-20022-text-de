@@ -1,0 +1,18 @@
+{
+  "isoType": "ProcessedStatus3Code",
+  "definition": "Gibt den Verarbeitungsstatus einer Mitteilung, eines Antrags oder einer Bewegung an.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Empfangen",
+      "definition": "Die Anweisung/der Antrag ist eingegangen."
+    },
+    "PEND": {
+      "name": "Ausstehend",
+      "definition": "Die Bearbeitung des Antrags steht noch aus."
+    },
+    "PACK": {
+      "name": "Akzeptiert",
+      "definition": "Der Antrag ist angenommen."
+    }
+  }
+}

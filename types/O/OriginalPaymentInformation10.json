@@ -1,0 +1,42 @@
+{
+  "isoType": "OriginalPaymentInformation10",
+  "definition": "Liefert Angaben zur ursprünglichen Zahlungstransaktion, auf die sich die Avisnachricht bezieht.",
+  "isoElements": {
+    "References": {
+      "definition": "Identifiziert die zugrunde liegende Transaktion."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Satz von Elementen zur näheren Bestimmung der Transaktionsart."
+    },
+    "Amount": {
+      "definition": "Geldbetrag, der vor Abzug von Entgelten zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, ausgedrückt in der von der initiierenden Partei beauftragten Währung."
+    },
+    "ExchangeRateInformation": {
+      "definition": "Liefert Angaben zu Wechselkurs und Kontrakt."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Datum, zu dem die initiierende Partei die Clearingstelle um Verarbeitung der Zahlung ersucht. |Verwendung: Dies ist das Datum, an dem das Konto des Zahlungspflichtigen zu belasten ist. Bei Zahlung per Scheck das Datum, an dem der Scheck von der Bank ausgestellt sein muss."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Zahlungsempfänger verlangt, dass der Geldbetrag vom Zahlungspflichtigen eingezogen wird."
+    },
+    "Debtor": {
+      "definition": "Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "DebtorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungspflichtigen, das aufgrund der Transaktion belastet wird."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungspflichtigen führt."
+    },
+    "Creditor": {
+      "definition": "Partei, der ein Geldbetrag zusteht."
+    },
+    "CreditorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungsempfängers, dem aufgrund der Zahlungstransaktion eine Gutschrift gebucht wird."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungsempfänger führt."
+    }
+  }
+}

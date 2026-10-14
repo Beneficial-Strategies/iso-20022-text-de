@@ -1,0 +1,12 @@
+{
+  "isoType": "AllocationSatus3Choice",
+  "definition": "Auswahl des Formats für den Grund des Zuordnungsstatus.",
+  "isoElements": {
+    "Code": {
+      "definition": "Liefert den Status der Zuordnung von Sicherheiten zur Deckung der Anweisung."
+    },
+    "Proprietary": {
+      "definition": "Liefert den Status der Zuordnung von Sicherheiten zur Deckung der Anweisung."
+    }
+  }
+}

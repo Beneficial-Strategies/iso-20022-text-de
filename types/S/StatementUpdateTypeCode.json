@@ -1,0 +1,14 @@
+{
+  "isoType": "StatementUpdateTypeCode",
+  "definition": "Gibt die Art einer Auszugsaktualisierung an, zum Beispiel dass es sich um einen vollständigen Auszug handelt.",
+  "isoCodes": {
+    "COMP": {
+      "name": "Vollständig",
+      "definition": "Der Auszug ist vollständig."
+    },
+    "DELT": {
+      "name": "Delta",
+      "definition": "Der Auszug enthält nur Änderungen."
+    }
+  }
+}

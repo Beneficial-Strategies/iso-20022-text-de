@@ -1,0 +1,4 @@
+{
+  "isoType": "SecuritiesTransactionCancellationRequestQueryV01",
+  "definition": "Die Nachricht SecuritiesTransactionCancellationRequestQuery wird von einem Kontoinhaber/Anfragenden an eine Abwicklungsinfrastruktur gesendet, um anhand einer Reihe von Suchkriterien oder Geschäftsattributen den Status von Stornierungsanweisungen für Abwicklungen oder Positionsumbuchungen (Intra-Position) abzufragen.|Die Nachricht kann auch verwendet werden, um: |- eine vom Kontoinhaber an den Kontoführer gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist \"Duplicate\") |- einem Dritten zur Information eine Kopie einer vom Kontoinhaber gesendeten Nachricht zur Verfügung zu stellen (die Unterfunktion der Nachricht ist \"Copy\") |- einem Dritten zur Information eine Kopie einer vom Kontoinhaber gesendeten Nachricht erneut zu senden (die Unterfunktion der Nachricht ist \"Copy Duplicate\")."
+}

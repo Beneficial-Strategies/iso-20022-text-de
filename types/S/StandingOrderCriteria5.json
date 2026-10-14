@@ -1,0 +1,20 @@
+{
+  "isoType": "StandingOrderCriteria5",
+  "definition": "Legt die Kriterien fest, nach denen ein Dauerauftrag gesucht wird und über Daueraufträge berichtet wird. Der neuen Abfrage kann ein Name gegeben werden.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Name der Abfrage, die durch die Such- und Rückgabekriterien definiert wird."
+    },
+    "SearchCriteria": {
+      "definition": "Legt die Kriterien fest, die zum Extrahieren der Dauerauftragsinformationen verwendet werden."
+    },
+    "ReturnCriteria": {
+      "definition": "Legt den erwarteten Dauerauftragsbericht fest."
+    }
+  },
+  "isoRules": {
+    "ReturnCriteriaAndOrSearchCriteriaRule": {
+      "definition": "Wenn ReturnCriteria nicht vorhanden ist, muss mindestens ein Vorkommen von SearchCriteria vorhanden sein. Wenn ReturnCriteria vorhanden ist, ist jedes Vorkommen von SearchCriteria optional."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "isoType": "ExternalInvestigationInstrument1Code",
+  "definition": "Gibt die Art des Instruments oder Produkts an, auf das sich die Untersuchung bezieht, wie in einem externen Codesatz für Untersuchungsinstrumente veröffentlicht.|Externe Codesätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "CHQB": {
+      "name": "Scheck",
+      "definition": "Die Untersuchung steht im Zusammenhang mit einem Scheck."
+    },
+    "INST": {
+      "name": "Sofortüberweisung",
+      "definition": "Die Untersuchung steht im Zusammenhang mit einer Sofortüberweisung."
+    },
+    "XBCT": {
+      "name": "Grenzüberschreitende Überweisung",
+      "definition": "Die Untersuchung steht im Zusammenhang mit einer grenzüberschreitenden Zahlung."
+    },
+    "ACHP": {
+      "name": "ACH oder Massenzahlung",
+      "definition": "Die Untersuchung steht im Zusammenhang mit einer ACH- oder Massenzahlung."
+    },
+    "DDTP": {
+      "name": "Lastschrift",
+      "definition": "Die Untersuchung steht im Zusammenhang mit einer Lastschrift."
+    },
+    "CARD": {
+      "name": "Karte",
+      "definition": "Die Untersuchung steht im Zusammenhang mit einer Kartentransaktion."
+    },
+    "URGP": {
+      "name": "HVP oder Wire",
+      "definition": "Die Untersuchung steht im Zusammenhang mit einer Wire-/Großbetragszahlung."
+    },
+    "STAT": {
+      "name": "Kontoauszugsposition",
+      "definition": "Die Untersuchung steht im Zusammenhang mit einer Kontoauszugsposition."
+    },
+    "DRFT": {
+      "name": "Wechsel",
+      "definition": "Die Untersuchung steht im Zusammenhang mit einem Wechsel."
+    },
+    "SRTP": {
+      "name": "Zahlungsaufforderung",
+      "definition": "Die Untersuchung steht im Zusammenhang mit einer Zahlungsaufforderung."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges zugrunde liegendes Instrument."
+    }
+  }
+}

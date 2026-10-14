@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingSubServiceQualifier1Choice",
+  "definition": "Gibt den Qualifizierer für einen Subservice an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Inhalt des Subservice-Qualifizierers in codierter Form an."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Inhalt des Subservice-Qualifizierers in Freitextform an."
+    }
+  }
+}

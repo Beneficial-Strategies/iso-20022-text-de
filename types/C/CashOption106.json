@@ -1,0 +1,33 @@
+{
+  "isoType": "CashOption106",
+  "definition": "Liefert Informationen zur Baroption.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Wert eine Belastung oder eine Gutschrift ist."
+    },
+    "CashAccountIdentification": {
+      "definition": "Identifikation des Kontos, auf dem Bargeld geführt wird."
+    },
+    "GrossCashAmount": {
+      "definition": "Geldbetrag vor Abzügen und Freibeträgen."
+    },
+    "NetCashAmount": {
+      "definition": "Geldbetrag nach gegebenenfalls erfolgten Abzügen und Freibeträgen, das heißt der Gesamtbetrag +/- Gebühren/Entgelte."
+    },
+    "EntitledAmount": {
+      "definition": "Barbetrag auf der Grundlage der Bedingungen des Kapitalmaßnahmen-Ereignisses und des Bestands an zugrunde liegenden Wertpapieren, auf den der Kontoinhaber Anspruch hat bzw. der ihm zusteht (kann positiv oder negativ sein)."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Prozentsatz einer Barausschüttung, der von den Steuerbehörden des Rechtsraums des Emittenten einbehalten wird und für den eine Entlastung an der Quelle und/oder eine Rückforderung möglich sein kann."
+    },
+    "WithholdingTaxAmount": {
+      "definition": "Betrag einer Barausschüttung, der von den Steuerbehörden des Rechtsraums des Emittenten einbehalten wird und für den eine Entlastung an der Quelle und/oder eine Rückforderung möglich sein kann."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Datum und Uhrzeit, zu dem eine Zahlung erfolgen kann, zum Beispiel wenn der Zahlungstag ein Nicht-Geschäftstag ist, oder zur Angabe des ersten Zahlungsdatums eines Angebots."
+    },
+    "PaymentDate": {
+      "definition": "Datum/Uhrzeit, zu dem die Bewegung stattfinden soll (Bargeld und/oder Wertpapiere)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "IdentificationType45Choice",
+  "definition": "Auswahl zwischen einem Code und einem Datenquellenschema zur Angabe der Art der Identifikation einer natürlichen Person.",
+  "isoElements": {
+    "Code": {
+      "definition": "Identifikationsart, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Identifikationsart, ausgedrückt als proprietärer Code."
+    }
+  }
+}

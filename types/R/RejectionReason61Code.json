@@ -1,0 +1,34 @@
+{
+  "isoType": "RejectionReason61Code",
+  "definition": "Gibt den Grund an, weshalb der Stornierungsauftrag für den Market Claim den Status „abgelehnt“ hat.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Transaktion bzw. Anweisung ging nach Ablauf der vom kontoführenden Institut festgelegten Frist ein."
+    },
+    "ULNK": {
+      "name": "Ungültige Referenz",
+      "definition": "Die verknüpfte Referenz ist unbekannt."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "DCAN": {
+      "name": "Abgelehnt, da bereits storniert",
+      "definition": "Die Stornierungsanforderung wurde abgelehnt, da die Anweisung bereits storniert wurde."
+    },
+    "DSET": {
+      "name": "Abgelehnt, da bereits abgewickelt",
+      "definition": "Die Stornierungsanforderung wurde zurückgewiesen, da die Anweisung bereits abgewickelt wurde."
+    },
+    "DPRG": {
+      "name": "Abgelehnt, da in Bearbeitung",
+      "definition": "Die Stornierungsanforderung wurde abgelehnt, da die Anweisung in Bearbeitung ist oder bereits verarbeitet wurde."
+    }
+  }
+}

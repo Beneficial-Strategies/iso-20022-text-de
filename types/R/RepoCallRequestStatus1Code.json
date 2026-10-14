@@ -1,0 +1,14 @@
+{
+  "isoType": "RepoCallRequestStatus1Code",
+  "definition": "Gibt zusätzliche Informationen zum Status der verarbeiteten Anweisung zum Abruf des Rückkaufgeschäfts an.",
+  "isoCodes": {
+    "CACK": {
+      "name": "Empfangen und akzeptiert",
+      "definition": "Die Anforderung zum Abruf des Rückkaufgeschäfts ist bestätigt/akzeptiert."
+    },
+    "DEND": {
+      "name": "Abgelehnt",
+      "definition": "Die Anforderung zum Abruf des Rückkaufgeschäfts ist abgelehnt."
+    }
+  }
+}

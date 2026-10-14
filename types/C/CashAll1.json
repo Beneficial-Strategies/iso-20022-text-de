@@ -1,0 +1,12 @@
+{
+  "isoType": "CashAll1",
+  "definition": "Gibt an, ob alle Vermögenswerte des Portfolios liquidiert und als Barmittel übertragen werden sollen.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Gibt an, ob alle Vermögenswerte des Portfolios liquidiert und als Barmittel übertragen werden sollen."
+    },
+    "Currency": {
+      "definition": "Währung der Barmittel."
+    }
+  }
+}

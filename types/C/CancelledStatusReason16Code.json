@@ -1,0 +1,50 @@
+{
+  "isoType": "CancelledStatusReason16Code",
+  "definition": "Gibt den Grund für den Stornierungsstatus an.",
+  "isoCodes": {
+    "SCEX": {
+      "name": "Wertpapiere nicht mehr zulässig",
+      "definition": "Die Transaktion wurde storniert; das Wertpapier existiert nicht mehr oder ist am angewiesenen Markt nicht mehr zugelassen. Bei Stornierungen im Zusammenhang mit Kapitalmaßnahmen ist CORP zu verwenden."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "CXLR": {
+      "name": "Laufzeitende",
+      "definition": "Die Transaktion wurde von der ausführenden Partei abgelehnt; die Ablehnung ist endgültig, daher wird der Auftrag im System storniert."
+    },
+    "BYIY": {
+      "name": "Wegen Zwangseindeckung storniert",
+      "definition": "Die Anweisung wurde storniert, weil ein Buy-in eingeleitet wurde."
+    },
+    "CTHP": {
+      "name": "Von Dritten storniert",
+      "definition": "Die Anweisung wird von einem Dritten storniert."
+    },
+    "CANZ": {
+      "name": "Storniert, aufgeteilt, Teilabwicklung",
+      "definition": "Die ursprüngliche Transaktion wurde storniert und ersetzt, um eine Teil- oder Aufteilungsabwicklung zu ermöglichen."
+    },
+    "CANT": {
+      "name": "Wegen Umwandlung storniert",
+      "definition": "Die ursprüngliche Transaktion wurde aufgrund einer Kapitalmaßnahme storniert und ersetzt."
+    },
+    "CSUB": {
+      "name": "Von der Bank storniert",
+      "definition": "Die Anweisung wurde vom Beauftragten aufgrund einer Verlängerung der Ereignisfrist storniert."
+    },
+    "CANS": {
+      "name": "Vom System storniert",
+      "definition": "Die Transaktion wird vom System storniert."
+    },
+    "CANI": {
+      "name": "Von Ihnen storniert",
+      "definition": "Die Transaktion wurde von Ihnen selbst storniert."
+    },
+    "CORP": {
+      "name": "Wegen Kapitalmaßnahme storniert",
+      "definition": "Die Transaktion wurde aufgrund einer Kapitalmaßnahme storniert."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "TMSContactLevel2Code",
+  "definition": "Dringlichkeit des Befehls.",
+  "isoCodes": {
+    "ASAP": {
+      "name": "So bald wie möglich",
+      "definition": "Das Terminalverwaltungssystem muss so bald wie möglich kontaktiert werden (zum Beispiel nach dem Abgleich)."
+    },
+    "CRIT": {
+      "name": "Kritisch",
+      "definition": "Das Terminalverwaltungssystem muss vor der nächsten Transaktion kontaktiert werden."
+    },
+    "DTIM": {
+      "name": "Datum und Zeit",
+      "definition": "Das Terminalverwaltungssystem muss zum angegebenen Datum und zur angegebenen Uhrzeit kontaktiert werden."
+    },
+    "ENCS": {
+      "name": "Kundensitzung beenden",
+      "definition": "Nach Ende der Kundensitzung."
+    }
+  }
+}

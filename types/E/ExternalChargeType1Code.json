@@ -1,0 +1,62 @@
+{
+  "isoType": "ExternalChargeType1Code",
+  "definition": "Gibt die Art oder Verwendung der Entgelte als Zeichenfolge mit höchstens 4 Zeichen an.|Die Liste der gültigen Codes ist eine separat veröffentlichte externe Code-Liste.|Externe Code-Sätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "BRKF": {
+      "name": "Maklergebühr",
+      "definition": "An einen Broker gezahlte Gebühr für erbrachte Leistungen."
+    },
+    "BTCH": {
+      "name": "Sammler",
+      "definition": "Gebühr für die Verarbeitung eines Stapels von Transaktionen."
+    },
+    "COMM": {
+      "name": "Provision",
+      "definition": "Gebühr für erbrachte Dienstleistungen."
+    },
+    "SUMM": {
+      "name": "Summierung",
+      "definition": "Summe einzelner Gebühren."
+    },
+    "AMND": {
+      "name": "Änderung",
+      "definition": "Der Zahlungsauftrag wurde auf Veranlassung der (ursprünglichen) sendenden Bank oder aufgrund geänderter Informationen der (ursprünglichen) sendenden Bank geändert."
+    },
+    "CFEE": {
+      "name": "Stornogebühr",
+      "definition": "Wird verwendet, wenn Gebühren für die Stornierung einer Zahlung erhoben werden."
+    },
+    "CLEF": {
+      "name": "Clearing-Gebühr",
+      "definition": "Wird verwendet, wenn Gebühren für die Standardverarbeitung von Transfers zwischen Finanzinstituten erhoben werden."
+    },
+    "INVS": {
+      "name": "Untersuchung",
+      "definition": "Entgelte im Zusammenhang mit der Bearbeitung eines Untersuchungsfalls bzw. einer Anfrage."
+    },
+    "INTE": {
+      "name": "Zinsen",
+      "definition": "Zinsbezogene Entgelte."
+    },
+    "NSTP": {
+      "name": "Entgelte für Nicht-STP",
+      "definition": "Entgelt für eine Zahlung, die während der Verarbeitung ein Eingreifen erforderte."
+    },
+    "DEBT": {
+      "name": "Zu Lasten des Zahlungspflichtigen",
+      "definition": "Die Forderung wird als Antwort auf den Erhalt einer Kundenüberweisung mit DEBT im Entgelte-Code eingereicht."
+    },
+    "TELE": {
+      "name": "Telekommunikationsentgelte",
+      "definition": "Entgelte für das jeweils am besten geeignete und effizienteste verfügbare Telekommunikationsmittel, z. B. SWIFT, Telex, Telefon, Fax, wie von der die Zahlungsanweisung ausführenden Partei bestimmt."
+    },
+    "ACCM": {
+      "name": "Kontoführungsgebühr",
+      "definition": "Kontoführungsgebühr."
+    },
+    "RECH": {
+      "name": "Meldeentgelte",
+      "definition": "Entgelt für eine Reporting-Nachricht (camt.05X)."
+    }
+  }
+}

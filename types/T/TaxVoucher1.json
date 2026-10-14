@@ -1,0 +1,77 @@
+{
+  "isoType": "TaxVoucher1",
+  "definition": "Enthält Informationen zur Steuerbescheinigung.",
+  "isoElements": {
+    "TaxVoucherRate": {
+      "definition": "Ausschüttungssatz je Aktie."
+    },
+    "TaxCredit": {
+      "definition": "Betrag der Steuer, die zuvor gezahlt wurde."
+    },
+    "TaxDeduction": {
+      "definition": "Betrag der Steuer, die zuvor abgezogen wurde."
+    },
+    "GrossAmount": {
+      "definition": "Geldbetrag vor Vornahme jeglicher Abzüge und Freibeträge."
+    },
+    "NetAmount": {
+      "definition": "Geldbetrag nach Vornahme jeglicher Abzüge und Freibeträge."
+    },
+    "RecordDateHolding": {
+      "definition": "Wertpapierbestand am Stichtag."
+    },
+    "TaxCreditRate": {
+      "definition": "Anwendbarer Steuersatz auf den Steuergutschriftsbetrag."
+    },
+    "WithholdingTaxAmount": {
+      "definition": "Geldbetrag, der von einer Steuerbehörde einbehalten wird."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Satz einer Geldausschüttung, der von einer Steuerbehörde einbehalten wird."
+    },
+    "ScripDividendReinvestmentPricePerShare": {
+      "definition": "Kosten je Aktie der zugeteilten neuen Aktien."
+    },
+    "CashAmountBroughtForward": {
+      "definition": "Von einer früheren Dividenden- oder Zinszahlung einbehaltener Geldbetrag."
+    },
+    "AllotedSharesCost": {
+      "definition": "Gesamter Geldbetrag, der für den Kauf der zugeteilten Aktien erforderlich ist."
+    },
+    "CashAmountCarriedForward": {
+      "definition": "Auf die nächste Dividenden- oder Zinszahlung vorgetragener Geldbetrag."
+    },
+    "NotionalTax": {
+      "definition": "Werden anstelle einer Bardividende neue Wertpapiere ausgegeben, ist die fiktive Steuer die Steuer auf den Geldbetrag, der gezahlt worden wäre. Nur für Aktiendividenden (Scrips)."
+    },
+    "NotionalDividendPayable": {
+      "definition": "Geldbetrag, der zahlbar gewesen wäre, wenn die Dividende in bar statt in Form von Aktien bezogen worden wäre. Nur für Aktiendividenden (Scrip)."
+    },
+    "BargainDate": {
+      "definition": "Datum, an dem der DRIP-Kauf abgeschlossen wurde."
+    },
+    "BargainSettlementDate": {
+      "definition": "Abwicklungsdatum der DRIP-Kauftransaktion."
+    },
+    "StampDutyAmount": {
+      "definition": "Betrag der Stempelsteuer."
+    },
+    "ChargeAmount": {
+      "definition": "Betrag der dem Kunden berechneten Gebühren/Entgelte."
+    },
+    "CommissionAmount": {
+      "definition": "Dem Zahlstellen-Agenten geschuldeter Betrag."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Enthält Informationen zur Devisentransaktion."
+    }
+  },
+  "isoRules": {
+    "TaxCreditOrTaxDeductionRule": {
+      "definition": "Entweder TaxCredit oder TaxDeduction muss vorhanden sein."
+    },
+    "TaxCreditOrTaxDeductionRuleNotBoth": {
+      "definition": "Entweder TaxCredit oder TaxDeduction muss vorhanden sein."
+    }
+  }
+}

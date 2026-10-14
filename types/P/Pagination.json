@@ -1,0 +1,12 @@
+{
+  "isoType": "Pagination",
+  "definition": "Nummer zur Sequenzierung von Seiten, wenn die Daten nicht in einer einzigen Nachricht übermittelt werden können und auf mehrere Seiten (Nachrichten) aufgeteilt werden müssen.",
+  "isoElements": {
+    "PageNumber": {
+      "definition": "Seitennummer."
+    },
+    "LastPageIndicator": {
+      "definition": "Kennzeichnet die letzte Seite."
+    }
+  }
+}

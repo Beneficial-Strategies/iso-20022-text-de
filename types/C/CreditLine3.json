@@ -1,0 +1,18 @@
+{
+  "isoType": "CreditLine3",
+  "definition": "Satz von Elementen mit Einzelheiten zur Kreditlinie.",
+  "isoElements": {
+    "Included": {
+      "definition": "Gibt an, ob die Kreditlinie im Saldo enthalten ist."
+    },
+    "Type": {
+      "definition": "Typ der bereitgestellten Kreditlinie, wenn mehrere Kreditlinien bereitgestellt werden können."
+    },
+    "Amount": {
+      "definition": "Geldbetrag der Kreditlinie."
+    },
+    "Date": {
+      "definition": "Datum der bereitgestellten Kreditlinie, wenn mehrere Kreditlinien bereitgestellt werden können."
+    }
+  }
+}

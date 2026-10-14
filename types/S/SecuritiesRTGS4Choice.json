@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesRTGS4Choice",
+  "definition": "Auswahl des Formats für die Wertpapier-RTGS-Informationen.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Gibt an, ob die Abwicklungstransaktion über ein RTGS-System oder ein Nicht-RTGS-System abgewickelt werden soll."
+    },
+    "Proprietary": {
+      "definition": "Wertpapier-RTGS-Informationen, ausgedrückt als proprietärer Code."
+    }
+  }
+}

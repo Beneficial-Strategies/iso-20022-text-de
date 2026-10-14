@@ -1,0 +1,18 @@
+{
+  "isoType": "Algorithm14Code",
+  "definition": "Kryptografische Algorithmen für digitale Signaturen.",
+  "isoCodes": {
+    "ERS2": {
+      "name": "SHA256WithRSA",
+      "definition": "Signaturalgorithmen mit RSA unter Verwendung des Digest-Algorithmus SHA-256 - (ASN.1 Object Identifier: sha256WithRSAEncryption)."
+    },
+    "ERS1": {
+      "name": "SHA1WithRSA",
+      "definition": "Die als DEPRECATED gekennzeichneten Signaturalgorithmen mit RSA (PKCS #1 Version 2.1) unter Verwendung des Digest-Algorithmus SHA-1 - (ASN.1 Object Identifier: sha1WithRSAEncryption)."
+    },
+    "RPSS": {
+      "name": "RSASSA-PSS",
+      "definition": "Signaturalgorithmus mit Anhang, probabilistisches Signaturverfahren (PKCS #1 Version 2.1) - (ASN.1 Object Identifier: id-RSASSA-PSS)."
+    }
+  }
+}

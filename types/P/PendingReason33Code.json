@@ -1,0 +1,274 @@
+{
+  "isoType": "PendingReason33Code",
+  "definition": "Legt den Grund fest, aus dem die Abwicklung der Transaktion/Anweisung aussteht oder scheitert. Eine Abwicklung am angewiesenen Abwicklungstag ist weiterhin möglich, der Status ist ausstehend. Eine Abwicklung am angewiesenen Abwicklungstag ist nicht mehr möglich, der Status ist scheiternd.",
+  "isoCodes": {
+    "BLOC": {
+      "name": "Konto gesperrt",
+      "definition": "Ihr Konto ist gesperrt, über das Konto kann keine Anweisung abgewickelt werden."
+    },
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Anweisung wurde nach Ablauf der Frist des Kontoführers empfangen. Sie wird gemäß der bilateralen Dienstleistungsvereinbarung zwischen Kontoführer und Kontoinhaber behandelt."
+    },
+    "CONF": {
+      "name": "Wartet auf Bestätigung",
+      "definition": "Warten auf Bestätigung der Gegenpartei."
+    },
+    "DOCC": {
+      "name": "Wartet auf Dokumente oder Indossamente von der Gegenpartei",
+      "definition": "Es stehen noch Dokumente oder Indossamente der Gegenpartei aus."
+    },
+    "DOCY": {
+      "name": "Wartet auf Dokumente oder Indossamente von Ihnen",
+      "definition": "Warten auf Dokumente oder Indossamente von Ihnen."
+    },
+    "AWMO": {
+      "name": "Wartet auf Geld",
+      "definition": "Die Finanzinstrumente sind geliefert, es steht jedoch noch der Geldeingang von der Gegenpartei aus."
+    },
+    "CYCL": {
+      "name": "Wartet auf nächsten Abwicklungszyklus",
+      "definition": "Ihre Anweisung ist im lokalen Markt bestätigt oder zur Abwicklung bereit und wartet auf den nächsten Abwicklungszyklus."
+    },
+    "LAAW": {
+      "name": "Wartet auf andere Transaktion",
+      "definition": "Es steht die Abwicklung eines Kaufs zur Deckung nicht erfüllter Positionen aus."
+    },
+    "CAIS": {
+      "name": "Wartet auf Wertpapiere",
+      "definition": "Es stehen noch Finanzinstrumente aus einer Kapitalmaßnahme oder einem anderen Verfahren aus, zum Beispiel Umwandlung, Entmaterialisierung, Umtausch, Registrierung, Stempelung, Aufteilung."
+    },
+    "AWSH": {
+      "name": "Wartet auf Wertpapiere der Gegenpartei",
+      "definition": "Die Finanzinstrumente sind von der Gegenpartei noch nicht eingegangen (bei Lieferung gegen Zahlung), das Geld wurde geliefert."
+    },
+    "FUTU": {
+      "name": "Wartet auf Abwicklungsdatum",
+      "definition": "Es steht der Abwicklungstag aus. Es sind keine Abwicklungsprobleme zu melden."
+    },
+    "BENO": {
+      "name": "Abweichung beim wirtschaftlichen Eigentum",
+      "definition": "Uneinigkeit über das wirtschaftliche Eigentum."
+    },
+    "BOTH": {
+      "name": "Beide Anweisungen in Wartestellung",
+      "definition": "Die Anweisung der Gegenpartei und Ihre Anweisung sind angehalten/eingefroren/im Voravisierungsmodus."
+    },
+    "IPNC": {
+      "name": "Stornierung nicht möglich",
+      "definition": "Die Anweisung wurde verarbeitet und kann nicht storniert werden."
+    },
+    "CDCY": {
+      "name": "Bedingt Währung",
+      "definition": "Die Ausführung hängt von der Durchführung eines Prozesses ab, der mit der Währung der Transaktion verknüpft ist."
+    },
+    "YCOL": {
+      "name": "Sicherheitenfehlbetrag",
+      "definition": "Auf Ihrem Konto ist nicht genügend Sicherheit vorhanden, um die Anweisung auszuführen."
+    },
+    "CLHT": {
+      "name": "Clearinghouse-Handel",
+      "definition": "Der angewiesene Abwicklungstag stimmt nicht mit dem Abwicklungstag des Clearinghaus-Geschäfts überein, d. h. einer spezifischen Geschäftsart in Indien."
+    },
+    "REGT": {
+      "name": "Zertifikate abgelehnt",
+      "definition": "Zertifikate wurden bei der Registerstelle eingereicht, jedoch wegen unvollständiger Unterlagen oder Erreichen der Begrenzung für ausländisches Eigentum abgelehnt."
+    },
+    "CDRE": {
+      "name": "Bedingt Neuausrichtung",
+      "definition": "Die Ausführung hängt von der Durchführung eines Angleichungsprozesses beim Emittenten-CSD ab."
+    },
+    "CDRG": {
+      "name": "Bedingt Registerstelle",
+      "definition": "Die Ausführung hängt von der Durchführung eines Prozesses bei der Registerstelle ab."
+    },
+    "NCON": {
+      "name": "Bestätigung nicht erhalten",
+      "definition": "Die Abwicklungsbestätigung ist noch nicht eingegangen."
+    },
+    "CPEC": {
+      "name": "Gegenpartei unter Zwangsverwaltung",
+      "definition": "Die Gegenpartei befindet sich in Zwangsverwaltung (Form der Insolvenz, bei der eine gerichtlich bestellte Person - der Verwalter - die Geschäfte des Unternehmens führt)."
+    },
+    "PRCY": {
+      "name": "Anweisung der Gegenpartei angehalten",
+      "definition": "Die Anweisung der Gegenpartei ist eine Voravisierung, d. h. nur zum Abgleich."
+    },
+    "CMON": {
+      "name": "Gegenpartei mit unzureichendem Geld",
+      "definition": "Unzureichende Geldmittel auf dem Konto der Gegenpartei."
+    },
+    "CLAC": {
+      "name": "Gegenpartei mit unzureichenden Wertpapieren",
+      "definition": "Im Konto der Gegenpartei sind nicht genügend lieferbare Finanzinstrumente vorhanden, oder die Gegenpartei hält keine Finanzinstrumente."
+    },
+    "DKNY": {
+      "name": "Von der Gegenpartei zurückgegebene Wertpapiere",
+      "definition": "Die Gegenpartei hat die Wertpapiere zurückgegeben oder verweigert deren Annahme."
+    },
+    "CHAS": {
+      "name": "Anfrage gesendet",
+      "definition": "Eine Erinnerung/Nachfrage wurde gesendet."
+    },
+    "GLOB": {
+      "name": "Globalurkunden",
+      "definition": "Die Abwicklung kann nicht ausgeführt werden; die Finanzinstrumente liegen in Globalform vor."
+    },
+    "INCA": {
+      "name": "Ertragsanpassung erforderlich",
+      "definition": "Die Finanzinstrumente erfordern eine Ertragsanpassung, zum Beispiel Dividende oder Zinsen."
+    },
+    "REFU": {
+      "name": "Anweisung abgelehnt oder nicht erkannt",
+      "definition": "Die Anweisung wurde abgewiesen oder nicht erkannt und wird automatisch erneut eingestellt."
+    },
+    "LIQU": {
+      "name": "Unzureichende Zentralbankliquidität",
+      "definition": "Die Liquidität der Zentralbank ist unzureichend."
+    },
+    "MONY": {
+      "name": "Unzureichendes Geld",
+      "definition": "Unzureichende Geldmittel auf Ihrem Konto."
+    },
+    "LACK": {
+      "name": "Mangel an Wertpapieren",
+      "definition": "Auf Ihrem Konto sind nicht genügend Finanzinstrumente vorhanden."
+    },
+    "SDUT": {
+      "name": "Fehlende Stempelsteuerangaben",
+      "definition": "Angaben zur Stempelsteuer fehlen."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Die Anweisung ist nach der Marktfrist eingegangen."
+    },
+    "FLIM": {
+      "name": "Maximales Auslandslimit erreicht",
+      "definition": "Auf Ihrem Konto sind nicht genügend lieferbare Finanzinstrumente vorhanden, da das maximale Auslandslimit erreicht wurde."
+    },
+    "MINO": {
+      "name": "Mindestabwicklungsbetrag",
+      "definition": "Die angewiesene Menge liegt unter der für das Finanzinstrument bestehenden Mindestabwicklungsmenge."
+    },
+    "MCER": {
+      "name": "Fehlende Bescheinigung",
+      "definition": "Warten auf den Eingang einer angemessenen Bescheinigung."
+    },
+    "MUNO": {
+      "name": "Mehrfacher Abwicklungsbetrag",
+      "definition": "Die angewiesene Menge ist kein Vielfaches einer für das Finanzinstrument bestehenden Abwicklungslosgröße."
+    },
+    "DISA": {
+      "name": "Naturkatastrophe",
+      "definition": "Außergewöhnliche Schließung aller Finanzinstitute aufgrund einer Naturkatastrophe, zum Beispiel eines Erdbebens."
+    },
+    "NEWI": {
+      "name": "Neuemissionen",
+      "definition": "Das Finanzinstrument ist eine Neuemission und noch nicht verfügbar bzw. handelbar."
+    },
+    "NOFX": {
+      "name": "Keine Devisenanweisung",
+      "definition": "Eine Devisenanweisung von Ihnen fehlt."
+    },
+    "NMAS": {
+      "name": "Kein Abgleich erforderlich",
+      "definition": "Die Anweisung wurde nicht abgeglichen; ein Abgleichsprozess ist nicht erforderlich."
+    },
+    "NPAY": {
+      "name": "Keine Zahlung",
+      "definition": "Die Zahlung wurde vom Emittenten nicht geleistet."
+    },
+    "NSEC": {
+      "name": "Nicht geliefert",
+      "definition": "Die Finanzinstrumente wurden vom Emittenten nicht geliefert."
+    },
+    "REFS": {
+      "name": "Nicht ordnungsgemäß",
+      "definition": "Lieferung/Empfang wurde abgelehnt, da die physischen Finanzinstrumente nicht in ordnungsgemäßem Zustand sind."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "LINK": {
+      "name": "Ausstehende verknüpfte Anweisung",
+      "definition": "Ihre Anweisung steht zur Abwicklung an, da die damit verknüpfte Anweisung aussteht."
+    },
+    "PENR": {
+      "name": "Ausstehender Empfang",
+      "definition": "Die Anweisung wartet auf den Eingang von Wertpapieren, zum Beispiel aus einem Kauf, einem Darlehen usw."
+    },
+    "PHSE": {
+      "name": "Verzögerung bei physischer Lieferung",
+      "definition": "Die Abwicklung erfolgt physisch. Die Finanzinstrumente werden geliefert."
+    },
+    "PHCK": {
+      "name": "Prüfung physischer Wertpapiere",
+      "definition": "Physische Finanzinstrumente sind eingegangen und werden auf Echtheit geprüft."
+    },
+    "BATC": {
+      "name": "Abweichung bei der Verarbeitungscharge",
+      "definition": "Der Verarbeitungslauf weicht von der Anweisung der Gegenpartei ab, zum Beispiel Tagesverarbeitung/Echtzeit gegenüber Nachtverarbeitung."
+    },
+    "DQUA": {
+      "name": "Mengenabweichung",
+      "definition": "Die Menge der Finanzinstrumente stimmt nicht überein."
+    },
+    "DEPO": {
+      "name": "Abgelehnte Hinterlegung für die Ausgabe von Hinterlegungsscheinen",
+      "definition": "Die Einlieferung von Aktien zur Ausgabe von Hinterlegungsscheinen wurde abgelehnt. Die vom Emittenten gewährte Zuteilung wird durch Ihre Transaktion überschritten."
+    },
+    "SBLO": {
+      "name": "Wertpapiere gesperrt",
+      "definition": "Die Finanzinstrumente sind gesperrt, zum Beispiel aufgrund eines Kapitalmaßnahmen-Ereignisses oder einer Angleichung."
+    },
+    "FROZ": {
+      "name": "Beim Zentralverwahrer gesperrte Wertpapiere",
+      "definition": "Die Finanzinstrumente sind beim Zentralverwahrer (CSD) im Anschluss an ein Kapitalmaßnahmen-Ereignis gesperrt."
+    },
+    "LALO": {
+      "name": "Verliehene Wertpapiere",
+      "definition": "Die Finanzinstrumente sind verliehen."
+    },
+    "COLL": {
+      "name": "Als Sicherheit verpfändete Wertpapiere",
+      "definition": "Die Finanzinstrumente sind nicht lieferbar, da sie als Sicherheit verpfändet sind."
+    },
+    "AUTH": {
+      "name": "An Steuerbehörden gesendet",
+      "definition": "Der Steuerrückerstattungsantrag wurde an die Steuerbehörden gesendet."
+    },
+    "SETS": {
+      "name": "Abwicklungssystemverfahren geändert",
+      "definition": "Das Abwicklungssystem bzw. -verfahren wurde beim Zentralverwahrer geändert, um die Abwicklung zu ermöglichen."
+    },
+    "IAAD": {
+      "name": "Statusgrund Untersuchung",
+      "definition": "Der Grund für die Anhängigkeit wird derzeit untersucht."
+    },
+    "PRSY": {
+      "name": "System angehalten",
+      "definition": "Die Transaktion wurde vom System angehalten/eingefroren."
+    },
+    "TAMM": {
+      "name": "Geschäft am Markt geändert",
+      "definition": "Das Geschäft wird am Markt geändert."
+    },
+    "PART": {
+      "name": "Geschäft wird in Teilmengen abgewickelt",
+      "definition": "Das Geschäft wird in Teilmengen abgewickelt."
+    },
+    "DENO": {
+      "name": "Nicht verfügbare lieferbare Stückzahl",
+      "definition": "Die angewiesene Menge entspricht nicht der verfügbaren/lieferbaren Stückelung. Physische Wertpapiere müssen in lieferbaren Stückelungsmengen beschafft werden."
+    },
+    "VLDA": {
+      "name": "Für Steuerbehörden gültig",
+      "definition": "Bei Steuerrückerstattung ist die Maßnahme ausstehend; der Steuerrückerstattungsantrag ist für die Steuerbehörden gültig."
+    },
+    "PREA": {
+      "name": "Ihre Anweisung in Wartestellung",
+      "definition": "Ihre Anweisung ist eine Voravisierung, d. h. nur zum Abgleich."
+    }
+  }
+}

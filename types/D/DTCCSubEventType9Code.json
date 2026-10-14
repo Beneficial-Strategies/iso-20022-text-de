@@ -1,0 +1,198 @@
+{
+  "isoType": "DTCCSubEventType9Code",
+  "definition": "Gibt die von der DTCC (The Depository Trust and Clearing Corporation) definierten Unterereignistypen an.",
+  "isoCodes": {
+    "OPTO": {
+      "name": "Ausstieg (Opt-out)",
+      "definition": "Kennzeichnet ein Ereignis (zum Beispiel Cash Dividend), bei dem DTC (die Depository Trust Company) eine DRIP-Option als Standardoption anbietet (der Inhaber muss die DRIP-Option abwählen)."
+    },
+    "DRPD": {
+      "name": "Dividendenwiederanlage durch DTC",
+      "definition": "Kennzeichnet ein Ereignis, bei dem die Emission für ein Dividendenreinvestitionsprogramm bei der DTCC (The Depository Trust and Clearing Corporation) in Frage kommt."
+    },
+    "PLCL": {
+      "name": "Notierungsort",
+      "definition": "Kennzeichnet eine Änderung des Börsenplatzes, an dem das Wertpapier notiert ist."
+    },
+    "BLOT": {
+      "name": "Handelseinheit",
+      "definition": "Kennzeichnet eine Änderung der Board-Lot-Größe."
+    },
+    "RMRK": {
+      "name": "Remarketing",
+      "definition": "Kennzeichnet ein Ereignis, das ein Stock-Purchase-Contract-Produkt betrifft, das vor Ablauf des Vertrags ein Merkmal der vorzeitigen Abwicklung oder des Remarketings bietet."
+    },
+    "UNWD": {
+      "name": "Rückabwicklung",
+      "definition": "Kennzeichnet ein Ereignis, bei dem das „Unwinding“ (Auflösung) des Wertpapierkorbs erfolgt."
+    },
+    "SHEX": {
+      "name": "Aktientausch",
+      "definition": "Kennzeichnet ein Ereignis, bei dem zwei Unternehmen im Rahmen einer Fusion ihre Aktien tauschen. Nach dem Aktientausch wird ein Unternehmen zur Tochtergesellschaft des anderen und ist nicht mehr börsennotiert. Gilt üblicherweise für ein Ereignis in JP-Märkten."
+    },
+    "STDT": {
+      "name": "Standard",
+      "definition": "Kennzeichnet ein Ereignis, bei dem ein Unternehmen mit einem anderen fusioniert und den Namen des fortbestehenden Unternehmens annimmt. Es handelt sich um die marktübliche Standardfusion. Gilt üblicherweise für ein Ereignis in JP-Märkten."
+    },
+    "XFER": {
+      "name": "Übertragung",
+      "definition": "Kennzeichnet ein Ereignis, bei dem ein Unternehmen alle seine Aktien auf ein neu gegründetes Unternehmen überträgt. Gilt üblicherweise für ein Ereignis in JP-Märkten."
+    },
+    "SOPT": {
+      "name": "Überlebensoptionen",
+      "definition": "Kennzeichnet ein Ereignis, bei dem die Emission ein Merkmal der vorzeitigen Rückzahlung aufweist. Dieses Merkmal erlaubt es dem Inhaber, sich dafür zu entscheiden, Anleihen nach bestimmten Prioritäten auf einer vorab festgelegten Grundlage (ausgenommen monatlich) an den Emittenten zurückzuverkaufen."
+    },
+    "MBCK": {
+      "name": "Hypothekarisch besichert",
+      "definition": "Kennzeichnet ein Ereignis, bei dem die Emission ein Merkmal der vorzeitigen Rückzahlung aufweist, das es dem Inhaber erlaubt, sich dafür zu entscheiden, Anleihen nach festgelegten Bedingungen auf monatlicher Basis an den Emittenten zurückzuverkaufen."
+    },
+    "SALE": {
+      "name": "Verkauf von Vermögenswerten",
+      "definition": "Kennzeichnet ein Ereignis, bei dem die Ausschüttung aus den Erlösen des Verkaufs von Vermögenswerten stammt."
+    },
+    "PRNI": {
+      "name": "Physische Rechte nicht ausgegeben",
+      "definition": "Kennzeichnet ein Ereignis, bei dem das Unternehmen kein Wertpapier mit dem Recht zur Zeichnung zusätzlicher Aktien begibt. In diesen Fällen wird von DTC (The Depository Trust Company) eine User-CUSIP anstelle einer vom Unternehmen ausgegebenen CUSIP erstellt, um diese Emissionen zu identifizieren."
+    },
+    "POPI": {
+      "name": "Giftpille",
+      "definition": "Kennzeichnet ein Ereignis zum Verkauf von Rechten, bei dem Emittenten Poison-Pill-Rechte zurückkaufen."
+    },
+    "DRPI": {
+      "name": "Dividendenwiederanlage durch den Emittenten",
+      "definition": "Kennzeichnet ein Ereignis, bei dem der Emittent ein Dividendenreinvestitionsprogramm anbietet, das nicht von DTC (der Depository Trust Company) abgewickelt wird."
+    },
+    "MROS": {
+      "name": "Zwangsrückzahlung von Aktien",
+      "definition": "Kennzeichnet ein Ereignis, bei dem zusätzlich zu den Aktien des ursprünglichen Wertpapiers Rückzahlungsaktien ausgegeben werden. Dies steht im Zusammenhang mit dem Ereignis Mandatory Exchange mit demselben Unterereignistyp-Namen."
+    },
+    "SHPP": {
+      "name": "Aktienkaufplan",
+      "definition": "Kennzeichnet ein Ereignis, das das Angebot von Aktien durch ein an der Australia Stock Exchange notiertes Unternehmen betrifft, bei dem die ASIC eine Erleichterung gewährt, sodass das Unternehmen bestehenden Aktionären die Möglichkeit anbieten kann, geringe Mengen zusätzlicher Aktien zu erwerben, ohne dass ein Offenlegungsdokument oder eine Product Disclosure Statement (PDS) erforderlich ist."
+    },
+    "OPOF": {
+      "name": "Offenes Angebot",
+      "definition": "Kennzeichnet ein Ereignis in bestimmten Märkten, bei dem zugrunde liegende Rechte nicht ausgegeben werden."
+    },
+    "TWRI": {
+      "name": "Angebot mit Rechten",
+      "definition": "Kennzeichnet ein Ereignis eines Übernahmeangebots (Tender Offer) auf ein Rights-Wertpapier. Inhaber müssen sowohl die Stammaktie(n) als auch das/die Recht(e) einreichen, um die Übernahmegegenleistung erhalten zu können. Das Verhältnis von Stammaktien zu Rechten wird im Angebot festgelegt."
+    },
+    "CILI": {
+      "name": "Barausgleich",
+      "definition": "Kennzeichnet ein DTC-spezifisches (Depository Trust Company) Unterereignis, bei dem Inhaber auf Ebene des wirtschaftlich Berechtigten ganze Aktien „verkaufen“ können, um Bruchteilsansprüche (üblicherweise infolge einer Fusion) zu erfüllen."
+    },
+    "BTST": {
+      "name": "Gebotsangebot (verdecktes Angebot)",
+      "definition": "Kennzeichnet ein Übernahmeangebot (Tender Offer), bei dem der Inhaber den Preis wählen kann, zu dem er bereit ist, seine Wertpapiere anzudienen. Dieser Preis kann vom Anbieter akzeptiert werden oder nicht."
+    },
+    "FTPR": {
+      "name": "Kaufangebot",
+      "definition": "Kennzeichnet ein Übernahmeangebot (Tender Offer) eines anderen Unternehmens zum Kauf eines Teils oder aller ausstehenden Aktien."
+    },
+    "ADRS": {
+      "name": "ADR",
+      "definition": "Kennzeichnet, dass das Ereigniswertpapier ein ADR ist. Das zugrunde liegende Wertpapier ist ein American Depositary Receipt."
+    },
+    "WITH": {
+      "name": "Mit Auszahlung",
+      "definition": "Kennzeichnet ein Zustimmungsereignis mit Auszahlung."
+    },
+    "WITO": {
+      "name": "Ohne Auszahlung",
+      "definition": "Kennzeichnet ein Zustimmungsereignis ohne Auszahlung."
+    },
+    "CTAX": {
+      "name": "Steuergutschrift",
+      "definition": "Kennzeichnet ein Ereignis, bei dem eine Steuergutschrift im Zusammenhang mit Build America Bonds anfällt."
+    },
+    "A144": {
+      "name": "US-Recht 144A",
+      "definition": "Kennzeichnet ein Umtauschangebot auf Wertpapiere, die der Securities Rule 144A unterliegen."
+    },
+    "CASE": {
+      "name": "Bargeld und Wertpapiere",
+      "definition": "Kennzeichnet ein Ereignis, bei dem die Auszahlung sowohl in bar als auch in Wertpapieren erfolgt."
+    },
+    "REGS": {
+      "name": "Regulation S",
+      "definition": "Kennzeichnet ein Umtauschangebot auf Wertpapiere, die der Securities Rule Reg S unterliegen."
+    },
+    "NOTI": {
+      "name": "Wichtiger Hinweis",
+      "definition": "Kennzeichnet eine MMI Important Notice."
+    },
+    "RDTH": {
+      "name": "Basierend auf den Beständen zum Stichtag",
+      "definition": "Kennzeichnet ein Ereignis, das auf den Beständen am Stichtag (Record Date) beruht."
+    },
+    "CASH": {
+      "name": "Bargeld",
+      "definition": "Kennzeichnet ein Ereignis, bei dem die Auszahlung in bar erfolgt."
+    },
+    "PREQ": {
+      "name": "Vorlage erforderlich",
+      "definition": "Kennzeichnet ein Ereignis, bei dem die Vorlage von Wertpapieren erforderlich ist."
+    },
+    "SECU": {
+      "name": "Wertpapiere",
+      "definition": "Kennzeichnet ein Ereignis, bei dem die Auszahlung in Wertpapieren erfolgt."
+    },
+    "COTE": {
+      "name": "Umwandlung und Andienung",
+      "definition": "Kennzeichnet ein Übernahmeangebot (Tender Offer) mit Wandlungsmerkmal."
+    },
+    "MITE": {
+      "name": "Mini-Angebot",
+      "definition": "Kennzeichnet, wenn ein Übernahmeangebot (Tender Offer) ein Mini-Tender ist."
+    },
+    "SETE": {
+      "name": "Selbstangebot",
+      "definition": "Kennzeichnet, wenn ein Übernahmeangebot (Tender Offer) ein Self-Tender ist."
+    },
+    "GDRS": {
+      "name": "GDR",
+      "definition": "Kennzeichnet, dass das Ereigniswertpapier ein GDR ist. Das zugrunde liegende Wertpapier ist ein Global Depositary Receipt."
+    },
+    "M871": {
+      "name": "Dividendenäquivalente Zahlung 871M",
+      "definition": "Kennzeichnet ein Ereignis, das nach Section 871(m) des United States Internal Revenue Code als dividendenäquivalente Zahlung angesehen wurde."
+    },
+    "C305": {
+      "name": "Fiktive Dividende 305C",
+      "definition": "Kennzeichnet ein Ereignis, das nach Section 305(c) des United States  Internal Revenue Code als fiktive Ausschüttung (Deemed Distribution) angesehen wurde."
+    },
+    "CONV": {
+      "name": "Umwandlung",
+      "definition": "Kennzeichnet ein Ereignis, das eine vollständige Kündigung oder eine Fälligkeit mit Wandlung ist."
+    },
+    "CUSP": {
+      "name": "Namens- und CUSIP-Änderung",
+      "definition": "Namensänderung mit CUSIP-Änderung."
+    },
+    "CUPR": {
+      "name": "Namens- und CUSIP-Änderung und Vorlage erforderlich",
+      "definition": "Namensänderung mit sowohl CUSIP-Änderung als auch erforderlicher Vorlage."
+    },
+    "RCLA": {
+      "name": "Klassifizierung 1042S",
+      "definition": "Kennzeichnet Ausschüttungen, die mehrere Komponenten für Quellensteuereinbehalt und 1042-S-Meldezwecke aufweisen."
+    },
+    "QN92": {
+      "name": "Befreiung qualifizierte Mitteilung 92 Tage",
+      "definition": "Kennzeichnet eine qualifizierte Mitteilung (Qualified Notice) einer börsennotierten Personengesellschaft (Publicly Traded Partnership), die die Anwendbarkeit der 10-Prozent-Ausnahme nach IRS-Regelung 1.1446(f)-4(b)(3) angibt."
+    },
+    "UNIT": {
+      "name": "Anteilszusammenlegung",
+      "definition": "Kennzeichnet eine Kombination von Vermögenswerten oder Vermögenswertarten, die zusammen gebündelt und als Einheit verkauft werden. Zum Beispiel kann ein Aktionär, der eine Einheit von Unternehmensaktien kauft, Vorzugsaktien, Stammaktien und sogar Optionsscheine in der Einheit erhalten."
+    },
+    "ECNI": {
+      "name": "Beträge über dem kumulierten Nettoertrag",
+      "definition": "Kennzeichnet, wenn eine börsennotierte Personengesellschaft (Publicly Traded Partnership) den realisierten Betrag auf einen solchen Teil der Ausschüttung als einen Betrag angibt, der den kumulierten Nettoertrag übersteigt, gemäß IRS-Regelung 1.1446(f)-4(c)(2)(iii)."
+    },
+    "SPAC": {
+      "name": "Zweckgesellschaft für Akquisitionen (SPAC)",
+      "definition": "Specified Purpose Acquisition Companies (SPACs) sind börsennotierte Unternehmen, die aus Barmitteln bestehen, die Anlegern an den Finanzmärkten zur Verfügung stehen. Der einzige Zweck von SPACs besteht darin, die Erlöse zur Finanzierung einer künftigen Übernahme zu verwenden. SPACs verpflichten sich in der Regel, ein operatives Zielunternehmen zu identifizieren und innerhalb eines bestimmten Zeitraums eine Unternehmenszusammenführung abzuschließen. SPACs weisen ein Merkmal auf, bei dem Gelder auf ein Treuhandkonto eingezahlt werden und der Anleger, sobald die Zielinvestition identifiziert ist, seine Erlöse zurückerhalten oder sich an der Unternehmenszusammenführung beteiligen kann (SPACS)."
+    }
+  }
+}

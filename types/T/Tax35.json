@@ -1,0 +1,24 @@
+{
+  "isoType": "Tax35",
+  "definition": "Steuer im Zusammenhang mit einem Investmentfondsauftrag.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art der Steuer."
+    },
+    "AppliedAmount": {
+      "definition": "Geldbetrag, der sich aus der Steuerberechnung ergibt."
+    },
+    "AppliedRate": {
+      "definition": "Satz, der zur Berechnung der Steuer verwendet wird."
+    },
+    "Country": {
+      "definition": "Land, in dem die Steuer fällig ist."
+    },
+    "RecipientIdentification": {
+      "definition": "Partei, die die Steuer erhält. Der Empfänger der Steuer und die zum Bezug der Steuer berechtigte Partei können zwei verschiedene Parteien sein."
+    },
+    "TaxCalculationDetails": {
+      "definition": "Informationen zur Berechnung der Steuer."
+    }
+  }
+}

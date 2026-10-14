@@ -1,0 +1,110 @@
+{
+  "isoType": "CorporateActionOption250",
+  "definition": "Liefert Informationen zur Kapitalmaßnahmen-Option.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "FractionDisposition": {
+      "definition": "Gibt an, wie Bruchteile aus abgeleiteten Wertpapieren verarbeitet werden oder wie anteilig gekürzte Entscheidungen gerundet werden, sofern ein Zuteilungssatz angegeben ist."
+    },
+    "OptionFeatures": {
+      "definition": "Gibt die Merkmale an, die für eine Kapitalmaßnahmen-Option gelten können."
+    },
+    "SupplementaryOptionFeatures": {
+      "definition": "Wird für Optionen mit besonderen proprietären Merkmalen verwendet."
+    },
+    "OptionAvailabilityStatus": {
+      "definition": "Gibt den Status der Option an."
+    },
+    "CertificationBreakdownType": {
+      "definition": "Art der Bescheinigung/Aufschlüsselung."
+    },
+    "CurrencyOption": {
+      "definition": "Währung, in der Barerlöse gutzuschreiben/zu belasten sind."
+    },
+    "DefaultOptionIndicator": {
+      "definition": "Gibt an, ob die Option, zum Beispiel eine Währungsoption, standardmäßig gewählt wird, wenn der Kontoinhaber keine Anweisung erteilt."
+    },
+    "CertificationBreakdownIndicator": {
+      "definition": "Gibt an, ob vom Kontoinhaber eine Bescheinigung/Aufschlüsselung verlangt wird. |Ja: Bescheinigung erforderlich |Nein: keine Bescheinigung erforderlich."
+    },
+    "WithdrawalAllowedIndicator": {
+      "definition": "Gibt an, ob der Widerruf der Anweisung zulässig ist."
+    },
+    "OversubscriptionChargeIndicator": {
+      "definition": "Gibt an, ob die Geldbelastung für die Überzeichnungsgebühr zum Zeitpunkt der Einreichung der Anweisung erfolgt.|Ja: zutreffend.|Nein: nicht zutreffend.|Wenn nicht vorhanden, bedeutet dies Nein."
+    },
+    "ProtectChargeIndicator": {
+      "definition": "Gibt an, ob die Geldbelastung für die Schutzgebühr zum Zeitpunkt der Einreichung der Anweisung erfolgt.|Ja: zutreffend.|Nein: nicht zutreffend.|Wenn nicht vorhanden, bedeutet dies Nein."
+    },
+    "SubscriptionChargeIndicator": {
+      "definition": "Gibt an, ob die Geldbelastung für die Zeichnungsgebühr zum Zeitpunkt der Einreichung der Anweisung erfolgt.|Ja: zutreffend.|Nein: nicht zutreffend.|Wenn nicht vorhanden, bedeutet dies Nein."
+    },
+    "StepUpChargeIndicator": {
+      "definition": "Gibt an, ob die Geldbelastung für die Step-up-Gebühr zum Zeitpunkt der Einreichung der Anweisung erfolgt.|Ja: zutreffend.|Nein: nicht zutreffend.|Wenn nicht vorhanden, bedeutet dies Nein."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifiziert das Finanzinstrument."
+    },
+    "DateDetails": {
+      "definition": "Liefert Informationen zu den Daten einer Kapitalmaßnahmen-Option."
+    },
+    "PeriodDetails": {
+      "definition": "Liefert Informationen zu den Zeiträumen einer Kapitalmaßnahmen-Option."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Liefert Informationen zu Sätzen und Beträgen einer Kapitalmaßnahmen-Option."
+    },
+    "PriceDetails": {
+      "definition": "Liefert Informationen zu den Preisen einer Kapitalmaßnahmen-Option."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Liefert Informationen zur Wertpapiermenge im Zusammenhang mit einer Kapitalmaßnahmen-Option."
+    },
+    "TaxCategory": {
+      "definition": "Identifikation der Steuerkategorie, da Emittenten, ihre Agenten oder Steuerbehörden eine Aufschlüsselung der Inhaber auf Kategorieebene verlangen können, die beantragt haben, eine Ausschüttung zu einem günstigen Steuersatz zu erhalten."
+    },
+    "ProrationBelowMinimumQuantity": {
+      "definition": "Gibt an, wie Anweisungen verarbeitet werden, die anteilig unter die minimal anzuweisende Menge gekürzt werden."
+    },
+    "ProrationRoundingIndicator": {
+      "definition": "Gibt an, wie Bruchteilspositionen bei Ereignissen mit anteilig gekürzten Optionen behandelt werden."
+    },
+    "ProrationFraction": {
+      "definition": "Dezimalwert, ab dem Zahlen bei anteilig gekürzten Optionen aufgerundet werden. Beträgt der Rundungsfaktor beispielsweise 0,5, werden Zahlen ab 0,5 aufgerundet (0.5)."
+    },
+    "ProrationReturnMinimumQuantityTreatment": {
+      "definition": "Gibt an, wie anteilig gekürzte Anweisungen behandelt werden, wenn der anteilige Anspruch unter der Mindeststückelung liegt."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Liefert Informationen zur Wertpapierbewegung im Zusammenhang mit der Kapitalmaßnahmen-Option."
+    },
+    "CashMovementDetails": {
+      "definition": "Liefert Informationen zur Geldbewegung im Zusammenhang mit der Kapitalmaßnahmen-Option."
+    },
+    "AdditionalInformation": {
+      "definition": "Liefert zusätzliche Informationen."
+    }
+  },
+  "isoRules": {
+    "AdditionalTextRule": {
+      "definition": "Wenn OptionType/Code gleich OTHR (Other) ist, muss mindestens ein Vorkommen von AdditionalInformation/AdditionalText/AdditionalInformation vorhanden sein.|(MT564 NVR C5)."
+    },
+    "OptionNumberGuideline": {
+      "definition": "Zur Unterscheidung zwischen Optionen wird empfohlen, die OptionNumber statt des OptionType zu verwenden, zum Beispiel wenn zwei oder mehr Angebote durch denselben Kapitalmaßnahmen-Optionscode beschrieben werden können."
+    },
+    "RevocabilityPeriodRule": {
+      "definition": "Wenn WithdrawalAllowedIndicator vorhanden ist und 'true' oder '1' (Ja) lautet, muss PeriodDetails/RevocabilityPeriod vorhanden sein, um den Zeitraum anzugeben, in dem der Widerruf der Anweisung zulässig ist."
+    },
+    "OptionTypeUnknownProceedsUsageRule": {
+      "definition": "Bei Verwendung sollte der Kapitalmaßnahmen-Optionsartcode PRUN (Unknown Proceeds) über den gesamten Lebenszyklus des Ereignisses beibehalten werden."
+    },
+    "InstructCashAmountRule": {
+      "definition": "Wenn OptionFeatures/Code QCAS (InstructCashAmount) nicht vorhanden ist, dürfen keine der Nachrichtenelemente in der Liste (PriceDetails/MaximumCashToInstruct, PriceDetails/MinimumCashToInstruct, PriceDetails/MinimumMutipleCashToInstruct) vorhanden sein.|(MT564 NVR C20)."
+    }
+  }
+}

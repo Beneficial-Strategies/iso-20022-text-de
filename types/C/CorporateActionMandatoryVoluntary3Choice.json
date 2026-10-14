@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionMandatoryVoluntary3Choice",
+  "definition": "Auswahl zwischen einem Standardcode und einem proprietären Code, um anzugeben, ob ein Kapitalmaßnahmen-Ereignis obligatorisch ist oder nicht.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode, der angibt, ob das Ereignis obligatorisch, obligatorisch mit Wahlmöglichkeiten oder freiwillig ist."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation eines Ereignisses."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventReference4",
+  "definition": "Identifikation eines verknüpften Kapitalmaßnahmen-Ereignisses.",
+  "isoElements": {
+    "EventIdentification": {
+      "definition": "Identifikation des verknüpften Kapitalmaßnahmen-Ereignisses."
+    },
+    "LinkageType": {
+      "definition": "Gibt an, wann dieses Kapitalmaßnahmen-Ereignis relativ zu einem verknüpften Kapitalmaßnahmen-Ereignis zu verarbeiten ist."
+    }
+  }
+}

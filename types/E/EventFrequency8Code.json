@@ -1,0 +1,66 @@
+{
+  "isoType": "EventFrequency8Code",
+  "definition": "Gibt die Regelmäßigkeit einer Maßnahme an.",
+  "isoCodes": {
+    "ADHO": {
+      "name": "Ad hoc",
+      "definition": "Das Ereignis findet nach Bedarf statt."
+    },
+    "YEAR": {
+      "name": "Jährlich",
+      "definition": "Das Ereignis findet jedes Jahr bzw. einmal im Jahr statt."
+    },
+    "DAIL": {
+      "name": "Täglich",
+      "definition": "Das Ereignis findet jeden Tag statt."
+    },
+    "FOMN": {
+      "name": "Alle vier Monate",
+      "definition": "Das Ereignis findet alle vier Monate oder dreimal im Jahr statt."
+    },
+    "TOMN": {
+      "name": "Alle zwei Monate",
+      "definition": "Das Ereignis findet alle zwei Monate statt."
+    },
+    "TOWK": {
+      "name": "Alle zwei Wochen",
+      "definition": "Das Ereignis findet alle zwei Wochen statt."
+    },
+    "TYEA": {
+      "name": "Alle zwei Jahre",
+      "definition": "Das Ereignis findet alle zwei Jahre statt."
+    },
+    "INDA": {
+      "name": "Untertägig",
+      "definition": "Das Ereignis findet mehrmals täglich statt."
+    },
+    "MNTH": {
+      "name": "Monatlich",
+      "definition": "Das Ereignis findet jeden Monat bzw. einmal im Monat statt."
+    },
+    "ONDE": {
+      "name": "Auf Abruf",
+      "definition": "Das Ereignis findet auf Abruf statt."
+    },
+    "OVNG": {
+      "name": "Über Nacht",
+      "definition": "Das Ereignis findet über Nacht statt."
+    },
+    "QUTR": {
+      "name": "Vierteljährlich",
+      "definition": "Das Ereignis findet alle drei Monate bzw. viermal im Jahr statt."
+    },
+    "SEMI": {
+      "name": "Halbjährlich",
+      "definition": "Das Ereignis findet alle sechs Monate bzw. zweimal im Jahr statt."
+    },
+    "TWMN": {
+      "name": "Zweimal im Monat",
+      "definition": "Das Ereignis findet zweimal im Monat statt."
+    },
+    "WEEK": {
+      "name": "Wöchentlich",
+      "definition": "Das Ereignis findet einmal pro Woche statt."
+    }
+  }
+}

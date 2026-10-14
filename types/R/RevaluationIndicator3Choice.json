@@ -1,0 +1,12 @@
+{
+  "isoType": "RevaluationIndicator3Choice",
+  "definition": "Auswahl des Formats für die Neubewertung.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Gibt an, ob die Sicherheitenposition der automatischen Neubewertung durch den Kontoführer unterliegen soll."
+    },
+    "Proprietary": {
+      "definition": "Neubewertungsinformationen, angegeben als proprietärer Code."
+    }
+  }
+}

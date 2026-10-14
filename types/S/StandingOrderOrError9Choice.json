@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingOrderOrError9Choice",
+  "definition": "Auswahl zwischen den Einzelheiten des Dauerauftrags oder einem betrieblichen Fehler, wenn die angeforderten Daten nicht abgerufen werden können.",
+  "isoElements": {
+    "Report": {
+      "definition": "Meldet entweder den Dauerauftrag oder einen Geschäftsfehler."
+    },
+    "OperationalError": {
+      "definition": "Gibt an, dass bei der Verarbeitung der zugehörigen Anfrage ein Betriebsfehler aufgetreten ist."
+    }
+  }
+}

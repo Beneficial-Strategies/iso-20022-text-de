@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionEnvironment3Code",
+  "definition": "Gibt die Stelle an, die das Terminal betreibt, das die Transaktion durchführt.",
+  "isoCodes": {
+    "BRCH": {
+      "name": "Filiale",
+      "definition": "Bankumfeld."
+    },
+    "MERC": {
+      "name": "Händler",
+      "definition": "Händlerumfeld."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstige Umfelder, zum Beispiel ein Einkaufszentrum oder ein Flughafen."
+    }
+  }
+}

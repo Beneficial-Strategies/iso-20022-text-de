@@ -1,0 +1,44 @@
+{
+  "isoType": "RelatedSettlementInstruction3",
+  "definition": "Informationen zu einer zugehörigen Abwicklungsanweisung.",
+  "isoElements": {
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer vergeben wurde, zum Beispiel Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, die vom Bearbeiter der Anweisung vergeben wurde, bei dem es sich nicht um den Kontoinhaber, den Kontoführer oder die Marktinfrastruktur handelt."
+    },
+    "UniqueTransactionIdentifier": {
+      "definition": "Mit der anderen Gegenpartei vereinbarter Unique Transaction Identifier (UTI)."
+    },
+    "RelatedSettlementInstructionIdentification": {
+      "definition": "Eindeutige Identifikation der zugehörigen Abwicklungsanweisung, die vom Kontoinhaber vergeben wurde."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Legt fest, ob die Bewegung auf einem Wertpapierkonto aus einer Liefer- oder einer Empfangsanweisung resultiert."
+    },
+    "Payment": {
+      "definition": "Legt fest, wie die Transaktion abgewickelt werden soll, beispielsweise gegen Zahlung."
+    },
+    "TradeDate": {
+      "definition": "Gibt Datum und Uhrzeit der Ausführung des Geschäfts an."
+    },
+    "SettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere geliefert oder empfangen werden sollen."
+    },
+    "SettlementQuantity": {
+      "definition": "Gesamtmenge der abzuwickelnden Wertpapiere."
+    },
+    "SettlementAmount": {
+      "definition": "Gesamtbetrag, der im Austausch gegen die Wertpapiere zu zahlen oder zu erhalten ist."
+    },
+    "CounterpartyDepository": {
+      "definition": "Erste empfangende Partei in der Abwicklungskette. Bei einer einfachen Standardabwicklung ist dies die Zentralverwahrer-Stelle, bei der die empfangende Seite der Transaktion die Lieferung des Finanzinstruments beantragt."
+    }
+  },
+  "isoRules": {
+    "MarketInfrastructureOrProcessorTransactionIdentificationRule": {
+      "definition": "Entweder MarketInfrastructureTransactionIdentification oder ProcessorTransactionIdentification muss vorhanden sein; beide dürfen vorhanden sein."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Vote17Choice",
+  "definition": "Auswahl zwischen einer Stimmabgabe je Tagesordnungsbeschluss und einer Stimmabgabe für alle Tagesordnungsbeschlüsse.",
+  "isoElements": {
+    "VotePerAgendaResolution": {
+      "definition": "Die Abstimmungsanweisung wird für jeden Tagesordnungsbeschluss einzeln erteilt."
+    },
+    "VoteForAllAgendaResolutions": {
+      "definition": "Eine einzige Abstimmungsanweisung wird erteilt, die alle Tagesordnungsbeschlüsse abdeckt."
+    }
+  }
+}

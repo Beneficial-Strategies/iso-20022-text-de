@@ -1,0 +1,12 @@
+{
+  "isoType": "DateFormat1",
+  "definition": "Format zur Angabe eines Datums und eines Datumsmodus.",
+  "isoElements": {
+    "Date": {
+      "definition": "Datum, an dem das Ereignis eintritt."
+    },
+    "DateMode": {
+      "definition": "Gibt an, ob ein Ereignis, für das ein Datum angegeben ist, typischerweise zu „Tagesbeginn“ oder zu „Tagesende“ eintritt."
+    }
+  }
+}

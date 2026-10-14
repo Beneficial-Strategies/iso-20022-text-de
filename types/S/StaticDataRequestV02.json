@@ -1,0 +1,12 @@
+{
+  "isoType": "StaticDataRequestV02",
+  "definition": "Die Nachricht StaticDataRequest wird von einem Teilnehmer eines zentralen Systems an das zentrale System gesendet, um einen Stammdatenbericht anzufordern.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Eindeutiger und zweifelsfreier Bezeichner der Nachricht, der vom Absender vergeben wird."
+    },
+    "SettlementSessionIdentifier": {
+      "definition": "Zur Angabe der angeforderten CLS-Abwicklungssitzung, zu der das zugehörige Geschäft gehört."
+    }
+  }
+}

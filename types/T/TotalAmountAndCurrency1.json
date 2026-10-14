@@ -1,0 +1,15 @@
+{
+  "isoType": "TotalAmountAndCurrency1",
+  "definition": "Gruppe von Elementen, die den Gesamtbetrag aller Vorgänge angibt.",
+  "isoElements": {
+    "TotalAmount": {
+      "definition": "Nettogesamtbetrag aller im Bericht berücksichtigten Vorgänge."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Gesamtbetrag ein Gutschrifts- oder ein Lastschriftbetrag ist."
+    },
+    "Currency": {
+      "definition": "Währung, in der der Gesamtbetrag ausgedrückt ist."
+    }
+  }
+}

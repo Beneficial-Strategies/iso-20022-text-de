@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionLotteryEvent1",
+  "definition": "Einzelheiten zum Losverfahren-Ereignis.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art des angekündigten Losverfahrens an."
+    },
+    "FeatureType": {
+      "definition": "Beschreibt das Losverfahrensmerkmal im Einzelnen."
+    }
+  }
+}

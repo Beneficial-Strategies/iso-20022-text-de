@@ -1,0 +1,20 @@
+{
+  "isoType": "StatusReasonInformation14",
+  "definition": "Liefert Informationen zum Statusgrund der Transaktion.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Partei, die den Status ausgibt."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für den Statusbericht an."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Einzelheiten zum Statusgrund.||Verwendung: Zusätzliche Informationen können für verschiedene Zwecke verwendet werden, etwa zur Meldung korrigierter Informationen."
+    }
+  },
+  "isoRules": {
+    "StatusReasonRule": {
+      "definition": "Wenn Reason/Code gleich NARR ist, muss AddititionalInformation vorhanden sein."
+    }
+  }
+}

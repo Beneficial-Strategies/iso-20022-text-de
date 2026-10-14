@@ -1,0 +1,305 @@
+{
+  "isoType": "IssuerAgentRejection1Code",
+  "isoCodes": {
+    "NMOD": {
+      "name": "Storniertes Ereignis",
+      "definition": "Ein storniertes Ereignis kann nicht geändert werden."
+    },
+    "PR1K": {
+      "name": "Barsatz kleiner als eintausend",
+      "definition": "Nullkuponanleihe, Kapital-/Barsatz muss kleiner als USD 1,000.00 sein."
+    },
+    "CER0": {
+      "name": "Zertifikatsbetrag größer als null",
+      "definition": "Der Urkundenbetrag muss größer als null sein."
+    },
+    "NCON": {
+      "name": "Wandelbares Wertpapier nicht unterstützt",
+      "definition": "Wandelbares Wertpapier wird nicht unterstützt."
+    },
+    "DEPO": {
+      "name": "Gekündigter Betrag der Verwahrstelle entspricht dem gekündigten Wertpapierbetrag",
+      "definition": "Der vom Verwahrer gekündigte Betrag muss größer als null sein und dem gekündigten Wertpapierbetrag entsprechen."
+    },
+    "FAS0": {
+      "name": "Gekündigter Betrag der Verwahrstelle größer als null",
+      "definition": "Der vom Verwahrer gekündigte Betrag muss größer als null sein."
+    },
+    "DUPL": {
+      "name": "Doppeltes Ereignis",
+      "definition": "Ein doppeltes Ereignis liegt vor."
+    },
+    "PDAY": {
+      "name": "Wirksamkeitstag nach dem Zahlungsdatum",
+      "definition": "Das Wirksamkeitsdatum liegt nach dem Zahlungsdatum."
+    },
+    "FAIL": {
+      "name": "Validierung fehlgeschlagen",
+      "definition": "Die Validierung des Avis/der Anweisung/des Antrags ist fehlgeschlagen."
+    },
+    "LOCK": {
+      "name": "Globale Sperre",
+      "definition": "Das zugrunde liegende Wertpapier hat eine globale Sperre."
+    },
+    "GAMN": {
+      "name": "Bruttobetrag kleiner als Nettobetrag",
+      "definition": "Der Bruttobetrag ist kleiner als der Nettobetrag."
+    },
+    "UNDI": {
+      "name": "Inaktives Basiswertpapier",
+      "definition": "Inaktives zugrunde liegendes Wertpapier."
+    },
+    "DEFE": {
+      "name": "Ungültiger Identifikator des abgelösten Wertpapiers",
+      "definition": "Ungültiger Identifikator des abgelösten Wertpapiers (Defeased)."
+    },
+    "IDIS": {
+      "name": "Ungültige Identifikation des ausgezahlten Wertpapiers",
+      "definition": "Die Identifikation des ausgezahlten Wertpapiers fehlt."
+    },
+    "SEEQ": {
+      "name": "Ungültiger Aktienwertpapiertyp",
+      "definition": "Ungültige Aktienwertpapierart."
+    },
+    "EVNT": {
+      "name": "Ungültiger Ereignistyp",
+      "definition": "Ungültige Ereignisart."
+    },
+    "NDEF": {
+      "name": "Ungültiger Identifikator des nicht abgelösten Wertpapiers",
+      "definition": "Ungültiger Identifikator des nicht abgelösten Wertpapiers (Non-Defeased)."
+    },
+    "NREF": {
+      "name": "Ungültiger Identifikator des nicht zurückerstatteten Wertpapiers",
+      "definition": "Ungültiger Identifikator des nicht refinanzierten Wertpapiers (Non-Refunded)"
+    },
+    "REFR": {
+      "name": "Ungültige Benachrichtigungsidentifikation",
+      "definition": "Ungültige Benachrichtigungsidentifikation."
+    },
+    "ISSC": {
+      "name": "Ungültige oder fehlende Kontaktinformationen des Emittentenagenten",
+      "definition": "Die Kontaktinformationen des Beauftragten des Emittenten sind ungültig oder fehlen."
+    },
+    "PRIN": {
+      "name": "Ungültiger Hauptbarsatz",
+      "definition": "Ungültiger Kapital-Barsatz."
+    },
+    "REDT": {
+      "name": "Ungültiges Rückzahlungsdatum",
+      "definition": "Ungültiges Rückzahlungsdatum."
+    },
+    "REFU": {
+      "name": "Ungültiger Identifikator des zurückerstatteten Wertpapiers",
+      "definition": "Ungültiger Identifikator des refinanzierten Wertpapiers (Refunded)."
+    },
+    "CERT": {
+      "name": "Ungültiger Gesamtbetrag der Zertifikate",
+      "definition": "Ungültiger Betrag. Der Gesamturkundenbetrag muss größer als null sein und dem gekündigten Wertpapierbetrag entsprechen."
+    },
+    "UNDV": {
+      "name": "Ungültiges Basiswertpapier",
+      "definition": "Ungültiges zugrunde liegendes Wertpapier."
+    },
+    "BACK": {
+      "name": "Fehlende Menge des hinteren Spitzenbetrags",
+      "definition": "Die Back-End-Odd-Lot-Menge fehlt."
+    },
+    "BIDI": {
+      "name": "Fehlendes Gebotsintervall",
+      "definition": "Das Gebotsintervall fehlt."
+    },
+    "CINL": {
+      "name": "Fehlender Preis für den Barausgleich",
+      "definition": "Der Kurs für die Barabfindung fehlt."
+    },
+    "MCER": {
+      "name": "Fehlende Bescheinigung",
+      "definition": "Die Bescheinigung wurde nicht ausgefüllt."
+    },
+    "CSRT": {
+      "name": "Fehlender Barsatz",
+      "definition": "Der Barsatz fehlt."
+    },
+    "COND": {
+      "name": "Fehlendes Kennzeichen für angenommene bedingte Angebote",
+      "definition": "Das Kennzeichen für akzeptierte bedingte Andienungen fehlt."
+    },
+    "DFLT": {
+      "name": "Fehlende Standardoption",
+      "definition": "Eine Option muss als Standard gekennzeichnet sein."
+    },
+    "MDIS": {
+      "name": "Fehlende Identifikation des ausgezahlten Wertpapiers",
+      "definition": "Die Identifikation des ausgezahlten Wertpapiers fehlt."
+    },
+    "XRAT": {
+      "name": "Fehlender Wechselkurs",
+      "definition": "Ein resultierender Betrag ist ohne Wechselkurs nicht zulässig."
+    },
+    "FIRS": {
+      "name": "Fehlende erste Gebotsstufe",
+      "definition": "Die erste Gebotsstufe fehlt."
+    },
+    "FRAC": {
+      "name": "Fehlende Behandlung von Bruchteilen",
+      "definition": "Ein zugrunde liegendes Bruchteilswertpapier kann nicht angekündigt werden."
+    },
+    "MFCF": {
+      "name": "Fehlendes Kennzeichen für vollständig bedingt",
+      "definition": "Das Kennzeichen für vollständig bedingt fehlt."
+    },
+    "ISSR": {
+      "name": "Fehlender Emittentenagent",
+      "definition": "Der Beauftragte des Emittenten fehlt."
+    },
+    "LAST": {
+      "name": "Fehlende letzte Gebotsstufe",
+      "definition": "Die letzte Gebotsstufe fehlt."
+    },
+    "MAXP": {
+      "name": "Fehlender Höchstpreis",
+      "definition": "Der Höchstkurs fehlt."
+    },
+    "MINP": {
+      "name": "Fehlender Mindestpreis",
+      "definition": "Der Mindestkurs fehlt."
+    },
+    "ODLT": {
+      "name": "Fehlendes Kennzeichen für Spitzenbetragspriorität",
+      "definition": "Das Odd-Lot-Prioritätskennzeichen fehlt."
+    },
+    "SECO": {
+      "name": "Fehlende Option",
+      "definition": "Die zweite Option ist obligatorisch."
+    },
+    "OVCH": {
+      "name": "Fehlendes Kennzeichen für Überzeichnungsentgelt",
+      "definition": "Das Kennzeichen für Überzeichnungsentgelte fehlt."
+    },
+    "OVFL": {
+      "name": "Fehlendes Kennzeichen für Überzeichnung",
+      "definition": "Das Überzeichnungskennzeichen fehlt."
+    },
+    "OVPR": {
+      "name": "Fehlender Überzeichnungspreis",
+      "definition": "Der Überzeichnungskurs fehlt."
+    },
+    "PTYP": {
+      "name": "Fehlender Auszahlungstyp",
+      "definition": "Die Auszahlungsart fehlt."
+    },
+    "ENDP": {
+      "name": "Fehlendes Periodenenddatum",
+      "definition": "Das Enddatum bzw. der Endcode des Zeitraums fehlt."
+    },
+    "STAR": {
+      "name": "Fehlendes Periodenstartdatum",
+      "definition": "Das Anfangsdatum bzw. der Anfangscode des Zeitraums fehlt."
+    },
+    "PBAS": {
+      "name": "Fehlende Preisbasis",
+      "definition": "Die Kursbasis fehlt."
+    },
+    "PROR": {
+      "name": "Fehlender Verhältniszuteilungssatz",
+      "definition": "Der Repartierungssatz fehlt."
+    },
+    "MPRI": {
+      "name": "Fehlendes Kennzeichen für Rundung der Verhältniszuteilung",
+      "definition": "Das Kennzeichen für die Repartierungsrundung fehlt."
+    },
+    "PRCH": {
+      "name": "Fehlendes Kennzeichen für Schutzentgelt",
+      "definition": "Das Kennzeichen für Protect-Entgelte fehlt."
+    },
+    "RESU": {
+      "name": "Fehlender resultierender Betrag",
+      "definition": "Der resultierende Betrag muss angegeben werden, da ein Wechselkurs vorhanden ist."
+    },
+    "RITR": {
+      "name": "Fehlendes Kennzeichen für Übertragbarkeit der Rechte",
+      "definition": "Das Kennzeichen für übertragbare Rechte fehlt."
+    },
+    "ROUN": {
+      "name": "Fehlender Rundungsfaktor",
+      "definition": "Der Rundungsfaktor fehlt."
+    },
+    "SERT": {
+      "name": "Fehlender Wertpapiersatz",
+      "definition": "Der Wertpapiersatz fehlt."
+    },
+    "SFEE": {
+      "name": "Fehlendes Kennzeichen für Einholungsprovision des Händlers",
+      "definition": "Das Kennzeichen für die Gebühr des Solicitation Dealers fehlt."
+    },
+    "SUCH": {
+      "name": "Fehlendes Kennzeichen für Zeichnungsentgelt",
+      "definition": "Das Kennzeichen für Zeichnungsentgelte fehlt."
+    },
+    "SUPR": {
+      "name": "Fehlender Zeichnungspreis",
+      "definition": "Der Zeichnungskurs fehlt."
+    },
+    "UNSP": {
+      "name": "Fehlende Angabe zur Zulässigkeit eines nicht angegebenen Preises",
+      "definition": "Das Kennzeichen für zulässigen unbestimmten Kurs fehlt."
+    },
+    "NOAC": {
+      "name": "Kein Zugang zum Dienst",
+      "definition": "Der Beauftragte hat keinen Zugang zum Dienst."
+    },
+    "NPAT": {
+      "name": "Nicht aktive Partei",
+      "definition": "Die Partei ist nicht aktiv."
+    },
+    "ELIG": {
+      "name": "Nicht zulässiges Wertpapier",
+      "definition": "Das Wertpapier ist nicht zulässig."
+    },
+    "BDAY": {
+      "name": "Kein Geschäftstag",
+      "definition": "Das Datum ist für den Wertpapiermarkt kein Geschäftstag."
+    },
+    "AGID": {
+      "name": "Nicht definierte Bank",
+      "definition": "Die Partei ist nicht als Beauftragter definiert."
+    },
+    "DISP": {
+      "name": "Nicht zulässiges Streuungswertpapier",
+      "definition": "Das Disperse-Wertpapier ist beim Dienstleister (ICSD) des Inhabers nicht zulässig."
+    },
+    "ONCV": {
+      "name": "Laufendes Umwandlungsereignis vorhanden",
+      "definition": "Ein laufendes Umwandlungsereignis liegt vor"
+    },
+    "PERI": {
+      "name": "Periodenenddatum vor Periodenstartdatum",
+      "definition": "Das Enddatum des Zeitraums liegt vor dem Anfangsdatum des Zeitraums."
+    },
+    "PUBD": {
+      "name": "Veröffentlichungsdatum",
+      "definition": "Das Veröffentlichungsdatum muss vor dem Zahlbarkeitsdatum liegen."
+    },
+    "RDTE": {
+      "name": "Stichtag nach dem Zahlungsdatum",
+      "definition": "Der Stichtag liegt nach dem Zahlungsdatum."
+    },
+    "UNDM": {
+      "name": "Basiswertpapier nicht zulässig",
+      "definition": "Das zugrunde liegende Wertpapier ist beim Verwahrer nicht zugelassen."
+    },
+    "ACRU": {
+      "name": "Unerwartete aufgelaufene Zinsen",
+      "definition": "Aufgelaufene Zinsen sind für diese Wertpapierart nicht anwendbar."
+    },
+    "VALU": {
+      "name": "Wertstellungsdatum vor dem Zahlungsdatum",
+      "definition": "Das Valutadatum liegt vor dem Zahlungsdatum."
+    },
+    "SECT": {
+      "name": "Falscher Wertpapiertyp",
+      "definition": "Die Wertpapierart stimmt nicht mit der Art der Kapitalmaßnahme überein."
+    }
+  }
+}

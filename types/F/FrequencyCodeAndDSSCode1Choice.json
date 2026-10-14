@@ -1,0 +1,12 @@
+{
+  "isoType": "FrequencyCodeAndDSSCode1Choice",
+  "definition": "Auswahl zwischen Formaten für die Häufigkeit.",
+  "isoElements": {
+    "FrequencyAsCode": {
+      "definition": "Häufigkeit, ausgedrückt als Code."
+    },
+    "FrequencyAsDSS": {
+      "definition": "Häufigkeit, ausgedrückt als Datenquellenschema und ein innerhalb des Datenquellenschemas verwendeter Code."
+    }
+  }
+}

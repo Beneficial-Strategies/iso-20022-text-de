@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationCancellation1",
+  "definition": "Informationen über die Stornierung einer Benachrichtigungsavis oder die Rücknahme eines CA-Ereignisses.",
+  "isoElements": {
+    "NotificationCancellationType": {
+      "definition": "Die Funktion der Benachrichtigung, z. B. neue Benachrichtigung."
+    },
+    "LinkedAgentCANotificationAdviceIdentification": {
+      "definition": "Die Identifikation der verknüpften Benachrichtigungsavis."
+    }
+  }
+}

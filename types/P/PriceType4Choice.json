@@ -1,0 +1,12 @@
+{
+  "isoType": "PriceType4Choice",
+  "definition": "Auswahl der Preisart.",
+  "isoElements": {
+    "Market": {
+      "definition": "Zuletzt gemeldeter Preis eines Finanzinstruments an einem Markt, bestimmt durch Angebot und Nachfrage."
+    },
+    "Indicative": {
+      "definition": "Geschätzter Preis zu Bewertungszwecken."
+    }
+  }
+}

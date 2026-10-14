@@ -1,0 +1,15 @@
+{
+  "isoType": "AlternateSecurityIdentification1",
+  "definition": "Proprietäres oder nationales Identifikationsschema, das ein Wertpapier eindeutig identifiziert.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige und unmissverständliche Kennung eines Wertpapiers."
+    },
+    "DomesticIdentificationSource": {
+      "definition": "Land des proprietären Identifikationsschemas."
+    },
+    "ProprietaryIdentificationSource": {
+      "definition": "Stelle, die die proprietäre Identifikation vergibt."
+    }
+  }
+}

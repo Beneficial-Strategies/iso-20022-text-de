@@ -1,0 +1,12 @@
+{
+  "isoType": "YieldedOrValueType1Choice",
+  "definition": "Auswahl der Wertart.",
+  "isoElements": {
+    "Yielded": {
+      "definition": "Gibt an, ob der Preis als Rendite ausgedrückt wird."
+    },
+    "ValueType": {
+      "definition": "Wertart, in der der Preis ausgedrückt wird."
+    }
+  }
+}

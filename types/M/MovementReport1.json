@@ -1,0 +1,23 @@
+{
+  "isoType": "MovementReport1",
+  "definition": "Merkmale des Berichts.",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Identifikation der Abfragenachricht, mit der dieser Auszug angefordert wurde."
+    },
+    "ReportIdentification": {
+      "definition": "Referenz, die allen Seiten eines Berichts gemeinsam ist."
+    },
+    "QueryType": {
+      "definition": "Definiert die Art der Abfrage."
+    },
+    "ActivityIndicator": {
+      "definition": "Gibt an, ob im Auszug Aktivität oder eine Aktualisierung von Informationen gemeldet wird."
+    }
+  },
+  "isoRules": {
+    "ReportIdentificationRule": {
+      "definition": "Wenn Long number (Exact5NumericText) verwendet wird, muss der Bericht ein Deltabericht sein (UpdateType: DELT).|Wenn der Bericht mehrere Seiten hat, muss die ReportIdentification auf allen Seiten gleich bleiben. Sie ist eine für den Bericht eindeutige Nummer.|Zwei Berichte derselben Art, die nacheinander an denselben Empfänger in Bezug auf dasselbe Verwahrkonto gesendet werden, müssen unterschiedliche Berichtsidentifikationen haben. Beispielsweise hätte ein Tagesbericht an Tag 1 die ReportIdentification 001, an Tag 2 002 usw."
+    }
+  }
+}

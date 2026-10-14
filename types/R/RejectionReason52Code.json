@@ -1,0 +1,18 @@
+{
+  "isoType": "RejectionReason52Code",
+  "definition": "Gibt den Grund an, weshalb die Antwort zur Offenlegung der Identifikation den Status „abgelehnt“ hat.",
+  "isoCodes": {
+    "IDRI": {
+      "name": "Ungültige Identifikation der Offenlegungsanforderung",
+      "definition": "Die Identifikation der Offenlegungsanfrage ist ungültig oder unbekannt."
+    },
+    "IDRJ": {
+      "name": "Ungültige Identifikation der Offenlegungsantwort",
+      "definition": "Die Identifikation der Offenlegungsantwort ist ungültig oder unbekannt."
+    },
+    "SVNO": {
+      "name": "Dienstleistung nicht angeboten",
+      "definition": "Der Service, für den die Informationen gesendet wurden, wird nicht angeboten."
+    }
+  }
+}

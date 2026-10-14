@@ -1,0 +1,66 @@
+{
+  "isoType": "PendingReason41Code",
+  "definition": "Gibt einen Grund an, warum die Anweisung ausstehend ist.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Anweisung wurde nach Ablauf der Frist des Kontoführers empfangen. Sie wird gemäß der bilateralen Dienstleistungsvereinbarung zwischen Kontoführer und Kontoinhaber behandelt."
+    },
+    "ADDM": {
+      "name": "Zusätzliche Dokumentation fehlt",
+      "definition": "Angeforderte zusätzliche Dokumente fehlen."
+    },
+    "DREM": {
+      "name": "Registrierungsfrist versäumt",
+      "definition": "Die Registrierungsfrist wurde versäumt."
+    },
+    "IPED": {
+      "name": "Anweisung vor dem Anspruchsdatum",
+      "definition": "Die Anweisung wurde vor dem Anspruchsdatum empfangen."
+    },
+    "IPOS": {
+      "name": "Unzureichende Position für den Schwellenwert",
+      "definition": "Die Position liegt unter dem erforderlichen Schwellenwert."
+    },
+    "LACK": {
+      "name": "Mangel an Wertpapieren",
+      "definition": "Auf Ihrem Konto sind nicht genügend Finanzinstrumente vorhanden."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Die Anweisung ist nach der Marktfrist eingegangen."
+    },
+    "IPOA": {
+      "name": "Fehlende oder ungültige Vollmacht",
+      "definition": "Fehlende oder ungültige Vollmacht."
+    },
+    "NPOS": {
+      "name": "Keine registrierte Position",
+      "definition": "Unzureichende oder keine registrierte Position."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "FULL": {
+      "name": "Angaben zum wirtschaftlich Berechtigten ausstehend",
+      "definition": "Der Erhalt der Angaben zum wirtschaftlich Berechtigten steht aus."
+    },
+    "PENR": {
+      "name": "Ausstehender Empfang",
+      "definition": "Die Anweisung wartet auf den Eingang von Wertpapieren, zum Beispiel aus einem Kauf oder einem Darlehen."
+    },
+    "PRXY": {
+      "name": "Abweichung bei der Vollmachtskarte",
+      "definition": "Ungültige Angaben zum Bevollmächtigten."
+    },
+    "DQUA": {
+      "name": "Mengenabweichung",
+      "definition": "Die Menge der Finanzinstrumente stimmt nicht überein."
+    },
+    "IREG": {
+      "name": "Abweichung bei der Registrierung",
+      "definition": "Ungültige Registrierungsabweichung."
+    }
+  }
+}

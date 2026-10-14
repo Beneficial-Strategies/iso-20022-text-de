@@ -1,0 +1,12 @@
+{
+  "isoType": "IncludedAccount1",
+  "definition": "Stellt Informationen zum Konto bereit, das von der Dauerauftragsanweisung betroffen oder nicht betroffen ist.",
+  "isoElements": {
+    "SecuritiesAccountIdentification": {
+      "definition": "Identifikation des Wertpapierkontos."
+    },
+    "IncludedIndicator": {
+      "definition": "Gibt an, ob das Konto von der Dauerauftragsanweisung betroffen ist oder nicht.||Ja = Das Konto ist von der Dauerauftragsanweisung betroffen.|Nein = Das Konto ist nicht von der Dauerauftragsanweisung betroffen."
+    }
+  }
+}

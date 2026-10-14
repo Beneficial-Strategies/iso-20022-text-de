@@ -1,0 +1,20 @@
+{
+  "isoType": "PriceDetails37",
+  "definition": "Liefert Informationen zu den Preisen einer Kapitalmaßnahmen-Option.",
+  "isoElements": {
+    "GenericCashPricePaidPerProduct": {
+      "definition": "Allgemeiner Barpreis, den der Inhaber des zugrunde liegenden Wertpapiers je Produkt zahlt, entweder als Prozentsatz, als Betrag oder als Anzahl von Punkten über einem Index, zum Beispiel Wiederanlagepreis, Basispreis und Ausübungspreis."
+    },
+    "GenericCashPriceReceivedPerProduct": {
+      "definition": "Allgemeiner Barpreis, den der Inhaber des zugrunde liegenden Wertpapiers je Produkt erhält, entweder als Prozentsatz oder als Betrag, zum Beispiel Rückzahlungspreis."
+    },
+    "CashInLieuOfSharePrice": {
+      "definition": "Barauszahlung anstelle von Aktien; üblicherweise anstelle einer Bruchteilsmenge."
+    }
+  },
+  "isoRules": {
+    "GenericCashPricePerProductGuideline": {
+      "definition": "GenericCashPriceReceivedPerProduct und GenericCashPricePaidPerProduct sind Preise, die im Verlauf eines Ereignisses erhalten oder gezahlt werden. Die konkrete Bedeutung (Rückzahlungspreis, Bezugspreis, Reinvestitionspreis, ETC.) ergibt sich aus der Ereignisart."
+    }
+  }
+}

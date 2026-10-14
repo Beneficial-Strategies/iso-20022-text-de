@@ -1,0 +1,30 @@
+{
+  "isoType": "ServicePaymentMethod1Code",
+  "definition": "Legt die Methode für die Zahlung des Servicentgelts fest.",
+  "isoCodes": {
+    "BCMP": {
+      "name": "Saldoausgleichsfähig",
+      "definition": "Ermöglicht der Bank, ein Servicentgelt mit den auf dem Einlagenkonto erzielten Zinsen zu verrechnen. Die tatsächlichen Entgelte für saldenkompensierbare Services werden stets zum Monatsende berechnet und erhoben. Wird in den USA verwendet."
+    },
+    "FLAT": {
+      "name": "Fester Entgeltbetrag",
+      "definition": "Das Entgelt ist nicht saldenkompensierbar und fällig. Mangels saldenkompensierbarer Entgelte in Europa wäre dies der am häufigsten verwendete Code für Services, die zum Monatsende abgerechnet werden."
+    },
+    "PVCH": {
+      "name": "Bereits berechnet",
+      "definition": "Das Entgelt wurde bereits zuvor erhoben und ist nicht Teil des mit dieser Abrechnung fälligen Betrags. Dieser Code wird für Entgelte verwendet, die mit Eintritt des entgeltpflichtigen Ereignisses belastet wurden."
+    },
+    "INVS": {
+      "name": "Separat in Rechnung gestellt",
+      "definition": "Das Entgelt wurde bereits zuvor in Rechnung gestellt und ist nicht Teil des mit dieser Abrechnung fälligen Betrags. Dieser Code wird für Entgelte verwendet, die mit Eintritt des entgeltpflichtigen Ereignisses in Rechnung gestellt wurden."
+    },
+    "WVED": {
+      "name": "Erlassen",
+      "definition": "Das Entgelt wird erlassen und ist nicht fällig. Der erlassene Betrag muss in den ursprünglichen Entgeltbetrag eingetragen werden."
+    },
+    "FREE": {
+      "name": "Kostenlos",
+      "definition": "Der Service ist für den Kunden kostenlos."
+    }
+  }
+}

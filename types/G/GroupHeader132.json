@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader132",
+  "definition": "Gruppe von Merkmalen, die für alle in der Nachricht enthaltenen einzelnen Mitteilungen gelten.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, die vom Sender vergeben und an den Empfänger gesendet wird, um die Nachricht eindeutig zu identifizieren.|Verwendung: Der Sender muss sicherstellen, dass MessageIdentification je Empfänger für einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "CashSender": {
+      "definition": "Partei, die die Bargeldeinzahlung beauftragt."
+    },
+    "CashReceiver": {
+      "definition": "Partei, die auf den Auftrag zur Bargeldeinzahlung antwortet."
+    },
+    "NumberOfRequests": {
+      "definition": "Anzahl der in der Nachricht enthaltenen einzelnen Aufträge."
+    },
+    "ControlSum": {
+      "definition": "Summe aller in der Nachricht enthaltenen Einzelbeträge, unabhängig von den Währungen."
+    }
+  }
+}

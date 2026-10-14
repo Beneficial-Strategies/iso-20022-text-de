@@ -1,0 +1,26 @@
+{
+  "isoType": "TransactionActivity1Code",
+  "definition": "Gibt die Art der Aktivität an, auf die sich diese Transaktion bezieht.",
+  "isoCodes": {
+    "BOLE": {
+      "name": "Leih- und Verleihaktivität",
+      "definition": "Die Transaktion bezieht sich auf Wertpapierleihe/-entleihe."
+    },
+    "CLAI": {
+      "name": "Marktforderung",
+      "definition": "Die Transaktion bezieht sich auf einen Marktanspruch (Market Claim) infolge einer Kapitalmaßnahme."
+    },
+    "COLL": {
+      "name": "Sicherheitenaktivität",
+      "definition": "Die Transaktion bezieht sich auf Sicherheiten."
+    },
+    "CORP": {
+      "name": "Aktivität der Kapitalmaßnahme",
+      "definition": "Die Transaktion bezieht sich auf eine Kapitalmaßnahme."
+    },
+    "SETT": {
+      "name": "Abwicklungs- und Clearingaktivität",
+      "definition": "Die Transaktion bezieht sich auf Abwicklung und Clearing."
+    }
+  }
+}

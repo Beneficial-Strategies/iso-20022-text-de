@@ -1,0 +1,18 @@
+{
+  "isoType": "BilateralLimit4",
+  "definition": "Merkmale und Werte eines bilateralen Limits, einschließlich der Gegenpartei, auf die das Limit angewendet wird.",
+  "isoElements": {
+    "CounterpartyIdentification": {
+      "definition": "Eindeutige Identifikation eines Mitglieds innerhalb eines Systems, vergeben nach dem Mitglieds-Identifikationsschema des Systems."
+    },
+    "LimitAmount": {
+      "definition": "Geldbetrag des Limits, ausgedrückt in einer zulässigen Währung."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob ein Limit ein Lastschrift- oder ein Gutschriftlimit ist."
+    },
+    "BilateralBalance": {
+      "definition": "Saldo, der in Bezug auf ein Mitglied im System berechnet wird."
+    }
+  }
+}

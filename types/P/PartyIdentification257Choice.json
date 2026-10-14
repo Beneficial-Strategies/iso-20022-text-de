@@ -1,0 +1,18 @@
+{
+  "isoType": "PartyIdentification257Choice",
+  "definition": "Auswahl von Formaten für die Identifikation einer Partei.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Eindeutige und zweifelsfreie Möglichkeit zur Identifikation einer Organisation."
+    },
+    "NameAndAddress": {
+      "definition": "Eindeutige und zweifelsfreie Möglichkeit zur Identifikation einer Organisation."
+    },
+    "Country": {
+      "definition": "Eindeutige und zweifelsfreie Möglichkeit zur Identifikation einer Organisation."
+    },
+    "DigitalLedgerIdentification": {
+      "definition": "Abwicklungsort, ausgedrückt mit einem Digital Ledger Identifier. Er identifiziert ein digitales Ledger oder verteiltes Ledger-System (zum Beispiel Blockchain oder ähnliche Plattformen)."
+    }
+  }
+}

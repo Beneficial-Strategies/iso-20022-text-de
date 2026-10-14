@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndRateFormat3Choice",
+  "definition": "Auswahl von Satzformaten.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Anzahl der in einer Währung angegebenen Geldeinheiten."
+    },
+    "NotSpecifiedRate": {
+      "definition": "Der Satz ist nicht angegeben."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification38Choice",
+  "definition": "Eindeutige Identifikation des Wertpapierkontos oder des Geldkontos des Kunden.",
+  "isoElements": {
+    "SecuritiesAccountIdentification": {
+      "definition": "Eindeutige Identifikation des Wertpapierkontos, wie vom kontoführenden Institut vergeben."
+    },
+    "CashAccountIdentification": {
+      "definition": "Eindeutige Identifikation des Geldkontos, wie vom kontoführenden Institut vergeben."
+    }
+  }
+}

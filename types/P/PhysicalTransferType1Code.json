@@ -1,0 +1,14 @@
+{
+  "isoType": "PhysicalTransferType1Code",
+  "definition": "Gibt an, ob das Finanzinstrument physisch geliefert wird oder eine entmaterialisierte Übertragung vorliegt.",
+  "isoCodes": {
+    "DEMT": {
+      "name": "Entmaterialisiert",
+      "definition": "Entmaterialisierte Übertragung."
+    },
+    "PHYS": {
+      "name": "Physisch",
+      "definition": "Physische Übertragung."
+    }
+  }
+}

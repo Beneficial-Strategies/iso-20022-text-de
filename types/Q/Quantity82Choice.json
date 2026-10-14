@@ -1,0 +1,12 @@
+{
+  "isoType": "Quantity82Choice",
+  "definition": "Gesamtmenge der zu übertragenden Wertpapiere, ausgedrückt als Anzahl von Anteilen oder als Prozentsatz.",
+  "isoElements": {
+    "TotalUnitsNumber": {
+      "definition": "Gesamtmenge der zu übertragenden Wertpapiere."
+    },
+    "TransferRate": {
+      "definition": "Menge der zu übertragenden Wertpapiere als Prozentsatz des Bestands."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ReceivedByIssuerOrOfferorStatus1",
+  "definition": "Die Anweisung wurde vom Emittenten oder Anbieter empfangen und akzeptiert.",
+  "isoElements": {
+    "AcceptedByIssuerQuantity": {
+      "definition": "Menge der angewiesenen Wertpapiere, die zuvor akzeptiert wurde und nun vom Emittenten akzeptiert wurde."
+    },
+    "ReceivedByIssuerOrOfferorReason": {
+      "definition": "Grund für den Status ausstehend."
+    }
+  }
+}

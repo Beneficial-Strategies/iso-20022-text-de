@@ -1,0 +1,12 @@
+{
+  "isoType": "IdentificationSource4Choice",
+  "definition": "Auswahl zwischen den Quellen der Identifikation eines Finanzinstruments.",
+  "isoElements": {
+    "Code": {
+      "definition": "Eindeutige Identifikationsquelle, vergeben über eine vorab festgelegte Codeliste."
+    },
+    "Proprietary": {
+      "definition": "Eindeutige Identifikationsquelle unter Verwendung eines proprietären Identifikationsschemas."
+    }
+  }
+}

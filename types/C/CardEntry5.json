@@ -1,0 +1,18 @@
+{
+  "isoType": "CardEntry5",
+  "definition": "Kartentransaktionsumsatz.",
+  "isoElements": {
+    "Card": {
+      "definition": "Elektronisches Geldprodukt, das dem Karteninhaber ein tragbares, spezialisiertes Computergerät bereitstellt, das typischerweise einen Mikroprozessor enthält."
+    },
+    "POI": {
+      "definition": "Physisches oder logisches Kartenzahlungsterminal mit Software- und Hardwarekomponenten."
+    },
+    "AggregatedEntry": {
+      "definition": "Kartenumsatzdetails auf Basis aggregierter Kartentransaktionsdaten, die vom Kontoführer erstellt wurden."
+    },
+    "PrePaidAccount": {
+      "definition": "Prepaid-Konto für die Übertragung oder Aufladung eines Geldbetrags."
+    }
+  }
+}

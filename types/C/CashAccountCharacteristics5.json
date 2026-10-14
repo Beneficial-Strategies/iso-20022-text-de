@@ -1,0 +1,45 @@
+{
+  "isoType": "CashAccountCharacteristics5",
+  "definition": "Gibt die Merkmale des Kontos an.",
+  "isoElements": {
+    "AccountLevel": {
+      "definition": "Legt die Kontoebene innerhalb einer Kontohierarchie fest."
+    },
+    "CashAccount": {
+      "definition": "Konto, auf das oder von dem eine Geldbuchung erfolgt."
+    },
+    "AccountServicer": {
+      "definition": "Verwendung: Das kontoführende Institut ist die Zweigstelle am Sitzort, die das lokale Konto führt."
+    },
+    "ParentAccount": {
+      "definition": "Legt ein übergeordnetes Konto fest, zu dem das Konto in Beziehung steht."
+    },
+    "CompensationMethod": {
+      "definition": "Legt fest, ob und wie fällige Entgelte und Steuern an das Finanzinstitut gezahlt werden."
+    },
+    "DebitAccount": {
+      "definition": "Legt das Konto fest, das für fällige Entgelte und Steuern des Kontos belastet wird, falls abweichend vom Konto selbst."
+    },
+    "DelayedDebitDate": {
+      "definition": "Zukünftiges Datum, an dem das Konto automatisch für fällige Entgelte und Steuern belastet wird."
+    },
+    "SettlementAdvice": {
+      "definition": "Freitextnachricht an den Kunden zur Abwicklung fälliger Entgelte und Steuern."
+    },
+    "AccountBalanceCurrencyCode": {
+      "definition": "Währung zur Angabe der Saldowährung des Kontos."
+    },
+    "SettlementCurrencyCode": {
+      "definition": "Währung zur Angabe der Abrechnungswährung des Kontos."
+    },
+    "HostCurrencyCode": {
+      "definition": "Währung zur Angabe der Steuerwährung des Kontos am Sitzort."
+    },
+    "Tax": {
+      "definition": "Beschreibt die Besteuerungsparameter des Kontos."
+    },
+    "AccountServicerContact": {
+      "definition": "Ansprechpartner am Standort des Finanzinstituts bei Problemen geschäftlicher Art."
+    }
+  }
+}

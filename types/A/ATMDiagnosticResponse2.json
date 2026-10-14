@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMDiagnosticResponse2",
+  "definition": "Informationen zur Antwort auf eine Diagnose von einem ATM-Betreiber.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Umfeld des ATM."
+    },
+    "Command": {
+      "definition": "Auf dem ATM auszuführender Wartungsbefehl."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "PenaltyType1Code",
+  "definition": "Gibt die Art der Strafzahlung an.",
+  "isoCodes": {
+    "LMFP": {
+      "name": "Strafzahlung wegen verspätetem Matching",
+      "definition": "Gilt vom beabsichtigten Abwicklungsdatum bis zum Matching-Datum.|Die Strafzahlung wird dem Teilnehmer berechnet, der die maßgebliche Abwicklungsanweisung zuletzt erfasst oder geändert hat (zum Beispiel ist der „accepted timestamp“ später als der der Anweisung der Gegenpartei), für die Zeiträume zwischen dem beabsichtigten Abwicklungsdatum und dem Tag des Matchings der Anweisung."
+    },
+    "SEFP": {
+      "name": "Strafzahlung wegen gescheiterter Abwicklung",
+      "definition": "Strafzahlungen gelten für Anweisungen, die am beabsichtigten Abwicklungsdatum nicht abgewickelt werden. Eine Abwicklungsanweisung, die „an diesem Geschäftstag nicht abgewickelt wird“, ist als eine Abwicklungsanweisung zu verstehen, die nicht storniert wurde und zum Zeitpunkt|des Endes der Verarbeitung des maßgeblichen Cut-off ganz oder teilweise noch abzuwickeln ist."
+    }
+  }
+}

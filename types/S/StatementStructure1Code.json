@@ -1,0 +1,14 @@
+{
+  "isoType": "StatementStructure1Code",
+  "definition": "Gibt die Art der Salden an, auf denen der Auszug erstellt wird.",
+  "isoCodes": {
+    "STAT": {
+      "name": "Status",
+      "definition": "Der Kontoauszug ist nach Status sortiert."
+    },
+    "TRAN": {
+      "name": "Transaktionen",
+      "definition": "Der Kontoauszug ist nach Transaktion sortiert."
+    }
+  }
+}

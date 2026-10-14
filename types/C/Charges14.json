@@ -1,0 +1,18 @@
+{
+  "isoType": "Charges14",
+  "definition": "Enthält Angaben zu den Entgelten im Zusammenhang mit der Zahlungstransaktion.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Transaktionsentgelte, die vom Entgeltträger zu zahlen sind."
+    },
+    "Agent": {
+      "definition": "Bank, die die Transaktionsentgelte erhebt oder der die Transaktionsentgelte zustehen."
+    },
+    "AgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank, dem aufgrund der Entgelte eine Gutschrift erteilt wird."
+    },
+    "Type": {
+      "definition": "Legt die Art der Entgelte fest."
+    }
+  }
+}

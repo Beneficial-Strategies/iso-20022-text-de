@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason18FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe des Grundes für die Ablehnung einer Wahlmitteilung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Grundes für die Ablehnung einer Wahlmitteilung."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe des Grundes für die Ablehnung einer Wahlmitteilung."
+    }
+  }
+}

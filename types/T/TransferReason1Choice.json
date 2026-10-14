@@ -1,0 +1,12 @@
+{
+  "isoType": "TransferReason1Choice",
+  "definition": "Auswahl zwischen Formaten für einen Übertragungsgrund.",
+  "isoElements": {
+    "Code": {
+      "definition": "Übertragungsgrund, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Übertragungsgrund, ausgedrückt als proprietärer Code."
+    }
+  }
+}

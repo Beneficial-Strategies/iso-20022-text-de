@@ -1,0 +1,4 @@
+{
+  "isoType": "ChequePresentmentNotificationV02",
+  "definition": "Die Nachricht ChequePresentmentNotification wird von einer Bank des Scheckausstellers oder einer in dessen Auftrag handelnden Bank an die Bank gesendet, auf die ein oder mehrere Schecks gezogen wurden (die bezogene Bank).|Sie dient dazu, die bezogene Bank über die Einzelheiten der in der Nachricht genannten Schecks zu informieren oder diese gegenüber einer anfragenden Bank zu bestätigen."
+}

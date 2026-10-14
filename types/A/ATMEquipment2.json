@@ -1,0 +1,27 @@
+{
+  "isoType": "ATMEquipment2",
+  "definition": "Informationen zum Hardware-Sicherheitsmodul, auch EPP (Encrypted PIN Pad) genannt.",
+  "isoElements": {
+    "Manufacturer": {
+      "definition": "Hersteller des ATM."
+    },
+    "Model": {
+      "definition": "Modell des ATM."
+    },
+    "Version": {
+      "definition": "Version des Gerätemodells."
+    },
+    "SerialNumber": {
+      "definition": "Seriennummer des ATM."
+    },
+    "FirmwareProvider": {
+      "definition": "Anbieter der Firmware."
+    },
+    "FirmwareIdentification": {
+      "definition": "Identifikation der Firmware."
+    },
+    "FirmwareVersion": {
+      "definition": "Version der Firmware."
+    }
+  }
+}

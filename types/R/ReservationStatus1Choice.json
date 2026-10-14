@@ -1,0 +1,12 @@
+{
+  "isoType": "ReservationStatus1Choice",
+  "definition": "Definiert die Art der in der Anfrage auszuführenden Aktion.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der Liquiditätsübertragungsanfrage in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Art der Liquiditätsübertragungsanfrage in proprietärer Form."
+    }
+  }
+}

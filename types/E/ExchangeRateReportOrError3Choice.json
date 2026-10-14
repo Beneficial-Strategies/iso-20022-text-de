@@ -1,0 +1,12 @@
+{
+  "isoType": "ExchangeRateReportOrError3Choice",
+  "definition": "Dient der Bereitstellung von Informationen zu Stammdaten, die vom Transaktionsverwalter geführt werden und sich auf Währungsumtauschdetails beziehen, wie sie vom Transaktionsverwalter für den Systembetrieb gepflegt werden.",
+  "isoElements": {
+    "CurrencyExchangeReport": {
+      "definition": "Meldet Informationen zum Währungsumtausch."
+    },
+    "OperationalError": {
+      "definition": "Gibt an, dass bei der Verarbeitung der zugehörigen Anfrage ein Betriebsfehler aufgetreten ist."
+    }
+  }
+}

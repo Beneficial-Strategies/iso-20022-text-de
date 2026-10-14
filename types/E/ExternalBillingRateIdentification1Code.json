@@ -1,0 +1,82 @@
+{
+  "isoType": "ExternalBillingRateIdentification1Code",
+  "definition": "Gibt die Art des Abrechnungssatzes oder -faktors an, wie in einer externen Codeliste für Abrechnungssätze veröffentlicht.|Externe Codelisten können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "AEAR": {
+      "name": "Angepasster Satz der Ertragsgutschrift",
+      "definition": "Jährlicher Ertragssatz, bereinigt um Reserven, der auf den anlagefähigen Saldo des aktuellen Analysezeitraums angewendet wird, um die Ertragsgutschrift zu berechnen.  Der ECR, Net of Reserves, wird wie folgt berechnet:    ECR, Net of Reserves  =  ECR, Not Net (00 01 22) * (1 – Reserve Rate)"
+    },
+    "ANXE": {
+      "name": "Angepasster Ertragssatz des Folgemonats",
+      "definition": "Der erwartete, angepasste Ertragsgutschriftssatz, der im nächsten Monat für die Berechnung der Ertragsgutschrift verwendet werden soll. Siehe AEAR AdjustedEarningsAllowance Rate"
+    },
+    "CDRA": {
+      "name": "CD-Satz",
+      "definition": "Der aktuelle von der Bank veröffentlichte CD-Satz (Certificate of Deposit)."
+    },
+    "DINR": {
+      "name": "Zinssatz bei Fehlbetrag",
+      "definition": "Der jährliche Satz, der zur Berechnung des an die Bank zu zahlenden Fehlbetragszinses verwendet wird."
+    },
+    "DSCR": {
+      "name": "Zuschlagssatz bei Fehlbetrag",
+      "definition": "Der jährliche Satz, der zur Berechnung eines Zuschlags auf den an die Bank zu zahlenden Fehlbetragszins verwendet wird."
+    },
+    "EALR": {
+      "name": "Satz der Ertragsgutschrift",
+      "definition": "Jährlicher Ertragssatz, der auf den anlagefähigen Saldo des aktuellen Kontoauszugszeitraums angewendet wird, um die Ertragsgutschrift zu berechnen. Die Ertragsgutschrift wird verwendet, um die Entgelte für saldenkompensierbare Dienstleistungen auszugleichen. Dieser Satz wurde NICHT um Reserven bereinigt. Der ECR, Not Net of Reserves, wird wie folgt berechnet:    ECR, Not Net  =  ECR, Net of Reserves (00 01 20)  /  (1 – Reserve Rate)"
+    },
+    "FDIC": {
+      "name": "FDIC-Satz",
+      "definition": "Der aktuelle FDIC-Satz, der in den US verwendet wird, um die Prämie der Federal Deposit Insurance zu berechnen, die von den Banken an die FDIC gezahlt wird."
+    },
+    "ICDR": {
+      "name": "Gutgeschriebener Zinssatz",
+      "definition": "Jährlicher Zinssatz, der zur Berechnung des Zinsbetrags verwendet wird, der einem bestimmten Konto gutgeschrieben wird. Der gutgeschriebene Zinsbetrag, falls vorhanden, wird in einem Compensation-Abschnitt mit dem Compensation Identifier TtlInterestCredited gemeldet"
+    },
+    "MULT": {
+      "name": "Multiplikator",
+      "definition": "Der eingezogene Saldo, der erforderlich ist, um 1,00 $ an saldenkompensierbaren Dienstleistungsentgelten auszugleichen.  Dieser Faktor kann verwendet werden, um das Saldenäquivalent saldenkompensierbarer Dienstleistungsentgelte zu berechnen.  Der Multiplikator wird auf eine von drei Arten berechnet, je nachdem, ob der Ertragsgutschriftssatz (ECR) um Reserven bereinigt ist oder nicht (net of reserves oder nicht) und, falls der ECR nicht um Reserven bereinigt ist, ob der Multiplikator um Reserven bereinigt ist oder nicht (1.00)."
+    },
+    "NCBO": {
+      "name": "Überziehungssatz auf den eingezogenen Nettosaldo",
+      "definition": "Jährlicher Zinssatz, der zur Berechnung der Überziehungsvergütung auf einen durchschnittlichen eingezogenen Nettosaldo verwendet wird, der negativ ist (AFP-Saldo 00 00 10).  Ein durchschnittlicher NETTO-Saldo ist negativ, wenn die Summe der täglichen POSITIVEN und NEGATIVEN Schlusssalden negativ ist."
+    },
+    "NGCO": {
+      "name": "Überziehungssatz auf negativen eingezogenen Saldo",
+      "definition": "Jährlicher Zinssatz, der auf NEGATIVE eingezogene Salden (AFP-Saldo 00 00 13) zur Berechnung der Überziehungsvergütung angewendet wird."
+    },
+    "NGLO": {
+      "name": "Überziehungssatz auf negativen Buchsaldo",
+      "definition": "Jährlicher Zinssatz, der auf NEGATIVE Buchsalden (AFP-Saldo 00 00 03) zur Berechnung der Überziehungsvergütung angewendet wird."
+    },
+    "NLBO": {
+      "name": "Überziehungssatz auf den Netto-Buchsaldo",
+      "definition": "Jährlicher Zinssatz, der zur Berechnung der Überziehungsvergütung auf einen durchschnittlichen Netto-Buchsaldo verwendet wird, der negativ ist (AFP-Saldo 00 00 00).  Ein durchschnittlicher NETTO-Saldo ist negativ, wenn die Summe der täglichen POSITIVEN und NEGATIVEN Schlusssalden negativ ist."
+    },
+    "NXME": {
+      "name": "Satz der Ertragsgutschrift des Folgemonats",
+      "definition": "Der erwartete Ertragsgutschriftssatz, der im nächsten Monat für die Berechnung der Ertragsgutschrift verwendet werden soll. Siehe EALR EarningsAllowance Rate"
+    },
+    "NXMU": {
+      "name": "Multiplikator des Folgemonats",
+      "definition": "Der erwartete Multiplikator, der im nächsten Monat verwendet werden soll. Siehe MULT Multiplier."
+    },
+    "PRIR": {
+      "name": "Prime Rate",
+      "definition": "Der aktuelle jährliche Prime Rate, wie von der Bank veröffentlicht."
+    },
+    "RRQR": {
+      "name": "Mindestreservesatz (ohne DDA)",
+      "definition": "Der jährliche Reservesatz, der auf Konten ohne Sichteinlagen angewendet wird, wie Termineinlagen- oder CD-Konten."
+    },
+    "RSRV": {
+      "name": "Mindestreservesatz",
+      "definition": "Jährlicher Zinssatz, der zur Berechnung desjenigen Teils des CollectedBal-AvgPositive verwendet wird, den US-Banken bei der US Federal Reserve hinterlegen müssen."
+    },
+    "UFUR": {
+      "name": "Satz für die Nutzung nicht eingezogener Mittel",
+      "definition": "Jährlicher Zinssatz, der auf den Teil des Kontosaldos erhoben wird, der die Differenz zwischen dem durchschnittlichen negativen Buchsaldo und dem durchschnittlichen negativen eingezogenen Saldo darstellt (AFP-Saldo 00 00 15).  Dieser Satz wird verwendet, um die Vergütung auf den Teil des negativen eingezogenen Saldos zu erheben, der die Nutzung nicht eingezogener Mittel darstellt."
+    }
+  }
+}

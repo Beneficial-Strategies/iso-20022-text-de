@@ -1,0 +1,41 @@
+{
+  "isoType": "CashAccountData1",
+  "definition": "Konto, auf das oder von dem eine Geldbuchung erfolgt.",
+  "isoElements": {
+    "Name": {
+      "definition": "Name des Kontos. Er dient als zusätzliches Identifikationsmittel und wird vom kontoführenden Institut in Absprache mit dem Kontoinhaber festgelegt."
+    },
+    "Type": {
+      "definition": "Gibt die Art oder Verwendung des Geldkontos an."
+    },
+    "Currency": {
+      "definition": "Gibt die Währung des Geldkontos an."
+    },
+    "Proxy": {
+      "definition": "Gibt einen alternativen angenommenen Namen zur Identifikation des Kontos an."
+    },
+    "CurrentMultilateralLimit": {
+      "definition": "Höchstbetrag, der für einen Teilnehmer gegenüber einer Gruppe von Gegenparteien gilt bzw. von ihm angewendet wird. Das multilaterale System wird vom Transaktionsverwalter berücksichtigt, um das Risiko im System zu begrenzen.|Mit Hilfe des multilateralen Limits beschränkt der direkte Teilnehmer die Nutzung von Liquidität beim Clearing von Zahlungen mit allen anderen direkten Teilnehmern, für die kein bilaterales Limit festgelegt wurde."
+    },
+    "Owner": {
+      "definition": "Inhaber des abgefragten Kontos."
+    },
+    "Servicer": {
+      "definition": "Kontoführendes Institut des abgefragten Kontos."
+    },
+    "MultilateralBalance": {
+      "definition": "Der Saldo wird in Bezug auf mehrere Mitglieder im System berechnet."
+    },
+    "CurrentBilateralLimit": {
+      "definition": "Limit, das eine Partei A in Bezug auf eine bestimmte Gegenpartei B festlegt und das dem Höchstbetrag des Zahlungsverkehrs entspricht, den Partei A an Partei B senden darf. Das bilaterale Limit kann als Lastschrift- oder Gutschriftlimit ausgedrückt werden. |Mit Hilfe eines bilateralen Limits beschränkt der direkte Teilnehmer die Nutzung von Liquidität beim Clearing von Zahlungen mit einem anderen direkten Teilnehmer."
+    },
+    "StandingOrder": {
+      "definition": "Anweisung einer Partei, die ausdrücklich berechtigt ist, eine Belastung des Kontos anzuweisen, nämlich des Zahlungspflichtigen oder der auftraggebenden Partei, an die Bank des Zahlungspflichtigen, Liquiditätsübertragungen in festgelegten Intervallen während eines impliziten oder expliziten Zeitraums zu verarbeiten. Ein Dauerauftrag wird einmal erteilt und gilt für einen unbefristeten oder befristeten Zeitraum."
+    }
+  },
+  "isoRules": {
+    "BilateralBalanceRule": {
+      "definition": "Wenn MultilateralBalance nicht vorhanden ist, muss mindestens ein Vorkommen von CurrentBilateralLimit/BilateralBalance vorhanden sein.|Wenn MultilateralBalance vorhanden ist, ist jedes Vorkommen von CurrentBilateralLimit/BilateralBalance optional."
+    }
+  }
+}

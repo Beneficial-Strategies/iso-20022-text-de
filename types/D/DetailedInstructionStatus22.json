@@ -1,0 +1,44 @@
+{
+  "isoType": "DetailedInstructionStatus22",
+  "definition": "Informationen zu einer Stimme einer Versammlungsanweisung.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "definition": "Identifikation der einzelnen Anweisung aus der ursprünglichen Nachricht mit Versammlungsanweisung, für die die Bestätigung erteilt wird."
+    },
+    "AccountIdentification": {
+      "definition": "Identifikation des Verwahrkontos."
+    },
+    "AccountOwner": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    },
+    "SubAccountIdentification": {
+      "definition": "Identifikation des Unterkontos innerhalb des Verwahrkontos."
+    },
+    "RightsHolder": {
+      "definition": "Inhaber der Stimmrechte."
+    },
+    "Proxy": {
+      "definition": "Identifikation der vom Wertpapierinhaber als Bevollmächtigter bestellten Person."
+    },
+    "StandingInstruction": {
+      "definition": "Gibt an, ob Daueranweisungen angewendet wurden oder nicht."
+    },
+    "ModalityOfCounting": {
+      "definition": "Modalität, über die die erfassten und gezählten Stimmen beim Emittenten eingegangen sind, einschließlich der Angabe, ob dies vor der Versammlung oder auf der Versammlung erfolgte."
+    },
+    "VoteReceiptDateTime": {
+      "definition": "Datum oder Datum und Uhrzeit, zu dem die erfassten und gezählten Stimmen eingegangen sind."
+    },
+    "VotePerResolution": {
+      "definition": "Einzelheiten zur Stimme."
+    }
+  },
+  "isoRules": {
+    "RightsHolderMultiplicity1Guideline": {
+      "definition": "Es wird empfohlen, RightsHolder nur dann mehrfach anzugeben, wenn Miteigentum besteht."
+    },
+    "SubAccount1Rule": {
+      "definition": "Wenn SubAccountIdentification vorhanden ist, muss AccountIdentification vorhanden sein."
+    }
+  }
+}

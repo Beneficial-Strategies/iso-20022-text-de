@@ -1,0 +1,12 @@
+{
+  "isoType": "AffirmationStatus8Choice",
+  "definition": "Auswahl des Formats für den Affirmationsstatus.",
+  "isoElements": {
+    "Code": {
+      "definition": "Liefert den Status des Geschäfts auf Bestätigungsebene zum Zeitpunkt des Sendens der Abwicklungsanweisung."
+    },
+    "Proprietary": {
+      "definition": "Liefert den Status des Geschäfts auf Bestätigungsebene zum Zeitpunkt des Sendens der Abwicklungsanweisung."
+    }
+  }
+}

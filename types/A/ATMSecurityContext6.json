@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMSecurityContext6",
+  "definition": "Informationen zu Sicherheitsbefehlen.",
+  "isoElements": {
+    "CurrentSecurityScheme": {
+      "definition": "Für den Host-Manager am ATM aktives Sicherheitsverfahren für den Schlüsselaustausch."
+    },
+    "SecuritySchemeCapabilities": {
+      "definition": "Im Hardware-Sicherheitsmodul des ATM implementierte Sicherheitsverfahren für den Schlüsselaustausch."
+    },
+    "SecurityDevice": {
+      "definition": "Hardware-Sicherheitsmodul des ATM."
+    },
+    "Key": {
+      "definition": "Im Hardware-Sicherheitsmodul des ATM gespeicherte kryptografische Schlüssel."
+    },
+    "HostChallenge": {
+      "definition": "Zufallswert des Hosts, der bei einem vorherigen Austausch bereitgestellt wurde."
+    }
+  }
+}

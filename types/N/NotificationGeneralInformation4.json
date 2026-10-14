@@ -1,0 +1,21 @@
+{
+  "isoType": "NotificationGeneralInformation4",
+  "definition": "Art und Status der Ereignisbenachrichtigung.",
+  "isoElements": {
+    "NotificationIdentification": {
+      "definition": "Eindeutige Identifikation der Gruppe von Versammlungsbenachrichtigungen, wenn die Benachrichtigung auf mehrere (paginierte) Nachrichten aufgeteilt ist."
+    },
+    "NotificationType": {
+      "definition": "Art der Benachrichtigung."
+    },
+    "NotificationStatus": {
+      "definition": "Status der Details des Ereignisses."
+    },
+    "ShareholderRightsDirectiveIndicator": {
+      "definition": "Gibt an, ob die Ankündigung gemäß SRD II vom ersten Intermediär der Verwahrkette veranlasst wurde."
+    },
+    "ConfirmationOfHoldingRequired": {
+      "definition": "Gibt an, ob der Emittent eine spezifische Bestandsbestätigung zusammen mit einer Teilnahme- und/oder Stimmanweisung verlangt (zum Beispiel gemäß § 67c Absatz 3 des deutschen Aktiengesetzes)."
+    }
+  }
+}

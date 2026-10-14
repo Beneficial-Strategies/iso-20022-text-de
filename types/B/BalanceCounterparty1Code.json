@@ -1,0 +1,14 @@
+{
+  "isoType": "BalanceCounterparty1Code",
+  "definition": "Gibt die Art der Gegenpartei an, die bei der Berechnung des Saldos zu berücksichtigen ist.",
+  "isoCodes": {
+    "BILA": {
+      "name": "Bilateral",
+      "definition": "Saldo, der in Bezug auf ein Mitglied im System berechnet wird."
+    },
+    "MULT": {
+      "name": "Multilateral",
+      "definition": "Saldo, der in Bezug auf alle Mitglieder im System berechnet wird."
+    }
+  }
+}

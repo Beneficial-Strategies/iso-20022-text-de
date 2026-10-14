@@ -1,0 +1,9 @@
+{
+  "isoType": "BalanceTransferFundingLimit1",
+  "definition": "Höchstbetrag, den die neue Bank an die alte Bank zahlt, wenn der Schlusssaldo bei der alten Bank negativ ist.",
+  "isoElements": {
+    "CurrencyAmount": {
+      "definition": "Höchstbetrag und zugehörige Währung, die vom neuen kontoführenden Institut an das alte kontoführende Institut bei negativem Schlusssaldo gesendet werden können."
+    }
+  }
+}

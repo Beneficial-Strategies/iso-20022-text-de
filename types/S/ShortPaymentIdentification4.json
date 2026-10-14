@@ -1,0 +1,23 @@
+{
+  "isoType": "ShortPaymentIdentification4",
+  "definition": "Identifiziert eine Zahlungsanweisung anhand einer einfachen Reihe von Merkmalen, die eine eindeutige Identifikation der Anweisung ermöglichen.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Eindeutige Identifikation, vom ersten anweisenden Institut vergeben, zur zweifelsfreien Identifikation der Transaktion, die unverändert durch die gesamte Interbankenkette weitergegeben wird.|Verwendung: Die Transaktionsidentifikation kann für den Abgleich, die Nachverfolgung oder die Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion auf Interbankenebene verwendet werden. Die anweisende Bank muss sicherstellen, dass die Transaktionsidentifikation für einen vorab vereinbarten Zeitraum eindeutig ist.|Verwendung: Dies ist das frühere Element PaymentInstructionReference."
+    },
+    "UETR": {
+      "definition": "Universell eindeutiger Bezeichner für eine Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag für die schuldende Bank nicht mehr verfügbar ist und für die Bank, der er geschuldet wird, verfügbar wird."
+    },
+    "InstructingAgent": {
+      "definition": "Bank, die die nächste Partei in der Kette anweist, die Anweisung(en) auszuführen."
+    }
+  },
+  "isoRules": {
+    "TransactionIdentificationPresenceRule": {
+      "definition": "TransactionIdentification oder UETR muss vorhanden sein. Beide können vorhanden sein."
+    }
+  }
+}

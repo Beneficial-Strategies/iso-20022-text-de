@@ -1,0 +1,9 @@
+{
+  "isoType": "AcceptedStatus1",
+  "definition": "Auswahl zwischen einem Grund oder keinem Grund für den Status „akzeptiert“ der Verarbeitung der Kapitalmaßnahmen-Anweisung.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Grund nicht angegeben."
+    }
+  }
+}

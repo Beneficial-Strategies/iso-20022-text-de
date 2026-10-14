@@ -1,0 +1,12 @@
+{
+  "isoType": "GenericIdentification39",
+  "definition": "Als proprietärer Typ und narrative Beschreibung ausgedrückte Identifikation.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Proprietäre Informationen des Herausgebers des Datenquellenschemas."
+    },
+    "Issuer": {
+      "definition": "Stelle, die die Identifikation vergibt."
+    }
+  }
+}

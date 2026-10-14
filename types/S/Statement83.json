@@ -1,0 +1,29 @@
+{
+  "isoType": "Statement83",
+  "definition": "Merkmale des Auszugs.",
+  "isoElements": {
+    "StatementDateOrPeriod": {
+      "definition": "Datum oder Zeitraum des Kontoauszugs."
+    },
+    "Frequency": {
+      "definition": "Häufigkeit des Auszugs."
+    },
+    "UpdateType": {
+      "definition": "Gibt an, ob der Auszug vollständig ist oder nur Änderungen enthält."
+    },
+    "StatementBasis": {
+      "definition": "Art des Bestands, auf dem der Auszug beruht."
+    },
+    "StatementType": {
+      "definition": "Art des Bestands, auf dem der Auszug beruht."
+    }
+  },
+  "isoRules": {
+    "StatementTypeRule": {
+      "definition": "Wird StatementType verwendet, so muss der angeforderte Auszug ein SecuritiesBalanceAccountingReport, ein SecuritiesBalanceCustodyReport oder ein SecuritiesTransactionPostingReport sein."
+    },
+    "StatementBasisRule": {
+      "definition": "Wird StatementBasis verwendet, so muss der angeforderte Auszug ein SecuritiesBalanceAccountingReport oder ein SecuritiesBalanceCustodyReport sein."
+    }
+  }
+}

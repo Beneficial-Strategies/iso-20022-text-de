@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader110",
+  "definition": "Satz von Merkmalen, die für alle in der Nachricht enthaltenen Einzeltransaktionen gelten.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, wie von der anweisenden Partei vergeben und an die angewiesene Partei gesendet, zur unmissverständlichen Identifizierung der Nachricht.|Verwendung: Die anweisende Partei muss sicherstellen, dass MessageIdentification für einen vorab vereinbarten Zeitraum je angewiesener Partei eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "Authorisation": {
+      "definition": "Benutzeridentifikation oder beliebiger Benutzerschlüssel, der zur Prüfung der Berechtigung der initiierenden Partei zu verwenden ist.||Verwendung: Der Inhalt ist nicht technischer Natur, sondern spiegelt die Organisationsstruktur auf der initiierenden Seite wider. Das Autorisierungselement kann typischerweise in Relay-Szenarien sowie bei Zahlungsinitiierungen, Zahlungsrückgaben oder Zahlungsrückbuchungen verwendet werden, die im Auftrag einer anderen Partei als der initiierenden Partei initiiert werden."
+    },
+    "InitiatingParty": {
+      "definition": "Partei, die die Mandatsnachricht initiiert."
+    },
+    "InstructingAgent": {
+      "definition": "Bank, die die nächste Partei in der Kette anweist, eine Anweisung auszuführen.||Verwendungsregel: |Bei Nachrichten zur Änderung und Stornierung ist die anweisende Bank die Partei, die die Nachricht zur Änderung und Stornierung sendet, und nicht die Partei, die die ursprüngliche Nachricht zur Mandatseinreichung gesendet hat.|Bei einer Nachricht zum Annahmebericht ist die anweisende Bank die Partei, die die Nachricht zum Annahmebericht sendet, und nicht die Partei, die die ursprüngliche Mandatsanforderungsnachricht gesendet hat."
+    },
+    "InstructedAgent": {
+      "definition": "Bank, die von der vorherigen Partei in der Kette angewiesen wird, eine Anweisung auszuführen.||Verwendungsregel: |Bei Nachrichten zur Änderung und Stornierung ist die angewiesene Bank die Partei, die die Nachricht zur Änderung und Stornierung erhält, und nicht die Partei, die die ursprüngliche Nachricht zur Mandatseinreichung erhalten hat.|Bei einer Nachricht zum Annahmebericht ist die angewiesene Bank die Partei, die die Nachricht zum Annahmebericht erhält, und nicht die Partei, die die ursprüngliche Mandatsanforderungsnachricht erhalten hat."
+    }
+  }
+}

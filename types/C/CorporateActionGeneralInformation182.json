@@ -1,0 +1,26 @@
+{
+  "isoType": "CorporateActionGeneralInformation182",
+  "definition": "Allgemeine Informationen zum Kapitalmaßnahmen-Ereignis.",
+  "isoElements": {
+    "CorporateActionEventIdentification": {
+      "definition": "Referenz, vergeben vom Kontoführer, zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "definition": "Offizielle und eindeutige Referenz, die zu Beginn eines Kapitalmaßnahmen-Ereignisses von der offiziellen zentralen Stelle bzw. Einrichtung innerhalb des jeweiligen Marktes vergeben wird."
+    },
+    "ClassActionNumber": {
+      "definition": "Von einem Gericht vergebene Referenz für eine Sammelklage."
+    },
+    "EventType": {
+      "definition": "Art des Kapitalmaßnahmen-Ereignisses."
+    }
+  },
+  "isoRules": {
+    "EventTypeRule": {
+      "definition": "EventType/Code OTHR darf nur verwendet werden, wenn kein anderer Code für Kapitalmaßnahmen geeignet ist. |EventType/Code CHAN darf nur verwendet werden, wenn kein anderer Code für Kapitalmaßnahmen geeignet ist und nur für ein Ereignis, das sich auf eine Änderung bezieht. |EventType/Code REDM darf nur verwendet werden, wenn die Rückzahlung vom Emittenten und nicht von den Wertpapierinhabern beschlossen wird."
+    },
+    "OfficialCorporateActionEventReference": {
+      "definition": "Die Securities Market Practice Group (SMPG) hat Marktpraxis-Empfehlungen zu Struktur und Verwendung der offiziellen Referenz des Kapitalmaßnahmen-Ereignisses (COAF) veröffentlicht. Diese Empfehlungen sind|im Dokument SMPG Global Market Practices Part 1 unter www.smpg.info verfügbar."
+    }
+  }
+}

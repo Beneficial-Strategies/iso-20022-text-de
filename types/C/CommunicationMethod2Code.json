@@ -1,0 +1,26 @@
+{
+  "isoType": "CommunicationMethod2Code",
+  "definition": "Für die Übermittlung von Dokumenten verwendete Kommunikationsmethode.",
+  "isoCodes": {
+    "EMAL": {
+      "name": "E-Mail",
+      "definition": "Übermittlung per E-Mail."
+    },
+    "FAXI": {
+      "name": "Fax",
+      "definition": "Übermittlung per Fax."
+    },
+    "FILE": {
+      "name": "Datei",
+      "definition": "Übertragung per Dateitransfer."
+    },
+    "ONLI": {
+      "name": "Online",
+      "definition": "Übertragung online, zum Beispiel in einem Webportal."
+    },
+    "POST": {
+      "name": "Postdienst",
+      "definition": "Übertragung auf dem Postweg."
+    }
+  }
+}

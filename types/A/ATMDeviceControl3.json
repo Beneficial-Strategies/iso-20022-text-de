@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMDeviceControl3",
+  "definition": "Informationen zur Steuerung eines Geräts des ATM.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Umfeld der Transaktion."
+    },
+    "Command": {
+      "definition": "Wartungsbefehl, den der ATM ausführen muss."
+    }
+  }
+}

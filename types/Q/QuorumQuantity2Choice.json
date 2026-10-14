@@ -1,0 +1,12 @@
+{
+  "isoType": "QuorumQuantity2Choice",
+  "definition": "Auswahl der Beschlussfähigkeitsmenge.",
+  "isoElements": {
+    "QuorumQuantity": {
+      "definition": "Mindestmenge an Wertpapieren, die zur Abhaltung einer Versammlung erforderlich ist."
+    },
+    "QuorumQuantityPercentage": {
+      "definition": "Mindestmenge an Wertpapieren, ausgedrückt als Prozentsatz, die zur Abhaltung einer Versammlung erforderlich ist."
+    }
+  }
+}

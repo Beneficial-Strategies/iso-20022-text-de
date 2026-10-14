@@ -1,0 +1,12 @@
+{
+  "isoType": "Entitlement1Choice",
+  "definition": "Auswahl der Methode zur Berechnung des Anspruchs.",
+  "isoElements": {
+    "EntitlementRatio": {
+      "definition": "Anzahl der Stimmen, die einem Wertpapier zugeordnet sind."
+    },
+    "EntitlementDescription": {
+      "definition": "Gibt die Berechnungsmethode für die Anzahl der Stimmen an, die einem Wertpapier zugeordnet sind. Dieses Element sollte verwendet werden, wenn die Regel zur Anspruchsberechnung komplex ist."
+    }
+  }
+}

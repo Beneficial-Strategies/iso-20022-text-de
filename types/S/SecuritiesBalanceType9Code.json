@@ -1,0 +1,26 @@
+{
+  "isoType": "SecuritiesBalanceType9Code",
+  "definition": "Gibt die Art des Wertpapierbestands an.",
+  "isoCodes": {
+    "AVLB": {
+      "name": "Verfügbar",
+      "definition": "Saldo an Geld oder Wertpapieren, der dem Kontoinhaber am angegebenen Datum zur Verfügung steht."
+    },
+    "ELEC": {
+      "name": "Gewählt",
+      "definition": "Saldo der angewiesenen Position."
+    },
+    "UNEL": {
+      "name": "Nicht gewählt",
+      "definition": "Saldo der nicht angewiesenen Position."
+    },
+    "RDIS": {
+      "name": "Für Ausschüttung reserviert",
+      "definition": "Bestand an Finanzinstrumenten, die für die Verteilung der Erlöse reserviert sind."
+    },
+    "RREM": {
+      "name": "Für Entfernung reserviert",
+      "definition": "Bestand an Wertpapieren, die vorübergehend auf dem SPA-Konto reserviert sind, bevor sie tatsächlich umgetauscht werden."
+    }
+  }
+}

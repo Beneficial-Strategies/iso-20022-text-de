@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionMovementRejectionStatus2",
+  "definition": "Enthält Informationen zur Ablehnung eines Antrags auf Stornierung einer Bewegung.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Der Ablehnungsgrund."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

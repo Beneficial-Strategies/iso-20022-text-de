@@ -1,0 +1,15 @@
+{
+  "isoType": "RequestHandling2",
+  "definition": "Erläutert den Status des zugehörigen Auftrags.",
+  "isoElements": {
+    "StatusCode": {
+      "definition": "Gibt den Status des Auftrags an, zum Beispiel das Ergebnis der Schemaprüfung oder ein Ergebnis bzw. einen Fehler der fachlichen Verarbeitung."
+    },
+    "StatusDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen der Status erzeugt wurde."
+    },
+    "Description": {
+      "definition": "Beschreibung des Status in Freitext."
+    }
+  }
+}

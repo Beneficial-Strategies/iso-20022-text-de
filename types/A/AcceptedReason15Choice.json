@@ -1,0 +1,12 @@
+{
+  "isoType": "AcceptedReason15Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe des Grundes, warum die Anweisung oder Stornierungsanfrage den Status „akzeptiert“ hat.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe zusätzlicher Informationen zur verarbeiteten Anweisung."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation zusätzlicher Informationen zur verarbeiteten Anweisung."
+    }
+  }
+}

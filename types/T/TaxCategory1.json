@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxCategory1",
+  "definition": "Liefert Informationen zur Identifikation der Steuerkategorie.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Steuerkategorie."
+    },
+    "Description": {
+      "definition": "Beschreibung der Steuerkategorie."
+    },
+    "Country": {
+      "definition": "Identifikation des Landes, in dem die Steuer einbehalten wird."
+    }
+  }
+}

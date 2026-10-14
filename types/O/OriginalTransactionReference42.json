@@ -1,0 +1,72 @@
+{
+  "isoType": "OriginalTransactionReference42",
+  "definition": "Gibt die in der ursprünglichen Transaktion definierten Schlüsselelemente an.",
+  "isoElements": {
+    "InterbankSettlementAmount": {
+      "definition": "Geldbetrag, der zwischen der anweisenden Bank und der angewiesenen Bank bewegt wird."
+    },
+    "Amount": {
+      "definition": "Geldbetrag, der zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, vor Abzug von Entgelten, ausgedrückt in der vom Auftraggeber (initiierende Partei) vorgegebenen Währung."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag für die schuldende Bank nicht mehr verfügbar ist und für die Bank, der er geschuldet wird, verfügbar wird."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Datum und Uhrzeit, zu der der Zahlungsempfänger beantragt, dass der Geldbetrag vom Zahlungspflichtigen eingezogen wird."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Datum, an dem die initiierende Partei die Clearing-Bank beauftragt, die Zahlung zu verarbeiten.|Verwendung: Dies ist das Datum, an dem das Konto des Zahlungspflichtigen zu belasten ist. Bei Zahlung per Scheck ist es das Datum, an dem der Scheck von der Bank erstellt werden muss."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Kreditpartei, die das Mandat unterzeichnet."
+    },
+    "SettlementInformation": {
+      "definition": "Gibt Details dazu an, wie die Abwicklung der ursprünglichen Transaktion(en) zwischen der anweisenden Bank und der angewiesenen Bank erfolgt ist."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Menge von Elementen zur näheren Bestimmung der Transaktionsart."
+    },
+    "PaymentMethod": {
+      "definition": "Gibt das Zahlungsmittel an, mit dem der Geldbetrag bewegt wird."
+    },
+    "MandateRelatedInformation": {
+      "definition": "Enthält weitere Details zum Mandat, das zwischen dem Zahlungsempfänger und dem Zahlungspflichtigen unterzeichnet wurde."
+    },
+    "RemittanceInformation": {
+      "definition": "Informationen, die den Abgleich einer Buchung mit den Posten ermöglichen, die durch die Überweisung beglichen werden sollen, etwa gewerbliche Rechnungen in einem Debitorenbuchhaltungssystem."
+    },
+    "UltimateDebtor": {
+      "definition": "Letzte Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "Debtor": {
+      "definition": "Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "DebtorAccount": {
+      "definition": "Zweifelsfreie Identifikation des Kontos des Zahlungspflichtigen, das aufgrund der Transaktion belastet wird."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungspflichtigen führt."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Zweifelsfreie Identifikation des Kontos der Bank des Zahlungspflichtigen bei ihrer kontoführenden Bank in der Zahlungskette."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungsempfänger führt."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Zweifelsfreie Identifikation des Kontos der Bank des Zahlungsempfängers bei ihrer kontoführenden Bank, auf dem aufgrund der Zahlungstransaktion eine Gutschrift erfolgt."
+    },
+    "Creditor": {
+      "definition": "Partei, der ein Geldbetrag zusteht."
+    },
+    "CreditorAccount": {
+      "definition": "Zweifelsfreie Identifikation des Kontos des Zahlungsempfängers, auf dem aufgrund der Zahlungstransaktion eine Gutschrift gebucht wird."
+    },
+    "UltimateCreditor": {
+      "definition": "Letzte Partei, der ein Geldbetrag geschuldet wird."
+    },
+    "Purpose": {
+      "definition": "Zugrunde liegender Grund für die Zahlungstransaktion.||Verwendung: |Der Zweck wird von den Endkunden, das heißt der initiierenden Partei, dem (letztlich) Zahlungspflichtigen und dem (letztlichen) Zahlungsempfänger, verwendet, um Informationen zur Art der Zahlung bereitzustellen. Der Zweck ist ein inhaltliches Element, das von keiner der an der Zahlungskette beteiligten Banken für die Verarbeitung verwendet wird."
+    }
+  }
+}

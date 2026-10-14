@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification314",
+  "definition": "Identifikation einer Partei.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Partei."
+    },
+    "LEI": {
+      "definition": "Legal Entity Identifier als alternative Identifikation einer Partei."
+    },
+    "ProcessingIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion für die identifizierte Partei."
+    }
+  }
+}

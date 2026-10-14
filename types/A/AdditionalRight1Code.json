@@ -1,0 +1,18 @@
+{
+  "isoType": "AdditionalRight1Code",
+  "definition": "Legt bestimmte Rechte fest, die der Aktionär hat (zum Beispiel das Recht, Fragen zu stellen, Punkte auf die Tagesordnung zu setzen oder Beschlussentwürfe einzubringen).",
+  "isoCodes": {
+    "WQPS": {
+      "name": "Vorschlag einer schriftlichen Frage",
+      "definition": "Definiert einen schriftlichen Fragenvorschlag."
+    },
+    "RSPS": {
+      "name": "Beschlussvorschlag",
+      "definition": "Definiert einen Beschlussvorschlag."
+    },
+    "AIPS": {
+      "name": "Vorschlag eines Tagesordnungspunkts",
+      "definition": "Definiert einen Beschlussvorschlag."
+    }
+  }
+}

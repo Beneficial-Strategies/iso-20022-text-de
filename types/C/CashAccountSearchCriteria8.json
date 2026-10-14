@@ -1,0 +1,29 @@
+{
+  "isoType": "CashAccountSearchCriteria8",
+  "definition": "Legt die Kriterien fest, die für die Suche nach einem Konto verwendet werden.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Kontos zwischen dem Kontoinhaber und der kontoführenden Stelle."
+    },
+    "Type": {
+      "definition": "Gibt die Art oder Verwendung des Geldkontos an."
+    },
+    "Currency": {
+      "definition": "Gibt die Währung des Geldkontos an."
+    },
+    "Balance": {
+      "definition": "Saldo des abgefragten Kontos."
+    },
+    "AccountOwner": {
+      "definition": "Inhaber des abgefragten Kontos."
+    },
+    "AccountServicer": {
+      "definition": "Kontoführende Stelle des abgefragten Kontos."
+    }
+  },
+  "isoRules": {
+    "CashAccountIdentificationGuideline": {
+      "definition": "Wenn die Kontoidentifikation eine Gruppe von Konten mit unterschiedlichen Typen oder in unterschiedlichen Währungen bezeichnet, können die Währung und/oder der Kontotyp als zusätzliche Suchkriterien verwendet werden."
+    }
+  }
+}

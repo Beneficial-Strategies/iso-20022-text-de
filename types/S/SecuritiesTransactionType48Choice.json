@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesTransactionType48Choice",
+  "definition": "Auswahl der Formate für einen Korrekturgrund.",
+  "isoElements": {
+    "Code": {
+      "definition": "Wertpapiertransaktionsart, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Wertpapiertransaktionsart, ausgedrückt als proprietärer Code."
+    }
+  }
+}

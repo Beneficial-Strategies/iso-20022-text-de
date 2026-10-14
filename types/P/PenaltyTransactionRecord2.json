@@ -1,0 +1,48 @@
+{
+  "isoType": "PenaltyTransactionRecord2",
+  "definition": "Gibt weitere Einzelheiten zur Transaktion an, für die die Strafzahlungen gelten.",
+  "isoElements": {
+    "SettlementTransactionOrCorporateActionEventType": {
+      "definition": "Auswahl der Art der gemeldeten Transaktion."
+    },
+    "SettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere geliefert oder empfangen werden sollen."
+    },
+    "CorporateActionRelatedDate": {
+      "definition": "Datum im Zusammenhang mit einem Kapitalmaßnahmen-Ereignis."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "AccountOwner": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Legt fest, ob die Bewegung auf einem Wertpapierkonto aus einer Liefer- oder einer Empfangsanweisung resultiert."
+    },
+    "Payment": {
+      "definition": "Legt fest, wie die Transaktion abgewickelt werden soll, beispielsweise gegen Zahlung."
+    },
+    "CashAccount": {
+      "definition": "Konto, auf das oder von dem eine Geldbuchung erfolgt."
+    },
+    "CashAccountOwner": {
+      "definition": "Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "PostingAmount": {
+      "definition": "Geldbetrag, der auf dem Konto gebucht werden soll bzw. gebucht wurde."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Zeitstempel, wann die Transaktion bestätigt wird."
+    },
+    "MatchedStatusTimeStamp": {
+      "definition": "Zeitstempel, wann die Transaktion abgeglichen wurde."
+    },
+    "SettlementStatusFailing": {
+      "definition": "Die Abwicklung der Anweisung schlägt fehl. Eine Abwicklung am angewiesenen Abwicklungstag ist nicht mehr möglich."
+    },
+    "BusinessDayEvent": {
+      "definition": "Für die Berechnung der Strafzahlung relevantes Systemereignis."
+    }
+  }
+}

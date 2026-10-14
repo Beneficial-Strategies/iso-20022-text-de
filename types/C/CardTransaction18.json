@@ -1,0 +1,18 @@
+{
+  "isoType": "CardTransaction18",
+  "definition": "Details zur Kartentransaktion.",
+  "isoElements": {
+    "Card": {
+      "definition": "Elektronisches Geldprodukt, das dem Karteninhaber ein tragbares, spezialisiertes Computergerät bereitstellt, das typischerweise einen Mikroprozessor enthält."
+    },
+    "POI": {
+      "definition": "Physisches oder logisches Kartenzahlungsterminal mit Software- und Hardwarekomponenten."
+    },
+    "Transaction": {
+      "definition": "Details zur Kartentransaktion, die entweder vom Acquirer globalisiert oder eine einzelne Transaktion sein können."
+    },
+    "PrePaidAccount": {
+      "definition": "Prepaid-Konto für die Übertragung oder Aufladung eines Geldbetrags."
+    }
+  }
+}

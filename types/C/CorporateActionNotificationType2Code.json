@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionNotificationType2Code",
+  "definition": "Art der Stornierungsanforderung für eine Benachrichtigung.",
+  "isoCodes": {
+    "WITH": {
+      "name": "Widerruf",
+      "definition": "Benachrichtigung zur Ungültigmachung einer zuvor gesendeten Benachrichtigung aufgrund der Rücknahme des Ereignisses durch den Emittenten."
+    },
+    "CANC": {
+      "name": "Stornierung",
+      "definition": "Benachrichtigung, mit der die Stornierung einer zuvor gesendeten Benachrichtigung angefordert wird."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AdditionalBusinessProcessFormat18Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe der Art des zusätzlichen Geschäftsprozesses, das heißt einer Steuerrückerstattung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des zusätzlichen Geschäftsprozesses \"Steuerrückerstattung\" im Zusammenhang mit einem Ereignis der Kapitalmaßnahme."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation des zusätzlichen Geschäftsprozesses \"Steuerrückerstattung\" im Zusammenhang mit einem Ereignis der Kapitalmaßnahme."
+    }
+  }
+}

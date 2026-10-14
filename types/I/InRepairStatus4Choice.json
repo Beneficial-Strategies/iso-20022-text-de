@@ -1,0 +1,15 @@
+{
+  "isoType": "InRepairStatus4Choice",
+  "definition": "Grund für den Status \"in Klärung\".",
+  "isoElements": {
+    "Reason": {
+      "definition": "Grund für den Status \"in Klärung\"."
+    },
+    "DataSourceScheme": {
+      "definition": "Proprietäre Identifikation des Grundes für den Status \"in Klärung\"."
+    },
+    "NoSpecifiedReason": {
+      "definition": "Gibt an, dass kein Grund verfügbar oder zu melden ist."
+    }
+  }
+}

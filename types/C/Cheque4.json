@@ -1,0 +1,9 @@
+{
+  "isoType": "Cheque4",
+  "definition": "Gesamtheit der Merkmale einer Scheckanweisung, wie Scheckart oder Schecknummer.",
+  "isoElements": {
+    "PayeeIdentification": {
+      "definition": "Partei, an die ein Scheck zahlbar gestellt wird."
+    }
+  }
+}

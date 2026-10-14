@@ -1,0 +1,12 @@
+{
+  "isoType": "AlgorithmIdentification14",
+  "definition": "Kryptografischer Algorithmus und Parameter für Verschlüsselungen mit einem symmetrischen kryptografischen Schlüssel.",
+  "isoElements": {
+    "Algorithm": {
+      "definition": "Identifikation des Verschlüsselungsalgorithmus."
+    },
+    "Parameter": {
+      "definition": "Mit dem Verschlüsselungsalgorithmus CBC (Cipher Block Chaining) verbundene Parameter."
+    }
+  }
+}

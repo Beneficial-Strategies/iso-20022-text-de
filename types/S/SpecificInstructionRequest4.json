@@ -1,0 +1,12 @@
+{
+  "isoType": "SpecificInstructionRequest4",
+  "definition": "Methode der Abstimmungsteilnahme bei einer Hauptversammlung.",
+  "isoElements": {
+    "ParticipationMethod": {
+      "definition": "Methode der Abstimmungsteilnahme an der Hauptversammlung."
+    },
+    "SecuritiesRegistration": {
+      "definition": "Gibt einen Antrag auf Registrierung der Wertpapiere für die Versammlung an."
+    }
+  }
+}

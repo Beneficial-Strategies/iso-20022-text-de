@@ -1,0 +1,24 @@
+{
+  "isoType": "StatementGroup5",
+  "definition": "Gruppe des Kontoauszugskopfes, die die Abrechnung der Bankdienstleistungen und den Abrechnungskontoauszug ausweist.",
+  "isoElements": {
+    "GroupIdentification": {
+      "definition": "Identifikation einer Gruppe von Kundenabrechnungen."
+    },
+    "Sender": {
+      "definition": "Ursprüngliches Finanzinstitut, das den Kontoauszug sendet."
+    },
+    "SenderIndividualContact": {
+      "definition": "Gibt die Person an, die bei technischen Problemen am Standort des Absenders zu kontaktieren ist."
+    },
+    "Receiver": {
+      "definition": "Kunde des Finanzinstituts, der den Kontoauszug empfängt."
+    },
+    "ReceiverIndividualContact": {
+      "definition": "Gibt die Person an, die bei technischen Problemen am Standort des Empfängers zu kontaktieren ist."
+    },
+    "BillingStatement": {
+      "definition": "Stellt den Abrechnungskontoauszug für Bankdienstleistungen bereit, der alle entgeltpflichtigen Dienstleistungsereignisse zusammenfasst, die während eines Berichtszyklus, etwa der Berichterstattung zum Monatsende, aufgetreten sind."
+    }
+  }
+}

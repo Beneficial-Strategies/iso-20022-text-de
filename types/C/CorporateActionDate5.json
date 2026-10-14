@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionDate5",
+  "definition": "Gibt Daten der Kapitalmaßnahme an.",
+  "isoElements": {
+    "ForeignExchangeRateFixingDate": {
+      "definition": "Datum/Uhrzeit, zu dem ein Devisenkurs festgelegt wird."
+    },
+    "ValueDate": {
+      "definition": "Datum/Uhrzeit, zu dem Vermögenswerte dem Kontoinhaber zur Verfügung stehen (bei einer Gutschrift) oder nicht mehr zur Verfügung stehen (bei einer Belastung)."
+    },
+    "PaymentDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Ausschüttung (Barmittel und/oder Wertpapiere) stattfinden soll."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Datum und Uhrzeit, zu denen eine Zahlung erfolgen kann, z. B. wenn der Zahlungstag kein Geschäftstag ist, oder zur Angabe des ersten Zahlungstags eines Angebots."
+    }
+  }
+}

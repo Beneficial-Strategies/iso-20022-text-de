@@ -1,0 +1,27 @@
+{
+  "isoType": "Report6",
+  "definition": "Allgemeine Merkmale eines Auszugs, der Informationen für ein genaues Datum meldet.",
+  "isoElements": {
+    "ReportNumber": {
+      "definition": "Fortlaufende Nummer des Berichts."
+    },
+    "QueryReference": {
+      "definition": "Gibt den Namen und die Referenz der Abfrage an."
+    },
+    "ReportIdentification": {
+      "definition": "Referenz des Berichts."
+    },
+    "ReportDateTime": {
+      "definition": "Datum des Auszugs."
+    },
+    "Frequency": {
+      "definition": "Gibt die Regelmäßigkeit einer Maßnahme an."
+    },
+    "UpdateType": {
+      "definition": "Gibt an, ob der Bericht vollständig ist oder nur Änderungen enthält."
+    },
+    "NoticeType": {
+      "definition": "Gibt die Art des übermittelten Berichts an."
+    }
+  }
+}

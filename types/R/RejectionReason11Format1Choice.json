@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason11Format1Choice",
+  "definition": "Auswahl der Formate zur Angabe des Grundes für die Ablehnung des Benachrichtigungsstornierungsantrags.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Grundes für die Ablehnung des Benachrichtigungsstornierungsantrags."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe des Grundes für die Ablehnung des Benachrichtigungsstornierungsantrags."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "isoType": "TransactionReferences10",
+  "definition": "Identifiziert die zugrunde liegende Transaktion.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, vergeben von der anweisenden Partei der zugrunde liegenden Nachricht."
+    },
+    "AccountServicerReference": {
+      "definition": "Eindeutige Referenz, vergeben vom kontoführenden Institut, zur zweifelsfreien Identifikation der Anweisung."
+    },
+    "PaymentInformationIdentification": {
+      "definition": "Eindeutige Identifikation, von einer sendenden Partei vergeben, zur zweifelsfreien Identifikation der Zahlungsinformationsgruppe innerhalb der Nachricht."
+    },
+    "InstructionIdentification": {
+      "definition": "Eindeutige Identifikation, vergeben von einer anweisenden Partei für eine angewiesene Partei, zur zweifelsfreien Identifikation der Anweisung.||Verwendung: Die Anweisungsidentifikation ist eine Punkt-zu-Punkt-Referenz, die zwischen der anweisenden und der angewiesenen Partei verwendet werden kann, um sich auf die einzelne Anweisung zu beziehen. Sie kann in mehreren Nachrichten zur Anweisung enthalten sein."
+    },
+    "EndToEndIdentification": {
+      "definition": "Eindeutige Identifikation, vergeben von der initiierenden Partei, zur zweifelsfreien Identifikation der Transaktion. Diese Identifikation wird unverändert durch die gesamte Ende-zu-Ende-Kette weitergegeben.||Verwendung: Die Ende-zu-Ende-Identifikation kann für den Abgleich oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion verwendet werden. Sie kann in mehreren Nachrichten zur Transaktion enthalten sein.||Verwendung: Bestehen technische Einschränkungen bei der Weitergabe mehrerer Referenzen, muss die Ende-zu-Ende-Identifikation durch die gesamte Ende-zu-Ende-Kette weitergegeben werden."
+    },
+    "UETR": {
+      "definition": "Universell eindeutiger Identifikator als Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "TransactionIdentification": {
+      "definition": "Eindeutige Identifikation, vergeben von der ersten anweisenden Bank, zur zweifelsfreien Identifikation der Transaktion, die unverändert durch die gesamte Interbankenkette weitergegeben wird. |Verwendung: Die Transaktionsidentifikation kann für den Abgleich, die Nachverfolgung oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion auf Interbankenebene verwendet werden. |Verwendung: Die anweisende Bank muss sicherstellen, dass die Transaktionsidentifikation für einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "MandateIdentification": {
+      "definition": "Eindeutige Identifikation, vergeben vom Zahlungsempfänger, zur zweifelsfreien Identifikation des Mandats."
+    },
+    "ChequeNumber": {
+      "definition": "Eindeutige Kennung eines Schecks, vergeben von der Bank."
+    },
+    "ClearingSystemReference": {
+      "definition": "Eindeutige Referenz, vergeben von einem Clearingsystem, zur zweifelsfreien Identifikation der Anweisung.|Verwendung: Bestehen technische Einschränkungen bei der Weitergabe mehrerer Referenzen, muss die Ende-zu-Ende-Identifikation durch die gesamte Ende-zu-Ende-Kette weitergegeben werden."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Wertpapiertransaktion, wie sie dem Inhaber des Wertpapierkontos (oder der das Konto verwaltenden anweisenden Partei) bekannt ist."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Wertpapiertransaktion, wie sie dem Wertpapierkontoführer bekannt ist."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Wertpapiertransaktion, vergeben von einer anderen Marktinfrastruktur als einer Zentralverwahrstelle, beispielsweise Target2-Securities."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identifikation der Wertpapiertransaktion, vergeben von dem Bearbeiter der Anweisung, der weder der Inhaber des Wertpapierkontos noch der Wertpapierkontoführer noch die Marktinfrastruktur ist."
+    },
+    "ReturnIdentification": {
+      "definition": "Eindeutige Identifikation, vergeben von einer anweisenden Partei für eine angewiesene Partei, zur zweifelsfreien Identifikation der zurückgegebenen Transaktion.|Verwendung: Die anweisende Partei ist die Partei, die die Rückgabenachricht sendet, und nicht die Partei, die die ursprüngliche, nun zurückgegebene Anweisung gesendet hat."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Referenz zur zugrunde liegenden Transaktion."
+    }
+  }
+}

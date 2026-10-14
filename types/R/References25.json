@@ -1,0 +1,15 @@
+{
+  "isoType": "References25",
+  "definition": "Liefert eine Reihe von Identifikationen zur Referenzierung einer Wertpapierabwicklungstransaktion.",
+  "isoElements": {
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem kontoführenden Institut bekannt."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer vergeben wurde, zum Beispiel Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, die vom Bearbeiter der Transaktion vergeben wurde, bei dem es sich nicht um den Kontoinhaber, den Kontoführer oder die Marktinfrastruktur außerhalb des CSD handelt."
+    }
+  }
+}

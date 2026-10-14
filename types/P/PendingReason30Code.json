@@ -1,0 +1,22 @@
+{
+  "isoType": "PendingReason30Code",
+  "definition": "Gibt den Grund an, warum die Anweisung den Status „ausstehend“ hat.",
+  "isoCodes": {
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "BUMM": {
+      "name": "Käuferschutz stimmt nicht überein",
+      "definition": "Uneinigkeit der Gegenpartei über das gewählte Ergebnis der Kapitalmaßnahme."
+    },
+    "ECRD": {
+      "name": "Antwortfrist für die Wahl gegenüber der Gegenpartei verpasst",
+      "definition": "Nach der Marktfrist für die Antwort auf die Wahl gegenüber der Gegenpartei eingegangen."
+    },
+    "WCTF": {
+      "name": "Wartet auf Antwort der Gegenpartei",
+      "definition": "Die Beanstandung (Allegement) wurde an die Gegenpartei gesendet. Die Antwort steht noch aus."
+    }
+  }
+}

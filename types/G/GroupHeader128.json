@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader128",
+  "definition": "Enthält die Merkmale, die allen in der Nachricht enthaltenen Einzeltransaktionen gemeinsam sind.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, wie von der anweisenden Partei vergeben und an die nächste Partei in der Kette gesendet, zur unmissverständlichen Identifizierung der Nachricht.|Verwendung: Die anweisende Partei muss sicherstellen, dass 'MessageIdentification' für einen vorab vereinbarten Zeitraum je angewiesener Partei eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "InitiatingParty": {
+      "definition": "Partei, die die Statusnachricht initiiert."
+    },
+    "ForwardingAgent": {
+      "definition": "Finanzinstitut, das die Anweisung von der initiierenden Partei erhält und an die nächste Bank in der Zahlungskette weiterleitet."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungspflichtigen führt."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungsempfänger führt."
+    }
+  }
+}

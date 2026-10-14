@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionEventProcessingStatus1Code",
+  "definition": "Gibt die Phase im Lebenszyklus des Kapitalmaßnahmen-Ereignisses an.",
+  "isoCodes": {
+    "COMP": {
+      "name": "Vollständig",
+      "definition": "Gibt an, dass die Verarbeitung eines Kapitalmaßnahmen-Ereignisses abgeschlossen wurde."
+    },
+    "PEND": {
+      "name": "Ausstehend",
+      "definition": "Gibt an, dass die Verarbeitung eines Kapitalmaßnahmen-Ereignisses nicht abgeschlossen ist."
+    },
+    "RECD": {
+      "name": "Abgestimmt",
+      "definition": "Verarbeitung des Kapitalmaßnahmen-Ereignisses, die angibt, dass die gezahlten Mittel mit den vom Beauftragten erhaltenen Mitteln abgestimmt wurden (das heißt, es besteht kein Risiko einer Rückabwicklung der Zahlung mehr)."
+    }
+  }
+}

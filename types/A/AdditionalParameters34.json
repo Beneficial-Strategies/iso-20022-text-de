@@ -1,0 +1,33 @@
+{
+  "isoType": "AdditionalParameters34",
+  "definition": "Gibt zusätzliche Parameter zur Nachricht oder Transaktion an.",
+  "isoElements": {
+    "PartialSettlement": {
+      "definition": "Gibt Informationen zur Teilabwicklung an."
+    },
+    "PreviousPartialConfirmationIdentification": {
+      "definition": "Identifikation der zuvor gesendeten Bestätigung zur Bestätigung der Teilabwicklung einer Transaktion."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem Kontoinhaber (oder der das Konto verwaltenden anweisenden Partei) bekannt."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem kontoführenden Institut bekannt."
+    },
+    "PoolIdentification": {
+      "definition": "Sammelreferenz zur Identifikation einer Gruppe von Nachrichten."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Vom kontoführenden Institut vergebene Identifikation zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer vergeben wurde, zum Beispiel Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion der Gegenpartei, die von einer anderen Marktinfrastruktur als einer Zentralverwahrer zugewiesen wurde, zum Beispiel Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, vergeben vom Bearbeiter der Anweisung, der weder der Kontoinhaber, noch der Kontoführer, noch die Marktinfrastruktur ist."
+    }
+  }
+}

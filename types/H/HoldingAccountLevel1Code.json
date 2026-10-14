@@ -1,0 +1,46 @@
+{
+  "isoType": "HoldingAccountLevel1Code",
+  "definition": "Gibt die Ebene an, auf der das Verwahr-Bestandskonto definiert wurde.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Verwahrkonto",
+      "definition": "Das Bestandskonto ist als Verwahrkonto (Ebene 0) definiert."
+    },
+    "LVL1": {
+      "name": "Ebene 1",
+      "definition": "Das Bestandskonto ist als Konto der Unterebene 1 definiert."
+    },
+    "LVL2": {
+      "name": "Ebene 2",
+      "definition": "Das Bestandskonto ist als Konto der Unterebene 2 definiert."
+    },
+    "LVL3": {
+      "name": "Ebene 3",
+      "definition": "Das Bestandskonto ist als Konto der Unterebene 3 definiert."
+    },
+    "LVL4": {
+      "name": "Ebene 4",
+      "definition": "Das Bestandskonto ist als Konto der Unterebene 4 definiert."
+    },
+    "LVL5": {
+      "name": "Ebene 5",
+      "definition": "Das Bestandskonto ist als Konto der Unterebene 5 definiert."
+    },
+    "LVL6": {
+      "name": "Ebene 6",
+      "definition": "Das Bestandskonto ist als Konto der Unterebene 6 definiert."
+    },
+    "LVL7": {
+      "name": "Ebene 7",
+      "definition": "Das Bestandskonto ist als Konto der Unterebene 7 definiert."
+    },
+    "LVL8": {
+      "name": "Ebene 8",
+      "definition": "Das Bestandskonto ist als Konto der Unterebene 8 definiert."
+    },
+    "LVL9": {
+      "name": "Ebene 9",
+      "definition": "Das Bestandskonto ist als Konto der Unterebene 9 definiert."
+    }
+  }
+}

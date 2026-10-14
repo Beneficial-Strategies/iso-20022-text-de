@@ -1,0 +1,34 @@
+{
+  "isoType": "TradingCapacity6Code",
+  "definition": "Gibt die Rolle einer Handelspartei in einer Transaktion an.",
+  "isoCodes": {
+    "AGEN": {
+      "name": "Bank",
+      "definition": "Handel als Agent im Auftrag eines Kunden."
+    },
+    "BAGN": {
+      "name": "Handelnder Agent",
+      "definition": "Partei, die als Agent sowohl für einen Kunden als auch für eine andere Person handelt."
+    },
+    "CAGN": {
+      "name": "Crossing-Agent",
+      "definition": "Gegengeschäft als Agent."
+    },
+    "CPRN": {
+      "name": "Crossing-Eigenhändler",
+      "definition": "Gegengeschäft als Eigenhändler."
+    },
+    "OAGN": {
+      "name": "Sonstiger Agent",
+      "definition": "Handeln als Agent für eine andere Partei als einen Kunden."
+    },
+    "PRAG": {
+      "name": "Eigenhändler-Agent",
+      "definition": "Handeln als Agent für einige Ausführungen und als Eigenhändler für andere innerhalb derselben Transaktion."
+    },
+    "PRIN": {
+      "name": "Eigenhändler",
+      "definition": "Handel als Eigenhändler."
+    }
+  }
+}

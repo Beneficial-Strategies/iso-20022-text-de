@@ -1,0 +1,26 @@
+{
+  "isoType": "CashInForecast6",
+  "definition": "Geldbewegungen in einen Fonds als Ergebnis von Investmentfondstransaktionen, z. B. Zeichnungen oder Umschichtungen in den Fonds.",
+  "isoElements": {
+    "CashSettlementDate": {
+      "definition": "Datum, an dem das Geld verfügbar ist."
+    },
+    "SubTotalAmount": {
+      "definition": "Zwischensumme des Zahlungsstroms in den Fonds, ausgedrückt als Geldbetrag."
+    },
+    "SubTotalUnitsNumber": {
+      "definition": "Zwischensumme des Zahlungsstroms in den Fonds, ausgedrückt als Anzahl von Anteilen."
+    },
+    "ExceptionalCashFlowIndicator": {
+      "definition": "Gibt an, ob der Zahlungsstrom in den Fonds außergewöhnlich ist."
+    },
+    "AdditionalBalance": {
+      "definition": "Zusätzliche Salden für Geldbeträge und Anzahl von Anteilen. |In einem geschätzten Bericht ist das aus in Anteilen erteilten Aufträgen abgeleitete Gesamtgeld ein geschätzter Geldbetrag und die aus in Geld erteilten Aufträgen abgeleitete Gesamtzahl der Anteile eine geschätzte Anzahl von Anteilen."
+    }
+  },
+  "isoRules": {
+    "AdditionalBalanceRule": {
+      "definition": "Wenn AdditionalBalance vorhanden ist, muss mindestens ein Element der Liste (AdditionalBalance/TotalUnitsFromUnitOrders, AdditionalBalance/TotalUnitsFromCashOrders, AdditionalBalance/TotalCashFromUnitOrders, AdditionalBalance/TotalCashFromCashOrders) vorhanden sein."
+    }
+  }
+}

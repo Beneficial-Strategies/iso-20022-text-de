@@ -1,0 +1,12 @@
+{
+  "isoType": "ReturnReason5Choice",
+  "definition": "Gibt den Grund für die Rückgabe der Transaktion an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für die Rückgabe, wie in einer externen Liste von Grundcodes veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Grund für die Rückgabe in proprietärer Form."
+    }
+  }
+}

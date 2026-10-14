@@ -1,0 +1,59 @@
+{
+  "isoType": "AdditionalInformation26",
+  "definition": "Zusätzliche spezifische Änderungskriterien.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, wie sie dem Kontoinhaber bekannt ist. Wird bei einer einseitigen Aufteilung verwendet, um der ausführenden Partei die Identifikation des Kontoinhabers für jede aufgeteilte Transaktion zu übermitteln."
+    },
+    "ClassificationType": {
+      "definition": "Art des Instruments, das an den Transaktionen beteiligt ist, auf die sich die Änderungsanfrage beziehen soll."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Blockchain-Adresse oder Wallet, in der digitale Vermögenswerte gehalten werden. Dies entspricht dem Verwahrkonto für digitale Vermögenswerte."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifikation des Finanzinstruments, auf das sich die Änderungsanfrage bezog."
+    },
+    "Quantity": {
+      "definition": "Menge des Finanzinstruments, die von der Anfrage zur Änderung der Abwicklungsbedingungen betroffen ist."
+    },
+    "EffectiveDate": {
+      "definition": "Datum/Uhrzeit, ab dem die Anfrage wirksam werden soll."
+    },
+    "ExpiryDate": {
+      "definition": "Datum/Uhrzeit, ab dem die Anfrage nicht mehr wirksam sein soll."
+    },
+    "CutOffDate": {
+      "definition": "Datum/Uhrzeit der Freigabe."
+    },
+    "Investor": {
+      "definition": "Partei, entweder eine Einzelperson oder eine Organisation, deren Vermögenswerte angelegt werden."
+    },
+    "DeliveringParty1": {
+      "definition": "Partei, die in einer Abwicklungskette mit der Verwahrstelle interagiert."
+    },
+    "ReceivingParty1": {
+      "definition": "Partei, die in einer Abwicklungskette mit der Verwahrstelle interagiert."
+    },
+    "TransactionSubjectToBuyIn": {
+      "definition": "Die Transaktion bezieht sich auf einen Zwangskauf (Buy-in) durch den Markt nach dem Scheitern einer Lieferungstransaktion."
+    }
+  },
+  "isoRules": {
+    "QuantityRule": {
+      "definition": "Wenn zwischen Kontoführer und Kontoinhaber vorab vereinbart, wird Quantity verwendet, um die Menge der Wertpapiere anzuweisen, die teilweise verarbeitet werden soll, zum Beispiel teilweise autorisiert."
+    },
+    "PartyRule": {
+      "definition": "Investor, DeliveringParty1 und ReceivingParty1 können mit der SecuritiesSettlementConditionModificationRequest nicht zur Änderung angefragt werden. Diese Felder werden in der SecuritiesSettlementConditionModificationRequest bereitgestellt, um die Verarbeitung der Anfrage im Hinblick auf die zu ändernde Transaktion zu ermöglichen."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification221",
+  "definition": "Identifikation einer Partei.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Name und Adresse der Partei."
+    },
+    "EmailAddress": {
+      "definition": "Adresse für elektronische Post (E-Mail)."
+    },
+    "Identification": {
+      "definition": "Identifikation der Partei."
+    }
+  }
+}

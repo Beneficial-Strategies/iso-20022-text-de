@@ -1,0 +1,15 @@
+{
+  "isoType": "ChequeCancellationReason1",
+  "definition": "Liefert weitere Einzelheiten zum Grund des Stornierungsauftrags der Scheckvorlage.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Partei, die den Stornierungsauftrag erteilt."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Stornierungsanfrage an."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Angaben zum Grund der Stornierungsanfrage."
+    }
+  }
+}

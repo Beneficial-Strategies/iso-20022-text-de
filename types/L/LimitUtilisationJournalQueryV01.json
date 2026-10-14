@@ -1,0 +1,4 @@
+{
+  "isoType": "LimitUtilisationJournalQueryV01",
+  "definition": "Die Nachricht LimitUtilisationJournalQuery wird zwischen einem Zentralverwahrer oder einem direkt angebundenen Systemteilnehmer (dem Zentralverwahrer-Teilnehmer mit direktem Zugang, etwa einer Bank oder einer zentralen Gegenpartei) und dem Zentralsystem ausgetauscht. Sie dient dazu, Informationen über das Journal der Transaktionen abzufragen, die sich auf die Auslastung der vom Systemteilnehmer festgelegten Limits auswirken."
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "CashEntry2",
+  "definition": "Buchung eines Postens auf einem Geldkonto im Rahmen einer Geldtransaktion, die zu einer Erhöhung oder Verminderung des Kontosaldos führt.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag der Geldbuchung."
+    },
+    "Date": {
+      "definition": "Datum, an dem eine Buchung in den Büchern des Kontoführers auf einem Konto verbucht wird."
+    },
+    "Status": {
+      "definition": "Status einer Buchung in den Büchern des Kontoführers."
+    },
+    "Identification": {
+      "definition": "Eindeutige Kennung für eine Buchung, vergeben vom Kontoführer."
+    },
+    "StatementIdentification": {
+      "definition": "Eindeutige Identifikation, vergeben vom Kontoführer, zur eindeutigen Identifikation des Kontoauszugs."
+    },
+    "AccountServicerReference": {
+      "definition": "Fortlaufende Nummer des Auszugs, vergeben vom Kontoführer.|Verwendung: Die fortlaufende Nummer wird für jeden elektronisch versendeten Auszug schrittweise erhöht."
+    },
+    "AdditionalEntryInformation": {
+      "definition": "Weitere Details zur Buchung."
+    }
+  }
+}

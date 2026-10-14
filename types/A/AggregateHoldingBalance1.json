@@ -1,0 +1,21 @@
+{
+  "isoType": "AggregateHoldingBalance1",
+  "definition": "Gesamtbestandsposition in einem einzelnen Finanzinstrument, die in einem Wertpapierkonto an einem bestimmten Verwahrort gehalten wird.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifikation des Finanzinstruments, für das die Saldeninformationen angegeben werden."
+    },
+    "HoldingForm": {
+      "definition": "Eigentumsform des Bestands."
+    },
+    "HoldingPhysicalType": {
+      "definition": "Gibt an, ob der Bestand physisch geliefert wird oder nur ein Bucheintrag ist."
+    },
+    "BalanceForFinancialInstrument": {
+      "definition": "Saldenaufschlüsselung der Nettoposition des Finanzinstruments."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  }
+}

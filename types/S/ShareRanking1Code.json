@@ -1,0 +1,14 @@
+{
+  "isoType": "ShareRanking1Code",
+  "definition": "Gibt an, ob die Aktien dividendenberechtigt oder pari passu sind.",
+  "isoCodes": {
+    "DIVI": {
+      "name": "Dividende",
+      "definition": "Zahlbar an dem angegebenen Datum."
+    },
+    "PARI": {
+      "name": "Pari passu",
+      "definition": "Pari Passu. Mit gleichen Rechten wie andere Aktien des Unternehmens."
+    }
+  }
+}

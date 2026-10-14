@@ -1,0 +1,15 @@
+{
+  "isoType": "UnderlyingTransaction38",
+  "definition": "Identifiziert den bzw. die Aufträge, auf die sich die Stornierung bezieht.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "definition": "Liefert Informationen zur ursprünglichen Nachricht."
+    },
+    "OriginalRequestIdentification": {
+      "definition": "Identifikation des ursprünglichen CashDepositRequest oder CashWithdrawalRequest."
+    },
+    "CancellationReasonInformation": {
+      "definition": "Liefert detaillierte Informationen zum Stornierungsgrund."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CRSStatus3Choice",
+  "definition": "Auswahl der Formate für den Status nach dem Common Reporting Standard (CRS).",
+  "isoElements": {
+    "Code": {
+      "definition": "Status nach dem Common Reporting Standard (CRS), ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Status nach dem Common Reporting Standard (CRS), ausgedrückt als proprietärer Code."
+    }
+  }
+}

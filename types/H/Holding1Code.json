@@ -1,0 +1,18 @@
+{
+  "isoType": "Holding1Code",
+  "definition": "Gibt an, wie der Bestand gesperrt ist.",
+  "isoCodes": {
+    "CERT": {
+      "name": "Zertifikat",
+      "definition": "Zertifikat."
+    },
+    "NPRH": {
+      "name": "Kein Teilbestand",
+      "definition": "Nicht teilweiser Bestand."
+    },
+    "PRTH": {
+      "name": "Teilbestand",
+      "definition": "Teilweiser Bestand."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMReconciliationAdviceV03",
+  "definition": "Die Nachricht ATMReconciliationAdvice wird von einem ATM an einen Acquirer oder dessen Agenten gesendet, um alle Zähler des ATM zu übermitteln. Sie kann durch eine Bedienerfunktion oder als Antwort auf einen von einem Agenten oder Server gesendeten Befehl gesendet werden."
+}

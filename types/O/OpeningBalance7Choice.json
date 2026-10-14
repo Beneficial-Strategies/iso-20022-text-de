@@ -1,0 +1,12 @@
+{
+  "isoType": "OpeningBalance7Choice",
+  "definition": "Auswahl des Eröffnungssaldos.",
+  "isoElements": {
+    "First": {
+      "definition": "Eröffnungssaldo für den Auszugszeitraum. Er entspricht stets dem Schlusssaldo des vorherigen Auszugs."
+    },
+    "Intermediary": {
+      "definition": "Eröffnungssaldo nur dieser Seite. Dieser Saldo muss der Zwischenschlusssaldo der vorherigen Seite desselben Auszugs sein."
+    }
+  }
+}

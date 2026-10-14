@@ -1,0 +1,18 @@
+{
+  "isoType": "AccountIdentification55Choice",
+  "definition": "Eindeutige Kennung eines Kontos, wie vom Kontoführer zugewiesen.",
+  "isoElements": {
+    "IBAN": {
+      "definition": "Internationale Bankkontonummer (IBAN) - von Finanzinstituten international verwendete Kennung zur eindeutigen Identifizierung des Kontos eines Kunden. Weitere Spezifikationen zu Format und Inhalt der IBAN finden sich in der Norm ISO 13616 „Banking and related financial services - International Bank Account Number (IBAN)“ Version 1997-10-01 oder späteren Revisionen."
+    },
+    "BBAN": {
+      "definition": "Basic Bank Account Number (BBAN) – Kennung, die von Finanzinstituten national, d. h. in einzelnen Ländern, in der Regel im Rahmen nationaler Kontonummernsysteme verwendet wird, um das Konto eines Kunden eindeutig zu identifizieren."
+    },
+    "UPIC": {
+      "definition": "Universal Payment Identification Code (UPIC) – Kennung, die vom New York Clearing House verwendet wird, um vertrauliche Daten wie Bankkonten und Bankleitzahlen zu maskieren. UPIC-Nummern bleiben unabhängig von Änderungen der Bankbeziehung bei den Geschäftskunden."
+    },
+    "ProprietaryAccount": {
+      "definition": "Kontonummer, die von Finanzinstituten in einzelnen Ländern zur Identifikation eines Kundenkontos verwendet wird, ohne notwendigerweise die Bank und die Filiale des Finanzinstituts zu bezeichnen, bei der das Konto geführt wird."
+    }
+  }
+}

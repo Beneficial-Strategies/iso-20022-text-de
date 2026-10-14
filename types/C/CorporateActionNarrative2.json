@@ -1,0 +1,24 @@
+{
+  "isoType": "CorporateActionNarrative2",
+  "definition": "Liefert zusätzliche Informationen zum KM-Ereignis (CA).",
+  "isoElements": {
+    "InformationConditions": {
+      "definition": "Liefert bedingte Informationen zum Ereignis, z. B. dass ein Angebot einer Annahmequote von 50 % unterliegt oder dass der Anbieter dem Wertpapierinhaber erlaubt, bestimmte Bedingungen festzulegen."
+    },
+    "InformationToComplyWith": {
+      "definition": "Liefert dem Kontoinhaber Informationen zu einzuhaltenden Bedingungen, z. B. nicht offen für in den US/Kanada ansässige Personen, oder dass QIB bzw. SIL vorzulegen sind."
+    },
+    "TaxationConditions": {
+      "definition": "Liefert steuerliche Bedingungen, die nicht in den strukturierten Feldern dieser Nachricht enthalten sein können und im SLA nicht erwähnt wurden."
+    },
+    "DeclarationDetails": {
+      "definition": "Liefert narrative Erklärungsdetails zum Finanzinstrument, z. B. zum wirtschaftlichen Eigentum."
+    },
+    "RegistrationDetails": {
+      "definition": "Liefert die für die Registrierung erforderlichen Informationen."
+    },
+    "AdditionalText": {
+      "definition": "Liefert zusätzliche Informationen oder präzisiert den Inhalt einer Nachricht."
+    }
+  }
+}

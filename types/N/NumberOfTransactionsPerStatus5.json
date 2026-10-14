@@ -1,0 +1,15 @@
+{
+  "isoType": "NumberOfTransactionsPerStatus5",
+  "definition": "Menge von Elementen mit detaillierten Angaben zur Anzahl der Transaktionen, die mit einem bestimmten Transaktionsstatus gemeldet werden.",
+  "isoElements": {
+    "DetailedNumberOfTransactions": {
+      "definition": "Anzahl der in der Nachricht enthaltenen einzelnen Transaktionen, nach Status aufgeschlüsselt."
+    },
+    "DetailedStatus": {
+      "definition": "Gemeinsamer Transaktionsstatus für alle gemeldeten einzelnen Transaktionen."
+    },
+    "DetailedControlSum": {
+      "definition": "Summe aller in der Nachricht enthaltenen Einzelbeträge, unabhängig von den Währungen, nach Status aufgeschlüsselt."
+    }
+  }
+}

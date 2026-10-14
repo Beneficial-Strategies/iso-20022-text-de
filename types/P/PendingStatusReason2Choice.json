@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatusReason2Choice",
+  "definition": "Auswahl der Formate für einen Code für den Grund eines ausstehenden Status.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für den ausstehenden Kontostatus als Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Grund für den ausstehenden Kontostatus als proprietärer Code ausgedrückt."
+    }
+  }
+}

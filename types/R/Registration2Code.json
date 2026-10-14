@@ -1,0 +1,22 @@
+{
+  "isoType": "Registration2Code",
+  "definition": "Gibt an, ob die Registrierung bei Eingang erfolgen soll.",
+  "isoCodes": {
+    "PTYH": {
+      "name": "Sperre durch Partei",
+      "definition": "Sie oder Ihre Partei haben die Anweisung in einen Haltemodus (Hold/Frozen/Preadvice) gesetzt."
+    },
+    "CSDH": {
+      "name": "CSD-Sperre",
+      "definition": "Der Zentralverwahrer setzt die Anweisung in einen Haltemodus (Hold/Frozen/Preadvice)."
+    },
+    "CDEL": {
+      "name": "Bedingte Lieferung",
+      "definition": "Die Anweisung befindet sich in einem Haltemodus (Hold/Frozen/Preadvice), da sie vordefinierte Regeln für die bedingte Lieferung auf der Plattform der Marktinfrastruktur erfüllt."
+    },
+    "CVAL": {
+      "name": "CSD-Validierung",
+      "definition": "Die Anweisung befindet sich in einem Haltemodus (Hold/Frozen/Preadvice), da sie vordefinierte Bedingungen eines Beschränkungs-Verarbeitungstyps auf der Plattform der Marktinfrastruktur erfüllt."
+    }
+  }
+}

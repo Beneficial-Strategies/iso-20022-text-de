@@ -1,0 +1,50 @@
+{
+  "isoType": "TransferUnmatchedReason3Code",
+  "definition": "Legt den Grund fest, aus dem die Transaktion, Übertragung oder Abwicklungsanweisung nicht abgeglichen ist.",
+  "isoCodes": {
+    "CMIS": {
+      "name": "Keine Übereinstimmung",
+      "definition": "Es wurde kein möglicher Treffer für den Abgleich gefunden."
+    },
+    "CPCA": {
+      "name": "Von der Gegenpartei storniert",
+      "definition": "Die Gegenpartei hat die Transaktion bzw. Anweisung storniert."
+    },
+    "DELN": {
+      "name": "Transaktionsrichtung",
+      "definition": "Die Richtung der Transaktion stimmt nicht überein: Lieferung statt Empfang oder umgekehrt."
+    },
+    "DSEC": {
+      "name": "Finanzinstrument",
+      "definition": "Die Identifikation des Finanzinstruments stimmt nicht überein oder ein Attribut des Finanzinstruments weicht ab."
+    },
+    "PHYS": {
+      "name": "Physische Abwicklung",
+      "definition": "Die Abwicklung stimmt nicht überein: Die Anweisung der Gegenpartei sieht eine physische Abwicklung vor, Ihre Anweisung nicht, oder umgekehrt."
+    },
+    "PODU": {
+      "name": "Duplikat",
+      "definition": "Die Anweisung wurde nicht abgeglichen: Es handelt sich möglicherweise um eine doppelte Anweisung."
+    },
+    "DEPT": {
+      "name": "Abwicklungsort",
+      "definition": "Der Abwicklungsort stimmt nicht überein."
+    },
+    "DDAT": {
+      "name": "Abwicklungsdatum",
+      "definition": "Das Abwicklungsdatum oder Übertragungsdatum stimmt nicht überein."
+    },
+    "DQUA": {
+      "name": "Menge des Finanzinstruments",
+      "definition": "Die Menge des Finanzinstruments stimmt nicht überein."
+    },
+    "ICUS": {
+      "name": "Empfangende oder liefernde Verwahrstelle",
+      "definition": "Die liefernde oder empfangende Depotbank stimmt nicht überein."
+    },
+    "SAFE": {
+      "name": "Verwahrkonto",
+      "definition": "Das für den betreffenden Markt als Abgleichkriterium verwendete Verwahrkonto stimmt nicht überein."
+    }
+  }
+}

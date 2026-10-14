@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionInstructionRejectionStatus1",
+  "definition": "Liefert den Grund für die Ablehnung einer Wahlmitteilung.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Der Ablehnungsgrund."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

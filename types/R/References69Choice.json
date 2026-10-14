@@ -1,0 +1,65 @@
+{
+  "isoType": "References69Choice",
+  "definition": "Auswahl der Referenz.",
+  "isoElements": {
+    "SecuritiesSettlementTransactionConfirmationIdentification": {
+      "definition": "Eindeutige Identifikation der zu stornierenden Bestätigung."
+    },
+    "IntraPositionMovementConfirmationIdentification": {
+      "definition": "Eindeutige Identifikation der zu stornierenden Bestätigung der Umbuchung innerhalb der Position, wie dem Kontoführer bekannt."
+    },
+    "SecuritiesBalanceAccountingReportIdentification": {
+      "definition": "Eindeutige Identifikation der zu stornierenden Berichtsnachricht."
+    },
+    "SecuritiesBalanceCustodyReportIdentification": {
+      "definition": "Eindeutige Identifikation der zu stornierenden Berichtsnachricht."
+    },
+    "IntraPositionMovementPostingReportIdentification": {
+      "definition": "Identifikation des zu stornierenden Buchungsberichts zur Umbuchung innerhalb der Position."
+    },
+    "SecuritiesFinancingConfirmationIdentification": {
+      "definition": "Eindeutige Identifikation der zu stornierenden Bestätigung."
+    },
+    "SecuritiesTransactionPendingReportIdentification": {
+      "definition": "Eindeutige Identifikation der zu stornierenden Berichtsnachricht."
+    },
+    "SecuritiesTransactionPostingReportIdentification": {
+      "definition": "Eindeutige Identifikation der zu stornierenden Berichtsnachricht."
+    },
+    "SecuritiesSettlementTransactionAllegementReportIdentification": {
+      "definition": "Eindeutige Identifikation des zu stornierenden Berichts."
+    },
+    "SecuritiesSettlementTransactionAllegementNotificationTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der zu stornierenden Benachrichtigung über eine Gegenmeldung (Allegement), wie dem Kontoführer bekannt."
+    },
+    "PortfolioTransferNotificationIdentification": {
+      "definition": "Identifikation der Portfolioübertragung."
+    },
+    "SecuritiesSettlementTransactionGenerationNotificationIdentification": {
+      "definition": "Eindeutige Identifikation der zu stornierenden Benachrichtigungsnachricht."
+    },
+    "OtherMessageIdentification": {
+      "definition": "Eindeutige Identifikation der zu stornierenden Nachricht."
+    },
+    "TotalPortfolioValuationReportIdentification": {
+      "definition": "Eindeutige Identifikation des Berichts."
+    },
+    "TripartyCollateralTransactionInstructionProcessingStatusAdviceIdentification": {
+      "definition": "Eindeutige Identifikation der zu stornierenden Statusmitteilung zur Anweisung für das Tri-Party-Sicherheitengeschäft."
+    },
+    "TripartyCollateralStatusAdviceIdentification": {
+      "definition": "Eindeutige Identifikation der zu stornierenden Statusmitteilung zu Tri-Party-Sicherheiten."
+    },
+    "TripartyCollateralAndExposureReportIdentification": {
+      "definition": "Eindeutige Identifikation des zu stornierenden Berichts zu Tri-Party-Sicherheiten und Risikopositionen."
+    }
+  },
+  "isoRules": {
+    "SecuritiesSettlementTransactionAllegementNotificationRule": {
+      "definition": "Die SecuritiesMessageCancellationAdvice kann aus zwei Gründen verwendet werden, um eine SecuritiesSettlementTransactionAllegementNotification zu stornieren: |- Die Nachricht wurde versehentlich gesendet.|- Die Gegenpartei hat ihre Anweisung storniert."
+    },
+    "OtherMessageIdentificationUsageRule": {
+      "definition": "Wird OtherMessageIdentification verwendet, so darf die zu stornierende Nachricht keine sein, die anhand der in der Auswahlliste verfügbaren Nachrichtenidentifikation identifiziert werden kann."
+    }
+  }
+}

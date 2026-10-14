@@ -1,0 +1,12 @@
+{
+  "isoType": "Price7",
+  "definition": "Art und Informationen zu einem Preis.",
+  "isoElements": {
+    "Type": {
+      "definition": "Angabe der Preisart."
+    },
+    "Value": {
+      "definition": "Wert des Preises, beispielsweise als Währung und Wert."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "isoType": "CorporateActionEventStage3Code",
+  "definition": "Gibt die Phase des CA-Ereignisses an.",
+  "isoCodes": {
+    "APPD": {
+      "name": "Genehmigt",
+      "definition": "Auf der maßgeblichen Versammlung genehmigt, zum Beispiel Dividende."
+    },
+    "CLDE": {
+      "name": "Deaktiviert",
+      "definition": "Das Angebot ist für die Annahme geschlossen."
+    },
+    "FULL": {
+      "name": "Stornierung und Wiederholung",
+      "definition": "Stornierung und Wiederholung einer ursprünglichen Auslosung oder einer ursprünglichen und ergänzenden Auslosung. Eine nachfolgende Auslosung wird unter einem neuen Ereignis durchgeführt."
+    },
+    "LAPS": {
+      "name": "Verfallen",
+      "definition": "Die Bedingungen des Ereignisses/Angebots wurden nicht erfüllt, und das Ereignis/Angebot wird beendet oder verfällt."
+    },
+    "PART": {
+      "name": "Ergänzende Stornierung und Wiederholung",
+      "definition": "Stornierung und Wiederholung nur einer zusätzlichen Auslosung. Eine nachfolgende neue zusätzliche Auslosung wird unter dem ursprünglichen Ereignis durchgeführt."
+    },
+    "PWAL": {
+      "name": "Maßnahmenzeitraum",
+      "definition": "Offen für Annahme bis zur nächsten in der Ankündigung angegebenen Frist (falls vorhanden)."
+    },
+    "RESC": {
+      "name": "Ergänzende Stornierung",
+      "definition": "Eine zusätzliche Auslosung wird vom Emittenten storniert. Es wird keine nachfolgende Auslosung durchgeführt."
+    },
+    "SUAP": {
+      "name": "Vorbehaltlich Genehmigung",
+      "definition": "Vorbehaltlich der Genehmigung in der entsprechenden Versammlung, zum Beispiel Dividende."
+    },
+    "UNAC": {
+      "name": "Annahme unbedingt",
+      "definition": "Der in den Angebotsbedingungen festgelegte erforderliche Annahmegrad wurde erreicht, es sind jedoch noch Bedingungen zu erfüllen."
+    },
+    "WHOU": {
+      "name": "Vollständig unbedingt",
+      "definition": "Vollständig unbedingt; alle im Angebotsdokument genannten Bedingungen sind erfüllt."
+    }
+  }
+}

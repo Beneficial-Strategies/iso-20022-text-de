@@ -1,0 +1,93 @@
+{
+  "isoType": "SettlementInstructionQueryCriteria4",
+  "definition": "Legt die Kriterien fest, anhand derer Informationen einbezogen werden.",
+  "isoElements": {
+    "References": {
+      "definition": "Sammelreferenz zur Identifikation einer Gruppe von Nachrichten."
+    },
+    "Status": {
+      "definition": "Gibt den Status der Abwicklung einer Transaktion an."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Legt fest, ob die Bewegung auf einem Wertpapierkonto aus einer Liefer- oder einer Empfangsanweisung resultiert."
+    },
+    "Payment": {
+      "definition": "Legt fest, wie die Transaktion abgewickelt werden soll, beispielsweise gegen Zahlung."
+    },
+    "SecuritiesTransactionType": {
+      "definition": "Identifiziert die Art der Wertpapiertransaktion."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Finanzinstrumente, die eine Summe von Rechten des Anlegers gegenüber dem Emittenten darstellen."
+    },
+    "Priority": {
+      "definition": "Gibt an, ob die Transaktion mit hoher Priorität auszuführen ist."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem Finanzinstrumente geführt werden."
+    },
+    "CashAccount": {
+      "definition": "Konto, auf dem Bargeld geführt wird."
+    },
+    "TradeDate": {
+      "definition": "Gibt Datum und Uhrzeit der Ausführung des Geschäfts an."
+    },
+    "SettlementQuantity": {
+      "definition": "Gesamtmenge der abzuwickelnden Wertpapiere."
+    },
+    "SettledQuantity": {
+      "definition": "Gesamtmenge der abgewickelten Wertpapiere."
+    },
+    "SettlementAmount": {
+      "definition": "Gesamtbetrag, der im Austausch gegen die Wertpapiere zu zahlen oder zu erhalten ist."
+    },
+    "SettledAmount": {
+      "definition": "Gesamtbetrag der im Austausch gegen die Wertpapiere gezahlten oder erhaltenen Gelder."
+    },
+    "IntendedSettlementDate": {
+      "definition": "Datum, an dem die Abwicklung einer Transaktion erwartet wird. Das heißt, der vorgesehene Tag, an dem die Übertragung von Geld oder Vermögenswerten abgeschlossen ist."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen eine Transaktion abgeschlossen und verrechnet wird, das heißt eine Zahlung erfolgt und Wertpapiere geliefert werden."
+    },
+    "SettlementCurrency": {
+      "definition": "Währung, in der der angewiesene Betrag ausgedrückt ist."
+    },
+    "SafekeepingAccountOwner": {
+      "definition": "Partei, der das Konto gehört."
+    },
+    "MessageOriginator": {
+      "definition": "Partei, von der die Nachricht ausgeht, sofern nicht mit dem Absender identisch."
+    },
+    "CounterpartSettlementParties": {
+      "definition": "Identifiziert die Kette der Abwicklungsparteien der Gegenpartei."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifiziert die Kette der liefernden Abwicklungsparteien."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifiziert die Kette der empfangenden Abwicklungsparteien."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Gibt die Bedingungen an, unter denen der Auftrag bzw. das Geschäft auszuführen ist bzw. ausgeführt wurde."
+    },
+    "SecuritiesTransactionCondition": {
+      "definition": "Gibt die Bedingungen an, unter denen der Auftrag/das Geschäft auszuführen ist bzw. ausgeführt wurde."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Gibt an, ob eine Teilabwicklung zulässig ist."
+    },
+    "ConditionalSecuritiesDelivery": {
+      "definition": "Gibt an, ob die Transaktion der bedingten Wertpapierlieferung (Conditional Securities Delivery, CoSD) unterliegt."
+    },
+    "CountryOfIssue": {
+      "definition": "Primärmarkt oder Land, in dem ein Wertpapier vom Emittenten oder dessen Beauftragten ausgegeben wird."
+    },
+    "IssuerCSD": {
+      "definition": "Zentralverwahrer (Central Securities Depository, CSD), bei dem Finanzinstrumente ausgegeben (oder immobilisiert) werden. Der Emittenten-CSD eröffnet Konten, auf denen Anleger (in einem Direktverwahrungssystem) und/oder Intermediäre (einschließlich Anleger-CSDs) diese Finanzinstrumente halten können."
+    },
+    "HoldIndicator": {
+      "definition": "Gibt an, ob die Transaktion angehalten, gesperrt oder eingefroren ist."
+    }
+  }
+}

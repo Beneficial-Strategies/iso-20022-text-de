@@ -1,0 +1,20 @@
+{
+  "isoType": "ChargeOrCommissionDiscount2",
+  "definition": "Rabatte oder Erlasse auf Entgelte und Provisionen.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Rabatt- oder Erlassbetrag."
+    },
+    "Rate": {
+      "definition": "Rabatt- oder Erlasssatz."
+    },
+    "Basis": {
+      "definition": "Form des Rabatts oder der Rückvergütung."
+    }
+  },
+  "isoRules": {
+    "DiscountElementRule": {
+      "definition": "Amount Or Rate Or Basis muss vorhanden sein."
+    }
+  }
+}

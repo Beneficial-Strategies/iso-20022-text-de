@@ -1,0 +1,34 @@
+{
+  "isoType": "ExternalMandateStatus1Code",
+  "definition": "Gibt den externen Code für den Mandatsstatus als Zeichenfolge mit maximal 4 Zeichen an.|Die Liste der gültigen Codes ist eine separat veröffentlichte externe Codeliste.|Externe Code-Sets können unter www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "ACTV": {
+      "name": "Aktiv",
+      "definition": "Das Mandat ist aktiv."
+    },
+    "CANC": {
+      "name": "Storniert",
+      "definition": "Das Mandat ist storniert."
+    },
+    "EXPI": {
+      "name": "Abgelaufen",
+      "definition": "Das Mandat hat das Enddatum überschritten."
+    },
+    "SUSP": {
+      "name": "Ausgesetzt",
+      "definition": "Das Mandat ist angehalten."
+    },
+    "RCVD": {
+      "name": "Empfangen",
+      "definition": "Die Mandatsdaten wurden von der zugehörigen Bank empfangen."
+    },
+    "RJCT": {
+      "name": "Abgelehnt",
+      "definition": "Die Mandatsdaten wurden abgelehnt."
+    },
+    "PATC": {
+      "name": "Teilweise akzeptiert, technisch korrekt",
+      "definition": "Die Mandatsinitiierung erfordert mehrere Authentifizierungen, von denen einige, aber noch nicht alle durchgeführt wurden. Syntaktische und semantische Validierungen sind erfolgreich."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "PayInCallItem",
+  "definition": "Numerische Darstellung der Nettozu- und -abnahmen eines Kontos zu einem bestimmten Zeitpunkt. Ein Kassenbestand wird als Summe der Bargutschriften abzüglich der Summe der Barbelastungen berechnet.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Gibt die Währung und den Betrag des abgerufenen Postens an."
+    }
+  }
+}

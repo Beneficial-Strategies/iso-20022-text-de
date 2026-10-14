@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementMethod7Choice",
+  "definition": "Abwicklungsdetails zur Bestimmung, ob die Zahlung eine Gutschrift oder eine Belastung ist.",
+  "isoElements": {
+    "Credit": {
+      "definition": "Gibt Einzelheiten der Zahlung an, die vom alten kontoführenden Institut an das neue kontoführende Institut bei positivem Schlusssaldo zu leisten ist."
+    },
+    "Debit": {
+      "definition": "Gibt Einzelheiten der Zahlung an, die vom neuen kontoführenden Institut an das alte kontoführende Institut bei negativem Schlusssaldo zu leisten ist."
+    }
+  }
+}

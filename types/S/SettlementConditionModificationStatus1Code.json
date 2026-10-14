@@ -1,0 +1,26 @@
+{
+  "isoType": "SettlementConditionModificationStatus1Code",
+  "definition": "Gibt den Status einer Änderungsanforderung für eine Wertpapierabwicklungsbedingung an.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Empfangen und akzeptiert",
+      "definition": "Die Anweisung wurde vom Kontoführer bestätigt/akzeptiert."
+    },
+    "REJT": {
+      "name": "Abgelehnt",
+      "definition": "Die Anweisung wurde zur Weiterverarbeitung abgelehnt."
+    },
+    "MODP": {
+      "name": "Ausstehend",
+      "definition": "Die Änderung steht aus. Derzeit ist nicht bekannt, ob die Änderung durchgeführt werden kann."
+    },
+    "DEND": {
+      "name": "Abgelehnt",
+      "definition": "Die Änderungsanforderung wird nicht ausgeführt."
+    },
+    "MODC": {
+      "name": "Abgeschlossen",
+      "definition": "Die Änderung wurde abgeschlossen."
+    }
+  }
+}

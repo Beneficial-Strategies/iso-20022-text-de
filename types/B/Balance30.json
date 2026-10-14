@@ -1,0 +1,23 @@
+{
+  "isoType": "Balance30",
+  "definition": "Bericht über die Nettoposition eines Wertpapiers auf einem einzelnen Wertpapierkonto für ein bestimmtes Datum.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "BalanceForAccount": {
+      "definition": "Bericht über die Nettoposition eines Wertpapiers auf einem einzelnen Wertpapierkonto für ein bestimmtes Datum."
+    },
+    "SubAccountDetails": {
+      "definition": "Unterkonto des Verwahr- oder Anlagekontos."
+    },
+    "AccountBaseCurrencyTotalAmounts": {
+      "definition": "In der Basiswährung des Kontos angegebene Gesamtbewertungsbeträge."
+    }
+  },
+  "isoRules": {
+    "BalanceForAccountOrSubAccountRule": {
+      "definition": "BalanceForAccount muss vorhanden sein oder SubAccountDetails muss vorhanden sein, beide können vorhanden sein."
+    }
+  }
+}

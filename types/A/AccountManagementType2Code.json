@@ -1,0 +1,18 @@
+{
+  "isoType": "AccountManagementType2Code",
+  "definition": "Bezieht sich auf eine Kontoverwaltungsanweisung, das heißt entweder eine Kontoeröffnungsanweisung, eine Kontoänderungsanweisung oder eine Nachricht zum Abruf von Kontodetails.",
+  "isoCodes": {
+    "ACCO": {
+      "name": "Kontoeröffnung",
+      "definition": "Bezieht sich auf eine Nachricht mit einer Kontoeröffnungsanweisung."
+    },
+    "ACCM": {
+      "name": "Kontoänderung",
+      "definition": "Bezieht sich auf eine Nachricht mit einer Kontoänderungsanweisung."
+    },
+    "GACC": {
+      "name": "Kontodetails abrufen",
+      "definition": "Bezieht sich auf eine Nachricht zum Abruf von Kontodetails."
+    }
+  }
+}

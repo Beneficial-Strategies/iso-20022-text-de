@@ -1,0 +1,9 @@
+{
+  "isoType": "Parameter5",
+  "definition": "Mit einer kryptografischen Maskengenerierungsfunktion verbundene Parameter.",
+  "isoElements": {
+    "DigestAlgorithm": {
+      "definition": "In der Maskengenerierungsfunktion verwendeter Digest-Algorithmus."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationRequestAction1Choice",
+  "definition": "Gibt die Art der beantragten Maßnahme an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Beantragte Maßnahme, wie in einer externen Codeliste für Untersuchungsmaßnahmen veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Beantragte Maßnahme in proprietärer Form."
+    }
+  }
+}

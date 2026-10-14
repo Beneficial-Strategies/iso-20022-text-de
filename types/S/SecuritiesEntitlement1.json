@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesEntitlement1",
+  "definition": "Enthält Informationen zu Ansprüchen.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identifikation des Finanzinstruments."
+    },
+    "EntitledSecuritiesQuantity": {
+      "definition": "Wertpapiermenge auf Grundlage der Bedingungen des Kapitalmaßnahmen-Ereignisses und des dem Kontoinhaber zustehenden Bestands an zugrunde liegenden Wertpapieren. (Diese Menge kann positiv oder negativ sein)."
+    }
+  }
+}

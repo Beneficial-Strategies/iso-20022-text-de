@@ -1,0 +1,29 @@
+{
+  "isoType": "CorporateActionStandingInstruction1",
+  "definition": "Stellt Informationen zur Dauerauftragsanweisung bereit.",
+  "isoElements": {
+    "NetOrGross": {
+      "definition": "Gibt an, ob die Kontoinhaber ihre Erträge netto oder brutto der Ertragsteuer ausgezahlt haben möchten (Standard ist brutto)."
+    },
+    "CashDistributionDetails": {
+      "definition": "Stellt Informationen zur Dauerauftragsanweisung für die Barausschüttung bereit."
+    },
+    "SecuritiesDistributionDetails": {
+      "definition": "Stellt Informationen zur Dauerauftragsanweisung für die Wertpapierausschüttung bereit."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zur Dauerauftragsanweisung."
+    }
+  },
+  "isoRules": {
+    "NetOrGrossOrCashDistributionDetailsOrSecuritiesDistributionDetailsRule": {
+      "definition": "Entweder NetOrGross, CashDistributionDetails oder SecuritiesDistributionDetails muss vorhanden sein."
+    },
+    "NetOrGrossOrCashDistributionDetailsOrSecuritiesDistributionDetailsRuleNotBoth": {
+      "definition": "Entweder NetOrGross, CashDistributionDetails oder SecuritiesDistributionDetails muss vorhanden sein."
+    },
+    "NetOrGrossOrCashDistributionDetailsOrSecuritiesDistributionDetailsRuleNotBoth2": {
+      "definition": "Entweder NetOrGross, CashDistributionDetails oder SecuritiesDistributionDetails muss vorhanden sein."
+    }
+  }
+}

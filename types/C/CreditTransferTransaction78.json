@@ -1,0 +1,89 @@
+{
+  "isoType": "CreditTransferTransaction78",
+  "definition": "Enthält weitere Einzelheiten zu den einzelnen in der Nachricht enthaltenen Transaktionen.",
+  "isoElements": {
+    "PaymentIdentification": {
+      "definition": "Satz von Elementen zur Referenzierung einer Zahlungsanweisung."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Satz von Elementen zur näheren Bestimmung der Transaktionsart."
+    },
+    "TaxRateMarker": {
+      "definition": "Gibt den erhobenen Steuersatz an."
+    },
+    "Amount": {
+      "definition": "Geldbetrag, der vor Abzug von Entgelten zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, ausgedrückt in der von der initiierenden Partei beauftragten Währung."
+    },
+    "ChargeBearer": {
+      "definition": "Gibt an, welche Partei(en) die mit der Verarbeitung der Zahlungstransaktion verbundenen Entgelte trägt/tragen."
+    },
+    "ChequeInstruction": {
+      "definition": "Gesamtheit der Elemente, die zur Ausstellung eines Schecks erforderlich sind."
+    },
+    "Frequency": {
+      "definition": "Der Plan für eine Überweisungsvereinbarung."
+    },
+    "TransferInstruction": {
+      "definition": "Enthält weitere Informationen zum Status der übertragenen geplanten Zahlung(en)."
+    },
+    "UltimateDebtor": {
+      "definition": "Letztlich Zahlungspflichtiger, der dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers.||Verwendung: Sind mehrere zwischengeschaltete Banken vorhanden, kennzeichnet IntermediaryAgent1 die Bank zwischen der DebtorAgent und der IntermediaryAgent2."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers.||Verwendung: Sind mehr als zwei zwischengeschaltete Banken vorhanden, kennzeichnet IntermediaryAgent2 die Bank zwischen der IntermediaryAgent1 und der IntermediaryAgent3."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Bank zwischen DebtorAgent und CreditorAgent.||Verwendung: Wenn IntermediaryAgent3 vorhanden ist, bezeichnet sie die Bank zwischen IntermediaryAgent 2 und CreditorAgent."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungsempfänger führt."
+    },
+    "Creditor": {
+      "definition": "Partei, der ein Geldbetrag zusteht."
+    },
+    "CreditorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungsempfängers, dem aufgrund der Zahlungstransaktion eine Gutschrift gebucht wird."
+    },
+    "UltimateCreditor": {
+      "definition": "Letztliche Partei, der ein Geldbetrag zusteht."
+    },
+    "InstructionForCreditorAgent": {
+      "definition": "Weitere Informationen zur Bearbeitung der Zahlungsanweisung, die von der initiierenden Partei bereitgestellt werden und für die Bank des Zahlungsempfängers bestimmt sind."
+    },
+    "Purpose": {
+      "definition": "Zugrunde liegender Grund für die Zahlungstransaktion.||Verwendung: Der Zweck wird von den Endkunden, das heißt der initiierenden Partei, dem (letztlich) Zahlungspflichtigen und dem (letztlichen) Zahlungsempfänger, verwendet, um Informationen zur Art der Zahlung zu liefern. Der Zweck ist ein Inhaltselement, das von keinem der an der Zahlungskette beteiligten Institute zur Verarbeitung verwendet wird."
+    },
+    "RegulatoryReporting": {
+      "definition": "Aufgrund aufsichtsrechtlicher und gesetzlicher Anforderungen erforderliche Informationen."
+    },
+    "Tax": {
+      "definition": "Enthält Angaben zur Steuer."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Enthält Informationen zur Behandlung der Verwendungszweck-Informationen durch eine der Banken in der Transaktionsverarbeitungskette."
+    },
+    "RemittanceInformation": {
+      "definition": "Informationen zur Ermöglichung des Abgleichs eines Umsatzes mit den Posten, die durch die Übertragung beglichen werden sollen, etwa Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    }
+  },
+  "isoRules": {
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor darf nur vorhanden sein, wenn er sich vom Creditor unterscheidet."
+    },
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor darf nur vorhanden sein, wenn er sich vom Debtor unterscheidet."
+    },
+    "IntermediaryAgent2Rule": {
+      "definition": "Wenn IntermediaryAgent2 vorhanden ist, muss IntermediaryAgent1 vorhanden sein."
+    },
+    "IntermediaryAgent3Rule": {
+      "definition": "Wenn IntermediaryAgent3 vorhanden ist, muss IntermediaryAgent2 vorhanden sein."
+    },
+    "InstructionForCreditorAgentRule": {
+      "definition": "Wenn InstructionForCreditorAgent/Code CHQB enthält, ist CreditorAccount nicht zulässig."
+    }
+  }
+}

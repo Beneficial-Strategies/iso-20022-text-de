@@ -1,0 +1,21 @@
+{
+  "isoType": "MandateAmendment8",
+  "definition": "Identifiziert das zu ändernde Mandat und enthält Einzelheiten zum neuen Mandat.",
+  "isoElements": {
+    "OriginalMessageInformation": {
+      "definition": "Enthält Angaben zur ursprünglichen Nachricht."
+    },
+    "AmendmentReason": {
+      "definition": "Enthält detaillierte Informationen zum Änderungsgrund."
+    },
+    "Mandate": {
+      "definition": "Enthält die geänderten Mandatsdaten."
+    },
+    "OriginalMandate": {
+      "definition": "Enthält die ursprünglichen Mandatsdaten."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  }
+}

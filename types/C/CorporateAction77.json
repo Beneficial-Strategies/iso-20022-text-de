@@ -1,0 +1,24 @@
+{
+  "isoType": "CorporateAction77",
+  "definition": "Liefert Informationen zum Kapitalmaßnahmen-Ereignis.",
+  "isoElements": {
+    "DateDetails": {
+      "definition": "Liefert Informationen zu den Daten eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Liefert Informationen zur Wertpapiermenge im Zusammenhang mit einer Kapitalmaßnahme."
+    },
+    "EventStage": {
+      "definition": "Phase im Lebenszyklus der Kapitalmaßnahme."
+    },
+    "AdditionalBusinessProcessIndicator": {
+      "definition": "Gibt an, ob sich die Nachricht auf einen Anspruch im Zusammenhang mit dem zugehörigen Ereignis der Kapitalmaßnahme bezieht."
+    },
+    "IntermediateSecuritiesDistributionType": {
+      "definition": "Gibt die Art der Zwischenwertpapierausschüttung an."
+    },
+    "LotteryType": {
+      "definition": "Gibt die Art des angekündigten Losverfahrens an."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingInstructionCancellationStatus1Choice",
+  "definition": "Stellt Informationen zum Status eines Antrags auf Stornierung einer Dauerauftragsanweisung bereit.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Liefert Informationen zum Bearbeitungsstatus des Stornierungsantrags."
+    },
+    "RejectedStatus": {
+      "definition": "Liefert Informationen zum Ablehnungsstatus."
+    }
+  }
+}

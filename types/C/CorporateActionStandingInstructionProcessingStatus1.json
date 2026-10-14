@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionStandingInstructionProcessingStatus1",
+  "definition": "Stellt Informationen zum Verarbeitungsstatus eines Antrags auf Dauerauftragsanweisung bereit.",
+  "isoElements": {
+    "Status": {
+      "definition": "Der Bearbeitungsstatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

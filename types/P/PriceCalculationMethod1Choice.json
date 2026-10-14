@@ -1,0 +1,12 @@
+{
+  "isoType": "PriceCalculationMethod1Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe der für die Preisberechnung angewandten Methode.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der für die Preisberechnung angewandten Methode."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation zur Angabe der für die Berechnung des Preises angewandten Methode."
+    }
+  }
+}

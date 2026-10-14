@@ -1,0 +1,12 @@
+{
+  "isoType": "ParticipationMethod3Choice",
+  "definition": "Auswahl zwischen einem vordefinierten Codewert und einem proprietären Codewert für eine Methode der Abstimmungsteilnahme an einer Hauptversammlung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Methode der Teilnahme an der Abstimmung der Hauptversammlung, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Methode der Teilnahme an der Abstimmung der Hauptversammlung, ausgedrückt als proprietärer Code."
+    }
+  }
+}

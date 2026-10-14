@@ -1,0 +1,14 @@
+{
+  "isoType": "AccountingStatus1Code",
+  "definition": "Gibt den Rechnungslegungsstatus an.",
+  "isoCodes": {
+    "YDOM": {
+      "name": "Inländisch",
+      "definition": "Konto oder Partei gilt für Meldezwecke als inländisch."
+    },
+    "NDOM": {
+      "name": "Nicht inländisch",
+      "definition": "Konto oder Partei gilt für Meldezwecke nicht als inländisch."
+    }
+  }
+}

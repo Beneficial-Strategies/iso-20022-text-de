@@ -1,0 +1,12 @@
+{
+  "isoType": "FailingReason17Choice",
+  "definition": "Auswahl des Formats für den Grund des Abwicklungsfehlschlags.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, weshalb die Anweisung den Abwicklungsstatus „fehlgeschlagen“ hat."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Grund an, weshalb die Anweisung den Abwicklungsstatus „fehlgeschlagen“ hat."
+    }
+  }
+}

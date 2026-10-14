@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingReason26Choice",
+  "definition": "Auswahl des Formats für den Grund der Anhängigkeit.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, warum die Anweisung den Status „ausstehend“ hat."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Grund an, warum die Anweisung den Status „ausstehend“ hat."
+    }
+  }
+}

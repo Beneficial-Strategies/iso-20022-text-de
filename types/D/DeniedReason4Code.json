@@ -1,0 +1,46 @@
+{
+  "isoType": "DeniedReason4Code",
+  "definition": "Gibt den Zurückweisungsgrund an.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Nach Ablauf der Frist des kontoführenden Instituts eingegangen."
+    },
+    "DCAN": {
+      "name": "Abgelehnt, da bereits storniert",
+      "definition": "Die Stornierungsanforderung wurde zurückgewiesen, da die Anweisung bereits storniert wurde."
+    },
+    "DPRG": {
+      "name": "Abgelehnt, da in Bearbeitung",
+      "definition": "Die Stornierungsanforderung wurde zurückgewiesen, da der Abwicklungsprozess läuft."
+    },
+    "DREP": {
+      "name": "Abgelehnt, da Repo beendet",
+      "definition": "Die Stornierungsanforderung wurde zurückgewiesen, da das Repo storniert wurde."
+    },
+    "DSET": {
+      "name": "Abgelehnt, da bereits abgewickelt",
+      "definition": "Die Stornierungsanforderung wurde zurückgewiesen, da die Anweisung bereits abgewickelt wurde."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "CDRG": {
+      "name": "Bedingt Registerstelle",
+      "definition": "Die Ausführung wird wegen der Durchführung eines Prozesses bei der Registerstelle verweigert."
+    },
+    "CDCY": {
+      "name": "Bedingt Währung",
+      "definition": "Die Ausführung wird wegen eines mit der Währung der Transaktion verknüpften Prozesses verweigert."
+    },
+    "CDRE": {
+      "name": "Bedingt Neuausrichtung",
+      "definition": "Die Ausführung wird wegen der Durchführung eines Angleichungsprozesses beim Emittenten-CSD verweigert."
+    }
+  }
+}

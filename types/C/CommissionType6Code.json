@@ -1,0 +1,18 @@
+{
+  "isoType": "CommissionType6Code",
+  "definition": "Gibt die Art der Investmentfonds-Provision an.",
+  "isoCodes": {
+    "FEND": {
+      "name": "Ausgabeaufschlag",
+      "definition": "Provision für die Zeichnung einer Anlage, die zum Zeitpunkt der Zeichnung gezahlt wird."
+    },
+    "BEND": {
+      "name": "Rücknahmeabschlag",
+      "definition": "Provision für die Rücknahme einer Anlage, wenn ein Anleger einen Investmentfonds innerhalb eines bestimmten Zeitraums zurückgibt."
+    },
+    "CDPL": {
+      "name": "Platzierungsprovision",
+      "definition": "Barbetrag, der einem Vermittler für den Verkauf eines Produkts oder von Dienstleistungen an eine dritte Partei geschuldet wird."
+    }
+  }
+}

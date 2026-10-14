@@ -1,0 +1,14 @@
+{
+  "isoType": "ATMStatus2Code",
+  "definition": "Aktueller Status des Sicherheitsgeräts.",
+  "isoCodes": {
+    "OPER": {
+      "name": "In Betrieb",
+      "definition": "Komponente ist aktiviert und in Betrieb."
+    },
+    "OUTS": {
+      "name": "Außer Betrieb",
+      "definition": "ATM außer Betrieb."
+    }
+  }
+}

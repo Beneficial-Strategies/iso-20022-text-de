@@ -1,0 +1,32 @@
+{
+  "isoType": "StatusAndReason52",
+  "definition": "Auswahl des Status.",
+  "isoElements": {
+    "InferredMatchingStatus": {
+      "definition": "Liefert den Abgleichsstatus einer Anweisung, wie er dem Kontoführer auf Grundlage einer Behauptung (Allegement) bekannt ist. Zu diesem Zeitpunkt hat am Markt (beim Zentralverwahrer/internationalen Zentralverwahrer) noch kein Abgleich stattgefunden (CSD) (ICSD)."
+    },
+    "MatchingStatus": {
+      "definition": "Liefert den Abgleichsstatus der Anweisung."
+    },
+    "SettlementStatus": {
+      "definition": "Gibt den Status der Abwicklung einer Transaktion an."
+    },
+    "InstructionProcessingStatus": {
+      "definition": "Gibt den Status einer Anweisung an."
+    },
+    "Settled": {
+      "definition": "Gibt den Zustand oder die Bedingung an."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Status."
+    }
+  },
+  "isoRules": {
+    "PendingToFailingRule": {
+      "definition": "Eine anhängige Transaktion (PEND) wird am in der Nachricht angewiesenen Abwicklungstag während der Tagesendberichterstattung zu einer fehlgeschlagenen Transaktion (PENF)."
+    },
+    "SettlementStatusAndMatchedRule": {
+      "definition": "Wird SettlementStatus/Reason allein verwendet, bedeutet dies, dass die Transaktion abgeglichen ist (sofern am betreffenden Markt oder beim betreffenden Kontoführer ein Abgleichsprozess besteht)."
+    }
+  }
+}

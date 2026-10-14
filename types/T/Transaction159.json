@@ -1,0 +1,32 @@
+{
+  "isoType": "Transaction159",
+  "definition": "Informationen zur Zahlungstransaktion.",
+  "isoElements": {
+    "PaymentTo": {
+      "definition": "Ziel der Zahlung (Teilnehmer, System oder beides)."
+    },
+    "PaymentFrom": {
+      "definition": "Ursprung der Zahlung (Teilnehmer, System oder beides)."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob die Zahlungstransaktion eine Belastungs- oder eine Gutschrifttransaktion ist. |."
+    },
+    "Payment": {
+      "definition": "Anweisung, einen Geldbetrag im Auftrag eines Auftraggebers an einen letztlich Begünstigten zu zahlen. Diese Anweisung muss unter Umständen mehrfach weitergeleitet werden, um die Abwicklungskette zu vervollständigen."
+    },
+    "AccountEntry": {
+      "definition": "Buchung eines Postens auf einem Geldkonto im Rahmen einer Geldtransaktion, die zu einer Erhöhung oder Verminderung des Kontosaldos führt."
+    },
+    "SecuritiesTransactionReferences": {
+      "definition": "Liefert die Referenzen der zugrunde liegenden Wertpapiertransaktion."
+    }
+  },
+  "isoRules": {
+    "CreditDebitIndicatorGuideline": {
+      "definition": "Der CreditDebitIndicator kann aus Optimierungsgründen weggelassen werden, wenn der CreditDebitIndicator in den Suchkriterien der zugehörigen Abfrage verwendet wird."
+    },
+    "TransactionCreditDebitIndicatorRule": {
+      "definition": "Wenn CreditDebitIndicator vorhanden ist, muss AccountEntry/Entry/Amount oder Payment/InstructedAmount oder Payment/InterbankSettlementAmount vorhanden sein.|Wenn CreditDebitIndicator nicht vorhanden ist, ist jedes Nachrichtenelement der Liste (AccountEntry/Entry/Amount, Payment/InstructedAmount, Payment/InterbankSettlementAmount) optional."
+    }
+  }
+}

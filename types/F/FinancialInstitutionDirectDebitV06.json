@@ -1,0 +1,9 @@
+{
+  "isoType": "FinancialInstitutionDirectDebitV06",
+  "definition": "Umfang:|Die Nachricht FinancialInstitutionDirectDebit wird von einer Börse, einem Clearinghaus oder einem Finanzinstitut direkt oder über eine andere Bank an DebtorAgent gesendet. Sie dient dazu, DebtorAgent anzuweisen, Gelder von einem oder mehreren Konten von Zahlungspflichtigen an einen oder mehrere Zahlungsempfänger zu bewegen, wobei Zahlungspflichtiger und Zahlungsempfänger beide Finanzinstitute sind.||Verwendung:|Die Nachricht FinancialInstitutionDirectDebit wird zwischen Banken ausgetauscht und kann eine oder mehrere Lastschriftanweisungen zwischen Finanzinstituten für einen oder mehrere Zahlungsempfänger enthalten. Die Nachricht FinancialInstitutionDirectDebit kann in nationalen und grenzüberschreitenden Szenarien verwendet werden.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "Der Baustein SupplementaryData auf Nachrichtenebene darf nicht verwendet werden, um zusätzliche Informationen zu einer Transaktion bereitzustellen. Hierfür ist das Element SupplementaryData auf Transaktionsebene zu verwenden."
+    }
+  }
+}

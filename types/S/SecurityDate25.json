@@ -1,0 +1,24 @@
+{
+  "isoType": "SecurityDate25",
+  "definition": "Gibt Datumsangaben zum Wertpapier an.",
+  "isoElements": {
+    "PostingDate": {
+      "definition": "Datum der Buchung (Gutschrift oder Belastung) auf dem Konto."
+    },
+    "AvailableDate": {
+      "definition": "Datum/Uhrzeit, zu dem Wertpapiere für den Handel verfügbar werden, zum Beispiel erster Handelstag."
+    },
+    "PariPassuDate": {
+      "definition": "Datum/Uhrzeit, zu dem das Wertpapier angeglichen wird, fungibel wird oder dieselben Dividendenrechte wie die Stammemission hat."
+    },
+    "DividendRankingDate": {
+      "definition": "Datum/Uhrzeit, ab dem ein Wertpapier dividendenberechtigt ist."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Datum/Uhrzeit, zu dem eine Zahlung geleistet werden kann, zum Beispiel wenn der Zahlungstag kein Geschäftstag ist, oder zur Angabe des ersten Zahlungstags eines Angebots."
+    },
+    "PaymentDate": {
+      "definition": "Datum/Uhrzeit, zu dem die Bewegung stattfinden soll (Geld und/oder Wertpapiere)."
+    }
+  }
+}

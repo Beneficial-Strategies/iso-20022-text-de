@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMEnvironment15",
+  "definition": "Umfeld des Schlüssel-Downloads.",
+  "isoElements": {
+    "Acquirer": {
+      "definition": "Acquirer der Transaktionen am ATM, zuständig für die Verrechnung der Gelder mit dem Emittenten."
+    },
+    "ATMManagerIdentification": {
+      "definition": "Identifikation des ATM-Betreibers."
+    },
+    "HostingEntity": {
+      "definition": "Stelle, die das Terminal des ATM betreibt."
+    },
+    "ATM": {
+      "definition": "Informationen zum ATM."
+    }
+  }
+}

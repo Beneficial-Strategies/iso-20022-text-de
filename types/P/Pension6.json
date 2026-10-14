@@ -1,0 +1,27 @@
+{
+  "isoType": "Pension6",
+  "definition": "Attribute einer Pension.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Pensionspolice, des Pensionsplans oder der Pensionsregelung."
+    },
+    "Type": {
+      "definition": "Art der Pensionspolice, des Pensionsplans oder der Pensionsregelung."
+    },
+    "TransferScope": {
+      "definition": "Umfang der Übertragung der Pensionspolice, des Pensionsplans oder der Pensionsregelung."
+    },
+    "TaxReference": {
+      "definition": "Steuerreferenz, die der Pensionspolice, dem Pensionsplan oder der Pensionsregelung von einer zentralen Organisation zugewiesen wurde."
+    },
+    "DrawdownTrancheIdentification": {
+      "definition": "Referenz der Entnahme (Drawdown)."
+    },
+    "NonWrapperTransfer": {
+      "definition": "Gibt an, dass sich die Übertragung nur auf zugrunde liegende Vermögenswerte bezieht und die Übertragung des Wrappers separat erfolgt."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zur Pensionspolice, zum Pensionsplan oder zur Pensionsregelung."
+    }
+  }
+}

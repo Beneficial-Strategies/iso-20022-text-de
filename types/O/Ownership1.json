@@ -1,0 +1,15 @@
+{
+  "isoType": "Ownership1",
+  "definition": "Liefert Eigentumsdetails einer Person an einem Vermögenswert.",
+  "isoElements": {
+    "OwnershipType": {
+      "definition": "Gibt die Art des Eigentums an."
+    },
+    "OwnershipPercentage": {
+      "definition": "Eigentumsanteil in Prozent, den eine Person an einem Vermögenswert hat."
+    },
+    "UsufructPercentage": {
+      "definition": "Nießbrauchanteil in Prozent, den eine Person an einem Vermögenswert hat."
+    }
+  }
+}

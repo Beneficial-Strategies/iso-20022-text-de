@@ -1,0 +1,18 @@
+{
+  "isoType": "ServiceTaxDesignation1Code",
+  "definition": "Legt den Steuerstatus des Services fest.",
+  "isoCodes": {
+    "XMPT": {
+      "name": "Befreit",
+      "definition": "Es sind keine Steuern fällig."
+    },
+    "ZERO": {
+      "name": "Nullsatz",
+      "definition": "Die Steuer ist fällig, jedoch mit null Prozent und ohne Entgelt."
+    },
+    "TAXE": {
+      "name": "Steuerpflichtig",
+      "definition": "Für diesen Service sind eine oder mehrere Steuern fällig."
+    }
+  }
+}

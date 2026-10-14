@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingServicesTax3",
+  "definition": "Sieht regionale Steuern auf den Service vor.",
+  "isoElements": {
+    "Number": {
+      "definition": "Identifikationsnummer der spezifischen regionalen Steuer, die zur Berechnung der Steuer verwendet wird."
+    },
+    "Description": {
+      "definition": "Bezeichnung der Steuer (z. B. nationale Mehrwertsteuer)."
+    },
+    "Rate": {
+      "definition": "Satz zur Berechnung der Steuer."
+    },
+    "TotalTaxAmount": {
+      "definition": "Gibt die Steuerschuld für steuerpflichtige Services innerhalb einer Steuerregion für eine bestimmte Steuerkennung an (zum Beispiel nationale Umsatzsteuer gleich 34,00), ausgedrückt in der Sitzwährung der Steuerregion."
+    }
+  }
+}

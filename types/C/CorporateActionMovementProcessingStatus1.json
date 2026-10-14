@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionMovementProcessingStatus1",
+  "definition": "Liefert Informationen zum Verarbeitungsstatus einer Bewegung.",
+  "isoElements": {
+    "Status": {
+      "definition": "Der Bearbeitungsstatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

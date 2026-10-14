@@ -1,0 +1,18 @@
+{
+  "isoType": "References44Choice",
+  "definition": "Auswahl der Referenz.",
+  "isoElements": {
+    "OtherTransactionIdentification": {
+      "definition": "Referenz auf eine Transaktion, die nicht mithilfe eines in der Nachricht vorhandenen Standardreferenzelements identifiziert werden kann."
+    },
+    "SecuritiesFinancingTransactionIdentification": {
+      "definition": "Zweifelsfreie Identifikation der zugrunde liegenden Wertpapierfinanzierungstransaktion (nicht des zugrunde liegenden Wertpapierfinanzierungsgeschäfts), wie von der anweisenden Partei zugewiesen."
+    },
+    "SecuritiesSettlementTransactionIdentification": {
+      "definition": "Zweifelsfreie Identifikation der Wertpapierabwicklungstransaktion."
+    },
+    "IntraPositionMovementIdentification": {
+      "definition": "Referenz auf die Transaktion der Umbuchung innerhalb der Position, deren Stornierung beantragt wird, wie dem Kontoinhaber (oder der in seinem Namen handelnden anweisenden Partei) bekannt."
+    }
+  }
+}

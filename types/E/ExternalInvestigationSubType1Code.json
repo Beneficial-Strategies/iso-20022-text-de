@@ -1,0 +1,50 @@
+{
+  "isoType": "ExternalInvestigationSubType1Code",
+  "definition": "Gibt die Untersuchungsunterart an, wie in einem externen Codesatz für Untersuchungsunterarten veröffentlicht.|Externe Codesätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "AMLI": {
+      "name": "Geldwäschebekämpfung",
+      "definition": "Die Untersuchung bezieht sich auf Geldwäschebekämpfung."
+    },
+    "SANC": {
+      "name": "Sanktionen",
+      "definition": "Die Untersuchung bezieht sich auf Sanktionen."
+    },
+    "FRAD": {
+      "name": "Betrug",
+      "definition": "Die Untersuchung bezieht sich auf Betrug."
+    },
+    "UTEX": {
+      "name": "Nicht ausführbar",
+      "definition": "Die Untersuchung bezieht sich auf eine Transaktion, die nicht ausgeführt werden kann."
+    },
+    "FCCI": {
+      "name": "Compliance zur Bekämpfung von Finanzkriminalität",
+      "definition": "Die Untersuchung bezieht sich auf die Compliance bei Finanzkriminalität."
+    },
+    "FWTR": {
+      "name": "Geldtransferverordnung",
+      "definition": "Die Untersuchung bezieht sich auf die Vorschriften zu Geldtransfers/Überweisungen."
+    },
+    "RQUF": {
+      "name": "Verwendung der Mittel anfordern",
+      "definition": "Die Verwendung der Mittel einer Position wird beantragt."
+    },
+    "RQDA": {
+      "name": "Anfrage zur Belastungsautorisierung",
+      "definition": "Eine Belastungsautorisierung für eine Position wird beantragt."
+    },
+    "RQVA": {
+      "name": "Anpassung des Wertstellungsdatums anfordern",
+      "definition": "Eine Neubewertung einer Position wird beantragt."
+    },
+    "RQCH": {
+      "name": "Entgeltbezogene Anforderung",
+      "definition": "Untersuchung im Zusammenhang mit Entgelten, die erhoben wurden oder angefordert werden."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstige"
+    }
+  }
+}

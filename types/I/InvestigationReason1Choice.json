@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationReason1Choice",
+  "definition": "Gibt den Grund für die Untersuchung an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für die Eröffnung der Untersuchung, wie im externen Codesatz für Untersuchungsgründe veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Grund für die Eröffnung der Untersuchung in proprietärer Form."
+    }
+  }
+}

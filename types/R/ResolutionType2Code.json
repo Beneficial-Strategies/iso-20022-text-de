@@ -1,0 +1,14 @@
+{
+  "isoType": "ResolutionType2Code",
+  "definition": "Gibt die Art des Beschlusses an.",
+  "isoCodes": {
+    "EXTR": {
+      "name": "Außerordentlich",
+      "definition": "Der Versammlungsbeschluss ist außerordentlich und kann besonderen Abstimmungsanforderungen unterliegen."
+    },
+    "SPCL": {
+      "name": "Besonders",
+      "definition": "Beschluss, der weder ordentlich noch außerordentlich ist (z. B. Entscheidung über eine Anlagestrategie)."
+    }
+  }
+}

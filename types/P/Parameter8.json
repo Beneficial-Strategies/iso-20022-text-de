@@ -1,0 +1,18 @@
+{
+  "isoType": "Parameter8",
+  "definition": "Parameter des digitalen Signaturalgorithmus RSASSA-PSS (RSA-Signaturalgorithmus mit Anhang: Probabilistic Signature Scheme).",
+  "isoElements": {
+    "DigestAlgorithm": {
+      "definition": "Identifikation des Digest-Algorithmus."
+    },
+    "MaskGeneratorAlgorithm": {
+      "definition": "Kryptografischer Algorithmus und Parameter der Maskengenerierungsfunktion."
+    },
+    "SaltLength": {
+      "definition": "Länge des in die Signatur einzubeziehenden Salts."
+    },
+    "TrailerField": {
+      "definition": "Nummer des Trailer-Felds."
+    }
+  }
+}

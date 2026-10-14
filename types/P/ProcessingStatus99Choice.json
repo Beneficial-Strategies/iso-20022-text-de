@@ -1,0 +1,21 @@
+{
+  "isoType": "ProcessingStatus99Choice",
+  "definition": "Auswahl des Formats für den Verarbeitungsstatus.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "Die Anweisung wurde vom kontoführenden Institut bestätigt."
+    },
+    "Rejected": {
+      "definition": "Die Anweisung bzw. Anforderung wurde zur Weiterverarbeitung abgelehnt."
+    },
+    "Repair": {
+      "definition": "Die Anweisung bzw. der Auftrag wird akzeptiert, befindet sich jedoch in Korrektur."
+    },
+    "Cancelled": {
+      "definition": "Die Anweisung wurde storniert. Der Status zur Verarbeitung eines Stornierungsauftrags muss mit einer Nachricht zum Stornierungsauftragsbericht übermittelt werden."
+    },
+    "Proprietary": {
+      "definition": "Gibt eine Auswahl von Status für die Verarbeitung einer Umbuchung zwischen Beständen an."
+    }
+  }
+}

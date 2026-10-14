@@ -1,0 +1,39 @@
+{
+  "isoType": "TransactionAmendment1Choice",
+  "definition": "Gibt die in der Untersuchungsanfrage angeforderten Datenelemente an.",
+  "isoElements": {
+    "Agent": {
+      "definition": "Gibt die Daten einer angeforderten Bank an."
+    },
+    "Amount": {
+      "definition": "Gibt Einzelheiten zu einem angeforderten Betrag an."
+    },
+    "AnyBIC": {
+      "definition": "Gibt Einzelheiten zu einem angeforderten Business Identifier Code an."
+    },
+    "BICFI": {
+      "definition": "Gibt Einzelheiten zu einem angeforderten Business Identifier Code eines Finanzinstituts an."
+    },
+    "CashAccount": {
+      "definition": "Gibt Einzelheiten zu einem angeforderten Bargeldkonto an."
+    },
+    "Code": {
+      "definition": "Gibt Einzelheiten zu einem angeforderten Code an."
+    },
+    "Date": {
+      "definition": "Gibt Einzelheiten zu einem angeforderten Datum an."
+    },
+    "DateTime": {
+      "definition": "Gibt Einzelheiten zu einem angeforderten Datum mit Uhrzeit an."
+    },
+    "Party": {
+      "definition": "Gibt Einzelheiten zu den Daten einer angeforderten Partei an."
+    },
+    "Remittance": {
+      "definition": "Gibt Einzelheiten zu den Daten eines angeforderten Verwendungszwecks an."
+    },
+    "Other": {
+      "definition": "Gibt sonstige angeforderte Daten im Zusammenhang mit der Untersuchung an."
+    }
+  }
+}

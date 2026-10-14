@@ -1,0 +1,12 @@
+{
+  "isoType": "DeniedReason10",
+  "definition": "Gibt den Grund an, warum die Anforderung bzw. Anweisung zurückgewiesen wurde.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, warum die Anforderung den Status zurückgewiesen hat."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Enthält zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

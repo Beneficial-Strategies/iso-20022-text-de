@@ -1,0 +1,42 @@
+{
+  "isoType": "CancellationProcessingStatus1Code",
+  "definition": "Gibt den Status einer Stornierungsanforderung an.",
+  "isoCodes": {
+    "CAND": {
+      "name": "Stornierung abgeschlossen",
+      "definition": "Die Stornierung wurde abgeschlossen."
+    },
+    "CANP": {
+      "name": "Stornierung ausstehend",
+      "definition": "Die Stornierung ist ausstehend. Zum jetzigen Zeitpunkt ist nicht bekannt, ob die Stornierung durchgeführt werden kann."
+    },
+    "DEND": {
+      "name": "Abgelehnt",
+      "definition": "Die Stornierung wird nicht ausgeführt."
+    },
+    "EXCH": {
+      "name": "An der Börse eingegangen",
+      "definition": "Die Stornierung wurde an der Börse empfangen."
+    },
+    "INTE": {
+      "name": "Beim Intermediär eingegangen",
+      "definition": "Die Stornierung wurde beim Intermediär empfangen."
+    },
+    "PACK": {
+      "name": "Akzeptiert",
+      "definition": "Die Stornierungsanforderung wurde vom kontoführenden Institut zur Weiterverarbeitung bestätigt."
+    },
+    "PARF": {
+      "name": "Teilweise ausgeführt",
+      "definition": "Der Auftrag ist teilweise ausgeführt, die Stornierungsverarbeitung für den Rest wurde akzeptiert."
+    },
+    "REJT": {
+      "name": "Abgelehnt",
+      "definition": "Die Stornierung wurde zur Weiterverarbeitung abgelehnt."
+    },
+    "REPR": {
+      "name": "In Korrektur",
+      "definition": "Die Stornierungsanforderung befindet sich in Klärung."
+    }
+  }
+}

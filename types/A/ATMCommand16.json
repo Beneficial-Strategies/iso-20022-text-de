@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMCommand16",
+  "definition": "Wartungsbefehl, für den der Gerätebericht angefordert wurde.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art des vom ATM auszuführenden Befehls."
+    },
+    "CommandIdentification": {
+      "definition": "Identifikation der Stelle, die den Befehl erteilt."
+    }
+  }
+}

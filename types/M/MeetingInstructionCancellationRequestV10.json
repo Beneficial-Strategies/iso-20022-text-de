@@ -1,0 +1,14 @@
+{
+  "isoType": "MeetingInstructionCancellationRequestV10",
+  "definition": "Anwendungsbereich|Die Nachricht MeetingInstructionCancellationRequest wird von derselben Partei gesendet, die die|Nachricht MeetingInstruction gesendet hat. Sie wird gesendet, um die Stornierung einer, einiger oder aller in der ursprünglichen Nachricht MeetingInstruction enthaltenen Anweisungen zu beantragen.|Verwendung|Diese Nachricht muss mit einer Nachricht MeetingInstructionStatus beantwortet werden. |Diese Nachrichtendefinition ist für die Verwendung mit dem Business Application Header (BAH) vorgesehen.",
+  "isoElements": {
+    "MeetingInstructionIdentification": {
+      "definition": "Identifikation der ursprünglichen Nachricht zur Versammlungsanweisung, für die die Stornierung beantragt wird, oder der ursprünglichen Nachricht zur Versammlungsanweisung, die die zu stornierenden einzelnen Anweisungen enthält."
+    }
+  },
+  "isoRules": {
+    "Cancellation3Guideline": {
+      "definition": "Es wird empfohlen, die Anfrage zur Stornierung einer Versammlungsanweisung ausschließlich unter Verwendung von MeetingInstructionIdentification vorzunehmen und optionale Elemente zu vermeiden, sofern Marktpraxisregeln und/oder Rechtsvorschriften nichts anderes vorsehen. Sind optionale Elemente enthalten, müssen sie mit den Informationen in der zu stornierenden Nachricht zur Versammlungsanweisung identisch sein."
+    }
+  }
+}

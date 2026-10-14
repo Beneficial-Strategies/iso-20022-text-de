@@ -1,0 +1,12 @@
+{
+  "isoType": "BalanceSubType1Choice",
+  "definition": "Gibt den Saldountertyp an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Saldountertyp, wie in einer externen Code-Liste für Saldountertypen veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Gibt einen proprietären Code für den Saldotyp an."
+    }
+  }
+}

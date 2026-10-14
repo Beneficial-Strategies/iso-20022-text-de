@@ -1,0 +1,42 @@
+{
+  "isoType": "ProcessingType1Code",
+  "definition": "Gibt die Art der Verarbeitungsbeschränkungen an, die das zentrale System anwenden muss.",
+  "isoCodes": {
+    "RJCT": {
+      "name": "Ablehnung",
+      "definition": "Die Beschränkung ist die Ablehnung bei der Validierung der Abwicklungsanweisung."
+    },
+    "CVHD": {
+      "name": "CSD-Validierungssperre",
+      "definition": "Die Beschränkung setzt die CSD-Validierung bei Annahme einer Abwicklungsanweisung automatisch auf „Halten“."
+    },
+    "RSVT": {
+      "name": "Reservierung",
+      "definition": "Die Beschränkung ist das Anlegen einer Reservierung eines Geldsaldos oder eines Wertpapierbestands für einen bestimmten Zweck."
+    },
+    "BLCK": {
+      "name": "Sperrung",
+      "definition": "Die Beschränkung ist die Sperrung einer Partei, eines Wertpapierkontos, eines Wertpapiers oder eines Geldkontos für die Abwicklung, bzw. die Sperrung eines Wertpapierbestands oder Geldsaldos für einen bestimmten Zweck."
+    },
+    "EARM": {
+      "name": "Vormerkung",
+      "definition": "Beschränkung im Zusammenhang mit der Saldoart, die Positionsarten für Wertpapierbestände definiert und verwaltet."
+    },
+    "EFAC": {
+      "name": "Vormerkung für Auto-Besicherung",
+      "definition": "Beschränkung im Zusammenhang mit der Saldoart, die Positionsarten für Wertpapierbestände für die Auto-Besicherung definiert und verwaltet."
+    },
+    "DLVR": {
+      "name": "Lieferbar",
+      "definition": "Es wurde keine Beschränkung definiert."
+    },
+    "COLD": {
+      "name": "Besichert",
+      "definition": "Die Beschränkung steht im Zusammenhang mit einer Transaktion über untergeordnet verpfändete Sicherheiten."
+    },
+    "CSDB": {
+      "name": "CoSD-Sperrung",
+      "definition": "Die Beschränkung unterstützt keine Teilausführung."
+    }
+  }
+}

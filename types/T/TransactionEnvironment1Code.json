@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionEnvironment1Code",
+  "definition": "Gibt das Umfeld der Transaktion an.",
+  "isoCodes": {
+    "MERC": {
+      "name": "Händler",
+      "definition": "Händlerumfeld."
+    },
+    "PRIV": {
+      "name": "Privat",
+      "definition": "Privates Umfeld."
+    },
+    "PUBL": {
+      "name": "Öffentlich",
+      "definition": "Öffentliches Umfeld."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionNarrative4Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe der Narrativart der Kapitalmaßnahme.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Narrativart der Nachricht."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation der Narrativart der Nachricht."
+    }
+  }
+}

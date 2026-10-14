@@ -1,0 +1,4 @@
+{
+  "isoType": "MarketClaimStatusAdviceV04",
+  "definition": "Anwendungsbereich und Verwendung|Die Nachricht MarketClaimStatusAdvice wird von einem Kontoführer an einen Kontoinhaber gesendet, um den Status einer Market-Claim-Transaktion mitzuteilen.|Diese Nachrichtendefinition ist zur Verwendung mit dem Business Application Header (BAH) vorgesehen."
+}

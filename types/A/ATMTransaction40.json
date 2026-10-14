@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMTransaction40",
+  "definition": "Transaktion, für die die Ausnahme gesendet wird.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identifikation der Transaktion."
+    },
+    "ReconciliationIdentification": {
+      "definition": "Identifikation des Abgleichszeitraums."
+    },
+    "Exception": {
+      "definition": "Außerhalb des Dienstes auftretende Ausnahme."
+    },
+    "ExceptionDetail": {
+      "definition": "Erläuterung der Ausnahme."
+    },
+    "ElectronicPurseBalance": {
+      "definition": "Saldo der eingezogenen Karte oder E-Geldbörse, sofern verfügbar."
+    }
+  }
+}

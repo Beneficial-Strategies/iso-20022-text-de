@@ -1,0 +1,12 @@
+{
+  "isoType": "Adjustment5",
+  "definition": "Änderung des Wertes von Waren und/oder Dienstleistungen. Zum Beispiel: Rückvergütung, Rabatt, Aufschlag.",
+  "isoElements": {
+    "Direction": {
+      "definition": "Gibt an, ob die Anpassung vom Gesamtbetrag subtrahiert oder zu ihm addiert werden muss."
+    },
+    "Amount": {
+      "definition": "Gibt den Geldbetrag der Anpassung an."
+    }
+  }
+}

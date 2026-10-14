@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosureReason2Choice",
+  "definition": "Schließungsgrund, ausgedrückt als Code oder als bilateral vereinbarter Code.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund, warum das System geschlossen ist beziehungsweise nicht arbeitet, in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Grund, warum das System geschlossen ist beziehungsweise nicht arbeitet, als bilateral vereinbarter Code."
+    }
+  }
+}

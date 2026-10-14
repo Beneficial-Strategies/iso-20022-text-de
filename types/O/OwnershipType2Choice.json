@@ -1,0 +1,12 @@
+{
+  "isoType": "OwnershipType2Choice",
+  "definition": "Auswahl von Formaten für die Angabe der Inhaberschaftsart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Inhaberschaftsart, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Inhaberschaftsart, ausgedrückt als proprietärer Code."
+    }
+  }
+}

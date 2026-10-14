@@ -1,0 +1,21 @@
+{
+  "isoType": "AccountManagementConfirmation5",
+  "definition": "Informationen zur Art des Auftrags oder der Anweisung.",
+  "isoElements": {
+    "ConfirmationType": {
+      "definition": "Gibt die Bestätigungsart an."
+    },
+    "AccountApplicationIdentification": {
+      "definition": "Eindeutige und unmissverständliche Kennung der Kontoeröffnungs- oder Kontoänderungsanweisung auf Anwendungsebene."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und unmissverständliche Identifikation einer Transaktion, zum Beispiel einer Übertragung, wie vom Anleger oder Kontoinhaber vergeben."
+    },
+    "CounterpartyReference": {
+      "definition": "Eindeutige Identifikation der Transaktion, zum Beispiel einer Übertragung, wie von der Gegenpartei zugewiesen."
+    },
+    "ExistingAccountIdentification": {
+      "definition": "Konto, auf das sich die Kontoeröffnung bezieht."
+    }
+  }
+}

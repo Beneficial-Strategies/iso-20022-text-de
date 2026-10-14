@@ -1,0 +1,26 @@
+{
+  "isoType": "ProrationBelowMinimumQuantity1Code",
+  "definition": "Gibt die Art der anteiligen Zuteilung bei Unterschreitung der Mindestmenge für Anweisungen an.",
+  "isoCodes": {
+    "FULL": {
+      "name": "Vollständig angenommen",
+      "definition": "Anweisungen werden vollständig angenommen (mit der ursprünglich angewiesenen Wertpapiermenge)."
+    },
+    "MIEX": {
+      "name": "Mindestmenge",
+      "definition": "Anweisungen werden angenommen, aber anteilig auf die Mindestmenge für Anweisungen gekürzt."
+    },
+    "MILT": {
+      "name": "Mehrfachmenge",
+      "definition": "Anweisungen werden akzeptiert, jedoch entsprechend dem Wert des Indikators für den Umgang mit Bruchteilen auf das angegebene Mindestvielfache der anzuweisenden Menge auf- oder abgerundet."
+    },
+    "REJT": {
+      "name": "Abgelehnt",
+      "definition": "Anweisungen werden abgelehnt."
+    },
+    "UKWN": {
+      "name": "Unbekannt",
+      "definition": "Die Verarbeitung von Anweisungen, die unter die Mindestmenge für Anweisungen anteilig gekürzt werden, ist unbekannt."
+    }
+  }
+}

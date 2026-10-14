@@ -1,0 +1,30 @@
+{
+  "isoType": "ATMCassetteType1Code",
+  "definition": "Kassettenart.",
+  "isoCodes": {
+    "DPST": {
+      "name": "Ein",
+      "definition": "Kassette für Einzahlungen."
+    },
+    "DISP": {
+      "name": "Aus",
+      "definition": "Kassette für Auszahlung."
+    },
+    "RCYC": {
+      "name": "Recycling",
+      "definition": "Kassette für Recycling."
+    },
+    "RJCT": {
+      "name": "Ablehnung",
+      "definition": "Kassette für Rückweisung."
+    },
+    "RPLT": {
+      "name": "Auffüllung",
+      "definition": "Kassette für Befüllung."
+    },
+    "RTRC": {
+      "name": "Einzug",
+      "definition": "Kassette für Einzug."
+    }
+  }
+}

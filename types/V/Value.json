@@ -1,0 +1,12 @@
+{
+  "isoType": "Value",
+  "definition": "Buchung eines Postens auf einem Geldkonto im Rahmen einer Geldtransaktion, die zu einer Erhöhung oder Verminderung des Kontosaldos führt.",
+  "isoElements": {
+    "BaseCurrencyItem": {
+      "definition": "Gibt den Betrag in der Basiswährung des Empfängers an."
+    },
+    "AlternateCurrencyItem": {
+      "definition": "Gibt den Betrag in einer anderen Währung an."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "InstructionProcessingStatus60Choice",
+  "definition": "Auswahl zwischen verschiedenen Verarbeitungsstatus der Anweisung.",
+  "isoElements": {
+    "Cancelled": {
+      "definition": "Status- und Mengeninformationen zu einer stornierten Anweisungsanfrage."
+    },
+    "AcceptedForFurtherProcessing": {
+      "definition": "Statusinformationen zu einer akzeptierten Anweisungsanfrage. Das bedeutet, dass die Anweisung empfangen wurde, verarbeitbar ist und für die Weiterverarbeitung validiert wurde."
+    },
+    "Forwarded": {
+      "definition": "Die Anweisung wurde akzeptiert und an den nächsten Intermediär in der Kette weitergeleitet."
+    },
+    "Rejected": {
+      "definition": "Statusinformationen zu einer Anweisungsanfrage, die aus Systemgründen für die Weiterverarbeitung abgelehnt wurde."
+    },
+    "Pending": {
+      "definition": "Statusinformationen zu einer ausstehenden Anweisung."
+    },
+    "Returned": {
+      "definition": "Angewiesene Einheiten werden an die anweisende Partei ganz oder teilweise zurückgegeben."
+    },
+    "DefaultAction": {
+      "definition": "Die Standardmaßnahme wird ergriffen."
+    },
+    "StandingInstruction": {
+      "definition": "Die Dauerauftragsanweisung (Standing Instruction) wurde angewendet."
+    },
+    "ReceivedByIssuerOrOfferor": {
+      "definition": "Die Anweisung wurde vom Emittenten oder Anbieter empfangen und akzeptiert."
+    },
+    "ProprietaryStatus": {
+      "definition": "Proprietärer Status im Zusammenhang mit einer Anweisung."
+    }
+  }
+}

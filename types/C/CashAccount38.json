@@ -1,0 +1,21 @@
+{
+  "isoType": "CashAccount38",
+  "definition": "Enthält die Angaben zur Identifikation eines Kontos.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "Type": {
+      "definition": "Gibt die Art oder Verwendung des Kontos an."
+    },
+    "Currency": {
+      "definition": "Identifikation der Währung, in der das Konto geführt wird. ||Verwendung: Die Währung sollte nur verwendet werden, wenn ein und dieselbe Kontonummer mehrere Währungen abdeckt|und die initiierende Partei angeben muss, welche Währung für die Abwicklung auf dem Konto zu verwenden ist."
+    },
+    "Name": {
+      "definition": "Name des Kontos, von der kontoführenden Institution in Absprache mit dem Kontoinhaber vergeben, als zusätzliches Mittel zur Identifikation des Kontos.||Verwendung: Der Kontoname unterscheidet sich vom Namen des Kontoinhabers. Der Kontoname wird in bestimmten Nutzergruppen verwendet, um das Konto zusätzlich zur Identität des Kontoinhabers und zur Kontonummer zu bezeichnen."
+    },
+    "Proxy": {
+      "definition": "Gibt einen alternativen angenommenen Namen zur Identifikation des Kontos an."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "MatchingProcess1Code",
+  "definition": "Gibt die Aktion an, die im Abgleichsprozess durchzuführen ist.",
+  "isoCodes": {
+    "UNMT": {
+      "name": "Matching aufheben",
+      "definition": "Für die referenzierte Transaktion wird die Aufhebung des Abgleichs (Unmatch) beantragt."
+    },
+    "MTRE": {
+      "name": "Matching fortsetzen",
+      "definition": "Der Abgleichsprozess ist für die referenzierte Transaktion fortzusetzen."
+    }
+  }
+}

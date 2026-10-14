@@ -1,0 +1,15 @@
+{
+  "isoType": "SettlementTypeAndAdditionalParameters17",
+  "definition": "Liefert Informationen zu Transaktionsart und Identifikation.",
+  "isoElements": {
+    "CommonIdentification": {
+      "definition": "Eindeutige Referenz, auf die sich die beiden Handelspartner zur Identifizierung des Handelsgeschäfts geeinigt haben."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Vom kontoführenden Institut vergebene Identifikation zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "ReconciliationIndicator": {
+      "definition": "Gibt an, ob die Abwicklungstransaktion bereits im Markt versendet wurde und vom Kontoinhaber nur zu Abstimmungszwecken an den Kontoführer gesendet wird."
+    }
+  }
+}

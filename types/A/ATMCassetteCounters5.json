@@ -1,0 +1,48 @@
+{
+  "isoType": "ATMCassetteCounters5",
+  "definition": "Zähler der Medien in einer Kassette des ATM.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art der Zähler."
+    },
+    "AddedNumber": {
+      "definition": "Anzahl der bei Wartungsvorgängen hinzugefügten Medien."
+    },
+    "RemovedNumber": {
+      "definition": "Anzahl der bei Wartungsvorgängen entnommenen Medien."
+    },
+    "RemovedAmount": {
+      "definition": "Betrag der bei Wartungsvorgängen entnommenen Medien."
+    },
+    "DispensedNumber": {
+      "definition": "Gesamtzahl der aus der Kassette entnommenen Medien."
+    },
+    "DepositedNumber": {
+      "definition": "Gesamtzahl der in die Kassette eingezahlten Medien."
+    },
+    "DepositedAmount": {
+      "definition": "Betrag der in die Kassette eingezahlten Medien."
+    },
+    "RecycledNumber": {
+      "definition": "Gesamtzahl der recycelten Medien aus der Kassette."
+    },
+    "RetractedNumber": {
+      "definition": "Gesamtzahl der aus der Kassette stammenden eingezogenen Medien."
+    },
+    "RetractedAmount": {
+      "definition": "Während des Vorgangs eingezogener Gesamtbetrag. Nur vorgesehen für Fälle, in denen die Einheiten in der Kassette nicht alle denselben Wert haben (zum Beispiel beim Einziehen von Schecks)."
+    },
+    "RejectedNumber": {
+      "definition": "Gesamtzahl der Medien aus dieser Kassette, die sich im Rückweisungsbehälter befinden."
+    },
+    "PresentedNumber": {
+      "definition": "Gesamtzahl der dem Kunden präsentierten Medien."
+    },
+    "InitialNumber": {
+      "definition": "Beim Wartungsvorgang hinzugefügte Anfangsanzahl."
+    },
+    "InitialAmount": {
+      "definition": "Beim Wartungsvorgang hinzugefügter Anfangsbetrag."
+    }
+  }
+}

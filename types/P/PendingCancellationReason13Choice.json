@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingCancellationReason13Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe des Grundes, warum eine für die zugehörige Anweisung gesendete Stornierungsanfrage ausstehend ist.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Grundes, weshalb ein für die zugehörige Anweisung gesendeter Stornierungsauftrag ausstehend ist."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation des Grundes, weshalb ein für die zugehörige Anweisung gesendeter Stornierungsauftrag ausstehend ist."
+    }
+  }
+}

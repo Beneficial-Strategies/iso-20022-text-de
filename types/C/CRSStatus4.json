@@ -1,0 +1,15 @@
+{
+  "isoType": "CRSStatus4",
+  "definition": "Informationen zum Status nach dem Common Reporting Standard (CRS).",
+  "isoElements": {
+    "Type": {
+      "definition": "Status nach dem Common Reporting Standard (CRS)."
+    },
+    "Source": {
+      "definition": "Quelle des Status nach dem Common Reporting Standard (CRS)."
+    },
+    "ExceptionalReportingCountry": {
+      "definition": "Meldeland für den CRS-Status, wenn auf Länderebene eine Ausnahme besteht."
+    }
+  }
+}

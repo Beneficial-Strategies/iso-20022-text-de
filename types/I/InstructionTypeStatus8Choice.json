@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionTypeStatus8Choice",
+  "definition": "Auswahl des Status des Anweisungstyps.",
+  "isoElements": {
+    "InstructionStatus": {
+      "definition": "Status jeder einzelnen Versammlungsanweisung, die in der Anweisungsnachricht enthalten ist, die in InstructionType/InstructionIdentification identifiziert ist."
+    },
+    "CancellationStatus": {
+      "definition": "Status der Nachricht mit Stornierungsauftrag für Versammlungsanweisungen oder der einzelnen Stornierungsaufträge für Versammlungsanweisungen. Die Nachricht ist in InstructionType/InstructionCancellationIdentification identifiziert."
+    }
+  }
+}

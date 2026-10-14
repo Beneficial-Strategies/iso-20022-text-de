@@ -1,0 +1,12 @@
+{
+  "isoType": "BeneficiaryCertificationType1FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe der Art der Bescheinigung des wirtschaftlich Berechtigten.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Art der Bescheinigung des wirtschaftlich Berechtigten."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe der Art der Bescheinigung des wirtschaftlich Berechtigten."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "ElectionMovementType2Code",
+  "definition": "Gibt die Auswirkung der Wahl einer Kapitalmaßnahmen-Option auf die Bestände an.",
+  "isoCodes": {
+    "DRCT": {
+      "name": "Direkt",
+      "definition": "Direkte Bewegung von Ressourcen, d. h. Barmittel oder Wertpapiere, die direkt dem Konto der Zahlstelle gutgeschrieben werden."
+    },
+    "SEQD": {
+      "name": "Sequestriert",
+      "definition": "Die Wahl führt zu einer Änderung der Bestandsart, wodurch die Verfügungsgewalt über die Wertpapiere statt der Wertpapiere selbst übertragen wird."
+    }
+  }
+}

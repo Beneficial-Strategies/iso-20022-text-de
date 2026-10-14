@@ -1,0 +1,134 @@
+{
+  "isoType": "InstructionProcessingStatus1Code",
+  "definition": "Gibt den Status einer Anweisung an.",
+  "isoCodes": {
+    "CAN1": {
+      "name": "Stornierung 1",
+      "definition": "Stornierung ausstehend; nur eine Seite wurde erfasst, und eine Stornierungsanforderung wurde gesendet."
+    },
+    "CAN2": {
+      "name": "Stornierung 2",
+      "definition": "Stornierung ausstehend; beide Seiten wurden erfasst, das Geschäft wurde noch nicht abgeglichen, und eine Seite hat eine Stornierungsanforderung gesendet."
+    },
+    "CAN3": {
+      "name": "Stornierung 3",
+      "definition": "Stornierung ausstehend; beide Seiten wurden erfasst, das Geschäft ist abgeglichen, und eine Seite hat eine Stornierungsanforderung gesendet."
+    },
+    "CAND": {
+      "name": "Storniert",
+      "definition": "Die Anweisung wurde storniert."
+    },
+    "CANO": {
+      "name": "Von anderer Partei storniert",
+      "definition": "Die Anweisung wurde von einer anderen Partei als der anweisenden Partei storniert, zum Beispiel von einer Marktinfrastruktur wie einer Börse."
+    },
+    "CANP": {
+      "name": "Stornierung ausstehend",
+      "definition": "Ihre eigene Stornierungsanforderung für diese Anweisung steht aus und wartet auf die weitere Verarbeitung."
+    },
+    "CGEN": {
+      "name": "Generiert",
+      "definition": "Der Kontoführer oder ein Dritter hat die Transaktion erstellt. Sie wurde nicht direkt vom Kontoinhaber angewiesen."
+    },
+    "COSE": {
+      "name": "Vollständig ausgeführt, Bestätigung gesendet",
+      "definition": "Der Auftrag ist vollständig ausgeführt, und die Bestätigung wurde gesendet."
+    },
+    "CPRC": {
+      "name": "Stornierung angefordert",
+      "definition": "Die Stornierungsanforderung der Gegenpartei wartet auf Ihre Stornierungsanforderung oder Ihre Zustimmung."
+    },
+    "DFLA": {
+      "name": "Standardmaßnahme",
+      "definition": "Die Standardmaßnahme wird ergriffen."
+    },
+    "DONE": {
+      "name": "Erledigt",
+      "definition": "Der Auftrag ist teilweise ausgeführt, und für den Handelstag sind keine weiteren Ausführungen zu erwarten."
+    },
+    "DONF": {
+      "name": "Teilweise ausgeführter Auftrag",
+      "definition": "Der Auftrag ist teilweise ausgeführt, und es werden keine weiteren Ausführungen stattfinden."
+    },
+    "EXCH": {
+      "name": "An der Börse eingegangen",
+      "definition": "Der Auftrag wurde an der Börse empfangen."
+    },
+    "EXSE": {
+      "name": "Vollständig ausgeführt, Ausführungsmeldung gesendet",
+      "definition": "Der Auftrag wurde vollständig ausgeführt, und die Ausführung wurde gesendet."
+    },
+    "FORC": {
+      "name": "Erzwungene Ablehnung",
+      "definition": "Die Nachricht wurde vom Dienstleister automatisch gesendet, um mitzuteilen, dass die Abwicklung nicht stattfinden wird."
+    },
+    "FUTU": {
+      "name": "Zukünftig",
+      "definition": "Alle Prüfungen zur Anweisung (außer Sicherheiten) waren erfolgreich."
+    },
+    "INTE": {
+      "name": "Beim Intermediär eingegangen",
+      "definition": "Der Auftrag wurde beim Intermediär empfangen."
+    },
+    "NOTC": {
+      "name": "Bereits gematcht und bestätigt",
+      "definition": "Die Anweisung kann nicht storniert werden, da sie bereits abgeglichen und affirmiert wurde."
+    },
+    "OPOD": {
+      "name": "Offener Auftrag",
+      "definition": "Der Auftrag ist offen."
+    },
+    "OVER": {
+      "name": "Überzugeteilt",
+      "definition": "Die Menge des Finanzinstruments des Blockgeschäfts wurde überzugeteilt."
+    },
+    "PACK": {
+      "name": "Empfangen und akzeptiert",
+      "definition": "Die Anweisung wurde von der kontoführenden Stelle bestätigt und zur Weiterverarbeitung angenommen."
+    },
+    "PAFI": {
+      "name": "Teilausführung",
+      "definition": "Der Auftrag wurde teilweise ausgeführt, und die Restmenge wird zwischengelagert (Warehousing)."
+    },
+    "PART": {
+      "name": "Teilstornierung",
+      "definition": "Der Auftrag wurde wie gewünscht teilweise storniert."
+    },
+    "PPRC": {
+      "name": "Verarbeitung ausstehend",
+      "definition": "Die Verarbeitung der Anweisung steht aus."
+    },
+    "REJT": {
+      "name": "Abgelehnt",
+      "definition": "Die Anweisung wurde zur Weiterverarbeitung abgelehnt."
+    },
+    "REPR": {
+      "name": "In Korrektur",
+      "definition": "Die Anweisung wurde angenommen, befindet sich jedoch in der Klärung."
+    },
+    "SESE": {
+      "name": "Abwicklungsanweisung gesendet",
+      "definition": "Die Abwicklungsanweisung wurde an Ihren Verwahrer gesendet."
+    },
+    "STIN": {
+      "name": "Dauerauftrag",
+      "definition": "Die Dauerauftragsanweisung (Standing Instruction) wurde angewendet."
+    },
+    "SUSP": {
+      "name": "Handel von der Börse ausgesetzt",
+      "definition": "Der Handel ist von der Börse ausgesetzt."
+    },
+    "TREA": {
+      "name": "Bearbeitet",
+      "definition": "Die Transaktion wurde bearbeitet (Status Tri-Party-Sicherheiten)."
+    },
+    "UNDE": {
+      "name": "Unterzugeteilt",
+      "definition": "Die Menge des Finanzinstruments des Blockgeschäfts wurde unterzugeteilt."
+    },
+    "MPRC": {
+      "name": "Änderung angefordert",
+      "definition": "Die Änderungsanforderung der Gegenpartei wartet auf Ihre Änderungsanforderung oder Ihre Zustimmung."
+    }
+  }
+}

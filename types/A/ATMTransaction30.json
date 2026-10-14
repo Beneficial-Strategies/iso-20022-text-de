@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMTransaction30",
+  "definition": "Informationen zum Abgleich.",
+  "isoElements": {
+    "TypeOfOperation": {
+      "definition": "Art des logischen oder physischen Vorgangs am ATM, für den die Zähler berechnet werden."
+    },
+    "TransactionIdentification": {
+      "definition": "Identifikation der Abgleichstransaktion."
+    },
+    "ReconciliationIdentification": {
+      "definition": "Identifikation des vom ATM vergebenen Abgleichszeitraums."
+    },
+    "Cassette": {
+      "definition": "Informationen zu den Kassetten des ATM."
+    }
+  }
+}

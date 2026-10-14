@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementDate1Code",
+  "definition": "Gibt das Abwicklungsdatum in codierter Form an.",
+  "isoCodes": {
+    "ASAP": {
+      "name": "So bald wie möglich",
+      "definition": "Die Übertragung ist so bald wie möglich durchzuführen."
+    },
+    "ENDC": {
+      "name": "Bei Vertragsende",
+      "definition": "Die Übertragung ist am Ende des Vertrags durchzuführen."
+    },
+    "WHIF": {
+      "name": "Wenn und falls ausgegeben",
+      "definition": "Die Abwicklung erfolgt, wenn das Finanzinstrument vom Emittenten ausgegeben wird."
+    }
+  }
+}

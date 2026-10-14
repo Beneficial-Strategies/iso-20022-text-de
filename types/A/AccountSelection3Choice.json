@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountSelection3Choice",
+  "definition": "Auswahl von Kriterien zur Identifikation eines Kontos.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "OtherAccountSelectionData": {
+      "definition": "Verschiedene Informationen zum Anlagekonto, die zur Auswahl eines bestimmten Kontos verwendet werden."
+    }
+  }
+}

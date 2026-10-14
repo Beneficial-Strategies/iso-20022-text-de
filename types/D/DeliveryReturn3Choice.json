@@ -1,0 +1,12 @@
+{
+  "isoType": "DeliveryReturn3Choice",
+  "definition": "Auswahl des Formats für die Informationen zur Lieferrückgabe.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als ISO-20022-Code ausgedrückte Lieferrückgabe."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Lieferrückgabe."
+    }
+  }
+}

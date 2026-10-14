@@ -1,0 +1,30 @@
+{
+  "isoType": "AuthenticationEntity2Code",
+  "definition": "Stelle oder Gerät, das die Überprüfung durchgeführt hat.",
+  "isoCodes": {
+    "ICCD": {
+      "name": "ICC",
+      "definition": "Anwendung auf der Chipkarte (Integrated Circuit Card), zum Beispiel eine Offline-PIN-Überprüfung."
+    },
+    "AGNT": {
+      "name": "Bevollmächtigter Vertreter",
+      "definition": "Autorisierungsagent des Emittenten."
+    },
+    "MERC": {
+      "name": "Händler",
+      "definition": "Händler (zum Beispiel Signaturprüfung durch das Kassenpersonal)."
+    },
+    "ACQR": {
+      "name": "Acquirer",
+      "definition": "Acquirer der Transaktion."
+    },
+    "ISSR": {
+      "name": "Herausgeber",
+      "definition": "Kartenemittent."
+    },
+    "TRML": {
+      "name": "Terminal",
+      "definition": "Sichere Anwendung im Terminal."
+    }
+  }
+}

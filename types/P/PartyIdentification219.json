@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification219",
+  "definition": "Identifikation einer Partei.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Name und Adresse der Partei."
+    },
+    "Identification": {
+      "definition": "Identifikation der Partei."
+    },
+    "ContactPerson": {
+      "definition": "Identifiziert die Kontaktperson anhand von Name, Vorname und Adresse."
+    }
+  }
+}

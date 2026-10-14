@@ -1,0 +1,12 @@
+{
+  "isoType": "DateAndDateTime1Choice",
+  "definition": "Auswahl zwischen einem Datum oder einem Format aus Datum und Uhrzeit.",
+  "isoElements": {
+    "Date": {
+      "definition": "Numerische Darstellung von Tag, Monat und Jahr."
+    },
+    "DateTime": {
+      "definition": "Numerische Darstellung von Uhrzeit, Tag, Monat und Jahr."
+    }
+  }
+}

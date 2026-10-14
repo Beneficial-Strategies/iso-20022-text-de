@@ -1,0 +1,14 @@
+{
+  "isoType": "CashPaymentStatus2Code",
+  "definition": "Gibt den Status einer Zahlungsanweisung zu einem bestimmten Zeitpunkt an.",
+  "isoCodes": {
+    "PDNG": {
+      "name": "Ausstehend",
+      "definition": "Die Zahlung wartet auf die Abwicklung."
+    },
+    "FINL": {
+      "name": "Endgültig",
+      "definition": "Die Zahlung wurde abgewickelt oder gestoppt."
+    }
+  }
+}

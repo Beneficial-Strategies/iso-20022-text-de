@@ -1,0 +1,22 @@
+{
+  "isoType": "SafekeepingPlace1Code",
+  "definition": "Gibt die Art des Verwahrorts an.",
+  "isoCodes": {
+    "CUST": {
+      "name": "Bei lokaler Verwahrstelle gehaltene Anteile",
+      "definition": "Bei einer lokalen Depotbank gehaltene Finanzinstrumente."
+    },
+    "ICSD": {
+      "name": "Bei ICSD gehaltene Anteile",
+      "definition": "Bei einer International Central Securities Depository gehaltene Finanzinstrumente."
+    },
+    "NCSD": {
+      "name": "Bei NCSD gehaltene Anteile",
+      "definition": "Bei einer National Central Securities Depository gehaltene Finanzinstrumente."
+    },
+    "SHHE": {
+      "name": "Anderweitig verwahrte Anteile",
+      "definition": "Wird für bestimmte Finanzinstrumente verwendet, zum Beispiel US-Investmentfonds, bei denen die Abwicklung nur intern erfolgt, das heißt, es findet keine externe Wertpapierbewegung statt."
+    }
+  }
+}

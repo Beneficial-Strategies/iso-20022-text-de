@@ -1,0 +1,15 @@
+{
+  "isoType": "AdditionalQueryParameters15",
+  "definition": "Zusätzliche spezifische Abfragekriterien.",
+  "isoElements": {
+    "Status": {
+      "definition": "Antrag auf Erhalt eines Berichts über ausstehende Wertpapiertransaktionen für Transaktionen mit dem angegebenen Status."
+    },
+    "Reason": {
+      "definition": "Antrag auf Erhalt eines Berichts über ausstehende Wertpapiertransaktionen für Transaktionen mit dem angegebenen Statusgrund."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Finanzinstrumente, die eine Summe von Rechten des Anlegers gegenüber dem Emittenten darstellen."
+    }
+  }
+}

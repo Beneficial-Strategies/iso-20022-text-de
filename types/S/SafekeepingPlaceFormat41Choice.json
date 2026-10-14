@@ -1,0 +1,21 @@
+{
+  "isoType": "SafekeepingPlaceFormat41Choice",
+  "definition": "Auswahl zwischen Formaten für den Verwahrort.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Verwahrort, ausgedrückt als Code und Textbeschreibung."
+    },
+    "Country": {
+      "definition": "Verwahrort, ausgedrückt mit einem Ländercode."
+    },
+    "DigitalLedgerIdentification": {
+      "definition": "Verwahrort, ausgedrückt mit einer Digital Ledger Identifier. Sie identifiziert ein digitales Ledger oder ein Distributed-Ledger-System (zum Beispiel Blockchain oder ähnliche Plattformen)."
+    },
+    "TypeAndIdentification": {
+      "definition": "Verwahrort, ausgedrückt mit einer Art und einer Identifikation."
+    },
+    "Proprietary": {
+      "definition": "Verwahrort, ausgedrückt mit einem proprietären Identifikationsschema."
+    }
+  }
+}

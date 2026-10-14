@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionAdditionalInformation1",
+  "definition": "Enthält zusätzliche Informationen zu den Lieferdetails, den Angaben zum wirtschaftlich Berechtigten usw.",
+  "isoElements": {
+    "BeneficialOwnerDetails": {
+      "definition": "Liefert Informationen über den wirtschaftlich Berechtigten der Wertpapiere."
+    },
+    "RegistrationDetails": {
+      "definition": "Liefert die für die Registrierung erforderlichen Informationen."
+    },
+    "ReceiverIdentification": {
+      "definition": "Identifikation des Empfängers der ausgelieferten Ressourcen (Geld/Wertpapiere), falls die Ressourcen außerhalb des CSD geliefert werden müssen."
+    },
+    "CertificationIndicator": {
+      "definition": "Gibt an, ob vom Kontoinhaber eine Bescheinigung erforderlich ist. |Y: Bescheinigung erforderlich |N: keine Bescheinigung erforderlich."
+    },
+    "CertificationType": {
+      "definition": "Art der erforderlichen Bescheinigung."
+    },
+    "DeliveryDetails": {
+      "definition": "Enthält Informationen zu den Lieferdetails der Erlöse."
+    },
+    "AdditionalInstruction": {
+      "definition": "Enthält zusätzliche Details zur Anweisung zur Kapitalmaßnahme."
+    }
+  }
+}

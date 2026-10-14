@@ -1,0 +1,12 @@
+{
+  "isoType": "NettingEligibility5Choice",
+  "definition": "Auswahl des Formats für die Angaben zur Netting-Eignung.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Gibt an, ob die Abwicklungstransaktion für das Netting zulässig ist."
+    },
+    "Proprietary": {
+      "definition": "Netting-Eignung, ausgedrückt als proprietärer Code."
+    }
+  }
+}

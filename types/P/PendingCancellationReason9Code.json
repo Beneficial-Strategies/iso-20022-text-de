@@ -1,0 +1,30 @@
+{
+  "isoType": "PendingCancellationReason9Code",
+  "definition": "Gibt den Grund an, weshalb der Stornierungsauftrag den Status „ausstehend“ hat.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Transaktion bzw. Anweisung ging nach Ablauf der vom kontoführenden Institut festgelegten Frist ein."
+    },
+    "DQUA": {
+      "name": "Ablehnung wegen Menge",
+      "definition": "Ungültige oder nicht erkannte angewiesene Menge."
+    },
+    "DQCS": {
+      "name": "Ablehnung des Betrags",
+      "definition": "Nicht erkannter oder ungültiger angewiesener Barbetrag."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "ECRD": {
+      "name": "Antwortfrist für die Wahl gegenüber der Gegenpartei verpasst",
+      "definition": "Nach der Marktfrist für die Antwort auf die Wahl gegenüber der Gegenpartei eingegangen."
+    }
+  }
+}

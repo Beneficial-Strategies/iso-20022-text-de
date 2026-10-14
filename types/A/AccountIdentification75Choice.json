@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification75Choice",
+  "definition": "Auswahl zwischen allen Konten (GENR - General in ISO 15022) oder einem oder mehreren ausgewählten Konten.",
+  "isoElements": {
+    "ForAllAccounts": {
+      "definition": "Alle Verwahrkonten, die das zugrunde liegende Finanzinstrument besitzen."
+    },
+    "AccountsList": {
+      "definition": "Liste ausgewählter Verwahrkonten, auf die sich das Ereignis der Kapitalmaßnahme bezieht."
+    }
+  }
+}

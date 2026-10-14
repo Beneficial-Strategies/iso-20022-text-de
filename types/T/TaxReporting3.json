@@ -1,0 +1,24 @@
+{
+  "isoType": "TaxReporting3",
+  "definition": "Informationen für die Steuermeldung.",
+  "isoElements": {
+    "TaxationCountry": {
+      "definition": "Steuerland der Organisation oder natürlichen Person."
+    },
+    "TaxRate": {
+      "definition": "Anzuwendender Steuersatz."
+    },
+    "TaxPayer": {
+      "definition": "Partei, die die Steuer zahlt."
+    },
+    "TaxRecipient": {
+      "definition": "Partei, die die Steuer erhält."
+    },
+    "CashAccountDetails": {
+      "definition": "Geldkontoinformationen für die Zahlung der Steuer."
+    },
+    "Description": {
+      "definition": "Zusätzliche Informationen für die Steuermeldung."
+    }
+  }
+}

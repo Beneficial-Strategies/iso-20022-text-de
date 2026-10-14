@@ -1,0 +1,14 @@
+{
+  "isoType": "ConsentType1Code",
+  "definition": "Gibt die Art der angekündigten Zustimmung an.",
+  "isoCodes": {
+    "CTRM": {
+      "name": "Änderung der Bedingungen",
+      "definition": "Änderung der Bedingungen der Anleihe."
+    },
+    "DUPY": {
+      "name": "Fällig und zahlbar",
+      "definition": "Änderung der Fälligkeits- und Zahlungsbedingungen."
+    }
+  }
+}

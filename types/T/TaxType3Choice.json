@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxType3Choice",
+  "definition": "Auswahl von Formaten für die Steuerart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Steuerart, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Steuerart, ausgedrückt als proprietärer Code."
+    }
+  }
+}

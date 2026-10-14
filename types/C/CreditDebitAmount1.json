@@ -1,0 +1,12 @@
+{
+  "isoType": "CreditDebitAmount1",
+  "definition": "Gibt einen Geldbetrag als Soll- oder Habenbetrag an.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag in einer zulässigen Währung."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Geldbetrag ein Soll- oder ein Habenbetrag ist."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BusinessDayReportOrError9Choice",
+  "definition": "Auswahl zwischen den Details der Geschäftstagsinformationen oder einem betrieblichen Fehler, wenn die angeforderten Daten nicht abgerufen werden können.",
+  "isoElements": {
+    "BusinessReport": {
+      "definition": "Meldet entweder Geschäftstagsinformationen oder einen fachlichen Fehler."
+    },
+    "OperationalError": {
+      "definition": "Gibt an, dass bei der Verarbeitung der zugehörigen Anfrage ein Betriebsfehler aufgetreten ist."
+    }
+  }
+}

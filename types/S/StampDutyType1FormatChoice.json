@@ -1,0 +1,12 @@
+{
+  "isoType": "StampDutyType1FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe der Informationen zur Stempelsteuer.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Informationen zur Stempelsteuer."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe der Informationen zur Stempelsteuer."
+    }
+  }
+}

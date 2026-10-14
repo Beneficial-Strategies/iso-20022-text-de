@@ -1,0 +1,68 @@
+{
+  "isoType": "ReportEntry16",
+  "definition": "Enthält weitere Details zu einer Buchung im Bericht.",
+  "isoElements": {
+    "EntryReference": {
+      "definition": "Eindeutige Referenz für die Buchung."
+    },
+    "Amount": {
+      "definition": "Geldbetrag der Bargeldbuchung."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob es sich bei der Buchung um eine Gutschrift oder eine Lastschrift handelt."
+    },
+    "ReversalIndicator": {
+      "definition": "Gibt an, ob die Buchung das Ergebnis einer Rückbuchung ist.|Verwendung: Dieses Element sollte nur vorhanden sein, wenn die Buchung das Ergebnis einer Rückbuchung ist.|Lautet CreditDebitIndicator CRDT und ReversalIndicator Yes, war der ursprüngliche Vorgang eine Lastschrift.|Lautet CreditDebitIndicator DBIT und ReversalIndicator Yes, war der ursprüngliche Vorgang eine Gutschrift."
+    },
+    "Status": {
+      "definition": "Status einer Buchung in den Büchern des Kontoführers."
+    },
+    "BookingDate": {
+      "definition": "Datum und Uhrzeit, zu denen eine Buchung in den Büchern des Kontoführers auf einem Konto verbucht wird.||Verwendung: Das Buchungsdatum ist das voraussichtliche Buchungsdatum, es sei denn, der Status lautet gebucht; in diesem Fall ist es das tatsächliche Buchungsdatum."
+    },
+    "ValueDate": {
+      "definition": "Datum und Uhrzeit, zu denen Vermögenswerte dem Kontoinhaber im Fall einer Gutschrift zur Verfügung stehen oder im Fall einer Lastschrift nicht mehr zur Verfügung stehen.|Verwendung: Ist der Buchungsstatus ausstehend und ein Wertstellungsdatum vorhanden, bezieht sich das Wertstellungsdatum auf ein erwartetes/gewünschtes Wertstellungsdatum.|Bei Buchungen mit Verfügbarkeitsfrist/Float, für die Verfügbarkeitsinformationen angegeben sind, darf das Wertstellungsdatum nicht verwendet werden. In diesem Fall gibt die Verfügbarkeitskomponente die Anzahl der Verfügbarkeitstage an."
+    },
+    "AccountServicerReference": {
+      "definition": "Eindeutige Referenz, vergeben vom kontoführenden Institut, zur zweifelsfreien Identifikation der Buchung."
+    },
+    "Availability": {
+      "definition": "Gibt an, wann der gebuchte Geldbetrag verfügbar wird, das heißt, wann darauf zugegriffen werden kann und er Zinsen zu erzeugen beginnt. ||Verwendung: Diese Art von Information wird in den USA verwendet und ist an bestimmte Instrumente wie Schecks gebunden.|Beispiel: Wird ein Scheck eingereicht, wird er am Einreichungstag gebucht, der Geldbetrag ist jedoch erst ab dem angegebenen Verfügbarkeitstag zugänglich (gemäß den nationalen Bankvorschriften)."
+    },
+    "BankTransactionCode": {
+      "definition": "Satz von Elementen zur vollständigen Identifikation der Art der zugrunde liegenden Transaktion, die zu einer Buchung führt."
+    },
+    "CommissionWaiverIndicator": {
+      "definition": "Gibt an, ob die Transaktion von der Provision befreit ist."
+    },
+    "AdditionalInformationIndicator": {
+      "definition": "Gibt an, ob die Details der zugrunde liegenden Transaktion in einer separaten Nachricht übermittelt werden, wie bei Gesamtbuchungen."
+    },
+    "AmountDetails": {
+      "definition": "Enthält Informationen zum ursprünglichen Betrag.||Verwendung: Diese Komponente (auf Buchungsebene) sollte verwendet werden, wenn ein ursprünglicher Sammel- oder Gesamtbetrag angegeben werden muss. Bei Bedarf können die einzelnen ursprünglichen Beträge in derselben Komponente auf Ebene der Transaktionsdetails angegeben werden."
+    },
+    "Charges": {
+      "definition": "Enthält Informationen zu den Entgelten, die vorab avisiert oder im Buchungsbetrag enthalten sind.||Verwendung: Diese Komponente wird bei Sammel- oder Gesamtbuchungen auf Buchungsebene verwendet."
+    },
+    "TechnicalInputChannel": {
+      "definition": "Kanal, über den die zur Buchung gehörende Anweisung technisch eingegeben wurde."
+    },
+    "Interest": {
+      "definition": "Enthält Details zum im Buchungsbetrag enthaltenen Zinsbetrag.||Verwendung: Diese Komponente wird bei Sammel- oder Gesamtbuchungen auf Buchungsebene verwendet."
+    },
+    "CardTransaction": {
+      "definition": "Enthält Details zur Kartentransaktion, die im Buchungsbetrag enthalten ist, wenn sie vom Kontoführer globalisiert wurde."
+    },
+    "EntryDetails": {
+      "definition": "Enthält Details zur Buchung."
+    },
+    "AdditionalEntryInformation": {
+      "definition": "Weitere Details zur Buchung."
+    }
+  },
+  "isoRules": {
+    "ReferenceGuideline": {
+      "definition": "Zur Identifikation der zugrunde liegenden Transaktion(en) sollte mindestens eine Referenz vorhanden sein."
+    }
+  }
+}

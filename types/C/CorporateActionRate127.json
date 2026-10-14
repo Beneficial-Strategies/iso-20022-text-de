@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionRate127",
+  "definition": "Gibt Sätze im Zusammenhang mit einer Kapitalmaßnahmen-Option an.",
+  "isoElements": {
+    "ProposedRate": {
+      "definition": "Im Rahmen einer Neuvermarktung von variabel verzinslichen Schuldverschreibungen vorgeschlagener Satz."
+    },
+    "OversubscriptionRate": {
+      "definition": "Satz der zulässigen Überzeichnung."
+    },
+    "RequestedWithholdingTaxRate": {
+      "definition": "Beantragter Steuersatz, der von den Steuerbehörden der Rechtsordnung des Emittenten einbehalten wird und für den eine Entlastung an der Quelle und/oder eine Rückforderung möglich sein kann."
+    },
+    "RequestedSecondLevelTaxRate": {
+      "definition": "Beantragter Satz, zu dem die Erträge von einer anderen Rechtsordnung als der des steuerlichen Sitzlandes des Emittenten einbehalten werden und für den eine Entlastung an der Quelle und/oder eine Rückforderung möglich sein kann."
+    }
+  }
+}

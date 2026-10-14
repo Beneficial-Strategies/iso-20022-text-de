@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingOrderOrError10Choice",
+  "definition": "Auswahl zwischen den Einzelheiten des Dauerauftrags oder einem Geschäftsfehler, wenn die angeforderten Daten nicht abgerufen werden können.",
+  "isoElements": {
+    "StandingOrder": {
+      "definition": "Angeforderte Informationen zum Konto."
+    },
+    "BusinessError": {
+      "definition": "Grund, weshalb die angeforderten Geschäftsinformationen nicht angegeben werden."
+    }
+  }
+}

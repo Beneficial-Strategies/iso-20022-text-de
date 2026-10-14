@@ -1,0 +1,22 @@
+{
+  "isoType": "SettlementTransactionCondition5Code",
+  "definition": "Gibt die Bedingungen an, zu denen der Auftrag/Handel abzuwickeln ist.",
+  "isoCodes": {
+    "PART": {
+      "name": "Teilabwicklung zulässig",
+      "definition": "Teilabwicklung ist zulässig."
+    },
+    "NPAR": {
+      "name": "Teilabwicklung nicht zulässig",
+      "definition": "Teilabwicklung ist nicht zulässig."
+    },
+    "PARC": {
+      "name": "Teilabwicklung mit Barschwellenwert zulässig",
+      "definition": "Teilabwicklung ist zulässig, muss aber einen Mindest-Geldwert erfüllen (in den Stammdaten definierter Wert)."
+    },
+    "PARQ": {
+      "name": "Teilabwicklung mit Mengenschwellenwert zulässig",
+      "definition": "Teilabwicklung ist zulässig, muss aber eine Mindestmenge an Wertpapieren erfüllen (in den Stammdaten definierte Menge)."
+    }
+  }
+}

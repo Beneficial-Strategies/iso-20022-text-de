@@ -1,0 +1,18 @@
+{
+  "isoType": "ProcessedStatus4Code",
+  "definition": "Gibt den Verarbeitungsstatus des Antrags auf Stornierung der Dauerauftragsanweisung an.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Empfangen",
+      "definition": "Die Anweisung/der Antrag ist eingegangen."
+    },
+    "COMP": {
+      "name": "Abgeschlossen",
+      "definition": "Der Antrag wurde abgeschlossen."
+    },
+    "PEND": {
+      "name": "Ausstehend",
+      "definition": "Die Bearbeitung des Antrags steht noch aus."
+    }
+  }
+}

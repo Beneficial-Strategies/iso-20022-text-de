@@ -1,0 +1,12 @@
+{
+  "isoType": "CancelledStatus12Choice",
+  "definition": "Auswahl zwischen einem Grund oder keinem Grund für den Status „storniert“/„Stornierung abgeschlossen“ der Kapitalmaßnahmen-Anweisung oder Anweisungsstornierung.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Grund nicht angegeben."
+    },
+    "Reason": {
+      "definition": "Grund für den Status \"storniert\"."
+    }
+  }
+}

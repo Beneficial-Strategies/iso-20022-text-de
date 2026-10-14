@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraPositionQueryStatus3",
+  "definition": "Definiert die Abfragekriterien für den Status von Positionsumbuchungen (Intra-Position) einschließlich des Statuszeitraums.",
+  "isoElements": {
+    "Type": {
+      "definition": "Definiert die Statusart der Abfragekriterien."
+    },
+    "DatePeriod": {
+      "definition": "Festgelegter Datumszeitraum des Status."
+    }
+  }
+}

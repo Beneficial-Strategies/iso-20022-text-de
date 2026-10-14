@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionInformationStatus1Choice",
+  "definition": "Auswahl zwischen den verschiedenen Status einer Informationsmitteilung zu einer Kapitalmaßnahme.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Stellt Informationen zum Verarbeitungsstatus der Mitteilung bereit."
+    },
+    "RejectedStatus": {
+      "definition": "Liefert Informationen zum Ablehnungsstatus."
+    }
+  }
+}

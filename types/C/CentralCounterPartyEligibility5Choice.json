@@ -1,0 +1,12 @@
+{
+  "isoType": "CentralCounterPartyEligibility5Choice",
+  "definition": "Auswahl des Formats für die Angaben zur CCP-Eignung.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Gibt an, ob die Abwicklungstransaktion CCP-fähig (Central Counterparty) ist."
+    },
+    "Proprietary": {
+      "definition": "Angaben zur Eignung für die zentrale Gegenpartei, ausgedrückt als proprietärer Code."
+    }
+  }
+}

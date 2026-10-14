@@ -1,0 +1,18 @@
+{
+  "isoType": "CashSettlementSystem3Code",
+  "definition": "Gibt das verwendete Geldabwicklungssystem an.",
+  "isoCodes": {
+    "DCSS": {
+      "name": "Digitales Barabwicklungssystem",
+      "definition": "Digitales Geldabwicklungssystem, das für die Zahlung verwendet wird."
+    },
+    "GROS": {
+      "name": "Bruttoabwicklungssystem",
+      "definition": "Geld über ein Bruttoabwicklungssystem abwickeln."
+    },
+    "NETS": {
+      "name": "Nettoabwicklungssystem",
+      "definition": "Geld über ein Nettoabwicklungssystem abwickeln."
+    }
+  }
+}

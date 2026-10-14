@@ -1,0 +1,20 @@
+{
+  "isoType": "SubAccountIdentification6",
+  "definition": "Konto, auf das oder von dem eine Wertpapierbuchung erfolgt.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "ActivityIndicator": {
+      "definition": "Gibt an, ob im Auszug Aktivität gemeldet wird."
+    },
+    "TransactionOnSubAccount": {
+      "definition": "Schaffung/Stornierung von Anlageanteilen in den Büchern des Fonds oder seines benannten Beauftragten als Ergebnis der Ausführung eines Investmentfondsauftrags."
+    }
+  },
+  "isoRules": {
+    "TransactionOnSubAccountRule": {
+      "definition": "Wenn ActivityIndicator \"true\" oder \"1\" (Ja) ist, dann muss TransactionOnSubAccount vorhanden sein. Wenn ActivityIndicator \"false\" oder \"0\" (Nein) ist, dann ist TransactionOnSubAccount nicht zulässig."
+    }
+  }
+}

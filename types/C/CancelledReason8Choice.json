@@ -1,0 +1,12 @@
+{
+  "isoType": "CancelledReason8Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe des Grundes, warum die Anweisung oder Stornierungsanfrage storniert wird.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Grundes, warum die Anweisung storniert wird."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation zur Angabe des Grundes, warum die Anweisung storniert wird."
+    }
+  }
+}

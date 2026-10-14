@@ -1,0 +1,21 @@
+{
+  "isoType": "AmountAndCurrencyExchange4",
+  "definition": "Satz von Elementen mit Angaben zum ursprünglichen Betrag.",
+  "isoElements": {
+    "InstructedAmount": {
+      "definition": "Gibt den Geldbetrag an, der zwischen Zahlungspflichtigem und Zahlungsempfänger bewegt werden soll, vor Abzug von Entgelten, in der von der initiierenden Partei angewiesenen Währung, und liefert Angaben zum Währungsumtausch, falls der angewiesene Betrag und/oder die angewiesene Währung vom Buchungsbetrag und/oder der Buchungswährung abweichen."
+    },
+    "TransactionAmount": {
+      "definition": "Betrag der zugrunde liegenden Transaktion."
+    },
+    "CounterValueAmount": {
+      "definition": "Satz von Elementen mit Angaben zum Gegenwert und zum Währungsumtausch. |Verwendung: Dies kann entweder der in einem FX-Geschäft (Devisengeschäft) notierte Gegenbetrag sein oder das Ergebnis der auf einen angewiesenen Betrag angewandten Währungsinformationen, vor Abzug von Entgelten."
+    },
+    "AnnouncedPostingAmount": {
+      "definition": "Geldbetrag, der sich aus den Bedingungen des Kapitalmaßnahmen-Ereignisses und dem Bestand der zugrunde liegenden Wertpapiere ergibt und dem Kontoinhaber zusteht bzw. von diesem geschuldet wird.|In manchen Situationen kann dieser Betrag alternativ als Anspruchsbetrag bezeichnet werden."
+    },
+    "ProprietaryAmount": {
+      "definition": "Satz von Elementen mit Angaben zum ursprünglichen Betrag und zum Währungsumtausch."
+    }
+  }
+}

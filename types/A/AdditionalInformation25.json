@@ -1,0 +1,18 @@
+{
+  "isoType": "AdditionalInformation25",
+  "definition": "Zusätzliche Informationen.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Art der Abfrage."
+    },
+    "Query": {
+      "definition": "Beschreibung der Abfrage."
+    },
+    "QueryReason": {
+      "definition": "Grund für die Abfrage."
+    },
+    "RejectionReason": {
+      "definition": "Grund, aus dem die Anweisung abgelehnt wurde."
+    }
+  }
+}

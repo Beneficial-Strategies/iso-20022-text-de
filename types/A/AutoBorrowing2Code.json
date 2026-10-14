@@ -1,0 +1,22 @@
+{
+  "isoType": "AutoBorrowing2Code",
+  "definition": "Gibt die Bedingung an, unter der eine automatische Wertpapierleihe zulässig ist.",
+  "isoCodes": {
+    "LAMI": {
+      "name": "Letztes Mittel",
+      "definition": "Nur als letztes Mittel sollte eine Wertpapierleihe in Betracht gezogen werden, damit die Abwicklung erfolgt."
+    },
+    "NBOR": {
+      "name": "Nicht automatisch",
+      "definition": "Es sollte keine automatische Wertpapierleihe erfolgen."
+    },
+    "YBOR": {
+      "name": "Automatisch",
+      "definition": "Es sollte eine automatische Wertpapierleihe erfolgen."
+    },
+    "RTRN": {
+      "name": "Rückgabe",
+      "definition": "Die Rückgabe der Bestände sollte erfolgen."
+    }
+  }
+}

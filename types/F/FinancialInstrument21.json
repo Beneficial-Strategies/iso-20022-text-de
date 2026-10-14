@@ -1,0 +1,39 @@
+{
+  "isoType": "FinancialInstrument21",
+  "definition": "Wertpapier, das eine Teilmenge eines Investmentfonds darstellt und denselben Anlagegrundsätzen des Investmentfonds unterliegt, zum Beispiel Dividendenoption oder Bewertungswährung.",
+  "isoElements": {
+    "ClassType": {
+      "definition": "Merkmale der von einem Fonds angebotenen Anteile. Ein Anteil kann zum Beispiel eine bestimmte Gebührenstruktur haben, zum Beispiel Ausgabeaufschlag oder Rücknahmeabschlag, eine Ertragspolitik, zum Beispiel ausschüttend oder thesaurierend, oder eine Bestandsprovisionspolitik, zum Beispiel mit oder ohne. Fondsklassen werden üblicherweise durch ein einzelnes Zeichen bezeichnet, zum Beispiel 'Class A', 'Class 2'."
+    },
+    "SecuritiesForm": {
+      "definition": "Gibt die Form, das heißt das Eigentum, des Wertpapiers an."
+    },
+    "DistributionPolicy": {
+      "definition": "Ertragspolitik in Bezug auf eine Klassenart, das heißt, ob Erträge ausgeschüttet oder im Fonds einbehalten werden."
+    },
+    "ProductGroup": {
+      "definition": "Unternehmensspezifische Beschreibung einer Fondsgruppe."
+    },
+    "UmbrellaName": {
+      "definition": "Name des Umbrella-Fonds, in dem das Finanzinstrument enthalten ist."
+    },
+    "BaseCurrency": {
+      "definition": "Währung der Anteilklasse des Investmentfonds."
+    },
+    "DenominationCurrency": {
+      "definition": "Währung, in der ein Wertpapier begeben oder umgestellt wird."
+    },
+    "RequestedNAVCurrency": {
+      "definition": "Währung, in der der Fonds bewertet wird. Diese Währung muss zu den im Verkaufsprospekt genannten Währungen gehören, in denen der Preis ausgedrückt werden kann."
+    },
+    "DualFundIndicator": {
+      "definition": "Gibt an, ob der Fonds zwei Preise hat."
+    },
+    "CountryOfDomicile": {
+      "definition": "Land, in dem der Fonds seinen rechtlichen Sitz hat, wie in der ISIN-Klassifizierung ausgewiesen."
+    },
+    "RegisteredDistributionCountry": {
+      "definition": "Länder, in denen der Fonds für den Vertrieb registriert ist."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "Intermediary47",
+  "definition": "Identifikation einer Partei und ihrer Rolle.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige und unmissverständliche Kennung einer Organisation, die von einer Institution vergeben wird."
+    },
+    "LegalEntityIdentifier": {
+      "definition": "Identifikation der Partei mit einem Legal Entity Identifier. Dies ist ein Code, der einer Partei zugewiesen wird, wie in ISO 17442 „Financial Services - Legal Entity Identifier (LEI)“ beschrieben."
+    },
+    "Account": {
+      "definition": "Geschäftsbeziehung zwischen zwei Einheiten; eine Einheit ist der Kontoinhaber, die andere Einheit ist das kontoführende Institut."
+    }
+  }
+}

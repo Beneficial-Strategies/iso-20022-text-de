@@ -1,0 +1,12 @@
+{
+  "isoType": "DistributionType1FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe der Ausschüttungsart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Ausschüttungsart."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe der Ausschüttungsart."
+    }
+  }
+}

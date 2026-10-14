@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationStatusReason3Choice",
+  "definition": "Gibt den Grund für den Status der Transaktionsstornierung an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für den Stornierungsstatus in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Grund für den Status in proprietärer Form."
+    }
+  }
+}

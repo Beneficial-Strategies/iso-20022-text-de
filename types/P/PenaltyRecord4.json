@@ -1,0 +1,33 @@
+{
+  "isoType": "PenaltyRecord4",
+  "definition": "Gibt weitere Einzelheiten zur Strafzahlung an.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Von der Marktinfrastruktur der Strafzahlung zugewiesene Identifikation."
+    },
+    "Type": {
+      "definition": "Art der Strafzahlung."
+    },
+    "Insolvency": {
+      "definition": "Die Partei kann ihren finanziellen Verpflichtungen nicht mehr nachkommen.||Verwendung: Wenn der Indikator nicht angegeben ist, ist die Insolvenz nicht relevant."
+    },
+    "Status": {
+      "definition": "Status einer Strafzahlung."
+    },
+    "ComputedAmount": {
+      "definition": "Für diese Strafzahlung berechneter Betrag."
+    },
+    "CalculationMethod": {
+      "definition": "Gibt die Berechnungsregel an, die zur Berechnung der Strafzahlung verwendet wurde."
+    },
+    "NumberOfDays": {
+      "definition": "Anzahl der Geschäftstage ab/bis zum vorgesehenen Abwicklungsdatum."
+    },
+    "CalculationData": {
+      "definition": "Weitere Einzelheiten zur Berechnung der Strafzahlung."
+    },
+    "RelatedTransaction": {
+      "definition": "Transaktion, für die die Strafzahlungen gelten."
+    }
+  }
+}

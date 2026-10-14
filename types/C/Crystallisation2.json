@@ -1,0 +1,24 @@
+{
+  "isoType": "Crystallisation2",
+  "definition": "Anzahl der kristallisierten Anteile.",
+  "isoElements": {
+    "TrancheIdentification": {
+      "definition": "Identifikation der Tranche."
+    },
+    "CrystallisedUnitsNumber": {
+      "definition": "Anzahl der kristallisierten Anteile."
+    },
+    "UncrystallisedUnitsNumber": {
+      "definition": "Anzahl der nicht kristallisierten Anteile."
+    },
+    "CrystallisedAmount": {
+      "definition": "Summe, die den kristallisierten Betrag darstellt."
+    },
+    "UncrystallisedAmount": {
+      "definition": "Summe, die den nicht kristallisierten Betrag darstellt."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zur Kristallisierung."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionElection2",
+  "definition": "Enthält Informationen zu einem Antrag auf Änderung einer Wahl bei einer Kapitalmaßnahme.",
+  "isoElements": {
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "NewInstructedQuantity": {
+      "definition": "Neue angewiesene Wertpapiermenge nach der Änderung."
+    },
+    "Reason": {
+      "definition": "Der Grund für den Änderungsantrag."
+    }
+  }
+}

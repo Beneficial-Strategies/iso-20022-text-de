@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionPrice1",
+  "definition": "Gibt Preise an.",
+  "isoElements": {
+    "ExercisePrice": {
+      "definition": "1. Kurs, zu dem das Wertpapier gekauft/verkauft wird, wenn der Optionsschein ausgeübt wird, entweder als tatsächlicher Betrag oder als Prozentsatz.|2. Kurs, zu dem eine Anleihe in das zugrunde liegende Wertpapier umgewandelt wird, entweder als tatsächlicher Betrag oder als Prozentsatz.|3. Ausübungspreis einer Option, dargestellt entweder als tatsächlicher Betrag, als Prozentsatz oder als Anzahl von Punkten über einem Index."
+    },
+    "IssuePrice": {
+      "definition": "Erstausgabepreis eines Finanzinstruments."
+    },
+    "CashInLieuOfSharePrice": {
+      "definition": "Barauszahlung anstelle von Aktien; üblicherweise anstelle einer Bruchteilsmenge."
+    },
+    "TaxableIncomePerDividendShare": {
+      "definition": "In der Dividende/im NAV enthaltener Betrag, der als direkt oder indirekt aus Zinszahlungen im Anwendungsbereich der EU-Zinsrichtlinie stammende Erträge gekennzeichnet ist."
+    },
+    "GenericCashPriceReceivedPerProduct": {
+      "definition": "Allgemeiner Barpreis, den der Inhaber des zugrunde liegenden Wertpapiers pro Produkt erhält, entweder als Prozentsatz oder als Betrag, z. B. Rückzahlungskurs."
+    },
+    "GenericCashPricePaidPerProduct": {
+      "definition": "Allgemeiner Barpreis, den der Inhaber des zugrunde liegenden Wertpapiers pro Produkt zahlt, entweder als Prozentsatz oder als Betrag, z. B. Wiederanlagekurs."
+    },
+    "OverSubscriptionDepositPrice": {
+      "definition": "Vom Emittenten festgelegter Geldbetrag, der je überzeichneter Aktie erforderlich ist."
+    }
+  }
+}

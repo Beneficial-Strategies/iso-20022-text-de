@@ -1,0 +1,14 @@
+{
+  "isoType": "DTCBaseDisbursed1Code",
+  "definition": "Code, der angibt, ob die Berechnungsgrundlage das Basiswertpapier (ursprüngliches) oder das ausgezahlte (ausgeschüttete) Wertpapier ist.",
+  "isoCodes": {
+    "BASE": {
+      "name": "Basis",
+      "definition": "Basiert auf dem Basiswertpapier."
+    },
+    "DISB": {
+      "name": "Ausgezahlt",
+      "definition": "Basiert auf dem ausgezahlten Wertpapier."
+    }
+  }
+}

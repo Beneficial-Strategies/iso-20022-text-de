@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionCancellationRejectionStatus1",
+  "definition": "Liefert den Grund für die Ablehnung eines Antrags auf Stornierung einer Wahl.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Der Ablehnungsgrund."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

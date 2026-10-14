@@ -1,0 +1,18 @@
+{
+  "isoType": "GenericIdentification144",
+  "definition": "Proprietäre Informationen zu einem Saldo.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Proprietäre Information, häufig ein Code, ausgegeben vom Herausgeber des Datenquellenschemas."
+    },
+    "Issuer": {
+      "definition": "Stelle, die die Identifikation vergibt."
+    },
+    "SchemeName": {
+      "definition": "Kurze textliche Beschreibung des Schemas."
+    },
+    "Balance": {
+      "definition": "Wert des Saldos."
+    }
+  }
+}

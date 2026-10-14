@@ -1,0 +1,12 @@
+{
+  "isoType": "RepurchaseType21Choice",
+  "definition": "Auswahl des Formats für die Angaben zur Art der Pensionsgeschäft-Transaktion.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des Wertpapierfinanzierungsgeschäfts, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Art des Wertpapierfinanzierungsgeschäfts, ausgedrückt als proprietärer Code."
+    }
+  }
+}

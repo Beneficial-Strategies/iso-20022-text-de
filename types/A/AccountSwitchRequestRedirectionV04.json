@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchRequestRedirectionV04",
+  "definition": "Die Nachricht AccountSwitchRequestRedirection wird vom neuen kontoführenden Institut an ein zentrales Kontowechselinstitut gesendet, um die Umleitung von Zahlungs- und Einzugstransaktionen einzurichten, die nach Abschluss des Kontowechsels verarbeitet werden.  Sie wird an das vorherige kontoführende Institut weitergeleitet, um anzuzeigen, dass es die Stornierung aller Zahlungsvereinbarungen auf dem alten Konto einplanen soll. Diese Nachricht kann von der neuen Bank auch verwendet werden, um die Angaben zum neuen Konto zu ändern, falls die zuvor übermittelten Angaben fehlerhaft waren."
+}

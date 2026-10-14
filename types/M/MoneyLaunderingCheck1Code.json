@@ -1,0 +1,30 @@
+{
+  "isoType": "MoneyLaunderingCheck1Code",
+  "definition": "Gibt den Status der Verfahren zur Identifizierung im Hinblick auf Geldwäsche an.",
+  "isoCodes": {
+    "PASS": {
+      "name": "Bestanden",
+      "definition": "Die Verfahren zur Identifizierung im Hinblick auf Geldwäsche wurden vom Intermediär durchgeführt."
+    },
+    "NOTC": {
+      "name": "Nicht geprüft",
+      "definition": "Die Verfahren zur Identifizierung im Hinblick auf Geldwäsche wurden nicht durchgeführt."
+    },
+    "EXEM": {
+      "name": "Befreit unterhalb der Grenze",
+      "definition": "Die Verfahren zur Identifizierung im Hinblick auf Geldwäsche wurden nicht durchgeführt, da die Transaktion unter dem vorgeschriebenen Grenzwert liegt."
+    },
+    "CLMO": {
+      "name": "Befreit (Kundengeldart)",
+      "definition": "Die Verfahren zur Identifizierung im Hinblick auf Geldwäsche wurden aufgrund der Transaktionsart, z. B. Switch, oder weil die Transaktion aus einem beim Intermediär bestehenden Anlegerkonto finanziert wird, nicht durchgeführt."
+    },
+    "AUTH": {
+      "name": "Autorisierter Kredit",
+      "definition": "Die Verfahren zur Identifizierung im Hinblick auf Geldwäsche wurden nicht durchgeführt, da der Anleger ein zugelassenes Kredit- oder Finanzinstitut ist."
+    },
+    "POEP": {
+      "name": "Befreit (Post- oder elektronische Zahlung)",
+      "definition": "Es wurden eingeschränkte Verfahren zur Identifizierung im Hinblick auf Geldwäsche durchgeführt, da es sich um eine einmalige Transaktion handelt und die Zahlung per Post-, Telefon- oder elektronischer Überweisung von einem bestehenden Konto bei einem zugelassenen Kredit- oder Finanzinstitut erfolgt."
+    }
+  }
+}

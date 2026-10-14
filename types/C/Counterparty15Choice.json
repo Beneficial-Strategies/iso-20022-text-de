@@ -1,0 +1,12 @@
+{
+  "isoType": "Counterparty15Choice",
+  "definition": "Auswahl zwischen Käufer und Verkäufer.",
+  "isoElements": {
+    "Seller": {
+      "definition": "Partei, die Waren oder Dienstleistungen oder ein Finanzinstrument verkauft."
+    },
+    "Buyer": {
+      "definition": "Partei, die Waren oder Dienstleistungen oder ein Finanzinstrument kauft."
+    }
+  }
+}

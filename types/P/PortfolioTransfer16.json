@@ -1,0 +1,33 @@
+{
+  "isoType": "PortfolioTransfer16",
+  "definition": "Art des Produkts und der zu übertragenden Vermögenswerte.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Eindeutiger Identifikator für eine Gruppe einzelner Übertragungen, wie von der anweisenden Partei vergeben. Dieser Identifikator verknüpft die einzelnen Übertragungen miteinander."
+    },
+    "TransferIdentification": {
+      "definition": "Der Übertragung von Vermögenswerten zugewiesene Identifikation."
+    },
+    "TransferConfirmationIdentification": {
+      "definition": "Identifikation der Bestätigung, die vom Übertragenden der Übertragung zugewiesen wurde."
+    },
+    "Portfolio": {
+      "definition": "Auswahl zwischen steuerbegünstigtem Produkt, allgemeiner Kapitalanlage oder Altersvorsorge."
+    },
+    "PartialDiscovery": {
+      "definition": "Gibt an, dass nicht alle Vermögenswerte des Bestands/Portfolios angegeben sind und dass eine andere Form der Kommunikation erforderlich ist."
+    },
+    "ResidualCash": {
+      "definition": "Gibt an, ob auf dem Konto Barmittel vorhanden sind, die auf Anlage warten, sowie die Währung."
+    },
+    "TaxDate": {
+      "definition": "Steuerdatum, das für alle Vermögenswerte gilt."
+    },
+    "FinancialInstrumentAssetForTransfer": {
+      "definition": "Zu übertragender Vermögenswert."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zur Produktübertragung."
+    }
+  }
+}

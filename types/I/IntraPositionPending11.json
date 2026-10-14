@@ -1,0 +1,17 @@
+{
+  "isoType": "IntraPositionPending11",
+  "definition": "Enthält die Transaktionen im Bericht.",
+  "isoElements": {
+    "StatusAndReason": {
+      "definition": "Status und Statusgrund der Transaktion."
+    },
+    "Movement": {
+      "definition": "Identifiziert die einzelne Transaktion."
+    }
+  },
+  "isoRules": {
+    "StatusAndReasonRule": {
+      "definition": "StatusAndReason muss vorhanden sein oder Movement(*)/StatusAndReason muss vorhanden sein, jedoch nicht beides."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RateFormat27Choice",
+  "definition": "Auswahl zwischen einem Satz und einem nicht angegebenen Satz.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Der Wert wird als Satz ausgedrückt."
+    },
+    "Amount": {
+      "definition": "Bargeldbetrag."
+    }
+  }
+}

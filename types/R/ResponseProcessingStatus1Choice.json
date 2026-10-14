@@ -1,0 +1,12 @@
+{
+  "isoType": "ResponseProcessingStatus1Choice",
+  "definition": "Auswahl zwischen den Status „akzeptiert“ und „abgelehnt“ für die Annahme einer Nachricht.",
+  "isoElements": {
+    "Accepted": {
+      "definition": "Die empfangene Nachricht oder der empfangene mehrteilige Bericht (mit Seitennummerierung in mehreren Nachrichten gesendet) wird akzeptiert."
+    },
+    "Rejected": {
+      "definition": "Die empfangene Nachricht oder der empfangene mehrteilige Bericht (mit Seitennummerierung in mehreren Nachrichten gesendet) wird abgelehnt."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BasicCollateralValuation1Details",
+  "definition": "Grundlegende Bewertungsangaben einer Sicherheitenposition.",
+  "isoElements": {
+    "ValuationHaircut": {
+      "definition": "Auf den Marktwert der als Sicherheit verwendeten zugrunde liegenden Vermögenswerte angewandter Bewertungsabschlag (Haircut) in Prozent als Risikokontrollmaßnahme. Das Institut, das die Sicherheit bewertet, berechnet den Wert der zugrunde liegenden Vermögenswerte auf der Grundlage ihres Marktwerts abzüglich eines bestimmten Prozentsatzes (des Haircuts)."
+    },
+    "HaircutSource": {
+      "definition": "Ort, an dem der Bewertungsabschlag berechnet wurde."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "IndicativeOrMarketPrice16Choice",
+  "definition": "Auswahl zwischen einem indikativen Preis oder einem Marktpreis.",
+  "isoElements": {
+    "IndicativePrice": {
+      "definition": "Geschätzter Preis, zum Beispiel für Bewertungszwecke."
+    },
+    "MarketPrice": {
+      "definition": "Zuletzt gemeldeter bzw. bekannter Preis eines Finanzinstruments an einem Markt."
+    }
+  }
+}

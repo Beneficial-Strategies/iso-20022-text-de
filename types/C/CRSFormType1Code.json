@@ -1,0 +1,38 @@
+{
+  "isoType": "CRSFormType1Code",
+  "definition": "Legt die Art des Formulars zum Common Reporting Standard (CRS) fest.",
+  "isoCodes": {
+    "CER4": {
+      "name": "Behördliche Identifikationsbescheinigung",
+      "definition": "Von einer Regierung ausgestellte Identifikationsbescheinigung."
+    },
+    "CER3": {
+      "name": "Ansässigkeitsbescheinigung",
+      "definition": "Ansässigkeitsbescheinigung."
+    },
+    "CER5": {
+      "name": "Amtliches Dokument der Regierung für die Einheit",
+      "definition": "Von einer Regierung für die Einheit ausgestellte offizielle Dokumentation."
+    },
+    "CER6": {
+      "name": "Sonstiges Dokument oder sonstiger Bericht",
+      "definition": "Finanzbericht, Bonitätsbericht eines Dritten, Insolvenzanmeldung oder Bericht einer Wertpapieraufsichtsbehörde."
+    },
+    "CER8": {
+      "name": "Öffentliche Informationen zur Einheit",
+      "definition": "Öffentlich verfügbare Informationen zur Einheit."
+    },
+    "CER1": {
+      "name": "Selbstauskunft in separatem Dokument",
+      "definition": "Selbstauskunft als separates Dokument."
+    },
+    "CER2": {
+      "name": "Selbstauskunft mit Kontoeröffnungsvertrag",
+      "definition": "Selbstauskunft als Dokument, das in den Vertrag zur Kontoeröffnung aufgenommen ist."
+    },
+    "CER7": {
+      "name": "Standardisiert",
+      "definition": "Standardisiertes branchenübliches Kodierungssystem für die Einheit."
+    }
+  }
+}

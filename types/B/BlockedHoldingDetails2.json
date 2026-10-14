@@ -1,0 +1,29 @@
+{
+  "isoType": "BlockedHoldingDetails2",
+  "definition": "Informationen zu einem gesperrten Bestand.",
+  "isoElements": {
+    "BlockedHolding": {
+      "definition": "Gibt an, wie der gesperrte Kontobestand definiert ist."
+    },
+    "PartialHoldingUnits": {
+      "definition": "Wenn ein Konto auf Fonds- oder Wertpapierebene teilweise gesperrt ist, ist dies die Anzahl der gesperrten Anteile."
+    },
+    "HoldingCertificateNumber": {
+      "definition": "Wenn ein Konto auf Fonds- oder Wertpapierebene gesperrt ist, gibt dies die Zertifikatsnummer der gesperrten Anteile an."
+    }
+  },
+  "isoRules": {
+    "PartialHoldingUnits1Rule": {
+      "definition": "Wenn BlockHolding den Wert NPRH (NonPartialHolding) hat, darf PartialHoldingUnits nicht vorhanden sein."
+    },
+    "PartialHoldingUnits2Rule": {
+      "definition": "Wenn BlockHolding den Wert PRTH (PartialHolding) hat, ist PartialHoldingUnits obligatorisch."
+    },
+    "PartialHoldingUnits3Rule": {
+      "definition": "Wenn BlockHolding den Wert CERT (Certificate) hat, darf PartialHoldingUnits nicht vorhanden sein."
+    },
+    "HoldingCertificateNumberRule": {
+      "definition": "Wenn BlockHolding den Wert CERT (Certificate) hat, ist HoldingCertificateNumber obligatorisch."
+    }
+  }
+}

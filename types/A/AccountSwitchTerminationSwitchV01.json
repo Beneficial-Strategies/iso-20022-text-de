@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchTerminationSwitchV01",
+  "definition": "Die Nachricht AccountSwitchTerminationSwitch wird vom neuen kontoführenden Institut an das Kontowechselinstitut gesendet, um anzuzeigen, dass der Kontowechsel gestoppt werden muss. Die Nachricht AccountSwitchTerminationSwitch wird nur im Ausnahmefall verwendet, nachdem das neue kontoführende Institut eine Nachricht AccountSwitchInformationResponse erhalten hat."
+}

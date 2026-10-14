@@ -1,0 +1,27 @@
+{
+  "isoType": "ProcessingStatus86Choice",
+  "definition": "Auswahl des Formats für den Verarbeitungsstatus.",
+  "isoElements": {
+    "PendingCancellation": {
+      "definition": "Die Stornierung wird noch bearbeitet."
+    },
+    "Rejected": {
+      "definition": "Die Anweisung/Anfrage wurde für die weitere Verarbeitung abgelehnt."
+    },
+    "Repair": {
+      "definition": "Die Anweisung/Anfrage wird akzeptiert, befindet sich aber in Klärung."
+    },
+    "AcknowledgedAccepted": {
+      "definition": "Die Anweisung wurde vom kontoführenden Institut bestätigt."
+    },
+    "Proprietary": {
+      "definition": "Status, der mit keinem der verfügbaren Standardstatus gemeldet werden kann."
+    },
+    "Denied": {
+      "definition": "Die Anweisung bzw. Anforderung wird nicht ausgeführt."
+    },
+    "Cancelled": {
+      "definition": "Angeforderte Stornierung ausgeführt."
+    }
+  }
+}

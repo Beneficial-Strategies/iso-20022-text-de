@@ -1,0 +1,29 @@
+{
+  "isoType": "UnderlyingTransaction37",
+  "definition": "Identifiziert die zugrunde liegende(n) (Gruppe von) Transaktion(en), auf die sich die Untersuchung bezieht.",
+  "isoElements": {
+    "OriginalGroupInformationAndCancellation": {
+      "definition": "Enthält Informationen zur ursprünglichen Nachricht, auf die sich die Stornierung bezieht."
+    },
+    "OriginalPaymentInformationAndCancellation": {
+      "definition": "Enthält Informationen zur ursprünglichen (Gruppe von) Transaktion(en), auf die sich die Stornierungsanforderung bezieht."
+    }
+  },
+  "isoRules": {
+    "GroupCancellationAndNumberOfTransactionsRule": {
+      "definition": "Ist OriginalGroupInformationAndCancellation/GroupCancellation falsch, muss NumberOfTransactions der Anzahl der Vorkommen von TransactionInformation entsprechen."
+    },
+    "GroupCancellationTrueAndPaymentInformationRule": {
+      "definition": "Ist OriginalGroupInformationAndCancellation/GroupCancellation wahr, ist OriginalPaymentInformationAndCancellation nicht zulässig."
+    },
+    "GroupCancellationFalseAndPaymentInformationRule": {
+      "definition": "Ist OriginalGroupInformationAndCancellation/GroupCancellation falsch, muss OriginalPaymentInformationAndCancellation vorhanden sein."
+    },
+    "GroupOrPaymentInformationCaseRule": {
+      "definition": "Case darf entweder auf der Ebene Case, OriginalGroupInformationAndCancellation, OriginalPaymentInformationAndCancellation oder TransactionInformation vorhanden sein."
+    },
+    "GroupOrTransactionCaseRule": {
+      "definition": "Case darf entweder auf der Ebene Case, OriginalGroupInformationAndCancellation, OriginalPaymentInformationAndCancellation oder TransactionInformation vorhanden sein."
+    }
+  }
+}

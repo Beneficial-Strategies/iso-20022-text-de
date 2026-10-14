@@ -1,0 +1,41 @@
+{
+  "isoType": "SubAccountIdentification71",
+  "definition": "Konto, auf das oder von dem eine Wertpapierbuchung erfolgt.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Blockchain-Adresse oder Wallet, in der digitale Vermögenswerte gehalten werden. Dies entspricht dem Verwahrkonto für digitale Vermögenswerte."
+    },
+    "ActivityIndicator": {
+      "definition": "Gibt an, ob im Auszug Aktivität oder eine Aktualisierung von Informationen gemeldet wird."
+    },
+    "BalanceForSubAccount": {
+      "definition": "Nettoposition eines getrennt geführten Bestands in einem einzelnen Wertpapier innerhalb der Gesamtposition, die in einem Wertpapierunterdepot gehalten wird."
+    }
+  },
+  "isoRules": {
+    "SubSafekeepingReportingRule": {
+      "definition": "Die Verwendung konsolidierter Berichte für ein Unterverwahrkonto muss zwischen Sender und Empfänger bilateral vereinbart werden."
+    },
+    "ActivityAndBalanceForSubAccount1Rule": {
+      "definition": "Wenn ActivityIndicator TRUE (Ja) ist, muss mindestens ein Vorkommen von BalanceForSubAccount vorhanden sein."
+    },
+    "ActivityAndBalanceForSubAccount2Rule": {
+      "definition": "Wenn ActivityIndicator FALSE (Nein) ist, darf BalanceForSubAccount nicht vorhanden sein."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Entweder SafekeepingAccount oder BlockChainAddressOrWallet muss vorhanden sein, aber nicht beide."
+    }
+  }
+}

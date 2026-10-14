@@ -1,0 +1,18 @@
+{
+  "isoType": "MovementInstruction1",
+  "definition": "Details der Bewegungsanweisungen.",
+  "isoElements": {
+    "MovementGeneralInformation": {
+      "definition": "Enthält allgemeine Informationen zur Bewegung."
+    },
+    "UnderlyingSecuritiesMovementDetails": {
+      "definition": "Enthält Informationen zur Bewegung der zugrunde liegenden Wertpapiere."
+    },
+    "UnderlyingCashMovementDetails": {
+      "definition": "Enthält Informationen zur zugrunde liegenden Geldbewegung."
+    },
+    "ProceedsMovementDetails": {
+      "definition": "Enthält Informationen zu den Erlösen, d. h. den ausgelieferten Ressourcen."
+    }
+  }
+}

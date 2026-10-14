@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesSettlementTransactionQueryResponseV01",
+  "definition": "Die Nachricht SecuritiesSettlementResponse wird von einer Abwicklungsinfrastruktur an einen Kontoinhaber/Anfragenden gesendet, um die Details der Wertpapierabwicklungsanweisungen zu liefern, die anhand der in der Anfrage festgelegten Suchkriterien ausgewählt wurden.",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Ist ActivityIndicator gleich Yes (true oder 1), muss Transactions vorhanden sein."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Ist ActivityIndicator gleich No (false oder 0), darf Transactions nicht vorhanden sein."
+    },
+    "QueryTypeAndStatusReasonRule": {
+      "definition": "Ist QueryType gleich Status (STTS) oder StatusPeriod (STPD), muss Transactions(*)/StatusReaon vorhanden sein."
+    }
+  }
+}

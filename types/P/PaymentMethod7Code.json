@@ -1,0 +1,14 @@
+{
+  "isoType": "PaymentMethod7Code",
+  "definition": "Gibt die Übertragungsmethode an, die zur Übertragung des Bargelds verwendet wird.",
+  "isoCodes": {
+    "CHK": {
+      "name": "Scheck",
+      "definition": "Schriftliche Anweisung an eine Bank, einen bestimmten Geldbetrag von einer Person an eine andere Person zu zahlen."
+    },
+    "TRF": {
+      "name": "Überweisung",
+      "definition": "Übertragung eines Geldbetrags in den Büchern des kontoführenden Instituts."
+    }
+  }
+}

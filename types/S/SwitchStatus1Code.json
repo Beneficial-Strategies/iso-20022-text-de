@@ -1,0 +1,42 @@
+{
+  "isoType": "SwitchStatus1Code",
+  "definition": "Legt den Status eines bestimmten Kontowechsels fest.",
+  "isoCodes": {
+    "ACPT": {
+      "name": "Akzeptiert",
+      "definition": "Der Kontowechsel ist akzeptiert.||Verwendung: Der Status „akzeptiert“ sollte verwendet werden, wenn der Kontowechselservice eine Informationsantwort-Anfrage empfängt und validiert, die den Wechsel akzeptiert."
+    },
+    "BTRQ": {
+      "name": "Saldoübertragung angefordert",
+      "definition": "Die Übertragung des Kontosaldos ist angefordert.||Verwendung: Der Status „Saldoübertragung angefordert“ sollte verwendet werden, wenn der Kontowechselservice eine Anfrage zur Saldoübertragung empfängt und validiert."
+    },
+    "BTRS": {
+      "name": "Antwort zur Saldoübertragung",
+      "definition": "Saldoübertragung beantwortet.||Verwendung: Der Status „Saldoübertragung beantwortet“ sollte verwendet werden, wenn der Kontowechselservice eine Anfrage zur Bestätigung der Saldoübertragung empfängt und validiert."
+    },
+    "COMP": {
+      "name": "Abgeschlossen",
+      "definition": "Der Kontowechsel ist abgeschlossen.||Verwendung: Der Status „abgeschlossen“ sollte verwendet werden, wenn der Kontowechselservice eine Anfrage zur Meldung des abgeschlossenen Kontowechsels empfängt und validiert."
+    },
+    "REDT": {
+      "name": "Umleitung",
+      "definition": "Anfrage zur Umleitung. ||Verwendung: Der Status „Umleitung“ sollte verwendet werden, wenn der Kontowechselservice die erste Umleitungsanfrage empfängt und validiert."
+    },
+    "REDE": {
+      "name": "Umleitung beendet",
+      "definition": "Umleitung am Ende des Umleitungszeitraums beendet. ||Verwendung: Gibt die Beendigung der Kontoumleitung durch einen bestimmten Service an."
+    },
+    "REJT": {
+      "name": "Abgelehnt",
+      "definition": "Der Kontowechsel ist abgelehnt. ||Verwendung: Der Status „abgelehnt“ sollte verwendet werden, wenn der Kontowechselservice eine Informationsantwort-Anfrage empfängt und validiert, die den Kontowechsel ablehnt."
+    },
+    "REQU": {
+      "name": "Angefordert",
+      "definition": "Für den Kontowechsel werden Informationen angefordert. ||Verwendung: Der Status „angefordert“ sollte verwendet werden, wenn der Kontowechselservice eine Informationsanfrage empfängt und validiert."
+    },
+    "TMTN": {
+      "name": "Beendigung",
+      "definition": "Der Kontowechsel ist beendet. ||Verwendung: Der Status „beendet“ sollte verwendet werden, wenn der Kontowechselservice eine Anfrage zur Beendigung des Wechsels empfängt und validiert."
+    }
+  }
+}

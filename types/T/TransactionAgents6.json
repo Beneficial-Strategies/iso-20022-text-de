@@ -1,0 +1,42 @@
+{
+  "isoType": "TransactionAgents6",
+  "definition": "Enthält weitere Details zu den Banken, die für die einzelne Transaktion spezifisch sind.",
+  "isoElements": {
+    "InstructingAgent": {
+      "definition": "Bank, die die nächste Partei in der Kette anweist, die Anweisung(en) auszuführen."
+    },
+    "InstructedAgent": {
+      "definition": "Bank, die von der vorherigen Partei in der Kette angewiesen wird, die Anweisung(en) auszuführen."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungspflichtigen führt."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungsempfänger führt."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers.||Verwendung: Sind mehrere zwischengeschaltete Banken vorhanden, identifiziert IntermediaryAgent1 die Bank zwischen DebtorAgent und IntermediaryAgent2."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers.||Verwendung: Sind mehr als zwei zwischengeschaltete Banken vorhanden, identifiziert IntermediaryAgent2 die Bank zwischen IntermediaryAgent1 und IntermediaryAgent3."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Bank zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers.||Verwendung: Ist IntermediaryAgent3 vorhanden, identifiziert er die Bank zwischen IntermediaryAgent 2 und CreditorAgent."
+    },
+    "ReceivingAgent": {
+      "definition": "Partei, die am Abwicklungsort Wertpapiere von der liefernden Bank erhält, beispielsweise eine Zentralverwahrstelle.|Kann auch im Zusammenhang mit Treasury-Geschäften verwendet werden."
+    },
+    "DeliveringAgent": {
+      "definition": "Partei, die dem empfangenden Agenten am Abwicklungsort Wertpapiere liefert, beispielsweise eine Zentralverwahrstelle.|Kann auch im Zusammenhang mit Treasury-Geschäften verwendet werden."
+    },
+    "IssuingAgent": {
+      "definition": "Rechtsträger, der berechtigt ist, Wertpapiere auszugeben."
+    },
+    "SettlementPlace": {
+      "definition": "Ort, an dem die Abwicklung der Wertpapiere stattfindet.|Verwendung: Dieser wird durch eine Identifikation eines Finanzinstituts typisiert, da dies der Standardweg zur Identifikation einer Wertpapierabwicklungsstelle bzw. eines zentralen Systems ist."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Bank zur zugrunde liegenden Transaktion."
+    }
+  }
+}

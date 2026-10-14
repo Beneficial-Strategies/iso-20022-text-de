@@ -1,0 +1,15 @@
+{
+  "isoType": "RemittanceLocationData1",
+  "definition": "Enthält zusätzliche Angaben zur Zahlungsavisierung.",
+  "isoElements": {
+    "Method": {
+      "definition": "Methode, mit der die Informationen der Zahlungsavisierung übermittelt werden."
+    },
+    "ElectronicAddress": {
+      "definition": "Elektronische Adresse, an die eine Bank die Verwendungszweck-Informationen senden soll."
+    },
+    "PostalAddress": {
+      "definition": "Postanschrift, an die eine Bank die Verwendungszweck-Informationen senden soll."
+    }
+  }
+}

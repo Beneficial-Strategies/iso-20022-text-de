@@ -1,0 +1,34 @@
+{
+  "isoType": "ATMCounterType3Code",
+  "definition": "Art der Zähler der Kassetten des ATM.",
+  "isoCodes": {
+    "INQU": {
+      "name": "Zählerabfrage",
+      "definition": "Zähler seit der letzten Zählerabfrage."
+    },
+    "CTXN": {
+      "name": "Kundentransaktion",
+      "definition": "Zähler für eine Kundentransaktion."
+    },
+    "CTOF": {
+      "name": "Annahmeschluss",
+      "definition": "Zähler seit dem letzten Tagesabschluss."
+    },
+    "BDAY": {
+      "name": "Geschäftstag",
+      "definition": "Zähler seit Beginn des Geschäftstags."
+    },
+    "PRTN": {
+      "name": "Vorgang",
+      "definition": "Zähler als Ergebnis eines Auffüllvorgangs durch einen Bediener (zum Beispiel Hinzufügen von Bargeld zu einer Geldeinheit)."
+    },
+    "OPER": {
+      "name": "Bedienerkorrektur",
+      "definition": "Zähler seit der letzten Aktualisierung durch einen Bediener am ATM."
+    },
+    "SLRP": {
+      "name": "Seit dem letzten Auffüllzeitpunkt",
+      "definition": "Zähler seit dem letzten Auffüllzeitpunkt."
+    }
+  }
+}

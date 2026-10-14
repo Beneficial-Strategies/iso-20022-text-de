@@ -1,0 +1,90 @@
+{
+  "isoType": "RejectionReason87Code",
+  "definition": "Gibt den Grund an, warum die Anweisungsanfrage den Status „abgelehnt“ hat.",
+  "isoCodes": {
+    "OPTY": {
+      "name": "Ungültiger Optionstyp",
+      "definition": "Ungültige Optionsart."
+    },
+    "ULNK": {
+      "name": "Ungültige Referenz",
+      "definition": "Die verknüpfte Referenz ist unbekannt."
+    },
+    "DSEC": {
+      "name": "Ungültiges Wertpapier",
+      "definition": "Ungültige oder nicht erkannte Identifikation des Finanzinstruments."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "NMTY": {
+      "name": "Abweichung",
+      "definition": "Option und Optionsart stimmen nicht überein."
+    },
+    "CANC": {
+      "name": "Option storniert",
+      "definition": "Die Option ist nicht gültig; sie wurde vom Markt oder Dienstleister storniert, und es kann nicht mehr darauf geantwortet werden. Bereits zu dieser Option verarbeitete Antworten gelten als ungültig, und neue Antworten sind erforderlich."
+    },
+    "INTV": {
+      "name": "Option inaktiv",
+      "definition": "Die Option ist nicht aktiv, und es kann nicht mehr darauf geantwortet werden. Bereits zu dieser Option verarbeitete Antworten bleiben gültig, zum Beispiel bei einer abgelaufenen Option."
+    },
+    "OPNM": {
+      "name": "Ablehnung wegen Optionsnummer",
+      "definition": "Unbekannte Optionsnummer."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "EVNM": {
+      "name": "Nicht erkannte Identifikation",
+      "definition": "Unbekannte Ereignisnummer."
+    },
+    "DQCC": {
+      "name": "Ablehnung der Währung",
+      "definition": "Ungültige angewiesene Währung."
+    },
+    "DUPL": {
+      "name": "Doppelte Anweisung",
+      "definition": "Die Anweisung wird aufgrund eines doppelten Geschäftsnachrichten-Bezeichners abgelehnt."
+    },
+    "DSET": {
+      "name": "Abgelehnt, da bereits abgewickelt",
+      "definition": "Die Stornierungsanforderung wurde zurückgewiesen, da die Anweisung bereits abgewickelt wurde."
+    },
+    "DCAN": {
+      "name": "Abgelehnt, da bereits storniert",
+      "definition": "Die Stornierungsanforderung wurde abgelehnt, da die Anweisung bereits storniert wurde."
+    },
+    "TRTY": {
+      "name": "Falsche Transaktionsart",
+      "definition": "Die Transaktionsart ist falsch."
+    },
+    "BUMM": {
+      "name": "Käuferschutz stimmt nicht überein",
+      "definition": "Uneinigkeit der Gegenpartei über das gewählte Ergebnis der Kapitalmaßnahme."
+    },
+    "ECMD": {
+      "name": "Marktfrist für die Wahl gegenüber der Gegenpartei verpasst",
+      "definition": "Nach der Marktfrist für die Wahl gegenüber der Gegenpartei eingegangen."
+    },
+    "ECRD": {
+      "name": "Antwortfrist für die Wahl gegenüber der Gegenpartei verpasst",
+      "definition": "Nach der Marktfrist für die Antwort auf die Wahl gegenüber der Gegenpartei eingegangen."
+    },
+    "DUCK": {
+      "name": "Zugrunde liegende Transaktion storniert",
+      "definition": "Die Käuferschutz-Anweisung (Buyer Protection) wurde abgelehnt, da die zugrunde liegende Abwicklungstransaktion storniert wurde."
+    },
+    "DUST": {
+      "name": "Zugrunde liegende Transaktion bereits abgewickelt",
+      "definition": "Die Käuferschutz-Anweisung (Buyer Protection) wurde abgelehnt, da die zugrunde liegende Abwicklungstransaktion bereits abgewickelt wurde."
+    },
+    "DSNA": {
+      "name": "Kein Käuferschutz zulässig",
+      "definition": "Die zugrunde liegende Transaktionsart bzw. der zugrunde liegende Status lässt keinen Käuferschutz zu."
+    }
+  }
+}

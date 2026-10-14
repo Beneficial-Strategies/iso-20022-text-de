@@ -1,0 +1,177 @@
+{
+  "isoType": "CorporateActionAmounts74",
+  "definition": "Gibt Beträge im Rahmen eines Kapitalmaßnahmen-Ereignisses an.",
+  "isoElements": {
+    "PostingAmount": {
+      "definition": "Geldbetrag, der auf dem Konto gebucht werden soll bzw. gebucht wurde."
+    },
+    "GrossAmount": {
+      "definition": "Geldbetrag vor Abzug jeglicher Steuern."
+    },
+    "NetAmount": {
+      "definition": "Geldbetrag nach Abzug der Steuern."
+    },
+    "SolicitationFees": {
+      "definition": "Barprämie, die zur Verfügung gestellt wird, wenn der Wertpapierinhaber einem Ereignis zustimmt oder daran teilnimmt, zum Beispiel Zustimmungsgebühren oder Einholungsgebühren."
+    },
+    "CashInLieuOfShare": {
+      "definition": "Barausgleich anstelle einer Bruchteilsmenge von zum Beispiel Aktien."
+    },
+    "CapitalGain": {
+      "definition": "Geldbetrag, der als Ergebnis eines Kapitalgewinns ausgeschüttet wird."
+    },
+    "InterestAmount": {
+      "definition": "Geldbetrag, der einer Kuponzahlung entspricht."
+    },
+    "MarketClaimAmount": {
+      "definition": "Geldbetrag, der sich aus einem Market Claim ergibt."
+    },
+    "IndemnityAmount": {
+      "definition": "(Nur in Frankreich) Betrag, der einem Käufer von Wertpapieren zusteht, die vor dem Ex-Tag gehandelt wurden und einem anderen Steuersatz unterliegen können."
+    },
+    "ManufacturedDividendPaymentAmount": {
+      "definition": "Geldbetrag, den der Entleiher dem Verleiher als Entschädigung zahlt. Er berechtigt den Verleiher nicht zur Rückforderung einer Steuergutschrift und wird von den lokalen Steuerbehörden des Verleihers mitunter anders behandelt. Umfasst gegebenenfalls auch die Entschädigung/Schadloshaltung für eine entgangene Dividende bei vorzeitiger/verspäteter Abwicklung, sofern dies für einen Markt zutrifft."
+    },
+    "ReinvestmentAmount": {
+      "definition": "Geldbetrag, der in zusätzliche Wertpapiere reinvestiert wird."
+    },
+    "FullyFrankedAmount": {
+      "definition": "Betrag aus einer vollständig anrechnungsfähigen Dividende (fully franked), die von einem Unternehmen gezahlt wird; der Betrag enthält die Steuergutschrift für Unternehmen, die im Geschäftsjahr ausreichende Steuerzahlungen geleistet haben."
+    },
+    "UnfrankedAmount": {
+      "definition": "Betrag aus einer nicht anrechnungsfähigen Dividende (unfranked), die von einem Unternehmen gezahlt wird; der Betrag enthält keine Steuergutschrift und unterliegt der Quellensteuer."
+    },
+    "SundryOrOtherAmount": {
+      "definition": "Geldbetrag im Zusammenhang mit steuerpflichtigem Einkommen, der nicht kategorisiert werden kann."
+    },
+    "TaxFreeAmount": {
+      "definition": "Geldbetrag, der nicht besteuert wurde."
+    },
+    "TaxDeferredAmount": {
+      "definition": "Betrag der Erträge, die für eine aufgeschobene Besteuerung in Frage kommen."
+    },
+    "ValueAddedTaxAmount": {
+      "definition": "Mehrwertsteuer."
+    },
+    "StampDutyAmount": {
+      "definition": "Betrag der Stempelsteuer."
+    },
+    "TaxReclaimAmount": {
+      "definition": "Betrag, der über die tatsächliche Steuerschuld hinaus gezahlt und zurückgefordert wurde."
+    },
+    "TaxCreditAmount": {
+      "definition": "Betrag der Steuern, die im Zusammenhang mit dem steuerpflichtigen Ereignis bereits gezahlt wurden."
+    },
+    "AdditionalTaxAmount": {
+      "definition": "Betrag zusätzlicher Steuern, die nicht kategorisiert werden können."
+    },
+    "WithholdingTaxAmount": {
+      "definition": "Betrag einer Barausschüttung, der von den Steuerbehörden des Rechtsraums des Emittenten einbehalten wird und für den eine Entlastung an der Quelle und/oder eine Rückforderung möglich sein kann."
+    },
+    "SecondLevelTaxAmount": {
+      "definition": "Betrag, der von einem anderen Rechtsraum als dem Rechtsraum des steuerlichen Gründungslandes des Emittenten einbehalten wird und für den eine Entlastung an der Quelle und/oder eine Rückforderung möglich sein kann. Er wird ergänzend zu oder in Verrechnung mit dem Quellensteuersatz erhoben, der vom Rechtsraum des steuerlichen Sitzes des Emittenten erhoben wird."
+    },
+    "FiscalStampAmount": {
+      "definition": "Betrag der anzuwendenden Fiskalsteuer."
+    },
+    "ExecutingBrokerAmount": {
+      "definition": "Betrag, der als Provision an einen ausführenden Broker gezahlt wird."
+    },
+    "PayingAgentCommissionAmount": {
+      "definition": "Betrag der Provision der Zahl-/Unterzahlstelle."
+    },
+    "LocalBrokerCommissionAmount": {
+      "definition": "Provision des lokalen Brokers."
+    },
+    "RegulatoryFeesAmount": {
+      "definition": "Von einer Aufsichtsbehörde erhobener Geldbetrag, zum Beispiel Gebühren der Securities and Exchange."
+    },
+    "ShippingFeesAmount": {
+      "definition": "Sämtliche Kosten im Zusammenhang mit der physischen Zustellung von Dokumenten, wie Stempelgebühren, Porto, Frachtgebühren, Versicherungen oder Botendienste."
+    },
+    "ChargesAmount": {
+      "definition": "Betrag, der für die Erbringung von Finanzdienstleistungen gezahlt wird und keinem anderen Qualifier zugeordnet werden kann."
+    },
+    "CashAmountBroughtForward": {
+      "definition": "Gibt aus einer früheren Dividende einbehaltenes Bargeld an."
+    },
+    "CashAmountCarriedForward": {
+      "definition": "Gibt den auf die nächste Dividende vorgetragenen Saldo an."
+    },
+    "NotionalDividendPayableAmount": {
+      "definition": "Geldbetrag, der zahlbar gewesen wäre, wenn die Dividende in Form von Bargeld statt in Form von Aktien bezogen worden wäre."
+    },
+    "NotionalTaxAmount": {
+      "definition": "Wenn anstelle einer Bardividende neue Wertpapiere ausgegeben werden, ist die fiktive Steuer die Steuer auf den Geldbetrag, der gezahlt worden wäre."
+    },
+    "TaxArrearsAmount": {
+      "definition": "Geldbetrag, der von den Steuerbehörden zusätzlich zur Zahlung der Steuerrückerstattung selbst gezahlt wird."
+    },
+    "OriginalAmount": {
+      "definition": "Buchungs-/Abwicklungsbetrag in seiner ursprünglichen Währung, wenn eine Umrechnung von/in eine andere Währung stattgefunden hat."
+    },
+    "PrincipalOrCorpus": {
+      "definition": "Geldbetrag, der eine Ausschüttung des Kapitalbetrags einer Anleihe darstellt, zum Beispiel die Rückzahlung ausstehender Schulden."
+    },
+    "RedemptionPremiumAmount": {
+      "definition": "Geldbetrag (keine Zinsen) zusätzlich zum Kapitalbetrag bei der Rückzahlung einer Anleihe."
+    },
+    "IncomePortion": {
+      "definition": "Betrag in Bezug auf das zugrunde liegende Wertpapier, für das Erträge ausgeschüttet werden."
+    },
+    "StockExchangeTax": {
+      "definition": "Betrag der Börsenumsatzsteuer."
+    },
+    "EUTaxRetentionAmount": {
+      "definition": "Gesamtbetrag der an der Quelle einbehaltenen Steuer gemäß der EU-Zinsrichtlinie."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Betrag der zwischen Kuponzahlungsperioden aufgelaufenen Zinsen."
+    },
+    "EqualisationAmount": {
+      "definition": "Teil des Fondsausschüttungsbetrags, der den durchschnittlich aufgelaufenen Ertrag darstellt, der im Kaufpreis der während der Kontoperiode gekauften Anteile enthalten ist."
+    },
+    "FATCATaxAmount": {
+      "definition": "Steuerbetrag im Zusammenhang mit FATCA (Foreign Account Tax Compliance Act)."
+    },
+    "NRATaxAmount": {
+      "definition": "Betrag der steuerrelevanten Erträge, die der NRA (Non Resident Alien) unterliegen."
+    },
+    "BackUpWithholdingTaxAmount": {
+      "definition": "Betrag der Steuer im Zusammenhang mit der Ersatzquellensteuer (Back-up Withholding)."
+    },
+    "TaxOnIncomeAmount": {
+      "definition": "Betrag der insgesamt an der Quelle von Fondsmanagern einbehaltenen Steuer, bevor die Steuerpflicht der einzelnen Anteilinhaber berücksichtigt wird."
+    },
+    "TransactionTax": {
+      "definition": "Betrag der Transaktionssteuer."
+    },
+    "DeemedAmount": {
+      "definition": "Betrag der Erlöse, der nicht tatsächlich an den Wertpapierinhaber gezahlt wird, auf den jedoch Quellensteuer anfällt."
+    },
+    "ForeignIncomeAmount": {
+      "definition": "Betrag im Zusammenhang mit ausländischen Einkünften, wie zum Beispiel durchgeleiteten ausländischen Einkünften (Conduit Foreign Income)."
+    },
+    "DeemedDividendAmount": {
+      "definition": "Fiktiver Betrag, der sich aus der Differenz zwischen dem Satz der Dividendenerlöse, die dem Wertpapierinhaber für das Steuerjahr zugerechnet werden, und dem Satz der Dividendenerlöse ergibt, die dem Wertpapierinhaber zuvor im Zusammenhang mit Barausschüttungen für das Jahr mitgeteilt wurden."
+    },
+    "DeemedFundAmount": {
+      "definition": "Fiktiver Betrag, der sich aus der Differenz zwischen dem Satz der Erlöskomponenten einer Fondszahlung, die dem Wertpapierinhaber für das Steuerjahr zugerechnet werden, und dem Satz der Fondserlöse ergibt, die dem Wertpapierinhaber zuvor im Zusammenhang mit Barausschüttungen für das Jahr mitgeteilt wurden."
+    },
+    "DeemedInterestAmount": {
+      "definition": "Fiktiver Betrag, der sich aus der Differenz zwischen dem Satz der Zinserlöse, die dem Wertpapierinhaber für das Steuerjahr zugerechnet werden, und dem Satz der Zinserlöse ergibt, die dem Wertpapierinhaber zuvor im Zusammenhang mit Barausschüttungen für das Jahr mitgeteilt wurden."
+    },
+    "DeemedRoyaltiesAmount": {
+      "definition": "Fiktiver Betrag, der sich aus der Differenz zwischen dem Satz der Lizenzgebührenerlöse, die dem Wertpapierinhaber für das Steuerjahr zugerechnet werden, und dem Satz der Lizenzgebührenerlöse ergibt, die dem Wertpapierinhaber zuvor im Zusammenhang mit Barausschüttungen für das Jahr mitgeteilt wurden."
+    },
+    "AdjustedSubscriptionAmount": {
+      "definition": "Geldbetrag, der belastet oder gutgeschrieben wird, um die Differenz zwischen dem geschätzten und dem endgültigen Bezugssatz bei Ereignissen der Rechteausübung auszugleichen."
+    },
+    "RefundedSubscriptionAmount": {
+      "definition": "Geldbetrag, der von den ursprünglichen Bezugskosten bei einem Ereignis der Rechteausübung erstattet wird. Dies tritt ein, wenn das Ereignis anteilig zugeteilt wird und die auf den nicht betroffenen (nicht angenommenen) Bestand entfallenden Bezugskosten an den Inhaber zurückgezahlt werden."
+    },
+    "BuyUpAmount": {
+      "definition": "Barbetrag, der im Zusammenhang mit einer Buy-up-Option belastet wird."
+    }
+  }
+}

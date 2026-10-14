@@ -1,0 +1,18 @@
+{
+  "isoType": "LimitStructure6",
+  "definition": "Einzelheiten zu einem bestimmten Limit, das vom Teilnehmer festgelegt und vom Transaktionsadministrator verwaltet wird.",
+  "isoElements": {
+    "LimitIdentification": {
+      "definition": "Identifikation des Standardlimits."
+    },
+    "StartDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen das Limit wirksam wird."
+    },
+    "Amount": {
+      "definition": "Geldbetrag des Limits, ausgedrückt in einer zulässigen Währung."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob ein Limit ein Soll-Limit oder ein Haben-Limit ist."
+    }
+  }
+}

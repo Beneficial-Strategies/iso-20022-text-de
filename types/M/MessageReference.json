@@ -1,0 +1,9 @@
+{
+  "isoType": "MessageReference",
+  "definition": "Für die vorliegende Nachricht relevante Nachrichtenreferenz.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Geschäftliche Referenz der vorliegenden Nachricht, vergeben von der Partei, die die Nachricht ausstellt. Diese Referenz muss unter allen Nachrichten gleichen Namens, die von derselben Partei gesendet werden, eindeutig sein."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "Header31",
+  "definition": "Informationen zur Protokollverwaltung auf einem Abschnitt des Pfads vom ATM zum Acquirer.",
+  "isoElements": {
+    "MessageFunction": {
+      "definition": "Bezeichnet die Art des Prozesses im Zusammenhang mit der Nachricht."
+    },
+    "ProtocolVersion": {
+      "definition": "Version der Spezifikationen des ATM-Protokolls."
+    },
+    "ExchangeIdentification": {
+      "definition": "Eindeutige Identifikation eines Austauschvorgangs."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "InitiatingParty": {
+      "definition": "Eindeutige Identifikation des Partners, der den Austausch initiiert hat."
+    },
+    "RecipientParty": {
+      "definition": "Eindeutige Identifikation des Partners, der Empfänger des Nachrichtenaustauschs ist."
+    },
+    "ProcessState": {
+      "definition": "Zustand des Absenders der Nachricht innerhalb des Prozessablaufs."
+    },
+    "Traceability": {
+      "definition": "Identifikation der am Austausch zwischen dem Händler und dem Emittenten beteiligten Partner mit dem relativen Zeitstempel ihres Austauschs."
+    }
+  }
+}

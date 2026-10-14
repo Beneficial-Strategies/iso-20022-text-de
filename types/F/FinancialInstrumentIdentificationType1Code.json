@@ -1,0 +1,102 @@
+{
+  "isoType": "FinancialInstrumentIdentificationType1Code",
+  "definition": "Gibt die Art der Identifikation des Finanzinstruments an.",
+  "isoCodes": {
+    "BELC": {
+      "name": "Code SRW Secretariaat voor Roerende Waarden oder SVM Secrétariat des Valeurs Mobilières",
+      "definition": "Nationale Wertpapierkennnummer für BE, vergeben von der nationalen Nummerierungsagentur SIX Telekurs Belgium."
+    },
+    "BLOM": {
+      "name": "Bloomberg",
+      "definition": "Von Bloomberg vergebener tickerähnlicher Code zur Identifizierung von Finanzinstrumenten."
+    },
+    "CCCD": {
+      "name": "Sonstige nationale Wertpapierkennnummer",
+      "definition": "Nationale Wertpapierkennnummer (NSIN), vergeben von der nationalen Nummerierungsagentur eines Landes, für das noch kein spezifischer Code für die Art der Finanzinstrument-Identifikation existiert. Die ersten beiden Buchstaben des Codes stellen den Ländercode dar (zum Beispiel EGDC für die ägyptische NSIN). Nur zu verwenden, bis der Code in die ISO-Liste ExternalFinancialInstrumentIdentificationType1Code aufgenommen ist."
+    },
+    "CMED": {
+      "name": "Chicago Mercantile Exchange (CME)",
+      "definition": "Von der Chicago Mercantile Exchange vergebener tickerähnlicher Code zur Identifizierung börsengehandelter Derivate."
+    },
+    "COMM": {
+      "name": "Common Code",
+      "definition": "Nationale Wertpapierkennnummer für ICSDs, vergeben von den nationalen Nummerierungsagenturen Clearstream und Euroclear."
+    },
+    "CTAC": {
+      "name": "Consolidated Tape Association (CTA)",
+      "definition": "Von der Consolidated Tape Association vergebener tickerähnlicher Code zur Identifizierung von Finanzinstrumenten."
+    },
+    "CUSP": {
+      "name": "Committee on Uniform Security Identification Procedures (CUSIP)",
+      "definition": "Nationale Wertpapierkennnummer für US und CA, vergeben von der nationalen Nummerierungsagentur Standard & Poor´s - CUSIP Global Services."
+    },
+    "FIGC": {
+      "name": "Globaler Identifikator für Finanzinstrumente (Composite)",
+      "definition": "Ein Financial Instrument Global Identifier Composite (FIGC) ist eine eindeutige, dauerhafte zwölfstellige Zeichenfolge zur Identifizierung von Finanzinstrumenten über Anlageklassen hinweg auf Composite-Ebene; er ist einer oder mehreren FIGI-Handelsplatz-IDs und einer einzigen Aktiengattungs-ID zugeordnet."
+    },
+    "FIGG": {
+      "name": "Globaler Identifikator für Finanzinstrumente (Anteilsklasse)",
+      "definition": "Ein Financial Instrument Global Identifier Share Class (FIGG) ist eine eindeutige, dauerhafte zwölfstellige Zeichenfolge zur Identifizierung von Finanzinstrumenten über Anlageklassen hinweg auf globaler Aktiengattungsebene und ist einer oder mehreren Composite-IDs zugeordnet."
+    },
+    "FIGI": {
+      "name": "Globaler Identifikator für Finanzinstrumente",
+      "definition": "Ein Financial Instrument Global Identifier (FIGI) ist eine eindeutige, dauerhafte zwölfstellige Zeichenfolge zur Identifizierung von Finanzinstrumenten über Anlageklassen hinweg auf Handelsplatzebene. Er ist einer Composite-ID zugeordnet."
+    },
+    "ISDU": {
+      "name": "ISDA- und FpML-Produkt-URL in SecurityID",
+      "definition": "URL in der Beschreibung zur Identifizierung von OTC-Derivaten."
+    },
+    "ISDX": {
+      "name": "ISDA- und FpML-Produktspezifikation-XML in EncodedSecurityDesc",
+      "definition": "XML in der Beschreibung zur Identifizierung von OTC-Derivaten."
+    },
+    "LCHD": {
+      "name": "LCH.Clearnet",
+      "definition": "Von LCH vergebener tickerähnlicher Code zur Identifizierung börsengehandelter Derivate."
+    },
+    "OCCS": {
+      "name": "Options Clearing Corporation (OCC)",
+      "definition": "Von der Options Clearing Corporation vergebener tickerähnlicher Code zur Identifizierung von Finanzinstrumenten."
+    },
+    "OPRA": {
+      "name": "Options Price Reporting Authority (OPRA)",
+      "definition": "Von der Options Price Reporting Authority vergebener tickerähnlicher Code zur Identifizierung von Finanzinstrumenten."
+    },
+    "RCMD": {
+      "name": "Markit-RED-Code",
+      "definition": "Von Markit vergebener tickerähnlicher Code zur Identifizierung börsengehandelter Derivate."
+    },
+    "RICC": {
+      "name": "Reuters Instrument Code (RIC)",
+      "definition": "Von Thomson Reuters vergebener tickerähnlicher Code zur Identifizierung von Finanzinstrumenten."
+    },
+    "SEDL": {
+      "name": "Stock Exchange Daily Official List (SEDOL)",
+      "definition": "Nationale Wertpapierkennnummer für GB, vergeben von der nationalen Nummerierungsagentur London Stock Exchange."
+    },
+    "SICC": {
+      "name": "Securities Identification Code Committee",
+      "definition": "Nationale Wertpapierkennnummer für JP, vergeben von der nationalen Nummerierungsagentur 6 Stock Exchanges und JASDEC (Securities Identification Ticker-like code Committee)."
+    },
+    "TIKR": {
+      "name": "Tickersymbol (TS)",
+      "definition": "Von einer Börse vergebener Tickercode zur Identifizierung von Finanzinstrumenten."
+    },
+    "VALO": {
+      "name": "VALOR",
+      "definition": "Nationale Wertpapierkennnummer für CH und LI, vergeben von der nationalen Nummerierungsagentur SIX Telekurs Ltd."
+    },
+    "WKNR": {
+      "name": "Wertpapierkennnummer (WKN)",
+      "definition": "Nationale Wertpapierkennnummer für DE, vergeben von der nationalen Nummerierungsagentur WM Datenservice."
+    },
+    "CCDC": {
+      "name": "Anleihe-Identifikationscodeliste China",
+      "definition": "Nationale Anleihekennnummer für China, vergeben von CHINA CENTRAL DEPOSITORY & CLEARING CO., Limited."
+    },
+    "DTID": {
+      "name": "Digitaler Token-Identifikator",
+      "definition": "Digital Token Identifier, wie in ISO 24165 definiert."
+    }
+  }
+}

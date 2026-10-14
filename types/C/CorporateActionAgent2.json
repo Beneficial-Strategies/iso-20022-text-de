@@ -1,0 +1,33 @@
+{
+  "isoType": "CorporateActionAgent2",
+  "definition": "Detaillierte Informationen über die an einem Kapitalmaßnahmen-Ereignis beteiligten Agenten.",
+  "isoElements": {
+    "IssuerAgent": {
+      "definition": "Partei, die damit beauftragt ist, das Ereignis im Namen des emittierenden Unternehmens/Anbieters abzuwickeln. Die Partei kann für weitere Informationen zum Ereignis kontaktiert werden."
+    },
+    "PayingAgent": {
+      "definition": "Agent (Haupt- oder Fiskalzahlstelle), der damit beauftragt ist, die Zahlung für das Kapitalmaßnahmen-Ereignis im Namen des emittierenden Unternehmens/Anbieters auszuführen."
+    },
+    "Registrar": {
+      "definition": "Partei/Agent, der für die Führung des Registers des Wertpapiers verantwortlich ist."
+    },
+    "RemarketingAgent": {
+      "definition": "Agent, der das Wertpapier erneut vermarktet (Remarketing), wobei der ausstehende Betrag nicht reduziert wird."
+    },
+    "SolicitationAgent": {
+      "definition": "Treuhandgesellschaft, Bank oder ähnliches Finanzinstitut, das von einem Emittenten beauftragt wird, Aufzeichnungen über Anleger sowie über Kontostände und Transaktionen für die Zustimmung zu einer wesentlichen Änderung zu führen."
+    },
+    "InformationAgent": {
+      "definition": "Treuhandgesellschaft, Bank oder ähnliches Finanzinstitut, das von einem Emittenten beauftragt wird, Informationen und Kopien der Angebotsunterlagen bereitzustellen."
+    },
+    "Issuer": {
+      "definition": "Emittent des Finanzinstruments."
+    },
+    "TransferAgent": {
+      "definition": "Treuhandgesellschaft, Bank oder ähnliches Finanzinstitut, das von einer Fondsverwaltungsgesellschaft beauftragt wird, Aufzeichnungen über Anleger und Kontostände zu führen. Die Transfer-Stelle erfasst Transaktionen, einschließlich Zeichnungen, Rücknahmen, Umschichtungen, Übertragungen und Neueintragungen."
+    },
+    "RedemptionAgent": {
+      "definition": "Verwahrstelle oder jede Bank oder Treuhandgesellschaft, die beauftragt wird, Rückzahlungserlöse zu empfangen und zu senden."
+    }
+  }
+}

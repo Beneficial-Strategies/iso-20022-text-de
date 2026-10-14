@@ -1,0 +1,34 @@
+{
+  "isoType": "FrequencyGranularityType1Code",
+  "definition": "Definiert die Granularität der für die Berichterstattung verwendeten Häufigkeit.",
+  "isoCodes": {
+    "EMON": {
+      "name": "Monatsende",
+      "definition": "Das Ereignis findet am Ende jedes Monats bzw. jedes Zeitraums von einem Monat statt."
+    },
+    "EWEK": {
+      "name": "Wochenende",
+      "definition": "Das Ereignis findet am Ende jeder Woche statt."
+    },
+    "ESEM": {
+      "name": "Semesterende",
+      "definition": "Das Ereignis findet am Ende jeweils sechs Monate (bzw. zweimal im Jahr) statt."
+    },
+    "EQRT": {
+      "name": "Quartalsende",
+      "definition": "Das Ereignis findet am Ende jedes Zeitraums von drei Monaten (bzw. viermal im Jahr) statt."
+    },
+    "EFRT": {
+      "name": "Ende der Zweiwochenperiode",
+      "definition": "Das Ereignis findet am Ende jeweils zwei Wochen statt."
+    },
+    "EDAY": {
+      "name": "Tagesende",
+      "definition": "Das Ereignis findet am Ende jedes Tages statt."
+    },
+    "ENDY": {
+      "name": "Jahresende",
+      "definition": "Das Ereignis findet am Ende jedes Jahres statt."
+    }
+  }
+}

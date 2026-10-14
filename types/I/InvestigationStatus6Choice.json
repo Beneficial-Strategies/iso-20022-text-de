@@ -1,0 +1,18 @@
+{
+  "isoType": "InvestigationStatus6Choice",
+  "definition": "Gibt den Status eines Untersuchungsfalls an.",
+  "isoElements": {
+    "Confirmation": {
+      "definition": "Gibt den Status der Untersuchung in codierter Form an."
+    },
+    "RejectedModification": {
+      "definition": "Grund für die Ablehnung eines Änderungsauftrags in codierter Form."
+    },
+    "DuplicateOf": {
+      "definition": "Kennzeichnet einen doppelten Fall. |Verwendung: Wenn vorhanden, muss der in der Nachricht genannte Fall geschlossen werden. Der als doppelt gekennzeichnete Fall (in dieser Komponente) wird weiterverfolgt."
+    },
+    "AssignmentCancellationConfirmation": {
+      "definition": "Gibt an, ob die Stornierung der Zuweisung bestätigt oder abgelehnt wird.|Verwendung: Bei Ja wird die Stornierung der Zuweisung bestätigt.|Bei Nein wird die Stornierung der Zuweisung abgelehnt und der Untersuchungsprozess wird fortgesetzt."
+    }
+  }
+}

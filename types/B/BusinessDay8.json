@@ -1,0 +1,12 @@
+{
+  "isoType": "BusinessDay8",
+  "definition": "Meldet Geschäftstagsinformationen.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identifikation einer bestimmten Marktinfrastruktur."
+    },
+    "BusinessDayOrError": {
+      "definition": "Angeforderte Informationen zur Systemverfügbarkeit für einen bestimmten Geschäftstag oder fachlicher Fehler, wenn die Informationen nicht gefunden wurden."
+    }
+  }
+}

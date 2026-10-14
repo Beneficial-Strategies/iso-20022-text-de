@@ -1,0 +1,134 @@
+{
+  "isoType": "RejectionReason91Code",
+  "definition": "Gibt einen Grund an, warum die Anweisung den Status abgelehnt hat.",
+  "isoCodes": {
+    "ULNK": {
+      "name": "Ungültige Referenz",
+      "definition": "Die verknüpfte Referenz ist unbekannt."
+    },
+    "SAFE": {
+      "name": "Ablehnung des Verwahrkontos",
+      "definition": "Nicht erkanntes oder ungültiges Verwahrkonto des Nachrichtensenders."
+    },
+    "IPOS": {
+      "name": "Unzureichende Position für den Schwellenwert",
+      "definition": "Die Position liegt unter dem erforderlichen Schwellenwert."
+    },
+    "DQUA": {
+      "name": "Ablehnung wegen Menge",
+      "definition": "Ungültige oder nicht erkannte angewiesene Menge."
+    },
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Transaktion bzw. Anweisung ging nach Ablauf der vom kontoführenden Institut festgelegten Frist ein."
+    },
+    "SPLT": {
+      "name": "Gespaltene Stimmabgabe nicht zulässig",
+      "definition": "Geteilte Stimmabgabe ist nicht zulässig."
+    },
+    "PART": {
+      "name": "Teilweise Stimmabgabe nicht zulässig",
+      "definition": "Teilweise Stimmabgabe ist nicht zulässig."
+    },
+    "IPOA": {
+      "name": "Fehlende oder ungültige Vollmacht",
+      "definition": "Fehlende oder ungültige Vollmacht."
+    },
+    "PRXY": {
+      "name": "Abweichung bei der Vollmachtskarte",
+      "definition": "Ungültige Angaben zum Bevollmächtigten."
+    },
+    "IREG": {
+      "name": "Abweichung bei der Registrierung",
+      "definition": "Ungültige Registrierungsangaben."
+    },
+    "RBIS": {
+      "name": "Vom Emittenten oder Registerführer abgelehnt",
+      "definition": "Der Emittent oder die Registerstelle hat die Anweisung abgelehnt."
+    },
+    "LACK": {
+      "name": "Mangel an Wertpapieren",
+      "definition": "Die angewiesene Position übersteigt den zulässigen Bestand."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "OPTY": {
+      "name": "Ungültiger Optionstyp",
+      "definition": "Ungültige Optionsart."
+    },
+    "EVNM": {
+      "name": "Nicht erkannte Identifikation",
+      "definition": "Unbekannte Ereignisnummer."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "FULL": {
+      "name": "Fehlende Angaben zum wirtschaftlich Berechtigten",
+      "definition": "Abgelehnt aufgrund fehlender Angaben zum wirtschaftlich Berechtigten."
+    },
+    "ADDM": {
+      "name": "Zusätzliche Dokumentation fehlt",
+      "definition": "Die angeforderten zusätzlichen Unterlagen fehlen."
+    },
+    "MCAN": {
+      "name": "Ereignis storniert",
+      "definition": "Das Ereignis wurde abgesagt."
+    },
+    "DREM": {
+      "name": "Registrierungsfrist versäumt",
+      "definition": "Die Registrierungsfrist wurde versäumt."
+    },
+    "NPOS": {
+      "name": "Keine registrierte Position",
+      "definition": "Unzureichende oder keine registrierte Position."
+    },
+    "RESN": {
+      "name": "Abweichung bei der Beschlussnummer",
+      "definition": "Abweichung bei der angegebenen Beschlussnummer."
+    },
+    "DUPL": {
+      "name": "Doppelte Anweisung",
+      "definition": "Die Anweisung wird aufgrund eines doppelten Geschäftsnachrichten-Bezeichners abgelehnt."
+    },
+    "LIST": {
+      "name": "Ungültige Ja-Stimme bei Gruppennotierung",
+      "definition": "Die Anweisung ist ungültig, weil mehrere Beschlüsse, die zur selben Beschlussbezeichnungsnummer der Listing-Gruppe gehören, mit der Stimme \"For” angewiesen wurden."
+    },
+    "NOSL": {
+      "name": "Nicht im Aktienregister eingetragen",
+      "definition": "Ungültige Anweisung, da der Aktionär oder sein Beauftragter nicht im Aktienbuch der Gesellschaft eingetragen ist."
+    },
+    "PMNS": {
+      "name": "Teilnahmeverfahren nicht unterstützt",
+      "definition": "Die Anweisung wurde abgelehnt, weil die Teilnahmemethode vom kontoführenden Institut nicht unterstützt wird."
+    },
+    "IPED": {
+      "name": "Anweisung vor dem Anspruchsdatum",
+      "definition": "Die Anweisung wurde vor dem Anspruchsdatum empfangen."
+    },
+    "NACD": {
+      "name": "Nicht akzeptiert, E-Mail-Adresse fehlt",
+      "definition": "Die Anweisung zur virtuellen Teilnahme an der Versammlung wird abgelehnt, weil die E-Mail-Adresse des Teilnehmers fehlt."
+    },
+    "EFDM": {
+      "name": "Fehlendes oder falsches Feststellungsdatum des Anspruchs",
+      "definition": "Das Stichtagsdatum für den Anspruch fehlt oder ist fehlerhaft."
+    },
+    "ADIM": {
+      "name": "Zusätzliche Offenlegungsinformationen fehlen",
+      "definition": "Das (I)CSD konnte die erforderlichen Offenlegungsinformationen nicht (vom zugrunde liegenden Teilnehmer) empfangen oder (der Emittentenbank) bereitstellen."
+    },
+    "MINC": {
+      "name": "Angaben zur Anlegerklassifizierung fehlen",
+      "definition": "Die in der Anweisung übermittelte Klassifizierung stimmt nicht mit der Anlegerklassifizierung in der Benachrichtigung überein."
+    },
+    "DSEC": {
+      "name": "Ungültiges Wertpapier",
+      "definition": "Ungültige oder nicht erkannte Identifikation des Finanzinstruments."
+    }
+  }
+}

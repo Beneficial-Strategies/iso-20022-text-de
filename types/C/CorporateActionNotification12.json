@@ -1,0 +1,20 @@
+{
+  "isoType": "CorporateActionNotification12",
+  "definition": "Status und Inhalt der Benachrichtigung zum Kapitalmaßnahmen-Ereignis.",
+  "isoElements": {
+    "NotificationIdentification": {
+      "definition": "Eindeutige Identifikation der Gruppe von Kapitalmaßnahmen-Benachrichtigungen, wenn die Benachrichtigung auf mehrere (paginierte) Nachrichten aufgeteilt wird."
+    },
+    "NotificationType": {
+      "definition": "Gibt die Art der Benachrichtigung an."
+    },
+    "ProcessingStatus": {
+      "definition": "Gibt den Status der Einzelheiten des Kapitalmaßnahmen-Ereignisses an."
+    }
+  },
+  "isoRules": {
+    "NotificationTypeGuideline": {
+      "definition": "NotificationType REPL wird verwendet, um eine zuvor gesendete CorporateActionNotification-Nachricht zu ersetzen."
+    }
+  }
+}

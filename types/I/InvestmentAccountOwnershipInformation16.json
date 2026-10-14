@@ -1,0 +1,102 @@
+{
+  "isoType": "InvestmentAccountOwnershipInformation16",
+  "definition": "Merkmale der Inhaberschaft eines Wertpapierkontos.",
+  "isoElements": {
+    "Party": {
+      "definition": "Informationen zur Organisation oder natürlichen Person."
+    },
+    "MoneyLaunderingCheck": {
+      "definition": "Status einer Identitätsprüfung zur Verhinderung von Geldwäsche. Dies umfasst die Prüfung zur Terrorismusbekämpfung."
+    },
+    "InvestorProfileValidation": {
+      "definition": "Informationen zur Unterstützung der Know-Your-Customer-Prozesse (KYC)."
+    },
+    "OwnershipBeneficiaryRate": {
+      "definition": "Prozentsatz der Inhaberschaft oder der wirtschaftlichen Berechtigung an den Anteilen/Einheiten auf dem Konto. Alle nachfolgenden Zeichnungen oder Käufe und/oder Rücknahmen oder Verkäufe werden mit demselben Prozentsatz zugeteilt."
+    },
+    "ClientIdentification": {
+      "definition": "Eindeutige, von einer Organisation vergebene Identifikation zur zweifelsfreien Identifizierung einer Partei."
+    },
+    "FiscalExemption": {
+      "definition": "Gibt an, ob ein Kontoinhaber von einer steuerlichen Befreiung oder Amnestie profitieren kann, beispielsweise bei der Erklärung von Auslandsanlagen."
+    },
+    "SignatoryRightIndicator": {
+      "definition": "Gibt an, ob die Unterschrift des Kontoinhabers zur Autorisierung von Transaktionen auf dem Konto erforderlich ist."
+    },
+    "MiFIDClassification": {
+      "definition": "Einzelheiten zur MiFID-Klassifizierung des Kontoinhabers."
+    },
+    "Notification": {
+      "definition": "Art der Informationen, die dem Kontoinhaber bereitzustellen sind."
+    },
+    "FATCAFormType": {
+      "definition": "Art des Formulars zum Foreign Account Tax Compliance Act (FATCA), das vom Anleger oder Kontoinhaber eingereicht wurde."
+    },
+    "FATCAStatus": {
+      "definition": "Status des Anlegers oder Kontoinhabers nach dem Foreign Account Tax Compliance Act (FATCA)."
+    },
+    "FATCAReportingDate": {
+      "definition": "Vom Kontoinhaber angegebenes Datum, um den Kontoführer über das Datum zu informieren, zu dem die Bestände zu melden sind, bevor das Konto anschließend geschlossen wird."
+    },
+    "CRSFormType": {
+      "definition": "Art des Formulars zum Common Reporting Standard (CRS), das vom Anleger oder Kontoinhaber eingereicht wurde."
+    },
+    "CRSStatus": {
+      "definition": "Status des Anlegers oder Kontoinhabers nach dem Common Reporting Standard (CRS)."
+    },
+    "CRSReportingDate": {
+      "definition": "Vom Kontoinhaber angegebenes Datum, um den Kontoführer über das Datum zu informieren, zu dem die Bestände zu melden sind, bevor das Konto anschließend geschlossen wird."
+    },
+    "OtherIdentification": {
+      "definition": "Alternative Identifikation, zum Beispiel nationale Registrierungsnummer, Reisepassnummer, Steueridentifikationsnummer. Dies kann eine Kontonummer sein, die zur weiteren Identifikation des wirtschaftlich Berechtigten dient, zum Beispiel ein Konto des Central Provident Fund (CFP), wie es für Singapur erforderlich ist."
+    },
+    "TaxExemption": {
+      "definition": "Steuervorteil, der für die Kontopartei gilt."
+    },
+    "TaxReporting": {
+      "definition": "Einzelheiten zur Steuermeldung, beispielsweise das Land der Besteuerung."
+    },
+    "Language": {
+      "definition": "Sprache, in der die Organisation oder Person kommuniziert."
+    },
+    "MailType": {
+      "definition": "Für den Postversand verwendete Methode."
+    },
+    "CountryAndResidentialStatus": {
+      "definition": "Land und Ansässigkeitsstatus der Organisation oder natürlichen Person."
+    },
+    "MonetaryWealth": {
+      "definition": "Jahresvermögen der natürlichen Person oder Wert des Grundkapitals der juristischen Person sowie das Datum, an dem das Jahresvermögen der natürlichen Person erfasst oder erklärt wurde, oder das Datum, an dem der Aktienwert der Organisation erfasst wurde."
+    },
+    "EquityValue": {
+      "definition": "Betrag der Summe der Vermögenswerte abzüglich der Verbindlichkeiten der natürlichen Person oder Betrag der Differenz zwischen Vermögenswerten und Verbindlichkeiten zuzüglich Rechten gegenüber Verpflichtungen (Nettoeigenkapital) der Organisation sowie das Datum, an dem der Eigenkapitalwert erfasst wurde."
+    },
+    "WorkingCapital": {
+      "definition": "Von einem Drittunternehmen gehaltene oder genutzte Ressource oder Wert sowie das Datum, an dem der Betrag des Betriebskapitals erfasst wurde."
+    },
+    "CompanyLink": {
+      "definition": "Verbindung des Kontoinhabers mit der Handelspartei oder dem Broker."
+    },
+    "ElectronicMailingServiceReference": {
+      "definition": "Anzugebende Referenz, wenn ein Schreiben, beispielsweise eine Auftragsbestätigung, von einem automatisierten Postsystem versandt wird."
+    },
+    "PrimaryCommunicationAddress": {
+      "definition": "Nummer des Kommunikationsgeräts oder elektronische Adresse, die für die Kommunikation verwendet wird."
+    },
+    "SecondaryCommunicationAddress": {
+      "definition": "Nummer des Kommunikationsgeräts oder elektronische Adresse, die für die Kommunikation verwendet wird."
+    },
+    "AdditionalRegulatoryInformation": {
+      "definition": "Zusätzliche aufsichtsrechtliche Informationen zum Anleger oder Kontoinhaber, die in einigen Märkten zur Unterstützung der Gesetze zur Bekämpfung der Geldwäsche erforderlich sind."
+    },
+    "AccountingStatus": {
+      "definition": "Gibt an, ob die Kontopartei für Meldezwecke als inländisch oder nicht inländisch gilt."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen, beispielsweise Anmerkungen oder Hinweise, die zur Partei und/oder zu Einschränkungen und Beschränkungen zu übermitteln sind."
+    },
+    "ControllingParty": {
+      "definition": "Die Partei ist die beherrschende Person. |(Bei einer Einheit, die eine juristische Person ist, bezeichnet der Begriff „beherrschende Personen“ die natürliche(n) Person(en), die die Kontrolle über die Einheit ausübt/ausüben. Die „Kontrolle“ über eine Einheit wird im Allgemeinen von der/den natürlichen Person(en) ausgeübt, die letztlich eine beherrschende Beteiligung an der Einheit hält/halten. Eine „beherrschende Beteiligung“ hängt von der Eigentümerstruktur der juristischen Person ab und wird üblicherweise anhand eines Schwellenwerts nach einem risikobasierten Ansatz bestimmt (z. B. jede Person, die mehr als einen bestimmten Prozentsatz der juristischen Person besitzt, etwa 25 %). Übt keine natürliche Person die Kontrolle durch Beteiligungen aus, sind die beherrschenden Personen der Einheit die natürliche(n) Person(en), die die Kontrolle über die Einheit auf andere Weise ausübt/ausüben. Wird keine natürliche Person als Kontrollausübende identifiziert, sind die beherrschenden Personen der Einheit die natürliche(n) Person(en), die die Position des obersten Leitungsverantwortlichen innehat/innehaben.)."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "BillingTaxRegion3",
+  "definition": "Steuerregion, die auf die Services in einer Abrechnung eine Steuer erhebt.",
+  "isoElements": {
+    "RegionNumber": {
+      "definition": "Gibt eine bestimmte, eindeutige Steuerzone an, die von Steuerbehörden vergeben wird. Eine Steuerregionsnummer ist eindeutig. Jedes Konto gilt als in einer Steuerregion geführt, auch wenn einige Steuerregionen auf Services keine Steuern erheben."
+    },
+    "RegionName": {
+      "definition": "Name, der einer bestimmten Steuerregionsnummer zugeordnet ist."
+    },
+    "CustomerTaxIdentification": {
+      "definition": "Gibt die Steueridentifikationsnummer des Kunden des Finanzinstituts an. ||Verwendung: |Dies ist die Nummer, die vom Finanzinstitut an die Steuerbehörde übermittelt wird, um den bestimmten Kunden anzugeben, der mit den für diese Steuerregion und Gruppe gelieferter Services berechneten Steuern verbunden ist. Es handelt sich typischerweise um die Steueridentifikation, die mit dem Konto eines Kunden verbunden ist."
+    },
+    "PointDate": {
+      "definition": "Datum, an dem die Steuerberechnung durchgeführt wurde. ||Verwendung: |Dieses Datum kann zur Überprüfung des Steuersatzwerts am Berechnungsdatum verwendet werden."
+    },
+    "SendingFinancialInstitution": {
+      "definition": "Steuerinformationen, die sich auf das sendende Finanzinstitut beziehen."
+    },
+    "InvoiceNumber": {
+      "definition": "Eindeutige Nummer, die der Kunde für den Querverweis zwischen den Informationen zur Steuerregion und einer Steuerrechnung oder einem Steuerbescheid verwendet."
+    },
+    "MethodC": {
+      "definition": "Die Steuerwerte beruhen auf der Steuerberechnungsmethode C."
+    },
+    "SettlementAmount": {
+      "definition": "Gesamtsteuerbetrag, ausgedrückt in der Abrechnungswährung (oder Belastungswährung) des Kontos. ||Verwendung: Diese Summe addiert die einzelnen Steuern auf Serviceebene, wie sie für jeden Service nach den Methoden A, B und D berechnet wurden. Die Summe dieser Beträge über alle Steuerregionen der Abrechnung wird als Steuergesamtsumme im Kompensationsabschnitt angezeigt."
+    },
+    "TaxDueToRegion": {
+      "definition": "Gesamtbetrag aller Steuern für einen bestimmten Kunden innerhalb der Steuerregion, ausgedrückt in der Sitzwährung der Steuerregion. ||Verwendung: Er entspricht dem Gesamtsteuerbetrag und ist für die spezifische Verwendung der Steuerberechnungsmethoden A, B und D enthalten."
+    }
+  }
+}

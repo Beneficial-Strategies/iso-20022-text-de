@@ -1,0 +1,20 @@
+{
+  "isoType": "AdditionalDateTime1",
+  "definition": "Reihe zusätzlicher Daten zur Zahlung.",
+  "isoElements": {
+    "AcceptanceDateTime": {
+      "definition": "Zeitpunkt, zu dem der Zahlungsauftrag der initiierenden Partei die Verarbeitungsbedingungen der kontoführenden Bank erfüllt. Das heißt, die kontoführende Bank hat den Zahlungsauftrag erhalten und Prüfungen wie Autorisierung und Deckungsprüfung angewendet."
+    },
+    "PoolingAdjustmentDate": {
+      "definition": "Datum zur Korrektur des Wertstellungsdatums einer Cash-Pool-Bewegung, die mit einem abweichenden Wertstellungsdatum gebucht wurde."
+    },
+    "ExpiryDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen die Zahlung verfällt, falls sie nicht abgewickelt wurde."
+    }
+  },
+  "isoRules": {
+    "AdditionalDateTimePresenceRule": {
+      "definition": "AcceptanceDateTime oder PoolingAdjustmentDate oder ExpiryDateTime muss vorhanden sein. Alle können vorhanden sein."
+    }
+  }
+}

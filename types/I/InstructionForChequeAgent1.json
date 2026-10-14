@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForChequeAgent1",
+  "definition": "Weitere Informationen zur Verarbeitung der Scheckanweisung, die von der empfangenden Bank gegebenenfalls zu beachten sind.",
+  "isoElements": {
+    "Code": {
+      "definition": "Codierte Informationen zur Verarbeitung des Schecks, die für die empfangende Bank bestimmt sind."
+    },
+    "InstructionInformation": {
+      "definition": "Weitere Informationen, die die codierte Anweisung oder die Anweisung an die Scheckbank ergänzen und bilateral vereinbart oder für eine Nutzergemeinschaft spezifisch sind."
+    }
+  }
+}

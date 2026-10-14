@@ -1,0 +1,15 @@
+{
+  "isoType": "StatementReference1",
+  "definition": "Identifiziert die Referenz des Kontoauszugs anhand einer eindeutigen Kennung sowie des Datums (und der Uhrzeit).",
+  "isoElements": {
+    "StatementIdentification": {
+      "definition": "Referenz, die allen Seiten des Kontoauszugs gemeinsam ist, für den die Statusmitteilung gesendet wird."
+    },
+    "StatementDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung des Kontoauszugs."
+    },
+    "Pagination": {
+      "definition": "Seitennummer der zugehörigen Nachricht (innerhalb des Kontoauszugs) und Fortsetzungsindikator, der angibt, dass der Kontoauszug fortgesetzt wird oder dass die zugehörige Nachricht die letzte Seite des Kontoauszugs ist."
+    }
+  }
+}

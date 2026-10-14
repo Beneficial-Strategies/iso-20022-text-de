@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMCommand5Code",
+  "definition": "Art des vom ATM auszuführenden Befehls.",
+  "isoCodes": {
+    "ABAL": {
+      "name": "ATM-Saldo",
+      "definition": "Die Zählerstände des ATM bereitstellen und die dafür geeigneten Zähler zurücksetzen."
+    },
+    "CCNT": {
+      "name": "Zählerabfrage",
+      "definition": "Den Wert der Zähler des ATM anfordern."
+    },
+    "RPTC": {
+      "name": "Zählerbericht",
+      "definition": "Den Wert der Zähler des ATM bereitstellen, ohne die Zähler neu zu initialisieren."
+    }
+  }
+}

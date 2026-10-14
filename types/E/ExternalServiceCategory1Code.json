@@ -1,0 +1,78 @@
+{
+  "isoType": "ExternalServiceCategory1Code",
+  "definition": "Gibt die Dienstleistungskategorie an, wie in einer externen Codeliste für Statusgründe veröffentlicht.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "ACMS": {
+      "name": "Kontoführungsdienste",
+      "definition": "Als Code ausgedrückte Vereinbarung oder Regeln, nach denen die Transaktion verarbeitet werden soll.|Diese Kategorie umfasst die Meldung von Entgelten im Zusammenhang mit Kontoführungsdienstleistungen, darunter unter anderem Mitgliedsbeiträge und Mindestentgelte (d. h. Entgelte, die kleinen Rechnungen hinzugefügt werden, um die für jeden Teilnehmer vereinbarten Mindestentgelte zu erreichen)."
+    },
+    "BICM": {
+      "name": "Bilaterales Sicherheitenmanagement",
+      "definition": "Diese Kategorie umfasst die Meldung aller Entgelte im Zusammenhang mit der Verwaltung von Sicherheiten, die bilateralen Vereinbarungen unterliegen (Zentralbankfinanzierung für marktfähige und nicht marktfähige Vermögenswerte, nicht zentral geclearte OTC-Derivate und Wertpapierfinanzierungen)."
+    },
+    "CALM": {
+      "name": "Cash- und Liquiditätsmanagementdienste",
+      "definition": "Diese Kategorie umfasst die Meldung aller Entgelte im Zusammenhang mit Cash- und Liquiditätsmanagement-Dienstleistungen."
+    },
+    "CLEA": {
+      "name": "Clearing-Dienste",
+      "definition": "Diese Kategorie umfasst die Meldung von Entgelten im Zusammenhang mit der Erbringung von Clearing-Dienstleistungen."
+    },
+    "CUST": {
+      "name": "Verwahrdienste",
+      "definition": "Diese Kategorie umfasst die Meldung aller Entgelte, die pro Vorgang erhoben werden, wie z. B. Wahlanweisungen. Die Kategorie wird auch zur Meldung von Entgelten für Steuerdienstleistungen im Zusammenhang mit verwahrten Vermögenswerten sowie für die Bearbeitung von Kapitalmaßnahmen und Versammlungsereignissen verwendet."
+    },
+    "INSV": {
+      "name": "Informationsdienste",
+      "definition": "Diese Kategorie umfasst die Meldung aller Entgelte im Zusammenhang mit der Bereitstellung von Informationen auf jedem Weg und mit der Bereitstellung von Konnektivitätswerkzeugen. Dazu gehören ISO-Messaging (eingehend oder ausgehend), Zugang über die grafische Benutzeroberfläche (GUI), Konnektivität, Neuaufladung von Sicherheitstoken, Berichtsabonnements und die Bereitstellung von Daten auf anderem Weg (z. B. papierbasierte Formate)."
+    },
+    "INVS": {
+      "name": "Investmentfondsdienste",
+      "definition": "Diese Kategorie umfasst die Meldung aller Entgelte im Zusammenhang mit besonderen Dienstleistungen für Investmentfonds, wie Auftragsweiterleitung oder Anlegerberichterstattung.  Die Verwahrung und Abwicklung von Investmentfonds und börsengehandelten Fonds sollte unter den Kategorien Verwahrungsdienstleistungen bzw. Abwicklungsdienstleistungen gemeldet werden."
+    },
+    "ISSU": {
+      "name": "Emittentendienste",
+      "definition": "Diese Kategorie umfasst die Meldung von Entgelten im Zusammenhang mit der Erbringung von Emittentendienstleistungen durch eine CSD. Dazu gehören Entgelte wie die Emission und Rückzahlung von Wertpapieren und die Verwaltung von Kapitalmaßnahmen."
+    },
+    "OTHR": {
+      "name": "Sonstige Dienste",
+      "definition": "Diese Kategorie umfasst die Meldung von Entgelten im Zusammenhang mit sonstigen erbrachten Dienstleistungen, die möglicherweise nicht in einem allgemeinen, für alle Kunden geltenden Tarif festgelegt, sondern mit den Kunden individuell bilateral vereinbart sind. Dazu gehören die Bereitstellung individueller Serviceanfragen und sonstige Unterstützung für Kunden, wie Schulungs- und Testzugänge, sowie Auslagen."
+    },
+    "PENM": {
+      "name": "Strafmechanismus",
+      "definition": "Diese Kategorie umfasst die Meldung von Entgelten im Zusammenhang mit der Erstattung von Kosten für Entwicklung und Wartung des Strafmechanismus. Hinweis: Diese Kategorie sollte nicht zur Meldung der Strafe selbst verwendet werden."
+    },
+    "REGI": {
+      "name": "Registrierungsdienste",
+      "definition": "Diese Kategorie umfasst die Meldung aller Entgelte im Zusammenhang mit der Registrierung von Wertpapieren."
+    },
+    "SAFE": {
+      "name": "Verwahrungsdienste",
+      "definition": "Diese Kategorie umfasst die Meldung aller Entgelte, die als Basispunkte auf die verwahrten Vermögenswerte berechnet werden. Dazu gehören Notariats-, zentrale Verwaltungs- und Asset-Servicing-Entgelte."
+    },
+    "SECL": {
+      "name": "Wertpapierleihdienste",
+      "definition": "Diese Kategorie umfasst die Meldung aller Entgelte im Zusammenhang mit Wertpapierleihe-Dienstleistungen."
+    },
+    "PENA": {
+      "name": "Abwicklungsstrafen",
+      "definition": "Diese Kategorie umfasst die Meldung aller Entgelte im Zusammenhang mit der Kostenerstattung für Abwicklungsstrafen, die von Abwicklungssystemen außerhalb der EU erhoben werden (außerhalb des Anwendungsbereichs der Abwicklungsdisziplin der CSDR)."
+    },
+    "SETT": {
+      "name": "Abwicklungsdienste",
+      "definition": "Diese Kategorie umfasst die Meldung aller Entgelte im Zusammenhang mit der Abwicklung von Wertpapieren und/oder Barmitteln. Dazu gehören Entgelte für die Abwicklung von Market Claims und Transformationen. Steuern auf abgewickelte Transaktionen (wie Finanztransaktionssteuern) und ergänzende Abwicklungsdienstleistungen werden ebenfalls unter dieser Kategorie gemeldet."
+    },
+    "SHDT": {
+      "name": "Dienste zur Übermittlung von Aktionärsdaten",
+      "definition": "Diese Kategorie umfasst die Meldung von Entgelten im Zusammenhang mit der Erbringung von Dienstleistungen, die es Intermediären ermöglichen, Aktionärsdaten an Emittenten zu übermitteln. Dazu gehören Kosten für die Berechnung und Abrechnung der Entgelte, die Intermediäre den Emittenten für die Meldung von Aktionärsdaten berechnen."
+    },
+    "STEX": {
+      "name": "Börsendienste",
+      "definition": "Diese Kategorie umfasst die Meldung von Entgelten im Zusammenhang mit der Erbringung von Börsendienstleistungen. Dazu gehören Transaktionsentgelte."
+    },
+    "TPCM": {
+      "name": "Triparty-Sicherheitenmanagementdienste",
+      "definition": "Diese Kategorie umfasst die Meldung aller Entgelte im Zusammenhang mit der Erbringung von Dienstleistungen für Sicherheitengeber und/oder Sicherheitennehmer, die an einer Triparty-Sicherheitenverwaltungstransaktion beteiligt sind."
+    }
+  }
+}

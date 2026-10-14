@@ -1,0 +1,178 @@
+{
+  "isoType": "TaxExemptReason3Code",
+  "definition": "Gibt den Grund an, weshalb eine bestimmte Steuer bei einer gegebenen Transaktion nicht erhoben bzw. abgezogen wurde.",
+  "isoCodes": {
+    "NONE": {
+      "name": "Keine",
+      "definition": "Das Konto ist nicht steuerbefreit."
+    },
+    "MASA": {
+      "name": "Maxi-ISA",
+      "definition": "Maxi Individual Savings Account (ISA). Das Konto ist ein ISA bei einem einzigen ISA-Manager, der Bargeld, Aktien, Investmentfonds und Lebensversicherungen bis zur vorgeschriebenen jährlichen Zeichnungsgrenze enthalten darf (für UK erforderlich). Der Maxi ISA ermöglicht es einem Anleger, alle drei zulässigen Elemente der ISA-Anlagen bei einem einzigen Sparinstitut in einem einzigen Konto zu sparen."
+    },
+    "MISA": {
+      "name": "Mini-Cash-ISA",
+      "definition": "Mini Cash Individual Savings Account (ISA). Das Konto ist ein ISA bei einem einzigen ISA-Manager, der Bargeld, Aktien, Investmentfonds und Lebensversicherungen bis zur vorgeschriebenen jährlichen Zeichnungsgrenze enthalten darf (für UK erforderlich). Ein Anleger kann mehr als einen Mini ISA halten, um die gesamte Anlagegrenze für Mini ISAs auszuschöpfen, und kann bei mehr als einem Sparinstitut anlegen; in einem einzigen Konto ist jedoch nur eines der drei Elemente der ISA-Anlage zulässig."
+    },
+    "SISA": {
+      "name": "Mini-Stocks-and-Shares-ISA",
+      "definition": "Mini Stocks and Shares Individual Savings Account (ISA). Das Konto ist ein ISA bei einem ISA-Manager, der nur Aktien, Anteile und kollektive Anlagen bis zur vorgeschriebenen jährlichen Zeichnungsgrenze enthalten darf (für UK erforderlich)."
+    },
+    "IISA": {
+      "name": "Mini-Insurance-ISA",
+      "definition": "Mini Insurance Individual Savings Account (ISA). Das Konto ist ein ISA bei einem ISA-Manager, der nur Lebensversicherungsanlagen bis zur vorgeschriebenen jährlichen Zeichnungsgrenze enthalten darf (für UK erforderlich)."
+    },
+    "CUYP": {
+      "name": "Zahlung für das laufende Jahr",
+      "definition": "Das Konto dient Einzahlungen des laufenden Jahres in ein Anlage-Rentenkonto (für die USA erforderlich)."
+    },
+    "PRYP": {
+      "name": "Zahlung für das Vorjahr",
+      "definition": "Das Konto dient einer Einzahlung des Vorjahres in ein Anlage-Rentenkonto (für die USA erforderlich)."
+    },
+    "ASTR": {
+      "name": "Vermögensübertragung",
+      "definition": "Das Konto dient einer Vermögensübertragung in ein Anlage-Rentenkonto (für die USA erforderlich)."
+    },
+    "EMPY": {
+      "name": "Arbeitnehmer, Vorjahr",
+      "definition": "Das Konto dient Arbeitnehmerbeiträgen des Vorjahres in ein Anlage-Rentenkonto (für die USA erforderlich)."
+    },
+    "EMCY": {
+      "name": "Arbeitnehmer, laufendes Jahr",
+      "definition": "Das Konto dient Arbeitnehmerbeiträgen des laufenden Jahres in ein Anlage-Rentenkonto (für die USA erforderlich)."
+    },
+    "EPRY": {
+      "name": "Arbeitgeber, Vorjahr",
+      "definition": "Das Konto dient Arbeitgeberbeiträgen des Vorjahres in ein Anlage-Rentenkonto (für die USA erforderlich)."
+    },
+    "ECYE": {
+      "name": "Arbeitgeber, laufendes Jahr",
+      "definition": "Das Konto dient Arbeitgeberbeiträgen des laufenden Jahres in ein Anlage-Rentenkonto (für die USA erforderlich)."
+    },
+    "NFPI": {
+      "name": "Nicht-Fonds-Prototyp-IRA",
+      "definition": "Das Konto dient einem Individual Retirement Account (IRA) ohne Fondsprototyp in ein Anlage-Rentenkonto (für die USA erforderlich)."
+    },
+    "NFQP": {
+      "name": "Nicht-Fonds-qualifizierter-Plan",
+      "definition": "Das Konto dient einem qualifizierten Plan ohne Fonds in ein Anlage-Rentenkonto (für die USA erforderlich)."
+    },
+    "DECP": {
+      "name": "Beitragsorientierter Plan",
+      "definition": "Das Konto dient einem leistungsorientierten Beitragsplan (für die USA erforderlich)."
+    },
+    "IRAC": {
+      "name": "Individuelles Altersvorsorgekonto",
+      "definition": "Das Konto ist ein Individual Retirement Account (IRA) (für die USA erforderlich)."
+    },
+    "IRAR": {
+      "name": "Individuelles Altersvorsorgekonto (Rollover)",
+      "definition": "Das Konto dient einem Individual Retirement Account (IRA) - Rollover (für die USA erforderlich)."
+    },
+    "KEOG": {
+      "name": "KEOGH",
+      "definition": "KEOGH. Das Konto ist ein steuerlich aufgeschobener Altersvorsorgeplan, der Selbstständigen oder Personen mit Einkünften aus selbstständiger Tätigkeit beim Aufbau eines Altersvorsorgesparprogramms helfen soll (für die USA erforderlich)."
+    },
+    "PFSP": {
+      "name": "Gewinnbeteiligungsplan",
+      "definition": "Das Konto ist ein Gewinnbeteiligungsplan (für die USA erforderlich)."
+    },
+    "401K": {
+      "name": "401(k)",
+      "definition": "401k. Das Konto ist ein von vielen Unternehmen angebotener optionaler Altersvorsorgeplan, bei dem das Einkommen vor der Besteuerung angelegt wird (für die USA erforderlich)."
+    },
+    "SIRA": {
+      "name": "Selbstverwaltete IRA",
+      "definition": "Selbstverwalteter Individual Retirement Account (IRA) (für die USA erforderlich)."
+    },
+    "403B": {
+      "name": "403(b)",
+      "definition": "403(b). Das Konto ist ein steuerlich aufgeschobenes Anlage- und Sparprogramm für Beschäftigte von Krankenhäusern, Bildungseinrichtungen und anderen gemeinnützigen Organisationen, um für ihren eigenen Ruhestand zu sparen und anzulegen. Der Name bezieht sich auf den entsprechenden Abschnitt des US Internal Revenue Code (für die USA erforderlich)."
+    },
+    "457X": {
+      "name": "457",
+      "definition": "457. Das Konto ist ein nicht qualifiziertes aufgeschobenes Vergütungsprogramm, das staatlichen und kommunalen Behörden sowie gemeinnützigen Arbeitgebern zur Verfügung steht (für die USA erforderlich)."
+    },
+    "RIRA": {
+      "name": "Roth-IRA (Fonds-Prototyp)",
+      "definition": "Roth Individual Retirement Account (IRA) Fund Prototype. Das Konto ist ein steuerlich aufgeschobenes Rentenkonto, das auf dem umgekehrten Prinzip eines traditionellen IRA beruht. Rentenbeiträge werden im Voraus besteuert, Entnahmen können jedoch steuerfrei erfolgen, sobald ein bestimmtes Alter erreicht ist, sofern das Roth IRA für einen bestimmten Zeitraum bestanden hat (für die USA erforderlich)."
+    },
+    "RIAN": {
+      "name": "Roth-IRA (kein Prototyp)",
+      "definition": "Roth Individual Retirement Account (IRA) Non-Prototype. Das Konto ist ein steuerlich aufgeschobenes Rentenkonto, das auf dem umgekehrten Prinzip eines traditionellen IRA beruht. Rentenbeiträge werden im Voraus besteuert, Entnahmen können jedoch steuerfrei erfolgen, sobald ein bestimmtes Alter erreicht ist, sofern das Roth IRA für einen bestimmten Zeitraum bestanden hat (für die USA erforderlich)."
+    },
+    "RCRF": {
+      "name": "Roth-Umwandlungs-IRA (Fonds-Prototyp)",
+      "definition": "Roth Conversion Individual Retirement Account (IRA) Fund Prototype. Das Konto ist ein Rentenkonto, das eingerichtet wird, wenn eine Partei von einem regulären IRA wechselt (für die USA erforderlich)."
+    },
+    "RCIP": {
+      "name": "Roth-Umwandlungs-IRA (kein Prototyp)",
+      "definition": "Roth Conversion Individual Retirement Account (IRA) Non-Prototype. Das Konto ist ein Rentenkonto, das eingerichtet wird, wenn eine Partei von einem regulären IRA wechselt (für die USA erforderlich)."
+    },
+    "EIFP": {
+      "name": "Bildungs-IRA (Fonds-Prototyp)",
+      "definition": "Education Individual Retirement Account Fund Prototype (auch als Education Savings Account bekannt). Das Konto ist ein Sparplan, der jedem unter 18 Jahren offensteht. Wenn der Kontoinhaber Geld zur Zahlung qualifizierter Ausgaben für die Hochschulbildung entnimmt, sind die Entnahmen in der Regel steuerfrei (für die USA erforderlich)."
+    },
+    "EIOP": {
+      "name": "Bildungs-IRA (kein Prototyp)",
+      "definition": "Education Individual Retirement Account Non-Prototype (auch als Education Savings Account bekannt). Das Konto ist ein Sparplan, der jedem unter 18 Jahren offensteht. Wenn der Kontoinhaber Geld zur Zahlung qualifizierter Ausgaben für die Hochschulbildung entnimmt, sind die Entnahmen in der Regel steuerfrei (in den USA erforderlich)."
+    },
+    "FORE": {
+      "name": "Ausländer",
+      "definition": "Das Konto gehört einem Ausländer, für den eine Steuerbefreiung zulässig ist."
+    },
+    "INCA": {
+      "name": "Geschäftsunfähigkeit",
+      "definition": "Befreiung aufgrund von Geschäftsunfähigkeit."
+    },
+    "MINO": {
+      "name": "Minderjähriger",
+      "definition": "Das Konto gehört einem Minderjährigen, für den eine Steuerbefreiung zulässig ist."
+    },
+    "ASSO": {
+      "name": "Verband",
+      "definition": "Das Konto gehört einem Verein, zum Beispiel einem Sportverein, für den eine Steuerbefreiung zulässig ist."
+    },
+    "DIPL": {
+      "name": "Diplomat",
+      "definition": "Das Konto gehört einem Diplomaten, für den eine Steuerbefreiung zulässig ist."
+    },
+    "DOME": {
+      "name": "Inländisch",
+      "definition": "Das Konto gehört zwei Kontoinhabern, die beide Inländer sind."
+    },
+    "FORP": {
+      "name": "Einer oder beide ausländisch",
+      "definition": "Das Konto gehört zwei Kontoinhabern, von denen einer oder beide Ausländer sind."
+    },
+    "ORDR": {
+      "name": "Ordentlich",
+      "definition": "Ordentliche Meldung."
+    },
+    "PENF": {
+      "name": "Pensionsfonds",
+      "definition": "Das Konto gehört einem Pensionsfonds, für den eine Steuerbefreiung zulässig ist."
+    },
+    "REFU": {
+      "name": "Flüchtling",
+      "definition": "Das Konto gehört einem Flüchtling oder einer Person ohne eine von einer staatlichen Stelle vergebene Nummer, zum Beispiel ohne dänische Central Securities Number."
+    },
+    "RIHO": {
+      "name": "Rechteinhaber",
+      "definition": "Das Konto gehört einem Rechteinhaber."
+    },
+    "ADMI": {
+      "name": "Verwalter",
+      "definition": "Der Verwalter des Kontos ist nicht der Inhaber."
+    },
+    "TANR": {
+      "name": "Zwei Gebietsfremde",
+      "definition": "Zwei oder mehr der Kontoinhaber sind im Ausland ansässig."
+    },
+    "OANR": {
+      "name": "Ein Gebietsfremder",
+      "definition": "Einer der Kontoinhaber ist im Ausland ansässig."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "OptionNumber1Choice",
+  "definition": "Auswahl zwischen einer Nummer und einer Optionsnummer im Codeformat.",
+  "isoElements": {
+    "Number": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "Code": {
+      "definition": "Code zur Identifikation besonderer Optionsnummern von Kapitalmaßnahmen."
+    }
+  }
+}

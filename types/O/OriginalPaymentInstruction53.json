@@ -1,0 +1,41 @@
+{
+  "isoType": "OriginalPaymentInstruction53",
+  "definition": "Enthält detaillierte Informationen zur ursprünglichen Transaktion, auf die sich die Statusberichtsnachricht bezieht.",
+  "isoElements": {
+    "ReversalPaymentInformationIdentification": {
+      "definition": "Eindeutige Identifikation, wie von einer anweisenden Partei für eine angewiesene Partei vergeben, zur unmissverständlichen Identifizierung der rückgebuchten Zahlungsinformationsgruppe.|Verwendung: Die anweisende Partei ist die Partei, die die Rückbuchungsnachricht sendet, und nicht die Partei, die die ursprüngliche, rückzubuchende Anweisung gesendet hat."
+    },
+    "OriginalPaymentInformationIdentification": {
+      "definition": "Eindeutige Identifikation, wie von der ursprünglichen sendenden Partei vergeben, zur unmissverständlichen Identifizierung der ursprünglichen Zahlungsinformationsgruppe."
+    },
+    "OriginalNumberOfTransactions": {
+      "definition": "Anzahl der in der ursprünglichen Zahlungsinformationsgruppe enthaltenen Einzeltransaktionen."
+    },
+    "OriginalControlSum": {
+      "definition": "Summe aller in der ursprünglichen Zahlungsinformationsgruppe enthaltenen Einzelbeträge, unabhängig von den Währungen."
+    },
+    "BatchBooking": {
+      "definition": "Gibt an, ob ein einzelner Umsatz je Einzeltransaktion oder ein Sammelumsatz für die Summe der Beträge aller Transaktionen innerhalb der Gruppe einer Nachricht gewünscht wird.|Verwendung: Die Sammelbuchung wird verwendet, um eine mögliche Sammelbuchung anzufordern und nicht anzuordnen."
+    },
+    "PaymentInformationReversal": {
+      "definition": "Gibt an, ob sich die Rückbuchung auf die gesamte ursprüngliche Zahlungsinformationsgruppe oder auf einzelne Transaktionen innerhalb dieser Gruppe bezieht."
+    },
+    "ReversalReasonInformation": {
+      "definition": "Enthält detaillierte Angaben zum Rückbuchungsgrund."
+    },
+    "TransactionInformation": {
+      "definition": "Enthält Informationen zu den ursprünglichen Transaktionen, auf die sich die Rückbuchungsnachricht bezieht."
+    }
+  },
+  "isoRules": {
+    "PaymentInformationReversalAndTransactionInformationNotPresentRule": {
+      "definition": "Wenn PaymentInformationReversal wahr ist, ist TransactionInformation nicht zulässig."
+    },
+    "PaymentInformationReversalAndTransactionInformationPresentRule": {
+      "definition": "Wenn PaymentInformationReversal falsch ist, muss mindestens ein Vorkommen von TransactionInformation vorhanden sein."
+    },
+    "PaymentInformationReversalAndReasonRule": {
+      "definition": "Wenn PaymentInformationReversal wahr ist, muss ReversalReasonInformation/ReversalReason vorhanden sein."
+    }
+  }
+}

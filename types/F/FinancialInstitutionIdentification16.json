@@ -1,0 +1,24 @@
+{
+  "isoType": "FinancialInstitutionIdentification16",
+  "definition": "Identifikation eines Finanzinstituts.",
+  "isoElements": {
+    "BICFI": {
+      "definition": "Identifikation des Finanzinstituts, ausgedrückt als BIC."
+    },
+    "ClearingSystemMemberIdentification": {
+      "definition": "Informationen zur Identifikation eines Mitglieds innerhalb eines Clearingsystems."
+    },
+    "NameAndAddress": {
+      "definition": "Name und Adresse der Partei."
+    },
+    "LEI": {
+      "definition": "Identifikation einer juristischen Person als alternative Identifikation der Partei."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Eindeutiger und zweifelsfreier Bezeichner, der einem Finanzinstitut mithilfe eines proprietären Identifikationsschemas zugewiesen wurde."
+    },
+    "BranchIdentification": {
+      "definition": "Identifikation einer bestimmten Filiale des Finanzinstituts."
+    }
+  }
+}

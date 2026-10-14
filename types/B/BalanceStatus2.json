@@ -1,0 +1,9 @@
+{
+  "isoType": "BalanceStatus2",
+  "definition": "Numerische Darstellung der Nettozu- und -abnahmen eines Kontos zu einem bestimmten Zeitpunkt. Ein Kassenbestand wird als Summe der Bargutschriften abzüglich der Summe der Barbelastungen berechnet.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Saldo je Währung, berechnet zum im Bericht angegebenen Wertstellungsdatum und Zeitpunkt."
+    }
+  }
+}

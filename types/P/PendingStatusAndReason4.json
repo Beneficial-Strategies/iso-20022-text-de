@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatusAndReason4",
+  "definition": "Auswahl der Statusart der Bewegung innerhalb des Saldos.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Gibt Einzelheiten zum Bearbeitungsstatus der Transaktion an."
+    },
+    "SettlementStatus": {
+      "definition": "Gibt den Abwicklungsstatus einer Transaktion an."
+    }
+  }
+}

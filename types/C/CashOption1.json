@@ -1,0 +1,21 @@
+{
+  "isoType": "CashOption1",
+  "definition": "Liefert Informationen zur Baroption.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob es sich um eine Belastung oder eine Gutschrift handelt."
+    },
+    "Currency": {
+      "definition": "Währung der Option."
+    },
+    "DateDetails": {
+      "definition": "Liefert Informationen zu den Daten einer Geldbewegung."
+    },
+    "AmountDetails": {
+      "definition": "Liefert Informationen zu den Beträgen einer Geldbewegung."
+    },
+    "ExchangeRate": {
+      "definition": "Liefert Informationen zu einem Devisengeschäft."
+    }
+  }
+}

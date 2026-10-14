@@ -1,0 +1,30 @@
+{
+  "isoType": "ExternalEnquiryRequestType1Code",
+  "definition": "Gibt den externen Anfragetyp-Code für die Abfrage einer Position im Format einer Zeichenkette mit höchstens 4 Zeichen an.|Die Liste der gültigen Codes ist ein externer Codesatz, der separat veröffentlicht wird.|Externe Codesätze können unter www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "RT11": {
+      "name": "Anfrage zur Bankposition",
+      "definition": "Der Typ ist eine Anfrage zur Position der Bank."
+    },
+    "RT12": {
+      "name": "Anfrage zu einer bestimmten Transaktion",
+      "definition": "Der Typ ist eine Anfrage zu einer bestimmten Transaktion."
+    },
+    "RT13": {
+      "name": "Anfrage zu eingereihten Transaktionen",
+      "definition": "Der Typ ist eine Anfrage zu einer in der Warteschlange befindlichen Transaktion."
+    },
+    "RT14": {
+      "name": "Anfrage zu verdächtigen Transaktionen",
+      "definition": "Der Typ ist eine Anfrage zu einer verdächtigen Transaktion."
+    },
+    "RT16": {
+      "name": "Anfrage zur Systemzeit",
+      "definition": "Der Typ ist eine Anfrage zu Systemdatum und/oder -uhrzeit."
+    },
+    "RT15": {
+      "name": "Anfrage zu ausstehenden eingehenden Gutschriften",
+      "definition": "Der Typ ist eine Anfrage zu anstehenden eingehenden Gutschriften."
+    }
+  }
+}

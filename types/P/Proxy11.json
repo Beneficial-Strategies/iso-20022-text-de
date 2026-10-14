@@ -1,0 +1,12 @@
+{
+  "isoType": "Proxy11",
+  "definition": "Identifikation eines Bevollmächtigten, der ernannt wurde, um eine in einer Aktionärsversammlung stimmberechtigte Partei zu vertreten.",
+  "isoElements": {
+    "ProxyType": {
+      "definition": "Art des Bevollmächtigten."
+    },
+    "PersonDetails": {
+      "definition": "Person, die nicht der Vorsitzende der Versammlung ist und vom Wertpapierinhaber als Bevollmächtigter bestimmt wurde."
+    }
+  }
+}

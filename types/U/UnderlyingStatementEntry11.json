@@ -1,0 +1,32 @@
+{
+  "isoType": "UnderlyingStatementEntry11",
+  "definition": "Liefert weitere Einzelheiten zur zugrunde liegenden Kontoauszugsbuchung, auf die sich die Untersuchungsnachricht bezieht.",
+  "isoElements": {
+    "OriginalAccount": {
+      "definition": "Liefert Einzelheiten zum Konto, für das der ursprüngliche Kontoauszug erstellt wurde."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Liefert Informationen zur ursprünglichen Nachricht."
+    },
+    "OriginalStatementIdentification": {
+      "definition": "Von der kontoführenden Stelle vergebene eindeutige Identifikation zur zweifelsfreien Identifikation des ursprünglichen Kontoauszugs."
+    },
+    "OriginalEntryReference": {
+      "definition": "Ursprüngliche, von der kontoführenden Stelle vergebene eindeutige Referenz zur zweifelsfreien Identifikation der ursprünglichen Buchung."
+    },
+    "OriginalUETR": {
+      "definition": "Universell eindeutiger Bezeichner (UUID) als ursprüngliche Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "OriginalEntryAmount": {
+      "definition": "Geldbetrag der Geldbuchung."
+    },
+    "OriginalEntryValueDate": {
+      "definition": "Datum und Uhrzeit, zu denen dem Kontoinhaber bei einer Gutschriftsbuchung Vermögenswerte zur Verfügung stehen bzw. bei einer Lastschriftbuchung nicht mehr zur Verfügung stehen.|Verwendung: Ist der Buchungsstatus ausstehend und ein Wertstellungsdatum vorhanden, bezieht sich das Wertstellungsdatum auf ein erwartetes/gewünschtes Wertstellungsdatum.|Bei Buchungen, die der Verfügbarkeit/Float unterliegen und für die Verfügbarkeitsinformationen vorliegen, darf das Wertstellungsdatum nicht verwendet werden. In diesem Fall gibt der Verfügbarkeitsbestandteil die Anzahl der Verfügbarkeitstage an."
+    }
+  },
+  "isoRules": {
+    "OriginalStatementIdentificationOrEntryReferencePresenceRule": {
+      "definition": "OriginalStatementIdentification oder OriginalEntryReference muss vorhanden sein; beide dürfen vorhanden sein."
+    }
+  }
+}

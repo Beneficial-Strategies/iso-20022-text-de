@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionStatus1Code",
+  "definition": "Gibt den Verarbeitungsstatus einer Investmentfondstransaktion an.",
+  "isoCodes": {
+    "RVSL": {
+      "name": "Rückbuchung",
+      "definition": "Die Transaktion wurde rückgebucht."
+    },
+    "REBO": {
+      "name": "Umgebucht",
+      "definition": "Die Transaktion wurde neu gebucht."
+    },
+    "CANC": {
+      "name": "Storniert",
+      "definition": "Die Transaktion wurde storniert."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PersonIdentification13",
+  "definition": "Eindeutiges und zweifelsfreies Verfahren zur Identifikation einer Person.",
+  "isoElements": {
+    "DateAndPlaceOfBirth": {
+      "definition": "Geburtsdatum und Geburtsort einer Person."
+    },
+    "Other": {
+      "definition": "Eindeutige Identifikation einer Person, vergeben von einem Institut anhand eines Identifikationsschemas."
+    }
+  }
+}

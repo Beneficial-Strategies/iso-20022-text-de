@@ -1,0 +1,51 @@
+{
+  "isoType": "BillingServiceAdjustment1",
+  "definition": "Gibt die Abrechnungsanpassungen für eine bestimmte Dienstleistung an.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art der Anpassung an."
+    },
+    "Description": {
+      "definition": "Freitextbeschreibung und Erläuterung der Anpassung."
+    },
+    "Amount": {
+      "definition": "Betrag der Anpassung, angegeben in der Abrechnungswährung.||Verwendung: Würde der Betrag die fälligen Entgelte verringern, ist er mit negativem Vorzeichen anzugeben."
+    },
+    "BalanceRequiredAmount": {
+      "definition": "Gibt an, ob der Saldobetrag eine Anpassung erfordert."
+    },
+    "ErrorDate": {
+      "definition": "Datum, an dem der Sachverhalt eingetreten ist, der die Dienstleistungsanpassung verursacht hat. Ist das Datum nicht bekannt, ist der letzte Tag des Monats, in dem der Sachverhalt eingetreten ist, oder das Datum der Abrechnung anzugeben, in der die ursprüngliche Dienstleistung, auf die sich diese Anpassung bezieht, ausgewiesen wurde."
+    },
+    "AdjustmentIdentification": {
+      "definition": "Eigener, interner Dienstleistungsidentifikationscode des Finanzinstituts, der zur eindeutigen Identifikation der Dienstleistung innerhalb des Finanzinstituts dient."
+    },
+    "SubService": {
+      "definition": "Legt die Subservice-Identifikation des Finanzinstituts fest, wenn der Service-Identifikationscode des Finanzinstituts für mehr als einen Service verwendet wird."
+    },
+    "PriceChange": {
+      "definition": "Änderung des Dienstleistungspreises, angegeben in der Preiswährung. Ein negativer Wert bedeutet eine Preissenkung."
+    },
+    "OriginalPrice": {
+      "definition": "Preis, der vor der Änderung auf die Dienstleistung angewendet wurde, angegeben in der Preiswährung."
+    },
+    "NewPrice": {
+      "definition": "Neuer, angepasster Dienstleistungspreis, angegeben in der Preiswährung."
+    },
+    "VolumeChange": {
+      "definition": "Änderung des Dienstleistungsvolumens. Ein negativer Wert bedeutet eine Volumenverringerung."
+    },
+    "OriginalVolume": {
+      "definition": "Ursprüngliches Dienstleistungsvolumen."
+    },
+    "NewVolume": {
+      "definition": "Neues, angepasstes Dienstleistungsvolumen."
+    },
+    "OriginalChargeAmount": {
+      "definition": "Dienstleistungsentgelt, das vor der Änderung auf die Dienstleistung angewendet wurde, angegeben in der Preiswährung."
+    },
+    "NewChargeAmount": {
+      "definition": "Neues, angepasstes Dienstleistungsentgelt, angegeben in der Preiswährung."
+    }
+  }
+}

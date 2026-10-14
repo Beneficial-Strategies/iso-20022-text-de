@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchBalanceTransferAcknowledgementV06",
+  "definition": "Die Nachricht AccountSwitchBalanceTransferAcknowledgement wird vom vorherigen kontoführenden Institut als Antwort auf die Nachricht AccountSwitchRequestBalanceTransfer an das neue kontoführende Institut gesendet. Sie bestätigt den Status des alten Kontos und den Saldo des Kontos bei Auflösung. Bei einem negativen Schlusssaldo übermittelt das alte kontoführende Institut Einzelheiten zum benannten Konto, auf das das neue kontoführende Institut die Zahlung leisten soll."
+}

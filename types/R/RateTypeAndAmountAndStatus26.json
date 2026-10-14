@@ -1,0 +1,15 @@
+{
+  "isoType": "RateTypeAndAmountAndStatus26",
+  "definition": "Gibt den als Satz und Betrag ausgedrückten Wert an.",
+  "isoElements": {
+    "RateType": {
+      "definition": "Als Satzart ausgedrückter Wert."
+    },
+    "Amount": {
+      "definition": "Als Betrag ausgedrückter Wert."
+    },
+    "RateStatus": {
+      "definition": "Als Satzstatus ausgedrückter Wert."
+    }
+  }
+}

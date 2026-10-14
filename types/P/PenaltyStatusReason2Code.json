@@ -1,0 +1,58 @@
+{
+  "isoType": "PenaltyStatusReason2Code",
+  "definition": "Gibt den Grund für den Status der Strafzahlung an.",
+  "isoCodes": {
+    "UPDT": {
+      "name": "Aktualisiert",
+      "definition": "Die Strafzahlung wurde aktualisiert."
+    },
+    "SUSP": {
+      "name": "Handel ausgesetzt",
+      "definition": "Die Strafzahlung wurde entfernt, da der ISIN vom Handel ausgesetzt wurde."
+    },
+    "TECH": {
+      "name": "Technische Unmöglichkeiten",
+      "definition": "Die Strafzahlung wurde entfernt, da auf Ebene des CSD technische Unmöglichkeiten bestanden, die die Abwicklung verhinderten, wie zum Beispiel: der Ausfall von Infrastrukturkomponenten, ein Cyberangriff oder Netzwerkprobleme."
+    },
+    "SWIC": {
+      "name": "Umgestellt",
+      "definition": "Die Strafzahlung wurde zwischen der säumigen und der nicht säumigen Partei verlagert."
+    },
+    "SESU": {
+      "name": "Abwicklung ausgesetzt",
+      "definition": "Die Strafzahlung wurde entfernt, da der ISIN aufgrund eines Abstimmungsproblems gemäß Artikel 65 Absätze 2 und 6 der RTS zu den CSD-Anforderungen von der Abwicklung ausgesetzt wurde."
+    },
+    "SEMP": {
+      "name": "Abwicklung auf mehreren Plattformen",
+      "definition": "Abwicklung auf mehreren Plattformen, bei der eine der Plattformen für die Abwicklung (entweder Geld oder Wertpapiere) geschlossen ist."
+    },
+    "RALO": {
+      "name": "Neu zugeordnet",
+      "definition": "Neuzuordnung einer Strafzahlung für verspäteten Abgleich von der anweisenden Partei zur liefernden/empfangenden Partei."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Siehe Freitext."
+    },
+    "NEWP": {
+      "name": "Neue Strafzahlung",
+      "definition": "Die Strafzahlung ist neu."
+    },
+    "INTS": {
+      "name": "Internalisierte Abwicklung",
+      "definition": "Die Strafzahlung wird nicht berechnet, da die Abwicklung intern erfolgt ist."
+    },
+    "INSO": {
+      "name": "Insolvenz",
+      "definition": "Die Strafzahlung wurde entfernt, da gegen den säumigen Teilnehmer ein Insolvenzverfahren eröffnet wurde."
+    },
+    "CORP": {
+      "name": "Kapitalmaßnahme",
+      "definition": "Gibt an, dass das Wertpapier aufgrund einer bestimmten Kapitalmaßnahme nicht mehr existiert."
+    },
+    "NOSU": {
+      "name": "Nicht betroffen",
+      "definition": "Die Strafzahlung wird nicht berechnet oder wurde entfernt, da das Wertpapier keinen Strafzahlungen unterliegt."
+    }
+  }
+}

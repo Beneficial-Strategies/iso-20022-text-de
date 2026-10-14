@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason6Format2Choice",
+  "definition": "Auswahl der Formate zur Angabe des Grundes für die Ablehnung des Benachrichtigungsavis.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Grundes für die Ablehnung des Benachrichtigungsavis."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe des Grundes für die Ablehnung des Benachrichtigungsavis."
+    }
+  }
+}

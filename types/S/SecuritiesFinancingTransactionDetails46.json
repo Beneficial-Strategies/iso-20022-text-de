@@ -1,0 +1,90 @@
+{
+  "isoType": "SecuritiesFinancingTransactionDetails46",
+  "definition": "Einzelheiten zur Beendigung des Wertpapierfinanzierungsgeschäfts.",
+  "isoElements": {
+    "SecuritiesFinancingTradeIdentification": {
+      "definition": "Eindeutige Identifikation des zugrunde liegenden Wertpapierfinanzierungsgeschäfts, wie von der anweisenden Partei vergeben. Die Identifikation gilt für alle Sicherheitenteile (eines oder mehrere)."
+    },
+    "ClosingLegIdentification": {
+      "definition": "Eindeutige Identifikation des zweiten Teilgeschäfts der Transaktion, wie dem Kontoinhaber (oder der in dessen Auftrag handelnden anweisenden Partei) bekannt."
+    },
+    "TerminationDate": {
+      "definition": "Datum/Uhrzeit der Beendigung oder Fälligkeit der Transaktion."
+    },
+    "RateChangeDate": {
+      "definition": "Datum/Uhrzeit, zu dem die Satzänderung stattgefunden hat."
+    },
+    "EarliestCallBackDate": {
+      "definition": "Frühestes Datum/Uhrzeit, zu dem der Rückruf erfolgen kann."
+    },
+    "CommissionCalculationDate": {
+      "definition": "Datum/Uhrzeit, zu dem die Provision berechnet wird."
+    },
+    "RateType": {
+      "definition": "Gibt an, ob der Zinssatz fest oder variabel ist."
+    },
+    "Revaluation": {
+      "definition": "Gibt an, ob die Sicherheitenposition der automatischen Neubewertung durch den Kontoführer unterliegen soll."
+    },
+    "LegalFramework": {
+      "definition": "Rechtsrahmen der Transaktion."
+    },
+    "InterestComputationMethod": {
+      "definition": "Bezeichnet die Berechnungsmethode der aufgelaufenen Zinsen des zugehörigen Finanzinstruments."
+    },
+    "MaturityDateModification": {
+      "definition": "Gibt an, ob das Fälligkeitsdatum der Wertpapierfinanzierungstransaktion geändert werden darf."
+    },
+    "InterestPayment": {
+      "definition": "Gibt an, ob die Zinsen an den Sicherheitennehmer zu zahlen sind. Bei Nein werden die Zinsen an den Sicherheitengeber gezahlt."
+    },
+    "VariableRateSupport": {
+      "definition": "Index oder Stützzinssatz, der zusammen mit dem Aufschlag zur Berechnung des Rückkaufzinssatzes verwendet wird."
+    },
+    "RepurchaseRate": {
+      "definition": "Zinssatz, der zur Neuberechnung des Rückkaufbetrags zu verwenden ist."
+    },
+    "StockLoanMargin": {
+      "definition": "Prozentualer Aufschlag auf eine Darlehensgegenleistung zur Abbildung des Risikos des Darlehensgebers."
+    },
+    "SecuritiesHaircut": {
+      "definition": "Bewertungsabschlag (Haircut) oder Bewertungsfaktor auf das Wertpapier, ausgedrückt als Prozentsatz."
+    },
+    "ChargesRate": {
+      "definition": "Im Rahmen einer Wertpapierfinanzierungstransaktion gezahlter Zinssatz."
+    },
+    "PricingRate": {
+      "definition": "Auf den Transaktionsbetrag zu zahlender Zinssatz, wie zwischen den Gegenparteien vereinbart."
+    },
+    "Spread": {
+      "definition": "Repurchase-Spread, ausgedrückt als Satz; Marge über oder unter einem Index, die den Rückkaufsatz bestimmt."
+    },
+    "TransactionCallDelay": {
+      "definition": "Mindestanzahl an Tagen Kündigungsfrist, die eine Gegenpartei für die Beendigung der Transaktion benötigt."
+    },
+    "TotalNumberOfCollateralInstructions": {
+      "definition": "Gesamtanzahl der an der Transaktion beteiligten Sicherheitenanweisungen."
+    },
+    "DealAmount": {
+      "definition": "Kapitalbetrag eines Handels (für den zweiten Teil)."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Zinsbetrag, der zwischen den Kuponzahlungsperioden aufgelaufen ist."
+    },
+    "ForfeitAmount": {
+      "definition": "Fester Geldbetrag, der (anstelle von Zinsen) bei einem Rückruf oder zum Abschlussdatum zu zahlen ist."
+    },
+    "PremiumAmount": {
+      "definition": "Differenz zwischen dem Geldbetrag des ersten Teils und dem Betrag des zweiten Teils der Transaktion."
+    },
+    "TerminationAmountPerPieceOfCollateral": {
+      "definition": "Geldbetrag, der pro Sicherheitenstück abzuwickeln ist, um die Transaktion zu beenden."
+    },
+    "TerminationTransactionAmount": {
+      "definition": "Gesamtbetrag, der zur Beendigung der Transaktion abzuwickeln ist."
+    },
+    "SecondLegNarrative": {
+      "definition": "Liefert zusätzliche Informationen zum zweiten Teilgeschäft in Textform."
+    }
+  }
+}

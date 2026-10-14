@@ -1,0 +1,15 @@
+{
+  "isoType": "FinancialInstrument103Choice",
+  "definition": "Auswahl des Finanzinstruments.",
+  "isoElements": {
+    "Security": {
+      "definition": "Identifikation des Wertpapiers."
+    },
+    "CashAsset": {
+      "definition": "Identifikation des Barvermögenswerts."
+    },
+    "OtherAsset": {
+      "definition": "Identifikation einer anderen Art von Vermögenswert im Bestand, der weder ein Wertpapier noch Bargeld ist."
+    }
+  }
+}

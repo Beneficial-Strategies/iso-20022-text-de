@@ -1,0 +1,17 @@
+{
+  "isoType": "SafeKeepingPlace5",
+  "definition": "Ort, an dem die Wertpapiere physisch oder buchmäßig verwahrt werden. Dieser Ort kann zum Beispiel eine lokale Depotbank, ein Central Securities Depository (CSD) oder ein International Central Securities Depository (ICSD) sein.",
+  "isoElements": {
+    "SafekeepingPlaceFormat": {
+      "definition": "Eindeutige Identifikation der Partei."
+    },
+    "LEI": {
+      "definition": "Identifikation der juristischen Person als alternative Identifikation für einen Verwahrort."
+    }
+  },
+  "isoRules": {
+    "SafekeepingPlaceFormatOrLEIRule": {
+      "definition": "SafekeepingPlaceFormat muss vorhanden sein oder LEI muss vorhanden sein."
+    }
+  }
+}

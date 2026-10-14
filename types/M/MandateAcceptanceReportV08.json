@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateAcceptanceReportV08",
+  "definition": "Umfang|Die Nachricht MandateAcceptanceReport wird von der Bank des Empfängers (Zahlungspflichtiger oder Zahlungsempfänger) der Nachricht MandateRequest (Einrichtung, Änderung oder Stornierung) an die Bank des Initiators der Nachricht MandateRequest (Zahlungspflichtiger oder Zahlungsempfänger) gesendet.|Eine Nachricht MandateAcceptanceReport dient dazu, die Annahme oder Ablehnung einer Nachricht MandateRequest zu bestätigen. Ist die Annahme Teil des vollständigen Prozessablaufs, wird eine Nachricht MandateRequest erst gültig, nachdem eine Annahmebestätigung über eine Nachricht MandateAcceptanceReport von der Bank des Empfängers eingegangen ist.|Verwendung|Die Nachricht MandateAcceptanceReport kann eine oder mehrere Bestätigungen der Annahme oder Ablehnung einer bestimmten Mandatsanforderung enthalten.|Die Nachrichten können zwischen der Bank des Zahlungspflichtigen und der Bank des Zahlungsempfängers, zwischen der Bank des Zahlungspflichtigen und dem Zahlungspflichtigen sowie zwischen der Bank des Zahlungsempfängers und dem Zahlungsempfänger ausgetauscht werden.|Die Nachricht MandateAcceptanceReport kann in nationalen und grenzüberschreitenden Szenarien verwendet werden.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "Der Baustein SupplementaryData auf Nachrichtenebene darf nicht verwendet werden, um zusätzliche Informationen zu einer Transaktion bereitzustellen. Hierfür ist das Element SupplementaryData auf Transaktionsebene zu verwenden."
+    }
+  }
+}

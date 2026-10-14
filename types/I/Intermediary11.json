@@ -1,0 +1,23 @@
+{
+  "isoType": "Intermediary11",
+  "definition": "Partei, die Anlegern Dienstleistungen im Zusammenhang mit Finanzprodukten erbringt.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige und unmissverständliche Kennung des Intermediärs."
+    },
+    "Account": {
+      "definition": "Geschäftsbeziehung zwischen zwei Einheiten; eine Einheit ist der Kontoinhaber, die andere Einheit ist der Kontoführer."
+    },
+    "Role": {
+      "definition": "Vom Intermediär ausgeübte Funktion."
+    },
+    "ExtendedRole": {
+      "definition": "Vom Intermediär ausgeübte Funktion."
+    }
+  },
+  "isoRules": {
+    "RoleOrExtendedRoleRule": {
+      "definition": "Entweder Role oder ExtendedRole darf vorhanden sein, aber nicht beide."
+    }
+  }
+}

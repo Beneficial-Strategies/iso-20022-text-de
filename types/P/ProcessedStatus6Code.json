@@ -1,0 +1,18 @@
+{
+  "isoType": "ProcessedStatus6Code",
+  "definition": "Gibt den Verarbeitungsstatus einer Deaktivierungsanweisung an.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Empfangen",
+      "definition": "Die Anweisung/der Antrag ist eingegangen."
+    },
+    "DEAC": {
+      "name": "Wartet auf Deaktivierungsdatum",
+      "definition": "Wartet auf das Deaktivierungsdatum."
+    },
+    "COMP": {
+      "name": "Abgeschlossen",
+      "definition": "Der Antrag wurde abgeschlossen."
+    }
+  }
+}

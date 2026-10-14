@@ -1,0 +1,56 @@
+{
+  "isoType": "Resolution8",
+  "definition": "Beschlüsse auf der Tagesordnung einer Versammlung und Art des Beschlusses.",
+  "isoElements": {
+    "IssuerLabel": {
+      "definition": "Nummer des Beschlusses, wie vom Emittenten oder seinem Vertreter angegeben."
+    },
+    "Description": {
+      "definition": "Sprache, Titel und Textbeschreibung eines Tagesordnungsbeschlusses."
+    },
+    "ListingGroupResolutionLabel": {
+      "definition": "Identifiziert unter derselben Bezeichnung eine Gruppe von Tagesordnungsbeschlüssen, für die eine Ja-Stimme nur einem einzigen Beschluss dieser Gruppe zugeordnet werden kann."
+    },
+    "Type": {
+      "definition": "Art des Beschlusses."
+    },
+    "ForInformationOnly": {
+      "definition": "Gibt an, ob der Beschluss zur Information oder zur Abstimmung aufgeführt ist."
+    },
+    "VoteType": {
+      "definition": "Wirkung der Abstimmungsergebnisse auf einen Tagesordnungsbeschluss."
+    },
+    "Status": {
+      "definition": "Gibt an, ob der Beschluss aktiv oder zurückgezogen ist."
+    },
+    "SubmittedBySecurityHolder": {
+      "definition": "Gibt an, ob der Beschluss vom Wertpapierinhaber eingebracht wurde."
+    },
+    "RightToWithdrawIndicator": {
+      "definition": "Gibt an, ob ein Kunde, der nicht für die letztlich angenommenen Beschlüsse gestimmt hat, das Recht hat, von einem zugehörigen Kapitalmaßnahmen-Ereignis zurückzutreten."
+    },
+    "VoteInstructionType": {
+      "definition": "Auf Beschlussebene zulässige Stimmoptionen. Wenn angegeben, haben sie Vorrang vor den für die Versammlung angegebenen Stimmoptionen."
+    },
+    "ManagementRecommendation": {
+      "definition": "Gibt an, wie die Geschäftsleitung der emittierenden Gesellschaft wünscht, dass die Wertpapierinhaber abstimmen."
+    },
+    "NotifyingPartyRecommendation": {
+      "definition": "Gibt an, wie die benachrichtigende Partei den Wertpapierinhabern die Abstimmung empfiehlt."
+    },
+    "Entitlement": {
+      "definition": "Anzahl der Stimmen, die pro Beschluss einem Wertpapier zugeordnet sind."
+    },
+    "VotingRightsThresholdForApproval": {
+      "definition": "Schwellenwert der Stimmrechte und Schwellenwertgrundlage für die Annahme eines Versammlungsbeschlusses."
+    },
+    "URLAddress": {
+      "definition": "Adresse für den Dienst im World Wide Web (HTTP), unter der spezifische zusätzliche Informationen zu Versammlungsbeschlüssen zu finden sind."
+    }
+  },
+  "isoRules": {
+    "VotingRightsTresholdForApproval1Rule": {
+      "definition": "Wenn VotingRightThresholdForApproval mehrfach vorhanden ist, dann ist ThresholdBasis in jedem Vorkommen von VotingRightThresholdForApproval verpflichtend, und der Wert des Elements ThresholdBasis/Code muss in jedem Vorkommen unterschiedlich sein."
+    }
+  }
+}

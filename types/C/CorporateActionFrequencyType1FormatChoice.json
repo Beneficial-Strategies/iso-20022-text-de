@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionFrequencyType1FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe der Häufigkeit eines CA-Ereignisses.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Häufigkeit eines CA-Ereignisses."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe der Häufigkeit eines CA-Ereignisses."
+    }
+  }
+}

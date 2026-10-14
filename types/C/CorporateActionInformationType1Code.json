@@ -1,0 +1,10 @@
+{
+  "isoType": "CorporateActionInformationType1Code",
+  "definition": "Gibt die Art des Informationsereignisses an.",
+  "isoCodes": {
+    "CONF": {
+      "name": "Telefonkonferenz",
+      "definition": "Die Information betrifft einen informellen Anruf, wenn ein Emittent, Treuhänder oder Beauftragter mit den Inhabern der Schuldverschreibungen eine bestimmte Angelegenheit oder eine mögliche Änderung der Schuldverschreibungen besprechen möchte; nichts von dem Gesagten ist verbindlich."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "TransferOfProceedsType1Code",
+  "definition": "Gibt die Art der Übertragung der Erlöse aus dem Market Claim an.",
+  "isoCodes": {
+    "CLFT": {
+      "name": "Vollständige Übertragung der erhaltenen Erlöse",
+      "definition": "Der Marktanspruch dient dazu, vom Emittenten erhaltene Erlöse an die anspruchsberechtigte Partei zu übertragen."
+    },
+    "CLPT": {
+      "name": "Keine Übertragung der erhaltenen Erlöse",
+      "definition": "Der Marktanspruch dient dazu, die anspruchsberechtigte Partei in bar durch die Partei zu entschädigen, die ihre Verpflichtung nicht erfüllt hat. Vom Emittenten wurden keine Erlöse erhalten."
+    },
+    "CLNT": {
+      "name": "Teilweise Übertragung der erhaltenen Erlöse",
+      "definition": "Der Marktanspruch dient dazu, teilweise vom Emittenten erhaltene Erlöse an die anspruchsberechtigte Partei zu übertragen. Ein Teil wird von der Partei, die ihre Verpflichtung nicht erfüllt hat, in bar ausgeglichen."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "PenaltyRate1",
+  "definition": "Gibt die Daten zum Strafsatz an, wenn das Wertpapier Strafzahlungen unterliegt.",
+  "isoElements": {
+    "MarketIdentification": {
+      "definition": "Handelsplatz der zugehörigen Transaktion."
+    },
+    "SMEGrowthMarket": {
+      "definition": "Binäre Klassifizierung, ob das Wertpapier an einem KMU-Wachstumsmarkt gehandelt wurde oder nicht.||Verwendung: Wenn nicht angegeben, ist der Indikator für die Berechnung der Strafzahlung nicht relevant (SME)."
+    },
+    "Rate": {
+      "definition": "Für die Vermögenswertart geltender Strafsatz."
+    }
+  }
+}

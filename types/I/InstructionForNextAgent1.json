@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForNextAgent1",
+  "definition": "Weitere Informationen zur Bearbeitung der Zahlungsanweisung, auf die eine andere Bank gegebenenfalls reagieren muss. Die Anweisung kann sich auf ein Servicelevel beziehen, eine von der Bank des Zahlungsempfängers auszuführende Anweisung sein oder Informationen enthalten, die die andere Bank benötigt.",
+  "isoElements": {
+    "Code": {
+      "definition": "Codierte Informationen zur Bearbeitung der Zahlungsanweisung, die von der initiierenden Partei bereitgestellt werden und für die nächste Bank in der Zahlungskette bestimmt sind."
+    },
+    "InstructionInformation": {
+      "definition": "Weitere Informationen zur codierten Anweisung oder zur Anweisung an die nächste Bank, die bilateral vereinbart oder für eine Nutzergemeinschaft spezifisch sind."
+    }
+  }
+}

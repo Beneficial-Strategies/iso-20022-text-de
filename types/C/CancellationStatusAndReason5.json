@@ -1,0 +1,24 @@
+{
+  "isoType": "CancellationStatusAndReason5",
+  "definition": "Status einer Übertragungsstornierungsanweisung und Grund für den Status.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Eindeutiger Identifikator für eine Gruppe einzelner Übertragungen, wie von der anweisenden Partei vergeben. Dieser Identifikator verknüpft die einzelnen Übertragungen miteinander."
+    },
+    "TransferReference": {
+      "definition": "Eindeutige Identifikation der Übertragung, wie von der anweisenden Partei vergeben."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Übertragung durch den Anleger. Diese Referenz kann typischerweise in einem Hub-Szenario verwendet werden, um die vom zugrunde liegenden Kunden vergebene Referenz der Übertragung anzugeben."
+    },
+    "CancellationReference": {
+      "definition": "Eindeutiger Identifikator für eine Übertragungsstornierung, wie von der anweisenden Partei vergeben."
+    },
+    "Status": {
+      "definition": "Status der Übertragungsstornierung."
+    },
+    "StatusInitiator": {
+      "definition": "Partei, die den Status auslöst."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "AllegementStatus1Code",
+  "definition": "Legt den Status einer Behauptung (Allegement) fest.",
+  "isoCodes": {
+    "CANC": {
+      "name": "Storniert",
+      "definition": "Das Allegement wurde seit dem vorherigen Delta-Kontoauszug storniert. Das Allegement wurde aufgrund eines Fehlers des Senders storniert oder weil die behauptende Partei ihre Anweisung storniert hat."
+    },
+    "REMO": {
+      "name": "Entfernt",
+      "definition": "Das Allegement wurde seit dem vorherigen Delta-Kontoauszug entfernt. Das Allegement wurde entfernt, weil die betroffene Partei ihre Anweisung gesendet hat."
+    }
+  }
+}

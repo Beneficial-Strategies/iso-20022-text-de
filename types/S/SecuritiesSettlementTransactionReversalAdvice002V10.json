@@ -1,0 +1,26 @@
+{
+  "isoType": "SecuritiesSettlementTransactionReversalAdvice002V10",
+  "definition": "Anwendungsbereich|Ein Kontoführer sendet eine SecuritiesSettlementTransactionReversalAdvice an einen Kontoinhaber, um die Bestätigung einer teilweisen oder vollständigen Lieferung oder Entgegennahme von Finanzinstrumenten, frei von Zahlung oder gegen Zahlung, physisch oder per Gutschrift, zu stornieren.|Die Beziehung zwischen Kontoführer und Kontoinhaber kann sein:|- ein Zentralverwahrer oder eine andere Abwicklungs-Marktinfrastruktur, die im Namen ihrer Teilnehmer handelt|- ein Agent (Unterverwahrer), der im Namen seines Global-Custodian-Kunden handelt, oder|- eine Depotbank, die im Namen eines Vermögensverwalters oder eines Brokers/Händlers handelt.||Verwendung|Die Nachricht kann auch verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden,|- einem Dritten eine Kopie einer Nachricht zur Information zur Verfügung zu stellen,|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu senden, unter Verwendung der entsprechenden Elemente im Business Application Header.",
+  "isoElements": {
+    "ConfirmationReference": {
+      "definition": "Verweis auf die eindeutige Identifikation der Bestätigung gemäß dem Kontoführer."
+    }
+  },
+  "isoRules": {
+    "BuyerSSIRule": {
+      "definition": "Gilt eine Standardabwicklungsanweisung und ist die Anweisung eine Lieferung, muss Buyer vorhanden sein."
+    },
+    "ReceivingDepositoryAndParty1Rule": {
+      "definition": "Ist die Anweisung eine Lieferung und gilt keine Standardabwicklungsanweisung, müssen ReceivingDepository und Party1 vorhanden sein."
+    },
+    "DeliveringDepositoryAndParty1Rule": {
+      "definition": "Ist die Anweisung ein Empfang und gilt keine Standardabwicklungsanweisung, müssen DeliveringDepository und Party1 vorhanden sein."
+    },
+    "SettledAmountRule": {
+      "definition": "Ist die Anweisung gegen Zahlung, muss SettledAmount vorhanden sein."
+    },
+    "SellerSSIRule": {
+      "definition": "Gilt eine Standardabwicklungsanweisung und ist die Anweisung ein Empfang, muss Seller vorhanden sein."
+    }
+  }
+}

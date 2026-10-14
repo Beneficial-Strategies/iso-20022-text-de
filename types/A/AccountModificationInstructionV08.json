@@ -1,0 +1,9 @@
+{
+  "isoType": "AccountModificationInstructionV08",
+  "definition": "Anwendungsbereich|Die Nachricht AccountModificationInstruction wird von einem Kontoinhaber, zum Beispiel einem Anleger oder seinem beauftragten Vertreter, an den Kontoführer, zum Beispiel eine Registerstelle, Transferstelle, Depotbank oder einen Wertpapierverwahrer, gesendet, um bestimmte Details eines bestehenden Kontos zu ändern, das heißt anzulegen, zu aktualisieren oder zu löschen.|Verwendung|Die Nachricht AccountModificationInstruction wird verwendet, um die Details eines bestehenden Kontos zu ändern.|Die Nachricht AccountModificationInstruction kann verwendet werden, um:|- bestehende Kontodetails zu pflegen/aktualisieren, zum Beispiel um die Adresse des Begünstigten zu aktualisieren oder die Präferenz für Erträge von Ausschüttung auf Thesaurierung zu ändern, oder,|- einem bestehenden Konto bestimmte Details hinzuzufügen/anzulegen, wenn diese Details zum Zeitpunkt der Kontoanlage noch nicht erfasst waren, zum Beispiel um eine zweite Adresse hinzuzufügen oder neue Daueraufträge zur Barabwicklung einzurichten, oder,|- bestimmte Kontodetails zu löschen, zum Beispiel Daueraufträge zur Barabwicklung zu löschen, oder,|- eine Änderung des Kontostatus anzuweisen, zum Beispiel die Schließung des Kontos anzuweisen.|Die Verwendung dieser Nachricht kann einer Dienstgütevereinbarung (Service Level Agreement, SLA) zwischen den Gegenparteien unterliegen.|Die Ausführung von AccountModificationInstruction wird über eine Nachricht AccountDetailsConfirmation bestätigt.",
+  "isoRules": {
+    "UnitRule": {
+      "definition": "Wenn ModifiedSavingsInvestmentPlan vorhanden ist, ist ModifiedSavingsInvestmentPlan/InvestmentPlan/Quantity/Unit nicht zulässig."
+    }
+  }
+}

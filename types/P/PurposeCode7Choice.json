@@ -1,0 +1,12 @@
+{
+  "isoType": "PurposeCode7Choice",
+  "definition": "Auswahl zwischen einem Code und/oder einem Datenquellenschema zur Bestimmung der Kontoart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Zweck des Wertpapierkontos als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Zweck des Wertpapierkontos als proprietärer Code."
+    }
+  }
+}

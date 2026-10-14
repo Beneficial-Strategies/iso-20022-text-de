@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionOptionStatement1",
+  "definition": "Informationen zu den gewählten Optionen der Käuferschutz-Anweisung.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "BuyerProtectionInstructionDetails": {
+      "definition": "Informationen zur Käuferschutz-Anweisung."
+    }
+  }
+}

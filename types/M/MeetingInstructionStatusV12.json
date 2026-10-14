@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingInstructionStatusV12",
+  "definition": "Anwendungsbereich|Die Nachricht MeetingInstructionStatus wird von einem Intermediär an den Sender einer Anweisung gesendet, um den Status dieser Anweisung zu bestätigen. Die Nachricht gibt den Status einer vollständigen Nachricht oder einer oder mehrerer bestimmter Anweisungen innerhalb der Nachricht an.|Die Nachricht kann auch vom Emittenten oder vom Intermediär gesendet werden, um zu bestätigen, dass eine Stimme abgegeben wurde.|Verwendung|Die Nachricht MeetingInstructionStatus wird für vier Zwecke verwendet.|Erstens dient sie dazu, einen globalen Bearbeitungs- oder Ablehnungsstatus einer Nachricht MeetingInstruction mitzuteilen.|Zweitens gibt sie den Status der Bearbeitung einer Nachricht MeetingInstructionCancellationRequest an, zum Beispiel ob die Auftragsnachricht abgelehnt oder akzeptiert wird.|Drittens dient sie dazu, einen detaillierten Bearbeitungs- oder Ablehnungsstatus einer oder mehrerer Anweisungen innerhalb der Nachricht MeetingInstruction mitzuteilen, zum Beispiel wird für jede Anweisung in der Nachricht MeetingInstruction der Bearbeitungs- oder Ablehnungsstatus einzeln mithilfe des Elements SingleInstructionIdentification gemeldet. Diese Identifikation ermöglicht es dem Empfänger der Statusnachricht, die Statusbestätigung mit der ursprünglichen Anweisung zu verknüpfen.|Viertens dient sie dazu, zu bestätigen, dass die zugehörige Stimmrechtsanweisung vom Emittenten oder dessen Beauftragten als abgegeben bestätigt wurde.|Diese Nachrichtendefinition ist für die Verwendung mit dem Business Application Header (BAH) vorgesehen.",
+  "isoRules": {
+    "Status1Rule": {
+      "definition": "Wenn InstructionType/InstructionIdentification vorhanden ist, muss InstructionTypeStatus/InstructionStatus vorhanden sein."
+    },
+    "Status2Rule": {
+      "definition": "Wenn InstructionType/InstructionCancellationIdentification vorhanden ist, muss InstructionTypeStatus/CancellationStatus vorhanden sein."
+    }
+  }
+}

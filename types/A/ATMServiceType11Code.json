@@ -1,0 +1,102 @@
+{
+  "isoType": "ATMServiceType11Code",
+  "definition": "Beschreibt die vom Kunden gewählte Dienstart.",
+  "isoCodes": {
+    "TRFC": {
+      "name": "Kundenüberweisung",
+      "definition": "Geldübertragung zwischen Konten des Kunden bei derselben Bank."
+    },
+    "TRFI": {
+      "name": "Überweisung zwischen Kunden",
+      "definition": "Geldübertragung an einen anderen Kunden."
+    },
+    "TRFP": {
+      "name": "Zahlung",
+      "definition": "Geldübertragung zur Bezahlung eines Dritten."
+    },
+    "ASTS": {
+      "name": "Kontoauszüge",
+      "definition": "Einen vollständigen (das heißt rechtsgültigen) Kontoauszug zu einem Kundenkonto anfordern."
+    },
+    "BLCQ": {
+      "name": "Saldenabfrage",
+      "definition": "Saldenabfrage."
+    },
+    "CDVF": {
+      "name": "Kartenprüfung",
+      "definition": "Überprüfung der Karte."
+    },
+    "CHSN": {
+      "name": "Gewählte Auszahlung",
+      "definition": "Betrag und Notenwerte werden vom Kunden gewählt."
+    },
+    "CMPF": {
+      "name": "Kundenprofil",
+      "definition": "Kundenprofil mit gegebenenfalls zugehörigen Kontoinformationen anfordern."
+    },
+    "DCCS": {
+      "name": "Dynamische Währungsumrechnung",
+      "definition": "Einen DCC-Dienstleister bitten, die Währungsumrechnung für die Karte zu qualifizieren."
+    },
+    "XRTD": {
+      "name": "Wechselkurs für Einzahlung",
+      "definition": "Wechselkurs für die laufende Einzahlungstransaktion anfordern."
+    },
+    "XRTW": {
+      "name": "Wechselkurs für Auszahlung",
+      "definition": "Wechselkurs für die laufende Auszahlungstransaktion anfordern."
+    },
+    "MCHG": {
+      "name": "Wechselgeld",
+      "definition": "Wechselgeld zwischen Medienarten."
+    },
+    "DPSN": {
+      "name": "Ungeprüfte Einzahlung",
+      "definition": "Einzahlung von Medienobjekten, die vom ATM nicht geprüft werden, zum Beispiel in einem Umschlag."
+    },
+    "PINC": {
+      "name": "PIN-Änderung",
+      "definition": "Änderung des PIN-Werts der Karte."
+    },
+    "PINR": {
+      "name": "PIN-Wiederherstellung",
+      "definition": "Zurücksetzen einer PIN."
+    },
+    "PINU": {
+      "name": "PIN-Entsperrung",
+      "definition": "PIN entsperren."
+    },
+    "PATH": {
+      "name": "Vorautorisierte Auszahlung",
+      "definition": "Die Auszahlungstransaktion wurde über einen anderen Kanal vorautorisiert, zum Beispiel ein Mobilgerät. Der Betrag kann in der Auszahlungsanfragenachricht fehlen."
+    },
+    "PRFL": {
+      "name": "Profilauszahlung",
+      "definition": "Betrag und Notenwerte sind durch das Kundenprofil vordefiniert."
+    },
+    "EMVS": {
+      "name": "EMV-Anwendung auswählen",
+      "definition": "Die vom Acquirer zugelassenen EMV-Anwendungen auswählen."
+    },
+    "STDR": {
+      "name": "Standardauszahlung",
+      "definition": "Standardauszahlung von Objekten."
+    },
+    "SPRV": {
+      "name": "Beaufsichtigte Auszahlung",
+      "definition": "Auszahlung durch einen Vorgesetzten autorisiert."
+    },
+    "DPSV": {
+      "name": "Geprüfte Einzahlung",
+      "definition": "Einzahlung von Medienobjekten, die vom ATM geprüft werden."
+    },
+    "ACCD": {
+      "name": "Konto-Download",
+      "definition": "Mit der Kundenkarte verknüpfte Konten herunterladen."
+    },
+    "MINI": {
+      "name": "Kurzauszug",
+      "definition": "Einen Kurzauszug (das heißt Teilauszug) zu einem Kundenkonto anfordern."
+    }
+  }
+}

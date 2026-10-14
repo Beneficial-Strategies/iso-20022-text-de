@@ -1,0 +1,26 @@
+{
+  "isoType": "FinancialInstrumentQuantity43Choice",
+  "definition": "Auswahl zwischen Formaten für die Wertpapiermenge.",
+  "isoElements": {
+    "Unit": {
+      "definition": "Als Zahl ausgedrückte Menge, zum Beispiel eine Anzahl von Aktien."
+    },
+    "FaceAmount": {
+      "definition": "Als Betrag ausgedrückte Menge, der den Nennbetrag, d. h. den Kapitalbetrag, eines Schuldinstruments darstellt."
+    },
+    "AmortisedValue": {
+      "definition": "Menge, ausgedrückt als Betrag, der den aktuellen amortisierten Nennbetrag einer Anleihe darstellt, zum Beispiel eine periodische Verringerung/Erhöhung des Kapitalbetrags einer Anleihe."
+    },
+    "Code": {
+      "definition": "Als Code ausgedrückte Menge."
+    },
+    "DigitalTokenUnit": {
+      "definition": "Als Zahl ausgedrückte Menge digitaler Token, beispielsweise eine Anzahl von Blockchain-Token."
+    }
+  },
+  "isoRules": {
+    "DigitalTokenUnitUsageRule": {
+      "definition": "Das Format DigitalTokenUnit darf nur für Instrumente verwendet werden, die mit einer Kennung für digitale Token identifiziert sind."
+    }
+  }
+}

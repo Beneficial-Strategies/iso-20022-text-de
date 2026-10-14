@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountType2Choice",
+  "definition": "Auswahl von Formaten für die Angabe der Kontoart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Kontoart, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Kontoart, ausgedrückt als proprietärer Code."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionInstructionStatementReportV14",
+  "definition": "Anwendungsbereich|Die Nachricht CorporateActionInstructionStatementReport wird von einem Kontoführer an einen Kontoinhaber oder dessen benannten Beauftragten gesendet, um Bestände auf Ebene des Verwahrkontos für ein oder mehrere Kapitalmaßnahmen-Ereignisse oder auf Ebene des Kapitalmaßnahmen-Ereignisses für ein oder mehrere Verwahrkonten zu melden.|Verwendung|Die Nachricht kann zudem verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist Duplicate),|- einem Dritten eine Kopie einer Nachricht zur Information zu übermitteln (die Unterfunktion der Nachricht ist Copy),|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu übermitteln (die Unterfunktion der Nachricht ist Copy Duplicate), unter Verwendung der entsprechenden Elemente im Business Application Header (BAH).",
+  "isoRules": {
+    "MultipleAccountAndStatementDetailsRule": {
+      "definition": "Wenn StatementGeneralDetails/ReportingType MASE (Multiple Accounts) ist, darf AccountAndStatementDetails wiederholt werden, und AccountAndStatementDetails/CorporateActionEventAndBalance darf in keinem Vorkommen von AccountAndStatementDetails wiederholt werden.|Wenn StatementGeneralDetails/ReportingType SAME (Multiple Events) ist, darf AccountAndStatementDetails nicht wiederholt werden, und AccountAndStatementDetails/CorporateActionEventAndBalance darf wiederholt werden."
+    },
+    "CorporateActionEventAndBalanceRule": {
+      "definition": "Wenn StatementGeneralDetails/ActivityIndicator 'true' oder '1' (Yes) ist, muss mindestens ein Vorkommen von AccountAndStatementDetails/CorporateActionEventAndBalance vorhanden sein.|Wenn StatementGeneralDetails/ActivityIndicator 'false' oder '0' (No) ist, darf AccountAndStatementDetails/CorporateActionEventAndBalance in keinem Vorkommen von AccountAndStatementDetails vorhanden sein."
+    },
+    "PaginationRule": {
+      "definition": "Wenn eine Seitennummerierung vorhanden ist, muss StatementGeneralDetails/StatementIdentification vorhanden sein."
+    }
+  }
+}

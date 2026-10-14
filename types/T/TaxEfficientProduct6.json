@@ -1,0 +1,24 @@
+{
+  "isoType": "TaxEfficientProduct6",
+  "definition": "Merkmale eines steuereffizienten Produkts.",
+  "isoElements": {
+    "TaxEfficientProductType": {
+      "definition": "Art des steuereffizienten Produkts, zum Beispiel ein Individual Savings Account (ISA) im UK."
+    },
+    "CurrentYear": {
+      "definition": "Gibt an, dass alle Produkte des laufenden Steuerjahres einzubeziehen sind."
+    },
+    "CashComponentIndicator": {
+      "definition": "Gibt an, ob das Produkt einen Barvermögenswert zur Übertragung enthält."
+    },
+    "PreviousYears": {
+      "definition": "In früheren Jahren aufgelegte Anlagepläne."
+    },
+    "CurrentYearSubscriptionDetails": {
+      "definition": "Für das laufende Jahr bereits gezeichnete Beträge."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum steuereffizienten Produkt."
+    }
+  }
+}

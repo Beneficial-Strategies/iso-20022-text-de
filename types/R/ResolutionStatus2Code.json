@@ -1,0 +1,18 @@
+{
+  "isoType": "ResolutionStatus2Code",
+  "definition": "Gibt den Status eines Beschlusses auf einer Versammlungsagenda an.",
+  "isoCodes": {
+    "ACPT": {
+      "name": "Akzeptiert",
+      "definition": "Der Versammlungsbeschluss wurde angenommen."
+    },
+    "REJT": {
+      "name": "Abgelehnt",
+      "definition": "Der Versammlungsbeschluss wurde abgelehnt."
+    },
+    "WDRA": {
+      "name": "Zurückgezogen",
+      "definition": "Der Versammlungsbeschluss wurde zurückgezogen."
+    }
+  }
+}

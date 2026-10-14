@@ -1,0 +1,82 @@
+{
+  "isoType": "PendingProcessingReason1Code",
+  "definition": "Gibt den Grund an, weshalb die Abwicklung der Transaktion/Anweisung fehlschlägt. Eine Abwicklung am angewiesenen Abwicklungstag ist nicht mehr möglich.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Anweisung ging nach Ablauf der Frist des kontoführenden Instituts ein. Wird nach bestem Bemühen verarbeitet."
+    },
+    "CAIS": {
+      "name": "Wartet auf Wertpapiere",
+      "definition": "Es stehen noch Finanzinstrumente aus einer Kapitalmaßnahme oder einem anderen Verfahren aus, zum Beispiel Umwandlung, Entmaterialisierung, Umtausch, Registrierung, Stempelung, Aufteilung."
+    },
+    "DOCY": {
+      "name": "Wartet auf Dokumente oder Indossamente von Ihnen",
+      "definition": "Warten auf Dokumente oder Indossamente von Ihnen."
+    },
+    "NOFX": {
+      "name": "Keine Devisenanweisung",
+      "definition": "Eine Devisenanweisung von Ihnen fehlt."
+    },
+    "BLOC": {
+      "name": "Konto gesperrt",
+      "definition": "Ihr Konto ist gesperrt, über das Konto kann keine Anweisung abgewickelt werden."
+    },
+    "MUNO": {
+      "name": "Mehrfacher Abwicklungsbetrag",
+      "definition": "Die angewiesene Menge ist kein Vielfaches einer für das Finanzinstrument bestehenden Abwicklungslosgröße."
+    },
+    "GLOB": {
+      "name": "Globalurkunden",
+      "definition": "Die Abwicklung kann nicht ausgeführt werden; die Finanzinstrumente liegen in Globalform vor."
+    },
+    "YCOL": {
+      "name": "Sicherheitenfehlbetrag",
+      "definition": "Auf Ihrem Konto ist nicht genügend Sicherheit vorhanden, um die Anweisung auszuführen."
+    },
+    "COLL": {
+      "name": "Als Sicherheit verpfändete Wertpapiere",
+      "definition": "Die Finanzinstrumente sind nicht lieferbar, da sie als Sicherheit verpfändet sind."
+    },
+    "FLIM": {
+      "name": "Maximales Auslandslimit erreicht",
+      "definition": "Auf Ihrem Konto sind nicht genügend lieferbare Finanzinstrumente vorhanden, da das maximale Auslandslimit erreicht wurde."
+    },
+    "NEXT": {
+      "name": "Nächster Prozess",
+      "definition": "Der nächste Prozess wird gestartet. Es sind keine anstehenden Verarbeitungsprobleme zu melden."
+    },
+    "LACK": {
+      "name": "Mangel an Wertpapieren",
+      "definition": "Auf Ihrem Konto sind nicht genügend Finanzinstrumente vorhanden."
+    },
+    "LALO": {
+      "name": "Verliehene Wertpapiere",
+      "definition": "Die Finanzinstrumente sind verliehen."
+    },
+    "MONY": {
+      "name": "Unzureichendes Geld",
+      "definition": "Unzureichende Geldmittel auf Ihrem Konto."
+    },
+    "MINO": {
+      "name": "Mindestabwicklungsbetrag",
+      "definition": "Die angewiesene Menge liegt unter der für das Finanzinstrument bestehenden Mindestabwicklungsmenge."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "DENO": {
+      "name": "Nicht verfügbare lieferbare Stückzahl",
+      "definition": "Die angewiesene Menge entspricht nicht der verfügbaren/lieferbaren Stückelung. Physische Wertpapiere müssen in lieferbaren Stückelungsmengen beschafft werden."
+    },
+    "LIQU": {
+      "name": "Unzureichende Zentralbankliquidität",
+      "definition": "Die Liquidität der Zentralbank ist unzureichend."
+    },
+    "CERT": {
+      "name": "Falsche Zertifikatsnummern",
+      "definition": "Fehler bei der Zertifikatsnummer."
+    }
+  }
+}

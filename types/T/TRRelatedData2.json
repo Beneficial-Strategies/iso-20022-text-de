@@ -1,0 +1,12 @@
+{
+  "isoType": "TRRelatedData2",
+  "definition": "Datenblock für einen TR31- oder TR34-Schlüsselblock, der den übertragenen Schlüssel enthält.",
+  "isoElements": {
+    "TR34Command": {
+      "definition": "Spezifischer TR34-Befehl, bei dem der TRBlock ein TR34-Block ist."
+    },
+    "TRBlock": {
+      "definition": "TR31- oder TR34-Datenblock."
+    }
+  }
+}

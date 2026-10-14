@@ -1,0 +1,154 @@
+{
+  "isoType": "UnmatchedStatusReason1Code",
+  "definition": "Gibt den Grund an, weshalb die Transaktion bzw. Anweisung nicht abgeglichen ist.",
+  "isoCodes": {
+    "CMIS": {
+      "name": "Abzugleichende Anweisung nicht gefunden",
+      "definition": "Eine passende Anweisung der Gegenpartei wurde nicht gefunden."
+    },
+    "DDAT": {
+      "name": "Abweichung beim Abwicklungsdatum",
+      "definition": "Die Gegenpartei stimmt dem Abwicklungsdatum bzw. der Abwicklungszeit nicht zu."
+    },
+    "DELN": {
+      "name": "Abweichung bei der Handelsrichtung",
+      "definition": "Die Gegenpartei erwartet eine Lieferung statt eines Empfangs bzw. einen Empfang statt einer Lieferung."
+    },
+    "DEPT": {
+      "name": "Abweichung beim Abwicklungsort",
+      "definition": "Die Gegenpartei stimmt dem Abwicklungsort nicht zu."
+    },
+    "DMON": {
+      "name": "Abweichung beim Abwicklungsbetrag",
+      "definition": "Die Gegenpartei stimmt dem Abwicklungsbetrag nicht zu."
+    },
+    "DDEA": {
+      "name": "Abweichung beim Geschäftspreis",
+      "definition": "Die Gegenpartei stimmt dem Geschäftspreis nicht zu."
+    },
+    "DQUA": {
+      "name": "Abweichung bei der Menge",
+      "definition": "Die Gegenpartei stimmt der Menge des Finanzinstruments nicht zu."
+    },
+    "CADE": {
+      "name": "Abweichung bei der Rückkaufsabrufverzögerung",
+      "definition": "Die Rückkauf-Abrufverzögerung stimmt nicht überein."
+    },
+    "SETR": {
+      "name": "Abweichung bei der Abwicklungstransaktion",
+      "definition": "Die Art der Abwicklungstransaktion stimmt nicht überein."
+    },
+    "DSEC": {
+      "name": "Abweichung beim Wertpapier",
+      "definition": "Die Gegenpartei stimmt dem Wertpapier bzw. der Emission nicht zu, zum Beispiel weicht die ISIN oder ein Attribut des Finanzinstruments ab."
+    },
+    "VASU": {
+      "name": "Abweichung bei der Unterstützung für variablen Zins",
+      "definition": "Die Unterstützung des variablen Zinssatzes stimmt nicht überein."
+    },
+    "DTRA": {
+      "name": "Nicht erkannt",
+      "definition": "Die Gegenpartei erkennt die Transaktion nicht an."
+    },
+    "RSPR": {
+      "name": "Abweichung beim Rückkaufsspread",
+      "definition": "Der Rückkauf-Spread-Satz stimmt nicht überein."
+    },
+    "REPO": {
+      "name": "Abweichung beim Rückkaufszins",
+      "definition": "Der Rückkaufsatz stimmt nicht überein."
+    },
+    "CLAT": {
+      "name": "Gegenpartei zu spät für den Abgleich",
+      "definition": "Die Anweisung der Gegenpartei war zu spät."
+    },
+    "RERT": {
+      "name": "Abweichung bei der Rückkaufszinsart",
+      "definition": "Die Art des Rückkaufsatzes stimmt nicht überein."
+    },
+    "REPA": {
+      "name": "Abweichung beim Rückkaufsbetrag",
+      "definition": "Der Rückkaufbetrag stimmt nicht überein."
+    },
+    "REPP": {
+      "name": "Abweichung beim Rückkaufsprämienbetrag",
+      "definition": "Der Rückkaufprämienbetrag stimmt nicht überein."
+    },
+    "PHYS": {
+      "name": "Abweichung bei der physischen Abwicklung",
+      "definition": "Die Anweisung der Gegenpartei bezieht sich auf eine physische Abwicklung, Ihre nicht, oder umgekehrt."
+    },
+    "IIND": {
+      "name": "Abweichung bei der gemeinsamen Referenz",
+      "definition": "Die Gegenpartei stimmt der gemeinsamen Referenz nicht zu."
+    },
+    "FRAP": {
+      "name": "Abweichung beim Zahlungscode",
+      "definition": "Die Anweisung der Gegenpartei bezieht sich auf eine Abwicklung frei von Zahlung, Ihre auf eine Abwicklung gegen Zahlung, oder umgekehrt."
+    },
+    "PLCE": {
+      "name": "Abweichung beim Handelsplatz",
+      "definition": "Der Handelsplatz stimmt nicht überein."
+    },
+    "PODU": {
+      "name": "Mögliche doppelte Anweisung",
+      "definition": "Die Anweisung ist ein mögliches Duplikat."
+    },
+    "FORF": {
+      "name": "Abweichung beim Rückkaufsbetrag bei Verfall",
+      "definition": "Der Rückkauf-Verfallsbetrag stimmt nicht überein."
+    },
+    "REGD": {
+      "name": "Abweichung bei den Registrierungsdetails",
+      "definition": "Es bestehen Abweichungen bei den mit der Transaktion verknüpften Registrierungsangaben."
+    },
+    "RTGS": {
+      "name": "Abweichung beim RTGS-System",
+      "definition": "Die Gegenpartei gibt eine Abwicklung über ein RTGS-System an, Sie eine Abwicklung außerhalb von RTGS, oder umgekehrt."
+    },
+    "ICAG": {
+      "name": "Falsche Bank",
+      "definition": "Die Gegenpartei hat eine falsche liefernde oder empfangende Stelle angegeben."
+    },
+    "CPCA": {
+      "name": "Anweisung durch Gegenpartei storniert",
+      "definition": "Die Gegenpartei hat die Transaktion bzw. Anweisung storniert."
+    },
+    "CHAR": {
+      "name": "Abweichung beim Entgeltbetrag",
+      "definition": "Die Gegenpartei stimmt dem Betrag der Entgelte nicht zu."
+    },
+    "IEXE": {
+      "name": "Falscher Käufer oder Verkäufer",
+      "definition": "Die Anweisung gibt einen falschen Käufer (Empfänger) oder Verkäufer (Lieferanten) an."
+    },
+    "NCRR": {
+      "name": "Abweichung beim Währungsabwicklungsbetrag",
+      "definition": "Die Gegenpartei stimmt der Währung des Abwicklungsbetrags nicht zu."
+    },
+    "NMAS": {
+      "name": "Kein Abgleich gestartet",
+      "definition": "Der Abgleichprozess hat noch nicht begonnen."
+    },
+    "SAFE": {
+      "name": "Abweichung beim Verwahrkonto",
+      "definition": "Das für den betreffenden Markt als Abgleichkriterium verwendete Verwahrkonto stimmt nicht überein."
+    },
+    "DTRD": {
+      "name": "Abweichung beim Handelsdatum",
+      "definition": "Die Gegenpartei stimmt dem Handelsdatum nicht zu."
+    },
+    "LATE": {
+      "name": "Eigene Anweisung zu spät für den Abgleich",
+      "definition": "Die Anweisung ging zu spät für den Abgleich ein."
+    },
+    "TERM": {
+      "name": "Abweichung bei Abschlussdatum und -zeit",
+      "definition": "Das Abschlussdatum bzw. die Abschlusszeit stimmt nicht überein."
+    },
+    "ICUS": {
+      "name": "Abweichung bei der empfangenden oder liefernden Verwahrstelle",
+      "definition": "Falsche liefernde oder empfangende Verwahrstelle."
+    }
+  }
+}

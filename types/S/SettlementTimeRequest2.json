@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementTimeRequest2",
+  "definition": "Enthält Angaben zu den gewünschten Abwicklungszeiten der Zahlungsanweisung.",
+  "isoElements": {
+    "CLSTime": {
+      "definition": "Zeitpunkt, bis zu dem der Geldbetrag dem Konto der CLS Bank bei der Zentralbank mit Bestätigung gutgeschrieben sein muss.|Verwendung: Die Uhrzeit ist in mitteleuropäischer Zeit (CET) anzugeben."
+    },
+    "TillTime": {
+      "definition": "Zeitpunkt, bis zu dem die Zahlung abgewickelt werden darf."
+    },
+    "FromTime": {
+      "definition": "Zeitpunkt, ab dem die Zahlung abgewickelt werden darf."
+    },
+    "RejectTime": {
+      "definition": "Zeitpunkt, bis zu dem die Zahlung abgewickelt sein muss, um eine Ablehnung zu vermeiden."
+    }
+  }
+}

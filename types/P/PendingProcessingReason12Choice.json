@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingProcessingReason12Choice",
+  "definition": "Auswahl des Formats für den Grund der ausstehenden Verarbeitung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Legt den Grund fest, aus dem die Anweisung den Status „Verarbeitung ausstehend“ hat."
+    },
+    "Proprietary": {
+      "definition": "Legt den Grund fest, aus dem die Anweisung den Status „Verarbeitung ausstehend“ hat."
+    }
+  }
+}

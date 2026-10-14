@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMDeviceControlV04",
+  "definition": "Die Nachricht ATMDeviceControl wird von einem Wartungshost als Antwort auf eine Nachricht ATMDeviceReport an einen ATM gesendet. Die Nachricht enthält eine Folge von Wartungsbefehlen, die der ATM ausführen muss."
+}

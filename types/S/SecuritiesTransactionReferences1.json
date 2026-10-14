@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesTransactionReferences1",
+  "definition": "Identifiziert die zugrunde liegende Wertpapiertransaktion.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Wertpapiertransaktion, wie sie dem Wertpapierkontoinhaber (oder der das Konto verwaltenden anweisenden Partei) bekannt ist."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Wertpapiertransaktion, wie sie dem Wertpapierkontoführer bekannt ist."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Wertpapiertransaktion, vergeben von einer anderen Marktinfrastruktur als einer Zentralverwahrstelle, zum Beispiel Target2-Securities."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identifikation der Wertpapiertransaktion, vergeben vom Bearbeiter der Anweisung, der weder der Wertpapierkontoinhaber noch der Wertpapierkontoführer noch die Marktinfrastruktur ist."
+    }
+  }
+}

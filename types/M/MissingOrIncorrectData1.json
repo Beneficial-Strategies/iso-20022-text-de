@@ -1,0 +1,15 @@
+{
+  "isoType": "MissingOrIncorrectData1",
+  "definition": "Liefert weitere Informationen zum Grund der Untersuchung wegen Nichtanwendbarkeit.",
+  "isoElements": {
+    "AntiMoneyLaunderingRequest": {
+      "definition": "Gibt an, ob sich die Anfrage auf eine Untersuchung zur Geldwäschebekämpfung (AML, Anti Money Laundering) bezieht oder nicht."
+    },
+    "MissingInformation": {
+      "definition": "Gibt die fehlenden Informationen an."
+    },
+    "IncorrectInformation": {
+      "definition": "Gibt die fehlerhaften Informationen in codierter Form an."
+    }
+  }
+}

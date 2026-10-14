@@ -1,0 +1,23 @@
+{
+  "isoType": "IntraPositionReport4",
+  "definition": "Merkmale des Berichts.",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Identifikation der Abfragenachricht, mit der dieser Auszug angefordert wurde."
+    },
+    "ReportIdentification": {
+      "definition": "Referenz, die allen Seiten eines Berichts gemeinsam ist."
+    },
+    "QueryType": {
+      "definition": "Legt den Abfragetyp fest."
+    },
+    "ActivityIndicator": {
+      "definition": "Gibt an, ob im Auszug Aktivität oder eine Aktualisierung von Informationen gemeldet wird."
+    }
+  },
+  "isoRules": {
+    "ReportIdentificationRule": {
+      "definition": "Hat der Bericht mehrere Seiten, muss die ReportIdentification auf allen Seiten gleich bleiben. Sie ist eine eindeutige Nummer des Berichts.|Zwei Berichte desselben Typs, die nacheinander an denselben Empfänger in Bezug auf dasselbe Verwahrkonto gesendet werden, müssen unterschiedliche Berichtsidentifikationen haben. Ein Tagesbericht von Tag 1 hätte beispielsweise die ReportIdentification 001, der von Tag 2 die ReportIdentification 002 usw."
+    }
+  }
+}

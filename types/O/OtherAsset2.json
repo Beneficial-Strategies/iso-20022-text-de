@@ -1,0 +1,24 @@
+{
+  "isoType": "OtherAsset2",
+  "definition": "Identifikation eines Vermögenswerts.",
+  "isoElements": {
+    "OtherAssetType": {
+      "definition": "Art des Vermögenswerts."
+    },
+    "Identification": {
+      "definition": "Technische Identifikation des Vermögenswerts."
+    },
+    "Name": {
+      "definition": "Name des Vermögenswerts."
+    },
+    "Description": {
+      "definition": "Beschreibung des Vermögenswerts."
+    },
+    "OtherIdentification": {
+      "definition": "Zusätzliche Identifikation des Vermögenswerts."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum sonstigen Vermögenswert."
+    }
+  }
+}

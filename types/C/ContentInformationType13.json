@@ -1,0 +1,15 @@
+{
+  "isoType": "ContentInformationType13",
+  "definition": "Allgemeine Cryptographic Message Syntax (CMS) mit Daten, geschützt durch einen MAC oder eine digitale Signatur.",
+  "isoElements": {
+    "ContentType": {
+      "definition": "Art des Datenschutzes."
+    },
+    "AuthenticatedData": {
+      "definition": "Datenschutz durch einen Nachrichtenauthentifizierungscode (MAC)."
+    },
+    "SignedData": {
+      "definition": "Durch digitale Signaturen geschützte Daten."
+    }
+  }
+}

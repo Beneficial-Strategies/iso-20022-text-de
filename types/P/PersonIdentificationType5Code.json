@@ -1,0 +1,54 @@
+{
+  "isoType": "PersonIdentificationType5Code",
+  "definition": "Gibt eine alternative Identifikation einer natürlichen Person an, zum Beispiel nationale Registrierungsnummer, Reisepassnummer.",
+  "isoCodes": {
+    "AREG": {
+      "name": "Ausländerregistrierungsnummer",
+      "definition": "Von einer Regierungsbehörde zugewiesene Nummer zur Identifikation ausländischer Staatsangehöriger."
+    },
+    "CPFA": {
+      "name": "CPF-Kontonummer",
+      "definition": "Vom Central Provident Fund Board (Singapur) ausgestelltes Konto."
+    },
+    "DRLC": {
+      "name": "Führerscheinnummer",
+      "definition": "Von einer Lizenzbehörde vergebene Führerscheinnummer."
+    },
+    "EMID": {
+      "name": "Arbeitgeber-Identifikationsnummer",
+      "definition": "Einem Arbeitgeber von einer Registrierungsbehörde zugewiesene Nummer."
+    },
+    "IDCD": {
+      "name": "Personalausweisnummer",
+      "definition": "Von einer nationalen Behörde vergebene Nummer eines Personalausweises."
+    },
+    "NRIN": {
+      "name": "Nationale Registrierungsnummer",
+      "definition": "Nationale Registrierungsnummer. In Singapur ist diese als NRIC bekannt."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Eine andere Identifikationsart."
+    },
+    "PASS": {
+      "name": "Reisepassnummer",
+      "definition": "Von einer Passbehörde vergebene Nummer eines Reisepasses."
+    },
+    "POCD": {
+      "name": "Postkartennummer",
+      "definition": "Von einer nationalen Postbehörde vergebene Postkartennummer."
+    },
+    "SOCS": {
+      "name": "Sozialversicherungsnummer",
+      "definition": "Nummer, die von einer Sozialversicherungsbehörde vergeben wurde."
+    },
+    "SRSA": {
+      "name": "SRS-Kontonummer",
+      "definition": "Kontonummer des Supplementary Retirement Scheme."
+    },
+    "GUNL": {
+      "name": "Waffenscheinnummer",
+      "definition": "Von einer Waffenlizenzbehörde vergebene Waffenscheinnummer."
+    }
+  }
+}

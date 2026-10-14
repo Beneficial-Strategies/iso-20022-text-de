@@ -1,0 +1,18 @@
+{
+  "isoType": "NotificationStatus3Code",
+  "definition": "Gibt den Status der Benachrichtigung in codierter Form an.",
+  "isoCodes": {
+    "RCBD": {
+      "name": "Empfangen, aber abweichend",
+      "definition": "Das in der Benachrichtigung zum Empfang beschriebene Ereignis bzw. die beschriebenen Ereignisse ist bzw. sind eingetreten, die Details weichen jedoch ab."
+    },
+    "RCVD": {
+      "name": "Empfangen",
+      "definition": "Das in der Benachrichtigung zum Empfang beschriebene Ereignis bzw. die beschriebenen Ereignisse ist bzw. sind eingetreten."
+    },
+    "NRCD": {
+      "name": "Nicht empfangen",
+      "definition": "Das in der Benachrichtigung zum Empfang beschriebene Ereignis bzw. die beschriebenen Ereignisse ist bzw. sind nicht eingetreten."
+    }
+  }
+}

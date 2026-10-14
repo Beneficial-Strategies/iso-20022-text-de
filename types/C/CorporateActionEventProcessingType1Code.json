@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionEventProcessingType1Code",
+  "definition": "Gibt die Art der Ereignisbearbeitung an.",
+  "isoCodes": {
+    "GENL": {
+      "name": "Allgemein",
+      "definition": "Keine Belastung oder Gutschrift von Ressourcen."
+    },
+    "DISN": {
+      "name": "Ausschüttung",
+      "definition": "Der Inhaber des betreffenden Wertpapiers an einem bestimmten Datum, zum Beispiel dem Stichtag, erhält einen Vorteil, ohne das zugrunde liegende Wertpapier aufzugeben."
+    },
+    "REOR": {
+      "name": "Reorganisation",
+      "definition": "Das zugrunde liegende Wertpapier wird belastet und kann durch eine andere Ressource (oder andere Ressourcen) ersetzt werden."
+    }
+  }
+}

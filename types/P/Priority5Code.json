@@ -1,0 +1,22 @@
+{
+  "isoType": "Priority5Code",
+  "definition": "Gibt die Prioritätsstufe eines Ereignisses an.",
+  "isoCodes": {
+    "HIGH": {
+      "name": "Hoch",
+      "definition": "Die Prioritätsstufe ist hoch."
+    },
+    "LOWW": {
+      "name": "Niedrig",
+      "definition": "Die Prioritätsstufe ist niedrig."
+    },
+    "NORM": {
+      "name": "Normal",
+      "definition": "Die Prioritätsstufe ist normal."
+    },
+    "URGT": {
+      "name": "Dringend",
+      "definition": "Die Prioritätsstufe ist dringend (höchstmögliche Priorität)."
+    }
+  }
+}

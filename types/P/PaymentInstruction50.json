@@ -1,0 +1,83 @@
+{
+  "isoType": "PaymentInstruction50",
+  "definition": "Merkmale, die für die Gutschriftsseite der in der Lastschrifteinreichung enthaltenen Zahlungstransaktionen gelten.",
+  "isoElements": {
+    "PaymentInformationIdentification": {
+      "definition": "Eindeutige Identifikation, wie von einer sendenden Partei vergeben, zur unmissverständlichen Identifizierung der Zahlungsinformationsgruppe innerhalb der Nachricht."
+    },
+    "PaymentMethod": {
+      "definition": "Gibt das Zahlungsmittel an, mit dem der Geldbetrag bewegt wird."
+    },
+    "RequestedAdviceType": {
+      "definition": "Art der angeforderten Avisdetails."
+    },
+    "BatchBooking": {
+      "definition": "Gibt an, ob ein einzelner Umsatz je Einzeltransaktion oder ein Sammelumsatz für die Summe der Beträge aller Transaktionen innerhalb der Gruppe einer Nachricht gewünscht wird.|Verwendung: Die Sammelbuchung wird verwendet, um eine mögliche Sammelbuchung anzufordern und nicht anzuordnen."
+    },
+    "NumberOfTransactions": {
+      "definition": "Anzahl der in der Zahlungsinformationsgruppe enthaltenen Einzeltransaktionen."
+    },
+    "ControlSum": {
+      "definition": "Summe aller in der Gruppe enthaltenen Einzelbeträge, unabhängig von den Währungen."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Satz von Elementen zur näheren Bestimmung der Transaktionsart."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Zahlungsempfänger verlangt, dass der Geldbetrag vom Zahlungspflichtigen eingezogen wird."
+    },
+    "Creditor": {
+      "definition": "Partei, der ein Geldbetrag zusteht."
+    },
+    "CreditorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungsempfängers, dem aufgrund der Zahlungstransaktion eine Gutschrift gebucht wird."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungsempfänger führt."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungsempfängers bei der kontoführenden Bank in der Zahlungskette."
+    },
+    "UltimateCreditor": {
+      "definition": "Letztliche Partei, der ein Geldbetrag zusteht."
+    },
+    "ChargeBearer": {
+      "definition": "Gibt an, welche Partei(en) die mit der Verarbeitung der Zahlungstransaktion verbundenen Entgelte trägt/tragen."
+    },
+    "ChargesAccount": {
+      "definition": "Konto, das zur Abwicklung der mit einer Transaktion verbundenen Entgelte verwendet wird.||Verwendung: Das Entgeltkonto sollte verwendet werden, wenn Entgelte einem anderen Konto als dem im Konto des Zahlungspflichtigen angegebenen Konto belastet werden müssen."
+    },
+    "ChargesAccountAgent": {
+      "definition": "Bank, die ein Entgeltkonto führt.||Verwendung: Die Bank des Entgeltkontos sollte nur verwendet werden, wenn sie sich von der Bank des Zahlungsempfängers unterscheidet."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Kreditseitige Partei, die das Mandat unterzeichnet."
+    },
+    "DirectDebitTransactionInformation": {
+      "definition": "Enthält Informationen zu den in der Nachricht enthaltenen Einzeltransaktionen."
+    }
+  },
+  "isoRules": {
+    "ChargeBearerRule": {
+      "definition": "Wenn ChargeBearer vorhanden ist, ist DirectDebitTransactionInformation/ChargeBearer nicht zulässig. Wenn DirectDebitTransactionInformation/ChargeBearer vorhanden ist, ist ChargeBearer nicht zulässig. DirectDebitTransactionInformation/ChargeBearer und ChargeBearer dürfen beide fehlen."
+    },
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor darf nur vorhanden sein, wenn er sich vom Creditor unterscheidet."
+    },
+    "ChargesAccountRule": {
+      "definition": "Wenn ChargesAccountAgent vorhanden ist, muss ChargesAccount vorhanden sein."
+    },
+    "PaymentTypeInformationRule": {
+      "definition": "Wenn PaymentTypeInformation vorhanden ist, ist DirectDebitTransactionInformation/PaymentTypeInformation nicht zulässig."
+    },
+    "CreditorSchemeIdentificationRule": {
+      "definition": "Wenn CreditorSchemeIdentification vorhanden ist, ist DirectDebitTransactionInformation/CreditorSchemeIdentification nicht zulässig. Wenn DirectDebitTransactionInformation/CreditorSchemeIdentification vorhanden ist, ist CreditorSchemeIdentification nicht zulässig. DirectDebitTransactionInformation/CreditorSchemeIdentification und CreditorSchemeIdentification dürfen beide fehlen."
+    },
+    "UltimateCreditorRule": {
+      "definition": "Wenn UltimateCreditor vorhanden ist, ist DirectDebitTransactionInformation/UltimateCreditor nicht zulässig. Wenn DirectDebitTransactionInformation/UltimateCreditor vorhanden ist, ist UltimateCreditor nicht zulässig. DirectDebitTransactionInformation/UltimateCreditor und UltimateCreditor dürfen beide fehlen."
+    },
+    "ChargesAccountAgentRule": {
+      "definition": "Wenn ChargesAccountAgent vorhanden ist, muss er eine Filiale der CreditorAgent enthalten. Er darf keine völlig andere Bank enthalten."
+    }
+  }
+}

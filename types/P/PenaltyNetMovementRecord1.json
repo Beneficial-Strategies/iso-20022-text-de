@@ -1,0 +1,21 @@
+{
+  "isoType": "PenaltyNetMovementRecord1",
+  "definition": "Gibt die Attribute an, wenn die Strafzahlung für eine Nettoabwicklungsbewegung gilt.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "SecuritiesShortfall": {
+      "definition": "Gesamtmenge der Wertpapiere, deren Abwicklung fehlgeschlagen ist."
+    },
+    "ShortfallValuation": {
+      "definition": "Bewertung der Wertpapiere, deren Abwicklung fehlgeschlagen ist."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Gibt die Bedingungen an, unter denen der Auftrag/das Geschäft auszuführen ist bzw. ausgeführt wurde."
+    },
+    "NumberOfEntries": {
+      "definition": "Anzahl der Einträge zur Nettoposition."
+    }
+  }
+}

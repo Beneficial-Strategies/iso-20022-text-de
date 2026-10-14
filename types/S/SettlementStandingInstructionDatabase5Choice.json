@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementStandingInstructionDatabase5Choice",
+  "definition": "Auswahl des Formats für die Informationen zur Standardabwicklungsanweisung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Datenbank für Standardabwicklungsanweisungen, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Datenbank für Standardabwicklungsanweisungen, ausgedrückt als proprietärer Code."
+    }
+  }
+}

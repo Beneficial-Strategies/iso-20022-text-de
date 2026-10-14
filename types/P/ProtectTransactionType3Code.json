@@ -1,0 +1,10 @@
+{
+  "isoType": "ProtectTransactionType3Code",
+  "definition": "Gibt die Art der Protect-Anweisung an.",
+  "isoCodes": {
+    "PROT": {
+      "name": "Protect-Transaktion",
+      "definition": "Die Umstrukturierung ist eine Transaktionsart vom Typ Protect."
+    }
+  }
+}

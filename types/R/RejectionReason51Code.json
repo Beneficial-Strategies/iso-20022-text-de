@@ -1,0 +1,54 @@
+{
+  "isoType": "RejectionReason51Code",
+  "definition": "Gibt einen Grund an, warum die Anweisung/Stornierungsanfrage den Status abgelehnt hat.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Transaktion bzw. Anweisung ging nach Ablauf der vom kontoführenden Institut festgelegten Frist ein."
+    },
+    "DQUA": {
+      "name": "Ablehnung wegen Menge",
+      "definition": "Ungültige oder nicht erkannte angewiesene Menge."
+    },
+    "DCAN": {
+      "name": "Abgelehnt, da bereits storniert",
+      "definition": "Die Stornierungsanforderung wurde abgelehnt, da die Anweisung bereits storniert wurde."
+    },
+    "DPRG": {
+      "name": "Abgelehnt, da in Bearbeitung",
+      "definition": "Die Stornierungsanforderung wurde abgelehnt, da die Anweisung in Bearbeitung ist oder bereits verarbeitet wurde."
+    },
+    "DSEC": {
+      "name": "Ungültiges Wertpapier",
+      "definition": "Ungültige oder nicht erkannte Identifikation des Finanzinstruments."
+    },
+    "EVNM": {
+      "name": "Nicht erkannte Identifikation",
+      "definition": "Unbekannte Ereignisnummer."
+    },
+    "INIR": {
+      "name": "Anweisung unwiderruflich",
+      "definition": "Die Anweisung ist unwiderruflich."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "RBIS": {
+      "name": "Vom Emittenten oder Registerführer abgelehnt",
+      "definition": "Der Emittent oder die Registerstelle hat die Anweisung abgelehnt."
+    },
+    "SAFE": {
+      "name": "Ablehnung des Verwahrkontos",
+      "definition": "Nicht erkanntes oder ungültiges Verwahrkonto des Nachrichtensenders."
+    },
+    "ULNK": {
+      "name": "Ungültige Referenz",
+      "definition": "Die verknüpfte Referenz ist unbekannt."
+    }
+  }
+}

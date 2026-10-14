@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMTotals4",
+  "definition": "Aktuelle Summen des ATM.",
+  "isoElements": {
+    "MediaType": {
+      "definition": "Art der Medien in der Kassette."
+    },
+    "Currency": {
+      "definition": "Währung der Summen."
+    },
+    "ATMBalance": {
+      "definition": "Gesamtsaldo des ATM einschließlich der Ausschusskassette, jedoch ohne die Einzugskassette."
+    },
+    "ATMCurrent": {
+      "definition": "Für die Ausgabe im ATM verfügbarer Betrag."
+    },
+    "ATMBalanceNumber": {
+      "definition": "Gesamtzahl der Einheiten für nicht bewertete Medien einschließlich der Ausschusskassette."
+    },
+    "ATMCurrentNumber": {
+      "definition": "Gesamtzahl der Einheiten für nicht bewertete Medien ohne die Ausschusskassette."
+    }
+  }
+}

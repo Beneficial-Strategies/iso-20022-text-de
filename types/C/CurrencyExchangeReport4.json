@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrencyExchangeReport4",
+  "definition": "Meldet entweder Informationen zum Währungsumtausch oder einen fachlichen Fehler.",
+  "isoElements": {
+    "CurrencyReference": {
+      "definition": "Quell- und Zielwährungen, für die Informationen angefordert werden."
+    },
+    "CurrencyExchangeOrError": {
+      "definition": "Meldet entweder Informationen zum Währungsumtausch oder einen fachlichen Fehler."
+    }
+  }
+}

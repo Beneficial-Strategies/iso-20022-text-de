@@ -1,0 +1,84 @@
+{
+  "isoType": "RequestedModification11",
+  "definition": "Enthält weitere Einzelheiten zu den beantragten Änderungen der zugrunde liegenden Zahlungsanweisung.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Eindeutige Identifikation, die von einer anweisenden Partei vergeben wird, damit die angewiesene Partei die Anweisung zweifelsfrei identifizieren kann.||Verwendung: Die Anweisungsidentifikation ist eine Punkt-zu-Punkt-Referenz, die zwischen der anweisenden und der angewiesenen Partei verwendet werden kann, um auf die einzelne Anweisung Bezug zu nehmen. Sie kann in mehreren Nachrichten zur Anweisung enthalten sein."
+    },
+    "EndToEndIdentification": {
+      "definition": "Eindeutige Identifikation, die von der initiierenden Partei vergeben wird, um die Transaktion eindeutig zu identifizieren. Diese Identifikation wird unverändert durch die gesamte Ende-zu-Ende-Kette weitergegeben.||Verwendung: Die Ende-zu-Ende-Identifikation kann für den Abgleich oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion verwendet werden. Sie kann in mehreren Nachrichten enthalten sein, die sich auf die Transaktion beziehen."
+    },
+    "TransactionIdentification": {
+      "definition": "Eindeutige Identifikation, die vom ersten anweisenden Institut vergeben wird, um die Transaktion eindeutig zu identifizieren, und die unverändert durch die gesamte Interbankenkette weitergegeben wird. |Verwendung: Die Transaktionsidentifikation kann für den Abgleich, die Nachverfolgung oder zur Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion auf Interbankenebene verwendet werden. Das anweisende Institut muss sicherstellen, dass die Transaktionsidentifikation für einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Gruppe von Elementen zur näheren Bestimmung der Art der Transaktion."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Datum, zu dem die initiierende Partei die Clearingstelle auffordert, die Zahlung zu verarbeiten. |Verwendung: Dies ist das Datum, an dem das Konto des Zahlungspflichtigen belastet werden soll. Bei Zahlung per Scheck das Datum, zu dem der Scheck von der Bank erstellt werden muss."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Zahlungsempfänger verlangt, dass der Geldbetrag vom Zahlungspflichtigen eingezogen wird."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag der Bank, die ihn schuldet, nicht mehr zur Verfügung steht und der Bank, der er zusteht, zur Verfügung steht."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Enthält Informationen zu den erfolgten Abwicklungszeitpunkten der Zahlungstransaktion."
+    },
+    "Amount": {
+      "definition": "Geldbetrag, der zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, vor Abzug von Entgelten, ausgedrückt in der von der initiierenden Partei angewiesenen Währung."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Geldbetrag, der zwischen der anweisenden Bank und der angewiesenen Bank bewegt wird."
+    },
+    "ChargeBearer": {
+      "definition": "Gibt an, welche Partei(en) die mit der Verarbeitung der Zahlungstransaktion verbundenen Entgelte trägt/tragen."
+    },
+    "UltimateDebtor": {
+      "definition": "Letztlich Zahlungspflichtiger, der dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "Debtor": {
+      "definition": "Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet. Im Kontext des Zahlungsmodells ist der Zahlungspflichtige zugleich der Inhaber des Belastungskontos."
+    },
+    "DebtorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungspflichtigen, das infolge der Transaktion belastet wird."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungspflichtigen bei ihrer kontoführenden Stelle in der Zahlungskette."
+    },
+    "SettlementInformation": {
+      "definition": "Anweisung zwischen zwei Clearingstellen, die die Merkmale der Geldüberweisung zwischen den beiden Parteien festlegt."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Eindeutige Identifikation des Kontos der Bank des Zahlungsempfängers bei ihrer kontoführenden Stelle, auf das infolge der Zahlungstransaktion eine Gutschrift erfolgt."
+    },
+    "Creditor": {
+      "definition": "Partei, der ein Geldbetrag geschuldet wird."
+    },
+    "CreditorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungsempfängers, auf dem infolge der Zahlungstransaktion eine Gutschrift gebucht wird."
+    },
+    "UltimateCreditor": {
+      "definition": "Letztlicher Zahlungsempfänger, dem ein Geldbetrag geschuldet wird."
+    },
+    "Purpose": {
+      "definition": "Zugrunde liegender Grund der Zahlungstransaktion.|Verwendung: Der Zweck wird von den Endkunden, das heißt der initiierenden Partei, dem (letztlich) Zahlungspflichtigen und dem (letztlichen) Zahlungsempfänger, verwendet, um Informationen zur Art der Zahlung bereitzustellen. Der Zweck ist ein Inhaltselement, das von keinem der an der Zahlungskette beteiligten Institute für die Verarbeitung verwendet wird."
+    },
+    "InstructionForDebtorAgent": {
+      "definition": "Weitere Informationen zur Verarbeitung der Zahlungsanweisung, die von der initiierenden Partei bereitgestellt werden und für die Bank des Zahlungspflichtigen bestimmt sind."
+    },
+    "InstructionForNextAgent": {
+      "definition": "Weitere Informationen zur Verarbeitung der Zahlungsanweisung, auf die das nächste Institut gegebenenfalls reagieren muss. ||Verwendung: Das nächste Institut ist möglicherweise nicht die Bank des Zahlungsempfängers.|Die Anweisung kann sich auf eine Servicestufe beziehen, kann eine vom Institut auszuführende Anweisung sein oder kann Informationen enthalten, die das nächste Institut benötigt."
+    },
+    "InstructionForCreditorAgent": {
+      "definition": "Weitere Informationen zur Verarbeitung der Zahlungsanweisung, die von der initiierenden Partei bereitgestellt werden und für die Bank des Zahlungsempfängers bestimmt sind."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Enthält Informationen zur Behandlung der Verwendungszweck-Informationen durch eine der Banken in der Verarbeitungskette der Transaktion."
+    },
+    "RemittanceInformation": {
+      "definition": "Strukturierte Informationen, die den Abgleich einer Zahlung mit den Posten ermöglichen, die durch die Zahlung beglichen werden sollen, etwa Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    }
+  }
+}

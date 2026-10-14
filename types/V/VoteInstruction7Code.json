@@ -1,0 +1,50 @@
+{
+  "isoType": "VoteInstruction7Code",
+  "definition": "Gibt eine Art von Stimmanweisung an.",
+  "isoCodes": {
+    "ABST": {
+      "name": "Enthaltung",
+      "definition": "Aktive Stimmabgabe als Enthaltung (keine Meinung)."
+    },
+    "CAGS": {
+      "name": "Dagegen",
+      "definition": "Stimme gegen einen Versammlungsbeschluss."
+    },
+    "AMGT": {
+      "name": "Gegen die Geschäftsführung",
+      "definition": "Die Stimmanweisung steht im Widerspruch zu den Abstimmungsempfehlungen der Geschäftsleitung."
+    },
+    "BLNK": {
+      "name": "Leer",
+      "definition": "Die Stimme wird leer abgegeben, zählt aber als abgegebene Stimme."
+    },
+    "CFOR": {
+      "name": "Dafür",
+      "definition": "Stimme für einen Versammlungsbeschluss."
+    },
+    "NOAC": {
+      "name": "Keine Maßnahme",
+      "definition": "Nicht abstimmen."
+    },
+    "ONEY": {
+      "name": "Ein Jahr",
+      "definition": "Stimme für ein Jahr bei einem Beschluss der Art „Say on Pay“."
+    },
+    "THRY": {
+      "name": "Drei Jahre",
+      "definition": "Stimme für drei Jahre bei einem Beschluss der Art „Say on Pay“."
+    },
+    "TWOY": {
+      "name": "Zwei Jahre",
+      "definition": "Stimme für zwei Jahre bei einem Beschluss der Art „Say on Pay“."
+    },
+    "WTHH": {
+      "name": "Zurückhalten",
+      "definition": "Ein Teilnehmer an einer Versammlung enthält seine Stimme bei einem Versammlungsbeschluss vor. Diese Maßnahme wird üblicherweise ergriffen, um starke Ablehnung gegenüber einem Beschluss auszudrücken (US-Markt)."
+    },
+    "WMGT": {
+      "name": "Mit der Geschäftsführung",
+      "definition": "Die Stimmanweisung steht im Einklang mit den Abstimmungsempfehlungen der Geschäftsleitung."
+    }
+  }
+}

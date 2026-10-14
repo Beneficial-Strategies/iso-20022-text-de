@@ -1,0 +1,14 @@
+{
+  "isoType": "BlockTrade1Code",
+  "definition": "Gibt an, ob die Anweisung die übergeordnete oder eine untergeordnete Anweisung eines Blockgeschäfts ist.",
+  "isoCodes": {
+    "BLPA": {
+      "name": "Übergeordnet",
+      "definition": "Die Transaktion ist die übergeordnete Transaktion eines Blockgeschäfts."
+    },
+    "BLCH": {
+      "name": "Untergeordnet",
+      "definition": "Die Transaktion ist eine untergeordnete Transaktion eines Blockgeschäfts."
+    }
+  }
+}

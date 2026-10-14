@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationStatusReason1Choice",
+  "definition": "Gibt den Grund für den Status der Transaktionsänderung an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für den Änderungsstatus in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Grund für den Status in proprietärer Form."
+    }
+  }
+}

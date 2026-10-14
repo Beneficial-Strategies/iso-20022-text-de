@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndDirection18",
+  "definition": "Buchung eines Postens auf einem Geldkonto im Rahmen einer Geldtransaktion, die zu einer Erhöhung oder Verminderung des Kontosaldos führt.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag der Geldbuchung."
+    },
+    "CreditDebit": {
+      "definition": "Gibt an, ob es sich bei einem Umsatz um eine Gutschrift oder eine Belastung handelt."
+    }
+  }
+}

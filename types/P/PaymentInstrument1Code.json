@@ -1,0 +1,46 @@
+{
+  "isoType": "PaymentInstrument1Code",
+  "definition": "Gibt das verwendete Zahlungsinstrument oder die zugrunde liegende Finanztransaktion an, die zu einer Zahlungstransaktion geführt hat.",
+  "isoCodes": {
+    "BDT": {
+      "name": "Bank-Lastschrift",
+      "definition": "Lastschriftanweisung, bei der der Zahlungspflichtige und der Zahlungsempfänger Finanzinstitute sind."
+    },
+    "BCT": {
+      "name": "Bank-Überweisung",
+      "definition": "Geldtransfer, bei dem der Zahlungspflichtige und der Zahlungsempfänger Finanzinstitute sind."
+    },
+    "CDT": {
+      "name": "Kunden-Lastschrift",
+      "definition": "Lastschriftanweisung, bei der der Zahlungspflichtige oder der Zahlungsempfänger oder beide keine Finanzinstitute sind."
+    },
+    "CCT": {
+      "name": "Kunden-Überweisung",
+      "definition": "Geldtransfer, bei dem der Zahlungspflichtige oder der Zahlungsempfänger oder beide keine Finanzinstitute sind."
+    },
+    "CHK": {
+      "name": "Scheck",
+      "definition": "Das Zahlungsinstrument ist ein Scheck. (Eine schriftliche Anweisung, mit der ein Kontoinhaber (ein Finanzinstitut) angewiesen wird, einen bestimmten Betrag an einen genannten Empfänger (den Begünstigten) zu zahlen)."
+    },
+    "BKT": {
+      "name": "Umbuchung",
+      "definition": "Transfer, der eine Geldbewegung in den Büchern der kontoführenden Stelle darstellt."
+    },
+    "DCP": {
+      "name": "Debitkartenzahlung",
+      "definition": "Das Zahlungsinstrument ist eine Debitkarte. (Die Zahlung wurde über ein Debitkartensystem veranlasst.)."
+    },
+    "CCP": {
+      "name": "Kreditkartenzahlung",
+      "definition": "Das Zahlungsinstrument ist eine Kreditkarte. (Die Zahlung wurde über ein Kreditkartensystem veranlasst.)."
+    },
+    "RTI": {
+      "name": "Rückgabe",
+      "definition": "Buchung im Zusammenhang mit einem zurückgegebenen oder nicht eingelösten Posten."
+    },
+    "CAN": {
+      "name": "Stornierungsauftrag",
+      "definition": "Stornobuchung, die aus der Stornierung einer zuvor gebuchten Buchung resultiert."
+    }
+  }
+}

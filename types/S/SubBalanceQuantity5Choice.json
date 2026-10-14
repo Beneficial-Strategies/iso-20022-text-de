@@ -1,0 +1,12 @@
+{
+  "isoType": "SubBalanceQuantity5Choice",
+  "definition": "Auswahl zwischen Formaten für die Bestandsinformationen.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Menge des Finanzinstruments im Teilsaldo."
+    },
+    "Proprietary": {
+      "definition": "Menge des Finanzinstruments im Teilsaldo, ausgedrückt in einem proprietären Format."
+    }
+  }
+}

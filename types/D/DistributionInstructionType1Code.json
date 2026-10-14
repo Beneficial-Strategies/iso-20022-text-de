@@ -1,0 +1,26 @@
+{
+  "isoType": "DistributionInstructionType1Code",
+  "definition": "Gibt die Art der Ausschüttungsanweisung an.",
+  "isoCodes": {
+    "GDEB": {
+      "name": "Globaler Belastungsauftrag",
+      "definition": "Anweisung, die Positionen auf allen Kundenkonten in den zugrunde liegenden Ressourcen des jeweiligen Ereignisses und der jeweiligen Option zu belasten. Dieser Auftrag gilt für alle Kunden, die zur Teilnahme an der Kapitalmaßnahme berechtigt sind (CA)."
+    },
+    "IDEB": {
+      "name": "Einzelauftrag",
+      "definition": "Eine Anweisung, auf Kundenbasis die in den zugrunde liegenden Ressourcen (Wertpapiere und/oder Geld) gehaltene Position zu belasten und/oder die Erlöse (Wertpapiere und/oder Geld) gutzuschreiben."
+    },
+    "GRET": {
+      "name": "Globaler Rückgabeauftrag",
+      "definition": "Anweisung, Wertpapiere von den gesperrten Beständen der Kunden zurück auf die jeweiligen verfügbaren Bestände zu übertragen."
+    },
+    "CHAN": {
+      "name": "Optionsänderungsauftrag",
+      "definition": "Anweisung, die Position von einem gesperrten Bestand (bezogen auf eine Option der Kapitalmaßnahme) auf einen anderen gesperrten Bestand (bezogen auf eine andere Option der Kapitalmaßnahme) zu übertragen (CA)."
+    },
+    "IRET": {
+      "name": "Einzelrückgabeauftrag",
+      "definition": "Anweisung, Wertpapiere von einem gesperrten Bestand eines Kunden zurück auf dessen verfügbaren Bestand zu übertragen."
+    }
+  }
+}

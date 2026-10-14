@@ -1,0 +1,14 @@
+{
+  "isoType": "RedemptionAnnouncementNoticeType1Code",
+  "definition": "Gibt an, ob sich die Ankündigung des Rückzahlungsereignisses auf Urkunden bezieht, die nur bei der Verwahrstelle oder außerhalb der Verwahrstelle gehalten werden.",
+  "isoCodes": {
+    "DEPT": {
+      "name": "Verwahrstelle",
+      "definition": "Die Ereignisankündigung bezieht sich nur auf Urkunden, die bei der Verwahrstelle gehalten werden.  Wird nur für Rückzahlungsereignisse verwendet."
+    },
+    "UNVL": {
+      "name": "Universell",
+      "definition": "Die Ereignisankündigung bezieht sich auf Urkunden, die außerhalb der Verwahrstelle gehalten werden."
+    }
+  }
+}

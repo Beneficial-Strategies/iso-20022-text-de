@@ -1,0 +1,18 @@
+{
+  "isoType": "BalanceAdjustmentType1Code",
+  "definition": "Legt die Art der zulässigen Saldoanpassung fest.",
+  "isoCodes": {
+    "LDGR": {
+      "name": "Hauptbuch",
+      "definition": "Die Anpassung gilt für den durchschnittlichen Buchsaldo (Hauptbuch)."
+    },
+    "FLOT": {
+      "name": "Float",
+      "definition": "Die Anpassung gilt für den durchschnittlichen Float-Saldo (nicht verfügbar)."
+    },
+    "CLLD": {
+      "name": "Eingezogen",
+      "definition": "Die Anpassung gilt für den durchschnittlichen eingezogenen Saldo (Buchsaldo abzüglich Float)."
+    }
+  }
+}

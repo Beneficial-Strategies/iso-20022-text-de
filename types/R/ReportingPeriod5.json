@@ -1,0 +1,15 @@
+{
+  "isoType": "ReportingPeriod5",
+  "definition": "Gibt den angeforderten Berichtszeitraum an.",
+  "isoElements": {
+    "FromToDate": {
+      "definition": "Gibt einen Datumsbereich an."
+    },
+    "FromToTime": {
+      "definition": "Gibt einen Zeitbereich an."
+    },
+    "Type": {
+      "definition": "Gibt an, ob alle übereinstimmenden Positionen gemeldet werden müssen oder nur diejenigen, die seit der letzten ähnlichen Anforderung neu oder geändert sind."
+    }
+  }
+}

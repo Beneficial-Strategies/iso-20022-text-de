@@ -1,0 +1,14 @@
+{
+  "isoType": "AllegementRemovalReason1Code",
+  "definition": "Gibt den Grund für die Aufhebung einer Beanstandung (Allegement) an.",
+  "isoCodes": {
+    "CANC": {
+      "name": "Storniert",
+      "definition": "Beanstandung aufgehoben, da die Gegenpartei ihre Anweisung storniert hat."
+    },
+    "REMO": {
+      "name": "Entfernt",
+      "definition": "Beanstandung aufgehoben, da eine übereinstimmende Anweisung eingegangen ist."
+    }
+  }
+}

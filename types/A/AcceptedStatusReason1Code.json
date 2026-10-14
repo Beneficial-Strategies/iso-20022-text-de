@@ -1,0 +1,14 @@
+{
+  "isoType": "AcceptedStatusReason1Code",
+  "definition": "Legt den Grund für einen akzeptierten Status fest.",
+  "isoCodes": {
+    "PLAC": {
+      "name": "Platz nicht zulässig",
+      "definition": "Der Status der Kontoänderungsanweisung ist akzeptiert, die Änderung der Kontodaten wird jedoch für den Ort nicht durchgeführt."
+    },
+    "SECT": {
+      "name": "Sektor nicht zulässig",
+      "definition": "Der Status der Kontoänderungsanweisung ist akzeptiert, die Änderung der Kontodaten wird jedoch für den Sektorcode nicht durchgeführt."
+    }
+  }
+}

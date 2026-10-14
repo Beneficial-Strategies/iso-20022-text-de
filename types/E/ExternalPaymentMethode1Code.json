@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalPaymentMethode1Code",
+  "definition": "Gibt die Zahlungsmethode für die Überweisung des Rechnungsstellers an den Rechnungsempfänger an.|Die Liste der gültigen Codes ist eine separat veröffentlichte externe Codeliste.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden."
+}

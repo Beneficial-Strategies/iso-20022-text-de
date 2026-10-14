@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyAndSignature3",
+  "definition": "An einer Aktivität beteiligte Einheit.",
+  "isoElements": {
+    "Party": {
+      "definition": "An einer Aktivität beteiligte Einheit."
+    },
+    "Signature": {
+      "definition": "Unterschrift einer Partei."
+    }
+  }
+}

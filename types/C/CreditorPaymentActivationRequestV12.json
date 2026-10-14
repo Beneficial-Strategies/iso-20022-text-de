@@ -1,0 +1,9 @@
+{
+  "isoType": "CreditorPaymentActivationRequestV12",
+  "definition": "Die Nachricht CreditorPaymentActivationRequest wird von der sendenden Partei des Zahlungsempfängers direkt oder über Banken an die empfangende Partei des Zahlungspflichtigen gesendet. Sie wird von einem Zahlungsempfänger verwendet, um die Bewegung von Geldern vom Konto des Zahlungspflichtigen zu einem Zahlungsempfänger anzufordern.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "Der Baustein SupplementaryData auf Nachrichtenebene darf nicht verwendet werden, um zusätzliche Informationen zu einer Transaktion bereitzustellen. Hierfür ist das Element SupplementaryData auf Transaktionsebene zu verwenden."
+    }
+  }
+}

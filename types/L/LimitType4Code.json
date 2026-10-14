@@ -1,0 +1,18 @@
+{
+  "isoType": "LimitType4Code",
+  "definition": "Gibt die Art des Risikomanagement-Limits an.",
+  "isoCodes": {
+    "EXGT": {
+      "name": "Externe Garantie",
+      "definition": "Das Limit bezieht sich auf einen Höchstbetrag, der von einer nationalen Zentralbank oder einer Abwicklungsbank gewährt wird."
+    },
+    "UCDT": {
+      "name": "Ungesicherter Kredit",
+      "definition": "Das Limit bezieht sich auf einen Höchstbetrag, der von einer nationalen Zentralbank oder einer Abwicklungsbank gewährt wird, jedoch außerhalb der Marktinfrastruktur in der Regel unbesichert ist."
+    },
+    "ACOL": {
+      "name": "Auto-Besicherung",
+      "definition": "Das Limit bezieht sich auf einen Kreditvorgang, der ausgelöst wird oder werden kann, wenn ein Käufer nicht über ausreichende Mittel zur Abwicklung einer Wertpapiertransaktion verfügt, um seine Liquiditätsposition für den nächsten Abwicklungszyklus zu verbessern. Der gewährte Kredit kann durch bereits vom Käufer gehaltene Wertpapiere („Collateral Stocks“) oder durch die zu erwerbenden Wertpapiere („Collateral Flows“) besichert werden."
+    }
+  }
+}

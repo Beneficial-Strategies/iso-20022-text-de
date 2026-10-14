@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingEventReference1",
+  "definition": "Identifikation eines verknüpften Versammlungsereignisses.",
+  "isoElements": {
+    "EventIdentification": {
+      "definition": "Identifikation des verknüpften Versammlungsereignisses."
+    },
+    "LinkageType": {
+      "definition": "Gibt an, wann das Ereignis relativ zum verknüpften Ereignis zu verarbeiten ist."
+    }
+  }
+}

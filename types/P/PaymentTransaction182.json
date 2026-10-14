@@ -1,0 +1,83 @@
+{
+  "isoType": "PaymentTransaction182",
+  "definition": "Enthält weitere Einzelheiten zu Referenz und Status der ursprünglichen Transaktionen aus der ursprünglichen Anweisung, auf die sich die Rückbuchungsnachricht bezieht.",
+  "isoElements": {
+    "ReversalIdentification": {
+      "definition": "Eindeutige Identifikation, die von einer beauftragenden Partei für eine beauftragte Partei vergeben wird, um die rückgebuchte Transaktion zu identifizieren.|Verwendung: Die beauftragende Partei ist die Partei, die die Rückbuchungsnachricht sendet, und nicht die Partei, die die ursprüngliche, rückgebuchte Anweisung gesendet hat."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Enthält Angaben zur ursprünglichen Nachricht."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Eindeutige, von der ursprünglichen anweisenden Partei für die ursprüngliche angewiesene Partei vergebene Identifikation zur zweifelsfreien Identifizierung der ursprünglichen Anweisung."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Eindeutige, von der ursprünglichen initiierenden Partei vergebene Identifikation zur zweifelsfreien Identifizierung der ursprünglichen Transaktion."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Eindeutige, von der ursprünglichen ersten anweisenden Bank vergebene Identifikation zur zweifelsfreien Identifizierung der Transaktion."
+    },
+    "OriginalUETR": {
+      "definition": "Universell eindeutige Kennung zur Angabe der ursprünglichen Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "OriginalClearingSystemReference": {
+      "definition": "Eindeutige Referenz, die vom ursprünglichen Clearingsystem vergeben wird, um die ursprüngliche Anweisung zu identifizieren."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "definition": "Zwischen der beauftragenden Bank und der beauftragten Bank bewegter Geldbetrag, wie in der ursprünglichen Anweisung angegeben."
+    },
+    "ReversedInterbankSettlementAmount": {
+      "definition": "Zwischen der beauftragenden Bank und der beauftragten Bank in der rückgebuchten Anweisung zu bewegender Geldbetrag."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Datum, an dem der Geldbetrag der schuldenden Bank nicht mehr zur Verfügung steht und der Bank, der er geschuldet wird, zur Verfügung steht.||Verwendung: InterbankSettlementDate ist das Interbank-Abwicklungsdatum der Rückbuchungsnachricht und nicht das der ursprünglichen Anweisung."
+    },
+    "SettlementPriority": {
+      "definition": "Kennzeichen für die Dringlichkeit oder Rangfolge, die die beauftragende Partei von der beauftragten Partei bei der Bearbeitung der Abwicklungsanweisung angewendet haben möchte.|||Verwendung: SettlementPriority ist die Abwicklungspriorität der Rückbuchungsnachricht und nicht die der ursprünglichen Anweisung."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Enthält Informationen zur eingetretenen Abwicklungszeit der Zahlungstransaktion."
+    },
+    "ReversedInstructedAmount": {
+      "definition": "Zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegender Geldbetrag vor Abzug der Entgelte in der rückgebuchten Transaktion.|Verwendung: Dieser Betrag muss unverändert durch die Transaktionskette übermittelt werden."
+    },
+    "ExchangeRate": {
+      "definition": "Faktor zur Umrechnung eines Betrags von einer Währung in eine andere. Er gibt den Preis wieder, zu dem eine Währung mit einer anderen Währung gekauft wurde."
+    },
+    "CompensationAmount": {
+      "definition": "Geldbetrag, der als Entschädigung für die Bearbeitung der Anweisung verlangt oder gezahlt wird."
+    },
+    "ChargeBearer": {
+      "definition": "Gibt an, ob der Zahlungsempfänger und/oder der Zahlungspflichtige die mit der Bearbeitung der Zahlungstransaktion verbundenen Entgelte (ChargeBearer) trägt/tragen.||Verwendung: Die Entgelte beziehen sich auf die Rückbuchungsnachricht, nicht auf die ursprüngliche Anweisung."
+    },
+    "ChargesInformation": {
+      "definition": "Enthält Angaben zu den Entgelten, die vom Entgeltträger bzw. den Entgeltträgern im Zusammenhang mit der Bearbeitung der Rückbuchungstransaktion zu zahlen sind."
+    },
+    "InstructingAgent": {
+      "definition": "Bank, die die nächste Partei in der Kette anweist, die Anweisung(en) auszuführen.||Verwendung: Die beauftragende Bank ist die Partei, die die Rückbuchungsnachricht sendet, und nicht die Partei, die die ursprüngliche, rückgebuchte Anweisung gesendet hat."
+    },
+    "InstructedAgent": {
+      "definition": "Bank, die von der vorherigen Partei in der Kette angewiesen wird, die Anweisung(en) auszuführen.||Verwendung: Die beauftragte Bank ist die Partei, die die Rückbuchungsnachricht erhält, und nicht die Partei, die die ursprüngliche, rückgebuchte Anweisung erhalten hat."
+    },
+    "ReversalReasonInformation": {
+      "definition": "Enthält detaillierte Angaben zum Rückbuchungsgrund."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Schlüsselelemente zur Identifizierung der ursprünglichen Transaktion, auf die Bezug genommen wird."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "ReversedInstructedAmountAndExchangeRate1Rule": {
+      "definition": "Wenn ReversedInstructedAmount vorhanden ist und die Währung von der Währung in InterbankSettlementAmount abweicht, muss ExchangeRate vorhanden sein."
+    },
+    "ReversedInstructedAmountAndExchangeRate2Rule": {
+      "definition": "Wenn ReversedInstructedAmount vorhanden ist und die Währung mit der Währung in InterbankSettlementAmount übereinstimmt, ist ExchangeRate nicht zulässig."
+    },
+    "ChargesInformationAndReversedInstructedAmountRule": {
+      "definition": "Wenn ChargesInformation vorhanden ist, muss ReversedInstructedAmount vorhanden sein."
+    }
+  }
+}

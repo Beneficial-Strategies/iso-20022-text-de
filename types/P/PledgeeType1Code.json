@@ -1,0 +1,14 @@
+{
+  "isoType": "PledgeeType1Code",
+  "definition": "Gibt die Art des Pfandnehmers an.",
+  "isoCodes": {
+    "CPTY": {
+      "name": "Gegenpartei",
+      "definition": "Die Finanzinstrumente sind an eine Gegenpartei verpfändet."
+    },
+    "REGB": {
+      "name": "Aufsichtsbehörde",
+      "definition": "Die Finanzinstrumente sind an eine Aufsichtsbehörde verpfändet."
+    }
+  }
+}

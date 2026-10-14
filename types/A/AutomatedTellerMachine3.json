@@ -1,0 +1,18 @@
+{
+  "isoType": "AutomatedTellerMachine3",
+  "definition": "Informationen zum ATM.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation des Terminalgeräts des ATM für den Acquirer und den Emittenten."
+    },
+    "AdditionalIdentification": {
+      "definition": "Identifikation des Terminalgeräts des ATM für den ATM-Betreiber."
+    },
+    "SequenceNumber": {
+      "definition": "Identifikation des Terminalgeräts des ATM für die Filiale."
+    },
+    "Location": {
+      "definition": "Standort des ATM."
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "isoType": "InvestmentFundTransaction3",
+  "definition": "Schaffung/Stornierung von Anlageanteilen in den Büchern des Fonds oder seines benannten Beauftragten als Ergebnis der Ausführung eines Investmentfondsauftrags.",
+  "isoElements": {
+    "TransactionType": {
+      "definition": "Art der Investmentfondstransaktion."
+    },
+    "ExtendedTransactionType": {
+      "definition": "Art der Investmentfondstransaktion."
+    },
+    "CorporateActionEventType": {
+      "definition": "Art des Kapitalmaßnahmen-Ereignisses."
+    },
+    "ExtendedCorporateActionEventType": {
+      "definition": "Art des Kapitalmaßnahmen-Ereignisses."
+    },
+    "BookingStatus": {
+      "definition": "Status einer Investmentfondstransaktion."
+    },
+    "MasterReference": {
+      "definition": "Eindeutige und unmissverständliche Kennung einer Gruppe einzelner Aufträge, wie von der anweisenden Partei vergeben. Diese Kennung verknüpft die einzelnen Aufträge miteinander."
+    },
+    "OrderReference": {
+      "definition": "Eindeutige Kennung für einen Auftrag, wie von der Verkaufsseite vergeben. Die Kennung muss innerhalb eines einzelnen Handelstages eindeutig sein."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und unmissverständliche Identifikation eines Auftrags durch den Anleger. Diese Referenz kann typischerweise in einem Hub-Szenario verwendet werden, um die Referenz des Auftrags anzugeben, wie sie vom zugrunde liegenden Kunden vergeben wurde."
+    },
+    "DealReference": {
+      "definition": "Eindeutige und unmissverständliche Kennung für eine Auftragsausführung, wie von einer bestätigenden Partei vergeben."
+    },
+    "LegIdentification": {
+      "definition": "Eindeutige technische Kennung für eine Instanz eines Teilauftrags (Leg) innerhalb eines Switch."
+    },
+    "LegExecutionIdentification": {
+      "definition": "Eindeutige Kennung für eine Instanz einer Teilauftragsausführung (Leg) innerhalb einer Switch-Bestätigung."
+    },
+    "OrderDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen der Auftrag vom Anleger erteilt wurde."
+    },
+    "SettledTransactionIndicator": {
+      "definition": "Gibt an, ob die Barzahlung bezüglich des ausgeführten Auftrags abgewickelt ist."
+    },
+    "RegisteredTransactionIndicator": {
+      "definition": "Gibt an, ob der ausgeführte Auftrag in den Büchern des Transferagenten einen registrierten Status hat."
+    },
+    "UnitsQuantity": {
+      "definition": "Anzahl der Investmentfondsanteile."
+    },
+    "CreditDebit": {
+      "definition": "Richtung der gemeldeten Transaktion, d. h. Wertpapiere werden empfangen (gutgeschrieben) oder geliefert (belastet)."
+    },
+    "Reversal": {
+      "definition": "Die gemeldete Transaktion ist eine Rückbuchung einer zuvor gemeldeten Transaktion."
+    },
+    "SettlementAmount": {
+      "definition": "Geldbetrag, der vor Abzug von Entgelten zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, ausgedrückt in der von der initiierenden Partei beauftragten Währung."
+    },
+    "SettlementDate": {
+      "definition": "Datum, an dem der Zahlungspflichtige erwartet, dass der Geldbetrag dem Zahlungsempfänger zur Verfügung steht."
+    },
+    "TradeDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen ein Preis gemäß den im Prospekt genannten Bedingungen angewendet wird."
+    },
+    "CumDividendIndicator": {
+      "definition": "Gibt an, ob die Dividende im ausgeführten Preis enthalten ist, d. h. cum Dividende. Ist die Dividende nicht enthalten, ist der Preis ex Dividende."
+    },
+    "PartiallyExecutedIndicator": {
+      "definition": "Gibt an, ob der Auftrag teilweise ausgeführt wurde, d. h. die bestätigte Menge entspricht für ein bestimmtes Finanzinstrument nicht der beauftragten Menge."
+    },
+    "PriceDetails": {
+      "definition": "Preis, zu dem der Auftrag ausgeführt wurde."
+    }
+  },
+  "isoRules": {
+    "TransactionTypeLegIdentificationRule": {
+      "definition": "Wenn TransactionType SWII oder SWIO ist, dann ist LegIdentification optional. Wenn TransactionType weder SWII noch SWIO ist, dann ist LegIdentification nicht zulässig."
+    },
+    "TransactionTypeLegExecutionIdentificationRule": {
+      "definition": "Wenn TransactionType SWII oder SWIO ist, dann ist LegExecutionIdentification optional. Wenn TransactionType weder SWII noch SWIO ist, dann ist LegExecutionIdentification nicht zulässig."
+    },
+    "TransactionTypeOrCorporateActionEventTypeRule": {
+      "definition": "Entweder TransactionType oder ExtendedTransactionType oder CorporateActionEventType oder ExtendedCorporateActionEventType muss vorhanden sein, aber nicht mehr als eines."
+    },
+    "TransactionTypeOrCorporateActionEventTypeRuleNotBoth": {
+      "definition": "Entweder TransactionType oder ExtendedTransactionType oder CorporateActionEventType oder ExtendedCorporateActionEventType muss vorhanden sein, aber nicht mehr als eines."
+    },
+    "TransactionTypeOrCorporateActionEventTypeRuleNotBoth2": {
+      "definition": "Entweder TransactionType oder ExtendedTransactionType oder CorporateActionEventType oder ExtendedCorporateActionEventType muss vorhanden sein, aber nicht mehr als eines."
+    },
+    "TransactionTypeOrCorporateActionEventTypeRuleNotBoth3": {
+      "definition": "Entweder TransactionType oder ExtendedTransactionType oder CorporateActionEventType oder ExtendedCorporateActionEventType muss vorhanden sein, aber nicht mehr als eines."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ErrorHandling5",
+  "definition": "Gibt den Fehler an, der bei der Verarbeitung einer Anforderung aufgetreten ist.",
+  "isoElements": {
+    "Error": {
+      "definition": "Angabe des Fehlers in codierter oder proprietärer Form."
+    },
+    "Description": {
+      "definition": "Angabe des Fehlers in freiem Format."
+    }
+  }
+}

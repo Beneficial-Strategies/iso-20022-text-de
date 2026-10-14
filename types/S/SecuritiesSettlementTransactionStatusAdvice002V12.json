@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesSettlementTransactionStatusAdvice002V12",
+  "definition": "Anwendungsbereich|Ein Kontoführer sendet einen SecuritiesSettlementTransactionStatusAdvice an einen Kontoinhaber, um den Status einer zuvor vom Kontoinhaber gesendeten Anweisung zu einer Wertpapierabwicklungstransaktion oder den Status einer in den Büchern des Kontoführers für das Konto des Inhabers bestehenden Abwicklungstransaktion mitzuteilen. Der Status kann ein Verarbeitungs-, Verarbeitung-ausstehend-, interner Matching-, Matching- und/oder Abwicklungsstatus sein.|Die Statusmitteilung kann als Antwort auf einen Auftrag des Kontoinhabers oder unabhängig davon gesendet werden.|Die Beziehung zwischen Kontoführer und Kontoinhaber kann sein:|- ein Zentralverwahrer oder eine andere Abwicklungs-Marktinfrastruktur, die im Auftrag ihrer Teilnehmer handelt|- ein Agent (Unterverwahrer), der im Auftrag seines Kunden, des globalen Verwahrers, handelt, oder|- ein Verwahrer, der im Auftrag einer Vermögensverwaltungsinstitution oder eines Brokers/Händlers handelt.||Verwendung|Die Nachricht kann außerdem verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden,|- einem Dritten eine Kopie einer Nachricht zur Information bereitzustellen,|- einem Dritten eine Kopie einer Nachricht zur Information unter Verwendung der entsprechenden Elemente im Business Application Header erneut zu senden.",
+  "isoRules": {
+    "ProcessingStatusPresenceRule": {
+      "definition": "Sind InferredMatchingStatus, MatchingStatus und SettlementStatus nicht vorhanden, muss ProcessingStatus vorhanden sein."
+    },
+    "MatchingStatusPresenceRule": {
+      "definition": "Sind ProcessingStatus, InferredMatchingStatus und SettlementStatus nicht vorhanden, muss MatchingStatus vorhanden sein."
+    },
+    "SettlementStatusPresenceRule": {
+      "definition": "Sind ProcessingStatus, InferredMatchingStatus und MatchingStatus nicht vorhanden, muss SettlementStatus vorhanden sein."
+    },
+    "InferredMatchingStatusStatusPresenceRule": {
+      "definition": "Sind ProcessingStatus, MatchingStatus und SettlementStatus nicht vorhanden, muss InferredMatchingStatus vorhanden sein."
+    },
+    "SettlementStatusAndMatchedRule": {
+      "definition": "Wenn Abwicklungsstatus/-grund allein verwendet wird, bedeutet dies, dass die Transaktion abgeglichen ist (sofern am betreffenden Markt oder beim betreffenden Kontoführer ein Abgleichsprozess besteht)."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Die Securities Market Practice Group (SMPG) hat Marktpraxisempfehlungen zur Verwendung dieser Nachricht veröffentlicht.|Diese Marktpraxisregeln sind unter www.smpg.info verfügbar."
+    }
+  }
+}

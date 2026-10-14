@@ -1,0 +1,15 @@
+{
+  "isoType": "NetCashForecast3",
+  "definition": "Netto-Geldbewegung zu einem Fonds als Ergebnis von Investmentfondstransaktionen.",
+  "isoElements": {
+    "NetAmount": {
+      "definition": "Nettobetrag des Zahlungsstroms, ausgedrückt als Geldbetrag."
+    },
+    "NetUnitsNumber": {
+      "definition": "Nettobetrag, ausgedrückt als Anzahl von Anteilen."
+    },
+    "FlowDirection": {
+      "definition": "Gibt die Richtung des Zahlungsstroms aus Sicht des Fonds an."
+    }
+  }
+}

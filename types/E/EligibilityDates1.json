@@ -1,0 +1,9 @@
+{
+  "isoType": "EligibilityDates1",
+  "definition": "Daten, die den Anspruch bestimmen.",
+  "isoElements": {
+    "EntitlementFixingDate": {
+      "definition": "Datum, an dem die Positionen festgestellt werden, um zu erfassen, welche Parteien den Anspruch erhalten, z. B. Stichtag, Buchschlussdatum."
+    }
+  }
+}

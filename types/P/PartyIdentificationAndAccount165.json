@@ -1,0 +1,21 @@
+{
+  "isoType": "PartyIdentificationAndAccount165",
+  "definition": "Angaben zu Partei und Konto.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Partei."
+    },
+    "LEI": {
+      "definition": "Legal Entity Identifier als alternative Identifikation einer Partei."
+    },
+    "AlternateIdentification": {
+      "definition": "Alternative Identifikation einer Partei."
+    },
+    "ProcessingIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion für die identifizierte Partei."
+    },
+    "AdditionalInformation": {
+      "definition": "Gibt zusätzliche Informationen zur Partei an."
+    }
+  }
+}

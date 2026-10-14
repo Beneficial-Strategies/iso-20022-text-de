@@ -1,0 +1,4 @@
+{
+  "isoType": "IntraBalanceMovementQueryV02",
+  "definition": "Die Nachricht IntraBalanceMovementQuery wird von einem Kontoinhaber/Auftraggeber an eine Abwicklungsinfrastruktur gesendet, um anhand einer Reihe von Suchkriterien Anweisungen für Bewegungen innerhalb des Saldos zusammen mit ihrem aktuellen Status abzufragen.|Die Nachricht kann auch verwendet werden, um: |- eine vom Kontoinhaber an die kontoführende Stelle gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist \"Duplicate\") |- einem Dritten eine Kopie einer vom Kontoinhaber gesendeten Nachricht zur Information zu übermitteln (die Unterfunktion der Nachricht ist \"Copy\") |- einem Dritten erneut eine Kopie einer vom Kontoinhaber gesendeten Nachricht zur Information zu übermitteln (die Unterfunktion der Nachricht ist \"Copy Duplicate\")."
+}

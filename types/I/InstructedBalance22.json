@@ -1,0 +1,27 @@
+{
+  "isoType": "InstructedBalance22",
+  "definition": "Liefert Informationen zum gesamten angewiesenen Bestand.",
+  "isoElements": {
+    "TotalInstructedBalance": {
+      "definition": "Liefert Informationen zum gesamten angewiesenen Bestand."
+    },
+    "TotalAcceptedInstructionBalance": {
+      "definition": "Tagessumme aller akzeptierten Anweisungen für den jeweiligen Tag.  Deckungs-Protect-Anweisungen sind in diesem Gesamtbestand enthalten."
+    },
+    "TotalCancelledInstructionBalance": {
+      "definition": "Tagessumme der stornierten Anweisungen für einen bestimmten Tag."
+    },
+    "TotalPendingInstructionBalance": {
+      "definition": "Tagessumme der ausstehenden Anweisungen im Status „ausstehend“.  Sie umfasst ausstehende Stornierungsanweisungen."
+    },
+    "TotalRejectedInstructionBalance": {
+      "definition": "Tagessumme der abgelehnten Anweisungen."
+    },
+    "TotalProtectInstructionBalance": {
+      "definition": "Tagessumme aller an einem bestimmten Tag gesendeten Protect-Anweisungen."
+    },
+    "OptionDetails": {
+      "definition": "Liefert eine Aufschlüsselung des angewiesenen Bestands je Option."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationCompleteReason1Choice",
+  "definition": "Auswahl der Formate für den Grund des Status „Stornierung abgeschlossen“.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund des Status „Stornierung abgeschlossen“, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Grund des Status „Stornierung abgeschlossen“, ausgedrückt als proprietärer Code."
+    }
+  }
+}

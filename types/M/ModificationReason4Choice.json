@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationReason4Choice",
+  "definition": "Auswahl des Formats für den Änderungsgrund.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, weshalb die zugehörige Anweisung geändert wird oder der zugehörige Änderungsantrag ausgeführt wird."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Grund an, weshalb die zugehörige Anweisung geändert wird oder der zugehörige Änderungsantrag ausgeführt wird."
+    }
+  }
+}

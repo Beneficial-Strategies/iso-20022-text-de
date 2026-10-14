@@ -1,0 +1,47 @@
+{
+  "isoType": "OriginalPaymentInstruction54",
+  "definition": "Enthält Angaben zu Referenz und Status der ursprünglichen Transaktionen der ursprünglichen Anweisung, auf die sich die Stornierungsnachricht bezieht.",
+  "isoElements": {
+    "OriginalPaymentInformationCancellationIdentification": {
+      "definition": "Eindeutige Identifikation, vom ursprünglichen Zuweisenden vergeben, zur zweifelsfreien Identifikation des ursprünglichen Stornierungsauftrags für Zahlungsinformationen."
+    },
+    "ResolvedCase": {
+      "definition": "Identifiziert den gelösten Fall."
+    },
+    "OriginalPaymentInformationIdentification": {
+      "definition": "Eindeutige Identifikation, von der ursprünglich sendenden Partei vergeben, zur zweifelsfreien Identifikation der ursprünglichen Zahlungsinformationsgruppe."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Enthält Angaben zur ursprünglichen Nachricht."
+    },
+    "OriginalNumberOfTransactions": {
+      "definition": "Anzahl der in der ursprünglichen Zahlungsinformationsgruppe enthaltenen Einzeltransaktionen."
+    },
+    "OriginalControlSum": {
+      "definition": "Summe aller in der ursprünglichen Zahlungsinformationsgruppe enthaltenen Einzelbeträge, unabhängig von der Währung."
+    },
+    "PaymentInformationCancellationStatus": {
+      "definition": "Gibt den Status eines Stornierungsauftrags zu einer Zahlungsinformationsgruppe an."
+    },
+    "CancellationStatusReasonInformation": {
+      "definition": "Enthält detaillierte Angaben zum Grund des Stornierungsstatus."
+    },
+    "NumberOfTransactionsPerCancellationStatus": {
+      "definition": "Detaillierte Angaben zur Anzahl der Transaktionen je identischem Stornierungsstatus."
+    },
+    "TransactionInformationAndStatus": {
+      "definition": "Enthält Angaben zu den ursprünglichen Transaktionen, auf die sich die Stornierungsnachricht bezieht."
+    }
+  },
+  "isoRules": {
+    "CancellationStatusReasonInformationRule": {
+      "definition": "Ist PaymentInformationCancellationStatus vorhanden und von RJCR (RejectedCancellationRequest) oder PNCR (PendingCancellationRequest) verschieden, so ist CancellationStatusReasonInformation/AdditionalInformation nicht zulässig."
+    },
+    "NumberOfTransactionsPerCancellationStatusGuideline": {
+      "definition": "OriginalGroupInformationAndStatus/NumberOfTransactionsPerStatus darf nur vorhanden sein, wenn GroupCancellationStatus gleich PACR (PartialCancellationRequest) ist."
+    },
+    "PaymentInformationOrTransactionResolvedCaseRule": {
+      "definition": "ResolvedCase kann auf der Ebene ResolvedCase, OriginalGroupInformationAndStatus, OriginalPaymentInformationAndStatus oder TransactionInformationAndStatus vorhanden sein."
+    }
+  }
+}

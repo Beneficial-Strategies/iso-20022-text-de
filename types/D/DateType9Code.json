@@ -1,0 +1,38 @@
+{
+  "isoType": "DateType9Code",
+  "definition": "Das Datum wird als fester Codewert angegeben.",
+  "isoCodes": {
+    "PWAL": {
+      "name": "Sperrung bis zum Ende der Wahlperiode",
+      "definition": "Die Sperre gilt bis einschließlich zum Ende der Wahlfrist der Option."
+    },
+    "MKDT": {
+      "name": "Sperrung bis zur Marktfrist",
+      "definition": "Die Sperre gilt bis einschließlich zur Marktfrist der Option."
+    },
+    "MEET": {
+      "name": "Sperrung bis zum Versammlungsdatum",
+      "definition": "Die Sperrung gilt bis einschließlich zum Versammlungsdatum."
+    },
+    "PAYD": {
+      "name": "Sperrung bis zum Zahlungsdatum",
+      "definition": "Die Entsperrung erfolgt am Zahlungstag der Option."
+    },
+    "RDTE": {
+      "name": "Sperrung bis zum Stichtag",
+      "definition": "Die Sperrung gilt bis einschließlich zum Stichtag des Ereignisses."
+    },
+    "RDDT": {
+      "name": "Sperrung bis zur Antwortfrist",
+      "definition": "Die Sperre gilt bis einschließlich zur Frist des kontoführenden Instituts für die Option."
+    },
+    "NARR": {
+      "name": "Freitext zum Entsperrungsdatum",
+      "definition": "Das Datum, bis zu dem die Wertpapiere gesperrt sind, ist dem zusätzlichen Informationselement zu entnehmen."
+    },
+    "UKWN": {
+      "name": "Unbekannt",
+      "definition": "Das Datum ist dem Sender nicht bekannt oder wurde noch nicht festgelegt."
+    }
+  }
+}

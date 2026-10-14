@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason15FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe des Grundes für die Ablehnung einer Informationsmitteilung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Grundes für die Ablehnung einer Informationsmitteilung."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe des Grundes für die Ablehnung einer Informationsmitteilung."
+    }
+  }
+}

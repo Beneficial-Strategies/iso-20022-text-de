@@ -1,0 +1,12 @@
+{
+  "isoType": "CancelledStatus6",
+  "definition": "Auswahl zwischen einem Grund oder keinem Grund für den Status „storniert“/„Stornierung abgeschlossen“ der Kapitalmaßnahmen-Anweisung oder Anweisungsstornierung.",
+  "isoElements": {
+    "CancelledQuantity": {
+      "definition": "Menge der angewiesenen Wertpapiere, für die die Anweisung storniert wird."
+    },
+    "CancellationReason": {
+      "definition": "Grund für den Status \"storniert\"."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesModificationQueryCriteria1",
+  "definition": "Legt die Kriterien fest, anhand derer Informationen einbezogen werden.",
+  "isoElements": {
+    "ModificationRequestIdentification": {
+      "definition": "Sammelreferenz zur Identifikation einer Gruppe von Nachrichten."
+    },
+    "InstructionQueryType": {
+      "definition": "Typ der zugrunde liegenden Transaktion, die geändert werden soll, z. B. eine Abwicklungsanweisung oder eine Positionsumbuchung (Intra-Position)."
+    },
+    "ProcessingStatus": {
+      "definition": "Gibt den Status der Abwicklung einer Transaktion an."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "AccountOwner": {
+      "definition": "Partei, der das Konto gehört."
+    },
+    "MessageOriginator": {
+      "definition": "Partei, von der die Nachricht ausgeht, sofern nicht mit dem Absender identisch."
+    },
+    "CreationDateTime": {
+      "definition": "Gibt das Erstellungsdatum und die Erstellungszeit der Positionsumbuchung (Intra-Position) an."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Period7Choice",
+  "definition": "Auswahl zwischen Datum und Datum mit Uhrzeit zur Angabe eines Zeitraums.",
+  "isoElements": {
+    "FromDateTimeToDateTime": {
+      "definition": "Zeitspanne, die durch Startdatum und -zeit sowie Enddatum und -zeit festgelegt ist."
+    },
+    "FromDateToDate": {
+      "definition": "Zeitspanne, die durch Startdatum und -zeit sowie Enddatum und -zeit festgelegt ist."
+    }
+  }
+}

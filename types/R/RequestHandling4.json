@@ -1,0 +1,20 @@
+{
+  "isoType": "RequestHandling4",
+  "definition": "Erläutert den Status des zugehörigen Auftrags.",
+  "isoElements": {
+    "Status": {
+      "definition": "Gibt den Status des Auftrags an, zum Beispiel das Ergebnis der Schemaprüfung oder ein Ergebnis bzw. einen Fehler der fachlichen Verarbeitung."
+    },
+    "StatusReason": {
+      "definition": "Liefert detaillierte Informationen zum Statusgrund."
+    },
+    "Description": {
+      "definition": "Beschreibung des Status in Freitext."
+    }
+  },
+  "isoRules": {
+    "DescriptionRule": {
+      "definition": "Ist Description vorhanden, ist Status/Code nicht zulässig."
+    }
+  }
+}

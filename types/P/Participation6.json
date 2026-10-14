@@ -1,0 +1,18 @@
+{
+  "isoType": "Participation6",
+  "definition": "Informationen zum Grad der Beteiligung an einer Aktionärsversammlung bereitstellen.",
+  "isoElements": {
+    "TotalNumberOfVotingRights": {
+      "definition": "Anzahl der zur Abstimmung zugelassenen Rechte."
+    },
+    "PercentageOfVotingRights": {
+      "definition": "Prozentsatz der an der Abstimmung beteiligten Rechte im Verhältnis zu den gesamten Stimmrechten."
+    },
+    "TotalNumberOfSecuritiesOutstanding": {
+      "definition": "Anzahl der zur Abstimmung zugelassenen Wertpapiere, ausgedrückt als Stückzahl oder Nennbetrag."
+    },
+    "CalculationDate": {
+      "definition": "Datum der Berechnung der Gesamtzahl der ausstehenden Wertpapiere."
+    }
+  }
+}

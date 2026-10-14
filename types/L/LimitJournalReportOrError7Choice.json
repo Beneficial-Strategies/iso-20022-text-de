@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitJournalReportOrError7Choice",
+  "definition": "Legt den Limitbericht entweder als betrieblichen Fehler oder als Geschäftsbericht fest.",
+  "isoElements": {
+    "BusinessReport": {
+      "definition": "Gibt den Geschäftsbericht entweder als Journal der Limitauslastung oder als Geschäftsfehler an."
+    },
+    "OperationalError": {
+      "definition": "Gibt den betrieblichen Fehler an, der sich aus der Verarbeitung einer Anfrage ergeben hat."
+    }
+  }
+}

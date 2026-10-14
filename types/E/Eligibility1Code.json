@@ -1,0 +1,18 @@
+{
+  "isoType": "Eligibility1Code",
+  "definition": "Bestimmt die Art des Anlegers. Die für die einzelnen Kundenarten geltenden Regeln unterscheiden sich.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Zulässige Gegenpartei",
+      "definition": "Geeignete Gegenparteien sind die erfahrenste Anlegerkategorie und können auf einen Teil des durch die Wohlverhaltensregeln gewährten Schutzes verzichten."
+    },
+    "RETL": {
+      "name": "Privatkunde",
+      "definition": "Privatkunden sind die am wenigsten erfahrene Anlegerkategorie."
+    },
+    "PROF": {
+      "name": "Professioneller Kunde",
+      "definition": "Professionelle Kunden sind beispielsweise Wertpapierfirmen, Kreditinstitute und Versicherungsunternehmen."
+    }
+  }
+}

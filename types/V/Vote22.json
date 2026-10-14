@@ -1,0 +1,57 @@
+{
+  "isoType": "Vote22",
+  "definition": "Für einen Beschluss abgegebene Stimme.",
+  "isoElements": {
+    "IssuerLabel": {
+      "definition": "Nummer des Beschlusses, wie vom Emittenten oder seinem Vertreter angegeben."
+    },
+    "Description": {
+      "definition": "Sprache, Titel und Textbeschreibung eines Tagesordnungsbeschlusses."
+    },
+    "SubStatus": {
+      "definition": "Gibt an, ob der Beschluss ein neuer oder ein geänderter Beschluss ist."
+    },
+    "For": {
+      "definition": "Anzahl der Wertpapiere, für die die Stimmabgabe dafür angewiesen wird."
+    },
+    "Against": {
+      "definition": "Anzahl der Wertpapiere, für die die Stimmabgabe dagegen angewiesen wird."
+    },
+    "Abstain": {
+      "definition": "Anzahl der Wertpapiere, für die die Stimmenthaltung angewiesen wird."
+    },
+    "Withhold": {
+      "definition": "Anzahl der Wertpapiere, für die die Stimmverweigerung angewiesen wird."
+    },
+    "WithManagement": {
+      "definition": "Anzahl der Wertpapiere, für die die Stimmabgabe im Einklang mit den Stimmen der Geschäftsleitung angewiesen wird."
+    },
+    "AgainstManagement": {
+      "definition": "Anzahl der Wertpapiere, für die die Stimmabgabe entgegen der Abstimmungsempfehlung der Geschäftsleitung angewiesen wird."
+    },
+    "Discretionary": {
+      "definition": "Anzahl der Wertpapiere, für die die Entscheidung der Partei überlassen wird, die das Stimmrecht ausüben wird."
+    },
+    "OneYear": {
+      "definition": "Anzahl der Wertpapiere, für die eine Ja-Stimme für ein Jahr bei einem Beschluss vom Typ „Say on Pay“ angewiesen wird."
+    },
+    "TwoYears": {
+      "definition": "Anzahl der Wertpapiere, für die eine Ja-Stimme für zwei Jahre bei einem Beschluss vom Typ „Say on Pay“ angewiesen wird."
+    },
+    "ThreeYears": {
+      "definition": "Anzahl der Wertpapiere, für die eine Ja-Stimme für drei Jahre bei einem Beschluss vom Typ „Say on Pay“ angewiesen wird."
+    },
+    "NoAction": {
+      "definition": "Anzahl der Stimmen, für die keine Maßnahme ergriffen wurde."
+    },
+    "Blank": {
+      "definition": "Die Stimme wird leer abgegeben, zählt aber als abgegebene Stimme."
+    },
+    "Proprietary": {
+      "definition": "Andere Stimmart, ausgedrückt als proprietärer Code."
+    },
+    "Withdrawn": {
+      "definition": "Gibt an, dass der Beschluss auf der Versammlung zurückgezogen wurde."
+    }
+  }
+}

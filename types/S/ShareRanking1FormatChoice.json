@@ -1,0 +1,12 @@
+{
+  "isoType": "ShareRanking1FormatChoice",
+  "definition": "Auswahl der Formate zur Angabe der Rangfolge der Aktien.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Rangfolge der Aktien."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe der Rangfolge der Aktien."
+    }
+  }
+}

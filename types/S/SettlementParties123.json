@@ -1,0 +1,23 @@
+{
+  "isoType": "SettlementParties123",
+  "definition": "Gibt die Abwicklungsparteien an (liefernd/empfangend).",
+  "isoElements": {
+    "Depository": {
+      "definition": "Erste empfangende Partei in der Abwicklungskette. Bei einer einfachen Standardabwicklung ist dies die Zentralverwahrer-Stelle, bei der die empfangende Seite der Transaktion die Lieferung des Finanzinstruments beantragt."
+    },
+    "Party1": {
+      "definition": "Partei, die mit der Verwahrstelle interagiert."
+    },
+    "Party2": {
+      "definition": "Partei, die mit der party1 interagiert."
+    },
+    "Party3": {
+      "definition": "Partei, die mit der party2 interagiert."
+    }
+  },
+  "isoRules": {
+    "Party3PresenceRule": {
+      "definition": "Wenn Party 3 vorhanden ist, dann muss Party 2 vorhanden sein."
+    }
+  }
+}

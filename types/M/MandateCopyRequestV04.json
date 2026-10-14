@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateCopyRequestV04",
+  "definition": "Umfang|Die Nachricht MandateCopyRequest wird vom Initiator der Anforderung an seine Bank gesendet. Der Initiator kann entweder der Zahlungspflichtige oder der Zahlungsempfänger sein.|Die Nachricht MandateCopyRequest wird von der Bank des Initiators an die Bank der Gegenpartei weitergeleitet.|Eine Nachricht MandateCopyRequest dient dazu, eine Kopie eines bestehenden Mandats anzufordern. Bei Annahme kann die Mandatskopie mit der Nachricht MandateAcceptanceReport gesendet werden.|Verwendung|Die Nachricht MandateCopyRequest kann eine oder mehrere Kopieanforderungen enthalten.|Die Nachrichten können zwischen Zahlungsempfänger und Bank des Zahlungsempfängers, zwischen Zahlungspflichtigem und Bank des Zahlungspflichtigen sowie zwischen der Bank des Zahlungsempfängers und der Bank des Zahlungspflichtigen ausgetauscht werden.|Die Nachricht kann auch von einer initiierenden Partei verwendet werden, die befugt ist, die Nachricht im Auftrag des Zahlungsempfängers oder des Zahlungspflichtigen zu senden.|Die Nachricht MandateCopyRequest kann in nationalen und grenzüberschreitenden Szenarien verwendet werden.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "Der Baustein SupplementaryData auf Nachrichtenebene darf nicht verwendet werden, um zusätzliche Informationen zu einer Transaktion bereitzustellen. Hierfür ist das Element SupplementaryData auf Transaktionsebene zu verwenden."
+    }
+  }
+}

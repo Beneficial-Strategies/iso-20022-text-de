@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyListType1Choice",
+  "definition": "Auswahl des Formats für die Art der Liste der Strafzahlungen.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt die gemeldete Liste der Strafzahlungen in codiertem Format an."
+    },
+    "Proprietary": {
+      "definition": "Gibt die gemeldete Liste der Strafzahlungen in proprietärem Format an."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "Linkages66",
+  "definition": "Informationen zu einer verknüpften Transaktion.",
+  "isoElements": {
+    "ProcessingPosition": {
+      "definition": "Gibt an, wann die Transaktion relativ zu einer verknüpften Transaktion auszuführen ist."
+    },
+    "MessageNumber": {
+      "definition": "Nachrichtentypnummer bzw. Nachrichtenbezeichner der in der Verknüpfungsfolge referenzierten Nachricht."
+    },
+    "Reference": {
+      "definition": "Referenz auf die verknüpfte Transaktion."
+    },
+    "ReferenceOwner": {
+      "definition": "Partei, die die Referenz erzeugt."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "PenaltyPerCounterparty4",
+  "definition": "Gibt die Strafzahlungen für eine bestimmte Partei an.",
+  "isoElements": {
+    "AccountServicer": {
+      "definition": "Partei, die das Unterebenenkonto im Auftrag des Kontoinhabers verwaltet, das heißt die Registrierung und Buchung von Einträgen auf dem Konto verwaltet, Salden auf dem Konto berechnet und Informationen zum Konto bereitstellt."
+    },
+    "PartyIdentification": {
+      "definition": "Eindeutige Identifikation der Partei innerhalb des Systems."
+    },
+    "AggregatedNetAmount": {
+      "definition": "Bilateraler Nettobetrag pro Partei und Gegenpartei."
+    },
+    "PenaltyDetails": {
+      "definition": "Weitere Einzelheiten zur Strafzahlung."
+    }
+  }
+}

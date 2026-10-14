@@ -1,0 +1,12 @@
+{
+  "isoType": "LevelOfControl1Choice",
+  "definition": "Auswahl von Formaten für die Kontrollstufe.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Kontrollstufe."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Kontrollstufe."
+    }
+  }
+}

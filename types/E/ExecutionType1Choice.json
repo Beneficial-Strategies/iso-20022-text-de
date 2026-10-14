@@ -1,0 +1,12 @@
+{
+  "isoType": "ExecutionType1Choice",
+  "definition": "Definiert die Art der in der Anfrage durchzuführenden Ausführung.",
+  "isoElements": {
+    "Time": {
+      "definition": "Die Ausführung erfolgt aufgrund eines zeitlichen Auslösers."
+    },
+    "Event": {
+      "definition": "Die Ausführung erfolgt aufgrund eines ereignisgesteuerten Auslösers."
+    }
+  }
+}

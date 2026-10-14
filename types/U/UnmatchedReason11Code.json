@@ -1,0 +1,166 @@
+{
+  "isoType": "UnmatchedReason11Code",
+  "definition": "Legt den Grund fest, aus dem die Transaktion, Übertragung oder Abwicklungsanweisung nicht abgeglichen ist.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Nach Ablauf der Frist des kontoführenden Instituts eingegangen. Wird nach bestem Bemühen verarbeitet."
+    },
+    "ACRU": {
+      "name": "Betrag der aufgelaufenen Zinsen 1",
+      "definition": "Der aufgelaufene Zinsbetrag stimmt nicht überein."
+    },
+    "IIND": {
+      "name": "Gemeinsame Referenz",
+      "definition": "Die gemeinsame Referenz stimmt nicht überein."
+    },
+    "CPCA": {
+      "name": "Von der Gegenpartei storniert",
+      "definition": "Die Gegenpartei hat ihre Anweisung storniert."
+    },
+    "CLAT": {
+      "name": "Gegenpartei zu spät für den Abgleich",
+      "definition": "Die Anweisung der Gegenpartei kam zu spät für den Abgleich."
+    },
+    "NCRR": {
+      "name": "Abwicklungsbetrag in Währung",
+      "definition": "Die Währung des Abwicklungsbetrags stimmt nicht überein."
+    },
+    "DDEA": {
+      "name": "Geschäftspreis",
+      "definition": "Der Geschäftspreis stimmt nicht überein."
+    },
+    "DMCT": {
+      "name": "Automatische Erzeugung",
+      "definition": "Uneinigkeit über die automatische Erzeugung eines Marktanspruchs (Market Claim) oder einer Transformation."
+    },
+    "DCMX": {
+      "name": "Cum/Ex",
+      "definition": "Uneinigkeit darüber, ob das Geschäft cum oder ex ausgeführt wurde."
+    },
+    "DSEC": {
+      "name": "Finanzinstrument",
+      "definition": "Die Identifikation des Finanzinstruments stimmt nicht überein, beispielsweise unterscheiden sich ISIN oder Attribute des Finanzinstruments."
+    },
+    "DQUA": {
+      "name": "Menge des Finanzinstruments",
+      "definition": "Die Menge der Finanzinstrumente stimmt nicht überein."
+    },
+    "INVE": {
+      "name": "Anlegerpartei",
+      "definition": "Die Anlegerpartei stimmt nicht überein."
+    },
+    "LEOG": {
+      "name": "Garantieschreiben",
+      "definition": "Die Gegenpartei wickelt per Garantiebrief ab, Ihre Anweisung nicht, oder umgekehrt."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Ihre Anweisung kam zu spät für den Abgleich."
+    },
+    "MIME": {
+      "name": "Fehlende Marktseite",
+      "definition": "Details zur Marktausführung fehlen."
+    },
+    "CMIS": {
+      "name": "Keine Übereinstimmung",
+      "definition": "Eine übereinstimmende Anweisung Ihrer Gegenpartei konnte nicht gefunden werden."
+    },
+    "NMAS": {
+      "name": "Kein Abgleich gestartet",
+      "definition": "Der Abgleichprozess hat noch nicht begonnen."
+    },
+    "DTRA": {
+      "name": "Nicht erkannt",
+      "definition": "Die Gegenpartei wurde kontaktiert oder hat uns kontaktiert und erkennt die Transaktion nicht an."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Proprietärer Code für den Grund des fehlenden Abgleichs, der in einem Freitextfeld beschrieben wird."
+    },
+    "FRAP": {
+      "name": "Zahlungscode",
+      "definition": "Die Zahlungsart stimmt nicht überein: Ihre Anweisung ist frei von Zahlung, die Anweisung Ihrer Gegenpartei ist gegen Zahlung, oder umgekehrt."
+    },
+    "PHYS": {
+      "name": "Physische Abwicklung",
+      "definition": "Die Anweisung der Gegenpartei sieht physische Abwicklung vor, Ihre nicht, oder umgekehrt."
+    },
+    "PLIS": {
+      "name": "Notierungsort",
+      "definition": "Der Notierungsort stimmt nicht überein."
+    },
+    "INPS": {
+      "name": "Verwahrort",
+      "definition": "Die Angaben zum Verwahrort lassen keinen Abgleich zu."
+    },
+    "PLCE": {
+      "name": "Handelsplatz",
+      "definition": "Der Handelsplatz stimmt nicht überein."
+    },
+    "PODU": {
+      "name": "Mögliches Duplikat",
+      "definition": "Die Anweisung wurde nicht abgeglichen. Es handelt sich möglicherweise um eine doppelte Anweisung."
+    },
+    "DEPT": {
+      "name": "Empfangende/liefernde Verwahrstelle",
+      "definition": "Die Verwahrstelle stimmt nicht überein."
+    },
+    "ICAG": {
+      "name": "Empfangende/liefernde Partei 1",
+      "definition": "Der Teilnehmer der liefernden oder empfangenden Verwahrstelle stimmt nicht überein."
+    },
+    "ICUS": {
+      "name": "Empfangende/liefernde Partei 2",
+      "definition": "Der Kunde der liefernden oder empfangenden Partei 1 stimmt nicht überein."
+    },
+    "IEXE": {
+      "name": "Empfangende/liefernde Partei 3",
+      "definition": "Der Kunde der liefernden oder empfangenden Partei 2 stimmt nicht überein."
+    },
+    "REGD": {
+      "name": "Registrierungsangaben",
+      "definition": "Die mit der Transaktion verknüpften Registrierungsdetails sind falsch."
+    },
+    "RTGS": {
+      "name": "RTGS-System",
+      "definition": "Die Gegenpartei wickelt über ein Real-Time-Gross-Settlement-System (RTGS) ab, Sie über ein Nicht-RTGS-System, oder umgekehrt."
+    },
+    "SAFE": {
+      "name": "Verwahrkonto",
+      "definition": "Das auf dem betreffenden Markt als Abgleichskriterium verwendete Verwahrkonto stimmt nicht überein. Dazu gehören das Konto des Käufers/Verkäufers, das Konto des direkten Kunden bei der empfangenden/liefernden Bank oder das Konto der empfangenden/liefernden Bank beim Zentralverwahrer (CSD)."
+    },
+    "DMON": {
+      "name": "Abwicklungsbetrag",
+      "definition": "Der Abwicklungsbetrag stimmt nicht überein."
+    },
+    "DDAT": {
+      "name": "Abwicklungsdatum",
+      "definition": "Abwicklungsdatum/-zeit stimmen nicht überein."
+    },
+    "SETS": {
+      "name": "Methode des Abwicklungssystems",
+      "definition": "Abwicklungssystem/-methode stimmen nicht überein (beispielsweise lautet die Anweisung auf Abwicklung über Abwicklungssystem/-methode A, die Gegenpartei erwartet die Abwicklung jedoch über Abwicklungssystem/-methode B)."
+    },
+    "SETR": {
+      "name": "Abwicklungstransaktion",
+      "definition": "Die Art der Abwicklungstransaktion stimmt nicht überein (bezieht sich auf die für das Feld 22F:: SETR verfügbaren Codes für die Art der Abwicklungstransaktion)."
+    },
+    "TXST": {
+      "name": "Steuerstatus",
+      "definition": "Uneinigkeit über den steuerlichen Status der abzuwickelnden Finanzinstrumente."
+    },
+    "DTRD": {
+      "name": "Handelstag",
+      "definition": "Der Handelstag stimmt nicht überein."
+    },
+    "DELN": {
+      "name": "Transaktionsrichtung",
+      "definition": "Die Richtung des Geschäfts stimmt nicht überein. Die Gegenpartei erwartet von Ihnen eine Lieferung, keinen Empfang, oder umgekehrt."
+    },
+    "UNBR": {
+      "name": "Nicht abgeglichene Marktseite",
+      "definition": "Das Geschäft der Marktseite ist nicht abgeglichen."
+    }
+  }
+}

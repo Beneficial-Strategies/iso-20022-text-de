@@ -1,0 +1,14 @@
+{
+  "isoType": "CancellationRejectedReason1Code",
+  "definition": "Gibt den Grund für den Status „Stornierung abgelehnt“ an.",
+  "isoCodes": {
+    "CUTO": {
+      "name": "Annahmeschlusszeit",
+      "definition": "Die Anweisung wurde nach dem Annahmeschluss empfangen."
+    },
+    "COSE": {
+      "name": "Bereits ausgeführt",
+      "definition": "Der Auftrag oder die Übertragung wurde bereits ausgeführt und die Bestätigung wurde gesendet."
+    }
+  }
+}

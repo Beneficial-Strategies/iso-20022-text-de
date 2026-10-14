@@ -1,0 +1,26 @@
+{
+  "isoType": "AccountHoldingInformationRequestV09",
+  "definition": "Anwendungsbereich|Die Nachricht AccountHoldingInformationRequest wird von einer anweisenden Partei, zum Beispiel einem (neuen) Planverwalter (Übertragungsempfänger), im Namen der initiierenden Partei, zum Beispiel eines Anlegers (Kunde), an die ausführende Partei, zum Beispiel einen (alten) Planverwalter (Übertragender), gesendet, um Informationen über die im Auftrag des Kunden gehaltenen Finanzinstrumente anzufordern.|Verwendung|Die Nachricht AccountHoldingInformationRequest wird verwendet, um Informationen über die im Auftrag des Kunden gehaltenen Vermögenswerte anzufordern, für die er zu einem späteren Zeitpunkt eine Portfolioübertragung anweisen will.",
+  "isoElements": {
+    "BusinessFlowDirectionType": {
+      "definition": "Richtung des Geschäftsablaufs (zu liefernde oder zu empfangende Vermögenswerte)."
+    }
+  },
+  "isoRules": {
+    "NomineeAccountServicerRule": {
+      "definition": "NomineeAccount/Servicer muss genau dann vorhanden sein, wenn es sich von TransferorAccount/Servicer unterscheidet."
+    },
+    "Investor1Rule": {
+      "definition": "Wenn PrimaryIndividualInvestor nicht vorhanden ist, dann ist SecondaryIndividualInvestor nicht zulässig.|Wenn PrimaryIndividualInvestor vorhanden ist, dann kann SecondaryIndividualInvestor vorhanden sein."
+    },
+    "Investor2Rule": {
+      "definition": "Wenn PrimaryIndividualInvestor nicht vorhanden ist, dann ist OtherIndividualInvestor nicht zulässig. |Wenn PrimaryIndividualInvestor vorhanden ist, dann kann OtherIndividualInvestor vorhanden sein."
+    },
+    "Corporate2Rule": {
+      "definition": "Wenn PrimaryCorporateInvestor nicht vorhanden ist, dann ist OtherCorporateInvestor nicht zulässig.|Wenn PrimaryCorporateInvestor vorhanden ist, dann kann OtherCorporateInvestor vorhanden sein."
+    },
+    "Corporate1Rule": {
+      "definition": "Wenn PrimaryCorporateInvestor nicht vorhanden ist, dann ist SecondaryCorporateInvestor nicht zulässig.|Wenn PrimaryCorporateInvestor vorhanden ist, dann kann SecondaryCorporateInvestor vorhanden sein."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "MoneyLaunderingCheck1Choice",
+  "definition": "Auswahl von Formaten für die Angabe der Geldwäscheprüfung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückter Geldwäschestatus."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückter Geldwäschestatus."
+    }
+  }
+}

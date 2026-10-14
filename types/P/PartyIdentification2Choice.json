@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification2Choice",
+  "definition": "Auswahl der Identifikation einer Partei.",
+  "isoElements": {
+    "BICOrBEI": {
+      "definition": "Code, der einem Finanz- oder Nichtfinanzinstitut von der Registrierungsstelle für ISO 9362 zugeteilt wurde, wie in ISO 9362 „Banking - Banking telecommunication messages - Business identifier code (BIC)“ beschrieben."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Eindeutige und unmissverständliche Kennung, die einem Finanzinstitut anhand eines proprietären Identifikationsschemas zugeteilt wurde."
+    },
+    "NameAndAddress": {
+      "definition": "Name und Anschrift einer Partei."
+    }
+  }
+}

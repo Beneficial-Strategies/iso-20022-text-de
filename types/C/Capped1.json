@@ -1,0 +1,21 @@
+{
+  "isoType": "Capped1",
+  "definition": "Informationen zu einer gedeckelten Entnahme (Capped Drawdown).",
+  "isoElements": {
+    "StartDate": {
+      "definition": "Startdatum des aktuellen Referenzzeitraums"
+    },
+    "IncomeLimitCurrentPeriod": {
+      "definition": "Einkommensgrenze für den aktuellen Zeitraum."
+    },
+    "IncomeCurrentPeriod": {
+      "definition": "Im aktuellen Einkommensjahr bezogenes Einkommen."
+    },
+    "IncomeLimitNextPeriod": {
+      "definition": "Einkommensgrenze für das nächste Einkommensjahr."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zur Obergrenze."
+    }
+  }
+}

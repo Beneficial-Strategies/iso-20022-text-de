@@ -1,0 +1,18 @@
+{
+  "isoType": "PartyRole2Code",
+  "definition": "Gibt die Rolle der Partei in der Transaktion an.",
+  "isoCodes": {
+    "DIST": {
+      "name": "Vertriebsstelle",
+      "definition": "Partei, die als Großhändler von Fonds fungiert."
+    },
+    "LGRD": {
+      "name": "Gesetzlicher Vertreter",
+      "definition": "Partei, die von einer Rechtsbehörde bestellt wurde, um im Namen einer als geschäftsunfähig beurteilten Person zu handeln."
+    },
+    "DECM": {
+      "name": "Entscheidungsträger",
+      "definition": "Partei, die befugt ist, im Namen des Aktionärs Anlageentscheidungen zu treffen."
+    }
+  }
+}

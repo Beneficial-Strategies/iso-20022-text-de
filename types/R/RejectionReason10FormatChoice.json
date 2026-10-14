@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason10FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe des Grundes für die Ablehnung eines Antrags auf Stornierung einer Dauerauftragsanweisung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Grundes für die Ablehnung eines Antrags auf Stornierung einer Dauerauftragsanweisung."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe des Grundes für die Ablehnung eines Antrags auf Stornierung einer Dauerauftragsanweisung."
+    }
+  }
+}

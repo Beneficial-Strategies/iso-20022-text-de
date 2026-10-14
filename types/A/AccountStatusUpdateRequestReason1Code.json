@@ -1,0 +1,10 @@
+{
+  "isoType": "AccountStatusUpdateRequestReason1Code",
+  "definition": "Gibt den Grund für einen Auftrag zur Änderung eines Kontostatus an.",
+  "isoCodes": {
+    "CLOE": {
+      "name": "Fehler in der Kontoschließungsanweisung",
+      "definition": "Die frühere Anweisung zur Kontoschließung wurde irrtümlich gesendet."
+    }
+  }
+}

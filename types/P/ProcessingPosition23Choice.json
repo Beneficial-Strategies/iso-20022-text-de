@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessingPosition23Choice",
+  "definition": "Auswahl des Formats für die Verarbeitungsposition.",
+  "isoElements": {
+    "Code": {
+      "definition": "Verarbeitungsposition als ISO-20022-Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Verarbeitungsposition als proprietärer Code ausgedrückt."
+    }
+  }
+}

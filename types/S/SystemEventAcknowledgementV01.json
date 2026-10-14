@@ -1,0 +1,15 @@
+{
+  "isoType": "SystemEventAcknowledgementV01",
+  "definition": "Die Nachricht SystemEventAcknowledgement wird von einem Teilnehmer eines zentralen Systems an das zentrale System gesendet, um die Benachrichtigung über das Eintreten eines Ereignisses in einem zentralen System zu bestätigen.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Eindeutiger und zweifelsfreier Bezeichner der Nachricht, der vom Absender vergeben wird."
+    },
+    "OriginatorReference": {
+      "definition": "Stellt die ursprüngliche Referenz der Systemereignisbenachrichtigung dar, für die die Bestätigung erfolgt, wie sie vom zentralen System vergeben wurde."
+    },
+    "SettlementSessionIdentifier": {
+      "definition": "Zur Angabe der angeforderten CLS-Abwicklungssitzung, zu der das zugehörige Geschäft gehört."
+    }
+  }
+}

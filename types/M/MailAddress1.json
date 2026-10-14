@@ -1,0 +1,12 @@
+{
+  "isoType": "MailAddress1",
+  "definition": "Elektronische und physische Postadresse.",
+  "isoElements": {
+    "Correspondence": {
+      "definition": "Physische Postadresse für den Schriftverkehr."
+    },
+    "EmailAddress": {
+      "definition": "Adresse für elektronische Post (E-Mail)."
+    }
+  }
+}

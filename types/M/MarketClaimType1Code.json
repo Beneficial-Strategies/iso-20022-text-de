@@ -1,0 +1,14 @@
+{
+  "isoType": "MarketClaimType1Code",
+  "definition": "Gibt die Art des Market Claim im Zusammenhang mit einem Ausschüttungsereignis einer Kapitalmaßnahme an.",
+  "isoCodes": {
+    "MKTC": {
+      "name": "Marktforderung",
+      "definition": "Market Claim, der aufgrund einer ausstehenden/fehlgeschlagenen Abwicklungstransaktion erstellt wurde, um sicherzustellen, dass die Ereigniserlöse vom Verkäufer an den Käufer geliefert werden."
+    },
+    "RVMC": {
+      "name": "Umgekehrter Marktanspruch",
+      "definition": "Market Claim, der aufgrund einer abgewickelten Abwicklungstransaktion erstellt wurde, um sicherzustellen, dass die Ereigniserlöse vom Käufer an den Verkäufer geliefert werden."
+    }
+  }
+}

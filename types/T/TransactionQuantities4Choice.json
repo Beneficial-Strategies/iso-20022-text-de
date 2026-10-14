@@ -1,0 +1,15 @@
+{
+  "isoType": "TransactionQuantities4Choice",
+  "definition": "Gibt die Mengen (beispielsweise von Wertpapieren) in der zugrunde liegenden Transaktion an.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Gibt die Menge (beispielsweise von Wertpapieren) in der zugrunde liegenden Transaktion an."
+    },
+    "OriginalAndCurrentFaceAmount": {
+      "definition": "Nennbetrag und amortisierter Wert des Wertpapiers."
+    },
+    "Proprietary": {
+      "definition": "In der zugrunde liegenden Transaktion definierte proprietäre Mengenangabe."
+    }
+  }
+}

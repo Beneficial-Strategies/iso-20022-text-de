@@ -1,0 +1,15 @@
+{
+  "isoType": "AmountPricePerAmount3",
+  "definition": "Gibt ein Verhältnis an: Betragspreis je Betrag.|Beispiel:|ISIN US629377AS17. Rückkauf gegen USD1087.17 in bar je USD1000 Aktien (NRG Energy Inc 8% Senior Notes 15/12/13).",
+  "isoElements": {
+    "AmountPriceType": {
+      "definition": "Art des Betragspreises."
+    },
+    "PriceValue": {
+      "definition": "Wert des Preises."
+    },
+    "Amount": {
+      "definition": "Der Betrag, auf dem der Preis beruht."
+    }
+  }
+}

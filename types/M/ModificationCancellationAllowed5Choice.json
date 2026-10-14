@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationCancellationAllowed5Choice",
+  "definition": "Auswahl des Formats für die Informationen zu Änderung und Stornierung.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Gibt an, ob ein Dritter die Transaktion ändern oder stornieren darf."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Informationen dazu, ob Änderung und Stornierung zulässig sind."
+    }
+  }
+}

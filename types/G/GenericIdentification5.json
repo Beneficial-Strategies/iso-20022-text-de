@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericIdentification5",
+  "definition": "Auf proprietäre Weise ausgedrückte Informationen.",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Stelle, die die Identifikation vergibt."
+    },
+    "Information": {
+      "definition": "Proprietäre Information, häufig ein Code, ausgegeben vom Herausgeber des Datenquellenschemas."
+    },
+    "Narrative": {
+      "definition": "Zusätzliche Informationen."
+    }
+  }
+}

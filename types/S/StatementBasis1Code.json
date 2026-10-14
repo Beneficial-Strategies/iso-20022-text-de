@@ -1,0 +1,18 @@
+{
+  "isoType": "StatementBasis1Code",
+  "definition": "Gibt die Art der Salden an, auf denen der Auszug erstellt wird.",
+  "isoCodes": {
+    "CONT": {
+      "name": "Vertraglich",
+      "definition": "Der Auszug basiert auf dem vertraglichen Abwicklungsdatum, unabhängig von abgewickelten Bestandspositionen."
+    },
+    "SETT": {
+      "name": "Abgewickelt",
+      "definition": "Der Auszug basiert auf den Beständen zum Abwicklungsdatum, soweit dem Absender zum Zeitpunkt der Erstellung des Auszugs bekannt."
+    },
+    "TRAD": {
+      "name": "Gehandelt",
+      "definition": "Der Auszug basiert auf den Beständen zum Handelsdatum."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "AmountPricePerFinancialInstrumentQuantity10",
+  "definition": "Gibt ein Verhältnis an: Betragspreis je Menge des Finanzinstruments.",
+  "isoElements": {
+    "AmountPriceType": {
+      "definition": "Art des Betragspreises."
+    },
+    "PriceValue": {
+      "definition": "Wert des Preises."
+    },
+    "FinancialInstrumentQuantity": {
+      "definition": "Menge des Finanzinstruments."
+    }
+  }
+}

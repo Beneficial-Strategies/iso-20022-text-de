@@ -1,0 +1,4 @@
+{
+  "isoType": "RequestForAccountManagementStatusReportV06",
+  "definition": "Anwendungsbereich|Die Nachricht RequestForAccountManagementStatusReport wird von einem Kontoinhaber, zum Beispiel einem Anleger oder seinem beauftragten Vertreter, an den Kontoführer, zum Beispiel eine Registerstelle, Transferstelle, Depotbank oder einen Wertpapierverwahrer, gesendet, um den Status einer AccountOpeningInstruction, einer GetAccountDetails oder einer AccountModificationInstruction anzufordern.|Verwendung|Die Nachricht RequestForAccountManagementStatusReport wird verwendet, um den Bearbeitungsstatus einer zuvor gesendeten Nachricht AccountOpeningInstruction, GetAccountDetails oder AccountModificationInstruction anzufordern, für die noch keine Nachricht AccountDetailsConfirmation eingegangen ist."
+}

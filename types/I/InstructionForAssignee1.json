@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForAssignee1",
+  "definition": "Weitere Informationen zur Bearbeitung der Untersuchung, auf die der Empfänger des Falls reagieren muss.",
+  "isoElements": {
+    "Code": {
+      "definition": "Codierte Informationen zur Bearbeitung der Untersuchungsanweisung, die vom Auftraggeber des Falls bereitgestellt werden und für den Empfänger des Falls bestimmt sind."
+    },
+    "InstructionInformation": {
+      "definition": "Weitere Informationen zur Ergänzung der codierten Anweisung oder der Anweisung an den Empfänger des Falls."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "isoType": "RejectionReason69Code",
+  "definition": "Gibt den Grund an, warum die Anweisung bzw. Stornierungsanforderung den Status abgelehnt hat.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Ablehnung des Verwahrkontos",
+      "definition": "Nicht erkanntes oder ungültiges Verwahrkonto des Nachrichtensenders."
+    },
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Transaktion bzw. Anweisung ging nach Ablauf der vom kontoführenden Institut festgelegten Frist ein."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "CAEV": {
+      "name": "Ablehnung wegen Kapitalmaßnahme",
+      "definition": "Für das angewiesene Finanzinstrument steht eine Kapitalmaßnahme aus."
+    },
+    "DDAT": {
+      "name": "Ablehnung wegen Abwicklungsdatum",
+      "definition": "Ungültiger oder nicht erkannter Abwicklungstag."
+    },
+    "REFE": {
+      "name": "Ablehnung wegen Referenz",
+      "definition": "Die Anweisung hat eine Referenz, die mit einer anderen zuvor eingegangenen Anweisung identisch ist."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "DQUA": {
+      "name": "Ablehnung wegen Menge",
+      "definition": "Ungültige oder nicht erkannte angewiesene Menge."
+    },
+    "DSEC": {
+      "name": "Ungültiges Wertpapier",
+      "definition": "Ungültige oder nicht erkannte Identifikation des Finanzinstruments."
+    },
+    "INVB": {
+      "name": "Ungültiger Saldo",
+      "definition": "Die Anweisung zielt auf die Verwendung eines ungültigen Bestands ab."
+    },
+    "INVL": {
+      "name": "Ungültige Verknüpfung",
+      "definition": "Ungültige oder nicht erkannte Verknüpfung."
+    },
+    "INVN": {
+      "name": "Ungültige Losnummer",
+      "definition": "Ungültige oder nicht erkannte Losnummer."
+    },
+    "MINO": {
+      "name": "Mindestabwicklungsmenge",
+      "definition": "Die angewiesene Menge liegt unter der für das Finanzinstrument bestehenden Mindestabwicklungsmenge."
+    },
+    "MUNO": {
+      "name": "Mehrfache Abwicklungsmenge",
+      "definition": "Die angewiesene Menge ist kein Vielfaches einer für das Finanzinstrument bestehenden Abwicklungslosgröße."
+    },
+    "VALR": {
+      "name": "Ungültige Regel",
+      "definition": "Ablehnung aufgrund einer Validierungsregel des kontoführenden Instituts."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "SwitchType1Code",
+  "definition": "Legt den Status des Wechsels fest, entweder vollständig oder teilweise, für ein bestimmtes Konto.",
+  "isoCodes": {
+    "FULL": {
+      "name": "Vollständiger Wechsel",
+      "definition": "Gibt einen vollständigen Wechsel für ein Konto an."
+    },
+    "PART": {
+      "name": "Teilweiser Wechsel",
+      "definition": "Gibt einen teilweisen Wechsel für ein Konto an."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ContactPerson1",
+  "definition": "Enthält Informationen zum Ansprechpartner, der für die in der Nachricht identifizierte Transaktion zuständig ist.",
+  "isoElements": {
+    "ContactPerson": {
+      "definition": "Gibt zusätzliche Informationen zur Partei an, z. B. die Kontakteinheit oder die für die in der Nachricht identifizierte Transaktion verantwortliche Person."
+    },
+    "InstitutionIdentification": {
+      "definition": "Identifikation des Instituts, das der Ansprechpartner vertritt."
+    }
+  }
+}

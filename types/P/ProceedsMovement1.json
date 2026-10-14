@@ -1,0 +1,15 @@
+{
+  "isoType": "ProceedsMovement1",
+  "definition": "Details der Erlösbewegungen.",
+  "isoElements": {
+    "CashProceedsMovementDetails": {
+      "definition": "Enthält Informationen zur Bewegung der Geld-Erlöse."
+    },
+    "SecuritiesProceedsMovementDetails": {
+      "definition": "Enthält Informationen zur Bewegung der Wertpapier-Erlöse."
+    },
+    "TaxDetails": {
+      "definition": "Enthält Informationen zur Steuerbescheinigung."
+    }
+  }
+}

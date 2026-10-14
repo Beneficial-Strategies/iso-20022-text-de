@@ -1,0 +1,15 @@
+{
+  "isoType": "GroupHeader121",
+  "definition": "Enthält weitere Details zur Nachricht.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, die vom kontoführenden Institut vergeben und an den Kontoinhaber oder die zum Empfang der Nachricht berechtigte Partei gesendet wird, um die Nachricht zweifelsfrei zu identifizieren.||Verwendung: Das kontoführende Institut muss sicherstellen, dass 'MessageIdentification' pro Kontoinhaber für einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "MessageRecipient": {
+      "definition": "Identifikation der Partei, die die Nachricht empfängt, wenn sie sich vom Kontoinhaber unterscheidet."
+    }
+  }
+}

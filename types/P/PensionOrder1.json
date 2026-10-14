@@ -1,0 +1,12 @@
+{
+  "isoType": "PensionOrder1",
+  "definition": "Mit einer Rente verbundene Anordnung.",
+  "isoElements": {
+    "Type": {
+      "definition": "Mit der Rentenpolice, dem Rentenplan oder dem Rentensystem verbundene Anordnung."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zur Rentenanordnung."
+    }
+  }
+}

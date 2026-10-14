@@ -1,0 +1,18 @@
+{
+  "isoType": "KnowYourCustomerCheckType1Code",
+  "definition": "Gibt die Art der Know-Your-Customer-Prüfung (KYC) oder der Sorgfaltsprüfung zur Geldwäschebekämpfung an, der der Anleger unterzogen wurde.",
+  "isoCodes": {
+    "ENHA": {
+      "name": "Erweitert",
+      "definition": "Verstärkte Prüfung, die üblicherweise bei Konten durchgeführt wird, die als risikoreich gelten."
+    },
+    "ORDN": {
+      "name": "Ordentlich",
+      "definition": "Ordentliche Prüfung, die üblicherweise bei Standardkonten durchgeführt wird."
+    },
+    "SIMP": {
+      "name": "Einfach",
+      "definition": "Vereinfachte Prüfung, die üblicherweise bei Konten durchgeführt wird, die ein geringes Geldwäscherisiko aufweisen, z. B. ein Konto im Besitz eines Finanzinstituts."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "FinancialInstrumentQuantityChoice",
+  "definition": "Auswahl zwischen Formaten für die Wertpapiermenge.",
+  "isoElements": {
+    "Unit": {
+      "definition": "Als Zahl ausgedrückte Menge, z. B. eine Anzahl von Aktien."
+    },
+    "FaceAmount": {
+      "definition": "Menge, ausgedrückt als Betrag, der den Nennbetrag, das heißt den Kapitalbetrag, eines Schuldinstruments darstellt."
+    },
+    "AmortisedValue": {
+      "definition": "Menge, ausgedrückt als Betrag, der den aktuellen amortisierten Nennbetrag einer Anleihe darstellt, zum Beispiel eine periodische Verringerung des Kapitalbetrags einer Anleihe."
+    }
+  }
+}

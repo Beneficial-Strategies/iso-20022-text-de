@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAElectionCancellationRequestV01",
+  "definition": "Umfang|Diese Nachricht wird von einem CSD an den Emittenten (oder dessen Agenten) gesendet, um die Stornierung einer zuvor gesendeten Nachricht Agent Corporate Action Election Advice zu beantragen.|Verwendung|Diese Nachricht darf nur verwendet werden, um eine gesamte, zuvor vom CSD gesendete Nachricht Agent Corporate Action Election Advice zu stornieren. Eine teilweise Stornierung ist nicht zulässig.|Diese Nachricht muss die Identifikation der zu stornierenden Agent Corporate Action Election Advice, die Identifikation des Agenten und die Referenzen der Kapitalmaßnahme enthalten. Diese Nachricht kann auch Details der zu stornierenden Wahlmitteilung enthalten, dies wird jedoch nicht empfohlen."
+}

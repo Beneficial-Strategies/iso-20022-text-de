@@ -1,0 +1,18 @@
+{
+  "isoType": "CashAccount17",
+  "definition": "Liefert Informationen zum Geldkonto.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identifikation des Geldkontos."
+    },
+    "PaymentCurrency": {
+      "definition": "Währung der Zahlung."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identifikation der Partei, die Inhaber des Kontos ist."
+    },
+    "CorrespondentBankIdentification": {
+      "definition": "Identifikation der Korrespondenzbank für das Geldkonto."
+    }
+  }
+}

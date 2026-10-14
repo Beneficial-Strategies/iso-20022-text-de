@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification270",
+  "definition": "Gruppe von Elementen zur Identifikation einer Person oder einer Organisation.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Partei."
+    },
+    "AdditionalIdentificationInformation": {
+      "definition": "Ergänzende Identifikationsinformationen zur Partei."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "isoType": "SettlementDetails173",
+  "definition": "Einzelheiten zur Abwicklung einer Transaktion.",
+  "isoElements": {
+    "HoldIndicator": {
+      "definition": "Gibt an, ob die Transaktion angehalten/gesperrt/eingefroren ist."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Bedingungen, unter denen der Auftrag/das Handelsgeschäft abgewickelt werden soll."
+    },
+    "SettlingCapacity": {
+      "definition": "Rolle einer Partei bei der Abwicklung der Transaktion."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Gibt die Art der Stempelsteuer oder den Befreiungsgrund an, der für die Abwicklungstransaktion gilt."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Gibt an, ob die Abwicklungstransaktion über ein RTGS-System oder ein Nicht-RTGS-System abgewickelt werden soll."
+    },
+    "BeneficialOwnership": {
+      "definition": "Gibt an, ob ein Wechsel des wirtschaftlichen Eigentums stattfindet."
+    },
+    "CashClearingSystem": {
+      "definition": "Gibt die Kategorie des Geld-Clearingsystems an, zum Beispiel Scheck-Clearing."
+    },
+    "TaxCapacity": {
+      "definition": "Steuerliche Rolle der anweisenden Partei."
+    },
+    "MarketClientSide": {
+      "definition": "Gibt an, ob eine Anweisung für eine Transaktion auf der Marktseite oder der Kundenseite gilt."
+    },
+    "BlockTrade": {
+      "definition": "Gibt an, ob die Abwicklungsanweisung die übergeordnete oder eine untergeordnete Anweisung eines Blockgeschäfts ist."
+    },
+    "LegalRestrictions": {
+      "definition": "Für ein Wertpapier geltende regulatorische Beschränkungen."
+    },
+    "SettlementSystemMethod": {
+      "definition": "Gibt an, ob die Abwicklungsanweisung über das Standard- oder das alternative Abwicklungssystem abgewickelt werden soll."
+    },
+    "NettingEligibility": {
+      "definition": "Gibt an, ob die Abwicklungstransaktion für das Netting zulässig ist."
+    },
+    "CCPEligibility": {
+      "definition": "Gibt an, ob die Abwicklungstransaktion CCP-fähig (Central Counterparty) ist."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Gibt an, ob eine Teilabwicklung zulässig ist."
+    },
+    "EligibleForCollateral": {
+      "definition": "Gibt an, ob Wertpapiere in den Pool der als Sicherheit zulässigen Wertpapiere aufgenommen werden sollen."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Wenn SettlementDetails-Elemente verwendet werden, müssen ihre Nutzungsbedingungen zwischen Kontoinhaber und Kontoführer vorab vereinbart sein."
+    },
+    "CashClearingSystemRule": {
+      "definition": "Die CashSettlementSystem-Codes sind nur von Agenten zu verwenden, die unmittelbar am Abwicklungsprozess beteiligt sind, wie lokale Abwicklungsagenten, CSDs und Zentralbanken."
+    }
+  }
+}

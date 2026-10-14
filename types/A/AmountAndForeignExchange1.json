@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndForeignExchange1",
+  "definition": "Enthält Informationen zum Rechnungsbetrag und zu den Bedingungen des Devisengeschäfts.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag in der Bargeldbuchung."
+    },
+    "ForeignExchange": {
+      "definition": "Informationen, die für die Verarbeitung eines Währungsumtauschs oder einer Währungsumrechnung erforderlich sind."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "OriginalAndCurrentQuantities4",
+  "definition": "Ursprünglicher und aktueller Wert eines forderungsbesicherten Instruments.",
+  "isoElements": {
+    "FaceAmount": {
+      "definition": "Als Betrag ausgedrückte Menge, die den Nennbetrag, das heißt das Kapital, eines Schuldinstruments darstellt."
+    },
+    "AmortisedValue": {
+      "definition": "Menge, ausgedrückt als Betrag, der den aktuellen amortisierten Nennbetrag einer Anleihe darstellt, zum Beispiel eine periodische Verringerung/Erhöhung des Kapitalbetrags einer Anleihe."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "TaxWithholdingMethod3Code",
+  "definition": "Gibt das Verfahren an, nach dem die Steuer auf die Zinsen zu behandeln ist, d. h. entweder an der Quelle einbehalten oder den Steuerbehörden gemeldet wird oder eine Steuerbescheinigung vom Begünstigten vorgelegt wurde.",
+  "isoCodes": {
+    "MITX": {
+      "name": "Steuer auf Minderheitsbeteiligung",
+      "definition": "Steuer auf Minderheitsbeteiligungen wird einbehalten."
+    },
+    "INVE": {
+      "name": "Investmentgesellschaft",
+      "definition": "Quellensteuer wird auf eine Investmentgesellschaft angewendet."
+    },
+    "ACCT": {
+      "name": "Buchhalter",
+      "definition": "Dividendensteuer ist laut Buchhalter befreit."
+    },
+    "EXMT": {
+      "name": "Befreit",
+      "definition": "Dividendensteuer ist befreit."
+    },
+    "REPT": {
+      "name": "Steuer melden",
+      "definition": "Steuerinformationen werden den Steuerbehörden gemeldet und daher nicht an der Quelle einbehalten."
+    },
+    "CRTF": {
+      "name": "Steuerbescheinigung",
+      "definition": "Der Begünstigte legt eine Steuerbescheinigung seiner Steuerbehörde im Land seines Wohnsitzes vor. Daher entfällt die Pflicht zum Quellensteuerabzug, und die Steuerinformationen werden den Steuerbehörden gemeldet."
+    },
+    "WHCO": {
+      "name": "Quellensteuer auf Körperschaften",
+      "definition": "Quellensteuer wird auf eine Kapitalgesellschaft angewendet."
+    },
+    "WTHD": {
+      "name": "Steuer einbehalten",
+      "definition": "Die Steuer wird an der Quelle einbehalten."
+    },
+    "WTRE": {
+      "name": "Steuer einbehalten und melden",
+      "definition": "Die Steuer wird an der Quelle einbehalten, und die Steuerinformationen werden zusätzlich den Steuerbehörden gemeldet."
+    }
+  }
+}

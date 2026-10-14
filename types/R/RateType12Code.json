@@ -1,0 +1,18 @@
+{
+  "isoType": "RateType12Code",
+  "definition": "Gibt die Art des Satzes an.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Offen",
+      "definition": "Der Satz wurde nicht festgelegt."
+    },
+    "UKWN": {
+      "name": "Unbekannt",
+      "definition": "Der Satz ist dem Sender unbekannt oder wurde nicht festgelegt."
+    },
+    "NILP": {
+      "name": "Nullzahlung",
+      "definition": "Der Satz wird nicht gezahlt."
+    }
+  }
+}

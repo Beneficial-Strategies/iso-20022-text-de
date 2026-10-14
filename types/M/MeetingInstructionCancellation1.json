@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingInstructionCancellation1",
+  "definition": "Identifikation der Stornierungsanfrage-Nachricht, mit der die Stornierung einzelner Anweisungen beantragt wird.",
+  "isoElements": {
+    "MeetingInstructionCancellationRequestIdentification": {
+      "definition": "Identifikation der Stornierungsanfrage-Nachricht zur Versammlungsanweisung, die die einzelnen Anweisungen enthält, für die die Stornierung beantragt wurde."
+    },
+    "SingleInstructionIdentification": {
+      "definition": "Identifikation der einzelnen Anweisung, für die die Stornierung beantragt wurde."
+    }
+  }
+}

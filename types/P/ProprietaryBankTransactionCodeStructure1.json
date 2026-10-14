@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryBankTransactionCodeStructure1",
+  "definition": "Satz von Elementen zur vollständigen Identifikation eines proprietären Banktransaktionscodes.",
+  "isoElements": {
+    "Code": {
+      "definition": "Proprietärer Banktransaktionscode zur Identifikation der zugrunde liegenden Transaktion."
+    },
+    "Issuer": {
+      "definition": "Identifikation des Herausgebers des proprietären Banktransaktionscodes."
+    }
+  }
+}

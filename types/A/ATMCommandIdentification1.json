@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMCommandIdentification1",
+  "definition": "Identifikation der Stelle, die den Befehl erteilt.",
+  "isoElements": {
+    "Origin": {
+      "definition": "Identifikation der Stelle, die den Befehl erteilt."
+    },
+    "Reference": {
+      "definition": "Eindeutige Identifikation des Befehls für den Aussteller des Befehls."
+    },
+    "Processor": {
+      "definition": "Identifikation oder Adresse des Hosts, der den Befehl ausführt."
+    }
+  }
+}

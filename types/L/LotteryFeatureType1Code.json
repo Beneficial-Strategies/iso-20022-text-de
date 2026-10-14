@@ -1,0 +1,22 @@
+{
+  "isoType": "LotteryFeatureType1Code",
+  "definition": "Gibt das Losverfahrensmerkmal an.",
+  "isoCodes": {
+    "XTRA": {
+      "name": "Außerordentlich",
+      "definition": "Außerordentliche Rückzahlung. Die außerordentliche Rückzahlung erlaubt es dem Emittenten, seine Anleihen vor Fälligkeit zu kündigen, wenn bestimmte festgelegte Ereignisse eintreten, etwa wenn das Projekt, zu dessen Finanzierung die Anleihe begeben wurde, beschädigt oder zerstört wurde. Dieses Merkmal muss in der Emissionsbeschreibung der Anleihe angegeben sein."
+    },
+    "OPTL": {
+      "name": "Optional",
+      "definition": "Der Emittent hat das Recht, alle oder einen Teil der Anleihen vor ihren Fälligkeitsterminen zurückzuzahlen."
+    },
+    "SINK": {
+      "name": "Tilgungsfonds",
+      "definition": "Anleihe-Tilgungsfonds (Sinking Fund). Ein Anleihe-Tilgungsfonds ist ein Finanzierungsmechanismus, den Anleiheemittenten nutzen, um Geld zurückzulegen, damit Anleihegläubiger bei Fälligkeit oder durch periodische Rückzahlungen bedient werden."
+    },
+    "SPCL": {
+      "name": "Besonders",
+      "definition": "Anleihe mit Sonderrückzahlung. Anleihe, die aufgrund eines außergewöhnlichen Ereignisses, wie einer Katastrophe, die die Ertragsquelle der Anleihe beeinträchtigt, vor Fälligkeit zurückgezahlt werden kann. Dieses Merkmal muss in der Emissionsbeschreibung der Anleihe angegeben sein. Die Sonderrückzahlung kann gemäß den Bestimmungen des Anleihevertrags (Indenture) erfolgen."
+    }
+  }
+}

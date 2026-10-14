@@ -1,0 +1,30 @@
+{
+  "isoType": "ExternalPaymentRole1Code",
+  "definition": "Gibt die Rolle an, die einer bestimmten Partei in einer Zahlungsanweisung zugeordnet ist, wie in einem externen Code-Set für Zahlungsrollen veröffentlicht.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "BKMG": {
+      "name": "Backup-Manager",
+      "definition": "Partei, die für die Verwaltung der Wiederherstellungsfunktionen eines Systems verantwortlich ist."
+    },
+    "LMMG": {
+      "name": "Limitmanager",
+      "definition": "Partei in einem Finanzinstitut, die für die Verwaltung der Limits verantwortlich ist. Diese Partei ist dafür verantwortlich, Limits festzulegen, zu ändern oder auszusetzen, soweit dies für das Management des Kontrahentenrisikos oder die Eindämmung systemischer Risiken relevant ist."
+    },
+    "LQMG": {
+      "name": "Liquiditätsmanager",
+      "definition": "Partei in einem Finanzinstitut, die für das Liquiditätsmanagement des Finanzinstituts verantwortlich ist. Diese Partei hat Zugriff auf einige im System verfügbare Funktionen, etwa Liquiditätsübertragungen oder die Verwaltung von Daueraufträgen zur Liquiditätssteuerung."
+    },
+    "PYMG": {
+      "name": "Zahlungsmanager",
+      "definition": "Partei in einem Finanzinstitut, die für die Verwaltung der Zahlungsverarbeitung des Finanzinstituts verantwortlich ist. Dazu gehören die Autorisierung, die erneute Einsteuerung und die Änderung von Zahlungstransaktionen."
+    },
+    "REDR": {
+      "name": "Leser",
+      "definition": "Partei in einem Finanzinstitut, die berechtigt ist, Informationen aus dem System abzurufen, diese Informationen aber nicht zu verwenden oder zu verändern."
+    },
+    "STMG": {
+      "name": "Abwicklungsmanager",
+      "definition": "Partei in einem Finanzinstitut, die für die Verwaltung der Abwicklungsverarbeitung verantwortlich ist."
+    }
+  }
+}

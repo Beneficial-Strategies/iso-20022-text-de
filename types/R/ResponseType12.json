@@ -1,0 +1,15 @@
+{
+  "isoType": "ResponseType12",
+  "definition": "Antwort auf einen angeforderten Dienst.",
+  "isoElements": {
+    "Response": {
+      "definition": "Ergebnis der angeforderten Transaktion."
+    },
+    "ResponseReason": {
+      "definition": "Detail der Antwort."
+    },
+    "AdditionalResponseInformation": {
+      "definition": "Zusätzliche Informationen, die zur weiteren Untersuchung zu protokollieren sind."
+    }
+  }
+}

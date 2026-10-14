@@ -1,0 +1,20 @@
+{
+  "isoType": "SecuritiesSettlementTransactionModificationRequestStatusAdviceV08",
+  "definition": "Anwendungsbereich|Ein Kontoführer sendet einen SecuritiesSettlementTransactionModificationRequestStatusAdvice an einen Kontoinhaber, um ihn über den Status einer zuvor vom Kontoinhaber gesendeten SecuritiesSettlementModificationRequest-Nachricht zu informieren.|Der Kontoführer kann sein:|- ein Zentralverwahrer oder eine andere Abwicklungs-Marktinfrastruktur, die Wertpapierabwicklungstransaktionen im Auftrag ihrer Teilnehmer verwaltet|- ein Verwahrer, der als Buchführungs- und/oder Abwicklungsstelle fungiert.||Verwendung|Die Nachricht kann auch verwendet werden, um:|- eine vom Kontoinhaber an den Kontoführer gesendete Nachricht erneut zu senden,|- einem Dritten zur Information eine Kopie einer vom Kontoinhaber gesendeten Nachricht zur Verfügung zu stellen,|- einem Dritten zur Information eine Kopie einer vom Kontoinhaber gesendeten Nachricht erneut zu senden|unter Verwendung der entsprechenden Elemente im Business Application Header.",
+  "isoElements": {
+    "ModificationRequestReference": {
+      "definition": "Verweis auf die eindeutige Identifikation der Stornierungsanfrage gemäß dem Kontoinhaber."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Entweder SafekeepingAccount oder BlockChainAddressOrWallet muss vorhanden sein, aber nicht beide."
+    }
+  }
+}

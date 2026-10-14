@@ -1,0 +1,71 @@
+{
+  "isoType": "Transaction165",
+  "definition": "Legt die Details der Transaktion fest.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem Kontoinhaber (oder der das Konto verwaltenden anweisenden Partei) bekannt."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem kontoführenden Institut bekannt."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer vergeben wurde, zum Beispiel Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion der Gegenpartei, die von einer anderen Marktinfrastruktur als einer Zentralverwahrer zugewiesen wurde, zum Beispiel Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, die vom Bearbeiter der Anweisung vergeben wird, der nicht der Kontoinhaber, der Kontoführer oder die Marktinfrastruktur ist."
+    },
+    "TradeIdentification": {
+      "definition": "Vom Anleger oder der handelnden Partei dem Handelsgeschäft zugewiesene Referenz. Diese Referenz wird während des gesamten Lebenszyklus des Handelsgeschäfts verwendet, um auf die Handelsdetails zuzugreifen bzw. diese zu aktualisieren."
+    },
+    "UniqueTransactionIdentifier": {
+      "definition": "Mit der anderen Gegenpartei vereinbarter Unique Transaction Identifier (UTI)."
+    },
+    "PoolIdentification": {
+      "definition": "Sammelreferenz zur Identifikation einer Gruppe von Nachrichten."
+    },
+    "CommonIdentification": {
+      "definition": "Eindeutige Referenz, auf die sich die beiden Handelspartner zur Identifizierung des Handelsgeschäfts geeinigt haben."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Vom kontoführenden Institut vergebene Identifikation zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "TripartyAgentServiceProviderCollateralTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Triparty-Collateral-Management-Transaktion aus Sicht des Triparty-Agenten/Dienstleisters."
+    },
+    "ClientTripartyCollateralTransactionIdentification": {
+      "definition": "Eindeutige Referenz der Triparty-Collateral-Management-Transaktion aus Sicht des Kunden."
+    },
+    "ClientCollateralInstructionIdentification": {
+      "definition": "Eindeutige Identifikation, die der Anweisung vom Kunden zugewiesen wurde."
+    },
+    "TripartyAgentServiceProviderCollateralInstructionIdentification": {
+      "definition": "Eindeutige Identifikation, die der Anweisung vom Triparty-Agenten/Dienstleister zugewiesen wurde."
+    },
+    "MasterReference": {
+      "definition": "Eindeutige und unmissverständliche Kennung einer Gruppe einzelner Aufträge, wie von der anweisenden Partei vergeben. Diese Kennung verknüpft die einzelnen Aufträge miteinander."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und unmissverständliche Identifikation eines Auftrags durch den Anleger. Diese Referenz kann typischerweise in einem Hub-Szenario verwendet werden, um die Referenz des Auftrags anzugeben, wie sie vom zugrunde liegenden Kunden vergeben wurde."
+    },
+    "AccountOwnerLegIdentification": {
+      "definition": "Eindeutiger technischer Identifikator für die Instanz des Teilgeschäfts (Leg) innerhalb eines Switch."
+    },
+    "AccountServicerLegIdentification": {
+      "definition": "Eindeutiger Identifikator für die Instanz der Ausführung des Teilgeschäfts (Leg) innerhalb einer Switch-Bestätigung."
+    },
+    "TransactionDetails": {
+      "definition": "Identifiziert die Details der Transaktion."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Liegt für AccountOwnerTransactionIdentification keine Referenz vor, zum Beispiel weil die Transaktion per Fax gesendet wurde, so muss AccountOwnerTransactionIdentification den Wert NONREF haben."
+    }
+  }
+}

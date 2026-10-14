@@ -1,0 +1,33 @@
+{
+  "isoType": "TotalsPerBankTransactionCode5",
+  "definition": "Satz von Elementen mit der Gesamtsumme der Buchungen je Banktransaktionscode.",
+  "isoElements": {
+    "NumberOfEntries": {
+      "definition": "Anzahl der einzelnen Buchungen für den Banktransaktionscode."
+    },
+    "Sum": {
+      "definition": "Summe aller im Bericht enthaltenen einzelnen Buchungen."
+    },
+    "TotalNetEntry": {
+      "definition": "Gesamtbetrag der Lastschriften oder Gutschriften, der sich aus der Saldierung der Beträge aller Lastschrift- und Gutschriftbuchungen je Banktransaktionscode ergibt."
+    },
+    "CreditEntries": {
+      "definition": "Anzahl der einzelnen Gutschriftbuchungen für den Banktransaktionscode."
+    },
+    "DebitEntries": {
+      "definition": "Anzahl der einzelnen Lastschriftbuchungen für den Banktransaktionscode."
+    },
+    "ForecastIndicator": {
+      "definition": "Gibt an, ob sich der Banktransaktionscode auf gebuchte oder prognostizierte Posten bezieht."
+    },
+    "BankTransactionCode": {
+      "definition": "Satz von Elementen zur vollständigen Identifikation der Art der zugrunde liegenden Transaktion, die zu einer Buchung führt."
+    },
+    "Availability": {
+      "definition": "Satz von Elementen, die angeben, wann der gebuchte Geldbetrag verfügbar wird, das heißt, wann darauf zugegriffen werden kann und er Zinsen zu erzeugen beginnt."
+    },
+    "Date": {
+      "definition": "Gibt das Datum (und die Uhrzeit) der Transaktionszusammenfassung an."
+    }
+  }
+}

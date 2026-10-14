@@ -1,0 +1,18 @@
+{
+  "isoType": "SafekeepingPlaceFormat29Choice",
+  "definition": "Auswahl zwischen Formaten für den Verwahrort.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Verwahrort, ausgedrückt als Code und Textbeschreibung."
+    },
+    "Country": {
+      "definition": "Verwahrort, ausgedrückt mit einem Ländercode."
+    },
+    "TypeAndIdentification": {
+      "definition": "Verwahrort, ausgedrückt mit einer Art und einer Identifikation."
+    },
+    "Proprietary": {
+      "definition": "Verwahrort, ausgedrückt mit einem proprietären Identifikationsschema."
+    }
+  }
+}

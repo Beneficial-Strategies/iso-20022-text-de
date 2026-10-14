@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingCompensation1",
+  "definition": "Gibt die Kompensationsdaten einer fehlerhaften Abrechnung an.",
+  "isoElements": {
+    "Type": {
+      "definition": "Legt die Art der Abrechnungskompensation fest."
+    },
+    "Value": {
+      "definition": "Legt den Wert der Kompensation fest."
+    },
+    "CurrencyType": {
+      "definition": "Identifiziert die Währungsart, die zur Meldung des Werts oder der Summe verwendet wird, in codierter Form, wie Abrechnung (STLM)."
+    }
+  }
+}

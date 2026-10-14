@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountSubLevel25",
+  "definition": "Liefert Informationen zum Aktienbesitz auf Unterebene eines Kontos.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem Finanzinstrumente geführt werden. Konto, das vom antwortenden Intermediär für einen Kontoinhaber geführt wird."
+    },
+    "AccountHolder": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    },
+    "ShareholdingBalance": {
+      "definition": "Detaillierte Informationen zum Aktienbestand eines Kontos."
+    }
+  }
+}

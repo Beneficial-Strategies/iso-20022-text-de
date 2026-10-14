@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionMovementPreliminaryAdviceFunction1Code",
+  "definition": "Gibt an, ob es sich bei der Nachricht um eine Nachricht zum endgültigen anspruchsberechtigten Bestand und zu den Ansprüchen oder um eine vorläufige Zahlungsavisierung handelt.",
+  "isoCodes": {
+    "ENTL": {
+      "name": "Anspruch",
+      "definition": "Die Nachricht ist ein Anspruch."
+    },
+    "CAPA": {
+      "name": "Voravis der Bewegung",
+      "definition": "Die Nachricht ist eine Vorabavisierung einer Bewegung."
+    }
+  }
+}

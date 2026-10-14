@@ -1,0 +1,58 @@
+{
+  "isoType": "OrganisationLegalStatus1Code",
+  "definition": "Gibt den Status einer juristischen Person an.",
+  "isoCodes": {
+    "CIOC": {
+      "name": "Gemeinnützige eingetragene Organisation",
+      "definition": "Charitable incorporated organisation (CIO)"
+    },
+    "CHAR": {
+      "name": "Wohltätige Organisation",
+      "definition": "Wohltätige Organisation"
+    },
+    "CICC": {
+      "name": "Gemeinwohlorientierte Gesellschaft",
+      "definition": "Community Interest Company (CIC)"
+    },
+    "GENP": {
+      "name": "Offene Handelsgesellschaft",
+      "definition": "Offene Handelsgesellschaft"
+    },
+    "IAPS": {
+      "name": "Industrie- und Fürsorgegenossenschaft",
+      "definition": "Zum Beispiel eine Genossenschaft, die Ltd. oder eine Wohltätigkeitsorganisation einschließt."
+    },
+    "LLPP": {
+      "name": "Partnerschaft mit beschränkter Haftung",
+      "definition": "Limited liability partnership (LLP)"
+    },
+    "PCLG": {
+      "name": "Private Gesellschaft mit Garantiehaftung",
+      "definition": "Private Gesellschaft mit Haftungsbeschränkung durch Garantie (Ltd.)"
+    },
+    "LIMP": {
+      "name": "Kommanditgesellschaft",
+      "definition": "Limited partnership (LP)"
+    },
+    "PCLS": {
+      "name": "Private Gesellschaft mit Anteilshaftung",
+      "definition": "Private Gesellschaft mit Haftungsbeschränkung durch Anteile (Ltd.)"
+    },
+    "PCLC": {
+      "name": "Öffentliche Aktiengesellschaft",
+      "definition": "Public limited company (Plc.)"
+    },
+    "SOLE": {
+      "name": "Einzelunternehmen",
+      "definition": "Einzelunternehmen/Einzelkaufmann"
+    },
+    "UNLC": {
+      "name": "Gesellschaft mit unbeschränkter Haftung",
+      "definition": "Gesellschaft mit unbeschränkter Haftung"
+    },
+    "UNLT": {
+      "name": "Unbeschränkter Trust",
+      "definition": "Trust mit unbeschränkter Haftung"
+    }
+  }
+}

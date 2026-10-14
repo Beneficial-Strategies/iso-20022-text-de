@@ -1,0 +1,15 @@
+{
+  "isoType": "Quantity52Choice",
+  "definition": "Auswahl zwischen verschiedenen Formaten der Wertpapiermenge.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Menge eines Finanzinstruments."
+    },
+    "OriginalAndCurrentFaceAmount": {
+      "definition": "Nennbetrag und amortisierter Wert des Wertpapiers."
+    },
+    "Quantity": {
+      "definition": "Menge des Finanzinstruments in Einheiten, ursprünglichem Nennbetrag oder aktuellem Nennbetrag."
+    }
+  }
+}

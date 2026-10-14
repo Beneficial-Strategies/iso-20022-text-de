@@ -1,0 +1,15 @@
+{
+  "isoType": "BlockChainAddressWallet3",
+  "definition": "Digitales Konto, auf dem digitale Vermögenswerte oder digitale Token gespeichert werden können und in dem ein Eintrag vorgenommen wird.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem Kontoführer."
+    },
+    "Type": {
+      "definition": "Gibt die Art des Wertpapierkontos an."
+    },
+    "Name": {
+      "definition": "Beschreibung des Kontos."
+    }
+  }
+}

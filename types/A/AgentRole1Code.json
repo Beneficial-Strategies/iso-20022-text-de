@@ -1,0 +1,14 @@
+{
+  "isoType": "AgentRole1Code",
+  "definition": "Gibt die Rolle der Emittentenbank an.",
+  "isoCodes": {
+    "PRIN": {
+      "name": "Eigenhändler-Agent",
+      "definition": "Identifikation der Bank, die als Hauptstelle handelt."
+    },
+    "SUBA": {
+      "name": "Unterbank",
+      "definition": "Identifikation der Bank, die als Mitdomizilstelle oder Unterstelle handelt."
+    }
+  }
+}

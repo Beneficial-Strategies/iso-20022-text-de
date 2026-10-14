@@ -1,0 +1,26 @@
+{
+  "isoType": "UnderlyingTransaction35",
+  "definition": "Identifiziert die zugrunde liegende(n) Transaktion(en) bzw. Transaktionsgruppe, auf die sich die Lösung der Untersuchung bezieht.",
+  "isoElements": {
+    "OriginalGroupInformationAndStatus": {
+      "definition": "Enthält Angaben zur ursprünglichen Stornierungsnachricht, auf die sich die Lösung bezieht."
+    },
+    "OriginalPaymentInformationAndStatus": {
+      "definition": "Enthält Angaben zu den ursprünglichen Transaktionen bzw. Transaktionsgruppen, auf die sich der Stornierungsstatus bezieht."
+    },
+    "TransactionInformationAndStatus": {
+      "definition": "Enthält Einzelheiten zu den ursprünglichen Transaktionen, auf die sich die Stornierungsnachricht bezieht."
+    }
+  },
+  "isoRules": {
+    "GroupOrPaymentInformationResolvedCaseRule": {
+      "definition": "ResolvedCase kann auf der Ebene ResolvedCase, OriginalGroupInformationAndStatus, OriginalPaymentInformationAndStatus oder TransactionInformationAndStatus vorhanden sein."
+    },
+    "GroupOrInitiationTransactionResolvedCaseRule": {
+      "definition": "ResolvedCase kann auf der Ebene ResolvedCase, OriginalGroupInformationAndStatus, OriginalPaymentInformationAndStatus oder TransactionInformationAndStatus vorhanden sein."
+    },
+    "GroupOrInterbankTransactionResolvedCaseRule": {
+      "definition": "ResolvedCase kann auf der Ebene ResolvedCase, OriginalGroupInformationAndStatus, OriginalPaymentInformationAndStatus oder TransactionInformationAndStatus vorhanden sein."
+    }
+  }
+}

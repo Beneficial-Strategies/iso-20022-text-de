@@ -1,0 +1,10 @@
+{
+  "isoType": "VotingParticipationMethod2Code",
+  "definition": "Gibt die verschiedenen zulässigen Methoden zur Teilnahme an der Abstimmung über Tagesordnungsbeschlüsse in einer Hauptversammlung an.",
+  "isoCodes": {
+    "PHNV": {
+      "name": "Keine Stimmabgabe",
+      "definition": "Die Teilnahme an der Versammlung erfolgt persönlich, die Person stimmt jedoch nicht ab."
+    }
+  }
+}

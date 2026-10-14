@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionSD26",
+  "definition": "Enthält Einzelheiten zu gekündigten Urkunden.",
+  "isoElements": {
+    "CertificateNumber": {
+      "definition": "Eindeutige Identifikation oder Seriennummer, die vom Emittenten oder der Transfer-Stelle jeder Wertpapierurkunde zugewiesen und aufgebracht wird."
+    },
+    "CertificatePrefix": {
+      "definition": "Präfix einer Urkunde, das sich danach unterscheiden kann, wo die Ausgabe der Urkunden stattfand."
+    },
+    "CertificateCalledAmount": {
+      "definition": "Kapitalbetrag (bei Schuldtiteln) oder Anzahl der Aktien (bei Beteiligungstiteln), der bzw. die für eine bestimmte Urkundennummer zur Rückzahlung gekündigt wurde."
+    }
+  }
+}

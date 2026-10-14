@@ -1,0 +1,30 @@
+{
+  "isoType": "ExternalNotificationSubType1Code",
+  "definition": "Gibt die Benachrichtigungsunterart an, wie in einer externen Codeliste für Benachrichtigungsunterarten veröffentlicht.|Externe Codelisten können unter www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "SALE": {
+      "name": "Vertrieb",
+      "definition": "Die Mitteilung ist für die Vertriebsabteilung bestimmt."
+    },
+    "SERV": {
+      "name": "Kundenbetreuung",
+      "definition": "Die Mitteilung ist für die Kundenbetreuungsabteilung bestimmt."
+    },
+    "LIQI": {
+      "name": "Liquidität",
+      "definition": "Die Mitteilung ist für die Liquiditätsabteilung bestimmt."
+    },
+    "PAOP": {
+      "name": "Zahlungsverkehr",
+      "definition": "Die Mitteilung ist für die Abteilung Zahlungsverkehrsabwicklung bestimmt."
+    },
+    "CRED": {
+      "name": "Gutschrift",
+      "definition": "Die Mitteilung ist für die Kreditabteilung bestimmt."
+    },
+    "LOAN": {
+      "name": "Kredite",
+      "definition": "Die Mitteilung ist für die Abteilung Darlehen bestimmt."
+    }
+  }
+}

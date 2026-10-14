@@ -1,0 +1,10 @@
+{
+  "isoType": "Algorithm8Code",
+  "definition": "Maskengenerierungsfunktionen des Verschlüsselungsalgorithmus RSAES-OAEP (RSA Encryption Scheme: Optimal Asymmetric Encryption Padding).",
+  "isoCodes": {
+    "MGF1": {
+      "name": "MGF1",
+      "definition": "Generierungsfunktion für RSA-Verschlüsselung und RSA-Signatur (PKCS #1 Version 2.1) - (ASN.1 Object Identifier: id-mgf1)."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "PaymentIdentification8Choice",
+  "definition": "Auswahl zwischen Möglichkeiten, eine Zahlungsanweisung anhand ihrer Referenzen und ihrer geschäftlichen Identifikation zu identifizieren.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Eindeutige Identifikation, vom ersten anweisenden Institut vergeben, zur zweifelsfreien Identifikation der Transaktion, die unverändert durch die gesamte Interbankenkette weitergegeben wird.|Verwendung: Die Transaktionsidentifikation kann für den Abgleich, die Nachverfolgung oder die Verknüpfung von Aufgaben im Zusammenhang mit der Transaktion auf Interbankenebene verwendet werden. Die anweisende Bank muss sicherstellen, dass die Transaktionsidentifikation für einen vorab vereinbarten Zeitraum eindeutig ist.|Verwendung: Dies ist das frühere Element PaymentInstructionReference."
+    },
+    "UETR": {
+      "definition": "Universell eindeutiger Bezeichner für eine Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "QueueIdentification": {
+      "definition": "Identifikation der Zahlungsanweisung anhand ihrer Position in einer von der Clearingstelle verwalteten Warteschlange."
+    },
+    "LongBusinessIdentification": {
+      "definition": "Geschäftliche Identifikation der Zahlungsanweisung, von der Clearingstelle vergeben."
+    },
+    "ShortBusinessIdentification": {
+      "definition": "Geschäftliche Identifikation der Zahlungsanweisung, von der Clearingstelle vergeben."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Eindeutige proprietäre Referenz der zugrunde liegenden Zahlungsanweisung, vom System vergeben."
+    }
+  }
+}

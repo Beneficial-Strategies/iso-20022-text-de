@@ -1,0 +1,9 @@
+{
+  "isoType": "BalanceTransferReference1",
+  "definition": "Referenz, die es dem empfangenden kontoführenden Institut ermöglicht, die Zahlung mit der Nachricht abzugleichen.",
+  "isoElements": {
+    "BalanceTransferReference": {
+      "definition": "Wird vom Zahlungspflichtigen in einem geeigneten Referenzfeld einer über einen alternativen Zahlungskanal gesendeten Zahlungsnachricht verwendet, damit der Zahlungsempfänger die Zahlung der Zahlungsaufforderung zuordnen kann."
+    }
+  }
+}

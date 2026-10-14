@@ -1,0 +1,4 @@
+{
+  "isoType": "SecuritiesBalanceTransparencyReportStatusAdviceV01",
+  "definition": "ANWENDUNGSBEREICH||Ein Kontoinhaber, etwa eine Depotbank, eine Zentralverwahrer-Stelle, eine internationale Zentralverwahrer-Stelle oder eine Transferstelle, sendet die Nachricht SecuritiesBalanceTransparencyReportStatusAdvice als Antwort auf einen SecuritiesBalanceTransparencyReport, um den in einem SecuritiesBalanceTransparencyReport gesendeten Bestandsauszug anzunehmen oder abzulehnen.||VERWENDUNG|Die SecuritiesBalanceTransparencyReportStatusAdvice wird verwendet, um einen zuvor empfangenen SecuritiesBalanceTransparencyReport anzunehmen (Accepted), teilweise anzunehmen (Accepted With Exception) oder abzulehnen (Rejected) (SCOPE) (USAGE)."
+}

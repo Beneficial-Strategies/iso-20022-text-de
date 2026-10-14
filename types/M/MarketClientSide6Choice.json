@@ -1,0 +1,12 @@
+{
+  "isoType": "MarketClientSide6Choice",
+  "definition": "Auswahl des Formats für die Angaben zur Markt-/Kundenseite.",
+  "isoElements": {
+    "Code": {
+      "definition": "Angaben zur Marktseite oder Kundenseite, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Angaben zur Marktseite oder Kundenseite, ausgedrückt als proprietärer Code."
+    }
+  }
+}

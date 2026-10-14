@@ -1,0 +1,21 @@
+{
+  "isoType": "PortfolioTransfer17",
+  "definition": "Art des Produkts und der zu übertragenden Vermögenswerte.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Eindeutiger Identifikator für eine Gruppe einzelner Übertragungen, wie von der anweisenden Partei vergeben. Dieser Identifikator verknüpft die einzelnen Übertragungen miteinander."
+    },
+    "TransferIdentification": {
+      "definition": "Der Übertragung von Vermögenswerten zugewiesene Identifikation."
+    },
+    "Portfolio": {
+      "definition": "Auswahl zwischen steuerbegünstigtem Produkt, allgemeiner Kapitalanlage oder Altersvorsorge."
+    },
+    "FinancialInstrumentAssetForTransfer": {
+      "definition": "Zu übertragender Vermögenswert."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zur Produktübertragung."
+    }
+  }
+}

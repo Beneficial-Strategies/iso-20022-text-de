@@ -1,0 +1,35 @@
+{
+  "isoType": "IntraPositionDetails58",
+  "definition": "Einzelheiten der Bewegung innerhalb der Position.",
+  "isoElements": {
+    "Priority": {
+      "definition": "Gibt an, ob die Transaktion mit hoher Priorität auszuführen ist."
+    },
+    "SettlementQuantity": {
+      "definition": "Gesamtmenge der abzuwickelnden Wertpapiere."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "definition": "Nummer zur Identifikation einer Wertpapier-Teilsaldoart (zum Beispiel Beschränkungskennung usw.)."
+    },
+    "SettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen die Wertpapiere bewegt werden sollen."
+    },
+    "BalanceFrom": {
+      "definition": "Saldo, von dem die Wertpapiere bewegt werden."
+    },
+    "BalanceTo": {
+      "definition": "Saldo, auf den die Wertpapiere bewegt werden."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Liefert zusätzliche Informationen zur Abwicklungsverarbeitung, die nicht in den strukturierten Feldern der Nachricht enthalten sein können."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Sofern zwischen Sender und Empfänger nicht bilateral vereinbart, darf InstructionProcessingAdditionalDetails, falls vorhanden, keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können."
+    },
+    "BalanceFromToRule": {
+      "definition": "Der SecuritiesBalanceType von BalanceFrom muss sich vom SecuritiesBalanceType von BalanceTo unterscheiden."
+    }
+  }
+}

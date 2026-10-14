@@ -1,0 +1,12 @@
+{
+  "isoType": "EventSequenceTypeFormat1Choice",
+  "definition": "Auswahl zwischen einem Standardcode und einem proprietären Code zur Angabe der Art des Ereignisses in einer Reihe vordefinierter oder geplanter Ereignisse.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art einer Ereignisfolge, in codiertem Format."
+    },
+    "Proprietary": {
+      "definition": "Art einer Ereignisfolge, in proprietärem Format."
+    }
+  }
+}

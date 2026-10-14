@@ -1,0 +1,12 @@
+{
+  "isoType": "MatchingStatus27Choice",
+  "definition": "Auswahl des Formats für den Abgleichsstatus.",
+  "isoElements": {
+    "Code": {
+      "definition": "Liefert den Abgleichsstatus der Anweisung."
+    },
+    "Proprietary": {
+      "definition": "Liefert den Abgleichsstatus der Anweisung."
+    }
+  }
+}

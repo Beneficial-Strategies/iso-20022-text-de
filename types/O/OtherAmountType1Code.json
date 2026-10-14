@@ -1,0 +1,14 @@
+{
+  "isoType": "OtherAmountType1Code",
+  "definition": "Art des sonstigen Betrags.",
+  "isoCodes": {
+    "PINT": {
+      "name": "Vorausgezahlte Zinsen",
+      "definition": "Zinsen, die vorausgezahlt wurden."
+    },
+    "SINT": {
+      "name": "Abwicklungszinsen",
+      "definition": "Zinsen auf die Zinsen."
+    }
+  }
+}

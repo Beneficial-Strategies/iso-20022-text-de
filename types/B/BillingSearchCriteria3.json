@@ -1,0 +1,24 @@
+{
+  "isoType": "BillingSearchCriteria3",
+  "definition": "Legt die Kriterien fest, die für die Extraktion verwendet werden.",
+  "isoElements": {
+    "Service": {
+      "definition": "Identifikation des Dienstes oder Systems, für den bzw. das die Abrechnungsinformationen zurückgegeben werden müssen."
+    },
+    "BillingIdentification": {
+      "definition": "Identifikation des Abrechnungsberichts."
+    },
+    "BillingPeriod": {
+      "definition": "Allgemeine Informationen werden für jede Rechnungsanforderung oder jedes Monatsabschluss-Abrechnungsereignis gespeichert."
+    },
+    "ResponsiblePartyIdentification": {
+      "definition": "Eindeutige Identifikation der Partei, die für die referenzierte Partei verantwortlich ist (d. h. die vertraglich für den abgerechneten Kunden verantwortlich ist)."
+    },
+    "PartyIdentification": {
+      "definition": "Eindeutige Identifikation der abgerechneten Partei."
+    },
+    "AccountIdentification": {
+      "definition": "Entweder Wertpapierkontonummer oder Nummer eines dedizierten Geldkontos."
+    }
+  }
+}

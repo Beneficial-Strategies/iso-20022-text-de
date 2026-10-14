@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification289",
+  "definition": "Identifikation einer Partei.",
+  "isoElements": {
+    "PartyIdentification": {
+      "definition": "Liefert Informationen über den wirtschaftlich Berechtigten der Wertpapiere."
+    },
+    "ContactPerson": {
+      "definition": "Detaillierte Kontaktinformationen des Kunden."
+    },
+    "ContactPersonAddress": {
+      "definition": "Adresse des Kunden."
+    }
+  }
+}

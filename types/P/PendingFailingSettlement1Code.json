@@ -1,0 +1,186 @@
+{
+  "isoType": "PendingFailingSettlement1Code",
+  "definition": "Gibt den Grund an, weshalb die Transaktion bzw. Anweisung mit nicht erfolgter Abwicklung aussteht und die Abwicklung zum Abwicklungsdatum der Anweisung nicht mehr möglich ist.",
+  "isoCodes": {
+    "AWMO": {
+      "name": "Wartet auf Geld",
+      "definition": "Die Wertpapiere wurden geliefert, die Zahlung wird von der Gegenpartei jedoch noch erwartet."
+    },
+    "AWSH": {
+      "name": "Wartet auf Wertpapiere der Gegenpartei",
+      "definition": "Die Wertpapiere wurden von der Gegenpartei noch nicht empfangen. War die Abwicklungsanweisung ein Empfang gegen Zahlung, wurde das Geld geliefert."
+    },
+    "LAAW": {
+      "name": "Wartet auf andere Transaktion",
+      "definition": "Warten auf die Abwicklung eines verknüpften Kaufs."
+    },
+    "DOCY": {
+      "name": "Wartet auf Dokumente oder Indossamente von Ihnen",
+      "definition": "Warten auf Dokumente oder Indossamente von Ihnen."
+    },
+    "CLAT": {
+      "name": "Gegenpartei zu spät für die Abwicklung",
+      "definition": "Die Anweisung der Gegenpartei war zu spät für die Abwicklung (das heißt, sie ging zu spät ein oder Abgleich- bzw. Abwicklungsprobleme wurden zu spät gelöst)."
+    },
+    "CERT": {
+      "name": "Falsche Zertifikatsnummern",
+      "definition": "Fehler bei der Zertifikatsnummer."
+    },
+    "MINO": {
+      "name": "Mindestabwicklungsbetrag",
+      "definition": "Die Wertpapiermenge liegt unter der bestehenden Mindestabwicklungsmenge für das angewiesene Finanzinstrument."
+    },
+    "PHSE": {
+      "name": "Verzögerung bei physischer Lieferung",
+      "definition": "Die Abwicklung erfolgt physisch, und die Lieferung der Wertpapiere ist verzögert."
+    },
+    "SBLO": {
+      "name": "Wertpapiere gesperrt",
+      "definition": "Die Wertpapiere sind gesperrt, zum Beispiel aufgrund einer Kapitalmaßnahme oder einer Neuzuordnung."
+    },
+    "DKNY": {
+      "name": "Gegenpartei hat Wertpapiere zurückgegeben",
+      "definition": "Die Gegenpartei hat die Wertpapiere zurückgegeben, abgelehnt oder erkennt sie nicht an."
+    },
+    "STCD": {
+      "name": "Abweichung bei der Bestätigung",
+      "definition": "Abweichung in der Abwicklungsbestätigung."
+    },
+    "BENO": {
+      "name": "Abweichung beim wirtschaftlichen Eigentum",
+      "definition": "Uneinigkeit über das wirtschaftliche Eigentum."
+    },
+    "LACK": {
+      "name": "Mangel an Wertpapieren",
+      "definition": "Nicht ausreichend lieferbare Wertpapiere auf Ihrem Konto."
+    },
+    "LATE": {
+      "name": "Zu spät für die Abwicklung",
+      "definition": "Die Abwicklungsanweisung war zu spät für die Abwicklung, das heißt, sie ging zu spät ein oder Abgleich- bzw. Abwicklungsprobleme wurden zu spät gelöst."
+    },
+    "CANR": {
+      "name": "Anfrage zur Stornierungsbestätigung",
+      "definition": "Transaktion ausgesetzt. Da der Aussetzungszeitraum beendet ist, ist die Stornierung oder Bestätigung der Anweisungen erforderlich."
+    },
+    "MLAT": {
+      "name": "Geld zu spät für die Abwicklung",
+      "definition": "Die Zahlung für den Kauf von Wertpapieren ging nach dem Annahmeschluss für den Abschluss der Abwicklung am selben Tag ein."
+    },
+    "OBJT": {
+      "name": "Unter Einspruch",
+      "definition": "Die Wertpapiere sind gestohlen, strittig und mit Widerspruch belegt."
+    },
+    "DOCC": {
+      "name": "Wartet auf Dokumente oder Indossamente von der Gegenpartei",
+      "definition": "Warten auf Dokumente oder Indossamente von der Gegenpartei."
+    },
+    "BLOC": {
+      "name": "Konto gesperrt",
+      "definition": "Das Konto ist gesperrt, daher kann keine Anweisung abgewickelt werden."
+    },
+    "CHAS": {
+      "name": "Anfrage gesendet",
+      "definition": "Anfrage/Erinnerung an die Bank oder Verwahrstelle gesendet."
+    },
+    "NEWI": {
+      "name": "Neuemissionen",
+      "definition": "Die Wertpapiere sind Neuemissionen und noch nicht verfügbar/handelbar."
+    },
+    "CLAC": {
+      "name": "Gegenpartei mit unzureichenden Wertpapieren",
+      "definition": "Unzureichende lieferbare Wertpapiere auf dem Konto der Gegenpartei, oder die Gegenpartei hält die Wertpapiere nicht."
+    },
+    "PART": {
+      "name": "Geschäft wird in Teilmengen abgewickelt",
+      "definition": "Das Geschäft wird in Teilmengen abgewickelt."
+    },
+    "CMON": {
+      "name": "Gegenpartei mit unzureichendem Geld",
+      "definition": "Unzureichende Geldmittel auf dem Konto der Gegenpartei."
+    },
+    "COLL": {
+      "name": "Als Sicherheit verpfändete Wertpapiere",
+      "definition": "Die Wertpapiere sind nicht lieferbar, da sie als Sicherheit verpfändet sind."
+    },
+    "DEPO": {
+      "name": "Abgelehnte Hinterlegung für die Ausgabe von Hinterlegungsscheinen",
+      "definition": "Die Einlieferung von Aktien zur Ausgabe von Hinterlegungsscheinen wurde abgelehnt. Das vom Emittenten gewährte Kontingent für Hinterlegungsscheine würde durch die Transaktion überschritten."
+    },
+    "FLIM": {
+      "name": "Maximales Auslandslimit erreicht",
+      "definition": "Unzureichende lieferbare Wertpapiere auf Ihrem Konto, da die maximale Auslandsgrenze erreicht ist."
+    },
+    "NOFX": {
+      "name": "Keine Devisenanweisung",
+      "definition": "Eine Devisenanweisung von Ihnen fehlt."
+    },
+    "INCA": {
+      "name": "Ertragsanpassung erforderlich",
+      "definition": "Die Wertpapiere erfordern eine Ertragsanpassung, das heißt Dividende oder Zinsen."
+    },
+    "LINK": {
+      "name": "Ausstehende verknüpfte Anweisung",
+      "definition": "Die verknüpfte Anweisung ist offen/schlägt fehl."
+    },
+    "BYIY": {
+      "name": "Zwangsdeckungsverfahren",
+      "definition": "Am Markt wurde in Ihrem Auftrag ein Zwangsrückkauf (Buy-in) eingeleitet, wenn Ihre Anweisung eine Lieferung gegen Zahlung an Sie (Empfang) ist, bzw. im Auftrag der Gegenpartei, wenn Ihre Anweisung eine Lieferung ist."
+    },
+    "CAIS": {
+      "name": "Wartet auf Wertpapiere",
+      "definition": "Erwartet Wertpapiere aus einer Kapitalmaßnahme oder anderen Verfahren, zum Beispiel Umwandlung, Entmaterialisierung, Umtausch, Registrierung, Stempelung und Splitting."
+    },
+    "LALO": {
+      "name": "Verliehene Wertpapiere",
+      "definition": "Unzureichende lieferbare Wertpapiere auf Ihrem Konto, da die Wertpapiere verliehen sind."
+    },
+    "MONY": {
+      "name": "Unzureichendes Geld",
+      "definition": "Unzureichende Geldmittel auf Ihrem Konto."
+    },
+    "NCON": {
+      "name": "Bestätigung nicht erhalten",
+      "definition": "Die Abwicklungsbestätigung ist noch nicht eingegangen."
+    },
+    "YCOL": {
+      "name": "Sicherheitenfehlbetrag",
+      "definition": "Nicht genügend Sicherheiten auf Ihrem Konto, um die Anweisung auszuführen."
+    },
+    "REFS": {
+      "name": "Nicht ordnungsgemäß",
+      "definition": "Lieferung/Empfang wird abgelehnt, da die physischen Wertpapiere nicht in ordnungsgemäßem Zustand sind."
+    },
+    "SDUT": {
+      "name": "Fehlende Stempelsteuerangaben",
+      "definition": "Die Anweisung schlägt fehl, da Angaben zur Stempelsteuer fehlen."
+    },
+    "CYCL": {
+      "name": "Wartet auf nächsten Abwicklungszyklus",
+      "definition": "Ihre Anweisung ist im lokalen Markt bestätigt, aber bereit zur Abwicklung im nächsten Abwicklungszyklus."
+    },
+    "BATC": {
+      "name": "Abweichung bei der Verarbeitungscharge",
+      "definition": "Der Verarbeitungs-Batch in der Anweisung der Gegenpartei weicht ab, zum Beispiel Tagesverarbeitung/Echtzeit gegenüber Nachtverarbeitung."
+    },
+    "GUAD": {
+      "name": "Abweichung beim Kennzeichen für garantierte Lieferung",
+      "definition": "Der Indikator für garantierte Lieferung in der Anweisung der Gegenpartei weicht ab."
+    },
+    "PREA": {
+      "name": "Vorabavis erteilt",
+      "definition": "Die Anweisung ist eine Voravisierung, das heißt nur zum Abgleich."
+    },
+    "GLOB": {
+      "name": "Globalurkunden",
+      "definition": "Die Wertpapiere liegen in Globalform vor."
+    },
+    "CPEC": {
+      "name": "Gegenpartei unter Zwangsverwaltung",
+      "definition": "Die Gegenpartei befindet sich in Zwangsverwaltung, das heißt in einer Form der Insolvenz."
+    },
+    "MUNO": {
+      "name": "Mehrfacher Abwicklungsbetrag",
+      "definition": "Der Betrag ist kein Vielfaches einer bestehenden Abwicklungsbetragseinheit (Lot) für das angewiesene Finanzinstrument."
+    }
+  }
+}

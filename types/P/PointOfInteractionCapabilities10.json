@@ -1,0 +1,42 @@
+{
+  "isoType": "PointOfInteractionCapabilities10",
+  "definition": "Fähigkeiten des ATM-Terminals.",
+  "isoElements": {
+    "CardReadData": {
+      "definition": "Kartenlesefähigkeiten des ATM, der die Transaktion durchführt."
+    },
+    "CardWriteData": {
+      "definition": "Kartenschreibfähigkeiten des Terminals, das die Transaktion durchführt."
+    },
+    "Authentication": {
+      "definition": "Am ATM verfügbare Fähigkeiten zur Authentifizierung von Kunde und Karte."
+    },
+    "PINLengthCapabilities": {
+      "definition": "Maximale Anzahl an Ziffern, die der ATM bei der PIN-Eingabe des Karteninhabers akzeptieren kann."
+    },
+    "ApprovalCodeLength": {
+      "definition": "Maximale Zeichenanzahl des Genehmigungscodes, die der ATM verarbeiten kann."
+    },
+    "MaxScriptLength": {
+      "definition": "Maximale Datenlänge in Bytes, die ein Kartenemittent an die ICC am Terminal zurückgeben kann."
+    },
+    "CardCaptureCapable": {
+      "definition": "True, wenn der ATM die Karte einziehen kann.|Verwendung: Wenn nicht vorhanden, ist der Standardwert True."
+    },
+    "WithdrawalMedia": {
+      "definition": "Art der Medien, die der ATM ausgeben kann."
+    },
+    "DepositedMedia": {
+      "definition": "Art der Medien, die der Kunde in den ATM einzahlen kann."
+    },
+    "MessageCapabilities": {
+      "definition": "Fähigkeiten des Terminals zur Anzeige oder zum Druck von Nachrichten an den Karteninhaber und den Händler, einschließlich Fähigkeiten für interaktive Transaktionen wie DCC, Entgelte, Konten usw., die das Terminal unterstützen kann."
+    },
+    "InteractiveTransactions": {
+      "definition": "Fähigkeiten für interaktive Transaktionen wie DCC, Entgelte, Konten usw., die das Terminal unterstützen kann."
+    },
+    "ReceiptPrinting": {
+      "definition": "Ob das Terminal einen Beleg drucken kann (das heißt das Gerät ist funktionsfähig und hat Papier).|Verwendung: Wenn nicht vorhanden, ist der Standardwert True."
+    }
+  }
+}

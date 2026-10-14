@@ -1,0 +1,12 @@
+{
+  "isoType": "ReturnedStatus1",
+  "definition": "Angewiesene Einheiten werden an die anweisende Partei ganz oder teilweise zurückgegeben.",
+  "isoElements": {
+    "ReturnedQuantity": {
+      "definition": "Menge der Wertpapiere, die zurückgegeben wurden."
+    },
+    "ReturnedReason": {
+      "definition": "Grund für den Status ausstehend."
+    }
+  }
+}

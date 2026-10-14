@@ -1,0 +1,18 @@
+{
+  "isoType": "PenaltyTransaction3",
+  "definition": "Gibt die Transaktion an, für die die Strafzahlungen gelten.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referenz der Transaktion, für die Strafzahlungen angegeben werden."
+    },
+    "ReferenceOwner": {
+      "definition": "Partei, die die Referenz erzeugt."
+    },
+    "TransactionDetails": {
+      "definition": "Weitere Einzelheiten zur Transaktion, für die die Strafzahlungen gelten."
+    },
+    "NetMovementDetails": {
+      "definition": "Einzelheiten zur Nettoabwicklungsbewegung, für die die Strafzahlungen gelten."
+    }
+  }
+}

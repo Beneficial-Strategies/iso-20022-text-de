@@ -1,0 +1,12 @@
+{
+  "isoType": "ReversalOfTransferInConfirmationV09",
+  "definition": "Anwendungsbereich|Die Nachricht ReversalOfTransferInConfirmation wird von einer ausführenden Partei, zum Beispiel einer Transferstelle, an die anweisende Partei, zum Beispiel einen Vermögensverwalter oder dessen bevollmächtigten Vertreter, gesendet, um eine zuvor gesendete Übertragungseingangsbestätigung zu stornieren.|Verwendung|Die Nachricht ReversalOfTransferInConfirmation wird verwendet, um eine zuvor gesendete Übertragungseingangsbestätigung rückzubuchen.|Um die Rückbuchung einer Übertragungseingangsbestätigung zu beantragen, wird die Übertragungsreferenz der Übertragungseingangsanweisung, wie in der ursprünglichen Nachricht TransferInInstruction angegeben, im Element für die Übertragungsreferenz angegeben. Die Referenz der ausführenden Partei für die Ausführung der Übertragung kann auch im Element TransferConfirmationReference angegeben werden.|Die Nachrichtenidentifikation der ursprünglichen Nachricht TransferInConfirmation kann auch in PreviousReference angegeben werden, dies wird jedoch nicht empfohlen.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Eindeutiger Identifikator für eine Gruppe einzelner Übertragungen, wie von der anweisenden Partei vergeben. Dieser Identifikator verknüpft die einzelnen Übertragungen miteinander."
+    },
+    "Function": {
+      "definition": "Funktion des Übertragungseingangs, das heißt, ob die Nachricht als Rückbuchung einer zuvor gesendeten Bestätigung oder als Rückbuchung einer zuvor gesendeten Avisierung verwendet wird. Fehlt Function, handelt es sich bei der Nachricht um die Rückbuchung einer zuvor gesendeten Bestätigung."
+    }
+  }
+}

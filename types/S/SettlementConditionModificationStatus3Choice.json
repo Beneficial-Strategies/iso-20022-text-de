@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementConditionModificationStatus3Choice",
+  "definition": "Auswahl des Status des Änderungsbefehls zur Verarbeitung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Liefert den Status der Änderungsanforderung für die Wertpapierabwicklungsbedingung."
+    },
+    "Proprietary": {
+      "definition": "Liefert den Status der Änderungsanforderung für die Wertpapierabwicklungsbedingung."
+    }
+  }
+}

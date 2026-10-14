@@ -1,0 +1,12 @@
+{
+  "isoType": "OtherAsset2Choice",
+  "definition": "Auswahl der Formate für eine Art von sonstigem Vermögenswert.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art des sonstigen Vermögenswerts, angegeben als Code."
+    },
+    "Proprietary": {
+      "definition": "Art des sonstigen Vermögenswerts, angegeben als proprietärer Code."
+    }
+  }
+}

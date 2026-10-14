@@ -1,0 +1,18 @@
+{
+  "isoType": "ReferredDocumentInformation7",
+  "definition": "Gruppe von Elementen zur Identifikation der im Verwendungszweck referenzierten Dokumente.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art des referenzierten Dokuments an."
+    },
+    "Number": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des referenzierten Dokuments."
+    },
+    "RelatedDate": {
+      "definition": "Dem referenzierten Dokument zugeordnetes Datum."
+    },
+    "LineDetails": {
+      "definition": "Gruppe von Elementen, die den Inhalt der referenzierten Dokumentzeile angeben."
+    }
+  }
+}

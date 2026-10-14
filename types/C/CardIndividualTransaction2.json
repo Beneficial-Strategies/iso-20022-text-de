@@ -1,0 +1,42 @@
+{
+  "isoType": "CardIndividualTransaction2",
+  "definition": "Einzelne Detaileinträge zur Kartentransaktion.",
+  "isoElements": {
+    "ICCRelatedData": {
+      "definition": "Daten zu einer Chipkartenanwendung."
+    },
+    "PaymentContext": {
+      "definition": "Kontext der Kartenzahlungstransaktion."
+    },
+    "AdditionalService": {
+      "definition": "Leistung zusätzlich zur Hauptleistung."
+    },
+    "TransactionCategory": {
+      "definition": "Kategoriecode gemäß ISO 18245 zur Art der Dienstleistungen oder Waren, die der Händler für die Transaktion bereitstellt.|Dieses Element ist auch als MerchantCategoryCode bekannt."
+    },
+    "SaleReconciliationIdentification": {
+      "definition": "Eindeutige Identifikation des Zeitraums für den Umsatzabgleich zwischen Akzeptant und Acquirer. Diese Identifikation kann mit der Identifikation der Abrechnung verknüpft sein, damit der Händler sie weiter prüfen kann."
+    },
+    "SaleReferenceNumber": {
+      "definition": "Eindeutige Referenz der Verkäufe, wie vom Händler angegeben."
+    },
+    "RePresentmentReason": {
+      "definition": "Grund für die erneute Vorlage (Representment) einer Kartentransaktion."
+    },
+    "SequenceNumber": {
+      "definition": "Laufende Nummer der Kartentransaktion, vergeben vom POI (Point of Interaction). |Verwendung: Die laufende Nummer wird für jede Transaktion fortlaufend erhöht."
+    },
+    "TransactionIdentification": {
+      "definition": "Identifikation der Transaktion, vergeben vom POI (Point of Interaction)."
+    },
+    "Product": {
+      "definition": "Mit der Transaktion erworbenes Produkt."
+    },
+    "ValidationDate": {
+      "definition": "Datum, an dem die Einzahlung von dem Finanzinstitut validiert wurde, das das Bargeld entgegengenommen hat."
+    },
+    "ValidationSequenceNumber": {
+      "definition": "Laufende Nummer der Validierung der Bargeldeinzahlung.|Verwendung: Die laufende Nummer wird für jede Transaktion fortlaufend erhöht."
+    }
+  }
+}

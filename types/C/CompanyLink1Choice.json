@@ -1,0 +1,12 @@
+{
+  "isoType": "CompanyLink1Choice",
+  "definition": "Auswahl der Formate für die Handelspartei oder den Broker.",
+  "isoElements": {
+    "Code": {
+      "definition": "Unternehmensverbindung, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Unternehmensverbindung, ausgedrückt als proprietärer Code."
+    }
+  }
+}

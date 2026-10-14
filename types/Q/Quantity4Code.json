@@ -1,0 +1,14 @@
+{
+  "isoType": "Quantity4Code",
+  "definition": "Gibt die Menge eines Finanzinstruments an.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Unbekannte Menge",
+      "definition": "Die Menge ist dem Sender unbekannt oder wurde nicht festgelegt."
+    },
+    "ANYA": {
+      "name": "Jede und alle",
+      "definition": "Die Anweisung gilt für den gesamten anspruchsberechtigten Bestand der zugrunde liegenden Wertpapiere."
+    }
+  }
+}

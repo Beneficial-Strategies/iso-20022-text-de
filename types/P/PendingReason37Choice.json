@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingReason37Choice",
+  "definition": "Auswahl des Formats für den Grund des Ausstehens.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grundcode an, weshalb die Anweisung oder der Auftrag anhängig ist."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Grundcode in proprietärem Format an, weshalb die Anweisung oder der Auftrag anhängig ist."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "isoType": "StatusTrail11",
+  "definition": "Gibt den Verlauf der Status und Gründe für eine ausstehende, gebuchte oder stornierte Transaktion an.",
+  "isoElements": {
+    "StatusDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Status zugewiesen wurde."
+    },
+    "SendingOrganisationIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Organisation, die die Nachrichteninstanz gesendet hat."
+    },
+    "UserIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Benutzers, der die Nachrichteninstanz erstellt hat."
+    },
+    "ProcessingStatus": {
+      "definition": "Gibt Einzelheiten zum Bearbeitungsstatus der Transaktion an."
+    },
+    "InferredMatchingStatus": {
+      "definition": "Gibt den Abgleichsstatus einer Anweisung gemäß dem Kontoführer oder der Marktinfrastruktur auf Grundlage einer Meldung (Allegement) an. Zu diesem Zeitpunkt hat am Markt (beim CSD/ICSD/MI) noch kein Abgleich stattgefunden."
+    },
+    "MatchingStatus": {
+      "definition": "Liefert den Abgleichsstatus der Anweisung."
+    },
+    "SettlementStatus": {
+      "definition": "Gibt den Status der Abwicklung einer Transaktion an."
+    },
+    "ModificationProcessingStatus": {
+      "definition": "Gibt Einzelheiten zum Bearbeitungsstatus der Änderung der Transaktion an."
+    },
+    "CancellationStatus": {
+      "definition": "Gibt Einzelheiten zum Bearbeitungsstatus des Stornierungsantrags an."
+    },
+    "Settled": {
+      "definition": "Der Status ist abgewickelt."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  }
+}

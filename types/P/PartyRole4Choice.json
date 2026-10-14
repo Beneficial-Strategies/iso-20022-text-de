@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyRole4Choice",
+  "definition": "Auswahl von Formaten für die Angabe der Rolle.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Rolle."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Rolle."
+    }
+  }
+}

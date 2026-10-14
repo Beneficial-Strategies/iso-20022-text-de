@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndDirection5",
+  "definition": "Auf den Büchern einer kontoführenden Stelle belasteter oder gutgeschriebener Geldbetrag.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Belasteter oder gutgeschriebener Geldbetrag."
+    },
+    "CreditDebit": {
+      "definition": "Gibt an, ob der Betrag belastet oder gutgeschrieben wird."
+    }
+  }
+}

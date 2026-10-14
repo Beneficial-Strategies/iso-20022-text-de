@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionPrice86",
+  "definition": "Gibt Preise im Zusammenhang mit einer Kapitalmaßnahmen-Option an.",
+  "isoElements": {
+    "CashInLieuOfSharePrice": {
+      "definition": "Barauszahlung anstelle von Aktien; üblicherweise anstelle einer Bruchteilsmenge."
+    },
+    "OverSubscriptionDepositPrice": {
+      "definition": "Vom Emittenten festgelegter Geldbetrag, der je überzeichneter Aktie erforderlich ist."
+    },
+    "MaximumCashToInstruct": {
+      "definition": "Maximaler Barbetrag, der angewiesen werden darf."
+    },
+    "MinimumCashToInstruct": {
+      "definition": "Minimaler Barbetrag, der angewiesen werden darf."
+    },
+    "MinimumMultipleCashToInstruct": {
+      "definition": "Mindestvielfaches eines Barbetrags, das angewiesen werden darf."
+    }
+  }
+}

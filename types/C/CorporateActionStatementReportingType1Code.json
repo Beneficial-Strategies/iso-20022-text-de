@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionStatementReportingType1Code",
+  "definition": "Art des Kontoauszugs zur Meldung von Kontobeständen für Kapitalmaßnahmen, zum Beispiel bei der Meldung für mehrere Konten oder mehrere Ereignisse.",
+  "isoCodes": {
+    "MASE": {
+      "name": "Mehrere Konten",
+      "definition": "Die Meldung betrifft ein einzelnes Ereignis und mehrere Konten."
+    },
+    "SAME": {
+      "name": "Mehrere Ereignisse",
+      "definition": "Die Meldung betrifft mehrere Ereignisse für ein einzelnes Konto."
+    }
+  }
+}

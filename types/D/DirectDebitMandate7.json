@@ -1,0 +1,39 @@
+{
+  "isoType": "DirectDebitMandate7",
+  "definition": "Parteien und Konten des Lastschriftmandats.",
+  "isoElements": {
+    "DebtorAccount": {
+      "definition": "Eindeutige Identifikation des Kontos des Zahlungspflichtigen, das aufgrund der Transaktion belastet wird."
+    },
+    "Debtor": {
+      "definition": "Partei, die dem Zahlungsempfänger/der Endpartei den Geldbetrag schuldet. Der Zahlungspflichtige ist auch der Inhaber des Belastungskontos."
+    },
+    "DebtorTaxIdentificationNumber": {
+      "definition": "Von einer Steuerbehörde einer Einheit zugewiesene Nummer."
+    },
+    "DebtorNationalRegistrationNumber": {
+      "definition": "Von einer nationalen Registrierungsbehörde einer Einheit zugewiesene Nummer."
+    },
+    "Creditor": {
+      "definition": "Partei, die vom Zahlungspflichtigen einen Geldbetrag erhält. Im Kontext des Zahlungsmodells ist der Zahlungsempfänger auch der Inhaber des Gutschriftskontos."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das die Lastschriftanweisung vom Zahlungsempfänger oder einer anderen autorisierten Partei entgegennimmt."
+    },
+    "DebtorAgentBranch": {
+      "definition": "Informationen zur Identifikation einer bestimmten Filiale eines Finanzinstituts.||Verwendung: Diese Komponente sollte verwendet werden, wenn die Identifikationsinformationen in der Finanzinstitut-Komponente keine Identifikation bis zur Filialebene bieten."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das die Zahlungstransaktion im Namen des Zahlungsempfängers oder einer anderen benannten Partei entgegennimmt und das Konto gutschreibt."
+    },
+    "CreditorAgentBranch": {
+      "definition": "Informationen zur Identifikation einer bestimmten Filiale eines Finanzinstituts.||Verwendung: Diese Komponente sollte verwendet werden, wenn die Identifikationsinformationen in der Finanzinstitut-Komponente keine Identifikation bis zur Filialebene bieten."
+    },
+    "RegistrationIdentification": {
+      "definition": "Referenz, die einem Zahlungsempfänger von seinem Finanzinstitut oder einer zuständigen Behörde zugewiesen wird und ihn zur Teilnahme an einem Lastschriftverfahren berechtigt."
+    },
+    "MandateIdentification": {
+      "definition": "Referenz des Lastschriftmandats, das zwischen Zahlungspflichtigem und Zahlungsempfänger vereinbart wurde."
+    }
+  }
+}

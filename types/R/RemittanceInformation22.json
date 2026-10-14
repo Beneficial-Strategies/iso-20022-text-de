@@ -1,0 +1,12 @@
+{
+  "isoType": "RemittanceInformation22",
+  "definition": "Informationen, die den Abgleich einer Buchung mit den Posten ermöglichen, die durch die Zahlung beglichen werden sollen, etwa gewerbliche Rechnungen in einem Debitorenbuchhaltungssystem.",
+  "isoElements": {
+    "Unstructured": {
+      "definition": "Informationen in unstrukturierter Form, die den Abgleich einer Buchung mit den Posten ermöglichen, die durch die Zahlung beglichen werden sollen, etwa gewerbliche Rechnungen in einem Debitorenbuchhaltungssystem."
+    },
+    "Structured": {
+      "definition": "Informationen in strukturierter Form, die den Abgleich einer Buchung mit den Posten ermöglichen, die durch die Zahlung beglichen werden sollen, etwa gewerbliche Rechnungen in einem Debitorenbuchhaltungssystem."
+    }
+  }
+}

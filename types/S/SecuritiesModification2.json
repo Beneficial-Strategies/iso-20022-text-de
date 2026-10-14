@@ -1,0 +1,29 @@
+{
+  "isoType": "SecuritiesModification2",
+  "definition": "Enthält die Transaktionen im Bericht.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Partei, der das Konto gehört."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "ProcessingStatus": {
+      "definition": "Status und Statusgrund der Transaktion."
+    },
+    "Modification": {
+      "definition": "Identifiziert die einzelne Transaktion."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountRule": {
+      "definition": "SafekeepingAccount muss vorhanden sein oder Modification(*)/SafekeepingAccount muss vorhanden sein, aber nicht beide."
+    },
+    "AccountOwnerRule": {
+      "definition": "AccountOwner muss vorhanden sein oder Modification(*)/AccountOwner muss vorhanden sein, aber nicht beide."
+    },
+    "ProcessingStatusRule": {
+      "definition": "ProcessingStatus muss vorhanden sein oder Modification(*)/ProcessingStatus muss vorhanden sein, aber nicht beide."
+    }
+  }
+}

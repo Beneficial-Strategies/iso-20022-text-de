@@ -1,0 +1,10 @@
+{
+  "isoType": "PartyRole3Code",
+  "definition": "Gibt die Rolle der Partei in der Transaktion an.",
+  "isoCodes": {
+    "GATR": {
+      "name": "Garant",
+      "definition": "Juristische Person, die nicht der Emittent ist und eine Garantie gibt. Der Garantiegeber haftet im Falle eines Ausfalls."
+    }
+  }
+}

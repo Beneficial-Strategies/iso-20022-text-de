@@ -1,0 +1,12 @@
+{
+  "isoType": "ReversalReason4Choice",
+  "definition": "Gibt den Grund für die Rückbuchung der Transaktion an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund für die Rückbuchung, wie in einer externen Liste von Grundcodes veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Grund für die Rückbuchung in proprietärer Form."
+    }
+  }
+}

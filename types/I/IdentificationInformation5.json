@@ -1,0 +1,15 @@
+{
+  "isoType": "IdentificationInformation5",
+  "definition": "Enthält die Details der Identifikationsinformationen.",
+  "isoElements": {
+    "Party": {
+      "definition": "Kontoinhaber, der einen Geldbetrag schuldet oder dem ein Geldbetrag geschuldet wird."
+    },
+    "Account": {
+      "definition": "Zweifelsfreie Identifikation des Kontos einer Partei."
+    },
+    "Agent": {
+      "definition": "Finanzinstitut, das ein Konto für eine Partei führt."
+    }
+  }
+}

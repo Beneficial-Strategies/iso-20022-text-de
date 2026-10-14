@@ -1,0 +1,50 @@
+{
+  "isoType": "ExtendedOptionFeature2Code",
+  "definition": "Gibt DTCC-spezifische Optionen an (The Depository Trust and Clearing Corporation).",
+  "isoCodes": {
+    "FORU": {
+      "name": "Ausländische Steuer ungünstig",
+      "definition": "Nur-DTC-Option (The Depository Trust Company). Das Ereignis und das Wertpapier sind für den Foreign-Tax-Relief-Service bei DTC zugelassen. Option zur Wahl des ungünstigen Steuersatzes. Die Option „Foreign Tax Unfavourable“ ist die Standardoption."
+    },
+    "FORF": {
+      "name": "Ausländische Steuer günstig",
+      "definition": "Nur-DTC-Option (The Depository Trust Company). Das Ereignis und das Wertpapier sind für den Foreign-Tax-Relief-Service bei DTC zugelassen. Die Wahl dieser Option stellt sicher, dass der Teilnehmer seine Zahlung zu einem günstigen Quellensteuersatz erhält."
+    },
+    "FORX": {
+      "name": "Ausländische Steuer befreit",
+      "definition": "Nur-DTC-Option (The Depository Trust Company). Das Ereignis und das Wertpapier sind für den Foreign-Tax-Relief-Service bei DTC zugelassen. Die Wahl dieser Option stellt sicher, dass der Teilnehmer von jeglichem Quellensteuerabzug befreit ist."
+    },
+    "DRPU": {
+      "name": "DRIP ungünstig",
+      "definition": "Nur-DTC-Option (The Depository Trust Company). Das Ereignis und das Wertpapier sind sowohl für den Dividend-Reinvestment- als auch für den Foreign-Tax-Service bei DTC zugelassen. Teilnehmer, die diese Option wählen, erhalten zusätzliche Aktien, und der Quellensteuerabzug auf diese Aktien erfolgt zum ungünstigen Steuersatz."
+    },
+    "DRPF": {
+      "name": "DRIP günstig",
+      "definition": "Nur-DTC-Option (The Depository Trust Company). Das Ereignis und das Wertpapier sind sowohl für den Dividend-Reinvestment- als auch für den Foreign-Tax-Relief-Service bei DTC zugelassen. Teilnehmer, die diese Option wählen, erhalten zusätzliche Aktien, und der Quellensteuerabzug auf diese Aktien erfolgt zum günstigen Steuersatz."
+    },
+    "DRPX": {
+      "name": "DRIP befreit",
+      "definition": "Nur-DTC-Option (The Depository Trust Company). Das Ereignis und das Wertpapier sind sowohl für den Dividend-Reinvestment- als auch für den Foreign-Tax-Relief-Service bei DTC zugelassen. Teilnehmer, die diese Option wählen, erhalten zusätzliche Aktien und sind von jeglichem Quellensteuerabzug befreit."
+    },
+    "FCPP": {
+      "name": "Zahlung in Fremdwährung",
+      "definition": "Nur-DTC-Option (The Depository Trust Company). Das Ereignis und das Wertpapier sind für den Foreign-Currency-Payment-Service bei DTC zugelassen. Teilnehmer, die diese Option wählen, erhalten ihre Ausschüttung in der angewiesenen Fremdwährung."
+    },
+    "FCPU": {
+      "name": "Zahlung in Fremdwährung ungünstig",
+      "definition": "Nur-DTC-Option (The Depository Trust Company). Das Ereignis und das Wertpapier sind sowohl für den Foreign-Currency- als auch für den Foreign-Tax-Service bei DTC zugelassen. Teilnehmer, die diese Option wählen, erhalten ihre Ausschüttung in einer Fremdwährung, und auf diese Ausschüttung wird der Quellensteuerabzug zum ungünstigen Satz vorgenommen."
+    },
+    "FCPF": {
+      "name": "Zahlung in Fremdwährung günstig",
+      "definition": "Nur-DTC-Option (The Depository Trust Company). Das Ereignis und das Wertpapier sind sowohl für den Foreign-Currency- als auch für den Foreign-Tax-Service bei DTC zugelassen. Teilnehmer, die die Option wählen, erhalten ihre Ausschüttung in Fremdwährung, und auf diese Ausschüttung wird der Quellensteuerabzug zum günstigen Satz vorgenommen."
+    },
+    "FCPX": {
+      "name": "Zahlung in Fremdwährung befreit",
+      "definition": "Nur-DTC-Option (The Depository Trust Company). Das Ereignis und das Wertpapier sind sowohl für den Foreign-Currency- als auch für den Foreign-Tax-Service bei DTC zugelassen. Teilnehmer, die diese Option wählen, erhalten ihre Ausschüttung in einer Fremdwährung und sind von jeglichem Quellensteuerabzug befreit."
+    },
+    "NSHR": {
+      "name": "Aktionärsnummer nicht zulässig",
+      "definition": "Gibt eine Option an, bei der Inhaber keine Aktionärsnummer angeben dürfen; falls eine angegeben wird, wird sie abgelehnt."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ResidualCash2",
+  "definition": "Gibt an, wie mit den auf dem Konto befindlichen, noch nicht angelegten Barmitteln verfahren werden soll.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Gibt an, ob die auf dem Konto befindlichen, noch nicht angelegten Barmittel übertragen werden sollen."
+    },
+    "Currency": {
+      "definition": "Währung der Barmittel."
+    }
+  }
+}

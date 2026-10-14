@@ -1,0 +1,58 @@
+{
+  "isoType": "DeniedReason7Code",
+  "definition": "Gibt den Zurückweisungsgrund an.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Nach Ablauf der Frist des kontoführenden Instituts eingegangen."
+    },
+    "DCAL": {
+      "name": "Abruf abgelehnt, da bereits angewendet",
+      "definition": "Die Anforderung zum Abruf des Repos wurde abgelehnt, da bereits ein anderer Abruf gilt."
+    },
+    "CDCY": {
+      "name": "Bedingt Währung",
+      "definition": "Die Ausführung wird wegen eines mit der Währung der Transaktion verknüpften Prozesses verweigert."
+    },
+    "CDRE": {
+      "name": "Bedingt Neuausrichtung",
+      "definition": "Die Ausführung wird wegen der Durchführung eines Angleichungsprozesses beim Emittenten-CSD verweigert."
+    },
+    "CDRG": {
+      "name": "Bedingt Registerstelle",
+      "definition": "Die Ausführung wird wegen der Durchführung eines Prozesses bei der Registerstelle verweigert."
+    },
+    "DCAN": {
+      "name": "Abgelehnt, da storniert",
+      "definition": "Die Anforderung wurde abgelehnt, da die Anweisung storniert wurde."
+    },
+    "DPRG": {
+      "name": "Abgelehnt, da in Bearbeitung",
+      "definition": "Die Anforderung wurde abgelehnt, da der Abwicklungsprozess läuft."
+    },
+    "DFOR": {
+      "name": "Abgelehnt, da nicht zulässig",
+      "definition": "Die Anforderung zum Abruf des Repos wurde abgelehnt. Abruf für das betreffende Repo nicht zulässig, zum Beispiel wegen Fristüberschreitung."
+    },
+    "DREP": {
+      "name": "Abgelehnt, da Repo beendet",
+      "definition": "Die Anforderung wurde abgelehnt, da das Repo storniert wurde."
+    },
+    "DSET": {
+      "name": "Abgelehnt, da abgewickelt",
+      "definition": "Die Anforderung wurde abgelehnt, da die Anweisung abgewickelt wurde."
+    },
+    "IPNC": {
+      "name": "Anweisung verarbeitet",
+      "definition": "Die Anweisung wurde verarbeitet und kann nicht storniert werden."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "DrawdownType2Code",
+  "definition": "Gibt eine Art von Entnahme an.",
+  "isoCodes": {
+    "BOTH": {
+      "name": "Beide",
+      "definition": "Die Entnahmeart ist sowohl Flexi-Access als auch gedeckelt."
+    },
+    "CAPP": {
+      "name": "Entnahme mit gedeckeltem Einkommen",
+      "definition": "Die Entnahmeart ist gedeckelt."
+    },
+    "FLEX": {
+      "name": "Entnahme mit flexiblem Zugriff",
+      "definition": "Die Entnahmeart ist Flexi-Access."
+    }
+  }
+}

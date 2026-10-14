@@ -1,0 +1,17 @@
+{
+  "isoType": "Proxy12",
+  "definition": "Identifikation eines Bevollmächtigten, der bestellt wurde, um eine zur Stimmabgabe in einer Aktionärsversammlung berechtigte Partei zu vertreten, sowie der Stimmrechtsvertretung.",
+  "isoElements": {
+    "ProxyType": {
+      "definition": "Art des Bevollmächtigten."
+    },
+    "PersonDetails": {
+      "definition": "Person, die nicht der Vorsitzende der Versammlung ist und vom Wertpapierinhaber als Bevollmächtigter bestimmt wurde."
+    }
+  },
+  "isoRules": {
+    "ProxyAppointment1Rule": {
+      "definition": "Wenn ProxyType DISC (Discretionary) oder HLDR (SecurityHolder) ist, muss PersonDetails vorhanden sein."
+    }
+  }
+}

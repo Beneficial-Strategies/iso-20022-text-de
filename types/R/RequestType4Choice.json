@@ -1,0 +1,15 @@
+{
+  "isoType": "RequestType4Choice",
+  "definition": "Legt die Art der Aktion fest, die in der Anfrage ausgeführt werden soll.",
+  "isoElements": {
+    "PaymentControl": {
+      "definition": "Der Anfragetyp ist ein Steuerungsbefehl für eine Menge von Transaktionen."
+    },
+    "Enquiry": {
+      "definition": "Der Anfragetyp ist eine Abfrage einer Position oder einer Transaktion."
+    },
+    "Proprietary": {
+      "definition": "Der Anfragetyp liegt in proprietärem Format vor."
+    }
+  }
+}

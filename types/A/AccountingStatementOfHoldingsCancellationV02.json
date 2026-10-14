@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountingStatementOfHoldingsCancellationV02",
+  "definition": "Anwendungsbereich|Ein Kontoführer, zum Beispiel ein Transferagent, sendet die Nachricht AccountingStatementofHoldingsCancellation an den Kontoinhaber, zum Beispiel einen Fondsmanager oder den benannten Beauftragten eines Kontoinhabers, um die Stornierung einer zuvor gesendeten Nachricht AccountingStatementOfHoldings mitzuteilen.|Verwendung|Die Nachricht AccountingStatementOfHoldingsCancellation wird verwendet, um eine zuvor gesendete Nachricht AccountingStatementOfHoldings zu stornieren. Diese Nachricht muss die Referenz der zu stornierenden Nachricht enthalten.|Diese Nachricht kann auch alle Einzelheiten der zu stornierenden Nachricht enthalten, dies wird jedoch nicht empfohlen."
+}

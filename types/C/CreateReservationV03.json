@@ -1,0 +1,4 @@
+{
+  "isoType": "CreateReservationV03",
+  "definition": "Anwendungsbereich|Die Nachricht CreateReservation dient dazu, die Anlage einer bestimmten Reservierung durch den Teilnehmer, die vom Transaktionsadministrator verwaltet wird, zu beantragen.|Verwendung|Auf Grundlage der in der Nachricht CreateReservation definierten Kriterien führt der Transaktionsadministrator die beantragte Anlage aus oder lehnt sie ab und antwortet auf die Anfrage mit einer Nachricht Receipt."
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "GroupHeader104",
+  "definition": "Gruppe von Merkmalen, die für alle in der Nachricht enthaltenen Einzelanweisungen gelten.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, die von der beauftragenden Bank vergeben und an die Marktinfrastruktur gesendet wird, um die Nachricht eindeutig zu identifizieren.||Verwendung: Die beauftragende Bank muss sicherstellen, dass MessageIdentification je Marktinfrastruktur für einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "NumberOfSettlementRequests": {
+      "definition": "Anzahl der in der Nachricht enthaltenen einzelnen Abwicklungsanforderungen."
+    },
+    "ControlSum": {
+      "definition": "Summe aller in der Nachricht enthaltenen Einzelbeträge, unabhängig von den Währungen."
+    },
+    "SettlementInformation": {
+      "definition": "Gibt die Einzelheiten dazu an, wie die Abwicklung der Transaktion(en) zwischen der beauftragenden Bank und der Marktinfrastruktur erfolgt."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "TaxationBasis2Code",
+  "definition": "Gibt die Steuerbemessungsgrundlage an.",
+  "isoCodes": {
+    "FLAT": {
+      "name": "Pauschal",
+      "definition": "Die Entgelt-/Steuerbemessungsgrundlage ist ein Pauschalbetrag."
+    },
+    "PERU": {
+      "name": "Je Anteil",
+      "definition": "Die Entgelt-/Steuerbemessungsgrundlage gilt je Einheit des Finanzinstruments."
+    }
+  }
+}

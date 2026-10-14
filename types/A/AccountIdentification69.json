@@ -1,0 +1,32 @@
+{
+  "isoType": "AccountIdentification69",
+  "definition": "Stellt Informationen zur Kontoidentifikation bereit.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem Finanzinstrumente geführt werden."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Blockchain-Adresse oder Wallet, in der digitale Vermögenswerte gehalten werden. Dies entspricht dem Verwahrkonto für digitale Vermögenswerte."
+    },
+    "AccountOwner": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    },
+    "SafekeepingPlace": {
+      "definition": "Ort, an dem die Finanzinstrumente verwahrt werden bzw. verwahrt werden."
+    }
+  },
+  "isoRules": {
+    "SafekeepingPlaceRule": {
+      "definition": "Der SafekeepingPlace ist nur von globalen Verwahrern zu verwenden, die ihren Kunden erlauben festzulegen, wo die Wertpapiere gehalten werden, zum Beispiel auf einem ICSD-Konto im Gegensatz zu einem Konto beim lokalen CSD."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Entweder SafekeepingAccount oder BlockChainAddressOrWallet muss vorhanden sein, aber nicht beide."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, dann darf SafekeepingAccount nicht vorhanden sein."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, dann darf BlockChainAddressOrWallet nicht vorhanden sein."
+    }
+  }
+}

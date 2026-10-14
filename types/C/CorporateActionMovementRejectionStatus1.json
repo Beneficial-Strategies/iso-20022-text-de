@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionMovementRejectionStatus1",
+  "definition": "Liefert den Grund für die Ablehnung einer Bewegung.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Der Ablehnungsgrund."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

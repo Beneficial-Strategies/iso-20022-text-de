@@ -1,0 +1,18 @@
+{
+  "isoType": "InstructionCancellationRequestStatus20Choice",
+  "definition": "Auswahl zwischen verschiedenen Status eines Anweisungs-Stornierungsauftrags.",
+  "isoElements": {
+    "CancellationCompleted": {
+      "definition": "Liefert Statusinformationen zu einem abgeschlossenen Anweisungs-Stornierungsauftrag."
+    },
+    "Rejected": {
+      "definition": "Liefert Statusinformationen zu einem Stornierungsauftrag, der aus systembedingten (datenbezogenen) Gründen für die weitere Bearbeitung abgelehnt wurde."
+    },
+    "PendingCancellation": {
+      "definition": "Liefert Statusinformationen zu einem ausstehenden Stornierungsauftrag."
+    },
+    "ProprietaryStatus": {
+      "definition": "Proprietärer Status eines Anweisungs-Stornierungsauftrags."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "isoType": "DateType5Code",
+  "definition": "Gibt eine Datumsart an.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Offen",
+      "definition": "Mit offenem Datum, das heißt, das Datum wurde noch nicht festgelegt."
+    }
+  }
+}

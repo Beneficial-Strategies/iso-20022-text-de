@@ -1,0 +1,70 @@
+{
+  "isoType": "ExternalVerificationReason1Code",
+  "definition": "Legt den externen Überprüfungsgrundcode fest, wie er in einer externen Überprüfungscodeliste veröffentlicht ist.|Externe Codelisten können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "AC01": {
+      "name": "Falsche Kontonummer",
+      "definition": "Die in der Anfrage angegebene Kontonummer ist ungültig oder fehlt."
+    },
+    "AGNT": {
+      "name": "Falsche Bank",
+      "definition": "Die in der Anfrage angegebene Bankidentifikation ist falsch"
+    },
+    "DUPL": {
+      "name": "Doppelte Anforderung",
+      "definition": "Die Anfrage ist ein Duplikat einer anderen Anfrage"
+    },
+    "AG01": {
+      "name": "Transaktion auf diesem Konto nicht zulässig",
+      "definition": "Transaktion für diesen Kontotyp nicht zulässig (auf dieses Konto kann keine Zahlung erfolgen, z. B. nicht für Einzahlungen geöffnet, gesperrt, geschlossen)."
+    },
+    "BNOR": {
+      "name": "Kontoführende Bank nicht registriert",
+      "definition": "Der PSP ist unter diesem Verfahren nicht registriert."
+    },
+    "DS28": {
+      "name": "Rückgabe aus technischen Gründen",
+      "definition": "Rückgabe aufgrund technischer Probleme, die zu einer fehlerhaften Transaktion geführt haben."
+    },
+    "FF01": {
+      "name": "Ungültiges Dateiformat",
+      "definition": "Dateiformat unvollständig oder ungültig."
+    },
+    "MS03": {
+      "name": "Nicht angegebener Grund (vom Agenten erzeugt)",
+      "definition": "Der Grund wurde von der Bank nicht angegeben."
+    },
+    "NORR": {
+      "name": "Kein Bericht erhalten",
+      "definition": "Keine Antwort auf die Anfrage innerhalb der Frist."
+    },
+    "NR01": {
+      "name": "Kein Grund möglich",
+      "definition": "Der PSP kann die Angaben nicht bestätigen und nennt keinen Grund."
+    },
+    "RC03": {
+      "name": "Ungültige Kennung der Bank des Zahlungspflichtigen",
+      "definition": "Die Kennung der Bank des Zahlungspflichtigen ist ungültig oder fehlt."
+    },
+    "RC04": {
+      "name": "Ungültige Kennung der Bank des Zahlungsempfängers",
+      "definition": "Die Kennung der Bank des Zahlungsempfängers ist ungültig oder fehlt."
+    },
+    "TM01": {
+      "name": "Ungültiger Annahmeschluss",
+      "definition": "Die zugehörige Nachricht wurde nach der vereinbarten Annahmeschlusszeit der Verarbeitung empfangen."
+    },
+    "PN01": {
+      "name": "Name des Kontoinhabers stimmt nicht überein",
+      "definition": "Name des Kontoinhabers und Zahlungskontonummer stimmen nicht überein."
+    },
+    "PN02": {
+      "name": "Name des Kontoinhabers stimmt annähernd überein",
+      "definition": "Name des Kontoinhabers und Zahlungskontonummer stimmen nahezu überein."
+    },
+    "PI01": {
+      "name": "Identifikation des Kontoinhabers stimmt nicht überein",
+      "definition": "Identifikation des Kontoinhabers und Zahlungskontonummer stimmen nicht überein."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "BonusWithdrawal2",
+  "definition": "Informationen zu einem ausgezahlten Bonus oder einer Entnahme.",
+  "isoElements": {
+    "TypeOfAmount": {
+      "definition": "Gibt an, ob der Betrag das Ergebnis eines gezahlten Bonus, einer Entnahme oder einer sonstigen Betragsart ist."
+    },
+    "Amount": {
+      "definition": "Betrag des gezahlten Bonus oder des beanspruchten Betrags. Zum Beispiel ein beanspruchter Betrag für ein Lifetime Individual Savings Account (LISA) oder ein ausgezahlter staatlicher Bonus."
+    },
+    "Reason": {
+      "definition": "Grund für den an das Anlageprodukt gezahlten Bonusbetrag oder einen daraus entnommenen Betrag."
+    },
+    "UnclaimedAmount": {
+      "definition": "Betrag eines nicht beanspruchten Bonus oder einer nicht beanspruchten Entnahme."
+    },
+    "Outstanding": {
+      "definition": "Gibt an, ob ein ausstehender Bonus- oder Entnahmebetrag vorhanden ist."
+    },
+    "Reference": {
+      "definition": "Identifikation der Entnahme oder des Bonus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zu den ausgezahlten oder entnommenen Geldern."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "isoType": "TotalFeesAndTaxes44",
+  "definition": "Geldbetrag im Zusammenhang mit einer Dienstleistung.",
+  "isoElements": {
+    "TotalOverheadApplied": {
+      "definition": "Gesamtbetrag der auf die Transaktion angewendeten Nebenkosten, der sich auf den Abwicklungsbetrag auswirkt."
+    },
+    "TotalFees": {
+      "definition": "Gesamtbetrag der auf die Transaktion angewendeten Gebühren (Entgelte/Provisionen), der sich auf den Abwicklungsbetrag auswirkt."
+    },
+    "TotalTaxes": {
+      "definition": "Gesamtbetrag der auf die Transaktion angewendeten Steuern, der sich auf den Abwicklungsbetrag auswirkt."
+    },
+    "CommercialAgreementReference": {
+      "definition": "Referenz auf die zwischen dem Fonds und einer anderen Partei getroffene Vereinbarung. Dieses Element legt unter anderem die Provisionsbedingungen fest."
+    },
+    "IndividualFee": {
+      "definition": "Einzelne Gebühr (Entgelt/Provision)."
+    },
+    "IndividualTax": {
+      "definition": "Einzelne Steuer."
+    },
+    "DigitalNetworkFee": {
+      "definition": "Einer Transaktion zugeordnete digitale Netzwerkgebühr."
+    }
+  },
+  "isoRules": {
+    "NonStandardSLAReferenceRule": {
+      "definition": "Für jeden Wert von IndividualFee/Type darf NonStandardSLAReference nur einmal vorhanden sein."
+    },
+    "TransactionOverheadElementRule": {
+      "definition": "Eines der Elemente (TotalOverheadApplied, TotalFees, TotalTaxes, CommercialAgreementReference, IndividualFee, IndividualTax) muss vorhanden sein."
+    }
+  }
+}

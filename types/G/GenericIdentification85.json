@@ -1,0 +1,12 @@
+{
+  "isoType": "GenericIdentification85",
+  "definition": "Als proprietärer Typ und narrative Beschreibung ausgedrückte Identifikation.",
+  "isoElements": {
+    "Type": {
+      "definition": "Proprietäre Information, häufig ein Code, ausgegeben vom Herausgeber des Datenquellenschemas."
+    },
+    "Identification": {
+      "definition": "Name oder Nummer, die von einer Einheit vergeben wird, um die Wiedererkennung dieser Einheit zu ermöglichen."
+    }
+  }
+}

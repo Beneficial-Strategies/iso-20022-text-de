@@ -1,0 +1,17 @@
+{
+  "isoType": "ReportHeader6",
+  "definition": "Enthält die Kopfdaten des Berichts.",
+  "isoElements": {
+    "ReportIdentification": {
+      "definition": "Identifikation einer Abrechnung im Bericht."
+    },
+    "MessagePagination": {
+      "definition": "Enthält Angaben zur Seitennummer der Nachricht.||Verwendung: Die Seitennummerierung der Nachricht ist nur zulässig, wenn sie zwischen den Parteien vereinbart wurde."
+    }
+  },
+  "isoRules": {
+    "MessagePaginationRule": {
+      "definition": "Wenn MessagePagination vorhanden ist, muss ReportIdentification für alle Seiten identisch sein."
+    }
+  }
+}

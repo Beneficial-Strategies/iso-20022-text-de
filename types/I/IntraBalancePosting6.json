@@ -1,0 +1,68 @@
+{
+  "isoType": "IntraBalancePosting6",
+  "definition": "Enthält die Daten für die gebuchten Bewegungen innerhalb des Saldos.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem Kontoinhaber (oder der das Konto verwaltenden anweisenden Partei) bekannt."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem kontoführenden Institut bekannt."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer vergeben wurde, zum Beispiel Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, vom Verarbeiter vergeben."
+    },
+    "PoolIdentification": {
+      "definition": "Sammelreferenz zur Identifikation einer Gruppe von Nachrichten."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Vom kontoführenden Institut vergebene Identifikation zur zweifelsfreien Identifikation eines Kapitalmaßnahmen-Ereignisses."
+    },
+    "BalanceTo": {
+      "definition": "Bestand, auf den der Geldbetrag umgebucht wird."
+    },
+    "SettledAmount": {
+      "definition": "Tatsächlich abgewickelter Geldbetrag, der dem Geldkonto des Kontoinhabers gutgeschrieben bzw. belastet wird. Er kann je nach Markttoleranz vom angewiesenen Abwicklungsbetrag abweichen."
+    },
+    "PreviouslySettledAmount": {
+      "definition": "Zuvor abgewickelter Geldbetrag."
+    },
+    "RemainingSettlementAmount": {
+      "definition": "Noch abzuwickelnder Geldbetrag."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Geldbetrag umgebucht wird."
+    },
+    "StatusDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Status zugewiesen wurde."
+    },
+    "CashSubBalanceIdentification": {
+      "definition": "Nummer zur Identifikation eines Loses, das den Teilbestand bildet."
+    },
+    "Linkages": {
+      "definition": "Verknüpfung mit einer anderen Transaktion, die danach, davor oder gleichzeitig verarbeitet werden muss."
+    },
+    "Priority": {
+      "definition": "Gibt an, ob die Transaktion mit hoher Priorität auszuführen ist."
+    },
+    "MessageOriginator": {
+      "definition": "Partei, von der die Nachricht ausgeht, sofern nicht mit dem Absender identisch."
+    },
+    "CreationDateTime": {
+      "definition": "Gibt Datum und Uhrzeit der Ausführung des Geschäfts an."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Liefert zusätzliche Informationen zur Abwicklungsverarbeitung, die nicht in den strukturierten Feldern der Nachricht angegeben werden können."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die nicht in den strukturierten Elementen und/oder einem anderen spezifischen Block erfasst werden können."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Liegt für AccountOwnerTransactionIdentification keine Referenz vor, zum Beispiel weil die Transaktion per Fax gesendet wurde, so muss AccountOwnerTransactionIdentification den Wert NONREF haben."
+    }
+  }
+}

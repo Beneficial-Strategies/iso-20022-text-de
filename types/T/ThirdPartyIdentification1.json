@@ -1,0 +1,12 @@
+{
+  "isoType": "ThirdPartyIdentification1",
+  "definition": "Identifikation des Dritten.",
+  "isoElements": {
+    "Role": {
+      "definition": "Rolle des Dritten."
+    },
+    "LegalPersonIdentification": {
+      "definition": "Identifikation der dritten juristischen Person."
+    }
+  }
+}

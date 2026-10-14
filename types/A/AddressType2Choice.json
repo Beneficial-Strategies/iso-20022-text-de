@@ -1,0 +1,12 @@
+{
+  "isoType": "AddressType2Choice",
+  "definition": "Auswahl von Formaten für die Adressart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Adressart als Code angegeben."
+    },
+    "Proprietary": {
+      "definition": "Adressart als proprietärer Code angegeben."
+    }
+  }
+}

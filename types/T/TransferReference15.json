@@ -1,0 +1,21 @@
+{
+  "isoType": "TransferReference15",
+  "definition": "Referenz einer Übertragung und einer Übertragungsstornierung.",
+  "isoElements": {
+    "TransferReference": {
+      "definition": "Eindeutiger Identifikator für die Übertragungsanweisung, für die der Stornierungsauftrag gesendet wird, wie von der anweisenden Partei vergeben."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Übertragung durch den Anleger. Diese Referenz kann typischerweise in einem Hub-Szenario verwendet werden, um die vom zugrunde liegenden Kunden vergebene Referenz der Übertragung anzugeben."
+    },
+    "CounterpartyReference": {
+      "definition": "Von der Gegenpartei vergebene zweifelsfreie Identifikation der Übertragung."
+    },
+    "CancellationReference": {
+      "definition": "Eindeutiger Identifikator für die Übertragungsstornierung, wie von der anweisenden Partei vergeben."
+    },
+    "CancellationReason": {
+      "definition": "Grund für die Stornierung."
+    }
+  }
+}

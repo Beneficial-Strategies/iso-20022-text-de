@@ -1,0 +1,15 @@
+{
+  "isoType": "Recipient4Choice",
+  "definition": "Transportschlüssel oder Schlüsselverschlüsselungsschlüssel (KEK) für den Empfänger.",
+  "isoElements": {
+    "KeyTransport": {
+      "definition": "Verschlüsselungsschlüssel unter Verwendung eines zuvor verteilten asymmetrischen öffentlichen Schlüssels."
+    },
+    "KEK": {
+      "definition": "Schlüsselverschlüsselungsschlüssel unter Verwendung eines zuvor verteilten symmetrischen Schlüssels."
+    },
+    "KeyIdentifier": {
+      "definition": "Identifikation eines Schutzschlüssels ohne Sitzungsschlüssel, der zwischen Initiator und Empfänger geteilt und zuvor ausgetauscht wurde."
+    }
+  }
+}

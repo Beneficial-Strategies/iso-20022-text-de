@@ -1,0 +1,12 @@
+{
+  "isoType": "BeneficiaryCertificationType15Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe der Art der erforderlichen Bescheinigung des Begünstigten.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der Bescheinigung des wirtschaftlich Berechtigten in codierter Form."
+    },
+    "Proprietary": {
+      "definition": "Art der Bescheinigung des wirtschaftlich Berechtigten in proprietärer Form."
+    }
+  }
+}

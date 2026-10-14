@@ -1,0 +1,30 @@
+{
+  "isoType": "BalanceAdjustment1",
+  "definition": "Gibt die Saldenanpassungen für eine bestimmte Dienstleistung an.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art der Anpassung an."
+    },
+    "Description": {
+      "definition": "Freitextbeschreibung und Erläuterung der Anpassung."
+    },
+    "BalanceAmount": {
+      "definition": "Betrag der Anpassung. Würde der Betrag den zugrunde liegenden Saldo verringern, ist er mit negativem Vorzeichen anzugeben. Angegeben in der Kontowährung."
+    },
+    "AverageAmount": {
+      "definition": "Tagesgewichteter Nettobetrag der Anpassung des durchschnittlichen eingezogenen Saldos über den Kontoauszugszeitraum."
+    },
+    "ErrorDate": {
+      "definition": "Datum, an dem der Fehler auf dem zugrunde liegenden Geldkonto aufgetreten ist."
+    },
+    "PostingDate": {
+      "definition": "Datum, an dem der Fehler auf dem Geldkonto korrigiert wurde. Ist das Datum nicht bekannt, ist der letzte Tag des Monats anzugeben, in dem der Fehler korrigiert wurde."
+    },
+    "Days": {
+      "definition": "Anzahl der Tage innerhalb des Zeitraums, auf die sich die Anpassung bezieht."
+    },
+    "EarningsAdjustmentAmount": {
+      "definition": "Anpassung der Guthabengutschrift (Soll oder Haben), die sich aus der Auswirkung dieser Anpassung auf den durchschnittlichen eingezogenen Saldo ergibt. Würde der Betrag die fällige Gutschrift verringern, ist er mit negativem Vorzeichen anzugeben."
+    }
+  }
+}

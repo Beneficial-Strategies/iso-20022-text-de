@@ -1,0 +1,24 @@
+{
+  "isoType": "ReportData4",
+  "definition": "Numerische Darstellung der Netto-Zu- und Abnahmen auf einem Konto zu einem bestimmten Zeitpunkt. Ein Barsaldo wird aus der Summe der Bargutschriften abzüglich der Summe der Barbelastungen berechnet.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identifikation des Berichts, die vom Absender vergeben wird."
+    },
+    "ValueDate": {
+      "definition": "Wertstellungsdatum, für das der Einzahlungsplan erstellt wird."
+    },
+    "DateAndTimeStamp": {
+      "definition": "Datum und Uhrzeit der Berichtserstellung. Die Abweichung von UTC kann ebenfalls angegeben werden."
+    },
+    "Type": {
+      "definition": "Art des Einzahlungsplans."
+    },
+    "ScheduleType": {
+      "definition": "Definiert den Zeitplan, d. h. ob es sich um einen anfänglichen oder einen überarbeiteten Plan handelt."
+    },
+    "SettlementSessionIdentifier": {
+      "definition": "Zur Angabe der angeforderten CLS-Abwicklungssitzung, zu der das zugehörige Geschäft gehört."
+    }
+  }
+}

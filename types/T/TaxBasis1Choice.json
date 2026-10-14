@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxBasis1Choice",
+  "definition": "Auswahl von Formaten für die Steuerbemessungsgrundlage.",
+  "isoElements": {
+    "Code": {
+      "definition": "Steuerbemessungsgrundlage, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Steuerbemessungsgrundlage, ausgedrückt als proprietärer Code."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "isoType": "DeniedReason6Code",
+  "definition": "Gibt den Zurückweisungsgrund an.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Nach Ablauf der Frist des kontoführenden Instituts eingegangen."
+    },
+    "CDCY": {
+      "name": "Bedingt Währung",
+      "definition": "Die Ausführung wird wegen eines mit der Währung der Transaktion verknüpften Prozesses verweigert."
+    },
+    "CDRE": {
+      "name": "Bedingt Neuausrichtung",
+      "definition": "Die Ausführung wird wegen der Durchführung eines Angleichungsprozesses beim Emittenten-CSD verweigert."
+    },
+    "DCAN": {
+      "name": "Abgelehnt, da storniert",
+      "definition": "Die Anforderung wurde abgelehnt, da die Anweisung storniert wurde."
+    },
+    "DSET": {
+      "name": "Abgelehnt, da abgewickelt",
+      "definition": "Die Anforderung wurde abgelehnt, da die Anweisung abgewickelt wurde."
+    },
+    "DPRG": {
+      "name": "Abgelehnt, da in Bearbeitung",
+      "definition": "Die Anforderung wurde abgelehnt, da der Abwicklungsprozess läuft."
+    },
+    "DREP": {
+      "name": "Abgelehnt, da Repo beendet",
+      "definition": "Die Anforderung wurde abgelehnt, da das Repo storniert wurde."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "CDRG": {
+      "name": "Bedingt Registerstelle",
+      "definition": "Die Ausführung wird wegen der Durchführung eines Prozesses bei der Registerstelle verweigert."
+    }
+  }
+}

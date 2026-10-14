@@ -1,0 +1,27 @@
+{
+  "isoType": "PaymentInstrument17",
+  "definition": "Instrument zur Verarbeitung einer Zahlungsanweisung.",
+  "isoElements": {
+    "SettlementCurrency": {
+      "definition": "Mit dem Zahlungsinstrument verbundene Währung."
+    },
+    "DividendPercentage": {
+      "definition": "Prozentsatz der Dividendenzahlung, der nicht wieder angelegt, das heißt in bar ausgezahlt werden soll."
+    },
+    "SubscriptionPaymentInstrument": {
+      "definition": "Instrument, das einen Geldwert hat oder darstellt und zur Verarbeitung einer Zahlungsanweisung für eine Zeichnungszahlung verwendet wird."
+    },
+    "RedemptionPaymentInstrument": {
+      "definition": "Instrument, das einen Geldwert hat oder darstellt und zur Verarbeitung einer Zahlungsanweisung für eine Rücknahmezahlung verwendet wird."
+    },
+    "DividendPaymentInstrument": {
+      "definition": "Instrument, das einen Geldwert hat oder darstellt und zur Verarbeitung einer Zahlungsanweisung für eine Dividendenzahlung verwendet wird."
+    },
+    "SavingsPlanPaymentInstrument": {
+      "definition": "Instrument, das einen Geldwert hat oder darstellt und zur Verarbeitung einer Zahlungsanweisung für eine Sparplanzahlung verwendet wird."
+    },
+    "InterestPaymentInstrument": {
+      "definition": "Instrument, das einen Geldwert hat oder darstellt und zur Verarbeitung einer Zahlungsanweisung für eine Zinszahlung verwendet wird."
+    }
+  }
+}

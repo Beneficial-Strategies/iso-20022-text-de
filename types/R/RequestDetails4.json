@@ -1,0 +1,12 @@
+{
+  "isoType": "RequestDetails4",
+  "definition": "Details eines oder mehrerer Schlüssel der Anfrage.",
+  "isoElements": {
+    "Key": {
+      "definition": "Schlüssel, für den die spezifischen Daten zurückgegeben werden, zum Beispiel ein BIC."
+    },
+    "ReportData": {
+      "definition": "Zurückgegebene Daten."
+    }
+  }
+}

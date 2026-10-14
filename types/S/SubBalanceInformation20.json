@@ -1,0 +1,29 @@
+{
+  "isoType": "SubBalanceInformation20",
+  "definition": "Nettoposition eines getrennt geführten Bestands eines einzelnen Wertpapiers innerhalb der Gesamtposition auf dem Wertpapierkonto, zum Beispiel Teilsaldo je Status.",
+  "isoElements": {
+    "SubBalanceType": {
+      "definition": "Grund für den Unterbestand."
+    },
+    "Quantity": {
+      "definition": "Menge der Wertpapiere im Teilsaldo."
+    },
+    "SubBalanceAdditionalDetails": {
+      "definition": "Liefert zusätzliche Unterbestandsinformationen."
+    },
+    "QuantityBreakdown": {
+      "definition": "Aufgliederung der gemeldeten Gesamtmenge in wesentliche Lose, zum Beispiel Steuerlose."
+    },
+    "AdditionalBalanceBreakdownDetails": {
+      "definition": "Liefert zusätzliche Informationen zum Unterbestand des Instruments für das gesamte gemeldete Finanzinstrument oder Teile davon (nicht registriert, steuerbefreit usw.)."
+    }
+  },
+  "isoRules": {
+    "SubBalanceAdditionalDetailsRule": {
+      "definition": "Sofern zwischen Sender und Empfänger nicht bilateral vereinbart, darf SubBalanceAdditionnalDetails, falls verwendet, keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können."
+    },
+    "AvailableWithNoStatusRule": {
+      "definition": "Wenn der Unterbestandstyp AvailableWithNoStatus ist, darf QuantityAndAvailability nicht verwendet werden."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ResponseStatus5Choice",
+  "definition": "Auswahl des Formats für den Antwortstatus.",
+  "isoElements": {
+    "Code": {
+      "definition": "Liefert den Status der empfangenen Sicherheitennachricht (Sicherheitenforderung, Sicherheitenvorschlag oder Vorschlag/Anforderung zum Austausch von Sicherheiten) aus Sicht des Sicherheitenmanagements."
+    },
+    "Proprietary": {
+      "definition": "Liefert den Status der empfangenen Sicherheitennachricht (Sicherheitenforderung, Sicherheitenvorschlag oder Vorschlag/Anforderung zum Austausch von Sicherheiten) aus Sicht des Sicherheitenmanagements."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "isoType": "IntraPositionType2",
+  "definition": "Intra-Position-Typ zur Angabe von Paaren von Von-/Nach-Salden.",
+  "isoElements": {
+    "BalanceFrom": {
+      "definition": "Saldo, von dem die Wertpapiere bewegt werden."
+    },
+    "BalanceTo": {
+      "definition": "Saldo, auf den die Wertpapiere bewegt werden."
+    }
+  },
+  "isoRules": {
+    "BalanceFromToRule": {
+      "definition": "Die Kassensaldoart von BalanceFrom muss sich von der Kassensaldoart von BalanceTo unterscheiden."
+    }
+  }
+}

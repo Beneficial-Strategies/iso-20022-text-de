@@ -1,0 +1,4 @@
+{
+  "isoType": "SystemEventNotificationV02",
+  "definition": "Anwendungsbereich|Die Nachricht SystemEventNotification wird von einem zentralen System gesendet, um das Eintreten eines Ereignisses in einem zentralen System mitzuteilen.|Verwendung|Die Nachricht kann von einem zentralen Abwicklungssystem verwendet werden, um seine Teilnehmer über ein Ereignis zu informieren, das im System eintreten wird, zum Beispiel dass das System zu einem bestimmten Zeitpunkt nicht verfügbar sein wird usw."
+}

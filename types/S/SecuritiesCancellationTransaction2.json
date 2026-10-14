@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesCancellationTransaction2",
+  "definition": "Identifiziert die Einzelheiten der Transaktion.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Partei, der das Konto gehört."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "ProcessingStatus": {
+      "definition": "Status und Statusgrund der Transaktion."
+    },
+    "RequestReference": {
+      "definition": "Eindeutige Identifikation des Stornierungsauftrags."
+    },
+    "StatusDate": {
+      "definition": "Datum und Uhrzeit, zu denen der Status zugewiesen wurde."
+    },
+    "TransactionIdentification": {
+      "definition": "Referenzen der Transaktion, für die die Änderung der Positionsumbuchung (Intra-Position) beantragt wird."
+    },
+    "Underlying": {
+      "definition": "Gibt zusätzliche Details der Transaktion an."
+    }
+  }
+}

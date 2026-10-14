@@ -1,0 +1,12 @@
+{
+  "isoType": "CancelInstruction5",
+  "definition": "Zu stornierende Anweisung.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "definition": "Identifikation der zuvor gesendeten einzelnen Anweisung."
+    },
+    "InstructedPosition": {
+      "definition": "Konto und angewiesene Positionen, auf die sich die Stornierungsanfrage zur Versammlungsanweisung bezieht."
+    }
+  }
+}

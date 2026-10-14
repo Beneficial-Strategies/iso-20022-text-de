@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingServicesAmount3",
+  "definition": "Umrechnungen des steuerpflichtigen Servicentgeltbetrags in die Sitzwährung.",
+  "isoElements": {
+    "SourceAmount": {
+      "definition": "Stellt die Summe aller steuerpflichtigen Services in einer bestimmten Steuerregion für eine bestimmte Währung dar. Beispielsweise würden alle steuerpflichtigen Services einer Steuerregion in Euro hier in der Währung Euro summiert."
+    },
+    "HostAmount": {
+      "definition": "Stellt die Summe aller steuerpflichtigen Services in einer bestimmten Steuerregion für eine bestimmte Währung dar und steht in einer Eins-zu-eins-Beziehung zum steuerpflichtigen Gesamtentgelt der Services, jedoch nach der Umrechnung in der Sitzwährung dargestellt."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "FATCAStatus2",
+  "definition": "Informationen zum Status nach dem Foreign Account Tax Compliance Act (FATCA).",
+  "isoElements": {
+    "Type": {
+      "definition": "Status nach dem Foreign Account Tax Compliance Act (FATCA)."
+    },
+    "Source": {
+      "definition": "Quelle des Status nach dem Foreign Account Tax Compliance Act (FATCA)."
+    }
+  }
+}

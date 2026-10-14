@@ -1,0 +1,18 @@
+{
+  "isoType": "ProtectTransactionType2Code",
+  "definition": "Gibt die Art der Protect-Anweisung an.",
+  "isoCodes": {
+    "PROT": {
+      "name": "Protect-Transaktion",
+      "definition": "Die Umstrukturierung ist eine Transaktionsart vom Typ Protect."
+    },
+    "COVP": {
+      "name": "Cover-Transaktion im Namen eines anderen Teilnehmers",
+      "definition": "Die Umstrukturierung ist eine Transaktionsart vom Typ Cover im Namen eines anderen Teilnehmers."
+    },
+    "COVR": {
+      "name": "Cover-Protect-Transaktion",
+      "definition": "Die Umstrukturierung ist eine Transaktionsart vom Typ Cover Protect."
+    }
+  }
+}

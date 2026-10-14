@@ -1,0 +1,15 @@
+{
+  "isoType": "PriceFormat86Choice",
+  "definition": "Auswahl zwischen einem Prozentpreis, einem Betragspreis oder Indexpunkten.",
+  "isoElements": {
+    "PercentagePrice": {
+      "definition": "Preis, ausgedrückt als Prozentsatz."
+    },
+    "AmountPrice": {
+      "definition": "Preis, ausgedrückt als Währung und Betrag."
+    },
+    "IndexPoints": {
+      "definition": "Preis, ausgedrückt als Indexpunkte."
+    }
+  }
+}

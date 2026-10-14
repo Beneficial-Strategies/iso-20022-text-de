@@ -1,0 +1,27 @@
+{
+  "isoType": "CommunicationAddress6",
+  "definition": "Kommunikationsgerätenummer oder elektronische Adresse, die für die Kommunikation verwendet wird.",
+  "isoElements": {
+    "AddressType": {
+      "definition": "Art der Kommunikationsadresse."
+    },
+    "Email": {
+      "definition": "Adresse für elektronische Post (E-Mail)."
+    },
+    "Phone": {
+      "definition": "Gesamtheit der Informationen, die eine Telefonnummer identifizieren, wie von den Telekommunikationsdiensten definiert."
+    },
+    "Mobile": {
+      "definition": "Sammlung von Informationen zur Identifikation einer Mobilfunknummer im Sinne der Telekommunikationsdienste."
+    },
+    "FaxNumber": {
+      "definition": "Gesamtheit der Informationen, die eine FAX-Nummer identifizieren, wie von den Telekommunikationsdiensten definiert."
+    },
+    "TelexAddress": {
+      "definition": "Adresse eines Telexgeräts."
+    },
+    "URLAddress": {
+      "definition": "Adresse des Uniform Resource Locator (URL), beispielsweise für den Dienst im World Wide Web (HTTP)."
+    }
+  }
+}

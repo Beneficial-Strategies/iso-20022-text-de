@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationRejectionReason3",
+  "definition": "Liefert den Grund für die Ablehnung eines Benachrichtigungsavis.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Der Ablehnungsgrund."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

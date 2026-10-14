@@ -1,0 +1,106 @@
+{
+  "isoType": "SettlementTransactionCondition14Code",
+  "definition": "Gibt die Bedingungen an, unter denen der Auftrag/das Handelsgeschäft abgewickelt werden soll.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Annahme nach regulärem Abwicklungsschluss",
+      "definition": "Die Abwicklung erfolgt für eine bilateral akzeptierte Transaktion, die nach der regulären Abwicklungsfrist akzeptiert werden soll."
+    },
+    "ASGN": {
+      "name": "Zuteilung",
+      "definition": "Übertragung des Eigentums am Vermögenswert auf eine andere Partei beim Schließen einer Option."
+    },
+    "BUTC": {
+      "name": "Deckungskauf",
+      "definition": "Die Transaktion ist ein Buy to Cover (Deckungskauf)."
+    },
+    "CLEN": {
+      "name": "Clean",
+      "definition": "Steuerbefreite Finanzinstrumente sind abzuwickeln."
+    },
+    "DLWM": {
+      "name": "Lieferung ohne Abgleich",
+      "definition": "Eine passende Empfangsanweisung ist nicht erforderlich (nur für betroffene internationale oder nationale Zentralverwahrer)."
+    },
+    "DIRT": {
+      "name": "Dirty",
+      "definition": "Steuerpflichtige Finanzinstrumente sind abzuwickeln."
+    },
+    "DRAW": {
+      "name": "Ausgelost",
+      "definition": "Die Abwicklungstransaktion bezieht sich auf ausgeloste Wertpapiere."
+    },
+    "EXER": {
+      "name": "Ausgeübt",
+      "definition": "Die Abwicklungstransaktion bezieht sich auf Optionen, Futures oder Derivate, die ausgeübt werden."
+    },
+    "EXPI": {
+      "name": "Abgelaufen",
+      "definition": "Die Abwicklungstransaktion bezieht sich auf Optionen, Futures oder Derivate, die verfallen sind."
+    },
+    "FRCL": {
+      "name": "Freie Abwicklung ohne Zahlung",
+      "definition": "Die Lieferung erfolgt frei von Zahlung, es wird jedoch ein Clean-Payment-Auftrag gesendet."
+    },
+    "KNOC": {
+      "name": "Ausgeknockt",
+      "definition": "Die Abwicklungstransaktion bezieht sich auf Optionen, Futures oder Derivate, die wertlos verfallen sind."
+    },
+    "NOMC": {
+      "name": "Keine automatische Marktforderung",
+      "definition": "Es soll kein Marktanspruch (Market Claim) automatisch erzeugt werden."
+    },
+    "NACT": {
+      "name": "Nicht buchhaltungsbezogen",
+      "definition": "Die Wertpapiertransaktion ist nicht für die Buchhaltung bestimmt."
+    },
+    "PENS": {
+      "name": "Ausstehender Verkauf",
+      "definition": "Die Position zur Deckung des ausstehenden Verkaufs steht bis zum vertraglichen Abwicklungstag zur Verfügung (Buchhaltungsinformation)."
+    },
+    "PHYS": {
+      "name": "Physisch",
+      "definition": "Die Wertpapiere sind physisch abzuwickeln."
+    },
+    "RHYP": {
+      "name": "Weiterverpfändung",
+      "definition": "Die Sicherheitenposition steht für andere Zwecke zur Verfügung (zum Beispiel Weiterlieferung)."
+    },
+    "RPTO": {
+      "name": "Meldung",
+      "definition": "Bezieht sich auf eine Transaktion, die nur zu Meldezwecken dient."
+    },
+    "RESI": {
+      "name": "Rest",
+      "definition": "Bezieht sich auf eine Transaktion in einem Wertpapier, das beim Zentralverwahrer (CSD) nicht zugelassen ist, für das die Zahlung aber vom Zentralverwahrer durchgeführt wird."
+    },
+    "SHOR": {
+      "name": "Leerverkauf",
+      "definition": "Das Konto wird für Leerverkaufsaufträge verwendet."
+    },
+    "SPDL": {
+      "name": "Sonderlieferung",
+      "definition": "Abwicklungstransaktionen, die mit Sonderlieferung abzuwickeln sind."
+    },
+    "SPST": {
+      "name": "Geteilte Abwicklung",
+      "definition": "Geld und Finanzinstrumente werden an unterschiedlichen Orten abgewickelt."
+    },
+    "TRAN": {
+      "name": "Umwandlung",
+      "definition": "Transaktion, die aus einer Umwandlung hervorgeht."
+    },
+    "TRIP": {
+      "name": "Tri-Party-Segregation",
+      "definition": "Die Wertpapiere werden nicht geliefert, sondern nach einer Tri-Party-Sicherheitentransaktion getrennt verwahrt."
+    },
+    "UNEX": {
+      "name": "Ohne Risikoposition",
+      "definition": "Die Lieferung kann erst erfolgen, wenn das Geld eingegangen ist."
+    },
+    "BPSS": {
+      "name": "Teilweise erfolgreiche Zwangseindeckung",
+      "definition": "Identifikation von Abwicklungsanweisungen, die infolge eines teilweise erfolgreichen Deckungskaufs (Buy-in) erstellt wurden."
+    }
+  }
+}

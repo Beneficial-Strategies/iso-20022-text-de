@@ -1,0 +1,12 @@
+{
+  "isoType": "RateFormat1Choice",
+  "definition": "Auswahl des Formats zur Angabe eines Satzes.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Der Wert wird als Satz ausgedrückt."
+    },
+    "NotSpecifiedRate": {
+      "definition": "Der Wert ist nicht angegeben."
+    }
+  }
+}

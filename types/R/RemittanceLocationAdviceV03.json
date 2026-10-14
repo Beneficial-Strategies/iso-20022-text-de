@@ -1,0 +1,4 @@
+{
+  "isoType": "RemittanceLocationAdviceV03",
+  "definition": "Die Nachricht RemittanceLocationAdvice ermöglicht es dem Auftraggeber der Nachricht, anzugeben, wo sich das Zahlungsavis zu einer zugehörigen Zahlung befindet."
+}

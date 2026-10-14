@@ -1,0 +1,12 @@
+{
+  "isoType": "CommunicationMethod3Choice",
+  "definition": "Auswahl der Formate für die Übermittlungsart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Übermittlungsart als Code ausgedrückt."
+    },
+    "Proprietary": {
+      "definition": "Übermittlungsart als proprietärer Code ausgedrückt."
+    }
+  }
+}

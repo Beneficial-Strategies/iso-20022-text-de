@@ -1,0 +1,33 @@
+{
+  "isoType": "OperationMandate6",
+  "definition": "Informationen zur Festlegung des Mandats.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Legt die Art der Änderung fest."
+    },
+    "Identification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des Mandats."
+    },
+    "ApplicableChannel": {
+      "definition": "Kanal, für den das Bankgeschäftsmandat gültig ist. Wenn ApplicableChannel gleich Fax ist, bedeutet dies, dass eine per Fax gesendete Bankgeschäftsanweisung gemäß den in dieser Nachricht ausgetauschten Mandaten verarbeitet wird."
+    },
+    "RequiredSignatureNumber": {
+      "definition": "Anzahl der durch das Mandat erforderlichen und notwendigen Unterschriften."
+    },
+    "SignatureOrderIndicator": {
+      "definition": "Kennzeichen, ob eine bestimmte Reihenfolge der Unterschriften eingehalten werden muss oder nicht."
+    },
+    "MandateHolder": {
+      "definition": "Inhaber des Mandats."
+    },
+    "BankOperation": {
+      "definition": "Durch ein Mandat zulässiges Bankgeschäft."
+    },
+    "StartDate": {
+      "definition": "Legt das Datum fest, ab dem das Mandat gültig wird."
+    },
+    "EndDate": {
+      "definition": "Legt das Datum fest, an dem das Mandat nicht mehr gültig ist."
+    }
+  }
+}

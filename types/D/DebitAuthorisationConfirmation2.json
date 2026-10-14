@@ -1,0 +1,18 @@
+{
+  "isoType": "DebitAuthorisationConfirmation2",
+  "definition": "Gibt an, ob die Belastungsautorisierung erteilt wird oder nicht.",
+  "isoElements": {
+    "DebitAuthorisation": {
+      "definition": "Code, der die vom Kontoinhaber getroffene Entscheidung über die Anfrage zur Belastungsautorisierung ausdrückt."
+    },
+    "AmountToDebit": {
+      "definition": "Zur Belastung autorisierter Betrag. |Verwendung: Die Partei, die die Belastung genehmigt, kann den Betrag abzüglich der Entgelte autorisieren und die Belastung gegebenenfalls nur mit Wertstellung heute statt mit dem ursprünglichen Wertstellungsdatum genehmigen wollen."
+    },
+    "ValueDateToDebit": {
+      "definition": "Wertstellungsdatum für die Belastung des Betrags."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Anfrage zur Belastungsautorisierung an."
+    }
+  }
+}

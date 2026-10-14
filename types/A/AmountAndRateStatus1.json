@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndRateStatus1",
+  "definition": "Gibt einen Betrag und einen Satzstatus an.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Als Betrag ausgedrückter Wert."
+    },
+    "RateStatus": {
+      "definition": "Als Satzstatus ausgedrückter Wert."
+    }
+  }
+}

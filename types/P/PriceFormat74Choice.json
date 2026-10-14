@@ -1,0 +1,15 @@
+{
+  "isoType": "PriceFormat74Choice",
+  "definition": "Auswahl zwischen einem Prozentpreis, einem Betragspreis oder einem nicht angegebenen Preis.",
+  "isoElements": {
+    "PercentagePrice": {
+      "definition": "Preis, ausgedrückt als Prozentsatz."
+    },
+    "AmountPrice": {
+      "definition": "Preis, ausgedrückt als Währung und Betrag."
+    },
+    "NotSpecifiedPrice": {
+      "definition": "Wert des Preises nicht angegeben."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CreditorReferenceInformation2",
+  "definition": "Vom Zahlungsempfänger bereitgestellte Referenzinformationen zur Identifikation der zugrunde liegenden Dokumente.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art der Zahlungsempfänger-Referenz an."
+    },
+    "Reference": {
+      "definition": "Vom Zahlungsempfänger vergebene eindeutige Referenz zur zweifelsfreien Bezugnahme auf die Zahlungstransaktion.||Verwendung: Falls verfügbar, sollte die initiierende Partei diese Referenz in den strukturierten Verwendungszweck-Informationen angeben, damit der Zahlungsempfänger beim Eingang des Geldbetrags den Abgleich vornehmen kann.||Erfordert der geschäftliche Kontext die Verwendung einer Zahlungsempfänger-Referenz oder einer Zahlungsavis-Identifikation und kann in der gesamten Kette nur eine Kennung übermittelt werden, sollte die Zahlungsempfänger-Referenz bzw. die Zahlungsavis-Identifikation in der Ende-zu-Ende-Transaktionsidentifikation angegeben werden."
+    }
+  }
+}

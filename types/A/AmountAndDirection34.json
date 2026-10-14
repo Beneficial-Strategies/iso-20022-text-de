@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndDirection34",
+  "definition": "Geldbetrag, ausgedrückt mit optionalem Währungscode und Soll-/Haben-Kennzeichen.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag, der zu einer Erhöhung (positives Vorzeichen) oder Verringerung (negatives Vorzeichen) führt, unter Angabe der Währung."
+    },
+    "Sign": {
+      "definition": "Gibt an, ob der Betragswert positiv oder negativ ist."
+    }
+  }
+}

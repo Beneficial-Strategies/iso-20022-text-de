@@ -1,0 +1,24 @@
+{
+  "isoType": "ParticipationMethod3",
+  "definition": "Methode der Abstimmungsteilnahme an einer Hauptversammlung.",
+  "isoElements": {
+    "ParticipationMethod": {
+      "definition": "Methode der Abstimmungsteilnahme an der Hauptversammlung."
+    },
+    "AttendeeEmailRequiredIndicator": {
+      "definition": "Gibt an, ob die E-Mail-Adresse der Partei, die an der virtuellen Versammlung teilnehmen wird, in der Versammlungsanweisung angegeben werden muss."
+    },
+    "IssuerDeadlineForVoting": {
+      "definition": "Frist für die Abstimmung über Tagesordnungsbeschlüsse in der Hauptversammlung."
+    },
+    "SupportedByAccountServicer": {
+      "definition": "Gibt an, ob die vom Emittenten vorgeschlagene spezifische Teilnahmemethode vom Kontoführer unterstützt wird."
+    },
+    "ResponseDeadlineForVoting": {
+      "definition": "Frist des Kontoführers für die Abstimmung über Tagesordnungsbeschlüsse in der Hauptversammlung."
+    },
+    "InvestorTypeIdentification": {
+      "definition": "Anlegerarten, die an dem Ereignis teilnehmen dürfen oder nicht."
+    }
+  }
+}

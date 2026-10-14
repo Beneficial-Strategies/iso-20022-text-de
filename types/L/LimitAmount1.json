@@ -1,0 +1,15 @@
+{
+  "isoType": "LimitAmount1",
+  "definition": "Merkmale eines Geldbetrags zur Festlegung eines Limits.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag des Limits, ausgedrückt in einer zulässigen Währung."
+    },
+    "UtilisationAmount": {
+      "definition": "Ausgenutzter Geldbetrag des Limits in einer zulässigen Währung."
+    },
+    "AvailableAmount": {
+      "definition": "Verbleibender Geldbetrag des Limits in einer zulässigen Währung."
+    }
+  }
+}

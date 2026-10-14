@@ -1,0 +1,15 @@
+{
+  "isoType": "CashParties43",
+  "definition": "Gibt die Geldparteien im Rahmen eines Ereignisses der Kapitalmaßnahme an.",
+  "isoElements": {
+    "Creditor": {
+      "definition": "Partei, der ein Geldbetrag zusteht."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungsempfänger führt."
+    },
+    "MarketClaimCounterparty": {
+      "definition": "Partei, die dem Kontoinhaber Gelder erstattet hat, auf die dieser rechtlich Anspruch hatte."
+    }
+  }
+}

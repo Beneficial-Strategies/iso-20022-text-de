@@ -1,0 +1,38 @@
+{
+  "isoType": "CorporateActionSupplementaryIndicators2",
+  "definition": "Identifikation eines ergänzenden Datenelements.",
+  "isoElements": {
+    "ConditionalPaymentApplicableIndicator": {
+      "definition": "Gibt an, ob die vom Emittenten geleistete Zahlung an eine festgelegte Bedingung geknüpft ist.|Ja: anwendbar.|Nein: nicht anwendbar.|Wenn nicht vorhanden, bedeutet dies Nein."
+    },
+    "SolicitationDealerFeeIndicator": {
+      "definition": "Gibt an, ob für das Ereignis eine Einholungsgebühr (Solicitation Fee) anfällt. Diese Gebühr wird vom einholenden Händler (Soliciting Dealer) gezahlt.|Ja: anwendbar.|Nein: nicht anwendbar.|Wenn nicht vorhanden, bedeutet dies Nein."
+    },
+    "SurrenderSharesToAgentIndicator": {
+      "definition": "Gibt an, ob Aktien außerhalb von DTC an den Agenten geliefert werden müssen, um den Anspruch zu erhalten.|Ja: anwendbar.|Nein: nicht anwendbar.|Wenn nicht vorhanden, bedeutet dies Nein."
+    },
+    "StepUpPrivilegeIndicator": {
+      "definition": "Gibt an, dass der Inhaber das Recht hat, zusätzliche Rechte zu kaufen. Bei Ausübung dieses Rechts kann der Inhaber anstelle von Bruchteilsaktien, auf die er andernfalls Anspruch hätte, eine zusätzliche Aktie des neuen Wertpapiers zeichnen.|Ja: anwendbar.|Nein: nicht anwendbar.|Wenn nicht vorhanden, bedeutet dies Nein."
+    },
+    "RightsOversubscriptionIndicator": {
+      "definition": "Gibt an, ob Inhabern von Rechten die Möglichkeit eingeräumt wird, zusätzliche Aktien zu zeichnen, die von den übrigen Inhabern nicht bezogen werden.|Ja: anwendbar.|Nein: nicht anwendbar.|Wenn nicht vorhanden, bedeutet dies Nein."
+    },
+    "RightsRoundUpPrivilegeIndicator": {
+      "definition": "Gibt an, ob der Aktionär seine Zeichnung aufrunden kann, falls seine Rechte unter dem Erfordernis liegen.|Ja: anwendbar.|Nein: nicht anwendbar.|Wenn nicht vorhanden, bedeutet dies Nein."
+    },
+    "RightsTransferableIndicator": {
+      "definition": "Gibt an, ob Rechte übertragen werden können.|Ja: anwendbar.|Nein: nicht anwendbar.|Wenn nicht vorhanden, bedeutet dies Nein."
+    },
+    "EscrowToMaturityIndicator": {
+      "definition": "Bei Ereignissen der teilweisen Defeasance gibt an, ob eine Treuhandvereinbarung (Escrow) besteht."
+    },
+    "ConcurrentCallIndicator": {
+      "definition": "Gibt das Vorliegen eines zusätzlichen Rückzahlungsereignisses an, das mit demselben Veröffentlichungsdatum, Zahlungstermin und zugrunde liegenden Wertpapier wie das angekündigte Ereignis stattfindet."
+    }
+  },
+  "isoRules": {
+    "ConcurrentCallRule": {
+      "definition": "Wenn ConcurrentCallIndicator Ja ist, muss Lottery FeatureType vorhanden sein."
+    }
+  }
+}

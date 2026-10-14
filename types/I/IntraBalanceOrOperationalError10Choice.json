@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalanceOrOperationalError10Choice",
+  "definition": "Auswahl zwischen den Berichtsdaten oder einem Betriebsfehler.",
+  "isoElements": {
+    "Cancellations": {
+      "definition": "Weitere Details zu den Stornierungstransaktionen der Umbuchung zwischen Beständen."
+    },
+    "OperationalError": {
+      "definition": "Betriebsfehler infolge einer Ablehnung."
+    }
+  }
+}

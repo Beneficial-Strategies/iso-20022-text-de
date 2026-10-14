@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountOrBusinessError6Choice",
+  "definition": "Auswahl zwischen Kontoeinzelheiten oder einem Geschäftsfehler, wenn die angeforderten Daten nicht abgerufen werden können.",
+  "isoElements": {
+    "Account": {
+      "definition": "Angeforderte Informationen zum Konto."
+    },
+    "BusinessError": {
+      "definition": "Grund, weshalb die angeforderten Geschäftsinformationen nicht angegeben werden."
+    }
+  }
+}

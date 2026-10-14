@@ -1,0 +1,54 @@
+{
+  "isoType": "SecuritiesSettlementTransactionDetails59",
+  "definition": "Enthält die Details der Aktualisierung(en) für die Abwicklungstransaktion.",
+  "isoElements": {
+    "SettlementTypeAndAdditionalParameters": {
+      "definition": "Enthält Informationen zu Abwicklungsart und Identifikation."
+    },
+    "Linkages": {
+      "definition": "Verknüpfung mit einer anderen Transaktion, die danach, davor oder gleichzeitig verarbeitet werden muss."
+    },
+    "TradeDetails": {
+      "definition": "Details zum Handelsgeschäft."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Attribute, die ein Finanzinstrument definieren."
+    },
+    "QuantityAndAccountDetails": {
+      "definition": "Details zu Konto und Menge, die an der Transaktion beteiligt sind."
+    },
+    "SettlementParameters": {
+      "definition": "Parameter, die ausdrücklich die Bedingungen festlegen, die erfüllt sein müssen, bevor eine bestimmte Transaktion eines Finanzinstruments abgewickelt werden kann. Diese Parameter werden von der anweisenden Partei in Übereinstimmung mit den Abwicklungsregeln des Marktes festgelegt, in dem die Transaktion abgewickelt wird."
+    },
+    "StandingSettlementInstructionDetails": {
+      "definition": "Gibt an, welche Datenbank für Standardabwicklungsanweisungen zur Ermittlung der an der Transaktion beteiligten Abwicklungsparteien zu verwenden ist."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifiziert die Kette der liefernden Abwicklungsparteien."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifiziert die Kette der empfangenden Abwicklungsparteien."
+    },
+    "CashParties": {
+      "definition": "Beteiligte Geldparteien der Transaktion, sofern sie von den Wertpapierabwicklungsparteien abweichen."
+    },
+    "SettlementAmount": {
+      "definition": "Gesamtbetrag, der im Austausch gegen die Wertpapiere zu zahlen oder zu erhalten ist."
+    },
+    "OtherAmounts": {
+      "definition": "Andere Beträge als der Abwicklungsbetrag."
+    },
+    "DigitalPaymentSettlement": {
+      "definition": "Gesamtmenge des digitalen Vermögenswerts, die im Austausch gegen den Wertpapier-Token zu zahlen oder zu erhalten ist, oder die Netzwerkgebühr."
+    },
+    "OtherBusinessParties": {
+      "definition": "Weitere für die Transaktion relevante Geschäftsparteien."
+    },
+    "AdditionalPhysicalOrRegistrationDetails": {
+      "definition": "Enthält Informationen, die für die Registrierung oder die physische Abwicklung erforderlich sind."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  }
+}

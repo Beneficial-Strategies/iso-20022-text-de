@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargeBasis2Choice",
+  "definition": "Auswahl von Formaten für die Entgelt- oder Provisionsbemessungsgrundlage.",
+  "isoElements": {
+    "Code": {
+      "definition": "Bemessungsgrundlage der Gebühr (Entgelt/Provision), ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Bemessungsgrundlage der Gebühr (Entgelt/Provision), ausgedrückt als proprietärer Code."
+    }
+  }
+}

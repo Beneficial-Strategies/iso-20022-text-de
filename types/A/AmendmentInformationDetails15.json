@@ -1,0 +1,42 @@
+{
+  "isoType": "AmendmentInformationDetails15",
+  "definition": "Enthält weitere Angaben zur Liste der Lastschriftmandat-Elemente, die geändert wurden, wenn das Änderungskennzeichen gesetzt wurde.",
+  "isoElements": {
+    "OriginalMandateIdentification": {
+      "definition": "Eindeutige, vom Zahlungsempfänger vergebene Identifikation zur zweifelsfreien Identifizierung des ursprünglichen Mandats."
+    },
+    "OriginalCreditorSchemeIdentification": {
+      "definition": "Ursprüngliche Identifikation des Gläubiger-Schemas, die geändert wurde."
+    },
+    "OriginalCreditorAgent": {
+      "definition": "Ursprüngliche Bank des Zahlungsempfängers, die geändert wurde."
+    },
+    "OriginalCreditorAgentAccount": {
+      "definition": "Ursprüngliches Konto der Bank des Zahlungsempfängers, das geändert wurde."
+    },
+    "OriginalDebtor": {
+      "definition": "Ursprünglicher Zahlungspflichtiger, der geändert wurde."
+    },
+    "OriginalDebtorAccount": {
+      "definition": "Ursprüngliches Konto des Zahlungspflichtigen, das geändert wurde."
+    },
+    "OriginalDebtorAgent": {
+      "definition": "Ursprüngliche Bank des Zahlungspflichtigen, die geändert wurde."
+    },
+    "OriginalDebtorAgentAccount": {
+      "definition": "Ursprüngliches Konto der Bank des Zahlungspflichtigen, das geändert wurde."
+    },
+    "OriginalFinalCollectionDate": {
+      "definition": "Ursprüngliches Datum der letzten Einziehung, das geändert wurde."
+    },
+    "OriginalFrequency": {
+      "definition": "Ursprüngliche Häufigkeit, die geändert wurde."
+    },
+    "OriginalReason": {
+      "definition": "Ursprünglicher Grund für das Mandat, damit der Nutzer zwischen verschiedenen Mandaten desselben Zahlungsempfängers unterscheiden kann."
+    },
+    "OriginalTrackingDays": {
+      "definition": "Ursprüngliche Anzahl der Nachverfolgungstage, die geändert wurde."
+    }
+  }
+}

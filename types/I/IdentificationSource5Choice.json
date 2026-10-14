@@ -1,0 +1,12 @@
+{
+  "isoType": "IdentificationSource5Choice",
+  "definition": "Auswahl der Quelle der Identifikation eines Finanzinstruments.",
+  "isoElements": {
+    "DomesticIdentificationSource": {
+      "definition": "Land des proprietären Identifikationsschemas."
+    },
+    "ProprietaryIdentificationSource": {
+      "definition": "Stelle, die die proprietäre Identifikation vergibt."
+    }
+  }
+}

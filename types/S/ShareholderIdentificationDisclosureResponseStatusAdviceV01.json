@@ -1,0 +1,9 @@
+{
+  "isoType": "ShareholderIdentificationDisclosureResponseStatusAdviceV01",
+  "definition": "Die Nachricht ShareholdersIdentificationDisclosureResponseStatusAdvice wird von einem Emittenten oder von einem vom Emittenten benannten Dritten (etwa einem Beauftragten des Emittenten) an den Intermediär in einer Verwahrkette gesendet, als Antwort auf eine Nachricht ShareholderIdentificationDisclosureResponse oder auf einen mehrteiligen Antwortbericht (mit Seitennummerierung in mehreren Nachrichten gesendet), um den Annahmestatus der empfangenen Nachricht/des empfangenen Berichts ShareholderIdentificationDisclosureResponse zu melden.|Verwendung: Wird die Offenlegungsantwort zur Aktionärsidentifikation in einem mehrteiligen Antwortbericht (mit mehreren Nachrichten) gesendet, darf für den Annahmestatus des gesamten Berichts nur eine einzige Statusmitteilung zur Antwort gesendet werden.",
+  "isoElements": {
+    "DisclosureResponseIdentification": {
+      "definition": "Eindeutige Identifikation der Offenlegungsantwort, für die die Statusmitteilung gesendet wird."
+    }
+  }
+}

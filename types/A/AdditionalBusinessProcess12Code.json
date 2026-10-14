@@ -1,0 +1,54 @@
+{
+  "isoType": "AdditionalBusinessProcess12Code",
+  "definition": "Gibt den zusätzlichen Geschäftsprozess im Zusammenhang mit einem Ereignis der Kapitalmaßnahme an, wie zum Beispiel einen automatischen Marktanspruch.",
+  "isoCodes": {
+    "CLFT": {
+      "name": "Vollständige Übertragung der erhaltenen Erlöse",
+      "definition": "Der Marktanspruch dient dazu, vom Emittenten erhaltene Erlöse an die anspruchsberechtigte Partei zu übertragen."
+    },
+    "CLAI": {
+      "name": "Anspruch oder Entschädigung",
+      "definition": "Bezieht sich auf einen Anspruch im Zusammenhang mit dem zugehörigen Ereignis der Kapitalmaßnahme."
+    },
+    "CLNT": {
+      "name": "Teilweise Übertragung der erhaltenen Erlöse",
+      "definition": "Der Marktanspruch dient dazu, teilweise vom Emittenten erhaltene Erlöse an die anspruchsberechtigte Partei zu übertragen. Ein Teil wird von der Partei, die ihre Verpflichtung nicht erfüllt hat, in bar ausgeglichen."
+    },
+    "CLPT": {
+      "name": "Keine Übertragung der erhaltenen Erlöse",
+      "definition": "Der Marktanspruch dient dazu, die anspruchsberechtigte Partei in bar durch die Partei zu entschädigen, die ihre Verpflichtung nicht erfüllt hat. Vom Emittenten wurden keine Erlöse erhalten."
+    },
+    "TAXR": {
+      "name": "Steuerrückerstattung",
+      "definition": "Bezieht sich auf eine Steuerrückerstattung durch die Behörden im Zusammenhang mit dem zugehörigen Ereignis der Kapitalmaßnahme."
+    },
+    "CONS": {
+      "name": "Zustimmung",
+      "definition": "Bezieht sich auf eine Zustimmung innerhalb eines Kapitalmaßnahmen-Ereignisses, das kein Zustimmungsereignis (Consent) ist (: 22F:: CAEV//CONS)."
+    },
+    "FPRE": {
+      "name": "Vollständige Vorfinanzierung",
+      "definition": "Vollständige Vorfinanzierung eines Schuldinstruments durch den Emittenten vor der ursprünglichen Fälligkeit, wobei der Emittent Vermögenswerte treuhänderisch hinterlegt. Nur im Rahmen eines Kapitalmaßnahmen-Ereignisses mit teilweiser Defeasance anwendbar."
+    },
+    "INCP": {
+      "name": "Zahlung einer Anreizprämie",
+      "definition": "Das Ereignis ist die Zahlung einer Anreizprämie im Zusammenhang mit den auf einer Hauptversammlung vorgeschriebenen Abstimmungsbedingungen."
+    },
+    "NPLE": {
+      "name": "Keine geteilte Wahl",
+      "definition": "Der Emittent erlaubt nur die Auswahl einer einzigen Option je designiertem Bestand."
+    },
+    "PPUT": {
+      "name": "Teilweise verpflichtende Rückgaberückzahlung",
+      "definition": "Teilweiser obligatorischer Umtausch eines Teils von Anleihen, bei dem die umgetauschten Wertpapiere in der Regel erneut vermarktet werden. Der Emittent kann den Inhabern das Recht anbieten, ihre Wertpapiere zu behalten, anstatt sie umzutauschen. Die Berechtigung für das Ereignis wird per Los bestimmt."
+    },
+    "PPRE": {
+      "name": "Teilweise Vorfinanzierung",
+      "definition": "Teilweises Prefunding einer Schuldverschreibung vor Fälligkeit, ausgelost im Losverfahren. Ein neues Wertpapier wird mit einem früheren Fälligkeitsdatum für den refinanzierten (gekündigten) Teil begeben, und das andere neue Wertpapier wird mit dem ursprünglichen Fälligkeitsdatum für den nicht refinanzierten (verbleibenden) Teil begeben. Nur im Rahmen eines Kapitalmaßnahmen-Ereignisses der teilweisen Defeasance anwendbar."
+    },
+    "SCHM": {
+      "name": "Vergleichsplan oder Reorganisationsplan",
+      "definition": "Teilereignis eines Scheme/Plan of Arrangement: eine Reorganisation eines Unternehmens oder einer Unternehmensgruppe und ihres Kapitals."
+    }
+  }
+}

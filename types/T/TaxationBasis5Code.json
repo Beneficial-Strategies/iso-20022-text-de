@@ -1,0 +1,26 @@
+{
+  "isoType": "TaxationBasis5Code",
+  "definition": "Gibt die Steuer- oder Entgeltbemessungsgrundlage an.",
+  "isoCodes": {
+    "FLAT": {
+      "name": "Pauschal",
+      "definition": "Die Entgelt-/Steuerbemessungsgrundlage ist ein Pauschalbetrag."
+    },
+    "GRAM": {
+      "name": "Bruttobetrag",
+      "definition": "Die Entgelt-/Provisions-/Steuerbemessungsgrundlage ist der Bruttobetrag."
+    },
+    "NEAM": {
+      "name": "Nettobetrag",
+      "definition": "Die Entgelt-/Provisions-/Steuerbemessungsgrundlage ist der Nettobetrag."
+    },
+    "NAVP": {
+      "name": "Nettoinventarwert-Preis",
+      "definition": "Die Entgelt-/Steuerbemessungsgrundlage ist der Preis."
+    },
+    "PERU": {
+      "name": "Je Anteil",
+      "definition": "Die Entgelt-/Steuerbemessungsgrundlage gilt je Einheit des Finanzinstruments."
+    }
+  }
+}

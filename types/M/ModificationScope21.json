@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope21",
+  "definition": "Umfang der Änderung, die auf einen bestimmten Informationssatz anzuwenden ist.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Gibt die Art der Änderung an, die auf einen Informationssatz anzuwenden ist."
+    },
+    "IssueAllocation": {
+      "definition": "Informationen zur Inhaberschaft des Anlagekontos in Bezug auf die Zuteilung von Neuemissionen für einen Hedgefonds."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RateType4Choice",
+  "definition": "Gibt den Satz als Prozentsatz oder als Text an.",
+  "isoElements": {
+    "Percentage": {
+      "definition": "Verhältnis des in einem bestimmten Zeitraum gezahlten Zinsbetrags zum Kapitalbetrag des verzinslichen Finanzinstruments."
+    },
+    "Other": {
+      "definition": "In anderer Form ausgedrückte Satzart."
+    }
+  }
+}

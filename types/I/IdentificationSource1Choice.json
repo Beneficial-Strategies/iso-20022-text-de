@@ -1,0 +1,12 @@
+{
+  "isoType": "IdentificationSource1Choice",
+  "definition": "Auswahl eines proprietären oder inländischen Identifikationsschemas, das ein Wertpapier eindeutig identifiziert.",
+  "isoElements": {
+    "Domestic": {
+      "definition": "Land des proprietären Identifikationsschemas."
+    },
+    "Proprietary": {
+      "definition": "Stelle, die die proprietäre Identifikation vergibt."
+    }
+  }
+}

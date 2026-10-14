@@ -1,0 +1,56 @@
+{
+  "isoType": "RequestDetails29",
+  "definition": "Details des Antrags auf Änderung der Abwicklungsbedingungen.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referenzen der Transaktion, für die die Änderung der Wertpapierabwicklungsbedingungen beantragt wird."
+    },
+    "RestrictionReference": {
+      "definition": "Beschränkungsreferenzen, die auf die Transaktion angewendet werden, für die die Änderung der Wertpapierabwicklungsbedingungen beantragt wird."
+    },
+    "AutomaticBorrowing": {
+      "definition": "Bedingung für die automatische Wertpapierleihe."
+    },
+    "RetainIndicator": {
+      "definition": "Gibt an, ob die ablaufende Anweisung zur Abwicklung bestätigt ist."
+    },
+    "Linkage": {
+      "definition": "Gibt die Art der angeforderten Verknüpfung an."
+    },
+    "Priority": {
+      "definition": "Gibt an, ob die Transaktion mit hoher Priorität auszuführen ist."
+    },
+    "OtherProcessing": {
+      "definition": "Gibt eine andere Art von Verarbeitungsänderungsauftrag an."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Gibt an, ob eine Teilabwicklung zulässig ist."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Gibt an, ob die Abwicklungstransaktion über ein RTGS-System oder ein Nicht-RTGS-System abgewickelt werden soll."
+    },
+    "HoldIndicator": {
+      "definition": "Legt fest, ob die Transaktion angehalten/gesperrt/eingefroren ist."
+    },
+    "MatchingDenial": {
+      "definition": "Gibt die beantragte Änderung der Abgleichsverarbeitung an."
+    },
+    "UnilateralSplit": {
+      "definition": "Gibt an, dass die einseitige Aufteilung der Transaktion beantragt wird."
+    },
+    "Linkages": {
+      "definition": "Informationen zur angeforderten Verknüpfung."
+    }
+  },
+  "isoRules": {
+    "ModificationRequestPresenceRule": {
+      "definition": "Mindestens ein Antragstyp für die Änderung der Wertpapierabwicklungsbedingungen muss vorhanden sein."
+    },
+    "OtherProcessingRule": {
+      "definition": "Wird OtherProcessing verwendet, muss seine Verwendung zwischen Sender und Empfänger vorab vereinbart sein."
+    },
+    "SettlementConditionModificationApplicabilityRule": {
+      "definition": "Nicht alle Antragstypen für die Änderung der Abwicklungsbedingungen gelten für alle Kontoführer."
+    }
+  }
+}

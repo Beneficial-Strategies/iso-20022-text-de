@@ -1,0 +1,14 @@
+{
+  "isoType": "WaivingInstruction1Code",
+  "definition": "Gibt die Form der Rückvergütung an, wenn auf die Provision verzichtet wird.",
+  "isoCodes": {
+    "WICA": {
+      "name": "Verzicht in bar",
+      "definition": "Die Form der erlassenen Provision ist Bargeld."
+    },
+    "WIUN": {
+      "name": "Verzicht in Anteilen",
+      "definition": "Die Form der erlassenen Provision sind zusätzliche Anteile eines Finanzinstruments."
+    }
+  }
+}

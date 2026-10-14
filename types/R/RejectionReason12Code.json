@@ -1,0 +1,70 @@
+{
+  "isoType": "RejectionReason12Code",
+  "definition": "Gibt den Grund für die Ablehnung einer Deaktivierungsanweisung an.",
+  "isoCodes": {
+    "DEAC": {
+      "name": "Ereignis bereits deaktiviert",
+      "definition": "Abgelehnt, da die Deaktivierung des Ereignisses bereits abgeschlossen ist."
+    },
+    "FAIL": {
+      "name": "Validierung fehlgeschlagen",
+      "definition": "Die Validierung der Mitteilung/Anweisung/des Antrags ist fehlgeschlagen."
+    },
+    "SAME": {
+      "name": "Gleiche CA-Identifikation",
+      "definition": "Eine Agent Corporate Action Deactivation Instruction mit derselben Identifikation existiert bereits."
+    },
+    "REFI": {
+      "name": "Ungültige CA-Identifikation",
+      "definition": "Ungültige Kapitalmaßnahmen-Identifikation angegeben."
+    },
+    "AGIN": {
+      "name": "Ungültiger Agent",
+      "definition": "Ungültige Identifikation des Beauftragten angegeben."
+    },
+    "MAIN": {
+      "name": "Nicht der Hauptagent",
+      "definition": "Die angegebene Agent-Identifikation entspricht nicht dem Hauptbeauftragten des zugehörigen Ereignisses."
+    },
+    "OPTI": {
+      "name": "Ungültige Option",
+      "definition": "Ungültige Kombination aus CA-Optionscode und CA-Optionsnummer."
+    },
+    "PEDA": {
+      "name": "Deaktivierung ausstehend",
+      "definition": "Für die angegebene Kapitalmaßnahmen-Option liegt bereits eine ausstehende Deaktivierungsanweisung vor."
+    },
+    "NORO": {
+      "name": "Keine verbleibende Option",
+      "definition": "Für die angegebene Kapitalmaßnahme sind keine Optionen mehr zu deaktivieren."
+    },
+    "INET": {
+      "name": "Ungültiger Ereignistyp",
+      "definition": "Der CA Event Type entspricht nicht der zugehörigen Kapitalmaßnahme."
+    },
+    "INUS": {
+      "name": "Ungültiges Basiswertpapier",
+      "definition": "Die Underlying Security Identification entspricht nicht der angegebenen Corporate Action Reference."
+    },
+    "INPT": {
+      "name": "Ungültige Art der Ereignisverarbeitung",
+      "definition": "Der Event Processing Type entspricht nicht der zugehörigen Kapitalmaßnahme."
+    },
+    "INMV": {
+      "name": "Ungültige Ereignisart (verpflichtend/freiwillig)",
+      "definition": "Der Mandatory/Voluntary Event Type entspricht nicht der zugehörigen Kapitalmaßnahme."
+    },
+    "SAID": {
+      "name": "Gleiche Identifikation",
+      "definition": "Mehrere Nachrichten mit derselben Identifikation."
+    },
+    "MICA": {
+      "name": "Nicht übereinstimmende CA-Identifikation",
+      "definition": "Die Issuer CA Identification entspricht nicht der angegebenen Corporate Action Identification."
+    },
+    "NOAP": {
+      "name": "Nicht anwendbar",
+      "definition": "Diese Anweisungsart ist für obligatorische Ereignisse nicht anwendbar."
+    }
+  }
+}

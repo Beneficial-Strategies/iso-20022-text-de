@@ -1,0 +1,15 @@
+{
+  "isoType": "MandateCancellationReason2",
+  "definition": "Enthält weitere Einzelheiten zum Grund der Mandatsstornierungsanforderung.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Partei, die die Stornierungsanforderung stellt."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für die Stornierungsanforderung an."
+    },
+    "AdditionalInformation": {
+      "definition": "Weitere Einzelheiten zum Grund der Stornierungsanforderung."
+    }
+  }
+}

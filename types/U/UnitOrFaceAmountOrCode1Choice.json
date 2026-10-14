@@ -1,0 +1,15 @@
+{
+  "isoType": "UnitOrFaceAmountOrCode1Choice",
+  "definition": "Auswahl zwischen einer Einheit als Dezimalzahl, einem Nennbetrag in Währung und Betrag oder einer als Code ausgedrückten Einheit.",
+  "isoElements": {
+    "Unit": {
+      "definition": "Als Zahl ausgedrückte Menge, z. B. eine Anzahl von Aktien."
+    },
+    "FaceAmount": {
+      "definition": "Menge, ausgedrückt als Betrag, der den Nennbetrag, das heißt den Kapitalbetrag, eines Schuldinstruments darstellt."
+    },
+    "Code": {
+      "definition": "Als Code ausgedrückte Menge."
+    }
+  }
+}

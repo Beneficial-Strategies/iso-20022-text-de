@@ -1,0 +1,14 @@
+{
+  "isoType": "TransferInFunction1Code",
+  "definition": "Gibt die Funktion des Übertragungseingangs an.",
+  "isoCodes": {
+    "ADRE": {
+      "name": "Avis und Anfrage",
+      "definition": "Der Übertragungseingang ist eine Avisierung und Anfrage, das heißt, die Nachricht dient dazu, den Empfänger darüber zu informieren, dass eine unaufgeforderte Übertragungseingangsbestätigung zu erwarten ist, und Kontoinformationen für die Übertragung anzufordern."
+    },
+    "INST": {
+      "name": "Anweisung",
+      "definition": "Der Übertragungseingang ist eine Anweisung."
+    }
+  }
+}

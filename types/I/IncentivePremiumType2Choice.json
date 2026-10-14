@@ -1,0 +1,15 @@
+{
+  "isoType": "IncentivePremiumType2Choice",
+  "definition": "Auswahl der Barprämie, die dem Wertpapierinhaber bei der Abstimmung gezahlt wird.",
+  "isoElements": {
+    "PerSecurity": {
+      "definition": "Anzahl der Wertpapiere, die zu einer Prämie berechtigen."
+    },
+    "PerVote": {
+      "definition": "Stimmenmenge je Stimmart, die zu einer Prämie berechtigt."
+    },
+    "PerAttendee": {
+      "definition": "Gibt an, dass die Prämie je Teilnehmer gewährt wird."
+    }
+  }
+}

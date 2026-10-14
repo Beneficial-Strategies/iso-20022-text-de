@@ -1,0 +1,12 @@
+{
+  "isoType": "DiscountAmountType1Choice",
+  "definition": "Gibt die Betragsart an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt die Betragsart in codierter Form an."
+    },
+    "Proprietary": {
+      "definition": "Gibt die Betragsart in Freitextform an."
+    }
+  }
+}

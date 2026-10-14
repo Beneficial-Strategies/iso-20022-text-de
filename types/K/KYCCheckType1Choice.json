@@ -1,0 +1,12 @@
+{
+  "isoType": "KYCCheckType1Choice",
+  "definition": "Auswahl von Formaten für die Angabe der Art der Know-Your-Customer-Prüfung (KYC).",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Art der Know-Your-Customer-Prüfung (KYC)."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Art der Know-Your-Customer-Prüfung (KYC)."
+    }
+  }
+}

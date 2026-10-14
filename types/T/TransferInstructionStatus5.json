@@ -1,0 +1,12 @@
+{
+  "isoType": "TransferInstructionStatus5",
+  "definition": "Status der Anweisung.",
+  "isoElements": {
+    "Status": {
+      "definition": "Statuscode."
+    },
+    "Reason": {
+      "definition": "Grund für den Status."
+    }
+  }
+}

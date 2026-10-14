@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesBalanceType2Code",
+  "definition": "Gibt die Art des Wertpapier- oder Investmentfondssaldos an.",
+  "isoCodes": {
+    "CLEN": {
+      "name": "Steuerbefreit",
+      "definition": "Bestand an steuerbefreiten Wertpapieren."
+    },
+    "DIRT": {
+      "name": "Nicht steuerbefreit",
+      "definition": "Bestand an steuerpflichtigen Wertpapieren."
+    },
+    "NOMI": {
+      "name": "Namens",
+      "definition": "Bestand an Wertpapieren, die registriert sind (auf den Namen eines Nominees oder des wirtschaftlich Berechtigten)."
+    },
+    "OTHR": {
+      "name": "Nicht klassifiziert",
+      "definition": "Bestand an Wertpapieren, der nicht klassifiziert ist, das heißt keinem der bestehenden Unterbestandstypen zugeordnet werden kann."
+    },
+    "SPOS": {
+      "name": "Street-Position",
+      "definition": "Bestand an Wertpapieren, die weiterhin auf den Namen des früheren wirtschaftlich Berechtigten der Wertpapiere registriert sind."
+    },
+    "UNRG": {
+      "name": "Nicht registriert",
+      "definition": "Bestand an Wertpapieren, die aufgrund einer Beschränkung des Auslandsbesitzes nicht registriert werden konnten."
+    }
+  }
+}

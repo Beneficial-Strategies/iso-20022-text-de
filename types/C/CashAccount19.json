@@ -1,0 +1,15 @@
+{
+  "isoType": "CashAccount19",
+  "definition": "Liefert Informationen zum Geldkonto.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Wert eine Belastung oder eine Gutschrift ist."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identifikation der Partei, die Inhaber des Kontos ist."
+    },
+    "AccountIdentification": {
+      "definition": "Identifikation des Geldkontos oder des Wertpapierkontos, von dem das Geldkonto abgeleitet ist."
+    }
+  }
+}

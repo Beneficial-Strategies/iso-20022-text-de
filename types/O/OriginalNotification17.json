@@ -1,0 +1,24 @@
+{
+  "isoType": "OriginalNotification17",
+  "definition": "Identifiziert die ursprüngliche Benachrichtigung und gibt deren Status an.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, die vom ursprünglichen Absender vergeben wird, um die ursprüngliche Nachricht NotificationToReceive zweifelsfrei zu identifizieren."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen die ursprüngliche Nachricht erstellt wurde."
+    },
+    "OriginalNotificationIdentification": {
+      "definition": "Identifikation der ursprünglichen Benachrichtigung."
+    },
+    "NotificationStatus": {
+      "definition": "Gibt den Status der Benachrichtigung in codierter Form an."
+    },
+    "AdditionalStatusInformation": {
+      "definition": "Weitere Details zum Status der Benachrichtigung."
+    },
+    "OriginalNotificationReference": {
+      "definition": "Identifiziert den ursprünglichen Benachrichtigungsposten und gibt dessen Status an."
+    }
+  }
+}

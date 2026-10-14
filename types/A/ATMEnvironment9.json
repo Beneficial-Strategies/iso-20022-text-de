@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMEnvironment9",
+  "definition": "Umfeld des ATM.",
+  "isoElements": {
+    "Acquirer": {
+      "definition": "Acquirer der Transaktion am ATM, zuständig für die Verrechnung der Gelder mit dem Emittenten."
+    },
+    "ATMManagerIdentification": {
+      "definition": "Identifikation des ATM-Betreibers."
+    },
+    "ATM": {
+      "definition": "Informationen zum ATM."
+    }
+  }
+}

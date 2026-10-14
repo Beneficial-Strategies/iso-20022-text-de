@@ -1,0 +1,22 @@
+{
+  "isoType": "Algorithm11Code",
+  "definition": "Identifikation eines Digest-Algorithmus.",
+  "isoCodes": {
+    "HS25": {
+      "name": "SHA256",
+      "definition": "Nachrichten-Digest-Algorithmus SHA-256 gemäß FIPS 180-1 und 2 - (ASN.1 Object Identifier: id-sha256)."
+    },
+    "HS38": {
+      "name": "SHA384",
+      "definition": "Nachrichten-Digest-Algorithmus SHA-384 gemäß FIPS 180-1 und 2 - (ASN.1 Object Identifier: id-sha384)."
+    },
+    "HS51": {
+      "name": "SHA512",
+      "definition": "Nachrichten-Digest-Algorithmus SHA-512 gemäß FIPS 180-1 und 2 - (ASN.1 Object Identifier: id-sha512)."
+    },
+    "HS01": {
+      "name": "SHA1",
+      "definition": "Der als DEPRECATED gekennzeichnete Nachrichten-Digest-Algorithmus SHA-1 gemäß FIPS 180-1 - (ASN.1 Object Identifier: id-sha1)."
+    }
+  }
+}

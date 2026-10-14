@@ -1,0 +1,12 @@
+{
+  "isoType": "DateTimePeriod2",
+  "definition": "Zeitspanne, die durch Startdatum und -zeit sowie Enddatum und -zeit festgelegt ist.",
+  "isoElements": {
+    "FromDateTime": {
+      "definition": "Datum und Uhrzeit des Beginns des Bereichs."
+    },
+    "ToDateTime": {
+      "definition": "Datum und Uhrzeit des Endes des Bereichs."
+    }
+  }
+}

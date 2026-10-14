@@ -1,0 +1,27 @@
+{
+  "isoType": "MeetingReference10",
+  "definition": "Identifikation einer Versammlung.",
+  "isoElements": {
+    "MeetingIdentification": {
+      "definition": "Identifikation, die der Hauptversammlung von der Partei zugewiesen wird, die die Versammlungsbenachrichtigung bereitstellt. Sie muss für die benachrichtigende Partei eindeutig sein."
+    },
+    "IssuerMeetingIdentification": {
+      "definition": "Identifikation, die der Versammlung vom Emittenten vergeben wird. Sie muss für den Emittenten eindeutig sein."
+    },
+    "MeetingDateAndTime": {
+      "definition": "Datum und Uhrzeit, zu denen die Versammlung stattfinden wird."
+    },
+    "Type": {
+      "definition": "Art der Versammlung, für die Anweisungen gesendet werden."
+    },
+    "Classification": {
+      "definition": "Klassifizierungsart der Versammlung."
+    },
+    "Location": {
+      "definition": "Ort der Gesellschaftsversammlung für den geplanten Versammlungstermin."
+    },
+    "Issuer": {
+      "definition": "Institution, die Emittent des Wertpapiers ist, auf das sich die Versammlung bezieht."
+    }
+  }
+}

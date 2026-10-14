@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionPrice2",
+  "definition": "Gibt Preise an.",
+  "isoElements": {
+    "MaximumPrice": {
+      "definition": "Höchst- bzw. Obergrenzenpreis, zu dem ein Inhaber bieten kann, z. B. bei einem Angebot im Rahmen einer holländischen Auktion."
+    },
+    "MinimumPrice": {
+      "definition": "Mindest- bzw. Untergrenzenpreis, zu dem ein Inhaber bieten kann, z. B. bei einem Angebot im Rahmen einer holländischen Auktion."
+    }
+  }
+}

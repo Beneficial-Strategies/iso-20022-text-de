@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesEntryType3Code",
+  "definition": "Gibt die Art der Wertpapierbuchung auf einem Konto an.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Berechtigt",
+      "definition": "Gesamtanzahl der für dieses Ereignis berechtigten Wertpapiere."
+    },
+    "UNBA": {
+      "name": "Nicht angewiesener Bestand",
+      "definition": "Saldo der nicht angewiesenen Position."
+    },
+    "INBA": {
+      "name": "Angewiesener Bestand",
+      "definition": "Saldo der angewiesenen Position."
+    }
+  }
+}

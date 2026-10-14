@@ -1,0 +1,42 @@
+{
+  "isoType": "OptionInstructionDetails13",
+  "definition": "Für eine bestimmte Option eingegangene Anweisungsinformationen.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Identifiziert die Anweisung oder Protect-Anweisung."
+    },
+    "InstructionSequenceNumber": {
+      "definition": "Liefert die laufende Nummer der Anweisung."
+    },
+    "ProtectIndicator": {
+      "definition": "Gibt an, ob die Anweisung eine Protect- oder eine Cover-Protect-Anweisung ist."
+    },
+    "InstructionQuantity": {
+      "definition": "In der Anweisung angewiesene Wertpapiermenge."
+    },
+    "InstructionDate": {
+      "definition": "Datum der Anweisung."
+    },
+    "ProtectDate": {
+      "definition": "Datum der Protect-Anweisung des Kunden."
+    },
+    "CoverProtectDate": {
+      "definition": "Datum der Deckungs-Protect-Anweisung"
+    },
+    "BidPrice": {
+      "definition": "Gebotspreis der Anweisung."
+    },
+    "ConditionalQuantity": {
+      "definition": "Bedingte Menge der Anweisung."
+    },
+    "CustomerReference": {
+      "definition": "Kundenbezogene narrative Informationen."
+    },
+    "InstructionNarrative": {
+      "definition": "Narrative Informationen aus der übermittelten Anweisung."
+    },
+    "InstructionStatus": {
+      "definition": "Status einer bestimmten Anweisung."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isoType": "TransactionIdentifications37",
+  "definition": "Eindeutiger Bezeichner eines Dokuments, einer Nachricht oder einer Transaktion.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem Kontoinhaber (oder der das Konto verwaltenden anweisenden Partei) bekannt."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie dem kontoführenden Institut bekannt."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identifikation einer Transaktion, die von einer anderen Marktinfrastruktur als einem Zentralverwahrer vergeben wurde, zum Beispiel Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identifikation der Transaktion, vergeben vom Bearbeiter der Anweisung, der weder der Kontoinhaber, noch der Kontoführer, noch die Marktinfrastruktur ist."
+    },
+    "OtherIdentification": {
+      "definition": "Referenz auf eine Transaktion, die nicht mithilfe eines in der Nachricht vorhandenen Standardreferenzelements identifiziert werden kann."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Wenn für AccountOwnerTransactionIdentification keine Referenz verfügbar ist, dann muss AccountOwnerTransactionIdentification NONREF sein."
+    },
+    "AccountOwnerTransactionIdentificationRule": {
+      "definition": "Wenn AccountOwnerTransactionIdentification NONREF ist, dann muss mindestens eine der anderen Referenzen vorhanden sein."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "InvestmentFundTransactionOutType1Code",
+  "definition": "Gibt die Art der Investmentfonds-Transaktion an, die zu einer Mittelbewegung aus einem Fonds führt.",
+  "isoCodes": {
+    "REDM": {
+      "name": "Rücknahme",
+      "definition": "Die Transaktion ist eine Rücknahme eines Investmentfonds."
+    },
+    "SWIO": {
+      "name": "Umschichtung Abgang",
+      "definition": "Die Transaktion ist ein Zeichnungsteil einer Umtauschauftragsausführung."
+    },
+    "INSP": {
+      "name": "Sachleistung",
+      "definition": "Die Transaktion ist eine Sachübertragung (InSpecie)."
+    },
+    "CROO": {
+      "name": "Cross-Abgang",
+      "definition": "Die Transaktion ist ein Cross-out."
+    }
+  }
+}

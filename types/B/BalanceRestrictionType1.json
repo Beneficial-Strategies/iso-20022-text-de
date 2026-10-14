@@ -1,0 +1,15 @@
+{
+  "isoType": "BalanceRestrictionType1",
+  "definition": "Typ mit weiteren Informationen zu Saldobeschränkungen.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art der Beschränkung, zum Beispiel Verkaufsbeschränkung, Kaufbeschränkung, Platzierungsbeschränkung."
+    },
+    "Description": {
+      "definition": "Beschreibung der Beschränkung."
+    },
+    "ProcessingType": {
+      "definition": "Klassifizierung der Art der Verarbeitungsbeschränkung, die das System für die Beschränkung anwenden soll."
+    }
+  }
+}

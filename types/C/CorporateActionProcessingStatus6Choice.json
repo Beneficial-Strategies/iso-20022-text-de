@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionProcessingStatus6Choice",
+  "definition": "Gibt den Status der Einzelheiten des Kapitalmaßnahmen-Ereignisses an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Status der Einzelheiten des Kapitalmaßnahmen-Ereignisses an."
+    },
+    "Proprietary": {
+      "definition": "Informationen zu einer Identifikation, zum Beispiel Parteiidentifikation oder Kontoidentifikation."
+    }
+  }
+}

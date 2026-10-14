@@ -1,0 +1,15 @@
+{
+  "isoType": "TransactionType2",
+  "definition": "Satz von Elementen zur Identifikation der zu meldenden Transaktionen.",
+  "isoElements": {
+    "Status": {
+      "definition": "Gibt den Status der zu meldenden Transaktionen in den Büchern des kontoführenden Instituts an."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob sich die Meldungsanforderung auf Gutschriften oder Belastungen bezieht."
+    },
+    "FloorLimit": {
+      "definition": "Gibt den Mindestwert der Buchungen an, die in der angeforderten Nachricht zu melden sind."
+    }
+  }
+}

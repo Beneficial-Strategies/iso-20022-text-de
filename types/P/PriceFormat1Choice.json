@@ -1,0 +1,21 @@
+{
+  "isoType": "PriceFormat1Choice",
+  "definition": "Auswahl von Formaten zur Angabe eines Preises.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Preis, ausgedrückt als Währung und Betrag."
+    },
+    "Rate": {
+      "definition": "Preis, ausgedrückt als Satz, das heißt Prozentsatz."
+    },
+    "AmountPricePerFinancialInstrumentQuantity": {
+      "definition": "Kurs, angegeben als Betrag pro Menge von Finanzinstrumenten."
+    },
+    "AmountPricePerAmount": {
+      "definition": "Kurs, angegeben als Betrag pro anderer Betrag."
+    },
+    "NotSpecified": {
+      "definition": "Der Wert des Kurses ist nicht angegeben."
+    }
+  }
+}

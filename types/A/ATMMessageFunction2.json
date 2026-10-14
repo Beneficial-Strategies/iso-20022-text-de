@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMMessageFunction2",
+  "definition": "Bezeichnet die Art des Prozesses im Zusammenhang mit einer Nachricht des ATM.",
+  "isoElements": {
+    "Function": {
+      "definition": "Art der angeforderten Funktion."
+    },
+    "ATMServiceCode": {
+      "definition": "Kodierung der Dienstart für den ATM."
+    },
+    "HostServiceCode": {
+      "definition": "Kodierung der Dienstart für den Host des ATM-Betreibers."
+    }
+  }
+}

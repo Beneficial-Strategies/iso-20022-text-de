@@ -1,0 +1,22 @@
+{
+  "isoType": "SecuritiesBalanceType10Code",
+  "definition": "Gibt die Art des Wertpapierbestands an.",
+  "isoCodes": {
+    "AVLB": {
+      "name": "Verfügbar",
+      "definition": "Saldo an Geld oder Wertpapieren, der dem Kontoinhaber am angegebenen Datum zur Verfügung steht."
+    },
+    "REST": {
+      "name": "Beschränkt",
+      "definition": "Geldbestand, der nur unter bestimmten Bedingungen verwendet werden darf.||Die Bestandsart wird verwendet, um Wertpapiere/Geld auf dem Kundenkonto zu sperren, z. B. im Zusammenhang mit Wahlentscheidungen bei bestimmten Kapitalmaßnahmen. Der Bestand steht unter der direkten Kontrolle des System Paying Agent, der als Einziger Wertpapiere aus dieser Bestandsart übertragen kann.|Auch bekannt als \"Escrow-Bestand\" oder \"sequestrierter Bestand\"."
+    },
+    "RDIS": {
+      "name": "Für Ausschüttung reserviert",
+      "definition": "Bestand an Finanzinstrumenten, die für die Verteilung der Erlöse reserviert sind."
+    },
+    "RREM": {
+      "name": "Für Entfernung reserviert",
+      "definition": "Bestand an Wertpapieren, die vorübergehend auf dem SPA-Konto reserviert sind, bevor sie tatsächlich umgetauscht werden."
+    }
+  }
+}

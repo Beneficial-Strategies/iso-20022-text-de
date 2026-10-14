@@ -1,0 +1,27 @@
+{
+  "isoType": "PlainCardData24",
+  "definition": "Sensible Daten zur Zahlungskarte, mit der die Transaktion durchgeführt wird.",
+  "isoElements": {
+    "PAN": {
+      "definition": "Primary Account Number (PAN) der Karte."
+    },
+    "CardSequenceNumber": {
+      "definition": "Identifiziert eine Karte oder ein Zahlungstoken innerhalb einer Gruppe von Karten mit derselben PAN."
+    },
+    "EffectiveDate": {
+      "definition": "Datum, ab dem die Karte verwendet werden kann, ausgedrückt entweder im Format YYYY-MM oder im Format YYYY-MM-DD."
+    },
+    "ExpiryDate": {
+      "definition": "Ablaufdatum der Karte, ausgedrückt entweder im Format YY-MM, im Format YYYY-MM oder im Format YYYY-MM-DD."
+    },
+    "Track1": {
+      "definition": "ISO-Spur 1 vom Magnetstreifen der Karte oder vom ICC, falls der Magnetstreifen nicht gelesen wurde. Das Format entspricht ISO 7813, wobei Anfangs- und Endbegrenzer sowie Zeichen der Längsprüfung (LRC) entfernt sind."
+    },
+    "Track2": {
+      "definition": "ISO-Spur 2 vom Magnetstreifen der Karte oder vom ICC, falls der Magnetstreifen nicht gelesen wurde. Der Inhalt entspricht ISO 7813, wobei Anfangs- und Endbegrenzer sowie Zeichen der Längsprüfung (LRC) entfernt sind."
+    },
+    "Track3": {
+      "definition": "ISO-Spur 3 vom Magnetstreifen der Karte oder vom ICC, falls der Magnetstreifen nicht gelesen wurde. Der Inhalt entspricht ISO 4909, wobei Anfangs- und Endbegrenzer sowie Zeichen der Längsprüfung (LRC) entfernt sind."
+    }
+  }
+}

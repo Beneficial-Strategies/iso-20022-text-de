@@ -1,0 +1,30 @@
+{
+  "isoType": "ATMCommand14",
+  "definition": "Wartungsbefehl, den der ATM ausführen muss.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art des vom ATM auszuführenden Befehls."
+    },
+    "Urgency": {
+      "definition": "Dringlichkeit des Befehls."
+    },
+    "DateTime": {
+      "definition": "Datum und Uhrzeit, zu denen der Befehl ausgeführt werden muss."
+    },
+    "CommandIdentification": {
+      "definition": "Identifikation der Stelle, die den Befehl erteilt."
+    },
+    "Reason": {
+      "definition": "Grund für das Senden des Befehls."
+    },
+    "TraceReason": {
+      "definition": "Nachverfolgung der Gründe durch die Stellen im Pfad vom Ursprung des Befehls bis zum ATM."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Zusätzliche Informationen zum Grund für die Anforderung dieses Befehls."
+    },
+    "CommandParameters": {
+      "definition": "Dem Befehl zugeordnete spezifische Parameter."
+    }
+  }
+}

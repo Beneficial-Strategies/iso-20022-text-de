@@ -1,0 +1,18 @@
+{
+  "isoType": "Intermediary48",
+  "definition": "Partei, die Anlegern Dienstleistungen im Zusammenhang mit Finanzprodukten erbringt.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutiger Identifikator des Intermediärs oder einer mit der Übertragung verbundenen Partei."
+    },
+    "Account": {
+      "definition": "Identifikation des Kontos."
+    },
+    "Role": {
+      "definition": "Vom Intermediär oder der verbundenen Partei wahrgenommene Funktion."
+    },
+    "ContactPerson": {
+      "definition": "Kontaktperson und Kontaktinformationen."
+    }
+  }
+}

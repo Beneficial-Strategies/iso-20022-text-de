@@ -1,0 +1,12 @@
+{
+  "isoType": "FromToPercentageRange1",
+  "definition": "Bereich von Prozentsätzen.",
+  "isoElements": {
+    "From": {
+      "definition": "Untere Grenze eines Bereichs von Prozentsätzen."
+    },
+    "To": {
+      "definition": "Obere Grenze eines Bereichs von Prozentsätzen."
+    }
+  }
+}

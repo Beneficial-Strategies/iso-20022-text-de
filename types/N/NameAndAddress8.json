@@ -1,0 +1,15 @@
+{
+  "isoType": "NameAndAddress8",
+  "definition": "Informationen, die eine Partei lokalisieren und identifizieren.",
+  "isoElements": {
+    "Name": {
+      "definition": "Name, unter dem eine Partei bekannt ist und der üblicherweise zur Identifikation dieser Partei verwendet wird."
+    },
+    "Address": {
+      "definition": "Postanschrift einer Partei."
+    },
+    "AlternativeIdentifier": {
+      "definition": "Eindeutiger und zweifelsfreier Bezeichner, der einem Finanzinstitut mithilfe eines proprietären Identifikationsschemas zugewiesen wurde."
+    }
+  }
+}

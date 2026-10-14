@@ -1,0 +1,14 @@
+{
+  "isoType": "ProcessedStatus5Code",
+  "definition": "Gibt den Verarbeitungsstatus eines Antrags an.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Empfangen",
+      "definition": "Die Anweisung/der Antrag ist eingegangen."
+    },
+    "PACK": {
+      "name": "Akzeptiert",
+      "definition": "Der Antrag ist angenommen."
+    }
+  }
+}

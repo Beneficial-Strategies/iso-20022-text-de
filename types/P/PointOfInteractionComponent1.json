@@ -1,0 +1,24 @@
+{
+  "isoType": "PointOfInteractionComponent1",
+  "definition": "Daten zu einer Komponente des POI, der die Transaktion ausführt.",
+  "isoElements": {
+    "POIComponentType": {
+      "definition": "Typ der Komponente eines POI-Terminals."
+    },
+    "ManufacturerIdentification": {
+      "definition": "Identifikation des Software-, Hardware- oder Systemanbieters der POI-Komponente."
+    },
+    "Model": {
+      "definition": "Identifikation eines Modells der POI-Komponente für einen bestimmten Hersteller."
+    },
+    "VersionNumber": {
+      "definition": "Version der Komponente eines bestimmten Modells."
+    },
+    "SerialNumber": {
+      "definition": "Seriennummer einer Komponente."
+    },
+    "ApprovalNumber": {
+      "definition": "Eindeutige Zulassungsnummer für eine Komponente, von einer Zertifizierungsstelle vergeben.|Verwendung: Es können mehrere Zulassungsnummern vorhanden sein, wenn sie von verschiedenen Stellen vergeben wurden. Die Identifikation der Zertifizierungsstelle muss in der Zulassungsnummer enthalten sein (zum Beispiel am Anfang des Werts)."
+    }
+  }
+}

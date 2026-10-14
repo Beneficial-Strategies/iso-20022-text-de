@@ -1,0 +1,86 @@
+{
+  "isoType": "FinancialInstrumentAttributes130",
+  "definition": "Beschreibung des Finanzinstruments.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifikation des Finanzinstruments."
+    },
+    "PlaceOfListing": {
+      "definition": "Ort, an dem das referenzierte Finanzinstrument notiert ist."
+    },
+    "DayCountBasis": {
+      "definition": "Gibt die Berechnungsmethode der (aufgelaufenen) Zinsen des Finanzinstruments an."
+    },
+    "ClassificationType": {
+      "definition": "Klassifizierungsart des Finanzinstruments gemäß der ISO-Klassifikation von Finanzinstrumenten (CFI)."
+    },
+    "OptionStyle": {
+      "definition": "Gibt an, wie eine Option ausgeübt werden kann."
+    },
+    "DenominationCurrency": {
+      "definition": "Währung, auf die ein Finanzinstrument derzeit lautet."
+    },
+    "NextCouponDate": {
+      "definition": "Nächster Zahlungstermin eines verzinslichen Finanzinstruments."
+    },
+    "FloatingRateFixingDate": {
+      "definition": "Datum, an dem der Zinssatz oder der Rückzahlungskurs gemäß den Emissionsbedingungen berechnet wird/wurde."
+    },
+    "MaturityDate": {
+      "definition": "Datum, an dem ein Finanzinstrument fällig wird und die Vermögenswerte zurückzuzahlen sind."
+    },
+    "IssueDate": {
+      "definition": "Datum, an dem das Wertpapier zur Verfügung gestellt wurde."
+    },
+    "NextCallableDate": {
+      "definition": "Datum, an dem ein Finanzinstrument vor seiner planmäßigen Fälligkeit gekündigt/zurückgezahlt wird."
+    },
+    "PutableDate": {
+      "definition": "Datum, an dem ein Inhaber eines Finanzinstruments das Recht hat, die Rückzahlung des Kapitalbetrags vor dem planmäßigen Fälligkeitsdatum zu verlangen."
+    },
+    "DatedDate": {
+      "definition": "Datum, ab dem ein verzinsliches Finanzinstrument beginnt, Zinsen aufzulaufen."
+    },
+    "ConversionDate": {
+      "definition": "Frist, bis zu der ein Wandelwertpapier gemäß den Emissionsbedingungen gewandelt werden muss."
+    },
+    "PreviousFactor": {
+      "definition": "Faktor zur Berechnung des Werts des ausstehenden Kapitalbetrags des Finanzinstruments (bei Wertpapieren mit Faktor) bis zum nächsten Rückzahlungstermin (Faktor)."
+    },
+    "NextFactor": {
+      "definition": "Faktor zur Berechnung des Werts des ausstehenden Kapitalbetrags des Finanzinstruments (bei Wertpapieren mit Faktor), der nach dem Rückzahlungstermin (Faktor) gelten wird."
+    },
+    "InterestRate": {
+      "definition": "Auf das Jahr bezogener Zinssatz eines Finanzinstruments, der zur Berechnung des tatsächlichen Zinssatzes des Kupons oder der Stückzinsen verwendet wird."
+    },
+    "NextInterestRate": {
+      "definition": "Zinssatz, der für die nächste Zinszahlungsperiode bei Instrumenten mit variablem Zinssatz gilt."
+    },
+    "MinimumNominalQuantity": {
+      "definition": "Mindestnennmenge des Finanzinstruments."
+    },
+    "MinimumQuantityToInstruct": {
+      "definition": "Minimale Menge des Finanzinstruments, die angewiesen werden darf."
+    },
+    "MinimumMultipleQuantityToInstruct": {
+      "definition": "Mindestvielfaches der Menge des Finanzinstruments, das angewiesen werden darf."
+    },
+    "ContractSize": {
+      "definition": "Verhältnis oder Multiplikationsfaktor, der verwendet wird, um einen Kontrakt in eine Finanzinstrumentmenge umzurechnen."
+    },
+    "IssuePrice": {
+      "definition": "Erstausgabe-/Bewertungspreis eines aus einer Kapitalmaßnahme hervorgehenden Wertpapiers."
+    },
+    "BabyBondDenomination": {
+      "definition": "Dollarbetrag, der der Anleihe zugeordnet wird, wenn der Nennwert unter 1000 liegt."
+    }
+  },
+  "isoRules": {
+    "PreviousNextFactorRule": {
+      "definition": "Im Fall einer teilweisen Rückzahlung nach Poolfaktor gibt PreviousFactor den vor der Rückzahlung geltenden Faktor und NextFactor den nach der Rückzahlung geltenden Faktor an."
+    },
+    "MaturityDateRule": {
+      "definition": "Das Fälligkeitsdatum darf nur allgemeine Informationen über die Endfälligkeit des zugrunde liegenden Instruments enthalten."
+    }
+  }
+}

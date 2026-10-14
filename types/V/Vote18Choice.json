@@ -1,0 +1,17 @@
+{
+  "isoType": "Vote18Choice",
+  "definition": "Bestimmt, wie die Abstimmungsanweisungen angegeben werden.",
+  "isoElements": {
+    "VoteInstruction": {
+      "definition": "Anweisung, die die angewiesene Menge der Stimmrechte je Beschluss angibt."
+    },
+    "GlobalVoteInstruction": {
+      "definition": "Anweisung, die eine Abstimmungsanweisung je Beschluss für den gesamten Anspruch angibt."
+    }
+  },
+  "isoRules": {
+    "InFavourListingGroup1Rule": {
+      "definition": "Haben zwei oder mehr Vorkommen des Elements VoteInstruction/ListingGroupResolutionLabel exakt denselben Textwert, darf nur bei einem einzigen Vorkommen der Sequenz VoteInstruction unter diesen Vorkommen das Element „For“ (Stimme dafür) vorhanden sein."
+    }
+  }
+}

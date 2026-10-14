@@ -1,0 +1,78 @@
+{
+  "isoType": "PendingReason27Code",
+  "definition": "Gibt den Grund an, warum die Anweisung den Status „ausstehend“ hat.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Anweisung ging nach Ablauf der Frist des kontoführenden Instituts ein. Wird nach bestem Bemühen verarbeitet."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "FULL": {
+      "name": "Angaben zum wirtschaftlich Berechtigten ausstehend",
+      "definition": "Der Erhalt der Angaben zum wirtschaftlich Berechtigten steht aus."
+    },
+    "MCER": {
+      "name": "Fehlende Bescheinigung",
+      "definition": "Warten auf den Eingang einer angemessenen Bescheinigung."
+    },
+    "MONY": {
+      "name": "Unzureichendes Geld",
+      "definition": "Unzureichende Geldmittel auf Ihrem Konto."
+    },
+    "LACK": {
+      "name": "Mangel an Wertpapieren",
+      "definition": "Auf Ihrem Konto sind nicht genügend Finanzinstrumente vorhanden."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Die Anweisung ist nach der Marktfrist eingegangen."
+    },
+    "DQUA": {
+      "name": "Mengenabweichung",
+      "definition": "Die Menge der Finanzinstrumente stimmt nicht überein."
+    },
+    "PENR": {
+      "name": "Ausstehender Empfang",
+      "definition": "Die Anweisung steht aus, bis Wertpapiere eingehen, zum Beispiel aus einem Kauf oder einer Leihe."
+    },
+    "CERT": {
+      "name": "Falsche Zertifikatsnummern",
+      "definition": "Fehler bei der Zertifikatsnummer."
+    },
+    "DQCS": {
+      "name": "Uneinigkeit über den Barbetrag",
+      "definition": "Nicht erkannter oder ungültiger angewiesener Barbetrag."
+    },
+    "ITAX": {
+      "name": "Falscher Steuersatz",
+      "definition": "Der angegebene Steuersatz ist falsch. Er liegt außerhalb der zulässigen Werte für das jeweilige Anlageland."
+    },
+    "NTAX": {
+      "name": "Uneinheitlicher Steuersatz",
+      "definition": "Der Steuersatz stimmt nicht mit den vorliegenden Unterlagen überein."
+    },
+    "MTAX": {
+      "name": "Fehlender Steuersatz",
+      "definition": "Der Steuersatz fehlt."
+    },
+    "SNAV": {
+      "name": "System nicht verfügbar",
+      "definition": "Das System ist nicht verfügbar. Die Anweisung wird außerhalb der Geschäftszeiten gesendet."
+    },
+    "BSTR": {
+      "name": "Vor dem Anweisungszeitraum",
+      "definition": "Die Anweisung wurde vor dem Anweisungsbeginn-Datum eingereicht."
+    },
+    "IPAW": {
+      "name": "Ungültige Unterlagen",
+      "definition": "Erforderliche Unterlagen sind ungültig, unvollständig oder fehlen."
+    },
+    "IPED": {
+      "name": "Anweisung vor dem Anspruchsdatum",
+      "definition": "Die Anweisung wurde vor dem Anspruchsdatum empfangen."
+    }
+  }
+}

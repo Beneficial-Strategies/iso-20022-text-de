@@ -1,0 +1,18 @@
+{
+  "isoType": "IncentivePremium6",
+  "definition": "Barprämie, die bereitgestellt wird, wenn der Wertpapierinhaber einem Ereignis zustimmt oder daran teilnimmt.",
+  "isoElements": {
+    "Description": {
+      "definition": "Beschreibung der Prämie."
+    },
+    "Amount": {
+      "definition": "Barprämie, die je Wertpapier, je Stimme oder je Teilnehmer gezahlt wird."
+    },
+    "Type": {
+      "definition": "Gibt an, welche abstimmungsbezogenen Kriterien zu einer Anreizprämie berechtigen."
+    },
+    "PaymentDate": {
+      "definition": "Datum/Uhrzeit der Zahlung der Prämie."
+    }
+  }
+}

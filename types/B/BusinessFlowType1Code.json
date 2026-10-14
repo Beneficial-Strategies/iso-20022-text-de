@@ -1,0 +1,18 @@
+{
+  "isoType": "BusinessFlowType1Code",
+  "definition": "Identifiziert den Geschäftsprozess, an dem die Beteiligten mitwirken. Dies ist wichtig, um den richtigen Geschäftsprozess gemäß dem Marktgeschäftsmodell auszulösen, der ein Matching von Anweisungen in einer CSD-Umgebung (Double-Leg-Prozess) erfordern kann oder nicht (Single-Leg-Prozess).",
+  "isoCodes": {
+    "SLDP": {
+      "name": "Liefernde Partei (einzelner Leg)",
+      "definition": "Single-Leg-Prozess, der von der liefernden Partei initiiert wird."
+    },
+    "SLRP": {
+      "name": "Empfangende Partei (einzelner Leg)",
+      "definition": "Single-Leg-Prozess, der von der empfangenden Partei initiiert wird."
+    },
+    "DLPR": {
+      "name": "Verfahren mit doppeltem Leg",
+      "definition": "Double-Leg-Prozess."
+    }
+  }
+}

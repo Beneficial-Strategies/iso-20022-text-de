@@ -1,0 +1,12 @@
+{
+  "isoType": "VoteThroughNetwork1Choice",
+  "definition": "Auswahl zwischen der Abstimmung direkt bei Emittenten und der Abstimmung über alternative Netzwerkkanäle.",
+  "isoElements": {
+    "VoteChannel": {
+      "definition": "Die Abstimmung erfolgt über eine Nachricht, die über einen alternativen Netzwerkkanal gesendet wird, das heißt entweder über die Kette der Intermediäre oder über den im Verarbeitungstext des Informationsfelds für den nächsten Intermediär beschriebenen Kanal."
+    },
+    "VoteDirectlyToIssuer": {
+      "definition": "Die Abstimmung erfolgt durch Senden einer Stimmnachricht direkt an den Emittenten."
+    }
+  }
+}

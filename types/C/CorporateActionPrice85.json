@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionPrice85",
+  "definition": "Gibt verschiedene Preise einer Kapitalmaßnahme an.",
+  "isoElements": {
+    "MaximumPrice": {
+      "definition": "Höchst- oder Obergrenzenpreis, zu dem ein Inhaber bieten kann, zum Beispiel bei einem Angebot im Holländischen Verfahren (Dutch Auction)."
+    },
+    "MinimumPrice": {
+      "definition": "Mindest- oder Untergrenzenpreis, zu dem ein Inhaber bieten kann, zum Beispiel bei einem Angebot im Holländischen Verfahren (Dutch Auction)."
+    },
+    "FirstBidIncrementPrice": {
+      "definition": "Erster akzeptabler Preis nach dem Mindestpreis, zu dem ein Inhaber bieten kann, zum Beispiel bei einem Angebot im Holländischen Verfahren (Dutch Auction)."
+    },
+    "LastBidIncrementPrice": {
+      "definition": "Letzter akzeptabler Preis vor dem Höchstpreis, zu dem ein Inhaber bieten kann, zum Beispiel bei einem Angebot im Holländischen Verfahren (Dutch Auction)."
+    }
+  }
+}

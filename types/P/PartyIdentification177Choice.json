@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification177Choice",
+  "definition": "Auswahl der Identifikation einer Partei. Die Partei kann durch Angabe eines BIC oder eines proprietären Codes identifiziert werden.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Code, der einem Finanz- oder Nichtfinanzinstitut von der ISO-9362-Registrierungsstelle zugewiesen wird, wie in ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\" beschrieben."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Eindeutiger und zweifelsfreier Bezeichner, der einem Finanzinstitut mithilfe eines proprietären Identifikationsschemas zugewiesen wurde."
+    }
+  }
+}

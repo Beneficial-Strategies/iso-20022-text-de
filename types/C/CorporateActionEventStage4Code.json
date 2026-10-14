@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionEventStage4Code",
+  "definition": "Gibt die Phase des Auslosungsereignisses der Kapitalmaßnahme an (CA).",
+  "isoCodes": {
+    "FULL": {
+      "name": "Stornierung und Wiederholung",
+      "definition": "Stornierung und Wiederholung einer ursprünglichen Auslosung oder einer ursprünglichen und ergänzenden Auslosung. Eine nachfolgende Auslosung wird unter einem neuen Ereignis durchgeführt."
+    },
+    "PART": {
+      "name": "Ergänzende Stornierung und Wiederholung",
+      "definition": "Stornierung und Wiederholung nur einer zusätzlichen Auslosung. Eine nachfolgende neue zusätzliche Auslosung wird unter dem ursprünglichen Ereignis durchgeführt."
+    },
+    "RESC": {
+      "name": "Ergänzende Stornierung",
+      "definition": "Eine zusätzliche Auslosung wird vom Emittenten storniert. Es wird keine nachfolgende Auslosung durchgeführt."
+    }
+  }
+}

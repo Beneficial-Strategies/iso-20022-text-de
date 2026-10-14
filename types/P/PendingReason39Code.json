@@ -1,0 +1,58 @@
+{
+  "isoType": "PendingReason39Code",
+  "definition": "Gibt den Grund an, warum die Anweisung den Status „ausstehend“ hat.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Anweisung wurde nach Ablauf der Frist des Kontoführers empfangen. Sie wird gemäß der bilateralen Dienstleistungsvereinbarung zwischen Kontoführer und Kontoinhaber behandelt."
+    },
+    "CYCL": {
+      "name": "Wartet auf nächsten Abwicklungszyklus",
+      "definition": "Ihre Anweisung ist im lokalen Markt bestätigt oder zur Abwicklung bereit und wartet auf den nächsten Abwicklungszyklus."
+    },
+    "FUTU": {
+      "name": "Wartet auf Abwicklungsdatum",
+      "definition": "Es steht der Abwicklungstag aus. Es sind keine Abwicklungsprobleme zu melden."
+    },
+    "BOTH": {
+      "name": "Beide Anweisungen in Wartestellung",
+      "definition": "Die Anweisung der Gegenpartei und Ihre Anweisung sind angehalten/eingefroren/im Voravisierungsmodus."
+    },
+    "PRCY": {
+      "name": "Anweisung der Gegenpartei angehalten",
+      "definition": "Die Anweisung der Gegenpartei ist eine Voravisierung, d. h. nur zum Abgleich."
+    },
+    "CMON": {
+      "name": "Gegenpartei mit unzureichendem Geld",
+      "definition": "Unzureichende Geldmittel auf dem Konto der Gegenpartei."
+    },
+    "CLAC": {
+      "name": "Gegenpartei mit unzureichenden Wertpapieren",
+      "definition": "Im Konto der Gegenpartei sind nicht genügend lieferbare Finanzinstrumente vorhanden, oder die Gegenpartei hält keine Finanzinstrumente."
+    },
+    "MONY": {
+      "name": "Unzureichendes Geld",
+      "definition": "Unzureichende Geldmittel auf Ihrem Konto."
+    },
+    "LACK": {
+      "name": "Mangel an Wertpapieren",
+      "definition": "Auf Ihrem Konto sind nicht genügend Finanzinstrumente vorhanden."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Die Anweisung ist nach der Marktfrist eingegangen."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "LINK": {
+      "name": "Ausstehende verknüpfte Anweisung",
+      "definition": "Ihre Anweisung steht zur Abwicklung an, da die damit verknüpfte Anweisung aussteht."
+    },
+    "PREA": {
+      "name": "Ihre Anweisung in Wartestellung",
+      "definition": "Ihre Anweisung ist eine Voravisierung, d. h. nur zum Abgleich."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionReportOrError7Choice",
+  "definition": "Auswahl zwischen Transaktionen und Buchungen, die beim Transaktionsverwalter geführt werden, oder einem operativen Fehler, wenn die angeforderten Daten nicht abgerufen werden können.",
+  "isoElements": {
+    "BusinessReport": {
+      "definition": "Berichtet über Zahlungstransaktionen."
+    },
+    "OperationalError": {
+      "definition": "Gibt an, dass bei der Verarbeitung der zugehörigen Anfrage ein Betriebsfehler aufgetreten ist."
+    }
+  }
+}

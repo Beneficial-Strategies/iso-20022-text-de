@@ -1,0 +1,14 @@
+{
+  "isoType": "InterestType1Code",
+  "definition": "Gibt an, welche Zinsart auf einen Kontosaldo angewendet wird.",
+  "isoCodes": {
+    "INDY": {
+      "name": "Innertägig",
+      "definition": "Während oder innerhalb eines Geschäftstags."
+    },
+    "OVRN": {
+      "name": "Über Nacht",
+      "definition": "Zeitraum zwischen dem Ende eines Geschäftstags und dem Beginn des nächsten Geschäftstags (in der Regel am Folgetag)."
+    }
+  }
+}

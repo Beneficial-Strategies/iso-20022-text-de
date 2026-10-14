@@ -1,0 +1,18 @@
+{
+  "isoType": "RateType1Code",
+  "definition": "Legt fest, ob der Satz fest, variabel oder pauschal ist.",
+  "isoCodes": {
+    "FIXE": {
+      "name": "Fest",
+      "definition": "Der Satz ist fest."
+    },
+    "FORF": {
+      "name": "Verfall",
+      "definition": "Für die Repo-Transaktion gilt kein spezifischer Rückkaufsatz, nur eine Pauschale."
+    },
+    "VARI": {
+      "name": "Variabel",
+      "definition": "Der Satz ist variabel."
+    }
+  }
+}

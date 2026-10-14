@@ -1,0 +1,17 @@
+{
+  "isoType": "ReturnedStatusReason1",
+  "definition": "Grund für den Anweisungsstatus „zurückgegeben“.",
+  "isoElements": {
+    "ReasonCode": {
+      "definition": "Grund für den Status „zurückgegeben“."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Zusätzliche Informationen zum Status „zurückgegeben“."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "Das Element AdditionalReasonInformation darf keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können, sofern nicht bilateral vereinbart."
+    }
+  }
+}

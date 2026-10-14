@@ -1,0 +1,21 @@
+{
+  "isoType": "CashWithdrawal1",
+  "definition": "Abhebung eines in Banknoten und/oder Münzen festgelegten Geldbetrags.",
+  "isoElements": {
+    "AmendmentIndicator": {
+      "definition": "Gibt an, ob die Stückelungen im ursprünglichen Auftrag zur Bargeldabhebung geändert wurden.||Verwendung: Wird dieses Element nicht verwendet, entsprechen die Stückelungen dem ursprünglichen Auftrag zur Bargeldabhebung, oder der ursprüngliche Auftrag enthielt keine Stückelungen."
+    },
+    "NoteDetails": {
+      "definition": "Gibt die Einzelheiten der beauftragten Abhebung in Banknoten an."
+    },
+    "CoinDetails": {
+      "definition": "Gibt die Einzelheiten der beauftragten Abhebung in Münzen an."
+    },
+    "TotalAmount": {
+      "definition": "Gesamtbetrag aller abgehobenen Banknoten und Münzen."
+    },
+    "DiscrepancyIdentification": {
+      "definition": "Eindeutige Identifikation einer Abweichung."
+    }
+  }
+}

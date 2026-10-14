@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingCancellationStatus16Choice",
+  "definition": "Auswahl zwischen einem Grund oder keinem Grund für den Status ausstehende Stornierung bei der Stornierung der Kapitalmaßnahmen-Anweisung.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Grund nicht angegeben."
+    },
+    "Reason": {
+      "definition": "Grund für den Status „Stornierung ausstehend“."
+    }
+  }
+}

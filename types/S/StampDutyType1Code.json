@@ -1,0 +1,22 @@
+{
+  "isoType": "StampDutyType1Code",
+  "definition": "Gibt an, ob die Stempelsteuer anwendbar ist.",
+  "isoCodes": {
+    "SDRU": {
+      "name": "Außerhalb des CSD",
+      "definition": "Außerhalb des CSD bei der Kapitalmaßnahme gezahlte SDRT."
+    },
+    "SDRT": {
+      "name": "Bezahlt",
+      "definition": "Bei einer anderen Transaktion gezahlte SDRT."
+    },
+    "SDRN": {
+      "name": "Nicht anwendbar",
+      "definition": "Stempelsteuer nicht anwendbar."
+    },
+    "SDRQ": {
+      "name": "Befreiung",
+      "definition": "Befreit, aus einem anderen Grund."
+    }
+  }
+}

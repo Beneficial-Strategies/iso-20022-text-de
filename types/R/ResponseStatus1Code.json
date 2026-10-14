@@ -1,0 +1,22 @@
+{
+  "isoType": "ResponseStatus1Code",
+  "definition": "Gibt den Status der empfangenen Sicherheitennachricht (Sicherheitenforderung, Sicherheitenvorschlag oder Vorschlag/Anforderung zum Austausch von Sicherheiten) aus Sicht des Sicherheitenmanagements an.",
+  "isoCodes": {
+    "ACCP": {
+      "name": "Teilweise akzeptiert",
+      "definition": "Ein Teil der Sicherheiten wird akzeptiert, ein Teil abgelehnt."
+    },
+    "ACCT": {
+      "name": "Akzeptiert",
+      "definition": "Forderung, Austausch, Vorschlag wird vollständig akzeptiert."
+    },
+    "REJT": {
+      "name": "Abgelehnt",
+      "definition": "Forderung, Austausch, Vorschlag wird vollständig abgelehnt."
+    },
+    "SUBR": {
+      "name": "Ersetzung akzeptiert",
+      "definition": "Partei A stimmt dem Rückgabeteil des Austauschs zu und akzeptiert, auf den Vorschlag der neuen Sicherheiten zu warten."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "TrackerParty2Choice",
+  "definition": "Art oder Verwendung des Kontos.",
+  "isoElements": {
+    "OrganisationIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Möglichkeit zur Identifikation einer Organisation."
+    },
+    "PrivateIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation einer Person, z. B. ein Reisepass."
+    },
+    "FinancialInstitutionIdentification": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation eines Finanzinstituts, vergeben nach einem international anerkannten oder proprietären Identifikationsschema."
+    }
+  }
+}

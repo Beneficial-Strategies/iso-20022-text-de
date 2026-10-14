@@ -1,0 +1,12 @@
+{
+  "isoType": "PlaceOfClearingIdentification2",
+  "definition": "Identifikation einer Infrastruktur, die Bestandteil eines Clearinghauses sein kann und Clearing und Abwicklung für ihre Mitglieder erleichtert, indem sie zwischen Käufer und Verkäufer tritt. Sie kann Transaktionen verrechnen und tritt für jede Position als Abwicklungsgegenpartei ein.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Clearingorts."
+    },
+    "LEI": {
+      "definition": "Identifikation der juristischen Person als alternative Identifikation für einen Clearingort."
+    }
+  }
+}

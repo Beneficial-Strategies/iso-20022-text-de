@@ -1,0 +1,36 @@
+{
+  "isoType": "PaymentTransaction174",
+  "definition": "Enthält weitere Einzelheiten zu Referenz und Status der ursprünglichen Transaktionen aus der ursprünglichen Anweisung, auf die sich die Rückbuchungsnachricht bezieht.",
+  "isoElements": {
+    "ReversalIdentification": {
+      "definition": "Eindeutige Identifikation, die von einer beauftragenden Partei für eine beauftragte Partei vergeben wird, um die rückgebuchte Transaktion zu identifizieren.|Verwendung: Die beauftragende Partei ist die Partei, die die Rückbuchungsnachricht sendet, und nicht die Partei, die die ursprüngliche, rückgebuchte Anweisung gesendet hat."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Eindeutige, von der ursprünglichen anweisenden Partei für die ursprüngliche angewiesene Partei vergebene Identifikation zur zweifelsfreien Identifizierung der ursprünglichen Anweisung."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Eindeutige, von der ursprünglichen initiierenden Partei vergebene Identifikation zur zweifelsfreien Identifizierung der ursprünglichen Transaktion."
+    },
+    "OriginalUETR": {
+      "definition": "Universell eindeutige Kennung zur Angabe der ursprünglichen Ende-zu-Ende-Referenz einer Zahlungstransaktion."
+    },
+    "OriginalInstructedAmount": {
+      "definition": "Geldbetrag, wie in der ursprünglichen Transaktion angegeben, der zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegen ist, vor Abzug von Entgelten, ausgedrückt in der Währung, wie von der ursprünglichen initiierenden Partei angewiesen.|Verwendung: Dieser Betrag muss unverändert durch die Transaktionskette transportiert werden."
+    },
+    "ReversedInstructedAmount": {
+      "definition": "Zwischen dem Zahlungspflichtigen und dem Zahlungsempfänger zu bewegender Geldbetrag vor Abzug der Entgelte in der rückgebuchten Transaktion.|Verwendung: Dieser Betrag muss unverändert durch die Transaktionskette übermittelt werden."
+    },
+    "ChargeBearer": {
+      "definition": "Gibt an, ob der Zahlungsempfänger und/oder der Zahlungspflichtige die mit der Bearbeitung der Zahlungstransaktion verbundenen Entgelte (ChargeBearer) trägt/tragen.||Verwendung: Die Entgelte beziehen sich auf die Rückbuchungsnachricht, nicht auf die ursprüngliche Anweisung."
+    },
+    "ReversalReasonInformation": {
+      "definition": "Enthält detaillierte Angaben zum Rückbuchungsgrund."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Schlüsselelemente zur Identifizierung der ursprünglichen Transaktion, auf die Bezug genommen wird."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "isoType": "Rate46",
+  "definition": "Liefert Informationen zu den Sätzen im Zusammenhang mit der Wertpapierbewegung.",
+  "isoElements": {
+    "AdditionalTax": {
+      "definition": "Satz für zusätzliche Steuern, die nicht kategorisiert werden können."
+    },
+    "GrossDistributionRate": {
+      "definition": "Ausschüttungssatz vor Steuerabzug."
+    },
+    "GrossInterestRateUsedForPayment": {
+      "definition": "Der tatsächliche Zinssatz vor Steuern, der für die Zinszahlung für den angegebenen Zinszeitraum verwendet wird. |Verwendungshinweis: Er dient dazu, den für die aktuelle Zahlung geltenden Satz nach Durchführung aller Berechnungen anzugeben, das heißt nach Anwendung von Zeitraum und Zinsberechnungsmethode."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Prozentsatz einer Barausschüttung, der von den Steuerbehörden des Rechtsraums des Emittenten einbehalten wird und für den eine Entlastung an der Quelle und/oder eine Rückforderung möglich sein kann."
+    },
+    "SecondLevelTax": {
+      "definition": "Satz, zu dem die Erträge von einem anderen Rechtsraum als dem des steuerlichen Gründungslands des Emittenten einbehalten werden und für den eine Entlastung an der Quelle und/oder eine Rückforderung möglich sein kann. Er wird ergänzend zum oder verrechnend mit dem Quellensteuersatz (TAXR) erhoben, den der Rechtsraum des steuerlichen Sitzes des Emittenten erhebt."
+    },
+    "ChargesFees": {
+      "definition": "Satz zur Berechnung des Betrags der Entgelte/Gebühren, die nicht kategorisiert werden können."
+    },
+    "EarlySolicitationFeeRate": {
+      "definition": "Barsatz, der zusätzlich zur Einwerbungsgebühr als Anreiz bereitgestellt wird, um die frühzeitige Teilnahme an einem Angebot zu fördern."
+    },
+    "FiscalStamp": {
+      "definition": "Anzuwendender Prozentsatz der Fiskalsteuer."
+    },
+    "ThirdPartyIncentiveRate": {
+      "definition": "Barsatz, der in einem Ereignis bereitgestellt wird, um die Teilnahme am Angebot zu fördern. Zur Information: Die Zahlung erfolgt an einen Dritten, der eine Stelle zur Teilnahme am Angebot aufgefordert hat."
+    },
+    "NetDistributionRate": {
+      "definition": "Ausschüttungssatz nach Steuerabzug."
+    },
+    "ApplicableRate": {
+      "definition": "Für das angekündigte Ereignis geltender Satz, zum Beispiel der Rückzahlungssatz bei einem Rückzahlungsereignis."
+    },
+    "SolicitationFeeRate": {
+      "definition": "Satz der Barprämie, die bereitgestellt wird, wenn der Wertpapierinhaber einem Ereignis zustimmt oder daran teilnimmt, zum Beispiel Zustimmungsgebühren oder Einwerbungsgebühr."
+    },
+    "TaxCreditRate": {
+      "definition": "Geldbetrag je Aktie, der infolge einer Steuergutschrift zugeteilt wird."
+    },
+    "TaxOnIncome": {
+      "definition": "Gesamtsteuer, die von den Fondsmanagern an der Quelle einbehalten wird, bevor die Steuerpflicht der einzelnen Anteilsinhaber berücksichtigt wird."
+    },
+    "TaxOnProfits": {
+      "definition": "Besteuerung eines Betrags, der eindeutig als Kapitalerträge, Kapitalgewinne ausgewiesen ist."
+    },
+    "TaxReclaimRate": {
+      "definition": "Prozentsatz des Barbetrags, der über die tatsächliche Steuerschuld hinaus gezahlt und zurückgefordert wurde."
+    },
+    "EqualisationRate": {
+      "definition": "Anteil der Fondsausschüttung, der den durchschnittlichen aufgelaufenen Ertrag darstellt, der im Kaufpreis der während des Abrechnungszeitraums erworbenen Anteile enthalten ist."
+    },
+    "DeemedRate": {
+      "definition": "Satz zur Berechnung fiktiver Erlöse, die nicht an Wertpapierinhaber ausgezahlt werden, auf die jedoch Quellensteuer anfällt."
+    }
+  },
+  "isoRules": {
+    "NetDistributionRate1Rule": {
+      "definition": "Wenn NetDistributionRate wiederholt wird, dann:|- müssen die Werte von RateTypeAndAmountAndRateStatus/RateType/Code in jedem Vorkommen von NetDistributionRate alle voneinander verschieden sein. (MT 564 NVR C8)."
+    },
+    "GrossDistributionRate2Rule": {
+      "definition": "Wenn GrossDDistributionRate wiederholt wird, dann:|- müssen die Werte von RateTypeAndAmountAndRateStatus/RateType/Code in jedem Vorkommen von GrossDistributionRate alle verschieden sein. (MT 564 NVR C8)."
+    },
+    "GrossDistributionRate3Rule": {
+      "definition": "Es darf nur ein einziges Vorkommen von entweder GrossDistributionRate/Amount oder GrossGrossDistributionRate/AmountAndRateStatus oder GrossGrossDistributionRate/NotSpecifiedRate vorhanden sein, und nur eines dieser Elemente darf vorhanden sein.|(MT 564 NVR C7)."
+    },
+    "NetDistributionRate2Rule": {
+      "definition": "Es darf nur ein einziges Vorkommen von entweder NetDistributionRate/Amount oder NetDistributionRate/AmountAndRateStatus oder NetDistributionRate/NotSpecifiedRate vorhanden sein, und nur eines dieser Elemente darf vorhanden sein.|(MT 564 NVR C7)."
+    },
+    "SecondLevelTax3Rule": {
+      "definition": "Wenn mindestens ein Vorkommen von SecondLevelTax vorhanden ist, muss mindestens ein Vorkommen von WithholdingTaxRate vorhanden sein. (MT 564 NVR C19)."
+    },
+    "SecondLevelTax1Rule": {
+      "definition": "Wenn SecondLevelTax wiederholt wird, müssen die Werte von SecondLevelTax/RateTypeAndRate/RateType/Code in jedem Vorkommen von SecondLevelTax alle voneinander verschieden sein. |(MT 564 NVR C8)."
+    },
+    "SecondLevelTax2Rule": {
+      "definition": "Es darf nur ein einziges Vorkommen von entweder SecondLevelTax/Amount oder SecondLevelTax/Rate oder SecondLevelTax/NotSpecifiedRate vorhanden sein; nur eines dieser Elemente darf vorhanden sein. |(MT 564 NVR C7)."
+    },
+    "WithholdingTaxRate1Rule": {
+      "definition": "Wenn WithholdingTaxRate wiederholt wird, müssen die Werte von WithholdingTaxRate/RateTypeAndRate/RateType/Code in jedem Vorkommen von WithholdingTaxRate alle voneinander verschieden sein. |(MT 564 NVR C8)."
+    },
+    "WithholdingTaxRate2Rule": {
+      "definition": "Es darf nur ein einziges Vorkommen von entweder WithholdingTaxRate/Amount oder WithholdingTaxRate/Rate oder WithholdingTaxRate/NotSpecifiedRate vorhanden sein; nur eines dieser Elemente darf vorhanden sein. |(MT 564 NVR C7)."
+    },
+    "DeemedRate1Rule": {
+      "definition": "Wenn DeemedRate wiederholt wird, müssen die Werte von DeemedRate/RateTypeAndAmountAndRateStatus/RateType/Code und die Werte von DeemedRate/RateTypeAndRate/RateType/Code in jedem Vorkommen von DeemedRate alle voneinander verschieden sein. |(MT 564 NVR C8)."
+    },
+    "DeemedRate2Rule": {
+      "definition": "Es darf nur ein einziges Vorkommen von entweder DeemedRate/Amount oder DeemedRate/Rate oder DeemedRate/NotSpecifiedRate vorhanden sein; nur eines dieser Elemente darf vorhanden sein. |(MT 564 NVR C7)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BankTransactionCodeStructure5",
+  "definition": "Satz von Elementen zur Identifikation der Art bzw. des Operationscodes eines Umsatzes.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Geschäftsbereich der zugrunde liegenden Transaktion an."
+    },
+    "Family": {
+      "definition": "Gibt Familie und Unterfamilie des Banktransaktionscodes innerhalb einer bestimmten Domäne in strukturierter und hierarchischer Form an."
+    }
+  }
+}

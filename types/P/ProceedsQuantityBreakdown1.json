@@ -1,0 +1,12 @@
+{
+  "isoType": "ProceedsQuantityBreakdown1",
+  "definition": "Liefert Informationen zur Aufschlüsselung der Mengen.",
+  "isoElements": {
+    "TransferOfReceivedProceedsQuantity": {
+      "definition": "Wertpapiermenge der Erlöse, die infolge des Market Claim übertragen wurde."
+    },
+    "CashCompensationQuantity": {
+      "definition": "Wertpapiermenge der Erlöse, die infolge des Market Claim in bar ausgeglichen wurde."
+    }
+  }
+}

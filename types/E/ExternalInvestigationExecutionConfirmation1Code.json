@@ -1,0 +1,130 @@
+{
+  "isoType": "ExternalInvestigationExecutionConfirmation1Code",
+  "definition": "Gibt das Ergebnis einer Untersuchung an, wie in einem externen Code-Set für Bestätigungen der Untersuchungsdurchführung veröffentlicht.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "ACDA": {
+      "name": "Belastungsautorisierung akzeptiert",
+      "definition": "Wird verwendet, wenn ein Zahlungsempfänger die Belastungsautorisierung akzeptiert."
+    },
+    "ACNR": {
+      "name": "Reklamation wegen Nichteingang akzeptiert",
+      "definition": "Die Reklamation wegen Nichterhalts einer Zahlungsanweisung wird akzeptiert."
+    },
+    "ACVA": {
+      "name": "Valutaanpassung akzeptiert",
+      "definition": "Die Reklamation zur Korrektur des Wertstellungsdatums wird akzeptiert."
+    },
+    "CHRG": {
+      "name": "Entgeltdetails übermittelt",
+      "definition": "Weitere Angaben zu den Entgelten werden zur Klärung des Falls bereitgestellt."
+    },
+    "CNCL": {
+      "name": "Wie angefordert storniert",
+      "definition": "Wird verwendet, wenn eine beantragte Stornierung erfolgreich ist."
+    },
+    "CONF": {
+      "name": "Zahlungsbestätigung",
+      "definition": "Wird verwendet, wenn eine Zahlung geprüft und ohne Eingreifen korrekt ausgeführt wurde."
+    },
+    "CVAA": {
+      "name": "Korrekte Valuta bereits angewendet",
+      "definition": "Das ursprüngliche Wertstellungsdatum war korrekt."
+    },
+    "CWFW": {
+      "name": "Stornierung folgt",
+      "definition": "Wird verwendet, wenn eine Zahlung zur Lösung eines Untersuchungsfalls storniert wird."
+    },
+    "FTNA": {
+      "name": "Stornoanfrage an die nächste Bank weitergeleitet",
+      "definition": "Der Stornierungsauftrag wurde zur Ausführung an die nächste Bank weitergeleitet.|Verwendung: Dieser Code sollte nur verwendet werden, wenn keine Fall-ID vorhanden ist."
+    },
+    "ICOV": {
+      "name": "Deckung initiiert",
+      "definition": "Wird verwendet, wenn zur Lösung eines Falls ein Mitteltransfer (eine Deckungszahlung) veranlasst wurde."
+    },
+    "IDUP": {
+      "name": "Anweisung ist ein Duplikat",
+      "definition": "Wird verwendet, wenn die beantragte Prüfung auf eine mögliche doppelte Anweisung bestätigt wird."
+    },
+    "IPAY": {
+      "name": "Zahlung initiiert",
+      "definition": "Wird verwendet, wenn das Ergebnis einer Untersuchung die Veranlassung einer Zahlungsanweisung ist oder sein wird."
+    },
+    "IPYI": {
+      "name": "Zahlungsanweisung initiiert",
+      "definition": "Wird verwendet, wenn zur Lösung eines Falls eine Zahlungsanweisung (z. B. MT103) veranlasst wurde."
+    },
+    "MCOV": {
+      "name": "Deckung geändert",
+      "definition": "Wird verwendet, wenn zur Lösung eines Falls ein Mitteltransfer (eine Deckungszahlung) geändert wurde."
+    },
+    "MODI": {
+      "name": "Wie angefordert geändert",
+      "definition": "Wird verwendet, wenn eine beantragte Änderung erfolgreich ist."
+    },
+    "MWFW": {
+      "name": "Änderung folgt",
+      "definition": "Wird verwendet, wenn die Zahlung zur Lösung eines Untersuchungsfalls geändert wird."
+    },
+    "PDCR": {
+      "name": "Stornierungsauftrag ausstehend",
+      "definition": "Wird verwendet, wenn eine beantragte Stornierung aussteht."
+    },
+    "PECR": {
+      "name": "Teilweise ausgeführte Stornoanfrage",
+      "definition": "Wird verwendet, wenn eine beantragte Stornierung teilweise ausgeführt wurde."
+    },
+    "PURP": {
+      "name": "Zweckdetails übermittelt",
+      "definition": "Weitere Angaben zum Zweck werden zur Klärung des Falls bereitgestellt."
+    },
+    "RJCR": {
+      "name": "Stornierungsauftrag abgelehnt",
+      "definition": "Wird verwendet, wenn eine beantragte Stornierung abgelehnt wurde."
+    },
+    "RJNR": {
+      "name": "Reklamation wegen Nichteingang abgelehnt",
+      "definition": "Die Reklamation wegen Nichterhalts einer Zahlungsanweisung wird abgelehnt."
+    },
+    "RJVA": {
+      "name": "Valutaanpassung abgelehnt",
+      "definition": "Die Reklamation zur Korrektur des Wertstellungsdatums wird abgelehnt."
+    },
+    "SMTC": {
+      "name": "Kontoauszugsposition korrekt",
+      "definition": "Wird verwendet, wenn der Eintrag im Kontoauszug korrekt ist."
+    },
+    "SMTI": {
+      "name": "Kontoauszugsposition fehlerhaft",
+      "definition": "Wird verwendet, wenn der Eintrag im Kontoauszug fehlerhaft ist und mit der Lösung weitere Informationen bereitgestellt werden."
+    },
+    "UWFW": {
+      "name": "Zuordnung nicht möglich, Rückmeldung folgt",
+      "definition": "Wird verwendet, wenn der Absender auf eine Zuweisung mit einem Unable-To-Apply-Workflow antworten möchte."
+    },
+    "BIAS": {
+      "name": "Sammelanweisung bereits abgewickelt",
+      "definition": "Einen Stornierungsantrag bearbeiten, obwohl der Sammelauftrag bereits abgewickelt ist."
+    },
+    "IDNE": {
+      "name": "Anweisung existiert nicht",
+      "definition": "Eine Stapelstornierung „unter Verwendung einer fehlerhaften Stapelsequenznummer“ verarbeiten."
+    },
+    "IVCR": {
+      "name": "Ungültige Stornierungsanfrage",
+      "definition": "Einen Stornierungsantrag mit fehlerhafter Referenz auf den ursprünglichen Sammelauftrag bearbeiten."
+    },
+    "INFO": {
+      "name": "Zusätzliche Informationen gesendet",
+      "definition": "Wird verwendet, wenn dem Begünstigten einer Zahlung zusätzliche Informationen übermittelt wurden."
+    },
+    "NINF": {
+      "name": "Keine Informationen verfügbar",
+      "definition": "Wird verwendet, wenn keine zusätzlichen Informationen verfügbar sind."
+    },
+    "PDNG": {
+      "name": "Ausstehend",
+      "definition": "Wird verwendet, um mitzuteilen, dass eine Antwort auf eine Untersuchung aussteht."
+    }
+  }
+}

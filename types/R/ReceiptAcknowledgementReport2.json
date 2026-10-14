@@ -1,0 +1,12 @@
+{
+  "isoType": "ReceiptAcknowledgementReport2",
+  "definition": "Liefert Angaben zur ursprünglichen Anfrage. Identifiziert die bestätigte Nachricht und ihren Status.",
+  "isoElements": {
+    "RelatedReference": {
+      "definition": "Referenz der Anfrage."
+    },
+    "RequestHandling": {
+      "definition": "Gibt den Status der Anfrage an."
+    }
+  }
+}

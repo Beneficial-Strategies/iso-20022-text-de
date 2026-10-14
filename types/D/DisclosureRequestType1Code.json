@@ -1,0 +1,14 @@
+{
+  "isoType": "DisclosureRequestType1Code",
+  "definition": "Art der Offenlegungsanfrage.",
+  "isoCodes": {
+    "NEWM": {
+      "name": "Neu",
+      "definition": "Neue Offenlegungsanfrage."
+    },
+    "REPL": {
+      "name": "Ersetzung",
+      "definition": "Offenlegungsanfrage, die eine zuvor gesendete Anfrage ersetzt."
+    }
+  }
+}

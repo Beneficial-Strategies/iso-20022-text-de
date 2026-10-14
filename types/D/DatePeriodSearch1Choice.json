@@ -1,0 +1,21 @@
+{
+  "isoType": "DatePeriodSearch1Choice",
+  "definition": "Auswahl zwischen Suchkriterien auf Basis von Daten und Zeitbereichen.",
+  "isoElements": {
+    "FromDate": {
+      "definition": "Anfangsdatum des Bereichs."
+    },
+    "ToDate": {
+      "definition": "Enddatum des Bereichs."
+    },
+    "FromToDate": {
+      "definition": "Bestimmter Zeitraum zwischen einem Anfangsdatum und einem Enddatum."
+    },
+    "EqualDate": {
+      "definition": "Festgelegtes Datum, das übereinstimmen muss."
+    },
+    "NotEqualDate": {
+      "definition": "Festgelegtes Datum, das von der Suche auszuschließen ist."
+    }
+  }
+}

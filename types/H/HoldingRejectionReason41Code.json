@@ -1,0 +1,302 @@
+{
+  "isoType": "HoldingRejectionReason41Code",
+  "definition": "Gibt den Grund an, aus dem die Berichtsposition abgelehnt wird.",
+  "isoCodes": {
+    "INPR": {
+      "name": "Ungültiger Preis",
+      "definition": "Der Preis entspricht nicht den Merkmalen des Finanzinstruments."
+    },
+    "INID": {
+      "name": "Ungültige Identifikation",
+      "definition": "Die Anweisung enthält eine ungültige Nachrichtenidentifikation, die Identifikation ist unbekannt."
+    },
+    "AGIN": {
+      "name": "Ungültiger Agent",
+      "definition": "Ungültige Identifikation des Beauftragten angegeben."
+    },
+    "INTE": {
+      "name": "Intermediär",
+      "definition": "Der Intermediär ist nicht bekannt oder ungültig."
+    },
+    "CERT": {
+      "name": "Fehlerhafte Bescheinigung",
+      "definition": "Die Anweisung wird abgelehnt, da die vorgelegte Bescheinigung falsch oder unvollständig ist."
+    },
+    "BPAR": {
+      "name": "Ablehnung wegen Geschäftspartnernummer",
+      "definition": "Unbekannte oder ungültige Geschäftspartnernummer."
+    },
+    "BREF": {
+      "name": "Ablehnung wegen Bankreferenznummer",
+      "definition": "Unbekannte oder ungültige Bankreferenznummer."
+    },
+    "DADR": {
+      "name": "Ablehnung wegen Adressangaben",
+      "definition": "Die Adressangaben sind fehlerhaft oder nicht erkennbar."
+    },
+    "DCUS": {
+      "name": "Liefernde Depotbank",
+      "definition": "Unbekannte oder ungültige liefernde Depotbank."
+    },
+    "IACT": {
+      "name": "Falsche Aktivitätsart",
+      "definition": "Falsche Aktivitätsart angegeben, zum Beispiel Pre-Release-Umwandlung."
+    },
+    "INVA": {
+      "name": "Für Steuerbehörden ungültig",
+      "definition": "Bei einer Steuerrückerstattung ist der Erstattungsantrag für die Steuerbehörden ungültig."
+    },
+    "INDT": {
+      "name": "Ungültige Details",
+      "definition": "Die in der Anweisung bzw. Anforderung angegebenen Nachrichtendetails stimmen nicht mit den in der zugehörigen ursprünglichen Nachricht angegebenen überein."
+    },
+    "OPTI": {
+      "name": "Ungültige Option",
+      "definition": "Ungültige Kombination aus Optionscode der Kapitalmaßnahme und Optionsnummer der Kapitalmaßnahme."
+    },
+    "OPTY": {
+      "name": "Ungültiger Optionstyp",
+      "definition": "Ungültige Optionsart."
+    },
+    "INMO": {
+      "name": "Ungültige Bewegungsinformationen",
+      "definition": "Die im Block mit den allgemeinen Bewegungsinformationen angegebenen Details stimmen nicht mit den in der zugehörigen ursprünglichen Nachricht angegebenen überein."
+    },
+    "INVM": {
+      "name": "Ungültige Änderungsanfrage",
+      "definition": "Ungültiger oder nicht erkannter Änderungsauftrag."
+    },
+    "INUS": {
+      "name": "Ungültiges Basiswertpapier",
+      "definition": "Die Identifikation des zugrunde liegenden Wertpapiers entspricht nicht der angegebenen Referenz der Kapitalmaßnahme."
+    },
+    "DSEC": {
+      "name": "Ungültiges Wertpapier",
+      "definition": "Ungültige oder nicht erkannte Identifikation des Finanzinstruments."
+    },
+    "ENDP": {
+      "name": "Fehlendes Periodenenddatum",
+      "definition": "Das Enddatum bzw. der Endcode des Zeitraums fehlt."
+    },
+    "STAR": {
+      "name": "Fehlendes Periodenstartdatum",
+      "definition": "Das Anfangsdatum bzw. der Anfangscode des Zeitraums fehlt."
+    },
+    "SECO": {
+      "name": "Fehlende Option",
+      "definition": "Die zweite Option ist obligatorisch."
+    },
+    "NOHO": {
+      "name": "Kein Bestand",
+      "definition": "Kein Bestand für das angegebene zugrunde liegende Wertpapier."
+    },
+    "NINS": {
+      "name": "Kein Instrumentenmarkt",
+      "definition": "Das referenzierte Instrument existiert in Kombination mit dem genannten Markt nicht."
+    },
+    "NOAP": {
+      "name": "Nicht anwendbar",
+      "definition": "Die Anweisungsart ist für obligatorische Ereignisse nicht anwendbar."
+    },
+    "NAUT": {
+      "name": "Nicht autorisiert",
+      "definition": "Die Berechtigung zur Verarbeitung wurde nicht erteilt."
+    },
+    "AGID": {
+      "name": "Nicht definierte Bank",
+      "definition": "Die Partei ist nicht als Beauftragter definiert."
+    },
+    "DISP": {
+      "name": "Nicht zulässiges Streuungswertpapier",
+      "definition": "Das Disperse-Wertpapier ist beim Dienstleister (ICSD) des Inhabers nicht zulässig."
+    },
+    "CORR": {
+      "name": "Nicht identifizierte Korrespondenzbank",
+      "definition": "Die Korrespondenzbank kann nicht identifiziert werden."
+    },
+    "INPS": {
+      "name": "Verwahrort",
+      "definition": "Unbekannter, ungültiger oder fehlender Verwahrort."
+    },
+    "PLCE": {
+      "name": "Handelsplatz",
+      "definition": "Nicht erkannter oder ungültiger Handelsplatz."
+    },
+    "PRIC": {
+      "name": "Preis überschritten",
+      "definition": "Der Preis in der Ausführung überschreitet den Auftragspreis."
+    },
+    "IVAG": {
+      "name": "Empfangende Bank",
+      "definition": "Der empfangende Beauftragte ist nicht bekannt oder ungültig."
+    },
+    "QUNP": {
+      "name": "Mengeneinheitstyp",
+      "definition": "Die Mengeneinheitsart wurde nicht angegeben."
+    },
+    "DQUA": {
+      "name": "Ablehnung wegen Menge",
+      "definition": "Ungültige oder nicht erkannte angewiesene Menge."
+    },
+    "EQTY": {
+      "name": "Menge überschritten",
+      "definition": "Die Menge in der Ausführung überschreitet die beauftragte Menge."
+    },
+    "DEPT": {
+      "name": "Empfangende/liefernde Verwahrstelle",
+      "definition": "Unbekannte oder ungültige Verwahrstelle."
+    },
+    "RCUS": {
+      "name": "Empfangende Depotbank",
+      "definition": "Unbekannter oder ungültiger empfangender Beauftragter."
+    },
+    "SAFE": {
+      "name": "Ablehnung des Verwahrkontos",
+      "definition": "Nicht erkanntes oder ungültiges Verwahrkonto des Nachrichtensenders."
+    },
+    "DMON": {
+      "name": "Ablehnung wegen Abwicklungsbetrag",
+      "definition": "Ungültiger oder nicht erkannter Abwicklungsbetrag."
+    },
+    "NCRR": {
+      "name": "Ablehnung wegen Abwicklungsbetragswährung",
+      "definition": "Ungültige oder nicht erkannte Währung des Abwicklungsbetrags."
+    },
+    "TQNP": {
+      "name": "Gehandelte Wertpapiermenge",
+      "definition": "Die gehandelte Wertpapiermenge wurde nicht angegeben."
+    },
+    "SETR": {
+      "name": "Ablehnung der Abwicklungstransaktion",
+      "definition": "Nicht erkannte oder ungültige Art der Abwicklungstransaktion."
+    },
+    "UKWN": {
+      "name": "Unbekanntes Symbol",
+      "definition": "Das Symbol des Finanzinstruments wurde nicht erkannt."
+    },
+    "DDEA": {
+      "name": "Geschäftspreis",
+      "definition": "Nicht erkannter oder ungültiger Geschäftspreis."
+    },
+    "TERM": {
+      "name": "Ablehnung wegen Abschlussdatum und -zeit",
+      "definition": "Unbekanntes oder ungültiges Beendigungsdatum/-uhrzeit."
+    },
+    "ULNK": {
+      "name": "Ungültige Referenz",
+      "definition": "Die verknüpfte Referenz ist unbekannt."
+    },
+    "NARR": {
+      "name": "Textlicher Grund",
+      "definition": "Siehe Freitextfeld für den Grund."
+    },
+    "NRGN": {
+      "name": "Ablehnung wegen Nichtauffindbarkeit",
+      "definition": "Die Anweisung konnte nicht gefunden werden."
+    },
+    "INVB": {
+      "name": "Ungültiger Saldo",
+      "definition": "Die Anweisung zielt auf die Verwendung eines ungültigen Bestands ab."
+    },
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Transaktion bzw. Anweisung ging nach Ablauf der vom kontoführenden Institut festgelegten Frist ein."
+    },
+    "CASH": {
+      "name": "Geldkonto",
+      "definition": "Nicht erkanntes oder ungültiges Geldkonto."
+    },
+    "COMC": {
+      "name": "Ablehnung wegen Vertriebsvertrag",
+      "definition": "Unbekannter oder ungültiger Vermarktungsvertrag."
+    },
+    "CONL": {
+      "name": "Konzentrationsgrenze überschritten",
+      "definition": "Das Konzentrationslimit wurde überschritten."
+    },
+    "INHO": {
+      "name": "Unzureichender Saldo",
+      "definition": "Unzureichender Saldo."
+    },
+    "ICOL": {
+      "name": "Unzureichende Sicherheiten",
+      "definition": "Unzureichende Sicherheiten vorgeschlagen."
+    },
+    "INVE": {
+      "name": "Ungültige Anlegerpartei",
+      "definition": "Unbekannte oder ungültige Anlegerpartei. Kann von einer ausführenden Partei verwendet werden, um eine Anweisung für einen Anleger (oder ein Portfolio) abzulehnen, für den sie nicht zum Handeln befugt ist."
+    },
+    "INVN": {
+      "name": "Ungültige Losnummer",
+      "definition": "Ungültige oder nicht erkannte Losnummer."
+    },
+    "INVL": {
+      "name": "Ungültige Verknüpfung",
+      "definition": "Ungültige oder nicht erkannte Verknüpfung."
+    },
+    "VALR": {
+      "name": "Ungültige Regel",
+      "definition": "Ablehnung aufgrund einer Validierungsregel des kontoführenden Instituts."
+    },
+    "INUK": {
+      "name": "Name und Adresse des Anlegers unbekannt",
+      "definition": "Name und Adresse des Anlegers sind nicht bekannt."
+    },
+    "LATT": {
+      "name": "Verspätet",
+      "definition": "Die Anweisung bzw. Anforderung geht zu spät ein."
+    },
+    "MINO": {
+      "name": "Mindestabwicklungsmenge",
+      "definition": "Die angewiesene Menge liegt unter der für das Finanzinstrument bestehenden Mindestabwicklungsmenge."
+    },
+    "BOIS": {
+      "name": "Fehlende Angaben zum wirtschaftlich Berechtigten",
+      "definition": "Abgelehnt aufgrund fehlender Angaben zum wirtschaftlich Berechtigten."
+    },
+    "MCER": {
+      "name": "Fehlende Bescheinigung",
+      "definition": "Die Bescheinigung wurde nicht ausgefüllt."
+    },
+    "IPOA": {
+      "name": "Fehlende oder ungültige Vollmacht",
+      "definition": "Fehlende oder ungültige Vollmacht."
+    },
+    "MUNO": {
+      "name": "Mehrfache Abwicklungsmenge",
+      "definition": "Die angewiesene Menge ist kein Vielfaches einer für das Finanzinstrument bestehenden Abwicklungslosgröße."
+    },
+    "INNA": {
+      "name": "Ablehnung wegen Freitextinformation",
+      "definition": "Unbekannte oder ungültige vorab vereinbarte Freitextinformation der Dienstgütevereinbarung (Service Level Agreement)."
+    },
+    "NINV": {
+      "name": "Kein Bestand verfügbar",
+      "definition": "Das angeforderte Finanzinstrument ist nicht verfügbar."
+    },
+    "ELIG": {
+      "name": "Nicht zulässiges Wertpapier",
+      "definition": "Das Wertpapier ist nicht zulässig."
+    },
+    "PERI": {
+      "name": "Periodenenddatum vor Periodenstartdatum",
+      "definition": "Das Enddatum des Zeitraums liegt vor dem Anfangsdatum des Zeitraums."
+    },
+    "REFE": {
+      "name": "Ablehnung wegen Referenz",
+      "definition": "Die Anweisung hat eine Referenz, die mit einer anderen zuvor eingegangenen Anweisung identisch ist."
+    },
+    "SAID": {
+      "name": "Gleiche Identifikation",
+      "definition": "Mehrere Nachrichten mit derselben Identifikation."
+    },
+    "OWNT": {
+      "name": "Ablehnung wegen Eigentumsart",
+      "definition": "Die angegebene Eigentumsart ist nicht korrekt."
+    },
+    "NTAV": {
+      "name": "Nicht verfügbar",
+      "definition": "Der Grund ist nicht verfügbar oder unbekannt."
+    }
+  }
+}

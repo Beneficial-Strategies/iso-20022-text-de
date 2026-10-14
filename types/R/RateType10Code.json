@@ -1,0 +1,14 @@
+{
+  "isoType": "RateType10Code",
+  "definition": "Gibt die Art des Satzes an.",
+  "isoCodes": {
+    "ANYA": {
+      "name": "Jede und alle",
+      "definition": "Jeder und alle Sätze werden angestrebt."
+    },
+    "UKWN": {
+      "name": "Unbekannt",
+      "definition": "Der Satz ist dem Sender unbekannt oder wurde nicht festgelegt."
+    }
+  }
+}

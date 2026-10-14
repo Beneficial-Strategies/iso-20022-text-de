@@ -1,0 +1,50 @@
+{
+  "isoType": "MessageAndBusinessReference14",
+  "definition": "Informationen zur Nachrichtenreferenz der Nachricht, für die der Status angefordert wird, und zur Geschäftsreferenz der Übertragungsanweisung.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referenz auf die zuvor gesendete Nachricht oder Kommunikation."
+    },
+    "TypeOfRequest": {
+      "definition": "Erforderliche Art der Anfrage."
+    },
+    "MasterReference": {
+      "definition": "Eindeutiger Identifikator für eine Gruppe einzelner Übertragungen, wie von der anweisenden Partei vergeben. Dieser Identifikator verknüpft die einzelnen Übertragungen miteinander."
+    },
+    "TransferReference": {
+      "definition": "Eindeutige Identifikation der Übertragung, wie von der anweisenden Partei vergeben."
+    },
+    "ClientReference": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation der Übertragung durch den Anleger. Diese Referenz kann typischerweise in einem Hub-Szenario verwendet werden, um die vom zugrunde liegenden Kunden vergebene Referenz der Übertragung anzugeben."
+    },
+    "CancellationReference": {
+      "definition": "Eindeutiger Identifikator für eine Übertragungsstornierung, wie von der anweisenden Partei vergeben."
+    },
+    "Instrument": {
+      "definition": "Identifikation des Vermögenswerts."
+    },
+    "InvestmentAccountDetails": {
+      "definition": "Anlagekontoinformationen der Übertragung, für die der Status oder Informationen angefordert werden."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identifikation einer verbundenen Partei oder eines Vermittlers."
+    },
+    "QueryInformation": {
+      "definition": "Informationen zur Abfrage."
+    },
+    "RequestIssuer": {
+      "definition": "Partei, die die Anfragenachricht sendet."
+    },
+    "RequestRecipient": {
+      "definition": "Partei, die die Anfragenachricht empfängt."
+    }
+  },
+  "isoRules": {
+    "OtherReferenceRule": {
+      "definition": "Reference/OtherReference sollte verwendet werden, um auf eine Übertragungsanweisung oder eine „Nachricht“ eines Übertragungsstornierungsauftrags zu verweisen, die auf proprietäre Weise gesendet wurde oder als Systemreferenz dient. Wenn Reference/OtherReference vorhanden ist, muss Reference/OtherReference/MessageName „fax“ oder „phone“ oder „email“ usw. enthalten."
+    },
+    "PreviousReferenceRule": {
+      "definition": "Wenn Reference/PreviousReference/MessageName vorhanden ist, muss es mit sese.001, sese.002, sese.005, sese.006, sese.012 oder sese.014 beginnen."
+    }
+  }
+}

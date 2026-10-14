@@ -1,0 +1,12 @@
+{
+  "isoType": "BankToCustomerAccountReportV14",
+  "definition": "Umfang|Die Nachricht BankToCustomerAccountReport wird vom Kontoführer an einen Kontoinhaber oder an eine vom Kontoinhaber zum Empfang der Nachricht autorisierte Partei gesendet. Sie kann verwendet werden, um den Kontoinhaber oder die autorisierte Partei über die auf dem Konto gemeldeten Buchungen zu informieren und/oder dem Inhaber Saldeninformationen zum Konto zu einem bestimmten Zeitpunkt bereitzustellen.|Verwendung|Die Nachricht BankToCustomerAccountReport kann Berichte für mehr als ein Konto enthalten. Sie liefert Informationen für das Cash Management und/oder den Abgleich. Sie kann verwendet werden, um:|- ausstehende und gebuchte Posten zu melden;|- Saldeninformationen bereitzustellen.|Sie kann zugrunde liegende Details zu Transaktionen enthalten, die in der Buchung enthalten sind.|Es ist möglich, dass der Empfänger der Nachricht nicht der Kontoinhaber ist, sondern eine vom Kontoinhaber zum Empfang der Kontoinformationen berechtigte Partei (auch als Empfänger bezeichnet).|Für einen Kontoauszug sollte die Nachricht Bank-to-Customer Account Statement verwendet werden.",
+  "isoRules": {
+    "MessageOrReportPaginationRule": {
+      "definition": "MessagePagination darf vorhanden sein oder ReportPagination darf vorhanden sein, aber nicht beide."
+    },
+    "SupplementaryDataRule": {
+      "definition": "Der Baustein SupplementaryData auf Nachrichtenebene darf nicht verwendet werden, um zusätzliche Informationen zu einer Transaktion bereitzustellen. Dafür sollte das Element SupplementaryData auf Transaktionsebene verwendet werden."
+    }
+  }
+}

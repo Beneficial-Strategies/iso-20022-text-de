@@ -1,0 +1,78 @@
+{
+  "isoType": "PaymentReturnCriteria4",
+  "definition": "Legt die Kriterien fest, nach denen über die Zahlung berichtet wird.",
+  "isoElements": {
+    "MessageIdentificationIndicator": {
+      "definition": "Gibt an, ob die Nachrichtenidentifikation der ursprünglichen Zahlungstransaktion angefordert wird.|Verwendung: Dies ist die frühere TransactionReference."
+    },
+    "RequestedExecutionDateIndicator": {
+      "definition": "Gibt an, ob das gewünschte Ausführungsdatum angefordert wird.|Verwendung: Dies ist das frühere TransferValueDate."
+    },
+    "InstructionIndicator": {
+      "definition": "Gibt an, ob die Anweisung angefordert wird."
+    },
+    "InstructionStatusReturnCriteria": {
+      "definition": "Gibt an, ob der Status der Anweisung angefordert wird."
+    },
+    "InstructedAmountIndicator": {
+      "definition": "Gibt an, ob der angewiesene Betrag angefordert wird."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob das Gutschrift-/Belastungskennzeichen angefordert wird."
+    },
+    "InterbankSettlementAmountIndicator": {
+      "definition": "Gibt an, ob der Interbanken-Verrechnungsbetrag angefordert wird."
+    },
+    "PriorityIndicator": {
+      "definition": "Gibt an, ob die Zahlungspriorität angefordert wird."
+    },
+    "ProcessingValidityTimeIndicator": {
+      "definition": "Gibt an, ob die Gültigkeitsdauer der Verarbeitung angefordert wird."
+    },
+    "PurposeIndicator": {
+      "definition": "Gibt an, ob der Überweisungsgrund angefordert wird."
+    },
+    "InstructionCopyIndicator": {
+      "definition": "Gibt an, ob die Kopie der Anweisung angefordert wird."
+    },
+    "PaymentMessageTypeIndicator": {
+      "definition": "Gibt an, ob der Typ der Zahlungsnachricht angefordert wird."
+    },
+    "PaymentTypeIndicator": {
+      "definition": "Gibt an, ob die Zahlungsart angefordert wird."
+    },
+    "TransactionIdentificationIndicator": {
+      "definition": "Gibt an, ob die Transaktionsidentifikation angefordert wird.|Verwendung: Dies ist die frühere PaymentInstructionReference."
+    },
+    "InterbankSettlementDateIndicator": {
+      "definition": "Gibt an, ob das Interbanken-Verrechnungsdatum angefordert wird.|Verwendung: Dies ist das frühere InterbankValueDate."
+    },
+    "EndToEndIdentificationIndicator": {
+      "definition": "Gibt an, ob die Ende-zu-Ende-Identifikation angefordert wird.|Verwendung: Dies ist die frühere RelatedReference."
+    },
+    "PaymentMethodIndicator": {
+      "definition": "Gibt an, ob die Zahlungsmethode angefordert wird."
+    },
+    "DebtorIndicator": {
+      "definition": "Gibt an, ob der Zahlungspflichtige angefordert wird."
+    },
+    "DebtorAgentIndicator": {
+      "definition": "Gibt an, ob die Bank des Zahlungspflichtigen angefordert wird.|Verwendung: Dies ist der frühere FirstAgent."
+    },
+    "InstructingReimbursementAgentIndicator": {
+      "definition": "Gibt an, ob die anweisende Erstattungsbank angefordert wird.|Verwendung: Dies ist der frühere InstructingAgentCorrespondent."
+    },
+    "InstructedReimbursementAgentIndicator": {
+      "definition": "Gibt an, ob die angewiesene Erstattungsbank angefordert wird.|Verwendung: Dies ist der frühere InstructedAgentCorrespondent."
+    },
+    "IntermediaryIndicator": {
+      "definition": "Gibt an, ob die zwischengeschaltete Bank angefordert wird."
+    },
+    "CreditorAgentIndicator": {
+      "definition": "Gibt an, ob die Bank des Zahlungsempfängers angefordert wird.|Verwendung: Dies ist der frühere FinalAgent."
+    },
+    "CreditorIndicator": {
+      "definition": "Gibt an, ob der Zahlungsempfänger angefordert wird."
+    }
+  }
+}

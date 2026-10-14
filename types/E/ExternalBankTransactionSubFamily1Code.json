@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalBankTransactionSubFamily1Code",
+  "definition": "Gibt die Unterfamilie des Banktransaktionscodes an, wie in einer externen Code-Liste für Unterfamilien von Banktransaktionscodes veröffentlicht.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden."
+}

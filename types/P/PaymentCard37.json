@@ -1,0 +1,27 @@
+{
+  "isoType": "PaymentCard37",
+  "definition": "Karte, mit der die Abhebungstransaktion durchgeführt wird.",
+  "isoElements": {
+    "CardDataEntryMode": {
+      "definition": "Eingabeart, mit der die Kartendaten erfasst wurden."
+    },
+    "FallbackIndicator": {
+      "definition": "Zeigt das Auftreten eines Fallbacks bei der Eingabeart der Karte an.|Verwendung: Wenn nicht vorhanden, ist der Standardwert Falsch."
+    },
+    "ProtectedCardData": {
+      "definition": "Ersetzung des Nachrichtenelements PlainCardData durch einen digitalen Umschlag unter Verwendung eines kryptografischen Schlüssels."
+    },
+    "PlainCardData": {
+      "definition": "Sensible Daten zur Karte, mit der die Transaktion durchgeführt wird."
+    },
+    "CardCountryCode": {
+      "definition": "Vom Kartenemittenten der Karte zugewiesener Ländercode."
+    },
+    "CardCurrencyCode": {
+      "definition": "Währungscode des Kartenemittenten (numerischer Code nach ISO 4217)."
+    },
+    "ElectronicPurseBalance": {
+      "definition": "Saldo der eingezogenen Karte oder E-Geldbörse, sofern verfügbar."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "MeetingDateStatus2Code",
+  "definition": "Gibt einen Status für ein Versammlungsdatum an.",
+  "isoCodes": {
+    "CNFR": {
+      "name": "Bestätigt",
+      "definition": "Das Versammlungsdatum ist bestätigt."
+    },
+    "TNTA": {
+      "name": "Vorläufig",
+      "definition": "Das Versammlungsdatum ist vorläufig."
+    }
+  }
+}

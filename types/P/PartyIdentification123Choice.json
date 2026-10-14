@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification123Choice",
+  "definition": "Auswahl zwischen verschiedenen Formaten für die Identifikation einer Partei.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Identifikation der Partei, ausgedrückt als BIC."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Eindeutiger und zweifelsfreier Identifikator, der der Partei anhand eines proprietären Identifikationsschemas zugewiesen wurde."
+    },
+    "NameAndAddress": {
+      "definition": "Name und Adresse der Partei."
+    }
+  }
+}

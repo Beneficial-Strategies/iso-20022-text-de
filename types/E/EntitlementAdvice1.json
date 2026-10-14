@@ -1,0 +1,21 @@
+{
+  "isoType": "EntitlementAdvice1",
+  "definition": "Enthält Informationen zum Anspruch aus der Kapitalmaßnahme (CA).",
+  "isoElements": {
+    "OptionType": {
+      "definition": "Gibt die dem Kontoinhaber zur Verfügung stehenden Optionen der Kapitalmaßnahme an."
+    },
+    "OptionNumber": {
+      "definition": "Nummer zur Identifikation der verfügbaren Kapitalmaßnahmen-Optionen."
+    },
+    "RecordDate": {
+      "definition": "Datum, an dem die Inhaber der Wertpapiere für die ausgezahlten Erträge oder für den Anspruch auf die Rechte bzw. das Angebot/Vorrecht erfasst werden bzw. wurden."
+    },
+    "PaymentDate": {
+      "definition": "Datum, an dem Wertpapiere/Geld ausgezahlt werden."
+    },
+    "AccountAndDistributionDetails": {
+      "definition": "Enthält Informationen zum Anspruch und zum anspruchsberechtigten Konto."
+    }
+  }
+}

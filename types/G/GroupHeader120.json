@@ -1,0 +1,21 @@
+{
+  "isoType": "GroupHeader120",
+  "definition": "Satz von Merkmalen, die für alle in der Nachricht enthaltenen Einzeltransaktionen gelten.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, vergeben von der anweisenden Partei und an die nächste Partei in der Kette gesendet, zur zweifelsfreien Identifizierung der Nachricht.|Verwendung: Die anweisende Partei muss sicherstellen, dass MessageIdentification für die angewiesene Partei über einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "InstructingAgent": {
+      "definition": "Bank, die die nächste Partei in der Kette anweist, die Anweisung(en) auszuführen.||Verwendung: Die anweisende Bank ist die Partei, die die Statusnachricht sendet, und nicht die Partei, die die ursprüngliche Anweisung gesendet hat, über die berichtet wird."
+    },
+    "InstructedAgent": {
+      "definition": "Bank, die von der vorherigen Partei in der Kette angewiesen wird, die Anweisung(en) auszuführen.||Verwendung: Die angewiesene Bank ist die Partei, die die Statusnachricht empfängt, und nicht die Partei, die die ursprüngliche Anweisung erhalten hat, über die berichtet wird."
+    },
+    "OriginalBusinessQuery": {
+      "definition": "Eindeutige, vom ursprünglichen Auftraggeber vergebene Identifikation zur zweifelsfreien Identifizierung der geschäftlichen Abfragenachricht."
+    }
+  }
+}

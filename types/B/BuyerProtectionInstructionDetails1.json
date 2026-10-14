@@ -1,0 +1,21 @@
+{
+  "isoType": "BuyerProtectionInstructionDetails1",
+  "definition": "Für eine bestimmte Käuferschutz-Anweisung empfangene Informationen.",
+  "isoElements": {
+    "BuyerProtectionInstructionIdentification": {
+      "definition": "Identifikation des zugehörigen Käuferschutz-Anweisungsdokuments, für das die Stornierung beantragt wird."
+    },
+    "RelatedSettlementInstructionIdentification": {
+      "definition": "Satz von Elementen zur Identifikation der käufergeschützten Abwicklungsanweisung."
+    },
+    "CounterpartyDepository": {
+      "definition": "Erste empfangende Partei in der Abwicklungskette. Bei einer einfachen Standardabwicklung ist dies die Zentralverwahrer-Stelle, bei der die empfangende Seite der Transaktion die Lieferung des Finanzinstruments beantragt."
+    },
+    "AccountIdentification": {
+      "definition": "Liste ausgewählter Verwahrkonten, auf die sich das Ereignis der Kapitalmaßnahme bezieht."
+    },
+    "InstructionProcessingStatus": {
+      "definition": "Informationen zum Verarbeitungsstatus der Anweisung."
+    }
+  }
+}

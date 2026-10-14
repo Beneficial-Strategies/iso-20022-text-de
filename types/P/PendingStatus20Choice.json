@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatus20Choice",
+  "definition": "Auswahl des Formats für den Abgleichsstatus.",
+  "isoElements": {
+    "Forwarded": {
+      "definition": "Die Behauptung (Allegement) wird weitergeleitet."
+    },
+    "UnderInvestigation": {
+      "definition": "Die Behauptung (Allegement) wird geprüft."
+    }
+  }
+}

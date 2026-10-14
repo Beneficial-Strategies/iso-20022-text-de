@@ -1,0 +1,4 @@
+{
+  "isoType": "ResendRequestV01",
+  "definition": "Ein Systemteilnehmer oder von ihm autorisierte Parteien senden eine Nachricht ResendRequest an das zentrale System (etwa die T2S-Plattform). Zweck dieser Anfrage ist, dass die anfragende Partei die „ursprüngliche“ Nachricht noch einmal erhalten möchte. Ursache können technische Probleme auf der Empfängerseite sein (die Nachricht konnte nicht empfangen oder verarbeitet werden oder fehlt in der Nachrichtensequenz) oder Archivierungszwecke."
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "ChequeCancellationOrStopRequestV02",
+  "definition": "Die Nachricht ChequeCancellationOrStopRequest wird von einer Bank des Scheckausstellers oder einer in dessen Auftrag handelnden Bank an die Bank gesendet, auf die ein Scheck gezogen wurde (die bezogene Bank), um die Stornierung der Vorlage und/oder die Sperrung der Zahlung des in der Nachricht genannten Schecks zu beantragen."
+}

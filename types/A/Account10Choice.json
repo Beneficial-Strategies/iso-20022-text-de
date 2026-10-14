@@ -1,0 +1,15 @@
+{
+  "isoType": "Account10Choice",
+  "definition": "Auswahl zwischen einem Geldkonto, einem Entgeltkonto oder einem Steuerkonto.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Konto, auf dem Bargeld geführt wird."
+    },
+    "ChargesAccount": {
+      "definition": "Für Entgelte zu verwendendes Konto, falls abweichend vom Konto für die Zahlung."
+    },
+    "TaxAccount": {
+      "definition": "Für Steuern zu verwendendes Konto, falls abweichend vom Konto für die Zahlung."
+    }
+  }
+}

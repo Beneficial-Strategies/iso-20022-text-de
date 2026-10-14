@@ -1,0 +1,18 @@
+{
+  "isoType": "TrackerStatus1",
+  "definition": "Liefert detaillierte Angaben zum Transaktionsstatus, der im Tracker aktualisiert werden soll.",
+  "isoElements": {
+    "Status": {
+      "definition": "Gibt den Status einer Transaktion in codierter Form an."
+    },
+    "Date": {
+      "definition": "Datum des Status."
+    },
+    "StatusReason": {
+      "definition": "Liefert detaillierte Informationen zum Statusgrund."
+    },
+    "RejectReturnReason": {
+      "definition": "Enthält detaillierte Angaben zum Rückgabegrund."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "isoType": "FundCashForecast7",
+  "definition": "Geldbewegungen aus einem Fonds oder in einen Fonds als Ergebnis von Investmentfondstransaktionen, z. B. Zeichnungen oder Rücknahmen.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige technische Kennung für eine Instanz einer Fondsliquiditätsprognose innerhalb eines Fondsliquiditätsprognoseberichts, vergeben vom Aussteller des Berichts."
+    },
+    "TradeDateTime": {
+      "definition": "Datum und, falls erforderlich, Uhrzeit, zu denen der Preis angewendet wurde."
+    },
+    "PreviousTradeDateTime": {
+      "definition": "Vorheriges Datum und vorherige Uhrzeit, zu denen der Preis angewendet wurde."
+    },
+    "FinancialInstrumentDetails": {
+      "definition": "Anteilklasse des Investmentfonds, auf die sich ein Cashflow bezieht."
+    },
+    "TotalNAV": {
+      "definition": "Gesamtwert aller Bestände abzüglich der Verbindlichkeiten des Fonds, der einer bestimmten Anteilklasse des Investmentfonds zuzurechnen ist."
+    },
+    "PreviousTotalNAV": {
+      "definition": "Vorheriger Wert aller Bestände abzüglich der Verbindlichkeiten des Fonds, der einer bestimmten Anteilklasse des Investmentfonds zuzurechnen ist."
+    },
+    "TotalUnitsNumber": {
+      "definition": "Gesamtzahl der ausgegebenen Anteile der Anteilklasse des Investmentfonds."
+    },
+    "PreviousTotalUnitsNumber": {
+      "definition": "Vorherige Gesamtzahl der ausgegebenen Anteile der Anteilklasse des Investmentfonds."
+    },
+    "TotalNAVChangeRate": {
+      "definition": "Veränderungsrate des Nettoinventarwerts."
+    },
+    "InvestmentCurrency": {
+      "definition": "Währung der Anteilklasse des Investmentfonds."
+    },
+    "CurrencyStatus": {
+      "definition": "Angaben zur Bezeichnung der Währung der Anteilklasse, das heißt, ob sie für Onshore- oder Offshore-Zwecke gilt, sowie weitere gegebenenfalls erforderliche Angaben. Dies ist in der Regel nur bei CNY-Fonds erforderlich."
+    },
+    "ExceptionalNetCashFlowIndicator": {
+      "definition": "Gibt an, ob der Netto-Cashflow außergewöhnlich ist."
+    },
+    "Price": {
+      "definition": "Preis pro Anteil des Handelstags."
+    },
+    "ForeignExchangeRate": {
+      "definition": "Devisenkurs."
+    },
+    "PercentageOfShareClassTotalNAV": {
+      "definition": "Netto-Cashflow, ausgedrückt als Prozentsatz des Gesamt-NAV der Anteilklasse."
+    },
+    "CashInForecastDetails": {
+      "definition": "Mittelzuflüsse in den Fonds aufgrund von Transaktionen mit Anteilen an einem Investmentfonds, zum Beispiel Zeichnungen oder Umtausch-Zugänge."
+    },
+    "CashOutForecastDetails": {
+      "definition": "Mittelabflüsse aus dem Fonds aufgrund von Transaktionen mit Anteilen an einem Investmentfonds, zum Beispiel Rücknahmen oder Umtausch-Abgänge."
+    },
+    "NetCashForecastDetails": {
+      "definition": "Nettogeld als Ergebnis der Zahlungsströme in den Fonds und aus dem Fonds."
+    }
+  },
+  "isoRules": {
+    "ExceptionalCashFlowIndicatorRule": {
+      "definition": "Wenn Exceptional NetCashFlow Indicator \"true\" oder \"1\" (Ja) ist, müssen CashInForecastDetails/ExceptionalCashFlowIndicator und CashOutForecastDetails/ ExceptionalCashFlowIndicator vorhanden sein."
+    }
+  }
+}

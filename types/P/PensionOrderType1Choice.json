@@ -1,0 +1,12 @@
+{
+  "isoType": "PensionOrderType1Choice",
+  "definition": "Auswahl von Formaten für eine Art von Rentenanordnung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Art der Anordnung, die mit der Rentenpolice, dem Rentenplan oder dem Rentensystem verbunden ist."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Art der Anordnung, die mit der Rentenpolice, dem Rentenplan oder dem Rentensystem verbunden ist."
+    }
+  }
+}

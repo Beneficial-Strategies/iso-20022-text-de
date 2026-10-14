@@ -1,0 +1,27 @@
+{
+  "isoType": "InvestigationDataRecord12Choice",
+  "definition": "Gibt die Datenelemente an, die sich auf die Antwort auf eine Untersuchungsanfrage beziehen.",
+  "isoElements": {
+    "DebitAuthorisation": {
+      "definition": "Gibt an, ob die Belastungsautorisierung erteilt wird oder nicht."
+    },
+    "Compensation": {
+      "definition": "Gibt die für die Anfrage geschuldete Entschädigung an."
+    },
+    "Valuation": {
+      "definition": "Gibt die für die Anfrage geschuldete Entschädigung an."
+    },
+    "Confirmation": {
+      "definition": "Bestätigt, dass eine Zahlung ein Konto belastet oder gutgeschrieben hat."
+    },
+    "TransactionStatus": {
+      "definition": "Enthält den Status einer Zahlung, die noch kein Konto belastet oder gutgeschrieben hat."
+    },
+    "TransactionData": {
+      "definition": "Enthält Daten im Zusammenhang mit einer Anfrage."
+    },
+    "ResponseNarrative": {
+      "definition": "Enthält zusätzliche Informationen zur Antwort in Textform."
+    }
+  }
+}

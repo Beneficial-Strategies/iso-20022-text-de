@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesAccount19",
+  "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Zweifelsfreie Identifikation des Kontos zwischen Kontoinhaber und Kontoführer."
+    },
+    "Type": {
+      "definition": "Gibt die Art des Wertpapierkontos an."
+    },
+    "Name": {
+      "definition": "Beschreibung des Kontos."
+    }
+  }
+}

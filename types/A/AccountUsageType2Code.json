@@ -1,0 +1,22 @@
+{
+  "isoType": "AccountUsageType2Code",
+  "definition": "Gibt die Art der Kontonutzung an.",
+  "isoCodes": {
+    "INVE": {
+      "name": "Anleger",
+      "definition": "Anleger."
+    },
+    "ISSP": {
+      "name": "Emittierender Teilnehmer",
+      "definition": "Emissionsteilnehmer."
+    },
+    "SETP": {
+      "name": "Abwicklungsteilnehmer",
+      "definition": "Abwicklungsteilnehmer."
+    },
+    "TRDP": {
+      "name": "Handelsteilnehmer",
+      "definition": "Handelsteilnehmer."
+    }
+  }
+}

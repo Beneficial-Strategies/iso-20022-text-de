@@ -1,0 +1,21 @@
+{
+  "isoType": "ResolutionOfInvestigationV14",
+  "definition": "Anwendungsbereich|Die Nachricht ResolutionOfInvestigation wird von einem Fallbearbeiter an den Fallersteller bzw. Fallzuweisenden gesendet.|Diese Nachricht dient dazu, über die Lösung eines Falls zu informieren, und enthält optional Angaben zu.|- der vom Fallbearbeiter ergriffenen Korrekturmaßnahme;|- Informationen zur Rückleitung, sofern zutreffend.|Verwendung|Die Nachricht ResolutionOfInvestigation wird vom Fallbearbeiter verwendet, um einen Fallersteller oder Fallzuweisenden über die Lösung folgender Anfrage zu informieren:|- Anfrage zur Stornierung einer Zahlung;|Die Nachricht ResolutionOfInvestigation betrifft jeweils genau einen Fall. Muss der Fallbearbeiter über mehrere Fälle kommunizieren, sind mehrere Nachrichten ResolutionOfInvestigation zu senden.|Die Nachricht ResolutionOfInvestigation enthält:|- das Endergebnis des Falls, ob positiv oder negativ;|- optional die Einzelheiten der vom Fallbearbeiter ergriffenen Korrekturmaßnahme und die Informationen zur Rückleitung.|Wenn die Änderung oder Stornierung einer Zahlung dazu führt, dass Gelder zurückgeleitet oder rückgebucht werden, kann eine untersuchende Bank die Einzelheiten in der mit der Lösung verbundenen Untersuchungskomponente angeben, um die Rücküberweisung oder Rückbuchung zu identifizieren. Diese Angaben erleichtern den Kontenabgleich bei der initiierenden Bank und den zwischengeschalteten Banken. Es ist zu betonen, dass die Rückleitung oder Rückbuchung von Geldern außerhalb des Anwendungsbereichs dieses Services für Ausnahmen und Untersuchungen liegt. Die hier bereitgestellten Funktionen dienen nur dazu, die Information über eine Rückleitung oder Rückbuchung zu übermitteln, sofern diese durch die Lösung des Falls verfügbar ist.|Die Nachricht ResolutionOfInvestigation muss:|- von allen nachfolgenden Fallbearbeitern weitergeleitet werden, bis sie den Fallersteller erreicht;|Die Nachricht ResolutionOfInvestigation sollte die einzige Nachricht zur Beantwortung eines Stornierungsauftrags sein. Einzelheiten zu den zugrunde liegenden Transaktionen und den zugehörigen Status, für die der Stornierungsauftrag erteilt wurde, können in der Komponente CancellationDetails angegeben werden.",
+  "isoRules": {
+    "PartialOrRejectedCancellationRule": {
+      "definition": "Ist Status/Confirmation vorhanden und gleich PECR oder RJCR, so muss CancellationDetails vorhanden sein."
+    },
+    "MessageOrGroupResolvedCaseRule": {
+      "definition": "ResolvedCase kann auf der Ebene ResolvedCase, OriginalGroupInformationAndStatus, OriginalPaymentInformationAndStatus oder TransactionInformationAndStatus vorhanden sein."
+    },
+    "MessageOrPaymentInformationResolvedCaseRule": {
+      "definition": "ResolvedCase kann auf der Ebene ResolvedCase, OriginalGroupInformationAndStatus, OriginalPaymentInformationAndStatus oder TransactionInformationAndStatus vorhanden sein."
+    },
+    "MessageOrInitiationTransactionResolvedCaseRule": {
+      "definition": "ResolvedCase kann auf der Ebene ResolvedCase, OriginalGroupInformationAndStatus, OriginalPaymentInformationAndStatus oder TransactionInformationAndStatus vorhanden sein."
+    },
+    "MessageOrInterbankTransactionResolvedCaseRule": {
+      "definition": "ResolvedCase kann auf der Ebene ResolvedCase, OriginalGroupInformationAndStatus, OriginalPaymentInformationAndStatus oder TransactionInformationAndStatus vorhanden sein."
+    }
+  }
+}

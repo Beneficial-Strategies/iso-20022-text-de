@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingCurrencyType1Code",
+  "definition": "Legt die Art der Währung fest, die für die Abrechnung einer Dienstleistung verwendet wird.",
+  "isoCodes": {
+    "ACCT": {
+      "name": "Konto",
+      "definition": "Die für die Abrechnung verwendete Währungsart ist die Kontowährung."
+    },
+    "STLM": {
+      "name": "Abwicklung",
+      "definition": "Die für die Abrechnung verwendete Währungsart ist die Abrechnungswährung."
+    },
+    "PRCG": {
+      "name": "Preisgestaltung",
+      "definition": "Die für die Abrechnung verwendete Währungsart ist die Preiswährung."
+    }
+  }
+}

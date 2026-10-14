@@ -1,0 +1,14 @@
+{
+  "isoType": "StandingOrderType1Code",
+  "definition": "Gibt die Art des Dauerauftrags an, beispielsweise einen benutzerdefinierten Dauerauftrag oder eine vordefinierte Liquiditätsübertragung.",
+  "isoCodes": {
+    "USTO": {
+      "name": "Benutzerdefinierter Dauerauftrag",
+      "definition": "Art des Dauerauftrags für Liquiditätsübertragungen, die an den spezifischen Bedarf des Benutzers angepasst oder definiert wurde."
+    },
+    "PSTO": {
+      "name": "Vordefinierter Dauerauftrag",
+      "definition": "Art des Dauerauftrags für Liquiditätsübertragungen, wie im System vordefiniert."
+    }
+  }
+}

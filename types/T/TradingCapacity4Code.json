@@ -1,0 +1,66 @@
+{
+  "isoType": "TradingCapacity4Code",
+  "definition": "Gibt die Rolle einer Handelspartei in einer Transaktion an.",
+  "isoCodes": {
+    "PRIN": {
+      "name": "Eigenhändler",
+      "definition": "Handel als Eigenhändler."
+    },
+    "CPRN": {
+      "name": "Crossing-Eigenhändler",
+      "definition": "Gegengeschäft als Eigenhändler."
+    },
+    "RISP": {
+      "name": "Risikoloser Eigenhändler",
+      "definition": "Handel als risikoloser Eigenhändler, d. h. der Kauf-(Verkaufs-)Auftrag wurde gleichzeitig durch einen Verkaufs-(Kauf-)Auftrag mit einer anderen Partei ausgeglichen."
+    },
+    "PROP": {
+      "name": "Proprietär",
+      "definition": "Handel für die eigene Firma. Die Transaktion betrifft das Eigenkonto der Firma, nicht das ihrer Kunden."
+    },
+    "AGEN": {
+      "name": "Bank",
+      "definition": "Handel als Agent im Auftrag eines Kunden."
+    },
+    "CAGN": {
+      "name": "Crossing-Agent",
+      "definition": "Gegengeschäft als Agent."
+    },
+    "OAGN": {
+      "name": "Sonstiger Agent",
+      "definition": "Handeln als Agent für eine andere Partei als einen Kunden."
+    },
+    "PRAG": {
+      "name": "Eigenhändler-Agent",
+      "definition": "Handeln als Agent für einige Ausführungen und als Eigenhändler für andere innerhalb derselben Transaktion."
+    },
+    "BAGN": {
+      "name": "Handelnder Agent",
+      "definition": "Partei, die als Agent sowohl für einen Kunden als auch für eine andere Person handelt."
+    },
+    "INFI": {
+      "name": "Wertpapierfirma",
+      "definition": "Jede juristische Person, deren regelmäßige Tätigkeit oder Geschäft in der Erbringung einer oder mehrerer Wertpapierdienstleistungen für Dritte und/oder der Ausübung einer oder mehrerer Anlagetätigkeiten auf berufsmäßiger Basis besteht."
+    },
+    "MKTM": {
+      "name": "Market Maker",
+      "definition": "Händler oder Spezialist, der im OTC-Markt für eigene Rechnung handelt. Von Marktmachern wird erwartet, dass sie einen geordneten Markt aufrechterhalten, indem sie für Käufe oder Verkäufe zur Verfügung stehen."
+    },
+    "MLTF": {
+      "name": "Multilaterales Handelssystem",
+      "definition": "Ein multilaterales Handelssystem (Multilateral Trading Facility, MTF) ist ein multilaterales System, das die Kauf- und Verkaufsinteressen mehrerer Dritter in Finanzinstrumenten in einer Weise zusammenführt, die zu einem Vertrag führt."
+    },
+    "RMKT": {
+      "name": "Geregelter Markt",
+      "definition": "Geregelter Markt, an dem Finanzinstrumente gemäß den von der Börse festgelegten Regeln gehandelt werden können."
+    },
+    "SINT": {
+      "name": "Systematischer Internalisierer",
+      "definition": "Firmen, die auf organisierter, häufiger und systematischer Basis für eigene Rechnung handeln, indem sie Kundenaufträge außerhalb eines geregelten Marktes oder eines MTF ausführen. Systematische Internalisierer sind verpflichtet, für liquide Wertpapiere verbindliche Geld- und Briefkurse zu stellen und zu veröffentlichen."
+    },
+    "TAGT": {
+      "name": "Transferstelle",
+      "definition": "Von der Fondsverwaltungsgesellschaft beauftragte Partei. Sie aktualisiert die Anlegerkontenbestände, um die täglichen Käufe, Rücknahmen, Umschichtungen, Übertragungen und Neuregistrierungen der Anleger abzubilden. Sie stellt die zeitgerechte Abwicklung von Transaktionen sicher und kann dem Anleger und/oder seinen Intermediären Steuerinformationen bereitstellen. Sie kann Provisionen berechnen, einziehen und rückvergüten. Sie erstellt und versendet Bestätigungen über Transaktionen, die zu Anteils- oder Geldkontobewegungen für den Anleger oder den Intermediär des Anlegers führen. Sie beantwortet Anfragen zum Kontostatus und verarbeitet die Ertragsausschüttung."
+    }
+  }
+}

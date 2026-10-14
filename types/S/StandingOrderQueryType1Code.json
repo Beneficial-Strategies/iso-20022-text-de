@@ -1,0 +1,26 @@
+{
+  "isoType": "StandingOrderQueryType1Code",
+  "definition": "Legt den Abfragetyp für Abfragen zu Daueraufträgen fest, der die vordefinierten Schlüsselattribute bestimmt, die in der Antwort auf die Abfrage erwartet werden.",
+  "isoCodes": {
+    "SLST": {
+      "name": "Dauerauftragsliste",
+      "definition": "Dient zur Abfrage der Liste der im System definierten Daueraufträge für Liquiditätsübertragungen."
+    },
+    "SDTL": {
+      "name": "Dauerauftragsdetails",
+      "definition": "Dient zur Abfrage eines bestimmten Dauerauftrags für Liquiditätsübertragungen anhand einer Reihe von Suchkriterien."
+    },
+    "TAPS": {
+      "name": "Gesamtbetrag pro Dauerauftrag",
+      "definition": "Dient zur Abfrage der Gesamtbeträge vordefinierter und benutzerdefinierter Daueraufträge für Liquiditätsübertragungen, sowohl für definierte als auch für noch nicht ausgeführte Aufträge."
+    },
+    "SLSL": {
+      "name": "Liste der Dauerauftrag-Verknüpfungsgruppen",
+      "definition": "Dient zur Abfrage der Liste der Daueraufträge für Liquiditätsübertragungen, die in einem bestimmten Verknüpfungssatz sequenzierter Daueraufträge definiert sind. Der Verknüpfungssatz ist eine Sammlung von Daueraufträgen, die in einer bestimmten Reihenfolge definiert sind."
+    },
+    "SWLS": {
+      "name": "Dauerauftragsdetails innerhalb der Verknüpfungsgruppe",
+      "definition": "Dient zur Abfrage eines bestimmten Dauerauftrags innerhalb eines Verknüpfungssatzes sequenzierter Daueraufträge für Liquiditätsübertragungen. Der Verknüpfungssatz ist eine Sammlung von Daueraufträgen, die in einer bestimmten Reihenfolge definiert sind."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "NumberOfCancellationsPerStatus1",
+  "definition": "Satz von Elementen für detaillierte Angaben zur Anzahl der Transaktionen, die mit einem bestimmten Stornierungsstatus gemeldet werden.",
+  "isoElements": {
+    "DetailedNumberOfTransactions": {
+      "definition": "Anzahl der in der Nachricht enthaltenen einzelnen Stornierungsaufträge, aufgegliedert nach Status."
+    },
+    "DetailedStatus": {
+      "definition": "Gemeinsamer Stornierungsstatus für alle gemeldeten einzelnen Stornierungsaufträge."
+    },
+    "DetailedControlSum": {
+      "definition": "Summe aller in der Nachricht enthaltenen Einzelbeträge, unabhängig von der Währung, aufgegliedert nach Status."
+    }
+  }
+}

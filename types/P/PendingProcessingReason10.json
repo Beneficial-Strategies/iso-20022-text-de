@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingProcessingReason10",
+  "definition": "Legt den Grund fest, aus dem die Anweisung oder Anforderung den Status „Verarbeitung ausstehend“ hat.",
+  "isoElements": {
+    "Code": {
+      "definition": "Legt den Grund fest, aus dem die Anweisung den Status „Verarbeitung ausstehend“ hat."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Enthält zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

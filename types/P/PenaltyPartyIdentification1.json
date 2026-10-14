@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyPartyIdentification1",
+  "definition": "Identifikation einer Partei mit der Art, die sich auf Strafzahlungen bezieht.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Partei."
+    },
+    "Type": {
+      "definition": "Art der Partei."
+    }
+  }
+}

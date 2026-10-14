@@ -1,0 +1,27 @@
+{
+  "isoType": "DirectDebitInstructionDetails3",
+  "definition": "Vom Zahlungsempfänger initiierte Anweisungen, das Konto eines Zahlungspflichtigen zugunsten des Zahlungsempfängers zu belasten.",
+  "isoElements": {
+    "MandateIdentification": {
+      "definition": "Identifikation des Mandats für eine Lastschriftanweisung."
+    },
+    "AutomatedDirectDebitInstructionIndicator": {
+      "definition": "Gibt an, ob es sich bei der Anweisung um eine automatisierte Lastschriftanweisung handelt.||Verwendung: Der Standardwert für AutomatedDirectDebitInstructionIndicator ist false."
+    },
+    "DirectDebitTransferableIndicator": {
+      "definition": "Gibt an, ob die Lastschriftanweisung übertragbar ist.||Verwendung: Der Standardwert für DirectDebitTransferableIndicator ist false."
+    },
+    "Creditor": {
+      "definition": "Partei, der ein Geldbetrag zusteht."
+    },
+    "LastCollectionCurrencyAmount": {
+      "definition": "Betrag der letzten für das Lastschriftmandat vorgenommenen Belastung."
+    },
+    "LastCollectionDate": {
+      "definition": "Datum, an dem die letzte Belastung für das Lastschriftmandat erfolgen darf.||Verwendung: Wird nicht angegeben, wenn bereits alle Beschränkungen der Gültigkeit des Lastschriftmandats festgelegt wurden oder wenn die Gültigkeit der Lastschrift zeitlich unbeschränkt ist."
+    },
+    "OtherDetails": {
+      "definition": "Enthält weitere Informationen zum Status einer angeforderten Übertragung des Transaktionsplans."
+    }
+  }
+}

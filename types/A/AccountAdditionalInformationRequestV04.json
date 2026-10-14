@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountAdditionalInformationRequestV04",
+  "definition": "Die Nachricht AccountAdditionalInformationRequest wird im Rahmen des Pflegeprozesses von einem Finanzinstitut an eine Organisation gesendet. Diese Nachricht wird als Antwort auf eine Pflegeanfragenachricht der Organisation gesendet, wenn der fachliche Inhalt gültig ist, jedoch zusätzliche Informationen erforderlich sind."
+}

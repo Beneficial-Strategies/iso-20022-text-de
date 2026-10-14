@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountIdentification3",
+  "definition": "Identifikation des Kontos, ausgedrückt mit einem Datenquellenschema.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "Issuer": {
+      "definition": "Einheit, die die Information vergibt."
+    },
+    "Information": {
+      "definition": "Proprietäre Information, häufig ein Code, ausgegeben vom Herausgeber des Datenquellenschemas."
+    }
+  }
+}

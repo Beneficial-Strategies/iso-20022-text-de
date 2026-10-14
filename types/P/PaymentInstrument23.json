@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentInstrument23",
+  "definition": "Zahlungsparteien für die Übertragung von Barmitteln vom Zahlungspflichtigen an den Zahlungsempfänger.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Informationen zur Ermöglichung des Abgleichs eines Umsatzes mit den Posten, die durch die Übertragung beglichen werden sollen, etwa Handelsrechnungen in einem Debitorenbuchhaltungssystem."
+    },
+    "Amount": {
+      "definition": "Betrag der Zahlung."
+    },
+    "PaymentDate": {
+      "definition": "Datum der Zahlung."
+    },
+    "CashSettlementDetails": {
+      "definition": "Zahlungsprozess für die Übertragung von Barmitteln vom Zahlungspflichtigen an den Zahlungsempfänger."
+    }
+  }
+}

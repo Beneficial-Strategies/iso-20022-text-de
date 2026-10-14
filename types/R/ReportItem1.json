@@ -1,0 +1,18 @@
+{
+  "isoType": "ReportItem1",
+  "definition": "Kontodetails der Berichtsposition.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "AccountLevel": {
+      "definition": "Ebene des Verwahrkontos oder Unterkontos der Berichtsposition."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifikation des Finanzinstruments der Berichtsposition."
+    },
+    "ItemDate": {
+      "definition": "Datum der Berichtsposition."
+    }
+  }
+}

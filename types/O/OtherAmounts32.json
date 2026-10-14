@@ -1,0 +1,39 @@
+{
+  "isoType": "OtherAmounts32",
+  "definition": "Identifiziert weitere Beträge zur Transaktion.",
+  "isoElements": {
+    "AccruedInterestAmount": {
+      "definition": "Zinsbetrag, der zwischen den Kuponzahlungsperioden aufgelaufen ist."
+    },
+    "ChargesFees": {
+      "definition": "Betrag, der für die Erbringung von Finanzdienstleistungen gezahlt wird und keinem anderen Qualifier zugeordnet werden kann."
+    },
+    "TradeAmount": {
+      "definition": "Kapitalbetrag eines Geschäfts (Preis multipliziert mit Menge)."
+    },
+    "ExecutingBrokerAmount": {
+      "definition": "Betrag, der als Provision an einen ausführenden Broker gezahlt wird."
+    },
+    "LocalTax": {
+      "definition": "Steuer, die von der Rechtsordnung erhoben wird, in der das Finanzinstrument abgewickelt wird."
+    },
+    "LocalBrokerCommission": {
+      "definition": "Provisionsbetrag, der an einen lokalen Broker gezahlt wird."
+    },
+    "Other": {
+      "definition": "Ein Betrag, der nicht durch eine bekannte geschäftliche Bezeichnung angegeben ist."
+    },
+    "StampDuty": {
+      "definition": "Betrag der Stempelsteuer."
+    },
+    "TransactionTax": {
+      "definition": "Betrag der Transaktionssteuer."
+    },
+    "WithholdingTax": {
+      "definition": "Betrag, der von einer Steuerbehörde einbehalten wird."
+    },
+    "ConsumptionTax": {
+      "definition": "Betrag der Verbrauchsteuer."
+    }
+  }
+}

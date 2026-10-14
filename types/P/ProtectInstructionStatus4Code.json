@@ -1,0 +1,10 @@
+{
+  "isoType": "ProtectInstructionStatus4Code",
+  "definition": "Gibt den Status der Protect-Transaktion an.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Offen",
+      "definition": "Protect-Anweisung, die nicht vollständig gedeckt wurde. Umfasst auch teilweise Deckungen."
+    }
+  }
+}

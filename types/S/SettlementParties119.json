@@ -1,0 +1,32 @@
+{
+  "isoType": "SettlementParties119",
+  "definition": "Kette der an der Abwicklung einer Transaktion beteiligten Parteien, einschließlich Empfängen und Lieferungen, Buchübertragungen, Treasury-Geschäften oder anderen Aktivitäten, die zur Bewegung eines Wertpapiers oder eines Geldbetrags von einem Konto auf ein anderes führen.",
+  "isoElements": {
+    "Party2": {
+      "definition": "Partei, die in einer Abwicklungskette mit Partei 1 interagiert."
+    },
+    "Party3": {
+      "definition": "Partei, die in einer Abwicklungskette mit Partei 2 interagiert."
+    },
+    "Party4": {
+      "definition": "Partei, die in einer Abwicklungskette mit Partei 3 interagiert."
+    },
+    "Party5": {
+      "definition": "Partei, die in einer Abwicklungskette mit Partei 4 interagiert."
+    }
+  },
+  "isoRules": {
+    "Party3PresenceRule": {
+      "definition": "Wenn Party3 vorhanden ist, muss Party2 vorhanden sein."
+    },
+    "Party4PresenceRule": {
+      "definition": "Wenn Party4 vorhanden ist, muss Party3 vorhanden sein."
+    },
+    "Party5PresenceRule": {
+      "definition": "Wenn Party5 vorhanden ist, muss Party4 vorhanden sein."
+    },
+    "BookTransferGuideline": {
+      "definition": "Bei einer internen Übertragung zwischen eigenen Konten, einer externen Übertragung zwischen eigenen Konten, einer Portfolioübertragung und einer Übertragung in specie (siehe SecuritiesTransactionType) muss das Konto von (liefernder) Party2 bei (liefernder) Party1 angegeben werden.|Weitere Einzelheiten siehe das jeweilige Marktpraxisdokument unter www.smpg.info."
+    }
+  }
+}

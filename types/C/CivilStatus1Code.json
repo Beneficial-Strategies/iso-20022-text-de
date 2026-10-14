@@ -1,0 +1,34 @@
+{
+  "isoType": "CivilStatus1Code",
+  "definition": "Gibt den Familienstand einer Person an.",
+  "isoCodes": {
+    "DIVO": {
+      "name": "Geschieden",
+      "definition": "Die Person ist geschieden."
+    },
+    "LDIV": {
+      "name": "Rechtskräftig geschieden",
+      "definition": "Die Person ist rechtskräftig geschieden."
+    },
+    "MARR": {
+      "name": "Verheiratet",
+      "definition": "Die Person ist verheiratet."
+    },
+    "SEPA": {
+      "name": "Getrennt lebend",
+      "definition": "Die Person lebt getrennt."
+    },
+    "SING": {
+      "name": "Ledig",
+      "definition": "Die Person ist ledig."
+    },
+    "UNIO": {
+      "name": "Feste Lebensgemeinschaft",
+      "definition": "Die Person lebt in einer festen Lebensgemeinschaft."
+    },
+    "WIDO": {
+      "name": "Verwitwet",
+      "definition": "Die Person ist verwitwet."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "isoType": "TransferOutConfirmationV10",
+  "definition": "Die Nachricht TransferOutConfirmation wird von einer ausführenden Partei, zum Beispiel einer Transferstelle, an die anweisende Partei, zum Beispiel einen Vermögensverwalter oder dessen bevollmächtigten Vertreter, gesendet, um die Lieferung eines Finanzinstruments, frei von Zahlung, an einem bestimmten Datum an eine angegebene Partei zu bestätigen.|Diese Nachricht kann auch verwendet werden, um die Lieferung eines Finanzinstruments, frei von Zahlung, an ein anderes eigenes Konto der anweisenden Partei oder an einen Dritten zu bestätigen.|Verwendung|Die Nachricht TransferOutConfirmation wird verwendet, um zu bestätigen, dass der Abgang eines Finanzinstruments vom Konto des Eigentümers und dessen Lieferung an ein anderes eigenes Konto oder an einen Dritten stattgefunden hat.|Die Referenz der Übertragungsbestätigung wird in TransferConfirmationReference angegeben. Die Referenz der ursprünglichen Übertragungsanweisung wird in TransferReference angegeben. Die Nachrichtenidentifikation der Nachricht TransferOutInstruction, in der die Übertragungsanweisung übermittelt wurde, kann auch in RelatedReference angegeben werden, dies wird jedoch nicht empfohlen.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Eindeutiger Identifikator für eine Gruppe einzelner Übertragungen, wie von der anweisenden Partei vergeben. Dieser Identifikator verknüpft die einzelnen Übertragungen miteinander."
+    }
+  },
+  "isoRules": {
+    "RequestedSettlementDateRule": {
+      "definition": "Entweder darf TransferDetails/RequestedSettlementDate in einem oder mehreren Vorkommen von TransferDetails vorhanden sein oder SettlementDetails/RequestedSettlementDate darf vorhanden sein, aber nicht beides."
+    },
+    "EffectiveSettlementDateRule": {
+      "definition": "Entweder darf TransferDetails/EffectiveSettlementDate in einem oder mehreren Vorkommen von TransferDetails vorhanden sein oder SettlementDetails/EffectiveSettlementDate darf vorhanden sein, aber nicht beides."
+    }
+  }
+}

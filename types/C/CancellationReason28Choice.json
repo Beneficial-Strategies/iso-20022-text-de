@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationReason28Choice",
+  "definition": "Auswahl des Formats für den Stornierungsgrund.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, warum die zugehörige Anweisung storniert wird oder die zugehörige Stornierungsanforderung ausgeführt wird."
+    },
+    "Proprietary": {
+      "definition": "Gibt den Grund an, warum die zugehörige Anweisung storniert wird oder die zugehörige Stornierungsanforderung ausgeführt wird."
+    }
+  }
+}

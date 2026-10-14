@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyStatus2",
+  "definition": "Gibt den Status der Strafzahlung an.",
+  "isoElements": {
+    "Status": {
+      "definition": "Status einer Strafzahlung."
+    },
+    "Reason": {
+      "definition": "Grund für den Status der Strafzahlung."
+    }
+  }
+}

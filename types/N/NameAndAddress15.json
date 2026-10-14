@@ -1,0 +1,12 @@
+{
+  "isoType": "NameAndAddress15",
+  "definition": "Informationen, die eine Partei lokalisieren und identifizieren.",
+  "isoElements": {
+    "Name": {
+      "definition": "Name, unter dem die Partei bekannt ist und der üblicherweise zur Identifizierung dieser Partei verwendet wird."
+    },
+    "PostalAddress": {
+      "definition": "Postanschrift der Partei."
+    }
+  }
+}

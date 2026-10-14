@@ -1,0 +1,12 @@
+{
+  "isoType": "ActiveOrHistoricAmountRange2Choice",
+  "definition": "Auswahl zwischen einem Bereich von Betragswerten mit oder ohne Währung.",
+  "isoElements": {
+    "ImpliedCurrencyAndAmountRange": {
+      "definition": "Drückt einen Betrag oder einen Betragsbereich mit einem ausdrücklichen Soll-/Haben-Kennzeichen aus, wobei die Währung impliziert ist."
+    },
+    "CurrencyAndAmountRange": {
+      "definition": "Drückt einen Betrag oder einen Betragsbereich mit der Währung aus, wobei das Soll-/Haben-Kennzeichen ausdrücklich angegeben ist."
+    }
+  }
+}

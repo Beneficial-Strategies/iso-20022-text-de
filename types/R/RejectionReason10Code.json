@@ -1,0 +1,10 @@
+{
+  "isoType": "RejectionReason10Code",
+  "definition": "Gibt den Grund für die Ablehnung eines Antrags auf Stornierung einer Dauerauftragsanweisung an.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Validierung fehlgeschlagen",
+      "definition": "Die Validierung der Mitteilung/Anweisung/des Antrags ist fehlgeschlagen."
+    }
+  }
+}

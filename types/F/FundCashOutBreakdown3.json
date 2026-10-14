@@ -1,0 +1,30 @@
+{
+  "isoType": "FundCashOutBreakdown3",
+  "definition": "Aufschlüsselung der Mittelabflüsse aus einem Fonds aufgrund von Investmentfonds-Transaktionen, zum Beispiel Rücknahmen oder Umtausch-Abgänge.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Betrag des Mittelabflusses, ausgedrückt als Geldbetrag."
+    },
+    "UnitsNumber": {
+      "definition": "Betrag des Mittelabflusses, ausgedrückt als Anzahl von Anteilen."
+    },
+    "NewAmountIndicator": {
+      "definition": "Gibt an, ob der Cashflow eine Position ist, die im zuvor gesendeten Bericht nicht enthalten war, zum Beispiel weil sie kurz vor Annahmeschluss eingegangen ist."
+    },
+    "InvestmentFundTransactionOutType": {
+      "definition": "Art der Transaktion, die zum Mittelabfluss geführt hat, zum Beispiel Rücknahme, Umtausch-Abgang."
+    },
+    "OriginalOrderQuantityType": {
+      "definition": "Gibt an, wie der ursprüngliche Auftrag, der zum Mittelabfluss geführt hat, ausgedrückt wurde, das heißt in Geld oder in Anteilen."
+    },
+    "ChargeDetails": {
+      "definition": "Gebühr für die Erteilung eines Auftrags."
+    },
+    "CommissionDetails": {
+      "definition": "Angaben zur auf einen Auftrag angewendeten Provision, zum Beispiel Rücknahme- oder Ausgabeprovision."
+    },
+    "SettlementCurrency": {
+      "definition": "Abwicklungswährung der Transaktion."
+    }
+  }
+}

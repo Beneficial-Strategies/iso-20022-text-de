@@ -1,0 +1,30 @@
+{
+  "isoType": "TransactionTypeAndAdditionalParameters23",
+  "definition": "Gibt die Bedingungen an, zu denen der Auftrag/Handel abzuwickeln ist.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion (eindeutig je Sicherheitenstück), wie sie dem Kontoinhaber (oder der anweisenden Partei, die das Konto verwaltet) bekannt ist."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion (eindeutig je Sicherheitenstück), wie sie dem Kontoführer bekannt ist."
+    },
+    "SecuritiesFinancingTransactionType": {
+      "definition": "Gibt die Art der Wertpapierfinanzierungstransaktion an, das heißt Repurchase Agreement, Reverse Repurchase Agreement, Wertpapierleihe oder Wertpapierentleihe."
+    },
+    "Payment": {
+      "definition": "Legt fest, wie die Transaktion abgewickelt werden soll, beispielsweise gegen Zahlung."
+    },
+    "ModificationType": {
+      "definition": "Gibt die Art der angeforderten Änderung der Wertpapierfinanzierung an."
+    },
+    "CommonIdentification": {
+      "definition": "Eindeutige Referenz, auf die sich die beiden Handelspartner zur Identifizierung des Handelsgeschäfts geeinigt haben."
+    },
+    "PoolIdentification": {
+      "definition": "Sammelreferenz zur Identifikation einer Gruppe von Nachrichten."
+    },
+    "NonceIdentification": {
+      "definition": "Zweifelsfreie Identifikation einer Zufallszahl oder Quasi-Zufallszahl zur einmaligen Verwendung (NONCE), die im Rahmen einer kryptografischen Kommunikation erzeugt wird."
+    }
+  }
+}

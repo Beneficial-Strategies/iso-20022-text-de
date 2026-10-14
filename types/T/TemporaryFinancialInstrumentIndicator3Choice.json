@@ -1,0 +1,12 @@
+{
+  "isoType": "TemporaryFinancialInstrumentIndicator3Choice",
+  "definition": "Auswahl zwischen einem Kennzeichen oder einem proprietären Code zur Angabe, ob das Wertpapier ein vorläufiges Wertpapier ist.",
+  "isoElements": {
+    "TemporaryIndicator": {
+      "definition": "Vorläufige Identifikation des Finanzinstruments, die aus Verarbeitungsgründen verwendet wird."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe, ob das Wertpapier ein vorläufiges Wertpapier ist."
+    }
+  }
+}

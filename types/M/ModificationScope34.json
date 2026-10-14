@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope34",
+  "definition": "Umfang der Änderung, die auf einen bestimmten Informationssatz anzuwenden ist.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Gibt die Art der Änderung an, die auf einen Informationssatz anzuwenden ist."
+    },
+    "PostalAddress": {
+      "definition": "Adresse der Organisation."
+    }
+  }
+}

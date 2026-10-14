@@ -1,0 +1,56 @@
+{
+  "isoType": "CorporateActionPeriod17",
+  "definition": "Gibt Zeiträume einer Kapitalmaßnahme an.",
+  "isoElements": {
+    "InterestPeriod": {
+      "definition": "Zeitraum, in dem der Zinssatz angewendet wurde."
+    },
+    "CompulsoryPurchasePeriod": {
+      "definition": "Zeitraum während einer Übernahme, in dem jede ausstehende Beteiligung vom übernehmenden Unternehmen gekauft werden muss."
+    },
+    "ClaimPeriod": {
+      "definition": "Vom Gericht bei einer Sammelklage festgelegter Zeitraum. Er bestimmt die anspruchsberechtigten Transaktionen des Kunden, die in die Sammelklage einbezogen und zur Ermittlung des resultierenden Anspruchs verwendet werden."
+    },
+    "DepositorySuspensionPeriodForBookEntryTransfer": {
+      "definition": "Zeitraum, der das letzte Datum festlegt, bis zu dem Buchungsübertragungen akzeptiert werden, sowie das Datum, an dem die Aussetzung aufgehoben wird und die Bearbeitung von Buchungsübertragungen wieder aufgenommen wird."
+    },
+    "DepositorySuspensionPeriodForDepositAtAgent": {
+      "definition": "Zeitraum, der das letzte Datum festlegt, bis zu dem Einlieferungen auf den Namen des Nominees beim Beauftragten akzeptiert werden, sowie das Datum, an dem die Aussetzung aufgehoben wird und Einlieferungen beim Beauftragten wieder aufgenommen werden."
+    },
+    "DepositorySuspensionPeriodForDeposit": {
+      "definition": "Zeitraum, der das letzte Datum festlegt, bis zu dem Einlieferungen akzeptiert werden, sowie das Datum, an dem die Aussetzung aufgehoben wird und Einlieferungen wieder aufgenommen werden."
+    },
+    "DepositorySuspensionPeriodForPledge": {
+      "definition": "Zeitraum, der das letzte Datum festlegt, bis zu dem Verpfändungen akzeptiert werden, sowie das Datum, an dem die Aussetzung aufgehoben wird und die Bearbeitung von Verpfändungen wieder aufgenommen wird."
+    },
+    "DepositorySuspensionPeriodForSegregation": {
+      "definition": "Zeitraum, der das letzte Datum festlegt, bis zu dem Salden innerhalb einer Position getrennt werden können, sowie das Datum, an dem die Aussetzung aufgehoben wird und die Möglichkeit zur Trennung von Salden innerhalb einer Position wieder besteht."
+    },
+    "DepositorySuspensionPeriodForWithdrawalAtAgent": {
+      "definition": "Zeitraum, der das letzte Datum festlegt, bis zu dem Auslieferungen vom Namen des Nominees beim Beauftragten akzeptiert werden, sowie das Datum, an dem die Aussetzung aufgehoben wird und die Bearbeitung von Auslieferungen beim Beauftragten wieder aufgenommen wird."
+    },
+    "DepositorySuspensionPeriodForWithdrawalInNomineeName": {
+      "definition": "Zeitraum, der das letzte Datum festlegt, bis zu dem physische Auslieferungen auf den Namen des Nominees akzeptiert werden, sowie das Datum, an dem die Aussetzung aufgehoben wird und physische Auslieferungen auf den Namen des Nominees wieder aufgenommen werden."
+    },
+    "DepositorySuspensionPeriodForWithdrawalInStreetName": {
+      "definition": "Zeitraum, der das letzte Datum festlegt, an dem Auslieferungsaufträge im Street Name für das Ereignis-Wertpapier akzeptiert werden, sowie das Datum, an dem die Aussetzung aufgehoben wird und die Bearbeitung von Auslieferungen im Street Name für das Ereignis-Wertpapier wieder aufgenommen wird."
+    },
+    "BookClosurePeriod": {
+      "definition": "Zeitraum, der das letzte Datum festlegt, an dem die Aktionärsregistrierung vom Emittenten akzeptiert wird, sowie das Datum, an dem die Aktionärsregistrierung wieder aufgenommen wird."
+    },
+    "CoDepositoriesSuspensionPeriod": {
+      "definition": "Zeitraum, in dem die Abwicklungsaktivitäten bei den Co-Verwahrstellen ausgesetzt sind, um die Bestände bei der CSD zu stabilisieren."
+    },
+    "SplitPeriod": {
+      "definition": "Zeitraum, in dem eine physische Urkunde aufgeteilt werden kann."
+    },
+    "FiscalYearPeriod": {
+      "definition": "Zeitraum, der das Steuer- oder Geschäftsjahr festlegt, auf das sich die Dividende bezieht, um die Steuern für Gebietsansässige korrekt abzuziehen."
+    }
+  },
+  "isoRules": {
+    "InterestPeriodRule": {
+      "definition": "InterestPeriod darf nur verwendet werden, wenn er von einem normalen Stückzinsenzeitraum abweicht."
+    }
+  }
+}

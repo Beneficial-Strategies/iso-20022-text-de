@@ -1,0 +1,15 @@
+{
+  "isoType": "CashProceeds1",
+  "definition": "Enthält Informationen zu den Geld-Erlösen.",
+  "isoElements": {
+    "PostingAmount": {
+      "definition": "Geldbetrag, der gebucht wird."
+    },
+    "ReconciliationDetails": {
+      "definition": "Abstimmungsinformationen."
+    },
+    "AccountDetails": {
+      "definition": "Enthält Informationen zum belasteten Wertpapierkonto."
+    }
+  }
+}

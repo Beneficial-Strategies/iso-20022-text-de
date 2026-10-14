@@ -1,0 +1,35 @@
+{
+  "isoType": "CorporateActionNarrative59",
+  "definition": "Liefert zusätzliche Informationen, zum Beispiel die Besteuerungsbedingungen.",
+  "isoElements": {
+    "AdditionalText": {
+      "definition": "Liefert zusätzliche Informationen oder präzisiert den Inhalt einer Nachricht. Dieses Feld darf nur verwendet werden, wenn die zu übermittelnden Informationen nicht codiert werden können."
+    },
+    "NarrativeVersion": {
+      "definition": "Liefert Informationen, die für die automatisierte Verarbeitung ignoriert werden können; - Wiederholung von Informationen, die bereits in strukturierten Feldern enthalten sind, - oder narrative Informationen, die für die automatische Verarbeitung nicht benötigt werden."
+    },
+    "InformationConditions": {
+      "definition": "Liefert bedingte Informationen zum Ereignis, zum Beispiel dass ein Angebot einer Annahmequote von 50 Prozent unterliegt oder dass der Anbieter dem Wertpapierinhaber erlaubt, bestimmte Bedingungen festzulegen."
+    },
+    "InformationToComplyWith": {
+      "definition": "Liefert dem Kontoinhaber Informationen zu einzuhaltenden Bedingungen, zum Beispiel nicht offen für in den US/Kanada ansässige Personen, oder dass Qualified Institutional Buyers (QIB) bzw. ein SIL (Sophisticated Investor Letter) vorzulegen sind."
+    },
+    "SecurityRestriction": {
+      "definition": "Liefert Beschränkung(en) für Wertpapiere."
+    },
+    "TaxationConditions": {
+      "definition": "Liefert steuerliche Bedingungen, die nicht in den strukturierten Feldern dieser Nachricht enthalten sein können und im Service Level Agreement (SLA) nicht erwähnt wurden."
+    },
+    "Disclaimer": {
+      "definition": "Stellt einen Haftungsausschluss zu den in der Nachricht bereitgestellten Informationen bereit. Er kann bei der automatisierten Verarbeitung ignoriert werden."
+    },
+    "CertificationBreakdown": {
+      "definition": "Liefert zusätzliche Informationen zur Art der erforderlichen Bescheinigung/Aufschlüsselung."
+    }
+  },
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "Das Feld AdditionalInformation darf in keinem Element Informationen enthalten, die in einem strukturierten Feld bereitgestellt werden können, es sei denn, dies wurde bilateral vereinbart oder in der Elementdefinition abweichend festgelegt, wie bei NarrativeVersion."
+    }
+  }
+}

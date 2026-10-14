@@ -1,0 +1,27 @@
+{
+  "isoType": "PenaltyFinancialInstrumentIdentification1",
+  "definition": "Gibt die Einzelheiten des Finanzinstruments an, das Strafzahlungen unterliegt.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation des Finanzinstruments."
+    },
+    "SubjectToPenalties": {
+      "definition": "Gibt an, ob das Finanzinstrument an diesem Geschäftstag Strafzahlungen unterliegt.||Verwendung: Wenn nicht angegeben, unterliegt das Wertpapier an diesem Geschäftstag Strafzahlungen."
+    },
+    "ClassificationType": {
+      "definition": "Klassifizierungsart des Finanzinstruments gemäß der Kodierung der ISO Classification of Financial Instrument (CFI), zum Beispiel Stammaktie mit Stimmrecht, voll eingezahlt oder auf den Namen lautend."
+    },
+    "Liquidity": {
+      "definition": "Gibt an, ob das Wertpapier liquide oder illiquide ist.||Verwendung: Wenn der Indikator nicht angegeben ist, ist die Liquidität nicht relevant."
+    },
+    "PriceData": {
+      "definition": "Weitere Einzelheiten zum Preis des Finanzinstruments."
+    },
+    "ForeignExchangeData": {
+      "definition": "Weitere Einzelheiten zum Devisenkurs."
+    },
+    "SecuritiesPenaltyRateData": {
+      "definition": "Daten zum Strafsatz, die angegeben werden, wenn das Wertpapier Strafzahlungen unterliegt und der Code der Berechnungsmethode Wertpapiere oder beides lautet."
+    }
+  }
+}

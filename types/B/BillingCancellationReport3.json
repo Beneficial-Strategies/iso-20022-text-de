@@ -1,0 +1,24 @@
+{
+  "isoType": "BillingCancellationReport3",
+  "definition": "Bericht über stornierte Abrechnungsdaten.",
+  "isoElements": {
+    "RegulatoryData": {
+      "definition": "Informationen über rechtliche und aufsichtsrechtliche Daten, die zwischen der rechnungsstellenden und der zahlenden Partei ausgetauscht werden."
+    },
+    "Service": {
+      "definition": "Identifikation des Dienstes oder Systems, für den bzw. das die Abrechnungsstornierung bereitgestellt wird."
+    },
+    "InvoiceDate": {
+      "definition": "Datum, an dem der Abrechnungsbericht erstellt wurde."
+    },
+    "BillingIdentification": {
+      "definition": "Identifikation des Abrechnungsberichts."
+    },
+    "BillingPeriod": {
+      "definition": "Datumszeitraum, für den die Berichtsdaten gültig sind."
+    },
+    "CancellationReason": {
+      "definition": "Grund, warum die angeforderten Abrechnungsinformationen storniert werden."
+    }
+  }
+}

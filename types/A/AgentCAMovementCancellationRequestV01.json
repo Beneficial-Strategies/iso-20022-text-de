@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAMovementCancellationRequestV01",
+  "definition": "Umfang|Diese Nachricht wird von einem Emittenten (oder dessen Agenten) an einen CSD gesendet, um die Stornierung einer oder mehrerer Bewegungen zu beantragen, die zuvor über eine Agent Corporate Action Movement Instruction gesendet wurden.|Verwendung|Diese Nachricht kann verwendet werden, um eine gesamte, zuvor vom Emittenten (oder dessen Agenten) gesendete Nachricht Agent Corporate Action Movement Instruction oder bestimmte Bewegungen zu stornieren.|Diese Nachricht muss die Identifikation der Agent Corporate Action Movement Instruction, die die zu stornierenden Bewegungen enthält, die Identifikation des Agenten und die Referenzen der Kapitalmaßnahme enthalten. Diese Nachricht muss außerdem Details der zu stornierenden Bewegungen enthalten."
+}

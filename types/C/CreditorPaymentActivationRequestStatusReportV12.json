@@ -1,0 +1,21 @@
+{
+  "isoType": "CreditorPaymentActivationRequestStatusReportV12",
+  "definition": "Die Nachricht CreditorPaymentActivationRequestStatusReport wird von einer Partei an die nächste Partei in der Kette der Zahlungsaktivierungsanforderung des Zahlungsempfängers gesendet. Sie dient dazu, Letztere über den positiven oder negativen Status einer Zahlungsaktivierungsanforderung des Zahlungsempfängers (entweder einzeln oder als Datei) zu informieren.",
+  "isoRules": {
+    "GroupStatusAcceptedRule": {
+      "definition": "Wenn OriginalGroupInformationAndStatus/GroupStatus vorhanden und gleich ACTC (AcceptedTechnicalValidation), ACCP (AcceptedCustomerProfile), ACSP (AcceptedSettlementInProcess), ACSC (AcceptedSettlementCompleted) oder ACWC (AcceptedWithChange) ist, muss OriginalPaymentInformationAndStatus/PaymentInformationStatus von RJCT (Rejected) verschieden sein."
+    },
+    "GroupStatusPendingRule": {
+      "definition": "Wenn OriginalGroupInformationAndStatus/GroupStatus vorhanden und gleich PDNG (Pending) ist, muss OriginalPaymentInformationAndStatus/PaymentInformationStatus von RJCT (Rejected) verschieden sein."
+    },
+    "GroupStatusRejectedRule": {
+      "definition": "Wenn OriginalGroupInformationAndStatus/GroupStatus vorhanden und gleich RJCT (Rejected) ist, muss OriginalPaymentInformationAndStatus/PaymentInformationStatus, sofern vorhanden, gleich RJCT (Rejected) sein."
+    },
+    "GroupStatusReceivedRule": {
+      "definition": "Wenn OriginalGroupInformationAndStatus/GroupStatus vorhanden und gleich RCVD (Received) ist, ist OriginalPaymentInformationAndStatus/PaymentInformationStatus nicht zulässig."
+    },
+    "SupplementaryDataRule": {
+      "definition": "Der Baustein SupplementaryData auf Nachrichtenebene darf nicht verwendet werden, um zusätzliche Informationen zu einer Transaktion bereitzustellen. Hierfür ist das Element SupplementaryData auf Transaktionsebene zu verwenden."
+    }
+  }
+}

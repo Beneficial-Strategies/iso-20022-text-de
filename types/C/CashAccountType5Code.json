@@ -1,0 +1,26 @@
+{
+  "isoType": "CashAccountType5Code",
+  "definition": "Gibt die Art des Geldkontos an.",
+  "isoCodes": {
+    "LEND": {
+      "name": "Wertpapierleihe",
+      "definition": "Das Konto dient der Deckung von Krediten."
+    },
+    "COLL": {
+      "name": "Sicherheit",
+      "definition": "Das Konto dient Sicherheiten."
+    },
+    "SETT": {
+      "name": "Finanzielle Abwicklung",
+      "definition": "Das Konto dient finanziellen Abwicklungen."
+    },
+    "MARR": {
+      "name": "Margenrückgabe",
+      "definition": "Das Konto dient Margin-Rückzahlungen."
+    },
+    "SEGT": {
+      "name": "Getrennt geführt",
+      "definition": "Das Konto ist ein getrenntes Konto."
+    }
+  }
+}

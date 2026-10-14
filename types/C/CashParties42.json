@@ -1,0 +1,18 @@
+{
+  "isoType": "CashParties42",
+  "definition": "Zahlungsprozesse, die zur Übertragung von Geld vom Zahlungspflichtigen an den Zahlungsempfänger erforderlich sind.",
+  "isoElements": {
+    "Debtor": {
+      "definition": "Partei, die dem (letztlichen) Zahlungsempfänger einen Geldbetrag schuldet."
+    },
+    "DebtorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungspflichtigen führt."
+    },
+    "Creditor": {
+      "definition": "Partei, der ein Geldbetrag zusteht."
+    },
+    "CreditorAgent": {
+      "definition": "Finanzinstitut, das ein Konto für den Zahlungsempfänger führt."
+    }
+  }
+}

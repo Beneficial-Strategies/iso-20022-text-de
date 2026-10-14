@@ -1,0 +1,138 @@
+{
+  "isoType": "ExposureType12Code",
+  "definition": "Gibt den zugrunde liegenden Geschäftsbereich bzw. die Handelsart an, die die Sicherheitenbewegung auslöst.",
+  "isoCodes": {
+    "BFWD": {
+      "name": "Anleihe-Termingeschäft",
+      "definition": "Alle Wertpapiere, die mit einer Frist von mehr als 3 Tagen gehandelt werden, einschließlich Treasury Notes, japanischer Staatsanleihen (JGBs) und Gilts."
+    },
+    "PAYM": {
+      "name": "Barausgleich",
+      "definition": "Zur Unterstützung jeder Art von Barausgleich."
+    },
+    "CCPC": {
+      "name": "CCP-Sicherheit",
+      "definition": "Sicherheiten zur Deckung der Anfangsmargenanforderungen für über eine CCP geclearte OTC-Geschäfte."
+    },
+    "COMM": {
+      "name": "Rohstoffe",
+      "definition": "Jedes im Handel ausgetauschte Gut, einschließlich der an einer Warenbörse gehandelten Güter."
+    },
+    "CRDS": {
+      "name": "Credit Default Swap",
+      "definition": "Swap zur Übertragung des Kreditrisikos von festverzinslichen Produkten zwischen Parteien."
+    },
+    "CRTL": {
+      "name": "Kreditlinie",
+      "definition": "Eröffnung einer Kreditlinie vor dem Handel."
+    },
+    "CRSP": {
+      "name": "Kreditunterstützung",
+      "definition": "Geldleihe/-aufnahme; Akkreditiv; Unterzeichnung eines Rahmenvertrags."
+    },
+    "CCIR": {
+      "name": "Zinswährungsswap",
+      "definition": "Währungsübergreifende Vereinbarung zwischen zwei Parteien (sogenannten Gegenparteien), bei der ein Strom künftiger Zinszahlungen gegen einen anderen auf Grundlage eines festgelegten Kapitalbetrags getauscht wird."
+    },
+    "CRPR": {
+      "name": "Produktübergreifend",
+      "definition": "Kombination verschiedener Handelsarten."
+    },
+    "EQPT": {
+      "name": "Aktienoption",
+      "definition": "Handel mit Aktienoptionen (auch als Stock Options bekannt)."
+    },
+    "EXTD": {
+      "name": "Börsengehandelte Derivate",
+      "definition": "Handel mit börsengehandelten Derivaten im Allgemeinen."
+    },
+    "EQUS": {
+      "name": "Aktienswap",
+      "definition": "Equity-Swap-Geschäfte, bei denen die Rendite einer Aktie gegen einen festen oder variablen Zinssatz getauscht wird."
+    },
+    "EXPT": {
+      "name": "Exotische Option",
+      "definition": "Handel mit exotischen Optionen, zum Beispiel nicht standardisierten Optionen."
+    },
+    "FIXI": {
+      "name": "Festverzinsliche Wertpapiere",
+      "definition": "Handel mit festverzinslichen Instrumenten."
+    },
+    "FORX": {
+      "name": "Devisen",
+      "definition": "Devisengeschäfte im Allgemeinen (FX)."
+    },
+    "FORW": {
+      "name": "Devisentermingeschäft",
+      "definition": "Devisentermingeschäfte (FX)."
+    },
+    "FUTR": {
+      "name": "Futures",
+      "definition": "Vereinbarung zum Kauf oder Verkauf einer bestimmten Menge eines Rohstoffs oder Finanzinstruments zu einem bestimmten Preis an einem festgelegten künftigen Termin."
+    },
+    "OPTN": {
+      "name": "Devisenoption",
+      "definition": "Ein Vertrag, der dem Inhaber das Recht, aber nicht die Pflicht einräumt, während eines bestimmten Zeitraums Währung zu einem festgelegten Wechselkurs zu kaufen oder zu verkaufen."
+    },
+    "LIQU": {
+      "name": "Liquidität",
+      "definition": "Zur Unterstützung der Abwicklung über ein RTGS- oder anderes Clearingsystem."
+    },
+    "OTCD": {
+      "name": "OTC-Derivate",
+      "definition": "Handel mit OTC-Derivaten."
+    },
+    "REPO": {
+      "name": "Pensionsgeschäft",
+      "definition": "Bezieht sich auf den Handel mit Rückkaufvereinbarungen."
+    },
+    "RVPO": {
+      "name": "Umgekehrtes Pensionsgeschäft",
+      "definition": "Zur Unterstützung eines umgekehrten Rückkaufgeschäfts."
+    },
+    "SLOA": {
+      "name": "Besichertes Darlehen",
+      "definition": "Das Risiko ist mit einem besicherten Darlehen verbunden."
+    },
+    "SBSC": {
+      "name": "Wertpapier-Buy/Sell-Back und Sell/Buy-Back",
+      "definition": "Wertpapier-Kauf-Rückverkauf-Geschäft (Buy-Sell-Back)."
+    },
+    "SCRP": {
+      "name": "Wertpapierübergreifende Produkte",
+      "definition": "Kombination wertpapierbezogener Risikoarten."
+    },
+    "SLEB": {
+      "name": "Wertpapierleihe und -entleihe",
+      "definition": "Das Risiko ist mit einer Wertpapierleih- oder Wertpapierentleihtätigkeit verbunden."
+    },
+    "SHSL": {
+      "name": "Leerverkauf",
+      "definition": "Risiko aus Leerverkäufen."
+    },
+    "SCIR": {
+      "name": "Zinsswap in einer Währung",
+      "definition": "Zinsswap in einer einzelnen Währung."
+    },
+    "SCIE": {
+      "name": "Exotischer Zinsswap in einer Währung",
+      "definition": "Exotischer Zinsswap in einer einzelnen Währung."
+    },
+    "SWPT": {
+      "name": "Swaption",
+      "definition": "Option auf einen Zinsswap."
+    },
+    "TBAS": {
+      "name": "Noch bekanntzugeben",
+      "definition": "Mit To-be-announced-Geschäften (TBA) verbundene Sicherheiten."
+    },
+    "UDMS": {
+      "name": "Segregation der Margin für nicht geclearte Derivate",
+      "definition": "Bezieht sich auf die Segregation der Margen bei nicht geclearten Derivaten. Dies kann für die Variationsmarge oder die Anfangsmarge gelten."
+    },
+    "TRCP": {
+      "name": "Treasury-Produktübergreifend",
+      "definition": "Kombination treasurybezogener Risikoarten."
+    }
+  }
+}

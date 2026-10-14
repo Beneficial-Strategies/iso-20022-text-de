@@ -1,0 +1,12 @@
+{
+  "isoType": "AgentRole1FormatChoice",
+  "definition": "Auswahl der Formate zur Angabe der Rolle des Beauftragten.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Rolle des Beauftragten."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe der Rolle des Beauftragten."
+    }
+  }
+}

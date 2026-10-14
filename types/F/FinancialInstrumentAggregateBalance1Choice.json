@@ -1,0 +1,12 @@
+{
+  "isoType": "FinancialInstrumentAggregateBalance1Choice",
+  "definition": "Auswahl zwischen Bestandsindikator und aggregierter Bestandsposition.",
+  "isoElements": {
+    "HoldingsIndicator": {
+      "definition": "Gibt an, ob Bestände vorhanden sind."
+    },
+    "HoldingBalance": {
+      "definition": "Saldo der Bestände."
+    }
+  }
+}

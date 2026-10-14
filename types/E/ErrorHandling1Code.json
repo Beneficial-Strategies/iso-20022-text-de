@@ -1,0 +1,18 @@
+{
+  "isoType": "ErrorHandling1Code",
+  "definition": "Fehlercodes, die erzeugt werden, wenn die Antwort auf eine Abfrage die maximale Größe überschreitet oder die Daten nicht verfügbar sind.",
+  "isoCodes": {
+    "X020": {
+      "name": "Daten noch nicht verfügbar",
+      "definition": "Gibt den Fehlercode an, wenn die angeforderten Daten noch nicht verfügbar sind."
+    },
+    "X030": {
+      "name": "Nachrichtengrößenlimit überschritten",
+      "definition": "Gibt den Fehlercode an, wenn die angeforderten Daten eine Nachrichtengröße ergeben, die die Verarbeitungskapazität überschreitet."
+    },
+    "X050": {
+      "name": "Daten nicht verfügbar",
+      "definition": "Gibt den Fehlercode an, wenn die angeforderten Daten nicht gefunden wurden."
+    }
+  }
+}

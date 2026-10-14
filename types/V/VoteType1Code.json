@@ -1,0 +1,14 @@
+{
+  "isoType": "VoteType1Code",
+  "definition": "Gibt die Wirkung einer Abstimmung über einen Tagesordnungsbeschluss in Hauptversammlungen an.",
+  "isoCodes": {
+    "ADVI": {
+      "name": "Beratend",
+      "definition": "Das Ergebnis einer Abstimmung über einen Vorschlag dient nur zur Beratung."
+    },
+    "BNDG": {
+      "name": "Verbindlich",
+      "definition": "Das Ergebnis einer Abstimmung über einen Vorschlag ist bindend."
+    }
+  }
+}

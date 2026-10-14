@@ -1,0 +1,27 @@
+{
+  "isoType": "IntraBalanceQueryCriteria10",
+  "definition": "Legt die Kriterien fest, anhand derer Informationen einbezogen werden.",
+  "isoElements": {
+    "CancellationRequestIdentification": {
+      "definition": "Sammelreferenz zur Identifikation einer Gruppe von Nachrichten."
+    },
+    "ProcessingStatus": {
+      "definition": "Gibt den Status der Abwicklung einer Transaktion an."
+    },
+    "CashAccount": {
+      "definition": "Konto, auf dem Bargeld geführt wird."
+    },
+    "CashAccountOwner": {
+      "definition": "Partei, der das Konto gehört."
+    },
+    "CashAccountServicer": {
+      "definition": "Partei, die das Geldkonto im Auftrag des Kontoinhabers führt, d. h. die Registrierung und Buchung von Einträgen auf dem Konto verwaltet, Salden auf dem Konto berechnet und Informationen über das Konto bereitstellt."
+    },
+    "MessageOriginator": {
+      "definition": "Partei, von der die Nachricht ausging, sofern nicht mit dem Absender identisch."
+    },
+    "CreationDateTime": {
+      "definition": "Gibt Erstellungsdatum und -zeit der Bewegung innerhalb des Saldos an."
+    }
+  }
+}

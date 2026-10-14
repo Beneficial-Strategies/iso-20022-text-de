@@ -1,0 +1,21 @@
+{
+  "isoType": "CurrencyFactors1",
+  "definition": "Währungsspezifische Faktoren.",
+  "isoElements": {
+    "Currency": {
+      "definition": "Währung der zugrunde liegenden währungsspezifischen Beträge und Verhältniszahlen, die bei der Berechnung des Einzahlungsplans verwendet werden."
+    },
+    "ShortPositionLimit": {
+      "definition": "Maximal zulässige Short-Position in der Währung während der Abwicklung."
+    },
+    "MinimumPayInAmount": {
+      "definition": "Mindestbetrag, der in einer Zahlung eingezahlt wird, sofern die Short-Position nicht darunter liegt."
+    },
+    "VolatilityMargin": {
+      "definition": "Sicherheitsmarge, die bei der Risikoberechnung zur Verringerung von Long-Positionen und zur Erhöhung von Short-Positionen verwendet wird."
+    },
+    "Rate": {
+      "definition": "Wechselkurs, der bei der Berechnung des Einzahlungsplans verwendet wird."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "ProcessingStatus71Choice",
+  "definition": "Auswahl des Formats für den Verarbeitungsstatus.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "Der Auftrag wurde vom kontoführenden Institut bestätigt."
+    },
+    "Pending": {
+      "definition": "Die Änderung ist anhängig. Derzeit ist nicht bekannt, ob die Änderung durchgeführt werden kann."
+    },
+    "Rejected": {
+      "definition": "Der Änderungsauftrag wurde für die weitere Verarbeitung abgelehnt."
+    },
+    "Repair": {
+      "definition": "Die Anweisung bzw. der Auftrag wird akzeptiert, befindet sich jedoch in Korrektur."
+    },
+    "Denied": {
+      "definition": "Der Änderungsauftrag wird nicht ausgeführt."
+    },
+    "Completed": {
+      "definition": "Der Änderungsauftrag wurde abgeschlossen."
+    },
+    "Proprietary": {
+      "definition": "Status, der mit keinem der verfügbaren Standardstatus gemeldet werden kann."
+    }
+  }
+}

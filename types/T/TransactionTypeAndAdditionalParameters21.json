@@ -1,0 +1,21 @@
+{
+  "isoType": "TransactionTypeAndAdditionalParameters21",
+  "definition": "Identifikationsinformationen der Wertpapierfinanzierungstransaktion, Art (Repurchase Agreement, Reverse Repurchase Agreement, Wertpapierleihe oder Wertpapierentleihe) und weitere Parameter.",
+  "isoElements": {
+    "SecuritiesFinancingTransactionType": {
+      "definition": "Gibt die Art der Wertpapierfinanzierungstransaktion an, das heißt Repurchase Agreement, Reverse Repurchase Agreement, Wertpapierleihe oder Wertpapierentleihe."
+    },
+    "Payment": {
+      "definition": "Legt fest, wie die Transaktion abgewickelt werden soll, beispielsweise gegen Zahlung."
+    },
+    "CommonIdentification": {
+      "definition": "Eindeutige Referenz, auf die sich die beiden Handelspartner zur Identifizierung des Handelsgeschäfts geeinigt haben."
+    },
+    "NonceIdentification": {
+      "definition": "Zweifelsfreie Identifikation einer Zufallszahl oder Quasi-Zufallszahl zur einmaligen Verwendung (NONCE), die im Rahmen einer kryptografischen Kommunikation erzeugt wird."
+    },
+    "ReconciliationIndicator": {
+      "definition": "Die Abwicklungstransaktion wurde bereits an den Markt gesendet. Sie wird von einem Kontoinhaber zu Abstimmungszwecken an einen Kontoführer gesendet."
+    }
+  }
+}

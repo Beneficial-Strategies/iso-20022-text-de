@@ -1,0 +1,18 @@
+{
+  "isoType": "ReferredMandateDocument2",
+  "definition": "Identifiziert die in den Verwendungszweck-Informationen referenzierten Dokumente.",
+  "isoElements": {
+    "Type": {
+      "definition": "Gibt die Art des referenzierten Dokuments an."
+    },
+    "Number": {
+      "definition": "Eindeutige und zweifelsfreie Identifikation des referenzierten Dokuments."
+    },
+    "CreditorReference": {
+      "definition": "Eindeutige und unmissverständliche Identifikation, wie vom Zahlungsempfänger für das genannte, mit dem Zahlungspflichtigen geteilte Dokument zur eigenen Referenz vergeben."
+    },
+    "RelatedDate": {
+      "definition": "Datum und Art, die dem genannten Dokument zugeordnet sind."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionEventStatus2Code",
+  "definition": "Gibt den Status der CA-Option an.",
+  "isoCodes": {
+    "ACTI": {
+      "name": "Aktiv",
+      "definition": "Das CA-Ereignis ist aktiv."
+    },
+    "CANC": {
+      "name": "Storniert",
+      "definition": "Das CA-Ereignis ist storniert."
+    },
+    "INAC": {
+      "name": "Inaktiv",
+      "definition": "Die Option ist nicht aktiv, und es kann nicht mehr darauf reagiert werden. Alle bereits zu dieser Option verarbeiteten Antworten bleiben gültig, z. B. abgelaufene Option."
+    }
+  }
+}

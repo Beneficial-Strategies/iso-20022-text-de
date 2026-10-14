@@ -1,0 +1,10 @@
+{
+  "isoType": "Quantity1Code",
+  "definition": "Gibt die Menge eines Finanzinstruments an.",
+  "isoCodes": {
+    "QALL": {
+      "name": "Alle Wertpapiere",
+      "definition": "Die Anweisung gilt für den gesamten anspruchsberechtigten Bestand der zugrunde liegenden Wertpapiere."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "SecurityParameters19",
+  "definition": "Sicherheitsparameter des Hosts, der den Schlüssel herunterlädt.",
+  "isoElements": {
+    "HostChallenge": {
+      "definition": "Zufallswert des Hosts."
+    },
+    "Key": {
+      "definition": "Im ATM zu speichernder kryptografischer Schlüssel."
+    },
+    "SignatureChoice": {
+      "definition": "Element mit der Signatur."
+    }
+  }
+}

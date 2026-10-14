@@ -1,0 +1,14 @@
+{
+  "isoType": "Reporting1Code",
+  "definition": "Gibt an, an welches Institut die Meldung erfolgen muss.",
+  "isoCodes": {
+    "STEX": {
+      "name": "Börse",
+      "definition": "Die Geschäftsdetails sind an eine Börse zu melden."
+    },
+    "REGU": {
+      "name": "Aufsichtsorganisation",
+      "definition": "Die Geschäftsdetails sind an eine Aufsichtsorganisation zu melden."
+    }
+  }
+}

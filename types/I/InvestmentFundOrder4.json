@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestmentFundOrder4",
+  "definition": "Identifiziert einen mit einer Kontoeröffnung verknüpften Auftrag.",
+  "isoElements": {
+    "OrderReference": {
+      "definition": "Eindeutige und unmissverständliche Kennung eines Auftrags, wie von der anweisenden Partei vergeben."
+    },
+    "MasterReference": {
+      "definition": "Eindeutige und unmissverständliche Kennung einer Gruppe einzelner Aufträge, wie von der anweisenden Partei vergeben. Diese Kennung verknüpft die einzelnen Aufträge miteinander."
+    }
+  }
+}

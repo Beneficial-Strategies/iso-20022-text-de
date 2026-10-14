@@ -1,0 +1,15 @@
+{
+  "isoType": "DocumentLineInformation1",
+  "definition": "Liefert Informationen zur Dokumentzeile.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Liefert die Identifikation der Dokumentzeile."
+    },
+    "Description": {
+      "definition": "Beschreibung der Dokumentzeile."
+    },
+    "Amount": {
+      "definition": "Liefert Angaben zu den Beträgen der Dokumentzeile."
+    }
+  }
+}

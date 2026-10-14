@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericIdentification36",
+  "definition": "Identifikation anhand eines proprietären Schemas.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Proprietäre Information, häufig ein Code, ausgegeben vom Herausgeber des Datenquellenschemas."
+    },
+    "Issuer": {
+      "definition": "Stelle, die die Identifikation vergibt."
+    },
+    "SchemeName": {
+      "definition": "Kurze Textbeschreibung des Schemas."
+    }
+  }
+}

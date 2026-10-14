@@ -1,0 +1,14 @@
+{
+  "isoType": "DateType8Code",
+  "definition": "Gibt die Art der Daten an.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Unbekannt",
+      "definition": "Das Datum ist dem Sender nicht bekannt oder wurde noch nicht festgelegt."
+    },
+    "ONGO": {
+      "name": "Laufend",
+      "definition": "Laufende Basis, die angibt, dass das Datum nach dem Verfahren „laufende Basis“ bestimmt wird, zum Beispiel „au fil de l'eau“."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxReferenceType1Choice",
+  "definition": "Auswahl der Formate für eine Art von Steuerreferenz.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der Steuerreferenz, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Art der Steuerreferenz, ausgedrückt als proprietärer Code."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesBalanceType9FormatChoice",
+  "definition": "Auswahl der Formate zur Angabe der Art des Wertpapierbestands.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Art des Wertpapierbestands."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe der Art des Wertpapierbestands."
+    }
+  }
+}

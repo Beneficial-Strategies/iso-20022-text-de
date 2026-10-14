@@ -1,0 +1,22 @@
+{
+  "isoType": "Response12Code",
+  "definition": "Ergebnis des erbrachten Dienstes.",
+  "isoCodes": {
+    "APPR": {
+      "name": "Genehmigt",
+      "definition": "Der Dienst wurde erfolgreich erbracht."
+    },
+    "DECL": {
+      "name": "Abgelehnt",
+      "definition": "Der Dienst wird abgelehnt."
+    },
+    "PART": {
+      "name": "Teilweise genehmigt",
+      "definition": "Der Dienst wurde teilweise erbracht."
+    },
+    "ASUP": {
+      "name": "Genehmigung ausgesetzt",
+      "definition": "Zur Erbringung dieses Dienstes muss der Kunde zusätzliche Informationen bereitstellen."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "AccountOwnershipType5Code",
+  "definition": "Gibt die Art der Kontoinhaberschaft an.",
+  "isoCodes": {
+    "USUF": {
+      "name": "Nießbraucher",
+      "definition": "Person, die das zeitlich befristete Recht hat, das Eigentum eines anderen zu nutzen und daraus Erträge oder Vorteile zu ziehen."
+    },
+    "OWNR": {
+      "name": "Eigentümer",
+      "definition": "Eine Person hat das volle Eigentum am Vermögenswert."
+    },
+    "BOWN": {
+      "name": "Nacktes Eigentum",
+      "definition": "Eine Person hat das nackte Eigentum am Vermögenswert."
+    }
+  }
+}

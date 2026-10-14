@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationStatusReason1Choice",
+  "definition": "Gibt den Grund für den Untersuchungsstatus an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Statusgrund, wie in einem externen Codesatz für Untersuchungsstatusgründe veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Statusgrund in proprietärer Form."
+    }
+  }
+}

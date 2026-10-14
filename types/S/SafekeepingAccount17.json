@@ -1,0 +1,24 @@
+{
+  "isoType": "SafekeepingAccount17",
+  "definition": "Detaillierte Informationen zum Verwahrkonto, seinen Beständen und den Konten der Unterebenen.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem Finanzinstrumente geführt werden. Konto, das vom antwortenden Intermediär bei seinem Kontoführer gehalten wird."
+    },
+    "AccountServicer": {
+      "definition": "Partei, die das Konto im Auftrag des Kontoinhabers führt, das heißt die Registrierung und Buchung von Einträgen auf dem Konto verwaltet, Salden auf dem Konto berechnet und Informationen über das Konto bereitstellt."
+    },
+    "ShareholdingBalanceOnOwnAccount": {
+      "definition": "Anzahl der Aktien, die der antwortende Intermediär auf eigene Rechnung hält."
+    },
+    "ShareholdingBalanceOnClientAccount": {
+      "definition": "Anzahl der Aktien, die der antwortende Intermediär für Rechnung eines anderen hält."
+    },
+    "TotalShareholdingBalance": {
+      "definition": "Gesamtzahl der Aktien, die der antwortende Intermediär hält."
+    },
+    "AccountSubLevel": {
+      "definition": "Informationen zum Aktienbesitz auf Unterebene eines Kontos."
+    }
+  }
+}

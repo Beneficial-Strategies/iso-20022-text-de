@@ -1,0 +1,9 @@
+{
+  "isoType": "TransferCancellationPendingStatus1",
+  "definition": "Der Status der Übertragungsstornierung ist ausstehend.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Grund für den Status „Stornierung ausstehend“."
+    }
+  }
+}

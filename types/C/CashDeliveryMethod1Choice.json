@@ -1,0 +1,12 @@
+{
+  "isoType": "CashDeliveryMethod1Choice",
+  "definition": "Gibt die Lieferart für die Bargeldeinzahlung an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Bargeld-Lieferart, wie in einem externen Codesatz für Lieferarten veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Bargeld-Lieferart in proprietärer Form."
+    }
+  }
+}

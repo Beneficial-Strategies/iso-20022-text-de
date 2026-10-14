@@ -1,0 +1,12 @@
+{
+  "isoType": "MailType1Choice",
+  "definition": "Auswahl der Formate für die Art der Post.",
+  "isoElements": {
+    "Code": {
+      "definition": "Postart, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Postart, ausgedrückt als proprietärer Code."
+    }
+  }
+}

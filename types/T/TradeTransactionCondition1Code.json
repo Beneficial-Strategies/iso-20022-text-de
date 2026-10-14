@@ -1,0 +1,210 @@
+{
+  "isoType": "TradeTransactionCondition1Code",
+  "definition": "Gibt die Bedingungen an, unter denen der Auftrag/das Geschäft auszuführen ist bzw. ausgeführt wurde.",
+  "isoCodes": {
+    "CBNS": {
+      "name": "Cum Bonus",
+      "definition": "Gibt an, ob das Geschäft cum Bonus ausgeführt wird."
+    },
+    "XBNS": {
+      "name": "Ex Bonus",
+      "definition": "Gibt an, ob das Geschäft ex Bonus ausgeführt wird."
+    },
+    "CCPN": {
+      "name": "Cum Kupon",
+      "definition": "Gibt an, ob das Geschäft cum Coupon ausgeführt wird."
+    },
+    "XCPN": {
+      "name": "Ex Kupon",
+      "definition": "Gibt an, ob das Geschäft ex Coupon ausgeführt wird."
+    },
+    "CDIV": {
+      "name": "Cum Dividende",
+      "definition": "Gibt an, ob das Geschäft cum Dividende ausgeführt wird."
+    },
+    "XDIV": {
+      "name": "Ex Dividende",
+      "definition": "Gibt an, ob das Geschäft ex Dividende ausgeführt wird."
+    },
+    "CRTS": {
+      "name": "Cum Bezugsrechte",
+      "definition": "Gibt an, ob das Geschäft cum Bezugsrechte ausgeführt wird."
+    },
+    "XRTS": {
+      "name": "Ex Bezugsrechte",
+      "definition": "Gibt an, ob das Geschäft ex Bezugsrechte ausgeführt wird."
+    },
+    "CWAR": {
+      "name": "Cum Optionsschein",
+      "definition": "Gibt an, ob das Geschäft cum Warrant ausgeführt wird."
+    },
+    "XWAR": {
+      "name": "Ex Optionsschein",
+      "definition": "Gibt an, ob das Geschäft ex Warrant ausgeführt wird."
+    },
+    "SPCU": {
+      "name": "Spezial Cum Dividende",
+      "definition": "Gibt an, ob das Geschäft mit einer besonderen Cum-|Dividende ausgeführt wird, das heißt, Kauf nach dem Ex-Tag und Erhalt der Dividende."
+    },
+    "SPEX": {
+      "name": "Spezial Ex Dividende",
+      "definition": "Gibt an, ob das Geschäft mit einer besonderen Ex-|Dividende ausgeführt wird, das heißt, Verkauf vor dem Ex-Tag ohne den Coupon."
+    },
+    "DUEB": {
+      "name": "Broker-Due-Bill",
+      "definition": "Gibt an, dass das Geschäft cum Dividende bzw. cum Kupon ausgeführt wird und ein Due Bill erforderlich ist. |Ein Due Bill ist eine vertragliche Vereinbarung, die Dividende zusammen mit der Lieferung |des Finanzinstruments zu zahlen."
+    },
+    "SSTI": {
+      "name": "Leerverkauf",
+      "definition": "Gibt an, ob das Geschäft ein Leerverkauf ist. Verfügt der Verkäufer nicht über das |Finanzinstrument, erfolgt die Lieferung durch Leihe des Finanzinstruments durch oder |für Rechnung des Verkäufers."
+    },
+    "DIRT": {
+      "name": "Dirty",
+      "definition": "Gibt an, dass das Geschäft dirty ausgeführt wird, d. h. dass auf die aufgelaufenen Zinsen der Anleihe staatliche Steuer zu zahlen ist."
+    },
+    "CLEN": {
+      "name": "Clean",
+      "definition": "Gibt an, dass das Geschäft clean ausgeführt wird, d. h. dass auf die aufgelaufenen Zinsen der Anleihe keine staatliche Steuer zu zahlen ist."
+    },
+    "BLKO": {
+      "name": "Block",
+      "definition": "Gibt an, ob das Geschäft ein Blockgeschäft ist oder nicht, d. h. ob eine Zuteilungsanweisung folgt oder nicht."
+    },
+    "GTDL": {
+      "name": "Garantierte Lieferung",
+      "definition": "Gibt an, ob die Lieferung des Finanzinstruments am Abwicklungstag |garantiert ist."
+    },
+    "FRAC": {
+      "name": "Bruchteile",
+      "definition": "Gibt an, ob Bruchteile zulässig sind."
+    },
+    "CRST": {
+      "name": "Cross-Geschäft",
+      "definition": "Gibt an, dass Crossgeschäfte zulässig sind, bei denen Kauf- und Verkaufsaufträge ausgeglichen werden, ohne das Geschäft an der Börse zu erfassen."
+    },
+    "NCRS": {
+      "name": "Kein Cross-Geschäft",
+      "definition": "Gibt an, dass Crossgeschäfte, bei denen Kauf- und Verkaufsaufträge ausgeglichen werden, ohne das Geschäft an der Börse zu erfassen, nicht zulässig sind."
+    },
+    "DORD": {
+      "name": "Direktauftrag",
+      "definition": "Gibt an, dass der Auftrag von einer anderen Handelspartei auszuführen ist als der Handelspartei, an die der |Auftrag gesendet wird. In diesem Fall hat die anweisende Partei mit einem anderen Broker gehandelt, der |anschließend eine Ausführungsanzeige an die ausführende Partei sendet, die den Auftrag erhalten hat |und als Clearing-Broker fungiert."
+    },
+    "DIOR": {
+      "name": "Gerichteter Auftrag",
+      "definition": "Gibt an, dass der Auftrag mit einer bestimmten Handelspartei ausgeführt werden muss."
+    },
+    "WARE": {
+      "name": "Warehouse-Geschäft",
+      "definition": "Warehouse-Geschäft."
+    },
+    "DNIN": {
+      "name": "Keine Erhöhung",
+      "definition": "Ein Limitauftrag zum Kauf oder ein Stoppauftrag zum Verkauf oder ein Stop-Limit-Auftrag, der am Ex-Dividenden-Tag infolge einer Aktiendividende oder Ausschüttung nicht um Aktien erhöht werden soll."
+    },
+    "DNRE": {
+      "name": "Keine Verminderung",
+      "definition": "Ein Limitauftrag zum Kauf oder ein Stoppauftrag zum Verkauf oder ein Stop-Limit-Auftrag zum Verkauf, dessen Preis nicht um den Betrag einer ordentlichen Bardividende gesenkt werden soll. Gilt nur für ordentliche Aktiendividenden; bei anderen Ausschüttungen sollte er gesenkt werden, z. B. wenn eine Aktie ex Aktiendividende oder ex Bezugsrechte notiert."
+    },
+    "FORW": {
+      "name": "Geschäft zum Terminpreis",
+      "definition": "Gibt an, dass der Auftrag auf einem Terminpreis basiert."
+    },
+    "HIST": {
+      "name": "Geschäft zum historischen Preis",
+      "definition": "Gibt an, dass der Auftrag auf einem historischen Preis basiert."
+    },
+    "BCRO": {
+      "name": "Ergebnis Option",
+      "definition": "Ergebnis der Option, wenn gesetzt. (Spezifisch für UK)."
+    },
+    "BCRP": {
+      "name": "Ergebnis Repo",
+      "definition": "Ergebnis des Repo, wenn gesetzt (spezifisch für UK)."
+    },
+    "BCPD": {
+      "name": "Lieferung Gründungsland",
+      "definition": "Lieferort, im Land der Gründung, wenn nicht gesetzt (spezifisch für UK)."
+    },
+    "BCFD": {
+      "name": "Lieferform",
+      "definition": "Lieferform, nicht für ausländische Registrierung, wenn nicht gesetzt (spezifisch für UK)."
+    },
+    "BCBL": {
+      "name": "Handelseinheit",
+      "definition": "Board Lots, nicht gesetzt für Odd Lots (spezifisch für UK)."
+    },
+    "BCBN": {
+      "name": "Ungültiger Name",
+      "definition": "Bad Names, nicht gesetzt für Good Names (spezifisch für UK)."
+    },
+    "BTEX": {
+      "name": "Bestmögliche Ausführung",
+      "definition": "Geschäft, das zur bestmöglichen Ausführung (Best Execution) auszuführen ist."
+    },
+    "CALL": {
+      "name": "Call",
+      "definition": "Geschäft, das nach der Ausübung einer Kaufoption auf das Wertpapier auszuführen ist."
+    },
+    "CLBR": {
+      "name": "Schließung vor Rollover",
+      "definition": "Geschäft, das zur Schließung einer früheren Position vor dem Rollover einer Position auszuführen ist (Deferred Settlement Service)."
+    },
+    "MONT": {
+      "name": "Monatlich",
+      "definition": "Geschäft, das für die Abwicklung zum Monatsende auszuführen ist (Deferred Settlement Service)."
+    },
+    "NBFR": {
+      "name": "Neues Geschäft nach Rollover",
+      "definition": "Geschäft, das für eine neue Geschäftsposition im Folgemonat nach dem Rollover einer Position auszuführen ist (Deferred Settlement Service)."
+    },
+    "TRFR": {
+      "name": "Geschäft nach Rollover",
+      "definition": "Geschäft, das im Folgemonat nach dem Rollover von Positionen auszuführen ist."
+    },
+    "PUTT": {
+      "name": "Putt",
+      "definition": "Geschäft, das nach der Ausübung einer Verkaufsoption auf das Wertpapier auszuführen ist."
+    },
+    "SPCC": {
+      "name": "Spezial Cum Kupon",
+      "definition": "Gibt an, ob das Geschäft mit einem speziellen Cum-Kupon ausgeführt wird."
+    },
+    "SECN": {
+      "name": "Spezial Ex Kupon",
+      "definition": "Gibt an, ob das Geschäft mit einem speziellen Ex-Kupon ausgeführt wird."
+    },
+    "SEBN": {
+      "name": "Spezial Ex Bonus",
+      "definition": "Gibt an, ob das Geschäft speziell ex Bonus ausgeführt wird."
+    },
+    "SCBN": {
+      "name": "Spezial Cum Bonus",
+      "definition": "Gibt an, ob das Geschäft speziell cum Bonus ausgeführt wird."
+    },
+    "SCRT": {
+      "name": "Spezial Cum Bezugsrechte",
+      "definition": "Gibt an, ob das Geschäft speziell cum Bezugsrechte ausgeführt wird."
+    },
+    "SERT": {
+      "name": "Spezial Ex Bezugsrechte",
+      "definition": "Gibt an, ob das Geschäft speziell ex Bezugsrechte ausgeführt wird."
+    },
+    "SCCR": {
+      "name": "Spezial Cum Kapitalrückzahlungen",
+      "definition": "Gibt an, ob das Geschäft speziell cum Kapitalrückzahlungen ausgeführt wird."
+    },
+    "SECR": {
+      "name": "Spezial Ex Kapitalrückzahlungen",
+      "definition": "Gibt an, ob das Geschäft speziell ex Kapitalrückzahlungen ausgeführt wird."
+    },
+    "CAST": {
+      "name": "Barausgleich",
+      "definition": "Gibt an, ob das Geschäft mit Barabwicklung ausgeführt wird."
+    },
+    "SPPR": {
+      "name": "Sonderpreis",
+      "definition": "Gibt an, ob das Geschäft zu einem Sonderpreis ausgeführt wird."
+    }
+  }
+}

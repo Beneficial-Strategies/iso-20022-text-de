@@ -1,0 +1,33 @@
+{
+  "isoType": "ReportQuerySearchCriteria3",
+  "definition": "Legt die Kriterien fest, nach denen ein Bericht gesucht wird.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    },
+    "Balance": {
+      "definition": "Numerische Darstellung der Nettozu- und -abnahmen eines Kontos zu einem bestimmten Zeitpunkt. Ein Kassenbestand wird als Summe der Bargutschriften abzüglich der Summe der Barbelastungen berechnet."
+    },
+    "ReportName": {
+      "definition": "Werte der möglichen Berichte."
+    },
+    "MessageNameIdentification": {
+      "definition": "Gibt die Kennung des Namens der Abfragenachricht an, auf die sich die Nachricht bezieht."
+    },
+    "PartyIdentification": {
+      "definition": "Eigentümerpartei des Berichts."
+    },
+    "ResponsiblePartyIdentification": {
+      "definition": "Verantwortliche Partei der Eigentümerpartei des Berichts."
+    },
+    "DateSearch": {
+      "definition": "Datum und Uhrzeit der Erstellung des Berichts."
+    },
+    "ScheduledTime": {
+      "definition": "Zeitpunkt, zu dem das (geschäftliche) Ereignis, das den Bericht ausgelöst hat, geplant war."
+    },
+    "Event": {
+      "definition": "Die Ausführung erfolgt aufgrund eines ereignisgesteuerten Auslösers."
+    }
+  }
+}

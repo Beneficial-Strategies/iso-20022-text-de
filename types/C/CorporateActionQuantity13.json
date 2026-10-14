@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionQuantity13",
+  "definition": "Gibt Mengen einer Kapitalmaßnahme an.",
+  "isoElements": {
+    "BaseDenomination": {
+      "definition": "Minimaler ganzzahliger Betrag an Wertpapieren, den jeder Kontoinhaber nach Anwendung der gekündigten Beträge noch halten muss."
+    },
+    "IncrementalDenomination": {
+      "definition": "Betrag, der verwendet wird, wenn der gekündigte Betrag durch die Auslosung mit der Basisstückelung nicht erreicht wird."
+    }
+  }
+}

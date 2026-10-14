@@ -1,0 +1,22 @@
+{
+  "isoType": "AccountManagementStatus1Code",
+  "definition": "Gibt den Status einer Kontoverwaltungsanweisung an.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Empfangen",
+      "definition": "Die Kontoverwaltungsanweisung wurde empfangen und bestätigt."
+    },
+    "ACCP": {
+      "name": "Akzeptiert",
+      "definition": "Die Kontoverwaltungsanweisung wurde validiert und akzeptiert."
+    },
+    "EXEC": {
+      "name": "Verarbeitung läuft",
+      "definition": "Die Kontoverwaltungsanweisung wird bearbeitet, die Bestätigung folgt."
+    },
+    "STNP": {
+      "name": "An nächste Partei gesendet",
+      "definition": "Die Kontoverwaltungsanweisung wurde an die nächste Partei, zum Beispiel den nächsten Intermediär, gesendet."
+    }
+  }
+}

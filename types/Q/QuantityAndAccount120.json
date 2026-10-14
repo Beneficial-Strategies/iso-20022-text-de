@@ -1,0 +1,47 @@
+{
+  "isoType": "QuantityAndAccount120",
+  "definition": "Details zu einer Menge, einem Konto und weiteren zugehörigen Informationen.",
+  "isoElements": {
+    "SettledQuantity": {
+      "definition": "Menge des tatsächlich abgewickelten Finanzinstruments."
+    },
+    "PreviouslySettledQuantity": {
+      "definition": "Menge des zuvor abgewickelten Finanzinstruments."
+    },
+    "RemainingToBeSettledQuantity": {
+      "definition": "Menge des noch abzuwickelnden Finanzinstruments."
+    },
+    "PreviouslySettledAmount": {
+      "definition": "Zuvor abgewickelter Geldbetrag."
+    },
+    "RemainingToBeSettledAmount": {
+      "definition": "Noch abzuwickelnder Geldbetrag."
+    },
+    "AccountOwner": {
+      "definition": "Partei, die rechtlicher Eigentümer des Kontos ist."
+    },
+    "SafekeepingAccount": {
+      "definition": "Konto, auf dem oder von dem eine Wertpapierbuchung erfolgt."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Blockchain-Adresse oder Wallet, in der digitale Vermögenswerte gehalten werden. Dies entspricht dem Verwahrkonto für digitale Vermögenswerte."
+    },
+    "CashAccount": {
+      "definition": "Konto, auf das oder von dem eine Geldbuchung erfolgt."
+    },
+    "SafekeepingPlace": {
+      "definition": "Ort, an dem die Wertpapiere physisch oder buchmäßig verwahrt werden. Dieser Ort kann zum Beispiel eine lokale Depotbank, ein Central Securities Depository (CSD) oder ein International Central Securities Depository (ICSD) sein."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Entweder SafekeepingAccount oder BlockChainAddressOrWallet muss vorhanden sein, aber nicht beide."
+    }
+  }
+}

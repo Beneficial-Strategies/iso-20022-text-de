@@ -1,0 +1,53 @@
+{
+  "isoType": "InvestigationRequest51",
+  "definition": "Gibt die Einzelheiten einer Untersuchungsanfrage einschließlich Identifikation und Art an.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, vom Auftraggeber vergeben und an den Antwortenden gesendet, um die Nachricht eindeutig zu identifizieren.|Verwendung: Der Auftraggeber muss sicherstellen, dass MessageIdentification je Antwortendem für einen im Voraus vereinbarten Zeitraum eindeutig ist."
+    },
+    "RequestorInvestigationIdentification": {
+      "definition": "Eindeutige Identifikation, vom Auftraggeber vergeben, um die Untersuchung für den Auftraggeber eindeutig zu identifizieren."
+    },
+    "ResponderInvestigationIdentification": {
+      "definition": "Eindeutige Identifikation, vom Antwortenden vergeben, um die Untersuchung für den Antwortenden eindeutig zu identifizieren."
+    },
+    "EIR": {
+      "definition": "Eindeutiger Bezeichner für die Ende-zu-Ende-Referenz einer Untersuchung."
+    },
+    "RequestAction": {
+      "definition": "Gibt eine Maßnahme an, die der Antwortende nun in Bezug auf die Untersuchung ergreifen soll, sowie den Grund für diese Maßnahme."
+    },
+    "InvestigationType": {
+      "definition": "Art der Untersuchung."
+    },
+    "InvestigationSubType": {
+      "definition": "Untergeordnete Art einer Untersuchung.||Verwendung: Das Element für die Untersuchungsunterart kann verwendet werden, um zu Routingzwecken eine Abteilung innerhalb einer Bank anzugeben, an die die Untersuchung gerichtet werden kann. Es sollte nur verwendet werden, wenn die Untersuchungsart sinnvollerweise an verschiedene Abteilungen innerhalb einer Bank gerichtet werden könnte, zum Beispiel bei einer Informationsanfrage."
+    },
+    "UnderlyingInstrument": {
+      "definition": "Gibt das Instrument oder Produkt an, auf das sich die Untersuchung bezieht."
+    },
+    "Underlying": {
+      "definition": "Enthält Angaben zum Gegenstand, auf den sich die Untersuchung bezieht, zum Beispiel eine Zahlung oder ein Kontoauszugsposten."
+    },
+    "Requestor": {
+      "definition": "Identifikation der Bank oder Partei, die die Eröffnung einer neuen Untersuchung oder eine Statusaktualisierung zu einer bestehenden Untersuchung beantragt."
+    },
+    "Responder": {
+      "definition": "Identifikation der Bank oder Partei, von der erwartet wird, dass sie eine neue Untersuchung eröffnet oder eine Statusaktualisierung zu einer bestehenden Untersuchung liefert."
+    },
+    "RequestOriginator": {
+      "definition": "Identifikation der Bank oder Partei, von der die Anfrage ursprünglich ausgegangen ist.||Verwendung: Hat der Auftraggeber die Untersuchung von einer anderen Partei weitergeleitet, wird empfohlen, den RequestOriginator in diesem Element anzugeben."
+    },
+    "ExpectedResponder": {
+      "definition": "Identifikation der Bank oder Partei, die der Auftraggeber der Untersuchung vom Antwortenden im Zusammenhang mit der Untersuchungsanfrage kontaktiert sehen möchte."
+    },
+    "ServiceLevel": {
+      "definition": "Gibt einen zwischen Auftraggeber und Antwortendem im Voraus vereinbarten Service oder Servicegrad an."
+    }
+  },
+  "isoRules": {
+    "ResponderInvestigationIdentificationGuideline": {
+      "definition": "Wurde die ResponderInvestigationIdentification dem Auftraggeber bereits im Rahmen einer früheren Antwort mitgeteilt, sollte die ResponderInvestigationIdentification vorhanden sein."
+    }
+  }
+}

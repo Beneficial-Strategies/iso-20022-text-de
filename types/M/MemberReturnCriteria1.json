@@ -1,0 +1,27 @@
+{
+  "isoType": "MemberReturnCriteria1",
+  "definition": "Legt die Kriterien fest, nach denen über einen Teilnehmer berichtet wird.",
+  "isoElements": {
+    "NameIndicator": {
+      "definition": "Gibt an, ob der Name des Teilnehmers angefordert wird."
+    },
+    "MemberReturnAddressIndicator": {
+      "definition": "Gibt an, ob die Rücksendeadresse des Teilnehmers angefordert wird."
+    },
+    "AccountIndicator": {
+      "definition": "Gibt an, ob das Konto des Teilnehmers angefordert wird."
+    },
+    "TypeIndicator": {
+      "definition": "Gibt an, ob der Typ des Teilnehmers angefordert wird."
+    },
+    "StatusIndicator": {
+      "definition": "Gibt an, ob der Status des Teilnehmers angefordert wird."
+    },
+    "ContactReferenceIndicator": {
+      "definition": "Gibt an, ob die Kontaktreferenzen angefordert werden."
+    },
+    "CommunicationAddressIndicator": {
+      "definition": "Gibt an, ob die Kommunikationsadressen angefordert werden."
+    }
+  }
+}

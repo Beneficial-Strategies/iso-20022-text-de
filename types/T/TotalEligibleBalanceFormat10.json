@@ -1,0 +1,15 @@
+{
+  "isoType": "TotalEligibleBalanceFormat10",
+  "definition": "Gesamter anspruchsberechtigter Bestand für die Kapitalmaßnahme sowie Anteile für volle und teilweise Perioden.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Stellt Informationen zu einem Bestand im Zusammenhang mit einer Kapitalmaßnahme bereit."
+    },
+    "FullPeriodUnits": {
+      "definition": "Anzahl der Anteile eines Fonds, die in einer früheren Ausschüttungsperiode erworben und/oder zu Beginn einer Ausschüttungsperiode gehalten wurden, zum Beispiel Group I Units im UK."
+    },
+    "PartWayPeriodUnits": {
+      "definition": "Anzahl der Anteile eines Fonds, die im Laufe einer Ausschüttungsperiode erworben wurden, zum Beispiel Group II Units im U.K."
+    }
+  }
+}

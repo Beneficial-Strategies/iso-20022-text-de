@@ -1,0 +1,42 @@
+{
+  "isoType": "ReplacementProcessingStatus1Code",
+  "definition": "Gibt den Verarbeitungsstatus der Ersetzungsanforderung an.",
+  "isoCodes": {
+    "DEND": {
+      "name": "Abgelehnt",
+      "definition": "Die Ersetzungsanforderung kann nicht ausgeführt werden."
+    },
+    "EXCH": {
+      "name": "An der Börse eingegangen",
+      "definition": "Die zuvor von Ihnen empfangene Ersetzungsanforderung wurde an der Börse empfangen."
+    },
+    "INTE": {
+      "name": "Beim Intermediär eingegangen",
+      "definition": "Die zuvor von Ihnen empfangene Ersetzungsanforderung wurde beim Intermediär empfangen (sofern nicht die Börse)."
+    },
+    "PACK": {
+      "name": "Akzeptiert",
+      "definition": "Die Ersetzungsanforderung wurde vom Kontoführer zur weiteren Verarbeitung akzeptiert (technische Empfangsbestätigung)."
+    },
+    "PART": {
+      "name": "Teilweiser Ersatz akzeptiert",
+      "definition": "Der Auftrag ist teilweise ausgeführt, die Ersetzungsverarbeitung für den Rest wurde akzeptiert."
+    },
+    "PEND": {
+      "name": "Ausstehend",
+      "definition": "Die Ersetzungsanforderung steht aus."
+    },
+    "REJT": {
+      "name": "Abgelehnt",
+      "definition": "Die Ersetzungsanforderung wurde für die weitere Verarbeitung abgelehnt."
+    },
+    "REPL": {
+      "name": "Abgeschlossen",
+      "definition": "Die Ersetzungsanforderung wurde abgeschlossen."
+    },
+    "REPR": {
+      "name": "In Korrektur",
+      "definition": "Die zuvor von Ihnen empfangene Ersetzungsanforderung befindet sich in der Klärung (Repair)."
+    }
+  }
+}

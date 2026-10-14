@@ -1,0 +1,23 @@
+{
+  "isoType": "CorporateActionNarrative58",
+  "definition": "Liefert zusätzliche Informationen, zum Beispiel die Besteuerungsbedingungen.",
+  "isoElements": {
+    "Offeror": {
+      "definition": "Gibt die Stelle an, die das Angebot unterbreitet und von der emittierenden Gesellschaft verschieden ist."
+    },
+    "NewCompanyName": {
+      "definition": "Gibt den neuen Namen einer Gesellschaft nach einer Namensänderung an."
+    },
+    "URLAddress": {
+      "definition": "Gibt die für das Ereignis veröffentlichte Webadresse an, das heißt die Adresse des Uniform Resource Locator (URL), die zum Beispiel über den www-Dienst (HTTP) verwendet wird."
+    },
+    "EventProcessingWebSiteAddress": {
+      "definition": "Stellt die Webadresse eines Kontoführers (oder eines Dienstleisters) bereit, die Informationen enthält, die ausschließlich für den unmittelbaren Kontoinhaber bestimmt sind, um die Ereignisverarbeitung zwischen den Parteien zu ermöglichen oder zu erleichtern."
+    }
+  },
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "Das Feld AdditionalInformation darf in allen Elementen keine Informationen enthalten, die in einem strukturierten Feld angegeben werden können, es sei denn, dies wurde bilateral vereinbart oder in der Elementdefinition anders angegeben."
+    }
+  }
+}

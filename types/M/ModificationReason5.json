@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationReason5",
+  "definition": "Änderungsgründe.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, weshalb die Transaktion geändert wird."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Enthält zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

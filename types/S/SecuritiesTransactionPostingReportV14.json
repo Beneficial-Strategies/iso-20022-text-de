@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesTransactionPostingReportV14",
+  "definition": "Scope|SecuritiesTransactionPostingReport wird von einem Kontoführer an einen Kontoinhaber gesendet, um die Details der Zu- und Abgänge von Beständen zu übermitteln, die während eines bestimmten Zeitraums für alle oder ausgewählte Wertpapiere im angegebenen Verwahrkonto oder Unterverwahrkonto, das der Kontoführer für den Kontoinhaber führt, aufgetreten sind. |Die Beziehung zwischen Kontoführer und Kontoinhaber kann sein:|- ein Zentralverwahrer oder eine andere Abwicklungs-Marktinfrastruktur, die im Auftrag ihrer Teilnehmer handelt,|- ein Beauftragter (Unterverwahrer), der im Auftrag seines Global-Custodian-Kunden handelt, oder |- ein Verwahrer, der im Auftrag eines Vermögensverwalters oder eines Brokers/Händlers handelt.||Usage|Diese Nachricht kann als handelstagbasierter oder valutabasierter Kontoauszug verwendet werden.|Die Nachricht kann auch verwendet werden, um: |- eine zuvor gesendete Nachricht erneut zu senden,|- einem Dritten eine Kopie einer Nachricht zur Information zu übermitteln,|- einem Dritten eine Kopie einer Nachricht zur Information erneut zu senden, unter Verwendung der entsprechenden Elemente im Business Application Header.",
+  "isoRules": {
+    "FinancialInstrumentDetailsReportingRule": {
+      "definition": "Wenn StatementGeneralDetails/ActivityIndicator TRUE (Ja) und SubAccountIndicator FALSE (Nein) ist, muss FinancialInstrumentDetails vorhanden und Sub Account Details abwesend sein."
+    },
+    "SubAccountDetailsFinancialInstrumentPresenceRule": {
+      "definition": "Wenn StatementGeneralDetails/ActivityIndicator TRUE (Ja) und SubAccountIndicator TRUE (JA) ist, muss SubAccountDetails vorhanden und FinancialInstrumentDetails abwesend sein (YES)."
+    },
+    "FinancialInstrumentDetailsOrSubAccountDetailsRule": {
+      "definition": "Wenn StatementGeneralDetails/ActivityIndicator FALSE (Nein) ist, müssen FinancialInstrumentDetails und SubAccountDetails abwesend sein."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Die Securities Market Practice Group (SMPG) hat Marktpraxisempfehlungen zur Verwendung dieser Nachricht veröffentlicht.|Diese Marktpraxisregeln sind unter www.smpg.info verfügbar."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Wenn SafekeepingAccount vorhanden ist, muss BlockChainAddressOrWallet fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Wenn BlockChainAddressOrWallet vorhanden ist, muss SafekeepingAccount fehlen."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Entweder SafekeepingAccount oder BlockChainAddressOrWallet muss vorhanden sein, aber nicht beide."
+    }
+  }
+}

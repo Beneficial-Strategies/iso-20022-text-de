@@ -1,0 +1,18 @@
+{
+  "isoType": "GroupHeader103",
+  "definition": "Gesamtheit der Merkmale, die allen in der Nachricht enthaltenen einzelnen Schecks gemeinsam sind.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, wie von der anweisenden Partei vergeben und an die nächste Partei in der Kette gesendet, um die Nachricht eindeutig zu identifizieren.|Verwendung: Die anweisende Partei muss sicherstellen, dass MessageIdentification für einen vorab vereinbarten Zeitraum je angewiesener Partei eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    },
+    "NumberOfCheques": {
+      "definition": "Anzahl der in der Nachricht enthaltenen einzelnen Schecks."
+    },
+    "ControlSum": {
+      "definition": "Summe aller in der Nachricht enthaltenen Einzelbeträge, unabhängig von den Währungen."
+    }
+  }
+}

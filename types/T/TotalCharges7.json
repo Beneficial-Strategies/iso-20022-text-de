@@ -1,0 +1,18 @@
+{
+  "isoType": "TotalCharges7",
+  "definition": "Gibt die Gesamtzahl der im Block enthaltenen Datensätze und Entgelte an.",
+  "isoElements": {
+    "NumberOfChargesRecords": {
+      "definition": "Anzahl der einzelnen Entgeltdatensätze."
+    },
+    "ControlSum": {
+      "definition": "Summe aller enthaltenen Einzelbeträge, unabhängig von den Währungen."
+    },
+    "TotalChargesAmount": {
+      "definition": "Gesamtbetrag der geltend gemachten Entgelte."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Gesamtbetrag der Entgelte ein Haben- oder ein Sollbetrag ist. |Verwendung: Ein Nullbetrag gilt als Haben-Betrag."
+    }
+  }
+}

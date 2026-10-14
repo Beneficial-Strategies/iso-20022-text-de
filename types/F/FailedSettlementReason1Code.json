@@ -1,0 +1,34 @@
+{
+  "isoType": "FailedSettlementReason1Code",
+  "definition": "Gibt den Grund für ein Scheitern der Abwicklung an.",
+  "isoCodes": {
+    "CANE": {
+      "name": "Gutschriftkonto nicht berechtigt",
+      "definition": "Das Gutschriftkonto ist nicht zulässig."
+    },
+    "CADI": {
+      "name": "Gutschriftkonto deaktiviert",
+      "definition": "Das Gutschriftkonto ist deaktiviert."
+    },
+    "DANE": {
+      "name": "Belastungskonto nicht berechtigt",
+      "definition": "Das Belastungskonto ist nicht zulässig."
+    },
+    "AADI": {
+      "name": "Belastungskonto deaktiviert",
+      "definition": "Das Belastungskonto ist deaktiviert."
+    },
+    "INSE": {
+      "name": "Unzureichende Wertpapiere",
+      "definition": "Unzureichende Wertpapiere auf dem Konto für die Abwicklung."
+    },
+    "INDI": {
+      "name": "Unvollständige Ausschüttung",
+      "definition": "Die Ausschüttung ist unvollständig."
+    },
+    "INCA": {
+      "name": "Unzureichender Barbestand",
+      "definition": "Unzureichendes Geld auf dem Konto für die Abwicklung."
+    }
+  }
+}

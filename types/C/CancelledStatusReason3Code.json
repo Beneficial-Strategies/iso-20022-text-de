@@ -1,0 +1,18 @@
+{
+  "isoType": "CancelledStatusReason3Code",
+  "definition": "Gibt den zugrunde liegenden Grund für die Stornierung der zugehörigen Transaktion an.",
+  "isoCodes": {
+    "CNTA": {
+      "name": "Von der Transferstelle storniert",
+      "definition": "Die Transaktion wurde von der Transferstelle storniert."
+    },
+    "CNCL": {
+      "name": "Vom Kunden storniert",
+      "definition": "Die Transaktion wurde vom Kunden storniert."
+    },
+    "CNIN": {
+      "name": "Vom Intermediär storniert",
+      "definition": "Die Transaktion wurde vom Intermediär storniert."
+    }
+  }
+}

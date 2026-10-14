@@ -1,0 +1,15 @@
+{
+  "isoType": "Reservation3",
+  "definition": "Vom Kontoinhaber für bestimmte Zwecke zurückgestellte Liquidität.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Geldbetrag des Limits, ausgedrückt in einer zulässigen Währung."
+    },
+    "Status": {
+      "definition": "Status des Limits, zum Beispiel aktiviert oder deaktiviert."
+    },
+    "StartDateTime": {
+      "definition": "Datum und Uhrzeit, zu denen die Reservierung wirksam wird."
+    }
+  }
+}

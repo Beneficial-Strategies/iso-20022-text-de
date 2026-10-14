@@ -1,0 +1,14 @@
+{
+  "isoType": "ConversionType1Code",
+  "definition": "Gibt die Art der Umwandlung an.",
+  "isoCodes": {
+    "FINL": {
+      "name": "Letzte",
+      "definition": "Dies ist eine endgültige Umwandlung."
+    },
+    "INTE": {
+      "name": "Zwischenwert",
+      "definition": "Dies ist eine vorläufige Umwandlung."
+    }
+  }
+}

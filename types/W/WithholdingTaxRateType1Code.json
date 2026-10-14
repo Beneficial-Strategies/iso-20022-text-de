@@ -1,0 +1,18 @@
+{
+  "isoType": "WithholdingTaxRateType1Code",
+  "definition": "Gibt die Art des Quellensteuersatzes an.",
+  "isoCodes": {
+    "BWIT": {
+      "name": "Ersatzquellensteuer",
+      "definition": "Quellensteuer im Zusammenhang mit Zahlungen, die dem Ersatzquellensteuerabzug (Back-up Withholding) unterliegen."
+    },
+    "FTCA": {
+      "name": "FATCA-Steuer",
+      "definition": "Quellensteuer im Zusammenhang mit Erträgen, die FATCA (Foreign Account Tax Compliance Act) unterliegen."
+    },
+    "NRAT": {
+      "name": "NRA-Steuer",
+      "definition": "Quellensteuer im Zusammenhang mit Erträgen, die NRA (Non Resident Alien) unterliegen."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "AffirmationStatus1Code",
+  "definition": "Gibt den Affirmationsstatus eines Geschäfts an.",
+  "isoCodes": {
+    "AFFI": {
+      "name": "Bestätigt",
+      "definition": "Der Status der Transaktion ist affirmiert."
+    },
+    "NAFI": {
+      "name": "Unbestätigt",
+      "definition": "Der Status der Transaktion ist nicht affirmiert."
+    }
+  }
+}

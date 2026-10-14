@@ -1,0 +1,18 @@
+{
+  "isoType": "MandateCopy4",
+  "definition": "Identifiziert das Mandat, für das eine Kopie der Einzelheiten angefordert wird.",
+  "isoElements": {
+    "OriginalMessageInformation": {
+      "definition": "Enthält Angaben zur ursprünglichen Nachricht."
+    },
+    "OriginalMandate": {
+      "definition": "Enthält die ursprünglichen Mandatsdaten."
+    },
+    "MandateStatus": {
+      "definition": "Gibt den Status des Mandats an."
+    },
+    "SupplementaryData": {
+      "definition": "Zusätzliche Informationen, die in den strukturierten Elementen und/oder einem anderen spezifischen Block nicht erfasst werden können."
+    }
+  }
+}

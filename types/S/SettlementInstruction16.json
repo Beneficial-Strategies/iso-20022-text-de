@@ -1,0 +1,26 @@
+{
+  "isoType": "SettlementInstruction16",
+  "definition": "Enthält weitere Details zur Abwicklung der Anweisung.",
+  "isoElements": {
+    "InstructingReimbursementAgent": {
+      "definition": "Bank, über die die anweisende Bank der angewiesenen Bank den Betrag erstattet.|Verwendung: Haben InstructingAgent und InstructedAgent dieselbe Erstattungsbank, ist nur InstructingReimbursementAgent zu verwenden."
+    },
+    "InstructingReimbursementAgentAccount": {
+      "definition": "Zweifelsfreie Identifikation des Kontos der anweisenden Erstattungsbank bei ihrer kontoführenden Bank in der Zahlungskette."
+    },
+    "InstructedReimbursementAgent": {
+      "definition": "Bank, bei der der angewiesenen Bank der Betrag erstattet wird.|Verwendung: Enthält InstructedReimbursementAgent eine Filiale des InstructedAgent, fordert die Partei in InstructedAgent die Erstattung von dieser Filiale an bzw. wird von dieser Filiale bezahlt.|Verwendung: Haben InstructingAgent und InstructedAgent dieselbe Erstattungsbank, ist nur InstructingReimbursementAgent zu verwenden."
+    },
+    "InstructedReimbursementAgentAccount": {
+      "definition": "Zweifelsfreie Identifikation des Kontos der angewiesenen Erstattungsbank bei ihrer kontoführenden Bank in der Zahlungskette."
+    }
+  },
+  "isoRules": {
+    "InstructingReimbursementAgentAccountRule": {
+      "definition": "Ist InstructingReimbursementAgentAcount vorhanden, muss InstructingReimbursementAgent vorhanden sein."
+    },
+    "InstructedReimbursementAgentAccountRule": {
+      "definition": "Ist InstructedReimbursementAgentAccount vorhanden, muss InstructedReimbursementAgent vorhanden sein."
+    }
+  }
+}

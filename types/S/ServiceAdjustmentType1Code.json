@@ -1,0 +1,14 @@
+{
+  "isoType": "ServiceAdjustmentType1Code",
+  "definition": "Definiert die Art der zulässigen Dienstleistungsanpassung.",
+  "isoCodes": {
+    "COMP": {
+      "name": "Ausgleichsfähig",
+      "definition": "Die Anpassung bezieht sich auf eine Dienstleistung, die saldenkompensierbar ist. Auf den durchschnittlich auf dem Konto gehaltenen Salden beruhende Guthabengutschriften können zur Verrechnung mit dem Dienstleistungsentgelt verwendet werden."
+    },
+    "NCMP": {
+      "name": "Nicht ausgleichsfähig",
+      "definition": "Die Anpassung bezieht sich auf eine Dienstleistung, die nicht saldenkompensierbar ist. Saldenbasierte Gutschriften können nicht zur Verrechnung mit dem Dienstleistungsentgelt verwendet werden."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCANotificationCancellationRequestV01",
+  "definition": "Anwendungsbereich|Diese Nachricht wird von einem Emittenten (oder dessen Beauftragtem) an einen CSD gesendet, um die Stornierung einer Benachrichtigungsavis-Nachricht zu beantragen.|Verwendung|Wird diese Nachricht verwendet, um die Stornierung einer Benachrichtigungsavis-Nachricht zu beantragen, muss die Funktion der Nachricht Stornierung sein.|Wird diese Nachricht verwendet, um den Widerruf eines Kapitalmaßnahmenereignisses oder einer Option zu beantragen, muss die Funktion der Nachricht Widerruf sein.|In beiden Fällen muss der Baustein Identifikation des Benachrichtigungsavis vorhanden sein, um diesen Stornierungsantrag mit dem zuvor gesendeten Benachrichtigungsavis zu verknüpfen."
+}

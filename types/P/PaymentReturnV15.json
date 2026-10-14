@@ -1,0 +1,48 @@
+{
+  "isoType": "PaymentReturnV15",
+  "definition": "Umfang|Die Nachricht PaymentReturn wird von einer Bank an die vorherige Bank in der Zahlungskette gesendet, um eine zuvor abgewickelte Zahlung rückgängig zu machen.|Verwendung|Die Nachricht PaymentReturn wird zwischen Banken ausgetauscht, um Gelder nach der Abwicklung von Überweisungsanweisungen (das heißt der Nachricht FIToFICustomerCreditTransfer und der Nachricht FinancialInstitutionCreditTransfer) oder von Lastschriftanweisungen (Nachricht FIToFICustomerDirectDebit) zurückzugeben.|Die Nachricht PaymentReturn sollte nicht zwischen Banken und Kunden, die keine Finanzinstitute sind, verwendet werden. Kunden, die keine Finanzinstitute sind, werden über eine Belastung oder Gutschrift auf ihren Konten durch eine Nachricht BankToCustomerDebitCreditNotification („Avis“) und/oder eine Nachricht BankToCustomerAccountReport/BankToCustomerStatement („Kontoauszug“) informiert.|Die Nachricht PaymentReturn kann zur Rückgabe einzelner oder mehrerer Anweisungen aus einer oder verschiedenen Dateien verwendet werden.|Die Nachricht PaymentReturn kann in nationalen und grenzüberschreitenden Szenarien verwendet werden.|Die Nachricht PaymentReturn bezieht sich auf die ursprünglichen Anweisungen entweder nur über Referenzen oder über Referenzen und eine Reihe von Elementen aus der ursprünglichen Anweisung.",
+  "isoRules": {
+    "InstructedAgentRule": {
+      "definition": "Wenn GroupHeader/InstructedAgent vorhanden ist, ist TransactionInformation/InstructedAgent nicht zulässig."
+    },
+    "InstructingAgentRule": {
+      "definition": "Wenn GroupHeader/InstructingAgent vorhanden ist, ist TransactionInformation/InstructingAgent nicht zulässig."
+    },
+    "GroupReturnAndNumberOfTransactionsRule": {
+      "definition": "Wenn GroupHeader/GroupReturn falsch ist, muss GroupHeader/NumberOfTransactions der Anzahl der Vorkommen von TransactionInformation entsprechen."
+    },
+    "GroupReturnAndReturnReasonRule": {
+      "definition": "Wenn GroupHeader/GroupReturn wahr ist, muss OriginalGroupInformation/ReturnReasonInformation/ReturnReason vorhanden sein."
+    },
+    "TotalReturnedInterbankSettlementAmountRule": {
+      "definition": "Wenn GroupHeader/TotalReturnedInterbankSettlementAmount vorhanden ist, müssen alle Vorkommen von TransactionInformation/ReturnedInterbankSettlementAmount dieselbe Währung wie GroupHeader/TotalReturnedInterbankSettlementAmount haben."
+    },
+    "TotalReturnedInterbankSettlementAmountAndSumRule": {
+      "definition": "GroupHeader/TotalReturnedInterbankSettlementAmount muss, sofern vorhanden, der Summe aller Vorkommen von TransactionInformation/ReturnedInterbankSettlementAmount entsprechen."
+    },
+    "OriginalGroupInformationRule": {
+      "definition": "Wenn OriginalGroupInformation vorhanden ist, ist TransactionInformation/OriginalGroupInformation nicht zulässig."
+    },
+    "NoCoverSettlementMethodRule": {
+      "definition": "GroupHeader/SettlementInformation/SettlementMethod muss sich bei der Rückgabe von Lastschrifttransaktionen von COVE (Cover) unterscheiden."
+    },
+    "GroupHeaderInterbankSettlementDateRule": {
+      "definition": "Wenn GroupHeader/InterbankSettlementDate vorhanden ist, ist TransactionInformation/InterbankSettlementDate nicht zulässig."
+    },
+    "TransactionInterbankSettlementDateRule": {
+      "definition": "Wenn GroupHeader/InterbankSettlementDate nicht vorhanden ist, muss TransactionInformation/InterbankSettlementDate vorhanden sein."
+    },
+    "GroupReturnAndTransactionInformationNotPresentRule": {
+      "definition": "Wenn GroupHeader/GroupReturn wahr ist, ist TransactionInformation nicht zulässig."
+    },
+    "GroupReturnAndTransactionInformationPresentRule": {
+      "definition": "Wenn GroupHeader/GroupReturn falsch ist, muss mindestens ein Vorkommen von TransactionInformation vorhanden sein."
+    },
+    "SupplementaryDataRule": {
+      "definition": "Der Baustein SupplementaryData auf Nachrichtenebene darf nicht verwendet werden, um zusätzliche Informationen zu einer Transaktion bereitzustellen. Hierfür ist das Element SupplementaryData auf Transaktionsebene zu verwenden."
+    },
+    "PaymentTypeInformationRule": {
+      "definition": "Wenn GroupHeader/PaymentTypeInformation vorhanden ist, ist TransactionInformation/PaymentTypeInformation nicht zulässig."
+    }
+  }
+}

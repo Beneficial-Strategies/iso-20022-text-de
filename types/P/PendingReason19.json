@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingReason19",
+  "definition": "Gibt den Grund an, warum die Anweisung oder Anforderung den Status ausstehend hat.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Grund an, warum die Anweisung den Status „ausstehend“ hat."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Enthält zusätzliche Grundinformationen, die nicht in einem strukturierten Feld angegeben werden können."
+    }
+  }
+}

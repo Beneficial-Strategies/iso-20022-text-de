@@ -1,0 +1,30 @@
+{
+  "isoType": "BillingTaxCalculationMethod1Code",
+  "definition": "Legt die Methode zur Steuerberechnung fest.",
+  "isoCodes": {
+    "NTAX": {
+      "name": "Keine Steuern",
+      "definition": "Für dieses Konto werden keine Steuern berechnet oder geschuldet."
+    },
+    "MTDA": {
+      "name": "Methode A",
+      "definition": "Positionsweise Berechnung je Dienstleistung und Umrechnung in die Abrechnungswährung."
+    },
+    "MTDB": {
+      "name": "Methode B",
+      "definition": "Positionsweise Berechnung je Dienstleistung, wobei die Umrechnung in die Abrechnungswährung auf die Steuersumme der Abrechnung angewendet wird."
+    },
+    "MTDC": {
+      "name": "Methode C",
+      "definition": "Gruppenweise Steuerberechnung mit gruppenweiser Umrechnung in die Abrechnungswährung."
+    },
+    "MTDD": {
+      "name": "Methode D",
+      "definition": "Positionsweise Berechnung je Dienstleistung, wobei alle fälligen Entgelte und Steuern in der Preiswährung anfallen."
+    },
+    "UDFD": {
+      "name": "Nicht definiert",
+      "definition": "Die Methode der Steuerberechnung ist nicht definiert oder unbekannt."
+    }
+  }
+}

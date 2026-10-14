@@ -1,0 +1,12 @@
+{
+  "isoType": "AggregateHoldingBalance3",
+  "definition": "Gesamtbestandsposition in einem einzelnen Finanzinstrument, die in einem Wertpapierkonto an einem bestimmten Verwahrort gehalten wird.",
+  "isoElements": {
+    "BalanceForAccount": {
+      "definition": "Bericht über die Nettoposition eines Finanzinstruments auf dem Unterkonto für ein bestimmtes Datum."
+    },
+    "Agent": {
+      "definition": "Beauftragter für das Finanzinstrument, zum Beispiel ein Handelsvermittler."
+    }
+  }
+}

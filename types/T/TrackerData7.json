@@ -1,0 +1,15 @@
+{
+  "isoType": "TrackerData7",
+  "definition": "Gibt die detaillierten Informationen an, wie sie von einem Zahlungs-Trackingsystem bereitgestellt werden.",
+  "isoElements": {
+    "ConfirmedDate": {
+      "definition": "Zeitpunkt, zu dem eine Aktualisierung des Trackingsystems bestätigt wurde. ||Verwendung: |Dies kann der Zeitpunkt sein, zu dem eine Bank dem Trackingsystem eine Statusaktualisierung „ausstehend“ übermittelt, oder der Zeitpunkt, zu dem der Zahlungsempfänger gutgeschrieben wurde und über den Betrag verfügen kann (wie dem Trackingsystem von der Bank des Zahlungsempfängers bestätigt)."
+    },
+    "ConfirmedAmount": {
+      "definition": "Geldbetrag, der dem Trackingsystem von der Bank bestätigt wurde."
+    },
+    "TrackerRecord": {
+      "definition": "Enthält Tracker-Transaktionsinformationen zu einer bestimmten Bank, die an der Transaktionskette beteiligt ist."
+    }
+  }
+}

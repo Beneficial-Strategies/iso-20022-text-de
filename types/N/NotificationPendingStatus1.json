@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationPendingStatus1",
+  "definition": "Liefert Informationen zum Status \"ausstehend\" eines Benachrichtigungsavis.",
+  "isoElements": {
+    "Status": {
+      "definition": "Der Bearbeitungsstatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

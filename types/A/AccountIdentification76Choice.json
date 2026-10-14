@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification76Choice",
+  "definition": "Auswahl zwischen allen Konten (GENR - General in ISO 15022) oder einem oder mehreren ausgewählten Konten.",
+  "isoElements": {
+    "ForAllAccounts": {
+      "definition": "Alle Depotkonten, die ein zugrunde liegendes Finanzinstrument besitzen."
+    },
+    "AccountsListAndBalanceDetails": {
+      "definition": "Liste ausgewählter Depotkonten (und optional Bestandsinformationen), für die das Kapitalmaßnahmen-Ereignis gilt."
+    }
+  }
+}

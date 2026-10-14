@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesProceeds1",
+  "definition": "Enthält Informationen zu den Wertpapier-Erlösen.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identifikation des Finanzinstruments."
+    },
+    "PostingQuantity": {
+      "definition": "Die Menge der Finanzinstrumente, die gebucht wird."
+    },
+    "AccountDetails": {
+      "definition": "Enthält Informationen zum Konto, das belastet/gutgeschrieben wird."
+    },
+    "ReconciliationDetails": {
+      "definition": "Enthält Abstimmungsinformationen."
+    }
+  }
+}

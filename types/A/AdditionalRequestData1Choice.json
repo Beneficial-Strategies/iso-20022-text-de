@@ -1,0 +1,18 @@
+{
+  "isoType": "AdditionalRequestData1Choice",
+  "definition": "Gibt die Datenelemente an, die sich auf zusätzliche Daten zur Untersuchungsanfrage beziehen.",
+  "isoElements": {
+    "RequestedDebitAuthorisation": {
+      "definition": "Detaillierte Angaben zur Anfrage."
+    },
+    "RequestedCompensation": {
+      "definition": "Detaillierte Angaben zur Anfrage."
+    },
+    "RequestedValuation": {
+      "definition": "Detaillierte Angaben zur Anfrage."
+    },
+    "RequestNarrative": {
+      "definition": "Enthält zusätzliche Informationen zur Anfrage in Textform."
+    }
+  }
+}

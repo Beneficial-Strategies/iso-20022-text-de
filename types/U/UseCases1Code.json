@@ -1,0 +1,22 @@
+{
+  "isoType": "UseCases1Code",
+  "definition": "Legt die Aktion auf dem Barkonto fest.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Eröffnung",
+      "definition": "Code, der die Eröffnung eines Kontos angibt."
+    },
+    "MNTN": {
+      "name": "Pflege",
+      "definition": "Code, der die Pflege eines Kontos angibt."
+    },
+    "CLSG": {
+      "name": "Schließung",
+      "definition": "Code, der die Schließung eines Kontos angibt."
+    },
+    "VIEW": {
+      "name": "Ansicht",
+      "definition": "Code, der die Ansicht eines Kontos angibt."
+    }
+  }
+}

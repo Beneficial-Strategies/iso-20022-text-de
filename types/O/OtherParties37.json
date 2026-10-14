@@ -1,0 +1,26 @@
+{
+  "isoType": "OtherParties37",
+  "definition": "Identifikation weiterer Parteien.",
+  "isoElements": {
+    "Investor": {
+      "definition": "Partei, entweder eine Einzelperson oder eine Organisation, deren Vermögenswerte angelegt werden."
+    },
+    "QualifiedForeignIntermediary": {
+      "definition": "Ausländisches Finanzinstitut, das von den lokalen Behörden zugelassen wurde, im Land als kontoführendes Institut zu handeln."
+    },
+    "StockExchange": {
+      "definition": "Identifikation der Börse, an die die Transaktionsmeldung erfolgt."
+    },
+    "TradeRegulator": {
+      "definition": "Institution, an die ein Geschäft gemeldet werden muss."
+    },
+    "TripartyAgent": {
+      "definition": "Partei, die für die Verwaltung eines Tri-Party-Sicherheitengeschäfts verantwortlich ist, einschließlich Sicherheitenzuordnung, Marktbewertung (Marking to Market) und Austausch von Sicherheiten."
+    }
+  },
+  "isoRules": {
+    "InvestorCountryCodeRule": {
+      "definition": "Wird Investor mit einem Ländercode verwendet, gibt der Ländercode die Staatsangehörigkeit des Anlegers an, zum Beispiel für die Abwicklung bestimmter Wertpapiere (d. h. von Fluggesellschaften, Rüstungsherstellern) nach EU-Recht."
+    }
+  }
+}

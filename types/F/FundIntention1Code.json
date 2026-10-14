@@ -1,0 +1,14 @@
+{
+  "isoType": "FundIntention1Code",
+  "definition": "Gibt an, ob der Fonds für qualifizierte Anleger bestimmt ist.",
+  "isoCodes": {
+    "YQUA": {
+      "name": "Qualifiziert",
+      "definition": "Qualifiziert."
+    },
+    "NQUA": {
+      "name": "Nicht qualifiziert",
+      "definition": "Nicht qualifiziert."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "BlockedReason2Code",
+  "definition": "Gibt den Grund an, aus dem ein Konto gesperrt ist.",
+  "isoCodes": {
+    "BKRP": {
+      "name": "Insolvenz",
+      "definition": "Insolvenz."
+    },
+    "CMMT": {
+      "name": "Verpflichtung",
+      "definition": "Verpflichtung."
+    },
+    "CNFS": {
+      "name": "Beschlagnahme",
+      "definition": "Beschlagnahme."
+    },
+    "MORT": {
+      "name": "Mortis causa",
+      "definition": "Im Hinblick auf einen Todesfall reserviert."
+    },
+    "PCOM": {
+      "name": "Compliance-Prüfung ausstehend",
+      "definition": "Ausstehende Compliance-Prüfung."
+    },
+    "PLDG": {
+      "name": "Verpfändet",
+      "definition": "Verpfändet."
+    },
+    "TRPE": {
+      "name": "Umregistrierung",
+      "definition": "Umregistrierung."
+    },
+    "SANC": {
+      "name": "Sanktionen",
+      "definition": "Sanktionen sind in Kraft."
+    },
+    "TRAN": {
+      "name": "Übertragung",
+      "definition": "Übertragung."
+    }
+  }
+}

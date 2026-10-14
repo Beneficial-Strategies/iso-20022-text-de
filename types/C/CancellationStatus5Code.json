@@ -1,0 +1,18 @@
+{
+  "isoType": "CancellationStatus5Code",
+  "definition": "Gibt den Stornierungsstatus an.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Empfangen",
+      "definition": "Die Stornierungsanweisung bzw. der Stornierungsauftrag wurde empfangen, das heißt, die technische Validierung der Nachricht ist in Ordnung und die Nachricht liegt nun auf der Empfängerseite vor."
+    },
+    "PACK": {
+      "name": "Akzeptiert",
+      "definition": "Die Stornierungsanweisung bzw. -anfrage wurde empfangen und für die Weiterverarbeitung bestätigt bzw. akzeptiert."
+    },
+    "STNP": {
+      "name": "An nächste Partei gesendet",
+      "definition": "Die Stornierungsanweisung bzw. der Stornierungsauftrag wurde an die nächste Partei, das heißt den nächsten Intermediär, gesendet."
+    }
+  }
+}

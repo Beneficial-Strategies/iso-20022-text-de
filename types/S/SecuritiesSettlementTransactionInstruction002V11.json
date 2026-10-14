@@ -1,0 +1,59 @@
+{
+  "isoType": "SecuritiesSettlementTransactionInstruction002V11",
+  "definition": "Anwendungsbereich|Ein Kontoinhaber sendet eine SecuritiesSettlementTransactionInstruction an einen Kontoführer, um den Empfang oder die Lieferung von Finanzinstrumenten mit oder ohne Zahlung, physisch oder buchmäßig, anzuweisen.|Die Beziehung zwischen Kontoinhaber und Kontoführer kann sein:|- ein globaler Verwahrer, der ein Konto bei einem lokalen Verwahrer unterhält, oder|- eine Vermögensverwaltungsinstitution, die ein bei einem Verwahrer eröffnetes Fondskonto verwaltet, oder|- ein Broker, der ein Konto bei einem Verwahrer unterhält, oder|- ein Teilnehmer eines Zentralverwahrers, der ein Konto bei einem Zentralverwahrer unterhält, oder|- ein Zentralverwahrer, der ein Konto bei einem Verwahrer, einem anderen Zentralverwahrer oder einer anderen Abwicklungs-Marktinfrastruktur unterhält, oder|- eine zentrale Gegenpartei oder eine Börse oder eine Handelsabgleichseinrichtung, die die Abwicklung von Transaktionen bei einem Zentralverwahrer oder einer anderen Abwicklungs-Marktinfrastruktur anweisen muss.||Verwendung|Die Anweisung kann mit anderen Abwicklungsanweisungen, zum Beispiel für ein Turnaround oder Back-to-back, oder mit anderen Transaktionen, zum Beispiel einem Devisengeschäft, mithilfe der Verknüpfungsfunktion verknüpft werden.|Die Nachricht kann außerdem verwendet werden, um:|- eine zuvor gesendete Nachricht erneut zu senden,|- einem Dritten eine Kopie einer Nachricht zur Information bereitzustellen,|- einem Dritten eine Kopie einer Nachricht zur Information unter Verwendung der entsprechenden Elemente im Business Application Header erneut zu senden.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Eindeutige Identifikation der Transaktion, wie der anweisenden Partei bekannt."
+    }
+  },
+  "isoRules": {
+    "AdditionalPhysicalOrRegistrationDetailsRule": {
+      "definition": "Wird AdditionalPhysicalOrRegistrationDetails verwendet, muss die Anweisung frei von Zahlung sein."
+    },
+    "CurrencyToBuyRule": {
+      "definition": "Wird CurrencytoBuy verwendet, muss die Anweisung eine Lieferung sein."
+    },
+    "CurrencyToSellRule": {
+      "definition": "Wird CurrencytoSell verwendet, muss die Anweisung ein Empfang sein."
+    },
+    "SettlementAmountRule": {
+      "definition": "Ist die Anweisung gegen Zahlung, so muss SettlementAmount vorhanden sein."
+    },
+    "PairOffTurnRule": {
+      "definition": "Ist LinkedQuantity in mindestens einem Vorkommen von Linkages vorhanden, muss die Art der Abwicklungstransaktion ein Pair-off oder ein Turnaround sein, das heißt, SettlementParameters/SecuritiesTransactionType muss PAIR oder TURN sein."
+    },
+    "ReceivingDepositoryAndParty1Rule": {
+      "definition": "Ist die Anweisung eine Lieferung und gilt keine Standardabwicklungsanweisung, müssen ReceivingDepository und Party1 vorhanden sein."
+    },
+    "DeliveringDepositoryAndParty1Rule": {
+      "definition": "Ist die Anweisung ein Empfang und gilt keine Standardabwicklungsanweisung, müssen DeliveringDepository und Party1 vorhanden sein."
+    },
+    "SellerSSIRule": {
+      "definition": "Gilt eine Standardabwicklungsanweisung und ist die Anweisung ein Empfang, muss Seller vorhanden sein."
+    },
+    "BuyerSSIRule": {
+      "definition": "Gilt eine Standardabwicklungsanweisung und ist die Anweisung eine Lieferung, muss Buyer vorhanden sein."
+    },
+    "SecuritiesFinancingSettlementRule": {
+      "definition": "Im Rahmen von Securities Financing (Repo, Reverse Repo, Wertpapierverleih, Wertpapierleihe) darf die SettlementInstruction nur für die einfache (Plain-Vanilla-)Abwicklung des Eröffnungs- und des Schlussgeschäfts verwendet werden."
+    },
+    "BuyToCoverRule": {
+      "definition": "Wird SettlementParameters/SettlementTransactionCondition BuyToCover (BUTC) verwendet, muss mindestens eine Linkage mit der Referenz der Verkaufsanweisung (es können mehrere sein) vorhanden sein, die durch den betreffenden Kauf gedeckt werden soll."
+    },
+    "RegistrationDetailsRule": {
+      "definition": "Wird SettlementParameters/Registration mit dem Code YREG (Registrierung findet statt) verwendet, müssen zusätzliche Registrierungsdetails im Feld AdditonalInformation/RegistrationDetails der Partei (Receiving oder DeliveringSettlementParties) angegeben werden, bei der die Registrierung erfolgen muss, es sei denn, diese Informationen liegen dem Kontoführer bereits über eine Standardanweisung/SLA vor."
+    },
+    "LinkageGuideline": {
+      "definition": "Für verschiedene Geschäftsszenarien wie Stornierungen, Abwicklungsbestätigungen, aber auch komplexere Prozesse wie Pair-off, Back-to-back, Blockhandelsgeschäfte, Sell-buy-back, Buy-sell-back, Wertpapierverleih und Wertpapierleihe bestehen globale Marktpraxisregeln für die Verwendung der Verknüpfungen.|Weitere Einzelheiten finden sich in den entsprechenden Marktpraxisdokumenten unter www.smpg.info."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Die Securities Market Practice Group (SMPG) hat Marktpraxisempfehlungen zur Verwendung dieser Nachricht veröffentlicht.|Diese Marktpraxisregeln sind unter www.smpg.info verfügbar."
+    },
+    "TwoLegTransactionOpeningClosing2Rule": {
+      "definition": "Für die Abwicklung zweiteiliger Transaktionen (Buy-sell-back, Sell-buy-back, Sicherheiten Ein- und Ausgang) werden die Eröffnung/Einleitung und der Abschluss/die Rückgabe der Transaktion durch Senden der folgenden Kombination aus SettlementTypeAndAdditionalParameters/SecuritiesMovementType-Codes und SettlementParameters/SecuritiesTransactionType-Codes angewiesen:||Sell-Buy Back: Verkauf|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)|Sell-Buy Back: Rückkauf|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)||Buy-Sell Back: Kauf|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)|Buy-Sell Back: Rückverkauf|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)||Sicherheitenausgang (Geber), Einleitung|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)|Sicherheitenausgang (Geber), Rückgabe|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)||Sicherheiteneingang (Nehmer), Einleitung|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)|Sicherheiteneingang (Nehmer), Rückgabe|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)."
+    },
+    "TwoLegTransactionOpeningClosing1Rule": {
+      "definition": "Für die Abwicklung zweiteiliger Transaktionen (Securities Financing) werden die Eröffnung/Einleitung und der Abschluss/die Rückgabe der Transaktion durch Senden der folgenden Kombination aus TransactionIdentificationDetails/SecuritiesMovementType-Codes und SettlementParameters/SecuritiesTransactionType-Codes bestätigt:||Repo-Eröffnung|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)|Repo-Schluss|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)||Reverse-Repo-Eröffnung|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)|Reverse-Repo-Schluss|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)||Triparty-Repo-Eröffnung|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)|Triparty-Repo-Schluss|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)||Triparty-Reverse-Repo-Eröffnung|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)|Triparty-Reverse-Repo-Schluss|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)||Wertpapierverleih, Einleitung|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)|Wertpapierverleih, Rückgabe|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)||Wertpapierleihe, Einleitung|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)|Wertpapierleihe, Rückgabe|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "CurrencyExchange20",
+  "definition": "Informationen, die zur Verarbeitung eines Währungsumtauschs oder einer Währungsumrechnung erforderlich sind.",
+  "isoElements": {
+    "ExchangeRate": {
+      "definition": "Der Wert einer Währung im Verhältnis zu einer anderen Währung. ExchangeRate drückt das Verhältnis zwischen UnitCurrency und QuotedCurrency aus (ExchangeRate = UnitCurrency/QuotedCurrency)."
+    },
+    "QuotedCurrency": {
+      "definition": "Währung, in die die Basiswährung bei einem Währungsumtausch umgerechnet wird."
+    },
+    "QuotationDate": {
+      "definition": "Datum und Uhrzeit, zu denen ein Wechselkurs notiert wird."
+    },
+    "LowLimit": {
+      "definition": "Festgelegte Untergrenze für den Wechselkurs.||Verwendung: Die Währungsbehörde veröffentlicht den Wechselkurs auf Grundlage des am Devisenmarkt gebildeten Preises und lässt ihn innerhalb der vorgegebenen Schwankungsbreite auf- und abschwanken. Es ist der niedrigste Wechselkurs, der bei Devisenmarkttransaktionen unterstützt wird."
+    },
+    "HighLimit": {
+      "definition": "Festgelegte Obergrenze für den Wechselkurs.||Verwendung: Die Währungsbehörde veröffentlicht den Wechselkurs auf Grundlage des am Devisenmarkt gebildeten Preises und lässt ihn innerhalb der vorgegebenen Schwankungsbreite auf- und abschwanken. Es ist der höchste Wechselkurs, der bei Devisenmarkttransaktionen unterstützt wird."
+    }
+  }
+}

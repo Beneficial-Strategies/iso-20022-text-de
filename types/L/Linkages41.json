@@ -1,0 +1,12 @@
+{
+  "isoType": "Linkages41",
+  "definition": "Informationen zu einer verknüpften Transaktion.",
+  "isoElements": {
+    "ProcessingPosition": {
+      "definition": "Wann die Transaktion relativ zu einer verknüpften Transaktion auszuführen ist - nur zur Information."
+    },
+    "SecuritiesSettlementTransactionIdentification": {
+      "definition": "Eindeutige Identifikation einer Wertpapierabwicklungstransaktion, wie dem Kontoinhaber (oder der in dessen Auftrag handelnden anweisenden Partei) bekannt."
+    }
+  }
+}

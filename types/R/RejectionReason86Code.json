@@ -1,0 +1,158 @@
+{
+  "isoType": "RejectionReason86Code",
+  "definition": "Gibt den Grund an, warum die Anweisungsanfrage den Status „abgelehnt“ hat.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Die Transaktion bzw. Anweisung ging nach Ablauf der vom kontoführenden Institut festgelegten Frist ein."
+    },
+    "CERT": {
+      "name": "Fehlerhafte Bescheinigung",
+      "definition": "Die Anweisung wird abgelehnt, da die vorgelegte Bescheinigung falsch oder unvollständig ist."
+    },
+    "INVA": {
+      "name": "Für Steuerbehörden ungültig",
+      "definition": "Bei einer Steuerrückerstattung ist der Erstattungsantrag für die Steuerbehörden ungültig."
+    },
+    "OPTY": {
+      "name": "Ungültiger Optionstyp",
+      "definition": "Ungültige Optionsart."
+    },
+    "ULNK": {
+      "name": "Ungültige Referenz",
+      "definition": "Die verknüpfte Referenz ist unbekannt."
+    },
+    "DSEC": {
+      "name": "Ungültiges Wertpapier",
+      "definition": "Ungültige oder nicht erkannte Identifikation des Finanzinstruments."
+    },
+    "LACK": {
+      "name": "Mangel an Wertpapieren",
+      "definition": "Die angewiesene Position übersteigt den zulässigen Bestand."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach Ablauf der Marktfrist eingegangen."
+    },
+    "NMTY": {
+      "name": "Abweichung",
+      "definition": "Option und Optionsart stimmen nicht überein."
+    },
+    "FULL": {
+      "name": "Fehlende Angaben zum wirtschaftlich Berechtigten",
+      "definition": "Abgelehnt aufgrund fehlender Angaben zum wirtschaftlich Berechtigten."
+    },
+    "CANC": {
+      "name": "Option storniert",
+      "definition": "Die Option ist nicht gültig; sie wurde vom Markt oder Dienstleister storniert, und es kann nicht mehr darauf geantwortet werden. Bereits zu dieser Option verarbeitete Antworten gelten als ungültig, und neue Antworten sind erforderlich."
+    },
+    "INTV": {
+      "name": "Option inaktiv",
+      "definition": "Die Option ist nicht aktiv, und es kann nicht mehr darauf geantwortet werden. Bereits zu dieser Option verarbeitete Antworten bleiben gültig, zum Beispiel bei einer abgelaufenen Option."
+    },
+    "OPNM": {
+      "name": "Ablehnung wegen Optionsnummer",
+      "definition": "Unbekannte Optionsnummer."
+    },
+    "OTHR": {
+      "name": "Sonstiges",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "DQUA": {
+      "name": "Ablehnung wegen Menge",
+      "definition": "Ungültige oder nicht erkannte angewiesene Menge."
+    },
+    "REFT": {
+      "name": "Von Steuerbehörden abgelehnt",
+      "definition": "Die Erstattung wird von den Steuerbehörden abgelehnt."
+    },
+    "SAFE": {
+      "name": "Ablehnung des Verwahrkontos",
+      "definition": "Nicht erkanntes oder ungültiges Verwahrkonto des Nachrichtensenders."
+    },
+    "EVNM": {
+      "name": "Nicht erkannte Identifikation",
+      "definition": "Unbekannte Ereignisnummer."
+    },
+    "DQCS": {
+      "name": "Ablehnung des Betrags",
+      "definition": "Nicht erkannter oder ungültiger angewiesener Barbetrag."
+    },
+    "DQCC": {
+      "name": "Ablehnung der Währung",
+      "definition": "Ungültige angewiesene Währung."
+    },
+    "DQAM": {
+      "name": "Ablehnung der Anweisungsart",
+      "definition": "Ungültige Verwendung der Qualifier für angewiesenen Betrag (QCAS) oder angewiesene Menge (QINS)."
+    },
+    "IRDQ": {
+      "name": "Ungültige Verwendung der Aufrundungsmenge",
+      "definition": "Die Anweisung wird wegen ungültiger Verwendung der zusätzlichen Aufrundungsmenge abgelehnt."
+    },
+    "DQBV": {
+      "name": "Ungültiger Gebotswert",
+      "definition": "Gebotspreis / Basispunkte / Prozentsatz liegt außerhalb der Gebotsspanne für das Ereignis (üblicherweise bei Holländischen Auktionen oder Bietverfahren verwendet)."
+    },
+    "DQBI": {
+      "name": "Ungültige Gebotsstufe",
+      "definition": "Gebotspreis- / Basispunkt- / Prozentsatz-Schritte wegen ungültiger Gebotsschrittweite für das Ereignis abgelehnt (üblicherweise bei Holländischen Auktionen oder Bietverfahren verwendet)."
+    },
+    "DCAN": {
+      "name": "Abgelehnt, da bereits storniert",
+      "definition": "Die Stornierungsanforderung wurde abgelehnt, da die Anweisung bereits storniert wurde."
+    },
+    "DPRG": {
+      "name": "Abgelehnt, da in Bearbeitung",
+      "definition": "Die Stornierungsanforderung wurde abgelehnt, da die Anweisung in Bearbeitung ist oder bereits verarbeitet wurde."
+    },
+    "INIR": {
+      "name": "Anweisung unwiderruflich",
+      "definition": "Die Anweisung ist unwiderruflich."
+    },
+    "SHAR": {
+      "name": "Ablehnung wegen Aktionärsnummer",
+      "definition": "Unbekannte, fehlende oder ungültige Aktionärsnummer."
+    },
+    "BSTR": {
+      "name": "Vor dem Anweisungszeitraum",
+      "definition": "Die Anweisung wurde vor dem Anweisungsbeginn-Datum eingereicht."
+    },
+    "CTCT": {
+      "name": "Fehlender Kontakt",
+      "definition": "Kontaktinformationen fehlen."
+    },
+    "DUPL": {
+      "name": "Doppelte Anweisung",
+      "definition": "Die Anweisung wird aufgrund eines doppelten Geschäftsnachrichten-Bezeichners abgelehnt."
+    },
+    "PROI": {
+      "name": "Fehlende Protect-Identifikation",
+      "definition": "Für Cover-Protect-Anweisungen ist eine Protect-Identifikation erforderlich."
+    },
+    "PROT": {
+      "name": "Fehlendes Protect-Datum",
+      "definition": "Für Cover-Protect-Anweisungen ist ein Protect-Datum erforderlich."
+    },
+    "PRON": {
+      "name": "Kein Protect-Recht",
+      "definition": "Kein Protect-Vorrecht für dieses Ereignis."
+    },
+    "TRTI": {
+      "name": "Fehlende Transaktionsart",
+      "definition": "Die Transaktionsart fehlt oder ist für Protect- oder Cover-Protect-Anweisungen ungültig."
+    },
+    "REJA": {
+      "name": "Vom Emittenten-Agenten abgelehnt",
+      "definition": "Anweisung vom Emissionsagenten abgelehnt."
+    },
+    "IPAW": {
+      "name": "Ungültige Unterlagen",
+      "definition": "Erforderliche Unterlagen sind ungültig, unvollständig oder fehlen."
+    },
+    "IPED": {
+      "name": "Anweisung vor dem Anspruchsdatum",
+      "definition": "Die Anweisung wurde vor dem Anspruchsdatum empfangen."
+    }
+  }
+}

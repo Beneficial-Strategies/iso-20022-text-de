@@ -1,0 +1,20 @@
+{
+  "isoType": "ServiceTaxDesignation1",
+  "definition": "Bestimmt die auf einen Service anzuwendende Steuerberechnung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Identifiziert den Steuerstatus des Services."
+    },
+    "Region": {
+      "definition": "Legt die dem Service zugeordnete Steuerregion fest. Dieses Element muss vorhanden sein, wenn Steuern für einen beliebigen Teil der Abrechnung anfallen."
+    },
+    "TaxReason": {
+      "definition": "Enthält Freitexterläuterungen zu den verschiedenen in der Abrechnung verwendeten Steuercodes."
+    }
+  },
+  "isoRules": {
+    "RegionPresenceRule": {
+      "definition": "Wenn Region vorhanden ist, muss Code gleich ZeroRate oder Taxable sein."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "InvoiceLegalIssue5",
+  "definition": "Informationen in strukturierter Form, die den Abgleich einer Buchung mit den Posten ermöglichen, die durch die Zahlung beglichen werden sollen, etwa gewerbliche Rechnungen in einem Debitorenbuchhaltungssystem.",
+  "isoElements": {
+    "Invoicer": {
+      "definition": "Identifikation der Organisation, die die Rechnung ausstellt, sofern sie vom Zahlungsempfänger oder vom letztlichen Zahlungsempfänger abweicht."
+    },
+    "Invoicee": {
+      "definition": "Identifikation der Partei, an die eine Rechnung ausgestellt wird, sofern sie vom Zahlungspflichtigen oder vom letztlich Zahlungspflichtigen abweicht."
+    },
+    "InvoiceLegalStatement": {
+      "definition": "Zusätzliche Informationen in Freitextform zur Ergänzung der strukturierten Verwendungszweck-Informationen."
+    },
+    "PaymentMethod": {
+      "definition": "Zahlungsmethode für die Überweisung des CSD oder der NCB an die rechnungsstellende Partei."
+    }
+  }
+}

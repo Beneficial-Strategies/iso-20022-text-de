@@ -1,0 +1,12 @@
+{
+  "isoType": "Unit1Choice",
+  "definition": "Menge an Anteilen oder digitalen Token.",
+  "isoElements": {
+    "UnitsNumber": {
+      "definition": "Menge an Anteilen."
+    },
+    "DigitalTokenUnit": {
+      "definition": "Als Zahl ausgedrückte Menge digitaler Token, beispielsweise eine Anzahl von Blockchain-Token."
+    }
+  }
+}

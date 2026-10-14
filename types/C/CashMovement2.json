@@ -1,0 +1,12 @@
+{
+  "isoType": "CashMovement2",
+  "definition": "Enthält Informationen zur Geldbewegung.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Bargeldbetrag."
+    },
+    "AccountDetails": {
+      "definition": "Enthält Informationen zum Konto, das belastet/gutgeschrieben wird."
+    }
+  }
+}

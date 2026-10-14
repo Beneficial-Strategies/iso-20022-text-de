@@ -1,0 +1,4 @@
+{
+  "isoType": "RequestForDuplicateV07",
+  "definition": "Anwendungsbereich|Die Nachricht RequestForDuplicate wird vom Fallbearbeiter an den Fallersteller oder Fallzuweiser gesendet.|Diese Nachricht dient dazu, eine Kopie der im Fall betrachteten ursprünglichen Zahlungsanweisung anzufordern.|Verwendung|Die Nachricht RequestForDuplicate:|- muss mit einer Nachricht Duplicate beantwortet werden;|- muss verwendet werden, wenn ein Fallbearbeiter eine Kopie der ursprünglichen Zahlungsanweisung anfordert. Dies geschieht beispielsweise, wenn der Fallbearbeiter die Zahlungsanweisung anhand der in der Fallzuweisungsnachricht genannten Elemente nicht nachverfolgen kann;|- bezieht sich immer auf genau eine Anweisung. Benötigt der Fallbearbeiter Kopien mehrerer Zahlungsanweisungen, müssen mehrere Nachrichten RequestForDuplicate gesendet werden;|- darf ausschließlich zwischen dem Fallbearbeiter und seinem Fallersteller bzw. Fallzuweiser verwendet werden."
+}

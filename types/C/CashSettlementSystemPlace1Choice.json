@@ -1,0 +1,15 @@
+{
+  "isoType": "CashSettlementSystemPlace1Choice",
+  "definition": "Ort, an dem die Zahlung stattfindet/stattfinden wird.",
+  "isoElements": {
+    "DigitalLedgerIdentification": {
+      "definition": "Verwahrort, ausgedrückt mit einer Digital Ledger Identifier. Sie identifiziert ein digitales Ledger oder ein Distributed-Ledger-System (zum Beispiel Blockchain oder ähnliche Plattformen)."
+    },
+    "AnyBIC": {
+      "definition": "Eindeutige und zweifelsfreie Möglichkeit zur Identifikation einer Organisation."
+    },
+    "LEI": {
+      "definition": "Identifikation der juristischen Person als alternative Identifikation für einen Verwahrort."
+    }
+  }
+}

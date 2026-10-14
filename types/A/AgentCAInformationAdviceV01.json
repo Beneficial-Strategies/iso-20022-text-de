@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAInformationAdviceV01",
+  "definition": "Anwendungsbereich|Diese Nachricht wird von einem CSD an einen Emittenten (oder dessen Beauftragten) gesendet, um Informationen über die Zertifizierung und/oder die Lieferdetails an den Emittenten (oder dessen Beauftragten) zu übermitteln.|Verwendung|Diese Nachricht kann bei einem Kapitalmaßnahmen-Ereignis ohne Wahlmöglichkeit verwendet werden.|Diese Nachricht kann auch bei einem Kapitalmaßnahmen-Ereignis mit Wahlmöglichkeit verwendet werden, wenn die Wahldetails und die zusätzlichen Informationen nicht in derselben Nachricht bereitgestellt werden können. In diesem Fall muss die Agent Corporate Action Election Advice Identification verwendet werden, um diese Nachricht mit der Wahlmitteilung zu verknüpfen, zu der zusätzliche Informationen bereitgestellt werden."
+}

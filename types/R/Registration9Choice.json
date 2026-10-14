@@ -1,0 +1,12 @@
+{
+  "isoType": "Registration9Choice",
+  "definition": "Auswahl des Formats für die Registrierungsinformationen.",
+  "isoElements": {
+    "Code": {
+      "definition": "Registrierungsinformationen, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Registrierungsinformationen, ausgedrückt als proprietärer Code."
+    }
+  }
+}

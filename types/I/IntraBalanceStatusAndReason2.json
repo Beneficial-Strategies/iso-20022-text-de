@@ -1,0 +1,15 @@
+{
+  "isoType": "IntraBalanceStatusAndReason2",
+  "definition": "Auswahl der Statusart der Bewegung innerhalb des Saldos.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Gibt Einzelheiten zum Bearbeitungsstatus der Transaktion an."
+    },
+    "SettlementStatus": {
+      "definition": "Gibt den Abwicklungsstatus einer Transaktion an."
+    },
+    "Settled": {
+      "definition": "Gibt den Zustand oder die Bedingung an."
+    }
+  }
+}

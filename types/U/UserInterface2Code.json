@@ -1,0 +1,14 @@
+{
+  "isoType": "UserInterface2Code",
+  "definition": "Art der Schnittstelle zur Anzeige einer Nachricht.",
+  "isoCodes": {
+    "MDSP": {
+      "name": "Display des Händlers",
+      "definition": "Anzeige oder Schnittstelle des Händlers."
+    },
+    "CDSP": {
+      "name": "Display des Karteninhabers",
+      "definition": "Anzeige oder Schnittstelle des Karteninhabers."
+    }
+  }
+}

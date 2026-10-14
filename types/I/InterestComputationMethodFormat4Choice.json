@@ -1,0 +1,12 @@
+{
+  "isoType": "InterestComputationMethodFormat4Choice",
+  "definition": "Auswahl zwischen einem Standardcode oder einem proprietären Code zur Angabe der Art der Zinsberechnungsmethode.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe der Methode, mit der die aufgelaufenen Zinsen eines Finanzinstruments berechnet werden."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Identifikation des Formats der Zinsberechnungsmethode."
+    }
+  }
+}

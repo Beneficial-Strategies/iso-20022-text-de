@@ -1,0 +1,22 @@
+{
+  "isoType": "ProxyType3Code",
+  "definition": "Gibt die Art des Bevollmächtigten an.",
+  "isoCodes": {
+    "CHRM": {
+      "name": "Vorsitzender",
+      "definition": "Der Vorsitzende der Versammlung ist der Bevollmächtigte."
+    },
+    "DISC": {
+      "name": "Nach Ermessen",
+      "definition": "Jede Art von Bevollmächtigtem ist zulässig."
+    },
+    "NEPR": {
+      "name": "Neutraler Stimmrechtsvertreter",
+      "definition": "Neutraler, vom Emittenten benannter Bevollmächtigter, der die Stimmen der Anleger in der Versammlung ausübt."
+    },
+    "HLDR": {
+      "name": "Wertpapierinhaber",
+      "definition": "Der Bevollmächtigte darf nur ein Wertpapierinhaber sein."
+    }
+  }
+}

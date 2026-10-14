@@ -1,0 +1,14 @@
+{
+  "isoType": "BusinessFlowDirectionType1Code",
+  "definition": "Identifiziert den Geschäftsablauf, um die Rolle der Parteien im Geschäftsprozess zu bestimmen. Dieser Indikator ist sehr wichtig, wenn beim Informationsaustausch mehrere Zwischenstellen beteiligt sind.",
+  "isoCodes": {
+    "ADLV": {
+      "name": "Zu liefernde Vermögenswerte",
+      "definition": "Zu liefernde Vermögenswerte."
+    },
+    "ARCV": {
+      "name": "Zu empfangende Vermögenswerte",
+      "definition": "Zu empfangende Vermögenswerte."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionInstructionProcessingStatus1",
+  "definition": "Liefert Informationen zum Verarbeitungsstatus einer Wahlmitteilung.",
+  "isoElements": {
+    "Status": {
+      "definition": "Der Bearbeitungsstatus."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Status."
+    }
+  }
+}

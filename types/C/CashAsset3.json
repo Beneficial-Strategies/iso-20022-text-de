@@ -1,0 +1,23 @@
+{
+  "isoType": "CashAsset3",
+  "definition": "Identifikation eines Barvermögenswerts.",
+  "isoElements": {
+    "CashAssetType": {
+      "definition": "Art des Barvermögenswerts."
+    },
+    "HoldingCurrency": {
+      "definition": "Währung des Vermögenswerts im Bestand."
+    },
+    "TransferCurrency": {
+      "definition": "Währung des Vermögenswerts in einer anderen Währung."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zum Barvermögenswert."
+    }
+  },
+  "isoRules": {
+    "HoldingTransferCurrencyGuideline": {
+      "definition": "Wird Bargeld in einer anderen Währung als der des Bargelds übertragen, sollte die Währung in TransferCurrency angegeben werden."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "ExternalDiscountAmountType1Code",
+  "definition": "Gibt die Art oder Verwendung des Betrags als Zeichenfolge mit höchstens 4 Zeichen an.|Die Liste der gültigen Codes ist eine separat veröffentlichte externe Codeliste.|Externe Codesätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "APDS": {
+      "name": "Zusätzlicher Werbenachlass",
+      "definition": "Zusätzlicher Rabatt auf Grundlage einer mit Dritten vereinbarten geschäftlichen Werbeaktion, d. h. zusätzliche 10 Prozent Rabatt für 15 Tage)"
+    },
+    "STDS": {
+      "name": "Dauerrabatt",
+      "definition": "Rabatt auf Grundlage der gekauften Menge."
+    },
+    "TMDS": {
+      "name": "Skonto",
+      "definition": "Rabatt auf Grundlage ausgehandelter Bedingungen für die Zahlung innerhalb eines bestimmten Zeitraums, d. h. 2/10 netto 30 (2 Prozent Skonto bei Zahlung innerhalb von 10 Tagen; andernfalls ist der Nettobetrag innerhalb von 30 Tagen fällig)."
+    },
+    "DISC": {
+      "name": "Angewandter Rabatt",
+      "definition": "Angewandter Rabatt. Allgemeine Verwendung, wenn er durch keinen anderen Rabattcode angegeben werden kann."
+    }
+  }
+}

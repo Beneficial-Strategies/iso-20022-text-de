@@ -1,0 +1,12 @@
+{
+  "isoType": "OtherAmount3",
+  "definition": "Betrag, der zu einer Transaktion gehört.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art des Betrags."
+    },
+    "Amount": {
+      "definition": "Währung und Betrag."
+    }
+  }
+}

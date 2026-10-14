@@ -1,0 +1,15 @@
+{
+  "isoType": "ChargesBreakdown1",
+  "definition": "Stellt eine Aufschlüsselung der Entgelte nach Art bereit.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Betrag der Transaktionsentgelte, die vom Entgeltträger zu zahlen sind."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob der Entgeltbetrag ein Haben- oder ein Sollbetrag ist. |Verwendung: Ein Nullbetrag gilt als Haben-Betrag."
+    },
+    "Type": {
+      "definition": "Gibt die Art des Entgelts an."
+    }
+  }
+}

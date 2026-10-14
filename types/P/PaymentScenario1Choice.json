@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentScenario1Choice",
+  "definition": "Gibt die Geschäftsszenarien an, in denen die Zahlung ausgeführt wird, wie etwa Kundenüberweisung oder Deckungszahlung.",
+  "isoElements": {
+    "Code": {
+      "definition": "Zahlungsszenario, wie in einer externen Codeliste für Zahlungsszenarien veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Zahlungsszenario in proprietärer Form."
+    }
+  }
+}

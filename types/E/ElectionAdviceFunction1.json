@@ -1,0 +1,23 @@
+{
+  "isoType": "ElectionAdviceFunction1",
+  "definition": "Enthält Informationen zur Art der Wahlmitteilung und zu verknüpften Nachrichten.",
+  "isoElements": {
+    "ElectionType": {
+      "definition": "Art der Wahlmitteilung."
+    },
+    "PreviousAgentCAElectionAdviceIdentification": {
+      "definition": "Identifikation der vorherigen Agent Corporate Action Election Advice, die geändert wird."
+    },
+    "AgentCAElectionStatusAdviceIdentification": {
+      "definition": "Identifikation des Agent Corporate Action Election Status Advice, mit dem der Emittent (Agent) den Antrag auf Änderung der Wahl akzeptiert."
+    },
+    "AgentCAElectionAmendmentRequestIdentification": {
+      "definition": "Identifikation des Agent Corporate Action Election Amendment Request, mit dem der CSD die Genehmigung zur Änderung einer Wahl beantragt."
+    }
+  },
+  "isoRules": {
+    "ElectionTypeRule": {
+      "definition": "Wenn ElectionType CHAN ist, sind PreviousAgentCAElectionAdviceIdentification und AgentCAElectionStatusAdviceIdentification obligatorisch."
+    }
+  }
+}

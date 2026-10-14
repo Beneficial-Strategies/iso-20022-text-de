@@ -1,0 +1,42 @@
+{
+  "isoType": "SecuritiesBalanceType7Code",
+  "definition": "Gibt die Art des Wertpapier- oder Investmentfondssaldos an.",
+  "isoCodes": {
+    "COLA": {
+      "name": "Als Sicherheit zugelassen",
+      "definition": "Bestand an Wertpapieren, die für Sicherungszwecke zulässig sind."
+    },
+    "OTHR": {
+      "name": "Nicht klassifiziert",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "CLEN": {
+      "name": "Steuerbefreit",
+      "definition": "Steuerbefreite Finanzinstrumente sind abzuwickeln."
+    },
+    "DIRT": {
+      "name": "Nicht steuerbefreit",
+      "definition": "Steuerpflichtige Finanzinstrumente sind abzuwickeln."
+    },
+    "NOMI": {
+      "name": "Namens",
+      "definition": "Bestand an Finanzinstrumenten, die registriert sind (auf den Namen eines Nominees oder des wirtschaftlich Berechtigten)."
+    },
+    "SPOS": {
+      "name": "Street-Position",
+      "definition": "Bestand an Finanzinstrumenten, die weiterhin auf den Namen des früheren wirtschaftlichen Eigentümers registriert sind."
+    },
+    "UNRG": {
+      "name": "Nicht registriert",
+      "definition": "Bestand an Wertpapieren, die aufgrund einer Beschränkung des Auslandsbesitzes nicht registriert werden konnten."
+    },
+    "ISSU": {
+      "name": "Begeben",
+      "definition": "In der Kommunikation zwischen Emissionsstelle und Verwahrstelle: Bestand an emittierten Finanzinstrumenten, für die die rechtlichen Unterlagen eingegangen sind."
+    },
+    "QUAS": {
+      "name": "Quasi begeben",
+      "definition": "In der Kommunikation zwischen Emissionsstelle und Verwahrstelle: Bestand an emittierten Finanzinstrumenten, für die die rechtlichen Unterlagen noch nicht eingegangen sind."
+    }
+  }
+}

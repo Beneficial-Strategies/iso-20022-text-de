@@ -1,0 +1,12 @@
+{
+  "isoType": "Party50Choice",
+  "definition": "Identifikation einer Person, einer Organisation oder eines Finanzinstituts.",
+  "isoElements": {
+    "Party": {
+      "definition": "Identifikation einer Person oder einer Organisation."
+    },
+    "Agent": {
+      "definition": "Identifikation eines Finanzinstituts."
+    }
+  }
+}

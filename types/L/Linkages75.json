@@ -1,0 +1,9 @@
+{
+  "isoType": "Linkages75",
+  "definition": "Informationen zu einer verknüpften Transaktion.",
+  "isoElements": {
+    "SecuritiesSettlementTransactionIdentification": {
+      "definition": "Eindeutige Identifikation einer Wertpapierabwicklungstransaktion, wie dem Kontoinhaber (oder der in dessen Auftrag handelnden anweisenden Partei) bekannt."
+    }
+  }
+}

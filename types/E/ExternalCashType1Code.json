@@ -1,0 +1,42 @@
+{
+  "isoType": "ExternalCashType1Code",
+  "definition": "Gibt den externen Bargeldart-Code als Zeichenfolge mit einer maximalen Länge von 4 Zeichen an.|Die Liste der gültigen Codes ist eine separat veröffentlichte externe Codeliste.|Externe Codesätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "MUTI": {
+      "name": "Beschädigt",
+      "definition": "Das Bargeld ist beschädigt."
+    },
+    "STAD": {
+      "name": "Befleckt",
+      "definition": "Das Bargeld ist verfleckt."
+    },
+    "CONT": {
+      "name": "Kontaminiert",
+      "definition": "Das Bargeld ist kontaminiert."
+    },
+    "FITC": {
+      "name": "Umlauffähig",
+      "definition": "Das Bargeld ist umlauffähig."
+    },
+    "COUN": {
+      "name": "Falsch",
+      "definition": "Das Bargeld ist gefälscht."
+    },
+    "SOIL": {
+      "name": "Verschmutzt",
+      "definition": "Das Bargeld ist verschmutzt."
+    },
+    "NEWC": {
+      "name": "Neu",
+      "definition": "Das Bargeld ist neu."
+    },
+    "OBSO": {
+      "name": "Veraltet",
+      "definition": "Das Bargeld ist veraltet."
+    },
+    "SURP": {
+      "name": "Überschuss",
+      "definition": "Das Bargeld ist überschüssig."
+    }
+  }
+}

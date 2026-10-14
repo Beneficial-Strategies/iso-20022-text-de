@@ -1,0 +1,18 @@
+{
+  "isoType": "CancelledStatusReason1Code",
+  "definition": "Gibt den zugrunde liegenden Grund für die Stornierung der zugehörigen Transaktion an.",
+  "isoCodes": {
+    "CANI": {
+      "name": "Von Ihnen storniert",
+      "definition": "Die Transaktion wird von Ihnen selbst storniert."
+    },
+    "CANS": {
+      "name": "Vom System storniert",
+      "definition": "Die Transaktion wird vom System storniert."
+    },
+    "CSUB": {
+      "name": "Von der Bank storniert",
+      "definition": "Die Transaktion wird vom Agenten storniert."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CashInOutForecast7",
+  "definition": "Geldbewegungen in einen Fonds oder aus einem Fonds als Ergebnis von Investmentfondstransaktionen, zum Beispiel Zeichnungen, Rücknahmen oder Umschichtungen.",
+  "isoElements": {
+    "CashSettlementDate": {
+      "definition": "Datum, an dem das Geld verfügbar ist."
+    },
+    "Amount": {
+      "definition": "Betrag des Zahlungsstroms."
+    }
+  }
+}

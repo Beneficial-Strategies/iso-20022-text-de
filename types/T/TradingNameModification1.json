@@ -1,0 +1,12 @@
+{
+  "isoType": "TradingNameModification1",
+  "definition": "Legt die Art der Änderung des Handelsnamens fest.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Legt die Art der Änderung fest."
+    },
+    "TradingName": {
+      "definition": "Name, den ein Unternehmen für geschäftliche Zwecke verwendet, auch wenn sein eingetragener Rechtsname, der für Verträge und andere formelle Situationen verwendet wird, ein anderer sein kann."
+    }
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "isoType": "ExternalInvestigationReason1Code",
+  "definition": "Gibt den Untersuchungsgrund an, wie in einem externen Codesatz für Untersuchungsgründe veröffentlicht.|Externe Codesätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "RERE": {
+      "name": "Zugehörige Referenz",
+      "definition": "Die Referenz der zugehörigen Transaktion ist falsch, unvollständig oder fehlt."
+    },
+    "SVLV": {
+      "name": "Zahlungsservicelevel",
+      "definition": "Der Servicelevel des Zahlungstyps ist falsch, unvollständig oder fehlt."
+    },
+    "CAPU": {
+      "name": "Kategorie-Zweck",
+      "definition": "Der Kategoriezweck des Zahlungstyps ist falsch, unvollständig oder fehlt."
+    },
+    "REDT": {
+      "name": "Gewünschtes Ausführungsdatum",
+      "definition": "Das gewünschte Ausführungsdatum ist falsch oder fehlt."
+    },
+    "ISDT": {
+      "name": "Interbanken-Abwicklungsdatum",
+      "definition": "Das Interbanken-Abwicklungsdatum ist falsch."
+    },
+    "ISAM": {
+      "name": "Interbanken-Abwicklungsbetrag",
+      "definition": "Der Interbanken-Abwicklungsbetrag ist falsch."
+    },
+    "AMNT": {
+      "name": "Betrag",
+      "definition": "Ein Betragselement hat die Untersuchung ausgelöst."
+    },
+    "DTOR": {
+      "name": "Zahlungspflichtiger",
+      "definition": "Weitere Informationen zum Zahlungspflichtigen werden angefordert."
+    },
+    "DTAG": {
+      "name": "Bank des Zahlungspflichtigen",
+      "definition": "Weitere Informationen zur Bank des Zahlungspflichtigen werden angefordert."
+    },
+    "IGRA": {
+      "name": "Anweisende Erstattungsbank",
+      "definition": "Weitere Informationen zur anweisenden Erstattungsbank werden angefordert."
+    },
+    "IDRA": {
+      "name": "Angewiesene Erstattungsbank",
+      "definition": "Weitere Informationen zur angewiesenen Erstattungsbank werden angefordert."
+    },
+    "TDRA": {
+      "name": "Dritte Erstattungsbank",
+      "definition": "Weitere Informationen zur dritten Erstattungsbank werden angefordert."
+    },
+    "INAG": {
+      "name": "Zwischengeschaltete Bank",
+      "definition": "Weitere Informationen zu einer zwischengeschalteten Bank werden angefordert."
+    },
+    "PYCC": {
+      "name": "Zahlungsclearingkanal",
+      "definition": "Der Clearing-Kanal des Zahlungstyps ist falsch, unvollständig oder fehlt."
+    },
+    "CTAG": {
+      "name": "Bank des Zahlungsempfängers",
+      "definition": "Weitere Informationen zur Bank des Zahlungsempfängers werden angefordert."
+    },
+    "CTOR": {
+      "name": "Zahlungsempfänger",
+      "definition": "Weitere Informationen zum Zahlungsempfänger werden angefordert."
+    },
+    "REIN": {
+      "name": "Verwendungszweck-Informationen",
+      "definition": "Die Verwendungszweck-Informationen sind falsch, unvollständig oder fehlen."
+    },
+    "PYPU": {
+      "name": "Zahlungszweck",
+      "definition": "Der Zahlungszweck der Transaktion ist falsch, unvollständig oder fehlt."
+    },
+    "CHBE": {
+      "name": "Entgelte",
+      "definition": "Weitere Informationen zu den Entgelten werden angefordert."
+    },
+    "INNA": {
+      "name": "Anweisung für die nächste Bank",
+      "definition": "Weitere Informationen zur Anweisung für die nächste Bank werden angefordert."
+    },
+    "INCA": {
+      "name": "Anweisung für die Bank des Zahlungsempfängers",
+      "definition": "Weitere Informationen zur Anweisung für die Bank des Zahlungsempfängers werden angefordert."
+    },
+    "STET": {
+      "name": "Kontoauszugsposition",
+      "definition": "Weitere Informationen zu einer Kontoauszugsposition werden angefordert."
+    },
+    "SEAC": {
+      "name": "Abwicklungskonto",
+      "definition": "Weitere Informationen zum Abwicklungskonto werden angefordert."
+    },
+    "CHIN": {
+      "name": "Entgeltinformationen",
+      "definition": "Weitere Informationen zu den Entgeltinformationen werden angefordert."
+    },
+    "ULTD": {
+      "name": "Letztlich Zahlungspflichtiger",
+      "definition": "Weitere Informationen zum letztlich Zahlungspflichtigen werden angefordert."
+    },
+    "ULTC": {
+      "name": "Letztlicher Zahlungsempfänger",
+      "definition": "Weitere Informationen zum letztlichen Zahlungsempfänger werden angefordert."
+    },
+    "PURP": {
+      "name": "Zweck",
+      "definition": "Weitere Informationen zum Zweck werden angefordert."
+    },
+    "INPA": {
+      "name": "Initiierende Partei",
+      "definition": "Weitere Informationen zur initiierenden Partei werden angefordert."
+    },
+    "REGR": {
+      "name": "Meldung an Aufsichtsbehörden",
+      "definition": "Die aufsichtsrechtliche Meldung ist unvollständig oder fehlt."
+    },
+    "TAXD": {
+      "name": "Steuer",
+      "definition": "Die Steuerdaten sind unvollständig oder fehlen."
+    },
+    "FRAD": {
+      "name": "Betrügerisches Instrument",
+      "definition": "Das Instrument ist als betrügerisch bestätigt."
+    },
+    "FCCI": {
+      "name": "Compliance zur Bekämpfung von Finanzkriminalität",
+      "definition": "Die Untersuchung bezieht sich auf die Compliance bei Finanzkriminalität."
+    },
+    "FWTR": {
+      "name": "Geldtransferverordnung oder Wire-Transfer-Verordnung",
+      "definition": "Die Untersuchung bezieht sich auf die Vorschriften zu Geldtransfers oder Überweisungen."
+    },
+    "CHCO": {
+      "name": "Scheckkopie anfordern",
+      "definition": "Eine Kopie des Schecks wird angefordert."
+    },
+    "DRCO": {
+      "name": "Wechselkopie anfordern",
+      "definition": "Eine Kopie des Wechsels wird angefordert."
+    },
+    "AMLI": {
+      "name": "Geldwäschebekämpfung",
+      "definition": "Die Anfragenachricht bezieht sich auf Geldwäschebekämpfung."
+    },
+    "RQPR": {
+      "name": "Parteibeziehung anfordern",
+      "definition": "Eine Klärung zu einer Parteibeziehung wird angefordert."
+    },
+    "RQVD": {
+      "name": "Angaben zu Schiff oder Luftfahrzeug anfordern",
+      "definition": "Eine Klärung zu einem Schiff oder Luftfahrzeug wird angefordert."
+    },
+    "RQLD": {
+      "name": "Standortangaben anfordern",
+      "definition": "Eine Klärung zu Standortangaben wird angefordert."
+    },
+    "RQSG": {
+      "name": "Angaben zu Dienstleistungen oder Waren anfordern",
+      "definition": "Eine Klärung zu den beteiligten Waren oder Dienstleistungen wird angefordert."
+    },
+    "RQED": {
+      "name": "Austauschdatum von Dienstleistungen oder Waren anfordern",
+      "definition": "Eine Klärung dazu, wann Waren oder Dienstleistungen ausgetauscht wurden, wird angefordert."
+    },
+    "RQDO": {
+      "name": "Dokumentation anfordern",
+      "definition": "Unterlagen zur Transaktion werden angefordert."
+    },
+    "CHNP": {
+      "name": "Scheck noch nicht bezahlt",
+      "definition": "Scheck noch nicht bezahlt, obwohl er an die Bank gesendet wurde."
+    },
+    "NARR": {
+      "name": "Freitext",
+      "definition": "Siehe Element AdditionalRequestData für zusätzliche Informationen"
+    },
+    "RQCD": {
+      "name": "Kontoschließungsdatum anfordern",
+      "definition": "Das Datum der Kontoschließung wird angefordert."
+    },
+    "UTAP": {
+      "name": "Durch Zahlungsempfänger nicht zuordenbar",
+      "definition": "Eine gebuchte Position kann vom Zahlungsempfänger nicht zugeordnet werden."
+    },
+    "CCNR": {
+      "name": "Zahlungsempfänger meldet Nichterhalt",
+      "definition": "Der Zahlungsempfänger macht den Nichteingang einer Zahlung geltend."
+    },
+    "CONR": {
+      "name": "Bank des Zahlungsempfängers meldet Nichterhalt der Deckung",
+      "definition": "Die Bank des Zahlungsempfängers macht den Nichteingang der Deckung oder der Abwicklung geltend."
+    },
+    "PINC": {
+      "name": "Zahlungsinitiierung nicht bestätigt",
+      "definition": "Die Zahlungsinitiierung wurde nicht abgewickelt oder bestätigt."
+    },
+    "RQVA": {
+      "name": "Anpassung des Wertstellungsdatums anfordern",
+      "definition": "Eine Neubewertung einer Position wird beantragt."
+    },
+    "RQUF": {
+      "name": "Verwendung der Mittel anfordern",
+      "definition": "Die Verwendung der Mittel einer Position wird beantragt."
+    },
+    "RQDA": {
+      "name": "Anfrage zur Belastungsautorisierung",
+      "definition": "Eine Belastungsautorisierung für eine Position wird beantragt."
+    },
+    "ACCT": {
+      "name": "Kontobezogene Untersuchung",
+      "definition": "Untersuchung im Zusammenhang mit einem Konto."
+    },
+    "RQCH": {
+      "name": "Entgeltbezogene Anforderung",
+      "definition": "Untersuchung im Zusammenhang mit Entgelten, die erhoben wurden oder unbezahlt sind."
+    },
+    "RIMF": {
+      "name": "Anforderung vom IMF",
+      "definition": "Anfrage des Internationalen Währungsfonds."
+    },
+    "MCAT": {
+      "name": "Fehlender Gutschriftsbetrag",
+      "definition": "Fehlender Gutschriftsbetrag im Kontoauszug."
+    },
+    "MDAT": {
+      "name": "Fehlender Belastungsbetrag",
+      "definition": "Fehlender Belastungsbetrag im Kontoauszug."
+    },
+    "IIRT": {
+      "name": "Ungültige Zinssatzart",
+      "definition": "Ungültiger Zinssatz."
+    },
+    "INCB": {
+      "name": "Falscher Schlusssaldo",
+      "definition": "Falscher Schlusssaldo."
+    },
+    "IAIB": {
+      "name": "Falsch aufgelaufene Zinsen",
+      "definition": "Falscher Saldo der aufgelaufenen Zinsen."
+    },
+    "IDAI": {
+      "name": "Falsch täglich aufgelaufene Zinsen",
+      "definition": "Falscher täglicher Betrag der aufgelaufenen Zinsen."
+    },
+    "INTA": {
+      "name": "Falscher Transaktionsbetrag",
+      "definition": "Falscher Transaktionsbetrag."
+    }
+  }
+}

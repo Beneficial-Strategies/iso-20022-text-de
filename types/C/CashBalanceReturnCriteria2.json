@@ -1,0 +1,21 @@
+{
+  "isoType": "CashBalanceReturnCriteria2",
+  "definition": "Legt die Kriterien fest, die für die Berichterstattung über den Geldsaldo verwendet werden.",
+  "isoElements": {
+    "TypeIndicator": {
+      "definition": "Gibt an, ob der Saldotyp angefordert wird."
+    },
+    "StatusIndicator": {
+      "definition": "Gibt an, ob der Saldostatus angefordert wird."
+    },
+    "ValueDateIndicator": {
+      "definition": "Gibt an, ob das Wertstellungsdatum angefordert wird."
+    },
+    "ProcessingDateIndicator": {
+      "definition": "Gibt an, ob das Verarbeitungsdatum angefordert wird."
+    },
+    "NumberOfPaymentsIndicator": {
+      "definition": "Gibt an, ob die Anzahl der Zahlungen angefordert wird."
+    }
+  }
+}

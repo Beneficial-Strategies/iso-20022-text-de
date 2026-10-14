@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountOwner3Choice",
+  "definition": "Auswahl zwischen einer Organisation und einer natürlichen Person.",
+  "isoElements": {
+    "IndividualOwnerIdentification": {
+      "definition": "Identifikation der natürlichen Person, die rechtlich Inhaber des Kontos ist."
+    },
+    "OrganisationOwnerIdentification": {
+      "definition": "Identifikation der Organisation, die rechtlich Inhaber des Kontos ist."
+    }
+  }
+}

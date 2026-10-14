@@ -1,0 +1,18 @@
+{
+  "isoType": "AccountParties13Choice",
+  "definition": "Informationen zum Konto einer Partei.",
+  "isoElements": {
+    "PrimaryOwner": {
+      "definition": "Alleiniger Inhaber des Anlagekontos oder, wenn die Inhaberschaft auf mehrere Inhaber aufgeteilt ist, der Hauptinhaber, der seine Adresse und Kontodaten für die Registrierung angibt."
+    },
+    "Trustee": {
+      "definition": "Rechtliche Eigentümer des Vermögens. Der Begünstigte hat jedoch das wirtschaftliche Eigentum."
+    },
+    "Nominee": {
+      "definition": "Vom wirtschaftlich Berechtigten benannte Einheit, die in dessen Namen handelt, häufig um Geschäfte zu erleichtern oder die Identität des Begünstigten zu verschleiern."
+    },
+    "JointOwner": {
+      "definition": "Mitinhaber des Anlagekontos, wenn die Inhaberschaft mehr als einer Partei zugeordnet ist."
+    }
+  }
+}

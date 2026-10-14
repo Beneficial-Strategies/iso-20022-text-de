@@ -1,0 +1,57 @@
+{
+  "isoType": "StandingOrderReturnCriteria1",
+  "definition": "Legt die Kriterien fest, nach denen über Daueraufträge berichtet wird.",
+  "isoElements": {
+    "StandingOrderIdentificationIndicator": {
+      "definition": "Legt die Kriterien fest, die für die Berichterstattung über einen multilateralen Saldo verwendet werden."
+    },
+    "TypeIndicator": {
+      "definition": "Gibt an, ob die Art des Dauerauftrags angefordert wird."
+    },
+    "SystemMemberIndicator": {
+      "definition": "Gibt an, ob die Identifikation des Systemmitglieds angefordert wird."
+    },
+    "ResponsiblePartyIndicator": {
+      "definition": "Gibt an, ob die Identifikation der verantwortlichen Partei angefordert wird."
+    },
+    "CurrencyIndicator": {
+      "definition": "Gibt an, ob die Kontowährung angefordert wird."
+    },
+    "DebtorAccountIndicator": {
+      "definition": "Gibt an, ob der Kontotyp angefordert wird."
+    },
+    "CreditorAccountIndicator": {
+      "definition": "Gibt an, ob das multilaterale Limit angefordert wird."
+    },
+    "AssociatedPoolAccount": {
+      "definition": "Gibt an, ob das zugehörige Poolkonto angefordert wird."
+    },
+    "FrequencyIndicator": {
+      "definition": "Gibt an, ob die Häufigkeit angefordert wird."
+    },
+    "ExecutionTypeIndicator": {
+      "definition": "Gibt an, ob die Ausführungsart angefordert wird."
+    },
+    "ValidityFromIndicator": {
+      "definition": "Gibt an, ob der Dauerauftrag des Kontos angefordert wird."
+    },
+    "ValidToIndicator": {
+      "definition": "Gibt an, ob die Angaben zum Kontoinhaber angefordert werden."
+    },
+    "LinkSetIdentificationIndicator": {
+      "definition": "Gibt an, ob die Identifikation des Verknüpfungssatzes angefordert wird."
+    },
+    "LinkSetOrderIdentificationIndicator": {
+      "definition": "Gibt an, ob die Identifikation eines Dauerauftrags innerhalb eines Verknüpfungssatzes angefordert wird."
+    },
+    "LinkSetOrderSequenceIndicator": {
+      "definition": "Gibt an, ob die Reihenfolge eines Dauerauftrags innerhalb eines Verknüpfungssatzes angefordert wird."
+    },
+    "TotalAmountIndicator": {
+      "definition": "Gibt an, ob der Gesamtbetrag je Dauerauftragsart angefordert wird."
+    },
+    "ZeroSweepIndicator": {
+      "definition": "Gibt an, ob der Zero-Sweeping-Indikator angefordert wird."
+    }
+  }
+}

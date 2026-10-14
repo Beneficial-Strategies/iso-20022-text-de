@@ -1,0 +1,14 @@
+{
+  "isoType": "ModifiedStatusReason1Code",
+  "definition": "Gibt an, dass die Transaktion geändert wurde.",
+  "isoCodes": {
+    "MDBY": {
+      "name": "Von Ihnen selbst geändert",
+      "definition": "Änderung einer Transaktion durch den Kontoinhaber."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    }
+  }
+}

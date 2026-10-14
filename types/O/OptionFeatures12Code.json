@@ -1,0 +1,10 @@
+{
+  "isoType": "OptionFeatures12Code",
+  "definition": "Gibt die Merkmale an, die für eine Kapitalmaßnahmen-Option gelten können.",
+  "isoCodes": {
+    "OPLF": {
+      "name": "Vorzug für Spitzenmengen",
+      "definition": "Angebot oder Umtausch mit Vorzugsbehandlung von Splitterbeständen."
+    }
+  }
+}

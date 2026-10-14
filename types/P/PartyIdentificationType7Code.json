@@ -1,0 +1,78 @@
+{
+  "isoType": "PartyIdentificationType7Code",
+  "definition": "Gibt eine alternative Identifikation einer Partei an, zum Beispiel nationale Registrierungsnummer, Reisepassnummer, Steueridentifikationsnummer.",
+  "isoCodes": {
+    "ATIN": {
+      "name": "Steueridentifikationsnummer für Adoption",
+      "definition": "Vorläufige Steuerbearbeitungsnummer (verwendet bei der inländischen Adoption eines Kindes)."
+    },
+    "IDCD": {
+      "name": "Personalausweisnummer",
+      "definition": "Von einer nationalen Behörde vergebene Nummer eines Personalausweises."
+    },
+    "NRIN": {
+      "name": "Nationale Registrierungsnummer",
+      "definition": "Nationale Registrierungsnummer. In Singapur ist diese als NRIC bekannt."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Eine andere Identifikationsart."
+    },
+    "PASS": {
+      "name": "Reisepassnummer",
+      "definition": "Von einer Passbehörde vergebene Nummer eines Reisepasses."
+    },
+    "POCD": {
+      "name": "Postkartennummer",
+      "definition": "Von einer nationalen Postbehörde vergebene Postkartennummer."
+    },
+    "SOCS": {
+      "name": "Sozialversicherungsnummer",
+      "definition": "Nummer, die von einer Sozialversicherungsbehörde vergeben wurde."
+    },
+    "SRSA": {
+      "name": "SRS-Kontonummer",
+      "definition": "Kontonummer des Supplementary Retirement Scheme."
+    },
+    "GUNL": {
+      "name": "Waffenscheinnummer",
+      "definition": "Von einer Waffenlizenzbehörde vergebene Waffenscheinnummer."
+    },
+    "GTIN": {
+      "name": "Allgemeine Steuernummer",
+      "definition": "Allgemeine Steueridentifikationsnummer."
+    },
+    "ITIN": {
+      "name": "Individuelle Steuerzahler-Identifikationsnummer",
+      "definition": "Steuerbearbeitungsnummer."
+    },
+    "CPFA": {
+      "name": "CPF-Kontonummer",
+      "definition": "Vom Central Provident Fund Board (Singapur) ausgestelltes Konto."
+    },
+    "AREG": {
+      "name": "Ausländerregistrierungsnummer",
+      "definition": "Von einer Regierungsbehörde zugewiesene Nummer zur Identifikation ausländischer Staatsangehöriger."
+    },
+    "DRLC": {
+      "name": "Führerscheinnummer",
+      "definition": "Von einer Lizenzbehörde vergebene Führerscheinnummer."
+    },
+    "EMID": {
+      "name": "Arbeitgeber-Identifikationsnummer",
+      "definition": "Einem Arbeitgeber von einer Registrierungsbehörde zugewiesene Nummer."
+    },
+    "NINV": {
+      "name": "Gebietsfremder Anleger",
+      "definition": "Nummer, die die Art des bei einer Wertpapier- und Börsenaufsichtsbehörde registrierten Anlegers identifiziert."
+    },
+    "INCL": {
+      "name": "Branchenklassifikation",
+      "definition": "Nummer, die typischerweise von einer Regierung vergeben wird, um Eigentums-, Verwaltungs- und Autoritätsverhältnisse zu beschreiben."
+    },
+    "GIIN": {
+      "name": "Globale Intermediär-Identifikationsnummer",
+      "definition": "Globale Steueridentifikationsnummer für Intermediäre."
+    }
+  }
+}

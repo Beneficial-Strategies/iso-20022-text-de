@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchPaymentResponseV02",
+  "definition": "Die Nachricht AccountSwitchPaymentResponse wird vom neuen kontoführenden Institut an das alte kontoführende Institut gesendet, um zu bestätigen, ob es die in einer Zahlungsanforderungsnachricht angeforderte Zahlung leisten wird. Die Nachricht AccountSwitchPaymentResponse wird nur zur Beantwortung einer Nachricht AccountSwitchRequestPayment verwendet."
+}

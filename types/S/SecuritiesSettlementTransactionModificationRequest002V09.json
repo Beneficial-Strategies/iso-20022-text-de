@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesSettlementTransactionModificationRequest002V09",
+  "definition": "Anwendungsbereich|Die SecuritiesSettlementTransactionModificationRequest wird von einem Kontoinhaber an einen Kontoführer gesendet. ||Der Kontoinhaber ist in der Regel:|- ein Teilnehmer eines Zentralverwahrers, der ein Konto bei einem Zentralverwahrer oder einer Marktinfrastruktur unterhält|- ein Vermögensverwalter, der ein Konto bei einem Verwahrer unterhält, der als Buchführungs- und/oder Abwicklungsstelle fungiert.||Sie dient dazu, die Änderung von Informationen, die nicht zu den Kerngeschäftsdaten gehören (abgleichsrelevant oder nicht abgleichsrelevant), in einer ausstehenden oder abgewickelten Anweisung zu beantragen. Sie kann auch zur Ergänzung einer unvollständigen Transaktion verwendet werden.||Verwendung|Die Änderung darf nur die zu ändernden Daten enthalten.|Die Nachricht kann auch verwendet werden, um:|- eine vom Kontoinhaber an den Kontoführer gesendete Nachricht erneut zu senden,|- einem Dritten zur Information eine Kopie einer vom Kontoinhaber gesendeten Nachricht zur Verfügung zu stellen,|- einem Dritten zur Information eine Kopie einer vom Kontoinhaber gesendeten Nachricht erneut zu senden, unter Verwendung der entsprechenden Elemente im Business Application Header.",
+  "isoRules": {
+    "PhysicalInstructionDetailsUsageRule": {
+      "definition": "AdditionalPhysicalOrRegistrationDetails darf nur bei Anweisungen ohne Zahlung (free of payment) verwendet werden."
+    },
+    "SecuritiesFinancingSettlementUsageRule": {
+      "definition": "Im Rahmen der Wertpapierfinanzierung (Repo, Reverse Repo, Wertpapierleihe, Wertpapierentleihe) darf die SettlementInstruction nur für die einfache Standardabwicklung des Eröffnungs- und des Schlussteils verwendet werden."
+    },
+    "LinkagesUsageRule": {
+      "definition": "Die Verknüpfungen dürfen nur bei der Änderung der gepaarten oder gewendeten Menge (Paired or Turned Quantity) verwendet werden. Änderungen beim Verknüpfen und Aufheben von Verknüpfungen von Nachrichten müssen mit der SecuritiesSettlementConditionsModificationRequest vorgenommen werden."
+    }
+  }
+}

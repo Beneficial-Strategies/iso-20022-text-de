@@ -1,0 +1,42 @@
+{
+  "isoType": "AuthenticationMethod7Code",
+  "definition": "Verfahren zur Authentifizierung des Kunden oder seiner Karte.",
+  "isoCodes": {
+    "TOKA": {
+      "name": "Authentisierungstoken",
+      "definition": "Ein Token wird verwendet, um eine bereits durchgeführte Authentifizierung zu überprüfen."
+    },
+    "BIOM": {
+      "name": "Biometrie",
+      "definition": "Biometrische Authentifizierung des Karteninhabers."
+    },
+    "MOBL": {
+      "name": "Mobiltelefon",
+      "definition": "Mobilgerät des Kunden."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstige Kundenauthentifizierung."
+    },
+    "FPIN": {
+      "name": "Offline-PIN",
+      "definition": "Offline-PIN-Authentifizierung (Personal Identification Number)."
+    },
+    "NPIN": {
+      "name": "Online-PIN",
+      "definition": "Online-PIN-Authentifizierung (Personal Identification Number)."
+    },
+    "PSWD": {
+      "name": "Passwort",
+      "definition": "Authentifizierung per Passwort."
+    },
+    "SCRT": {
+      "name": "Sicheres Zertifikat",
+      "definition": "Mit dem X.509-Zertifikat eines Kunden gesicherte E-Commerce-Transaktion."
+    },
+    "SCNL": {
+      "name": "Gesicherter Kanal",
+      "definition": "Kanalverschlüsselte Transaktion."
+    }
+  }
+}

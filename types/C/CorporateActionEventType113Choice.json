@@ -1,0 +1,17 @@
+{
+  "isoType": "CorporateActionEventType113Choice",
+  "definition": "Auswahl zwischen Formaten zur Angabe der Art des Kapitalmaßnahmen-Ereignisses.",
+  "isoElements": {
+    "Code": {
+      "definition": "Ereignistyp, angegeben als Code."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Ereignisart."
+    }
+  },
+  "isoRules": {
+    "EventTypeRule": {
+      "definition": "Wenn Code vorhanden ist, darf der Code OTHR (Other) nur verwendet werden, wenn kein anderer Kapitalmaßnahmen-Ereigniscode geeignet ist. ||Wenn Code vorhanden ist, darf der Code CHAN (Change) nur verwendet werden, wenn kein anderer Kapitalmaßnahmen-Ereigniscode geeignet ist und nur für ein Ereignis, das sich auf eine Änderung bezieht. ||Wenn Code vorhanden ist, darf der Code REDM (Final Maturity) nur verwendet werden, wenn die Rückzahlung vom Emittenten und nicht von den Wertpapierinhabern beschlossen wird."
+    }
+  }
+}

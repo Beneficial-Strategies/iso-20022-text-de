@@ -1,0 +1,27 @@
+{
+  "isoType": "BusinessDayReturnCriteria2",
+  "definition": "Definiert die Kriterien für die Berichterstattung über Informationen zum Geschäftstag.",
+  "isoElements": {
+    "SystemDateIndicator": {
+      "definition": "Gibt an, ob das Systemdatum angefordert wird."
+    },
+    "SystemStatusIndicator": {
+      "definition": "Gibt an, ob der Systemstatus angefordert wird."
+    },
+    "SystemCurrencyIndicator": {
+      "definition": "Gibt an, ob die Systemwährung angefordert wird."
+    },
+    "ClosurePeriodIndicator": {
+      "definition": "Gibt an, ob die Schließungsinformationen angefordert werden."
+    },
+    "EventIndicator": {
+      "definition": "Gibt an, ob die Ereignisse angefordert werden."
+    },
+    "SessionPeriodIndicator": {
+      "definition": "Gibt an, ob der Sitzungszeitraum angefordert wird."
+    },
+    "EventTypeIndicator": {
+      "definition": "Gibt an, ob die Art des Systemereignisses angefordert wird."
+    }
+  }
+}

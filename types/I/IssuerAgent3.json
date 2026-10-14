@@ -1,0 +1,12 @@
+{
+  "isoType": "IssuerAgent3",
+  "definition": "Identifikation des Emittenten und seiner Rolle.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifikation der Emittentenbank."
+    },
+    "Role": {
+      "definition": "Rolle der Emittentenbank."
+    }
+  }
+}

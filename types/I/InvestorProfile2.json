@@ -1,0 +1,21 @@
+{
+  "isoType": "InvestorProfile2",
+  "definition": "Informationen zu Maßnahmen, die für ein Konto ergriffen werden können.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art des Profils."
+    },
+    "Status": {
+      "definition": "Status des Profils."
+    },
+    "Treasury": {
+      "definition": "Informationen zum Profil für den Handel mit Staatsanleihen."
+    },
+    "HighFrequencyTrading": {
+      "definition": "Informationen zum Profil für den Hochfrequenzhandel."
+    },
+    "MarketMaker": {
+      "definition": "Informationen zum Profil für einen Market Maker."
+    }
+  }
+}

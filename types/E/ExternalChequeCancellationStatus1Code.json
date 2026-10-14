@@ -1,0 +1,14 @@
+{
+  "isoType": "ExternalChequeCancellationStatus1Code",
+  "definition": "Gibt den externen Code für den Status der Scheckstornierung als Zeichenfolge mit einer maximalen Länge von 4 Zeichen an.|Die Liste der gültigen Codes ist ein separat veröffentlichter externer Codesatz.|Externe Codesätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "RJCR": {
+      "name": "Abgelehnte Stornierungs- oder Sperranforderung für Scheck",
+      "definition": "Der Antrag auf Stornierung des Schecks oder auf Sperrung des Schecks wird abgelehnt."
+    },
+    "ACCR": {
+      "name": "Akzeptierte Stornierungs- oder Sperranforderung für Scheck",
+      "definition": "Der Antrag auf Stornierung des Schecks oder auf Sperrung des Schecks wird angenommen."
+    }
+  }
+}

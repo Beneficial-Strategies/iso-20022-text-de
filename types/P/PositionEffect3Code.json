@@ -1,0 +1,14 @@
+{
+  "isoType": "PositionEffect3Code",
+  "definition": "Gibt die Reihenfolge an, in der Ereignisse verarbeitet werden.",
+  "isoCodes": {
+    "FIFO": {
+      "name": "FIFO",
+      "definition": "First in, first out. Ergibt eine Position, die nach vorrangigem Verkauf der chronologisch zuerst gekauften Wertpapiere entsteht."
+    },
+    "LIFO": {
+      "name": "LIFO",
+      "definition": "Last in, last out. Ergibt eine Position, die nach vorrangigem Verkauf der chronologisch zuerst gekauften Wertpapiere entsteht."
+    }
+  }
+}

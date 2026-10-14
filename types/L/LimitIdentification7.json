@@ -1,0 +1,21 @@
+{
+  "isoType": "LimitIdentification7",
+  "definition": "Funktion des Cash-Managements, die das maximale Risiko begrenzt, das eine Partei gegenüber einer Gegenpartei oder einer Gruppe von Gegenparteien einzugehen bereit ist. Ein Risikomanagement-Limit ist entweder bilateral, d. h. für eine Gegenpartei, oder multilateral, d. h. für eine Gruppe von Gegenparteien oder alle übrigen Teilnehmer eines Systems. Das Limit kann auch für gesponserte Teilnehmer, d. h. indirekte Teilnehmer, gelten. Grundsätzlich wird ein Risikomanagement-Limit auf Basis der Nettoposition zwischen zwei Teilnehmern berechnet und aus Sicht der das Limit festlegenden Partei als Kredit- oder Debitlimit ausgedrückt.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Eindeutige Identifikation, vom kontoführenden Institut vergeben, zur zweifelsfreien Identifikation des Kontos."
+    },
+    "Type": {
+      "definition": "Art des Risikomanagement-Limits."
+    },
+    "LimitCurrency": {
+      "definition": "Währungseinheit zur Angabe des Limitbetrags."
+    },
+    "AccountOwner": {
+      "definition": "Inhaber des abgefragten Kontos."
+    },
+    "BilateralLimitCounterpartyIdentification": {
+      "definition": "Identifikation des Systemteilnehmers, für den das Limit festgelegt wird."
+    }
+  }
+}

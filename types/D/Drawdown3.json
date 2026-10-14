@@ -1,0 +1,12 @@
+{
+  "isoType": "Drawdown3",
+  "definition": "Informationen zu einer Entnahme (Drawdown).",
+  "isoElements": {
+    "EmploymentDetails": {
+      "definition": "Informationen zur früheren Beschäftigung."
+    },
+    "AdditionalInformation": {
+      "definition": "Zusätzliche Informationen zur Entnahme (Drawdown)."
+    }
+  }
+}

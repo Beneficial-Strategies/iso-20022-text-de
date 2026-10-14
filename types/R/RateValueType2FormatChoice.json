@@ -1,0 +1,12 @@
+{
+  "isoType": "RateValueType2FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe des Werts eines Satzes.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Werts eines Satzes."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe des Werts eines Satzes."
+    }
+  }
+}

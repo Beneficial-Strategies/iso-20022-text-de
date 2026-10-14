@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionEventDeadlines3",
+  "definition": "Gibt die Fristen eines Kapitalmaßnahmen-Ereignisses an.",
+  "isoElements": {
+    "EarlyResponseDeadline": {
+      "definition": "Datum/Uhrzeit, die der Kontoführer als Frist festgelegt hat, um auf ein offenes Ereignis mit Anweisungen zu antworten, wodurch dem Inhaber Anreize zustehen. Diese Uhrzeit richtet sich nach der Referenzzeitzone des Kontoführers gemäß einer Dienstleistungsvereinbarung (Service Level Agreement, SLA)."
+    },
+    "ResponseDeadline": {
+      "definition": "Datum/Uhrzeit, die der Kontoführer als Frist festgelegt hat, um auf ein offenes Ereignis mit Anweisungen zu antworten. Diese Uhrzeit richtet sich nach der Referenzzeitzone des Kontoführers gemäß einer Dienstleistungsvereinbarung (Service Level Agreement, SLA)."
+    },
+    "MarketDeadline": {
+      "definition": "Frist des Emittenten oder seines Beauftragten, um mit einer Anweisung auf ein ausstehendes Angebot oder Vorrecht zu antworten."
+    },
+    "ProtectDeadline": {
+      "definition": "Frist für Protect-Anweisungen."
+    },
+    "CoverProtectDeadline": {
+      "definition": "Frist für die Deckung einer Protect-Anweisung."
+    }
+  }
+}

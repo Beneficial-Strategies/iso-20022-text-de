@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatus74Choice",
+  "definition": "Auswahl zwischen einem Grund oder keinem Grund für den Status „ausstehend“ der Verarbeitung des Kapitalmaßnahmen-Ereignisses.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Grund nicht angegeben."
+    },
+    "Reason": {
+      "definition": "Grund für den Status ausstehend."
+    }
+  }
+}

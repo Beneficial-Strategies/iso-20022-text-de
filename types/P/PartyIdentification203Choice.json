@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification203Choice",
+  "definition": "Identifikation einer Partei.",
+  "isoElements": {
+    "ProprietaryIdentification": {
+      "definition": "Eindeutiger und zweifelsfreier Bezeichner, der einem Finanzinstitut mithilfe eines proprietären Identifikationsschemas zugewiesen wurde."
+    },
+    "LEI": {
+      "definition": "Legal Entity Identifier der Partei."
+    }
+  }
+}

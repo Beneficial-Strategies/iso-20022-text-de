@@ -1,0 +1,30 @@
+{
+  "isoType": "AccountCashEntryReturnCriteria3",
+  "definition": "Legt die Kriterien fest, nach denen über den Kontoumsatz berichtet wird.",
+  "isoElements": {
+    "EntryReferenceIndicator": {
+      "definition": "Gibt an, ob die Umsatzreferenz angefordert wird."
+    },
+    "AccountTypeIndicator": {
+      "definition": "Gibt an, ob der Kontotyp angefordert wird."
+    },
+    "EntryAmountIndicator": {
+      "definition": "Gibt an, ob der Umsatzbetrag angefordert wird."
+    },
+    "AccountCurrencyIndicator": {
+      "definition": "Gibt an, ob die Kontowährung angefordert wird."
+    },
+    "EntryStatusIndicator": {
+      "definition": "Gibt an, ob der Umsatzstatus angefordert wird."
+    },
+    "EntryDateIndicator": {
+      "definition": "Gibt an, ob das Umsatzdatum angefordert wird."
+    },
+    "AccountServicerIndicator": {
+      "definition": "Gibt an, ob das kontoführende Institut angefordert wird."
+    },
+    "AccountOwnerIndicator": {
+      "definition": "Gibt an, ob der Kontoinhaber angefordert wird."
+    }
+  }
+}

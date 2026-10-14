@@ -1,0 +1,21 @@
+{
+  "isoType": "CashNote1",
+  "definition": "Abhebung oder Einzahlung eines in Banknoten festgelegten Geldbetrags.",
+  "isoElements": {
+    "Type": {
+      "definition": "Art des Bargelds."
+    },
+    "BoxReference": {
+      "definition": "Referenz für den Behälter, der diese Banknoten enthält."
+    },
+    "NoteDenomination": {
+      "definition": "Gibt die Stückelung der Banknoten einschließlich der Währung an, zum Beispiel eine 50-Euro-Banknote."
+    },
+    "NumberOfNotes": {
+      "definition": "Gibt die Anzahl der Banknoten gleicher Stückelung an."
+    },
+    "Amount": {
+      "definition": "Gibt den Gesamtbetrag für diese Banknotenstückelung an, das heißt die Stückelung multipliziert mit der Anzahl der Banknoten."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "OriginalGroupInformation27",
+  "definition": "Gruppe von Elementen mit Angaben zur ursprünglichen Gruppe, auf die sich die Nachricht bezieht.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Von der ursprünglich anweisenden Partei vergebene Punkt-zu-Punkt-Referenz zur zweifelsfreien Identifizierung der ursprünglichen Nachricht."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Gibt die Kennung des Namens der ursprünglichen Nachricht an, auf die sich die Nachricht bezieht."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der ursprünglichen Nachricht."
+    },
+    "OriginalNumberOfTransactions": {
+      "definition": "Anzahl der in der ursprünglichen Nachricht enthaltenen einzelnen Transaktionen."
+    },
+    "OriginalControlSum": {
+      "definition": "Summe aller in der ursprünglichen Nachricht enthaltenen Einzelbeträge, unabhängig von den Währungen."
+    }
+  }
+}

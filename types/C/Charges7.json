@@ -1,0 +1,12 @@
+{
+  "isoType": "Charges7",
+  "definition": "Liefert Informationen zu den Entgelten im Zusammenhang mit der Zahlungstransaktion.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Transaktionsentgelte, die vom Entgeltträger zu zahlen sind."
+    },
+    "Agent": {
+      "definition": "Bank, die die Transaktionsentgelte vereinnahmt oder der die Transaktionsentgelte zustehen."
+    }
+  }
+}

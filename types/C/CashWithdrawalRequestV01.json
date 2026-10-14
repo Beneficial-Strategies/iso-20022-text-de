@@ -1,0 +1,4 @@
+{
+  "isoType": "CashWithdrawalRequestV01",
+  "definition": "Die Nachricht CashWithdrawalRequest wird von einem Bargeldempfänger an einen Bargeldsender gesendet, um zu beantragen, dass Bargeld von einem Konto abgehoben wird."
+}

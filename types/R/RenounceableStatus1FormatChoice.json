@@ -1,0 +1,12 @@
+{
+  "isoType": "RenounceableStatus1FormatChoice",
+  "definition": "Auswahl von Formaten zur Angabe des Status der Übertragbarkeit.",
+  "isoElements": {
+    "Code": {
+      "definition": "Standardcode zur Angabe des Status der Übertragbarkeit."
+    },
+    "Proprietary": {
+      "definition": "Proprietärer Code zur Angabe des Status der Übertragbarkeit."
+    }
+  }
+}

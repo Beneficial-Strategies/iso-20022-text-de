@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification1Choice",
+  "definition": "Identifikation einer Partei.",
+  "isoElements": {
+    "BICOrBEI": {
+      "definition": "Eindeutige und unmissverständliche Kennung einer Organisation, die von einer Institution vergeben wird."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Eindeutiger und zweifelsfreier Bezeichner, der einem Finanzinstitut mithilfe eines proprietären Identifikationsschemas zugewiesen wurde."
+    },
+    "NameAndAddress": {
+      "definition": "Name, unter dem eine Partei bekannt ist und der üblicherweise zur Identifikation dieser Partei verwendet wird."
+    }
+  }
+}

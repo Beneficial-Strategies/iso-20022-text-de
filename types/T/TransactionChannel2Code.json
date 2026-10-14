@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionChannel2Code",
+  "definition": "Gibt die Art des Kommunikationskanals an.",
+  "isoCodes": {
+    "FIAD": {
+      "name": "Finanzberater",
+      "definition": "Finanzberater."
+    },
+    "HOBA": {
+      "name": "Homebanking",
+      "definition": "Home-Banking."
+    },
+    "BRAN": {
+      "name": "Büro oder Filiale",
+      "definition": "Büro oder Filiale."
+    }
+  }
+}

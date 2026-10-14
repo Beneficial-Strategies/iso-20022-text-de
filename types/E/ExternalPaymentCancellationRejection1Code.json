@@ -1,0 +1,114 @@
+{
+  "isoType": "ExternalPaymentCancellationRejection1Code",
+  "definition": "Gibt den Grund für die Ablehnung einer Stornierung an, wie in einem externen Code-Set für Ablehnungsgründe von Zahlungsstornierungen veröffentlicht.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "AC04": {
+      "name": "Geschlossene Kontonummer",
+      "definition": "Die angegebene Kontonummer wurde in den Büchern des Empfängers geschlossen."
+    },
+    "ADAC": {
+      "name": "Warten auf Belastungsermächtigung des Kunden",
+      "definition": "Wird gemeldet, wenn der Stornierungsauftrag nicht verarbeitet werden kann, weil der Kunde die Belastungsberechtigung für sein Konto noch nicht erteilt hat."
+    },
+    "AGNT": {
+      "name": "Entscheidung der Bank",
+      "definition": "Wird gemeldet, wenn die Stornierung nicht akzeptiert werden kann, weil eine Bank die Stornierung verweigert."
+    },
+    "AM04": {
+      "name": "Unzureichende Deckung",
+      "definition": "Der zur Deckung des angegebenen Nachrichtenbetrags verfügbare Betrag ist unzureichend."
+    },
+    "ARDT": {
+      "name": "Bereits zurückgegeben",
+      "definition": "Stornierung nicht akzeptiert, da die Transaktion bereits zurückgegeben wurde."
+    },
+    "ARPL": {
+      "name": "Warten auf Antwort",
+      "definition": "Wird gemeldet, wenn der Stornierungsauftrag nicht verarbeitet werden kann, weil vom Empfänger der Auftragsnachricht noch keine Antwort eingegangen ist."
+    },
+    "CUST": {
+      "name": "Entscheidung des Kunden",
+      "definition": "Wird gemeldet, wenn die Stornierung aufgrund einer Entscheidung des Kunden (Zahlungsempfänger) nicht akzeptiert werden kann."
+    },
+    "LEGL": {
+      "name": "Rechtliche Entscheidung",
+      "definition": "Wird gemeldet, wenn die Stornierung aufgrund aufsichtsrechtlicher Vorschriften nicht akzeptiert werden kann."
+    },
+    "NARR": {
+      "name": "Freitext",
+      "definition": "Der Grund wird als Freitext in den zusätzlichen Grundinformationen angegeben."
+    },
+    "NOAS": {
+      "name": "Keine Antwort vom Kunden",
+      "definition": "Keine Antwort vom Begünstigten (auf den Stornierungsauftrag)."
+    },
+    "NOOR": {
+      "name": "Keine ursprüngliche Transaktion empfangen",
+      "definition": "Ursprüngliche Transaktion (die storniert werden soll) nie empfangen."
+    },
+    "PTNA": {
+      "name": "An die nächste Bank weitergeleitet",
+      "definition": "Wird gemeldet, wenn der Stornierungsauftrag nicht akzeptiert werden kann, weil die Zahlungsanweisung an die nächste Bank weitergegeben wurde."
+    },
+    "RQDA": {
+      "name": "Belastungsermächtigung angefordert",
+      "definition": "Wird gemeldet, wenn der Zahlungsempfänger eine Berechtigung zur Rückgabe der Zahlung benötigt."
+    },
+    "WSEQ": {
+      "name": "Falsche Reihenfolge",
+      "definition": "Wird gemeldet, wenn der Stornierungsauftrag nicht verarbeitet werden kann, weil die im Auftrag referenzierte Sequenz nicht gültig ist."
+    },
+    "INDM": {
+      "name": "Stornierungsentschädigung erforderlich",
+      "definition": "Ergänzt einen Status „Ausstehend“ oder „Abgelehnt“. Der Auftrag zur Stornierung der Zahlung kann erst akzeptiert werden, wenn eine Haftungsfreistellungsvereinbarung vorliegt."
+    },
+    "ACLR": {
+      "name": "RTP bereits storniert",
+      "definition": "Der Request-to-pay wurde bereits storniert."
+    },
+    "AEXR": {
+      "name": "RTP bereits abgelaufen",
+      "definition": "Ablaufdatum und -zeit des Zahlungsauftrags (Request-to-pay) sind bereits verstrichen."
+    },
+    "ARFR": {
+      "name": "RTP bereits abgelehnt",
+      "definition": "Der Request-to-pay wurde vom Zahlungspflichtigen bereits abgelehnt."
+    },
+    "ARJR": {
+      "name": "RTP bereits zurückgewiesen",
+      "definition": "Der Request-to-pay wurde bereits zurückgewiesen."
+    },
+    "PATE": {
+      "name": "Zahlung bereits übermittelt, Ausführung",
+      "definition": "Die zum Request-to-pay gehörende Zahlung wurde bereits zur Ausführung übermittelt."
+    },
+    "RR04": {
+      "name": "Regulatorischer Grund",
+      "definition": "Aufsichtsrechtlicher Grund."
+    },
+    "RCAR": {
+      "name": "RfC bereits abgelehnt",
+      "definition": "Der Auftrag zur Stornierung des Request-to-pay wurde bereits abgelehnt."
+    },
+    "RCNR": {
+      "name": "RfC nie empfangen",
+      "definition": "Der Auftrag zur Stornierung des Request-to-pay wurde nie empfangen."
+    },
+    "RCPR": {
+      "name": "RfC empfangen und verarbeitet",
+      "definition": "Der Auftrag zur Stornierung des Request-to-pay wurde bereits empfangen und verarbeitet."
+    },
+    "URTP": {
+      "name": "Unbekannter RTP",
+      "definition": "Request-to-pay ist unbekannt."
+    },
+    "AACR": {
+      "name": "RTP bereits akzeptiert",
+      "definition": "Der Request-to-pay (RTP) wurde bereits angenommen."
+    },
+    "ARJT": {
+      "name": "Transaktion bereits abgelehnt",
+      "definition": "Zugrunde liegende Transaktion bereits abgelehnt."
+    }
+  }
+}

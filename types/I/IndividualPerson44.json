@@ -1,0 +1,57 @@
+{
+  "isoType": "IndividualPerson44",
+  "definition": "Natürliche Person, in Abgrenzung zu einer juristischen Person (die mitunter als „künstliche Person“ bezeichnet wird).",
+  "isoElements": {
+    "CurrentName": {
+      "definition": "Aktuell verwendeter Name."
+    },
+    "PreviousName": {
+      "definition": "Früher verwendeter Name."
+    },
+    "Gender": {
+      "definition": "Gibt das Geschlecht der Person an."
+    },
+    "Language": {
+      "definition": "Sprache, in der eine Person kommuniziert."
+    },
+    "BirthDate": {
+      "definition": "Datum, an dem eine Person geboren wurde."
+    },
+    "CountryOfBirth": {
+      "definition": "Land, in dem eine Person geboren wurde."
+    },
+    "ProvinceOfBirth": {
+      "definition": "Provinz, in der eine Person geboren wurde."
+    },
+    "CityOfBirth": {
+      "definition": "Stadt, in der eine Person geboren wurde."
+    },
+    "TaxationCountry": {
+      "definition": "Steuerland einer natürlichen Person."
+    },
+    "CountryAndResidentialStatus": {
+      "definition": "Land und Aufenthaltsstatus einer natürlichen Person, zum Beispiel nicht dauerhaft ansässig."
+    },
+    "SocialSecurityNumber": {
+      "definition": "Staatliche Identifikation für die eigenen Staatsbürger."
+    },
+    "PostalAddress": {
+      "definition": "Informationen, die eine bestimmte Adresse lokalisieren und identifizieren, wie von den Postdiensten definiert."
+    },
+    "CitizenshipInformation": {
+      "definition": "Informationen zu einem Staatsbürger."
+    },
+    "PrimaryCommunicationAddress": {
+      "definition": "Adresse des primären Kontakts."
+    },
+    "SecondaryCommunicationAddress": {
+      "definition": "Kommunikationsgerätenummer oder elektronische Adresse, die für die Kommunikation an eine alternative Adresse verwendet wird."
+    },
+    "OtherIdentification": {
+      "definition": "Andere Art der Identifikation."
+    },
+    "OtherDetails": {
+      "definition": "Zusätzliche für den Kontowechsel erforderliche Informationen."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargePaymentMethod1Choice",
+  "definition": "Auswahl von Formaten für die Angabe der Zahlungsmethode für Entgelte.",
+  "isoElements": {
+    "Code": {
+      "definition": "Zahlungsmethode für Entgelte, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Zahlungsmethode für Entgelte, ausgedrückt als proprietärer Code."
+    }
+  }
+}

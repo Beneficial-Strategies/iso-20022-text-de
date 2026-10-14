@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionPreliminaryAdviceType1Code",
+  "definition": "Art der vorläufigen Bewegungsavisierung.",
+  "isoCodes": {
+    "NEWM": {
+      "name": "Neu",
+      "definition": "Neue vorläufige Bewegungsavisierung."
+    },
+    "REPL": {
+      "name": "Ersetzung",
+      "definition": "Vorläufige Bewegungsavisierung, die eine zuvor gesendete vorläufige Avisierung ersetzt."
+    }
+  }
+}

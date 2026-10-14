@@ -1,0 +1,74 @@
+{
+  "isoType": "ATMCommand7Code",
+  "definition": "Art des vom ATM auszuführenden Befehls.",
+  "isoCodes": {
+    "ABAL": {
+      "name": "ATM-Saldo",
+      "definition": "Die Zählerstände des ATM bereitstellen und die dafür geeigneten Zähler zurücksetzen."
+    },
+    "ASTS": {
+      "name": "ATM-Statusaktualisierung",
+      "definition": "Vom ATM-Betreiber geforderter Status des ATM."
+    },
+    "CFGT": {
+      "name": "Konfigurationsaktualisierung",
+      "definition": "Die Konfigurationsparameter des ATM aktualisieren."
+    },
+    "CCNT": {
+      "name": "Zählerabfrage",
+      "definition": "Den Wert der Zähler des ATM anfordern."
+    },
+    "DISC": {
+      "name": "Trennen",
+      "definition": "Eine Trennung gefolgt von einer erneuten Verbindung durchführen."
+    },
+    "KACT": {
+      "name": "Schlüsselaktivierung",
+      "definition": "Kryptografische Schlüssel aktivieren."
+    },
+    "KDAC": {
+      "name": "Schlüsseldeaktivierung",
+      "definition": "Kryptografische Schlüssel deaktivieren."
+    },
+    "KDWL": {
+      "name": "Schlüssel-Download",
+      "definition": "Einen Download kryptografischer Schlüssel starten."
+    },
+    "KRMV": {
+      "name": "Schlüssel entfernen",
+      "definition": "Kryptografische Schlüssel entfernen."
+    },
+    "SCFU": {
+      "name": "Konfigurationsaktualisierung des Sicherheitsgeräts",
+      "definition": "Die Konfiguration des Hardware-Sicherheitsmoduls des ATM aktualisieren."
+    },
+    "SSCU": {
+      "name": "Schemaaktualisierung des Sicherheitsgeräts",
+      "definition": "Das Sicherheitsverfahren des Hardware-Sicherheitsmoduls des ATM aktualisieren."
+    },
+    "SSTU": {
+      "name": "Statusaktualisierung des Sicherheitsgeräts",
+      "definition": "Den Status des Hardware-Sicherheitsmoduls des ATM aktualisieren."
+    },
+    "SNDM": {
+      "name": "Nachricht senden",
+      "definition": "Eine bestimmte Nachricht zum Anstoßen eines Prozesses senden."
+    },
+    "HKCG": {
+      "name": "HLA-Schlüssel ersetzen",
+      "definition": "Einen vorhandenen Schlüssel mithilfe eines Schlüssels der übergeordneten Instanz (Higher Level Authority, HLA) ersetzen. Im TR34-Verfahren wird dies zur Umsetzung einer HLA-Rebind-Operation verwendet."
+    },
+    "HKRV": {
+      "name": "HLA-Schlüssel entfernen",
+      "definition": "Einen kryptografischen Schlüssel mithilfe eines Schlüssels der übergeordneten Instanz (HLA) entfernen. Im TR34-Verfahren wird dies zur Umsetzung einer HLA-Unbind-Operation verwendet."
+    },
+    "KCHG": {
+      "name": "Schlüssel ersetzen",
+      "definition": "Ersetzt einen vorhandenen kryptografischen Schlüssel. In einem TR34-Verfahren wird dies zur Umsetzung einer Rebind-Operation verwendet."
+    },
+    "RREQ": {
+      "name": "Abstimmungsanforderung",
+      "definition": "Eine ReconciliationRequest-Nachricht senden."
+    }
+  }
+}

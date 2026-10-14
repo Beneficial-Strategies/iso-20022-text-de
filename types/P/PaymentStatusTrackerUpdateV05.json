@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentStatusTrackerUpdateV05",
+  "definition": "Die Nachricht PaymentStatusTrackerUpdate wird von einem Institut an einen Tracking-Dienst gesendet, um den Fortschritt einer Geschäftstransaktion zu überwachen und ihren Status zu Zwecken der Verfolgung und Transparenz zu aktualisieren.||Verwendung:|In einer einzigen Nachricht können mehrere Status von Geschäftstransaktionen gemeldet werden, und jeder Status kann alle relevanten Informationen zu einer einzelnen Transaktion oder zu mehreren Transaktionen der verfolgten, ausgetauschten Zahlung(en) enthalten.",
+  "isoRules": {
+    "TrackerInformingPartyRule": {
+      "definition": "GroupHeader/TrackerInformingParty oder TrackerStatusAndTransaction/TrackerInformingParty muss vorhanden sein."
+    },
+    "TrackerInformedPartyRule": {
+      "definition": "GroupHeader/TrackerInformedParty muss fehlen oder TrackerStatusAndTransaction/Transaction/TrackerInformedParty muss fehlen."
+    },
+    "TrackerInformingParty2Rule": {
+      "definition": "Wenn GroupHeader/TrackerInformingParty vorhanden ist, ist TrackerStatusAndTransaction/TrackerInformingParty nicht zulässig."
+    }
+  }
+}

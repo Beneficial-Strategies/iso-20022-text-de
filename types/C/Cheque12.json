@@ -1,0 +1,18 @@
+{
+  "isoType": "Cheque12",
+  "definition": "Gesamtheit der Merkmale einer Scheckanweisung, wie Scheckart oder Schecknummer.",
+  "isoElements": {
+    "Number": {
+      "definition": "Eindeutige Kennung des Schecks, wie vom Finanzinstitut vergeben."
+    },
+    "PayeeIdentification": {
+      "definition": "Partei, an die der Scheck zahlbar gestellt ist."
+    },
+    "DraweeIdentification": {
+      "definition": "Finanzinstitut, auf das der Scheck gezogen ist, d. h. das Finanzinstitut, das das Konto der Stelle führt, die den Scheck ausgestellt hat."
+    },
+    "DrawerIdentification": {
+      "definition": "Kontoinhaber, der den Scheck ausstellt und damit die bezogene Bank anweist, einen bestimmten Betrag auf Verlangen an den Zahlungsempfänger zu zahlen."
+    }
+  }
+}

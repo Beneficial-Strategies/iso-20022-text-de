@@ -1,0 +1,15 @@
+{
+  "isoType": "UnderlyingTransaction8Choice",
+  "definition": "Enthält Details zur zugrunde liegenden Transaktion, zu der die Untersuchung bearbeitet wird.",
+  "isoElements": {
+    "Initiation": {
+      "definition": "Menge von Elementen zur Referenzierung der Details der ursprünglichen Zahlungsinitiierung."
+    },
+    "Interbank": {
+      "definition": "Menge von Elementen zur Referenzierung der Details der ursprünglichen Interbanken-Zahlungstransaktion."
+    },
+    "StatementEntry": {
+      "definition": "Referenzdetails zur zugrunde liegenden Kontoauszugsbuchung."
+    }
+  }
+}

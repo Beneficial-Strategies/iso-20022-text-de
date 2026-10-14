@@ -1,0 +1,106 @@
+{
+  "isoType": "ExternalPaymentTransactionStatus1Code",
+  "definition": "Gibt den Status einer einzelnen Zahlungsanweisung an, wie in einem externen Code-Satz für den Zahlungstransaktionsstatus veröffentlicht.|Externe Code-Sätze können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "ACCC": {
+      "name": "Akzeptiert, Abwicklung auf Konto des Zahlungsempfängers abgeschlossen",
+      "definition": "Die Abwicklung auf dem Konto des Zahlungsempfängers wurde abgeschlossen."
+    },
+    "ACCP": {
+      "name": "Kundenprofil akzeptiert",
+      "definition": "Die vorangegangene technische Validierung war erfolgreich. Die Prüfung des Kundenprofils war ebenfalls erfolgreich."
+    },
+    "ACFC": {
+      "name": "Akzeptiert, Deckung geprüft",
+      "definition": "Die vorangehende Prüfung der technischen Validierung und des Kundenprofils war erfolgreich, und eine automatische Deckungsprüfung war positiv."
+    },
+    "ACIS": {
+      "name": "Akzeptiert und Scheck ausgestellt",
+      "definition": "Die Zahlungsanweisung zur Ausstellung eines Schecks wurde angenommen, und der Scheck wurde ausgestellt, aber noch nicht eingereicht oder verrechnet."
+    },
+    "ACSC": {
+      "name": "Akzeptiert, Abwicklung auf Konto des Zahlungspflichtigen abgeschlossen",
+      "definition": "Abwicklung abgeschlossen.|Verwendung : Dies kann von einer Marktinfrastruktur gegenüber einem Infrastrukturteilnehmer oder von einem kontoführenden Institut gegenüber dem Kontoinhaber verwendet werden, um zu melden, dass die Kontobuchung der Transaktion abgeschlossen wurde.|Warnung : Dieser Status wird aus Gründen des Transaktionsstatus bereitgestellt, nicht für Finanzinformationen. Er kann nur nach bilateraler Vereinbarung verwendet werden"
+    },
+    "ACSP": {
+      "name": "Akzeptiert, Abwicklung in Bearbeitung",
+      "definition": "Alle vorangehenden Prüfungen wie die technische Validierung und das Kundenprofil waren erfolgreich, und die Zahlungsanweisung wurde daher zur Ausführung angenommen."
+    },
+    "ACTC": {
+      "name": "Technische Validierung akzeptiert",
+      "definition": "Authentifizierung sowie syntaktische und semantische Validierung sind erfolgreich"
+    },
+    "ACWC": {
+      "name": "Mit Änderung akzeptiert",
+      "definition": "Die Anweisung ist akzeptiert, es erfolgt jedoch eine Änderung, zum Beispiel beim Datum oder indem der Verwendungszweck nicht übermittelt wird."
+    },
+    "ACWP": {
+      "name": "Akzeptiert ohne Buchung",
+      "definition": "Die in der Überweisung enthaltene Zahlungsanweisung wird angenommen, ohne auf dem Konto des Zahlungsempfängers gebucht zu werden."
+    },
+    "BLCK": {
+      "name": "Gesperrt",
+      "definition": "Die zuvor mit dem Status 'ACWP' gemeldete Zahlungstransaktion ist gesperrt, d. h. die Mittel werden weder dem Konto des Zahlungsempfängers gutgeschrieben noch an den Zahlungspflichtigen zurückgegeben."
+    },
+    "CANC": {
+      "name": "Storniert",
+      "definition": "Die Zahlungsinitiierung wurde nach Eingang eines Stornierungsantrags erfolgreich storniert.|Verwendung: Code ausschließlich im Kontext von APIs zu verwenden."
+    },
+    "CPUC": {
+      "name": "Bargeld vom Zahlungsempfänger abgeholt",
+      "definition": "Das Bargeld wurde vom Zahlungsempfänger abgeholt."
+    },
+    "PATC": {
+      "name": "Teilweise akzeptiert, technisch korrekt",
+      "definition": "Die Zahlungsinitiierung erfordert mehrere Authentifizierungen, von denen einige, aber noch nicht alle durchgeführt wurden. Syntaktische und semantische Validierungen sind erfolgreich."
+    },
+    "PDNG": {
+      "name": "Ausstehend",
+      "definition": "Die Zahlungsanweisung ist ausstehend. Weitere Prüfungen und eine Statusaktualisierung werden durchgeführt."
+    },
+    "PRES": {
+      "name": "Vorgelegt",
+      "definition": "Die Zahlungsaufforderung wurde dem Zahlungspflichtigen vorgelegt."
+    },
+    "RCVD": {
+      "name": "Empfangen",
+      "definition": "Die Zahlungsanweisung wurde empfangen."
+    },
+    "RJCT": {
+      "name": "Abgelehnt",
+      "definition": "Die Zahlungsanweisung wurde abgelehnt."
+    },
+    "ACPD": {
+      "name": "Akzeptiert, Clearing verarbeitet",
+      "definition": "Status der Transaktion, die von der Bank des Zahlungspflichtigen freigegeben und vom Clearing angenommen wurde."
+    },
+    "RCVC": {
+      "name": "Empfangen, Prüfung abgeschlossen",
+      "definition": "Die Verification-of-Payee-Prüfung wurde auf die empfangene Transaktion angewendet und meldet sich als abgeschlossen ohne abweichende Daten."
+    },
+    "RVNA": {
+      "name": "Empfangen, Prüfung abgeschlossen, nicht anwendbar",
+      "definition": "Die Verification-of-Payee-Prüfung wurde auf die empfangene Transaktion angewendet und meldet sich als abgeschlossen mit nicht anwendbaren Daten."
+    },
+    "RVNM": {
+      "name": "Empfangen, Prüfung abgeschlossen, keine Übereinstimmung",
+      "definition": "Die Verification-of-Payee-Prüfung wurde auf die empfangene Transaktion angewendet und meldet sich als abgeschlossen mit abweichenden Daten."
+    },
+    "RVMC": {
+      "name": "Empfangen, Prüfung abgeschlossen, weitgehende Übereinstimmung",
+      "definition": "Die Verification-of-Payee-Prüfung wurde auf die empfangene Transaktion angewendet und meldet sich als abgeschlossen mit annähernd übereinstimmenden Daten."
+    },
+    "ACFW": {
+      "name": "Akzeptiert, Deckung geprüft, Bestätigung ausstehend",
+      "definition": "Die vorangehende Prüfung der technischen Validierung und des Kundenprofils war erfolgreich, und eine automatische Deckungsprüfung war positiv, aber eine ausdrückliche Bestätigung durch die initiierende Partei steht noch aus."
+    },
+    "RVNC": {
+      "name": "Empfangen, Prüfung nicht abgeschlossen",
+      "definition": "Die Verification-of-Party-Prüfung der Transaktion ist noch nicht abgeschlossen."
+    },
+    "RVCM": {
+      "name": "Empfangen, Prüfung mit Abweichungen abgeschlossen",
+      "definition": "Die Verification-of-Payee-Prüfungen wurden auf die empfangene Transaktion angewendet und melden sich als abgeschlossen mit abweichenden Daten."
+    }
+  }
+}

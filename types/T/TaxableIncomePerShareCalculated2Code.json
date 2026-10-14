@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxableIncomePerShareCalculated2Code",
+  "definition": "Gibt an, ob der Fonds einen steuerpflichtigen Zins je Anteil (TIS) berechnet.",
+  "isoCodes": {
+    "TSIY": {
+      "name": "Fonds berechnet",
+      "definition": "Der Fonds berechnet den steuerpflichtigen Zins je Anteil mit dem NAV."
+    },
+    "TSIN": {
+      "name": "Fonds berechnet nicht",
+      "definition": "Der Fonds berechnet den steuerpflichtigen Zins je Anteil nicht mit dem NAV."
+    },
+    "UKWN": {
+      "name": "Berechnung durch den Fonds unbekannt",
+      "definition": "Unbekannt, ob der Fonds den steuerpflichtigen Zins je Anteil mit dem NAV berechnet."
+    }
+  }
+}

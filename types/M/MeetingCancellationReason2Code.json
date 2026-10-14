@@ -1,0 +1,18 @@
+{
+  "isoType": "MeetingCancellationReason2Code",
+  "definition": "Gibt den Grund für die Absage einer Versammlung an.",
+  "isoCodes": {
+    "QORM": {
+      "name": "Beschlussfähigkeit",
+      "definition": "Absage aufgrund unzureichender Beteiligung an der Abstimmung."
+    },
+    "PROC": {
+      "name": "Verarbeitung",
+      "definition": "Absage aufgrund eines Verarbeitungsfehlers."
+    },
+    "WITH": {
+      "name": "Entnahme",
+      "definition": "Absage, weil die Versammlung vom Emittenten abgesagt wurde."
+    }
+  }
+}

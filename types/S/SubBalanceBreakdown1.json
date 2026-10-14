@@ -1,0 +1,12 @@
+{
+  "isoType": "SubBalanceBreakdown1",
+  "definition": "Nettoposition eines getrennt geführten Bestands eines einzelnen Finanzinstruments innerhalb der im Wertpapierkonto gehaltenen Gesamtposition, zum Beispiel Teilsaldo je Status.",
+  "isoElements": {
+    "SubBalanceType": {
+      "definition": "Grund für den Unterbestand."
+    },
+    "Quantity": {
+      "definition": "Menge des Finanzinstruments im Teilsaldo."
+    }
+  }
+}

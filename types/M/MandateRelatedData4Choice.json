@@ -1,0 +1,12 @@
+{
+  "isoType": "MandateRelatedData4Choice",
+  "definition": "Auswahl mandatsbezogener Informationen.",
+  "isoElements": {
+    "DirectDebitMandate": {
+      "definition": "Spezifische Daten des Lastschriftmandats."
+    },
+    "CreditTransferMandate": {
+      "definition": "Spezifische Daten des Überweisungsmandats."
+    }
+  }
+}

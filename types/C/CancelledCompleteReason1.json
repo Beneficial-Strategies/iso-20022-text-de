@@ -1,0 +1,12 @@
+{
+  "isoType": "CancelledCompleteReason1",
+  "definition": "Grund für den Status „Stornierung abgeschlossen“.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Grund für den Status „Stornierung abgeschlossen“."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Zusätzliche Informationen zum Grund des Status „Stornierung abgeschlossen“."
+    }
+  }
+}

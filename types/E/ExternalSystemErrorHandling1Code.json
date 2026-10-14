@@ -1,0 +1,18 @@
+{
+  "isoType": "ExternalSystemErrorHandling1Code",
+  "definition": "Gibt den vom System in der Antwort erzeugten Fehlercode an, wie in einem externen Code-Set für Saldentypen veröffentlicht.|Externe Code-Sets können von www.iso20022.org heruntergeladen werden.",
+  "isoCodes": {
+    "X020": {
+      "name": "Daten noch nicht verfügbar",
+      "definition": "Gibt den Fehlercode an, wenn die angeforderten Daten noch nicht verfügbar sind."
+    },
+    "X030": {
+      "name": "Nachrichtengrößenlimit überschritten",
+      "definition": "Gibt den Fehlercode an, wenn die angeforderten Daten eine Nachrichtengröße ergeben, die die Verarbeitungskapazität überschreitet."
+    },
+    "X050": {
+      "name": "Daten nicht verfügbar",
+      "definition": "Gibt den Fehlercode an, wenn die angeforderten Daten nicht gefunden wurden."
+    }
+  }
+}

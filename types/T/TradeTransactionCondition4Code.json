@@ -1,0 +1,94 @@
+{
+  "isoType": "TradeTransactionCondition4Code",
+  "definition": "Legt die Bedingungen fest, unter denen die Order/das Geschäft ausgeführt werden soll bzw. ausgeführt wurde.",
+  "isoCodes": {
+    "CBNS": {
+      "name": "Cum Bonus",
+      "definition": "Gibt an, ob das Geschäft cum Bonus ausgeführt wird."
+    },
+    "XBNS": {
+      "name": "Ex Bonus",
+      "definition": "Gibt an, ob das Geschäft ex Bonus ausgeführt wird."
+    },
+    "CCPN": {
+      "name": "Cum Kupon",
+      "definition": "Gibt an, ob das Geschäft cum Coupon ausgeführt wird."
+    },
+    "XCPN": {
+      "name": "Ex Kupon",
+      "definition": "Gibt an, ob das Geschäft ex Coupon ausgeführt wird."
+    },
+    "CDIV": {
+      "name": "Cum Dividende",
+      "definition": "Gibt an, ob das Geschäft cum Dividende ausgeführt wird."
+    },
+    "XDIV": {
+      "name": "Ex Dividende",
+      "definition": "Gibt an, ob das Geschäft ex Dividende ausgeführt wird."
+    },
+    "CRTS": {
+      "name": "Cum Bezugsrechte",
+      "definition": "Gibt an, ob das Geschäft cum Bezugsrechte ausgeführt wird."
+    },
+    "XRTS": {
+      "name": "Ex Bezugsrechte",
+      "definition": "Gibt an, ob das Geschäft ex Bezugsrechte ausgeführt wird."
+    },
+    "CWAR": {
+      "name": "Cum Optionsschein",
+      "definition": "Gibt an, ob das Geschäft cum Warrant ausgeführt wird."
+    },
+    "XWAR": {
+      "name": "Ex Optionsschein",
+      "definition": "Gibt an, ob das Geschäft ex Warrant ausgeführt wird."
+    },
+    "SPCU": {
+      "name": "Spezial Cum Dividende",
+      "definition": "Gibt an, ob das Geschäft mit einer besonderen Cum-|Dividende ausgeführt wird, das heißt, Kauf nach dem Ex-Tag und Erhalt der Dividende."
+    },
+    "SPEX": {
+      "name": "Spezial Ex Dividende",
+      "definition": "Gibt an, ob das Geschäft mit einer besonderen Ex-|Dividende ausgeführt wird, das heißt, Verkauf vor dem Ex-Tag ohne den Coupon."
+    },
+    "GTDL": {
+      "name": "Garantierte Lieferung",
+      "definition": "Gibt an, ob die Lieferung des Finanzinstruments am Abwicklungstag |garantiert ist."
+    },
+    "BCRO": {
+      "name": "Ergebnis Option",
+      "definition": "Ergebnis der Option, wenn gesetzt. (Spezifisch für UK)."
+    },
+    "BCRP": {
+      "name": "Ergebnis Repo",
+      "definition": "Ergebnis des Repo, wenn gesetzt (spezifisch für UK)."
+    },
+    "BCFD": {
+      "name": "Lieferform",
+      "definition": "Lieferform, nicht für ausländische Registrierung, wenn nicht gesetzt (spezifisch für UK)."
+    },
+    "BCBL": {
+      "name": "Handelseinheit",
+      "definition": "Board Lots, nicht gesetzt für Odd Lots (spezifisch für UK)."
+    },
+    "BCBN": {
+      "name": "Ungültiger Name",
+      "definition": "Bad Names, nicht gesetzt für Good Names (spezifisch für UK)."
+    },
+    "MAPR": {
+      "name": "Marktpreis",
+      "definition": "Das Geschäft wurde zum Marktpreis ausgeführt."
+    },
+    "NEGO": {
+      "name": "Ausgehandeltes Geschäft",
+      "definition": "Geschäft, bei dem der Preis nicht der notierte, sondern ein verbesserter ist, das heißt, der ausgehandelte Preis."
+    },
+    "NMPR": {
+      "name": "Nicht-Marktpreis",
+      "definition": "Das Geschäft wurde außerhalb der normalen Marktbedingungen ausgeführt, beispielsweise bei einer Iceberg-Order."
+    },
+    "BCPD": {
+      "name": "Lieferung Gründungsland",
+      "definition": "Lieferort, im Land der Gründung, wenn nicht gesetzt (spezifisch für UK)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BidRangeType2Choice",
+  "definition": "Art der Gebotsspanne als Auswahl zwischen einem definierten codierten Wert oder einem proprietären Wert.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Codewert ausgedrückte Art der Gebotsspanne."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Wert ausgedrückte Art der Gebotsspanne."
+    }
+  }
+}

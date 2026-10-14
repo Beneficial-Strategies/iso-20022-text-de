@@ -1,0 +1,42 @@
+{
+  "isoType": "RejectionReason35Code",
+  "definition": "Gibt den Grund an, weshalb die Anweisung bzw. der Stornierungsauftrag den Status „abgelehnt“ hat.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Geldkonto",
+      "definition": "Ungültiges oder nicht erkanntes Geldkonto."
+    },
+    "ADEA": {
+      "name": "Frist des Kontoführers verpasst",
+      "definition": "Transaktion/Anweisung nach der vom kontoführenden Institut festgelegten Frist eingegangen."
+    },
+    "REFE": {
+      "name": "Ablehnung wegen Referenz",
+      "definition": "Die Anweisung hat dieselbe Referenz wie eine andere zuvor eingegangene Anweisung."
+    },
+    "LATE": {
+      "name": "Marktfrist verpasst",
+      "definition": "Nach der Marktfrist eingegangen."
+    },
+    "DDAT": {
+      "name": "Ablehnung wegen Abwicklungsdatum",
+      "definition": "Ungültiger oder nicht erkannter Abwicklungstag."
+    },
+    "NRGN": {
+      "name": "Ablehnung wegen Nichtauffindbarkeit",
+      "definition": "Die Anweisung konnte nicht gefunden werden."
+    },
+    "OTHR": {
+      "name": "Sonstige",
+      "definition": "Sonstiges. Siehe Narrative."
+    },
+    "INVM": {
+      "name": "Ungültige Änderungsanfrage",
+      "definition": "Ungültiger oder nicht erkannter Änderungsauftrag."
+    },
+    "INVL": {
+      "name": "Ungültige Verknüpfung",
+      "definition": "Ungültige oder nicht erkannte Verknüpfung."
+    }
+  }
+}

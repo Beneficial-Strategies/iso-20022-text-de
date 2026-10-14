@@ -1,0 +1,18 @@
+{
+  "isoType": "ProtectInstructionStatus3Code",
+  "definition": "Gibt den Status der Protect-Transaktion an.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Offen",
+      "definition": "Protect-Anweisung, die nicht vollständig gedeckt wurde. Umfasst auch teilweise Deckungen."
+    },
+    "COVR": {
+      "name": "Vollständig gedeckt",
+      "definition": "Die Protect-Anweisung wurde vollständig gedeckt."
+    },
+    "EXPI": {
+      "name": "Abgelaufen",
+      "definition": "Die Protect-Anweisung ist abgelaufen."
+    }
+  }
+}

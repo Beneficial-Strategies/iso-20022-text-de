@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionOrRepairStatus38Choice",
+  "definition": "Gibt an, ob der Status mit oder ohne Grund übermittelt wird.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Gibt an, dass kein Grund vorliegt oder zu melden ist."
+    },
+    "Reason": {
+      "definition": "Gibt den Grund für den Status „abgelehnt“ oder „zur Korrektur“ an."
+    }
+  }
+}

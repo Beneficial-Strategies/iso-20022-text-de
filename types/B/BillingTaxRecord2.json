@@ -1,0 +1,24 @@
+{
+  "isoType": "BillingTaxRecord2",
+  "definition": "Enthält Angaben zu Steuern.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Satz zur Berechnung der Steuer."
+    },
+    "Description": {
+      "definition": "Bezeichnung der Steuer (z. B. nationale Mehrwertsteuer)."
+    },
+    "TaxableAmount": {
+      "definition": "Steuerpflichtiger Betrag."
+    },
+    "TaxExemption": {
+      "definition": "Von der Steuer befreiter Betrag."
+    },
+    "Amount": {
+      "definition": "Berechneter Steuerbetrag."
+    },
+    "ChargesAndFees": {
+      "definition": "Weitere Angaben zu den Entgelten und Gebühren im Zusammenhang mit den Steuerdaten."
+    }
+  }
+}

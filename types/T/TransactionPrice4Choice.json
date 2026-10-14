@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionPrice4Choice",
+  "definition": "Gibt die Preisinformationen zur zugrunde liegenden Transaktion an.",
+  "isoElements": {
+    "DealPrice": {
+      "definition": "Gibt den Preis des gehandelten Finanzinstruments an.|Dies ist der Abschlusspreis der einzelnen Handelstransaktion. |Gibt es für die Ausführung des Handels nur eine Handelstransaktion, kann der Abschlusspreis dem ausgeführten Handelspreis entsprechen (es sei denn, der Preis enthält beispielsweise Provisionen oder Rundungen oder es wurde ein anderer Faktor auf den Abschlusspreis oder den ausgeführten Handelspreis oder auf beide angewendet)."
+    },
+    "Proprietary": {
+      "definition": "Proprietäre Preisangabe zur zugrunde liegenden Transaktion."
+    }
+  }
+}

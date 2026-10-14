@@ -1,0 +1,12 @@
+{
+  "isoType": "ReservationOrError9Choice",
+  "definition": "Meldet entweder die Reservierung oder einen fachlichen Fehler.",
+  "isoElements": {
+    "Reservation": {
+      "definition": "Angeforderte Informationen zum Limit."
+    },
+    "BusinessError": {
+      "definition": "Grund, weshalb die angeforderten Geschäftsinformationen nicht angegeben werden."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesBalanceType6Choice",
+  "definition": "Auswahl des Formats für den Saldotyp.",
+  "isoElements": {
+    "Code": {
+      "definition": "Teilsaldo, ausgedrückt als ISO-20022-Code."
+    },
+    "Proprietary": {
+      "definition": "Teilsaldo, ausgedrückt als proprietärer Code."
+    }
+  }
+}

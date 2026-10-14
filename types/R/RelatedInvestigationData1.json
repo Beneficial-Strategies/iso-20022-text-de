@@ -1,0 +1,12 @@
+{
+  "isoType": "RelatedInvestigationData1",
+  "definition": "Liefert Informationen zu untersuchungsbezogenen Daten, die separat von der Nachricht gesendet werden.",
+  "isoElements": {
+    "InvestigationIdentification": {
+      "definition": "Eindeutige Identifikation zur zweifelsfreien Identifikation von Daten oder Dokumentation, die getrennt von der Anfrage oder Antwort gesendet werden, z. B. eine Kopie eines Reisepasses."
+    },
+    "Location": {
+      "definition": "Liefert Informationen zum Ort und/oder zur Übermittlung der zugehörigen Untersuchungsdaten oder -dokumentation."
+    }
+  }
+}

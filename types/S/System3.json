@@ -1,0 +1,18 @@
+{
+  "isoType": "System3",
+  "definition": "Suche nach einem System und einem Mitglied eines Systems.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identifikation eines bestimmten Cash-Clearing-Systems."
+    },
+    "MemberIdentification": {
+      "definition": "Eindeutige Identifikation eines Mitglieds innerhalb eines Systems, vergeben nach dem Mitglieds-Identifikationsschema des Systems."
+    },
+    "Country": {
+      "definition": "Land, in dem sich das System befindet."
+    },
+    "AccountIdentification": {
+      "definition": "Eindeutige Identifikation des Kontos zwischen dem Kontoinhaber und dem kontoführenden Institut."
+    }
+  }
+}

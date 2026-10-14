@@ -1,0 +1,21 @@
+{
+  "isoType": "IndividualPerson35",
+  "definition": "Natürliche Person, in Abgrenzung zu einer juristischen Person (die mitunter als „künstliche Person“ bezeichnet wird).",
+  "isoElements": {
+    "GivenName": {
+      "definition": "Vorname der Person."
+    },
+    "MiddleName": {
+      "definition": "Zweiter Vorname der Person."
+    },
+    "Name": {
+      "definition": "Name, unter dem die Partei bekannt ist und der üblicherweise zur Identifizierung dieser Partei verwendet wird."
+    },
+    "Gender": {
+      "definition": "Geschlecht der Person."
+    },
+    "BirthDate": {
+      "definition": "Geburtsdatum der Person."
+    }
+  }
+}

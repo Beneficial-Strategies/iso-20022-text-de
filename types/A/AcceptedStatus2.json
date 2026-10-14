@@ -1,0 +1,12 @@
+{
+  "isoType": "AcceptedStatus2",
+  "definition": "Status- und Mengeninformationen zu einer akzeptierten Anweisungsanfrage.",
+  "isoElements": {
+    "AcceptedQuantity": {
+      "definition": "Menge der angewiesenen Wertpapiere, die zur Weiterverarbeitung akzeptiert wurde."
+    },
+    "AcceptedReason": {
+      "definition": "Grund für den Status „akzeptiert“."
+    }
+  }
+}

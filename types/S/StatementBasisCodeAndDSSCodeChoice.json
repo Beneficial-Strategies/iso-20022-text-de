@@ -1,0 +1,12 @@
+{
+  "isoType": "StatementBasisCodeAndDSSCodeChoice",
+  "definition": "Auswahl zwischen Formaten für die Auszugsbasis.",
+  "isoElements": {
+    "StatementBasisAsCode": {
+      "definition": "Auszugsbasis, ausgedrückt als Code."
+    },
+    "StatementBasisAsDSS": {
+      "definition": "Auszugsbasis, ausgedrückt als Datenquellenschema und ein innerhalb des Datenquellenschemas verwendeter Code."
+    }
+  }
+}

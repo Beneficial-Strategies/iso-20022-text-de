@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingTypeClassification2Choice",
+  "definition": "Auswahl der Klassifizierung der Versammlungsart.",
+  "isoElements": {
+    "Code": {
+      "definition": "Art der Versammlung, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Art der Versammlung, ausgedrückt als proprietärer Code."
+    }
+  }
+}

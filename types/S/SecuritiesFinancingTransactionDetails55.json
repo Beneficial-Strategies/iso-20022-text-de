@@ -1,0 +1,48 @@
+{
+  "isoType": "SecuritiesFinancingTransactionDetails55",
+  "definition": "Einzelheiten zur Beendigung des Wertpapierfinanzierungsgeschäfts.",
+  "isoElements": {
+    "SecuritiesFinancingTradeIdentification": {
+      "definition": "Eindeutige Identifikation des zugrunde liegenden Wertpapierfinanzierungsgeschäfts, wie von der anweisenden Partei vergeben. Die Identifikation gilt für alle Sicherheitenteile (eines oder mehrere)."
+    },
+    "SecuritiesFinancingUniqueTransactionIdentifier": {
+      "definition": "Mit der anderen Gegenpartei vereinbarter Unique Transaction Identifier (UTI)."
+    },
+    "ClosingLegIdentification": {
+      "definition": "Eindeutige Identifikation des zweiten Teilgeschäfts der Transaktion, wie dem Kontoinhaber (oder der in dessen Auftrag handelnden anweisenden Partei) bekannt."
+    },
+    "TerminationDate": {
+      "definition": "Datum/Uhrzeit der Beendigung oder Fälligkeit der Transaktion."
+    },
+    "RateType": {
+      "definition": "Gibt an, ob der Zinssatz fest oder variabel ist."
+    },
+    "LegalFramework": {
+      "definition": "Rechtsrahmen der Transaktion."
+    },
+    "MaturityDateModification": {
+      "definition": "Gibt an, ob das Fälligkeitsdatum des Wertpapierfinanzierungsgeschäfts geändert werden darf."
+    },
+    "InterestPayment": {
+      "definition": "Gibt an, ob die Zinsen an den Sicherheitennehmer zu zahlen sind. Wenn auf „Nein“ gesetzt, werden die Zinsen an den Sicherheitengeber gezahlt."
+    },
+    "VariableRateSupport": {
+      "definition": "Index oder Stützzinssatz, der zusammen mit dem Aufschlag zur Berechnung des Rückkaufzinssatzes verwendet wird."
+    },
+    "RepurchaseRate": {
+      "definition": "Zinssatz, der zur Neuberechnung des Rückkaufbetrags zu verwenden ist."
+    },
+    "TransactionCallDelay": {
+      "definition": "Mindestanzahl an Tagen Kündigungsfrist, die eine Gegenpartei für die Beendigung der Transaktion benötigt."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Zinsbetrag, der zwischen den Kuponzahlungsperioden aufgelaufen ist."
+    },
+    "TerminationTransactionAmount": {
+      "definition": "Gesamtbetrag, der zur Beendigung der Transaktion abzuwickeln ist."
+    },
+    "SecondLegNarrative": {
+      "definition": "Liefert zusätzliche Informationen zum zweiten Teilgeschäft in Textform."
+    }
+  }
+}

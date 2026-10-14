@@ -1,0 +1,12 @@
+{
+  "isoType": "GroupHeader134",
+  "definition": "Gruppe von Merkmalen, die für alle in der Nachricht enthaltenen einzelnen Mitteilungen gelten.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Punkt-zu-Punkt-Referenz, die vom Sender vergeben und an den Empfänger gesendet wird, um die Nachricht eindeutig zu identifizieren.|Verwendung: Der Sender muss sicherstellen, dass MessageIdentification je Empfänger für einen vorab vereinbarten Zeitraum eindeutig ist."
+    },
+    "CreationDateTime": {
+      "definition": "Datum und Uhrzeit der Erstellung der Nachricht."
+    }
+  }
+}

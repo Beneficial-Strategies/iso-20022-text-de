@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentIdentification34",
+  "definition": "Identifikation eines Dokuments sowie die Dokumentnummer.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Eindeutiger Bezeichner des Dokuments (der Nachricht), der entweder vom kontoführenden Institut oder vom Kontoinhaber vergeben wurde."
+    },
+    "DocumentNumber": {
+      "definition": "Identifikation der Dokumentart."
+    }
+  }
+}

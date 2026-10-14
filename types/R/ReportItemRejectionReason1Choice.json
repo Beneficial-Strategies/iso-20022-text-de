@@ -1,0 +1,12 @@
+{
+  "isoType": "ReportItemRejectionReason1Choice",
+  "definition": "Enthält den Ablehnungsgrund der Berichtsposition in codierter oder proprietärer Form.",
+  "isoElements": {
+    "Code": {
+      "definition": "Statusgrund, ausgedrückt als Code."
+    },
+    "Proprietary": {
+      "definition": "Statusgrund, ausgedrückt als proprietärer Code."
+    }
+  }
+}

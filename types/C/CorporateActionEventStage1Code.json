@@ -1,0 +1,46 @@
+{
+  "isoType": "CorporateActionEventStage1Code",
+  "definition": "Gibt die Phase des CA-Ereignisses an.",
+  "isoCodes": {
+    "APPD": {
+      "name": "Genehmigt",
+      "definition": "In der betreffenden Versammlung genehmigt, z. B. Dividende."
+    },
+    "CLDE": {
+      "name": "Deaktiviert",
+      "definition": "Das Angebot ist für die Annahme geschlossen."
+    },
+    "PWAL": {
+      "name": "Maßnahmenzeitraum",
+      "definition": "Offen für Annahme bis zur nächsten in der Ankündigung angegebenen Frist (falls vorhanden)."
+    },
+    "SUAP": {
+      "name": "Vorbehaltlich Genehmigung",
+      "definition": "Vorbehaltlich der Genehmigung in der betreffenden Versammlung, z. B. Dividende."
+    },
+    "UNAC": {
+      "name": "Annahme unbedingt",
+      "definition": "Der in den Angebotsbedingungen festgelegte erforderliche Annahmegrad wurde erreicht, es sind jedoch noch Bedingungen zu erfüllen."
+    },
+    "WHOU": {
+      "name": "Vollständig unbedingt",
+      "definition": "Vollständig unbedingt; alle im Angebotsdokument genannten Bedingungen sind erfüllt."
+    },
+    "FULL": {
+      "name": "Benachrichtigung über vollständige Rückabwicklung der Auslosung",
+      "definition": "Eine ursprüngliche oder ergänzende Auslosung wird rückgängig gemacht."
+    },
+    "LAPS": {
+      "name": "Verfallen",
+      "definition": "Die Bedingungen des Ereignisses/Angebots wurden nicht erfüllt, und das Ereignis/Angebot ist beendet oder verfallen."
+    },
+    "PART": {
+      "name": "Benachrichtigung über teilweise Rückabwicklung der Auslosung",
+      "definition": "Der ursprüngliche Kündigungsbetrag wird vom Beauftragten verringert. Die ursprüngliche Ankündigung wird storniert und eine neue ursprüngliche Auslosung wird durchgeführt."
+    },
+    "RESC": {
+      "name": "Benachrichtigung über Aufhebung der Auslosung",
+      "definition": "Die Einzelheiten der ursprünglichen und/oder ergänzenden Auslosung haben sich geändert, und die Auslosung wird storniert."
+    }
+  }
+}

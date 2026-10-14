@@ -1,0 +1,17 @@
+{
+  "isoType": "IntraBalancePending5",
+  "definition": "Enthält die Daten für die ausstehenden Bewegungen innerhalb des Saldos.",
+  "isoElements": {
+    "StatusAndReason": {
+      "definition": "Status und Statusgrund der Transaktion."
+    },
+    "Movement": {
+      "definition": "Weitere Einzelheiten zur einzelnen Transaktion der Bewegung innerhalb des Saldos."
+    }
+  },
+  "isoRules": {
+    "StatusAndReasonRule": {
+      "definition": "StatusAndReason muss vorhanden sein oder Movement(*)/StatusAndReason muss vorhanden sein, jedoch nicht beides."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "isoType": "Algorithm13Code",
+  "definition": "Kryptografische Algorithmen zum Schutz übertragener Schlüssel.",
+  "isoCodes": {
+    "EA2C": {
+      "name": "AES128CBC",
+      "definition": "AES-Verschlüsselung (Advanced Encryption Standard) im CBC-Modus (Cipher Block Chaining) mit einem kryptografischen Schlüssel von 128 Bit gemäß den Federal Information Processing Standards (FIPS 197 - 6. November 2001 - Advanced Encryption Standard)."
+    },
+    "E3DC": {
+      "name": "DES112CBC",
+      "definition": "Triple-DES-Verschlüsselung (Data Encryption Standard) im CBC-Modus (Cipher Block Chaining) mit doppelt langem Schlüssel (112 Bit) gemäß FIPS PUB 46-3 - (ASN.1 Object Identifier: des-ede3-cbc)."
+    },
+    "DKP9": {
+      "name": "DUKPT2009",
+      "definition": "DUKPT-Algorithmus (Derived Unique Key Per Transaction) gemäß ANSI X9.24-2009 Anhang A."
+    },
+    "UKPT": {
+      "name": "UKPT",
+      "definition": "UKPT-Schlüsselverschlüsselung (Unique Key Per Transaction) oder Master-Session-Key-Verschlüsselung - (ASN.1 Object Identifier: id-ukpt-wrap)."
+    },
+    "UKA1": {
+      "name": "UKPTwithAES128",
+      "definition": "UKPT-Schlüsselverschlüsselung (Unique Key Per Transaction) oder Master-Session-Key-Verschlüsselung mit dem Advanced Encryption Standard und einem kryptografischen Schlüssel von 128 Bit, zugelassen durch die Federal Information Processing Standards (FIPS 197 - 6. November 2001 - Advanced Encryption Standard)."
+    },
+    "EA9C": {
+      "name": "AES192CBC",
+      "definition": "AES-Verschlüsselung (Advanced Encryption Standard) im CBC-Modus (Cipher Block Chaining) mit einem kryptografischen Schlüssel von 192 Bit gemäß den Federal Information Processing Standards (FIPS 197 – 6. November 2001 - Advanced Encryption Standard)."
+    },
+    "EA5C": {
+      "name": "AES256CBC",
+      "definition": "AES-Verschlüsselung (Advanced Encryption Standard) im CBC-Modus (Cipher Block Chaining) mit einem kryptografischen Schlüssel von 256 Bit gemäß den Federal Information Processing Standards (FIPS 197 – 6. November 2001 - Advanced Encryption Standard)."
+    }
+  }
+}

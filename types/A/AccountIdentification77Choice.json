@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification77Choice",
+  "definition": "Auswahl zwischen allen Konten (GENR - General in ISO 15022) oder einem oder mehreren ausgewählten Konten und Bestandsinformationen.",
+  "isoElements": {
+    "ForAllAccounts": {
+      "definition": "Alle Verwahrkonten, die das zugrunde liegende Finanzinstrument besitzen."
+    },
+    "AccountsListAndBalanceDetails": {
+      "definition": "Liste ausgewählter Depotkonten (und optional Bestandsinformationen), für die das Kapitalmaßnahmen-Ereignis gilt."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "Statement89",
+  "definition": "Legt die Kriterien fest, nach denen über die Positionen des Wertpapierkontos berichtet wird.",
+  "isoElements": {
+    "DateOrPeriod": {
+      "definition": "Datum oder Zeitraum des Kontoauszugs."
+    },
+    "HistoricData": {
+      "definition": "Gibt an, ob die Daten historisch (true) oder aktuell (false) sind."
+    },
+    "StatementType": {
+      "definition": "Art des Bestands, auf dem der Auszug beruht."
+    }
+  }
+}

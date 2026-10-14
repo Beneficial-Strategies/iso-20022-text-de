@@ -1,0 +1,12 @@
+{
+  "isoType": "RiskLevel2Choice",
+  "definition": "Auswahl von Formaten für die Angabe der Risikostufe.",
+  "isoElements": {
+    "Code": {
+      "definition": "Als Code ausgedrückte Risikostufe."
+    },
+    "Proprietary": {
+      "definition": "Als proprietärer Code ausgedrückte Risikostufe."
+    }
+  }
+}

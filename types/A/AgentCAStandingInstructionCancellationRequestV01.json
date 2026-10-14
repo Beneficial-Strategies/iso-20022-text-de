@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAStandingInstructionCancellationRequestV01",
+  "definition": "Anwendungsbereich|Diese Nachricht wird von einem CSD an den Emittentenbeauftragten gesendet, um die Stornierung einer zuvor gesendeten Agent Corporate Action Standing Instruction zu beantragen.|Verwendung|Diese Nachricht wird verwendet, um die Stornierung einer Dauerauftragsanweisung zu beantragen.|Diese Nachricht muss die Identifikation der zu stornierenden Dauerauftragsanweisung enthalten. Sie kann auch Details der zu stornierenden Dauerauftragsanweisung enthalten, dies wird jedoch nicht empfohlen."
+}

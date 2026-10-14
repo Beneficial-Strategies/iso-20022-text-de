@@ -1,0 +1,30 @@
+{
+  "isoType": "VotingParticipationMethod3Code",
+  "definition": "Gibt die verschiedenen zulässigen Methoden zur Teilnahme an der Abstimmung über Tagesordnungsbeschlüsse in einer Hauptversammlung an.",
+  "isoCodes": {
+    "MAIL": {
+      "name": "Schriftwechsel",
+      "definition": "Die Teilnahme an der Abstimmung erfolgt über Dokumente, die per Post versandt werden."
+    },
+    "EVOT": {
+      "name": "Elektronische Abstimmung",
+      "definition": "Die Teilnahme an der Abstimmung erfolgt auf elektronischem Weg, zum Beispiel über dedizierte Standard-Nachrichten oder webbasierte Abstimmungsanwendungen."
+    },
+    "PHYS": {
+      "name": "Persönlich",
+      "definition": "Die Teilnahme an der Abstimmung erfolgt durch persönliche Anwesenheit."
+    },
+    "PHNV": {
+      "name": "Keine Stimmabgabe",
+      "definition": "Die Teilnahme an der Versammlung erfolgt persönlich, die Person stimmt jedoch nicht ab."
+    },
+    "PRXY": {
+      "name": "Stimmrechtsvertreter",
+      "definition": "Die Teilnahme an der Abstimmung erfolgt über einen Bevollmächtigten."
+    },
+    "VIRT": {
+      "name": "Virtuell",
+      "definition": "Die Teilnahme an der Abstimmung erfolgt über eine virtuelle Teilnahmemethode, zum Beispiel Multimedia sowie webbasierte Video- oder Audiokonferenzen."
+    }
+  }
+}

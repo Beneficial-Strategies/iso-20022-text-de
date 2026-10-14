@@ -1,0 +1,22 @@
+{
+  "isoType": "PenaltyCalculationMethod1Code",
+  "definition": "Gibt die Berechnungsmethode für die Strafzahlung an.",
+  "isoCodes": {
+    "BOTH": {
+      "name": "Beide",
+      "definition": "Summe aus der Strafzahlung auf Basis der Menge der|nicht gelieferten Wertpapiere und des Strafsatzes der Wertpapiere sowie der Strafzahlung auf Basis des Betrags des nicht gelieferten Geldes und des Diskontsatzes der Währung."
+    },
+    "CASH": {
+      "name": "Bargeld",
+      "definition": "Die Strafzahlung basiert auf dem Betrag des nicht gelieferten Geldes, und der Strafsatz ist der Diskontsatz der betreffenden Währung."
+    },
+    "MIXE": {
+      "name": "Gemischt",
+      "definition": "Die Strafzahlung basiert auf der Menge der nicht gelieferten Wertpapiere, und der Strafsatz ist der Diskontsatz der betreffenden Währung."
+    },
+    "SECU": {
+      "name": "Wertpapiere",
+      "definition": "Die Strafzahlung basiert auf der Menge der nicht gelieferten Wertpapiere und dem Strafsatz der Wertpapiere."
+    }
+  }
+}

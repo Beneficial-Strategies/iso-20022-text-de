@@ -1,0 +1,30 @@
+{
+  "isoType": "ServiceItemTotals11",
+  "definition": "Gibt Summen im Zusammenhang mit der Rechnung an.",
+  "isoElements": {
+    "ItemType": {
+      "definition": "Gibt eine Klassifizierung der Dienstleistungspositionen an, wie Abfrage, Bericht, Wertpapierkonto usw."
+    },
+    "Description": {
+      "definition": "Beschreibung der Dienstleistungsposition."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Gibt an, ob es sich bei der Korrektur um eine Belastung oder eine Gutschrift handelt."
+    },
+    "Quantity": {
+      "definition": "Summe der Gesamtanzahl der Einheiten je Dienstleistungsposition."
+    },
+    "BalanceCurrency": {
+      "definition": "Währung des Saldos. Sollte nur angegeben werden, wenn die Menge ein Saldo ist."
+    },
+    "UnitPrice": {
+      "definition": "Gibt den Preis je Einheit der Dienstleistungsposition an."
+    },
+    "Tax": {
+      "definition": "Detaillierte Angaben zur angewandten Steuer."
+    },
+    "TotalInvoiceAmount": {
+      "definition": "Gesamtbetrag der Rechnung, bestehend aus der Summe der Gesamtbeträge der Rechnungspositionen, dem Gesamtbetrag der Rechnungsanpassungen (Rabatte, Nachlässe und Entgelte) und den gesamten Steuerbeträgen."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "AccountManagementMessageReference5",
+  "definition": "Informationen zu den Referenzen einer Nachricht zur Kontoverwaltungsanweisung.",
+  "isoElements": {
+    "LinkedReference": {
+      "definition": "Referenz auf eine verknüpfte Nachricht."
+    },
+    "StatusRequestType": {
+      "definition": "Art der Kontoverwaltungsanweisung, für die der Status angefordert wird, oder Anfrage zur Ermittlung des Kontostatus."
+    },
+    "AccountApplicationIdentification": {
+      "definition": "Eindeutige und unmissverständliche Kennung der Kontoeröffnungs- oder Kontoänderungsanweisung auf Anwendungsebene."
+    },
+    "ExistingAccountIdentification": {
+      "definition": "Konto, auf das sich die Kontoeröffnung bezieht."
+    },
+    "InvestmentAccount": {
+      "definition": "Kontoinformationen, für die der Status einer Kontoverwaltungsanweisung angefordert wird."
+    }
+  },
+  "isoRules": {
+    "LinkedReferenceOrAccountApplicationIdentificationRule": {
+      "definition": "Entweder LinkedReference oder AccountApplicationIdentification muss vorhanden sein."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "ForeignExchangeTerms37",
+  "definition": "Informationen, die zur Verarbeitung eines Währungsumtauschs oder einer Währungsumrechnung erforderlich sind.",
+  "isoElements": {
+    "ToAmount": {
+      "definition": "Barbetrag aus einem Devisengeschäft."
+    },
+    "FromAmount": {
+      "definition": "Barbetrag, für den ein Devisengeschäft erforderlich ist."
+    },
+    "UnitCurrency": {
+      "definition": "Währung, aus der die Kurswährung bei einer Wechselkursberechnung umgerechnet wird.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "QuotedCurrency": {
+      "definition": "Währung, in die die Basiswährung bei einer Wechselkursberechnung umgerechnet wird.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "ExchangeRate": {
+      "definition": "Faktor zur Umrechnung eines Betrags von einer Währung in eine andere. Er gibt den Betrag der Kurswährung an, der mit einer Einheit der Basiswährung erworben werden kann, wie folgt: |1 x CUR1 = nnn x CUR2, |wobei: |CUR1 die Basiswährung ist |CUR2 die Kurswährung ist |nnn der Wechselkurs ist.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "QuotationDate": {
+      "definition": "Datum und Uhrzeit, zu denen ein Wechselkurs notiert wird."
+    },
+    "QuotingInstitution": {
+      "definition": "Partei, die den Devisenkurs vorschlägt."
+    }
+  }
+}

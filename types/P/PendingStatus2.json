@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatus2",
+  "definition": "Status- und Mengeninformationen zu einer ausstehenden Anweisungsanfrage.",
+  "isoElements": {
+    "PendingQuantity": {
+      "definition": "Menge der angewiesenen Wertpapiere, deren Verarbeitung aussteht."
+    },
+    "PendingReason": {
+      "definition": "Grund für den Status ausstehend."
+    }
+  }
+}

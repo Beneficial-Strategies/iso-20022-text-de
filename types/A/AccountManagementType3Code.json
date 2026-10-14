@@ -1,0 +1,22 @@
+{
+  "isoType": "AccountManagementType3Code",
+  "definition": "Gibt die Anweisung an, für die ein Status erforderlich ist.",
+  "isoCodes": {
+    "ACCM": {
+      "name": "Kontoänderung",
+      "definition": "Bezieht sich auf eine Nachricht mit einer Kontoänderungsanweisung."
+    },
+    "ACCO": {
+      "name": "Kontoeröffnung",
+      "definition": "Bezieht sich auf eine Nachricht mit einer Kontoeröffnungsanweisung."
+    },
+    "GACC": {
+      "name": "Kontodetails abrufen",
+      "definition": "Bezieht sich auf eine Nachricht zum Abruf von Kontodetails."
+    },
+    "ACST": {
+      "name": "Kontostatus",
+      "definition": "Bezieht sich auf den Kontostatus."
+    }
+  }
+}

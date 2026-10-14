@@ -1,0 +1,26 @@
+{
+  "isoType": "TaxVoucher6",
+  "definition": "Gibt Steuerbescheinigungen im Rahmen eines Ereignisses der Kapitalmaßnahme an.",
+  "isoElements": {
+    "TaxVoucherReference": {
+      "definition": "Eindeutige Referenz der Steuerbescheinigung, die von den zuständigen Steuerbehörden verlangt wird, um sicherzustellen, dass ein Anspruch im Zusammenhang mit dieser bestimmten Steuerbescheinigung nicht doppelt geltend gemacht werden kann."
+    },
+    "TaxReclaimDocumentationReference": {
+      "definition": "Eindeutige Referenz, die vom Kontoinhaber der zur Bearbeitung an die kontoführende Stelle gesendeten Steuerdokumentation zugewiesen wurde."
+    },
+    "BeneficialOwnerReference": {
+      "definition": "Eindeutige Referenz zur Identifikation des wirtschaftlich Berechtigten, auf den sich die Erstattung bezieht, wie vom Kontoinhaber der zur Bearbeitung an die kontoführende Stelle gesendeten Steuerdokumentation zugewiesen."
+    }
+  },
+  "isoRules": {
+    "TaxVoucherPresenceRule": {
+      "definition": "Mindestens eines von TaxVoucherReference oder TaxReclaimDocumentationReference oder BeneficialOwnerReference muss vorhanden sein."
+    },
+    "TaxReclaimDocumentationReferencePresenceRule": {
+      "definition": "Wenn TaxReclaimDocumentationReference vorhanden ist, dann darf BeneficialOwnerReference nicht vorhanden sein."
+    },
+    "BeneficialOwnerReferencePresenceRule": {
+      "definition": "Wenn BeneficialOwnerReference vorhanden ist, dann darf TaxReclaimDocumentationReference nicht vorhanden sein."
+    }
+  }
+}

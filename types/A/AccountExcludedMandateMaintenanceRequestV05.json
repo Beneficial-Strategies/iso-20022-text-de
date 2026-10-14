@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountExcludedMandateMaintenanceRequestV05",
+  "definition": "Die Nachricht AccountExcludedMandateMaintenanceRequest wird im Rahmen des Kontopflegeprozesses von einer Organisation an ein Finanzinstitut gesendet. Sie ist die ursprüngliche Anfragenachricht zur Aktualisierung eines Kontos. Verwendung: Diese Aktualisierung betrifft Kontodetails ohne Mandatsinformationen.|Wenn keine Änderungscodes verwendet werden: Die Organisation gibt unter den Tags „Account“ und „Organisation“ die vollständigen Informationen an, wie sie nach der Verarbeitung der Aktualisierungsanfrage in den Unterlagen des Finanzinstituts stehen sollen. |Wenn Änderungscodes verwendet werden (in diesem Fall müssen sie überall verwendet werden): Die Organisation gibt unter den Tags „Account“ und „Organisation“ an, welche Elemente hinzugefügt, gelöscht, geändert werden müssen oder ob sie unverändert sind."
+}

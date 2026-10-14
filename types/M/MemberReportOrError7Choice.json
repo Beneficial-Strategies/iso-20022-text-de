@@ -1,0 +1,12 @@
+{
+  "isoType": "MemberReportOrError7Choice",
+  "definition": "Dient der Bereitstellung von Informationen zu Transaktionen und Buchungen, die beim Transaktionsverwalter geführt werden.",
+  "isoElements": {
+    "Report": {
+      "definition": "Enthält die Details zum angeforderten Mitglied."
+    },
+    "OperationalError": {
+      "definition": "Gibt an, dass bei der Verarbeitung der zugehörigen Anfrage ein Betriebsfehler aufgetreten ist."
+    }
+  }
+}

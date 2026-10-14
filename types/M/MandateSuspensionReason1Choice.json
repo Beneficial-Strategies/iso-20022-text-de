@@ -1,0 +1,12 @@
+{
+  "isoType": "MandateSuspensionReason1Choice",
+  "definition": "Gibt den Grund für die Aussetzungsanforderung eines Mandats an.",
+  "isoElements": {
+    "Code": {
+      "definition": "Grund, wie in einer externen Grundcodeliste veröffentlicht."
+    },
+    "Proprietary": {
+      "definition": "Grund in proprietärer Form."
+    }
+  }
+}

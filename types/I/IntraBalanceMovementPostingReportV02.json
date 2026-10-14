@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalanceMovementPostingReportV02",
+  "definition": "Diese Nachricht IntraBalanceMovementPostingReport wird von einer Abwicklungsinfrastruktur an einen Kontoinhaber/Auftraggeber gesendet, um die zuvor vom Kontoinhaber gesendeten Anweisungen für Bewegungen innerhalb des Saldos zu melden, die den Status abgewickelt haben.||Die Nachricht kann auch verwendet werden, um: |- eine vom Kontoinhaber an die kontoführende Stelle gesendete Nachricht erneut zu senden (die Unterfunktion der Nachricht ist \"Duplicate\") |- einem Dritten eine Kopie einer vom Kontoinhaber gesendeten Nachricht zur Information zu übermitteln (die Unterfunktion der Nachricht ist \"Copy\") |- einem Dritten erneut eine Kopie einer vom Kontoinhaber gesendeten Nachricht zur Information zu übermitteln (die Unterfunktion der Nachricht ist \"Copy Duplicate\").",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Wenn ActivityIndicator gleich Yes (true oder 1) ist, muss SubBalances vorhanden sein."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Wenn ActivityIndicator gleich No (false oder 0) ist, darf SubBalances nicht vorhanden sein."
+    }
+  }
+}

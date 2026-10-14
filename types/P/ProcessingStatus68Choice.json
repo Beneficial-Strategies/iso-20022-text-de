@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessingStatus68Choice",
+  "definition": "Auswahl des Formats für den Verarbeitungsstatus.",
+  "isoElements": {
+    "Code": {
+      "definition": "Gibt den Status einer Anweisung an."
+    },
+    "Proprietary": {
+      "definition": "Gibt eine Auswahl von Status für die Verarbeitung einer Umbuchung zwischen Beständen an."
+    }
+  }
+}
